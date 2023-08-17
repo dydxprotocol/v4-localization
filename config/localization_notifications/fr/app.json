@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Ordre exécuté",
+      "BODY": "Votre commande {SIDE}{AMOUNT}{MARKET}a été exécutée à {AVERAGE_PRICE}$."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Ordre partiellement exécuté",
+      "BODY": "{FILLED_AMOUNT}{MARKET}de votre commande {SIDE}{AMOUNT}{MARKET}a été exécutée. "
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Ordre déclenché",
+      "BODY": "Votre commande à {SIDE}{AMOUNT} {MARKET}a été déclenchée."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Ordre annulé",
+      "BODY": "Votre commande à {SIDE}{AMOUNT}{MARKET} a été annulée."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Position liquidée",
+      "BODY": "Votre positition {SIDE}sur {MARKET} a été liquidée."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Dépôt réussi",
+      "BODY": "Votre dépôt de {AMOUNT}{ASSET} a été confirmé."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Retrait rapide réussi",
+      "BODY": "Votre retrait rapide de {AMOUNT}{ASSET} a été confirmé."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Retrait lent en attente",
+      "BODY": "Votre retrait de {AMOUNT}{ASSET}sera prêt dans 12 heures."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Retrait lent réussi",
+      "BODY": "Votre retrait de {AMOUNT}{ASSET} a été confirmé."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Ордер исполнен",
+      "BODY": "Ваш ордер ({SIDE}, {AMOUNT} {MARKET}) исполнен по цене {AVERAGE_PRICE} USD."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Ордер исполнен частично",
+      "BODY": "{FILLED_AMOUNT} {MARKET} из вашего ордера ({SIDE}, {AMOUNT} {MARKET}) исполнено."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Ордер сработал",
+      "BODY": "Ваш ордер ({SIDE}, {AMOUNT} {MARKET}) сработал."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Ордер отменен",
+      "BODY": "Ваш ордер ({SIDE}, {AMOUNT} {MARKET}) отменен."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Позиция ликвидирована",
+      "BODY": "Ваша позиция ({SIDE}, {MARKET}) ликвидирована."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Внесение средств завершено",
+      "BODY": "Вам удалось внести {AMOUNT} {ASSET}."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Быстрый вывод средств завершен",
+      "BODY": "Быстрый вывод {AMOUNT} {ASSET} подтвержден."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Медленный вывод средств обрабатывается",
+      "BODY": "Вывод {AMOUNT} {ASSET} завершится через 12 часов."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Медленный вывод средств завершен",
+      "BODY": "Вам удалось вывести {AMOUNT} {ASSET}."
+    }
+  }
+}

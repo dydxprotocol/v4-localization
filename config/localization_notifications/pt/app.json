@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Ordem executada",
+      "BODY": "Sua ordem {SIDE} {AMOUNT} {MARKET} para foi preenchida em ${AVERAGE_PRICE}."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Ordem parcialmente executada",
+      "BODY": "{FILLED_AMOUNT} {MARKET} da sua ordem {SIDE} {AMOUNT} {MARKET} foi preenchida."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Ordem disparada",
+      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi disparada."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Ordem cancelada",
+      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi cancelada."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Posição liquidada",
+      "BODY": "Sua posição de {SIDE} em {MARKET} foi liquidada."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Depósito bem-sucedido",
+      "BODY": "Seu depósito de {AMOUNT} {ASSET} foi confirmado."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Saques rápidos bem-sucedidos",
+      "BODY": "Seu saque rápido de {AMOUNT} {ASSET} foi confirmado."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Saque lento pendente",
+      "BODY": "O saque de {AMOUNT} {ASSET} estará pronto em 12 horas."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Saque lento bem-sucedido",
+      "BODY": "Seu saque de {AMOUNT} {ASSET} foi confirmado."
+    }
+  }
+}

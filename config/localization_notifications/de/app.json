@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Auftrag ausgefüllt",
+      "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Bestellung teilweise erfüllt",
+      "BODY": "{FILLED_AMOUNT} {MARKET} Ihrer Order betreffend {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Auftrag ausgeführt",
+      "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde ausgelöst."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Bestellung storniert",
+      "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde storniert."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Position aufgelöst",
+      "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde gelöscht."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Einzahlung erfolgreich",
+      "BODY": "Ihre Einzahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Schnell-Auszahlung erfolgreich",
+      "BODY": "Ihre schnelle Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Verzögerte Auszahlung ausstehend",
+      "BODY": "Ihre Auszahlung von {AMOUNT} {ASSET} wird in 12 Stunden bereit sein."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Verzögerte Auszahlung erfolgreich",
+      "BODY": "Ihre Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    }
+  }
+}

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96",
+    "name": "MetaMask",
+    "description": "",
+    "homepage": "https://metamask.io/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/metamask/id1438144202",
+      "android": "https://play.google.com/store/apps/details?id=io.metamask",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "metamask:",
+      "universal": "https://metamask.app.link"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "MetaMask",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "MetaMask",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "type": "walletConnect",
+              "native": "metamask:",
+              "universal": "https://metamask.app.link"
+          }
+      ]
+    }
+  },
+  {
+    "id": "coinbase-wallet",
+    "name": "Coinbase Wallet",
+    "description": "",
+    "homepage": "https://www.coinbase.com/wallet",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/coinbase-wallet-nfts-crypto/id1278383455",
+      "android": "https://play.google.com/store/apps/details?id=org.toshi",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "cbwallet:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Coinbase",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Coinbase",
+      "iosMinVersion": "1.8.0",
+      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/coinbase-wallet.png",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "type": "walletSegue",
+              "native": "cbwallet:",
+              "universal": ""
+          }
+      ]
+    }
+  },
+  {
+    "id": "magic-link",
+    "name": "Magic-Link (Non-displayable)",
+    "description": "",
+    "homepage": "",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "",
+      "android": "",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "MagicLink",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "MagicLink",
+      "displayable": false,
+      "iosMinVersion": "1.8",
+      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/magic_link.svg",
+      "encoding": "",
+      "connections": [
+           {
+              "type": "magicLink",
+              "native": "",
+              "universal": ""
+          }
+      ]
+    }
+  },
+  {
+    "id": "9d373b43ad4d2cf190fb1a774ec964a1addf406d6fd24af94ab7596e58c291b2",
+    "name": "imToken",
+    "description": "",
+    "homepage": "https://token.im/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://itunes.apple.com/us/app/imtoken2/id1384798940",
+      "android": "https://play.google.com/store/apps/details?id=im.token.app",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "imtokenv2:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "imToken",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "imToken",
+      "iosMinVersion": "0",
+      "connections": [
+           {
+            "type": "walletConnect",
+              "native": "imtokenv2:",
+              "universal": ""
+          }
+      ]
+    }
+  },
+  {
+    "id": "4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0",
+    "name": "Trust Wallet",
+    "description": "",
+    "homepage": "https://trustwallet.com/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/app/apple-store/id1288339409",
+      "android": "https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "trust:",
+      "universal": "https://link.trustwallet.com"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Trust",
+      "colors": {
+        "primary": "rgb(51, 117, 187)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Trust Wallet",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/trust.svg",
+      "connections": [
+           {
+            "type": "walletConnect",
+            "native": "trust:",
+            "universal": "https://link.trustwallet.com"
+          }
+      ]
+    }
+  },
+  {
+    "id": "20459438007b75f4f4acb98bf29aa3b800550309646d375da5fd4aac6c2a2c66",
+    "name": "TokenPocket",
+    "description": "",
+    "homepage": "https://tokenpocket.pro/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/tokenpocket-trusted-wallet/id1436028697",
+      "android": "https://play.google.com/store/apps/details?id=vip.mytokenpocket",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "tpoutside:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "TokenPocket",
+      "colors": {
+        "primary": "rgb(41, 128, 254)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "TokenPocket",
+      "iosMinVersion": "0",
+      "connections": [
+           {
+            "type": "walletConnect",
+            "native": "tpoutside:",
+            "universal": ""
+          }
+      ]
+    }
+  },
+  {
+    "id": "1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369",
+    "name": "Rainbow",
+    "description": "",
+    "homepage": "https://rainbow.me/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/rainbow-ethereum-wallet/id1457119021",
+      "android": "",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "rainbow:",
+      "universal": "https://rnbwapp.com"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Rainbow",
+      "colors": {
+        "primary": "rgb(0, 30, 89)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Rainbow",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "backlinked": true,
+      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/rainbow.png",
+      "connections": [
+           {
+            "type": "walletConnect",
+            "native": "rainbow:",
+            "universal": "https://rnbwapp.com"
+          }
+      ]
+    }
+  },
+  {
+    "id": "09102e7bbbd3f92001eda104abe23803181629f695e8f1b95af96d88ff7d5890",
+    "name": "1inch Wallet",
+    "description": "",
+    "homepage": "https://1inch.io/wallet/",
+    "chains": [
+      "eip155:1",
+      "eip155:56"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/1inch-defi-wallet/id1546049391",
+      "android": "",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "1inch:",
+      "universal": "https://wallet.1inch.io"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "1inch",
+      "colors": {
+        "primary": "rgb(31, 36, 46)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "1inch",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "type": "walletConnect",
+            "native": "oneinch:",
+            "universal": "https://wallet.1inch.io"
+          }
+      ]
+    }
+  },
+  {
+    "id": "bae74827272509a6d63ea25514d9c68ad235c14e45e183518c7ded4572a1b0c4",
+    "name": "Huobi Wallet",
+    "description": "",
+    "homepage": "https://huobiwallet.com/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/id1433883012",
+      "android": "https://play.google.com/store/apps/details?id=com.huobionchainwallet.gp",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "huobiwallet:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Huobi",
+      "colors": {
+        "primary": "rgb(45,101,248)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Huobi",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "type": "walletConnect",
+            "native": "huobiwallet:",
+            "universal": ""
+          }
+      ]
+    }
+  },
+  {
+    "id": "7674bb4e353bf52886768a3ddc2a4562ce2f4191c80831291218ebd90f5f5e26",
+    "name": "MathWallet",
+    "description": "",
+    "homepage": "https://mathwallet.org/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/math-wallet-blockchain-wallet/id1383637331",
+      "android": "https://play.google.com/store/apps/details?id=com.medishares.android",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "mathwallet:",
+      "universal": "https://www.mathwallet.org"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "MathWallet",
+      "colors": {
+        "primary": "",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Math Wallet",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "comment": "NOT WORKING, 08-2022",
+            "type": "walletConnect",
+            "native": "mathwallet:",
+            "universal": "https://www.mathwallet.org"
+          }
+      ]
+    }
+  },
+  {
+    "id": "dceb063851b1833cbb209e3717a0a0b06bf3fb500fe9db8cd3a553e4b1d02137",
+    "name": "ONTO",
+    "description": "",
+    "homepage": "https://onto.app/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/onto-an-ontology-dapp/id1436009823",
+      "android": "https://play.google.com/store/apps/details?id=com.github.ontio.onto",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "ontoprovider:",
+      "universal": "https://onto.app"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "ONTO",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "comment": "NOT WORKING, 08-2022",
+            "type": "walletConnect",
+            "native": "ontoprovider:",
+            "universal": "https://onto.app"
+          }
+      ]
+    }
+  },
+  {
+    "id": "138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98",
+    "name": "AlphaWallet",
+    "description": "",
+    "homepage": "https://alphawallet.com/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/alphawallet-eth-wallet/id1358230430",
+      "android": "https://play.google.com/store/apps/details?id=io.stormbird.wallet",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "",
+      "universal": "https://aw.app"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "AlphaWallet",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "NOT WORKING, 08-2022"
+    }
+  },
+  {
+    "id": "b021913ba555948a1c81eb3d89b372be46f8354e926679de648e4fa2938bed3e",
+    "name": "Coin98",
+    "description": "",
+    "homepage": "https://coin98.com/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://ios.coin98.com/",
+      "android": "https://play.google.com/store/apps/details?id=coin98.crypto.finance.media",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "coin98:",
+      "universal": "https://coin98.com"
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Coin98",
+      "colors": {
+        "primary": "rgb(39,39,39)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Coin98",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+           {
+            "comment": "NOT WORKING, 08-2022",
+            "type": "walletConnect",
+            "native": "coin98:",
+            "universal": "https://coin98.com"
+          }
+      ]
+    }
+  },
+  {
+    "id": "0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c",
+    "name": "Pillar",
+    "description": "",
+    "homepage": "https://pillarproject.io/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/app/apple-store/id1346582238",
+      "android": "https://play.google.com/store/apps/details?id=com.pillarproject.wallet",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "pillarwallet:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "Pillar",
+      "colors": {
+        "primary": "rgb(255, 255, 255)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "Pillar, NOT WORKING"
+    }
+  }
+]

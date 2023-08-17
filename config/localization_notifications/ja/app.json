@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "約定済み注文",
+      "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文は${AVERAGE_PRICE}で約定されました。"
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "一部約定済み注文",
+      "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文のうち{MARKET}の{FILLED_AMOUNT}は約定されました。"
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "トリガー済み注文",
+      "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文がトリガーされました。"
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "キャンセル済み注文",
+      "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文がキャンセルされました。"
+    },
+    "LIQUIDATION": {
+      "TITLE": "清算済みポジション",
+      "BODY": "{MARKET}の{SIDE}ポジションは清算されました。"
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "入金に成功しました",
+      "BODY": "{ASSET}の{AMOUNT}の入金が承認されました。"
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "高速出金に成功しました",
+      "BODY": "{ASSET}の{AMOUNT}の高速出金が承認されました。"
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "通常出金は保留中です",
+      "BODY": "{ASSET}の{AMOUNT}の出金は12時間以内に準備できます。"
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "通常出金に成功しました",
+      "BODY": "{ASSET}の{AMOUNT}の出金が承認されました。"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "version":"1.0",
+    "build":1,
+    "update":{
+       "title":"Update",
+       "text":"This version is no longer supported, please update.",
+       "actions":[
+          {
+             "title":"Update App",
+             "link":"http://www.apple.com"
+          }
+       ]
+    }
+ }

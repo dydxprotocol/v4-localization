@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "주문이 체결되었습니다",
+      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 $에 {AVERAGE_PRICE}체결되었습니다."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "주문이 부분적으로 체결되었습니다",
+      "BODY": "{SIDE} {AMOUNT}에{MARKET} 대한 주문 이{FILLED_AMOUNT}({MARKET}가) 완료되었습니다."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "주문이 발동되었습니다",
+      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 발동되었습니다."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "주문이 취소되었습니다",
+      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 취소되었습니다."
+    },
+    "LIQUIDATION": {
+      "TITLE": "포지션이 청산되었습니다",
+      "BODY": "{SIDE} {MARKET}포지션이 청산되었습니다."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "입금이 완료되었습니다",
+      "BODY": "{AMOUNT} {ASSET}의 입금이 확인되었습니다."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "빠른 출금이 완료되었습니다",
+      "BODY": "{AMOUNT} {ASSET}의 빠른 인출이 확인되었습니다."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "느린 출금이 진행 중입니다",
+      "BODY": "귀하의 {AMOUNT}출{ASSET}금은 12시간 이내에 준비될 예정입니다."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "느린 출금이 완료되었습니다",
+      "BODY": "{AMOUNT} {ASSET}출금이 확인되었습니다."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Talimat Karşılandı",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {AVERAGE_PRICE}$ ile karşılandı."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Talimat Kısmen Karşılandı",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınızın {FILLED_AMOUNT} {MARKET} miktarı karşılandı."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Talimat Tetiklendi",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız tetiklendi."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Talimat İptal Edildi",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız iptal edildi."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Pozisyon Tasfiye Edildi",
+      "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz tasfiye edildi."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Yatırma Başarılı Oldu",
+      "BODY": "{AMOUNT} {ASSET} yatırma işleminiz onaylandı."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Hızlı Çekme Başarılı Oldu",
+      "BODY": "{AMOUNT} {ASSET} için hızlı çekme işleminiz onaylandı."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Yavaş Çekme Beklemede",
+      "BODY": "{AMOUNT} {ASSET} çekme işleminiz 12 saat içinde hazır olacak."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Yavaş Çekme Başarılı",
+      "BODY": "{AMOUNT} {ASSET} çekme işleminiz onaylandı."
+    }
+  }
+}

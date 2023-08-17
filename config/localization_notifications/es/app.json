@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Orden completada",
+      "BODY": "Tu pedido a {SIDE} {AMOUNT} {MARKET} se ha completado en ${AVERAGE_PRICE}."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Orden parcialmente completada",
+      "BODY": "{FILLED_AMOUNT} {MARKET} de tu pedido a {SIDE} {AMOUNT} {MARKET} se ha completado."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Orden activada",
+      "BODY": "Tu pedido a {SIDE} {AMOUNT} {MARKET} se ha activado."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Orden cancelada",
+      "BODY": "Tu pedido a {SIDE} {AMOUNT} {MARKET} ha sido cancelado."
+    },
+    "LIQUIDATION": {
+      "TITLE": "La posición liquidada",
+      "BODY": "Tu {SIDE}posición en  {MARKET}ha sido liquidada."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Depósito exitoso",
+      "BODY": "Tu depósito de  {AMOUNT}{ASSET}ha sido confirmado."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Retiro rápido exitoso",
+      "BODY": "Tu retiro rápido de  {AMOUNT}{ASSET}ha sido confirmado."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Retiro lento pendiente",
+      "BODY": "Tu retiro {AMOUNT}{ASSET}de   estará listo en 12 horas."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Retiro lento exitoso",
+      "BODY": "Tu retiro de  {AMOUNT}{ASSET}ha sido confirmado."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "订单已成交",
+      "BODY": "您对 {SIDE} {AMOUNT} {MARKET} 的订单已按 ${AVERAGE_PRICE} 成交。"
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "订单已部分成交",
+      "BODY": "您对 {SIDE} {AMOUNT} {MARKET} 的订单中有 {FILLED_AMOUNT} {MARKET} 已成交。"
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "订单已触发",
+      "BODY": "您对 {SIDE} {AMOUNT} {MARKET} 的订单已触发。"
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "订单已取消",
+      "BODY": "您对 {SIDE} {AMOUNT} {MARKET} 的订单已取消。"
+    },
+    "LIQUIDATION": {
+      "TITLE": "已清算的头寸",
+      "BODY": "您在 {MARKET} 中的 {SIDE} 头寸已被清算。"
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "存款成功",
+      "BODY": "您的 {AMOUNT} {ASSET} 存款已被确认。"
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "快速提现成功",
+      "BODY": "您对 {AMOUNT} {ASSET} 的快速提现已被确认。"
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "待处理的正常提现",
+      "BODY": "您的 {AMOUNT} {ASSET} 提款将在 12 小时内完成。"
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "正常提现成功",
+      "BODY": "您的 {AMOUNT} {ASSET} 提款已被确认。"
+    }
+  }
+}
