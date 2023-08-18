@@ -1,21 +1,21 @@
 {
-  "name": "@dydxprotocol/veronica-v4",
-  "version": "0.0.5",
-  "description": "Veronica v4",
+  "name": "@dydxprotocol/v4-localization",
+  "version": "0.0.6",
+  "description": "v4 localization",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dydxprotocol/veronica-v4.git"
+    "url": "git+https://github.com/dydxprotocol/v4-localization.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dydxprotocol/veronica-v4/issues"
+    "url": "https://github.com/dydxprotocol/v4-localization/issues"
   },
-  "homepage": "https://github.com/dydxprotocol/veronica-v4#readme",
+  "homepage": "https://github.com/dydxprotocol/v4-localization#readme",
   "devDependencies": {
     "@types/node": "^20.1.7"
   }
