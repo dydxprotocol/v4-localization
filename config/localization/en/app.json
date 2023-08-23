@@ -1217,6 +1217,16 @@
         "TRADING_VOLUME": "Trading Volume"
     }
   },
+  "CHAIN":{
+    "V3_MAINNET": "V3 Mainnet",
+    "V3_GOERLI": "V3 Staging",
+    "V4_DEVNET": "V4 Dev 1",
+    "V4_DEVNET_2": "V4 Dev 2",
+    "V4_DEVNET_3": "V4 Dev 3",
+    "V4_DEVNET_4": "V4 Dev 4",
+    "V4_STAGING": "V4 Staging",
+    "V4_TESTNET2": "V4 Public Testnet #2"
+  },
   "ERRORS": {
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
