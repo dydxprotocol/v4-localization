@@ -193,9 +193,83 @@
                }
             ],
             "validators":[
-               "https://validator.v4testnet2.dydx.exchange",
                "https://dydx-testnet.nodefleet.org",
-               "https://dydx-testnet-archive.allthatnode.com:26657"
+               "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R"
+            ],
+            "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+         }
+      },
+      {
+         "comment":"V4 Public Testnet #2 dYdX Node",
+         "environment":"dydxprotocol-testnet-dydx",
+         "ethereumChainId":"5",
+         "dydxChainId":"dydx-testnet-2",
+         "string":"v4 Public Testnet #2 dYdX Node",
+         "stringKey":"CHAIN.V4_TESTNET2_DYDX",
+         "isMainNet":false,
+         "version":"v4",
+         "maxSubaccountNumber":127,
+         "endpoints":{
+            "indexers":[
+               {
+                  "api":"https://indexer.v4testnet2.dydx.exchange",
+                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+               }
+            ],
+            "validators":[
+              "https://validator.v4testnet2.dydx.exchange"
+            ],
+            "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+         }
+      },
+      {
+         "comment":"V4 Public Testnet #2 DSRV Node",
+         "environment":"dydxprotocol-testnet-dsrv",
+         "ethereumChainId":"5",
+         "dydxChainId":"dydx-testnet-2",
+         "string":"v4 Public Testnet #2 DSRV Node",
+         "stringKey":"CHAIN.V4_TESTNET2_DSRV",
+         "isMainNet":false,
+         "version":"v4",
+         "maxSubaccountNumber":127,
+         "endpoints":{
+            "indexers":[
+               {
+                  "api":"https://indexer.v4testnet2.dydx.exchange",
+                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+               }
+            ],
+            "validators":[
+               "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R"
+            ],
+            "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+         }
+      },
+      {
+         "comment":"V4 Public Testnet #2 nodefleet Node",
+         "environment":"dydxprotocol-testnet-nodefleet",
+         "ethereumChainId":"5",
+         "dydxChainId":"dydx-testnet-2",
+         "string":"v4 Public Testnet #2 nodefleet Node",
+         "stringKey":"CHAIN.V4_TESTNET2_NODEFLEET",
+         "isMainNet":false,
+         "version":"v4",
+         "maxSubaccountNumber":127,
+         "endpoints":{
+            "indexers":[
+               {
+                  "api":"https://indexer.v4testnet2.dydx.exchange",
+                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+               }
+            ],
+            "validators":[
+               "https://dydx-testnet.nodefleet.org"
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
