@@ -22,7 +22,7 @@
                 "http://validator.v4dev.dydx.exchange"
              ],
              "0xsquid":"https://testnet.api.0xsquid.com",
-             "configs":"https://dydx-shared-resources.vercel.app"
+             "configs":"https://dydx-v4-shared-resources.vercel.app"
           }
        },
        {
@@ -46,7 +46,7 @@
                 "http://35.75.227.118"
              ],
              "0xsquid":"https://testnet.api.0xsquid.com",
-             "configs":"https://dydx-shared-resources.vercel.app"
+             "configs":"https://dydx-v4-shared-resources.vercel.app"
           }
        },
        {
@@ -70,7 +70,7 @@
                 "http://validator.v4dev4.dydx.exchange"
              ],
              "0xsquid":"https://testnet.api.0xsquid.com",
-             "configs":"https://dydx-shared-resources.vercel.app"
+             "configs":"https://dydx-v4-shared-resources.vercel.app"
           }
        },
        {
@@ -94,7 +94,7 @@
                 "http://18.223.78.50"
              ],
              "0xsquid":"https://testnet.api.0xsquid.com",
-             "configs":"https://dydx-shared-resources.vercel.app"
+             "configs":"https://dydx-v4-shared-resources.vercel.app"
           }
        },
        {
@@ -119,7 +119,7 @@
                 "https://validator.v4staging.dydx.exchange"
              ],
              "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
-             "configs":"https://dydx-shared-resources.vercel.app"
+             "configs":"https://dydx-v4-shared-resources.vercel.app"
           }
        },
        {
@@ -145,7 +145,7 @@
                 "https://dydx-testnet-archive.allthatnode.com:26657"
              ],
              "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
-             "configs":"https://dydx-shared-resources.vercel.app",
+             "configs":"https://dydx-v4-shared-resources.vercel.app",
              "faucet":"https://faucet.v4testnet2.dydx.exchange"
           }
        }
