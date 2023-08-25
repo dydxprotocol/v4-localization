@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Enter wallet address",
-      "ENTER_TRANSFER_AMOUNT": "Enter amount"
+      "ENTER_TRANSFER_AMOUNT": "Enter transfer amount"
     },
     "FIAT_ONRAMP": {
       "NEW": "New!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Switch Trading Network",
       "CALCULATING": "Calculating ...",
       "NO_HASH": "Unable to obtain transaction hash.",
+      "NO_GAS_TITLE": "Insufficent wallet balance to cover gas fee",
+      "NO_GAS_BODY": "Please first make a small deposit to your dYdX account to refill wallet.",
       "THEME": "Theme",
       "DIRECTION_COLOR_PREFERENCE": "Color Preference",
       "DARK": "Dark",
@@ -381,6 +383,10 @@
       "IN_PROGRESS_TEXT": "Your withdrawal of {AMOUNT_ELEMENT} has been submitted. This can take a few minutes.",
       "COMPLETED_TITLE": "Withdrawal completed",
       "COMPLETED_TEXT": "Your withdrawal has been completed."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Transfer submitted",
+      "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
     }
   },
   "ERRORS": {
