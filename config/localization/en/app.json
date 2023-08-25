@@ -85,6 +85,7 @@
       "DISCOUNT": "Discount",
       "DISMISS": "Dismiss",
       "DONE": "Done",
+      "DYDX_CHAIN": "dYdX Chain",
       "EMAIL": "Email",
       "ENDED": "Ended",
       "EQUITY": "Equity",
@@ -366,6 +367,7 @@
     "ONBOARDING": {
       "INITIATED_DEPOSIT": "Initiated deposit",
       "INITIATED_WITHDRAWAL": "Initiated withdrawal",
+      "INITIATED_TRANSFEROUT": "Initiated transfer",
       "BRIDGING_TOKENS": "Bridging tokens",
       "DEPOSIT_TO_DYDX": "Deposit to dYdX",
       "DEPOSIT_TO_DESTINATION": "Deposit to {DESTINATION_CHAIN}",
@@ -373,6 +375,8 @@
       "DEPOSIT_ALERT_SUBTITLE": "Check status",
       "WITHDRAWAL_ALERT_TITLE": "You have {PENDING_WITHDRAWALS} pending withdrawal to {DESTINATION_CHAIN}.",
       "WITHDRAWAL_ALERT_SUBTITLE": "Check status",
+      "TRANSFEROUT_ALERT_TITLE": "You have pending transfer of {PENDING_TRANSFERS} {TOKEN}.",
+      "TRANSFEROUT_ALERT_SUBTITLE": "Check status",
       "ABOUT_WALLETS": "About wallets",
       "ACKNOWLEDGE_TERMS": "Acknowledge terms",
       "API_KEYS_NOT_FOUND": "API Key not found",
@@ -1109,7 +1113,10 @@
       "DIRECTLY_TRANSFER": "Directly transfer funds to another account on dYdX",
       "ETH_ADDRESS": "Ethereum wallet address",
       "PLEASE_CONFIRM_ADDRESS": "Please confirm that this is the desired address before proceeding.",
-      "SELECT_ADDRESS": "Enter or select address"
+      "SELECT_ADDRESS": "Enter or select address",
+      "ADDRESS_FIELD": "Invalid wallet address",
+      "INVALID_ADDRESS_TITLE": "Invalid wallet address",
+      "INVALID_ADDRESS_BODY": "Please enter an valid dYdX chain address."
     },
     "DEPOSIT_WITH_FIAT": {
       "BANXA_SUPPORT_LINK": "Banxa support",
