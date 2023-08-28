@@ -501,6 +501,7 @@
       "MAX_SLIPPAGE": "Max Slippage",
       "MINIMUM_DEPOSIT_MET": "Nice! Your deposit meets the gasless deposit minimum of {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX will cover the gas fees for this deposit.",
       "MINIMUM_DEPOSIT_UNMET": "Deposit at least {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} and dYdX will pay the gas fees for this deposit!",
+      "EXCHANGE_RECEIVED": "Receive",
       "SET_ALLOWANCE_EXPLANATION": "You must enable {SYMBOL} the first time you deposit on dYdX. You will only have to do this once.",
       "SETTING_ALLOWANCE_EXPLANATION": "You will be able to deposit once your enable {SYMBOL} transaction confirms. You only have to do this once per asset.",
       "SLIPPAGE": "Slippage",
