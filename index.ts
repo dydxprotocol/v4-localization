@@ -1,5 +1,3 @@
-import walletsV2Production from './config/prod/walletsV2.json';
-import walletsV2Staging from './config/staging/walletsV2.json';
 import countries from './config/countries.json';
 import marketsV3 from './config/markets.json';
 import marketsV4 from './v4/staging/markets.json';
@@ -13,8 +11,9 @@ export  { TOOLTIP_STRING_KEYS } from './scripts/generated/tooltips';
 export { APP_NATIVE } from './config/localizations_native';
 export { NOTIFICATIONS} from './config/localization_notifications';
 
-export const WALLETS_V2_PRODUCTION = walletsV2Production;
-export const WALLETS_V2_STAGING = walletsV2Staging;
+export { DEV_ENDPOINTS, ENDPOINTS_STAGING, WALLETS_V2_STAGING } from './config/staging';
+export { ENDPOINTS, WALLETS_V2_PRODUCTION } from './config/prod';
+
 export const COUNTRIES = countries;
 export const MARKETS_V3 = marketsV3;
 export const MARKETS_V4 = marketsV4;
