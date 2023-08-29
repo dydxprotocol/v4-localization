@@ -467,7 +467,7 @@
       "VALUE_PROP_LIQUID_DESC": "World-class liquidity on the most popular pairs",
       "VALUE_PROP_LIQUID": "Liquid",
       "VALUE_PROP_REWARDS_DESC": "Earn $DYDX rewards for each trade you make on the platform*",
-      "VALUE_PROP_TRUSTLESS_DESC": "Built with open-source, audited smart contracts on Ethereum",
+      "VALUE_PROP_TRUSTLESS_DESC": "Built with open-source, audited smart contracts",
       "VALUE_PROP_TRUSTLESS": "Trustless",
       "VERIFY_OWNERSHIP": "Verify ownership",
       "VERIFY_WALLET_COMPATIBILITY": "Verify wallet compatibility",
@@ -477,7 +477,7 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "To complete dYdX onboarding, set your wallet network to 'Ethereum Mainnet'.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
-      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK}, {PRIVACY_POLICY_LINK} and {GASLESS_DEPOSIT_RULES}."
+      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}."
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Sign into mobile",
