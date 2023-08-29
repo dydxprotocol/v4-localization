@@ -60,7 +60,12 @@
                "http://validator.v4dev.dydx.exchange"
             ],
             "0xsquid":"https://testnet.api.0xsquid.com",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -84,7 +89,12 @@
                "http://35.75.227.118"
             ],
             "0xsquid":"https://testnet.api.0xsquid.com",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -99,7 +109,12 @@
          "maxSubaccountNumber":127,
          "endpoints":{
             "0xsquid":"https://testnet.api.0xsquid.com",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -123,7 +138,12 @@
                "http://validator.v4dev4.dydx.exchange"
             ],
             "0xsquid":"https://testnet.api.0xsquid.com",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -147,7 +167,12 @@
                "http://18.223.78.50"
             ],
             "0xsquid":"https://testnet.api.0xsquid.com",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -172,7 +197,12 @@
                "https://validator.v4staging.dydx.exchange"
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
-            "configs":"https://dydx-v4-shared-resources.vercel.app"
+            "configs":"https://dydx-v4-shared-resources.vercel.app",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://trader-fe.vercel.app/currenties/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -198,7 +228,12 @@
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -223,7 +258,12 @@
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -248,7 +288,12 @@
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       },
       {
@@ -273,7 +318,12 @@
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange"
+            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "tosUrl": "https://dydx.exchange/v4-terms",
+            "privacyPolicyUrl": "https://dydx.exchange/privacy",
+            "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
          }
       }
    ],
