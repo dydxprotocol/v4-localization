@@ -24,10 +24,10 @@
              "0xsquid":"https://testnet.api.0xsquid.com",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        },
        {
@@ -53,10 +53,10 @@
              "0xsquid":"https://testnet.api.0xsquid.com",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        },
        {
@@ -82,10 +82,10 @@
              "0xsquid":"https://testnet.api.0xsquid.com",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        },
        {
@@ -111,10 +111,10 @@
              "0xsquid":"https://testnet.api.0xsquid.com",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        },
        {
@@ -141,10 +141,10 @@
              "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        },
        {
@@ -172,10 +172,10 @@
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "faucet":"https://faucet.v4testnet2.dydx.exchange",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{MARKET}",
+             "marketImageUrl": "https://s3.amazonaws.com/dydx.exchange/{asset}.svg",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
-             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{TX_HASH}"
+             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
           }
        }
     ],
