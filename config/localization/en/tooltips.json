@@ -1,5 +1,8 @@
 {
   "GENERAL": {
+    "DYDX_ADDRESS": {
+      "BODY": "Your dYdX address \"{DYDX_ADDRESS}\" was created from the signature of the Ethereum address \"{EVM_ADDRESS}\"."
+    },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
       "BODY": "Only check this option if you previously used hardware wallet signing / legacy signing to generate your keys."
@@ -136,6 +139,10 @@
       "TITLE": "Order Amount",
       "BODY": "Amount of {SYMBOL} to buy or sell. This is the amount your position will increase or decrease by when the order is filled, not your resulting position amount."
     },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Order Amount",
+      "BODY": "Amount of {SYMBOL} in USD to buy or sell. This is the amount your position will increase or decrease by when the order is filled, not your resulting position amount."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
@@ -156,10 +163,6 @@
       "TITLE": "Step Size",
       "BODY": "Step size is the smallest factor allowed for order amounts on this market."
     },
-    "TRIGGER_PRICE": {
-      "TITLE": "Trigger Price",
-      "BODY": "When the oracle price or last trade price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
-    },
     "TAKER_FEE": {
       "TITLE": "Taker Fee",
       "BODY": "Trades that take liquidity from the book (e.g. market or crossing limit orders) execute as taker orders. Taker orders have a higher fee than maker orders."
@@ -175,6 +178,10 @@
     "TRAILING_PERCENT": {
       "TITLE": "Trailing Percent",
       "BODY": "Trailing percent sets the percent your stop price will “trail” the oracle price. Whenever the oracle price moves in favor of your position, the stop price for your order will update according to your specified trailing percent."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Trigger Price",
+      "BODY": "When the oracle price or last trade price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Unrealized Profit / Loss",
