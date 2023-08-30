@@ -25,7 +25,7 @@
             "configs":"https://dydx-v4-shared-resources.vercel.app",
             "faucet":"https://faucet.v4testnet2.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.svg",
+            "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",
             "privacyPolicyUrl": "https://dydx.exchange/privacy",
             "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
