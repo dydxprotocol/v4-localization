@@ -61,3 +61,8 @@ Text files can be translated as a single unit.
 '''
 ./codegen_localization_tooltips.swift ../config/localization/en/tooltips.json > ./generated/tooltips.ts
 '''
+
+# Generating notifications.ts
+'''
+./codegen_localization_notifications.swift ../config/localization_notifications/en/app.json > ./generated/notifications.ts
+'''
