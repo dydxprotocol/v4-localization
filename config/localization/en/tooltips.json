@@ -159,6 +159,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only prevents an order from changing the side of your position (long to short, or short to long). An order with Reduce-Only set will automatically resize and cancel itself as your position changes."
     },
+    "SPREAD": {
+      "TITLE": "Spread",
+      "BODY": "The difference in price between the highest bid (the price a buyer is willing to buy for) and lowest ask (the price a seller is willing to sell for) an asset."
+    },
     "STEP_SIZE": {
       "TITLE": "Step Size",
       "BODY": "Step size is the smallest factor allowed for order amounts on this market."
