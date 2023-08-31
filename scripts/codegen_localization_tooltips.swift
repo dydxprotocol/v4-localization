@@ -31,9 +31,13 @@ print("};\n")
 
 func generateItems(keyPath: String, lastKey: String?, value: Any?) {
     if let value = value as? [String: Any] {
-        if let lastKey = lastKey,  value.keys.contains("TITLE"),  value.keys.contains("BODY") {
-            print("    \(lastKey)_BODY: \'\(keyPath).BODY\',")
-            print("    \(lastKey)_TITLE: \'\(keyPath).TITLE\',")
+        if let lastKey = lastKey, value.keys.contains("BODY") || value.keys.contains("TITLE") {
+            if value.keys.contains("BODY") {
+                print("    \(lastKey)_BODY: \'\(keyPath).BODY\',")
+            }            
+            if value.keys.contains("TITLE") {
+                print("    \(lastKey)_TITLE: \'\(keyPath).TITLE\',")
+            }
         } else {
             if let lastKey = lastKey {
                 print("\n    // \(lastKey)\n")
