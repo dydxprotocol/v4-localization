@@ -327,12 +327,12 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #2 Imperator Indexer",
+         "comment":"V4 Public Testnet #3 Imperator Indexer",
          "environment":"dydxprotocol-testnet-imperator",
          "ethereumChainId":"5",
-         "dydxChainId":"dydx-testnet-2",
-         "string":"v4 Public Testnet #2 Imperator Indexer",
-         "stringKey":"CHAIN.V4_TESTNET2_IMPERATOR",
+         "dydxChainId":"dydx-testnet-3",
+         "string":"v4 Public Testnet #3 Imperator Indexer",
+         "stringKey":"CHAIN.V4_TESTNET3_IMPERATOR",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
@@ -344,12 +344,11 @@
                }
             ],
             "validators":[
-               "https://dydx-testnet.nodefleet.org",
-               "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R"
+               "https://validator.v4testnet.dydx.exchange"
             ],
             "0xsquid":"https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "faucet":"https://faucet.v4testnet.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",

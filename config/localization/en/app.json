@@ -1318,8 +1318,8 @@
     "V4_TESTNET2": "V4 Testnet",
     "V4_TESTNET2_DSRV": "V4 Testnet (DSRV)",
     "V4_TESTNET2_DYDX": "V4 Testnet (dYdX)",
-    "V4_TESTNET2_IMPERATOR": "V4 Testnet (Imperator)",
-    "V4_TESTNET2_NODEFLEET": "V4 Testnet (nodefleet)"
+    "V4_TESTNET2_NODEFLEET": "V4 Testnet (nodefleet)",
+    "V4_TESTNET3_IMPERATOR": "V4 Testnet3 (Imperator)"
   },
   "ERRORS": {
     "GENERAL": {
