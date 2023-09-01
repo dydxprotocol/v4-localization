@@ -183,6 +183,7 @@
       "QUEUED": "Queued",
       "QUERY_NOT_FOUND": "“{QUERY}” was not found",
       "RANKINGS": "Rankings",
+      "RECEIVE": "Receive",
       "RECENT": "Recent",
       "RECENT_TRADES_SHORT": "Trades",
       "REFERRAL_CODE": "Referral Code",
@@ -1426,7 +1427,8 @@
       "TRANSFER_INVALID_DYDX_ADDRESS": "Invalid dYdX Chain address.",
       "TRANSFER_INVALID_ETH_ADDRESS": "We could not find an account associated with this wallet address.",
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
-      "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address."
+      "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
+      "TRANSFER_INSUFFICIENT_GAS": "The USDC balance {USDC_BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds."
     }
   },
   "WARNINGS": {
