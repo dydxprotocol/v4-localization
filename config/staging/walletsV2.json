@@ -38,6 +38,7 @@
     "config": {
       "comment": "MetaMask",
       "iosMinVersion": "0",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/metamask.png",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
       "connections": [
         {
@@ -88,7 +89,7 @@
     "config": {
       "comment": "Coinbase",
       "iosMinVersion": "1.8.0",
-      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/coinbase-wallet.png",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/coinbase-wallet.png",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
       "connections": [
         {
@@ -139,6 +140,7 @@
     "config": {
       "comment": "imToken",
       "iosMinVersion": "0",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/imtoken.png",
       "connections": [
         {
           "type": "walletConnect",
@@ -191,7 +193,7 @@
       "comment": "Trust Wallet",
       "iosMinVersion": "0",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
-      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/trust.svg",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/trust-wallet.png",
       "connections": [
         {
           "type": "walletConnectV2",
@@ -242,7 +244,7 @@
       "comment": "Zerion Wallet",
       "iosMinVersion": "0",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
-      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/trust.svg",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/zerion.png",
       "connections": [
         {
           "type": "walletConnectV2",
@@ -292,6 +294,7 @@
     "config": {
       "comment": "TokenPocket",
       "iosMinVersion": "0",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/tokenpocket.png",
       "connections": [
         {
           "type": "walletConnect",
@@ -343,7 +346,7 @@
       "iosMinVersion": "0",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
       "backlinked": true,
-      "imageUrl": "https://s3.amazonaws.com/dydx.exchange/logos/wallets/rainbow.png",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/rainbow-wallet.png",
       "connections": [
         {
           "type": "walletConnectV2",
@@ -395,6 +398,7 @@
       "comment": "1inch",
       "iosMinVersion": "0",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/1inch.png",
       "connections": [
         {
           "type": "walletConnect",
@@ -445,6 +449,7 @@
       "comment": "Huobi",
       "iosMinVersion": "0",
       "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "imageUrl": "https://v4.testnet.dydx.exchange/wallets/huobi-wallet.png",
       "connections": [
         {
           "type": "walletConnect",
