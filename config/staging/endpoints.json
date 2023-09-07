@@ -141,7 +141,7 @@
              "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
              "configs":"https://dydx-v4-shared-resources.vercel.app",
              "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
-             "marketImageUrl": "https://trader-fe.vercel.app/currencies/{asset}.png",
+             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
              "tosUrl": "https://dydx.exchange/v4-terms",
              "privacyPolicyUrl": "https://dydx.exchange/privacy",
              "mintscanUrl": "https://testnet.mintscan.io/dydx-testnet/txs/{tx_hash}"
