@@ -47,6 +47,8 @@
       "AVAILABLE": "Available",
       "BACK": "Back",
       "BALANCE": "Balance",
+      "BASE_INITIAL_MARGIN_FRACTION": "Base Initial Margin Fraction",
+      "BASE_POSITION_NOTIONAL": "Base Position Notional",
       "BLOCK_HEIGHT": "Block Height",
       "BUY": "Buy",
       "BUYING_POWER": "Buying Power",

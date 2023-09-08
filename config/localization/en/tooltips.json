@@ -73,7 +73,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Initial Margin Fraction",
-      "BODY": "Margin fraction is calculated as your position notional value divided by equity. If your margin fraction exceeds the initial margin fraction, you will no longer be allowed to increase your position. To limit risk, the initial margin fraction increases linearly with position size after a certain threshold."
+      "BODY": "Margin fraction is calculated as your position notional value divided by equity. If your margin fraction exceeds the initial margin fraction, you will no longer be allowed to increase your position. To limit risk, the initial margin fraction increases by the square root of position size divided by Base Positional Notional multiplied by Base Initial Margin Fraction."
     },
     "INITIAL_STOP": {
       "TITLE": "Initial Stop",
