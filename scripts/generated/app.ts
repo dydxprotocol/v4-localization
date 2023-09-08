@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -317,6 +317,8 @@ export const APP_STRING_KEYS = {
     AVAILABLE: 'APP.GENERAL.AVAILABLE',
     BACK: 'APP.GENERAL.BACK',
     BALANCE: 'APP.GENERAL.BALANCE',
+    BASE_INITIAL_MARGIN_FRACTION: 'APP.GENERAL.BASE_INITIAL_MARGIN_FRACTION',
+    BASE_POSITION_NOTIONAL: 'APP.GENERAL.BASE_POSITION_NOTIONAL',
     BLOCK_HEIGHT: 'APP.GENERAL.BLOCK_HEIGHT',
     BUY: 'APP.GENERAL.BUY',
     BUYING_POWER: 'APP.GENERAL.BUYING_POWER',
