@@ -206,29 +206,29 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #2",
+         "comment":"V4 Public Testnet #3",
          "environment":"dydxprotocol-testnet",
          "ethereumChainId":"5",
-         "dydxChainId":"dydx-testnet-2",
-         "string":"v4 Public Testnet #2",
-         "stringKey":"CHAIN.V4_TESTNET2",
+         "dydxChainId":"dydx-testnet-3",
+         "string":"v4 Public Testnet #3",
+         "stringKey":"CHAIN.V4_TESTNET",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
          "endpoints":{
             "indexers":[
                {
-                  "api":"https://indexer.v4testnet2.dydx.exchange",
-                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+                  "api":"https://dydx-testnet.imperator.co",
+                  "socket":"wss://dydx-testnet.imperator.co"
                }
             ],
             "validators":[
                "https://dydx-testnet.nodefleet.org",
                "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R"
             ],
-            "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
+            "0xsquid":"https://squid-api-git-main-cosmos-mainnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "faucet":"https://faucet.v4testnet.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",
@@ -237,28 +237,28 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #2 dYdX Node",
+         "comment":"V4 Public Testnet #3 dYdX Node",
          "environment":"dydxprotocol-testnet-dydx",
          "ethereumChainId":"5",
-         "dydxChainId":"dydx-testnet-2",
-         "string":"v4 Public Testnet #2 dYdX Node",
-         "stringKey":"CHAIN.V4_TESTNET2_DYDX",
+         "dydxChainId":"dydx-testnet-3",
+         "string":"v4 Public Testnet #3 dYdX Node",
+         "stringKey":"CHAIN.V4_TESTNET_DYDX",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
          "endpoints":{
             "indexers":[
                {
-                  "api":"https://indexer.v4testnet2.dydx.exchange",
-                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+                  "api":"https://indexer.v4testnet.dydx.exchange",
+                  "socket":"wss://indexer.v4testnet.dydx.exchange"
                }
             ],
             "validators":[
-              "https://validator.v4testnet2.dydx.exchange"
+              "https://validator.v4testnet.dydx.exchange"
             ],
             "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "faucet":"https://faucet.v4testnet.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",
@@ -267,20 +267,20 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #2 DSRV Node",
+         "comment":"V4 Public Testnet #3 DSRV Node",
          "environment":"dydxprotocol-testnet-dsrv",
          "ethereumChainId":"5",
-         "dydxChainId":"dydx-testnet-2",
-         "string":"v4 Public Testnet #2 DSRV Node",
-         "stringKey":"CHAIN.V4_TESTNET2_DSRV",
+         "dydxChainId":"dydx-testnet-3",
+         "string":"v4 Public Testnet #3 DSRV Node",
+         "stringKey":"CHAIN.V4_TESTNET_DSRV",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
          "endpoints":{
             "indexers":[
                {
-                  "api":"https://indexer.v4testnet2.dydx.exchange",
-                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+                  "api":"https://dydx-testnet.imperator.co",
+                  "socket":"wss://dydx-testnet.imperator.co"
                }
             ],
             "validators":[
@@ -288,7 +288,7 @@
             ],
             "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "faucet":"https://faucet.v4testnet.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",
@@ -297,20 +297,20 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #2 nodefleet Node",
+         "comment":"V4 Public Testnet #3 nodefleet Node",
          "environment":"dydxprotocol-testnet-nodefleet",
          "ethereumChainId":"5",
-         "dydxChainId":"dydx-testnet-2",
-         "string":"v4 Public Testnet #2 nodefleet Node",
-         "stringKey":"CHAIN.V4_TESTNET2_NODEFLEET",
+         "dydxChainId":"dydx-testnet-3",
+         "string":"v4 Public Testnet #3 nodefleet Node",
+         "stringKey":"CHAIN.V4_TESTNET_NODEFLEET",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
          "endpoints":{
             "indexers":[
                {
-                  "api":"https://indexer.v4testnet2.dydx.exchange",
-                  "socket":"wss://indexer.v4testnet2.dydx.exchange"
+                  "api":"https://dydx-testnet.imperator.co",
+                  "socket":"wss://dydx-testnet.imperator.co"
                }
             ],
             "validators":[
@@ -318,7 +318,7 @@
             ],
             "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
-            "faucet":"https://faucet.v4testnet2.dydx.exchange",
+            "faucet":"https://faucet.v4testnet.dydx.exchange",
             "statusPageUrl": "https://status.v4testnet.dydx.exchange/",
             "marketImageUrl": "https://v4.testnet.dydx.exchange/currencies/{asset}.png",
             "tosUrl": "https://dydx.exchange/v4-terms",
@@ -332,7 +332,7 @@
          "ethereumChainId":"5",
          "dydxChainId":"dydx-testnet-3",
          "string":"v4 Public Testnet #3 Imperator Indexer",
-         "stringKey":"CHAIN.V4_TESTNET3_IMPERATOR",
+         "stringKey":"CHAIN.V4_TESTNET_IMPERATOR",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
