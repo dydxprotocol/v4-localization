@@ -23,6 +23,10 @@
       "TITLE": "Account Leverage",
       "BODY": "Leverage of your account based on all your open positions. Because your account is cross-margined, each open position has its own leverage while also affecting your overall account leverage."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Base Position Notional",
+      "BODY": "The maximum position size at which the margin requirements are not increased."
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Loss",
       "BODY": "Your current trigger price to execute a Stop Loss for this bracket order."
