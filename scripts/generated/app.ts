@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1357,11 +1357,11 @@ export const CHAIN_STRING_KEYS = {
     V4_DEVNET_4: 'CHAIN.V4_DEVNET_4',
     V4_DEVNET_5: 'CHAIN.V4_DEVNET_5',
     V4_STAGING: 'CHAIN.V4_STAGING',
-    V4_TESTNET2: 'CHAIN.V4_TESTNET2',
-    V4_TESTNET2_DSRV: 'CHAIN.V4_TESTNET2_DSRV',
-    V4_TESTNET2_DYDX: 'CHAIN.V4_TESTNET2_DYDX',
-    V4_TESTNET2_NODEFLEET: 'CHAIN.V4_TESTNET2_NODEFLEET',
-    V4_TESTNET3_IMPERATOR: 'CHAIN.V4_TESTNET3_IMPERATOR',
+    V4_TESTNET: 'CHAIN.V4_TESTNET',
+    V4_TESTNET_DSRV: 'CHAIN.V4_TESTNET_DSRV',
+    V4_TESTNET_DYDX: 'CHAIN.V4_TESTNET_DYDX',
+    V4_TESTNET_IMPERATOR: 'CHAIN.V4_TESTNET_IMPERATOR',
+    V4_TESTNET_NODEFLEET: 'CHAIN.V4_TESTNET_NODEFLEET',
 };
 
 export const ERRORS_STRING_KEYS = {
