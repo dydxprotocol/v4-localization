@@ -1328,6 +1328,20 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperator)"
   },
   "ERRORS": {
+    "BROADCAST_ERROR_2000": "Fill Or Kill order could not be fully filled",
+    "BROADCAST_ERROR_2001": "Reduce-only orders cannot increase the position size",
+    "BROADCAST_ERROR_2002": "Reduce-only orders cannot change the position side",
+    "BROADCAST_ERROR_2003": "Post-only order would cross one or more maker orders",
+    "BROADCAST_ERROR_3000": "Invalid order flags",
+    "BROADCAST_ERROR_3001": "Invalid order goodTilBlockTime",
+    "BROADCAST_ERROR_3002": "Stateful orders cannot require immediate execution",
+    "BROADCAST_ERROR_3003": "The block time is greater than the GoodTilBlockTime of the message",
+    "BROADCAST_ERROR_3004": "The GoodTilBlockTime of the message is further than StatefulOrderTimeWindow into the future",
+    "BROADCAST_ERROR_3005": "Existing stateful order has higher-or-equal priority than the new one",
+    "BROADCAST_ERROR_3006": "Stateful order does not exist",
+    "BROADCAST_ERROR_3007": "Stateful order collateralization check failed",
+    "BROADCAST_ERROR_3008": "Stateful order was previously cancelled and therefore cannot be placed",
+  
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Something went wrong. Please try again later.",
@@ -1381,21 +1395,6 @@
       "VALIDATOR_DOWN": "Unable to get current block height.",
       "VALIDATOR_HALTED": "Validator has halted on block {HALTED_BLOCK}.",
       "UNKNOWN_API_ERROR": "Unknown API error"
-    },
-    "ORDER_VALIDATION": {
-      "2000_FILL_OR_KILL_ORDER_COULD_NOT_BE_FULLY_FILLED": "Fill Or Kill order could not be fully filled",
-      "2001_REDUCE_ONLY_WOULD_INCREASE_POSITION_SIZE": "Reduce-only orders cannot increase the position size",
-      "2002_REDUCE_ONLY_WOULD_CHANGE_POSITION_SIDE": "Reduce-only orders cannot change the position side",
-      "2003_POST_ONLY_WOULD_CROSS_MAKER_ORDER": "Post-only order would cross one or more maker orders",
-      "3000_INVALID_ORDER_FLAGS": "Invalid order flags",
-      "3001_INVALID_STATEFUL_ORDER_GOOD_TIL_BLOCK_TIME": "Invalid order goodTilBlockTime",
-      "3002_STATEFUL_ORDERS_CANNOT_REQUIRE_IMMEDIATE_EXECUTION": "Stateful orders cannot require immediate execution",
-      "3003_TIME_EXCEEDS_GOOD_TIL_BLOCK_TIME": "The block time is greater than the GoodTilBlockTime of the message",
-      "3004_GOOD_TIL_BLOCK_TIME_EXCEEDS_STATEFUL_ORDER_TIME_WINDOW": "The GoodTilBlockTime of the message is further than StatefulOrderTimeWindow into the future",
-      "3005_STATEFUL_ORDER_ALREADY_EXISTS": "Existing stateful order has higher-or-equal priority than the new one",
-      "3006_STATEFUL_ORDER_DOES_NOT_EXIST": "Stateful order does not exist",
-      "3007_STATEFUL_ORDER_COLLATERALIZATION_CHECK_FAILED": "Stateful order collateralization check failed",
-      "3008_STATEFUL_ORDER_PREVIOUSLY_CANCELLED": "Stateful order was previously cancelled and therefore cannot be placed"
     },
     "ONBOARDING": {
       "BANNED_USER": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, you have been permanently blocked from performing transfers within the protocol, making fast withdrawals to remove funds from the protocol, and placing orders other than market orders that reduce your positions. You may withdraw your funds from the protocol at any time.",
