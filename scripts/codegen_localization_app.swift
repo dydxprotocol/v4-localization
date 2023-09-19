@@ -39,7 +39,9 @@ func generateItems(keyPath: String, lastKey: String?, value: Any?) {
             print("\n    // \(lastKey)\n")
         }
         for subKey in value.keys.sorted() {
-            generateItems(keyPath: keyPath + "." + subKey, lastKey: subKey, value: value[subKey])
+            if subKey != "TRADE_BOX_TITLE" {
+                generateItems(keyPath: keyPath + "." + subKey, lastKey: subKey, value: value[subKey])
+            }
         }
     } else if let lastKey = lastKey {
         // ensure no duplicate keys

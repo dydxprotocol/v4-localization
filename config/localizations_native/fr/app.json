@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Entrez l'adresse du portefeuille",
-      "ENTER_TRANSFER_AMOUNT": "Entrez le montant"
+      "ENTER_TRANSFER_AMOUNT": "Saisir le montant du transfert"
     },
     "FIAT_ONRAMP": {
       "NEW": "Nouveau !",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Changer de réseau de trading",
       "CALCULATING": "En cours de calcul ...",
       "NO_HASH": "Impossible d'obtenir le hachage de transaction.",
+      "NO_GAS_TITLE": "Solde du portefeuille insuffisant pour couvrir les frais de transaction",
+      "NO_GAS_BODY": "Veuillez d'abord effectuer un petit dépôt sur votre compte dYdX pour recharger votre portefeuille",
       "THEME": "Thème",
       "DIRECTION_COLOR_PREFERENCE": "Préférence de couleur",
       "DARK": "Sombre",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "Adresse de la chaîne dYdX",
       "SOURCE_ADDRESS": "Adresse source",
       "DYDX_ADDRESS_COPIED": "L'adresse de la chaîne dYdX est copiée dans le presse-papier.",
-      "DYDX_MNEMONIC_COPIED": "La phrase secrète est copiée dans le presse-papiers."
+      "DYDX_MNEMONIC_COPIED": "La phrase secrète est copiée dans le presse-papiers.",
+      "SYSTEM_STATUS": "État du système"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Vérifier le statut du dépôt ...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "Votre retrait de {AMOUNT_ELEMENT}a été soumis. Cela peut prendre quelques minutes.",
       "COMPLETED_TITLE": "Retrait effectué",
       "COMPLETED_TEXT": "Votre retrait a été effectué."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Transfert envoyé",
+      "COMPLETED_TEXT": "Votre transfert de {AMOUNT_ELEMENT}{TOKEN}a été soumis"
     }
   },
   "ERRORS": {

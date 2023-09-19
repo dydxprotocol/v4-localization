@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Введите адрес кошелька",
-      "ENTER_TRANSFER_AMOUNT": "Введите сумму"
+      "ENTER_TRANSFER_AMOUNT": "Введите сумму перевода"
     },
     "FIAT_ONRAMP": {
       "NEW": "Новинка!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Переключить торговую сеть",
       "CALCULATING": "Выполняется расчет...",
       "NO_HASH": "Не удалось получить хэш транзакции.",
+      "NO_GAS_TITLE": "Недостаточный остаток кошелька для оплаты комиссии за газ",
+      "NO_GAS_BODY": "Сначала внесите небольшой депозит на свой счёт в системе dYdX для пополнения кошелька.",
       "THEME": "Тема",
       "DIRECTION_COLOR_PREFERENCE": "Предпочтительный цвет",
       "DARK": "Темная",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "Адрес dYdX Chain",
       "SOURCE_ADDRESS": "Исходный адрес",
       "DYDX_ADDRESS_COPIED": "Адрес dYdX Chain скопирован в буфер обмена.",
-      "DYDX_MNEMONIC_COPIED": "Секретная фраза скопирована в буфер обмена."
+      "DYDX_MNEMONIC_COPIED": "Секретная фраза скопирована в буфер обмена.",
+      "SYSTEM_STATUS": "Состояние системы"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Проверка статуса внесения средств...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "Ваш запрос на вывод {AMOUNT_ELEMENT} отправлен. Это может занять несколько минут.",
       "COMPLETED_TITLE": "Вывод средств завершен",
       "COMPLETED_TEXT": "Ваш вывод средств завершен."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Перевод отправлен",
+      "COMPLETED_TEXT": "Ваш перевод на сумму {AMOUNT_ELEMENT} {TOKEN} отправлен"
     }
   },
   "ERRORS": {

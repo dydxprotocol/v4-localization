@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Wallet Adresse eingeben",
-      "ENTER_TRANSFER_AMOUNT": "Geben Sie den Betrag ein"
+      "ENTER_TRANSFER_AMOUNT": "Transferbetrag eingeben"
     },
     "FIAT_ONRAMP": {
       "NEW": "Neu!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Handelsnetzwerk umschalten",
       "CALCULATING": "Berechnung ...",
       "NO_HASH": "Transaktions-Hash kann nicht abgerufen werden.",
+      "NO_GAS_TITLE": "Unzureichendes Wallet-Guthaben zur Deckung der Gasgebühr",
+      "NO_GAS_BODY": "Bitte nehmen Sie zuerst eine kleine Einzahlung auf Ihr dYdX-Konto vor, um Ihr Wallet aufzufüllen.",
       "THEME": "Thema",
       "DIRECTION_COLOR_PREFERENCE": "Farbpräferenz",
       "DARK": "Dunkel",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "dYdX-Kettenadresse",
       "SOURCE_ADDRESS": "Quelladresse",
       "DYDX_ADDRESS_COPIED": "Die dYdX-Kettenadresse wird in die Zwischenablage kopiert.",
-      "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert."
+      "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert.",
+      "SYSTEM_STATUS": "Systemstatus"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Einzahlungsstatus prüfen ...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "Ihre Auszahlung von {AMOUNT_ELEMENT}wurde vorgenommen. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Auszahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Auszahlung wurde abgeschlossen."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Transfer übermittelt",
+      "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
     }
   },
   "ERRORS": {
