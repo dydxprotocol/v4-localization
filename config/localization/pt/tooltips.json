@@ -1,5 +1,8 @@
 {
   "GENERAL": {
+    "DYDX_ADDRESS": {
+      "BODY": "Seu endereço dYdXs \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Ethereum \"{EVM_ADDRESS}\"."
+    },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
       "BODY": "Marque esta opção se você usou a assinatura de carteira hardware \/ assinatura legada para gerar suas chaves anteriormente."
@@ -134,7 +137,11 @@
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
-      "BODY": "Valor de {SYMBOL} para comprar ou vender. Este é o valor que sua posição aumentará ou diminuirá pelo valor de quando a ordem for executada, não o valor resultante da sua posição."
+      "BODY": "Valor de {SYMBOL} para comprar ou vender. Este é o valor que sua posição aumentará ou diminuirá quando a ordem for preenchida, não o valor da sua posição resultante."
+    },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Valor da ordem",
+      "BODY": "Valor de {SYMBOL} em USD para comprar ou vender. Este é o valor que sua posição aumentará ou diminuirá quando a ordem for preenchida, não o valor da sua posição resultante."
     },
     "POST_ONLY": {
       "TITLE": "Ordem Post-Only",
@@ -152,13 +159,13 @@
       "TITLE": "Apenas redução",
       "BODY": "A opção Apenas redução impede que um pedido altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
     },
-    "STEP_SIZE": {
-      "TITLE": "Intervalo de aumento\/redução",
-      "BODY": "O intervalo de aumento\/redução é o menor fator permitido a valores de ordem neste mercado."
+    "SPREAD": {
+      "TITLE": "Spread",
+      "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a vender) de um ativo."
     },
-    "TRIGGER_PRICE": {
-      "TITLE": "Preço de disparo",
-      "BODY": "Quando o preço do oráculo ou último preço de trade deste mercado cruzar seu preço de disparo, sua ordem de stop\/take profit será convertida em uma ordem limite ou será executada como uma ordem de mercado."
+    "STEP_SIZE": {
+      "TITLE": "Tamanho do valor",
+      "BODY": "O intervalo de aumento\/redução é o menor fator permitido a valores de ordem neste mercado."
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de Taker",
@@ -175,6 +182,10 @@
     "TRAILING_PERCENT": {
       "TITLE": "Porcentagem de trailing",
       "BODY": "A porcentagem de trailing define o percentual no qual seu preço de stop fará o \"trailing\" do preço do oráculo. Sempre que o preço do oráculo se mover a favor da sua posição, o preço de parada da sua ordem será atualizado conforme o seu percentual de trailing especificado."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Preço de disparo",
+      "BODY": "Quando o preço do oráculo ou último preço de trade deste mercado cruzar seu preço de disparo, sua ordem de stop\/take profit será convertida em uma ordem limite ou será executada como uma ordem de mercado."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Lucros \/ perdas não realizados",
