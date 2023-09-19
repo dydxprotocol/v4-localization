@@ -47,6 +47,8 @@
       "AVAILABLE": "余力",
       "BACK": "戻る",
       "BALANCE": "残高",
+      "BASE_INITIAL_MARGIN_FRACTION": "基本初期保証金比率",
+      "BASE_POSITION_NOTIONAL": "基本ポジション想定元本",
       "BLOCK_HEIGHT": "Block Height（ブロックの高さ）",
       "BUY": "買い",
       "BUYING_POWER": "購買力",
