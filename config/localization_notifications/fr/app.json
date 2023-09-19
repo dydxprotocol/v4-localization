@@ -20,6 +20,10 @@
       "TITLE": "Position liquidée",
       "BODY": "Votre positition {SIDE}sur {MARKET} a été liquidée."
     },
+    "POSITION_CLOSED": {
+      "TITLE": "Position fermée",
+      "BODY": "Votre positition sur  {MARKET}a été liquidée."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Dépôt réussi",
       "BODY": "Votre dépôt de {AMOUNT}{ASSET} a été confirmé."
