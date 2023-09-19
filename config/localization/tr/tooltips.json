@@ -1,5 +1,8 @@
 {
   "GENERAL": {
+    "DYDX_ADDRESS": {
+      "BODY": "\"{DYDX_ADDRESS}\" dYdX adresiniz \"{EVM_ADDRESS}\" Ethereum adresinizin imzasından oluşturulmuştur."
+    },
     "LEGACY_SIGNING": {
       "TITLE": "Eski imza",
       "BODY": "Bu seçeneği yalnızca anahtarlarınızı oluşturmak için donanım cüzdan imzası \/ eski imza kullandıysanız işaretleyin."
@@ -136,6 +139,10 @@
       "TITLE": "Talimat Miktarı",
       "BODY": "Satılacak veya satın alınacak {SYMBOL} miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
     },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Talimat Miktarı",
+      "BODY": "Satılacak veya satın alınacak {SYMBOL}USD cinsinden miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
+    },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
       "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
@@ -152,13 +159,13 @@
       "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azalt özelliği talimatın pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
+    "SPREAD": {
+      "TITLE": "Alış - Satış Farkı",
+      "BODY": "Bir varlık için verilen en yüksek alış (bir alıcının satın almak için ödemek istediği fiyat) ve en düşük satış (bir satıcının satış yapmak istediği fiyat) fiyatları arasındaki farktır."
+    },
     "STEP_SIZE": {
       "TITLE": "Adım Boyutu",
       "BODY": "Adım boyutu, bu piyasadaki talimat miktarları için izin verilen en küçük faktördür."
-    },
-    "TRIGGER_PRICE": {
-      "TITLE": "Tetikleme Fiyatı",
-      "BODY": "Bu piyasanın oracle fiyatı veya son işlem fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
@@ -175,6 +182,10 @@
     "TRAILING_PERCENT": {
       "TITLE": "Takip Eden Yüzdesi",
       "BODY": "Takip Eden yüzdesi, durdurma fiyatınızın oracle fiyatını \"takip\" edeceği yüzde değerini belirler. Oracle fiyatı pozisyonunuz lehine hareket ettiğinde, talimatınızın durdurma fiyatı belirlenen Takip Eden yüzdenize göre güncellenecektir."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Tetikleme Fiyatı",
+      "BODY": "Bu piyasanın oracle fiyatı veya son işlem fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Gerçekleşmemiş Kar \/ Zarar",
