@@ -73,7 +73,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Başlangıç Marj Oranı",
-      "BODY": "Marj oranı, pozisyonunuzun kavram değeri net varlığınıza bölünerek hesaplanır. Marj oranınız başlangıç marj oranını aşıyorsa, artık pozisyonunuzu artırmanıza izin verilmez. Riski sınırlamak için, başlangıç marj oranı belirli bir eşikten sonra pozisyon boyutuyla doğrusal olarak artar."
+      "BODY": "Marj oranı, pozisyonunuzun kavram değeri net varlığınıza bölünerek hesaplanır. Marj oranınız başlangıç marj oranını aşıyorsa, artık pozisyonunuzu artırmanıza izin verilmez. Riski sınırlamak amacıyla, başlangıç marj oranı, pozisyon konumunun Temel Pozisyonel Fiktif Değeri ile Temel Başlangıç Marj Oranının çarpımına bölünmesinin kare kökü oranında artmaktadır."
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
