@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Digite o endereço da carteira",
-      "ENTER_TRANSFER_AMOUNT": "Digite o valor"
+      "ENTER_TRANSFER_AMOUNT": "Digite o valor da transferência"
     },
     "FIAT_ONRAMP": {
       "NEW": "Novo!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Alternar rede de trading",
       "CALCULATING": "Calculando ...",
       "NO_HASH": "Não foi possível obter o hash da transação",
+      "NO_GAS_TITLE": "Saldo insuficiente da carteira para cobrir a taxa de gás",
+      "NO_GAS_BODY": "Primeiro, faça um pequeno depósito em sua conta dYdX para recarregar a carteira.",
       "THEME": "Tema",
       "DIRECTION_COLOR_PREFERENCE": "Preferência de cor",
       "DARK": "Escuro",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "Endereço da cadeia dYdX",
       "SOURCE_ADDRESS": "Endereço de origem",
       "DYDX_ADDRESS_COPIED": "O endereço da cadeia dYdX foi copiado para a área de transferência.",
-      "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência."
+      "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência.",
+      "SYSTEM_STATUS": "Status do sistema"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Verificando o status do depósito ...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "Seu saque de {AMOUNT_ELEMENT}foi confirmado. Isso pode levar alguns minutos.",
       "COMPLETED_TITLE": "Saque concluído",
       "COMPLETED_TEXT": "Seu saque foi concluído."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Transferência enviada",
+      "COMPLETED_TEXT": "Sua transferência de {AMOUNT_ELEMENT} {TOKEN} foi enviada"
     }
   },
   "ERRORS": {

@@ -20,6 +20,10 @@
       "TITLE": "清算済みポジション",
       "BODY": "{MARKET}の{SIDE}ポジションは清算されました。"
     },
+    "POSITION_CLOSED": {
+      "TITLE": "ポジション クローズ",
+      "BODY": "{MARKET}のポジションはクローズされました。"
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "入金に成功しました",
       "BODY": "{ASSET}の{AMOUNT}の入金が承認されました。"
