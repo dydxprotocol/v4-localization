@@ -1,5 +1,8 @@
 {
   "GENERAL": {
+    "DYDX_ADDRESS": {
+      "BODY": "Ihre dYdX-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
+    },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
       "BODY": "Kreuzen Sie diese Option nur dann an, wenn Sie zuvor Hardware Wallet Signing \/ Legacy Signing zur Erstellung Ihrer Keys verwendet haben."
@@ -136,6 +139,10 @@
       "TITLE": "Orderbetrag",
       "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Orderbetrag",
+      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
@@ -152,13 +159,13 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only verhindert, dass eine Order die Position wechselt (Long zu Short oder Short zu Long). Eine Order mit eingestelltem Reduce-Only wird automatisch ihre Größe anpassen und sich selbst stornieren, wenn sich Ihre Position ändert."
     },
+    "SPREAD": {
+      "TITLE": "Spread",
+      "BODY": "Der Preisunterschied zwischen dem höchsten (dem Preis, für den ein Käufer kaufen will) und  niedrigsten Gebot (der Preis, für den Verkäufer verkaufen will) für einen Vermögenswert."
+    },
     "STEP_SIZE": {
       "TITLE": "Step Size",
       "BODY": "Step Size ist der kleinste Faktor, der für Orderbeträge auf diesem Markt zulässig ist."
-    },
-    "TRIGGER_PRICE": {
-      "TITLE": "Trigger-Preis",
-      "BODY": "Wenn der Oracle-Preis oder der letzte Tradepreis dieses Marktes Ihren Trigger-Preis kreuzt, wird Ihre Stop\/Take-Profit Order entweder in eine Limit-Order umgewandelt oder als Market-Order ausgeführt."
     },
     "TAKER_FEE": {
       "TITLE": "Taker-Gebühr",
@@ -175,6 +182,10 @@
     "TRAILING_PERCENT": {
       "TITLE": "Trailing Prozent",
       "BODY": "Trailing-Prozentsatz ist der festgelegte Prozentsatz, mit dem Ihr Stopp-Preis dem Oracle-Preis „folgen“ wird. Immer wenn sich der Oracle-Preis zugunsten Ihrer Position bewegt, wird der Stopp-Preis für Ihre Order gemäß Ihrem angegebenen Trailing-Prozentsatz aktualisiert."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Trigger-Preis",
+      "BODY": "Wenn der Oracle-Preis oder der letzte Tradepreis dieses Marktes Ihren Trigger-Preis kreuzt, wird Ihre Stop\/Take-Profit Order entweder in eine Limit-Order umgewandelt oder als Market-Order ausgeführt."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Nicht realisierter Gewinn \/ Verlust",
