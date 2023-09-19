@@ -1,5 +1,8 @@
 {
   "GENERAL": {
+    "DYDX_ADDRESS": {
+      "BODY": "Votre adresse dYdX \"{DYDX_ADDRESS}\" a été créée à partir de la signature de l'adresse Ethereum \"{EVM_ADDRESS}\"."
+    },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
       "BODY": "Ne cochez cette option que si vous avez déjà utilisé la signature de portefeuille matériel \/ la signature héritée pour générer vos clés."
@@ -70,7 +73,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge initiale",
-      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge initiale, vous ne serez plus autorisé à augmenter votre position. Pour limiter le risque, la fraction de marge initiale augmente linéairement avec la taille de la position après un certain seuil."
+      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge initiale, vous ne serez plus autorisé à augmenter votre position. Pour limiter le risque, la fraction de marge initiale augmente par la racine carrée de la taille de la position divisée par la valeur notionnelle de base et multipliée par la fraction de marge initiale de base."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop initial",
@@ -136,6 +139,10 @@
       "TITLE": "Montant de l'ordre",
       "BODY": "Montant de {SYMBOL} à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
     },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Montant de l'ordre",
+      "BODY": "Montant de  {SYMBOL}à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Les ordres avec post-only activé ne peuvent être placés qu'en tant qu'ordres Maker. Si l'ordre croise d'autres ordres au moment du placement, il sera automatiquement annulé."
@@ -152,13 +159,13 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à short, ou short à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera. "
     },
+    "SPREAD": {
+      "TITLE": "Spread",
+      "BODY": "La différence de prix entre l'offre la plus élevée (le prix auquel un acheteur est prêt à acheter) et la demande la plus basse (le prix auquel un vendeur est prêt à vendre) d'un actif."
+    },
     "STEP_SIZE": {
       "TITLE": "Taille de l'étape",
       "BODY": "La taille de l'étape est le plus petit facteur autorisé pour les montants d'ordres sur ce marché."
-    },
-    "TRIGGER_PRICE": {
-      "TITLE": "Prix de déclenchement",
-      "BODY": "Lorsque le prix d'oracle ou le dernier prix du trade de ce marché croise votre prix de déclenchement, votre ordre Stop\/Take Profit sera soit converti en ordre de limite, soit exécuté en tant qu'ordre au marché."
     },
     "TAKER_FEE": {
       "TITLE": "Frais Taker",
@@ -175,6 +182,10 @@
     "TRAILING_PERCENT": {
       "TITLE": "Pourcentage de Trailing",
       "BODY": "Le pourcentage de suivi définit le pourcentage que votre stop price « entraînera » le prix d'oracle. Chaque fois que le prix d'oracle évolue en faveur de votre position, le stop price de votre ordre sera mis à jour en fonction de votre pourcentage de suivi indiqué."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Prix de déclenchement",
+      "BODY": "Lorsque le prix d'oracle ou le dernier prix du trade de ce marché croise votre prix de déclenchement, votre ordre Stop\/Take Profit sera soit converti en ordre de limite, soit exécuté en tant qu'ordre au marché."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Bénéfice \/ Perte non réalisé",
