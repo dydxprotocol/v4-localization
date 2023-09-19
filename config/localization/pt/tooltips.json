@@ -73,7 +73,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
-      "BODY": "A fração de margem é calculada como o valor referencial da sua posição dividido pela equidade. Se a sua fração de margem exceder a fração de margem inicial, você não terá mais permissão para aumentar sua posição. Para evitar riscos, a fração de margem inicial aumenta linearmente com base no tamanho da posição após um determinado limite."
+      "BODY": "A fração de margem é calculada como o valor referencial da sua posição dividido pela equidade. Se a sua fração de margem exceder a fração de margem inicial, você não terá mais permissão para aumentar sua posição. Para limitar o risco, a fração da margem inicial aumenta pela raiz quadrada do tamanho da posição dividido pelo Referencial da posição básico multiplicado pela Fração da margem inicial básica."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop inicial",
