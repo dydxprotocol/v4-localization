@@ -20,6 +20,10 @@
       "TITLE": "Pozisyon Tasfiye Edildi",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz tasfiye edildi."
     },
+    "POSITION_CLOSED": {
+      "TITLE": "Pozisyon Kapalı",
+      "BODY": "{MARKET} üzerindeki pozisyonunuz kapatıldı."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Yatırma Başarılı Oldu",
       "BODY": "{AMOUNT} {ASSET} yatırma işleminiz onaylandı."

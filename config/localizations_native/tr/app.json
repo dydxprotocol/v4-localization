@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Cüzdan adresini girin",
-      "ENTER_TRANSFER_AMOUNT": "Miktar girin"
+      "ENTER_TRANSFER_AMOUNT": "Transfer miktarını girin"
     },
     "FIAT_ONRAMP": {
       "NEW": "Yeni!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "Trading Ağını Değiştir",
       "CALCULATING": "Hesaplanıyor ...",
       "NO_HASH": "İşlem karması alınamıyor.",
+      "NO_GAS_TITLE": "Gaz ücretini karşılamak için yetersiz cüzdan bakiyesi",
+      "NO_GAS_BODY": "Lütfen önce cüzdanınızı doldurmak için dYdX hesabınıza küçük bir miktar para yatırın.",
       "THEME": "Tema",
       "DIRECTION_COLOR_PREFERENCE": "Renk Tercihi",
       "DARK": "Koyu",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "dYdX Zincir adresi",
       "SOURCE_ADDRESS": "Kaynak adresi",
       "DYDX_ADDRESS_COPIED": "dYdX Zincir adresi panoya kopyalandı.",
-      "DYDX_MNEMONIC_COPIED": "Gizli ifade panoya kopyalandı."
+      "DYDX_MNEMONIC_COPIED": "Gizli ifade panoya kopyalandı.",
+      "SYSTEM_STATUS": "Sistem Durumu"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Yatırma durumu kontrol ediliyor ...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT} tutarında çekme talebiniz gönderildi. Bu işlem birkaç dakika sürebilir.",
       "COMPLETED_TITLE": "Çekme tamamlandı",
       "COMPLETED_TEXT": "Çekme işleminiz tamamlandı."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "Transfer gönderildi",
+      "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} tutarındaki transferiniz gönderildi"
     }
   },
   "ERRORS": {
