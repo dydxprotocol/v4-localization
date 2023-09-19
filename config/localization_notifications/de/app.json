@@ -20,6 +20,10 @@
       "TITLE": "Position aufgelöst",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde gelöscht."
     },
+    "POSITION_CLOSED": {
+      "TITLE": "Position geschlossen",
+      "BODY": "Ihre Position bei {MARKET} wurde geschlossen."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Einzahlung erfolgreich",
       "BODY": "Ihre Einzahlung von {AMOUNT} {ASSET} wurde bestätigt."
