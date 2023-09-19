@@ -73,7 +73,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge initiale",
-      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge initiale, vous ne serez plus autorisé à augmenter votre position. Pour limiter le risque, la fraction de marge initiale augmente linéairement avec la taille de la position après un certain seuil."
+      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge initiale, vous ne serez plus autorisé à augmenter votre position. Pour limiter le risque, la fraction de marge initiale augmente par la racine carrée de la taille de la position divisée par la valeur notionnelle de base et multipliée par la fraction de marge initiale de base."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop initial",
