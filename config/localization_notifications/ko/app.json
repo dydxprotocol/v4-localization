@@ -20,6 +20,10 @@
       "TITLE": "포지션이 청산되었습니다",
       "BODY": "{SIDE} {MARKET}포지션이 청산되었습니다."
     },
+    "POSITION_CLOSED": {
+      "TITLE": "포지션 닫힘",
+      "BODY": "{MARKET} 포지션이 닫혔습니다."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "입금이 완료되었습니다",
       "BODY": "{AMOUNT} {ASSET}의 입금이 확인되었습니다."
