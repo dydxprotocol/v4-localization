@@ -333,7 +333,7 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "지갑 주소 입력",
-      "ENTER_TRANSFER_AMOUNT": "금액을 입력하세요"
+      "ENTER_TRANSFER_AMOUNT": "송금액 입력"
     },
     "FIAT_ONRAMP": {
       "NEW": "신규!",
@@ -352,6 +352,8 @@
       "SWITCH_NETWORK": "거래 네트워크 전환",
       "CALCULATING": "계산 중 ...",
       "NO_HASH": "트랜잭션 해시를 얻을 수 없습니다.",
+      "NO_GAS_TITLE": "가스 요금을 충당하기 위한 지갑 잔고 부족",
+      "NO_GAS_BODY": "지갑을 다시 채우기 위해 먼저 dYdX 계정에 소액을 입금하십시오.",
       "THEME": "테마",
       "DIRECTION_COLOR_PREFERENCE": "색상 설정",
       "DARK": "어두운",
@@ -364,7 +366,8 @@
       "DYDX_ADDRESS": "dYdX 체인 주소",
       "SOURCE_ADDRESS": "소스 주소",
       "DYDX_ADDRESS_COPIED": "dYdX 체인 주소가 클립보드에 복사되었습니다.",
-      "DYDX_MNEMONIC_COPIED": "비밀 문구가 클립보드에 복사되었습니다."
+      "DYDX_MNEMONIC_COPIED": "비밀 문구가 클립보드에 복사되었습니다.",
+      "SYSTEM_STATUS": "시스템 상태"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "입금 상태 확인 ...",
@@ -381,6 +384,10 @@
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}출금이 확인되었습니다. 이 작업은 몇 분 정도 소요될 수 있습니다.",
       "COMPLETED_TITLE": "출금 완료",
       "COMPLETED_TEXT": "출금이 완료되었습니다."
+    },
+    "V4_TRANSFEROUT": {
+      "COMPLETED_TITLE": "송금됨",
+      "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} 송금이 제출되었습니다"
     }
   },
   "ERRORS": {
