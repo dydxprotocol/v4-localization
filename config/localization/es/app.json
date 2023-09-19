@@ -47,6 +47,8 @@
       "AVAILABLE": "Disponible",
       "BACK": "Volver",
       "BALANCE": "Saldo",
+      "BASE_INITIAL_MARGIN_FRACTION": "Fracción del margen inicial de base",
+      "BASE_POSITION_NOTIONAL": "Posición nocional de base",
       "BLOCK_HEIGHT": "Altura del bloque",
       "BUY": "Comprar",
       "BUYING_POWER": "Poder de compra",
