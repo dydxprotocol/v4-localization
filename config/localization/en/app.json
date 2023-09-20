@@ -237,6 +237,8 @@
       "TRANSFER_IN": "Transfer In",
       "TRANSFER_OUT": "Transfer Out",
       "TRANSFERS": "Transfers",
+      "FROM": "from ${FROM}",
+      "TO": "to ${TO}",
       "TUTORIALS": "Tutorials",
       "TYPE": "Type",
       "UNAVAILABLE": "Unavailable",
