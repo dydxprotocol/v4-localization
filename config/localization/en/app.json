@@ -1345,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "Stateful order does not exist",
     "BROADCAST_ERROR_3007": "Stateful order collateralization check failed",
     "BROADCAST_ERROR_3008": "Stateful order was previously cancelled and therefore cannot be placed",
+    "BROADCAST_ERROR_3009": "Stateful order was previously removed and therefore cannot be placed",
+    "BROADCAST_ERROR_10001": "Subaccount cannot open more orders due to equity tier limit.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
@@ -1387,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Your trigger price must be below the current oracle price: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please update your trigger price or use a stop limit order.",
       "USER_MAX_ORDERS": "This order would put you above the max limit of 20 open orders per market, per side.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "This order would put you above the equity tier limit of {LIMIT} open orders",
       "WOULD_NOT_REDUCE": "Your position would not be reduced if order is filled.",
       "WOULD_NOT_REDUCE_UNCHECK": "Your position would not be reduced with this order. Please uncheck Reduce-Only if you would like to place your order.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days."
