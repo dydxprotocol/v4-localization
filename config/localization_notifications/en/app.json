@@ -39,6 +39,14 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "Slow Withdrawal Succeeded",
       "BODY": "Your withdrawal of {AMOUNT} {ASSET} has been confirmed."
+    },
+    "WALLET_RESTRICTED_ERROR": {
+      "TITLE": "Wallet Restricted",
+      "BODY": "The connected wallet has been disconnected."
+    },
+    "RATE_LIMIT_REACHED_ERROR": {
+      "TITLE": "Rate Limit Reached",
+      "BODY": "Rate limited reached for this IP address. Please try again later."
     }
   }
 }

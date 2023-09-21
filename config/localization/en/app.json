@@ -641,6 +641,8 @@
       "ABOUT_WALLETS": "About wallets",
       "ACKNOWLEDGE_TERMS": "Acknowledge terms",
       "API_KEYS_NOT_FOUND": "API Key not found",
+      "REGION_NOT_PERMITTED_TITLE": "dYdX Unavailable",
+      "REGION_NOT_PERMITTED_SUBTITLE": "",
       "APPEARS_OUTSIDE_ACCESS": "It appears that you are accessing dYdX from outside the United States or a restricted territory. You hereby agree, represent and warrant that:",
       "CHECK_WALLET_FOR_REQUEST": "Check your wallet for a request!",
       "COMING_SOON": "Coming soon!",
@@ -1770,7 +1772,8 @@
       "WITHDRAW_MORE_THAN_FREE": "You cannot withdraw more than your free collateral.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Please enter a destination address.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Please select an asset to withdraw to.",
-      "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to."
+      "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to.",
+      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS": "The entered destination address is restricted. Please enter a different destination address."
     },
     "TRANSFER_MODAL": {
       "TRANSFER_INVALID_DYDX_ADDRESS": "Invalid dYdX Chain address.",
