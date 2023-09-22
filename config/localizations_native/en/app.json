@@ -184,6 +184,7 @@
     },
     "WITHDRAW_MODAL": {
       "ENTER_WITHDRAW_AMOUNT": "Enter withdraw amount",
+      "ENTER_DESTINATION_ADDRESS": "Enter new destination address",
       "WITHDRAW_DESCRIPTION": "You are about to initiate a withdrawal of funds to the wallet shown below. This will not require a signature.",
       "WITHDRAW_ERROR": "Withdraw error",
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible.",

@@ -638,11 +638,17 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "Check status",
       "TRANSFEROUT_ALERT_TITLE": "You have pending transfer of {PENDING_TRANSFERS} {TOKEN}.",
       "TRANSFEROUT_ALERT_SUBTITLE": "Check status",
+      "WALLET_RESTRICTED_ERROR_TITLE": "Wallet Restricted",
+      "WALLET_RESTRICTED_ERROR_MESSAGE": "Because this address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, this address has been blocked.",
+      "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_DESTINATION_ERROR_MESSAGE": "Because the destination address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, the destination address has been blocked and this transaction cannot be completed.",
+      "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_ORIGINATION_ERROR_MESSAGE": "Because the origination address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, the origination address has been blocked and this transaction cannot be completed.",
+      "RATE_LIMIT_REACHED_ERROR_TITLE": "Rate Limit Reached",
+      "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Rate limited reached for this IP address. Please try again later.",
       "ABOUT_WALLETS": "About wallets",
       "ACKNOWLEDGE_TERMS": "Acknowledge terms",
       "API_KEYS_NOT_FOUND": "API Key not found",
       "REGION_NOT_PERMITTED_TITLE": "dYdX Unavailable",
-      "REGION_NOT_PERMITTED_SUBTITLE": "",
+      "REGION_NOT_PERMITTED_SUBTITLE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You may withdraw your funds from the protocol at any time.",
       "APPEARS_OUTSIDE_ACCESS": "It appears that you are accessing dYdX from outside the United States or a restricted territory. You hereby agree, represent and warrant that:",
       "CHECK_WALLET_FOR_REQUEST": "Check your wallet for a request!",
       "COMING_SOON": "Coming soon!",
@@ -1773,7 +1779,8 @@
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Please enter a destination address.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Please select an asset to withdraw to.",
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to.",
-      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS": "The entered destination address is restricted. Please enter a different destination address."
+      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS_TITLE": "Restricted Address",
+      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS_MESSAGE": "The entered destination address is restricted. Please enter a different destination address."
     },
     "TRANSFER_MODAL": {
       "TRANSFER_INVALID_DYDX_ADDRESS": "Invalid dYdX Chain address.",
