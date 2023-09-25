@@ -127,6 +127,10 @@
       "TITLE": "Maximum Leverage",
       "BODY": "Maximum allowed leverage for this market. To limit risk, maximum leverage decreases linearly with position size after a certain threshold."
     },
+    "MAXIMUM_REWARDS": {
+      "TITLE": "Maximum Rewards",
+      "BODY": "Earn rewards when you trade on dYdX. Actual rewards may vary."
+    },
     "NET_FUNDING": {
       "TITLE": "Net Funding",
       "BODY": "Total funding earned / paid for the lifetime of the current position. Resets if you close your position or change position sides (long to short, or vice versa)."
