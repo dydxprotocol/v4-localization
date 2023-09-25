@@ -640,7 +640,6 @@
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "perpetual funding",
       "GASLESS_DEPOSITS_NEW_PROMO": "If your first deposit is $1000 or more, dYdX will pay your deposit gas fees!",
       "GASLESS_DEPOSITS_PROMO": "Enjoy zero gas costs on your deposit of $2000 or more, once every three days.",
-      "GOVERNANCE": "Governance",
       "GOVERNANCE_DESCRIPTION": "To participate in governance, you need to export your secret phrase to Keplr Wallet.",
       "HOLDING": "Holding {NUMBER}",
       "IN_THIS_EPOCH": "in this epoch",
