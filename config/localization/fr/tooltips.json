@@ -23,6 +23,10 @@
       "TITLE": "Effet de levier du compte",
       "BODY": "Effet de levier de votre compte basé sur toutes vos positions ouvertes. Parce que votre compte est à marge croisée, chaque position ouverte a son propre effet de levier tout en affectant également l'effet de levier global de votre compte."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Notionnel de position de base",
+      "BODY": "La taille de la position maximale à laquelle les exigences de marge ne sont pas augmentées."
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Loss",
       "BODY": "Votre prix de déclenchement actuel pour exécuter un Stop Loss pour cet ordre de support."
