@@ -23,6 +23,10 @@
       "TITLE": "Apalancamiento de la cuenta",
       "BODY": "Apalancamiento de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Posición nocional de base",
+      "BODY": "El tamaño de la posición máxima en la que los requisitos de margen no se aumentan."
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Detención de pérdida",
       "BODY": "Tu precio de disparador actual para ejecutar una detención de pérdida para esta orden de soporte."
