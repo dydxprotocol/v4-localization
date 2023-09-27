@@ -27,7 +27,8 @@
         "TODAY": "Today",
         "WEEK": "Week",
         "WEEKS_ABBREVIATED": "w",
-        "WEEKS": "Weeks"
+        "WEEKS": "Weeks",
+        "X_MINUTES": "{X} Minutes"
       },
       "ABOUT": "About",
       "ACADEMY": "Academy",
@@ -556,7 +557,8 @@
       "SETTING_ALLOWANCE_EXPLANATION": "You will be able to deposit once your enable {SYMBOL} transaction confirms. You only have to do this once per asset.",
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Subject to these rules",
-      "SWAP": "Swap"
+      "SWAP": "Swap",
+      "ESTIMATED_TIME": "Estimated Time"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Enable withdraw",
