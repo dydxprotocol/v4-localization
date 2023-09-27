@@ -23,6 +23,10 @@
       "TITLE": "Alavancagem da conta",
       "BODY": "Alavanque sua conta com base em todas as suas posições abertas. Como sua conta é de margem cruzada, cada posição aberta tem sua própria alavancagem, o que também afeta a alavancagem geral da sua conta."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Valor referencial básico da posição ",
+      "BODY": "O tamanho máximo da posição no qual os requisitos de margem não são aumentados."
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Loss",
       "BODY": "O preço de disparo atual para executar uma ordem Stop Loss em relação a esta ordem bracket."
