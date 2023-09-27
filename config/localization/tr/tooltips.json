@@ -23,6 +23,10 @@
       "TITLE": "Hesap Kaldıracı",
       "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjlı olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Temel Pozisyon Fiktif Değeri",
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",
       "BODY": "Bu destekli talimatta bir stop emir talimatı yürütmek için geçerli tetikleme fiyatınız."
