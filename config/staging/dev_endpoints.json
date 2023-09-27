@@ -224,7 +224,8 @@
             ],
             "validators":[
                "https://dydx-testnet.nodefleet.org",
-               "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R"
+               "https://dydx-testnet-archive.allthatnode.com:26657/XZvMM41hESf8PJrEQiTzbCOMVyFca79R",
+               "https://test-dydx.kingnodes.com/"
             ],
             "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
@@ -327,12 +328,12 @@
          }
       },
       {
-         "comment":"V4 Public Testnet #3 Imperator Indexer",
-         "environment":"dydxprotocol-testnet-imperator",
+         "comment":"V4 Public Testnet #3 KingNodes Node",
+         "environment":"dydxprotocol-testnet-kingnodes",
          "ethereumChainId":"5",
          "dydxChainId":"dydx-testnet-3",
-         "string":"v4 Public Testnet #3 Imperator Indexer",
-         "stringKey":"CHAIN.V4_TESTNET_IMPERATOR",
+         "string":"v4 Public Testnet #3 KingNodes Node",
+         "stringKey":"CHAIN.V4_TESTNET_KINGNODES",
          "isMainNet":false,
          "version":"v4",
          "maxSubaccountNumber":127,
@@ -344,7 +345,7 @@
                }
             ],
             "validators":[
-               "https://validator.v4testnet.dydx.exchange"
+               "https://test-dydx.kingnodes.com/"
             ],
             "0xsquid":"https://squid-api-git-main-cosmos-testnet-0xsquid.vercel.app",
             "configs":"https://dydx-v4-shared-resources.vercel.app",
