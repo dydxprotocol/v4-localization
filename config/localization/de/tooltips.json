@@ -23,6 +23,10 @@
       "TITLE": "Konto-Hebelwirkung",
       "BODY": "Hebelwirkung auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
     },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Basis-Positionsnominalwert",
+      "BODY": "Die maximale Positionsgröße, bei der die Margin-Anforderungen nicht erhöht werden."
+    },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Loss",
       "BODY": "Ihr aktueller Triggerpreis zur Ausführung eines Stop Loss für diese Bracket Order."
@@ -73,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Anfangsmargin-Bruchwert",
-      "BODY": "Der Margenanteil wird berechnet, indem der Nennwert Ihrer Position durch das Kapital geteilt wird. Wenn Ihr Marginanteil die Quote der Ersteinschusszahlung überschreitet, können Sie Ihre Position nicht mehr erhöhen. Zur Risikominimierung erhöht sich die Quote der Ersteinschusszahlung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
+      "BODY": "Der Margenanteil wird berechnet, indem der Nennwert Ihrer Position durch das Kapital geteilt wird. Wenn Ihr Marginanteil die Quote der Ersteinschusszahlung überschreitet, können Sie Ihre Position nicht mehr erhöhen. Um das Risiko zu begrenzen, erhöht sich der anfängliche Margenanteil um die Quadratwurzel der Positionsgröße, geteilt durch den Basis-Positionsnominalwert, multipliziert mit dem anfänglichen Basis-Margenanteil."
     },
     "INITIAL_STOP": {
       "TITLE": "Initialer Stop",
