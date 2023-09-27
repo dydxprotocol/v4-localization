@@ -260,7 +260,7 @@
       "WITHDRAW": "Withdraw",
       "YOU": "You"
     },
-    "ASSETS": {
+    "__ASSETS": {
       "ZRX": {
         "PRIMARY": "0x is a professional grade liquidity aggregator protocol that allows users to easily trade ERC20 tokens and other assets. 0x uses a unique hybrid off-chain relay, on-chain settlement architecture to achieve a flexible and gas-efficient experience for traders.",
         "SECONDARY": "ZRX is 0x's native governance and staking token, allowing holders to vote on 0x Improvement Proposals (ZEIPs) and influence the development of the protocol. Additionally, ZRX can be staked or delegated to earn liquidity rewards through their market maker liquidity program."
