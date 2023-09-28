@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "최대 인출",
       "MAX": "최대",
       "MAXIMUM_LEVERAGE": "최대 레버리지",
+      "MAXIMUM_REWARDS": "최대 보상",
       "MENU": "메뉴",
       "METRICS": "지표",
       "MINIMUM_ORDER_SIZE": "최소 주문 규모",
@@ -220,6 +221,7 @@
       "TIER": "계층",
       "TIME": "시간",
       "TIMESTAMP_ERROR": "타임스탬프 오류",
+      "TOTAL_BALANCE": "총 잔액",
       "TOTAL_FEES": "총 수수료",
       "TOTAL_VALUE": "총 값",
       "TRADE_AN_AMOUNT": "{AMOUNT} 거래",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "전송 시작",
       "TRANSFER_OUT": "전송 종료",
       "TRANSFERS": "전송",
+      "FROM": "${FROM}부터",
+      "TO": "${TO}까지",
       "TUTORIALS": "튜토리얼",
       "TYPE": "유형",
       "UNAVAILABLE": "사용할 수 없음",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "상태 추적 주문이 존재하지 않습니다",
     "BROADCAST_ERROR_3007": "상태 추적 주문 자료화 검사 실패",
     "BROADCAST_ERROR_3008": "상태 추적 주문은 이전에 취소되었으므로 배치할 수 없습니다",
+    "BROADCAST_ERROR_3009": "상태 추적 주문은 이전에 제거되었으므로 배치할 수 없습니다",
+    "BROADCAST_ERROR_10001": "하위 계정은 계층 제한으로 인해 추가 주문을 열 수 없습니다.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "문제가 발생했습니다. {ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "발동 가격은 현재 오라클 가격인 보다 낮아야 합니다. {INDEX_PRICE}",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "발동 가격이 청산 가격에 너무 가깝습니다. 해당 주문은 완전히 실현되기 전에 청산될 수 있습니다. 발동 가격을 업데이트하거나 스탑 리밋 주문을 사용하세요.",
       "USER_MAX_ORDERS": "이 주문으로 귀하는 시장당, 측면당 20개의 미결 주문 한도를 초과하게 됩니다.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "이 주문은 {LIMIT} 미결 주문의 자본 계층 한도 이상으로 설정됩니다",
       "WOULD_NOT_REDUCE": "주문이 체결될 경우, 귀하의 포지션은 감소되지 않습니다.",
       "WOULD_NOT_REDUCE_UNCHECK": "귀하의 포지션은 해당 주문을 통해 감소되지 않을 수 있습니다. 주문을 요청하려면 리듀스 온리를 해제하세요.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "유효 주문은 최대 90일을 초과합니다."
