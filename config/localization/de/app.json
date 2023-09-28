@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "Max. Auszahlung",
       "MAX": "Max.",
       "MAXIMUM_LEVERAGE": "Maximale Leverage",
+      "MAXIMUM_REWARDS": "Maximale Prämien",
       "MENU": "Menü",
       "METRICS": "Metriken",
       "MINIMUM_ORDER_SIZE": "Mindestbestellwert",
@@ -220,6 +221,7 @@
       "TIER": "Stufe",
       "TIME": "Zeit",
       "TIMESTAMP_ERROR": "Timestamp-Fehler",
+      "TOTAL_BALANCE": "Gesamtguthaben",
       "TOTAL_FEES": "Gebühren insgesamt",
       "TOTAL_VALUE": "Gesamtwert",
       "TRADE_AN_AMOUNT": "Traden: {AMOUNT}",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "Transfer in",
       "TRANSFER_OUT": "Transfer ausgeführt",
       "TRANSFERS": "Transfers",
+      "FROM": "von ${FROM}",
+      "TO": "zu ${TO}",
       "TUTORIALS": "Tutorials",
       "TYPE": "Typ",
       "UNAVAILABLE": "Nicht verfügbar",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "Stateful-Order existiert nicht",
     "BROADCAST_ERROR_3007": "Besicherungsprüfung für Stateful-Order fehlgeschlagen",
     "BROADCAST_ERROR_3008": "Statful-Order wurde zuvor storniert und kann daher nicht platziert werden",
+    "BROADCAST_ERROR_3009": "Statful-Order wurde zuvor entfernt und kann daher nicht platziert werden",
+    "BROADCAST_ERROR_10001": "Das Unterkonto kann aufgrund des Limits für die Eigenkapitalausstattung keine weiteren Orders eröffnen.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Etwas ist schiefgelaufen: {ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Ihr Auslösepreis muss unter dem aktuellen Oracle-Preis liegen: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Bitte aktualisieren Sie Ihren Auslösepreis oder verwenden Sie eine Stop-Limit-Order.",
       "USER_MAX_ORDERS": "Diese Order würde Sie über die maximale Grenze von 20 offenen Orders pro Markt und Seite bringen.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Diese Order würde Sie über das Limit für die Eigenkapitalausstattung von {LIMIT} offenen Orders bringen",
       "WOULD_NOT_REDUCE": "Ihre Position wird nicht reduziert, wenn die Order ausgeführt wird.",
       "WOULD_NOT_REDUCE_UNCHECK": "Ihre Position würde mit dieser Order nicht reduziert werden. Bitte deaktivieren Sie „Nur reduzieren“, wenn Sie Ihre Bestellung aufgeben möchten.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til überschreitet die maximale Dauer von 90 Tagen."
