@@ -250,6 +250,7 @@
          "endpoints":{
             "indexers":[
                {
+                  "TEST"
                   "api":"https://indexer.v4testnet.dydx.exchange",
                   "socket":"wss://indexer.v4testnet.dydx.exchange"
                }
