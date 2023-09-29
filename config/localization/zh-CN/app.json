@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "提现上限",
       "MAX": "最大值",
       "MAXIMUM_LEVERAGE": "最大杠杆",
+      "MAXIMUM_REWARDS": "最大奖励",
       "MENU": "菜单",
       "METRICS": "指标",
       "MINIMUM_ORDER_SIZE": "最小订单数量",
@@ -220,6 +221,7 @@
       "TIER": "等级",
       "TIME": "时间",
       "TIMESTAMP_ERROR": "时间戳错误",
+      "TOTAL_BALANCE": "余额共计",
       "TOTAL_FEES": "总费用",
       "TOTAL_VALUE": "总价值",
       "TRADE_AN_AMOUNT": "交易{AMOUNT}",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "转入",
       "TRANSFER_OUT": "转出",
       "TRANSFERS": "资金划转",
+      "FROM": "从 ${FROM}",
+      "TO": "至 ${TO}",
       "TUTORIALS": "教程",
       "TYPE": "订单类型",
       "UNAVAILABLE": "不可用",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "状态订单不存在",
     "BROADCAST_ERROR_3007": "状态订单质押检查失败",
     "BROADCAST_ERROR_3008": "状态订单先前已被取消，因此无法发出",
+    "BROADCAST_ERROR_3009": "状态订单先前已被撤销，因此无法发出",
+    "BROADCAST_ERROR_10001": "由于净值等级限制，子账户无法开立更多订单。",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "出现问题：{ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "您的触发价格必须低于当前预言机价格：{INDEX_PRICE}。",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请更新您的触发价或使用止损限价单。",
       "USER_MAX_ORDERS": "此订单将使您超过每个市场每边 20 个未结订单的最大限制。",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "此订单将使您超过{LIMIT}个未平仓订单的净值级别限制",
       "WOULD_NOT_REDUCE": "如果订单成交，您的头寸不会减少。",
       "WOULD_NOT_REDUCE_UNCHECK": "您的仓位不会因为此订单而减少。如果您想下单，请取消勾选“只减仓”。",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "有效期超过最大 90 天。"
