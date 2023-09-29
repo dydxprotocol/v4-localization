@@ -39,7 +39,7 @@ func generateItems(keyPath: String, lastKey: String?, value: Any?) {
             print("\n    // \(lastKey)\n")
         }
         for subKey in value.keys.sorted() {
-            if subKey != "TRADE_BOX_TITLE" {
+            if subKey != "TRADE_BOX_TITLE" && !subKey.starts(with: "__") {
                 generateItems(keyPath: keyPath + "." + subKey, lastKey: subKey, value: value[subKey])
             }
         }
