@@ -243,5 +243,11 @@
       "TITLE": "Verify email address",
       "BODY": "Please click the link in the email we sent you, which will help us verify ownership of your email address."
     }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdX Chain settlement",
+      "BODY": "To ensure the security of the protocol, dYdX Chain validators delay the settlement of dYdX Chain DYDX."
+    }
   }
 }
