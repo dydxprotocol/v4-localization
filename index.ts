@@ -5,7 +5,7 @@ import walletConnect from './wallet_connect';
 import { APP } from './config/localization/app';
 
 export { TOOLTIPS } from './config/localization/tooltip';
-export  { APP_STRING_KEYS, ERRORS_STRING_KEYS, WARNINGS_STRING_KEYS } from './scripts/generated/app';
+export  { APP_STRING_KEYS, ERRORS_STRING_KEYS, WARNINGS_STRING_KEYS, TOKEN_MIGRATION_STRING_KEYS } from './scripts/generated/app';
 export  { TOOLTIP_STRING_KEYS } from './scripts/generated/tooltips';
 export { APP_NATIVE } from './config/localizations_native';
 export { NOTIFICATIONS} from './config/localization_notifications';
