@@ -1636,6 +1636,8 @@
     "BROADCAST_ERROR_3009": "Stateful order was previously removed and therefore cannot be placed",
     "BROADCAST_ERROR_10001": "Subaccount cannot open more orders due to equity tier limit.",
     "GENERAL": {
+      "RATE_LIMIT_REACHED_ERROR_TITLE": "Rate Limit Reached",
+      "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Rate limited reached for this IP address. Please try again later.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Something went wrong. Please try again later.",
       "TIMESTAMP_DISCREPANCY": "For security purposes, we verify timestamps when authenticating your account. Please make sure your system clock is synced correctly and refresh the app."
@@ -1743,6 +1745,12 @@
       "UNKNOWN_API_ERROR": "Unknown API error"
     },
     "ONBOARDING": {
+      "WALLET_RESTRICTED_ERROR_TITLE": "Wallet Restricted",
+      "WALLET_RESTRICTED_ERROR_MESSAGE": "Because this address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, this address has been blocked.",
+      "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_DESTINATION_ERROR_MESSAGE": "Because the destination address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, the destination address has been blocked and this transaction cannot be completed.",
+      "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_ORIGINATION_ERROR_MESSAGE": "Because the origination address appears to be a resident of, or trading from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, the origination address has been blocked and this transaction cannot be completed.",
+      "REGION_NOT_PERMITTED_TITLE": "dYdX Unavailable",
+      "REGION_NOT_PERMITTED_SUBTITLE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You may withdraw your funds from the protocol at any time.",
       "BANNED_USER": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, you have been permanently blocked from performing transfers within the protocol, making fast withdrawals to remove funds from the protocol, and placing orders other than market orders that reduce your positions. You may withdraw your funds from the protocol at any time.",
       "COULD_NOT_CONNECT": "Couldn't connect to {WALLET}",
       "INDETERMINISTIC_SIGNING": "Your wallet does not support deterministic signing. Please switch to a different wallet provider.",
