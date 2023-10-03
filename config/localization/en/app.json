@@ -1778,9 +1778,7 @@
       "WITHDRAW_MORE_THAN_FREE": "You cannot withdraw more than your free collateral.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Please enter a destination address.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Please select an asset to withdraw to.",
-      "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to.",
-      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS_TITLE": "Restricted Address",
-      "WITHDRAW_RESTRICTED_DESTINATION_ADDRESS_MESSAGE": "The entered destination address is restricted. Please enter a different destination address."
+      "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to."
     },
     "TRANSFER_MODAL": {
       "TRANSFER_INVALID_DYDX_ADDRESS": "Invalid dYdX Chain address.",
