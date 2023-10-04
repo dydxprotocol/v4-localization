@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "Saque máximo",
       "MAX": "Máx",
       "MAXIMUM_LEVERAGE": "Alavancagem máxima",
+      "MAXIMUM_REWARDS": "Recompensas máximas",
       "MENU": "Menu",
       "METRICS": "Métricas",
       "MINIMUM_ORDER_SIZE": "Tamanho de ordem mínimo",
@@ -220,6 +221,7 @@
       "TIER": "Nível",
       "TIME": "Tempo",
       "TIMESTAMP_ERROR": "Erro de carimbo de data\/hora",
+      "TOTAL_BALANCE": "Saldo total",
       "TOTAL_FEES": "Total de taxas",
       "TOTAL_VALUE": "Valor total",
       "TRADE_AN_AMOUNT": "Negociar {AMOUNT}",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "Transferir para",
       "TRANSFER_OUT": "Saque eletrônico",
       "TRANSFERS": "Transferências",
+      "FROM": "de ${FROM}",
+      "TO": "para ${TO}",
       "TUTORIALS": "Tutoriais",
       "TYPE": "Tipo",
       "UNAVAILABLE": "Não disponível",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "A ordem com estado não existe",
     "BROADCAST_ERROR_3007": "Falha na verificação de colateralização de ordem com estado",
     "BROADCAST_ERROR_3008": "A ordem com estado foi cancelada anteriormente e, portanto, não pode ser colocada",
+    "BROADCAST_ERROR_3009": "A ordem com estado foi removida anteriormente e, portanto, não pode ser colocada",
+    "BROADCAST_ERROR_10001": "A subconta não pode abrir mais ordens devido ao limite do nível de equity.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Algo deu errado: {ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Seu preço de disparo precisa estar abaixo do preço de oráculo {INDEX_PRICE}atual: ",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Atualize o preço de disparo ou use uma ordem stop limit",
       "USER_MAX_ORDERS": "Esta ordem colocaria você acima do limite máximo de 20 ordens abertas por mercado, por ordem.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Esta ordem colocaria você acima do limite do nível de equity de {LIMIT} ordens abertas",
       "WOULD_NOT_REDUCE": "Sua posição não será reduzida se o pedido for preenchido.",
       "WOULD_NOT_REDUCE_UNCHECK": "Com esta ordem, sua posição não seria reduzida. Desmarque a opção Somente Reduzir se quiser colocar sua ordem.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til excede o máximo de 90 dias."
