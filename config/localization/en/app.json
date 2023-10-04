@@ -729,6 +729,7 @@
       "WELCOME_DYDX": "Welcome to dYdX",
       "WELCOME": "Welcome",
       "WITHDRAW_STATUS": "Your withdrawal of {AMOUNT_USD} will be available in approximately {ESTIMATED_DURATION}.",
+      "WITHDRAW_AVAILABLE": "Your withdrawal of {AMOUNT_USD} is now available.",
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "To complete dYdX onboarding, set your wallet network to 'Ethereum Mainnet'.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
