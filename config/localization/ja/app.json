@@ -2,7 +2,7 @@
   "APP": {
     "GENERAL": {
       "TIME_STRINGS": {
-        "_24H": "24H",
+        "_24H": "24時間",
         "_30D": "30D",
         "ALL_TIME": "すべての時間",
         "DAYS_ABBREVIATED": "日",
@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "最大出金額",
       "MAX": "最大",
       "MAXIMUM_LEVERAGE": "最大レバレッジ",
+      "MAXIMUM_REWARDS": "最大報酬",
       "MENU": "メニュー",
       "METRICS": "指標",
       "MINIMUM_ORDER_SIZE": "最小注文サイズ",
@@ -220,6 +221,7 @@
       "TIER": "クラス",
       "TIME": "時間",
       "TIMESTAMP_ERROR": "タイムスタンプエラー",
+      "TOTAL_BALANCE": "合計残高",
       "TOTAL_FEES": "合計手数料",
       "TOTAL_VALUE": "総価値",
       "TRADE_AN_AMOUNT": "{AMOUNT}を取引",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "外部からの資金移動",
       "TRANSFER_OUT": "外部への資金移動",
       "TRANSFERS": "移転",
+      "FROM": "{FROM}ドルから",
+      "TO": "{TO}ドルまで",
       "TUTORIALS": "チュートリアル（手引き書）",
       "TYPE": "タイプ",
       "UNAVAILABLE": "利用不可",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "ステートフル注文はありません",
     "BROADCAST_ERROR_3007": "ステートフル注文の担保チェックに失敗しました",
     "BROADCAST_ERROR_3008": "ステートフル注文は以前にキャンセルされているため、発注できません",
+    "BROADCAST_ERROR_3009": "ステートフル注文は以前に削除されているため、発注できません",
+    "BROADCAST_ERROR_10001": "エクイティティア限度額のため、サブアカウントはこれ以上注文をオープンできません。",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "問題が発生しました：{ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "トリガー価格が現在のオラクル価格である{INDEX_PRICE}を下回っている必要があります。",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。トリガー価格を更新するか、または指値注文のストップオーダーを使用してください。",
       "USER_MAX_ORDERS": "この注文を行うと、各マーケット、各サイドのオープンオーダーの上限である20件を超過します。",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "この注文を行うと、{LIMIT} オープンオーダーのエクエティティア限度を上回ります",
       "WOULD_NOT_REDUCE": "注文が約定された場合、ポジションが減少することはありません。",
       "WOULD_NOT_REDUCE_UNCHECK": "この注文ではポジションが減少することはありません。注文を出す場合、リデュースオンリーのチェックを外してください。",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "グッドティルが最大の90日を超えています。"
