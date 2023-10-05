@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "Retiro máximo",
       "MAX": "Max",
       "MAXIMUM_LEVERAGE": "Apalancamiento máximo",
+      "MAXIMUM_REWARDS": "Recompensas máximas",
       "MENU": "Menú",
       "METRICS": "Métricas",
       "MINIMUM_ORDER_SIZE": "Pedido mínimo",
@@ -220,6 +221,7 @@
       "TIER": "Nivel",
       "TIME": "Tiempo",
       "TIMESTAMP_ERROR": "Error de registro de hora",
+      "TOTAL_BALANCE": "Saldo total",
       "TOTAL_FEES": "Tarifas totales",
       "TOTAL_VALUE": "Valor total",
       "TRADE_AN_AMOUNT": "Operación{AMOUNT}",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "Transferir hacia adentro",
       "TRANSFER_OUT": "Salida",
       "TRANSFERS": "Transferencias",
+      "FROM": "desde ${FROM}",
+      "TO": "to ${TO}",
       "TUTORIALS": "Tutoriales",
       "TYPE": "Tipo",
       "UNAVAILABLE": "No disponible",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "La orden con estado no existe",
     "BROADCAST_ERROR_3007": "La comprobación de colateralización de orden con estado falló",
     "BROADCAST_ERROR_3008": "La orden con estado se canceló anteriormente y, por lo tanto, no se puede realizar",
+    "BROADCAST_ERROR_3009": "La orden con estado se borró anteriormente y, por lo tanto, no se puede realizar",
+    "BROADCAST_ERROR_10001": "La subcuenta no puede abrir más órdenes debido al límite de nivel de capital.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Algo salió mal: {ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Tu precio de activación debe estar por debajo del precio de oráculo actual: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tu precio de activación está demasiado cerca de tu precio de liquidación; puede que esta orden no se ejecute completamente antes de que seas liquidado. Actualiza tu precio de activación o utiliza una orden de límite de detención.",
       "USER_MAX_ORDERS": "Esta orden te posicionaría por encima del límite máximo de 20 órdenes abiertas por mercado, por parte.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Esta orden lo pondría por encima del límite de {LIMIT} órdenes abiertas",
       "WOULD_NOT_REDUCE": "Tu posición no se reduciría si la orden se completa.",
       "WOULD_NOT_REDUCE_UNCHECK": "Con esta orden tu posición no se reduciría. Por favor, desmarca Solo reducir si deseas poner tu orden.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Válido hasta que excede el máximo de 90 días."
