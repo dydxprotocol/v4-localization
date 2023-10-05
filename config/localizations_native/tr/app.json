@@ -71,9 +71,10 @@
       "PLACEHOLDER_NO_FILLS_LOG_IN": "İşlemleri görüntülemek için giriş yapmalısınız",
       "PLACEHOLDER_NO_TRADES": "Herhangi bir işleminiz bulunmuyor",
       "PLACEHOLDER_NO_TRADES_LOG_IN": "İşlemleri görüntülemek için giriş yapmalısınız",
-      "PLACEHOLDER_NO_FUNDING_LOG_IN": "Fonlamayı görüntülemek için giriş yapmalısınız",
-      "PLACEHOLDER_NO_TRANSFERS": "Herhangi bir transferiniz bulunmuyor",
       "PLACEHOLDER_NO_FUNDING": "Herhangi bir fonlama ödemeniz bulunmuyor",
+      "PLACEHOLDER_NO_FUNDING_LOG_IN": "Fonlama ödemelerini görüntülemek için giriş yapmalısınız",
+      "PLACEHOLDER_NO_TRANSFERS": "Herhangi bir transferiniz bulunmuyor",
+      "PLACEHOLDER_NO_TRANSFERS_LOG_IN": "Transferleri görüntülemek için giriş yapmalısınız",
       "PRICE_AND_TRIGGER": "Fiyat \/ Tetikleme",
       "PRICE_FEE": "Fiyat \/ Ücret",
       "PRICE_TYPE": "Fiyat \/ Tür",
@@ -354,7 +355,7 @@
       "CALCULATING": "Hesaplanıyor ...",
       "NO_HASH": "İşlem karması alınamıyor.",
       "NO_GAS_TITLE": "Gaz ücretini karşılamak için yetersiz cüzdan bakiyesi",
-      "NO_GAS_BODY": "Lütfen önce cüzdanınızı doldurmak için dYdX hesabınıza küçük bir miktar para yatırın.",
+      "NO_GAS_BODY": "Lütfen cüzdanınızı doldurmak için önce dYdX hesabınıza küçük bir miktar para yatırın.",
       "THEME": "Tema",
       "DIRECTION_COLOR_PREFERENCE": "Renk Tercihi",
       "DARK": "Koyu",
@@ -403,8 +404,8 @@
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Durdurma Piyasa talimatlarının, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Durdurma Limit talimatı kullanmayı deneyin.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa talimatlarının, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit talimatı kullanmayı deneyin."
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Durdurma Piyasa talimatlarının, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Durdurma Limit Emri kullanmayı deneyin.",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit talimatı kullanmayı deneyin."
     }
   }
 }
