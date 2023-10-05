@@ -148,6 +148,7 @@
       "MAX_WITHDRAW": "Retrait maximum",
       "MAX": "Max",
       "MAXIMUM_LEVERAGE": "Effet de levier maximum",
+      "MAXIMUM_REWARDS": "Récompenses maximales",
       "MENU": "Menu",
       "METRICS": "Métriques",
       "MINIMUM_ORDER_SIZE": "Taille de l'ordre minimum",
@@ -220,6 +221,7 @@
       "TIER": "Niveau",
       "TIME": "Temps",
       "TIMESTAMP_ERROR": "Erreur d'horodatage",
+      "TOTAL_BALANCE": "Solde total",
       "TOTAL_FEES": "Frais totaux",
       "TOTAL_VALUE": "Valeur totale",
       "TRADE_AN_AMOUNT": "Transaction {AMOUNT}",
@@ -235,6 +237,8 @@
       "TRANSFER_IN": "Transférer dans",
       "TRANSFER_OUT": "Transfert sortant",
       "TRANSFERS": "Transferts",
+      "FROM": "à partir de ${FROM}",
+      "TO": "à ${TO}",
       "TUTORIALS": "Tutoriels",
       "TYPE": "Type",
       "UNAVAILABLE": "Indisponible",
@@ -1341,6 +1345,8 @@
     "BROADCAST_ERROR_3006": "L'ordre à état n'existe pas",
     "BROADCAST_ERROR_3007": "La vérification de la collatéralisation d'ordre à état a échoué",
     "BROADCAST_ERROR_3008": "L'ordre à état a été précédemment annulé et ne peut donc pas être placé",
+    "BROADCAST_ERROR_3009": "La commande avec état a été précédemment supprimée et ne peut donc pas être passée",
+    "BROADCAST_ERROR_10001": "Le sous-compte ne peut pas ouvrir plus d'ordres en raison de la limite du niveau d'équité.",
   
     "GENERAL": {
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Une erreur s'est produite : {ERROR_MESSAGE}",
@@ -1383,6 +1389,7 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Votre prix de déclenchement doit être inférieur au prix actuel d'oracle : {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation - cet ordre peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez mettre à jour votre prix de déclenchement ou utiliser un ordre Stop limit.",
       "USER_MAX_ORDERS": "Cet ordre vous placerait au-dessus de la limite maximale de 20 ordres ouverts par marché, par côté.",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Cet ordre vous placerait au-dessus de la limite du niveau d'actions des ordres {LIMIT}ouverts",
       "WOULD_NOT_REDUCE": "Votre position ne serait pas réduite si l'ordre est exécuté.",
       "WOULD_NOT_REDUCE_UNCHECK": "Votre position ne serait pas réduite avec cet ordre. Veuillez décocher Reduce-Only si vous souhaitez passer votre ordre.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til dépasse le maximum de 90 jours."
