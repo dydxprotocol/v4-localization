@@ -27,9 +27,10 @@
         "TODAY": "今天",
         "WEEK": "周",
         "WEEKS_ABBREVIATED": "周",
-        "WEEKS": "周"
+        "WEEKS": "周",
+        "X_MINUTES": "{X} 分钟"
       },
-      "ABOUT": "关于",
+      "ABOUT": "简介",
       "ACADEMY": "学院",
       "ACCOUNT_LEVERAGE": "账户杠杆",
       "ACCOUNT": "账户",
@@ -58,6 +59,7 @@
       "CATEGORY": "类别",
       "CHAINS": "链",
       "CLEAR": "清仓",
+      "CLICK_HERE": "点击此处",
       "CLOSE": "平仓",
       "COMING_SOON": "即将推出",
       "COMPETITION": "竞争",
@@ -155,6 +157,7 @@
       "MODIFY": "修改",
       "NETWORK": "网络",
       "NEW": "新建",
+      "NO": "否",
       "NONE": "无",
       "OPERATIONAL": "运营",
       "OPTIONAL": "可选",
@@ -257,7 +260,206 @@
       "WEBSITE": "网站",
       "WHITEPAPER": "白皮书",
       "WITHDRAW": "提现",
+      "YES": "是",
       "YOU": "您"
+    },
+    "__ASSETS": {
+      "ZRX": {
+        "PRIMARY": "0x 是一种专业级流动性聚合器协议，用户可以轻松交易 ERC20 代币和其他资产。 0x 使用独特的混合链下中继、链上结算架构，为交易者实现灵活且具有成本效益的体验。",
+        "SECONDARY": "ZRX 是 0x 的原生治理和质押代币，持有者可以对 0x 改进提案（ZEIP）进行投票并影响协议的发展。此外，通过做市商流动性计划，可以质押或委托 ZRX 以获得流动性奖励。"
+      },
+      "1INCH": {
+        "PRIMARY": "1inch网络将去中心化的协议联合在一起，其协同作用使DeFi空间中最有利可图、最快和受保护的操作成为可能。",
+        "SECONDARY": "1inch网络的初始协议是一种去中心化交易所(DEX)聚合解决方案，它在多个流动性来源中搜索交易，从而为用户提供比任何单一交易所更好的利率。该协议融合了Pathfinder算法，该算法在以太坊的50多个以及币安智能链的20多个流动性来源的不同市场中找到了最佳路径。不到两年的时间，1inch DEX聚合总规模就超过了300亿美元。"
+      },
+      "AAVE": {
+        "PRIMARY": "Aaveは、資産を入金して金利を獲得したり、借り入れるためのオープンソースプロトコルであり、カストディ機能はありません。",
+        "SECONDARY": "Aaveは分散型の流動性市場プロトコルであり、ユーザーは入金者や借り手として参加できます。カストディ機能はありません。存款人为市场提供流动性，从而赚取被动收入，而借款人则可以通过超额抵押（永久性）或抵押不足（单一区块流动性）的方式借款。"
+      },
+      "ALGO": {
+        "PRIMARY": "Algorand消除了多年来影响主流区块链采用的技术障碍：去中心化、规模以及安全。",
+        "SECONDARY": "Algorand采用无权限、纯股权证明的共识机制，确保在一个真正去中心化网络中的充分参与、保护和速度。此外，Algorand是第一个提供即时交易最终结果的区块链，其吞吐量高达1,000次\/秒。"
+      },
+      "APE": {
+        "PRIMARY": "ApeCoin是生态系统的治理代币，允许ApeCoin持有人参与ApeCoin DAO。",
+        "SECONDARY": "ApeCoin是生态系统的实用代币，为所有参与者提供无需中心化中介即可使用的共享和开放的货币。"
+      },
+      "APT": {
+        "PRIMARY": "Aptos是一个第1层区块链，设计成可扩展、安全和易于使用。",
+        "SECONDARY": "Aptos旨在每秒处理大量交易，并使用权益证明共识机制。"
+      },
+      "ARB": {
+        "PRIMARY": "ARB是Arbitrum网络的治理代币。",
+        "SECONDARY": "Arbitrum是一套扩展解决方案，为高吞吐量、低成本智能合约的环境提供，并得到了植根于以太坊的行业领先的验证技术支持。"
+      },
+      "AVAX": {
+        "PRIMARY": "Avalanche是一个开放源平台，旨在推出高度去中心化的应用、新的金融基本要素和新的可互操作区块链。",
+        "SECONDARY": "基于Avalanche的开发者可以轻松创建功能强大、可靠安全的应用程序和具有复杂规则集的定制区块链网络，或者在现有的私有或公共子网的基础上进一步完善。"
+      },
+      "BCH": {
+        "PRIMARY": "借助比特币现金，您可以一年365天、一天24小时向世界任何地方的任何人转账。就像互联网本身一样，这一网络始终维持运转。",
+        "SECONDARY": "比特币现金比银行转账和信用卡支付等传统支付系统提供更多的隐私和匿名性，因为通常不可能知道谁控制比特币地址。比特币现金根据其使用方式提供不同程度的隐私保护。\n\n在出于隐私目的使用BCH之前，对自己进行彻底的教育是很重要的。"
+      },
+      "BTC": {
+        "PRIMARY": "比特币是一种去中心化数字货币，没有中央银行或单一管理员，可以在点对点比特币网络上从一个用户发送到另一个用户，而且不需要中介。",
+        "SECONDARY": "交易由网络节点通过加密验证，并记录在称为区块链的公共分布式分类账中。比特币是作为挖矿过程的奖励创建的。它们可以兑换成其他货币、产品和服务。"
+      },
+      "BLUR": {
+        "PRIMARY": "BLUR是一个NFT市场。",
+        "SECONDARY": "BLUR代币是BLUR协议的治理代币。"
+      },
+      "ADA": {
+        "PRIMARY": "Cardano是一个权益证明的区块链平台——首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
+        "SECONDARY": "Cardano有着一流的工程师团队，其存在是为了将权力从难以理解的结构重新分配给边缘——个人——并成为积极变革和进步的推动力量。"
+      },
+      "CELO": {
+        "PRIMARY": "Celo是一个权益证明的区块链，可提供完全的以太坊虚拟机兼容性。",
+        "SECONDARY": "CELO还为用户提供了原生和非原生稳定币、超轻量移动客户端以及使用多种货币支付gas的访问权限。"
+      },
+      "LINK": {
+        "PRIMARY": "Chainlink将任何区块链上的智能合约与数据提供者、Web API、企业系统、云服务、物联网设备、支付系统和其他区块链连接在一起。",
+        "SECONDARY": "Chainlink通过在不牺牲区块链技术固有的安全性和可靠性保证的情况下支持访问现实世界中的数据、事件、付款等来扩展智能合约的功能。"
+      },
+      "COMP": {
+        "PRIMARY": "Compound是为开发者打造的基于算法的自主利率协议，旨在解锁众多开放的金融应用。",
+        "SECONDARY": "资产的供应方（或借贷方）直接与协议互动，赚取（或支付）浮动利率，而不必与同行或交易对手协商到期日、利率或抵押品等条款。"
+      },
+      "ATOM": {
+        "PRIMARY": "Cosmos是互联应用程序和服务不断扩展的生态系统，是为去中心化的未来而打造。",
+        "SECONDARY": "Cosmos应用程序和服务使用跨链通信(IBC)协议进行连接。这一创新使您能够在完全独立的去中心化区块链中自由交易资产和数据。"
+      },
+      "CRV": {
+        "PRIMARY": "Curve是以太坊上的一个交易所流动性池（例如，Uniswap），其设计目的是为实现极高效的稳定币交易，并为流动性提供者提供低成本的补充性费用收入，而且没有机会成本。",
+        "SECONDARY": "Curve允许用户（以及智能合约，例如1inch、Paraswap、Totle和Dex.ag）在DAI和USDC之间进行交易，采用专门为稳定币设计的低滑点、低费用算法，并赚取费用。"
+      },
+      "DOGE": {
+        "PRIMARY": "狗狗币(Dogecoin)是一种开源的点对点数字货币。",
+        "SECONDARY": "狗狗币是莱特币的一个分支，是一种基于流行的\"Doge\"网络迷因的加密货币，其徽标上有一只柴犬。"
+      },
+      "ENJ": {
+        "PRIMARY": "Enjin开发了简单的产品来帮助您管理NFT和加密货币，并参与到新的、快速增长的虚拟经济中。",
+        "SECONDARY": "ENJ被用于注入NFT等数字资产。它可以为NFT在游戏、应用程序、市场和钱包中流通时提供支持。铸造的每一项资产都包含ENJ，赋予其真实世界的价值，并且可以通过“熔化”随时收回。"
+      },
+      "EOS": {
+        "PRIMARY": "EOSIO是一个高性能的开源区块链平台，旨在支持和运营安全、合规和可预测的数字基础设施。",
+        "SECONDARY": "区块链创新和性能的开源平台——世界各地的企业和开发者使用EOSIO创建安全、透明和确定性的数字基础设施。"
+      },
+      "ETC": {
+        "PRIMARY": "以太坊经典是以太坊的硬分叉，于 2016 年 7 月推出。它充当智能合约网络，能够托管和支持去中心化应用程序。",
+        "SECONDARY": "推出 ETC 的目的是保护区块链智能合约平台的主要价值主张：“代码即法律”。硬分叉是一种理念的结果，即包括以太坊在内的大多数区块链协议都偏离了这一核心原则。"
+      },
+      "ETH": {
+        "PRIMARY": "以太坊是一个用于分散式应用程序的全球性开源平台。",
+        "SECONDARY": "以太坊是2014年成立的去中心化区块链平台。イーサリアムは、一個人が所有または運用していないオープンソースプロジェクトです。这意味着任何地方的任何人都可以下载软件并开始与网络进行交互。以太坊允许开发者创造和操作“智能合约”，这是任何去中心化应用的基础核心要素之一。"
+      },
+      "FIL": {
+        "PRIMARY": "Filecoin是一个旨在存储人类最重要信息的去中心化存储网络。",
+        "SECONDARY": "Filecoin网络由大量不同的存储提供者和开发者组成。这创造出强大和可靠的服务，同时加密证据可以确保您的数据随时间推移继续可用而不会发生变化。"
+      },
+      "ICP": {
+        "PRIMARY": "DFINITY基金会是一个开发互联网计算机的非营利组织，该基金会是一个旨在托管智能合约的公共区块链网络。",
+        "SECONDARY": "ICP是该平台的原生加密货币。"
+      },
+      "LDO": {
+        "PRIMARY": "Lido是在以太坊、Solana和Polygon区块链网络上部署和运行的开源点对系统软件工具家族的名称。",
+        "SECONDARY": "LDO是一种ERC20代币，它能够参与Lido DAO的治理过程。"
+      },
+      "LTC": {
+        "PRIMARY": "Litecoin是一种点对点的互联网货币，能够向世界上任何人提供接近零成本的即时支付。",
+        "SECONDARY": "Litecoin是一个完全去中心化的开源全球支付网络。与领先的基于数学的货币相比，Litecoin具有交易确认时间更快、存储效率更高的特点。Litecoin有着广泛的行业支持、巨大的交易量和丰富的流动性，是一种被证实对比特币起补充作用的商业媒介。"
+      },
+      "MKR": {
+        "PRIMARY": "Maker协议，也称多质押品Dai(MCD)系统，允许用户通过利用“Maker治理”批准的抵押资产来生成Dai。Maker治理是社区组织和运作的管理Maker协议的各个方面的过程。",
+        "SECONDARY": "Dai是一种去中心化的、无偏颇的、有抵押物支持的加密货币，与美元软挂钩。由于其低波动性，Dai能够抵抗恶性通货膨胀，因此可在任何地方为任何人提供经济自由和机会。"
+      },
+      "XMR": {
+        "PRIMARY": "Monero是领先的加密货币，专注于私人和抗审查交易。",
+        "SECONDARY": "与选择性透明的替代品（例如 Zcash）不同，Monero 是唯一一种默认每个用户都是匿名的加密货币。每笔交易的发送者、接收者和金额都通过使用三种重要技术来隐藏：隐形地址、环签名和RingCT。"
+      },
+      "NEAR": {
+        "PRIMARY": "NEAR 是一个开发平台，建立在为可用性而设计的分片、权益证明、第一层区块链上。",
+        "SECONDARY": "NEAR 代币用于通过其权益证明机制保护网络。"
+      },
+      "OP": {
+        "PRIMARY": "OP主网是一个低成本、闪电般快速的以太坊L2区块链，由Optimism提供支持。",
+        "SECONDARY": "OP是Optimism Collective的治理代币。"
+      },
+      "PEPE": {
+        "PRIMARY": "Pepe是一种迷因币。",
+        "SECONDARY": "其网站指出，Pepe将再次让迷因币变得伟大。"
+      },
+      "DOT": {
+        "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot为互联网带来便利，独立的区块链可在其中通过Polkadot中继链以无需信任的方式交换信息和进行交易。",
+        "SECONDARY": "Polkadot使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好的解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在以太坊聚合可扩展解决方案，支持以太坊多链生态系统。",
+        "SECONDARY": "Polygon结合了以太坊和主权区块链的优点，将其打造成开放、安全、成熟的多链系统，能够充分受益于以太坊的网络效应"
+      },
+      "XRP": {
+        "PRIMARY": "Ripple是一个旨在解决跨境支付问题的网络。",
+        "SECONDARY": "XRP是一种开源的数字资产，旨在成为金融服务领域应用程序最实用的加密货币。"
+      },
+      "RUNE": {
+        "PRIMARY": "Thorchain 是一个去中心化、自治的跨链流动性网络。",
+        "SECONDARY": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以保护该网络的经济。"
+      },
+      "SEI": {
+        "PRIMARY": "Sei是一个通用、开源的第1层区块链，专门用于交换数字资产。",
+        "SECONDARY": "SEI币是SEI网络的治理代币。"
+      },
+      "SHIB": {
+        "PRIMARY": "柴犬币或SHIB是Shiba生态系统的主要代币，将去中心化、社区主导的货币力量带给全球数百万人。",
+        "SECONDARY": "Shiba Inu开发了一个名为Shibarium的第2层网络，该网络建立在以太坊区块链之上。"
+      },
+      "SOL": {
+        "PRIMARY": "Solana是一种快速、安全、能够抵抗审查的区块链，为全球应用提供必要的开放基础设施。",
+        "SECONDARY": "Solana是开源项目，执行的是新的、高性能、无需许可的区块链。Solana基金会设在瑞士日内瓦，并维护着开源项目。"
+      },
+      "XLM": {
+        "PRIMARY": "Stellar是一个用于存储和转移资金的开放网络。",
+        "SECONDARY": "Stellar使创建、发送和交易各种形式的货币的数字表示成为可能：美元、比索、比特币，几乎无所不包。它经过专门设计，使世界上所有的金融系统都可以在单个网络上协同工作。"
+      },
+      "SUI": {
+        "PRIMARY": "Sui是一个创新的、去中心化的第1层区块链，它重新定义了资产所有权。",
+        "SECONDARY": "Sui使用Move简化智能合约开发过程，Move是一种对用户友好的编程语言，既安全又富有表现力。 SUI币是Sui网络的治理代币。"
+      },
+      "SUSHI": {
+        "PRIMARY": "SushiSwap是一个自动做市的去中心化交易所，目前在以太坊上运行。",
+        "SECONDARY": "SushiSwap是社区运行项目，由其代币持有人投票管理。核心产品包括交易所、流动性池、矿场和SushiBar权益质押。"
+      },
+      "SNX": {
+        "PRIMARY": "Synthetix是基于以太坊的去中心化合成资产发行协议。",
+        "SECONDARY": "Synthetix允许用户以零滑点捕捉流行加密货币、法币、股票、大宗商品等的价格走势。合成资产或Synth是社区投票投出来的资产，代表不同类型资产的价格。"
+      },
+      "TRX": {
+        "PRIMARY": "TRON是一个公共区块链，致力于提供底层基础设施，使开发者能够创建智能合约和去中心化应用程序，自由发布、拥有和存储数据和其他内容。",
+        "SECONDARY": "TRON依赖于委托权益证明机制，其中27名超级代表每6小时轮换一次，以验证区块和交易。"
+      },
+      "UMA": {
+        "PRIMARY": "UMA是在以太坊部署和执行合成资产的开源基础设施。",
+        "SECONDARY": "UMA以两种技术形式为以太坊上的“无价”金融合约建立开源基础设施：一是用于创建合成代币的无价金融合约模板，二是用于管理和执行UMA合约的去中心化预报服务。"
+      },
+      "UNI": {
+        "PRIMARY": "Uniswap是以太坊上自动提供流动性的去中心化协议。",
+        "SECONDARY": "Uniswap是在以太坊交易ERC-20代币的协议。它消除了可信任的中介和不必要的租金提取形式，使交易变得快速、高效。"
+      },
+      "WLD": {
+        "PRIMARY": "Worldcoin协议旨在成为世界上最大的身份证明和金融公共网络。",
+        "SECONDARY": "Worldcoin是一种代币，提供实用功能，并让用户对Worldcoin协议的方向有发言权。"
+      },
+      "XTZ": {
+        "PRIMARY": "Tezos 是一个用于资产和应用程序的开源平台，可以通过升级自身来进化。",
+        "SECONDARY": "从设计上看,Tezos 具有长期可升级性、开放参与性、协作性和智能合约安全性。Tezos 是一个权益证明的区块链。"
+      },
+      "YFI": {
+        "PRIMARY": "Yearn Finance是去中心化金融(DeFi)中的一套产品，可在以太坊区块链上提供贷款聚合、收益创造和保险。",
+        "SECONDARY": "该协议由各种独立开发人员所维护，并由YFI持有者管理。"
+      },
+      "ZEC": {
+        "PRIMARY": "Zcash 是一种数字货币——快速且保密，费用低。",
+        "SECONDARY": "Zcash 通过屏蔽地址为您提供保密交易和财务隐私的选择。零知识证明实现了在不透露发送方、接收方或交易金额的情况下验证交易。Zcash 中的选择性披露功能允许用户出于合规或审计的目的共享一些交易详情。"
+      }
     },
     "ASSET_DESCRIPTIONS": {
       "0X_PRIMARY_DESCRIPTION": "0x 是一种专业级流动性聚合器协议，用户可以轻松交易 ERC20 代币和其他资产。 0x 使用独特的混合链下中继、链上结算架构，为交易者实现灵活且具有成本效益的体验。",
@@ -502,6 +704,7 @@
       "VALUE_PROP_TRUSTLESS": "去信任",
       "VERIFY_OWNERSHIP": "验证所有",
       "VERIFY_WALLET_COMPATIBILITY": "验证钱包兼容性",
+      "WANT_TO_LEARN": "想要进一步了解？",
       "WELCOME_DYDX": "欢迎来到dYdX",
       "WELCOME": "欢迎",
       "WITHDRAW_STATUS": "您的 {AMOUNT_USD} 提现将在大约 {ESTIMATED_DURATION} 后到账.",
@@ -556,7 +759,8 @@
       "SETTING_ALLOWANCE_EXPLANATION": "一旦您的启用{SYMBOL}交易确认，您就可以存款。您只需为每个资产执行一次此操作。",
       "SLIPPAGE": "滑点",
       "SUBJECT_TO_RULES": "受这些规则约束",
-      "SWAP": "互换"
+      "SWAP": "互换",
+      "ESTIMATED_TIME": "预计时间"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "启用提现功能",
@@ -611,6 +815,7 @@
       "ABOUT_TRADING_DATA": "关于交易奖励数据",
       "ACTIVE_EPOCH": "活跃时段",
       "ALLOCATION": "分配",
+      "AVAILABLE_TO_MIGRATE": "可用于迁移",
       "AVERAGE_OPEN_INTEREST": "平均未平仓合约",
       "CAN_BE_CLAIMABLE_BY_YOU": "可以由您进行申领",
       "CLAIM_DATA_DESCRIPTION": "用于计算DYDX追溯性奖励的数据。追溯性奖励由dYdX基金会提供。",
@@ -638,12 +843,21 @@
       "FREE_TRADING_DESCRIPTION_ASTERISK": "所有人享受每月高达 100,000 美元的免费交易*。",
       "FREE_TRADING_DISCLAIMER": "*交易和签订永续合约涉及重大资金和其他风险。dYdX 不提供财务建议。“免费交易”是指dYdX去除了与前三十日交易量低于100,000美元的账户下订单相关的费用；其他成本可能仍然适用，包括但不限于{PERPETUAL_FUNDING}、存款和提取资金以及潜在的清算。如需更多信息，请查看dYdX{TERMS_OF_USE}。",
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "永续资金",
+      "FROM_TO": "从{FROM}到{TO}",
       "GASLESS_DEPOSITS_NEW_PROMO": "如果您的首笔存款为 1000 美元或更多，dYdX 将支付您的存款 gas 费！",
       "GASLESS_DEPOSITS_PROMO": "您的存款达到 2000 美元或以上更多，即可享受零 gas 费，每三天一次。",
+      "GOVERNANCE_DESCRIPTION": "要参与治理，您需要将密码口令导出到 Keplr 钱包。",
+      "HAVE_YOU_EXPORTED": "您是否已导出密码口令？",
       "HOLDING": "持有{NUMBER}",
       "IN_THIS_EPOCH": "本时段内",
+      "LEARN_TO_EXPORT": "{STRONG_NO}，了解如何导出我的密码口令。",
       "MAKER_MARKET_SHARE": "挂单市场份额",
       "MARKET_NOW_LIVE": "{SYMBOL}现已上线",
+      "MIGRATE": "迁移",
+      "MIGRATE_NOW": "立即迁移",
+      "MIGRATE_DESCRIPTION": "将您的 $DYDX 从以太坊迁移至 dYdX 链。这样做您即可参与治理。还可抵押自己的 $DYDX。",
+      "NAVIGATE_TO_KEPLR": "{STRONG_YES}，导航至 Keplr 控制面板。",
+      "NO_TOKENS_TO_MIGRATE": "无需迁移令牌",
       "NONE_HELD": "未持有",
       "OPEN_INTEREST_LABEL": "\n在 dYdX 上的未平仓头寸",
       "ORDERS_DESCRIPTION": "在订单的整个生命周期中追踪订单",
@@ -660,6 +874,8 @@
       "REWARDS_NOT_PROVIDED": "奖励不由dYdX Trading Inc.提供。",
       "REWARDS_UPDATE": "奖励更新",
       "SEARCH_MARKETS": "搜索市场",
+      "STAKING": "质押",
+      "STAKING_DESCRIPTION": "要进行质押，您需要将密码口令导出到 Keplr 钱包。",
       "STOP_MARKET_ORDERS": "止损市价单",
       "STOP_MARKET_ORDERS_DESCRIPTION": "止损市价单和止盈市价单都在此处！快速轻松地设置触发价格，以限制您的损失并锁定利润。",
       "TARGET_VOLUME": "目标量",
@@ -677,6 +893,7 @@
       "TRADING_LEAGUES": "联盟",
       "TRADING_LEAGUES_DESCRIPTION": "交易联盟现在开始直线！攀升排名并赚取您的{PRIZE}份额。",
       "TRADING_LEAGUES_PRIZE": "每周 10 万美元的奖池",
+      "TRADING_REWARDS": "交易奖励",
       "TRADING_VOLUME_LABEL": "在过去 24 小时内交换过",
       "TRADING_VOLUME": "交易量",
       "TRAILING_VOLUME": "追踪交易量",
