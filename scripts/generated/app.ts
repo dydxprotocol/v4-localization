@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -386,6 +386,7 @@ export const APP_STRING_KEYS = {
     FILLS: 'APP.GENERAL.FILLS',
     FREE: 'APP.GENERAL.FREE',
     FREE_COLLATERAL: 'APP.GENERAL.FREE_COLLATERAL',
+    FROM: 'APP.GENERAL.FROM',
     FROM_TO: 'APP.GENERAL.FROM_TO',
     FUNDING_RATE_CHART_SHORT: 'APP.GENERAL.FUNDING_RATE_CHART_SHORT',
     GASLESS_DEPOSITS: 'APP.GENERAL.GASLESS_DEPOSITS',
