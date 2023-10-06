@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "Your dYdX address \"{DYDX_ADDRESS}\" was created from the signature of the Ethereum address \"{EVM_ADDRESS}\"."
+      "BODY": "Your dYdX Chain address \"{DYDX_ADDRESS}\" was created from the signature of the Ethereum address \"{EVM_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
