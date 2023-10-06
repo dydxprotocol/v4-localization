@@ -238,6 +238,7 @@
       "TIER": "Tier",
       "TIME": "Time",
       "TIMESTAMP_ERROR": "Timestamp error",
+      "FROM": "from {FROM}",
       "TO": "to {TO}",
       "TOTAL_BALANCE": "Total balance",
       "TOTAL_FEES": "Total Fees",
