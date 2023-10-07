@@ -1578,6 +1578,8 @@
     "GENERATED_ADDRESS_INFO": "You'll be able to manage your dYdX Chain DYDX on {TRADE_URL} using the same wallet.",
     "GENERATED_ADDRESS_VIA_ADDRESS": "Generated dYdX Chain address via {ADDRESS_OR_WALLET_SIGNATURE}",
     "LATEST_BLOCK_HEIGHT": "Latest block height",
+    "MIGRATION_BLOCKED_MESSAGE": "Because you appear to be a resident of, or using this user interface from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked and this transaction cannot be completed.",
+    "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "Because the destination address appears to be a resident of, or using this user interface from, a jurisdiction that violates our terms of use, or has engaged in activity that violates our terms of use, the destination address has been blocked and this transaction cannot be completed.",
     "MIGRATION_FAILED": "Migration failed",
     "MIGRATION_FAQ_GAS_FEES_ANSWER": "Yes, holders who engage with the portal will have to pay gas costs on Ethereum. Users will not have to pay gas costs on dYdX Chain.",
     "MIGRATION_FAQ_GAS_FEES": "Do I have to pay gas fees?",
