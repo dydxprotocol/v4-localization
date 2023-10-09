@@ -46,6 +46,12 @@
           "native": "metamask:",
           "universal": "https://metamask.app.link"
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData",
+          "wallet_addEthereumChain"
       ]
     },
     "userFields": {
@@ -97,6 +103,12 @@
           "native": "cbwallet:",
           "universal": ""
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData",
+          "wallet_addEthereumChain"
       ]
     },
     "userFields": {
@@ -143,10 +155,15 @@
       "imageUrl": "https://v4.testnet.dydx.exchange/wallets/imtoken.png",
       "connections": [
         {
-          "type": "walletConnect",
+          "type": "walletConnectV2",
           "native": "imtokenv2:",
           "universal": ""
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -200,6 +217,11 @@
           "native": "trust:",
           "universal": "https://link.trustwallet.com"
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -251,6 +273,11 @@
           "native": "zerion:",
           "universal": ""
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -297,10 +324,15 @@
       "imageUrl": "https://v4.testnet.dydx.exchange/wallets/tokenpocket.png",
       "connections": [
         {
-          "type": "walletConnect",
+          "type": "walletConnectV2",
           "native": "tpoutside:",
           "universal": ""
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -353,6 +385,11 @@
           "native": "rainbow:",
           "universal": "https://rnbwapp.com"
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -401,10 +438,15 @@
       "imageUrl": "https://v4.testnet.dydx.exchange/wallets/1inch.png",
       "connections": [
         {
-          "type": "walletConnect",
+          "type": "walletConnectV2",
           "native": "oneinch:",
           "universal": "https://wallet.1inch.io"
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
@@ -456,10 +498,67 @@
           "native": "huobiwallet:",
           "universal": ""
         }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
       ]
     },
     "userFields": {
       "analyticEvent": "HUOBI_WALLET"
+    }
+  },
+  {
+    "id": "bae74827272509a6d63ea25514d9c68ad235c14e45e183518c7ded4572a1b0c4",
+    "name": "iToken HD",
+    "description": "",
+    "homepage": "https://www.itoken.com/",
+    "chains": [
+      "eip155:1"
+    ],
+    "versions": [
+      "1"
+    ],
+    "app": {
+      "browser": "",
+      "ios": "https://apps.apple.com/us/app/itoken-hd-secure-crypto-wallet/id6446674453",
+      "android": "https://play.google.com/store/apps/details?id=com.huobionchainwallet.itokenhd",
+      "mac": "",
+      "windows": "",
+      "linux": ""
+    },
+    "mobile": {
+      "native": "itokenhd:",
+      "universal": ""
+    },
+    "desktop": {
+      "native": "",
+      "universal": ""
+    },
+    "metadata": {
+      "shortName": "iToken HD",
+      "colors": {
+        "primary": "rgb(45,101,248)",
+        "secondary": ""
+      }
+    },
+    "config": {
+      "comment": "iToken HD",
+      "iosMinVersion": "0",
+      "encoding": "=\"#%/<>?@\\^`{|}:&",
+      "connections": [
+        {
+          "type": "walletConnectV2",
+          "native": "itokenhd:",
+          "universal": ""
+        }
+      ],
+      "methods": [
+          "eth_sendTransaction",
+          "personal_sign",
+          "eth_signTypedData"
+      ]
     }
   }
 ]
