@@ -127,6 +127,10 @@
       "TITLE": "Maksimum Kaldıraç",
       "BODY": "Bu piyasa için izin verilen maksimum kaldıraç. Riski sınırlamak için, belirli bir eşikten sonra maksimum kaldıraç pozisyonun boyutuyla birlikte doğrusal olarak azalır."
     },
+    "MAXIMUM_REWARDS": {
+      "TITLE": "Maksimum Ödül",
+      "BODY": "dYdX üzerinde trade yaparken ödüller kazanın. Gerçek ödüller değişebilir."
+    },
     "NET_FUNDING": {
       "TITLE": "Net Fonlama",
       "BODY": "Mevcut pozisyonun ömrü için kazanılan \/ ödenen toplam fonlama. Pozisyonunuzu kapatır veya pozisyonun tarafını değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
