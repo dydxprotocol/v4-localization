@@ -127,6 +127,10 @@
       "TITLE": "Alavancagem máxima",
       "BODY": "Alavancagem máxima permitida para este mercado. Para limitar os riscos, a alavancagem máxima diminui linearmente a partir do tamanho da posição após um determinado limite."
     },
+    "MAXIMUM_REWARDS": {
+      "TITLE": "Recompensas máximas",
+      "BODY": "Ganhe recompensas quando fizer trades na dYdX. As recompensas reais podem variar."
+    },
     "NET_FUNDING": {
       "TITLE": "Financiamento líquido",
       "BODY": "Financiamento total ganho \/ pago para a vida útil da posição atual. É redefinido se você fechar sua posição ou alterar o tipo de posição (long para short, ou vice-versa)."
