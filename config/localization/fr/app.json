@@ -27,7 +27,8 @@
         "TODAY": "Aujourd'hui",
         "WEEK": "Semaine",
         "WEEKS_ABBREVIATED": "s",
-        "WEEKS": "Semaines"
+        "WEEKS": "Semaines",
+        "X_MINUTES": "{X} minutes"
       },
       "ABOUT": "À propos",
       "ACADEMY": "Académie",
@@ -58,6 +59,7 @@
       "CATEGORY": "Catégorie",
       "CHAINS": "Chaînes",
       "CLEAR": "Effacer",
+      "CLICK_HERE": "Cliquez ici",
       "CLOSE": "Fermer",
       "COMING_SOON": "Bientôt disponible",
       "COMPETITION": "Compétition",
@@ -155,6 +157,7 @@
       "MODIFY": "Modifier",
       "NETWORK": "Réseau",
       "NEW": "Nouveau",
+      "NO": "Non",
       "NONE": "Aucun",
       "OPERATIONAL": "Opérationnel",
       "OPTIONAL": "Facultatif",
@@ -257,7 +260,206 @@
       "WEBSITE": "Site Web",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Retrait",
+      "YES": "Oui",
       "YOU": "Vous "
+    },
+    "__ASSETS": {
+      "ZRX": {
+        "PRIMARY": "0x est un protocole d'agrégation de liquidités de qualité professionnelle qui permet aux utilisateurs d'échanger facilement des jetons ERC20 et d'autres actifs. 0x utilise un relais hors chaîne hybride unique et une architecture de règlement sur l chaîne pour offrir une expérience flexible et économe en gaz aux traders.",
+        "SECONDARY": "ZRX est le jeton de gouvernance et de jalonnement natif de 0x, permettant aux détenteurs de voter sur les propositions d'amélioration 0x (ZEIP) et d'influencer le développement du protocole. De plus, ZRX peut être staké ou délégué pour gagner des récompenses de liquidité grâce à son programme de liquidité de teneur de marché."
+      },
+      "1INCH": {
+        "PRIMARY": "Le réseau 1inch réunit des protocoles décentralisés dont la synergie permet les opérations les plus lucratives, les plus rapides et les plus protégées de l'espace DeFi.",
+        "SECONDARY": "Le protocole initial du réseau 1inch est une solution d'agrégation DEX qui recherche des offres sur plusieurs sources de liquidité, offrant aux utilisateurs de meilleurs taux que n'importe quel échange individuel. Ce protocole intègre l'algorithme Pathfinder qui trouve les meilleurs chemins parmi différents marchés sur plus de 50 sources de liquidité sur Ethereum et plus de 20 sources de liquidité sur Binance Smart Chain. En moins de deux ans, l'agrégateur DEX 1inch a dépassé les 30 milliards de dollars en volume global."
+      },
+      "AAVE": {
+        "PRIMARY": "Aave est un protocole open source et non-dépositaire pour gagner des intérêts sur les dépôts et emprunter des actifs.",
+        "SECONDARY": "Aave est un protocole de marché de liquidité non dépositaire décentralisé auquel les utilisateurs peuvent participer en tant que déposants ou emprunteurs. Les déposants fournissent des liquidités au marché pour gagner un revenu passif, tandis que les emprunteurs peuvent emprunter de manière surdimensionnée (perpétuelle) ou sous-dimensionnée (liquidité d'un bloc)."
+      },
+      "ALGO": {
+        "PRIMARY": "Algorand supprime les obstacles techniques qui, pendant des années, ont sapé l'adoption de la blockchain traditionnelle : décentralisation, échelle et sécurité.",
+        "SECONDARY": "Algorand utilise un mécanisme de consensus Sans autorisation, Pure preuve d'enjeu, garantissant une participation, une protection et une rapidité totales au sein d'un réseau véritablement décentralisé. De plus, Algorand est la première blockchain à offrir une finalité immédiate des transactions ainsi qu'un débit pouvant atteindre 1000 transactions par seconde."
+      },
+      "APE": {
+        "PRIMARY": "ApeCoin est le jeton de gouvernance de l'écosystème, permettant aux détenteurs d'ApeCoin de participer à ApeCoin DAO.",
+        "SECONDARY": "ApeCoin est le jeton d'utilité de l'écosystème, donnant à tous ses participants une monnaie partagée et ouverte qui peut être utilisée sans intermédiaire centralisé."
+      },
+      "APT": {
+        "PRIMARY": "Aptos est une blockchain de niveau 1 conçue pour être évolutive, sécurisée et facile à utiliser.",
+        "SECONDARY": "Aptos est conçu pour traiter un grand nombre de transactions par seconde et utilise un mécanisme de consensus par preuve d'enjeu."
+      },
+      "ARB": {
+        "PRIMARY": "ARB est le jeton de gouvernance du réseau Arbitrum.",
+        "SECONDARY": "Arbitrum est une suite de solutions de mise à l'échelle fournissant des environnements avec des contrats intelligents à haut débit et à faible coût, soutenus par une technologie de preuve leader de l'industrie enracinée dans Ethereum."
+      },
+      "AVAX": {
+        "PRIMARY": "Avalanche est une plate-forme open source pour lancer des applications hautement décentralisées, de nouvelles primitives financières et de nouvelles blockchains interopérables.",
+        "SECONDARY": "Les développeurs qui s'appuient sur Avalanche peuvent facilement créer des applications puissantes, fiables et sécurisées et des réseaux de blockchain personnalisés avec des ensembles de règles complexes, ou s'appuyer sur des sous-réseaux privés ou publics existants."
+      },
+      "BCH": {
+        "PRIMARY": "Avec Bitcoin Cash, vous pouvez envoyer de l'argent à n'importe qui, n'importe où dans le monde, 24 heures sur 24, 365 jours par an. Comme Internet lui-même, le réseau est toujours actif.",
+        "SECONDARY": "Bitcoin Cash offre plus de confidentialité et d'anonymat que les systèmes de paiement traditionnels comme les virements bancaires et les paiements par carte de crédit, car il est normalement impossible de savoir qui contrôle une adresse Bitcoin. Bitcoin Cash offre différents niveaux de confidentialité en fonction de la manière dont il est utilisé. Il est important de bien vous renseigner avant d'utiliser BCH à des fins de confidentialité."
+      },
+      "BTC": {
+        "PRIMARY": "Bitcoin est une monnaie numérique décentralisée, sans banque centrale ni administrateur unique qui peut être envoyée d'utilisateur à utilisateur sur le réseau bitcoin pair-à-pair sans avoir besoin d'intermédiaires.",
+        "SECONDARY": "Les transactions sont vérifiées par un nœud de réseau via la cryptographie et enregistrées dans un registre public distribué appelé blockchain. Les bitcoins sont créés en récompense d'un processus connu sous le nom de minage. Ils peuvent être échangés contre d'autres devises, produits et services."
+      },
+      "BLUR": {
+        "PRIMARY": "BLUR est un marché NFT.",
+        "SECONDARY": "Le jeton BLUR est le jeton de gouvernance du protocole BLUR."
+      },
+      "ADA": {
+        "PRIMARY": "Cardano est une plate-forme blockchain de preuve d'enjeu : la première à être fondée sur des recherches évaluées par des pairs et développée à l'aide de méthodes fondées sur des preuves. Elle combine des technologies pionnières pour fournir une sécurité et une durabilité inégalées aux applications, systèmes et sociétés décentralisés.",
+        "SECONDARY": "Avec une équipe d'ingénieurs de premier plan, Cardano existe pour redistribuer le pouvoir des structures non responsables aux marges - aux individus - et être une force motrice pour le changement positif et le progrès."
+      },
+      "CELO": {
+        "PRIMARY": "Celo est une blockchain de preuve de participation qui offre une compatibilité EVM complète.",
+        "SECONDARY": "CELO offre également aux utilisateurs un accès à des stablecoins natifs et non natifs, un client mobile ultraléger et du gas payable en plusieurs devises."
+      },
+      "LINK": {
+        "PRIMARY": "Chainlink connecte des contrats intelligents sur n'importe quelle blockchain aux fournisseurs de données, aux API Web, aux systèmes d'entreprise, aux services cloud, aux appareils IoT, aux systèmes de paiement et à d'autres blockchains.",
+        "SECONDARY": "Chainlink étend la capacité des contrats intelligents en permettant l'accès aux données, aux événements, aux paiements du monde réel, etc., sans sacrifier les garanties de sécurité et de fiabilité inhérentes à la technologie blockchain."
+      },
+      "COMP": {
+        "PRIMARY": "Compound est un protocole de taux d'intérêt algorithmique et autonome conçu pour les développeurs, pour débloquer un univers d'applications financières ouvertes.",
+        "SECONDARY": "Les fournisseurs (et les emprunteurs) d'un actif interagissent directement avec le protocole, gagnant (et payant) un taux d'intérêt variable, sans avoir à négocier des conditions telles que l'échéance, le taux d'intérêt ou la garantie avec un pair ou une contrepartie."
+      },
+      "ATOM": {
+        "PRIMARY": "Cosmos est un écosystème en constante expansion d'applications et de services interconnectés, conçu pour un avenir décentralisé.",
+        "SECONDARY": "Les applications et services Cosmos se connectent à l'aide d'IBC, le protocole de communication inter-blockchain. Cette innovation vous permet d'échanger librement des actifs et des données sur des chaînes de blocs souveraines et décentralisées."
+      },
+      "CRV": {
+        "PRIMARY": "Curve est un pool de liquidités d'échange sur Ethereum (comme Uniswap) conçu pour un trading de stablecoins extrêmement efficace et des revenus de commissions supplémentaires à faible risque pour les fournisseurs de liquidités, sans coût d'opportunité.",
+        "SECONDARY": "Curve permet aux utilisateurs (et aux contrats intelligents comme 1inch, Paraswap, Totle et Dex.ag) de trader entre DAI et USDC avec un algorithme sur mesure à faible glissement et à faible coût conçu spécifiquement pour les stablecoins et gagner des commissions."
+      },
+      "DOGE": {
+        "PRIMARY": "Dogecoin est une monnaie numérique pair-à-pair open source.",
+        "SECONDARY": "Lancé par Litecoin, Dogecoin est une crypto-monnaie basée sur le même Internet populaire « Doge » et présente un Shiba Inu sur son logo."
+      },
+      "ENJ": {
+        "PRIMARY": "Enjin a conçu des produits simples pour vous aider à gérer vos NFT et vos crypto-monnaies et à vous impliquer dans la nouvelle économie virtuelle en croissance rapide.",
+        "SECONDARY": "ENJ est utilisé pour infuser des actifs numériques tels que les NFT. Il alimente les NFT lorsqu'ils se déplacent entre les jeux, les applications, les marchés et les portefeuilles. Chaque actif miné contient ENJ, ce qui lui confère une valeur réelle qui peut être récupérée à tout moment grâce à la « fusion »."
+      },
+      "EOS": {
+        "PRIMARY": "EOSIO est une plateforme de blockchain open source hautement performante, conçue pour prendre en charge et exploiter des infrastructures numériques sûres, conformes et prévisibles.",
+        "SECONDARY": "Une plateforme open source pour l'innovation et la performance de la blockchain - les entreprises et les développeurs du monde entier utilisent EOSIO pour créer des infrastructures numériques sécurisées, transparentes et déterministes."
+      },
+      "ETC": {
+        "PRIMARY": "Ethereum Classic est un hard fork d'Ethereum qui a été lancé en juillet 2016. Il fonctionne comme un réseau de contrats intelligents, avec la capacité d'héberger et de prendre en charge des applications décentralisées.",
+        "SECONDARY": "ETC a été lancé dans le but de préserver une proposition de valeur principale des plateformes de contrats intelligents blockchain : \"Code is Law\". Le hard fork est le résultat de la conviction que la majorité des protocoles de blockchain, y compris Ethereum, ont dévié de ce principe fondamental."
+      },
+      "ETH": {
+        "PRIMARY": "Ethereum est une plateforme mondiale open source pour les applications décentralisées.",
+        "SECONDARY": "Ethereum est une plateforme blockchain décentralisée fondée en 2014. Ethereum est un projet open source qui n'appartient ni n'est exploité par une seule personne. Cela signifie que n'importe qui, n'importe où, peut télécharger le logiciel et commencer à interagir avec le réseau. Ethereum permet aux développeurs de créer et d'exploiter des « contrats intelligents », un élément central de l'infrastructure de toute application décentralisée."
+      },
+      "FIL": {
+        "PRIMARY": "Filecoin est un réseau de stockage décentralisé conçu pour stocker les informations les plus importantes de l'humanité.",
+        "SECONDARY": "Le réseau Filecoin est composé d'un grand nombre de fournisseurs de stockage et de développeurs divers. Cela crée un service robuste et fiable, tandis que les preuves cryptographiques garantissent que vos données restent disponibles et inchangées dans le temps."
+      },
+      "ICP": {
+        "PRIMARY": "La Fondation DFINITY est une organisation à but non lucratif qui développe Internet Computer, un réseau de blockchain public conçu pour héberger des contrats intelligents.",
+        "SECONDARY": "ICP est la crypto-monnaie native de la plate-forme."
+      },
+      "LDO": {
+        "PRIMARY": "Lido est le nom d’une famille d’outils logiciels open-source peer-to-system déployés et fonctionnant sur les réseaux blockchain Ethereum, Solana et Polygon.",
+        "SECONDARY": "LDO est un jeton ERC20 qui donne la possibilité de participer au processus de gouvernance de la DAO Lido."
+      },
+      "LTC": {
+        "PRIMARY": "Litecoin est une monnaie Internet pair-à-pair qui permet des paiements instantanés à coût quasi nul à n'importe qui dans le monde.",
+        "SECONDARY": "Litecoin est un réseau de paiement mondial open source entièrement décentralisé. Litecoin offre des temps de confirmation de transaction plus rapides et une efficacité de stockage améliorée par rapport à la principale devise basée sur les mathématiques. Avec un soutien substantiel de l'industrie, un volume d'échanges et une liquidité, Litecoin est un moyen de commerce éprouvé complémentaire à Bitcoin."
+      },
+      "MKR": {
+        "PRIMARY": "Le protocole Maker, également connu sous le nom de système Multi-Collateral Dai (MCD), permet aux utilisateurs de générer du Dai en tirant parti des actifs collatéraux approuvés par « Maker Governance ». Maker Governance est le processus organisé et exploité par la communauté pour gérer les différents aspects du protocole Maker.",
+        "SECONDARY": "Dai est une crypto-monnaie décentralisée, impartiale et adossée à des garanties, indexée au dollar américain. Résistant à l'hyperinflation en raison de sa faible volatilité, le Dai offre la liberté économique et des opportunités à n'importe qui, n'importe où."
+      },
+      "XMR": {
+        "PRIMARY": "Monero est la principale crypto-monnaie axée sur les transactions privées et résistantes à la censure.",
+        "SECONDARY": "Contrairement aux alternatives sélectivement transparentes (par exemple Zcash), Monero est la seule crypto-monnaie où chaque utilisateur est anonyme par défaut. L'expéditeur, le destinataire et le montant de chaque transaction sont cachés grâce à l'utilisation de trois technologies importantes : les adresses furtives, les signatures Ring et RingCT."
+      },
+      "NEAR": {
+        "PRIMARY": "NEAR est une plate-forme de développement construite sur une blockchain fragmentée, proof of stake, layer un, conçue pour la convivialité.",
+        "SECONDARY": "Le jeton NEAR est utilisé pour sécuriser le réseau via son mécanisme de preuve d'enjeu."
+      },
+      "OP": {
+        "PRIMARY": "OP Mainnet est une blockchain Ethereum L2 peu coûteuse et ultra-rapide alimentée par Optimism.",
+        "SECONDARY": "OP est le symbole de gouvernance du collectif Optimisme."
+      },
+      "PEPE": {
+        "PRIMARY": "Pepe est un memecoin.",
+        "SECONDARY": "Selon son site web, Pepe est là pour redonner aux memecoins leurs lettres de noblesse."
+      },
+      "DOT": {
+        "PRIMARY": "Polkadot est conçu pour connecter des chaînes privées et de consortium, des réseaux publics et sans autorisation, des oracles et des technologies futures qui restent à créer. Polkadot facilite un Internet où des chaînes de blocs indépendantes peuvent échanger des informations et des transactions sans confiance via la chaîne de relais Polkadot.",
+        "SECONDARY": "Polkadot facilite plus que jamais la création et la connexion d'applications, de services et d'institutions décentralisés. En donnant aux innovateurs les moyens de créer de meilleures solutions, nous cherchons à libérer la société de sa dépendance à un réseau défaillant où ses grandes institutions ne peuvent pas violer notre confiance."
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon est un protocole et un cadre permettant de créer et de connecter des réseaux blockchain compatibles Ethereum. Agrégation de solutions évolutives sur Ethereum prenant en charge un écosystème Ethereum multi-chaînes.",
+        "SECONDARY": "Polygon combine le meilleur d'Ethereum et des blockchains souveraines dans un système multichaîne ouvert, sécurisé et complet capable de bénéficier pleinement des effets de réseau d'Ethereum"
+      },
+      "XRP": {
+        "PRIMARY": "Ripple est un réseau conçu pour régler les paiements transfrontaliers.",
+        "SECONDARY": "XRP est un actif numérique à code source ouvert conçu pour être la crypto-monnaie la plus pratique pour les applications dans le domaine des services financiers."
+      },
+      "RUNE": {
+        "PRIMARY": "Thorchain est un réseau de liquidité inter-chaînes décentralisé et autonome.",
+        "SECONDARY": "RUNE est l'actif qui alimente l'écosystème THORChain et fournit les incitations économiques nécessaires pour sécuriser économiquement le réseau."
+      },
+      "SEI": {
+        "PRIMARY": "Sei est une blockchain de couche 1 à usage général et à source ouverte, spécialisée dans l'échange d'actifs numériques.",
+        "SECONDARY": "SEI est le symbole de gouvernance du réseau SEI."
+      },
+      "SHIB": {
+        "PRIMARY": "Shiba Inu, ou SHIB, est le principal jeton de l'écosystème Shiba, apportant la puissance d'une monnaie décentralisée et communautaire à des millions de personnes à travers le monde.",
+        "SECONDARY": "Shiba Inu a développé un réseau de couche 2 appelé Shibarium, qui est construit sur la blockchain Ethereum."
+      },
+      "SOL": {
+        "PRIMARY": "Solana est une blockchain rapide, sécurisée et résistante à la censure fournissant l'infrastructure ouverte requise pour une adoption mondiale.",
+        "SECONDARY": "Solana est un projet open source implémentant une nouvelle blockchain haute performance et sans autorisation. La Fondation Solana est basée à Genève, en Suisse, et gère le projet open source."
+      },
+      "XLM": {
+        "PRIMARY": "Stellar est un réseau ouvert pour stocker et transférer de l'argent.",
+        "SECONDARY": "Stellar permet de créer, d'envoyer et d'échanger des représentations numériques de toutes les formes d'argent : dollars, pesos, bitcoins, à peu près n'importe quoi. Il est conçu pour que tous les systèmes financiers du monde puissent fonctionner ensemble sur un seul réseau."
+      },
+      "SUI": {
+        "PRIMARY": "Sui est une blockchain innovante et décentralisée de niveau 1 qui redéfinit la propriété des actifs.",
+        "SECONDARY": "Sui simplifie le processus de développement des contrats intelligents grâce à Move, un langage de programmation convivial, à la fois sûr et expressif. SUI est le jeton de gouvernance du réseau Sui."
+      },
+      "SUSHI": {
+        "PRIMARY": "SushiSwap est un marché automatisé faisant un échange décentralisé fonctionnant actuellement sur Ethereum.",
+        "SECONDARY": "SushiSwap est un projet géré par la communauté qui est régi par le vote de ses détenteurs de token. Les produits de base incluent Exchange, Liquidity Pools, Farms et SushiBar Staking."
+      },
+      "SNX": {
+        "PRIMARY": "Synthetix est un protocole décentralisé d'émission d'actifs synthétiques basé sur Ethereum.",
+        "SECONDARY": "Synthetix permet aux utilisateurs de capturer les mouvements de prix des crypto-monnaies populaires, des monnaies fiduciaires, des actions, des matières premières et plus encore sans effet de glissement. Les actifs synthétiques ou Synths, sont des actifs votés par la communauté qui représentent le prix de différents types d'actifs."
+      },
+      "TRX": {
+        "PRIMARY": "TRON est une blockchain publique destinée à fournir l'infrastructure sous-jacente qui permet aux développeurs de créer des contrats intelligents et des applications décentralisées, de publier librement, de posséder et de stocker des données et autres contenus.",
+        "SECONDARY": "TRON s'appuie sur un mécanisme de preuve d'authenticité déléguée (DPoS) dans lequel 27 super représentants effectuent une rotation toutes les 6 heures pour valider les blocs et les transactions."
+      },
+      "UMA": {
+        "PRIMARY": "UMA est une infrastructure open source pour le déploiement et l'application d'actifs synthétiques sur Ethereum.",
+        "SECONDARY": "UMA construit une infrastructure open-source pour les contrats financiers \"inestimables\" sur Ethereum sous la forme de deux technologies : des modèles de contrats financiers inestimables utilisés pour créer des token synthétiques et un service oracle décentralisé utilisé pour gérer et appliquer les contrats sur UMA."
+      },
+      "UNI": {
+        "PRIMARY": "Uniswap est un protocole décentralisé pour la fourniture automatisée de liquidités sur Ethereum.",
+        "SECONDARY": "Uniswap est un protocole d'échange de jetons ERC-20 sur Ethereum. Il élimine les intermédiaires de confiance et les formes inutiles d'extraction de rente, permettant un commerce rapide et efficace."
+      },
+      "WLD": {
+        "PRIMARY": "Le protocole Worldcoin est destiné à devenir le plus grand réseau public d'identité et de finance au monde.",
+        "SECONDARY": "Le Worldcoin est un jeton qui offre une utilité et donne aux utilisateurs un droit de regard sur l'orientation du protocole Worldcoin."
+      },
+      "XTZ": {
+        "PRIMARY": "Tezos est une plate-forme open source pour les actifs et les applications qui peuvent évoluer en se mettant à niveau.",
+        "SECONDARY": "De par sa conception, Tezos englobe l'évolutivité à long terme, la participation ouverte, la collaboration et la sécurité des contrats intelligents. Tezos est une blockchain qui utilise un protocole de preuve d'enjeu."
+      },
+      "YFI": {
+        "PRIMARY": "Yearn Finance est une suite de produits de finance décentralisée (DeFi) qui fournit l'agrégation de prêts, la génération de rendement et l'assurance sur la blockchain Ethereum.",
+        "SECONDARY": "Le protocole est maintenu par divers développeurs indépendants et est régi par les détenteurs de YFI."
+      },
+      "ZEC": {
+        "PRIMARY": "Zcash est une monnaie numérique - rapide et confidentielle avec des frais peu élevés.",
+        "SECONDARY": "Zcash vous offre la possibilité de transactions confidentielles et de confidentialité financière via des adresses protégées. Les preuves sans communication d'information permettent de vérifier les transactions sans révéler l'expéditeur, le destinataire ou le montant de la transaction. Les fonctionnalités de divulgation sélective de Zcash permettent à un utilisateur de partager certains détails de transaction, à des fins de conformité ou d'audit."
+      }
     },
     "ASSET_DESCRIPTIONS": {
       "0X_PRIMARY_DESCRIPTION": "0x est un protocole d'agrégation de liquidités de qualité professionnelle qui permet aux utilisateurs d'échanger facilement des jetons ERC20 et d'autres actifs. 0x utilise un relais hors chaîne hybride unique et une architecture de règlement sur l chaîne pour offrir une expérience flexible et économe en gaz aux traders.",
@@ -502,6 +704,7 @@
       "VALUE_PROP_TRUSTLESS": "Fiable",
       "VERIFY_OWNERSHIP": "Vérifier la propriété",
       "VERIFY_WALLET_COMPATIBILITY": "Vérifier la compatibilité du portefeuille",
+      "WANT_TO_LEARN": "Envie d'en savoir plus ?",
       "WELCOME_DYDX": "Bienvenue sur dYdX",
       "WELCOME": "Bienvenue",
       "WITHDRAW_STATUS": "Votre retrait de {AMOUNT_USD}sera disponible dans environ {ESTIMATED_DURATION}.",
@@ -556,7 +759,8 @@
       "SETTING_ALLOWANCE_EXPLANATION": "Vous pourrez effectuer des dépôts une fois que vous aurez activé les confirmations de transactions {SYMBOL}. Vous n'avez à le faire qu'une seule fois par actif.",
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Sous réserve de ces règles",
-      "SWAP": "Échanger"
+      "SWAP": "Échanger",
+      "ESTIMATED_TIME": "Durée estimée"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Activer le retrait",
@@ -611,6 +815,7 @@
       "ABOUT_TRADING_DATA": "À propos des données sur les récompenses de trading",
       "ACTIVE_EPOCH": "Epoch active",
       "ALLOCATION": "Allocation",
+      "AVAILABLE_TO_MIGRATE": "Disponible pour la migration",
       "AVERAGE_OPEN_INTEREST": "Intérêt ouvert moyen",
       "CAN_BE_CLAIMABLE_BY_YOU": "peut être réclamé par vous",
       "CLAIM_DATA_DESCRIPTION": "Données utilisées pour calculer les récompenses rétroactives de DYDX. Les récompenses rétroactives sont fournies par la Fondation dYdX.",
@@ -638,12 +843,21 @@
       "FREE_TRADING_DESCRIPTION_ASTERISK": "Trading gratuit* pour tout le monde, jusqu'à 100 000 $ par mois.",
       "FREE_TRADING_DISCLAIMER": "*Le trading et la conclusion de contrats perpétuels impliquent des risques financiers et autres importants. dYdX ne fournit pas de conseils financiers. « Opérations gratuites » signifie que dYdX a supprimé les frais liés à la passation d'ordres pour des comptes avec moins de 100 000 $ du volume des transactions au cours des trente jours précédents ; d'autres frais peuvent encore s'appliquer, y compris, mais sans s'y limiter, {PERPETUAL_FUNDING}, le dépôt et le retrait de fonds et la liquidation potentielle. Pour plus d'informations, veuillez consulter la {TERMS_OF_USE} de dYdX.",
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "financement perpétuel",
+      "FROM_TO": "de  {FROM}à  {TO}",
       "GASLESS_DEPOSITS_NEW_PROMO": "Si votre premier dépôt est de 1000 $ ou plus, dYdX paiera les frais de gas de votre dépôt !",
-      "GASLESS_DEPOSITS_PROMO": "Profitez de frais de gaz nuls sur votre dépôt de 2000 $ ou plus, une fois tous les trois jours.",
+      "GASLESS_DEPOSITS_PROMO": "Profitez de frais de gas nuls sur votre dépôt de 2000 $ ou plus, une fois tous les trois jours.",
+      "GOVERNANCE_DESCRIPTION": "Pour participer à la gouvernance, vous devez exporter votre phrase secrète vers votre portefeuille Keplr.",
+      "HAVE_YOU_EXPORTED": "Avez-vous exporté votre phrase secrète ?",
       "HOLDING": "Portefeuille {NUMBER}",
       "IN_THIS_EPOCH": "dans cette epoch",
+      "LEARN_TO_EXPORT": "{STRONG_NO}, apprendre à exporter ma phrase secrète.",
       "MAKER_MARKET_SHARE": "part de marché du fabricant",
       "MARKET_NOW_LIVE": "{SYMBOL} maintenant disponible",
+      "MIGRATE": "Migrer",
+      "MIGRATE_NOW": "Migrer maintenant",
+      "MIGRATE_DESCRIPTION": "Migrer votre $DYDX d'Ethereum vers la chaîne dYdX. Vous pourrez ainsi participer à la gouvernance. Vous pourrez également miser votre $DYDX.",
+      "NAVIGATE_TO_KEPLR": "{STRONG_YES}, accéder au tableau de bord Keplr.",
+      "NO_TOKENS_TO_MIGRATE": "Aucun jeton à migrer",
       "NONE_HELD": "Aucun maintenu",
       "OPEN_INTEREST_LABEL": "dans les positions ouvertes sur dYdX",
       "ORDERS_DESCRIPTION": "Suivre un ordre tout au long de son cycle de vie",
@@ -660,6 +874,8 @@
       "REWARDS_NOT_PROVIDED": "Les récompenses ne sont pas fournies par dYdX Trading Inc.",
       "REWARDS_UPDATE": "Mise à jour des récompenses",
       "SEARCH_MARKETS": "Rechercher des marchés",
+      "STAKING": "Staking",
+      "STAKING_DESCRIPTION": "Pour miser, vous devez exporter votre phrase secrète vers le portefeuille Keplr.",
       "STOP_MARKET_ORDERS": "Ordres Stop market",
       "STOP_MARKET_ORDERS_DESCRIPTION": "Les ordres Stop market et Take profit sont disponibles ! Définissez rapidement et facilement des déclencheurs pour limiter vos pertes et sécuriser vos profits.",
       "TARGET_VOLUME": "Volume cible",
@@ -677,6 +893,7 @@
       "TRADING_LEAGUES": "Ligues de trading",
       "TRADING_LEAGUES_DESCRIPTION": "Les ligues de trading sont maintenant en direct ! Grimpez dans les classements et gagnez votre part de {PRIZE}.",
       "TRADING_LEAGUES_PRIZE": "Cagnotte hebdomadaire de 100 000 $",
+      "TRADING_REWARDS": "Récompenses de trading",
       "TRADING_VOLUME_LABEL": "échangé dans les dernières 24 h",
       "TRADING_VOLUME": "Volume de trading",
       "TRAILING_VOLUME": "Volume de Trailing",
