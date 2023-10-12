@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "Ваш адрес dYdX «{DYDX_ADDRESS}» был создан из подписи адреса Ethereum «{EVM_ADDRESS}»."
+      "BODY": "Ваш адрес dYdX Chain «{DYDX_ADDRESS}» был создан из подписи адреса Ethereum «{EVM_ADDRESS}»."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Старая подпись",
@@ -242,6 +242,12 @@
     "VERIFY_EMAIL": {
       "TITLE": "Подтвердить адрес электронной почты",
       "BODY": "Перейдите по ссылке в отправленном вам электронном письме для подтверждения своего адреса электронной почты."
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "Расчеты dYdX Chain",
+      "BODY": "С целью защиты протокола, валидаторы dYdX Chain задерживают расчеты dYdX Chain."
     }
   }
 }
