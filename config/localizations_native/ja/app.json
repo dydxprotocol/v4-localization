@@ -25,7 +25,7 @@
       "ALERTS": "アラート",
       "AMOUNT_AND_FILLED": "金額\/約定済",
       "AMOUNT_RATE": "数量\/レート",
-      "AUTHENTICATE_WITH_FACE_ID": " Face IDでの認証",
+      "AUTHENTICATE_WITH_FACE_ID": "Face IDでの認証",
       "AUTHENTICATE_WITH_TOUCH_ID": "Touch IDでの認証",
       "AUTHENTICATE_WITH_BIOMETRICS": "バイオメトリックでの認証",
       "AUTHENTICATE_TO_PROCEED": "認証をおこなってdYdX口座にアクセスする",
@@ -112,7 +112,8 @@
       "YOUR_NAME_HERE": "あなたの名前",
       "YOUR_RANK": "あなたのランク",
       "VIEW_BLOG": "dYdXブログを見る",
-      "VIEW_DATA_FOR": "次のデータを閲覧"
+      "VIEW_DATA_FOR": "次のデータを閲覧",
+      "RETURN_TO_DRAFT": "ドラフトに戻る"
     },
     "LANGUAGE": {
       "LANGUAGE": "言語",
