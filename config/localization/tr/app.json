@@ -27,7 +27,8 @@
         "TODAY": "Bugün",
         "WEEK": "Hafta",
         "WEEKS_ABBREVIATED": "h",
-        "WEEKS": "Hafta"
+        "WEEKS": "Hafta",
+        "X_MINUTES": "{X} Dakika"
       },
       "ABOUT": "Hakkında",
       "ACADEMY": "Akademi",
@@ -58,6 +59,7 @@
       "CATEGORY": "Kategori",
       "CHAINS": "Zincirler",
       "CLEAR": "Temizle",
+      "CLICK_HERE": "Buraya tıklayın",
       "CLOSE": "Kapat",
       "COMING_SOON": "Çok yakında",
       "COMPETITION": "Yarışma",
@@ -155,6 +157,7 @@
       "MODIFY": "Değiştir",
       "NETWORK": "Ağ",
       "NEW": "Yeni",
+      "NO": "Hayır",
       "NONE": "Hiçbiri",
       "OPERATIONAL": "Operasyonel",
       "OPTIONAL": "İsteğe Bağlı",
@@ -257,7 +260,206 @@
       "WEBSITE": "Web Sitesi",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Çekme",
+      "YES": "Evet",
       "YOU": "Siz"
+    },
+    "__ASSETS": {
+      "ZRX": {
+        "PRIMARY": "0x, kullanıcıların ERC20 tokenlerine ve diğer varlıklara kolayca yatırım yapmalarını sağlayan profesyonel düzeyde bir likidite hızlandırıcı protokolüdür. 0x, yatırımcıların esnek ve gaz açısından etkin bir deneyim elde etmelerini başarmak için benzersiz bir zincir dışı aktarım, zincir içi bağlama mimarisi kullanır.",
+        "SECONDARY": "ZRX, sahiplerine 0x Geliştirme Önerileri (ZEIP'ler) üzerinde oy kullanma hakkı ve protokolün gelişimine etki etme imkanı sunan, 0x'in yerel yönetişim ve staking token'ıdır. Ek olarak, ZRX piyasa yapıcı likidite programı aracılığıyla likidite ödülü kazanmak için stake edilebilir veya delege edilebilir."
+      },
+      "1INCH": {
+        "PRIMARY": "1inch Network, sinerjileri DeFi alanındaki en kazançlı, hızlı ve korunaklı operasyonlara olanak sağlayan merkeziyetsiz protokolleri birleştirir.",
+        "SECONDARY": "1inch Network'ün başlangıç protokolü, birçok likidite kaynağı üzerinde fırsatlar arayan, kullanıcılara tüm borsalardan daha iyi rakamlar sunan bir DEX hızlandırıcı çözümüdür. Bu protokol, Ethereum üzerinde 50'den fazla ve Binance Smart Chain üzerindeki 20'den fazla likidite kaynağı ile çeşitli piyasalarda en iyi yolu bulan Pathfinder algoritmasını içerir. İki yıldan daha az bir sürede 1inch DEX birleştiricisi toplam hacim olarak 30 Milyar $'ı aştı."
+      },
+      "AAVE": {
+        "PRIMARY": "Aave, yatırma işlemlerinden kazanç sağlamak ve varlık borç almak için kullanılan açık kaynaklı ve gözetimsiz bir protokoldür.",
+        "SECONDARY": "Aave, kullanıcıların fon yatırıcı veya borç alan olarak katılabileceği merkezsizleştirilmiş ve gözetimsiz bir likidite piyasa protokolüdür. Fon yatırıcılar pasif bir gelir kazanmak için piyasalara likidite sağlarken, borç alanlar aşırı teminatlı (sürekli olarak) veya teminatlı (tek blok likidite) şekilde borç alabilir."
+      },
+      "ALGO": {
+        "PRIMARY": "Algorand, ana akım blokzincirinin benimsenmesini yıllardır aksatan teknik engelleri ortadan kaldırıyor: Merkezsizleşme, ölçek ve güvenlik.",
+        "SECONDARY": "Algorand İzin Gerektirmeyen, Saf Hisse Kanıtı konsensüs mekanizması kullanır ve gerçekten merkezsizleştirilmiş bir ağ içinde tam katılım, koruma ve hız sağlar. Ek olarak, Algorand, anında işlem sonuçlanması sunmanın yanında saniyede 1.000 işlem hacmine ulaşan ilk blokzincirdir."
+      },
+      "APE": {
+        "PRIMARY": "ApeCoin, ekosistemin yönetişim tokenidir ve ApeCoin sahiplerinin ApeCoin DAO'ya katılmalarına olanak sağlar.",
+        "SECONDARY": "ApeCoin, ekosistemin yardımcı tokenidir, tüm katılımcılarına merkezi aracılar olmadan kullanılabilecek paylaşılan ve açık bir para birimi sağlar."
+      },
+      "APT": {
+        "PRIMARY": "Aptos, ölçeklenebilir, güvenli ve kullanımı kolay olacak şekilde tasarlanmış bir 1. katman blok zinciridir.",
+        "SECONDARY": "Aptos, saniyede çok sayıda işlemi işleyebilmek üzere tasarlanmıştır ve hisse kanıtı konsensüs mekanizmasını kullanır."
+      },
+      "ARB": {
+        "PRIMARY": "ARB, Arbitrum ağının yönetişim tokenidir.",
+        "SECONDARY": "Arbitrum, Ethereum'a dayanan endüstri lideri kanıtlama teknolojisiyle desteklenen yüksek verimli, düşük maliyetli akıllı sözleşmelere sahip ortamlar sağlayan bir ölçeklendirme çözümüdür."
+      },
+      "AVAX": {
+        "PRIMARY": "Avalanche son derece merkezsizleştirilmiş uygulamalar, yeni finansal temeller ve yeni birlikte işlem görebilir blokzincirler başlatmak için geliştirilmiş açık kaynaklı bir platformdur.",
+        "SECONDARY": "Avalanche üzerinde çalışan geliştiriciler kolaylıkla güçlü, güvenilir ve güvenli uygulamalar ile karmaşık kural kümeli blok zincir ağları oluşturabilirler, veya mevcut özel ve genel alt ağlar üzerine kurabilirler."
+      },
+      "BCH": {
+        "PRIMARY": "Bitcoin Cash ile günün 24 saati, yılın 365 günü dünya üzerinde istediğiniz kişiye ve istediğiniz yere para gönderebilirsiniz. İnternet'in kendisi gibi, ağ her zaman açıktır.",
+        "SECONDARY": "Bitcoin Cash, banka transferleri ve kredi kartı ödemeleri gibi geleneksel ödeme sistemlerine göre daha fazla gizlilik ve anonimlik sunar, çünkü bir Bitcoin adresini kimin kontrol ettiğini bilmek normalde imkansızdır. Bitcoin Cash, nasıl kullanıldığına bağlı olarak çeşitli gizlilik seviyeleri sunar. Gizlilik amacıyla BCH kullanmadan önce kendinizi iyice eğitmeniz önemlidir."
+      },
+      "BTC": {
+        "PRIMARY": "Bitcoin aracılara ihtiyaç duymadan, eşler arası bitcoin ağı üzerinden, merkezi bir bankaya veya tek bir yöneticiye ihtiyaç duymadan gönderilebilen, merkezsizleştirilmiş dijital bir para birimidir.",
+        "SECONDARY": "İşlemler kriptografi yoluyla düğümlerin oluşturduğu bir ağ tarafından doğrulanır ve blokzincir adı verilen ortak dağıtık bir deftere kaydedilir. Bitcoin'ler, madencilik (mining) olarak bilinen bir işlemin ödülü olarak oluşturulur. Diğer para birimleri, ürünler ve hizmetler için takas edilebilir."
+      },
+      "BLUR": {
+        "PRIMARY": "BLUR bir NFT pazaryeridir.",
+        "SECONDARY": "BLUR token, BLUR protokolünün yönetişim tokenidir."
+      },
+      "ADA": {
+        "PRIMARY": "Cardano, hisse kanıtı temelli bir blok zinciri platformudur: Emsal denetimli araştırmalar üzerine kurulan ve kanıta dayalı metotlar yoluyla geliştirilen ilk örnektir. Merkezî olmayan uygulamalara, sistemlere ve topluluklara benzersiz güvenlik ve sürdürülebilirlik sağlamak için öncü teknolojileri bir araya getirir.",
+        "SECONDARY": "Cardano'nun varoluş amacı, önde gelen mühendislerden oluşan ekibiyle, gücü sorumsuz yapılardan uçlara, yani bireylere yeniden dağıtmak ve olumlu değişim ile ilerleme için destekleyici bir güç olmaktır."
+      },
+      "CELO": {
+        "PRIMARY": "Celo, EVM ile tam uyumlu bir proof-of-stake blok zinciridir.",
+        "SECONDARY": "CELO ayrıca kullanıcılara native ve native olmayan stablecoin'lere erişim, külfetsiz bir mobil istemci ve gaz ücretinin birden fazla para birimiyle ödenmesi imkanı sunar."
+      },
+      "LINK": {
+        "PRIMARY": "Chainlink, herhangi bir blokzincirdeki akıllı sözleşmeleri veri sağlayıcılara, web API'lere, kurumsal sistemlere, bulut hizmetlerine, IoT cihazlarına, ödeme sistemlerine ve diğer blokzincirlere bağlar.",
+        "SECONDARY": "Chainlink, blockchain teknolojisine özel güvenlik ve güvenilirlik garantilerinden ödün vermeden gerçek dünya verisine, olaylara, ödemelere ve daha fazlasına erişim sağlayarak akıllı sözleşmelerin yeteneklerini genişletir."
+      },
+      "COMP": {
+        "PRIMARY": "Compound, açık finansal uygulamalar dünyasının kapısını aralamak için geliştiriciler düşünülerek oluşturulmuş algoritmik ve özerk bir faiz oranı protokolüdür.",
+        "SECONDARY": "Bir varlığın arzcıları (veya talepçileri) protokolle doğrudan etkileşim kurarak bir eş veya karşı taraf ile vade, faiz oranı veya teminat pazarlığı yapmak zorunda kalmadan dalgalı bir faiz oranı kazanırlar (veya öderler). "
+      },
+      "ATOM": {
+        "PRIMARY": "Cosmos, merkezî olmayan bir gelecek için inşa edilmiş, birbirine bağlı uygulamalar ve hizmetler için sürekli genişleyen bir ekosistemdir.",
+        "SECONDARY": "Cosmos uygulamaları ve hizmetleri, Inter-Blockchain İletişim Protokolü yani IBC kullanarak bağlanır. Bu yenilik varlıkları ve verileri egemen, merkeziyetsiz blokzincirler üzerinde serbestçe alıp satmanıza olanak tanır."
+      },
+      "CRV": {
+        "PRIMARY": "Curve, likidite sağlayıcıları için son derece verimli stablecoin yatırımı ve bir fırsat maliyeti yaratmayan düşük riskli, ek ücret gelirleri için tasarlanmış, Ethereum üzerinde çalışan (Uniswap gibi) bir takas likidite havuzudur.",
+        "SECONDARY": "Curve, kullanıcıların (ve 1inch, Paraswap, Totle ve Dex.ag gibi akıllı sözleşmelerin) özellikle stablecoin için tasarlanmış düşük kayma oranlı ve düşük ücretli özel bir algoritma ile DAI ve USDC arasında alım satım yapmalarına ve ücret kazanmalarına olanak tanır."
+      },
+      "DOGE": {
+        "PRIMARY": "Dogecoin, eşler arası açık kaynaklı dijital bir para birimidir.",
+        "SECONDARY": "Litecoin'den çatallanarak oluşturulan Dogecoin, popüler \"Doge\" İnternet geyiğine dayanan ve logosunda Shiba Inu olan bir kripto paradır."
+      },
+      "ENJ": {
+        "PRIMARY": "Enjin, NFT'leriniz ile kripto paralarınızı yönetmenize ve yeni, hızla büyüyen sanal ekonomiye dahil olmanıza yardımcı olmak için basit ürünler geliştirdi.",
+        "SECONDARY": "ENJ, NFT'ler gibi dijital varlıkları desteklemek için kullanılır. Oyunlar, uygulamalar, pazarlar ve cüzdanlar arasında el değiştirirken NFT'leri güçlendirir. Mint'lenmiş (üretilmiş) her varlık ENJ içerir ve \"melting\" (eritme) adı verilen bir işlemle herhangi bir zamanda elde edilebilecek gerçek dünya değeri sağlar."
+      },
+      "EOS": {
+        "PRIMARY": "EOSIO; güvenli, uyumlu ve öngörülebilir dijital altyapıları desteklemek ve yönetmek için tasarlanmış, yüksek performanslı açık kaynaklı bir blok zinciri platformudur.",
+        "SECONDARY": "Blokzincir yenilikleri ve performans için geliştirilmiş açık kaynaklı bir blokzincir platformu olan EOSIO'yu dünya çapında işletmeler ve geliştiriciler güvenli, şeffaf ve düzenli dijital altyapılar oluşturmak için kullanırlar."
+      },
+      "ETC": {
+        "PRIMARY": "Ethereum Classic, Temmuz 2016'da başlatılan bir Ethereum hard fork'udur. Akıllı bir sözleşme ağı olarak işlev görür ve merkezsizleştirilmiş uygulamaları barındırma ve destekleyebilme özelliğine sahiptir.",
+        "SECONDARY": "ETC, blockchain akıllı sözleşme platformlarının başlıca değer önermelerinden birini korumak amacıyla başlatılmıştır: \"Kod Kanundur\". Yapılan hard fork, Ethereum dahil blok zincir protokollerinin çoğunluğunun bu temel prensipten sapmış olduğuna dair inancın sonucudur."
+      },
+      "ETH": {
+        "PRIMARY": "Ethereum, merkeziyetsiz uygulamalar için global, açık kaynaklı bir platformdur.",
+        "SECONDARY": "Ethereum, 2014 yılında kurulan merkezsizleştirilmiş bir blok zinciri platformudur. Ethereum, tek bir kişi tarafından sahip olunmayan ya da yönetilmeyen, açık kaynaklı bir projedir. Bu da isteyen herkesin her yerde yazılımı indirebileceği ve ağ ile etkileşime girebileceği anlamına gelir. Ethereum, geliştiricilere merkezsizleştirilmiş uygulamalar için altyapıların temel bir parçası olan 'akıllı sözleşmeler' geliştirme ve yönetme olanağı tanır."
+      },
+      "FIL": {
+        "PRIMARY": "Filecoin, insanlığın en önemli bilgilerini saklamak için tasarlanmış merkezsizleştirilmiş bir depolama ağıdır.",
+        "SECONDARY": "Filecoin ağı, çok sayıda farklı depolama sağlayıcısı ve geliştiriciden oluşur. Bu da sağlam ve güvenilir bir hizmet oluştururken kriptografik kanıtlarla verilerinizin zaman içinde kullanılabilir halde ve değişmeden kalmalarına imkan tanır."
+      },
+      "ICP": {
+        "PRIMARY": "DFINITY Vakfı kâr amacı gütmeyen bir kuruluş olup, akıllı sözleşmeler barındırmak için tasarlanmış bir halka açık blok zincir ağı olan Internet Computer'ı geliştirmektedir.",
+        "SECONDARY": "ICP, platformun native kripto para birimidir."
+      },
+      "LDO": {
+        "PRIMARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır.",
+        "SECONDARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 tokenidir."
+      },
+      "LTC": {
+        "PRIMARY": "Litecoin, dünyadaki herkese anında ve neredeyse sıfır maliyetli ödemeler sağlayan eşler arası bir İnternet para birimidir.",
+        "SECONDARY": "Litecoin, tamamen merkeziyetsiz açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, ticaret hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir ticaret ortamıdır."
+      },
+      "MKR": {
+        "PRIMARY": "Maker Protocol, diğer adıyla Multi-Collateral Dai (MCD) sistemi, kullanıcıların \"Maker Yönetişimi\" ile onaylanmış teminat varlıklarından faydalanarak Dai üretmelerine olanak tanır. Maker Yönetişimi, Maker Protocol'ün çeşitli özelliklerini yönetmek için topluluk tarafından organize edilen ve yönetilen bir süreçtir.",
+        "SECONDARY": "Dai, ABD Doları'na yumuşak sabit kur rejimiyle bağlanmış; merkezsiz, tarafsız ve teminat destekli bir kripto paradır. Düşük oynaklığı nedeniyle hiperenflasyona karşı dirençli olan Dai, herkese her yerde ekonomik özgürlük ve fırsatlar sunar."
+      },
+      "XMR": {
+        "PRIMARY": "Monero, kişisel ve sansüre dirençli işlemlere odaklanan önde gelen bir kripto paradır.",
+        "SECONDARY": "Monero seçici olarak şeffaf alternatiflerinden (ör. Zcash) farklı olarak, her kullanıcının varsayılan olarak anonim olduğu tek kripto paradır. Her bir işlemin göndericisi, alıcısı ve miktarı üç önemli teknoloji kullanılarak gizlenir: Gizli Adresler, Halka İmzaları ve RingCT."
+      },
+      "NEAR": {
+        "PRIMARY": "NEAR, kullanılabilirlik için tasarlanmış parçalı, hisse kanıtlı, birinci katman blok zincir üzerine kurulu bir geliştirme platformudur.",
+        "SECONDARY": "NEAR token, ağı hisse kanıtı mekanizması üzerinden güvenceye almak için kullanılır."
+      },
+      "OP": {
+        "PRIMARY": "OP Mainnet, Optimism tarafından desteklenen düşük maliyetli ve yıldırım hızında bir Ethereum L2 blok zinciridir.",
+        "SECONDARY": "OP Optimism Collective'in yönetişim tokenidir."
+      },
+      "PEPE": {
+        "PRIMARY": "Pepe bir memecoin'dir.",
+        "SECONDARY": "Web sitesine göre Pepe, memecoin'leri yeniden iyi bir konuma getirmek ortaya çıkmıştır."
+      },
+      "DOT": {
+        "PRIMARY": "Polkadot özel ve konsorsiyum zincirlerini, genel ve izin gerektirmeyen ağları, oracle'ları ve henüz icat edilmemiş gelecek teknolojileri bağlamak için tasarlanmıştır. Polkadot, bağımsız blok zincirlerinin Polkadot iletim zinciri aracılığıyla bilgi ve işlemleri güven gerektirmeyen bir şekilde takas edebileceği bir internet ortamını kolaylaştırır.",
+        "SECONDARY": "Polkadot merkezsizleştirilmiş uygulamalar, hizmetler ve kurumlar oluşturmayı ve birbirine bağlamayı her zamankinden daha kolay bir hale getirir. Yenilikçileri daha iyi çözümler oluşturmak için güçlendirerek, toplumun bozuk bir web yapısı içindeki büyük kurumların güvenimizi kötüye kullanabileceği düzene bağlılığını azaltmayı amaçlıyoruz."
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
+        "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blokzincirlerinin en iyi özelliklerini bir araya getirir"
+      },
+      "XRP": {
+        "PRIMARY": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
+        "SECONDARY": "XRP, finansal hizmetler alanındaki uygulamalar için en pratik kripto para birimi olmak üzere inşa edilmiş açık kaynaklı bir dijital varlıktır."
+      },
+      "RUNE": {
+        "PRIMARY": "Thorchain, merkezsizleştirilmiş ve otonom bir zincirlerarası likidite ağıdır.",
+        "SECONDARY": "RUNE, THORChain ekosistemini destekleyen ve ağı ekonomik olarak güvence altına almak için gerekli ekonomik teşvikleri sağlayan varlıktır."
+      },
+      "SEI": {
+        "PRIMARY": "Sei, dijital varlıkların değişimi için uzmanlaşmış genel amaca yönelik, ve açık kaynaklı bir 1. Katman blok zinciridir.",
+        "SECONDARY": "SEI, SEI ağının yönetişim tokenidir."
+      },
+      "SHIB": {
+        "PRIMARY": "Shiba Inu veya SHIB, Shiba ekosisteminin temel tokenidir, dünya genelinde milyonlarca kişiye merkeziyetsiz, topluluk tarafından yönetilen bir para biriminin gücünü sunar.",
+        "SECONDARY": "Shiba Inu, Ethereum blok zincirinin üzerine inşa edilen Shibarium adında bir 2. katman ağı geliştirmiştir."
+      },
+      "SOL": {
+        "PRIMARY": "Solana, küresel uyarlama için gerekli açık altyapıyı sağlayan hızlı, güvenli ve sansüre dirençli bir blokzincirdir.",
+        "SECONDARY": "Solana; yeni, yüksek performanslı ve izin gerektirmeyen bir blok zinciri uygulaması yapan açık kaynaklı bir projedir. Solana Vakfı, İsviçre'nin Cenevre kentinde bulunur ve açık kaynaklı projeyi yönetir."
+      },
+      "XLM": {
+        "PRIMARY": "Stellar, açık bir para depolama ve taşıma ağıdır.",
+        "SECONDARY": "Stellar, tüm para cinslerinin dijital temsillerini oluşturmaya, göndermeye ve ticarete konu etmeye olanak tanır: Dolar, peso, bitcoin ve hemen hemen diğer her şey. Tüm dünyanın finansal sistemlerini tek bir ağ üzerinde birlikte çalıştırabilecek şekilde tasarlanmıştır."
+      },
+      "SUI": {
+        "PRIMARY": "Sui, varlık sahipliğini yeniden tanımlayan yenilikçi, merkeziyetsiz bir 1. Katman blok zinciridir.",
+        "SECONDARY": "Sui, akıllı sözleşme geliştirme sürecini hem güvenli hem de açık, aynı zamanda kullanıcı dostu bir programlama dili olan Move ile basitleştirir. SUI, Sui ağının yönetişim tokenidir."
+      },
+      "SUSHI": {
+        "PRIMARY": "SushiSwap, Ethereum üzerinde çalışmakta olan merkezsizleştirilmiş otomatik piyasa yapıcı borsasıdır.",
+        "SECONDARY": "SushiSwap, token sahiplerinin oylaması ile idare edilen topluluk yönetimli bir projedir. Temel ürünler arasında Borsa, Likidite Havuzları, Çiftlikler ve SushiBar Staking bulunur."
+      },
+      "SNX": {
+        "PRIMARY": "Synthetix, Ethereum üzerinde inşa edilmiş merkezsiz bir sentetik varlık dağıtım protokolüdür.",
+        "SECONDARY": "Synthetix, kullanıcıların popüler kriptoparalar, fiat para birimleri, hisse senetleri, emtialar ve daha fazlası için fiyat hareketlerini sıfır kayma ile yakalamalarına olanak tanır. Sentetik varlıklar veya Synth'ler farklı varlık türlerinin fiyatını temsil eden, topluluk tarafından oylanarak türeyen varlıklardır."
+      },
+      "TRX": {
+        "PRIMARY": "TRON; geliştiricilerin akıllı sözleşmeler ve merkeziyetsiz uygulamalar oluşturabilmelerine, veriyi ve diğer içerikleri serbestçe yayınlamalarına, sahiplenmelerine ve depolamalarına olanak sağlayan dayanak altyapıyı sunmaya adanmış genele açık bir blok zinciridir.",
+        "SECONDARY": "TRON, 27 Süper Temsilcinin blok ve işlemleri doğrulamak için her 6 saatte bir rotasyon yaptığı Delege Edilmiş Hisse Kanıtı (Delegated Proof-of-Stake - DPoS) mekanizmasını temel alır."
+      },
+      "UMA": {
+        "PRIMARY": "UMA, Ethereum üzerinde sentetik varlıkları dolaşıma sokmak ve uygulamak için kullanılan açık kaynaklı bir altyapıdır.",
+        "SECONDARY": "UMA, Ethereum üzerinde \"fiyatsız\" finansal sözleşmeler için açık kaynaklı bir altyapı oluşturur, bunun için iki teknolojiyi temel alır: Sentetik token'lar oluşturmak için kullanılan fiyatsız finansal sözleşme taslakları ve UMA üzerinde sözleşme yönetmek ve uygulamak için kullanılan merkezsizleştirilmiş bir oracle hizmeti."
+      },
+      "UNI": {
+        "PRIMARY": "Uniswap, Ethereum üzerinde otomatik likidite temini için kullanılan merkezsizleştirilmiş bir protokoldür.",
+        "SECONDARY": "Uniswap, Ethereum üzerinde ERC-20 token'larının el değiştirmesi için kullanılan bir protokoldür. Güven tabanlı aracıları ve gereksiz rant çıkarma biçimlerini ortadan kaldırarak hızlı ve verimli bir tradinge olanak tanır."
+      },
+      "WLD": {
+        "PRIMARY": "Worldcoin protokolü, dünyanın en büyük kimlik ve finansal kamu ağı olarak tasarlanmıştır.",
+        "SECONDARY": "Worldcoin, kolaylık sağlayan ve kullanıcılara Worldcoin protokolünün yönüne ilişkin söz hakkı sunan bir tokendir."
+      },
+      "XTZ": {
+        "PRIMARY": "Tezos, varlıklar ve uygulamalar için kendini güncelleyerek gelişebilen açık kaynaklı bir platformdur.",
+        "SECONDARY": "Tezos, tasarımı itibariyle uzun vadeli güncellenebilirlik, açık katılım, işbirliği ve akıllı sözleşme güvenliğine sıkı sıkıya bağlıdır. Tezos bir Hisse Kanıtı blok zinciridir."
+      },
+      "YFI": {
+        "PRIMARY": "Yearn Finance, Merkeziyetsiz Finans (DeFi) içerisinde Ethereum blokzinciri üzerinde borç birleştirme, gelir oluşturma ve sigorta sağlayan bir ürün grubudur.",
+        "SECONDARY": "Protokol çeşitli bağımsız geliştiriciler tarafından sürdürülür ve YFI sahipleri tarafından yönetilir."
+      },
+      "ZEC": {
+        "PRIMARY": "Zcash düşük ücretlerle hızlı ve gizli işlem sunan dijital bir para birimidir.",
+        "SECONDARY": "Zcash, size korunmuş adresler aracılığıyla gizli işlemler ve finansal gizlilik seçeneği sunar. Sıfır bilgi kanıtları gönderici, alıcı veya işlem miktarı bilgilerini açığa çıkarmadan işlemlerin doğrulanmasına olanak tanır. Zcash içindeki seçmeli açıklama özellikleri, kullanıcının uyum veya denetim amaçlarına uygun bir şekilde bazı işlem ayrıntılarını paylaşmalarına olanak tanır."
+      }
     },
     "ASSET_DESCRIPTIONS": {
       "0X_PRIMARY_DESCRIPTION": "0x, kullanıcıların ERC20 tokenlerine ve diğer varlıklara kolayca yatırım yapmalarını sağlayan profesyonel düzeyde bir likidite hızlandırıcı protokolüdür. 0x, yatırımcıların esnek ve gaz açısından etkin bir deneyim elde etmelerini başarmak için benzersiz bir zincir dışı aktarım, zincir içi bağlama mimarisi kullanır.",
@@ -502,6 +704,7 @@
       "VALUE_PROP_TRUSTLESS": "Güven gerektirmez",
       "VERIFY_OWNERSHIP": "Sahipliği doğrulayın",
       "VERIFY_WALLET_COMPATIBILITY": "Cüzdan uyumluluğunu doğrulayın",
+      "WANT_TO_LEARN": "Daha fazla bilgi edinmek ister misiniz?",
       "WELCOME_DYDX": "dYdX'e hoş geldiniz",
       "WELCOME": "Hoş geldiniz",
       "WITHDRAW_STATUS": "{AMOUNT_USD} tutarındaki çekme işleminiz yaklaşık olarak {ESTIMATED_DURATION} içinde mevcut olacaktır.",
@@ -556,7 +759,8 @@
       "SETTING_ALLOWANCE_EXPLANATION": "{SYMBOL} etkinleştirme işleminiz onaylandıktan sonra yatırma işlemi gerçekleştirebileceksiniz. Bunu her varlık için sadece bir kez yapmanız gerekir.",
       "SLIPPAGE": "Kayma",
       "SUBJECT_TO_RULES": "Şu kurallara tabi",
-      "SWAP": "Takas"
+      "SWAP": "Takas",
+      "ESTIMATED_TIME": "Tahmini Süre"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Çekme işlemini etkinleştirin",
@@ -611,6 +815,7 @@
       "ABOUT_TRADING_DATA": "Trading Ödülleri Verileri Hakkında",
       "ACTIVE_EPOCH": "Aktif dönem",
       "ALLOCATION": "Dağılım",
+      "AVAILABLE_TO_MIGRATE": "Geçiş için kullanılabilir",
       "AVERAGE_OPEN_INTEREST": "Ortalama Açık Faiz",
       "CAN_BE_CLAIMABLE_BY_YOU": "tarafınızdan talep edilebilir",
       "CLAIM_DATA_DESCRIPTION": "DYDX'in Geriye Dönük Ödüllerini hesaplamak için kullanılan veriler. Geriye dönük ödüller dYdX Vakfı tarafından sağlanır.",
@@ -638,12 +843,21 @@
       "FREE_TRADING_DESCRIPTION_ASTERISK": "Herkes için ayda 100.000 $'a kadar ücretsiz işlem*.",
       "FREE_TRADING_DISCLAIMER": "*Sürekli varlık sözleşmeler ile alım satım ve işlem yapmak önemli finansal ve diğer çeşitli riskleri içerir. dYdX finansal tavsiye sunmamaktadır. \"Ücretsiz İşlem\", dYdX'in önceki otuz günde 100.000 $'dan daha az işlem hacmine sahip hesaplar için emir verme ile ilişkin ücretlerin kaldırıldığı anlamına gelir. {PERPETUAL_FUNDING}, fon yatırma ve çekme ve potansiyel tasfiye de dahil olmak üzere fakat bunlarla sınırlı olmamak kaydıyla başka ücretler de geçerli olabilir. Ek bilgi için lütfen dYdX {TERMS_OF_USE} metnini inceleyin.",
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "sürekli varlık fonlaması",
+      "FROM_TO": "{FROM} token'ından {TO} token'ına",
       "GASLESS_DEPOSITS_NEW_PROMO": "İlk yatırma işleminiz 1000 $ veya daha fazla ise dYdX yatırma gaz ücretlerinizi ödeyecektir!",
-      "GASLESS_DEPOSITS_PROMO": "Üç günde bir kez olmak üzere, 2000 $ veya daha fazla yatırma işleminiz için sıfır gaz ücretinin keyfini çıkarın.",
+      "GASLESS_DEPOSITS_PROMO": "Üç günde bir kez olmak üzere, 2000 $ veya daha fazla yatırma işleminiz için sıfır gas ücretinin keyfini çıkarın.",
+      "GOVERNANCE_DESCRIPTION": "Yönetişime katılmak için gizli ifadenizi Keplr Wallet'a aktarmanız gerekir.",
+      "HAVE_YOU_EXPORTED": "Gizli ifadenizi dışa aktardınız mı?",
       "HOLDING": "Elde {NUMBER}",
       "IN_THIS_EPOCH": "bu dönemde",
+      "LEARN_TO_EXPORT": "{STRONG_NO}, gizli ifadenizi nasıl dışa aktaracağınızı öğrenin.",
       "MAKER_MARKET_SHARE": "düzenleyici piyasa payı",
       "MARKET_NOW_LIVE": "{SYMBOL} birimi şimdi kullanımda",
+      "MIGRATE": "Geçiş",
+      "MIGRATE_NOW": "Şimdi geçiş yapın",
+      "MIGRATE_DESCRIPTION": "$DYDX'inizi Ethereum'dan dYdX Zinciri'ne taşıyın. Böylece yönetişime katılmanız mümkün olacaktır. Ayrıca $DYDX'inizi de stake edebileceksiniz.",
+      "NAVIGATE_TO_KEPLR": "{STRONG_YES}, Keplr Kontrol Paneline gidin.",
+      "NO_TOKENS_TO_MIGRATE": "Geçiş için token yok",
       "NONE_HELD": "Elde hiç yok",
       "OPEN_INTEREST_LABEL": "dYdX üzerinde açık pozisyonda",
       "ORDERS_DESCRIPTION": "Bir emri yaşam döngüsü boyunca takip edin",
@@ -660,6 +874,8 @@
       "REWARDS_NOT_PROVIDED": "Ödüller dYdX Trading Inc. tarafından sağlanmaz.",
       "REWARDS_UPDATE": "Ödül güncellemesi",
       "SEARCH_MARKETS": "Piyasaları ara",
+      "STAKING": "Staking",
+      "STAKING_DESCRIPTION": "Stake etmek için gizli ifadenizi Keplr Wallet'a aktarmanız gerekir.",
       "STOP_MARKET_ORDERS": "Durdurma piyasa talimatları",
       "STOP_MARKET_ORDERS_DESCRIPTION": "Durdurma piyasa ve kâr alma piyasa talimatları burada! Kayıplarınızı sınırlandırmak ve kârınızı sabitlemek için hızla ve kolayca tetikleme değerleri belirleyin.",
       "TARGET_VOLUME": "Hedef Hacim",
@@ -677,6 +893,7 @@
       "TRADING_LEAGUES": "Yatırımcı Ligleri",
       "TRADING_LEAGUES_DESCRIPTION": "Yatırım ligleri artık başladı! Sıralamalarda üstlere tırmanın ve {PRIZE} üzerinden payınızı alın.",
       "TRADING_LEAGUES_PRIZE": "Haftalık 100.000$ ödül havuzu",
+      "TRADING_REWARDS": "Alım Satım Ödülleri",
       "TRADING_VOLUME_LABEL": "son 24 saat içinde takas edilen",
       "TRADING_VOLUME": "Yatırım Hacmi",
       "TRAILING_VOLUME": "Takipçi Hacim",
