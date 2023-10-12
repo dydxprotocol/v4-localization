@@ -128,7 +128,7 @@
       "BODY": "Maximum allowed leverage for this market. To limit risk, maximum leverage decreases linearly with position size after a certain threshold."
     },
     "MAXIMUM_REWARDS": {
-      "TITLE": "Maximum Rewards",
+      "TITLE": "Estimated Rewards",
       "BODY": "Earn rewards when you trade on dYdX. Actual rewards may vary."
     },
     "NET_FUNDING": {
