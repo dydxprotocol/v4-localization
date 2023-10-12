@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "您的dYdX地址“{DYDX_ADDRESS}”是根据以太坊地址“{EVM_ADDRESS}”的签名创建的。"
+      "BODY": "您的 dYdX 地址“{DYDX_ADDRESS}”根据以太坊地址“{EVM_ADDRESS}”的签名创建。"
     },
     "LEGACY_SIGNING": {
       "TITLE": "传统签名",
@@ -242,6 +242,12 @@
     "VERIFY_EMAIL": {
       "TITLE": "验证电子邮件地址",
       "BODY": "请点击我们发送给您的电子邮件中的链接，这将帮助我们验证您的电子邮件地址的所有权。"
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdX 链结算",
+      "BODY": "为确保协议安全，dYdX 链验证者延迟 dYdX 链 DYDX 的结算。"
     }
   }
 }
