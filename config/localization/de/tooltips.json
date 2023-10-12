@@ -243,5 +243,11 @@
       "TITLE": "E-Mail-Adresse verifizieren",
       "BODY": "Bitte klicken Sie auf den Link in der E-Mail, die wir Ihnen gesendet haben, wodurch wir überprüfen können, ob Sie der Eigentümer Ihrer E-Mail-Adresse sind."
     }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdX-Chain-Abwicklung",
+      "BODY": "Um die Sicherheit des Protokolls zu gewährleisten, verzögern dYdX-Chain-Validatoren die Abwicklung von dYdX-Chain-DYDX."
+    }
   }
 }
