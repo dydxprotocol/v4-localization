@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "귀하의 \"{DYDX_ADDRESS}\" dYdX 주소는 이더리움 주소 \"{EVM_ADDRESS}\"의 서명에서 만들어졌습니다."
+      "BODY": "귀하의 \"{DYDX_ADDRESS}\" dYdX 체인 주소는 이더리움 주소 \"{EVM_ADDRESS}\"의 서명에서 만들어졌습니다."
     },
     "LEGACY_SIGNING": {
       "TITLE": "레거시 서명",
@@ -242,6 +242,12 @@
     "VERIFY_EMAIL": {
       "TITLE": "이메일 주소 인증",
       "BODY": "이메일로 전송된 링크를 클릭하면 이메일 주소의 소유권이 인증됩니다."
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdX 체인 정산",
+      "BODY": "프로토콜의 보안을 보장하기 위해 dYdX 체인 검증기는 dYdX 체인 DYDX의 정산을 지연시킵니다."
     }
   }
 }
