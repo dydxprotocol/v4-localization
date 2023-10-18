@@ -733,7 +733,14 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "To complete dYdX onboarding, set your wallet network to 'Ethereum Mainnet'.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
-      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}.",
+      "TOS_TITLE": "By using any of our products and services, you agree to the Terms of Use {TERMS_LINK} and Privacy Policy {PRIVACY_POLICY_LINK}.  You hereby agree, represent and warrant that:",
+      "TOS_LINE1": "You are not a person or company who is a resident of, or is located, incorporated or has a registered agent in, the United States, Canada, or other blocked or restricted location.",
+      "TOS_LINE2": "You will not in the future access this site, or use our products or services, while located within the United States, Canada, or other blocked or restricted location.",
+      "TOS_LINE3": "You are not using, and will not in the future use, a VPN to mask your physical location from a blocked or restricted location.",
+      "TOS_LINE4": "You are lawfully permitted to access this site, and use our products and services, under the laws of the jurisdiction in which you reside and are located.",
+      "TOS_LINE5": "You understand the investment and technology risks associated with entering into perpetual contracts, using leverage, and engaging with blockchain and other web3 products and services.see legal request here.",
+      "TOS_TRANSLATION_DISCLAIMER": "As applicable, the non-English translated version of this notification is provided to you solely as a courtesy. In the event of a conflict between the translated version and the English version, the English version will prevail."
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Sign into mobile",

@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "Source address",
       "DYDX_ADDRESS_COPIED": "dYdX Chain address is copied to clipboard.",
       "DYDX_MNEMONIC_COPIED": "Secret phrase is copied to clipboard.",
-      "SYSTEM_STATUS": "System Status"
+      "SYSTEM_STATUS": "System Status",
+      "DELETE_ALERT": "Delete This Alert"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Checking deposit status ...",
