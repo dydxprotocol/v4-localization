@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "Seu endereço dYdXs \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Ethereum \"{EVM_ADDRESS}\"."
+      "BODY": "Seu endereço de cadeia dYdX \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Ethereum \"{EVM_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
@@ -241,7 +241,13 @@
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "Verificar o endereço de e-mail",
-      "BODY": "Clique sobre o link do e-mail que lhe enviamos e isso nos ajudará a verificar se o endereço de e-mail é seu"
+      "BODY": "Clique sobre o link do e-mail que lhe enviamos e isso nos ajudará a verificar se o endereço de e-mail é seu."
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "Liquidação na cadeia dYdX",
+      "BODY": "Para garantir a segurança do protocolo, os validadores da cadeia dYdX adiam a liquidação da cadeia dYdX DYDX."
     }
   }
 }
