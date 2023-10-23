@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "dYdXアドレス「{DYDX_ADDRESS}」は、イーサリアム・アドレス「{EVM_ADDRESS}」の署名から作成されました。"
+      "BODY": "dYdXチェーンのアドレス「{DYDX_ADDRESS}」は、イーサリアムアドレス「{EVM_ADDRESS}」の署名から作成されました。"
     },
     "LEGACY_SIGNING": {
       "TITLE": "レガシー署名",
@@ -242,6 +242,12 @@
     "VERIFY_EMAIL": {
       "TITLE": "メールアドレスの確認",
       "BODY": "送信したメールに記載されているリンクをクリックしていただくことで、当社がお客様のメールアドレスを確認することができます。"
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdXチェーンの決済",
+      "BODY": "プロトコルのセキュリティを確保するために、dYdXチェーンバリデータは、dYdXチェーンのDYDXの決済を遅らせます。"
     }
   }
 }
