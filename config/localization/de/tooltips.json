@@ -128,7 +128,7 @@
       "BODY": "Maximal zulässige Leverage für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
     },
     "MAXIMUM_REWARDS": {
-      "TITLE": "Maximale Prämien",
+      "TITLE": "Geschätzte Prämien",
       "BODY": "Verdienen Sie Prämien, wenn Sie auf dYdX handeln. Tatsächliche Prämien können variieren."
     },
     "NET_FUNDING": {
