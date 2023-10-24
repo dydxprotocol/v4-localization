@@ -394,6 +394,11 @@
       "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
     }
   },
+  "FORCED_UPDATE": {
+    "TITLE": "Update",
+    "TEXT": "This version is no longer supported. Please update to the latest version.",
+    "ACTION": "Update App"
+  },
   "ERRORS": {
     "TRADE_BOX": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price below {TRIGGER_PRICE_LIMIT} or use a Stop Limit order.",
