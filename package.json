@@ -1,6 +1,6 @@
 {
   "name": "@dydxprotocol/v4-localization",
-  "version": "0.1.36",
+  "version": "1.0.0",
   "description": "v4 localization",
   "main": "index.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/dydxprotocol/v4-localization.git"
   },
   "author": "",
-  "license": "BSL-1.1",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/dydxprotocol/v4-localization/issues"
   },
