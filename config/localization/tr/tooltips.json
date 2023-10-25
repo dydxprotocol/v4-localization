@@ -21,11 +21,11 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Hesap Kaldıracı",
-      "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjinli olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
+      "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjlı olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marjin gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",
@@ -76,8 +76,8 @@
       "BODY": "Durdurma talimatları, oracle fiyatına göre tetiklenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
     },
     "INITIAL_MARGIN_FRACTION": {
-      "TITLE": "Başlangıç Marjin Oranı",
-      "BODY": "Marjin oranı, pozisyonunuzun kavram değeri net varlığınıza bölünerek hesaplanır. Marjin oranınız başlangıç marjin oranını aşıyorsa, artık pozisyonunuzu artırmanıza izin verilmez. Riski sınırlamak amacıyla, başlangıç marjin oranı, pozisyon konumunun Temel Pozisyonel Fiktif Değeri ile Temel Başlangıç Marjin Oranının çarpımına bölünmesinin kare kökü oranında artmaktadır."
+      "TITLE": "Başlangıç Marj Oranı",
+      "BODY": "Marj oranı, pozisyonunuzun kavram değeri net varlığınıza bölünerek hesaplanır. Marj oranınız başlangıç marj oranını aşıyorsa, artık pozisyonunuzu artırmanıza izin verilmez. Riski sınırlamak amacıyla, başlangıç marj oranı, pozisyon konumunun Temel Pozisyonel Fiktif Değeri ile Temel Başlangıç Marj Oranının çarpımına bölünmesinin kare kökü oranında artmaktadır."
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
@@ -108,16 +108,16 @@
       "BODY": "Borsa tahtasından likidite alan işlemler (örn. piyasa veya çakışan limit talimatları) alıcı talimatları olarak yürütülür. Talimat defterine likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Bakım Marjin Oranı",
-      "BODY": "Marjin oranı pozisyonunuzun kavram değerini net varlığınıza bölerek hesaplanır. Marjin oranınız bakım marjin oranını aşarsa, pozisyonunuz otomatik olarak kapatılır (tasfiye edilir) ve en az %1'lik bir tasfiye ücreti belirlenir (tasfiye esnasındaki likiditeye bağlı olarak daha yüksek olabilir)."
+      "TITLE": "Bakım Marj Oranı",
+      "BODY": "Marj oranı pozisyonunuzun kavram değerini net varlığınıza bölerek hesaplanır. Marj oranınız bakım marj oranını aşarsa, pozisyonunuz otomatik olarak kapatılır (tasfiye edilir) ve en az %1'lik bir tasfiye ücreti belirlenir (tasfiye esnasındaki likiditeye bağlı olarak daha yüksek olabilir)."
     },
     "MAKER_FEE": {
       "TITLE": "Satıcı Ücreti",
       "BODY": "Borsa tahtasına likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır. Satıcı talimatları, alıcı talimatlarından daha düşük bir ücrete sahiptir."
     },
     "MARGIN_USAGE": {
-      "TITLE": "Marjin Kullanımı",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam marjin oranınızın yüzdesi."
+      "TITLE": "Marj Kullanımı",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam marj oranınızın yüzdesi."
     },
     "MAX_WITHDRAW": {
       "TITLE": "Maksimum Hızlı Çekme Miktarı",
@@ -128,8 +128,8 @@
       "BODY": "Bu piyasa için izin verilen maksimum kaldıraç. Riski sınırlamak için, belirli bir eşikten sonra maksimum kaldıraç pozisyonun boyutuyla birlikte doğrusal olarak azalır."
     },
     "MAXIMUM_REWARDS": {
-      "TITLE": "Maksimum Ödül",
-      "BODY": "dYdX üzerinde işlem yaparken ödüller kazanın. Gerçek ödüller değişebilir."
+      "TITLE": "Tahmin Edilen Ödüller",
+      "BODY": "dYdX üzerinde trade yaparken ödüller kazanın. Gerçek ödüller değişebilir."
     },
     "NET_FUNDING": {
       "TITLE": "Net Fonlama",
