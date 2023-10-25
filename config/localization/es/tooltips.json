@@ -128,7 +128,7 @@
       "BODY": "Apalancamiento máximo permitido para este mercado. Para limitar el riesgo, el apalancamiento máximo disminuye linealmente con el tamaño de la posición después de que se alcanza cierto umbral."
     },
     "MAXIMUM_REWARDS": {
-      "TITLE": "Recompensas máximas",
+      "TITLE": "Recompensas estimadas",
       "BODY": "Gana recompensas cuando operas en dYdX. Las recompensas reales pueden variar."
     },
     "NET_FUNDING": {
