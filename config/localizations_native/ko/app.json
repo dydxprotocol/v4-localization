@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "소스 주소",
       "DYDX_ADDRESS_COPIED": "dYdX 체인 주소가 클립보드에 복사되었습니다.",
       "DYDX_MNEMONIC_COPIED": "비밀 문구가 클립보드에 복사되었습니다.",
-      "SYSTEM_STATUS": "시스템 상태"
+      "SYSTEM_STATUS": "시스템 상태",
+      "DELETE_ALERT": "이 경고 삭제"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "입금 상태 확인 ...",
