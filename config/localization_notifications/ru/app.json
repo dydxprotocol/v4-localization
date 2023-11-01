@@ -16,6 +16,10 @@
       "TITLE": "Ордер отменен",
       "BODY": "Ваш ордер ({SIDE}, {AMOUNT} {MARKET}) отменен."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Ордер отменен и исполнен частично",
+      "BODY": "Ваш ордер ({SIDE}, {AMOUNT} {MARKET}) отменен и исполнен частично ({TOTAL_FILLED})."
+    },
     "LIQUIDATION": {
       "TITLE": "Позиция ликвидирована",
       "BODY": "Ваша позиция ({SIDE}, {MARKET}) ликвидирована."
