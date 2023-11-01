@@ -733,7 +733,14 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "要完成dYdX入门培训，请将您的钱包网络设置为“以太坊主网”。",
       "WRONG_NETWORK_EXPLANATION_STAGING": "要完成dYdX入门培训，请将您的钱包网络设置为“Goerli 测试网络”。",
       "WRONG_NETWORK": "网络错误",
-      "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。"
+      "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。",
+      "TOS_TITLE": "使用我们的任何产品和服务，即表示您同意﻿{TERMS_LINK}和{PRIVACY_POLICY_LINK}。您特此同意、声明并保证：",
+      "TOS_LINE1": "您不是美国、加拿大或其他被封锁或受限地区的居民或公司，或者位于上述地区，或者在上述地区有注册的代理人。",
+      "TOS_LINE2": "如果您位于美国、加拿大或其他受封锁或限制的地区时，您今后将不会访问本网站或使用我们的产品或服务。",
+      "TOS_LINE3": "您没有且将来也不会在被封锁或限制的地点使用VPN以掩盖您的实际位置。",
+      "TOS_LINE4": "根据您居住地和所在地司法管辖区的法律，您可以合法地访问此网站，以及使用我们的产品和服务。",
+      "TOS_LINE5": "您了解与签订永续合约、使用杠杆以及参与区块链和其他web3产品和服务相关的投资和技术风险。请参阅此处的法律要求。",
+      "TOS_TRANSLATION_DISCLAIMER": "如适用，本通知非英文的翻译版仅出于礼貌提供。如果翻译版和英文版发生冲突，则以英文版为准。"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "登录手机",

@@ -16,6 +16,10 @@
       "TITLE": "订单已取消",
       "BODY": "您对{SIDE} {AMOUNT} {MARKET}的订单已取消。"
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "订单已取消，部分成交",
+      "BODY": "您的订单 {SIDE} {AMOUNT} {MARKET} 已取消， {TOTAL_FILLED} 部分成交。"
+    },
     "LIQUIDATION": {
       "TITLE": "已清算的头寸",
       "BODY": "您在{MARKET}中的{SIDE}头寸已被清算。"
