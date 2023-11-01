@@ -733,7 +733,14 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Um das dYdX-Onboarding abzuschließen, stellen Sie Ihr Wallet-Netzwerk auf „Ethereum Mainnet“ ein.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "Um das Onboarding von dYdX abzuschließen, stellen Sie Ihr Wallet-Netzwerk auf 'Goerli Test Network' ein.",
       "WRONG_NETWORK": "Falsches Netzwerk",
-      "YOU_AGREE_TO_TERMS": "Durch das Traden auf dYdX stimmen Sie den {TERMS_LINK} und {PRIVACY_POLICY_LINK} zu."
+      "YOU_AGREE_TO_TERMS": "Durch das Traden auf dYdX stimmen Sie den {TERMS_LINK} und {PRIVACY_POLICY_LINK} zu.",
+      "TOS_TITLE": "Durch die Nutzung unserer Produkte und Dienstleistungen stimmen Sie den Nutzungsbedingungen  {TERMS_LINK}und der Datenschutzrichtlinie {PRIVACY_POLICY_LINK}zu.  Sie stimmen hiermit zu, versichern und garantieren, dass:",
+      "TOS_LINE1": "Sie sind keine Person oder Gesellschaft, die in den Vereinigten Staaten, Kanada oder an einem anderen gesperrten oder eingeschränkten Ort ansässig ist oder sich dort befindet, eingetragen ist oder einen eingetragenen Vertreter hat.",
+      "TOS_LINE2": "Sie werden in Zukunft nicht auf diese Website zugreifen oder unsere Produkte oder Dienstleistungen nutzen, während Sie sich in den Vereinigten Staaten, Kanada oder an einem anderen gesperrten oder eingeschränkten Ort befinden.",
+      "TOS_LINE3": "Sie verwenden kein VPN und werden es auch in Zukunft nicht verwenden, um Ihren physischen Standort vor einem gesperrten oder eingeschränkten Standort zu verbergen.",
+      "TOS_LINE4": "Sie sind rechtmäßig berechtigt, auf diese Webseite zuzugreifen und unsere Produkte und Dienstleistungen gemäß den Gesetzen der Gerichtsbarkeit, in der Sie wohnen und sich befinden, zu nutzen.",
+      "TOS_LINE5": "Sie verstehen die Investitions- und Technologierisiken, die mit dem Abschluss unbefristeter Verträge, der Nutzung der Hebelwirkung und der Interaktion mit Blockchain und anderen web3-Produkten und -Diensten verbunden sind. Siehe Rechtsbegehren hier. ",
+      "TOS_TRANSLATION_DISCLAIMER": "Soweit anwendbar, wird Ihnen die nicht-englische, übersetzte Fassung dieser Mitteilung lediglich aus Gefälligkeit zur Verfügung gestellt. Im Falle eines Konflikts zwischen der übersetzten Fassung und der englischen Fassung ist die englische Fassung maßgeblich."
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Melden Sie sich auf dem Handy an",
