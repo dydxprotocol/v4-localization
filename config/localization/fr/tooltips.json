@@ -128,7 +128,7 @@
       "BODY": "Effet de levier maximum autorisé pour ce marché. Pour limiter le risque, l'effet de levier maximal diminue linéairement avec la taille de la position après un certain seuil."
     },
     "MAXIMUM_REWARDS": {
-      "TITLE": "Récompenses maximales",
+      "TITLE": "Récompenses estimées",
       "BODY": "Gagnez des récompenses en tradant sur dYdX. La nature des récompenses est variable."
     },
     "NET_FUNDING": {
