@@ -16,6 +16,10 @@
       "TITLE": "주문이 취소되었습니다",
       "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 취소되었습니다."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "부분 채우기로 주문 취소",
+      "BODY": "{SIDE} {AMOUNT} {MARKET} 주문이 {TOTAL_FILLED} 부분적으로 채워져 취소되었습니다."
+    },
     "LIQUIDATION": {
       "TITLE": "포지션이 청산되었습니다",
       "BODY": "{SIDE} {MARKET}포지션이 청산되었습니다."

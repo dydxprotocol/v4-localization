@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "Quelladresse",
       "DYDX_ADDRESS_COPIED": "Die dYdX-Kettenadresse wird in die Zwischenablage kopiert.",
       "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert.",
-      "SYSTEM_STATUS": "Systemstatus"
+      "SYSTEM_STATUS": "Systemstatus",
+      "DELETE_ALERT": "Diese Warnung löschen"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Einzahlungsstatus prüfen ...",

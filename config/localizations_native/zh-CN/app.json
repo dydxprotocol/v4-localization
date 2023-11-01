@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "源地址",
       "DYDX_ADDRESS_COPIED": "dYdX 链地址复制到剪贴板。",
       "DYDX_MNEMONIC_COPIED": "密码口令复制到剪贴板。",
-      "SYSTEM_STATUS": "系统状态"
+      "SYSTEM_STATUS": "系统状态",
+      "DELETE_ALERT": "删除此警报"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "检查充值状态...",
