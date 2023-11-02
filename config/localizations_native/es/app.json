@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "Dirección de origen",
       "DYDX_ADDRESS_COPIED": "La dirección de la cadena dYdX se ha copiado en el portapapeles.",
       "DYDX_MNEMONIC_COPIED": "La frase secreta se ha copiado en el portapapeles.",
-      "SYSTEM_STATUS": "Estado del sistema"
+      "SYSTEM_STATUS": "Estado del sistema",
+      "DELETE_ALERT": "Eliminar esta alerta"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Comprobando el estado del depósito...",
