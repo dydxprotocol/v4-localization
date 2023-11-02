@@ -25,7 +25,7 @@
       "ALERTS": "アラート",
       "AMOUNT_AND_FILLED": "金額\/約定済",
       "AMOUNT_RATE": "数量\/レート",
-      "AUTHENTICATE_WITH_FACE_ID": " Face IDでの認証",
+      "AUTHENTICATE_WITH_FACE_ID": "Face IDでの認証",
       "AUTHENTICATE_WITH_TOUCH_ID": "Touch IDでの認証",
       "AUTHENTICATE_WITH_BIOMETRICS": "バイオメトリックでの認証",
       "AUTHENTICATE_TO_PROCEED": "認証をおこなってdYdX口座にアクセスする",
@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "ソースアドレス",
       "DYDX_ADDRESS_COPIED": "dYdXチェーンアドレスがクリップボードにコピーされます。",
       "DYDX_MNEMONIC_COPIED": "シークレットフレーズがクリップボードにコピーされます。",
-      "SYSTEM_STATUS": "システムステータス"
+      "SYSTEM_STATUS": "システムステータス",
+      "DELETE_ALERT": "このアラートを削除"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "入金状況を確認中...",
