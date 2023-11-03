@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Select expiration time unit",
       "SUBMITTING_ORDER": "Submitting",
       "SUBMITTING_ORDER_DESC": "Your order is being submitted.",
+      "CANCELING_ORDER": "Cancelling",
+      "CANCELING_ORDER_DESC": "Your order to {SIDE} {SIZE} {MARKET} is being cancelled.",
       "UNREALIZED": "Unrealized",
       "MODE": {
         "SELECT_PREFERENCE": "Select Preference",
