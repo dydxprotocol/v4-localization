@@ -215,7 +215,7 @@
       "NOT_TRIGGERED_STATUS": "Not Triggered",
       "NOT_TRIGGERED_STATUS_DESC": "Your order has not been triggered.",
       "NOT_SET": "Not Set",
-      "ORDER_CANCELED_DESC": "Your order has been cancelled.",
+      "ORDER_CANCELED_DESC": "Your order has been canceled.",
       "ORDER_COULD_NOT_FILL": "A Fill-or-Kill or Immediate-or-Cancel order could not be fully filled.",
       "ORDER_FAILED": "An internal issue caused the order to be canceled.",
       "ORDER_FILLED_DESC": "Your order was filled successfully.",
@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Select expiration time unit",
       "SUBMITTING_ORDER": "Submitting",
       "SUBMITTING_ORDER_DESC": "Your order is being submitted.",
+      "CANCELING_ORDER": "Canceling",
+      "CANCELING_ORDER_DESC": "Your order to {SIDE} {SIZE} {MARKET} is being canceled.",
       "UNREALIZED": "Unrealized",
       "MODE": {
         "SELECT_PREFERENCE": "Select Preference",
@@ -395,6 +397,11 @@
       "COMPLETED_TITLE": "Transfer submitted",
       "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Update",
+    "TEXT": "This version is no longer supported. Please update to the latest version.",
+    "ACTION": "Update App"
   },
   "ERRORS": {
     "TRADE_BOX": {
