@@ -733,7 +733,14 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Pour terminer l'intégration de dYdX, définissez votre réseau de portefeuille sur \"Ethereum Mainnet\".",
       "WRONG_NETWORK_EXPLANATION_STAGING": "Pour terminer l'intégration de dYdX, définissez votre réseau de portefeuille sur « Goerli Test Network ».",
       "WRONG_NETWORK": "Réseau incorrect",
-      "YOU_AGREE_TO_TERMS": "En négociant sur dYdX, vous acceptez les conditions et {TERMS_LINK}{PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "En négociant sur dYdX, vous acceptez les conditions et {TERMS_LINK}{PRIVACY_POLICY_LINK}.",
+      "TOS_TITLE": "En utilisant l'un de nos produits et services, vous acceptez les termes d'utilisation {TERMS_LINK} et la politique de vie privée. {PRIVACY_POLICY_LINK}.  Par la présente, vous acceptez, déclarez et garantissez que :",
+      "TOS_LINE1": "Vous n'êtes pas une personne ou une entreprise résidente, située, constituée ou ayant un agent enregistré aux États-Unis, au Canada ou dans un pays à restriction.",
+      "TOS_LINE2": "A l'avenir, vous n'accéderez pas à ce site ou à nos produits ou services si vous vous trouvez aux États-Unis, au Canada ou dans un autre endroit bloqué ou restreint.",
+      "TOS_LINE3": "Vous n'utilisez pas, et n'utiliserez pas un VPN pour masquer votre emplacement physique à partir d'un emplacement restreint.",
+      "TOS_LINE4": "Vous êtes légalement autorisé à accéder à ce site et à utiliser nos produits et services en vertu des lois de la juridiction dans laquelle vous résidez et êtes situé.",
+      "TOS_LINE5": "Vous comprenez les risques d'investissement et de technologie associés à la passation de marchés perpétuels, à l'aide de l'effet de levier et à l'engagement avec la blockchain et d'autres produits et services web3. Voir la demande juridique ici.",
+      "TOS_TRANSLATION_DISCLAIMER": "Le cas échéant, la version non traduite en anglais de cette notification vous est fournie uniquement à titre de courtoisie. En cas de conflit entre la version traduite et la version anglaise, la version anglaise prévaudra."
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Connectez-vous au mobile",

@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "Adresse source",
       "DYDX_ADDRESS_COPIED": "L'adresse de la chaîne dYdX est copiée dans le presse-papier.",
       "DYDX_MNEMONIC_COPIED": "La phrase secrète est copiée dans le presse-papiers.",
-      "SYSTEM_STATUS": "État du système"
+      "SYSTEM_STATUS": "État du système",
+      "DELETE_ALERT": "Supprimer cette alerte"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Vérifier le statut du dépôt ...",
