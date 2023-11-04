@@ -16,6 +16,10 @@
       "TITLE": "Bestellung storniert",
       "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde storniert."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Order mit Partial Fill storniert",
+      "BODY": "Ihre Order an {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise erfüllt."
+    },
     "LIQUIDATION": {
       "TITLE": "Position aufgelöst",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde gelöscht."
