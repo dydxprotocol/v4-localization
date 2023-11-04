@@ -370,7 +370,8 @@
       "SOURCE_ADDRESS": "Kaynak adresi",
       "DYDX_ADDRESS_COPIED": "dYdX Zincir adresi panoya kopyalandı.",
       "DYDX_MNEMONIC_COPIED": "Gizli ifade panoya kopyalandı.",
-      "SYSTEM_STATUS": "Sistem Durumu"
+      "SYSTEM_STATUS": "Sistem Durumu",
+      "DELETE_ALERT": "Bu Uyarıyı Sil"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Yatırma durumu kontrol ediliyor ...",
