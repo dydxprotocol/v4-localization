@@ -1830,5 +1830,16 @@
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market"
     }
+  },
+  "ENUMS": {
+    "ORDER_TYPE": {
+      "MARKET": "Market",
+      "STOP_MARKET": "Stop Market",
+      "TAKE_PROFIT_MARKET": "Take Profit Market",
+      "LIMIT": "Limit",
+      "STOP_LIMIT": "Stop Limit",
+      "TAKE_PROFIT": "Take Profit",
+      "TRAILING_STOP": "Trailing Stop"
+    }
   }
 }
