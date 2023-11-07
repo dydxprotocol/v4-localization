@@ -2,23 +2,27 @@
   "NOTIFICATIONS": {
     "ORDER_FILL": {
       "TITLE": "Order Filled",
-      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been filled at ${AVERAGE_PRICE}."
+      "BODY": "Your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been filled at ${AVERAGE_PRICE}."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Order Partially Filled",
-      "BODY": "{FILLED_AMOUNT} {MARKET} of your order to {SIDE} {AMOUNT} {MARKET} has been filled."
+      "BODY": "{FILLED_AMOUNT} {MARKET} of your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been filled."
+    },
+    "ORDER_OPENED": {
+      "TITLE": "Order Opened",
+      "BODY": "Your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been placed."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Order Triggered",
-      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been triggered."
+      "BODY": "Your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been triggered."
     },
     "ORDER_CANCEL": {
       "TITLE": "Order Canceled",
-      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled."
+      "BODY": "Your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been canceled."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Order Canceled with Partial Fill",
-      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled with {TOTAL_FILLED} partially filled."
+      "BODY": "Your {ORDER_TYPE_TEXT} order to {SIDE} {AMOUNT} {MARKET} has been canceled with {TOTAL_FILLED} partially filled."
     },
     "LIQUIDATION": {
       "TITLE": "Position Liquidated",
