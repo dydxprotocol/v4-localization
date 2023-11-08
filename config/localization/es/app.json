@@ -734,7 +734,7 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "Para completar la incorporación a dYdX, configura la red de tu billetera como 'Goerli Test Network'.",
       "WRONG_NETWORK": "Red incorrecta",
       "YOU_AGREE_TO_TERMS": "Al realizar operaciones en dYdX, aceptas {TERMS_LINK} y  {PRIVACY_POLICY_LINK}.",
-      "TOS_TITLE": "Al utilizar cualquiera de nuestros productos y servicios, aceptas los Términos de uso {TERMS_LINK} y la Política de privacidad {PRIVACY_POLICY_LINK}.  Por la presente estás de acuerdo, representas y te comprometes a:",
+      "TOS_TITLE": "Al utilizar cualquiera de nuestros productos y servicios, aceptas {TERMS_LINK}y {PRIVACY_POLICY_LINK}.  Por la presente estás de acuerdo, representas y te comprometes a:",
       "TOS_LINE1": "No eres una persona o empresa residente en, o se encuentra localizada, tienes una empresa constituida o un agente registrado en, los Estados Unidos, Canadá o un territorio bloqueado o restringido.",
       "TOS_LINE2": "En el futuro no accederás a este sitio, ni usarás nuestros productos o servicios mientras te encuentres dentro de los Estados Unidos, Canadá u otra ubicación bloqueada o restringida.",
       "TOS_LINE3": "No estás utilizando y no utilizarás en el futuro una VPN para ocultar que te encuentras físicamente en una ubicación bloqueada o restringida.",
