@@ -215,7 +215,7 @@
       "NOT_TRIGGERED_STATUS": "발동되지 않음",
       "NOT_TRIGGERED_STATUS_DESC": "사용자의 주문이 발동되지 않았습니다.",
       "NOT_SET": "설정 없음",
-      "ORDER_CANCELED_DESC": "사용자의 주문이 취소되었습니다.",
+      "ORDER_CANCELED_DESC": "주문이 취소되었습니다.",
       "ORDER_COULD_NOT_FILL": "전량 충족 조건(Fill or Kill) 또는 즉시 혹은 취소 주문이 완전히 체결될 수 없습니다.",
       "ORDER_FAILED": "내부 문제 발생으로 인해 주문이 취소되었습니다.",
       "ORDER_FILLED_DESC": "사용자의 주문이 성공적으로 체결되었습니다.",
@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "만료 시간 단위를 선택하세요",
       "SUBMITTING_ORDER": "제출",
       "SUBMITTING_ORDER_DESC": "사용자의 주문이 제출 중에 있습니다.",
+      "CANCELING_ORDER": "취소 중",
+      "CANCELING_ORDER_DESC": "{SIDE} {SIZE} {MARKET}의 주문이 취소되었습니다.",
       "UNREALIZED": "미실현",
       "MODE": {
         "SELECT_PREFERENCE": "환경 설정을 설정합니다",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "dYdX 체인 주소가 클립보드에 복사되었습니다.",
       "DYDX_MNEMONIC_COPIED": "비밀 문구가 클립보드에 복사되었습니다.",
       "SYSTEM_STATUS": "시스템 상태",
-      "DELETE_ALERT": "이 경고 삭제"
+      "DELETE_ALERT": "이 경고 삭제",
+      "NETWORK_OPERATIONAL": "운영상",
+      "NETWORK_RECOVERED": "네트워크가 복구되었으며 정상적으로 실행 중입니다."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "입금 상태 확인 ...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "송금됨",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} 송금이 제출되었습니다"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "업데이트",
+    "TEXT": "해당 버전은 더 이상 지원되지 않습니다. 최신 버전으로 업데이트하십시오.",
+    "ACTION": "앱 업데이트"
   },
   "ERRORS": {
     "TRADE_BOX": {
