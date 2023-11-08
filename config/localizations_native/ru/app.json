@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Выберите единицу времени для истечения срока действия",
       "SUBMITTING_ORDER": "Отправка",
       "SUBMITTING_ORDER_DESC": "Ваш ордер отправляется на проверку.",
+      "CANCELING_ORDER": "Выполняется отмена",
+      "CANCELING_ORDER_DESC": "Ваш ордер {SIDE} {SIZE} {MARKET} отменен.",
       "UNREALIZED": "Не реализовано",
       "MODE": {
         "SELECT_PREFERENCE": "Выберите предпочтение",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "Адрес dYdX Chain скопирован в буфер обмена.",
       "DYDX_MNEMONIC_COPIED": "Секретная фраза скопирована в буфер обмена.",
       "SYSTEM_STATUS": "Состояние системы",
-      "DELETE_ALERT": "Удалить это предупреждение"
+      "DELETE_ALERT": "Удалить это предупреждение",
+      "NETWORK_OPERATIONAL": "Операционный",
+      "NETWORK_RECOVERED": "Сеть восстановлена и работает в штатном режиме."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Проверка статуса внесения средств...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Перевод отправлен",
       "COMPLETED_TEXT": "Ваш перевод на сумму {AMOUNT_ELEMENT} {TOKEN} отправлен"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Обновить",
+    "TEXT": "Эта версия больше не поддерживается. Обновите до последней версии.",
+    "ACTION": "Обновить приложение"
   },
   "ERRORS": {
     "TRADE_BOX": {
