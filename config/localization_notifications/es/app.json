@@ -16,6 +16,10 @@
       "TITLE": "Orden cancelada",
       "BODY": "Tu pedido a {SIDE} {AMOUNT} {MARKET} ha sido cancelado."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Orden cancelada que se completó parcialmente",
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se ha cancelado {TOTAL_FILLED} parcialmente completa."
+    },
     "LIQUIDATION": {
       "TITLE": "La posición liquidada",
       "BODY": "Tu {SIDE}posición en  {MARKET}ha sido liquidada."
