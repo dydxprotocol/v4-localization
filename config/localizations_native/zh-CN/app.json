@@ -205,17 +205,14 @@
       "CANNOT_PLACE_TRADE": "无法进行交易",
       "CLOSED_STATUS": "已平仓",
       "ENTER_AMOUNT_TO_TRADE": "请输入交易金额",
-      "ENTER_LIMIT_PRICE": "请输入限价",
       "ENTER_STOP_PRICE": "请输入止损价",
-      "ENTER_TRAILING_PERCENT": "请输入追踪百分比",
-      "ENTER_TRIGGER_PRICE": "请输入触发价格",
       "LIQUIDATION": "清算",
       "LUNA_IMF_TITLE": "LUNA-USD 调整后的保证金",
       "LUNA_IMF_TEXT": "由于波动性，我们暂时将 LUNA-USD 的初始保证金要求提高至 100%。维持保证金保持在5%不变。",
       "NOT_TRIGGERED_STATUS": "未触发",
       "NOT_TRIGGERED_STATUS_DESC": "您的订单尚未触发。",
       "NOT_SET": "未设置",
-      "ORDER_CANCELED_DESC": "您的订单已被取消。",
+      "ORDER_CANCELED_DESC": "您的订单已取消。",
       "ORDER_COULD_NOT_FILL": "无法完全执行“全部成交否则取消指令”或“立即否则取消”订单。",
       "ORDER_FAILED": "内部问题导致订单被取消。",
       "ORDER_FILLED_DESC": "您的订单已成交。",
@@ -238,6 +235,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "选择到期时间单位",
       "SUBMITTING_ORDER": "提交中",
       "SUBMITTING_ORDER_DESC": "您的订单正在提交中。",
+      "CANCELING_ORDER": "取消",
+      "CANCELING_ORDER_DESC": "您对{SIDE}{SIZE}{MARKET}的订单正在取消",
       "UNREALIZED": "未实现",
       "MODE": {
         "SELECT_PREFERENCE": "选择偏好",
@@ -371,7 +370,9 @@
       "DYDX_ADDRESS_COPIED": "dYdX 链地址复制到剪贴板。",
       "DYDX_MNEMONIC_COPIED": "密码口令复制到剪贴板。",
       "SYSTEM_STATUS": "系统状态",
-      "DELETE_ALERT": "删除此警报"
+      "DELETE_ALERT": "删除此警报",
+      "NETWORK_OPERATIONAL": "运营",
+      "NETWORK_RECOVERED": "网络已恢复并正常运行。"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "检查充值状态...",
@@ -393,6 +394,11 @@
       "COMPLETED_TITLE": "已提交转账",
       "COMPLETED_TEXT": "您已提交 {AMOUNT_ELEMENT} {TOKEN} 转账"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "更新",
+    "TEXT": "此版本不再受支持。 请更新到最新版本。",
+    "ACTION": "更新应用程序"
   },
   "ERRORS": {
     "TRADE_BOX": {
