@@ -16,6 +16,10 @@
       "TITLE": "キャンセル済み注文",
       "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文がキャンセルされました。"
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "部分的入力で注文をキャンセル",
+      "BODY": "注文{SIDE}{AMOUNT}{MARKET}は部分{TOTAL_FILLED}的に入力されてキャンセルされました。"
+    },
     "LIQUIDATION": {
       "TITLE": "清算済みポジション",
       "BODY": "{MARKET}の{SIDE}ポジションは清算されました。"
