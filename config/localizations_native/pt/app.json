@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Selecione unidade de tempo de expiração",
       "SUBMITTING_ORDER": "Enviando",
       "SUBMITTING_ORDER_DESC": "Sua ordem está sendo enviada.",
+      "CANCELING_ORDER": "Cancelando",
+      "CANCELING_ORDER_DESC": "Sua ordem para {SIDE} {SIZE} {MARKET} está sendo cancelada.",
       "UNREALIZED": "Não realizado",
       "MODE": {
         "SELECT_PREFERENCE": "Preferências",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "O endereço da cadeia dYdX foi copiado para a área de transferência.",
       "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência.",
       "SYSTEM_STATUS": "Status do sistema",
-      "DELETE_ALERT": "Excluir esse alerta"
+      "DELETE_ALERT": "Excluir este alerta",
+      "NETWORK_OPERATIONAL": "Operacional",
+      "NETWORK_RECOVERED": "A rede foi restaurada e está funcionando normalmente."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Verificando o status do depósito ...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Transferência enviada",
       "COMPLETED_TEXT": "Sua transferência de {AMOUNT_ELEMENT} {TOKEN} foi enviada"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Atualização",
+    "TEXT": "Esta versão não é mais compatível. Atualize para a versão mais recente.",
+    "ACTION": "Atualizar aplicativo"
   },
   "ERRORS": {
     "TRADE_BOX": {
