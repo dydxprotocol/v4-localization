@@ -1586,7 +1586,7 @@
     "GENERATED_ADDRESS_INFO": "您可以使用同一钱包在 {TRADE_URL} 上管理您的 dYdX 链 DYDX。",
     "GENERATED_ADDRESS_VIA_ADDRESS": "通过 {ADDRESS_OR_WALLET_SIGNATURE} 生成的 dYdX 链地址",
     "LATEST_BLOCK_HEIGHT": "最新区块高度",
-    "LEARN_ABOUT_STAKING": "了解质押",
+    "HOW_TO_STAKE": "如何质押？",
     "MIGRATION_BLOCKED_MESSAGE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区使用本用户界面违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止，此交易无法完成。",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "由于目的地址似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区使用本用户界面违反我们的使用条款，或从事违反我们使用条款的活动，目的地址已被阻止，此交易无法完成。",
     "MIGRATION_FAILED": "迁移失败",
