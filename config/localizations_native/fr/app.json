@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Sélectionner l'unité de temps expiré",
       "SUBMITTING_ORDER": "Soumettre",
       "SUBMITTING_ORDER_DESC": "Votre ordre est en cours de soumission.",
+      "CANCELING_ORDER": "Annuler",
+      "CANCELING_ORDER_DESC": "Votre ordre à {SIDE}{SIZE}{MARKET} est en cours d'annulation.",
       "UNREALIZED": "Non réalisé",
       "MODE": {
         "SELECT_PREFERENCE": "Sélectionner la préférence",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "L'adresse de la chaîne dYdX est copiée dans le presse-papier.",
       "DYDX_MNEMONIC_COPIED": "La phrase secrète est copiée dans le presse-papiers.",
       "SYSTEM_STATUS": "État du système",
-      "DELETE_ALERT": "Supprimer cette alerte"
+      "DELETE_ALERT": "Supprimer cette alerte",
+      "NETWORK_OPERATIONAL": "Opérationnel",
+      "NETWORK_RECOVERED": "Le réseau fonctionne de nouveau correctement."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Vérifier le statut du dépôt ...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Transfert envoyé",
       "COMPLETED_TEXT": "Votre transfert de {AMOUNT_ELEMENT}{TOKEN}a été soumis"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Mise à jour",
+    "TEXT": "Cette version n'est plus prise en charge. Veuillez mettre à jour vers la dernière version.",
+    "ACTION": "Mettre à jour l'application"
   },
   "ERRORS": {
     "TRADE_BOX": {
