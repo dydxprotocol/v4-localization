@@ -371,7 +371,7 @@
       "DYDX_ADDRESS_COPIED": "O endereço da cadeia dYdX foi copiado para a área de transferência.",
       "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência.",
       "SYSTEM_STATUS": "Status do sistema",
-      "DELETE_ALERT": "Excluir esse alerta"
+      "DELETE_ALERT": "Excluir este alerta"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Verificando o status do depósito ...",
