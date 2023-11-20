@@ -215,7 +215,7 @@
       "NOT_TRIGGERED_STATUS": "No se activó",
       "NOT_TRIGGERED_STATUS_DESC": "Tu pedido no ha sido activado.",
       "NOT_SET": "No implementado",
-      "ORDER_CANCELED_DESC": "Tu pedido ha sido cancelado.",
+      "ORDER_CANCELED_DESC": "Tu orden ha sido cancelada.",
       "ORDER_COULD_NOT_FILL": "Un pedido de relleno o nada o relleno inmediato o cancelación no se pudo rellenar.",
       "ORDER_FAILED": "Un problema interno causó que el pedido se cancelara.",
       "ORDER_FILLED_DESC": "Tu pedido se rellenó con éxito.",
@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Seleccionar unidad de tiempo de caducidad",
       "SUBMITTING_ORDER": "Envío",
       "SUBMITTING_ORDER_DESC": "Tu pedido se está enviando.",
+      "CANCELING_ORDER": "Cancelando",
+      "CANCELING_ORDER_DESC": "Tu orden de {SIDE} {SIZE} {MARKET} se está cancelando.",
       "UNREALIZED": "No realizado",
       "MODE": {
         "SELECT_PREFERENCE": "Selecciona tu preferencia",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "La dirección de la cadena dYdX se ha copiado en el portapapeles.",
       "DYDX_MNEMONIC_COPIED": "La frase secreta se ha copiado en el portapapeles.",
       "SYSTEM_STATUS": "Estado del sistema",
-      "DELETE_ALERT": "Eliminar esta alerta"
+      "DELETE_ALERT": "Eliminar esta alerta",
+      "NETWORK_OPERATIONAL": "Operativo",
+      "NETWORK_RECOVERED": "La red se ha restaurado y está funcionando normalmente."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Comprobando el estado del depósito...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Transferencia enviada",
       "COMPLETED_TEXT": "Tu transferencia de {AMOUNT_ELEMENT} {TOKEN} se ha enviado"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Actualizar",
+    "TEXT": "Esta versión ya no es compatible. Actualiza a la última versión.",
+    "ACTION": "Actualizar la aplicación"
   },
   "ERRORS": {
     "TRADE_BOX": {
