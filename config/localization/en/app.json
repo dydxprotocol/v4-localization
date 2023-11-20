@@ -410,7 +410,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.",
-        "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into a open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects"
+        "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects"
       },
       "XRP": {
         "PRIMARY": "Ripple is a network designed to settle cross border payments.",
@@ -421,7 +421,7 @@
         "SECONDARY": "RUNE is the asset which powers the THORChain ecosystem and provides the economic incentives required to secure the network economically."
       },
       "SEI": {
-        "PRIMARY": "Sei is a general purpose, open-source Layer 1 blockchain specialized for for the exchange of digital assets.",
+        "PRIMARY": "Sei is a general purpose, open-source Layer 1 blockchain specialized for the exchange of digital assets.",
         "SECONDARY": "SEI is the governance token of the SEI network."
       },
       "SHIB": {
@@ -446,7 +446,7 @@
       },
       "SNX": {
         "PRIMARY": "Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum.",
-        "SECONDARY": "Synthetix allows users to capture the price movements of popular cryptopcurrencies, fiat currencies, stocks, commodities and more with zero slippage. Synthetic assets or Synths, are assets voted into existence by the community which represent the price of different types of assets."
+        "SECONDARY": "Synthetix allows users to capture the price movements of popular cryptocurrencies, fiat currencies, stocks, commodities and more with zero slippage. Synthetic assets or Synths, are assets voted into existence by the community which represent the price of different types of assets."
       },
       "TRX": {
         "PRIMARY": "TRON is a public blockchain dedicated to providing the underlying infrastructure that enables developers to create smart contracts and decentralized applications, freely publish, own, and store data & other content.",
@@ -543,12 +543,12 @@
       "POLKADOT_PRIMARY_DESCRIPTION": "Polkadot is built to connect private and consortium chains, public and permissionless networks, oracles, and future technologies that are yet to be created. Polkadot facilitates an internet where independent blockchains can exchange information and transactions in a trustless way via the Polkadot relay chain.",
       "POLKADOT_SECONDARY_DESCRIPTION": "Polkadot makes it easier than ever to create and connect decentralized applications, services, and institutions. By empowering innovators to build better solutions, we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust.",
       "POLYGON_PRIMARY_DESCRIPTION": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.",
-      "POLYGON_SECONDARY_DESCRIPTION": "Polygon combines the best of Ethereum and sovereign blockchains into a open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects",
+      "POLYGON_SECONDARY_DESCRIPTION": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects",
       "RIPPLE_PRIMARY_DESCRIPTION": "Ripple is a network designed to settle cross border payments.",
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP is an open-source digital asset built to be the most practical cryptocurrency for applications across the financial services space.",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain is a decentralized and autonomous cross-chain liquidity network.",
       "RUNE_SECONDARY_DESCRIPTION": "RUNE is the asset which powers the THORChain ecosystem and provides the economic incentives required to secure the network economically.",
-      "SEI_PRIMARY_DESCRIPTION": "Sei is a general purpose, open-source Layer 1 blockchain specialized for for the exchange of digital assets.",
+      "SEI_PRIMARY_DESCRIPTION": "Sei is a general purpose, open-source Layer 1 blockchain specialized for the exchange of digital assets.",
       "SEI_SECONDARY_DESCRIPTION": "SEI is the governance token of the SEI network.",
       "SHIB_PRIMARY_DESCRIPTION": "Shiba Inu, or SHIB, is the main token of the Shiba ecosystem, bringing the power of a decentralized, community-led currency to millions across the globe.",
       "SHIB_SECONDARY_DESCRIPTION": "Shiba Inu developed a layer 2 network called Shibarium, which is built on top of the Ethereum blockchain.",
@@ -561,7 +561,7 @@
       "SUSHISWAP_PRIMARY_DESCRIPTION": "SushiSwap is an automated market making decentralized exchange currently operating on Ethereum.",
       "SUSHISWAP_SECONDARY_DESCRIPTION": "SushiSwap is a community run project that is governed by vote of its token holders. Core products include Exchange, Liquidity Pools, Farms, and SushiBar Staking.",
       "SYNTHETIX_PRIMARY_DESCRIPTION": "Synthetix is a decentralised synthetic asset issuance protocol built on Ethereum.",
-      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix allows users to capture the price movements of popular cryptopcurrencies, fiat currencies, stocks, commodities and more with zero slippage. Synthetic assets or Synths, are assets voted into existence by the community which represent the price of different types of assets.",
+      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix allows users to capture the price movements of popular cryptocurrencies, fiat currencies, stocks, commodities and more with zero slippage. Synthetic assets or Synths, are assets voted into existence by the community which represent the price of different types of assets.",
       "TRX_PRIMARY_DESCRIPTION": "TRON is a public blockchain dedicated to providing the underlying infrastructure that enables developers to create smart contracts and decentralized applications, freely publish, own, and store data & other content.",
       "TRX_SECONDARY_DESCRIPTION": "TRON relies on a Delegated Proof-of-Stake (DPoS) mechanism in which 27 Super Representatives rotate every 6 hours to validate blocks and transactions.",
       "UMA_PRIMARY_DESCRIPTION": "UMA is open-source infrastructure for deploying and enforcing synthetic assets on Ethereum.",
@@ -1452,7 +1452,7 @@
       "ENTER_ETH_ADDRESS": "Enter wallet address",
       "ETH_ADDRESS": "Ethereum wallet address",
       "INVALID_ADDRESS_TITLE": "Invalid wallet address",
-      "INVALID_ADDRESS_BODY": "Please enter an valid dYdX chain address.",
+      "INVALID_ADDRESS_BODY": "Please enter a valid dYdX chain address.",
       "PLEASE_CONFIRM_ADDRESS": "Please confirm that this is the desired address before proceeding.",
       "SELECT_ADDRESS": "Enter or select address"
     },
