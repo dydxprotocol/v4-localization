@@ -1586,7 +1586,7 @@
     "GENERATED_ADDRESS_INFO": "Você poderá gerenciar sua cadeia dYdX DYDX em {TRADE_URL} usando a mesma carteira.",
     "GENERATED_ADDRESS_VIA_ADDRESS": "Endereço da cadeia dYdX gerada via {ADDRESS_OR_WALLET_SIGNATURE}",
     "LATEST_BLOCK_HEIGHT": "Última altura do bloco",
-    "LEARN_ABOUT_STAKING": "Saiba mais sobre participar",
+    "HOW_TO_STAKE": "Como fazer stake?",
     "MIGRATION_BLOCKED_MESSAGE": "Uma vez que você parece ser residente ou estar usando essa interface de usuário de uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso, você foi bloqueado e essa transação não pode ser concluída.",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "Como o endereço de destino parece ser residente ou estar usando essa interface de usuário de uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso, tal endereço foi bloqueado e essa transação não pode ser concluída.",
     "MIGRATION_FAILED": "Falha na migração",
