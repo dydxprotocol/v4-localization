@@ -49,11 +49,11 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Expected Price",
-      "BODY": "Expected price of execution for your order. This price is only an estimate as the orderbook may change before your order is processed by the matching engine."
+      "BODY": "Expected price of execution for your order. This price is only an estimate as the orderbook may change before your order is processed by the network."
     },
     "FEE": {
-      "TITLE": "Fee",
-      "BODY": "Fees on dYdX are charged based on liquidity type. Maker orders carry a smaller fee than taker orders."
+      "TITLE": "Trading Fee",
+      "BODY": "Trading fees are charged by the network based on a percent of your trading volume. Trading fees accrue to validators and DYDX stakers. There are no gas fees to trade on dYdX."
     },
     "FILL_OR_KILL": {
       "TITLE": "Fill Or Kill",
