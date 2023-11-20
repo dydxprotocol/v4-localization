@@ -215,7 +215,7 @@
       "NOT_TRIGGERED_STATUS": "Nicht ausgelöst",
       "NOT_TRIGGERED_STATUS_DESC": "Ihre Order wurde nicht ausgelöst.",
       "NOT_SET": "Nicht festgelegt",
-      "ORDER_CANCELED_DESC": "Ihre Order wurde abgebrochen.",
+      "ORDER_CANCELED_DESC": "Ihre Order wurde storniert.",
       "ORDER_COULD_NOT_FILL": "Eine Fill-or-Kill-Order oder eine Immediate-or-Cancel-Order konnte nicht vollständig ausgeführt werden.",
       "ORDER_FAILED": "Ein interner Fehler führte zur Stornierung der Order.",
       "ORDER_FILLED_DESC": "Ihre Order wurde erfolgreich ausgeführt.",
@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Einheit der Verfallszeit auswählen.",
       "SUBMITTING_ORDER": "Wird übermittelt",
       "SUBMITTING_ORDER_DESC": "Ihre Order wird übermittelt.",
+      "CANCELING_ORDER": "Abbrechen",
+      "CANCELING_ORDER_DESC": "Ihre Order an {SIDE} {SIZE} {MARKET} wird storniert.",
       "UNREALIZED": "Nicht ausgeführt",
       "MODE": {
         "SELECT_PREFERENCE": "Einstellung auswählen",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "Die dYdX-Kettenadresse wird in die Zwischenablage kopiert.",
       "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert.",
       "SYSTEM_STATUS": "Systemstatus",
-      "DELETE_ALERT": "Diese Warnung löschen"
+      "DELETE_ALERT": "Diese Warnung löschen",
+      "NETWORK_OPERATIONAL": "Betrieblich",
+      "NETWORK_RECOVERED": "Das Netzwerk ist wiederhergestellt und läuft normal."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Einzahlungsstatus prüfen ...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Transfer übermittelt",
       "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Aktualisierung",
+    "TEXT": "Diese Version wird nicht mehr unterstützt. Bitte aktualisieren Sie auf die neueste Version.",
+    "ACTION": "App aktualisieren"
   },
   "ERRORS": {
     "TRADE_BOX": {
