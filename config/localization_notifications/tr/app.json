@@ -16,6 +16,10 @@
       "TITLE": "Talimat İptal Edildi",
       "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız iptal edildi."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Talimat Kısmen Karşılandı ve İptal Edildi",
+      "BODY": "{AMOUNT} {MARKET}için t{SIDE}alimatınız ad{TOTAL_FILLED}edi kısmen karşılandıktan sonra iptal edildi."
+    },
     "LIQUIDATION": {
       "TITLE": "Pozisyon Tasfiye Edildi",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz tasfiye edildi."
