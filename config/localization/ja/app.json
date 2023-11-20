@@ -1586,7 +1586,7 @@
     "GENERATED_ADDRESS_INFO": "{TRADE_URL}で同じウォレットを使用してdYdXチェーンDYDXを管理できます。",
     "GENERATED_ADDRESS_VIA_ADDRESS": "{ADDRESS_OR_WALLET_SIGNATURE}を経由して生成されたdYdXチェーンアドレス",
     "LATEST_BLOCK_HEIGHT": "最新のブロック高",
-    "LEARN_ABOUT_STAKING": "ステーキングの詳細",
+    "HOW_TO_STAKE": "ステーキングの方法は？",
     "MIGRATION_BLOCKED_MESSAGE": "あなたは、当社の利用条件に抵触する国や地域の居住者であるか、そうした国や地域でこのユーザーインターフェイスを使用している、または当社の利用規約に違反する行為を行っているとみなされており、あなたはブロックされ、このトランザクションを完了することはできません。",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "宛先アドレスが当社の利用条件に抵触する国や地域の居住者宛であるか、そうした国や地域でこのユーザーインターフェイスを使用している、または当社の利用規約に違反する行為を行っているとみなされており、宛先アドレスはブロックされ、このトランザクションを完了することはできません。",
     "MIGRATION_FAILED": "移行に失敗",

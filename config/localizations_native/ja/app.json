@@ -215,7 +215,7 @@
       "NOT_TRIGGERED_STATUS": "トリガーされていません",
       "NOT_TRIGGERED_STATUS_DESC": "注文はトリガーされていません。",
       "NOT_SET": "設定されていません",
-      "ORDER_CANCELED_DESC": "注文はキャンセルされました。",
+      "ORDER_CANCELED_DESC": "注文がキャンセルされました。",
       "ORDER_COULD_NOT_FILL": "FOKまたはIOC注文を完全には約定できませんでした。",
       "ORDER_FAILED": "内部の問題により、注文がキャンセルされました。",
       "ORDER_FILLED_DESC": "注文は正常に約定されました。",
@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "有効期限を選択します",
       "SUBMITTING_ORDER": "送信中",
       "SUBMITTING_ORDER_DESC": "注文が送信されています。",
+      "CANCELING_ORDER": "キャンセル中",
+      "CANCELING_ORDER_DESC": "{SIDE} {SIZE} {MARKET}への注文はキャンセル中です。",
       "UNREALIZED": "未実現",
       "MODE": {
         "SELECT_PREFERENCE": "設定を選択します",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "dYdXチェーンアドレスがクリップボードにコピーされます。",
       "DYDX_MNEMONIC_COPIED": "シークレットフレーズがクリップボードにコピーされます。",
       "SYSTEM_STATUS": "システムステータス",
-      "DELETE_ALERT": "このアラートを削除"
+      "DELETE_ALERT": "このアラートを削除",
+      "NETWORK_OPERATIONAL": "稼働中",
+      "NETWORK_RECOVERED": "ネットワークは復旧し、正常に作動しています。"
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "入金状況を確認中...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "送金提出",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN}の送金が提出されました"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "更新",
+    "TEXT": "このバージョンは現在サポートされていません。最新のバージョンに更新してください。",
+    "ACTION": "アプリを更新"
   },
   "ERRORS": {
     "TRADE_BOX": {
