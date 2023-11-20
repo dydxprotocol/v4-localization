@@ -1586,7 +1586,7 @@
     "GENERATED_ADDRESS_INFO": "Sie können Ihre dYdX-Chain-DYDX unter {TRADE_URL} mit derselben Wallet verwalten.",
     "GENERATED_ADDRESS_VIA_ADDRESS": "Generierte dYdX-Kettenadresse über {ADDRESS_OR_WALLET_SIGNATURE}",
     "LATEST_BLOCK_HEIGHT": "Neueste Blockhöhe",
-    "LEARN_ABOUT_STAKING": "Weitere Informationen zum Staking",
+    "HOW_TO_STAKE": "So staken Sie",
     "MIGRATION_BLOCKED_MESSAGE": "Da Sie Ihren Wohnsitz offenbar in einem Land haben oder diese Benutzeroberfläche von einem Land aus nutzen, das gegen unsere Nutzungsbedingungen verstößt, oder sich an Aktivitäten beteiligt haben, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt und diese Transaktion kann nicht abgeschlossen werden.",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "Da die Zieladresse offenbar ihren Sitz in einem Land hat oder diese Benutzeroberfläche von einem Land aus nutzt, das gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt ist, die gegen unsere Nutzungsbedingungen verstoßen, wurde die Zieladresse gesperrt und diese Transaktion kann nicht abgeschlossen werden.",
     "MIGRATION_FAILED": "Migration ist fehlgeschlagen",

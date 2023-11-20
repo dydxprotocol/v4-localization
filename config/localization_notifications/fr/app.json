@@ -16,6 +16,10 @@
       "TITLE": "Ordre annulé",
       "BODY": "Votre commande à {SIDE}{AMOUNT}{MARKET} a été annulée."
     },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Commande annulée avec Exécution Partielle",
+      "BODY": "Votre commande a {SIDE}{AMOUNT}{MARKET}été annulée avec   une exécution {TOTAL_FILLED}partielle."
+    },
     "LIQUIDATION": {
       "TITLE": "Position liquidée",
       "BODY": "Votre positition {SIDE}sur {MARKET} a été liquidée."
