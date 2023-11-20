@@ -1586,7 +1586,7 @@
     "GENERATED_ADDRESS_INFO": "Aynı cüzdanı kullanarak {TRADE_URL} üzerinde dYdX Zincir DYDX'inizi yönetebileceksiniz.",
     "GENERATED_ADDRESS_VIA_ADDRESS": "{ADDRESS_OR_WALLET_SIGNATURE} kullanılarak oluşturulan dYdX Zincir adresi",
     "LATEST_BLOCK_HEIGHT": "Son blok yüksekliği",
-    "LEARN_ABOUT_STAKING": "Staking hakkında bilgi edinin",
+    "HOW_TO_STAKE": "Nasıl stake edilir?",
     "MIGRATION_BLOCKED_MESSAGE": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde ikamet ettiğiniz veya bu kullanıcı arabirimini bu bölgeden kullandığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz ve bu işlem gerçekleştirilemedi.",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "Hedef adresi, kullanım şartlarımızı ihlal eden bir yargı bölgesinde ikamet ettiği veya bu kullanıcı arabirimini bu bölgeden kullandığı için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğu için, hedef adresi engellendi ve bu işlem gerçekleştirilemedi.",
     "MIGRATION_FAILED": "Taşıma başarısız",

@@ -238,6 +238,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Sona erme zaman birimini seçin",
       "SUBMITTING_ORDER": "Gönderiliyor",
       "SUBMITTING_ORDER_DESC": "Talimatınız gönderiliyor.",
+      "CANCELING_ORDER": "İptal Ediliyor",
+      "CANCELING_ORDER_DESC": "{SIDE} {SIZE} {MARKET} için talimatınız iptal ediliyor.",
       "UNREALIZED": "Gerçekleşmemiş",
       "MODE": {
         "SELECT_PREFERENCE": "Tercih Seçin",
@@ -371,7 +373,9 @@
       "DYDX_ADDRESS_COPIED": "dYdX Zincir adresi panoya kopyalandı.",
       "DYDX_MNEMONIC_COPIED": "Gizli ifade panoya kopyalandı.",
       "SYSTEM_STATUS": "Sistem Durumu",
-      "DELETE_ALERT": "Bu Uyarıyı Sil"
+      "DELETE_ALERT": "Bu Uyarıyı Sil",
+      "NETWORK_OPERATIONAL": "Operasyonel",
+      "NETWORK_RECOVERED": "Ağ kurtarıldı ve normal olarak çalışıyor."
     },
     "V4_DEPOSIT": {
       "CHECK_STATUS_TITLE": "Yatırma durumu kontrol ediliyor ...",
@@ -393,6 +397,11 @@
       "COMPLETED_TITLE": "Transfer gönderildi",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} tutarındaki transferiniz gönderildi"
     }
+  },
+  "FORCED_UPDATE": {
+    "TITLE": "Güncelle",
+    "TEXT": "Bu versiyon artık desteklenmiyor. Lütfen en son versiyona güncelleyin.",
+    "ACTION": "Uygulamayı Güncelle"
   },
   "ERRORS": {
     "TRADE_BOX": {
