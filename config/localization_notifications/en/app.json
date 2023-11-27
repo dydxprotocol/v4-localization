@@ -37,7 +37,7 @@
       "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "{REWARDS} and {FULL TRADING} are now live!",
+      "TITLE": "{REWARDS} and {FULL TRADING} (third-party link) are now live!",
       "BODY": ""
     },
     "SLOW_WITHDRAWAL_PENDING": {
