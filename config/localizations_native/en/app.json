@@ -161,7 +161,8 @@
       "WALLET_MISMATCH": "Wallet Mismatch",
       "NETWORK_MISMATCH": "Network Mismatch",
       "SWITCH_WALLET": "Please switch your wallet to {WALLET_ADDR}",
-      "WALLET_ACCOUNT_ERROR": "Unable to obtain account"
+      "WALLET_ACCOUNT_ERROR": "Unable to obtain account",
+      "ENTER_CODE": "Enter the decoding key"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Create Profile"
