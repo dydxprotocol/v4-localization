@@ -38,7 +38,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Rewards and trading are live on dYdX Chain!",
-      "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {BLOGPOST} and {DOS_BLOGPOST} (third-party link)."
+      "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {DOS_BLOGPOST} and {TRADING_BLOGPOST} (third-party link)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Slow Withdrawal Pending",

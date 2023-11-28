@@ -12,7 +12,7 @@ if CommandLine.arguments.count < 2 {
 let appJsonPath = CommandLine.arguments[1]
 
 guard let appJsonData = FileManager.default.contents(atPath: appJsonPath) else {
-    print("Could not read notificaiton app.json file at path \(appJsonPath)")
+    print("Could not read notification app.json file at path \(appJsonPath)")
     exit(1)
 }
 
@@ -25,22 +25,22 @@ print("// !! GENERATED FILE - DO NOT EDIT\n")
 print("// Generated from \(appJsonPath) using \(CommandLine.arguments[1])\n")
 
 print("export const NOTIFICATIONS_STRING_KEYS = {")
-generateItems(keyPath: "NOTIFICATIONS", lastKey: nil, value: appJson)
-print("};\n") 
 
+generateItems(keyPath: "", lastKey: nil, value: appJson["NOTIFICATIONS"])
+print("};\n") 
 
 func generateItems(keyPath: String, lastKey: String?, value: Any?) {
     if let value = value as? [String: Any] {
         if let lastKey = lastKey,  value.keys.contains("TITLE"),  value.keys.contains("BODY") {
-            print("    \(lastKey)_BODY: \'\(keyPath).BODY\',")
-            print("    \(lastKey)_TITLE: \'\(keyPath).TITLE\',")
+            print("    \(lastKey)_BODY: \'NOTIFICATIONS.\(keyPath).BODY\',")
+            print("    \(lastKey)_TITLE: \'NOTIFICATIONS.\(keyPath).TITLE\',")
         } else {
             if let lastKey = lastKey {
                 print("\n    // \(lastKey)\n")
             }
             for subKey in value.keys.sorted() {
                 if !subKey.starts(with: "__") {
-                    generateItems(keyPath: keyPath + "." + subKey, lastKey: subKey, value: value[subKey])
+                    generateItems(keyPath: keyPath + (keyPath.isEmpty ? "" : ".") + subKey, lastKey: subKey, value: value[subKey])
                 }
             }
         }
