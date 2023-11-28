@@ -49,14 +49,14 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Precio previsto",
-      "BODY": "Precio previsto de ejecución para tu orden. Este precio es solo un estimado, ya que el libro de órdenes puede cambiar antes de que el motor de comparación procese tu pedido."
+      "BODY": "Precio previsto de ejecución para tu orden. Este precio es solo una estimación, ya que el libro de órdenes puede cambiar antes de que la red procese tu orden."
     },
     "FEE": {
-      "TITLE": "Tasa",
-      "BODY": "Las tasas en dYdX se cobran en función del tipo de liquidez. Las órdenes de los creadores tienen una tasa más baja que la de los tomadores."
+      "TITLE": "Tarifa de trading",
+      "BODY": "Las tarifas de trading las cobra la red en función de un porcentaje de tu volumen de trading. Las tarifas de trading se devengan a los validadores y a los participantes de DYDX. No se cobran tarifas de gas para operar en dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Rellenar o matar",
+      "TITLE": "Fill Or Kill",
       "BODY": "Las órdenes de rellenar o matar deben completarse totalmente tras la ejecución o serán canceladas automáticamente."
     },
     "FREE_COLLATERAL": {
