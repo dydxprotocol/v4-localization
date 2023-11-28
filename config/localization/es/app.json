@@ -149,7 +149,7 @@
       "LONG_POSITION_SHORT": "Long",
       "MAINTENANCE_MARGIN_FRACTION": "Fracción del margen de mantenimiento",
       "MAKE_ONE_TRADE": "Hacer 1 operación",
-      "MANAGE_FUNDS": "Administrar fondos",
+      "MANAGE_FUNDS": "Gestionar fondos",
       "MARGIN_USAGE": "Uso del margen",
       "MARGIN": "Margen",
       "MARKET_NAME": "Nombre del mercado",
@@ -410,7 +410,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon es un protocolo y un marco para construir y conectar redes de blockchain compatibles con Ethereum. Agregando soluciones escalables en Ethereum y apoyando un ecosistema de Ethereum multi-chain.",
-        "SECONDARY": "Polygon combina lo mejor de Ethereum y blockchains independientes en un sistema multicadena abierto, seguro y completo que es capaz de beneficiarse plenamente de los efectos de red de Ethereum"
+        "SECONDARY": "Polygon combina lo mejor de Ethereum y las blockchains soberanas en un sistema multicadena abierto, seguro y completo capaz de beneficiarse plenamente de los efectos de la red de Ethereum"
       },
       "XRP": {
         "PRIMARY": "Ripple es una red diseñada para liquidar pagos transfronterizos.",
@@ -421,7 +421,7 @@
         "SECONDARY": "RUNE es el activo nativo que mueve el ecosistema THORChain y proporciona los incentivos económicos necesarios para asegurar la red económicamente."
       },
       "SEI": {
-        "PRIMARY": "Sei es una cadena de bloques de capa 1 de código abierto de propósito general especializada para el intercambio de activos digitales.",
+        "PRIMARY": "Sei es una blockchain de capa 1 de código abierto de propósito general especializada para el intercambio de activos digitales.",
         "SECONDARY": "SEI es el token de gobernanza de la red SEI."
       },
       "SHIB": {
@@ -446,7 +446,7 @@
       },
       "SNX": {
         "PRIMARY": "Synthetix es un protocolo de emisión de activos sintéticos descentralizado construido en Ethereum.",
-        "SECONDARY": "Synthetix permite a los usuarios capturar los movimientos de precios de las criptomonedas populares, divisas fiduciarias, acciones, materias primas y más con cero deslizamiento. Los activos sintéticos o Synths son activos votados por la comunidad que representan el precio de diferentes tipos de activos."
+        "SECONDARY": "Synthetix permite a los usuarios capturar los movimientos de precios de las criptomonedas populares, divisas fiduciarias, acciones, materias primas y más con slippage cero. Los activos sintéticos o Synths son activos votados por la comunidad que representan el precio de diferentes tipos de activos."
       },
       "TRX": {
         "PRIMARY": "TRON es una blockchain pública dedicada a proporcionar la infraestructura subyacente que permite a los desarrolladores crear contratos inteligentes y aplicaciones descentralizadas, publicar libremente, poseer y almacenar datos y otros contenidos.",
@@ -543,12 +543,12 @@
       "POLKADOT_PRIMARY_DESCRIPTION": "Polkadot está construida para conectar cadenas privadas y de consorcios, redes públicas y sin permiso, oráculos y tecnologías futuras que aún no han sido creadas. Polkadot facilita un Internet en el que las blockchains independientes pueden intercambiar información y transacciones de forma fiable a través de la cadena de transmisión de Polkadot.",
       "POLKADOT_SECONDARY_DESCRIPTION": "Polkadot hace que sea más fácil que nunca poder crear y conectar aplicaciones, servicios e instituciones descentralizadas. Al incentivar a los innovadores a crear mejores soluciones, buscamos librar a la sociedad de su dependencia de una web rota donde sus grandes instituciones no puedan violar nuestra confianza.",
       "POLYGON_PRIMARY_DESCRIPTION": "Polygon es un protocolo y un marco para construir y conectar redes de blockchain compatibles con Ethereum. Agregando soluciones escalables en Ethereum y apoyando un ecosistema de Ethereum multi-chain.",
-      "POLYGON_SECONDARY_DESCRIPTION": "Polygon combina lo mejor de Ethereum y blockchains independientes en un sistema multicadena abierto, seguro y completo que es capaz de beneficiarse plenamente de los efectos de red de Ethereum",
+      "POLYGON_SECONDARY_DESCRIPTION": "Polygon combina lo mejor de Ethereum y las blockchains soberanas en un sistema multicadena abierto, seguro y completo capaz de beneficiarse plenamente de los efectos de red de Ethereum",
       "RIPPLE_PRIMARY_DESCRIPTION": "Ripple es una red diseñada para liquidar pagos transfronterizos.",
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP es un activo digital de código abierto creado para ser la criptomoneda más práctica para aplicaciones en todo el espacio de servicios financieros.",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain es una red de liquidez de cadena cruzada, descentralizada y autónoma.",
       "RUNE_SECONDARY_DESCRIPTION": "RUNE es el activo nativo que mueve el ecosistema THORChain y proporciona los incentivos económicos necesarios para asegurar la red económicamente.",
-      "SEI_PRIMARY_DESCRIPTION": "Sei es una cadena de bloques de capa 1 de código abierto de propósito general especializada para el intercambio de activos digitales.",
+      "SEI_PRIMARY_DESCRIPTION": "Sei es una blockchain de capa 1 de código abierto de propósito general especializada para el intercambio de activos digitales.",
       "SEI_SECONDARY_DESCRIPTION": "SEI es el token de gobernanza de la red SEI.",
       "SHIB_PRIMARY_DESCRIPTION": "Shiba Inu, o SHIB, es el token principal del ecosistema Shiba, que brinda el poder de una moneda descentralizada y liderada por la comunidad a millones de personas en todo el mundo.",
       "SHIB_SECONDARY_DESCRIPTION": "Shiba Inu desarrolló una red de capa 2 llamada Shibarium, que se construye sobre la cadena de bloques Ethereum.",
@@ -561,7 +561,7 @@
       "SUSHISWAP_PRIMARY_DESCRIPTION": "SushiSwap es un mercado automatizado que realiza un intercambio descentralizado que actualmente opera en Ethereum.",
       "SUSHISWAP_SECONDARY_DESCRIPTION": "SushiSwap es un proyecto de gestión comunitaria que se rige por el voto de sus titulares de tokens. Los principales productos incluyen Exchange, Liquidity Pools, Farms y SushiBar Staking.",
       "SYNTHETIX_PRIMARY_DESCRIPTION": "Synthetix es un protocolo de emisión de activos sintéticos descentralizado construido en Ethereum.",
-      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix permite a los usuarios capturar los movimientos de precios de las criptomonedas populares, divisas fiduciarias, acciones, materias primas y más con cero deslizamiento. Los activos sintéticos o Synths son activos votados por la comunidad que representan el precio de diferentes tipos de activos.",
+      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix permite a los usuarios capturar los movimientos de precios de las criptomonedas populares, divisas fiduciarias, acciones, materias primas y más con slippage cero. Los activos sintéticos o Synths son activos votados por la comunidad que representan el precio de diferentes tipos de activos.",
       "TRX_PRIMARY_DESCRIPTION": "TRON es una blockchain pública dedicada a proporcionar la infraestructura subyacente que permite a los desarrolladores crear contratos inteligentes y aplicaciones descentralizadas, publicar libremente, poseer y almacenar datos y otros contenidos.",
       "TRX_SECONDARY_DESCRIPTION": "TRON se basa en un mecanismo de Prueba de Participación Delegada (Delegated Proof-of-Stake) (DPoS) en el que 27 Super Representantes rotan cada 6 horas para validar bloques y transacciones.",
       "UMA_PRIMARY_DESCRIPTION": "UMA es una infraestructura de código abierto para implementar y ejecutar los activos sintéticos en Ethereum.",
