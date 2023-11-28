@@ -1541,6 +1541,7 @@
     },
     "MNEMONIC_EXPORT": {
       "EXPORT_SECRET_PHRASE": "Export secret phrase",
+      "EXPORT_PHRASE": "Export phrase",
       "HIDE_PHRASE": "Hide phrase",
       "NEVER_SHARE_PHRASE": "Never share your phrase with anyone!",
       "REVEAL_SECRET_PHRASE": "Reveal secret phrase",
