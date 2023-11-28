@@ -36,6 +36,10 @@
       "TITLE": "Fast Withdrawal Succeeded",
       "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
     },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "Rewards and trading are live on dYdX Chain!",
+      "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {BLOGPOST} and {DOS_BLOGPOST} (third-party link)."
+    },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Slow Withdrawal Pending",
       "BODY": "Your withdrawal of {AMOUNT} {ASSET} will be ready in 12 hours."
