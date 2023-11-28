@@ -1,50 +1,52 @@
 {
-  "ORDER_FILL": {
-    "TITLE": "Order Filled",
-    "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been filled at ${AVERAGE_PRICE}."
-  },
-  "ORDER_PARTIAL_FILL": {
-    "TITLE": "Order Partially Filled",
-    "BODY": "{FILLED_AMOUNT} {MARKET} of your order to {SIDE} {AMOUNT} {MARKET} has been filled."
-  },
-  "ORDER_TRIGGERED": {
-    "TITLE": "Order Triggered",
-    "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been triggered."
-  },
-  "ORDER_CANCEL": {
-    "TITLE": "Order Canceled",
-    "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled."
-  },
-  "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-    "TITLE": "Order Canceled with Partial Fill",
-    "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled with {TOTAL_FILLED} partially filled."
-  },
-  "LIQUIDATION": {
-    "TITLE": "Position Liquidated",
-    "BODY": "Your {SIDE} position on {MARKET} has been liquidated."
-  },
-  "POSITION_CLOSED": {
-    "TITLE": "Position Closed",
-    "BODY": "Your position on {MARKET} has been closed."
-  },
-  "DEPOSIT_SUCCESS": {
-    "TITLE": "Deposit Succeeded",
-    "BODY": "Your deposit of {AMOUNT} {ASSET} has been confirmed."
-  },
-  "FAST_WITHDRAW_SUCCESS": {
-    "TITLE": "Fast Withdrawal Succeeded",
-    "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
-  },
-  "RELEASE_REWARDS_AND_FULL_TRADING": {
-    "TITLE": "Rewards and trading are live on dYdX Chain!",
-    "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {DOS_BLOGPOST} and {TRADING_BLOGPOST} (third-party link)."
-  },
-  "SLOW_WITHDRAWAL_PENDING": {
-    "TITLE": "Slow Withdrawal Pending",
-    "BODY": "Your withdrawal of {AMOUNT} {ASSET} will be ready in 12 hours."
-  },
-  "SLOW_WITHDRAWAL_SUCCESS": {
-    "TITLE": "Slow Withdrawal Succeeded",
-    "BODY": "Your withdrawal of {AMOUNT} {ASSET} has been confirmed."
+  "NOTIFICATIONS": {
+    "ORDER_FILL": {
+      "TITLE": "Order Filled",
+      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been filled at ${AVERAGE_PRICE}."
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "Order Partially Filled",
+      "BODY": "{FILLED_AMOUNT} {MARKET} of your order to {SIDE} {AMOUNT} {MARKET} has been filled."
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "Order Triggered",
+      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been triggered."
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "Order Canceled",
+      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled."
+    },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "Order Canceled with Partial Fill",
+      "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been canceled with {TOTAL_FILLED} partially filled."
+    },
+    "LIQUIDATION": {
+      "TITLE": "Position Liquidated",
+      "BODY": "Your {SIDE} position on {MARKET} has been liquidated."
+    },
+    "POSITION_CLOSED": {
+      "TITLE": "Position Closed",
+      "BODY": "Your position on {MARKET} has been closed."
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "Deposit Succeeded",
+      "BODY": "Your deposit of {AMOUNT} {ASSET} has been confirmed."
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "Fast Withdrawal Succeeded",
+      "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "Rewards and trading are live on dYdX Chain!",
+      "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {DOS_BLOGPOST} and {TRADING_BLOGPOST} (third-party link)."
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "Slow Withdrawal Pending",
+      "BODY": "Your withdrawal of {AMOUNT} {ASSET} will be ready in 12 hours."
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "Slow Withdrawal Succeeded",
+      "BODY": "Your withdrawal of {AMOUNT} {ASSET} has been confirmed."
+    }
   }
 }
