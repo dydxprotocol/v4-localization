@@ -421,7 +421,7 @@
         "SECONDARY": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以保护该网络的经济。"
       },
       "SEI": {
-        "PRIMARY": "Sei是一个通用、开源的第1层区块链，专门用于交换数字资产。",
+        "PRIMARY": "Sei 是一个通用、开源的第 1 层区块链，专门用于交换数字资产。",
         "SECONDARY": "SEI币是SEI网络的治理代币。"
       },
       "SHIB": {
@@ -548,7 +548,7 @@
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP是一种开源的数字资产，旨在成为金融服务领域应用程序最实用的加密货币。",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain 是一个去中心化、自治的跨链流动性网络。",
       "RUNE_SECONDARY_DESCRIPTION": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以保护该网络的经济。",
-      "SEI_PRIMARY_DESCRIPTION": "Sei是一个通用、开源的第1层区块链，专门用于交换数字资产。",
+      "SEI_PRIMARY_DESCRIPTION": "Sei 是一个通用、开源的第 1 层区块链，专门用于交换数字资产。",
       "SEI_SECONDARY_DESCRIPTION": "SEI币是SEI网络的治理代币。",
       "SHIB_PRIMARY_DESCRIPTION": "柴犬币或SHIB是Shiba生态系统的主要代币，将去中心化、社区主导的货币力量带给全球数百万人。",
       "SHIB_SECONDARY_DESCRIPTION": "Shiba Inu开发了一个名为Shibarium的第2层网络，该网络建立在以太坊区块链之上。",
@@ -1452,7 +1452,7 @@
       "ENTER_ETH_ADDRESS": "输入钱包地址",
       "ETH_ADDRESS": "以太坊钱包地址",
       "INVALID_ADDRESS_TITLE": "無效的錢包地址",
-      "INVALID_ADDRESS_BODY": "请输入有效的 dYdX 链地址。",
+      "INVALID_ADDRESS_BODY": "请输入一个有效的 dYdX 链地址。",
       "PLEASE_CONFIRM_ADDRESS": "请在继续之前确认这是所需的地址。",
       "SELECT_ADDRESS": "输入或选择地址"
     },
