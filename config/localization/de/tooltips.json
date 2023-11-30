@@ -49,11 +49,11 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Preisvorstellung",
-      "BODY": "Voraussichtlicher Ausführungspreis für Ihre Order. Das ist nur ein Schätzpreis, da sich das Orderbuch ändern kann, bevor Ihre Order von der Matching Engine bearbeitet wird."
+      "BODY": "Voraussichtlicher Ausführungspreis für Ihre Order. Dieser Preis ist nur eine Schätzung, da sich das Orderbuch ändern kann, bevor Ihre Order vom Netzwerk bearbeitet wird."
     },
     "FEE": {
-      "TITLE": "Gebühr",
-      "BODY": "Gebühren auf dYdX werden je nach Liquiditätstyp berechnet. Für Maker Orders wird eine geringere Gebühr erhoben als für Taker Orders."
+      "TITLE": "Handelsgebühr",
+      "BODY": "Das Netzwerk berechnet Handelsgebühren in Höhe von einem Proent Ihres Handelsvolumens. Handelsgebühren fallen für Validatoren und DYDX-Staker an. Für den Handel auf dYdX fallen keine Gasgebühren an."
     },
     "FILL_OR_KILL": {
       "TITLE": "Fill or Kill",
