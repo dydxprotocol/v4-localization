@@ -150,7 +150,7 @@
       "MAINTENANCE_MARGIN_FRACTION": "Maintenance Margin-Bruchwert",
       "MAKE_ONE_TRADE": "1 Trade machen",
       "MANAGE_FUNDS": "Mittel verwalten",
-      "MARGIN_USAGE": "Marge-Anwendung",
+      "MARGIN_USAGE": "Margin-Anwendung",
       "MARGIN": "Marge",
       "MARKET_NAME": "Marktname",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Asset möglicherweise noch nicht, oder es existiert noch nicht.",
@@ -410,7 +410,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum zur Unterstützung eines Ethereum-Ökosystems mit mehreren Ketten.",
-        "SECONDARY": "Polygon kombiniert das Beste von Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen."
+        "SECONDARY": "Polygon kombiniert das Beste aus Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen."
       },
       "XRP": {
         "PRIMARY": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
@@ -421,7 +421,7 @@
         "SECONDARY": "RUNE ist der Vermögenswert, der das THORChain-Ökosystem antreibt und die wirtschaftlichen Anreize bietet, die erforderlich sind, um das Netzwerk wirtschaftlich zu sichern."
       },
       "SEI": {
-        "PRIMARY": "Sei ist eine universelle Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist.",
+        "PRIMARY": "Sei ist eine allgemeine Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist.",
         "SECONDARY": "SEI ist das Governance-Token des SEI-Netzwerks."
       },
       "SHIB": {
@@ -446,7 +446,7 @@
       },
       "SNX": {
         "PRIMARY": "Synthetix ist ein dezentralisiertes Emissionsprotokoll für synthetische Vermögenswerte, das auf Ethereum aufbaut.",
-        "SECONDARY": "Synthetix ermöglicht es Benutzern, die Preisbewegungen beliebter Kryptowährungen, Fiat-Währungen, Aktien, Rohstoffe und mehr ohne Schlupf zu erfassen. Synthetische Assets oder Synths sind von der Community gewählte Assets, die den Preis verschiedener Arten von Assets darstellen."
+        "SECONDARY": "Mit Synthetix können Benutzer die Preisbewegungen beliebter Kryptowährungen, Fiat-Währungen, Aktien, Rohstoffe und mehr ohne Verzögerung erfassen. Synthetische Assets oder Synths sind von der Community gewählte Assets, die den Preis verschiedener Arten von Assets darstellen."
       },
       "TRX": {
         "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat, die es Entwicklern ermöglicht, intelligente Verträge und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
@@ -543,12 +543,12 @@
       "POLKADOT_PRIMARY_DESCRIPTION": "Polkadot wurde entwickelt, um private Ketten und Konsortialketten, öffentliche und genehmigungslose Netzwerke, Orakel und zukünftige Technologien zu verbinden, die noch geschaffen werden müssen. Polkadot ermöglicht ein Internet, in dem unabhängige Blockchains Informationen und Transaktionen vertrauenswürdig über die Polkadot-Relaiskette austauschen können.",
       "POLKADOT_SECONDARY_DESCRIPTION": "Polkadot macht es einfacher denn je, dezentrale Anwendungen, Dienste und Institutionen zu erstellen und zu verbinden. Indem wir Innovatoren befähigen, bessere Lösungen zu entwickeln, versuchen wir, die Gesellschaft aus ihrer Abhängigkeit von einem kaputten Netz zu befreien, in welchem große Institutionen unser Vertrauen nicht missbrauchen können.",
       "POLYGON_PRIMARY_DESCRIPTION": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum zur Unterstützung eines Ethereum-Ökosystems mit mehreren Ketten.",
-      "POLYGON_SECONDARY_DESCRIPTION": "Polygon kombiniert das Beste von Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen.",
+      "POLYGON_SECONDARY_DESCRIPTION": "Polygon kombiniert das Beste aus Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen.",
       "RIPPLE_PRIMARY_DESCRIPTION": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP ist ein digitales Open-Source-Asset, das als die praktischste Kryptowährung für Anwendungen im gesamten Finanzdienstleistungsbereich entwickelt wurde.",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain ist ein dezentralisiertes und autonomes Cross-Chain-Liquiditätsnetzwerk.",
       "RUNE_SECONDARY_DESCRIPTION": "RUNE ist der Vermögenswert, der das THORChain-Ökosystem antreibt und die wirtschaftlichen Anreize bietet, die erforderlich sind, um das Netzwerk wirtschaftlich zu sichern.",
-      "SEI_PRIMARY_DESCRIPTION": "Sei ist eine universelle Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist.",
+      "SEI_PRIMARY_DESCRIPTION": "Sei ist eine allgemeine Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist.",
       "SEI_SECONDARY_DESCRIPTION": "SEI ist das Governance-Token des SEI-Netzwerks.",
       "SHIB_PRIMARY_DESCRIPTION": "Shiba Inu oder SHIB ist das Haupt-Token des Shiba-Ökosystems und stellt Millionen Menschen auf der ganzen Welt die Macht einer dezentralisierten, von der Community geführten Währung zur Verfügung.",
       "SHIB_SECONDARY_DESCRIPTION": "Shiba Inu entwickelte ein Layer-2-Netzwerk namens Shibarium, das auf der Ethereum-Blockchain aufgebaut ist.",
@@ -561,7 +561,7 @@
       "SUSHISWAP_PRIMARY_DESCRIPTION": "SushiSwap ist eine automatisierte dezentralisierte Börse, die derzeit auf Ethereum betrieben wird.",
       "SUSHISWAP_SECONDARY_DESCRIPTION": "SushiSwap ist ein von der Community betriebenes Projekt, das durch die Abstimmung seiner Token-Inhaber geregelt wird. Zu den Kernprodukten gehören Exchange, Liquidity Pools, Farmen und SushiBar Staking.",
       "SYNTHETIX_PRIMARY_DESCRIPTION": "Synthetix ist ein dezentralisiertes Emissionsprotokoll für synthetische Vermögenswerte, das auf Ethereum aufbaut.",
-      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix ermöglicht es Benutzern, die Preisbewegungen beliebter Kryptowährungen, Fiat-Währungen, Aktien, Rohstoffe und mehr ohne Schlupf zu erfassen. Synthetische Assets oder Synths sind von der Community gewählte Assets, die den Preis verschiedener Arten von Assets darstellen.",
+      "SYNTHETIX_SECONDARY_DESCRIPTION": "Mit Synthetix können Benutzer die Preisbewegungen beliebter Kryptowährungen, Fiat-Währungen, Aktien, Rohstoffe und mehr ohne Verzögerung erfassen. Synthetische Assets oder Synths sind von der Community gewählte Assets, die den Preis verschiedener Arten von Assets darstellen.",
       "TRX_PRIMARY_DESCRIPTION": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat, die es Entwicklern ermöglicht, intelligente Verträge und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
       "TRX_SECONDARY_DESCRIPTION": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives alle 6 Stunden rotieren, um Blöcke und Transaktionen zu validieren.",
       "UMA_PRIMARY_DESCRIPTION": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
@@ -1452,7 +1452,7 @@
       "ENTER_ETH_ADDRESS": "Wallet Adresse eingeben",
       "ETH_ADDRESS": "Ethereum Wallet-Adresse",
       "INVALID_ADDRESS_TITLE": "Ungültige Wallet-Adresse",
-      "INVALID_ADDRESS_BODY": "Bitte geben Sie eine gültige dYdX-Kettenadresse ein.",
+      "INVALID_ADDRESS_BODY": "Geben Sie bitte eine gültige dYdX-Kettenadresse ein.",
       "PLEASE_CONFIRM_ADDRESS": "Bitte bestätigen Sie, dass dies die gewünschte Adresse ist, bevor Sie fortfahren.",
       "SELECT_ADDRESS": "Adresse eingeben oder auswählen"
     },
