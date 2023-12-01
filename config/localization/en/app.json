@@ -769,7 +769,9 @@
       "ACADEMY_LINK_DESCRIPTION": "To access the dYdX Academy, you will leave the dYdX Trading Inc. website and join a website made available by dYdX Foundation, which is independent from and unaffiliated with dYdX Trading Inc. dYdX Trading Inc. is not responsible for any action taken or content on the third-party website.",
       "LEGAL": "Legal",
       "GOVERNANCE_LINK_DESCRIPTION": "To participate in governance, you will leave the dYdX Trading Inc. website and join a website made available by dYdX Foundation, which is independent from and unaffiliated with dYdX Trading Inc. dYdX Trading Inc. is not responsible for any action taken or content on the third-party website.",
-      "LEAVING_WEBSITE": "Leaving website"
+      "LEAVING_WEBSITE": "Leaving website",
+      "LEAVING_WEBSITE_DESCRIPTION": "By continuing, you will leave our website and join a website made available by a third party, which is independent from and unaffiliated with us.",
+      "LEAVING_WEBSITE_DISCLAIMER": "We are not responsible for any action taken or content on the third-party website"
     },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Bridge Fee",
