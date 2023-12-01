@@ -886,7 +886,7 @@
       "HOLDING": "Holding {NUMBER}",
       "IN_THIS_EPOCH": "in this epoch",
       "LAUNCH_INCENTIVES_TITLE": "Launch Incentives {FOR_V4}",
-      "LAUNCH_INCENTIVES_DESCRIPTION": "Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your rightful spot on the leaderboard.",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your spot on the leaderboard.",
       "LAUNCH_INCENTIVES_SEASON_NUM": "Season {SEASON_NUMBER}",
       "LEADERBOARD": "Leaderboard",
       "LEARN_TO_EXPORT": "{STRONG_NO}, learn how to export my secret phrase.",
