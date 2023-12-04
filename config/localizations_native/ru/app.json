@@ -102,6 +102,7 @@
       "SWIPE_UP_TO_TRADE": "Проведите вверх для торговли",
       "SWITCH": "Переключить",
       "SWITCH_WALLET": "Переключить кошелек",
+      "MANAGE_WALLET": "Управлять кошельком",
       "REWARD_POOL": "Пул наград",
       "TRADE_RESTRICTED": "Торговля ограничена",
       "TRANSFER_OUT": "Вывести",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "Несоответствие кошелька",
       "NETWORK_MISMATCH": "Несоответствие сети",
       "SWITCH_WALLET": "Переключите кошелек на {WALLET_ADDR}",
-      "WALLET_ACCOUNT_ERROR": "Не удалось получить счет"
+      "WALLET_ACCOUNT_ERROR": "Не удалось получить счет",
+      "ENTER_CODE": "Введите ключ декодирования"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Создать профиль"
