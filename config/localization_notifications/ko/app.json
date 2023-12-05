@@ -36,6 +36,10 @@
       "TITLE": "빠른 출금이 완료되었습니다",
       "BODY": "{AMOUNT} {ASSET}의 빠른 인출이 확인되었습니다."
     },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "보상 및 거래가 dYdX 체인에서 실시간 제공됩니다!",
+      "BODY": "전체 거래는 dYdX 체인에서 실시간 거래됩니다! 여기에는 스테이킹 보상, 거래 보상 및 카오스 랩스의 6개월 출시 인센티브 프로그램이 포함됩니다. 자세한 정보 {DOS_BLOGPOST} 및 {TRADING_BLOGPOST} 링크(타사 링크)를 참조하십시오."
+    },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "느린 출금이 진행 중입니다",
       "BODY": "귀하의 {AMOUNT}출{ASSET}금은 12시간 이내에 준비될 예정입니다."
