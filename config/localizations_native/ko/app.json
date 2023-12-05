@@ -102,6 +102,7 @@
       "SWIPE_UP_TO_TRADE": "위로 밀어서 거래하기",
       "SWITCH": "전환",
       "SWITCH_WALLET": "지갑 전환",
+      "MANAGE_WALLET": "지갑 관리",
       "REWARD_POOL": "보상 풀",
       "TRADE_RESTRICTED": "거래가 제한되었습니다",
       "TRANSFER_OUT": "전송 종료",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "지갑 불일치",
       "NETWORK_MISMATCH": "네트워크 불일치",
       "SWITCH_WALLET": "지갑을 {WALLET_ADDR}(으)로 전환하십시오.",
-      "WALLET_ACCOUNT_ERROR": "계정을 가져올 수 없음"
+      "WALLET_ACCOUNT_ERROR": "계정을 가져올 수 없음",
+      "ENTER_CODE": "디코딩 키를 입력합니다"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "프로필 생성"
