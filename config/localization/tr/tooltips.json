@@ -49,11 +49,11 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Beklenen Fiyat",
-      "BODY": "Talimatınız için beklenen yürütme fiyatı. Bu fiyat, talimat defteri talimatınız eşleştirme motoru tarafından işlenmeden önce değişebileceği için yalnızca bir tahmindir."
+      "BODY": "Talimatınız için beklenen yürütme fiyatı. Bu fiyat, talimat defteri talimatınız ağ tarafından işlenmeden önce değişebileceği için yalnızca bir tahmindir."
     },
     "FEE": {
-      "TITLE": "Ücret",
-      "BODY": "dYdX üzerindeki ücretler likidite türüne göre belirlenir. Satıcı talimatları, alıcı talimatlarından daha küçük bir ücret gerektirir."
+      "TITLE": "Alım Satım Ücreti",
+      "BODY": "Alım satım ücretleri, alım satım hacminizin bir yüzdesine göre ağ tarafından tahsil edilir. Alım satım ücretleri doğrulayıcılara ve DYDX stake edenlere tahakkuk eder. dYdX üzerinde işlem yapmak için gaz ücreti yoktur."
     },
     "FILL_OR_KILL": {
       "TITLE": "Karşıla Veya İptal Et",
