@@ -102,6 +102,7 @@
       "SWIPE_UP_TO_TRADE": "向上滑动以进行交易",
       "SWITCH": "切换",
       "SWITCH_WALLET": "切换钱包",
+      "MANAGE_WALLET": "管理钱包",
       "REWARD_POOL": "奖励池",
       "TRADE_RESTRICTED": "交易受限",
       "TRANSFER_OUT": "转出",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "钱包不匹配",
       "NETWORK_MISMATCH": "网络不匹配",
       "SWITCH_WALLET": "请将钱包切换到{WALLET_ADDR}",
-      "WALLET_ACCOUNT_ERROR": "无法获得账户"
+      "WALLET_ACCOUNT_ERROR": "无法获得账户",
+      "ENTER_CODE": "输入解码密钥"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "创建个人资料"

@@ -36,6 +36,10 @@
       "TITLE": "快速提现成功",
       "BODY": "您对{AMOUNT} {ASSET}的快速提现已被确认。"
     },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "奖励和交易功能已在 dYdX Chain 上线！",
+      "BODY": "完整交易已在 dYdX Chain 上线！这包括质押奖励、交易奖励以及 Chaos Labs 的为期 6 个月的启动激励计划。了解更多关于{DOS_BLOGPOST}和{TRADING_BLOGPOST}的信息（第三方链接）。"
+    },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "待处理的正常提现",
       "BODY": "您的{AMOUNT} {ASSET}提款将在12小时内完成。"
