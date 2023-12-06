@@ -149,8 +149,8 @@
       "LONG_POSITION_SHORT": "Uzun",
       "MAINTENANCE_MARGIN_FRACTION": "Devam Marj Oranı",
       "MAKE_ONE_TRADE": "1 işlem yap",
-      "MANAGE_FUNDS": "Fonları Yönet",
-      "MARGIN_USAGE": "Marj Kullanımı",
+      "MANAGE_FUNDS": "Fonlarınızı yönetin",
+      "MARGIN_USAGE": "Marjin Kullanımı",
       "MARGIN": "Marj",
       "MARKET_NAME": "Piyasa Adı",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Bu varlığı henüz desteklemiyoruz veya bu varlık henüz mevcut değil.",
@@ -410,7 +410,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
-        "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blokzincirlerinin en iyi özelliklerini bir araya getirir"
+        "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blok zincirlerinin en iyi özelliklerini bir araya getirir"
       },
       "XRP": {
         "PRIMARY": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
@@ -446,7 +446,7 @@
       },
       "SNX": {
         "PRIMARY": "Synthetix, Ethereum üzerinde inşa edilmiş merkezsiz bir sentetik varlık dağıtım protokolüdür.",
-        "SECONDARY": "Synthetix, kullanıcıların popüler kriptoparalar, fiat para birimleri, hisse senetleri, emtialar ve daha fazlası için fiyat hareketlerini sıfır kayma ile yakalamalarına olanak tanır. Sentetik varlıklar veya Synth'ler farklı varlık türlerinin fiyatını temsil eden, topluluk tarafından oylanarak türeyen varlıklardır."
+        "SECONDARY": "Synthetix, kullanıcıların popüler kripto paralar, fiat para birimleri, hisse senetleri, emtialar ve daha fazlası için fiyat hareketlerini sıfır kayma ile yakalamalarına olanak tanır. Sentetik varlıklar veya Synth'ler farklı varlık türlerinin fiyatını temsil eden, topluluk tarafından oylanarak türeyen varlıklardır."
       },
       "TRX": {
         "PRIMARY": "TRON; geliştiricilerin akıllı sözleşmeler ve merkeziyetsiz uygulamalar oluşturabilmelerine, veriyi ve diğer içerikleri serbestçe yayınlamalarına, sahiplenmelerine ve depolamalarına olanak sağlayan dayanak altyapıyı sunmaya adanmış genele açık bir blok zinciridir.",
@@ -543,7 +543,7 @@
       "POLKADOT_PRIMARY_DESCRIPTION": "Polkadot özel ve konsorsiyum zincirlerini, genel ve izin gerektirmeyen ağları, oracle'ları ve henüz icat edilmemiş gelecek teknolojileri bağlamak için tasarlanmıştır. Polkadot, bağımsız blok zincirlerinin Polkadot iletim zinciri aracılığıyla bilgi ve işlemleri güven gerektirmeyen bir şekilde takas edebileceği bir internet ortamını kolaylaştırır.",
       "POLKADOT_SECONDARY_DESCRIPTION": "Polkadot merkezsizleştirilmiş uygulamalar, hizmetler ve kurumlar oluşturmayı ve birbirine bağlamayı her zamankinden daha kolay bir hale getirir. Yenilikçileri daha iyi çözümler oluşturmak için güçlendirerek, toplumun bozuk bir web yapısı içindeki büyük kurumların güvenimizi kötüye kullanabileceği düzene bağlılığını azaltmayı amaçlıyoruz.",
       "POLYGON_PRIMARY_DESCRIPTION": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
-      "POLYGON_SECONDARY_DESCRIPTION": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blokzincirlerinin en iyi özelliklerini bir araya getirir",
+      "POLYGON_SECONDARY_DESCRIPTION": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blok zincirlerinin en iyi özelliklerini bir araya getirir",
       "RIPPLE_PRIMARY_DESCRIPTION": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP, finansal hizmetler alanındaki uygulamalar için en pratik kripto para birimi olmak üzere inşa edilmiş açık kaynaklı bir dijital varlıktır.",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain, merkezsizleştirilmiş ve otonom bir zincirlerarası likidite ağıdır.",
@@ -561,7 +561,7 @@
       "SUSHISWAP_PRIMARY_DESCRIPTION": "SushiSwap, Ethereum üzerinde çalışmakta olan merkezsizleştirilmiş otomatik piyasa yapıcı borsasıdır.",
       "SUSHISWAP_SECONDARY_DESCRIPTION": "SushiSwap, token sahiplerinin oylaması ile idare edilen topluluk yönetimli bir projedir. Temel ürünler arasında Borsa, Likidite Havuzları, Çiftlikler ve SushiBar Staking bulunur.",
       "SYNTHETIX_PRIMARY_DESCRIPTION": "Synthetix, Ethereum üzerinde inşa edilmiş merkezsiz bir sentetik varlık dağıtım protokolüdür.",
-      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix, kullanıcıların popüler kriptoparalar, fiat para birimleri, hisse senetleri, emtialar ve daha fazlası için fiyat hareketlerini sıfır kayma ile yakalamalarına olanak tanır. Sentetik varlıklar veya Synth'ler farklı varlık türlerinin fiyatını temsil eden, topluluk tarafından oylanarak türeyen varlıklardır.",
+      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix, kullanıcıların popüler kripto paralar, fiat para birimleri, hisse senetleri, emtialar ve daha fazlası için fiyat hareketlerini sıfır kayma ile yakalamalarına olanak tanır. Sentetik varlıklar veya Synth'ler farklı varlık türlerinin fiyatını temsil eden, topluluk tarafından oylanarak türeyen varlıklardır.",
       "TRX_PRIMARY_DESCRIPTION": "TRON; geliştiricilerin akıllı sözleşmeler ve merkeziyetsiz uygulamalar oluşturabilmelerine, veriyi ve diğer içerikleri serbestçe yayınlamalarına, sahiplenmelerine ve depolamalarına olanak sağlayan dayanak altyapıyı sunmaya adanmış genele açık bir blok zinciridir.",
       "TRX_SECONDARY_DESCRIPTION": "TRON, 27 Süper Temsilcinin blok ve işlemleri doğrulamak için her 6 saatte bir rotasyon yaptığı Delege Edilmiş Hisse Kanıtı (Delegated Proof-of-Stake - DPoS) mekanizmasını temel alır.",
       "UMA_PRIMARY_DESCRIPTION": "UMA, Ethereum üzerinde sentetik varlıkları dolaşıma sokmak ve uygulamak için kullanılan açık kaynaklı bir altyapıdır.",
@@ -1452,7 +1452,7 @@
       "ENTER_ETH_ADDRESS": "Cüzdan adresini girin",
       "ETH_ADDRESS": "Ethereum cüzdan adresi",
       "INVALID_ADDRESS_TITLE": "Geçersiz cüzdan adresi",
-      "INVALID_ADDRESS_BODY": "Lütfen geçerli bir dYdX zincir adresi giriniz.",
+      "INVALID_ADDRESS_BODY": "Lütfen geçerli bir dYdX zinciri adresi giriniz.",
       "PLEASE_CONFIRM_ADDRESS": "Lütfen devam etmeden bu adresin istenen adres olduğunu onaylayın.",
       "SELECT_ADDRESS": "Adresi girin veya seçin"
     },
