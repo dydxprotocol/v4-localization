@@ -49,14 +49,14 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Preço esperado",
-      "BODY": "Preço esperado da execução para sua ordem. Este preço é apenas uma estimativa, visto que o livro de registro de pedidos pode mudar antes de a sua ordem ser processada pelo mecanismo correspondente."
+      "BODY": "Preço esperado da execução para sua ordem. Este preço é apenas uma estimativa, já que o livro de registro de pedidos pode mudar antes que sua ordem seja processada pela rede."
     },
     "FEE": {
-      "TITLE": "Taxa",
-      "BODY": "As taxas na dYdX são cobradas com base no tipo de liquidez. As ordens de Maker têm uma taxa menor do que as ordens de Taker."
+      "TITLE": "Taxa de trading",
+      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers DYDX. Não há taxas de gás para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Ordens Fill or Kill",
+      "TITLE": "Execução imediata",
       "BODY": "As ordens Fill or Kill devem ser completamente preenchidas após a execução ou elas serão canceladas automaticamente."
     },
     "FREE_COLLATERAL": {
