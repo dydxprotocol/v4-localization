@@ -1,5 +1,17 @@
 {
   "NOTIFICATIONS": {
+    "DELEVERAGED": {
+      "TITLE": "Position Deleveraged",
+      "BODY": "Your {SIDE} position on {MARKET} has been deleveraged."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Position Settled",
+      "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
+    },
+    "OFFSETTING": {
+      "TITLE": "Position Offsetting",
+      "BODY": "Your {SIDE} position on {MARKET} was used to offset a deleveraged position."
+    },
     "ORDER_FILL": {
       "TITLE": "Order Filled",
       "BODY": "Your order to {SIDE} {AMOUNT} {MARKET} has been filled at ${AVERAGE_PRICE}."
