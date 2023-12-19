@@ -1,5 +1,17 @@
 {
   "NOTIFICATIONS": {
+    "DELEVERAGED": {
+      "TITLE": "レバレッジを解消されたポジション",
+      "BODY": "{MARKET}の{SIDE}ポジションはレバレッジ解消されました。"
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "決済されたポジション",
+      "BODY": "{MARKET}はクローズされました。{MARKET}の{SIDE}ポジションは最終決済に達しました。"
+    },
+    "OFFSETTING": {
+      "TITLE": "オフセットポジション",
+      "BODY": "{MARKET}の{SIDE}ポジションは、レバレッジ解消されたポジションを相殺するために使用されました。"
+    },
     "ORDER_FILL": {
       "TITLE": "約定済み注文",
       "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文は${AVERAGE_PRICE}で約定されました。"
@@ -35,6 +47,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "高速出金に成功しました",
       "BODY": "{ASSET}の{AMOUNT}の高速出金が承認されました。"
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "報酬と取引はdYdXチェーン上でライブ！",
+      "BODY": "完全な取引はdYdXチェーン上でライブ！これには、株式報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。{DOS_BLOGPOST}と{TRADING_BLOGPOST}（第三者のリンク）の詳細をご覧ください。"
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "通常出金は保留中です",
