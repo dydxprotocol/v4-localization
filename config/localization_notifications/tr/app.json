@@ -1,5 +1,17 @@
 {
   "NOTIFICATIONS": {
+    "DELEVERAGED": {
+      "TITLE": "Pozisyon kaldıraçsızlaştırıldı",
+      "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Pozisyon Bağlandı",
+      "BODY": "{MARKET} kapatıldı. {MARKET} üzerindeki {SIDE} pozisyonunuzda nihai bağlamaya ulaşılmıştır."
+    },
+    "OFFSETTING": {
+      "TITLE": "Posizyonda Denkleştirme",
+      "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz, kaldıraçsızlaştırılmış bir pozisyonu dengelemek için kullanıldı."
+    },
     "ORDER_FILL": {
       "TITLE": "Talimat Karşılandı",
       "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {AVERAGE_PRICE}$ ile karşılandı."
@@ -35,6 +47,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Hızlı Çekme Başarılı Oldu",
       "BODY": "{AMOUNT} {ASSET} için hızlı çekme işleminiz onaylandı."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "Ödüller ve alım satım işlemleri dYdX Zinciri üzerinde yayında!",
+      "BODY": "Tum alım satım işlemleri dYdX Zinciri üzerinde yayında! Buna stake ödülleri, alım satım ödülleri ve Chaos Labs'in 6 aylık lansman teşvik programı da dahil. Daha fazla bilgi için {DOS_BLOGPOST} ve {TRADING_BLOGPOST} (üçüncü taraf bağlantısı)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Yavaş Çekme Beklemede",
