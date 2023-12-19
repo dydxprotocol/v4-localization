@@ -410,7 +410,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon est un protocole et un cadre permettant de créer et de connecter des réseaux blockchain compatibles Ethereum. Agrégation de solutions évolutives sur Ethereum prenant en charge un écosystème Ethereum multi-chaînes.",
-        "SECONDARY": "Polygon combine le meilleur d'Ethereum et des blockchains souveraines dans un système multichaîne ouvert, sécurisé et complet capable de bénéficier pleinement des effets de réseau d'Ethereum"
+        "SECONDARY": ""
       },
       "XRP": {
         "PRIMARY": "Ripple est un réseau conçu pour régler les paiements transfrontaliers.",
@@ -446,7 +446,7 @@
       },
       "SNX": {
         "PRIMARY": "Synthetix est un protocole décentralisé d'émission d'actifs synthétiques basé sur Ethereum.",
-        "SECONDARY": "Synthetix permet aux utilisateurs de capturer les mouvements de prix des crypto-monnaies populaires, des monnaies fiduciaires, des actions, des matières premières et plus encore sans effet de glissement. Les actifs synthétiques ou Synths, sont des actifs votés par la communauté qui représentent le prix de différents types d'actifs."
+        "SECONDARY": "Synthetix permet aux utilisateurs de capturer les mouvements de prix des crypto-monnaies populaires, des monnaies fiduciaires, des actions, des matières premières et plus encore sans effet de slippage. Les actifs synthétiques ou Synths, sont des actifs votés par la communauté qui représentent le prix de différents types d'actifs."
       },
       "TRX": {
         "PRIMARY": "TRON est une blockchain publique destinée à fournir l'infrastructure sous-jacente qui permet aux développeurs de créer des contrats intelligents et des applications décentralisées, de publier librement, de posséder et de stocker des données et autres contenus.",
@@ -543,7 +543,7 @@
       "POLKADOT_PRIMARY_DESCRIPTION": "Polkadot est conçu pour connecter des chaînes privées et de consortium, des réseaux publics et sans autorisation, des oracles et des technologies futures qui restent à créer. Polkadot facilite un Internet où des chaînes de blocs indépendantes peuvent échanger des informations et des transactions sans confiance via la chaîne de relais Polkadot.",
       "POLKADOT_SECONDARY_DESCRIPTION": "Polkadot facilite plus que jamais la création et la connexion d'applications, de services et d'institutions décentralisés. En donnant aux innovateurs les moyens de créer de meilleures solutions, nous cherchons à libérer la société de sa dépendance à un réseau défaillant où ses grandes institutions ne peuvent pas violer notre confiance.",
       "POLYGON_PRIMARY_DESCRIPTION": "Polygon est un protocole et un cadre permettant de créer et de connecter des réseaux blockchain compatibles Ethereum. Agrégation de solutions évolutives sur Ethereum prenant en charge un écosystème Ethereum multi-chaînes.",
-      "POLYGON_SECONDARY_DESCRIPTION": "Polygon combine le meilleur d'Ethereum et des blockchains souveraines dans un système multichaîne ouvert, sécurisé et complet capable de bénéficier pleinement des effets de réseau d'Ethereum",
+      "POLYGON_SECONDARY_DESCRIPTION": "",
       "RIPPLE_PRIMARY_DESCRIPTION": "Ripple est un réseau conçu pour régler les paiements transfrontaliers.",
       "RIPPLE_SECONDARY_DESCRIPTION": "XRP est un actif numérique à code source ouvert conçu pour être la crypto-monnaie la plus pratique pour les applications dans le domaine des services financiers.",
       "RUNE_PRIMARY_DESCRIPTION": "Thorchain est un réseau de liquidité inter-chaînes décentralisé et autonome.",
@@ -561,7 +561,7 @@
       "SUSHISWAP_PRIMARY_DESCRIPTION": "SushiSwap est un marché automatisé faisant un échange décentralisé fonctionnant actuellement sur Ethereum.",
       "SUSHISWAP_SECONDARY_DESCRIPTION": "SushiSwap est un projet géré par la communauté qui est régi par le vote de ses détenteurs de token. Les produits de base incluent Exchange, Liquidity Pools, Farms et SushiBar Staking.",
       "SYNTHETIX_PRIMARY_DESCRIPTION": "Synthetix est un protocole décentralisé d'émission d'actifs synthétiques basé sur Ethereum.",
-      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix permet aux utilisateurs de capturer les mouvements de prix des crypto-monnaies populaires, des monnaies fiduciaires, des actions, des matières premières et plus encore sans effet de glissement. Les actifs synthétiques ou Synths, sont des actifs votés par la communauté qui représentent le prix de différents types d'actifs.",
+      "SYNTHETIX_SECONDARY_DESCRIPTION": "Synthetix permet aux utilisateurs de capturer les mouvements de prix des crypto-monnaies populaires, des monnaies fiduciaires, des actions, des matières premières et plus encore sans effet de slippage. Les actifs synthétiques ou Synths, sont des actifs votés par la communauté qui représentent le prix de différents types d'actifs.",
       "TRX_PRIMARY_DESCRIPTION": "TRON est une blockchain publique destinée à fournir l'infrastructure sous-jacente qui permet aux développeurs de créer des contrats intelligents et des applications décentralisées, de publier librement, de posséder et de stocker des données et autres contenus.",
       "TRX_SECONDARY_DESCRIPTION": "TRON s'appuie sur un mécanisme de preuve d'authenticité déléguée (DPoS) dans lequel 27 super représentants effectuent une rotation toutes les 6 heures pour valider les blocs et les transactions.",
       "UMA_PRIMARY_DESCRIPTION": "UMA est une infrastructure open source pour le déploiement et l'application d'actifs synthétiques sur Ethereum.",
@@ -769,7 +769,9 @@
       "ACADEMY_LINK_DESCRIPTION": "Pour participer à l'Académie dYdX, vous devez quitter le site Web de dYdX Trading Inc. et rejoindre un site Web mis à disposition par la Fondation dYdX, qui est indépendante et non affiliée à dYdX Trading Inc. dYdX Trading Inc. n'est pas responsable de toute action entreprise ou contenu sur le site Web tiers.",
       "LEGAL": "Légal",
       "GOVERNANCE_LINK_DESCRIPTION": "Pour participer à la gouvernance, vous devez quitter le site Web de dYdX Trading Inc. et rejoindre un site Web mis à disposition par la Fondation dYdX, qui est indépendante et non affiliée à dYdX Trading Inc. dYdX Trading Inc. n'est pas responsable de toute action entreprise ou contenu sur le site Web tiers.",
-      "LEAVING_WEBSITE": "Quitter le site"
+      "LEAVING_WEBSITE": "Quitter le site",
+      "LEAVING_WEBSITE_DESCRIPTION": "En poursuivant votre navigation, vous quitterez notre site Web et vous rejoindrez un site Web mis à disposition par un tiers, qui est indépendant de nous et non affilié.",
+      "LEAVING_WEBSITE_DISCLAIMER": "Nous ne sommes pas responsables de toute action entreprise ou information sur le site Web tiers"
     },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Taxe de pont",
@@ -870,6 +872,7 @@
       "EXPORT": "Exportation",
       "FEE_DISCOUNT": "Réduction des frais",
       "FEE_STRUCTURE": "Structure des frais",
+      "FOR_V4": "Pour v4",
       "FREE_TRADING_TITLE": "Tradez gratuitement",
       "FREE_TRADING_DESCRIPTION": "Profitez de l'absence de frais de trading sur vos premiers 100 000 $ de volume chaque mois !",
       "FREE_TRADING_TITLE_ASTERISK": "Négocier pour {FREE_TRADING_TITLE_ASTERISK_FREE}*",
@@ -879,10 +882,15 @@
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "financement perpétuel",
       "GASLESS_DEPOSITS_NEW_PROMO": "Si votre premier dépôt est de 1000 $ ou plus, dYdX paiera les frais de gas de votre dépôt !",
       "GASLESS_DEPOSITS_PROMO": "Profitez de frais de gas nuls sur votre dépôt de 2000 $ ou plus, une fois tous les trois jours.",
-      "GOVERNANCE_DESCRIPTION": "Pour participer à la gouvernance, vous devez exporter votre phrase secrète vers votre portefeuille Keplr.",
+      "GOVERNANCE_DESCRIPTION": "Participer à la gouvernance de la chaîne dYdX avec $DYDX. Disponible via Keplr.",
       "HAVE_YOU_EXPORTED": "Avez-vous exporté votre phrase secrète ?",
+      "HAVE_YOU_EXPORTED_DESCRIPTION": "Pour voter ou miser sur la chaîne dYdX, les utilisateurs doivent utiliser un portefeuille natif de Cosmos.",
       "HOLDING": "Portefeuille {NUMBER}",
       "IN_THIS_EPOCH": "dans cette epoch",
+      "LAUNCH_INCENTIVES_TITLE": "Incitatifs de lancement {FOR_V4}",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "Chaque saison, vous pouvez gagner des récompenses pour le trading sur la chaîne dYdX. ",
+      "LAUNCH_INCENTIVES_SEASON_NUM": "Saison {SEASON_NUMBER}",
+      "LEADERBOARD": "Classement",
       "LEARN_TO_EXPORT": "{STRONG_NO}, apprendre à exporter ma phrase secrète.",
       "MAKER_MARKET_SHARE": "part de marché du fabricant",
       "MARKET_NOW_LIVE": "{SYMBOL} maintenant disponible",
@@ -896,6 +904,7 @@
       "OVER_THE_LAST_30_DAYS": "au cours des 30 derniers jours",
       "OVERVIEW_DESCRIPTION": "Aperçu du compte",
       "PAYMENTS_DESCRIPTION": "Voir combien vous avez dépensé en trading",
+      "POINTS": "",
       "PORTFOLIO_VALUE": "Valeur du portefeuille",
       "PORTFOLIO": "Portefeuille",
       "POSITIONS_DESCRIPTION": "Surveillez votre exposition et votre risque",
@@ -907,7 +916,7 @@
       "REWARDS_UPDATE": "Mise à jour des récompenses",
       "SEARCH_MARKETS": "Rechercher des marchés",
       "STAKING": "Staking",
-      "STAKING_DESCRIPTION": "Pour miser, vous devez exporter votre phrase secrète vers le portefeuille Keplr.",
+      "STAKING_DESCRIPTION": "Mettre en jeu vos $DYDX pour aider à sécuriser le réseau et gagner des $USDC. Tous les frais sur la chaîne dYdX vont aux stakers. Disponible via Keplr.",
       "STOP_MARKET_ORDERS": "Ordres Stop market",
       "STOP_MARKET_ORDERS_DESCRIPTION": "Les ordres Stop market et Take profit sont disponibles ! Définissez rapidement et facilement des déclencheurs pour limiter vos pertes et sécuriser vos profits.",
       "TARGET_VOLUME": "Volume cible",
@@ -974,6 +983,7 @@
       "CURRENT_RATE_8H": "Taux 8 h actuel",
       "CURRENTLY_TRADING_GOERLI": "Vous tradez sur notre application Goerli testnet avec des fonds de test. Créez un compte sur notre application Mainnet pour commencer à trader avec des fonds réels",
       "CURRENTLY_TRADING_ROPSTEN": "Vous tradez sur notre application Ropsten testnet avec des fonds de test. Créez un compte sur notre application Mainnet pour commencer à trader avec des fonds réels",
+      "DELEVERAGED": "Désendetté",
       "ENTER_AMOUNT": "Entrez le montant",
       "ENTER_LIMIT_PRICE": "Introduire le prix limite",
       "ENTER_TRIGGER_PRICE": "Introduire le prix de déclenchement",
@@ -991,6 +1001,7 @@
       "FEE": "Frais",
       "FILL_OR_KILL": "Exécution ou Suppression",
       "FILLS_EMPTY_STATE": "Vous n'avez pas de remplissages.",
+      "FINAL_SETTLEMENT": "Règlement final",
       "FULL_CLOSE": "Complètement fermé",
       "FUNDING_PAYMENTS_EMPTY_STATE": "Vous n'avez aucun versement de financement antérieur.",
       "FUNDING_PAYMENTS_SHORT": "Financement",
@@ -1036,6 +1047,7 @@
       "NEXT_FUNDING": "Prochain financement",
       "NEXT_IN": "Prochaine dans {TIME}",
       "NOTIONAL_VALUE": "Valeur notionnelle",
+      "OFFSETTING": "Compensation",
       "OPEN_INTEREST": "Intérêt ouvert",
       "OPEN_POSITIONS": "Positions ouvertes",
       "OPEN_STATUS": "Ouvert",
@@ -1541,6 +1553,7 @@
     },
     "MNEMONIC_EXPORT": {
       "EXPORT_SECRET_PHRASE": "Exporter une phrase secrète",
+      "EXPORT_PHRASE": "Exporter une phrase secrète",
       "HIDE_PHRASE": "Masquer une phrase",
       "NEVER_SHARE_PHRASE": "Ne partagez jamais votre phrase avec quelqu'un !",
       "REVEAL_SECRET_PHRASE": "Révéler une phrase secrète",
