@@ -620,6 +620,7 @@
       "SKIP_FOR_NOW": "Skip for now",
       "START_TRADING_BLURB": "Start trading on the world's most powerful open exchange.",
       "SWITCH_NETWORK": "Switch network",
+      "TRANSFERS_PAUSED": "Transfers temporarily paused",
       "TRY_AGAIN": "Try again",
       "TWO_SIGNATURE_REQUESTS": "You will receive two signature requests. Signing is free and will not send a transaction.",
       "UNDERSTAND_RISKS": "You understand the risks associated with entering into perpetual contracts and using leverage.",
@@ -640,6 +641,8 @@
       "WITHDRAW_STATUS_SHORTLY": "Your withdrawal of {AMOUNT_USD} will be available shortly.",
       "WITHDRAW_COMPLETE": "Your withdrawal of {AMOUNT_USD} is now available.",
       "WITHDRAW_OF": "Withdraw of {AMOUNT_USD}",
+      "WITHDRAWALS_PAUSED": "Withdrawals temporarily paused",
+      "WITHDRAWALS_PAUSED_DESC": "Please try again in {ESTIMATED_DURATION}.",
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "To complete dYdX onboarding, set your wallet network to 'Ethereum Mainnet'.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
@@ -1739,6 +1742,9 @@
     }
   },
   "WARNINGS": {
+    "ACCOUNT_FUND_MANAGEMENT": {
+      "WITHDRAWAL_LIMIT_OVER": "Please enter a smaller amount. The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}."
+    },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys."
     },
