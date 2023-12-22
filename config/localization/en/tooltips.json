@@ -193,7 +193,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Trigger Price",
-      "BODY": "When the oracle price or last trade price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
+      "BODY": "When the oracle price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Unrealized Profit / Loss",
