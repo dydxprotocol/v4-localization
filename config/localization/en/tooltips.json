@@ -213,6 +213,10 @@
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
     },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Minimum Deposit Amount",
+      "BODY": "Inclusive of any slippage that may occur due to liquidity changes while the bridge is in progress"
+    },
     "SWAP": {
       "TITLE": "Swap & Deposit",
       "BODY": "When depositing a non-USDC asset, your asset is automatically converted to USDC via the 0x API. Setting max slippage allows you to specify the slippage you will allow before the conversion fails."
@@ -232,6 +236,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Fast Withdraw Fee",
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Minimum Amount Received",
+      "BODY": "Inclusive of any slippage that may occur due to liquidity changes while the bridge is in progress"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Withdraw Types",
