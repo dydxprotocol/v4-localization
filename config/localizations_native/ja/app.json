@@ -101,7 +101,8 @@
       "SYNC_WITH_DESKTOP": "デスクトップとの同期",
       "SWIPE_UP_TO_TRADE": "スワイプアップして取引する",
       "SWITCH": "スイッチ",
-      "SWITCH_WALLET": "ウォレットを切り替える",
+      "SWITCH_WALLET": "ウォレットのスイッチ",
+      "MANAGE_WALLET": "ウォレットの管理",
       "REWARD_POOL": "報酬プール",
       "TRADE_RESTRICTED": "取引制限が設定されています",
       "TRANSFER_OUT": "外部への資金移動",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "ウォレットの不一致",
       "NETWORK_MISMATCH": "ネットワークの不一致",
       "SWITCH_WALLET": "ウォレットを{WALLET_ADDR}に切り替えてください",
-      "WALLET_ACCOUNT_ERROR": "アカウントを獲得できません"
+      "WALLET_ACCOUNT_ERROR": "アカウントを獲得できません",
+      "ENTER_CODE": "デコードキーを入力"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "プロフィールを作成する"
