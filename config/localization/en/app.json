@@ -1711,6 +1711,7 @@
       "REGION_NOT_PERMITTED_SUBTITLE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You may withdraw your funds from the protocol at any time.",
       "BANNED_USER": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, you have been permanently blocked from performing transfers within the protocol, making fast withdrawals to remove funds from the protocol, and placing orders other than market orders that reduce your positions. You may withdraw your funds from the protocol at any time.",
       "COULD_NOT_CONNECT": "Couldn't connect to {WALLET}",
+      "MAX_CCTP_TRANSFER_LIMIT_EXCEEDED": "Please try a smaller amount. The maximum CCTP transfer limit is currently {MAX_CCTP_TRANSFER_AMOUNT}.",
       "INDETERMINISTIC_SIGNING": "Your wallet does not support deterministic signing. Please switch to a different wallet provider.",
       "INVALID_EMAIL": "Please enter a valid email address.",
       "INVALID_USERNAME": "Usernames must start with a letter, be less than 24 characters long, and contain only letters, numbers, and underscores.",
