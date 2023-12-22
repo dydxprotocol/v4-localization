@@ -1,5 +1,17 @@
 {
   "NOTIFICATIONS": {
+    "DELEVERAGED": {
+      "TITLE": "Position entschuldet",
+      "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde entschuldet."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Position abgewickelt",
+      "BODY": "{MARKET} ist geschlossen. Ihre {SIDE}-Position bei {MARKET} hat die Endabrechnung erreicht."
+    },
+    "OFFSETTING": {
+      "TITLE": "Positionsverrechnung",
+      "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde verwendet, um eine entschuldete Position auszugleichen."
+    },
     "ORDER_FILL": {
       "TITLE": "Auftrag ausgefüllt",
       "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
@@ -35,6 +47,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Schnell-Auszahlung erfolgreich",
       "BODY": "Ihre schnelle Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "Prämien und Handel sind live auf dYdX Chain!",
+      "BODY": "Der vollständige Handel ist live auf dYdX Chain! Dazu gehören Staking-Prämien, Handelsprämien und das 6-monatige Start-Incentives-Programm von Chaos Labs. Weitere Informationen {DOS_BLOGPOST}und  {TRADING_BLOGPOST}(Link zu Drittanbieter)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Verzögerte Auszahlung ausstehend",
