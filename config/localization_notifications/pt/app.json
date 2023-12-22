@@ -1,5 +1,17 @@
 {
   "NOTIFICATIONS": {
+    "DELEVERAGED": {
+      "TITLE": "Posição desalavancada",
+      "BODY": "Sua {SIDE} posição em {MARKET} foi desalavancada."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Posição estabelecida",
+      "BODY": "{MARKET} foi fechado. Sua posição {SIDE} em {MARKET} atingiu a liquidação final."
+    },
+    "OFFSETTING": {
+      "TITLE": "Compensação de posição",
+      "BODY": "Sua posição {SIDE} em {MARKET} foi usada para compensar uma posição desalavancada."
+    },
     "ORDER_FILL": {
       "TITLE": "Ordem executada",
       "BODY": "Sua ordem {SIDE} {AMOUNT} {MARKET} para foi preenchida em ${AVERAGE_PRICE}."
@@ -35,6 +47,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Saques rápidos bem-sucedidos",
       "BODY": "Seu saque rápido de {AMOUNT} {ASSET} foi confirmado."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "As recompensas e as negociações estão ativas na Cadeia dYdX!",
+      "BODY": "As negociações completas estão ativas na Cadeia dYdX! Isso inclui recompensas de staking, recompensas de trading e o programa de incentivos de lançamento de 6 meses da Chaos Labs. Saiba mais {DOS_BLOGPOST}e {TRADING_BLOGPOST}(link de terceiros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Saque lento pendente",
