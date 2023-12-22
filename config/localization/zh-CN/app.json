@@ -1001,6 +1001,7 @@
       "FEE": "交易费率",
       "FILL_OR_KILL": "全部成交否则取消指令",
       "FILLS_EMPTY_STATE": "您没有全部成交。",
+      "FINAL_SETTLEMENT": "最终结算",
       "FULL_CLOSE": "完全关闭",
       "FUNDING_PAYMENTS_EMPTY_STATE": "您没有资金支付记录。",
       "FUNDING_PAYMENTS_SHORT": "资金",
