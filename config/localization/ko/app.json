@@ -1001,6 +1001,7 @@
       "FEE": "수수료",
       "FILL_OR_KILL": "전량 충족 조건(Fill Or Kill)",
       "FILLS_EMPTY_STATE": "체결 내역 없음",
+      "FINAL_SETTLEMENT": "최종 정산",
       "FULL_CLOSE": "전체 종료",
       "FUNDING_PAYMENTS_EMPTY_STATE": "과거 펀딩 지불 내역이 없습니다.",
       "FUNDING_PAYMENTS_SHORT": "펀딩",
