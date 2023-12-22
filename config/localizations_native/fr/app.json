@@ -101,7 +101,8 @@
       "SYNC_WITH_DESKTOP": "Synchronisez avec Desktop",
       "SWIPE_UP_TO_TRADE": "Balayer jusqu'à la transaction",
       "SWITCH": "Changer",
-      "SWITCH_WALLET": "Changer le portefeuille",
+      "SWITCH_WALLET": "Changer de portefeuille",
+      "MANAGE_WALLET": "Gérer le portefeuille",
       "REWARD_POOL": "Pool de récompenses",
       "TRADE_RESTRICTED": "Transaction restreinte",
       "TRANSFER_OUT": "Transfert sortant",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "Discordance de portefeuille",
       "NETWORK_MISMATCH": "Discordance de réseau",
       "SWITCH_WALLET": "Veuillez changer portefeuille à {WALLET_ADDR}",
-      "WALLET_ACCOUNT_ERROR": "Impossible d'obtenir un compte"
+      "WALLET_ACCOUNT_ERROR": "Impossible d'obtenir un compte",
+      "ENTER_CODE": "Entrer la clé de décodage"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Créer un profil"

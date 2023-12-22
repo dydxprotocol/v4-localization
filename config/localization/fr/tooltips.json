@@ -49,14 +49,14 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Prix attendu",
-      "BODY": "Prix d'exécution prévu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre ordre ne soit traité par le moteur de correspondance."
+      "BODY": "Prix d'exécution prévu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre commande ne soit traitée par le réseau."
     },
     "FEE": {
-      "TITLE": "Frais",
-      "BODY": "Les frais sur dYdX sont facturés en fonction du type de liquidité. Les ordres Maker entraînent des frais moins élevés que les ordres Taker."
+      "TITLE": "frais de trading ",
+      "BODY": "Les frais de trading sont facturés par le réseau sur la base d'un pourcentage de votre volume de trading. Les frais de trading s'accumulent aux validateurs et aux stakers dYdX. Il n'y a pas de frais de Gaz à trade sur dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Fill or Kill",
+      "TITLE": "Exécution ou Suppression",
       "BODY": "Les ordres Fill or kill doivent être complètement remplis lors de l'exécution ou ils seront automatiquement annulés."
     },
     "FREE_COLLATERAL": {
