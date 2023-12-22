@@ -1631,7 +1631,8 @@
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Your trigger price must be below the current oracle price: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please update your trigger price or use a stop limit order.",
       "USER_MAX_ORDERS": "This order would put you above the max limit of 20 open orders per market, per side.",
-      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "This order would put you above the equity tier limit of {LIMIT} open orders",
+      "USER_MAX_ORDERS_FOR_EQUITY_TIER": "This order would put you over the limit of {LIMIT} open orders for your equity tier. The next equity tier is at {EQUITY}.",
+      "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "This order would put you over the limit of {LIMIT} open orders.",
       "WOULD_NOT_REDUCE": "Your position would not be reduced if order is filled.",
       "WOULD_NOT_REDUCE_UNCHECK": "Your position would not be reduced with this order. Please uncheck Reduce-Only if you would like to place your order.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days."
