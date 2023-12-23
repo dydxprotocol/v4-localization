@@ -1717,6 +1717,7 @@
       "INVALID_USERNAME": "Usernames must start with a letter, be less than 24 characters long, and contain only letters, numbers, and underscores.",
       "KEY_RECOVERY_FAILED": "Key recovery failed. Try again with 'Legacy Signing' enabled.",
       "LEDGER_U2F_REQUIRED": "U2F browser support is required for Ledger connections. Please ensure this feature is supported in your current browser.",
+      "PRICE_IMPACT_TOO_HIGH": "There is not enough liquidity for the amount requested, the resulting slippage exceeds our safe limit.",
       "USERNAME_TAKEN": "This username has already been taken.",
       "WALLET_NO_TRANSACTIONS": "This wallet has no funds and no previous transactions. Please deposit funds in your wallet to continue onboarding."
     },
