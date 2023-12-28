@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Verdiente Prämie",
+      "BODY": "Sie haben eine {BLOCK_REWARD_AMOUNT}{TOKEN_NAME}Handelsprämie verdient."
+    },
     "DELEVERAGED": {
       "TITLE": "Position entschuldet",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde entschuldet."
