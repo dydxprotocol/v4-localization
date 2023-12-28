@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "已获得的奖励",
+      "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
+    },
     "DELEVERAGED": {
       "TITLE": "头寸去杠杆化",
       "BODY": "您在{MARKET}中的{SIDE}头寸已去杠杆化。"
