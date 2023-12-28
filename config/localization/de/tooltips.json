@@ -193,7 +193,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Trigger-Preis",
-      "BODY": "Wenn der Oracle-Preis oder der letzte Tradepreis dieses Marktes Ihren Trigger-Preis kreuzt, wird Ihre Stop\/Take-Profit Order entweder in eine Limit-Order umgewandelt oder als Market-Order ausgeführt."
+      "BODY": "Wenn der Oracle-Preis Ihren Trigger-Preis kreuzt, wird Ihre Stop\/Take-Profit Order entweder in eine Limit-Order umgewandelt oder als Market-Order ausgeführt."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Nicht realisierter Gewinn \/ Verlust",
@@ -212,6 +212,10 @@
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasfreie Einlagen",
       "BODY": "dYdX übernimmt Ihre Gas-Kosten, wenn Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen. Sie haben alle drei Tage Anspruch auf eine Einzahlung ohne Gas. Die Einzahlungen ohne Gas unterliegen bestimmten Regeln."
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Mindesteinzahlungsbetrag",
+      "BODY": "Einschließlich aller Slippage, die aufgrund von Liquiditätsänderungen auftreten können, während die Brücke in Betrieb ist"
     },
     "SWAP": {
       "TITLE": "Swap & Einzahlung",
@@ -232,6 +236,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Gebühr für schnelle Auszahlung",
       "BODY": "Schnelle Auszahlungen werden sofort versandt und dYdX übernimmt die Gaskosten im Austausch gegen eine Gebühr. Für gebührenfreie Auszahlungen verwenden Sie bitte eine langsame Auszahlung (Sie zahlen Ihre eigenen Gaskosten und müssen die Layer 2-Bestätigung abwarten.)"
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Erhaltener Mindestbetrag",
+      "BODY": "Einschließlich aller Slippage, die aufgrund von Liquiditätsänderungen auftreten können, während die Brücke in Betrieb ist"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Auszahlungsarten",
