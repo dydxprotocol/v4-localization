@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "보상 획득",
+      "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}거래 보상을 획득했습니다."
+    },
     "DELEVERAGED": {
       "TITLE": "포지션 차감",
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감되었습니다."
