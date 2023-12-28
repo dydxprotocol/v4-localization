@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Заработанная награда",
+      "BODY": "Вы заработали награду за торговлю в размере {BLOCK_REWARD_AMOUNT} {TOKEN_NAME}."
+    },
     "DELEVERAGED": {
       "TITLE": "Кредитное плечо позиции сокращено",
       "BODY": "Кредитное плечо вашей позиции {SIDE} на {MARKET} сокращено."
