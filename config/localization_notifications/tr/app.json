@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Kazanılan Ödül",
+      "BODY": "Alım satım ödülü olarak {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} kazandınız."
+    },
     "DELEVERAGED": {
       "TITLE": "Pozisyon kaldıraçsızlaştırıldı",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
