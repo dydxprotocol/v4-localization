@@ -1,5 +1,21 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Récompense gagnée",
+      "BODY": "Vous avez gagné {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} une récompense de trading."
+    },
+    "DELEVERAGED": {
+      "TITLE": "Position désendettée",
+      "BODY": "Votre {SIDE}position ci-dessus{MARKET} a été désendettée."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Position réglée",
+      "BODY": "{MARKET} a fermé. Votre {SIDE}position ci-dessus {MARKET}a atteint le règlement final."
+    },
+    "OFFSETTING": {
+      "TITLE": "Compensation de position",
+      "BODY": ""
+    },
     "ORDER_FILL": {
       "TITLE": "Ordre exécuté",
       "BODY": "Votre commande {SIDE}{AMOUNT}{MARKET}a été exécutée à {AVERAGE_PRICE}$."
@@ -35,6 +51,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Retrait rapide réussi",
       "BODY": "Votre retrait rapide de {AMOUNT}{ASSET} a été confirmé."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "Les récompenses et le trading sont en direct sur la chaîne dYdX !",
+      "BODY": "Cela inclut les récompenses de staking, les récompenses de trading et le programme d'incitations de lancement de 6 mois par Chaos Labs. En savoir plus {DOS_BLOGPOST}et {TRADING_BLOGPOST}(lien tiers)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retrait lent en attente",
