@@ -1322,7 +1322,8 @@
       "TRADE_TO_WIN": "Trade to win",
       "TRADERS_JOINED": "Traders Joined",
       "USERS_REFERRED": "Users Referred",
-      "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}"
+      "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}",
+      "REWARD_HISTORY_TOOLTIP": "Time is displayed in Coordinated Universal Time (UTC)"
     },
     "TRADING_REWARDS" : {
         "ABOUT": "About",
