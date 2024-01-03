@@ -193,7 +193,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Tetikleme Fiyatı",
-      "BODY": "Bu piyasanın oracle fiyatı veya son işlem fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
+      "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Gerçekleşmemiş Kar \/ Zarar",
@@ -212,6 +212,10 @@
     "GASLESS_DEPOSITS": {
       "TITLE": "Gazsız yatırma işlemleri",
       "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Minimum Yatırma Miktarı",
+      "BODY": "Köprü işlemeye devam ederken likidite değişiklikleri nedeniyle oluşabilecek her türlü kayma dahil"
     },
     "SWAP": {
       "TITLE": "Takas ve Yatırma",
@@ -232,6 +236,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
       "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas maliyetlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Alınan Minimum Miktar",
+      "BODY": "Köprü işlemeye devam ederken likidite değişiklikleri nedeniyle oluşabilecek her türlü kayma dahil"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
