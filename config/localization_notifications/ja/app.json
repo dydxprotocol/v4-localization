@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "獲得した報酬",
+      "BODY": "取引報酬の{BLOCK_REWARD_AMOUNT} {TOKEN_NAME}を獲得しました。"
+    },
     "DELEVERAGED": {
       "TITLE": "レバレッジを解消されたポジション",
       "BODY": "{MARKET}の{SIDE}ポジションはレバレッジ解消されました。"
