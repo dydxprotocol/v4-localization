@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Recompensa ganada",
+      "BODY": "Has ganado una recompensa de {BLOCK_REWARD_AMOUNT}{TOKEN_NAME}trading."
+    },
     "DELEVERAGED": {
       "TITLE": "Posición desapalancada",
       "BODY": "Tu {SIDE}posición  {MARKET} ha sido desapalancada."
