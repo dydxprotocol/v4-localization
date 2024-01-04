@@ -683,8 +683,7 @@
     "LEGAL": {
       "ACADEMY_LINK_DESCRIPTION": "To access the dYdX Academy, you will leave the dYdX Trading Inc. website and join a website made available by dYdX Foundation, which is independent from and unaffiliated with dYdX Trading Inc. dYdX Trading Inc. is not responsible for any action taken or content on the third-party website.",
       "LEGAL": "Legal",
-      "GOVERNANCE_LINK_DESCRIPTION": "To participate in governance, you need to export your secret phrase to Keplr Wallet.",
-      "STAKING_LINK_DESCRIPTION": "To stake, you need to export your secret phrase to Keplr Wallet.",
+      "GOVERNANCE_LINK_DESCRIPTION": "To participate in governance, you will leave the dYdX Trading Inc. website and join a website made available by dYdX Foundation, which is independent from and unaffiliated with dYdX Trading Inc. dYdX Trading Inc. is not responsible for any action taken or content on the third-party website.",
       "LEAVING_WEBSITE": "Leaving website",
       "LEAVING_WEBSITE_DESCRIPTION": "By continuing, you will leave our website and join a website made available by a third party, which is independent from and unaffiliated with us.",
       "LEAVING_WEBSITE_DISCLAIMER": "We are not responsible for any action taken or content on the third-party website"
@@ -1322,31 +1321,26 @@
       "TRADE_TO_WIN": "Trade to win",
       "TRADERS_JOINED": "Traders Joined",
       "USERS_REFERRED": "Users Referred",
-      "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}",
-      "REWARD_HISTORY_TOOLTIP": "Time is displayed in Coordinated Universal Time (UTC)"
+      "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}"
     },
     "TRADING_REWARDS" : {
         "ABOUT": "About",
         "EVENT": "Event",
         "FOR_TRADING": "For trading {PERIOD}",
         "FOR_V4":"{SUBJECT} for v4",
-        "GOVERNANCE": "Governance",
-        "GOVERNANCE_LINK_DESCRIPTION": "To participate in governance, you need to export your secret phrase to Keplr Wallet.",
         "LAUNCH_INCENTIVES":"Launch Incentives",
-        "LAUNCH_INCENTIVES_DESCRIPTION":"Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your rightful spot on the leaderboard.",
+        "LAUNCH_INCENTIVES_DESCRIPTION":"Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your spot on the leaderboard.",
         "LEADERBOARD": "Leaderboard",
         "POINTS":"{POINTS} points",
         "POWERED_BY":"POWERED BY",
         "SEASON_ID":"Season {SEASON_ID}",
-        "STAKING": "Staking",
-        "STAKING_LINK_DESCRIPTION": "To stake, you need to export your secret phrase to Keplr Wallet.",
         "TRADING_REWARD": "Trading Reward",
-        "FAQ_WHO_IS_ELIGIBLE_QUESTION":"Who is eligible for trading rewards?",
-        "FAQ_WHO_IS_ELIGIBLE_ANSWER":"All traders are eligible for trading rewards.",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION":"How do trading rewards work?",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER":"Immediately after each fill, trading rewards are sent directly to the trader’s dYdX Chain address, based on the amount of fees paid by the trader.",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION":"How do I claim my rewards?",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER":"Each block, trading rewards are automatically sent directly to the trader’s dYdX Chain address."
+        "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Who is eligible for trading rewards?",
+        "FAQ_WHO_IS_ELIGIBLE_ANSWER": "All traders are eligible for trading rewards.",
+        "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "How do trading rewards work?",
+        "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Immediately after each fill, trading rewards are sent directly to the trader’s dYdX Chain address, based on the  amount of fees paid by the trader.",
+        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "How do I claim my rewards?",
+        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Each block, trading rewards are automatically sent directly to the trader’s dYdX Chain address."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
