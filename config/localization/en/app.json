@@ -1156,6 +1156,7 @@
       "66_REDUCTION": "66% reduction",
       "ADJUSTED_IMR": "Adjusted Margin",
       "ADJUSTED_IMR_BODY": "We have temporarily {ACTION} the Initial Margin Requirements on {MARKET} to {PERCENT} due to volatility. {ADDITIONAL_NOTE}",
+      "BLOCK_REWARD": "Block reward",
       "CLOSE_MARKET_POSITIONS": "Close your {MARKET} position",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} is set to close only mode and the close price of {MARKET} is now fixed. Please close your open {MARKET} position as soon as you are able. We're here to help via the help chat if you run into issues.",
       "COMPLIANCE_ALERT": "Compliance alert",
@@ -1200,7 +1201,8 @@
         "INITIATED_WITHDRAWAL": "Initiated withdrawal",
         "WITHDRAW_IN_PROGRESS": "Withdrawal(s) in progress...",
         "WITHDRAW_TO_CHAIN": "Withdraw to {CHAIN}"
-      }
+      },
+      "TRADING_REWARD_RECEIVED": "Trading reward received"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Deposits, Withdrawals, Account Updates",
