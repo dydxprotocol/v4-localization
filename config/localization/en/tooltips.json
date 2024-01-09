@@ -198,6 +198,9 @@
     "UNREALIZED_PNL": {
       "TITLE": "Unrealized Profit / Loss",
       "BODY": "Total profit / loss if you were to fully close the remainder of your current position at the current oracle price. Resets if you close your position or change position sides (long to short, or vice versa)."
+    },
+    "REWARD_HISTORY": {
+        "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
     }
   },
   "DEPOSIT": {
