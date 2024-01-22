@@ -1522,6 +1522,7 @@
     "THEME": {
       "THEME": "Theme",
       "DIRECTION_COLOR_PREFERENCE": "Color Preference",
+      "DISPLAY_SETTINGS": "Display settings",
       "DARK": "Dark",
       "CLASSIC_DARK": "Classic Dark",
       "LIGHT": "Light",
