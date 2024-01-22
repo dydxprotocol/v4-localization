@@ -155,6 +155,10 @@
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Post-Only",
+      "BODY": "Post-Only is only available if Time in Force is set to Good Til Time."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Price Impact",
       "BODY": "The difference between the expected execution price for your order and the best order on the bid or ask side. This will increase for larger trade sizes."
@@ -166,6 +170,14 @@
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only prevents an order from changing the side of your position (long to short, or short to long). An order with Reduce-Only set will automatically resize and cancel itself as your position changes."
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only is only available if Time in Force is set to IOC or FOK."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only is only available if Execution is set to IOC or FOK."
     },
     "SPREAD": {
       "TITLE": "Spread",

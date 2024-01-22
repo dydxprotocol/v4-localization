@@ -1033,8 +1033,6 @@
       "REALIZED_PNL": "Realized P&L",
       "REDUCE_ONLY": "Reduce-Only",
       "REDUCE_ONLY_RESIZED": "Reduce-Only resized",
-      "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": "Reduce-Only is only available if Time in Force is set to IOC or FOK.",
-      "REDUCE_ONLY_EXECUTION_IOC_FOK": "Reduce-Only is only available if Execution is set to IOC or FOK.",
       "RELEASE_TO_EDIT": "Release mouse to edit order",
       "RETURN_TO_MARKET": "Return to market",
       "RISK_REWARD": "Risk-Reward",

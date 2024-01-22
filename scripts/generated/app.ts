@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1243,9 +1243,7 @@ export const APP_STRING_KEYS = {
     RATE_8H: 'APP.TRADE.RATE_8H',
     REALIZED_PNL: 'APP.TRADE.REALIZED_PNL',
     REDUCE_ONLY: 'APP.TRADE.REDUCE_ONLY',
-    REDUCE_ONLY_EXECUTION_IOC_FOK: 'APP.TRADE.REDUCE_ONLY_EXECUTION_IOC_FOK',
     REDUCE_ONLY_RESIZED: 'APP.TRADE.REDUCE_ONLY_RESIZED',
-    REDUCE_ONLY_TIMEINFORCE_IOC_FOK: 'APP.TRADE.REDUCE_ONLY_TIMEINFORCE_IOC_FOK',
     RELEASE_TO_EDIT: 'APP.TRADE.RELEASE_TO_EDIT',
     RETURN_TO_MARKET: 'APP.TRADE.RETURN_TO_MARKET',
     RISK_REWARD: 'APP.TRADE.RISK_REWARD',
