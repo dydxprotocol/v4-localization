@@ -1,5 +1,21 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "Recompensa ganada",
+      "BODY": "Has ganado una recompensa de {BLOCK_REWARD_AMOUNT}{TOKEN_NAME}trading."
+    },
+    "DELEVERAGED": {
+      "TITLE": "Posición desapalancada",
+      "BODY": "Tu {SIDE}posición  {MARKET} ha sido desapalancada."
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "Posición establecida",
+      "BODY": "{MARKET} ha cerrado. Tu {SIDE}posición en {MARKET} ha llegado a su establecimiento final."
+    },
+    "OFFSETTING": {
+      "TITLE": "Compensación de posición",
+      "BODY": "Tu {SIDE}posición en {MARKET} se usó para compensar una posición desapalancada."
+    },
     "ORDER_FILL": {
       "TITLE": "Orden completada",
       "BODY": "Tu pedido a {SIDE} {AMOUNT} {MARKET} se ha completado en ${AVERAGE_PRICE}."
@@ -35,6 +51,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Retiro rápido exitoso",
       "BODY": "Tu retiro rápido de  {AMOUNT}{ASSET}ha sido confirmado."
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "¡Las recompensas y el trading están disponibles en la cadena dYdX!",
+      "BODY": "¡El trading completo está disponible en la cadena dYdX! Esto incluye recompensas de participación, recompensas de trading y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retiro lento pendiente",

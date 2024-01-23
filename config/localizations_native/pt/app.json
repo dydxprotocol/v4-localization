@@ -102,6 +102,7 @@
       "SWIPE_UP_TO_TRADE": "Passe o dedo para cima para fazer trades",
       "SWITCH": "Alternar",
       "SWITCH_WALLET": "Alternar carteira",
+      "MANAGE_WALLET": "Gerenciar carteira",
       "REWARD_POOL": "Pool de recompensas",
       "TRADE_RESTRICTED": "Trades restritos",
       "TRANSFER_OUT": "Saque eletrônico",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "Incompatibilidade de carteira",
       "NETWORK_MISMATCH": "Incompatibilidade de rede",
       "SWITCH_WALLET": "Mude sua carteira para {WALLET_ADDR}",
-      "WALLET_ACCOUNT_ERROR": "Não foi possível obter a conta"
+      "WALLET_ACCOUNT_ERROR": "Não foi possível obter a conta",
+      "ENTER_CODE": "Digite a chave de decodificação"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Crie um perfil"

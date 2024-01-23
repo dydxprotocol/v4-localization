@@ -1,5 +1,21 @@
 {
   "NOTIFICATIONS": {
+    "BLOCK_REWARD": {
+      "TITLE": "已获得的奖励",
+      "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
+    },
+    "DELEVERAGED": {
+      "TITLE": "头寸去杠杆化",
+      "BODY": "您在{MARKET}中的{SIDE}头寸已去杠杆化。"
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "头寸已结算",
+      "BODY": "{MARKET} 已平仓。 您在{MARKET}上的{SIDE}头寸已完成最终结算。"
+    },
+    "OFFSETTING": {
+      "TITLE": "头寸抵消",
+      "BODY": "您在{MARKET}上的{SIDE}头寸已用于抵消去杠杆化头寸。"
+    },
     "ORDER_FILL": {
       "TITLE": "订单已成交",
       "BODY": "您对{SIDE} {AMOUNT} {MARKET}的订单已按${AVERAGE_PRICE}成交。"

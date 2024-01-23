@@ -193,7 +193,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Precio de disparador",
-      "BODY": "Cuando el precio de oráculo o el precio de la última operación de este mercado se cruza con tu precio de disparador, tu orden de detención o toma de ganancias se convertirá en una orden limitada o se ejecutará como una orden de mercado."
+      "BODY": "Cuando el precio de oráculo de este mercado se cruza con tu \"trigger price\" (precio disparador), tu orden de detención o toma de ganancias se convertirá en una orden limitada o se ejecutará como una orden de mercado."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Ganancia\/pérdida no realizado",
@@ -212,6 +212,10 @@
     "GASLESS_DEPOSITS": {
       "TITLE": "Depósitos sin gas",
       "BODY": "dYdX cubrirá tus tarifas de gas si depositas {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} o más. Eres elegible para un depósito sin gas cada tres días. Los depósitos sin gas están sujetos a ciertas reglas."
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Cantidad a depositar mínima",
+      "BODY": "Incluye cualquier \"slippage\" (deslizamiento) que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
     },
     "SWAP": {
       "TITLE": "Intercambiar y depositar",
@@ -232,6 +236,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Tasa de retiro rápido",
       "BODY": "Los retiros rápidos se envían de inmediato y dYdX cubrirá los costos del gas a cambio de una tasa. Para retiros sin cargo, usa un retiro lento (pagarás tus propios costos de gas y tendrás que esperar la confirmación de la etapa 2)."
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Cantidad mínima recibida",
+      "BODY": "Incluye cualquier \"slippage\" (deslizamiento) que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Tipos de retiro",

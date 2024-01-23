@@ -155,6 +155,10 @@
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Post-Only",
+      "BODY": "Post-Only is only available if Time in Force is set to Good Til Time."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Price Impact",
       "BODY": "The difference between the expected execution price for your order and the best order on the bid or ask side. This will increase for larger trade sizes."
@@ -166,6 +170,14 @@
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only prevents an order from changing the side of your position (long to short, or short to long). An order with Reduce-Only set will automatically resize and cancel itself as your position changes."
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only is only available if Time in Force is set to IOC or FOK."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only is only available if Execution is set to IOC or FOK."
     },
     "SPREAD": {
       "TITLE": "Spread",
@@ -193,11 +205,14 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Trigger Price",
-      "BODY": "When the oracle price or last trade price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
+      "BODY": "When the oracle price of this market crosses your trigger price, your stop/take profit order will either convert to a limit order or execute as a market order."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Unrealized Profit / Loss",
       "BODY": "Total profit / loss if you were to fully close the remainder of your current position at the current oracle price. Resets if you close your position or change position sides (long to short, or vice versa)."
+    },
+    "REWARD_HISTORY": {
+        "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
     }
   },
   "DEPOSIT": {
@@ -212,6 +227,10 @@
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Minimum Deposit Amount",
+      "BODY": "Inclusive of any slippage that may occur due to liquidity changes while the bridge is in progress"
     },
     "SWAP": {
       "TITLE": "Swap & Deposit",
@@ -232,6 +251,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Fast Withdraw Fee",
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Minimum Amount Received",
+      "BODY": "Inclusive of any slippage that may occur due to liquidity changes while the bridge is in progress"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Withdraw Types",

@@ -101,7 +101,8 @@
       "SYNC_WITH_DESKTOP": "Masaüstü ile eşitle",
       "SWIPE_UP_TO_TRADE": "Alım satım yapmak için yukarı çekin",
       "SWITCH": "Değiştir",
-      "SWITCH_WALLET": "Cüzdan Değiştir",
+      "SWITCH_WALLET": "Cüzdanı değiştirin",
+      "MANAGE_WALLET": "Cüzdanı yönetin",
       "REWARD_POOL": "Ödül Havuzu",
       "TRADE_RESTRICTED": "Alım Satım Kısıtlandı",
       "TRANSFER_OUT": "Dışarı Transfer",
@@ -161,7 +162,8 @@
       "WALLET_MISMATCH": "Cüzdan Uyumsuzluğu",
       "NETWORK_MISMATCH": "Ağ Uyumsuzluğu",
       "SWITCH_WALLET": "Lütfen cüzdanınızı {WALLET_ADDR} ile değiştirin",
-      "WALLET_ACCOUNT_ERROR": "Hesap alınamadı"
+      "WALLET_ACCOUNT_ERROR": "Hesap alınamadı",
+      "ENTER_CODE": "Kod çözme anahtarını girin"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil Oluşturun"

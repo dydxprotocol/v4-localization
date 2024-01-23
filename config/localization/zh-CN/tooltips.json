@@ -193,7 +193,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "触发价格",
-      "BODY": "当该市场的预言机价格或最后交易价格超过您的触发价格时，止损\/止盈单将转换为限价单或作为市价单执行。"
+      "BODY": "当该市场的预言机价格超过您的触发价格时，止盈\/套利订单将转换为限价订单或作为市价订单执行。"
     },
     "UNREALIZED_PNL": {
       "TITLE": "未实现的盈亏",
@@ -212,6 +212,10 @@
     "GASLESS_DEPOSITS": {
       "TITLE": "无 gas 存款",
       "BODY": "如果您存入{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}或更多，dYdX会支付您的gas费用。您有资格每三天获得一次无 gas 存款。无 gas 存款受规则约束。"
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "最低存款金额",
+      "BODY": "包括桥接过程中由于流动性变化而可能发生的任何滑点"
     },
     "SWAP": {
       "TITLE": "互换和存款",
@@ -232,6 +236,10 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "快速提现费",
       "BODY": "高速出金は直ちに送金され、dYdXが手数料と引き換えにGasコストを負担します。手数料がかからない出金については、通常出金（お客様がGasコストを負担するほか、レイヤー2の承認を待つ必要があります）をご利用ください。"
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "最低收到金额",
+      "BODY": "包括桥接过程中由于流动性变化而可能发生的任何滑点"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "提现类型",
