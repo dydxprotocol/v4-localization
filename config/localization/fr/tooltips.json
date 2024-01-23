@@ -198,6 +198,9 @@
     "UNREALIZED_PNL": {
       "TITLE": "Bénéfice \/ Perte non réalisé",
       "BODY": "Perte\/bénéfice total si vous deviez fermer complètement le reste de votre position actuelle au prix actuel d'oracle. Réinitialise si vous fermez votre position ou changez de côté de position (longue à courte, ou vice versa)."
+    },
+    "REWARD_HISTORY": {
+        "BODY": "L'heure est affichée en temps universel coordonné (UTC)"
     }
   },
   "DEPOSIT": {
