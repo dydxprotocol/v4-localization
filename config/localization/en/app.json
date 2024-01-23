@@ -1545,6 +1545,7 @@
       "HIDE_STEPS": "Hide steps",
       "IMPACT_NOTIONAL": "Impact notional",
       "LIQUIDITY_TIER": "Liquidity tier",
+      "MESSAGE_DETAILS": "Message details",
       "MSG_CREATE_CLOB_PAIR": "Msg create clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Msg create oracle market",
       "MSG_CREATE_PERPETUAL": "Msg create perpetual",
