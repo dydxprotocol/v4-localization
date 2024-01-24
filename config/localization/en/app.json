@@ -41,6 +41,7 @@
       "ACCOUNT_LEVERAGE": "Account Leverage",
       "ACCOUNT": "Account",
       "ACTION": "Action",
+      "ACTIVE": "Active",
       "ADDRESS": "Address",
       "ADVANCED": "Advanced",
       "ALERTS": "Alerts",
@@ -142,6 +143,7 @@
       "INCREASED": "increased",
       "INCREASING": "Increasing",
       "INITIAL_MARGIN_FRACTION": "Initial Margin Fraction",
+      "INITIALIZING": "Initializing",
       "KEEP_TRADING": "Keep trading",
       "LANGUAGE": "Language",
       "LAYER_1": "Layer 1",
@@ -1530,6 +1532,35 @@
       "GREEN_IS_UP": "Green is up",
       "RED_IS_UP": "Red is up",
       "SELECT_A_THEME": "Select Color Theme"
+    },
+    "NEW_MARKET_WIDGET": {
+      "ADD_A_MARKET": "Add a market",
+      "ADD_DETAILS_TO_LAUNCH_MARKET": "Add details in order to launch a new market",
+      "ADD_MARKET_STEP_1_TITLE": "Select market",
+      "ADD_MARKET_STEP_2_TITLE": "Confirm details",
+      "ADD_MARKET_STEP_3_TITLE": "Propose new market",
+      "ADD_MARKET_STEP_1_DESCRIPTION": "Search or choose from a list of markets you’d like to add. The list is pre-populated with markets that have been deemed “safe” to add to the Protocol.",
+      "ADD_MARKET_STEP_2_DESCRIPTION": "Once a market is selected, all of its parameters will be automatically populated.",
+      "ADD_MARKET_STEP_3_DESCRIPTION": "Send a transaction that creates a proposal to add the new market to dYdX Chain. This requires a balance of {REQUIRED_NUM_TOKENS} unstaked {NATIVE_TOKEN_DENOM}.",
+      "HIDE_STEPS": "Hide steps",
+      "IMPACT_NOTIONAL": "Impact notional",
+      "LIQUIDITY_TIER": "Liquidity tier",
+      "MESSAGE_DETAILS": "Message details",
+      "MSG_CREATE_CLOB_PAIR": "Msg create clobPair",
+      "MSG_CREATE_ORACLE_MARKET": "Msg create oracle market",
+      "MSG_CREATE_PERPETUAL": "Msg create perpetual",
+      "MSG_DELAY_MESSAGE": "Msg delay message",
+      "MSG_SUBMIT_PROPOSAL": "Msg submit proposal",
+      "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "Select an asset, confirm details, and launch a governance proposal to add a new market to dYdX Chain. Requires {REQUIRED_NUM_TOKENS} unstaked {NATIVE_TOKEN_DENOM}.",
+      "PROPOSAL_DISCLAIMER": "When you submit a proposal, {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} will be deducted from your wallet. After the governance vote concludes, these tokens will be returned to your wallet, except if the proposal is vetoed.",
+      "PROPOSAL_SUBMISSION_SUCCESSFUL": "Your proposal has been successfully submitted onchain.",
+      "REFERENCE_PRICE": "Reference price",
+      "REQUIRED_BALANCE": "Required balance",
+      "SHOW_STEPS": "Show steps",
+      "STEPS_TO_CREATE": "Steps to create a new market",
+      "SUBMITTED_PROPOSAL": "Submitted Proposal!",
+      "SUGGEST_NEW_MARKET": "Suggest a new market",
+      "VIEW_PROPOSAL": "View proposal"
     }
   },
   "TOKEN_MIGRATION": {
@@ -1780,6 +1811,9 @@
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
       "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
       "TRANSFER_INSUFFICIENT_GAS": "The USDC balance {USDC_BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds."
+    },
+    "NEW_MARKET_WIDGET": {
+      "NOT_ENOUGH_BALANCE": "You need at least {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} to add a market."
     }
   },
   "WARNINGS": {
