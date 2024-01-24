@@ -198,6 +198,9 @@
     "UNREALIZED_PNL": {
       "TITLE": "Nicht realisierter Gewinn \/ Verlust",
       "BODY": "Gesamter Gewinn\/Verlust, wenn Sie den Rest Ihrer aktuellen Position zum aktuellen Oracle-Preis vollständig schließen sollten. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Position wechseln (Long zu Short oder umgekehrt)"
+    },
+    "REWARD_HISTORY": {
+        "BODY": "Die Zeit wird in Coordinated Universal Time (UTC) angezeigt"
     }
   },
   "DEPOSIT": {
