@@ -198,6 +198,9 @@
     "UNREALIZED_PNL": {
       "TITLE": "Ganancia\/pérdida no realizado",
       "BODY": "La ganancia\/pérdida total si cerraras por completo el resto de tu posición actual al precio de oráculo actual. Se restablece si cierras tu posición o cambias los lados de la posición (de largo a corto o viceversa)."
+    },
+    "REWARD_HISTORY": {
+        "BODY": "La hora se muestra en Hora Universal Coordinada (UTC)"
     }
   },
   "DEPOSIT": {
