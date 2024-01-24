@@ -198,6 +198,9 @@
     "UNREALIZED_PNL": {
       "TITLE": "Lucros \/ perdas não realizados",
       "BODY": "O total de lucro\/perda se você fechasse completamente o restante de sua posição atual no preço do oráculo atual. É redefinido se você fechar sua posição ou alterar o tipo de posição (long para short, ou vice-versa)."
+    },
+    "REWARD_HISTORY": {
+        "BODY": "A hora é exibida no Tempo Universal Coordenado (UTC)"
     }
   },
   "DEPOSIT": {
