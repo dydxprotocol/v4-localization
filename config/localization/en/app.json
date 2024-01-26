@@ -599,7 +599,7 @@
       "NEED_A_WALLET": "Need a wallet?",
       "NOBLE_ADDRESS": "Noble Address",
       "NOBLE_WARNING": "This address only supports transfers of Noble USDC to the Noble chain, which will then be automatically swept into the corresponding dYdX address on dYdX chain. Using this Noble address for any other assets could result in a loss of funds.",
-      "NOBLE_ACKNOWLEDGEMENT": "This address only supports transfers of Noble USDC to the Noble chain, which will then be automatically swept into the corresponding dYdX address on dYdX chain. Using this Noble address for any other assets could result in a loss of funds.",
+      "NOBLE_ACKNOWLEDGEMENT": "I understand the risks if I send funds other than Noble USDC to this Noble chain address.",
       "NO_FUTURE_ACCESS": "You will not in the future access this site or trade on dYdX while located within the United States or a restricted location.",
       "NO_VPN_USE": "You are not using, and will not in the future use, a VPN to mask your physical location from a restricted location.",
       "NOT_A_RESIDENT": "You are not a person or company who is a resident of, or is located, incorporated or has a registered agent in, the United States or a restricted location.",
