@@ -1541,7 +1541,7 @@
     },
     "NEW_MARKET_WIDGET": {
       "ADD_A_MARKET": "Add a market",
-      "ADD_DETAILS_TO_LAUNCH_MARKET": "Add details in order to launch a new market",
+      "ADD_DETAILS_TO_LAUNCH_MARKET": "Add details in order to propose a new market",
       "ADD_MARKET_STEP_1_TITLE": "Select market",
       "ADD_MARKET_STEP_2_TITLE": "Confirm details",
       "ADD_MARKET_STEP_3_TITLE": "Propose new market",
@@ -1558,7 +1558,7 @@
       "MSG_CREATE_PERPETUAL": "Msg create perpetual",
       "MSG_DELAY_MESSAGE": "Msg delay message",
       "MSG_SUBMIT_PROPOSAL": "Msg submit proposal",
-      "NEW_MARKET_PROPOSAL_AGREEMENT": "By checking the box below, you acknowledge and understand that (a) the pre-populated list of markets does not reflect an endorsement of any particular asset or market, and should not be relied on as investment, legal or any other form of professional advice; (b) this list is not a recommendation of any specific market, and markets are included based on compatibility and functionality assessments from a technical standpoint using public data; and (c) you are encouraged to conduct your own research and consult qualified legal counsel to ensure compliance with the laws of any and all applicable jurisdictions. Additionally, you acknowledge and understand that by clicking “Propose new market”, you will create an on-chain governance proposal — more information about on-chain governance proposals can be found on dYdX Foundation’s documentation {DOCUMENTATION_LINK}, which is independent from and unaffiliated with the host and operator of this website. Use of this widget is prohibited in the U.S., Canada and sanctioned jurisdictions as described in the {TERMS_OF_USE}",
+      "NEW_MARKET_PROPOSAL_AGREEMENT": "By checking the box below, you acknowledge and understand that (a) the pre-populated list of markets does not reflect an endorsement of any particular asset or market, and should not be relied on as investment, legal or any other form of professional advice; (b) this list is not a recommendation of any specific market, and markets are included based on compatibility and functionality assessments from a technical standpoint using public data; and (c) you are encouraged to conduct your own research and consult qualified legal counsel to ensure compliance with the laws of any and all applicable jurisdictions. Additionally, you acknowledge and understand that by clicking “Propose new market”, you will create an on-chain governance proposal — more information about on-chain governance proposals can be found on this {DOCUMENTATION_LINK}, which is independent from and unaffiliated with the host and operator of this website. Use of this widget is prohibited in the U.S., Canada and sanctioned jurisdictions as described in the {TERMS_OF_USE}.",
       "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "Select an asset, confirm details, and launch a governance proposal to add a new market to dYdX Chain. Requires {REQUIRED_NUM_TOKENS} unstaked {NATIVE_TOKEN_DENOM}.",
       "OR_MORE": "{NUMBER} or more",
       "POPULATED_DETAILS": "Populated details",
