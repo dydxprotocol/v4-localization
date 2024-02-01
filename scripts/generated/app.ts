@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1349,6 +1349,7 @@ export const APP_STRING_KEYS = {
 
     // TRADING_REWARDS
 
+    EMPTY_HISTORICAL_REWARDS_DESCRIPTION: 'APP.TRADING_REWARDS.EMPTY_HISTORICAL_REWARDS_DESCRIPTION',
     EVENT: 'APP.TRADING_REWARDS.EVENT',
     FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER: 'APP.TRADING_REWARDS.FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER',
     FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION: 'APP.TRADING_REWARDS.FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION',

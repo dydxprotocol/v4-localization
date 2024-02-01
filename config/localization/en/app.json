@@ -1353,6 +1353,7 @@
         "SEASON_ID":"Season {SEASON_ID}",
         "TRADING_REWARD": "Trading Reward",
         "REWARD_HISTORY_DESCRIPTION": "Rewards are distributed after every block.",
+        "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Start trading to earn rewards.",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Who is eligible for trading rewards?",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "All traders are eligible for trading rewards.",
         "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "How do trading rewards work?",
