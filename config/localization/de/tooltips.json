@@ -77,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Anfangsmargin-Bruchwert",
-      "BODY": "Der Margenanteil wird berechnet, indem der Nennwert Ihrer Position durch das Kapital geteilt wird. Wenn Ihr Marginanteil die Quote der Ersteinschusszahlung überschreitet, können Sie Ihre Position nicht mehr erhöhen. Um das Risiko zu begrenzen, erhöht sich der anfängliche Margenanteil um die Quadratwurzel der Positionsgröße, geteilt durch den Basis-Positionsnominalwert, multipliziert mit dem anfänglichen Basis-Margenanteil."
+      "BODY": "Der Anfangsmargin-Bruchwert definiert den Hebelbetrag, den ein Trader beim Einstieg in eine Position zunächst verwenden kann. Der IMF wird als der Nominalwert der Position eines Traders geteilt durch das Eigenkapital berechnet. Wenn der Margin-Bruchwert eines Händlers den anfänglichen Margin-Bruchwert übersteigt, ist es einem Trader nicht mehr gestattet, seine Position zu erhöhen."
     },
     "INITIAL_STOP": {
       "TITLE": "Initialer Stop",
@@ -108,8 +108,8 @@
       "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Hinterlegter Margenanteil",
-      "BODY": "Der Margenanteil wird berechnet, indem der Nennwert Ihrer Position durch das Kapital geteilt wird. Wenn Ihr Margenanteil den hinterlegten Margenanteil überschreitet, wird Ihre Position automatisch geschlossen (liquidiert) und eine Abwicklungsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)"
+      "TITLE": "Maintenance Margin-Bruchwert",
+      "BODY": "Der Maintenance Margin-Bruchwert definiert, wann Trader liquidiert werden. Er wird als der Nominalwert der Position eines Traders geteilt durch das Eigenkapital berechnet. Wenn der Margin-Bruchwert eines Traders den Maintenance Margin-Bruchwert überschreitet, wird seine Position automatisch geschlossen (liquidiert) und die Liquidations-Engine wird versuchen, Gelder nach Möglichkeit auf Konten mit positivem Wert zu belassen, nachdem sie die maximale Liquidationsstrafe von 1,5 % bezahlt haben."
     },
     "MAKER_FEE": {
       "TITLE": "Maker-Gebühr",
@@ -155,6 +155,10 @@
       "TITLE": "Post-Only",
       "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Post-Only",
+      "BODY": "Post-Only ist nur verfügbar, wenn Time in Force auf Good Til Time festgelegt ist."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Auswirkung auf den Preis",
       "BODY": "Der Unterschied zwischen dem erwarteten Ausführungspreis für Ihre Order und der bestmöglichen Order auf der Angebots- bzw. Nachfrageseite. Dies wird sich für größere Tradingumfänge erhöhen."
@@ -166,6 +170,14 @@
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only verhindert, dass eine Order die Position wechselt (Long zu Short oder Short zu Long). Eine Order mit eingestelltem Reduce-Only wird automatisch ihre Größe anpassen und sich selbst stornieren, wenn sich Ihre Position ändert."
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only ist nur verfügbar, wenn Time in Force auf IOC oder FOK festgelegt ist."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only ist nur verfügbar, wenn Execution auf IOC oder FOK festgelegt ist."
     },
     "SPREAD": {
       "TITLE": "Spread",
@@ -259,6 +271,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "dYdX-Chain-Abwicklung",
       "BODY": "Um die Sicherheit des Protokolls zu gewährleisten, verzögern dYdX-Chain-Validatoren die Abwicklung von dYdX-Chain-DYDX."
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "Referenzpreis",
+      "BODY": "Der Referenzpreis ist der rollierende 30-Tage-Durchschnitt des Marktpreises und wird als Input verwendet, um die Marktparameter auf dYdX Chain automatisch zu berechnen. Der Referenzpreis sollte ungefähr gleich dem aktuellen Preis des Marktes sein (d. h. auf die gleichen 10-Potenzen runtergerundet)."
     }
   }
 }
