@@ -194,7 +194,7 @@
       "PERPETUALS": "Perpetuals",
       "PNL": "P&L",
       "POSITION": "Position",
-      "POWERED_BY": "Powered By",
+      "POWERED_BY": "POWERED BY",
       "PRICE_CHART_SHORT": "Price",
       "PRICE": "Price",
       "PRIVACY": "Privacy",
@@ -1349,7 +1349,6 @@
         "LAUNCH_INCENTIVES_DESCRIPTION":"Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your spot on the leaderboard.",
         "LEADERBOARD": "Leaderboard",
         "POINTS":"{POINTS} points",
-        "POWERED_BY":"POWERED BY",
         "SEASON_ID":"Season {SEASON_ID}",
         "TRADING_REWARD": "Trading Reward",
         "REWARD_HISTORY_DESCRIPTION": "Rewards are distributed after every block.",
@@ -1542,6 +1541,18 @@
       "GREEN_IS_UP": "Green is up",
       "RED_IS_UP": "Red is up",
       "SELECT_A_THEME": "Select Color Theme"
+    },
+    "GLOBAL_COMMANDS": {
+      "SET_CLASSIC_DARK_THEME": "Set Classic Dark Theme",
+      "SET_SYSTEM_THEME": "Set System Theme",
+      "SET_DARK_THEME": "Set Dark Theme",
+      "SET_LIGHT_THEME": "Set Light Theme",
+      "SET_GREEN_IS_UP": "Set Green to be Up",
+      "SET_RED_IS_UP": "Set Red to be Up",
+      "SET_DEFAULT_LAYOUT": "Set Default Layout",
+      "SET_REVERSE_LAYOUT": "Set Reverse Layout",
+      "SET_ALTERNATIVE_LAYOUT": "Set Alternative Layout",
+      "NAVIGATE_TO_MARKET": "Nagivate to Market"
     },
     "NEW_MARKET_WIDGET": {
       "ADD_A_MARKET": "Add a market",
