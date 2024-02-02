@@ -1350,6 +1350,7 @@
         "LAUNCH_INCENTIVES_DESCRIPTION":"Each season, you can earn rewards for trading on dYdX Chain. Trade to earn your spot on the leaderboard.",
         "LEADERBOARD": "Leaderboard",
         "POINTS":"{POINTS} points",
+        "POWERED_BY":"POWERED BY",
         "SEASON_ID":"Season {SEASON_ID}",
         "TRADING_REWARD": "Trading Reward",
         "REWARD_HISTORY_DESCRIPTION": "Rewards are distributed after every block.",
