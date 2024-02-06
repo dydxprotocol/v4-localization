@@ -77,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen inicial",
-      "BODY": "La fracción de margen se calcula como el valor nocional de tu posición dividido por la equidad. Si tu fracción de margen excede a la fracción de margen inicial, ya no podrás aumentar tu posición. Para limitar el riesgo, la fracción del margen inicial aumenta por la raíz cuadrada del tamaño de la posición, dividida por la posición nocional de base y multiplicada por la fracción del margen inicial de base."
+      "BODY": "La fracción de margen inicial define la cantidad de apalancamiento que un comerciante puede usar inicialmente cuando ingresa una posición. El IMF se calcula como el valor nocional de la posición de un comerciante dividido por el capital. Si la fracción de margen de un comerciante excede la fracción de margen inicial, el comerciante no podrá aumentar su posición."
     },
     "INITIAL_STOP": {
       "TITLE": "Parada inicial",
@@ -109,7 +109,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen de mantenimiento",
-      "BODY": "La fracción de margen se calcula como el valor nocional de tu posición dividido por la equidad. Si tu fracción de margen excede la fracción de margen de mantenimiento, tu posición se cerrará (liquidará) automáticamente y se aplicará una tasa de liquidación de al menos el 1% (puede ser mayor según la liquidez en el momento de la liquidación)."
+      "BODY": "La fracción de margen de mantenimiento define cuándo se liquidan los comerciantes. Se calcula como el valor nocional de la posición de un comerciante dividido por el capital. Si la fracción de margen de un comerciante supera la fracción de margen de mantenimiento, su posición se cerrará (liquidará) automáticamente y el motor de liquidación intentará dejar fondos en cuentas de valor positivo, cuando sea posible, después de que haya pagado la penalización máxima de liquidación del 1,5 %."
     },
     "MAKER_FEE": {
       "TITLE": "Tasa de creador",
@@ -155,6 +155,10 @@
       "TITLE": "Solo post",
       "BODY": "Las órdenes de \"solo post\" habilitado únicamente se pueden realizar como órdenes del creador. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Solo post",
+      "BODY": "Post-Only solo está disponible si el Tiempo en vigor está establecido en Válido hasta."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Impacto de precios",
       "BODY": "La diferencia entre el precio de ejecución previsto para su orden y la mejor orden en el lado de la oferta o la demanda. Esto aumentará para volúmenes de operación más altos."
@@ -166,6 +170,14 @@
     "REDUCE_ONLY": {
       "TITLE": "Solo reducir",
       "BODY": "Solo reducir evita que una orden cambie el lado de tu posición (largo a corto o corto a largo). Una orden con Solo reducir se redimensionará y se cancelará automáticamente a medida que cambie tu posición. "
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Solo reducir",
+      "BODY": "Reduce-Only solo está disponible si el Tiempo en vigor está establecido en IOC o FOK."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Solo reducir",
+      "BODY": "Reduce-Only solo está disponible si la ejecución está establecida en IOC o FOK."
     },
     "SPREAD": {
       "TITLE": "Propagación",
@@ -259,6 +271,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "liquidación de la cadena dYdX",
       "BODY": "Para garantizar la seguridad del protocolo, los validadores de la cadena dYdX retrasan la liquidación de la cadena dYdX DYDX."
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "Precio de referencia",
+      "BODY": "El precio de referencia es el promedio móvil de 30 días del precio de mercado y se utiliza como dato para calcular automáticamente los parámetros del mercado en la cadena dYdX. El precio de referencia debe ser aproximadamente el mismo que el precio actual del mercado (es decir, redondeado a la baja a las mismas potencias de 10)."
     }
   }
 }
