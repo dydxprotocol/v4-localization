@@ -77,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Başlangıç Marj Oranı",
-      "BODY": "Marj oranı, pozisyonunuzun kavram değeri net varlığınıza bölünerek hesaplanır. Marj oranınız başlangıç marj oranını aşıyorsa, artık pozisyonunuzu artırmanıza izin verilmez. Riski sınırlamak amacıyla, başlangıç marj oranı, pozisyon konumunun Temel Pozisyonel Fiktif Değeri ile Temel Başlangıç Marj Oranının çarpımına bölünmesinin kare kökü oranında artmaktadır."
+      "BODY": "Başlangıç Marj Oranı (BMO), bir yatırımcının bir pozisyona girerken başlangıçta kullanabileceği kaldıraç miktarını tanımlar. BMO, bir yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marj oranı başlangıç marj oranını aşıyorsa, yatırımcının artık pozisyonunu artırmasına izin verilmez."
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
@@ -108,11 +108,11 @@
       "BODY": "Borsa tahtasından likidite alan işlemler (örn. piyasa veya çakışan limit talimatları) alıcı talimatları olarak yürütülür. Talimat defterine likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Bakım Marj Oranı",
-      "BODY": "Marj oranı pozisyonunuzun kavram değerini net varlığınıza bölerek hesaplanır. Marj oranınız bakım marj oranını aşarsa, pozisyonunuz otomatik olarak kapatılır (tasfiye edilir) ve en az %1'lik bir tasfiye ücreti belirlenir (tasfiye esnasındaki likiditeye bağlı olarak daha yüksek olabilir)."
+      "TITLE": "Devam Marj Oranı",
+      "BODY": "Yatırımcıların pozisyonları tasfiye edildiğinde Devam Marj Oranı tanımlanır. Yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marj oranı devam marj oranını aşıyorsa, pozisyonu otomatik olarak kapatılacak (tasfiye edilecek) ve tasfiye motoru, %1,5'lik Maksimum Tasfiye Cezasını ödedikten sonra mümkünse fonları pozitif değerli hesaplarda bırakmaya çalışacaktır."
     },
     "MAKER_FEE": {
-      "TITLE": "Satıcı Ücreti",
+      "TITLE": "Piyasa Yapıcı Komisyonu",
       "BODY": "Borsa tahtasına likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır. Satıcı talimatları, alıcı talimatlarından daha düşük bir ücrete sahiptir."
     },
     "MARGIN_USAGE": {
@@ -155,6 +155,10 @@
       "TITLE": "Yalnızca Yerleştir",
       "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Yalnızca Yerleştir",
+      "BODY": "Yalnızca Yerleştir seçeneği, Yürürlükteki Süre ancak Geçerlilik Süresi olarak ayarlandığında kullanılabilir."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Fiyat Etkisi",
       "BODY": "Talimatınız için beklenen yürütme fiyatı ile alış veya satış teklifi tarafındaki en iyi talimat fiyatı arasındaki fark. Bu değer daha büyük alım satım boyutları için artacaktır."
@@ -167,8 +171,16 @@
       "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azalt özelliği talimatın pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Yalnızca Azalt",
+      "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Karşıla veya İptal Et (Fill-or-Kill -FOK) veya Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Yalnızca Azalt",
+      "BODY": "Yalnızca Azalt seçeneği, Yürütme ancak IOC veya FOK olarak belirlendiyse kullanılabilir."
+    },
     "SPREAD": {
-      "TITLE": "Alış - Satış Farkı",
+      "TITLE": "Alış-Satış Farkı (Spread)",
       "BODY": "Bir varlık için verilen en yüksek alış (bir alıcının satın almak için ödemek istediği fiyat) ve en düşük satış (bir satıcının satış yapmak istediği fiyat) fiyatları arasındaki farktır."
     },
     "STEP_SIZE": {
@@ -259,6 +271,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "dYdX Zincir bağlama",
       "BODY": "dYdX Zinciri doğrulayıcıları, protokolün güvenliğini sağlamak için dYdX Zinciri DYDX'in bağlanmasını geciktirir."
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "Referans Fiyatı",
+      "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
     }
   }
 }
