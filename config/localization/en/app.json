@@ -396,6 +396,10 @@
         "PRIMARY": "The DFINITY Foundation is a not for profit organization that develops the Internet Computer, a public blockchain network designed to host smart contracts.",
         "SECONDARY": "ICP is the native cryptocurrency of the platform."
       },
+      "JUP": {
+        "PRIMARY": "Jupiter is a leading DEX aggregator built on Solana",
+        "SECONDARY": "Jupiter is building the swap infrastructure of Solana. Jupiter aims to deliver the best price, best token selection, and best UX for users and developers."
+      },
       "LDO": {
         "PRIMARY": "Lido is the name of a family of open-source peer-to-system software tools deployed and functioning on the Ethereum, Solana, and Polygon blockchain networks.",
         "SECONDARY": "LDO is an ERC20 token that gives the ability to participate in the governance process of the Lido DAO."
