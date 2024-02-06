@@ -77,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge initiale",
-      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge initiale, vous ne serez plus autorisé à augmenter votre position. Pour limiter le risque, la fraction de marge initiale augmente par la racine carrée de la taille de la position divisée par la valeur notionnelle de base et multipliée par la fraction de marge initiale de base."
+      "BODY": "La fraction de marge initiale définit le montant de l'effet de levier qu'un trader peut utiliser initialement lorsqu'il prend une position. L'IMF est calculée comme la valeur notionnelle de la position d'un trader divisée par les fonds propres. Si la fraction de marge d'un opérateur dépasse la fraction de marge initiale, l'opérateur ne sera plus autorisé à augmenter sa position."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop initial",
@@ -109,7 +109,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge de maintenance",
-      "BODY": "La fraction de marge est calculée comme la valeur notionnelle de votre position divisée par le capital. Si votre fraction de marge dépasse la fraction de marge de maintenance, votre position sera automatiquement clôturée (liquidée) et des frais de liquidation d'au moins 1 % seront appliqués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+      "BODY": "La fraction de marge de maintenance définit le moment où les traders sont liquidés. Il est calculé comme la valeur notionnelle de la position d'un trader divisée par les fonds propres. Si la fraction de marge d'un trader dépasse la fraction de marge de maintien, sa position sera automatiquement clôturée (liquidée) et le moteur de liquidation tentera de laisser les fonds sur des comptes de valeur positive dans la mesure du possible après avoir payé la pénalité de liquidation maximale de 1,5 %."
     },
     "MAKER_FEE": {
       "TITLE": "Frais Maker",
@@ -155,6 +155,10 @@
       "TITLE": "Post-Only",
       "BODY": "Les ordres avec post-only activé ne peuvent être placés qu'en tant qu'ordres Maker. Si l'ordre croise d'autres ordres au moment du placement, il sera automatiquement annulé."
     },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Post-Only",
+      "BODY": "Le Post-Only n'est disponible que si le temps en vigueur est défini sur Good Til Time."
+    },
     "PRICE_IMPACT": {
       "TITLE": "Impact sur le prix",
       "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Cela augmentera pour les tailles de transactions plus importantes."
@@ -166,6 +170,14 @@
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à short, ou short à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera. "
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only n'est disponible que si le délai en vigueur est défini sur IOC ou FOK."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only n'est disponible que si l'exécution est définie sur IOC ou FOK."
     },
     "SPREAD": {
       "TITLE": "Spread",
@@ -259,6 +271,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "Règlement de la chaîne dYdX",
       "BODY": "Pour assurer la sécurité du protocole, les validateurs de la chaîne dYdX retardent le règlement de la chaîne dYdX DYDX."
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "Prix de référence",
+      "BODY": "Le prix de référence est la moyenne mobile sur 30 jours du prix du marché et est utilisé comme entrée pour estimer automatiquement les paramètres du marché sur la chaîne dYdX. Le prix de référence devrait être approximativement le même que le prix actuel du marché (c'est-à-dire arrondir aux mêmes pouvoirs de 10)."
     }
   }
 }
