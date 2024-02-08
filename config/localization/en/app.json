@@ -344,6 +344,10 @@
         "PRIMARY": "BLUR is a NFT marketplace.",
         "SECONDARY": "The BLUR token is the governance token of BLUR protocol."
       },
+      "BNB": {
+        "PRIMARY": "BNB is the currency of Binance Chain.",
+        "SECONDARY": "Binance is a unique ecosystem of decentralized, blockchain-based networks, including the Binance Chain."
+      },
       "ADA": {
         "PRIMARY": "Cardano is a proof-of-stake blockchain platform: the first to be founded on peer-reviewed research and developed through evidence-based methods. It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.",
         "SECONDARY": "With a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins – to individuals – and be an enabling force for positive change and progress."
@@ -371,6 +375,10 @@
       "DOGE": {
         "PRIMARY": "Dogecoin is an open source peer-to-peer digital currency.",
         "SECONDARY": "Forked from Litecoin, Dogecoin is a cryptocurrency based on the popular \"Doge\" Internet meme and features a Shiba Inu on its logo."
+      },
+      "DYM": {
+        "PRIMARY": "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
+        "SECONDARY": "Dymension standardizes rollups with IBC (Inter-Blockchain Communication Protocol), similar to how tokens were standardized with ERC."
       },
       "ENJ": {
         "PRIMARY": "Enjin has crafted simple products to help you manage your NFTs and cryptocurrencies—and get involved with the new, rapidly growing virtual economy.",
@@ -503,6 +511,10 @@
       "ZEC": {
         "PRIMARY": "Zcash is a digital currency - fast and confidential with low fees. ",
         "SECONDARY": "Zcash gives you the option of confidential transactions and financial privacy through shielded addresses. Zero-knowledge proofs allow transactions to be verified without revealing the sender, receiver or transaction amount. Selective disclosure features within Zcash allow a user to share some transaction details, for purposes of compliance or audit."
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain is a novel L1 that has chain-agnostic interoperability built-in.",
+        "SECONDARY": "ZetaChain is a public, decentralized blockchain and smart contract platform that enables message passing and value transfer between any blockchain."
       }
     },
     "HEADER": {
