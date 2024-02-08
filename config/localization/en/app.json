@@ -176,8 +176,8 @@
       "MAXIMUM_REWARDS": "Estimated Rewards",
       "MENU": "Menu",
       "METRICS": "Metrics",
+      "MID_CAP": "Mid-cap",
       "MIGRATE": "Migrate",
-      "MIN_CAP": "Min-cap",
       "MINE": "Mine",
       "MINIMUM_ORDER_SIZE": "Minimum Order Size",
       "MODIFY": "Modify",
@@ -1351,6 +1351,19 @@
       "TRADERS_JOINED": "Traders Joined",
       "USERS_REFERRED": "Users Referred",
       "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}"
+    },
+    "STAKING_REWARDS": {
+      "LIQUID_STAKE_ON_STRIDE": "Liquid Stake on Stride",
+      "LIQUID_STAKING_AND_LEAVING": "Liquid staking and leaving website",
+      "LIQUID_STAKE_W_STRIDE": "Liquid Stake with Stride",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "Stake your {TOKEN_DENOM} tokens for st{TOKEN_DENOM} which you can deploy around the ecosystem.",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}, navigate to Stride Zone.",
+      "STAKE_WITH_KEPLR": "Stake with Keplr",
+      "STAKING_PAGE_SUBTITLE": "Stake to earn APR. Unstaking can take up to 30 days.",
+      "STAKING_REWARDS": "Staking Rewards"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "Participate in the ecosystem by voting on Governance proposals or submitting your own."
     },
     "TRADING_REWARDS" : {
         "ABOUT": "About",
