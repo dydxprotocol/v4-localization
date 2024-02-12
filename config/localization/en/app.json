@@ -1392,7 +1392,7 @@
         "POWERED_BY":"POWERED BY",
         "SEASON_ID":"Season {SEASON_ID}",
         "TRADING_REWARD": "Trading Reward",
-        "REWARD_HISTORY_DESCRIPTION": "While trading rewards are distributed immediately after every block, history is updated every five minutes. Trading rewards history goes back until January 27, 2024.",
+        "REWARD_HISTORY_DESCRIPTION": "While trading rewards are distributed immediately after every block, history is updated every five minutes. Trading rewards history goes back until {REWARDS_HISTORY_START_DATE}.",
         "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Start trading to earn rewards.",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Who is eligible for trading rewards?",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "All traders are eligible for trading rewards.",
