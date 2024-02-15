@@ -109,6 +109,7 @@
       "DYDX_CHAIN": "dYdX 链",
       "EARNED": "已赚",
       "EDIT": "编辑",
+      "EG": "例如",
       "EMAIL": "邮箱",
       "ENDED": "已结束",
       "EQUITY": "账户净值",
@@ -144,9 +145,11 @@
       "INCREASED": "已增加",
       "INCREASING": "正在增加",
       "INITIAL_MARGIN_FRACTION": "初始杠杆分数",
+      "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "初始化",
       "KEEP_TRADING": "保持交易",
       "LANGUAGE": "语言",
+      "LARGE_CAP": "大盘股",
       "LAYER_1": "第 1 层",
       "LEARN_MORE": "了解更多",
       "LEARN_MORE_ARROW": "了解更多 →",
@@ -155,7 +158,9 @@
       "LEVERAGE": "杠杆",
       "LIVE": "实时",
       "LONG_POSITION_SHORT": "多头",
+      "LONG_TAIL": "长尾",
       "MAINTENANCE_MARGIN_FRACTION": "维持杠杆分数",
+      "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "做1笔交易",
       "MANAGE_FUNDS": "管理资金",
       "MARGIN_USAGE": "杠杆使用",
@@ -171,6 +176,7 @@
       "MAXIMUM_REWARDS": "预估奖励",
       "MENU": "菜单",
       "METRICS": "指标",
+      "MID_CAP": "中盘股",
       "MIGRATE": "迁移",
       "MINE": "我的订单",
       "MINIMUM_ORDER_SIZE": "最小订单数量",
@@ -222,6 +228,7 @@
       "REWARDS": "奖励",
       "REWARDED": "已获奖励",
       "REWARD_HISTORY": "奖励历史",
+      "SAFETY": "安全",
       "SAVE": "保存",
       "SAVED": "已保存",
       "SELECT_ASSET": "选择资产",
@@ -337,6 +344,10 @@
         "PRIMARY": "BLUR是一个NFT市场。",
         "SECONDARY": "BLUR代币是BLUR协议的治理代币。"
       },
+      "BNB": {
+        "PRIMARY": "BNB 是币安链的货币。",
+        "SECONDARY": "币安是一个由去中心化、基于区块链的网络组成的独特生态系统，包括币安链。"
+      },
       "ADA": {
         "PRIMARY": "Cardano是一个权益证明的区块链平台——首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
         "SECONDARY": "Cardano有着一流的工程师团队，其存在是为了将权力从难以理解的结构重新分配给边缘——个人——并成为积极变革和进步的推动力量。"
@@ -365,6 +376,10 @@
         "PRIMARY": "狗狗币(Dogecoin)是一种开源的点对点数字货币。",
         "SECONDARY": "狗狗币是莱特币的一个分支，是一种基于流行的\"Doge\"网络迷因的加密货币，其徽标上有一只柴犬。"
       },
+      "DYM": {
+        "PRIMARY": "Dymension 是易于部署和闪电般快速的应用程序链（称为 RollApps）的大本营。",
+        "SECONDARY": "Dymension 使用 IBC（区块链间通信协议），将汇总标准化，类似于使用 ERC 将代币标准化。"
+      },
       "ENJ": {
         "PRIMARY": "Enjin开发了简单的产品来帮助您管理NFT和加密货币，并参与到新的、快速增长的虚拟经济中。",
         "SECONDARY": "ENJ被用于注入NFT等数字资产。它可以为NFT在游戏、应用程序、市场和钱包中流通时提供支持。铸造的每一项资产都包含ENJ，赋予其真实世界的价值，并且可以通过“熔化”随时收回。"
@@ -388,6 +403,10 @@
       "ICP": {
         "PRIMARY": "DFINITY基金会是一个开发互联网计算机的非营利组织，该基金会是一个旨在托管智能合约的公共区块链网络。",
         "SECONDARY": "ICP是该平台的原生加密货币。"
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter 是建立在 Solana 之上的领先 DEX 聚合器",
+        "SECONDARY": "Jupiter 正在构建 Solana 的互换基础设施。 Jupiter 旨在为用户和开发人员提供最佳价格、最佳代币选择和最佳用户体验。"
       },
       "LDO": {
         "PRIMARY": "Lido是在以太坊、Solana和Polygon区块链网络上部署和运行的开源点对系统软件工具家族的名称。",
@@ -492,6 +511,10 @@
       "ZEC": {
         "PRIMARY": "Zcash 是一种数字货币——快速且保密，费用低。",
         "SECONDARY": "Zcash 通过屏蔽地址为您提供保密交易和财务隐私的选择。零知识证明实现了在不透露发送方、接收方或交易金额的情况下验证交易。Zcash 中的选择性披露功能允许用户出于合规或审计的目的共享一些交易详情。"
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain 是一个新颖的 L1，内置了与链无关的互操作能力。",
+        "SECONDARY": "ZetaChain 是一个公共、去中心化的区块链和智能合约平台，可在任意区块链之间传递消息和转移价值。"
       }
     },
     "HEADER": {
@@ -1341,6 +1364,22 @@
       "USERS_REFERRED": "推荐用户",
       "YOU_CAN_WIN_THESE": "您可以在我们的{LEAGUES_LINK}中赢得这些奖励"
     },
+    "STAKING_REWARDS": {
+      "LIQUID_STAKE_ON_STRIDE": "Stride 的流动性质押",
+      "LIQUID_STAKING_AND_LEAVING": "流动性质押和离开网站",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Stride Labs, Inc.（“Stride”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联；(b) 本服务由 Stride 直接向您提供，不涉及运营商；(c) 本服务及流动性质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Stride 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Stride 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Stride 之间交易或传输的任一方面承担责任。运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "LIQUID_STAKE_W_STRIDE": "Stride 的流动性质押",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "将您的 {TOKEN_DENOM}  代币质押为 st{TOKEN_DENOM}，您可以将其部署在生态系统中。",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}，导航到 Stride Zone。",
+      "STAKE_WITH_KEPLR": "Keplr 质押",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Chainapsis, Inc. （“Keplr”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联； (b) 本服务由 Keplr 直接向您提供，不涉及运营商；(c) 本服务及质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Keplr 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Keplr 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Keplr 之间交易或传输的任一方面承担责任。 运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "STAKING_AND_LEAVING": "质押和离开网站免责声明",
+      "STAKING_PAGE_SUBTITLE": "质押以赚取 APR。取消质押可能需要长达 30 天。",
+      "STAKING_REWARDS": "质押奖励"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "参与生态系统，对治理提议投票或提交您自己的提议。"
+    },
     "TRADING_REWARDS": {
         "ABOUT": "简介",
         "EVENT": "事件",
@@ -1353,7 +1392,7 @@
         "POWERED_BY":"技术支持方",
         "SEASON_ID":"第{SEASON_ID}季",
         "TRADING_REWARD": "交易奖励",
-        "REWARD_HISTORY_DESCRIPTION": "奖励在每个区块之后分配。",
+        "REWARD_HISTORY_DESCRIPTION": "交易奖励在每个区块之后立即分配，但历史记录每五分钟更新一次。 交易奖励历史记录可追溯到 2024 年 1 月 27 日。",
         "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "开始交易以赚取奖励。",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
@@ -1581,6 +1620,7 @@
       "POPULATED_DETAILS": "已填充的详情",
       "PREVIEW_MARKET_PROPOSAL": "预览市场提议",
       "PROPOSAL_DISCLAIMER": "当您提交提议时，{NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} 将从您的钱包中扣除。 除非提议被否决，否则在治理投票结束后，这些代币将返回到您的钱包。",
+      "PROPOSAL_DISCLAIMER_1": "提交提议需要{NUM_TOKENS_REQUIRED}取消质押 {NATIVE_TOKEN_DENOM}。 您的 {NATIVE_TOKEN_DENOM} 将在提议持续期间锁定。 单击 {HERE} 了解详情。",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "您的提议已成功提交链上。",
       "PROPOSE_NEW_MARKET": "提议新市场",
       "REFERENCE_PRICE": "参考价格",
