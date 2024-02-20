@@ -109,6 +109,7 @@
       "DYDX_CHAIN": "dYdX 체인",
       "EARNED": "획득",
       "EDIT": "편집",
+      "EG": "예",
       "EMAIL": "이메일",
       "ENDED": "종료",
       "EQUITY": "자본",
@@ -144,9 +145,11 @@
       "INCREASED": "증가",
       "INCREASING": "증가",
       "INITIAL_MARGIN_FRACTION": "초기 마진율",
+      "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "초기화 중",
       "KEEP_TRADING": "거래 유지",
       "LANGUAGE": "언어",
+      "LARGE_CAP": "대형 캡",
       "LAYER_1": "레이어 1",
       "LEARN_MORE": "자세히 보기",
       "LEARN_MORE_ARROW": "자세히 알아보기 →",
@@ -155,7 +158,9 @@
       "LEVERAGE": "레버리지",
       "LIVE": "라이브",
       "LONG_POSITION_SHORT": "롱",
+      "LONG_TAIL": "긴 꼬리",
       "MAINTENANCE_MARGIN_FRACTION": "유지 마진율",
+      "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "거래 1건 진행",
       "MANAGE_FUNDS": "자금 관리",
       "MARGIN_USAGE": "마진 사용량",
@@ -171,6 +176,7 @@
       "MAXIMUM_REWARDS": "6월\n",
       "MENU": "메뉴",
       "METRICS": "지표",
+      "MID_CAP": "중간 캡",
       "MIGRATE": "마이그레이션",
       "MINE": "채굴",
       "MINIMUM_ORDER_SIZE": "최소 주문 규모",
@@ -222,6 +228,7 @@
       "REWARDS": "보상",
       "REWARDED": "보상됨",
       "REWARD_HISTORY": "보상 기록",
+      "SAFETY": "안전성",
       "SAVE": "저장",
       "SAVED": "저장됨",
       "SELECT_ASSET": "자산 선택",
@@ -337,6 +344,10 @@
         "PRIMARY": "BLUR는 NFT 마켓플레이스입니다.",
         "SECONDARY": "BLUR 토큰은 BLUR 프로토콜의 거버넌스 토큰입니다."
       },
+      "BNB": {
+        "PRIMARY": "BNB는 바이낸스 체인의 통화입니다.",
+        "SECONDARY": "바이낸스는 바이낸스 체인을 포함하여 탈중앙화, 블록 체인 기반 네트워크의 유일무이한 생태계입니다."
+      },
       "ADA": {
         "PRIMARY": "카르다노는 동료 검토 연구를 통해 출시되고 증거 기반 방식으로 최초로 개발된 지분 증명 블록체인 플랫폼입니다. 카르다노는 여러 신기술을 결합하여 애플리케이션과 시스템 및 사회의 탈중앙화를 위한 뛰어난 보안성과 지속 가능성을 제공합니다.",
         "SECONDARY": "업계를 선도하는 엔지니어팀이 구축한 카르다노는 복잡한 구조에서 개인이 이익을 낼 수 있도록 권력을 재분배하며 긍정적인 변화와 진보의 원동력이 되고자 합니다."
@@ -365,6 +376,10 @@
         "PRIMARY": "도지코인은 오픈 소스 P2P 디지털 화폐입니다.",
         "SECONDARY": "라이트코인에서 포크된 도지코인은 인기 있는 '도지' 인터넷 밈에 기반한 암호화폐이며, 로고에 시바 이누가 표시되어 있습니다."
       },
+      "DYM": {
+        "PRIMARY": "Dymension은 RollApps라는 아주 빠른 앱 체인을 쉽게 배포할 수 있는 홈입니다.",
+        "SECONDARY": "Dymension은 토큰이 ERC로 표준화된 방법과 유사하게 IBC(Inter-Blockchain Communication Protocol)를 사용하여 롤업을 표준화합니다."
+      },
       "ENJ": {
         "PRIMARY": "Enjin은 NFT와 암호화폐 관리를 돕는 간단한 제품의 초안을 만들었으며, 새롭고 빠르게 성장하는 가상 경제에 참여하였습니다.",
         "SECONDARY": "ENJ는 NFT 같은 디지털 자산을 주입하기 위해 사용됩니다. ENJ는 게임, 앱, 마켓플레이스 및 지갑을 넘어 이동하면서 NFT를 제공합니다. 채굴된 모든 자산에는 ENJ가 포함되어 있으며, '용해'를 통해 언제든지 회수할 수 있는 실제 가치가 있습니다."
@@ -388,6 +403,10 @@
       "ICP": {
         "PRIMARY": "DFINITY Foundation은 스마트 계약을 호스팅하도록 설계된 공개 블록체인 네트워크인 Internet Computer를 개발하는 수익 조직이 아닙니다.",
         "SECONDARY": "ICP는 해당 플랫폼의 네이티브 암호화폐입니다."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter는 Solana에서 구축된 선도적인 DEX 애그리게이터입니다",
+        "SECONDARY": "Jupiter는 Solana의 스왑 인프라를 구축하고 있습니다. Jupiter는 사용자와 개발자를 위해 최고의 가격, 최고의 토큰 선택, 최고의 UX를 제공하는 것을 목표로 합니다."
       },
       "LDO": {
         "PRIMARY": "Lido는 이더리움, 솔라나, 폴리곤 블록체인 네트워크에 배치되고 작동하는 오픈 소스 피어-투-시스템 소프트웨어 도구 제품군의 이름입니다.",
@@ -492,6 +511,10 @@
       "ZEC": {
         "PRIMARY": "Zcash는 빠르고 비밀이 보장되며 수수료가 저렴한 디지털 화폐입니다.",
         "SECONDARY": "Zcash에는 보안 주소를 통해 기밀 거래 및 금융 프라이버시를 보장받을 수 있는 옵션이 있습니다. 영지식 증명을 사용하면 발신자, 수신자 또는 거래 금액을 공개하지 않고 거래를 확인할 수 있습니다. 사용자는 규정 준수 또는 감사를 위해 Zcash 내의 선택적 공개 기능을 통해 일부 거래 세부 정보를 공유할 수 있습니다."
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain은 체인에 구애받지 않는 상호 운용성이 내장된 새로운 L1입니다.",
+        "SECONDARY": "ZetaChain은 모든 블록 체인 간에 메시지 패싱 및 가치 전송을 가능하게하는 퍼블릭, 탈중앙화 블록 체인 및 스마트 계약 플랫폼입니다."
       }
     },
     "HEADER": {
@@ -1341,6 +1364,22 @@
       "USERS_REFERRED": "추천 사용자",
       "YOU_CAN_WIN_THESE": "귀하는 {LEAGUES_LINK}에서 우승할 수 있습니다"
     },
+    "STAKING_REWARDS": {
+      "LIQUID_STAKE_ON_STRIDE": "Stride에서 리퀴드 스테이킹",
+      "LIQUID_STAKING_AND_LEAVING": "리퀴드 스테이킹 및 웹사이트 나가기",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "아래에서 \"{CTA}\"를 선택하면 (a) 당사 웹사이트를 떠나 Stride Labs, Inc.(\"Stride\")가 제공하는 웹사이트에 가입한다는 것을 인지하고 동의하며, 해당 웹사이트는 본 웹사이트의 호스트 및 운영자(\"운영자\")와 독립적이며 관련이 없음을 인지하는 것입니다. (b) 이 서비스는 Stride가 귀하에게 직접 제공하며, 운영자와 관련이 없음을 인지하고 동의합니다. (c) 이 서비스와 모든 리퀴드 스테이킹은 운영자의 웹사이트 외부에서 발생하며, (d) 귀하와 Stride 간에 모든 거래 또는 가치 전송이 직접 발생함을 인지하고 이에 동의하는 것입니다. 이 서비스는 미국, 캐나다 또는 제한 지역에 위치한 사람들에게는 제공되지 않습니다. 또한 귀하는 Stride가 귀하에게 요청한 정보가 운영자에게 제공되지 않으며, 귀하와 Stride 간의 거래 또는 전송에 대해 운영자에게 책임을 지지 않는다는 것에 동의합니다. 운영자의 웹사이트에서 어느 것도 금융 조언, 법률 조언, 세금 조언, 투자 조언 또는 기타 성격의 조언으로 해석되는 것을 구성하거나 이렇게 이해되거나 의존해서는 안 되며, 앞서 언급한 것과 관련된 금융, 세금, 법률 또는 투자 조치를 취하기 전에 독립적인 연구를 수행하고, 실사를 수행하고, 전문 자문가를 고용할 책임이 있다는 것에 동의합니다.",
+      "LIQUID_STAKE_W_STRIDE": "Stride와 리퀴드 스테이킹",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "생태계 주변에 배포할 수 있는 st{TOKEN_DENOM}에 대한 {TOKEN_DENOM} 토큰을 스테이킹하세요.",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}, Stride Zone으로  이동합니다.",
+      "STAKE_WITH_KEPLR": "Keplr와 스테이킹",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "아래에서 \"{CTA}\"를 선택하면 (a) 당사 웹사이트를 떠나 Chainapsis, Inc.(\"Keplr\")가 제공하는 웹사이트에 가입한다는 것을 인지하고 동의하며, 해당 웹사이트는 본 웹사이트의 호스트 및 운영자(\"운영자\")와 독립적이며 관련이 없음을 인지하는 것입니다. (b) 이 서비스는 Keplr가 귀하에게 직접 제공하며, 운영자와 관련이 없음을 인지하고 동의합니다. (c) 이 서비스와 모든 리퀴드 스테이킹은 운영자의 웹사이트 외부에서 발생하며, (d) 귀하와 Keplr 간에 모든 거래 또는 가치 전송이 직접 발생함을 인지하고 이에 동의하는 것입니다. 이 서비스는 미국, 캐나다 또는 제한 지역에 위치한 사람들에게는 제공되지 않습니다. 또한 귀하는 Keplr가 귀하에게 요청한 정보가 운영자에게 제공되지 않으며, 귀하와 Keplr 간의 거래 또는 전송에 대해 운영자에게 책임을 지지 않는다는 것에 동의합니다. 운영자의 웹사이트에서 어느 것도 금융 조언, 법률 조언, 세금 조언, 투자 조언 또는 기타 성격의 조언으로 해석되는 것을 구성하거나 이렇게 이해되거나 의존해서는 안 되며, 앞서 언급한 것과 관련된 금융, 세금, 법률 또는 투자 조치를 취하기 전에 독립적인 연구를 수행하고, 실사를 수행하고, 전문 자문가를 고용할 책임이 있다는 것에 동의합니다.",
+      "STAKING_AND_LEAVING": "스테이킹 및 웹사이트 나가기 면책 조항",
+      "STAKING_PAGE_SUBTITLE": "스테이킹하고 APR을 얻으세요. 언스테이킹은 최대 30일이 걸릴 수 있습니다.",
+      "STAKING_REWARDS": "스테이킹 보상"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "거버넌스 제안에 투표하거나 자신의 제안을 제출하여 생태계에 참여하세요."
+    },
     "TRADING_REWARDS": {
         "ABOUT": "소개",
         "EVENT": "이벤트",
@@ -1353,7 +1392,7 @@
         "POWERED_BY":"POWERED BY",
         "SEASON_ID":"{SEASON_ID} 시즌",
         "TRADING_REWARD": "거래 보상",
-        "REWARD_HISTORY_DESCRIPTION": "보상은 각 블록 이후에 분배됩니다.",
+        "REWARD_HISTORY_DESCRIPTION": "거래 보상은 매 블록 직후 분배되지만, 기록은 5분마다 업데이트됩니다. 거래 보상 기록이 2024년 1월 27일까지 되돌아옵니다.",
         "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "거래를 시작하여 보상을 획득하세요.",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "거래 보상을 받을 수 있는 자격은 무엇입니까?",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "모든 트레이더는 거래 보상을 받을 수 있습니다.",
@@ -1581,6 +1620,7 @@
       "POPULATED_DETAILS": "채워진 세부 정보",
       "PREVIEW_MARKET_PROPOSAL": "시장 제안 미리보기",
       "PROPOSAL_DISCLAIMER": "제안을 제출하면 지갑에서 {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM}이(가) 공제됩니다. 거버넌스 투표가 완료되면 이러한 토큰은 제안이 거부되는 경우를 제외하고 지갑으로 반환됩니다.",
+      "PROPOSAL_DISCLAIMER_1": "제안을 제출하려면 스테이킹되지 않은 {NATIVE_TOKEN_DENOM}이 {NUM_TOKENS_REQUIRED} 필요합니다. 제안 기간 동안 귀하의 {NATIVE_TOKEN_DENOM}이(가) 잠깁니다. 자세한 내용을 보려면 {HERE}을(를) 클릭하십시오.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "제안이 onchain에 성공적으로 제출되었습니다.",
       "PROPOSE_NEW_MARKET": "새로운 시장 제안",
       "REFERENCE_PRICE": "참조 가격",
