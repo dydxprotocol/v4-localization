@@ -12,6 +12,10 @@
       "TITLE": "Position Settled",
       "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
+      "BODY": "In season {PREV_SEASON_NUMBER}, most traders earned at least {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
+    },
     "OFFSETTING": {
       "TITLE": "Position Offsetting",
       "BODY": "Your {SIDE} position on {MARKET} was used to offset a deleveraged position."
