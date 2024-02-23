@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} hours",
         "X_MINUTES_LOWERCASED": "{X} minutes",
         "X_MINUTES": "{X} Minutes",
-        "X_SECONDS_LOWERCASED": "{X} seconds"
+        "X_SECONDS_LOWERCASED": "{X} seconds",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "About",
       "ACADEMY": "Academy",
