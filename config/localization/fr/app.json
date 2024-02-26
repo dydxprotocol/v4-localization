@@ -109,6 +109,7 @@
       "DYDX_CHAIN": " Chaine dYdX",
       "EARNED": "Gagné",
       "EDIT": "Modifier",
+      "EG": "Par ex.",
       "EMAIL": "E-mail",
       "ENDED": "Terminé",
       "EQUITY": "Capital",
@@ -144,9 +145,11 @@
       "INCREASED": "augmenté",
       "INCREASING": "Croissant",
       "INITIAL_MARGIN_FRACTION": "Fraction de marge initiale",
+      "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Initialisation",
       "KEEP_TRADING": "Continuer le trading",
       "LANGUAGE": "Langue",
+      "LARGE_CAP": "Grande capitalisation",
       "LAYER_1": "Layer 1",
       "LEARN_MORE": "En savoir plus",
       "LEARN_MORE_ARROW": "En savoir plus →",
@@ -155,7 +158,9 @@
       "LEVERAGE": "Effet de levier",
       "LIVE": "Live",
       "LONG_POSITION_SHORT": "Long",
+      "LONG_TAIL": "Durée indéterminée ",
       "MAINTENANCE_MARGIN_FRACTION": "Fraction de marge de maintenance",
+      "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "Créer 1 transaction",
       "MANAGE_FUNDS": "Gérer les fonds",
       "MARGIN_USAGE": "Utilisation de la marge",
@@ -171,6 +176,7 @@
       "MAXIMUM_REWARDS": "Récompenses estimées",
       "MENU": "Menu",
       "METRICS": "Métriques",
+      "MID_CAP": "Capitalisation moyenne",
       "MIGRATE": "Migrer",
       "MINE": "Miner",
       "MINIMUM_ORDER_SIZE": "Taille de l'ordre minimum",
@@ -222,6 +228,7 @@
       "REWARDS": "Récompenses",
       "REWARDED": "Récompensé",
       "REWARD_HISTORY": "Historique des récompenses",
+      "SAFETY": "Sécurité",
       "SAVE": "Sauvegarder",
       "SAVED": "Sauvegardé",
       "SELECT_ASSET": "Sélectionner un actif",
@@ -337,6 +344,10 @@
         "PRIMARY": "BLUR est un marché NFT.",
         "SECONDARY": "Le jeton BLUR est le jeton de gouvernance du protocole BLUR."
       },
+      "BNB": {
+        "PRIMARY": "BNB est la monnaie de la chaîne Binance.",
+        "SECONDARY": "Binance est un écosystème unique de réseaux décentralisés basés sur la blockchain, y compris la chaîne Binance."
+      },
       "ADA": {
         "PRIMARY": "Cardano est une plate-forme blockchain de preuve d'enjeu : la première à être fondée sur des recherches évaluées par des pairs et développée à l'aide de méthodes fondées sur des preuves. Elle combine des technologies pionnières pour fournir une sécurité et une durabilité inégalées aux applications, systèmes et sociétés décentralisés.",
         "SECONDARY": "Avec une équipe d'ingénieurs de premier plan, Cardano existe pour redistribuer le pouvoir des structures non responsables aux marges - aux individus - et être une force motrice pour le changement positif et le progrès."
@@ -365,6 +376,10 @@
         "PRIMARY": "Dogecoin est une monnaie numérique pair-à-pair open source.",
         "SECONDARY": "Lancé par Litecoin, Dogecoin est une crypto-monnaie basée sur le même Internet populaire « Doge » et présente un Shiba Inu sur son logo."
       },
+      "DYM": {
+        "PRIMARY": "Dymension est un centre pour les chaînes d'applications facilement déployables et rapides comme l'éclair, appelées RollApps.",
+        "SECONDARY": "Dymension standardise les rollups avec IBC (Inter-Blockchain Communication Protocol), de manière similaire à la façon dont les jetons ont été standardisés avec "
+      },
       "ENJ": {
         "PRIMARY": "Enjin a conçu des produits simples pour vous aider à gérer vos NFT et vos crypto-monnaies et à vous impliquer dans la nouvelle économie virtuelle en croissance rapide.",
         "SECONDARY": "ENJ est utilisé pour infuser des actifs numériques tels que les NFT. Il alimente les NFT lorsqu'ils se déplacent entre les jeux, les applications, les marchés et les portefeuilles. Chaque actif miné contient ENJ, ce qui lui confère une valeur réelle qui peut être récupérée à tout moment grâce à la « fusion »."
@@ -388,6 +403,10 @@
       "ICP": {
         "PRIMARY": "La Fondation DFINITY est une organisation à but non lucratif qui développe Internet Computer, un réseau de blockchain public conçu pour héberger des contrats intelligents.",
         "SECONDARY": "ICP est la crypto-monnaie native de la plate-forme."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter est un agrégateur principal DEX basé sur Solana",
+        "SECONDARY": "Jupiter construit l'infrastructure de swap de Solana. Jupiter vise à proposerr le meilleur prix, la meilleure sélection de jetons et la meilleure UX pour les utilisateurs et les développeurs."
       },
       "LDO": {
         "PRIMARY": "Lido est le nom d’une famille d’outils logiciels open-source peer-to-system déployés et fonctionnant sur les réseaux blockchain Ethereum, Solana et Polygon.",
@@ -492,6 +511,10 @@
       "ZEC": {
         "PRIMARY": "Zcash est une monnaie numérique - rapide et confidentielle avec des frais peu élevés.",
         "SECONDARY": "Zcash vous offre la possibilité de transactions confidentielles et de confidentialité financière via des adresses protégées. Les preuves sans communication d'information permettent de vérifier les transactions sans révéler l'expéditeur, le destinataire ou le montant de la transaction. Les fonctionnalités de divulgation sélective de Zcash permettent à un utilisateur de partager certains détails de transaction, à des fins de conformité ou d'audit."
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain est un L1 novateur qui a une interopérabilité de chaîne indépendante intégrée.",
+        "SECONDARY": "ZetaChain est une blockchain publique et décentralisée et une plateforme de contrat intelligente qui permet le passage des messages et le transfert de valeur entre toute blockchain."
       }
     },
     "HEADER": {
@@ -1341,6 +1364,22 @@
       "USERS_REFERRED": "Utilisateurs référés",
       "YOU_CAN_WIN_THESE": "Vous pouvez les gagner dans notre {LEAGUES_LINK}"
     },
+    "STAKING_REWARDS": {
+      "LIQUID_STAKE_ON_STRIDE": "Liquid Stake sur Stride",
+      "LIQUID_STAKING_AND_LEAVING": "Liquid staking et quitter le site Web",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "En sélectionnant «  {CTA}» ci-dessous, vous acceptez que (a) vous quittez notre site Web et que vous rejoigniez un site Web mis à disposition par Stride Labs, Inc. ( « Stride » ), qui est indépendant de l'hôte et de l'opérateur de ce site Web et qui n'est pas affilié à celui-ci (l' « Opérateur » ) ; (b) ce service vous est fourni directement par Stride et n'implique pas l'Opérateur ; (c) ce service et tout liquid staking ont lieu en dehors du site Web de l'Opérateur ; et (d) toute transaction ou transmission de valeur aura lieu directement entre vous et Stride. Ce service n'est pas disponible aux personnes situées aux États-Unis, au Canada ou dans les territoires restreints. Vous acceptez également que toutes les informations qui vous sont demandées par Stride ne sont pas fournies à l'Opérateur et que vous ne tiendrez pas l'Opérateur responsable de tout aspect de toute transaction ou transmission entre vous et Stride. Aucun élément sur le site Web de l'Opérateur ne doit être interprété ou invoqué comme un avis financier, un avis juridique, un avis fiscal, un avis d'investissement ou un avis de toute autre nature, et vous acceptez que vous êtes responsable de mener des recherches indépendantes, d'effectuer des diligences raisonnables et d'engager un expert professionnel avant de prendre toute action financière, fiscale, juridique ou d'investissement liée à l'une de ce qui précède.",
+      "LIQUID_STAKE_W_STRIDE": "Liquid Stake avec Stride",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "Échangez vos {TOKEN_DENOM}jetons {TOKEN_DENOM}que vous pouvez déployer dans l'écosystème.",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}, naviguer vers Stride Zone.",
+      "STAKE_WITH_KEPLR": "Stake avec Keplr",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "En sélectionnant «  » ci-dessous, vous acceptez que (a) vous quittez notre site Web et que vous rejoigniez un site Web mis à disposition par Chainpsis, Inc. ( « Kelpr {CTA}» ), qui est indépendant de l'hôte et de l'opérateur de ce site Web et qui n'est pas affilié à celui-ci (l' « Opérateur » ) ; (b) ce service vous est fourni directement par Kelpr et n'implique pas l'Opérateur ; (c) ce service et tout liquid staking ont lieu en dehors du site Web de l'Opérateur ; et (d) toute transaction ou transmission de valeur aura lieu directement entre vous et Kelpr. Ce service n'est pas disponible aux personnes situées aux États-Unis, au Canada ou dans les territoires restreints. Vous acceptez également que toutes les informations qui vous sont demandées par Keplr ne sont pas fournies à l'Opérateur et que vous ne tiendrez pas l'Opérateur responsable de tout aspect de toute transaction ou transmission entre vous et Keplr. Aucun élément sur le site Web de l'Opérateur ne doit être interprété ou invoqué comme un avis financier, un avis juridique, un avis fiscal, un avis d'investissement ou un avis de toute autre nature, et vous acceptez que vous êtes responsable de mener des recherches indépendantes, d'effectuer des diligences raisonnables et d'engager un expert professionnel avant de prendre toute action financière, fiscale, juridique ou d'investissement liée à l'une de ce qui précède.",
+      "STAKING_AND_LEAVING": "Clause de non-responsabilité du site Web",
+      "STAKING_PAGE_SUBTITLE": "Misez pour gagner des récompenses Unstaking peut prendre jusqu'à 30 jours.",
+      "STAKING_REWARDS": "Misez vos récompenses"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "Participer à l'écosystème en votant sur les propositions de gouvernance ou en soumettant les vôtres."
+    },
     "TRADING_REWARDS": {
         "ABOUT": "À propos",
         "EVENT": "Événement",
@@ -1353,7 +1392,7 @@
         "POWERED_BY":"ALIMENTÉ PAR",
         "SEASON_ID":"Saison {SEASON_ID}",
         "TRADING_REWARD": "Récompense de trading",
-        "REWARD_HISTORY_DESCRIPTION": "Les récompenses sont distribuées après chaque bloc.",
+        "REWARD_HISTORY_DESCRIPTION": "Bien que les récompenses de trading soient distribuées immédiatement après chaque bloc, l'historique est mis à jour toutes les cinq minutes. L'historique des récompenses de trading remonte au",
         "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Commencez à échanger pour gagner des récompenses.",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Qui est admissible aux récompenses de trading ?",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tous les traders peuvent prétendre à des récompenses de trading.",
@@ -1581,6 +1620,7 @@
       "POPULATED_DETAILS": "Détails de la population",
       "PREVIEW_MARKET_PROPOSAL": "Aperçu de la proposition de marché",
       "PROPOSAL_DISCLAIMER": "Lorsque vous soumettez une proposition, elle {NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}sera déduite de votre portefeuille. Une fois le vote de gouvernance terminé, ces jetons seront remis dans votre portefeuille, sauf si la proposition fait l'objet d'un veto.",
+      "PROPOSAL_DISCLAIMER_1": "La soumission d'une proposition nécessite  {NUM_TOKENS_REQUIRED}unstaked {NATIVE_TOKEN_DENOM}. Votre compte {NATIVE_TOKEN_DENOM}sera verrouillé pour la durée de la proposition. Cliquez ici {HERE}pour plus de détails.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Votre proposition a été soumise avec succès sur la chaîne.",
       "PROPOSE_NEW_MARKET": "Proposer un nouveau marché",
       "REFERENCE_PRICE": "Prix de référence",
