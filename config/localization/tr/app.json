@@ -109,6 +109,7 @@
       "DYDX_CHAIN": "dYdX Zinciri",
       "EARNED": "Kazanılan",
       "EDIT": "Düzenle",
+      "EG": "örn.",
       "EMAIL": "E-posta",
       "ENDED": "Sonuçlandı",
       "EQUITY": "Net Varlık",
@@ -144,9 +145,11 @@
       "INCREASED": "artmış",
       "INCREASING": "Artan",
       "INITIAL_MARGIN_FRACTION": "Başlangıç Marj Oranı",
+      "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Başlatılıyor",
       "KEEP_TRADING": "İşlem yapmaya devam et",
       "LANGUAGE": "Dil",
+      "LARGE_CAP": "Büyük sermayeli",
       "LAYER_1": "1.Katman",
       "LEARN_MORE": "Daha fazla bilgi",
       "LEARN_MORE_ARROW": "Daha fazla bilgi →",
@@ -155,7 +158,9 @@
       "LEVERAGE": "Kaldıraç",
       "LIVE": "Canlı",
       "LONG_POSITION_SHORT": "Uzun",
+      "LONG_TAIL": "Uzun kuyruklular",
       "MAINTENANCE_MARGIN_FRACTION": "Devam Marj Oranı",
+      "MAINTENANCE_MARGIN_FRACTION_SHORT": "DMO",
       "MAKE_ONE_TRADE": "1 işlem yap",
       "MANAGE_FUNDS": "Fonlarınızı yönetin",
       "MARGIN_USAGE": "Marjin Kullanımı",
@@ -171,6 +176,7 @@
       "MAXIMUM_REWARDS": "Tahmin Edilen Ödüller",
       "MENU": "Menü",
       "METRICS": "Ölçütler",
+      "MID_CAP": "Orta sermayeli",
       "MIGRATE": "Geçiş",
       "MINE": "Mine",
       "MINIMUM_ORDER_SIZE": "Minimum Talimat Büyüklüğü",
@@ -222,6 +228,7 @@
       "REWARDS": "Ödüller",
       "REWARDED": "Verilen ödüller",
       "REWARD_HISTORY": "Ödül Geçmişi",
+      "SAFETY": "Güvenlik",
       "SAVE": "Kaydet",
       "SAVED": "Kaydedildi",
       "SELECT_ASSET": "Bir varlık seçin",
@@ -337,6 +344,10 @@
         "PRIMARY": "BLUR bir NFT pazaryeridir.",
         "SECONDARY": "BLUR token, BLUR protokolünün yönetişim tokenidir."
       },
+      "BNB": {
+        "PRIMARY": "BNB, Binance Chain'in para birimidir.",
+        "SECONDARY": "Binance, Binance Chain'i de içeren merkezsiz, blok zincir tabanlı ağlardan oluşan benzersiz bir ekosistemdir."
+      },
       "ADA": {
         "PRIMARY": "Cardano, hisse kanıtı temelli bir blok zinciri platformudur: Emsal denetimli araştırmalar üzerine kurulan ve kanıta dayalı metotlar yoluyla geliştirilen ilk örnektir. Merkezî olmayan uygulamalara, sistemlere ve topluluklara benzersiz güvenlik ve sürdürülebilirlik sağlamak için öncü teknolojileri bir araya getirir.",
         "SECONDARY": "Cardano'nun varoluş amacı, önde gelen mühendislerden oluşan ekibiyle, gücü sorumsuz yapılardan uçlara, yani bireylere yeniden dağıtmak ve olumlu değişim ile ilerleme için destekleyici bir güç olmaktır."
@@ -365,6 +376,10 @@
         "PRIMARY": "Dogecoin, eşler arası açık kaynaklı dijital bir para birimidir.",
         "SECONDARY": "Litecoin'den çatallanarak oluşturulan Dogecoin, popüler \"Doge\" İnternet geyiğine dayanan ve logosunda Shiba Inu olan bir kripto paradır."
       },
+      "DYM": {
+        "PRIMARY": "Dymension, RollApps olarak adlandırılan kolayca dağıtılabilir ve ışık hızında uygulama zincirleri için bir yuvadır.",
+        "SECONDARY": "Dymension, token'ların ERC ile standartlaştırılmasına benzer şekilde IBC (Blok Zincirler Arası İletişim Protokolü) ile rollup'ları standartlaştırır."
+      },
       "ENJ": {
         "PRIMARY": "Enjin, NFT'leriniz ile kripto paralarınızı yönetmenize ve yeni, hızla büyüyen sanal ekonomiye dahil olmanıza yardımcı olmak için basit ürünler geliştirdi.",
         "SECONDARY": "ENJ, NFT'ler gibi dijital varlıkları desteklemek için kullanılır. Oyunlar, uygulamalar, pazarlar ve cüzdanlar arasında el değiştirirken NFT'leri güçlendirir. Mint'lenmiş (üretilmiş) her varlık ENJ içerir ve \"melting\" (eritme) adı verilen bir işlemle herhangi bir zamanda elde edilebilecek gerçek dünya değeri sağlar."
@@ -388,6 +403,10 @@
       "ICP": {
         "PRIMARY": "DFINITY Vakfı kâr amacı gütmeyen bir kuruluş olup, akıllı sözleşmeler barındırmak için tasarlanmış bir halka açık blok zincir ağı olan Internet Computer'ı geliştirmektedir.",
         "SECONDARY": "ICP, platformun native kripto para birimidir."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter, Solana üzerinde inşa edilmiş önde gelen bir DEX birleştiricisidir",
+        "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
       },
       "LDO": {
         "PRIMARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır.",
@@ -492,6 +511,10 @@
       "ZEC": {
         "PRIMARY": "Zcash düşük ücretlerle hızlı ve gizli işlem sunan dijital bir para birimidir.",
         "SECONDARY": "Zcash, size korunmuş adresler aracılığıyla gizli işlemler ve finansal gizlilik seçeneği sunar. Sıfır bilgi kanıtları gönderici, alıcı veya işlem miktarı bilgilerini açığa çıkarmadan işlemlerin doğrulanmasına olanak tanır. Zcash içindeki seçmeli açıklama özellikleri, kullanıcının uyum veya denetim amaçlarına uygun bir şekilde bazı işlem ayrıntılarını paylaşmalarına olanak tanır."
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain, zincirden bağımsız bir şekilde birlikte çalışabilirliğe sahip yeni bir Katman 1 zincirdir.",
+        "SECONDARY": "ZetaChain, herhangi iki blok zinciri arasında mesaj geçişi ve değer aktarımı sağlayan halka açık, merkezi olmayan bir blok zinciri ve akıllı sözleşme platformudur."
       }
     },
     "HEADER": {
@@ -1341,6 +1364,22 @@
       "USERS_REFERRED": "Referans Verilen Kullanıcılar",
       "YOU_CAN_WIN_THESE": "{LEAGUES_LINK} üzerinden bunları kazanabilirsiniz"
     },
+    "STAKING_REWARDS": {
+      "LIQUID_STAKE_ON_STRIDE": "Stride Üzerinde Likit Stake",
+      "LIQUID_STAKING_AND_LEAVING": "Likit stake yapılıyor ve web sitesinden ayrılıyor",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Stride Labs, Inc. (\"Stride\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetin size doğrudan Stride tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetin ve herhangi bir likit stake işleminin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Stride arasında gerçekleşeceğini onaylar ve kabul edersiniz. Bu hizmet ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Stride tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Stride arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
+      "LIQUID_STAKE_W_STRIDE": "Stride ile Likit Stake",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "{TOKEN_DENOM} tokenlarınızı ekosistemde dağıtabileceğiniz st{TOKEN_DENOM} için stake edin.",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}, Stride Zone'a gidin.",
+      "STAKE_WITH_KEPLR": "Keplr ile Stake",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Chainapsis, Inc. (\"Keplr\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetin size doğrudan Keplr tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetin ve herhangi bir likit stake işleminin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Keplr arasında gerçekleşeceğini onaylar ve kabul edersiniz. Bu hizmet ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Keplr tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Keplr arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
+      "STAKING_AND_LEAVING": "Stake etme ve web sitesinden ayrılma feragat bildirimi",
+      "STAKING_PAGE_SUBTITLE": "APR kazanmak için stake edin. Stake'den çıkarma 30 güne kadar sürebilir.",
+      "STAKING_REWARDS": "Staking Ödülleri"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "Yönetişim tekliflerini oylayarak veya kendi teklifinizi sunarak ekosisteme katılın."
+    },
     "TRADING_REWARDS": {
         "ABOUT": "Hakkında",
         "EVENT": "Etkinlik",
@@ -1353,7 +1392,7 @@
         "POWERED_BY":"TARAFINDAN DESTEKLENMEKTEDİR:",
         "SEASON_ID":"{SEASON_ID}. sezon",
         "TRADING_REWARD": "Alım Satım Ödülü",
-        "REWARD_HISTORY_DESCRIPTION": "Ödüller her bloktan sonra dağıtılır.",
+        "REWARD_HISTORY_DESCRIPTION": "Alım satım ödülleri her bloktan hemen sonra dağıtılırken, geçmiş her beş dakikada bir güncellenir. Alım satım ödülleri geçmişi 27 Ocak 2024 tarihine kadar uzanır.",
         "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Ödül kazanmak için alım satım yapmaya başlayın.",
         "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
         "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tüm yatırımcılar alım satım ödülleri için uygundur.",
@@ -1581,6 +1620,7 @@
       "POPULATED_DETAILS": "Doldurulan ayrıntılar",
       "PREVIEW_MARKET_PROPOSAL": "Piyasa teklifini önizleyin",
       "PROPOSAL_DISCLAIMER": "Bir teklif gönderdiğinizde, cüzdanınızdan {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} düşülecektir. Yönetişim oylaması sonuçlandıktan sonra, teklifin veto edilmesi durumu dışında, bu token'lar cüzdanınıza iade edilecektir.",
+      "PROPOSAL_DISCLAIMER_1": "Bir teklif göndermek için {NUM_TOKENS_REQUIRED} adet stake edilmemiş {NATIVE_TOKEN_DENOM} gereklidir. Teklifin süresi boyunca {NATIVE_TOKEN_DENOM} token'ınız kilitlenecektir. Daha fazla bilgi için {HERE} tıklayın.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Teklifiniz zincir üzerinde başarıyla gönderildi.",
       "PROPOSE_NEW_MARKET": "Yeni piyasa önerin",
       "REFERENCE_PRICE": "Referans fiyatı",
