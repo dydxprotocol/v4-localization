@@ -12,6 +12,10 @@
       "TITLE": "포지션 정산됨",
       "BODY": "{MARKET}이(가) 닫혔습니다. {MARKET}의 {SIDE} 포지션이 최종 정산되었습니다."
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "시즌 {SEASON_NUMBER} 출시 인센티브 프로그램이 시작되었습니다!",
+      "BODY": "{PREV_SEASON_NUMBER} 시즌에서는 대부분의 트레이더는 최소한 {DYDX_AMOUNT} DYDX(~{USDC_AMOUNT} USDC)를 획득했습니다!"
+    },
     "OFFSETTING": {
       "TITLE": "포지션 오프셋",
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감된 포지션을 상쇄하는 데 사용되었습니다."
