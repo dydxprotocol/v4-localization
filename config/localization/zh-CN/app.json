@@ -105,6 +105,7 @@
       "DISCOUNT": "折扣",
       "DISMISS": "撤销",
       "DONE": "已完成",
+      "DOWNLOAD_MOBILE_APP": "下载移动应用程序",
       "DYDX_CHAIN_ADDRESS": "dYdX 链地址",
       "DYDX_CHAIN": "dYdX 链",
       "EARNED": "已赚",
@@ -231,6 +232,7 @@
       "SAFETY": "安全",
       "SAVE": "保存",
       "SAVED": "已保存",
+      "SCAN_TO_DOWNLOAD": "扫描以下载应用程序",
       "SELECT_ASSET": "选择资产",
       "SELECT_CHAIN": "选择一条链",
       "SELL": "卖出",
@@ -312,6 +314,14 @@
         "PRIMARY": "Aaveは、資産を入金して金利を獲得したり、借り入れるためのオープンソースプロトコルであり、カストディ機能はありません。",
         "SECONDARY": "Aaveは分散型の流動性市場プロトコルであり、ユーザーは入金者や借り手として参加できます。カストディ機能はありません。存款人为市场提供流动性，从而赚取被动收入，而借款人则可以通过超额抵押（永久性）或抵押不足（单一区块流动性）的方式借款。"
       },
+      "ADA": {
+        "PRIMARY": "Cardano是一个权益证明的区块链平台——首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
+        "SECONDARY": "Cardano有着一流的工程师团队，其存在是为了将权力从难以理解的结构重新分配给边缘——个人——并成为积极变革和进步的推动力量。"
+      },
+      "AGIX": {
+        "PRIMARY": "SingularityNET是一个在区块链上运行的去中心化人工智能市场。",
+        "SECONDARY": "SingularityNET是一个由区块链驱动的平台，借助其全球可访问的人工智能市场，任何人都能以轻松地创建、共享人工智能服务并从中获利。"
+      },
       "ALGO": {
         "PRIMARY": "Algorand消除了多年来影响主流区块链采用的技术障碍：去中心化、规模以及安全。",
         "SECONDARY": "Algorand采用无权限、纯股权证明的共识机制，确保在一个真正去中心化网络中的充分参与、保护和速度。此外，Algorand是第一个提供即时交易最终结果的区块链，其吞吐量高达1,000次\/秒。"
@@ -348,10 +358,10 @@
         "PRIMARY": "BNB 是币安链的货币。",
         "SECONDARY": "币安是一个由去中心化、基于区块链的网络组成的独特生态系统，包括币安链。"
       },
-      "ADA": {
-        "PRIMARY": "Cardano是一个权益证明的区块链平台——首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
-        "SECONDARY": "Cardano有着一流的工程师团队，其存在是为了将权力从难以理解的结构重新分配给边缘——个人——并成为积极变革和进步的推动力量。"
-      },
+      "CHZ": {
+        "PRIMARY": "CHZ是Chiliz体育娱乐生态系统的原生数字代币。",
+        "SECONDARY": "Chiliz链是吸引团队、球迷和开发人员的体育运动基础设施，用以构建将粉丝和品牌凝聚在一起的Web3产品和体验。"
+      }, 
       "CELO": {
         "PRIMARY": "Celo是一个权益证明的区块链，可提供完全的以太坊虚拟机兼容性。",
         "SECONDARY": "CELO还为用户提供了原生和非原生稳定币、超轻量移动客户端以及使用多种货币支付gas的访问权限。"
@@ -376,6 +386,10 @@
         "PRIMARY": "狗狗币(Dogecoin)是一种开源的点对点数字货币。",
         "SECONDARY": "狗狗币是莱特币的一个分支，是一种基于流行的\"Doge\"网络迷因的加密货币，其徽标上有一只柴犬。"
       },
+      "DOT": {
+        "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot为互联网带来便利，独立的区块链可在其中通过Polkadot中继链以无需信任的方式交换信息和进行交易。",
+        "SECONDARY": "Polkadot使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好的解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
+      },
       "DYM": {
         "PRIMARY": "Dymension 是易于部署和闪电般快速的应用程序链（称为 RollApps）的大本营。",
         "SECONDARY": "Dymension 使用 IBC（区块链间通信协议），将汇总标准化，类似于使用 ERC 将代币标准化。"
@@ -384,6 +398,10 @@
         "PRIMARY": "Enjin开发了简单的产品来帮助您管理NFT和加密货币，并参与到新的、快速增长的虚拟经济中。",
         "SECONDARY": "ENJ被用于注入NFT等数字资产。它可以为NFT在游戏、应用程序、市场和钱包中流通时提供支持。铸造的每一项资产都包含ENJ，赋予其真实世界的价值，并且可以通过“熔化”随时收回。"
       },
+      "ENS": {
+        "PRIMARY": "ENS是最广泛集成的区块链命名标准。",
+        "SECONDARY": "以太坊名称服务是一个基于以太坊区块链的分布式、开放和可扩展的命名系统。"
+      }, 
       "EOS": {
         "PRIMARY": "EOSIO是一个高性能的开源区块链平台，旨在支持和运营安全、合规和可预测的数字基础设施。",
         "SECONDARY": "区块链创新和性能的开源平台——世界各地的企业和开发者使用EOSIO创建安全、透明和确定性的数字基础设施。"
@@ -396,25 +414,81 @@
         "PRIMARY": "以太坊是一个用于分散式应用程序的全球性开源平台。",
         "SECONDARY": "以太坊是2014年成立的去中心化区块链平台。イーサリアムは、一個人が所有または運用していないオープンソースプロジェクトです。这意味着任何地方的任何人都可以下载软件并开始与网络进行交互。以太坊允许开发者创造和操作“智能合约”，这是任何去中心化应用的基础核心要素之一。"
       },
+      "FET": {
+        "PRIMARY": "FET是Fetch.ai区块链的原生代币。",
+        "SECONDARY": "Fetch.AI是一个人工智能(AI)实验室，旨在构建一个具有加密经济的、开放、无需许可、去中心化的机器学习网络。"
+      },
       "FIL": {
         "PRIMARY": "Filecoin是一个旨在存储人类最重要信息的去中心化存储网络。",
         "SECONDARY": "Filecoin网络由大量不同的存储提供者和开发者组成。这创造出强大和可靠的服务，同时加密证据可以确保您的数据随时间推移继续可用而不会发生变化。"
       },
+      "FTM": {
+        "PRIMARY": "FTM是Fantom的原生代币，用于平台治理、保护网络和支付交易费用。",
+        "SECONDARY": "Fantom是一个有向无环图(DAG)智能合约平台，使用自己定制的共识算法为开发人员提供去中心化金融服务。"
+      },
+      "GALA": {
+        "PRIMARY": "GALA代币是Gala Games and Entertainment生态系统的数字实用代币。",
+        "SECONDARY": "Gala Games and Entertainment是一家专注于开拓游戏、音乐和电影行业的娱乐公司。 Gala Games and Entertainment由Zynga的联合创始人之一Eric Schiermeyer于2019年创立。"
+      },
+      "GMT": {
+        "PRIMARY": "GMT是Find Satoshi Lab (FSL)生态系统的治理代币，固定供应60亿枚代币。",
+        "SECONDARY": "FSL生态系统包括Web3生活方式应用程序STEPN，该应用程序可将运动游戏化并奖励用户积极健康的生活方式。"
+      },
+      "GRT": {
+        "PRIMARY": "GRT是一种在The Graph网络中起着重要作用的实用代币。",
+        "SECONDARY": "The Graph是一个去中心化的协议，用于索引和查询区块链的数据。 The Graph使查询那些难以直接查询的数据成为可能。"
+      },
+      "HBAR": {
+        "PRIMARY": "Hedera是Hedera Hashgraph的原生加密货币。",
+        "SECONDARY": "Hedera是一个去中心化、开源、权益证明的公共账本，它采用无领导者、异步拜占庭容错(aBFT)哈希图共识算法。"
+      },
       "ICP": {
-        "PRIMARY": "DFINITY基金会是一个开发互联网计算机的非营利组织，该基金会是一个旨在托管智能合约的公共区块链网络。",
-        "SECONDARY": "ICP是该平台的原生加密货币。"
+        "PRIMARY": "ICP是该平台的原生加密货币。",
+        "SECONDARY": "DFINITY基金会是一个开发互联网计算机的非营利组织，该基金会是一个旨在托管智能合约的公共区块链网络。"
+      },
+      "IMX": {
+        "PRIMARY": "IMX是Immutable协议的原生实用和治理代币。",
+        "SECONDARY": "Immutable集团由Immutable Platform和Immutable Games两部分组成，前者是在以太坊上构建和扩展Web3游戏的开发者平台，后者是Web3游戏开发和发行领域的领导者，拥有《Gods Unchained》和《Guild of Guardians》等作品。"
+      },
+      "INJ": {
+        "PRIMARY": "INJ是Injective区块链网络的原生代币。",
+        "SECONDARY": "Injective是专为金融而构建的区块链。 它是一个开放、可互操作的第一层区块链，旨在为下一代DeFi应用程序提供支持，包括去中心化的现货和衍生品交易所、预测市场、借贷协议等。"
       },
       "JUP": {
         "PRIMARY": "Jupiter 是建立在 Solana 之上的领先 DEX 聚合器",
         "SECONDARY": "Jupiter 正在构建 Solana 的互换基础设施。 Jupiter 旨在为用户和开发人员提供最佳价格、最佳代币选择和最佳用户体验。"
       },
+      "JTO": {
+        "PRIMARY": "JTO代币是Jito Network的治理代币。",
+        "SECONDARY": "Jito Network通过其JitoSOL流动性质押池以及MEV产品系列，成为Solana生态系统的重要贡献者。"
+      },
+      "KAVA": {
+        "PRIMARY": "KAVA是Kava的原生代币，Kava是一个使用Cosmos SDK构建的区块链网络。",
+        "SECONDARY": "Kava是一个Layer-1区块链，它将Cosmos的速度和互操作性与以太坊的开发能力相结合。"
+      },
       "LDO": {
-        "PRIMARY": "Lido是在以太坊、Solana和Polygon区块链网络上部署和运行的开源点对系统软件工具家族的名称。",
-        "SECONDARY": "LDO是一种ERC20代币，它能够参与Lido DAO的治理过程。"
+        "PRIMARY": "LDO是一种ERC20代币，它能够参与Lido DAO的治理过程。",
+        "SECONDARY": "Lido是在以太坊、Solana和Polygon区块链网络上部署和运行的开源点对系统软件工具家族的名称。"
       },
       "LTC": {
         "PRIMARY": "Litecoin是一种点对点的互联网货币，能够向世界上任何人提供接近零成本的即时支付。",
         "SECONDARY": "Litecoin是一个完全去中心化的开源全球支付网络。与领先的基于数学的货币相比，Litecoin具有交易确认时间更快、存储效率更高的特点。Litecoin有着广泛的行业支持、巨大的交易量和丰富的流动性，是一种被证实对比特币起补充作用的商业媒介。"
+      },
+      "MANA": {
+        "PRIMARY": "MANA是一种ERC-20代币，必须销毁它才能获得不可替代的ERC-721 LAND代币。 MANA代币还可用于支付Decentraland市场上的各种头像、可穿戴设备、名字等。",
+        "SECONDARY": "Decentraland（MANA）是一个去中心化的虚拟世界平台，其软件基于以太坊区块链，用户可在此创建、测试内容并从中获利。 简而言之：用户在Decentraland平台上使用MANA代币作为NFT购买虚拟土地。"
+      },
+      "MASK": {
+        "PRIMARY": "MASK代币持有人可以通过名为MaskDAO的去中心化自治组织，以投票方式参与各种生态系统活动。",
+        "SECONDARY": "Mask Network使流行社交媒体平台的用户能够发送加密货币，与去中心化的应用程序交互并共享加密内容。"
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在以太坊聚合可扩展解决方案，支持以太坊多链生态系统。",
+        "SECONDARY": "Polygon结合了以太坊和主权区块链的优点，将其打造成开放、安全、成熟的多链系统，能够充分受益于以太坊的网络效应"
+      },
+      "MINA": {
+        "PRIMARY": "MINA是一种为Mina协议提供支持的加密货币，可用于建立新账户、支付交易费用并且可在网络上质押。",
+        "SECONDARY": "Mina协议是第一层区块链，旨在实现轻量化、保护隐私且易于验证。 Mina上的开发人员可以基于零知识证明构建保护隐私的智能合约和去中心化应用程序。"
       },
       "MKR": {
         "PRIMARY": "Maker协议，也称多质押品Dai(MCD)系统，允许用户通过利用“Maker治理”批准的抵押资产来生成Dai。Maker治理是社区组织和运作的管理Maker协议的各个方面的过程。",
@@ -432,29 +506,33 @@
         "PRIMARY": "OP主网是一个低成本、闪电般快速的以太坊L2区块链，由Optimism提供支持。",
         "SECONDARY": "OP是Optimism Collective的治理代币。"
       },
+      "ORDI": {
+        "PRIMARY": "ORDI是Ordinal协议创建的第一个BRC-20代币。",
+        "SECONDARY": "Ordinals是satoshis（比特币的最小单位）的编号方案，允许跟踪和转移单个SAT，并允许以NFT和代币的形式在比特币区块链上刻录文本和图片。"
+      },
       "PEPE": {
         "PRIMARY": "Pepe是一种迷因币。",
         "SECONDARY": "其网站指出，Pepe将再次让迷因币变得伟大。"
       },
-      "DOT": {
-        "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot为互联网带来便利，独立的区块链可在其中通过Polkadot中继链以无需信任的方式交换信息和进行交易。",
-        "SECONDARY": "Polkadot使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好的解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
+      "PYTH": {
+        "PRIMARY": "PYTH是Pyth网络及其生态系统的治理代币。",
+        "SECONDARY": "Pyth向40多个区块链上的金融去中心化应用程序提供实时市场数据，并在加密货币、股票、ETF、外汇对和商品上提供380多个低延迟价格馈送。"
       },
-      "MATIC": {
-        "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在以太坊聚合可扩展解决方案，支持以太坊多链生态系统。",
-        "SECONDARY": "Polygon结合了以太坊和主权区块链的优点，将其打造成开放、安全、成熟的多链系统，能够充分受益于以太坊的网络效应"
-      },
-      "XRP": {
-        "PRIMARY": "Ripple是一个旨在解决跨境支付问题的网络。",
-        "SECONDARY": "XRP是一种开源的数字资产，旨在成为金融服务领域应用程序最实用的加密货币。"
+      "RNDR": {
+        "PRIMARY": "RNDR是一种ERC-20实用代币，Render Network上的艺术家将其用于交换GPU提供商（节点运营商）的GPU计算能力",
+        "SECONDARY": "Render Network是一个建立在以太坊区块链之上的分布式GPU渲染网络，旨在将需要GPU计算能力的艺术家和工作室与愿意租用其GPU能力的挖矿合作伙伴联系起来。"
       },
       "RUNE": {
         "PRIMARY": "Thorchain 是一个去中心化、自治的跨链流动性网络。",
         "SECONDARY": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以保护该网络的经济。"
       },
+      "SAND": {
+        "PRIMARY": "Sand是Sandbox平台的主要实用代币。",
+        "SECONDARY": "Sandbox团队正在构建一个独特的虚拟世界，在这个世界里，玩家可以使用SAND构建、拥有游戏体验并从中获利。"
+      },
       "SEI": {
-        "PRIMARY": "Sei 是一个通用、开源的第 1 层区块链，专门用于交换数字资产。",
-        "SECONDARY": "SEI币是SEI网络的治理代币。"
+        "PRIMARY": "SEI币是SEI网络的治理代币。",
+        "SECONDARY": "Sei 是一个通用、开源的第 1 层区块链，专门用于交换数字资产。"
       },
       "SHIB": {
         "PRIMARY": "柴犬币或SHIB是Shiba生态系统的主要代币，将去中心化、社区主导的货币力量带给全球数百万人。",
@@ -464,9 +542,9 @@
         "PRIMARY": "Solana是一种快速、安全、能够抵抗审查的区块链，为全球应用提供必要的开放基础设施。",
         "SECONDARY": "Solana是开源项目，执行的是新的、高性能、无需许可的区块链。Solana基金会设在瑞士日内瓦，并维护着开源项目。"
       },
-      "XLM": {
-        "PRIMARY": "Stellar是一个用于存储和转移资金的开放网络。",
-        "SECONDARY": "Stellar使创建、发送和交易各种形式的货币的数字表示成为可能：美元、比索、比特币，几乎无所不包。它经过专门设计，使世界上所有的金融系统都可以在单个网络上协同工作。"
+      "STX": {
+        "PRIMARY": "STX是Stacks网络的原生货币。 它用于为比特币的智能合约提供燃料，奖励开放Stacks网络上的矿工，并使持有者能够通过Stacking赚取比特币。",
+        "SECONDARY": "Stacks是智能合约的比特币层；它使智能合约和去中心化应用能够无需信任地将比特币作为资产使用，并在比特币区块链上进行交易结算。"
       },
       "SUI": {
         "PRIMARY": "Sui是一个创新的、去中心化的第1层区块链，它重新定义了资产所有权。",
@@ -496,9 +574,21 @@
         "PRIMARY": "Uniswap是以太坊上自动提供流动性的去中心化协议。",
         "SECONDARY": "Uniswap是在以太坊交易ERC-20代币的协议。它消除了可信任的中介和不必要的租金提取形式，使交易变得快速、高效。"
       },
+      "WOO": {
+        "PRIMARY": "质押WOO可解锁整个WOO生态系统中的中心化和去中心化交易所产品的独家利益并获得价值。",
+        "SECONDARY": "WOO生态系统产品将交易者、交易所和机构连接起来，以较低成本或零成本获得一流的流动性和交易执行。 "
+      },
       "WLD": {
         "PRIMARY": "Worldcoin协议旨在成为世界上最大的身份证明和金融公共网络。",
         "SECONDARY": "Worldcoin是一种代币，提供实用功能，并让用户对Worldcoin协议的方向有发言权。"
+      },
+      "XLM": {
+        "PRIMARY": "Stellar是一个用于存储和转移资金的开放网络。",
+        "SECONDARY": "Stellar使创建、发送和交易各种形式的货币的数字表示成为可能：美元、比索、比特币，几乎无所不包。它经过专门设计，使世界上所有的金融系统都可以在单个网络上协同工作。"
+      },
+      "XRP": {
+        "PRIMARY": "Ripple是一个旨在解决跨境支付问题的网络。",
+        "SECONDARY": "XRP是一种开源的数字资产，旨在成为金融服务领域应用程序最实用的加密货币。"
       },
       "XTZ": {
         "PRIMARY": "Tezos 是一个用于资产和应用程序的开源平台，可以通过升级自身来进化。",
@@ -557,6 +647,7 @@
       "LEDGER": "Ledger",
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
+      "OKX_WALLET": "OKX",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -568,7 +659,9 @@
     "ONBOARDING": {
       "ABOUT_WALLETS": "关于钱包",
       "AMOUNT_RECEIVED": "已收金额",
+      "ACKNOWLEDGE_RISKS": "请确认风险",
       "ACKNOWLEDGE_TERMS": "确认条款",
+      "ACKNOWLEDGE_TO_REVEAL": "确认以显示",
       "API_KEYS_NOT_FOUND": "未找到API密钥",
       "APPEARS_OUTSIDE_ACCESS": "您似乎是从美国境外或受限地区访问dYdX。您特此同意、声明并保证：",
       "BRIDGING_TOKENS": "桥接代币",
@@ -623,8 +716,9 @@
       "MISSING_KEYS_DESCRIPTION": "欢迎回来！您需要找回一条或多条密钥",
       "NEED_A_WALLET": "需要钱包吗？",
       "NOBLE_ADDRESS": "Noble地址",
-      "NOBLE_WARNING": "此地址仅支持将Noble USDC转移到Noble链，然后自动扫入dYdX链上相应的dYdX地址。 将此Noble地址用于任何其他资产可能会导致资金损失。",
-      "NOBLE_ACKNOWLEDGEMENT": "我明白，如果将非Noble USDC资金发送到此Noble链地址会有风险。",
+      "NOBLE_SWEEP": "资金将扫入到您的dYdX地址",
+      "NOBLE_ACKNOWLEDGEMENT": "我确认此地址仅支持将Noble USDC转移到Noble链。 我了解将其他资金发送到此地址的风险。",
+      "NOBLE_ADDRESS_VALIDATION": "请输入有效的Noble地址。",
       "NO_FUTURE_ACCESS": "您将来不会在美国或受限地区境内访问此网站或在dYdX上交易。",
       "NO_VPN_USE": "您没有且将来也不会在限制性地点使用VPN以掩盖您的实际位置。",
       "NOT_A_RESIDENT": "您不符合以下条件：美国或受限地区的居民或公司，位于美国或受限地区，在美国或受限地区注册或在美国或受限地区有注册代理人。",
@@ -961,6 +1055,7 @@
       "FUNDING_RATE_1H_SHORT": "1小时资金",
       "FUNDING_RATE": "估计1小时资金",
       "GOOD_TIL_DATE_ABBREVIATED": "有效至",
+      "GOOD_TIL_DATE": "有效截止日期",
       "GOOD_TIL_TIME": "有效截止时间",
       "GOOD_TIL": "有效至",
       "HISTORICAL_FUNDING_RATE": "历史资金利率",
@@ -1365,14 +1460,15 @@
       "YOU_CAN_WIN_THESE": "您可以在我们的{LEAGUES_LINK}中赢得这些奖励"
     },
     "STAKING_REWARDS": {
+      "LEAVING_WEBSITE_STAKING_GOVERNANCE": "质押、治理和离开网站免责声明",
       "LIQUID_STAKE_ON_STRIDE": "Stride 的流动性质押",
       "LIQUID_STAKING_AND_LEAVING": "流动性质押和离开网站",
-      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Stride Labs, Inc.（“Stride”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联；(b) 本服务由 Stride 直接向您提供，不涉及运营商；(c) 本服务及流动性质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Stride 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Stride 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Stride 之间交易或传输的任一方面承担责任。运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Stride Labs, Inc.（“Stride”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联；(b) 此服务由 Stride 直接向您提供，不涉及运营商；(c) 此服务及流动性质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Stride 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Stride 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Stride 之间交易或传输的任一方面承担责任。运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
       "LIQUID_STAKE_W_STRIDE": "Stride 的流动性质押",
       "LIQUID_STAKE_STRIDE_DESCRIPTION": "将您的 {TOKEN_DENOM}  代币质押为 st{TOKEN_DENOM}，您可以将其部署在生态系统中。",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}，导航到 Stride Zone。",
       "STAKE_WITH_KEPLR": "Keplr 质押",
-      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Chainapsis, Inc. （“Keplr”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联； (b) 本服务由 Keplr 直接向您提供，不涉及运营商；(c) 本服务及质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Keplr 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Keplr 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Keplr 之间交易或传输的任一方面承担责任。 运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Chainapsis, Inc. （“Keplr”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联； (b) 此服务由 Keplr 直接向您提供，不涉及运营商；(c) 此服务及任何质押或治理发生在运营商网站之外；(d) 凡有价交易或传输，均直接在您与 Keplr 之间发生。 此服务不适用于位于美国、加拿大或限制区域的人员。您还同意，Keplr 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Keplr 之间交易或传输的任一方面承担责任。 运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，您同意，在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
       "STAKING_AND_LEAVING": "质押和离开网站免责声明",
       "STAKING_PAGE_SUBTITLE": "质押以赚取 APR。取消质押可能需要长达 30 天。",
       "STAKING_REWARDS": "质押奖励"
@@ -1381,25 +1477,25 @@
       "GOVERNANCE_PAGE_SUBTITLE": "参与生态系统，对治理提议投票或提交您自己的提议。"
     },
     "TRADING_REWARDS": {
-        "ABOUT": "简介",
-        "EVENT": "事件",
-        "FOR_TRADING": "交易 {PERIOD}",
-        "FOR_V4":"{SUBJECT} 用于 v4",
-        "LAUNCH_INCENTIVES":"启动激励",
-        "LAUNCH_INCENTIVES_DESCRIPTION":"每个季度，您可以通过在 dYdX Chain 上进行交易来获得奖励。通过交易来争取在排行榜上获得您的位置。",
-        "LEADERBOARD": "排行榜",
-        "POINTS":"{POINTS} 点",
-        "POWERED_BY":"技术支持方",
-        "SEASON_ID":"第{SEASON_ID}季",
-        "TRADING_REWARD": "交易奖励",
-        "REWARD_HISTORY_DESCRIPTION": "交易奖励在每个区块之后立即分配，但历史记录每五分钟更新一次。 交易奖励历史记录可追溯到 2024 年 1 月 27 日。",
-        "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "开始交易以赚取奖励。",
-        "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
-        "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX Chain 地址。",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领奖励？",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX Chain 地址。"
+      "ABOUT": "简介",
+      "EVENT": "事件",
+      "FOR_TRADING": "交易 {PERIOD}",
+      "FOR_V4": "{SUBJECT} 用于 v4",
+      "LAUNCH_INCENTIVES": "启动激励",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "每个季度，您可以通过在 dYdX Chain 上进行交易来获得奖励。通过交易来争取在排行榜上获得您的位置。",
+      "LEADERBOARD": "排行榜",
+      "POINTS": "{POINTS} 点",
+      "POWERED_BY": "技术支持方",
+      "SEASON_ID": "第{SEASON_ID}季",
+      "TRADING_REWARD": "交易奖励",
+      "REWARD_HISTORY_DESCRIPTION": "交易奖励在每个区块之后立即分配，但历史记录每五分钟更新一次。 交易奖励历史记录可追溯到 {REWARDS_HISTORY_START_DATE}。",
+      "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "开始交易以赚取奖励。",
+      "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
+      "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX Chain 地址。",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领奖励？",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX Chain 地址。"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX的奖励！在治理仪表板上申领您的奖励。",
