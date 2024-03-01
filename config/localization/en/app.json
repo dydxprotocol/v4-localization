@@ -353,7 +353,7 @@
       },
       "BTC": {
         "PRIMARY": "Bitcoin is a decentralized digital currency, without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
-        "SECONDARY": "Transactions are verified by a network nodes through cryptography and recorded in a public distributed ledger called a blockchain. Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services."
+        "SECONDARY": "Transactions are verified by a network of nodes through cryptography and recorded in a public distributed ledger called a blockchain. Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services."
       },
       "BLUR": {
         "PRIMARY": "BLUR is a NFT marketplace.",
