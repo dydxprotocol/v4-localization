@@ -77,7 +77,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
-      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor nocional de posição de um trader dividido por capital. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição. "
+      "BODY": "A fração de margem é calculada como o valor referencial da sua posição dividido pela equidade. Se a sua fração de margem exceder a fração de margem inicial, você não terá mais permissão para aumentar sua posição. Para limitar o risco, a fração da margem inicial aumenta pela raiz quadrada do tamanho da posição dividido pelo Referencial da posição básico multiplicado pela Fração da margem inicial básica."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop inicial",
@@ -108,8 +108,8 @@
       "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) executam como ordens de taker. As ordens limite que adicionam liquidez ao livro e são preenchidas por outra parte serão preenchidas como ordens de maker."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Fração da margem de manutenção",
-      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como um valor nocional de posição de um trader, dividido por capital. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pago a penalidade de liquidação máxima de 1,5%."
+      "TITLE": "Fração de margem de manutenção",
+      "BODY": "A fração de margem é calculada como o valor referencial da sua posição, dividido pela equidade. Se a sua fração de margem exceder a fração de margem de manutenção, sua posição será fechada automaticamente (liquidada) e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "MAKER_FEE": {
       "TITLE": "Taxa maker",
@@ -155,12 +155,8 @@
       "TITLE": "Ordem Post-Only",
       "BODY": "As ordens com post-only habilitadas podem ser feitas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
     },
-    "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Ordem Post-Only",
-      "BODY": "A Post-Only só está disponível se o Tempo em vigor estiver definido como Good Til Time."
-    },
     "PRICE_IMPACT": {
-      "TITLE": "Impacto do preço",
+      "TITLE": "Impacto no preço",
       "BODY": "A diferença entre o preço de execução esperado para sua ordem e a melhor ordem na compra ou venda. Isso aumentará quanto a trades maiores."
     },
     "REALIZED_PNL": {
@@ -170,14 +166,6 @@
     "REDUCE_ONLY": {
       "TITLE": "Apenas redução",
       "BODY": "A opção Apenas redução impede que um pedido altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
-    },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
-      "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível somente se o Tempo em vigor estiver definido como IOC ou FOK."
-    },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
-      "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível apenas se a Execução estiver definida como IOC ou FOK."
     },
     "SPREAD": {
       "TITLE": "Spread",
@@ -210,9 +198,6 @@
     "UNREALIZED_PNL": {
       "TITLE": "Lucros \/ perdas não realizados",
       "BODY": "O total de lucro\/perda se você fechasse completamente o restante de sua posição atual no preço do oráculo atual. É redefinido se você fechar sua posição ou alterar o tipo de posição (long para short, ou vice-versa)."
-    },
-    "REWARD_HISTORY": {
-        "BODY": "A hora é exibida no Tempo Universal Coordenado (UTC)"
     }
   },
   "DEPOSIT": {
@@ -271,12 +256,6 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "Liquidação na cadeia dYdX",
       "BODY": "Para garantir a segurança do protocolo, os validadores da cadeia dYdX adiam a liquidação da cadeia dYdX DYDX."
-    }
-  },
-  "NEW_MARKET_WIDGET": {
-    "REFERENCE_PRICE": {
-      "TITLE": "Preço de referência",
-      "BODY": "O Preço de referência é a média contínua de 30 dias do preço de mercado e é usado como uma entrada para calcular automaticamente os parâmetros do mercado na Cadeia dYdX. O preço de referência deve ser aproximadamente o mesmo que o preço atual do mercado (ex.: arredondado para baixo, para as mesmas potências de 10)."
     }
   }
 }
