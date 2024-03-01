@@ -46,7 +46,7 @@ Once your PR is accepted and merged into "main", the branch is removed from the 
 ## Committing Changes
 Before committing your changes to the repo, you need to run the following commands: 
 
-`npm run generate:app` to auto generate required code
+`npm run generate` to auto generate required code
 
 `npm version patch` to update the package version number
 
