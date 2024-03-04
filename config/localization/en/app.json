@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} hours",
         "X_MINUTES_LOWERCASED": "{X} minutes",
         "X_MINUTES": "{X} Minutes",
-        "X_SECONDS_LOWERCASED": "{X} seconds"
+        "X_SECONDS_LOWERCASED": "{X} seconds",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "About",
       "ACADEMY": "Academy",
@@ -248,6 +249,8 @@
       "SELL": "Sell",
       "SEND": "Send",
       "SHARE": "Share",
+      "SHARE_DYDX": "Share dYdX for iPhone",
+      "SHARE_MESSAGE": "Trade with me on dYdX!",
       "SHORT_POSITION_SHORT": "Short",
       "SHOW_ALL_DETAILS": "Show all details",
       "SIDE": "Side",
