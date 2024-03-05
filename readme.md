@@ -43,6 +43,14 @@ For example, if you are working on Spanish, and started the work on July 13th, 2
 
 Once your PR is accepted and merged into "main", the branch is removed from the repo. Create a new branch for next batch of changes.
 
+## Committing Changes
+Before committing your changes to the repo, you need to run the following commands: 
+
+`npm run generate` to auto generate required code
+
+`npm version patch` to update the package version number
+
+
 # JSON Translations
 
 Please translate each JSON entry, using the file in /en folder as the original, and translate into the same file name in other language files.
