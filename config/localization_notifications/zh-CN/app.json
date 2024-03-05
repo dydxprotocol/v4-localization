@@ -12,6 +12,10 @@
       "TITLE": "头寸已结算",
       "BODY": "{MARKET} 已平仓。 您在{MARKET}上的{SIDE}头寸已完成最终结算。"
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "赛季 {SEASON_NUMBER} 启动激励计划现已开始！",
+      "BODY": "在赛季 {PREV_SEASON_NUMBER}，大多数交易者至少已赚 {DYDX_AMOUNT} DYDX（~{USDC_AMOUNT} 个 USDC）！"
+    },
     "OFFSETTING": {
       "TITLE": "头寸抵消",
       "BODY": "您在{MARKET}上的{SIDE}头寸已用于抵消去杠杆化头寸。"
