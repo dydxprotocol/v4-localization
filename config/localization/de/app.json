@@ -314,6 +314,14 @@
         "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Aufsicht, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
         "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Verwahrung, an dem Benutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
       },
+      "ADA": {
+        "PRIMARY": "Cardano ist eine Proof-of-Stake-Blockchain-Plattform: die erste, die auf Peer-Review-Forschung basiert und durch evidenzbasierte Methoden entwickelt wurde. Sie kombiniert wegweisende Technologien, um dezentralisierte Anwendungen, Systemen und Gesellschaften beispiellose Sicherheit und Nachhaltigkeit zu bieten.",
+        "SECONDARY": "Mit einem führenden Team von Ingenieuren existiert Cardano, um die Macht von nicht nachvollziehbaren Strukturen an die Margen – an Einzelpersonen – umzuverteilen und eine treibende Kraft für positive Veränderungen und Fortschritt zu sein."
+      },
+      "AGIX": {
+        "PRIMARY": "SingularityNET ist ein dezentralisierter KI-Marktplatz, der auf Blockchain läuft.",
+        "SECONDARY": "SingularityNET ist eine Blockchain-basierte Plattform, die es jedem ermöglicht, KI-Dienste dank seines weltweit zugänglichen KI-Marktplatzes einfach zu erstellen, zu teilen und zu monetarisieren."
+      },
       "ALGO": {
         "PRIMARY": "Algorand beseitigt die technischen Barrieren, die jahrelang die Mainstream-Blockchain-Akzeptanz untergraben haben: Dezentralisierung, Skalierung und Sicherheit.",
         "SECONDARY": "Algorand verwendet einen genehmigungslosen, reinen Proof-of-Stake-Konsensmechanismus, der eine vollständige Teilnahme, Schutz und Geschwindigkeit innerhalb eines wirklich dezentralisierten Netzwerks gewährleistet. Darüber hinaus ist Algorand die erste Blockchain, die neben einem Durchsatz von bis zu 1.000 Transaktionen pro Sekunde eine sofortige Transaktionsendgültigkeit bietet."
@@ -350,10 +358,10 @@
         "PRIMARY": "BNB ist die Währung von Binance Chain.",
         "SECONDARY": "Binance ist ein einzigartiges Ökosystem aus dezentralisierten, Blockchain-basierten Netzwerken, einschließlich der Binance Chain."
       },
-      "ADA": {
-        "PRIMARY": "Cardano ist eine Proof-of-Stake-Blockchain-Plattform: die erste, die auf Peer-Review-Forschung basiert und durch evidenzbasierte Methoden entwickelt wurde. Sie kombiniert wegweisende Technologien, um dezentralisierte Anwendungen, Systemen und Gesellschaften beispiellose Sicherheit und Nachhaltigkeit zu bieten.",
-        "SECONDARY": "Mit einem führenden Team von Ingenieuren existiert Cardano, um die Macht von nicht nachvollziehbaren Strukturen an die Margen – an Einzelpersonen – umzuverteilen und eine treibende Kraft für positive Veränderungen und Fortschritt zu sein."
-      },
+      "CHZ": {
+        "PRIMARY": "CHZ ist das native digitale Token für das Chiliz Sports & Entertainment-Ökosystem.",
+        "SECONDARY": "Chiliz Chain ist eine Infrastruktur für Sport, die Teams, Fans und Entwickler anzieht, um Web3-Produkte und -Erfahrungen zu erstellen, die Fans und Marken zusammenbringen."
+      }, 
       "CELO": {
         "PRIMARY": "Celo ist eine Proof-of-Stake-Blockchain, die volle EVM-Kompatibilität bietet.",
         "SECONDARY": "CELO bietet Benutzern auch Zugang zu nativen und nicht nativen Stablecoins, einem ultraleichten mobilen Client und Gas, das in mehreren Währungen zahlbar ist."
@@ -378,6 +386,10 @@
         "PRIMARY": "Dogecoin ist eine Open-Source-Peer-to-Peer-Digitalwährung.",
         "SECONDARY": "Dogecoin wurde von Litecoin gegabelt und ist eine Kryptowährung, die auf dem beliebten Internet-Meme „Doge“ basiert und einen Shiba Inu auf seinem Logo aufweist."
       },
+      "DOT": {
+        "PRIMARY": "Polkadot wurde entwickelt, um private Ketten und Konsortialketten, öffentliche und genehmigungslose Netzwerke, Orakel und zukünftige Technologien zu verbinden, die noch geschaffen werden müssen. Polkadot ermöglicht ein Internet, in dem unabhängige Blockchains Informationen und Transaktionen vertrauenswürdig über die Polkadot-Relaiskette austauschen können.",
+        "SECONDARY": "Polkadot macht es einfacher denn je, dezentrale Anwendungen, Dienste und Institutionen zu erstellen und zu verbinden. Indem wir Innovatoren befähigen, bessere Lösungen zu entwickeln, versuchen wir, die Gesellschaft aus ihrer Abhängigkeit von einem kaputten Netz zu befreien, in welchem große Institutionen unser Vertrauen nicht missbrauchen können."
+      },
       "DYM": {
         "PRIMARY": "Dymension ist eine Heimat für einfach bereitstellbare und blitzschnelle App-Chains, die so genannten RollApps.",
         "SECONDARY": "Dymension standardisiert Rollups mit IBC (Inter-Blockchain Communication Protocol), ähnlich der Standardisierung von Token mit ERC."
@@ -386,6 +398,10 @@
         "PRIMARY": "Enjin hat einfache Produkte entwickelt, die Ihnen helfen, Ihre NFTs und Kryptowährungen zu verwalten – und sich an der neuen, schnell wachsenden virtuellen Wirtschaft zu beteiligen.",
         "SECONDARY": "ENJ wird verwendet, um digitale Vermögenswerte wie NFTs zu infundieren. Es treibt NFTs an, wenn sie sich über Spiele, Apps, Marktplätze und Wallets bewegen. Jeder geprägte Vermögenswert enthält ENJ, was ihm einen realen Wert verleiht, der jederzeit durch „Schmelzen“ abgerufen werden kann."
       },
+      "ENS": {
+        "PRIMARY": "ENS ist der am weitesten integrierte Blockchain-Benennungsstandard.",
+        "SECONDARY": "Der Ethereum Name Service ist ein verteiltes, offenes und erweiterbares Namenssystem, das auf der Ethereum-Blockchain basiert."
+      }, 
       "EOS": {
         "PRIMARY": "EOSIO ist eine hochleistungsfähige Open-Source-Blockchain-Plattform, die entwickelt wurde, um sichere, konforme und vorhersehbare digitale Infrastrukturen zu unterstützen und zu betreiben.",
         "SECONDARY": "Eine Open-Source-Plattform für Blockchain-Innovation und -Leistung – Unternehmen und Entwickler auf der ganzen Welt nutzen EOSIO, um sichere, transparente und deterministische digitale Infrastrukturen zu schaffen."
@@ -398,25 +414,81 @@
         "PRIMARY": "Ethereum ist eine globale Open-Source-Plattform für dezentrale Anwendungen.",
         "SECONDARY": "Ethereum ist eine dezentrale Blockchain-Plattform, die 2014 gegründet wurde. Ethereum ist ein Open-Source-Projekt, das keiner einzelnen Person gehört oder von ihr betrieben wird. Das bedeutet, dass jeder überall die Software herunterladen und mit dem Netzwerk interagieren kann. Ethereum ermöglicht es Entwicklern, „intelligente Verträge“ zu erstellen und zu betreiben, ein Kernstück der Infrastruktur für jede dezentrale Anwendung."
       },
+      "FET": {
+        "PRIMARY": "FET ist das native Token der Fetch.ai-Blockchain.",
+        "SECONDARY": "Fetch.AI ist ein Labor für künstliche Intelligenz (KI), das ein offenes, berechtigungsloses, dezentralisiertes Netzwerk für maschinelles Lernen mit einer Krypto-Wirtschaft aufbaut."
+      },
       "FIL": {
         "PRIMARY": "Filecoin ist ein dezentralisiertes Speichernetzwerk, das die wichtigsten Informationen der Menschheit speichern soll.",
         "SECONDARY": "Das Filecoin-Netzwerk besteht aus einer Vielzahl verschiedener Speicheranbieter und Entwickler. Dies schafft einen robusten und zuverlässigen Service, während kryptografische Beweise garantieren, dass Ihre Daten im Laufe der Zeit verfügbar und unverändert bleiben."
       },
+      "FTM": {
+        "PRIMARY": "FTM ist das native Token von Fantom und wird für die Steuerung der Plattform, die Sicherung des Netzwerks und die Zahlung von Transaktionsgebühren verwendet.",
+        "SECONDARY": "Fantom ist eine DAG-Smart-Contract-Plattform (Directed Acryl Graph) für gerichtete Acrylgraphen, die dezentralisierte Finanzdienste für Entwickler unter Verwendung ihres eigenen Konsensusalgorithmus bietet."
+      },
+      "GALA": {
+        "PRIMARY": "Das GALA-Token ist das digitale Dienstprogramm-Token des Ökosystems von Gala Games and Entertainment.",
+        "SECONDARY": "Gala Games and Entertainment ist ein Unterhaltungsunternehmen, das sich auf die Pionierarbeit in der Spiele-, Musik- und Filmindustrie konzentriert. Gala Games and Entertainment wurde 2019 von Eric Schiermeyer, einem der Mitbegründer von Zynga, gegründet."
+      },
+      "GMT": {
+        "PRIMARY": "GMT ist das Governance-Token des Find Satoshi Lab (FSL)-Ökosystems mit einem festen Angebot von 6 Milliarden Token.",
+        "SECONDARY": "Das FSL-Ökosystem umfasst STEPN, eine Web3-Lifestyle-App, die die Bewegung gamifiziert und Benutzer für die Führung eines aktiven und gesunden Lebensstils belohnt."
+      },
+      "GRT": {
+        "PRIMARY": "GRT ist das Dienstprogramm-Token, das das Graph Network unterstützt.",
+        "SECONDARY": "Der Graph ist ein dezentralisiertes Protokoll für die Indizierung und Abfrage von Blockchain-Daten. Der Graph ermöglicht die Abfrage von Daten, die schwer direkt abzufragen sind."
+      },
+      "HBAR": {
+        "PRIMARY": "Hedera ist die native Kryptowährung von Hedera Hashgraph.",
+        "SECONDARY": "Hedera ist ein dezentralisiertes, Open-Source-Proof-of-Stake-öffentliches Ledger, das den führerlosen, asynchronen Byzantine Fault Tolerance (aBFT)-Hashgraph-Konsensusalgorithmus verwendet."
+      },
       "ICP": {
-        "PRIMARY": "Die DFINITY Foundation ist eine gemeinnützige Organisation, die den Internet Computer entwickelt – ein öffentliches Blockchain-Netzwerk zum Hosten von Smart Contracts.",
-        "SECONDARY": "ICP ist die native Kryptowährung der Plattform."
+        "PRIMARY": "ICP ist die native Kryptowährung der Plattform.",
+        "SECONDARY": "Die DFINITY Foundation ist eine gemeinnützige Organisation, die den Internet Computer entwickelt – ein öffentliches Blockchain-Netzwerk zum Hosten von Smart Contracts."
+      },
+      "IMX": {
+        "PRIMARY": "IMX ist das native Dienstprogramm- und Governance-Token der Immutable-Protokolle.",
+        "SECONDARY": "Die Immutable Group besteht aus der Immutable Platform, einer Entwicklerplattform für die Erstellung und Skalierung von Web3-Spielen auf Ethereum, und Immutable Games, einem führenden Unternehmen in der Web3-Spieleentwicklung und -veröffentlichung mit Titeln wie Gods Unchained und Guild of Guardians."
+      },
+      "INJ": {
+        "PRIMARY": "INJ ist das native Token des Injective-Blockchain-Netzwerks.",
+        "SECONDARY": "Injective ist eine Blockchain, die für das Finanzwesen entwickelt wurde. Es ist eine offene, interoperable Layer-One-Blockchain, die DeFi-Anwendungen der nächsten Generation unterstützt, einschließlich dezentralisierter Spot- und Derivatebörsen, Vorhersagemärkte, Kreditprotokolle und mehr."
       },
       "JUP": {
         "PRIMARY": "Jupiter ist ein führender DEX-Aggregator, der auf Solana erstellt",
         "SECONDARY": "Jupiter baut die Swap-Infrastruktur von Solana. Jupiter zielt darauf ab, den besten Preis, die beste Token-Auswahl und die beste UX für Benutzer und Entwickler zu bieten."
       },
+      "JTO": {
+        "PRIMARY": "JTO-Token ist das Governance-Token für das Jito-Netzwerk.",
+        "SECONDARY": "Jito Network ist ein wichtiger Beitrag zum Solana-Ökosystem durch seinen JitoSOL-Liquid Staking Pool und seine Sammlung von MEV-Produkten."
+      },
+      "KAVA": {
+        "PRIMARY": "KAVA ist das native Token von Kava, einem Blockchain-Netzwerk, das mit dem Cosmos SDK erstellt wurde.",
+        "SECONDARY": "Kava ist eine Layer-1-Blockchain, die die Geschwindigkeit und Interoperabilität von Cosmos mit der Entwicklerleistung von Ethereum kombiniert."
+      },
       "LDO": {
-        "PRIMARY": "Lido ist der Name einer Familie von Open-Source-Peer-to-System-Software-Tools, die in den Blockchain-Netzwerken Ethereum, Solana und Polygon bereitgestellt werden und funktionieren.",
-        "SECONDARY": "LDO ist ein ERC20-Token, das die Möglichkeit bietet, am Governance-Prozess der Lido-DAO teilzunehmen."
+        "PRIMARY": "LDO ist ein ERC20-Token, das die Möglichkeit bietet, am Governance-Prozess der Lido-DAO teilzunehmen.",
+        "SECONDARY": "Lido ist der Name einer Familie von Open-Source-Peer-to-System-Software-Tools, die in den Blockchain-Netzwerken Ethereum, Solana und Polygon bereitgestellt werden und funktionieren."
       },
       "LTC": {
         "PRIMARY": "Litecoin ist eine Peer-to-Peer-Internetwährung, die sofortige Zahlungen nahezu ohne Kosten an jeden auf der Welt ermöglicht.",
         "SECONDARY": "Litecoin ist ein globales Open-Source-Zahlungsnetzwerk, das vollständig dezentralisiert ist. Litecoin bietet schnellere Transaktionsbestätigungszeiten und eine verbesserte Speichereffizienz als die führende mathematische Währung. Mit erheblicher Branchenunterstützung, Handelsvolumen und Liquidität ist Litecoin ein bewährtes Handelsmedium, das Bitcoin ergänzt."
+      },
+      "MANA": {
+        "PRIMARY": "MANA ist ein ERC-20-Token, das verbrannt werden muss, um nicht fungible ERC-721 LAND-Token zu erwerben. MANA-Token können auch zur Zahlung für eine Reihe von Avataren, Wearables, Namen und mehr auf dem Decentraland-Marktplatz verwendet werden.",
+        "SECONDARY": "Decentraland (MANA) ist eine dezentralisierte Plattform für die virtuelle Welt mit Software, die auf der Ethereum-Blockchain basiert, auf der Benutzer Inhalte erstellen, testen und monetarisieren. Kurz gesagt: Benutzer kaufen virtuelle Grundstücke als NFTs mit MANA-Token auf der Decentraland-Plattform."
+      },
+      "MASK": {
+        "PRIMARY": "Inhaber von MASK-Token können über Ökosysteminitiativen über eine dezentralisierte autonome Organisation namens MaskDAO abstimmen.",
+        "SECONDARY": "Mask Network ermöglicht es Benutzern beliebter Social-Media-Plattformen, Kryptowährung zu senden, mit dezentralisierten Anwendungen zu interagieren und verschlüsselte Inhalte zu teilen."
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum zur Unterstützung eines Ethereum-Ökosystems mit mehreren Ketten.",
+        "SECONDARY": "Polygon kombiniert das Beste aus Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen."
+      },
+      "MINA": {
+        "PRIMARY": "MINA ist eine Kryptowährung, die das Mina-Protokoll unterstützt und zum Einrichten neuer Konten sowie zum Bezahlen von Transaktionen verwendet wird und im Netzwerk gestaked werden kann.",
+        "SECONDARY": "Mina-Protokoll ist eine Layer-One-Blockchain, die leicht, die Privatsphäre bewahrend und leicht überprüfbar sein soll. Entwickler auf Mina können datenschutzerhaltende Smart-Contracts und dezentralisierte Anwendungen auf der Grundlage von Zero-Knowledge-Proofs erstellen."
       },
       "MKR": {
         "PRIMARY": "Das Maker-Protokoll, auch bekannt als Multi-Collateral Dai (MCD)-System, ermöglicht es Benutzern, Dai zu generieren, indem sie von der „Maker Governance“ genehmigte Sicherheiten nutzen. Maker Governance ist der von der Community organisierte und betriebene Prozess zur Verwaltung der verschiedenen Aspekte des Maker-Protokolls.",
@@ -434,29 +506,33 @@
         "PRIMARY": "OP Mainnet ist eine kostengünstige und blitzschnelle Ethereum L2-Blockchain, die von Optimism bereitgestellt wird.",
         "SECONDARY": "OP ist das Governance-Token des Optimism-Kollektivs."
       },
+      "ORDI": {
+        "PRIMARY": "ORDI ist das erste BRC-20-Token, das vom Ordinal-Protokoll erstellt wurde.",
+        "SECONDARY": "Ordinals sind ein Nummerierungsschema für Satoshis (die kleinste Einheit von Bitcoin), das das Verfolgen und Übertragen einzelner Sats ermöglicht und das Einschreiben von Text und Bildern in Form von NFT und Token in die Bitcoin-Blockchain ermöglicht."
+      },
       "PEPE": {
         "PRIMARY": "Pepe ist ein Memecoin.",
         "SECONDARY": "Laut seiner Website hat Pepe das Vorhaben: „Make Memecoins great again“."
       },
-      "DOT": {
-        "PRIMARY": "Polkadot wurde entwickelt, um private Ketten und Konsortialketten, öffentliche und genehmigungslose Netzwerke, Orakel und zukünftige Technologien zu verbinden, die noch geschaffen werden müssen. Polkadot ermöglicht ein Internet, in dem unabhängige Blockchains Informationen und Transaktionen vertrauenswürdig über die Polkadot-Relaiskette austauschen können.",
-        "SECONDARY": "Polkadot macht es einfacher denn je, dezentrale Anwendungen, Dienste und Institutionen zu erstellen und zu verbinden. Indem wir Innovatoren befähigen, bessere Lösungen zu entwickeln, versuchen wir, die Gesellschaft aus ihrer Abhängigkeit von einem kaputten Netz zu befreien, in welchem große Institutionen unser Vertrauen nicht missbrauchen können."
+      "PYTH": {
+        "PRIMARY": "PYTH ist das Governance-Token für das Pyth-Netzwerk und sein Ökosystem.",
+        "SECONDARY": "Pyth liefert Echtzeit-Marktdaten an Finanz-dApps über 40 Blockchains hinweg und bietet 380 + Preisfeeds mit niedriger Latenz für Kryptowährungen, Aktien, ETFs, FX-Paare und Rohstoffe."
       },
-      "MATIC": {
-        "PRIMARY": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum zur Unterstützung eines Ethereum-Ökosystems mit mehreren Ketten.",
-        "SECONDARY": "Polygon kombiniert das Beste aus Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen."
-      },
-      "XRP": {
-        "PRIMARY": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
-        "SECONDARY": "XRP ist ein digitales Open-Source-Asset, das als die praktischste Kryptowährung für Anwendungen im gesamten Finanzdienstleistungsbereich entwickelt wurde."
+      "RNDR": {
+        "PRIMARY": "RNDR ist ein ERC-20-Dienstprogramm-Token, das von Künstlern im Render-Netzwerk zum Austausch von GPU-Rechenleistung von GPU-Anbietern (Knotenbetreibern) verwendet wird",
+        "SECONDARY": "Das Render-Netzwerk ist ein verteiltes GPU-Rendering-Netzwerk, das auf der Ethereum-Blockchain aufgebaut ist und darauf abzielt, Künstler und Studios, die GPU-Rechenleistung benötigen, mit Mining-Partnern zu verbinden, die ihre GPU-Funktionen vermieten möchten."
       },
       "RUNE": {
         "PRIMARY": "Thorchain ist ein dezentralisiertes und autonomes Cross-Chain-Liquiditätsnetzwerk.",
         "SECONDARY": "RUNE ist der Vermögenswert, der das THORChain-Ökosystem antreibt und die wirtschaftlichen Anreize bietet, die erforderlich sind, um das Netzwerk wirtschaftlich zu sichern."
       },
+      "SAND": {
+        "PRIMARY": "SAND ist das Hauptdienstprogramm-Token der Sandbox-Plattform.",
+        "SECONDARY": "Das Sandbox-Team baut eine einzigartige virtuelle Welt, in der Spieler ihre Spielerlebnisse mit SAND erstellen, besitzen und monetarisieren können."
+      },
       "SEI": {
-        "PRIMARY": "Sei ist eine allgemeine Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist.",
-        "SECONDARY": "SEI ist das Governance-Token des SEI-Netzwerks."
+        "PRIMARY": "SEI ist das Governance-Token des SEI-Netzwerks.",
+        "SECONDARY": "Sei ist eine allgemeine Open-Source-Layer-1-Blockchain, die auf den Austausch digitaler Vermögenswerte spezialisiert ist."
       },
       "SHIB": {
         "PRIMARY": "Shiba Inu oder SHIB ist das Haupt-Token des Shiba-Ökosystems und stellt Millionen Menschen auf der ganzen Welt die Macht einer dezentralisierten, von der Community geführten Währung zur Verfügung.",
@@ -466,9 +542,9 @@
         "PRIMARY": "Solana ist eine schnelle, sichere und zensurresistente Blockchain, die die offene Infrastruktur bereitstellt, die für eine globale Einführung erforderlich ist.",
         "SECONDARY": "Solana ist ein Open-Source-Projekt, das eine neue, leistungsstarke, erlaubnisfreie Blockchain implementiert Die Solana Foundation hat ihren Sitz in Genf, Schweiz, und unterhält das Open-Source-Projekt."
       },
-      "XLM": {
-        "PRIMARY": "Stellar ist ein offenes Netzwerk zum Speichern und zum Bewegen von Geld.",
-        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Formen von Geld zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
+      "STX": {
+        "PRIMARY": "STX ist die native Währung des Stacks-Netzwerks. Es wird verwendet, um Smart-Contracts für Bitcoin zu tanken, um Miner im offenen Stacks-Netzwerk zu belohnen und ermöglicht es Inhabern, Bitcoin durch Stacking zu verdienen.",
+        "SECONDARY": "Stacks ist eine Bitcoin-Schicht für Smart-Contracts; es ermöglicht Smart-Contracts und dezentralisierten Anwendungen, Bitcoin als Asset zu verwenden und Transaktionen in der Bitcoin-Blockchain abzuwickeln."
       },
       "SUI": {
         "PRIMARY": "Sui ist eine innovative, dezentrale Layer-1-Blockchain, die das Asset-Eigentum neu definiert.",
@@ -498,9 +574,21 @@
         "PRIMARY": "Uniswap ist ein dezentralisiertes Protokoll für die automatisierte Bereitstellung von Liquidität auf Ethereum.",
         "SECONDARY": "Uniswap ist ein Protokoll zum Austausch von ERC-20-Token auf Ethereum. Es eliminiert vertrauenswürdige Vermittler und unnötige Formen der Mietabschöpfung und ermöglicht einen schnellen und effizienten Handel."
       },
+      "WOO": {
+        "PRIMARY": "Staking WOO schaltet exklusive Vorteile und Werterfassung über alle zentralisierten und dezentralisierten Austauschprodukte des WOO-Ökosystems hinweg.",
+        "SECONDARY": "WOO-Ökosystem-Produkte verbinden Trader, Börsen und Institutionen mit Zugang zur branchenführenden Liquidität und Handelsausführung zu geringeren oder null Kosten."
+      },
       "WLD": {
         "PRIMARY": "Das Worldcoin-Protokoll soll das weltweit größte öffentliche Identitäts- und Finanznetzwerk sein.",
         "SECONDARY": "Worldcoin ist ein Token, das ein Dienstprogramm bietet und Benutzern ein Mitspracherecht über die Richtung des Worldcoin-Protokolls gibt."
+      },
+      "XLM": {
+        "PRIMARY": "Stellar ist ein offenes Netzwerk zum Speichern und zum Bewegen von Geld.",
+        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Formen von Geld zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
+      },
+      "XRP": {
+        "PRIMARY": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
+        "SECONDARY": "XRP ist ein digitales Open-Source-Asset, das als die praktischste Kryptowährung für Anwendungen im gesamten Finanzdienstleistungsbereich entwickelt wurde."
       },
       "XTZ": {
         "PRIMARY": "Tezos ist eine Open-Source-Plattform für Vermögenswerte und Anwendungen, die sich durch ein Upgrade selbst weiterentwickeln können.",
