@@ -12,6 +12,10 @@
       "TITLE": "Pozisyon Bağlandı",
       "BODY": "{MARKET} kapatıldı. {MARKET} üzerindeki {SIDE} pozisyonunuzda nihai bağlamaya ulaşılmıştır."
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "Sezon {SEASON_NUMBER} lansman teşvik programı başladı!",
+      "BODY": "Sezon {PREV_SEASON_NUMBER} süresince, çoğu yatırımcı en az {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) kazandı!"
+    },
     "OFFSETTING": {
       "TITLE": "Posizyonda Denkleştirme",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz, kaldıraçsızlaştırılmış bir pozisyonu dengelemek için kullanıldı."

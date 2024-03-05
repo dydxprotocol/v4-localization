@@ -105,6 +105,7 @@
       "DISCOUNT": "İndirim",
       "DISMISS": "Reddet",
       "DONE": "Bitti",
+      "DOWNLOAD_MOBILE_APP": "Mobil uygulamayı indirin",
       "DYDX_CHAIN_ADDRESS": "dYdX Zinciri Adresi",
       "DYDX_CHAIN": "dYdX Zinciri",
       "EARNED": "Kazanılan",
@@ -231,6 +232,7 @@
       "SAFETY": "Güvenlik",
       "SAVE": "Kaydet",
       "SAVED": "Kaydedildi",
+      "SCAN_TO_DOWNLOAD": "Uygulamayı indirmek için tarayın",
       "SELECT_ASSET": "Bir varlık seçin",
       "SELECT_CHAIN": "Bir zincir seçin",
       "SELL": "Sat",
@@ -312,6 +314,14 @@
         "PRIMARY": "Aave, yatırma işlemlerinden kazanç sağlamak ve varlık borç almak için kullanılan açık kaynaklı ve gözetimsiz bir protokoldür.",
         "SECONDARY": "Aave, kullanıcıların fon yatırıcı veya borç alan olarak katılabileceği merkezsizleştirilmiş ve gözetimsiz bir likidite piyasa protokolüdür. Fon yatırıcılar pasif bir gelir kazanmak için piyasalara likidite sağlarken, borç alanlar aşırı teminatlı (sürekli olarak) veya teminatlı (tek blok likidite) şekilde borç alabilir."
       },
+      "ADA": {
+        "PRIMARY": "Cardano, hisse kanıtı temelli bir blok zinciri platformudur: Emsal denetimli araştırmalar üzerine kurulan ve kanıta dayalı metotlar yoluyla geliştirilen ilk örnektir. Merkezî olmayan uygulamalara, sistemlere ve topluluklara benzersiz güvenlik ve sürdürülebilirlik sağlamak için öncü teknolojileri bir araya getirir.",
+        "SECONDARY": "Cardano'nun varoluş amacı, önde gelen mühendislerden oluşan ekibiyle, gücü sorumsuz yapılardan uçlara, yani bireylere yeniden dağıtmak ve olumlu değişim ile ilerleme için destekleyici bir güç olmaktır."
+      },
+      "AGIX": {
+        "PRIMARY": "SingularityNET, blok zincir üzerinde çalışan merkezsiz bir yapay zeka pazarıdır.",
+        "SECONDARY": "SingularityNET, küresel olarak erişilebilen yapay zeka pazarı sayesinde herkesin kolayca yapay zeka hizmetleri oluşturmasına, paylaşmasına ve bunlardan para kazanmasına olanak tanıyan blok zincir destekli bir platformdur."
+      },
       "ALGO": {
         "PRIMARY": "Algorand, ana akım blokzincirinin benimsenmesini yıllardır aksatan teknik engelleri ortadan kaldırıyor: Merkezsizleşme, ölçek ve güvenlik.",
         "SECONDARY": "Algorand İzin Gerektirmeyen, Saf Hisse Kanıtı konsensüs mekanizması kullanır ve gerçekten merkezsizleştirilmiş bir ağ içinde tam katılım, koruma ve hız sağlar. Ek olarak, Algorand, anında işlem sonuçlanması sunmanın yanında saniyede 1.000 işlem hacmine ulaşan ilk blokzincirdir."
@@ -348,10 +358,10 @@
         "PRIMARY": "BNB, Binance Chain'in para birimidir.",
         "SECONDARY": "Binance, Binance Chain'i de içeren merkezsiz, blok zincir tabanlı ağlardan oluşan benzersiz bir ekosistemdir."
       },
-      "ADA": {
-        "PRIMARY": "Cardano, hisse kanıtı temelli bir blok zinciri platformudur: Emsal denetimli araştırmalar üzerine kurulan ve kanıta dayalı metotlar yoluyla geliştirilen ilk örnektir. Merkezî olmayan uygulamalara, sistemlere ve topluluklara benzersiz güvenlik ve sürdürülebilirlik sağlamak için öncü teknolojileri bir araya getirir.",
-        "SECONDARY": "Cardano'nun varoluş amacı, önde gelen mühendislerden oluşan ekibiyle, gücü sorumsuz yapılardan uçlara, yani bireylere yeniden dağıtmak ve olumlu değişim ile ilerleme için destekleyici bir güç olmaktır."
-      },
+      "CHZ": {
+        "PRIMARY": "CHZ, Chiliz spor ve eğlence ekosistemi için yerel dijital token'dır.",
+        "SECONDARY": "Chiliz Chain, taraftarları ve markaları bir araya getiren web3 ürünleri ve deneyimleri oluşturmak için takımları, taraftarları ve geliştiricileri çeken bir spor altyapısıdır."
+      }, 
       "CELO": {
         "PRIMARY": "Celo, EVM ile tam uyumlu bir proof-of-stake blok zinciridir.",
         "SECONDARY": "CELO ayrıca kullanıcılara native ve native olmayan stablecoin'lere erişim, külfetsiz bir mobil istemci ve gaz ücretinin birden fazla para birimiyle ödenmesi imkanı sunar."
@@ -376,6 +386,10 @@
         "PRIMARY": "Dogecoin, eşler arası açık kaynaklı dijital bir para birimidir.",
         "SECONDARY": "Litecoin'den çatallanarak oluşturulan Dogecoin, popüler \"Doge\" İnternet geyiğine dayanan ve logosunda Shiba Inu olan bir kripto paradır."
       },
+      "DOT": {
+        "PRIMARY": "Polkadot özel ve konsorsiyum zincirlerini, genel ve izin gerektirmeyen ağları, oracle'ları ve henüz icat edilmemiş gelecek teknolojileri bağlamak için tasarlanmıştır. Polkadot, bağımsız blok zincirlerinin Polkadot iletim zinciri aracılığıyla bilgi ve işlemleri güven gerektirmeyen bir şekilde takas edebileceği bir internet ortamını kolaylaştırır.",
+        "SECONDARY": "Polkadot merkezsizleştirilmiş uygulamalar, hizmetler ve kurumlar oluşturmayı ve birbirine bağlamayı her zamankinden daha kolay bir hale getirir. Yenilikçileri daha iyi çözümler oluşturmak için güçlendirerek, toplumun bozuk bir web yapısı içindeki büyük kurumların güvenimizi kötüye kullanabileceği düzene bağlılığını azaltmayı amaçlıyoruz."
+      },
       "DYM": {
         "PRIMARY": "Dymension, RollApps olarak adlandırılan kolayca dağıtılabilir ve ışık hızında uygulama zincirleri için bir yuvadır.",
         "SECONDARY": "Dymension, token'ların ERC ile standartlaştırılmasına benzer şekilde IBC (Blok Zincirler Arası İletişim Protokolü) ile rollup'ları standartlaştırır."
@@ -384,6 +398,10 @@
         "PRIMARY": "Enjin, NFT'leriniz ile kripto paralarınızı yönetmenize ve yeni, hızla büyüyen sanal ekonomiye dahil olmanıza yardımcı olmak için basit ürünler geliştirdi.",
         "SECONDARY": "ENJ, NFT'ler gibi dijital varlıkları desteklemek için kullanılır. Oyunlar, uygulamalar, pazarlar ve cüzdanlar arasında el değiştirirken NFT'leri güçlendirir. Mint'lenmiş (üretilmiş) her varlık ENJ içerir ve \"melting\" (eritme) adı verilen bir işlemle herhangi bir zamanda elde edilebilecek gerçek dünya değeri sağlar."
       },
+      "ENS": {
+        "PRIMARY": "ENS, en yaygın olarak entegre edilmiş olan blok zinciri adlandırma standardıdır.",
+        "SECONDARY": "Ethereum Name Service, Ethereum blok zincirini temel alan dağıtık, açık ve genişletilebilir bir adlandırma sistemidir."
+      }, 
       "EOS": {
         "PRIMARY": "EOSIO; güvenli, uyumlu ve öngörülebilir dijital altyapıları desteklemek ve yönetmek için tasarlanmış, yüksek performanslı açık kaynaklı bir blok zinciri platformudur.",
         "SECONDARY": "Blokzincir yenilikleri ve performans için geliştirilmiş açık kaynaklı bir blokzincir platformu olan EOSIO'yu dünya çapında işletmeler ve geliştiriciler güvenli, şeffaf ve düzenli dijital altyapılar oluşturmak için kullanırlar."
@@ -396,25 +414,85 @@
         "PRIMARY": "Ethereum, merkeziyetsiz uygulamalar için global, açık kaynaklı bir platformdur.",
         "SECONDARY": "Ethereum, 2014 yılında kurulan merkezsizleştirilmiş bir blok zinciri platformudur. Ethereum, tek bir kişi tarafından sahip olunmayan ya da yönetilmeyen, açık kaynaklı bir projedir. Bu da isteyen herkesin her yerde yazılımı indirebileceği ve ağ ile etkileşime girebileceği anlamına gelir. Ethereum, geliştiricilere merkezsizleştirilmiş uygulamalar için altyapıların temel bir parçası olan 'akıllı sözleşmeler' geliştirme ve yönetme olanağı tanır."
       },
+      "FET": {
+        "PRIMARY": "FET, Fetch.ai blok zincirinin yerel token'ıdır.",
+        "SECONDARY": "Fetch.AI, kripto ekonomisine sahip açık, izin gerektirmeyen, merkezi olmayan bir makine öğrenimi ağı inşa eden bir yapay zeka (AI) laboratuvarıdır."
+      },
       "FIL": {
         "PRIMARY": "Filecoin, insanlığın en önemli bilgilerini saklamak için tasarlanmış merkezsizleştirilmiş bir depolama ağıdır.",
         "SECONDARY": "Filecoin ağı, çok sayıda farklı depolama sağlayıcısı ve geliştiriciden oluşur. Bu da sağlam ve güvenilir bir hizmet oluştururken kriptografik kanıtlarla verilerinizin zaman içinde kullanılabilir halde ve değişmeden kalmalarına imkan tanır."
       },
+      "FTM": {
+        "PRIMARY": "FTM, Fantom'un yerel token'ıdır ve platformu yönetmek, ağı güvence altına almak ve işlem ücretlerini ödemek için kullanılır.",
+        "SECONDARY": "Fantom, kendi konsensüs algoritmasını kullanan geliştiricilere merkezi olmayan finans hizmetleri sunan yönlendirilmiş bir akrilik grafik (DAG) akıllı sözleşme platformudur."
+      },
+      "GALA": {
+        "PRIMARY": "GALA token, Gala Games and Entertainment ekosisteminin dijital hizmet token'ıdır.",
+        "SECONDARY": "Gala Games and Entertainment, oyun, müzik ve film endüstrilerinde öncülük etmeye odaklanmış bir eğlence şirketidir. Gala Games and Entertainment, 2019 yılında Zynga'nın kurucu ortaklarından Eric Schiermeyer tarafından kuruldu."
+      },
+      "GMT": {
+        "PRIMARY": "GMT, 6 milyar token'lık sabit arzıyla Find Satoshi Lab (FSL) ekosisteminin yönetişim token'ıdır.",
+        "SECONDARY": "FSL ekosistemi, oyunlarla hareketi teşvik eden ve kullanıcıları aktif ve sağlıklı bir hayat sürdürdükleri için ödüllendiren bir Web3 yaşam tarzı uygulaması olan STEPN'i içerir."
+      },
+      "GRT": {
+        "PRIMARY": "GRT, Graph Network'e güç veren hizmet token'ıdır.",
+        "SECONDARY": "The Graph, blok zinciri verilerini endekslemek ve sorgulamak için merkezi olmayan bir protokoldür. The Graph, doğrudan sorgulanması zor olan verileri sorgulamayı mümkün kılar."
+      },
+      "HBAR": {
+        "PRIMARY": "Hedera, Hedera Hashgraph'ın yerel kripto para birimidir.",
+        "SECONDARY": "Hedera; lidersiz, asenkron Bizans Hata Toleransı (aBFT) hashgraph konsensüs algoritmasını kullanan merkezsiz, açık kaynaklı, hisse kanıtı temelli bir halka açık defterdir."
+      },
       "ICP": {
-        "PRIMARY": "DFINITY Vakfı kâr amacı gütmeyen bir kuruluş olup, akıllı sözleşmeler barındırmak için tasarlanmış bir halka açık blok zincir ağı olan Internet Computer'ı geliştirmektedir.",
-        "SECONDARY": "ICP, platformun native kripto para birimidir."
+        "PRIMARY": "ICP, platformun native kripto para birimidir.",
+        "SECONDARY": "DFINITY Vakfı kâr amacı gütmeyen bir kuruluş olup, akıllı sözleşmeler barındırmak için tasarlanmış bir halka açık blok zincir ağı olan Internet Computer'ı geliştirmektedir."
+      },
+      "IMX": {
+        "PRIMARY": "IMX, Immutable protokollerinin yerel hizmet ve yönetişim token'ıdır.",
+        "SECONDARY": "The Immutable Group, Ethereum üzerinde web3 oyunları oluşturmak ve ölçeklendirmek için bir geliştirici platformu olan Immutable Platform ve Gods Unchained ve Guild of Guardians gibi yapımlarla web3 oyun geliştirme ve yayıncılığı alanında lider olan Immutable Games'ten oluşmaktadır."
+      },
+      "INJ": {
+        "PRIMARY": "INJ, Injective blok zinciri ağının yerel token'ıdır.",
+        "SECONDARY": "Injective, finans için inşa edilmiş bir blok zinciridir. Merkezsiz spot ve türev borsaları, tahmin piyasaları, borç verme protokolleri ve daha fazlası dahil olmak üzere yeni nesil DeFi hizmetlerine güç veren açık, birlikte çalışabilir bir birinci katman blok zinciridir."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter, Solana üzerinde inşa edilmiş önde gelen bir DEX birleştiricisidir",
+        "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
+      },
+      "JTO": {
+        "PRIMARY": "JTO token, Jito Network için yönetişim token'ıdır.",
+        "SECONDARY": "Jito Network, JitoSOL likit staking havuzu ve MEV ürün koleksiyonu aracılığıyla Solana ekosistemine önemli katkılarda bulunmaktadır."
+      },
+      "KAVA": {
+        "PRIMARY": "KAVA, Cosmos SDK ile inşa edilmiş bir blok zinciri ağı olan Kava'nın yerel token'ıdır.",
+        "SECONDARY": "Kava, Cosmos'un hızını ve birlikte çalışabilirliğini Ethereum'un geliştirici gücü ile birleştiren bir Katman-1 blok zinciridir."
       },
       "JUP": {
         "PRIMARY": "Jupiter, Solana üzerinde inşa edilmiş önde gelen bir DEX birleştiricisidir",
         "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
       },
       "LDO": {
-        "PRIMARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır.",
-        "SECONDARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 tokenidir."
+        "PRIMARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 tokenidir.",
+        "SECONDARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır."
       },
       "LTC": {
         "PRIMARY": "Litecoin, dünyadaki herkese anında ve neredeyse sıfır maliyetli ödemeler sağlayan eşler arası bir İnternet para birimidir.",
-        "SECONDARY": "Litecoin, tamamen merkeziyetsiz açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, ticaret hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir ticaret ortamıdır."
+        "SECONDARY": "Litecoin, tamamen merkeziyetsiz açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir trading aracıdır."
+      },
+      "MANA": {
+        "PRIMARY": "MANA, takaslanamaz ERC-721 LAND token'ları elde etmek için yakılması gereken bir ERC-20 token'ıdır. MANA token'ları, Decentraland pazarında bir dizi avatar, giyilebilir ürün, ad ve daha fazlasının ücretini ödemek için de kullanılabilir.",
+        "SECONDARY": "Decentraland (MANA), kullanıcıların içerik oluşturduğu, test ettiği ve içerikten para kazandığı Ethereum blok zincirini temel alan yazılıma sahip merkezi olmayan bir sanal dünya platformudur. Kısacası: Kullanıcılar Decentraland platformunda MANA token'ları ile sanal arsaları NFT olarak satın alırlar."
+      },
+      "MASK": {
+        "PRIMARY": "MASK token sahipleri, MaskDAO adlı merkezi olmayan bir otonom organizasyon aracılığıyla ekosistem girişimlerinde oy kullanabilirler.",
+        "SECONDARY": "Mask Network, popüler sosyal medya platformlarının kullanıcılarının kripto para göndermesine, merkezi olmayan yazılımlarla etkileşime girmesine ve şifreli içerik paylaşmasına olanak tanır."
+      },
+      "MATIC": {
+        "PRIMARY": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
+        "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blok zincirlerinin en iyi özelliklerini bir araya getirir"
+      },
+      "MINA": {
+        "PRIMARY": "MINA, Mina Protokolü'ne güç veren ve yeni hesaplar oluşturmak, işlemler için ödeme yapmak ve ağda stake edilmek için kullanılan bir kripto para birimidir.",
+        "SECONDARY": "Mina Protokolü; düşük yüklü, gizliliği koruyan ve kolayca doğrulanabilir olmayı hedefleyen bir birinci katman blok zinciridir. Mina'daki geliştiriciler, sıfır bilgi kanıtlarına dayalı olarak gizliliği koruyan akıllı sözleşmeler ve merkezi olmayan uygulamalar oluşturabilirler."
       },
       "MKR": {
         "PRIMARY": "Maker Protocol, diğer adıyla Multi-Collateral Dai (MCD) sistemi, kullanıcıların \"Maker Yönetişimi\" ile onaylanmış teminat varlıklarından faydalanarak Dai üretmelerine olanak tanır. Maker Yönetişimi, Maker Protocol'ün çeşitli özelliklerini yönetmek için topluluk tarafından organize edilen ve yönetilen bir süreçtir.",
@@ -432,29 +510,33 @@
         "PRIMARY": "OP Mainnet, Optimism tarafından desteklenen düşük maliyetli ve yıldırım hızında bir Ethereum L2 blok zinciridir.",
         "SECONDARY": "OP Optimism Collective'in yönetişim tokenidir."
       },
+      "ORDI": {
+        "PRIMARY": "ORDI, Ordinal Protocol tarafından oluşturulan ilk BRC-20 token'ıdır.",
+        "SECONDARY": "Ordinal'ler, satoshi'ler (en küçük bitcoin birimi) için tekil sat'ları izlemeye ve aktarmaya olanak tanıyan ve Bitcoin blok zincirinde NFT ve token şeklinde metin ve resimlerin yazılmasını sağlayan bir numaralandırma düzenidir."
+      },
       "PEPE": {
         "PRIMARY": "Pepe bir memecoin'dir.",
         "SECONDARY": "Web sitesine göre Pepe, memecoin'leri yeniden iyi bir konuma getirmek ortaya çıkmıştır."
       },
-      "DOT": {
-        "PRIMARY": "Polkadot özel ve konsorsiyum zincirlerini, genel ve izin gerektirmeyen ağları, oracle'ları ve henüz icat edilmemiş gelecek teknolojileri bağlamak için tasarlanmıştır. Polkadot, bağımsız blok zincirlerinin Polkadot iletim zinciri aracılığıyla bilgi ve işlemleri güven gerektirmeyen bir şekilde takas edebileceği bir internet ortamını kolaylaştırır.",
-        "SECONDARY": "Polkadot merkezsizleştirilmiş uygulamalar, hizmetler ve kurumlar oluşturmayı ve birbirine bağlamayı her zamankinden daha kolay bir hale getirir. Yenilikçileri daha iyi çözümler oluşturmak için güçlendirerek, toplumun bozuk bir web yapısı içindeki büyük kurumların güvenimizi kötüye kullanabileceği düzene bağlılığını azaltmayı amaçlıyoruz."
+      "PYTH": {
+        "PRIMARY": "PYTH, Pyth Network ve ekosistemi için yönetişim token'ıdır.",
+        "SECONDARY": "Pyth, 40'tan fazla blok zincirinde finansal dApp'lere gerçek zamanlı piyasa verileri sunar ve kripto para birimleri, hisse senetleri, ETF'ler, döviz çiftleri ve emtialarda 380'den fazla düşük gecikmeli fiyat akışı sağlar."
       },
-      "MATIC": {
-        "PRIMARY": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
-        "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blok zincirlerinin en iyi özelliklerini bir araya getirir"
-      },
-      "XRP": {
-        "PRIMARY": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
-        "SECONDARY": "XRP, finansal hizmetler alanındaki uygulamalar için en pratik kripto para birimi olmak üzere inşa edilmiş açık kaynaklı bir dijital varlıktır."
+      "RNDR": {
+        "PRIMARY": "RNDR, Render Network'teki sanatçılar tarafından GPU sağlayıcılarından (node operatörleri) GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'ıdır",
+        "SECONDARY": "Render Network, GPU işlem gücüne ihtiyaç duyan sanatçıları ve stüdyoları, GPU kapasitelerini kiralamak isteyen madencilik ortaklarıyla buluşturmayı amaçlayan, Ethereum blok zincirinin üzerine inşa edilmiş dağıtık bir GPU işleme ağıdır."
       },
       "RUNE": {
         "PRIMARY": "Thorchain, merkezsizleştirilmiş ve otonom bir zincirlerarası likidite ağıdır.",
         "SECONDARY": "RUNE, THORChain ekosistemini destekleyen ve ağı ekonomik olarak güvence altına almak için gerekli ekonomik teşvikleri sağlayan varlıktır."
       },
+      "SAND": {
+        "PRIMARY": "SAND, Sandbox platformunun ana hizmet token'ıdır.",
+        "SECONDARY": "Sandbox ekibi, oyuncuların SAND kullanarak oyun deneyimlerini inşa edebilecekleri, sahip olabilecekleri ve paraya dönüştürebilecekleri benzersiz bir sanal dünya inşa ediyor."
+      },
       "SEI": {
-        "PRIMARY": "Sei, dijital varlıkların değişimi için uzmanlaşmış genel amaca yönelik, ve açık kaynaklı bir 1. Katman blok zinciridir.",
-        "SECONDARY": "SEI, SEI ağının yönetişim tokenidir."
+        "PRIMARY": "SEI, SEI ağının yönetişim tokenidir.",
+        "SECONDARY": "Sei, dijital varlıkların değişimi için uzmanlaşmış genel amaca yönelik, ve açık kaynaklı bir 1. Katman blok zinciridir."
       },
       "SHIB": {
         "PRIMARY": "Shiba Inu veya SHIB, Shiba ekosisteminin temel tokenidir, dünya genelinde milyonlarca kişiye merkeziyetsiz, topluluk tarafından yönetilen bir para biriminin gücünü sunar.",
@@ -464,9 +546,9 @@
         "PRIMARY": "Solana, küresel uyarlama için gerekli açık altyapıyı sağlayan hızlı, güvenli ve sansüre dirençli bir blokzincirdir.",
         "SECONDARY": "Solana; yeni, yüksek performanslı ve izin gerektirmeyen bir blok zinciri uygulaması yapan açık kaynaklı bir projedir. Solana Vakfı, İsviçre'nin Cenevre kentinde bulunur ve açık kaynaklı projeyi yönetir."
       },
-      "XLM": {
-        "PRIMARY": "Stellar, açık bir para depolama ve taşıma ağıdır.",
-        "SECONDARY": "Stellar, tüm para cinslerinin dijital temsillerini oluşturmaya, göndermeye ve ticarete konu etmeye olanak tanır: Dolar, peso, bitcoin ve hemen hemen diğer her şey. Tüm dünyanın finansal sistemlerini tek bir ağ üzerinde birlikte çalıştırabilecek şekilde tasarlanmıştır."
+      "STX": {
+        "PRIMARY": "STX, Stacks ağının yerel para birimidir. Bitcoin için akıllı sözleşmeleri beslemek, açık Stacks ağındaki madencileri ödüllendirmek için kullanılır ve sahiplerinin Stacking yaparak bitcoin kazanmalarını sağlar.",
+        "SECONDARY": "Stacks, akıllı sözleşmeler için bir Bitcoin katmanıdır; akıllı sözleşmelerin ve merkezi olmayan uygulanımların Bitcoin'i bir varlık olarak güvenle kullanmasını ve Bitcoin blok zincirindeki işlemleri gerçekleştirmesini sağlar."
       },
       "SUI": {
         "PRIMARY": "Sui, varlık sahipliğini yeniden tanımlayan yenilikçi, merkeziyetsiz bir 1. Katman blok zinciridir.",
@@ -496,9 +578,21 @@
         "PRIMARY": "Uniswap, Ethereum üzerinde otomatik likidite temini için kullanılan merkezsizleştirilmiş bir protokoldür.",
         "SECONDARY": "Uniswap, Ethereum üzerinde ERC-20 token'larının el değiştirmesi için kullanılan bir protokoldür. Güven tabanlı aracıları ve gereksiz rant çıkarma biçimlerini ortadan kaldırarak hızlı ve verimli bir tradinge olanak tanır."
       },
+      "WOO": {
+        "PRIMARY": "WOO stake etmek, WOO Ekosisteminin merkezi olan ve olmayan borsa ürünlerinden özel avantajlar elde etmeye ve değer kazanmaya olanak tanır.",
+        "SECONDARY": "WOO Ekosistemi ürünleri, yatırımcıları, borsaları ve kurumları sınıfının en iyisi olan likiditeye ve alım satım işlemlerine daha düşük veya sıfır maliyetle erişime bağlar."
+      },
       "WLD": {
         "PRIMARY": "Worldcoin protokolü, dünyanın en büyük kimlik ve finansal kamu ağı olarak tasarlanmıştır.",
         "SECONDARY": "Worldcoin, kolaylık sağlayan ve kullanıcılara Worldcoin protokolünün yönüne ilişkin söz hakkı sunan bir tokendir."
+      },
+      "XLM": {
+        "PRIMARY": "Stellar, açık bir para depolama ve taşıma ağıdır.",
+        "SECONDARY": "Stellar, tüm para cinslerinin dijital temsillerini oluşturmaya, göndermeye ve ticarete konu etmeye olanak tanır: Dolar, peso, bitcoin ve hemen hemen diğer her şey. Tüm dünyanın finansal sistemlerini tek bir ağ üzerinde birlikte çalıştırabilecek şekilde tasarlanmıştır."
+      },
+      "XRP": {
+        "PRIMARY": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
+        "SECONDARY": "XRP, finansal hizmetler alanındaki uygulamalar için en pratik kripto para birimi olmak üzere inşa edilmiş açık kaynaklı bir dijital varlıktır."
       },
       "XTZ": {
         "PRIMARY": "Tezos, varlıklar ve uygulamalar için kendini güncelleyerek gelişebilen açık kaynaklı bir platformdur.",
@@ -557,6 +651,7 @@
       "LEDGER": "Ledger",
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
+      "OKX_WALLET": "OKX",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -568,7 +663,9 @@
     "ONBOARDING": {
       "ABOUT_WALLETS": "Cüzdanlar hakkında",
       "AMOUNT_RECEIVED": "Alınan miktar",
+      "ACKNOWLEDGE_RISKS": "Lütfen riskleri kabul edin",
       "ACKNOWLEDGE_TERMS": "Şartları kabul et",
+      "ACKNOWLEDGE_TO_REVEAL": "Görüntülemek için onaylayın",
       "API_KEYS_NOT_FOUND": "API Anahtarı bulunamadı",
       "APPEARS_OUTSIDE_ACCESS": "dYdX'e Amerika Birleşik Devletleri dışından veya yasaklı bir bölgeden erişmek istediğiniz belirlendi. Bu şartları kabul, temsil ve garanti ediyorsunuz:",
       "BRIDGING_TOKENS": "Token köprüleme",
@@ -623,8 +720,9 @@
       "MISSING_KEYS_DESCRIPTION": "Yeniden hoş geldiniz! Anahtarlarınızdan birinin veya daha fazlasının kurtarılması gerekiyor",
       "NEED_A_WALLET": "Cüzdana ihtiyacınız mı var?",
       "NOBLE_ADDRESS": "Noble Adresi",
-      "NOBLE_WARNING": "Bu adres yalnızca Noble USDC'nin Noble zincirine transferini destekler, bu da otomatik olarak dYdX zincirindeki ilgili dYdX adresine kaydırılır. Bu Noble adresini diğer varlıklar için kullanmak fon kaybına neden olabilir.",
-      "NOBLE_ACKNOWLEDGEMENT": "Bu Noble zinciri adresine Noble USDC dışında bir fon göndermenin risklerini anlıyorum.",
+      "NOBLE_SWEEP": "Fonlarınız dYdX adresinize kaydırılacaktır",
+      "NOBLE_ACKNOWLEDGEMENT": "Bu adresin yalnızca Noble Zinciri üzerine Noble USDC transferleri için olduğunu kabul ediyorum. Bu adrese başka fonlar gönderirsem oluşacak riskleri anlıyorum.",
+      "NOBLE_ADDRESS_VALIDATION": "Lütfen geçerli bir Noble adresi girin.",
       "NO_FUTURE_ACCESS": "Amerika Birleşik Devletleri veya yasaklı bir konumda iken gelecekte bu adrese erişmeyecek veya dYdX üzerinde yatırım yapmayacaksınız.",
       "NO_VPN_USE": "Fiziksel konumunuzu yasaklı bir konumdan başka bir yerde göstermek için VPN kullanmıyorsunuz ve gelecekte kullanmayacaksınız.",
       "NOT_A_RESIDENT": "Amerika Birleşik Devletleri veya yasaklı bir konumda ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi olan bir firma ya da kişi değilsiniz.",
@@ -961,6 +1059,7 @@
       "FUNDING_RATE_1H_SHORT": "1 Saatlik Fonlama",
       "FUNDING_RATE": "Tahmini 1 Saatlik Fonlama",
       "GOOD_TIL_DATE_ABBREVIATED": "Geçerlilik",
+      "GOOD_TIL_DATE": "Geçerlilik Süresi",
       "GOOD_TIL_TIME": "Geçerlilik Süresi",
       "GOOD_TIL": "Geçerlilik",
       "HISTORICAL_FUNDING_RATE": "Geçmiş Fonlama Oranı",
@@ -1365,6 +1464,7 @@
       "YOU_CAN_WIN_THESE": "{LEAGUES_LINK} üzerinden bunları kazanabilirsiniz"
     },
     "STAKING_REWARDS": {
+      "LEAVING_WEBSITE_STAKING_GOVERNANCE": "Staking, yönetişim ve web sitesinden ayrılma feragat bildirimi",
       "LIQUID_STAKE_ON_STRIDE": "Stride Üzerinde Likit Stake",
       "LIQUID_STAKING_AND_LEAVING": "Likit stake yapılıyor ve web sitesinden ayrılıyor",
       "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Stride Labs, Inc. (\"Stride\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetin size doğrudan Stride tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetin ve herhangi bir likit stake işleminin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Stride arasında gerçekleşeceğini onaylar ve kabul edersiniz. Bu hizmet ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Stride tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Stride arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
@@ -1372,7 +1472,7 @@
       "LIQUID_STAKE_STRIDE_DESCRIPTION": "{TOKEN_DENOM} tokenlarınızı ekosistemde dağıtabileceğiniz st{TOKEN_DENOM} için stake edin.",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}, Stride Zone'a gidin.",
       "STAKE_WITH_KEPLR": "Keplr ile Stake",
-      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Chainapsis, Inc. (\"Keplr\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetin size doğrudan Keplr tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetin ve herhangi bir likit stake işleminin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Keplr arasında gerçekleşeceğini onaylar ve kabul edersiniz. Bu hizmet ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Keplr tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Keplr arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Chainapsis, Inc. (\"Keplr\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetlerin size doğrudan Keplr tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetlerin ve herhangi bir staking veya yönetişimin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Keplr arasında gerçekleşeceğini kabul ve beyan edersiniz. Bu hizmetler ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Keplr tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Keplr arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
       "STAKING_AND_LEAVING": "Stake etme ve web sitesinden ayrılma feragat bildirimi",
       "STAKING_PAGE_SUBTITLE": "APR kazanmak için stake edin. Stake'den çıkarma 30 güne kadar sürebilir.",
       "STAKING_REWARDS": "Staking Ödülleri"
@@ -1381,25 +1481,25 @@
       "GOVERNANCE_PAGE_SUBTITLE": "Yönetişim tekliflerini oylayarak veya kendi teklifinizi sunarak ekosisteme katılın."
     },
     "TRADING_REWARDS": {
-        "ABOUT": "Hakkında",
-        "EVENT": "Etkinlik",
-        "FOR_TRADING": "Alım satım için {PERIOD}",
-        "FOR_V4":"{SUBJECT} v4 için",
-        "LAUNCH_INCENTIVES":"Lansman Teşvikleri",
-        "LAUNCH_INCENTIVES_DESCRIPTION":"Her sezon, dYdX Zinciri üzerinde işlem yaparak ödüller kazanabilirsiniz. Lider tablosunda yerinizi almak için işlem yapın.",
-        "LEADERBOARD": "Lider Tablosu",
-        "POINTS":"{POINTS} puan",
-        "POWERED_BY":"TARAFINDAN DESTEKLENMEKTEDİR:",
-        "SEASON_ID":"{SEASON_ID}. sezon",
-        "TRADING_REWARD": "Alım Satım Ödülü",
-        "REWARD_HISTORY_DESCRIPTION": "Alım satım ödülleri her bloktan hemen sonra dağıtılırken, geçmiş her beş dakikada bir güncellenir. Alım satım ödülleri geçmişi 27 Ocak 2024 tarihine kadar uzanır.",
-        "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Ödül kazanmak için alım satım yapmaya başlayın.",
-        "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
-        "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tüm yatırımcılar alım satım ödülleri için uygundur.",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Ödüllerimi nasıl alabilirim?",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir."
+      "ABOUT": "Hakkında",
+      "EVENT": "Etkinlik",
+      "FOR_TRADING": "Alım satım için {PERIOD}",
+      "FOR_V4": "{SUBJECT} v4 için",
+      "LAUNCH_INCENTIVES": "Lansman Teşvikleri",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "Her sezon, dYdX Zinciri üzerinde işlem yaparak ödüller kazanabilirsiniz. Lider tablosunda yerinizi almak için işlem yapın.",
+      "LEADERBOARD": "Lider Tablosu",
+      "POINTS": "{POINTS} puan",
+      "POWERED_BY": "TARAFINDAN DESTEKLENMEKTEDİR:",
+      "SEASON_ID": "{SEASON_ID}. sezon",
+      "TRADING_REWARD": "Alım Satım Ödülü",
+      "REWARD_HISTORY_DESCRIPTION": "Alım satım ödülleri her bloktan hemen sonra dağıtılırken, geçmiş her beş dakikada bir güncellenir. Alım satım ödülleri geçmişi {REWARDS_HISTORY_START_DATE} tarihine kadar uzanır.",
+      "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Ödül kazanmak için alım satım yapmaya başlayın.",
+      "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
+      "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tüm yatırımcılar alım satım ödülleri için uygundur.",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Ödüllerimi nasıl alabilirim?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "{EPOCH_NUMBER}. Dönem boyunca {AMOUNT} $DYDX ödülü kazandınız! Ödüllerinizi yönetişim panelinde talep edin.",
