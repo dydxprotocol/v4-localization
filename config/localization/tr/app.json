@@ -466,6 +466,10 @@
         "PRIMARY": "KAVA, Cosmos SDK ile inşa edilmiş bir blok zinciri ağı olan Kava'nın yerel token'ıdır.",
         "SECONDARY": "Kava, Cosmos'un hızını ve birlikte çalışabilirliğini Ethereum'un geliştirici gücü ile birleştiren bir Katman-1 blok zinciridir."
       },
+      "JUP": {
+        "PRIMARY": "Jupiter, Solana üzerinde inşa edilmiş önde gelen bir DEX birleştiricisidir",
+        "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
+      },
       "LDO": {
         "PRIMARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 tokenidir.",
         "SECONDARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır."
