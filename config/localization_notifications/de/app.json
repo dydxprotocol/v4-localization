@@ -12,6 +12,10 @@
       "TITLE": "Position abgewickelt",
       "BODY": "{MARKET} ist geschlossen. Ihre {SIDE}-Position bei {MARKET} hat die Endabrechnung erreicht."
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "Das Incentives-Programm zum {SEASON_NUMBER}Saisonstart hat begonnen!",
+      "BODY": "In der Saison {PREV_SEASON_NUMBER}verdienten die meisten Trader mindestens  {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
+    },
     "OFFSETTING": {
       "TITLE": "Positionsverrechnung",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde verwendet, um eine entschuldete Position auszugleichen."
