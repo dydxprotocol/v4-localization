@@ -105,10 +105,12 @@
       "DISCOUNT": "Desconto",
       "DISMISS": "Dispensar",
       "DONE": "Feito",
+      "DOWNLOAD_MOBILE_APP": "Baixar aplicativo móvel",
       "DYDX_CHAIN_ADDRESS": "Endereço de cadeia dYdX",
       "DYDX_CHAIN": "Cadeia dYdX",
       "EARNED": "Ganho",
       "EDIT": "Editar",
+      "EG": "ex.:",
       "EMAIL": "E-mail",
       "ENDED": "Encerrado",
       "EQUITY": "Equity",
@@ -144,9 +146,11 @@
       "INCREASED": "aumentou",
       "INCREASING": "Aumento",
       "INITIAL_MARGIN_FRACTION": "Fração de margem inicial",
+      "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Inicialização",
       "KEEP_TRADING": "Continuar negociando",
       "LANGUAGE": "Idioma",
+      "LARGE_CAP": "Large-cap",
       "LAYER_1": "Layer 1",
       "LEARN_MORE": "Saiba mais",
       "LEARN_MORE_ARROW": "Saiba mais →",
@@ -155,7 +159,9 @@
       "LEVERAGE": "Alavancagem",
       "LIVE": "Ativo",
       "LONG_POSITION_SHORT": "Long",
+      "LONG_TAIL": "Long-tail",
       "MAINTENANCE_MARGIN_FRACTION": "Fração da margem de manutenção",
+      "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "Fazer 1 trade",
       "MANAGE_FUNDS": "Gerenciar fundos",
       "MARGIN_USAGE": "Uso de margem",
@@ -171,6 +177,7 @@
       "MAXIMUM_REWARDS": "Recompensas estimadas",
       "MENU": "Menu",
       "METRICS": "Métricas",
+      "MID_CAP": "Mid-cap",
       "MIGRATE": "Migrar",
       "MINE": "Meu",
       "MINIMUM_ORDER_SIZE": "Tamanho de ordem mínimo",
@@ -222,8 +229,10 @@
       "REWARDS": "Recompensas",
       "REWARDED": "Recompensado",
       "REWARD_HISTORY": "Histórico de recompensas",
+      "SAFETY": "Segurança",
       "SAVE": "Salvar",
       "SAVED": "Salvo",
+      "SCAN_TO_DOWNLOAD": "Escaneie para baixar o app",
       "SELECT_ASSET": "Selecione um ativo",
       "SELECT_CHAIN": "Selecione uma cadeia",
       "SELL": "Vender",
@@ -305,6 +314,14 @@
         "PRIMARY": "A Aave é um protocolo de código aberto, sem custódia, usado para ganhar juros a partir de depósitos e ativos emprestados.",
         "SECONDARY": "A Aave é um protocolo de mercado de liquidez descentralizado, sem custódia, no qual os usuários participam como depositantes ou tomadores. Os depositantes fornecem liquidez ao mercado para ganhar renda passiva. Já os tomadores podem fazer empréstimos de um modo sobrecolateralizado (perpétuo) ou subcolateralizados (liquidez de um bloco)."
       },
+      "ADA": {
+        "PRIMARY": "A Cardano é uma plataforma blockchain de prova de participação (proof-of-stake, em inglês): é a primeira a ser baseada em pesquisas revisadas por pares e desenvolvida por meio de métodos baseados em evidências. Ela combina tecnologias pioneiras para fornecer segurança e sustentabilidade inigualáveis a aplicativos, sistemas e sociedades descentralizadas.",
+        "SECONDARY": "Com uma equipe de engenheiros líderes do setor, a Cardano tem como finalidade redistribuir o poder de estruturas autônomas para as margens — isto é, os indivíduos — e ser uma força capacitadora para mudanças e progresso positivos."
+      },
+      "AGIX": {
+        "PRIMARY": "SingularityNET é um mercado de IA descentralizado rodando em blockchain.",
+        "SECONDARY": "A SingularityNET é uma plataforma baseada em blockchain que permite que qualquer pessoa crie, compartilhe e monetize facilmente serviços de IA, graças ao seu mercado de IA globalmente acessível."
+      },
       "ALGO": {
         "PRIMARY": "A Algorand remove as barreiras técnicas que, por anos, atrapalharam a adoção geral da blockchain: descentralização, escala e segurança.",
         "SECONDARY": "A Algorand usa um mecanismo de consenso de Prova de Participação (PoS) pura, sem necessidade de autorização, o que garante a participação completa, proteção e velocidade dentro de uma rede verdadeiramente descentralizada. Além disso, a Algorando é a primeira blockchain a oferecer a finalidade de transações imediatas junto a uma taxa de até 1.000 transações por segundo."
@@ -337,10 +354,14 @@
         "PRIMARY": "BLUR é um mercado de NFT.",
         "SECONDARY": "O token BLUR é o token de governança do protocolo BLUR."
       },
-      "ADA": {
-        "PRIMARY": "A Cardano é uma plataforma blockchain de prova de participação (proof-of-stake, em inglês): é a primeira a ser baseada em pesquisas revisadas por pares e desenvolvida por meio de métodos baseados em evidências. Ela combina tecnologias pioneiras para fornecer segurança e sustentabilidade inigualáveis a aplicativos, sistemas e sociedades descentralizadas.",
-        "SECONDARY": "Com uma equipe de engenheiros líderes do setor, a Cardano tem como finalidade redistribuir o poder de estruturas autônomas para as margens — isto é, os indivíduos — e ser uma força capacitadora para mudanças e progresso positivos."
+      "BNB": {
+        "PRIMARY": "BNB é a moeda da Cadeia Binance.",
+        "SECONDARY": "A Binance é um ecossistema exclusivo de redes descentralizadas e baseadas em blockchain, incluindo a Cadeia Binance."
       },
+      "CHZ": {
+        "PRIMARY": "CHZ é o token digital nativo para o ecossistema de esportes e entretenimento Chiliz.",
+        "SECONDARY": "A Chiliz Chain é uma infraestrutura para esportes, atraindo equipes, fãs e desenvolvedores, para criar produtos e experiências web3 que reúnam fãs e marcas."
+      }, 
       "CELO": {
         "PRIMARY": "A Celo é uma blockchain de proof of stake que oferece compatibilidade completa com a EVM.",
         "SECONDARY": "A CELO também oferece aos usuários acesso a stablecoins nativas e não nativas, além de um cliente móvel ultraleve e tarifas que podem ser pagas em várias moedas."
@@ -365,10 +386,22 @@
         "PRIMARY": "A Dogecoin é uma moeda digital peer-to-peer de código aberto.",
         "SECONDARY": "Sendo um fork da Litecoin, a Dogecoin é uma criptomoeda baseada no popular meme da Internet \"Doge\", que possui um Shiba Inu em seu logotipo."
       },
+      "DOT": {
+        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende de confiança, através da Relay Chain da Polkadot.",
+        "SECONDARY": "A Polkadot torna mais fácil do que nunca criar e conectar aplicativos, serviços e instituições descentralizadas. Ao capacitar aqueles que querem inovar a criar soluções melhores, buscamos libertar a sociedade de sua dependência de uma web fragilizada onde grandes instituições não possam violar nossa confiança."
+      },
+      "DYM": {
+        "PRIMARY": "A Dymension é a casa para cadeias de aplicativos fáceis de implantar e muito rápidos, chamados RollApps.",
+        "SECONDARY": "A Dymension padroniza rollups com IBC (Inter-Blockchain Communication Protocol), semelhante à forma como os tokens foram padronizados com ERC."
+      },
       "ENJ": {
         "PRIMARY": "A Enjin criou produtos simples para ajudar você a gerenciar suas NFTs e criptomoedas e se envolver com a nova economia virtual em rápido crescimento.",
         "SECONDARY": "A ENJ é usada para introduzir ativos digitais como NFTs. Ela dá vida às NFTs [do inglês “Non-fungible tokens”, Tokens não fungíveis) à medida que se movimentam por jogos, apps, marketplaces e carteiras. Todo ativo criado (minted, em inglês) contém ENJ, o que a dá a ele um valor no mundo real que pode ser recuperado a qualquer momento por meio do \"melting\"."
       },
+      "ENS": {
+        "PRIMARY": "ENS é o padrão de nomenclatura blockchain mais amplamente integrado.",
+        "SECONDARY": "O Ethereum Name Service é um sistema de nomenclatura distribuído, aberto e extensível, baseado na blockchain Ethereum."
+      }, 
       "EOS": {
         "PRIMARY": "A EOSIO é uma plataforma blockchain de código aberto de alto desempenho, desenvolvida para dar suporte e operar infraestruturas digitais seguras, em conformidade e previsíveis.",
         "SECONDARY": "Uma plataforma de código aberto para inovação e desempenho na blockchain — empresas e desenvolvedores em todo o mundo usam a EOSIO para criar infraestruturas digitais seguras, transparentes e determinísticas."
@@ -381,24 +414,88 @@
         "PRIMARY": "O Ethereum é uma plataforma global de código aberto para aplicações descentralizadas.",
         "SECONDARY": "O Ethereum é uma plataforma blockchain descentralizada fundada em 2014. Ele é um projeto de código aberto que não é de propriedade nem é operado por um único indivíduo. Isso indica que qualquer pessoa, de qualquer lugar, pode baixar o software e começar a interagir com a rede. O Ethereum permite que os desenvolvedores façam e operem os chamados “contratos inteligentes”, uma parte essencial da infraestrutura em qualquer aplicação descentralizada."
       },
+      "FET": {
+        "PRIMARY": "FET é o token nativo da blockchain Fetch.ai.",
+        "SECONDARY": "Fetch.AI é um laboratório de inteligência artificial (IA) que constrói uma rede de aprendizado de máquina aberta, sem permissões e descentralizada com uma economia de crypto."
+      },
       "FIL": {
         "PRIMARY": "A Filecoin é uma rede de armazenamento descentralizada projetada para armazenar as informações mais importantes da humanidade.",
         "SECONDARY": "A rede Filecoin é composta por um grande número de provedores de armazenamento e desenvolvedores. Isso cria um serviço robusto e confiável, ao passo que as provas criptográficas garantem que seus dados permaneçam disponíveis e inalterados ao longo do tempo."
       },
+      "FTM": {
+        "PRIMARY": "FTM é o token nativo da Fantom e é usado para governar a plataforma, proteger a rede e pagar pelas taxas de transações.",
+        "SECONDARY": "Fantom é uma plataforma de contrato inteligente de gráfico acrílico direcionado (DAG) que fornece serviços descentralizados de finanças para desenvolvedores, usando seu próprio algoritmo de consenso."
+      },
+      "GALA": {
+        "PRIMARY": "O token GALA é de utilidade digital do ecossistema Gala Games and Entertainment.",
+        "SECONDARY": "A Gala Games and Entertainment é uma empresa de entretenimento focada em ser pioneira nas indústrias de jogos, música e filmes. A Gala Games and Entertainment foi fundada em 2019 por Eric Schiermeyer, um dos co-fundadores da Zynga."
+      },
+      "GMT": {
+        "PRIMARY": "GMT é o token de governança do ecossistema Find Satoshi Lab (FSL), com um suprimento fixo de 6 bilhões de tokens.",
+        "SECONDARY": "O ecossistema FSL inclui STEPN, que é um aplicativo de estilo de vida Web3 que gamifica movimentos e recompensa os usuários por liderarem um estilo de vida ativo e saudável."
+      },
+      "GRT": {
+        "PRIMARY": "GRT é o token de utilidade que alimenta a Rede Graph.",
+        "SECONDARY": "O Graph é um protocolo descentralizado para indexação e consulta de dados blockchain. O Graph torna possível consultar dados que são difíceis de consultar diretamente."
+      },
+      "HBAR": {
+        "PRIMARY": "Hedera é a criptomoeda nativa da Hedera Hashgraph.",
+        "SECONDARY": "A Hedera é um livro público de proof-of-stake descentralizado, de código aberto, que utiliza o algoritmo de consenso de hashgraph de tolerância a falhas bizantinas sem liderança e assíncrono (aBFT)."
+      },
       "ICP": {
-        "PRIMARY": "A DFINITY é uma organização sem fins lucrativos que desenvolve a Internet Computer, uma rede de blockchain pública projetada para hospedar contratos inteligentes.",
-        "SECONDARY": "A ICP é a criptomoeda nativa da plataforma."
+        "PRIMARY": "A ICP é a criptomoeda nativa da plataforma.",
+        "SECONDARY": "A DFINITY é uma organização sem fins lucrativos que desenvolve a Internet Computer, uma rede de blockchain pública projetada para hospedar contratos inteligentes."
+      },
+      "IMX": {
+        "PRIMARY": "IMX é o token de utilidade e governança nativo dos protocolos Immutable.",
+        "SECONDARY": "O Grupo Immutable consiste na Plataforma Immutable, uma plataforma de desenvolvimento e escalonamento de jogos web3 na Ethereum, e a Immutable Games, líder em desenvolvimento e publicação de jogos web3 com títulos como Gods Unchained e Guild of Guardians."
+      },
+      "INJ": {
+        "PRIMARY": "INJ é o token nativo da rede blockchain Injective.",
+        "SECONDARY": "Injective é uma blockchain desenvolvida para finanças. É uma blockchain aberta e interoperável de camada um, que alimenta aplicativos DeFi de próxima geração, incluindo exchanges descentralizadas de derivativos, mercados de previsão, protocolos de empréstimo e muito mais."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter é um agregador DEX líder, desenvolvido em Solana",
+        "SECONDARY": "A Jupiter está construindo a infraestrutura de swap da Solana. A Jupiter tem como objetivo entregar o melhor preço, a melhor seleção de tokens e a melhor UX para usuários e desenvolvedores."
+      },
+      "JTO": {
+        "PRIMARY": "O token JTO é o token de governança para a Rede Jito.",
+        "SECONDARY": "A Rede Jito é uma das principais contribuintes para o ecossistema Solana, por meio de seu pool de staking líquido JitoSOL e sua coleção de produtos MEV."
+      },
+      "KAVA": {
+        "PRIMARY": "KAVA é o token nativo da Kava, uma rede blockchain desenvolvida com o SDK Cosmos.",
+        "SECONDARY": "Kava é uma blockchain de Layer-1 que combina a velocidade e a interoperabilidade da Cosmos com o poder de desenvolvimento da Ethereum."
+      },
+      "JUP": {
+        "PRIMARY": "Jupiter é um agregador DEX líder, desenvolvido em Solana",
+        "SECONDARY": "A Jupiter está construindo a infraestrutura de swap da Solana. A Jupiter tem como objetivo entregar o melhor preço, a melhor seleção de tokens e a melhor UX para usuários e desenvolvedores."
       },
       "LDO": {
-        "PRIMARY": "Lido é o nome de uma família de ferramentas de software peer-to-system de código aberto, implantadas e funcionando nas redes blockchain Ethereum, Solana e Polygon.",
-        "SECONDARY": "LDO é um token ERC20 que permite participar do processo de governança do Lido DAO."
+        "PRIMARY": "LDO é um token ERC20 que permite participar do processo de governança do Lido DAO.",
+        "SECONDARY": "Lido é o nome de uma família de ferramentas de software peer-to-system de código aberto, implantadas e funcionando nas redes blockchain Ethereum, Solana e Polygon."
       },
       "LTC": {
         "PRIMARY": "A Litecoin é uma moeda peer-to-peer da Internet que permite pagamentos instantâneos de baixo custo a qualquer pessoa do mundo.",
-        "SECONDARY": "O Litecoin é uma rede de pagamento global de código aberto, que é totalmente descentralizada. O Litecoin possui tempos de confirmação de transação e eficiência de armazenamento aprimorada mais rápidos do que qualquer outra criptomoeda. Devido à adoção do setor, volume de trades e liquidez, o Litecoin se provou como um meio de negociação complementar ao Bitcoin."
+        "SECONDARY": "O Litecoin é uma rede de pagamento global de código aberto, que é totalmente descentralizada. O Litecoin possui tempos de confirmação de transação e eficiência de armazenamento aprimorada mais rápidos do que qualquer outra criptomoeda. Devido à adoção do setor, volume de trades e liquidez, o Litecoin é um meio comprovado de negociação complementar ao Bitcoin."
+      },
+      "MANA": {
+        "PRIMARY": "MANA é um token ERC-20 que deve ser queimado para adquirir tokens LAND ERC-721 não fungíveis. Os tokens MANA também podem ser usados para pagar por uma variedade de avatares, wearables, nomes e muito mais, no mercado Decentraland.",
+        "SECONDARY": "A Decentraland (MANA) é uma plataforma de mundo virtual descentralizada com software baseado na blockchain Ethereum, onde os usuários criam, testam e monetizam conteúdo. Em suma: os usuários compram lotes virtuais de terrenos como NFTs, com tokens MANA na plataforma Decentraland."
+      },
+      "MASK": {
+        "PRIMARY": "Os detentores de token MASK podem votar em iniciativas do ecossistema por meio de uma organização autônoma descentralizada chamada MaskDAO.",
+        "SECONDARY": "A rede Mask permite que os usuários de plataformas populares de mídia social enviem criptomoedas, interajam com aplicativos descentralizados e compartilhem conteúdo criptografado."
+      },
+      "MATIC": {
+        "PRIMARY": "A Polygon é um protocolo e um framework para a criação e conexão de redes blockchain compatíveis com o Ethereum. Agregando soluções escalonáveis na rede Ethereum, dando suporte a um ecossistema Ethereum multi-chain.",
+        "SECONDARY": "A Polygon combina o melhor das blockchains Ethereum e soberanas em um sistema multi-chain aberto, seguro e completo, capaz de se beneficiar totalmente dos impactos da rede Ethereum."
+      },
+      "MINA": {
+        "PRIMARY": "MINA é uma criptomoeda que alimenta o protocolo Mina e é usada para configurar novas contas, pagar por transações e pode ser staked na rede.",
+        "SECONDARY": "O protocolo Mina é uma blockchain de camada um, que visa ser leve, preservar a privacidade e facilmente verificável. Os desenvolvedores na Mina podem criar contratos inteligentes que preservam a privacidade e aplicativos descentralizados com base em provas de conhecimento zero."
       },
       "MKR": {
-        "PRIMARY": "O Maker Protocol, também conhecido como o sistema Multi-Collateral Dai (MCD), permite que os usuários gerem Dai aproveitando ativos colaterais aprovados pela “Maker Governance”. A Maker Governance é o processo operado e organizado pela comunidade, que faz o gerenciamento de vários aspectos do Maker Protocol. ",
+        "PRIMARY": "O Maker Protocol, também conhecido como o sistema Multi-Collateral Dai (MCD), permite que os usuários gerem Dai, aproveitando ativos em garantia aprovados pela “Maker Governance”. A Maker Governance é o processo operado e organizado pela comunidade, que faz o gerenciamento de vários aspectos do protocolo Maker. ",
         "SECONDARY": "A Dai é uma criptomoeda descentralizada, imparcial, respaldada por garantias e atrelada ao dólar americano. Resistente à hiperinflação devido à sua baixa volatilidade, a Dai oferece liberdade econômica e oportunidade todos, em qualquer lugar."
       },
       "XMR": {
@@ -413,29 +510,33 @@
         "PRIMARY": "OP Mainnet é uma blockchain Ethereum L2 de baixo custo e ultrarrápida, mantida pela Optimism.",
         "SECONDARY": "OP é o token de governança do Optimism Collective."
       },
+      "ORDI": {
+        "PRIMARY": "ORDI é o primeiro token BRC-20 criado pelo protocolo Ordinal.",
+        "SECONDARY": "Ordinals são um esquema de numeração para satoshis (a menor unidade de bitcoin) que permite o rastreamento e a transferência de sats individuais e permite a inscrição de texto e imagens na forma de NFT e token na blockchain Bitcoin."
+      },
       "PEPE": {
         "PRIMARY": "Pepe é uma memecoin.",
         "SECONDARY": "De acordo com seu site, Pepe chegou para tornar as memecoins legais de novo."
       },
-      "DOT": {
-        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende de confiança, através da Relay Chain da Polkadot.",
-        "SECONDARY": "A Polkadot torna mais fácil do que nunca criar e conectar aplicativos, serviços e instituições descentralizadas. Ao capacitar aqueles que querem inovar a criar soluções melhores, buscamos libertar a sociedade de sua dependência de uma web fragilizada onde grandes instituições não possam violar nossa confiança."
+      "PYTH": {
+        "PRIMARY": "PYTH é o token de governança para a Rede Pyth e seu ecossistema.",
+        "SECONDARY": "A Pyth fornece dados de mercado em tempo real para dApps financeiros em mais de 40 blockchains e fornece mais de 380 feeds de preços de baixa latência em criptomoedas, ações, ETFs, pares FX e commodities."
       },
-      "MATIC": {
-        "PRIMARY": "A Polygon é um protocolo e um framework para a criação e conexão de redes blockchain compatíveis com o Ethereum. Agregando soluções escalonáveis na rede Ethereum, dando suporte a um ecossistema Ethereum multi-chain.",
-        "SECONDARY": "A Polygon combina o melhor das blockchains Ethereum e soberanas em um sistema multi-chain aberto, seguro e completo, capaz de se beneficiar totalmente dos impactos da rede Ethereum."
-      },
-      "XRP": {
-        "PRIMARY": "Ripple é uma rede projetada para liquidar pagamentos transfronteiriços.",
-        "SECONDARY": "XRP é um ativo digital de código aberto, desenvolvido para ser a criptomoeda mais prática para aplicações em todo o espaço de serviços financeiros."
+      "RNDR": {
+        "PRIMARY": "RNDR é um token de utilidade ERC-20 usado por artistas na Rede Render para trocar por poder de processamento GPU de provedores de GPU (operadores de nó)",
+        "SECONDARY": "A rede Render é uma rede de renderização por GPU distribuída, criada com base na blockchain Ethereum, com o objetivo de conectar artistas e estúdios que precisam de poder de processamento de GPU com parceiros de mineração dispostos a alugar suas capacidades de GPU."
       },
       "RUNE": {
         "PRIMARY": "A Thorchain é uma rede de liquidez entre diferentes chains descentralizada e autônoma.",
         "SECONDARY": "A RUNE é o ativo que alimenta o ecossistema da THORChain e oferece os incentivos econômicos necessários para proteger a rede do ponto de vista econômico."
       },
+      "SAND": {
+        "PRIMARY": "SAND é o principal token de utilidade da plataforma Sandbox.",
+        "SECONDARY": "A equipe Sandbox está desenvolvendo um mundo virtual único, onde os jogadores podem criar, possuir e monetizar suas experiências de jogos usando SAND."
+      },
       "SEI": {
-        "PRIMARY": "Sei é uma blockchain de uso geral, código aberto Layer 1, especializada na troca de ativos digitais.",
-        "SECONDARY": "SEI é o token de governança da rede SEI."
+        "PRIMARY": "SEI é o token de governança da rede SEI.",
+        "SECONDARY": "Sei é uma blockchain de uso geral, código aberto Layer 1, especializada na troca de ativos digitais."
       },
       "SHIB": {
         "PRIMARY": "Shiba Inu, ou SHIB, é o principal token do ecossistema Shiba, trazendo o poder de uma moeda descentralizada e liderada pela comunidade para milhões de pessoas em todo o mundo.",
@@ -445,9 +546,9 @@
         "PRIMARY": "A Solana é uma blockchain rápida, segura e anticensura que fornece a infraestrutura aberta necessária para uma adoção global.",
         "SECONDARY": "A Solana é um projeto de código aberto que implementa uma nova blockchain de alto desempenho, sem necessidade de autorização. A Fundação Solana é sediada em Genebra, na Suíça, onde é mantido o projeto de código aberto."
       },
-      "XLM": {
-        "PRIMARY": "A Stellar é uma rede aberta para armazenar e movimentar dinheiro.",
-        "SECONDARY": "A Stellar possibilita criar, enviar e negociar representações digitais de todas as moedas: dólares, pesos, bitcoin, praticamente qualquer coisa. Ela foi projetada para que todos os sistemas financeiros do mundo possam trabalhar em conjunto em uma única rede."
+      "STX": {
+        "PRIMARY": "STX é a moeda nativa da rede Stacks. É usada para alimentar contratos inteligentes para Bitcoin, para recompensar os mineradores na rede Stacks aberta e permite que os detentores ganhem bitcoin por Stacking.",
+        "SECONDARY": "Stacks é uma camada Bitcoin para contratos inteligentes. Ela permite que contratos inteligentes e aplicativos descentralizados usem Bitcoin de forma confiável como um ativo e liquidam transações na blockchain Bitcoin."
       },
       "SUI": {
         "PRIMARY": "Sui é um blockchain inovador e descentralizado de Layer 1 que redefine a propriedade do ativo.",
@@ -477,9 +578,21 @@
         "PRIMARY": "A Uniswap é um protocolo descentralizado para a provisão de liquidez automatizada na rede Ethereum.",
         "SECONDARY": "A Uniswap é um protocolo para a troca de tokens ERC-20 no Ethereum. Isso elimina intermediários confiáveis e formas desnecessárias de taxação, permitindo trades rápidos e eficientes."
       },
+      "WOO": {
+        "PRIMARY": "A STAKING WOO desbloqueia benefícios exclusivos e captura de valor de todos os produtos de exchange centralizados e descentralizados do ecossistema WOO.",
+        "SECONDARY": "Os produtos WOO Ecosystem conectam traders, exchanges e instituições com acesso à liquidez best-in-class e execução de trading a preços mais baixos ou zero."
+      },
       "WLD": {
         "PRIMARY": "O protocolo Worldcoin pretende ser a maior rede pública de identidade e finanças do mundo.",
         "SECONDARY": "Worldcoin é um token que fornece utilidade e dá aos usuários uma palavra sobre a direção do protocolo Worldcoin."
+      },
+      "XLM": {
+        "PRIMARY": "A Stellar é uma rede aberta para armazenar e movimentar dinheiro.",
+        "SECONDARY": "A Stellar possibilita criar, enviar e negociar representações digitais de todas as moedas: dólares, pesos, bitcoin, praticamente qualquer coisa. Ela foi projetada para que todos os sistemas financeiros do mundo possam trabalhar em conjunto em uma única rede."
+      },
+      "XRP": {
+        "PRIMARY": "Ripple é uma rede projetada para liquidar pagamentos transfronteiriços.",
+        "SECONDARY": "XRP é um ativo digital de código aberto, desenvolvido para ser a criptomoeda mais prática para aplicações em todo o espaço de serviços financeiros."
       },
       "XTZ": {
         "PRIMARY": "Tezos é uma plataforma de código aberto para ativos e aplicativos que podem evoluir atualizando-se por conta própria.",
@@ -492,6 +605,10 @@
       "ZEC": {
         "PRIMARY": "O Zcash é uma moeda digital rápida e confidencial com taxas baixas. ",
         "SECONDARY": "O Zcash oferece a opção de transações confidenciais e privacidade financeira através de endereços protegidos. As provas de conhecimento zero permitem que as transações sejam verificadas sem revelar o valor da transação, aquele que a envia ou recebe. Os recursos de abertura seletiva no Zcash permitem que um usuário compartilhe alguns detalhes da transação, para fins de conformidade ou auditoria."
+      },
+      "ZETA": {
+        "PRIMARY": "ZetaChain é uma nova L1 que tem embutida a interoperabilidade agnóstica de cadeia.",
+        "SECONDARY": "A ZetaChain é uma plataforma de blockchain pública, descentralizada e de contratos inteligentes, que permite a passagem de mensagens e a transferência de valores entre qualquer blockchain."
       }
     },
     "HEADER": {
@@ -534,6 +651,7 @@
       "LEDGER": "Ledger",
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
+      "OKX_WALLET": "OKX",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -545,7 +663,9 @@
     "ONBOARDING": {
       "ABOUT_WALLETS": "Sobre as carteiras",
       "AMOUNT_RECEIVED": "Valor recebido",
+      "ACKNOWLEDGE_RISKS": "Reconheça os riscos",
       "ACKNOWLEDGE_TERMS": "Confirmar termos",
+      "ACKNOWLEDGE_TO_REVEAL": "Reconheça para revelar",
       "API_KEYS_NOT_FOUND": "Chave de API não encontrada",
       "APPEARS_OUTSIDE_ACCESS": "Parece que você está acessando a dYdX de fora dos Estados Unidos ou de um território restrito. Você concorda, representa e garante que:",
       "BRIDGING_TOKENS": "Bridging de tokens",
@@ -600,8 +720,9 @@
       "MISSING_KEYS_DESCRIPTION": "Boas-vindas de volta! Uma ou mais de suas chaves precisam ser recuperadas",
       "NEED_A_WALLET": "Precisa de uma carteira?",
       "NOBLE_ADDRESS": "Endereço Noble",
-      "NOBLE_WARNING": "Esse endereço suporta apenas transferências de Noble USDC para a cadeia Noble, que serão automaticamente varridas para o endereço dYdX correspondente na cadeia dYdX. Usar esse endereço Noble para quaisquer outros assets pode resultar em uma perda de fundos.",
-      "NOBLE_ACKNOWLEDGEMENT": "Entendo os riscos se enviar fundos que não sejam Noble USDC para esse endereço de cadeia Noble.",
+      "NOBLE_SWEEP": "Os fundos serão varridos para seu endereço dYdX",
+      "NOBLE_ACKNOWLEDGEMENT": "Reconheço que esse endereço é apenas para transferências Noble USDC para a Cadeia Noble. Entendo os riscos de enviar outros fundos para esse endereço.",
+      "NOBLE_ADDRESS_VALIDATION": "Digite um endereço Noble válido.",
       "NO_FUTURE_ACCESS": "Você não acessará este site ou os trades da dYdX enquanto estiver dentro dos Estados Unidos ou de um local restrito.",
       "NO_VPN_USE": "Você não está usando e nem usará, no futuro, uma VPN para mascarar sua localização física de um local restrito.",
       "NOT_A_RESIDENT": "Você não é uma pessoa ou empresa residente ou que está localizado, incorporada ou que tem um agente registrado nos Estados Unidos ou em um local restrito.",
@@ -938,6 +1059,7 @@
       "FUNDING_RATE_1H_SHORT": "Financiamento de 1h",
       "FUNDING_RATE": "Financiamento estimado em 1h",
       "GOOD_TIL_DATE_ABBREVIATED": "Good Til",
+      "GOOD_TIL_DATE": "Good Til Date",
       "GOOD_TIL_TIME": "Good Til Time",
       "GOOD_TIL": "Good Til",
       "HISTORICAL_FUNDING_RATE": "Taxa de financiamento histórica",
@@ -1341,26 +1463,43 @@
       "USERS_REFERRED": "Indicação de usuários",
       "YOU_CAN_WIN_THESE": "Você pode ganhar um desses em nossa {LEAGUES_LINK}"
     },
+    "STAKING_REWARDS": {
+      "LEAVING_WEBSITE_STAKING_GOVERNANCE": "Isenção de responsabilidade de staking, governança e saída do site",
+      "LIQUID_STAKE_ON_STRIDE": "Stake líquido na Stride",
+      "LIQUID_STAKING_AND_LEAVING": "Fazendo liquid staking e saindo do site",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "Ao selecionar “{CTA}”, abaixo, você reconhece e concorda que (a) você sairá do nosso site e entrará em um site disponibilizado pela Stride Labs, Inc. (“Stride”), que é independente e não afiliado ao host e à operadora deste site (a “Operadora”); (b) este serviço é fornecido a você diretamente pela Stride e não envolve a Operadora; (c) este serviço e qualquer staking líquido ocorre fora do site da Operadora; e (d) qualquer transação ou transmissão de valores ocorrerá diretamente entre você e a Stride. Esse serviço não está disponível para pessoas localizadas nos EUA, Canadá ou em territórios restritos. Você também concorda que qualquer informação solicitada pela Stride não é fornecida à Operadora e que você não responsabilizará a Operadora por qualquer aspecto de qualquer transação ou transmissão entre você e a Stride. Nada no site da Operadora constitui, nem deve ser interpretado ou confiado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimentos ou consultoria ou conselho de qualquer outra natureza, e você concorda que é responsável por conduzir pesquisas independentes, realizar a devida diligência e contratar um consultor profissional antes de tomar qualquer ação financeira, fiscal, legal ou de investimento relacionada a qualquer uma das ações acima.",
+      "LIQUID_STAKE_W_STRIDE": "Staking líquido com a Stride",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "Faça o staking de seus{TOKEN_DENOM} tokens para st{TOKEN_DENOM}, que você pode implantar em todo o ecossistema.",
+      "NAVIGATE_TO_STRIDE": "{STRONG_YES}, navegue até a Stride Zone.",
+      "STAKE_WITH_KEPLR": "Staking com a Keplr",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Ao selecionar “{CTA}”, abaixo, você reconhece e concorda que (a) você sairá do nosso site e entrará em um site disponibilizado pela Chainapsis, Inc. (“Keplr”), que é independente e não afiliada ao host e à operadora deste site (a “Operadora”); (b) esses serviços são fornecidos a você diretamente pela Keplr e não envolvem a Operadora; (c) esses serviços e qualquer staking ou governança ocorrem fora do site da Operadora; e (d) qualquer transação ou transmissão de valores ocorrerá diretamente entre você e a Keplr. Esses serviços não estão disponíveis para pessoas localizadas nos EUA, Canadá ou territórios restritos. Você também concorda que qualquer informação solicitada pela Keplr não é fornecida à Operadora e que você não responsabilizará a Operadora por qualquer aspecto de qualquer transação ou transmissão entre você e a Keplr. Nada no site da Operadora constitui, nem deve ser interpretado ou confiado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimentos ou consultoria ou conselho de qualquer outra natureza, e você concorda que é responsável por conduzir pesquisas independentes, realizar a devida diligência e contratar um consultor profissional antes de tomar qualquer ação financeira, fiscal, legal ou de investimento relacionada a qualquer uma das ações acima.",
+      "STAKING_AND_LEAVING": "Isenção de responsabilidade de staking e saída do site",
+      "STAKING_PAGE_SUBTITLE": "Stake para receber APR. A remoção de staking pode levar até 30 dias.",
+      "STAKING_REWARDS": "Recompensas de staking"
+    },
+    "TOKEN_GOVERNANCE": {
+      "GOVERNANCE_PAGE_SUBTITLE": "Participe do ecossistema votando nas propostas de governança ou enviando as suas."
+    },
     "TRADING_REWARDS": {
-        "ABOUT": "Sobre",
-        "EVENT": "Evento",
-        "FOR_TRADING": "Para trading em {PERIOD}",
-        "FOR_V4":"{SUBJECT} para v4",
-        "LAUNCH_INCENTIVES":"Incentivos de lançamento",
-        "LAUNCH_INCENTIVES_DESCRIPTION":"A cada temporada, você pode ganhar recompensas por fazer negociações na Cadeia dYdX. Faça trades para ganhar seu lugar na tabela de liderança.",
-        "LEADERBOARD": "Tabela de liderança",
-        "POINTS":"{POINTS} pontos",
-        "POWERED_BY":"DESENVOLVIDO POR",
-        "SEASON_ID":"Temporada {SEASON_ID}",
-        "TRADING_REWARD": "Recompensa de trading",
-        "REWARD_HISTORY_DESCRIPTION": "As recompensas são distribuídas após cada bloco.",
-        "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Comece a fazer trades para ganhar recompensas.",
-        "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Quem é elegível para as recompensas de trades?",
-        "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Todos os traders são elegíveis para recompensas de trading.",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Como as recompensas de trading funcionam?",
-        "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Imediatamente após cada preenchimento, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader, com base no valor de taxas pagas pelo trader.",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas?",
-        "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "A cada bloco, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader."
+      "ABOUT": "Sobre",
+      "EVENT": "Evento",
+      "FOR_TRADING": "Para trading em {PERIOD}",
+      "FOR_V4": "{SUBJECT} para v4",
+      "LAUNCH_INCENTIVES": "Incentivos de lançamento",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "A cada temporada, você pode ganhar recompensas por fazer negociações na Cadeia dYdX. Faça trades para ganhar seu lugar na tabela de liderança.",
+      "LEADERBOARD": "Tabela de liderança",
+      "POINTS": "{POINTS} pontos",
+      "POWERED_BY": "DESENVOLVIDO POR",
+      "SEASON_ID": "Temporada {SEASON_ID}",
+      "TRADING_REWARD": "Recompensa de trading",
+      "REWARD_HISTORY_DESCRIPTION": "Embora as recompensas de trading sejam distribuídas imediatamente após cada bloco, o histórico é atualizado a cada cinco minutos. O histórico de recompensas de trading vai até {REWARDS_HISTORY_START_DATE}.",
+      "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Comece a fazer trades para ganhar recompensas.",
+      "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Quem é elegível para as recompensas de trades?",
+      "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Todos os traders são elegíveis para recompensas de trading.",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Como as recompensas de trading funcionam?",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Imediatamente após cada preenchimento, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader, com base no valor de taxas pagas pelo trader.",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "A cada bloco, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "Você ganhou {AMOUNT} $DYDX em recompensas durante a Epoch {EPOCH_NUMBER}! Reivindique suas recompensas no painel de controle.",
@@ -1581,6 +1720,7 @@
       "POPULATED_DETAILS": "Detalhes populados",
       "PREVIEW_MARKET_PROPOSAL": "Pré-visualizar proposta de mercado",
       "PROPOSAL_DISCLAIMER": "Quando você enviar uma proposta, {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} será deduzido da sua carteira. Após a votação de governança, esses tokens serão devolvidos à sua carteira, exceto se a proposta for vetada.",
+      "PROPOSAL_DISCLAIMER_1": "O envio de uma proposta requer {NUM_TOKENS_REQUIRED} não staked {NATIVE_TOKEN_DENOM}. Seu {NATIVE_TOKEN_DENOM} será bloqueado pela duração da proposta. Clique em {HERE} para mais detalhes.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Sua proposta foi enviada onchain com sucesso.",
       "PROPOSE_NEW_MARKET": "Propor novo mercado",
       "REFERENCE_PRICE": "Preço de referência",

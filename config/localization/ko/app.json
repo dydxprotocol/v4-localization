@@ -466,6 +466,10 @@
         "PRIMARY": "KAVA는 Cosmos SDK로 구축된 블록체인 네트워크인 Kava의 네이티브 토큰입니다.",
         "SECONDARY": "Kava는 Cosmos의 속도 및 상호 운용성과 이더리움의 개발자 능력을 결합하는 레이어 1 블록체인입니다."
       },
+      "JUP": {
+        "PRIMARY": "Jupiter는 Solana에서 구축된 선도적인 DEX 애그리게이터입니다",
+        "SECONDARY": "Jupiter는 Solana의 스왑 인프라를 구축하고 있습니다. Jupiter는 사용자와 개발자를 위해 최고의 가격, 최고의 토큰 선택, 최고의 UX를 제공하는 것을 목표로 합니다."
+      },
       "LDO": {
         "PRIMARY": "LDO는 Lido DAO의 거버넌스 프로세스에 참여할 수 있는 ERC20 토큰입니다.",
         "SECONDARY": "Lido는 이더리움, 솔라나, 폴리곤 블록체인 네트워크에 배치되고 작동하는 오픈 소스 피어-투-시스템 소프트웨어 도구 제품군의 이름입니다."
