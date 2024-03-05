@@ -187,6 +187,14 @@
       "TITLE": "Step Size",
       "BODY": "Step size is the smallest factor allowed for order amounts on this market."
     },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss Above Liquidation Price",
+      "BODY": "The stop-loss price has risen above the liquidation price. This can happen due to funding changes, due to withdrawing funds, or due to changing margin requirements."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss Below Liquidation Price",
+      "BODY": "The stop-loss price has fallen below the liquidation price. This can happen due to funding changes, due to withdrawing funds, or due to changing margin requirements."
+    },
     "TAKER_FEE": {
       "TITLE": "Taker Fee",
       "BODY": "Trades that take liquidity from the book (e.g. market or crossing limit orders) execute as taker orders. Taker orders have a higher fee than maker orders."
