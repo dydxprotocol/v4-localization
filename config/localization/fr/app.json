@@ -466,6 +466,10 @@
         "PRIMARY": "KAVA est le jeton natif de Kava, un réseau blockchain construit avec le SDK Cosmos.",
         "SECONDARY": "Kava est une blockchain de niveau 1 qui combine la vitesse et l'interopérabilité de Cosmos avec la puissance de développement d'Ethereum."
       },
+      "JUP": {
+        "PRIMARY": "Jupiter est un agrégateur principal DEX basé sur Solana",
+        "SECONDARY": "Jupiter construit l'infrastructure de swap de Solana. Jupiter vise à proposerr le meilleur prix, la meilleure sélection de jetons et la meilleure UX pour les utilisateurs et les développeurs."
+      },
       "LDO": {
         "PRIMARY": "LDO est un jeton ERC20 qui donne la possibilité de participer au processus de gouvernance de la DAO Lido.",
         "SECONDARY": "Lido est le nom d’une famille d’outils logiciels open-source peer-to-system déployés et fonctionnant sur les réseaux blockchain Ethereum, Solana et Polygon."
