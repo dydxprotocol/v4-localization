@@ -466,6 +466,10 @@
         "PRIMARY": "KAVA é o token nativo da Kava, uma rede blockchain desenvolvida com o SDK Cosmos.",
         "SECONDARY": "Kava é uma blockchain de Layer-1 que combina a velocidade e a interoperabilidade da Cosmos com o poder de desenvolvimento da Ethereum."
       },
+      "JUP": {
+        "PRIMARY": "Jupiter é um agregador DEX líder, desenvolvido em Solana",
+        "SECONDARY": "A Jupiter está construindo a infraestrutura de swap da Solana. A Jupiter tem como objetivo entregar o melhor preço, a melhor seleção de tokens e a melhor UX para usuários e desenvolvedores."
+      },
       "LDO": {
         "PRIMARY": "LDO é um token ERC20 que permite participar do processo de governança do Lido DAO.",
         "SECONDARY": "Lido é o nome de uma família de ferramentas de software peer-to-system de código aberto, implantadas e funcionando nas redes blockchain Ethereum, Solana e Polygon."
