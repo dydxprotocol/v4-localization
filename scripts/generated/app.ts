@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -380,6 +380,7 @@ export const APP_STRING_KEYS = {
     MAXIMUM_LEVERAGE: 'APP.GENERAL.MAXIMUM_LEVERAGE',
     MAXIMUM_REWARDS: 'APP.GENERAL.MAXIMUM_REWARDS',
     MAX_WITHDRAW: 'APP.GENERAL.MAX_WITHDRAW',
+    MEME: 'APP.GENERAL.MEME',
     MENU: 'APP.GENERAL.MENU',
     METRICS: 'APP.GENERAL.METRICS',
     MID_CAP: 'APP.GENERAL.MID_CAP',
