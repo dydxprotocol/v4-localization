@@ -12,6 +12,10 @@
       "TITLE": "Posição estabelecida",
       "BODY": "{MARKET} foi fechado. Sua posição {SIDE} em {MARKET} atingiu a liquidação final."
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
+      "BODY": "Na temporada {PREV_SEASON_NUMBER}, a maioria dos traders ganhou pelo menos {DYDX_AMOUNT} DYDX (~ {USDC_AMOUNT} USDC)!"
+    },
     "OFFSETTING": {
       "TITLE": "Compensação de posição",
       "BODY": "Sua posição {SIDE} em {MARKET} foi usada para compensar uma posição desalavancada."

@@ -12,6 +12,10 @@
       "TITLE": "決済されたポジション",
       "BODY": "{MARKET}はクローズされました。{MARKET}の{SIDE}ポジションは最終決済に達しました。"
     },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "シーズン{SEASON_NUMBER}の発売奨励プログラムが始まりました！",
+      "BODY": "シーズン{PREV_SEASON_NUMBER}では、ほとんどのトレーダーが少なくとも{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）を獲得しました！"
+    },
     "OFFSETTING": {
       "TITLE": "オフセットポジション",
       "BODY": "{MARKET}の{SIDE}ポジションは、レバレッジ解消されたポジションを相殺するために使用されました。"
