@@ -345,6 +345,10 @@
         "PRIMARY": "ApeCoin is the ecosystem’s governance token, allowing ApeCoin holders to participate in ApeCoin DAO.",
         "SECONDARY": "ApeCoin is the ecosystem’s utility token, giving all its participants a shared and open currency that can be used without centralized intermediaries."
       },
+      "API3": {
+        "PRIMARY": "API3 is an Ethereum token that powers the API3 project and is used to govern the API3 DAO and to vote on project upgrades.",
+        "SECONDARY": "API3 builds solutions that bridge the gap between off-chain data and on-chain applications with maximal security and minimal latency. API's dAPIs are aggregated from first-party oracles directly on the native chain."
+      },
       "APT": {
         "PRIMARY": "Aptos is a layer-1 blockchain designed to be scalable, secure, and easy to use.",
         "SECONDARY": "Aptos is designed to handle a large number of transactions per second and uses a proof-of-stake consensus mechanism."
@@ -357,6 +361,10 @@
         "PRIMARY": "Avalanche is an open-source platform for launching highly decentralized applications, new financial primitives, and new interoperable blockchains.",
         "SECONDARY": "Developers who build on Avalanche can easily create powerful, reliable, and secure applications and custom blockchain networks with complex rulesets, or build on existing private or public subnets."
       },
+      "AXL": {
+        "PRIMARY": "AXL is the native utility token that powers secure cross-chain communication on the Axelar ecosystem.",
+        "SECONDARY": "Axelar is an interoperability solution, and provides the infrastructure needed for seamless and secure cross-chain communication among decentralized applications."
+      },
       "BCH": {
         "PRIMARY": "With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year. Like the Internet itself, the network is always on.",
         "SECONDARY": "Bitcoin Cash offers more privacy and anonymity than traditional payment systems like bank transfers and credit card payments, since it’s normally impossible to know who controls a Bitcoin address. Bitcoin Cash offers various levels of privacy depending on how it is used. It’s important to educate yourself thoroughly before using BCH for privacy purposes."
@@ -368,6 +376,10 @@
       "BLUR": {
         "PRIMARY": "BLUR is a NFT marketplace.",
         "SECONDARY": "The BLUR token is the governance token of BLUR protocol."
+      },
+      "BONK": {
+        "PRIMARY": "BONK is the first dog-themed coin on Solana for the people, by the people.",
+        "SECONDARY": "The main goal of the team is to bring back liquidity to Solana-based decentralized exchanges (DEXs)."
       },
       "BNB": {
         "PRIMARY": "BNB is the currency of Binance Chain.",
@@ -489,6 +501,10 @@
         "PRIMARY": "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.",
         "SECONDARY": "Litecoin is an open source, global payment network that is fully decentralized. Litecoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Litecoin is a proven medium of commerce complementary to Bitcoin."
       },
+      "MAGIC": {
+        "PRIMARY": "MAGIC is the utility token of Treasure, a decentralized gaming ecosystem built on Arbitrum.",
+        "SECONDARY": "MAGIC tokens are used in gameplay, to participate in governance, to buy and sell NFTs on the Treasure marketplace, and can also be staked."
+      },
       "MANA": {
         "PRIMARY": "MANA is an ERC-20 token that must be burned to acquire non-fungible ERC-721 LAND tokens. MANA tokens can also be used to pay for a range of avatars, wearables, names, and more on the Decentraland marketplace.",
         "SECONDARY": "Decentraland (MANA) is a decentralized virtual world platform with software based on the Ethereum blockchain, where users create, test and monetize content. In short: users buy virtual plots of land as NFTs with MANA tokens on the Decentraland platform."
@@ -501,6 +517,10 @@
         "PRIMARY": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.",
         "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects"
       },
+      "MEME": {
+        "PRIMARY": "According to its website, Memecoin (MEME) is literally a meme coin.",
+        "SECONDARY": "Memeland is the web3 venture studio by 9GAG, the globally popular meme platform."
+      },
       "MINA": {
         "PRIMARY": "MINA is a cryptocurrency that powers Mina Protocol and is used to set up new accounts, pay for transactions, and can be staked on the network.",
         "SECONDARY": "Mina Protocol is a layer one blockchain that aims to be lightweight, privacy-preserving, and easily verifiable. Developers on Mina can build privacy-preserving smart contracts and decentralized applications based on zero-knowledge proofs."
@@ -509,13 +529,13 @@
         "PRIMARY": "The Maker Protocol, also known as the Multi-Collateral Dai (MCD) system, allows users to generate Dai by leveraging collateral assets approved by “Maker Governance.” Maker Governance is the community organized and operated process of managing the various aspects of the Maker Protocol.",
         "SECONDARY": "Dai is a decentralized, unbiased, collateral-backed cryptocurrency soft-pegged to the US Dollar. Resistant to hyperinflation due to its low volatility, Dai offers economic freedom and opportunity to anyone, anywhere."
       },
-      "XMR": {
-        "PRIMARY": "Monero is the leading cryptocurrency focused on private and censorship-resistant transactions.",
-        "SECONDARY": "Unlike selectively transparent alternatives (e.g. Zcash), Monero is the only cryptocurrency where every user is anonymous by default. The sender, receiver, and amount of every single transaction are hidden through the use of three important technologies: Stealth Addresses, Ring Signatures, and RingCT."
-      },
       "NEAR": {
         "PRIMARY": "NEAR is a development platform built on a sharded, proof-of-stake, layer-one blockchain designed for usability.",
         "SECONDARY": "The NEAR token is used to secure the network via its proof-of-stake mechanism."
+      },
+      "OCEAN": {
+        "PRIMARY": "Ocean's Data Farming incentives program enables OCEAN holders to earn by locking OCEAN, and curating data.",
+        "SECONDARY": "Ocean Protocol utilizes a combination of blockchain technology, decentralized networks, and cryptographic techniques to facilitate secure and privacy-preserving data sharing."
       },
       "OP": {
         "PRIMARY": "OP Mainnet is a low-cost and lightning-fast Ethereum L2 blockchain powered by Optimism.",
@@ -528,6 +548,10 @@
       "PEPE": {
         "PRIMARY": "Pepe is a memecoin.",
         "SECONDARY": "According to its website, Pepe is here to make memecoins great again."
+      },
+      "PORTAL": {
+        "PRIMARY": "$portal is the native platform coin for the portal platform. $portal acts as a nexus of web3 games and gamers, providing game distribution and player simplicity for all.",
+        "SECONDARY": "Portal aims to unite games and gamers from various blockchain networks on its cross-chain token platform, establishing a united Web3 gaming ecosystem."
       },
       "PYTH": {
         "PRIMARY": "PYTH is the governance token for the Pyth Network and its ecosystem.",
@@ -560,6 +584,10 @@
       "STX": {
         "PRIMARY": "STX is the native currency of the Stacks network. It’s used to fuel smart contracts for Bitcoin, to reward miners on the open Stacks network, and enables holders to earn bitcoin by Stacking.",
         "SECONDARY": "Stacks is a Bitcoin layer for smart contracts; it enables smart contracts and decentralized applications to trustlessly use Bitcoin as an asset and settle transactions on the Bitcoin blockchain."
+      },
+      "STRK": {
+        "PRIMARY": "Starknet Token will be used for paying transaction fees, and shaping the long-term evolution of the Starknet protocol through participation in governance votes.",
+        "SECONDARY": "StarkNet is a permissionless decentralized Validity-Rollup (also known as a “ZK-Rollup”). It operates as an L2 network over Ethereum, enabling any dApp to achieve unlimited scale for its computation – without compromising Ethereum’s composability and security, thanks to StarkNet’s reliance on the safest and most scalable cryptographic proof system – STARK."
       },
       "SUI": {
         "PRIMARY": "Sui is an innovative, decentralized Layer 1 blockchain that redefines asset ownership.",
@@ -600,6 +628,10 @@
       "XLM": {
         "PRIMARY": "Stellar is an open network for storing and moving money.",
         "SECONDARY": "Stellar makes it possible to create, send, and trade digital representations of all forms of money: dollars, pesos, bitcoin, pretty much anything. It’s designed so all the world’s financial systems can work together on a single network."
+      },
+      "XMR": {
+        "PRIMARY": "Monero is the leading cryptocurrency focused on private and censorship-resistant transactions.",
+        "SECONDARY": "Unlike selectively transparent alternatives (e.g. Zcash), Monero is the only cryptocurrency where every user is anonymous by default. The sender, receiver, and amount of every single transaction are hidden through the use of three important technologies: Stealth Addresses, Ring Signatures, and RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple is a network designed to settle cross border payments.",
