@@ -397,6 +397,12 @@
       "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
     }
   },
+  "RATE_APP": {
+    "YES": "Yes",
+    "NO": "Not really",
+    "DEFER": "Dismiss",
+    "QUESTION": "Are you enjoying dYdX?"
+  },
   "FORCED_UPDATE": {
     "TITLE": "Update",
     "TEXT": "This version is no longer supported. Please update to the latest version.",
