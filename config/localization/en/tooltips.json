@@ -205,7 +205,7 @@
     },
     "STOP_LOSS": {
       "TITLE": "Stop Loss",
-      "BODY": "Protects against losses by closing a trader’s position once the oracle price crosses the trigger price.",
+      "BODY": "Protects against losses by closing a trader’s position once the oracle price crosses the trigger price."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss Above Liquidation Price",
