@@ -39,6 +39,10 @@
       "TITLE": "Buying Power",
       "BODY": "Total available buying power to increase your position on {MARKET}. Your buying power will change based on the market you have selected."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Custom Amount",
+      "BODY": "Adjusting your custom amount will apply to both Take Profit and Stop Loss orders."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Default Execution",
       "BODY": "Your order will fill any crossing orders at the time of opening. If your order is not fully filled, it will remain open until it is filled, cancelled, or expires."
@@ -90,6 +94,10 @@
     "LIMIT_PRICE": {
       "TITLE": "Limit Price",
       "BODY": "This order can only be filled at the specified limit price or better. If your order crosses at the time of placement, your order will fill any crossing orders at the most favorable price."
+    },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Limit Price",
+      "BODY": "By identifying a limit price, you are placing a Take Profit Limit Order and/or a Stop Limit Order. Click {DOCUMENTATION_LINK} for more details."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -151,6 +159,14 @@
       "TITLE": "Order Amount",
       "BODY": "Amount of {SYMBOL} in USD to buy or sell. This is the amount your position will increase or decrease by when the order is filled, not your resulting position amount."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "Stop Loss is a Partial Close",
+      "BODY": "Your stop loss is not configured to close your entire position. This could be because you set a custom amount, or because you have changed your position size after adding this trigger."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Take Profit is a Partial Close",
+      "BODY": "Your take profit is not configured to close your entire position. This could be because you set a custom amount, or because you have changed your position size after adding this trigger."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
@@ -187,6 +203,10 @@
       "TITLE": "Step Size",
       "BODY": "Step size is the smallest factor allowed for order amounts on this market."
     },
+    "STOP_LOSS": {
+      "TITLE": "Stop Loss",
+      "BODY": "Protects against losses by closing a trader’s position once the oracle price crosses the trigger price.",
+    },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss Above Liquidation Price",
       "BODY": "The stop-loss price has risen above the liquidation price. This can happen due to funding changes, due to withdrawing funds, or due to changing margin requirements."
@@ -198,6 +218,10 @@
     "TAKER_FEE": {
       "TITLE": "Taker Fee",
       "BODY": "Trades that take liquidity from the book (e.g. market or crossing limit orders) execute as taker orders. Taker orders have a higher fee than maker orders."
+    },
+    "TAKE_PROFIT": {
+      "TITLE": "Take Profit",
+      "BODY": "Allows traders to set targets and protects profits on positions by specifying a price at which to close an open position for profit."
     },
     "TICK_SIZE": {
       "TITLE": "Tick Size",
