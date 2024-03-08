@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "Deposit in progress",
       "IN_PROGRESS_TEXT": "Your deposit of {AMOUNT_ELEMENT} has been submitted. This can take a few minutes.",
       "COMPLETED_TITLE": "Deposit completed",
-      "COMPLETED_TEXT": "Your deposit has been confirmed. Your funds are now available for instant trading on dYdX. Now get going!"
+      "COMPLETED_TEXT": "Your deposit has been confirmed. Your funds are now available for instant trading on dYdX. Now get going!",
+      "MOBILE_WALLET_REQUIRED": "Please connect your mobile wallet to deposit."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Checking withdrawal status ...",
