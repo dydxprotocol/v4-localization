@@ -401,7 +401,7 @@
       "CHZ": {
         "PRIMARY": "CHZ is the native digital token for the Chiliz sports & entertainment ecosystem.",
         "SECONDARY": "Chiliz Chain is an infrastructure for sports, attracting teams, fans, and developers, to build web3 products and experiences that bring fans and brands together."
-      }, 
+      },
       "CELO": {
         "PRIMARY": "Celo is a proof-of-stake blockchain that offers full EVM compatibility.",
         "SECONDARY": "CELO also offers users access to native and non-native stablecoins, an ultralight mobile client, and gas payable in multiple currencies."
@@ -441,7 +441,7 @@
       "ENS": {
         "PRIMARY": "ENS is the most widely integrated blockchain naming standard.",
         "SECONDARY": "The Ethereum Name Service is a distributed, open, and extensible naming system based on the Ethereum blockchain."
-      }, 
+      },
       "EOS": {
         "PRIMARY": "EOSIO is a highly performant open-source blockchain platform, built to support and operate safe, compliant, and predictable digital infrastructures.",
         "SECONDARY": "An open-source platform for blockchain innovation and performance - businesses and developers around the world use EOSIO to create secure, transparent, and deterministic digital infrastructures."
@@ -1404,6 +1404,8 @@
       "ADJUSTED_IMR": "Adjusted Margin",
       "ADJUSTED_IMR_BODY": "We have temporarily {ACTION} the Initial Margin Requirements on {MARKET} to {PERCENT} due to volatility. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Block Reward",
+      "CHAIN_DISRUPTION_DETECTED": "Chain disruption detected",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "Trading and transferring is disabled as orders may fail or be delayed due to dYdX Chain disruption. Please wait and try again later. Your funds are safe.",
       "CLOSE_MARKET_POSITIONS": "Close your {MARKET} position",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} is set to close only mode and the close price of {MARKET} is now fixed. Please close your open {MARKET} position as soon as you are able. We're here to help via the help chat if you run into issues.",
       "COMPLIANCE_ALERT": "Compliance alert",
@@ -1427,6 +1429,8 @@
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "An error occured during your sign in with Magic. Please try again.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "Maintenance margin requirements {ACTION} at {PERCENT}%.",
       "NOTIFICATIONS_EMPTY_STATE": "You have no notifications.",
+      "ORDERBOOK_LAGGING": "Orderbook lagging",
+      "ORDERBOOK_LAGGING_BODY": "Orderbook and pricing data may be outdated due to system delays. Market and short-term orders face a higher risk of encountering price discrepancies at the time of execution. Transactions and account information could also be delayed.",
       "OUT_OF_TEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS} of 10 confirmations",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS} of 14 confirmations",
       "PERMANENTLY_BLOCKED": "Permanently blocked",
@@ -1438,6 +1442,7 @@
       "SLOW_WITHDRAW_AVAILABLE": "Slow withdraw ready",
       "SLOW_WITHDRAW_PENDING_DESCRIPTION": "You have {AMOUNT_ELEMENT} in pending slow withdraws. You will receive a notification when your funds have been confirmed on Layer 2.",
       "SLOW_WITHDRAW_PENDING": "Slow withdraw(s) pending",
+      "STATUS_PAGE": "Status page",
       "SUSPICIOUS_TRADE": "Suspicious activity",
       "SUSPICIOUS_TRADE_BODY": "We have noticed suspicious trading activity related to your account on dYdX, including potential wash trading activity. We will be reviewing your activity on an ongoing basis. If we notice similar activity in the future, then you will be permanently blocked from performing transfers within the protocol and from placing orders other than market orders that reduce your positions.",
       "TRANSFER_STATUS": {
