@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1493,9 +1493,11 @@ export const APP_STRING_KEYS = {
     LIMIT_PRICE_TOOLTIP: 'APP.TRIGGERS_MODAL.LIMIT_PRICE_TOOLTIP',
     MULTIPLE_ORDERS_FOUND: 'APP.TRIGGERS_MODAL.MULTIPLE_ORDERS_FOUND',
     PRICE_TRIGGERS: 'APP.TRIGGERS_MODAL.PRICE_TRIGGERS',
+    SL_LIMIT: 'APP.TRIGGERS_MODAL.SL_LIMIT',
     SL_PRICE: 'APP.TRIGGERS_MODAL.SL_PRICE',
     STOP_LOSS_TOOLTIP: 'APP.TRIGGERS_MODAL.STOP_LOSS_TOOLTIP',
     TAKE_PROFIT_TOOLTIP: 'APP.TRIGGERS_MODAL.TAKE_PROFIT_TOOLTIP',
+    TP_LIMIT: 'APP.TRIGGERS_MODAL.TP_LIMIT',
     TP_PRICE: 'APP.TRIGGERS_MODAL.TP_PRICE',
 
     // USER_SURVEY
