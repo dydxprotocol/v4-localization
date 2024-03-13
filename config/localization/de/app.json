@@ -652,6 +652,8 @@
       "CLOVER_WALLET": "Clover Wallet",
       "COINBASE_WALLET": "Coinbase Wallet",
       "COIN98": "Coin98",
+      "DISCORD": "Discord",
+      "EMAIL": "Email",
       "HUOBI_WALLET": "iToken",
       "IMTOKEN": "imToken",
       "KEPLR": "Keplr",
@@ -665,6 +667,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "TWITTER": "Twitter",
       "OTHER_WALLET": "Andere"
     },
     "ONBOARDING": {
