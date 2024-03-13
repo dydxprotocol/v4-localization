@@ -45,9 +45,11 @@
       "ACTIVE": "Ativo",
       "ADDRESS": "Endereço",
       "ADVANCED": "Avançado",
+      "AI": "IA",
       "ALERTS": "Alerta",
       "ALL_MARKETS": "Todos os mercados",
       "ALL": "Todos",
+      "ALLOWED": "Permitidos",
       "AMOUNT": "Quantia",
       "ANONYMOUS": "Anônimo",
       "ARE_UNCHANGED": "não alterado",
@@ -87,10 +89,12 @@
       "CREATED_AT": "Criado em",
       "CURRENT": "Atual",
       "CUSTOM": "Personalizado",
+      "CUSTOM_AMOUNT": "Valor personalizado",
       "DAILY": "Diário",
       "DECREASED": "diminuiu",
       "DECREASING": "Redução",
       "DEFAULT": "Padrão",
+      "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "Padrão para todos os mercados em posições\/ordens\/ordens executadas",
       "DEFI": "DeFi",
       "DEGRADED": "Degradado",
       "DEPOSIT_FUNDS": "Depositar fundos",
@@ -129,6 +133,8 @@
       "FREE": "Grátis",
       "FROM_TO": "de {FROM} a {TO}",
       "FUNDING_RATE_CHART_SHORT": "Financiamento",
+      "GAIN": "Ganho",
+      "GAMING": "Jogo",
       "GAS_FEE": "Taxa de gás",
       "GASLESS_DEPOSITS": "Depósitos sem taxas",
       "GENERAL": "Geral",
@@ -152,6 +158,7 @@
       "LANGUAGE": "Idioma",
       "LARGE_CAP": "Large-cap",
       "LAYER_1": "Layer 1",
+      "LAYER_2": "Segunda camada (L2)",
       "LEARN_MORE": "Saiba mais",
       "LEARN_MORE_ARROW": "Saiba mais →",
       "LEARN": "Aprender",
@@ -182,10 +189,13 @@
       "MINE": "Meu",
       "MINIMUM_ORDER_SIZE": "Tamanho de ordem mínimo",
       "MODIFY": "Modificar",
+      "MULTIPLE": "Múltipla",
       "NETWORK": "Rede",
       "NEW": "Novo",
+      "NFT": "NFT",
       "NO": "Não",
       "NONE": "Nenhum",
+      "NOT_ALLOWED": "Não permitido",
       "ON_CHAIN": "em {CHAIN}",
       "OPERATIONAL": "Operacional",
       "OPTIONAL": "Opcional",
@@ -293,6 +303,7 @@
       "VIEW": "Ver",
       "VIEWS": "Visualizações",
       "VOLUME_30D": "Volume (30d)",
+      "VOTING_LIVE": "Votação ao vivo",
       "WALLET_BALANCE": "Saldo da carteira",
       "WALLET": "Carteira",
       "WEBSITE": "Site",
@@ -348,7 +359,7 @@
       },
       "BTC": {
         "PRIMARY": "O Bitcoin é uma moeda digital descentralizada, sem um banco central ou entidade administradora única, que pode ser enviada de usuário para usuário na rede peer-to-peer do Bitcoin, sem a necessidade de intermediários.",
-        "SECONDARY": "As transações são verificadas por nós de rede por meio de criptografia e registradas em um livro razão distribuído público chamado blockchain. Bitcoins são criados como uma recompensa por um processo conhecido como mineração. Eles podem ser trocados por outras moedas, produtos e serviços."
+        "SECONDARY": "As transações são verificadas por uma rede de nós por meio de criptografia e registradas em um livro razão distribuído público chamado de blockchain. Bitcoins são criados como uma recompensa por um processo conhecido como mineração. Eles podem ser trocados por outras moedas, produtos e serviços."
       },
       "BLUR": {
         "PRIMARY": "BLUR é um mercado de NFT.",
@@ -465,10 +476,6 @@
       "KAVA": {
         "PRIMARY": "KAVA é o token nativo da Kava, uma rede blockchain desenvolvida com o SDK Cosmos.",
         "SECONDARY": "Kava é uma blockchain de Layer-1 que combina a velocidade e a interoperabilidade da Cosmos com o poder de desenvolvimento da Ethereum."
-      },
-      "JUP": {
-        "PRIMARY": "Jupiter é um agregador DEX líder, desenvolvido em Solana",
-        "SECONDARY": "A Jupiter está construindo a infraestrutura de swap da Solana. A Jupiter tem como objetivo entregar o melhor preço, a melhor seleção de tokens e a melhor UX para usuários e desenvolvedores."
       },
       "LDO": {
         "PRIMARY": "LDO é um token ERC20 que permite participar do processo de governança do Lido DAO.",
@@ -819,6 +826,36 @@
       "LEAVING_WEBSITE_DESCRIPTION": "Ao prosseguir, você sairá do nosso site e entrará em um site disponibilizado por terceiros, que é independente e não afiliado a nós.",
       "LEAVING_WEBSITE_DISCLAIMER": "Não somos responsáveis por qualquer ação ou conteúdo presente no site de terceiros"
     },
+    "CLOSE_POSITIONS_CONFIRMATION_TOAST": {
+      "AVERAGE_PRICE": "Preço médio",
+      "CLOSE_ALL": "Fechar tudo",
+      "FAILED_TO_CLOSE": "Falha ao fechar",
+      "FAILED_TO_CLOSE_SINGLE_POSITION_EXPLANATION": "Ocorreu um erro inesperado ao tentar fechar sua posição. Atualize seu navegador e tente novamente.",
+      "FAILED_TO_CLOSE_MULTI_POSITION_EXPLANATION": "Ocorreu um erro inesperado ao tentar fechar suas posições. Atualize seu navegador e tente novamente.",
+      "INSUFFICIENT_LIQUIDITY": "Liquidez insuficiente",
+      "INSUFFICIENT_LIQUIDITY_SINGLE_POSITION_EXPLANATION": "Não há liquidez suficiente para fechar totalmente essa posição. Tente um valor menor ou repita a tentativa mais tarde.",
+      "INSUFFICIENT_LIQUIDITY_MULTI_POSITION_EXPLANATION": "Não há liquidez suficiente para fechar as seguintes posições: {LIST_OF_POSITIONS}. Tente novamente mais tarde.",
+      "PARTIAL": "Parcial",
+      "PARTIAL_FILL": "Execução parcial",
+      "POSITIONS_CLOSED": "Posições fechadas",
+      "VIEW_ORDERS": "Ver ordens"
+    },
+    "CLOSE_POSITIONS_MODAL": {
+      "ARE_YOU_SURE_CLOSE_SINGLE_POSITION": "Tem certeza de que deseja fechar sua posição em {MARKET} ({MARKET_ABBREVIATION})?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION": "Tem certeza de que deseja fechar suas posições abertas por meio de ordens de mercado?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION_ALL": "Tem certeza de que deseja fechar todas as suas posições abertas por meio de ordens de mercado?",
+      "CLOSE_ALL": "Fechar tudo permitido",
+      "CLOSE_ALL_POSITIONS": "Fechar todas as posições",
+      "CONFIRM_CLOSE_SINGLE_POSITION": "Confirmar fechamento",
+      "CONFIRM_CLOSE_MULTI_POSITION": "Confirmar fechar tudo",
+      "LIMIT_MID_MARKET_CLOSE": "Limite de fechamento a preço médio de mercado",
+      "MARKET_CLOSE": "Fechamento de mercado",
+      "NUM_POSITION_SINGLE": "posição em {NUMBER}",
+      "NUM_POSITION_PLURAL": "{NUMBER} posições",
+      "SLIPPAGE_EXCEEDED": "Slippage excedida",
+      "SLIPPAGE_EXCEEDED_EXPLANATION": "Essa ordem é muito grande e causaria uma slippage excessiva. Diminua o volume de fechamento ou coloque uma ordem limite.",
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Sua ordem para os seguintes mercados é muito grande e causaria uma slippage excessiva. Considere colocar uma ordem limite."
+    },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Taxa de Ponte",
       "ENABLE_FOR_THIS_DEPOSIT": "Ativar para este depósito",
@@ -894,6 +931,18 @@
       "LIVE_CHAT_DESCRIPTION": "Suporte e ajuda em tempo real",
       "PROVIDE_FEEDBACK": "Dar feedback",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Feedback e solicitações de produto"
+    },
+    "TRIGGERS_MODAL": {
+      "AVG_ENTRY_PRICE": "Média Preço de entrada",
+      "CUSTOM_AMOUNT_TOOLTIP": "O ajuste do seu valor personalizado será aplicado às ordens de Take Profit e Stop Loss.",
+      "ENTER_TRIGGERS": "Insira gatilho(s)",
+      "LIMIT_PRICE_TOOLTIP": "Ao identificar um preço limite, você está aplicando uma ordem de limite Take Profit e\/ou Stop Limit. Clique em {DOCUMENTATION_LINK} para mais detalhes.",
+      "MULTIPLE_ORDERS_FOUND": "Várias ordens encontradas.",
+      "PRICE_TRIGGERS": "Gatilhos de preço",
+      "SL_PRICE": "Preço SL",
+      "STOP_LOSS_TOOLTIP": "Protege contra perdas fechando a posição de um trader, quando o preço de oráculo ultrapassa o gatilho para preço.",
+      "TAKE_PROFIT_TOOLTIP": "Permite que os traders definam metas e protejam os lucros nas posições especificando um preço para fechamento de uma posição aberta para lucro.",
+      "TP_PRICE": "Preço de TP"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Veja como seus dados de trades são usados para calcular recompensas.",
@@ -1034,6 +1083,7 @@
       "CURRENTLY_TRADING_GOERLI": "Está fazendo trade em nossa aplicação testnet Goerli com fundos de teste. Crie uma conta em nosso aplicativo da mainnet para começar a fazer trades com fundos reais",
       "CURRENTLY_TRADING_ROPSTEN": "Você está fazendo trade em nosso aplicativo da testnet Ropsten com fundos de teste. Crie uma conta em nosso aplicativo da mainnet para começar a fazer trades com fundos reais",
       "DELEVERAGED": "Desalavancado",
+      "EDIT_STOP_LOSS": "Editar stop loss",
       "ENTER_AMOUNT": "Digite o valor",
       "ENTER_LIMIT_PRICE": "Digite o preço limite",
       "ENTER_TRIGGER_PRICE": "Digite o preço de disparo",
