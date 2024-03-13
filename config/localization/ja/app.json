@@ -45,10 +45,12 @@
       "ACTIVE": "アクティブ",
       "ADDRESS": "所在地",
       "ADVANCED": "アドバンスト",
+      "AI": "AI",
       "ALERTS": "アラート",
       "ALL_MARKETS": "すべてのマーケット",
       "ALL": "全期間",
-      "AMOUNT": "数量",
+      "ALLOWED": "許可されました",
+      "AMOUNT": "金額",
       "ANONYMOUS": "匿名",
       "ARE_UNCHANGED": "変更なし",
       "ARE_YOU_SURE": "本当ですか？",
@@ -87,10 +89,12 @@
       "CREATED_AT": "作成時間",
       "CURRENT": "現在",
       "CUSTOM": "カスタム",
-      "DAILY": "デイリー",
+      "CUSTOM_AMOUNT": "カスタム金額",
+      "DAILY": "毎日",
       "DECREASED": "減少しました",
       "DECREASING": "減少",
       "DEFAULT": "デフォルト",
+      "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "ポジション\/注文\/執行について、すべてのマーケットのデフォルト",
       "DEFI": "DeFi",
       "DEGRADED": "低下",
       "DEPOSIT_FUNDS": "資金を入金",
@@ -129,6 +133,8 @@
       "FREE": "フリー",
       "FROM_TO": "{FROM}から{TO}へ",
       "FUNDING_RATE_CHART_SHORT": "ファンディング",
+      "GAIN": "ゲイン",
+      "GAMING": "ゲーム",
       "GAS_FEE": "ガス代",
       "GASLESS_DEPOSITS": "ガスレス入金",
       "GENERAL": "全般",
@@ -152,6 +158,7 @@
       "LANGUAGE": "言語",
       "LARGE_CAP": "大キャップ",
       "LAYER_1": "レイヤー1",
+      "LAYER_2": "レイヤー2",
       "LEARN_MORE": "詳しくはこちら",
       "LEARN_MORE_ARROW": "詳しくはこちら →",
       "LEARN": "学ぶ",
@@ -182,10 +189,13 @@
       "MINE": "マイニング",
       "MINIMUM_ORDER_SIZE": "最小注文サイズ",
       "MODIFY": "修正",
+      "MULTIPLE": "複数",
       "NETWORK": "ネットワーク",
       "NEW": "新規",
+      "NFT": "NFT",
       "NO": "なし",
       "NONE": "なし",
+      "NOT_ALLOWED": "許可されていません",
       "ON_CHAIN": "on {CHAIN}",
       "OPERATIONAL": "稼働中",
       "OPTIONAL": "オプション",
@@ -292,7 +302,8 @@
       "VIEW_OPTIONS": "オプションの表示",
       "VIEW": "見る",
       "VIEWS": "閲覧",
-      "VOLUME_30D": "出来高（30日）",
+      "VOLUME_30D": "出来高（30USD）",
+      "VOTING_LIVE": "ライブ投票",
       "WALLET_BALANCE": "ウォレット  残高",
       "WALLET": "ウォレット",
       "WEBSITE": "ウェブサイト",
@@ -347,7 +358,7 @@
         "SECONDARY": "Bitcoin Cashを利用すると、銀行振込やクレジットカードなどの従来の支払システムよりもプライバシー保護や匿名性が高まります。なぜなら、誰がビットコインアドレスを管理しているのかを知ることは不可能だからです。Bitcoin Cashでは利用方法に応じて、さまざまなレベルのプライバシー保護が提供されています。プライバシー保護のため、BCHの利用前にその仕組みを徹底して学ぶことが重要です。"
       },
       "BTC": {
-        "PRIMARY": "ビットコインは、中央銀行や管理者を必要としない分散型デジタル通貨です。仲介機関を介さずに、ピアツーピアビットコインネットワークでユーザー間の送信が可能です。",
+        "PRIMARY": "ビットコインは、中央銀行や管理者を1人も必要としない分散型デジタル通貨です。仲介機関を介さずに、ピアツーピアビットコインネットワークでユーザー間の送信が可能です。",
         "SECONDARY": "トランザクションは、暗号化を利用してネットワークノードによって検証され、ブロックチェーンと呼ばれる公開分散台帳に記録されます。ビットコインは、マイニングと呼ばれるプロセスに対する報酬として作成されます。ビットコインは他の通貨、商品、サービスと交換が可能です。"
       },
       "BLUR": {
@@ -465,10 +476,6 @@
       "KAVA": {
         "PRIMARY": "KAVAは、Cosmos SDKで構築されたブロックチェーンネットワークKavaのネイティブトークンです。",
         "SECONDARY": "Kavaは、Cosmosの速度と相互運用性をイーサリアムの開発者パワーと結合したレイヤー1ブロックチェーンです。"
-      },
-      "JUP": {
-        "PRIMARY": "Jupiterは、Solana上に構築された主要なDEXアグリゲーターです",
-        "SECONDARY": "Jupitertは、Solanaのスワップインフラストラクチャを構築しています。 Jupiterは、ユーザーと開発者にとって最高の価格、最高のトークンの選択、および最高のUXを提供することを目指しています。"
       },
       "LDO": {
         "PRIMARY": "LDOは、リドDAOのガバナンスプロセスへの参加機能を付与するERC20トークンです。",
@@ -819,6 +826,36 @@
       "LEAVING_WEBSITE_DESCRIPTION": "継続することにより、お客様は当社のウェブサイトを離れ、第三者によって利用可能にされたウェブサイト（当社から独立しており、当社と提携していません）に参加します。",
       "LEAVING_WEBSITE_DISCLAIMER": "当社は、第三者のウェブサイト上で行われたいかなる行動や内容についても責任を負わない"
     },
+    "CLOSE_POSITIONS_CONFIRMATION_TOAST": {
+      "AVERAGE_PRICE": "平均価格",
+      "CLOSE_ALL": "すべてクローズする",
+      "FAILED_TO_CLOSE": "クローズに失敗しました",
+      "FAILED_TO_CLOSE_SINGLE_POSITION_EXPLANATION": "ポジションをクローズしようとしたときに予期しないエラーが発生しました。 ブラウザを更新して、もう一度お試しください。",
+      "FAILED_TO_CLOSE_MULTI_POSITION_EXPLANATION": "ポジションをクローズしようとしたときに予期しないエラーが発生しました。 ブラウザを更新して、もう一度お試しください。",
+      "INSUFFICIENT_LIQUIDITY": "流動性が不十分です",
+      "INSUFFICIENT_LIQUIDITY_SINGLE_POSITION_EXPLANATION": "このポジションを完全にクローズするために必要な十分な流動性がありません。 借入額を引き下げるか、後ほど再度お試しください。",
+      "INSUFFICIENT_LIQUIDITY_MULTI_POSITION_EXPLANATION": "以下のポジションをクローズするのに十分な流動性がありません：{LIST_OF_POSITIONS}後ほどやり直してください。",
+      "PARTIAL": "部分的",
+      "PARTIAL_FILL": "部分執行",
+      "POSITIONS_CLOSED": "ポジションがクローズされました",
+      "VIEW_ORDERS": "注文を見る"
+    },
+    "CLOSE_POSITIONS_MODAL": {
+      "ARE_YOU_SURE_CLOSE_SINGLE_POSITION": "本当に{MARKET}（{MARKET_ABBREVIATION}）でポジションをクローズしますか？",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION": "成行注文でオープンポジションをクローズしますか？",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION_ALL": "成行注文ですべてのオープンポジションをクローズしますか？",
+      "CLOSE_ALL": "すべてのクローズが許可されました",
+      "CLOSE_ALL_POSITIONS": "すべてのポジションをクローズする",
+      "CONFIRM_CLOSE_SINGLE_POSITION": "クローズを確認する",
+      "CONFIRM_CLOSE_MULTI_POSITION": "すべてのクローズを確認する",
+      "LIMIT_MID_MARKET_CLOSE": "ミッドマーケット価格で指値注文をクローズする",
+      "MARKET_CLOSE": "マーケットクローズ",
+      "NUM_POSITION_SINGLE": "{NUMBER}ポジション",
+      "NUM_POSITION_PLURAL": "{NUMBER}ポジション",
+      "SLIPPAGE_EXCEEDED": "スリッページが超過しました",
+      "SLIPPAGE_EXCEEDED_EXPLANATION": "この注文は大きすぎるため、過剰なスリッページが発生します。 クローズサイズを小さくするか、または指値注文を行ってください。",
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "以下のマーケットの注文は大きすぎるため、過剰なスリッページが発生します。 指値注文を検討してください。"
+    },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "ブリッジ料金",
       "ENABLE_FOR_THIS_DEPOSIT": "この入金を有効にする",
@@ -894,6 +931,18 @@
       "LIVE_CHAT_DESCRIPTION": "ライブサポートとヘルプを利用する",
       "PROVIDE_FEEDBACK": "フィードバックを提供する",
       "PROVIDE_FEEDBACK_DESCRIPTION": "商品に関するフィードバックとリクエスト"
+    },
+    "TRIGGERS_MODAL": {
+      "AVG_ENTRY_PRICE": "平均エントリー価格",
+      "CUSTOM_AMOUNT_TOOLTIP": "カスタム金額を調整すると、利益確定注文とストップロス注文の両方に適用されます。",
+      "ENTER_TRIGGERS": "トリガーを入力する",
+      "LIMIT_PRICE_TOOLTIP": "指値を特定することで、利益確定指値注文および\/または逆指値注文を行うことになります。 詳細については、{DOCUMENTATION_LINK}をクリックしてください。",
+      "MULTIPLE_ORDERS_FOUND": "複数の注文が見つかりました。",
+      "PRICE_TRIGGERS": "価格トリガー",
+      "SL_PRICE": "SL価格",
+      "STOP_LOSS_TOOLTIP": "オラクル価格がトリガー価格を超えたら、トレーダーのポジションをクローズすることで損失から保護します。",
+      "TAKE_PROFIT_TOOLTIP": "トレーダーが利益のためにオープンポジションのクローズ価格を指定することで、目標を設定し、ポジションの利益を保護します。",
+      "TP_PRICE": "TP価格"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "取引データが報酬の計算にどのように使用されているかを確認します。",
@@ -1034,6 +1083,7 @@
       "CURRENTLY_TRADING_GOERLI": "Goerliのテストネットアプリでテスト資金による取引を行っています。メインネットアプリで口座を作成し、リアル資金で取引を始めましょう。",
       "CURRENTLY_TRADING_ROPSTEN": "Ropstenのテストネットアプリでテスト資金による取引を行っています。メインネットアプリで口座を作成し、リアル資金で取引を始めましょう。",
       "DELEVERAGED": "レバレッジ解消",
+      "EDIT_STOP_LOSS": "ストップロスを編集する",
       "ENTER_AMOUNT": "金額を入力します",
       "ENTER_LIMIT_PRICE": "指値を入力します",
       "ENTER_TRIGGER_PRICE": "トリガー価格を入力します",
