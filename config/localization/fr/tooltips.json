@@ -157,7 +157,7 @@
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Post-Only",
-      "BODY": "Le Post-Only n'est disponible que si le temps en vigueur est défini sur Good Til Time."
+      "BODY": "Le Post-Only n'est disponible que si le Temps en vigueur est défini sur Good Til Time."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impact sur le prix",
@@ -196,7 +196,7 @@
       "BODY": "La taille du tick est le mouvement de prix minimum sur ce marché."
     },
     "TIME_IN_FORCE": {
-      "TITLE": "Temps en vigueur",
+      "TITLE": "Time In Force",
       "BODY": "L'option Temps en vigueur sélectionnée contrôle la durée pendant laquelle un ordre restera actif jusqu'à ce qu'il expire où soit exécuté."
     },
     "TRAILING_PERCENT": {
