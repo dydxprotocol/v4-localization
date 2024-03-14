@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "Einzahlung ist in Bearbeitung",
       "IN_PROGRESS_TEXT": "Ihre Einzahlung von  {AMOUNT_ELEMENT}wurde übermittelt. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Einzahlung abgeschlossen",
-      "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!"
+      "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!",
+      "MOBILE_WALLET_REQUIRED": "Bitte verbinden Sie Ihr mobiles Wallet, um Einzahlungen zu tätigen."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Auszahlungsstatus prüfen ...",
@@ -396,6 +397,12 @@
       "COMPLETED_TITLE": "Transfer übermittelt",
       "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
     }
+  },
+  "RATE_APP": {
+    "YES": "Ja",
+    "NO": "Nicht wirklich",
+    "DEFER": "Verwerfen",
+    "QUESTION": "Sind Sie mit dYdX zufrieden?"
   },
   "FORCED_UPDATE": {
     "TITLE": "Aktualisierung",
