@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} heures",
         "X_MINUTES_LOWERCASED": "{X} minutes",
         "X_MINUTES": "{X} minutes",
-        "X_SECONDS_LOWERCASED": "{X} secondes"
+        "X_SECONDS_LOWERCASED": "{X} secondes",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "À propos",
       "ACADEMY": "Académie",
@@ -43,11 +44,14 @@
       "ACKNOWLEDGEMENT": "Remerciement",
       "ACTION": "Action",
       "ACTIVE": "Actif",
+      "ADDING": "Ajout",
       "ADDRESS": "Adresse",
       "ADVANCED": "Avancé",
+      "AI": "AI",
       "ALERTS": "Alertes",
       "ALL_MARKETS": "Tous les marchés",
       "ALL": "Tout",
+      "ALLOWED": "Autorisé",
       "AMOUNT": "Montant",
       "ANONYMOUS": "Anonyme",
       "ARE_UNCHANGED": "sont inchangés",
@@ -85,15 +89,22 @@
       "COPIED": "Copié!",
       "COPY": "Copier",
       "CREATED_AT": "Créé à",
+      "CROSS": "Cross",
+      "CROSS_FREE_COLLATERAL": "Collatéral gratuit croisé",
+      "CROSS_MARGIN": "Marge croisée",
+      "CROSS_MARGIN_DESCRIPTION": "Utiliser les garanties et le risque partagés sur plusieurs positions",
+      "CROSS_MARGIN_USAGE": "Utilisation de la marge croisée",
       "CURRENT": "Actuel",
       "CUSTOM": "Personnalisé",
+      "CUSTOM_AMOUNT": "Montant personnalisé",
       "DAILY": "Quotidien",
       "DECREASED": "diminué",
       "DECREASING": "Décroissant",
       "DEFAULT": "Par défaut",
+      "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "Par défaut, tous les marchés dans les positions \/ ordres \/ exécutions",
       "DEFI": "DeFi",
       "DEGRADED": "Dégradé",
-      "DEPOSIT_FUNDS": "Fonds de dépôt",
+      "DEPOSIT_FUNDS": "Déposer les fonds",
       "DEPOSIT_MORE": "Déposer davantage",
       "DEPOSIT_WITH_FIAT": "Dépôt en fiat",
       "DEPOSIT": "Dépôt",
@@ -124,11 +135,13 @@
       "FEES": "Frais",
       "FIAT": "Fiat",
       "FILL": "Remplir",
-      "FILLS": "Remplissages",
+      "FILLS": "Remplis",
       "FREE_COLLATERAL": "Garantie disponible",
       "FREE": "Gratuit",
       "FROM_TO": "de  {FROM}à  {TO}",
       "FUNDING_RATE_CHART_SHORT": "Financement",
+      "GAIN": "Gain",
+      "GAMING": "Jeux",
       "GAS_FEE": "Frais d'essence",
       "GASLESS_DEPOSITS": "Dépôts sans gaz",
       "GENERAL": "Général",
@@ -148,10 +161,14 @@
       "INITIAL_MARGIN_FRACTION": "Fraction de marge initiale",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Initialisation",
+      "ISOLATED": "Isolé",
+      "ISOLATED_MARGIN": "Marge isolée",
+      "ISOLATED_MARGIN_DESCRIPTION": "Utiliser des garanties distinctes pour chaque position afin d'isoler le risque.",
       "KEEP_TRADING": "Continuer le trading",
       "LANGUAGE": "Langue",
       "LARGE_CAP": "Grande capitalisation",
       "LAYER_1": "Layer 1",
+      "LAYER_2": "Couche 2",
       "LEARN_MORE": "En savoir plus",
       "LEARN_MORE_ARROW": "En savoir plus →",
       "LEARN": "Apprendre",
@@ -164,17 +181,20 @@
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "Créer 1 transaction",
       "MANAGE_FUNDS": "Gérer les fonds",
-      "MARGIN_USAGE": "Utilisation de la marge",
       "MARGIN": "Marge",
+      "MARGIN_MODE": "Mode de marge",
+      "MARGIN_USAGE": "Utilisation de la marge",
       "MARKET_NAME": "Nom du marché",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Nous ne prenons peut-être pas encore en charge cet actif, ou il n'existe pas encore.",
       "MARKET_SEARCH_PLACEHOLDER": "par exemple \"ETH\" ou \"Ethereum\"",
       "MARKET": "Marché",
       "MARKETS": "Marchés",
-      "MAX_WITHDRAW": "Retrait maximum",
       "MAX": "Max",
+      "MAX_BUYING_POWER": "Pouvoir d'achat maximum",
+      "MAX_WITHDRAW": "Retrait maximum",
       "MAXIMUM_LEVERAGE": "Effet de levier maximum",
       "MAXIMUM_REWARDS": "Récompenses estimées",
+      "MEME": "Meme",
       "MENU": "Menu",
       "METRICS": "Métriques",
       "MID_CAP": "Capitalisation moyenne",
@@ -182,10 +202,13 @@
       "MINE": "Miner",
       "MINIMUM_ORDER_SIZE": "Taille de l'ordre minimum",
       "MODIFY": "Modifier",
+      "MULTIPLE": "Multiple",
       "NETWORK": "Réseau",
       "NEW": "Nouveau",
+      "NFT": "NFT",
       "NO": "Non",
       "NONE": "Aucun",
+      "NOT_ALLOWED": "Non autorisé",
       "ON_CHAIN": "activé {CHAIN}",
       "OPERATIONAL": "Opérationnel",
       "OPTIONAL": "Facultatif",
@@ -225,6 +248,7 @@
       "REFERRAL_CODE": "Code de référence",
       "REFERRALS": "Références",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% de réduction",
+      "REMOVING": "Supprimer",
       "RESULTS": "Résultats",
       "REWARDS": "Récompenses",
       "REWARDED": "Récompensé",
@@ -233,12 +257,15 @@
       "SAVE": "Sauvegarder",
       "SAVED": "Sauvegardé",
       "SCAN_TO_DOWNLOAD": "Scanner pour télécharger l'application",
+      "SELECT": "Sélectionner {SELECTION}",
       "SELECT_ASSET": "Sélectionner un actif",
       "SELECT_CHAIN": "Sélectionnez une chaîne",
       "SELL": "Vendre",
       "SEND": "Envoyer",
       "SHARE": "Partager",
-      "SHORT_POSITION_SHORT": "short",
+      "SHARE_DYDX": "Partager dYdX pour iPhone",
+      "SHARE_MESSAGE": "Tradez avec moi sur dYdX",
+      "SHORT_POSITION_SHORT": "Court",
       "SHOW_ALL_DETAILS": "Afficher tous les détails",
       "SIDE": "Côté",
       "SIGN_OUT": "Se déconnecter",
@@ -293,6 +320,7 @@
       "VIEW": "Afficher",
       "VIEWS": "Vues",
       "VOLUME_30D": "Volume (30 j)",
+      "VOTING_LIVE": "Vote en direct",
       "WALLET_BALANCE": "Solde du portefeuille",
       "WALLET": "Portefeuille",
       "WEBSITE": "Site Web",
@@ -330,6 +358,10 @@
         "PRIMARY": "ApeCoin est le jeton de gouvernance de l'écosystème, permettant aux détenteurs d'ApeCoin de participer à ApeCoin DAO.",
         "SECONDARY": "ApeCoin est le jeton d'utilité de l'écosystème, donnant à tous ses participants une monnaie partagée et ouverte qui peut être utilisée sans intermédiaire centralisé."
       },
+      "API3": {
+        "PRIMARY": "API3 est un jeton Ethereum qui alimente le projet API3 et est utilisé pour gouverner la DAO API3 et pour voter sur les mises à niveau du projet.",
+        "SECONDARY": "API3 crée des solutions qui comblent le fossé entre les données hors chaîne et les applications sur la chaîne avec une sécurité maximale et une latence minimale. Les dAPI de l'API sont agrégées à partir d'oracles propriétaires directement sur la chaîne native."
+      },
       "APT": {
         "PRIMARY": "Aptos est une blockchain de niveau 1 conçue pour être évolutive, sécurisée et facile à utiliser.",
         "SECONDARY": "Aptos est conçu pour traiter un grand nombre de transactions par seconde et utilise un mécanisme de consensus par preuve d'enjeu."
@@ -342,17 +374,25 @@
         "PRIMARY": "Avalanche est une plate-forme open source pour lancer des applications hautement décentralisées, de nouvelles primitives financières et de nouvelles blockchains interopérables.",
         "SECONDARY": "Les développeurs qui s'appuient sur Avalanche peuvent facilement créer des applications puissantes, fiables et sécurisées et des réseaux de blockchain personnalisés avec des ensembles de règles complexes, ou s'appuyer sur des sous-réseaux privés ou publics existants."
       },
+      "AXL": {
+        "PRIMARY": "AXL est le jeton utilitaire natif qui alimente la communication interchaîne sécurisée sur l'écosystème Axelar.",
+        "SECONDARY": "Axelar est une solution d'interopérabilité qui fournit l'infrastructure nécessaire à une communication interchaîne transparente et sécurisée aux applications décentralisées décentralisées."
+      },
       "BCH": {
         "PRIMARY": "Avec Bitcoin Cash, vous pouvez envoyer de l'argent à n'importe qui, n'importe où dans le monde, 24 heures sur 24, 365 jours par an. Comme Internet lui-même, le réseau est toujours actif.",
         "SECONDARY": "Bitcoin Cash offre plus de confidentialité et d'anonymat que les systèmes de paiement traditionnels comme les virements bancaires et les paiements par carte de crédit, car il est normalement impossible de savoir qui contrôle une adresse Bitcoin. Bitcoin Cash offre différents niveaux de confidentialité en fonction de la manière dont il est utilisé. Il est important de bien vous renseigner avant d'utiliser BCH à des fins de confidentialité."
       },
       "BTC": {
         "PRIMARY": "Bitcoin est une monnaie numérique décentralisée, sans banque centrale ni administrateur unique qui peut être envoyée d'utilisateur à utilisateur sur le réseau bitcoin pair-à-pair sans avoir besoin d'intermédiaires.",
-        "SECONDARY": "Les transactions sont vérifiées par un nœud de réseau via la cryptographie et enregistrées dans un registre public distribué appelé blockchain. Les bitcoins sont créés en récompense d'un processus connu sous le nom de minage. Ils peuvent être échangés contre d'autres devises, produits et services."
+        "SECONDARY": "Les transactions sont vérifiées par un réseau de nœuds au moyen de la cryptographie et enregistrées dans un registre distribué public appelé blockchain. Les bitcoins sont créés en récompense d'un processus connu sous le nom de minage. Ils peuvent être échangés contre d'autres devises, produits et services."
       },
       "BLUR": {
         "PRIMARY": "BLUR est un marché NFT.",
         "SECONDARY": "Le jeton BLUR est le jeton de gouvernance du protocole BLUR."
+      },
+      "BONK": {
+        "PRIMARY": "BONK est la première pièce sur le thème du chien sur Solana pour le peuple, par le peuple.",
+        "SECONDARY": "L'objectif principal de l'équipe est de ramener les liquidités aux échanges décentralisés (DEX) basés sur Solana."
       },
       "BNB": {
         "PRIMARY": "BNB est la monnaie de la chaîne Binance.",
@@ -361,7 +401,7 @@
       "CHZ": {
         "PRIMARY": "CHZ est le jeton numérique natif de l'écosystème de sport et de divertissement Chiliz.",
         "SECONDARY": "Chiliz Chain est une infrastructure pour le sport, qui attire les équipes, les fans et les développeurs, afin de créer des produits et des expériences web3 qui rassemblent les fans et les marques."
-      }, 
+      },
       "CELO": {
         "PRIMARY": "Celo est une blockchain de preuve de participation qui offre une compatibilité EVM complète.",
         "SECONDARY": "CELO offre également aux utilisateurs un accès à des stablecoins natifs et non natifs, un client mobile ultraléger et du gas payable en plusieurs devises."
@@ -401,7 +441,7 @@
       "ENS": {
         "PRIMARY": "ENS est la norme de dénomination de blockchain la plus largement intégrée.",
         "SECONDARY": "Le service de noms Ethereum est un système de nommage distribué, ouvert et extensible basé sur la blockchain Ethereum."
-      }, 
+      },
       "EOS": {
         "PRIMARY": "EOSIO est une plateforme de blockchain open source hautement performante, conçue pour prendre en charge et exploiter des infrastructures numériques sûres, conformes et prévisibles.",
         "SECONDARY": "Une plateforme open source pour l'innovation et la performance de la blockchain - les entreprises et les développeurs du monde entier utilisent EOSIO pour créer des infrastructures numériques sécurisées, transparentes et déterministes."
@@ -466,10 +506,6 @@
         "PRIMARY": "KAVA est le jeton natif de Kava, un réseau blockchain construit avec le SDK Cosmos.",
         "SECONDARY": "Kava est une blockchain de niveau 1 qui combine la vitesse et l'interopérabilité de Cosmos avec la puissance de développement d'Ethereum."
       },
-      "JUP": {
-        "PRIMARY": "Jupiter est un agrégateur principal DEX basé sur Solana",
-        "SECONDARY": "Jupiter construit l'infrastructure de swap de Solana. Jupiter vise à proposerr le meilleur prix, la meilleure sélection de jetons et la meilleure UX pour les utilisateurs et les développeurs."
-      },
       "LDO": {
         "PRIMARY": "LDO est un jeton ERC20 qui donne la possibilité de participer au processus de gouvernance de la DAO Lido.",
         "SECONDARY": "Lido est le nom d’une famille d’outils logiciels open-source peer-to-system déployés et fonctionnant sur les réseaux blockchain Ethereum, Solana et Polygon."
@@ -477,6 +513,10 @@
       "LTC": {
         "PRIMARY": "Litecoin est une monnaie Internet pair-à-pair qui permet des paiements instantanés à coût quasi nul à n'importe qui dans le monde.",
         "SECONDARY": "Litecoin est un réseau de paiement mondial open source entièrement décentralisé. Litecoin offre des temps de confirmation de transaction plus rapides et une efficacité de stockage améliorée par rapport à la principale devise basée sur les mathématiques. Avec un soutien substantiel de l'industrie, un volume d'échanges et une liquidité, Litecoin est un moyen de commerce éprouvé complémentaire au Bitcoin."
+      },
+      "MAGIC": {
+        "PRIMARY": "MAGIC est le jeton utilitaire de Treasure, un écosystème de jeu décentralisé basé sur Arbitrum.",
+        "SECONDARY": "Les jetons MAGIC sont utilisés dans le gameplay, pour participer à la gouvernance, pour acheter et vendre des NFT sur la place de marché Treasure et peuvent également être stakés."
       },
       "MANA": {
         "PRIMARY": "MANA est un jeton ERC-20 qui doit être brûlé pour acquérir des jetons ERC-721 LAND non fongibles. Les jetons MANA peuvent également être utilisés pour payer une gamme d'avatars, de vêtements, de noms, etc. sur la place de marché Decentraland.",
@@ -490,6 +530,10 @@
         "PRIMARY": "Polygon est un protocole et un cadre permettant de créer et de connecter des réseaux blockchain compatibles Ethereum. Agrégation de solutions évolutives sur Ethereum prenant en charge un écosystème Ethereum multi-chaînes.",
         "SECONDARY": ""
       },
+      "MEME": {
+        "PRIMARY": "Selon son site Web, Memecoin (MEME) est littéralement une pièce de monnaie meme.",
+        "SECONDARY": "Memeland est le studio de risque web3 de 9GAG, la plateforme mème populaire dans le monde entier."
+      },
       "MINA": {
         "PRIMARY": "MINA est une crypto-monnaie qui alimente le protocole Mina et qui est utilisée pour créer de nouveaux comptes, payer des transactions et peut être mise en jeu sur le réseau.",
         "SECONDARY": "Le protocole Mina est une blockchain de niveau 1 qui vise à être légère, à préserver la vie privée et à être facilement vérifiable. Les développeurs sur Mina peuvent créer des contrats intelligents préservant la vie privée et des applications décentralisées basées sur des preuves à connaissance nulle."
@@ -498,13 +542,13 @@
         "PRIMARY": "Le protocole Maker, également connu sous le nom de système Multi-Collateral Dai (MCD), permet aux utilisateurs de générer du Dai en tirant parti des actifs collatéraux approuvés par « Maker Governance ». La gouvernance Maker est le processus organisé et géré par la communauté pour gérer les différents aspects du protocole Maker.",
         "SECONDARY": "Dai est une crypto-monnaie décentralisée, impartiale et adossée à des garanties, indexée au dollar américain. Résistant à l'hyperinflation en raison de sa faible volatilité, le Dai offre la liberté économique et des opportunités à n'importe qui, n'importe où."
       },
-      "XMR": {
-        "PRIMARY": "Monero est la principale crypto-monnaie axée sur les transactions privées et résistantes à la censure.",
-        "SECONDARY": "Contrairement aux alternatives sélectivement transparentes (par exemple Zcash), Monero est la seule crypto-monnaie où chaque utilisateur est anonyme par défaut. L'expéditeur, le destinataire et le montant de chaque transaction sont cachés grâce à l'utilisation de trois technologies importantes : les adresses furtives, les signatures Ring et RingCT."
-      },
       "NEAR": {
         "PRIMARY": "NEAR est une plate-forme de développement construite sur une blockchain fragmentée, proof of stake, layer un, conçue pour la convivialité.",
         "SECONDARY": "Le jeton NEAR est utilisé pour sécuriser le réseau via son mécanisme de preuve d'enjeu."
+      },
+      "OCEAN": {
+        "PRIMARY": "Le programme d'incitations à la Farming de données d'Ocean permet aux détenteurs d'OCEAN de gagner en verrouillant OCEAN et en traitant les données.",
+        "SECONDARY": "Le protocole Ocean utilise une combinaison de la technologie blockchain, des réseaux décentralisés et des techniques cryptographiques pour faciliter le partage de données sécurisé et préservant la vie privée."
       },
       "OP": {
         "PRIMARY": "OP Mainnet est une blockchain Ethereum L2 peu coûteuse et ultra-rapide alimentée par Optimism.",
@@ -517,6 +561,10 @@
       "PEPE": {
         "PRIMARY": "Pepe est un memecoin.",
         "SECONDARY": "Selon son site web, Pepe est là pour redonner aux memecoins leurs lettres de noblesse."
+      },
+      "PORTAL": {
+        "PRIMARY": "$portal est la pièce de monnaie de la plateforme native de la plateforme portail. $portal agit comme un nexus des jeux et des joueurs web3, fournissant la distribution du jeu et la simplicité du joueur pour tous.",
+        "SECONDARY": "Le portail vise à unir les jeux et les joueurs de divers réseaux blockchain sur sa plateforme de jetons inter-chaîne, en établissant un écosystème de jeu Web3 unifié."
       },
       "PYTH": {
         "PRIMARY": "PYTH est le jeton de gouvernance du réseau Pyth et de son écosystème.",
@@ -549,6 +597,10 @@
       "STX": {
         "PRIMARY": "STX est la monnaie locale du réseau Stacks. Il est utilisé pour alimenter les contrats intelligents pour le bitcoin, pour récompenser les mineurs sur le réseau ouvert Stacks, et permet aux détenteurs de gagner des bitcoins par Stacking.",
         "SECONDARY": "Stacks est une couche Bitcoin pour les contrats intelligents ; elle permet aux contrats intelligents et aux applications décentralisées d'utiliser en toute confiance le bitcoin comme actif et de régler les transactions sur la blockchain Bitcoin."
+      },
+      "STRK": {
+        "PRIMARY": "Le jeton Starknet sera utilisé pour payer les frais de transaction et façonner l'évolution à long terme du protocole Starknet par la participation aux votes de gouvernance.",
+        "SECONDARY": "StarkNet est un Rollup de validité décentralisé sans permission (également appelé « ZK-Rollup » ). Il fonctionne comme un réseau L2 sur Ethereum, permettant à n'importe quelle dApp d'atteindre une échelle illimitée pour son computation - sans compromettre la composabilité et la sécurité d'Ethereum, grâce à la dépendance de StarkNet au système de preuve cryptographique le plus sûr et le plus évolutif - STARK."
       },
       "SUI": {
         "PRIMARY": "Sui est une blockchain innovante et décentralisée de niveau 1 qui redéfinit la propriété des actifs.",
@@ -589,6 +641,10 @@
       "XLM": {
         "PRIMARY": "Stellar est un réseau ouvert pour stocker et transférer de l'argent.",
         "SECONDARY": "Stellar permet de créer, d'envoyer et d'échanger des représentations numériques de toutes les formes d'argent : dollars, pesos, bitcoins, à peu près n'importe quoi. Il est conçu pour que tous les systèmes financiers du monde puissent fonctionner ensemble sur un seul réseau."
+      },
+      "XMR": {
+        "PRIMARY": "Monero est la principale crypto-monnaie axée sur les transactions privées et résistantes à la censure.",
+        "SECONDARY": "Contrairement aux alternatives sélectivement transparentes (par exemple Zcash), Monero est la seule crypto-monnaie où chaque utilisateur est anonyme par défaut. L'expéditeur, le destinataire et le montant de chaque transaction sont cachés grâce à l'utilisation de trois technologies importantes : les adresses furtives, les signatures Ring et RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple est un réseau conçu pour régler les paiements transfrontaliers.",
@@ -753,8 +809,8 @@
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Une façon simple de s'identifier, alimentée par {MAGIC}",
       "SKIP_FOR_NOW": "Ignorer pour l'instant",
       "START_TRADING_BLURB": "Commencez à trader sur l’exchange le plus puissante au monde.",
-      "SWITCH_NETWORK": "Commuter le réseau",
-      "TOS_TITLE": "En utilisant l'un de nos produits et services, vous acceptez les {TERMS_LINK}et P{PRIVACY_POLICY_LINK}ar la présente, vous acceptez, déclarez et garantissez que :",
+      "SWITCH_NETWORK": "Changer de réseau",
+      "TOS_TITLE": "En utilisant l'un de nos produits et services, vous acceptez les {TERMS_LINK}et {PRIVACY_POLICY_LINK}Par la présente, vous acceptez, déclarez et garantissez que :",
       "TOS_LINE1": "Vous n'êtes pas une personne ou une entreprise résidente, située, constituée ou ayant un agent enregistré aux États-Unis, au Canada ou dans un pays à restriction.",
       "TOS_LINE2": "A l'avenir, vous n'accéderez pas à ce site ou à nos produits ou services si vous vous trouvez aux États-Unis, au Canada ou dans un autre endroit bloqué ou restreint.",
       "TOS_LINE3": "Vous n'utilisez pas, et n'utiliserez pas un VPN pour masquer votre emplacement physique à partir d'un emplacement restreint.",
@@ -819,6 +875,36 @@
       "LEAVING_WEBSITE_DESCRIPTION": "En poursuivant votre navigation, vous quitterez notre site Web et vous rejoindrez un site Web mis à disposition par un tiers, qui est indépendant de nous et non affilié.",
       "LEAVING_WEBSITE_DISCLAIMER": "Nous ne sommes pas responsables de toute action entreprise ou information sur le site Web tiers"
     },
+    "CLOSE_POSITIONS_CONFIRMATION_TOAST": {
+      "AVERAGE_PRICE": "Prix moyen",
+      "CLOSE_ALL": "Fermer tout",
+      "FAILED_TO_CLOSE": "Impossible de fermer",
+      "FAILED_TO_CLOSE_SINGLE_POSITION_EXPLANATION": "Une erreur inattendue s'est produite lors de la fermeture de votre position. Veuillez actualiser votre navigateur et réessayer.",
+      "FAILED_TO_CLOSE_MULTI_POSITION_EXPLANATION": "Une erreur inattendue s'est produite lors de la fermeture de vos positions. Veuillez actualiser votre navigateur et réessayer.",
+      "INSUFFICIENT_LIQUIDITY": "Insuffisance de liquidités",
+      "INSUFFICIENT_LIQUIDITY_SINGLE_POSITION_EXPLANATION": "Il n'y a pas suffisamment de liquidités pour clôturer entièrement cette position. Veuillez essayer une quantité plus petite ou réessayer plus tard.",
+      "INSUFFICIENT_LIQUIDITY_MULTI_POSITION_EXPLANATION": "Il n'y a pas assez de liquidités pour clôturer les positions suivantes {LIST_OF_POSITIONS}: Veuillez réessayer plus tard.",
+      "PARTIAL": "Partiel",
+      "PARTIAL_FILL": "Remplissage partiel",
+      "POSITIONS_CLOSED": "Positions fermées",
+      "VIEW_ORDERS": "Afficher les ordres"
+    },
+    "CLOSE_POSITIONS_MODAL": {
+      "ARE_YOU_SURE_CLOSE_SINGLE_POSITION": "Êtes-vous sûr de vouloir fermer votre position dans  {MARKET}({MARKET_ABBREVIATION}) ?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION": "Êtes-vous sûr de vouloir clôturer vos positions ouvertes par des ordres de marché ?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION_ALL": "Êtes-vous sûr de vouloir clôturer toutes vos positions ouvertes par des ordres de marché ?",
+      "CLOSE_ALL": "Fermer tous les permis",
+      "CLOSE_ALL_POSITIONS": "Fermer toutes les positions",
+      "CONFIRM_CLOSE_SINGLE_POSITION": "Confirmer la fermeture",
+      "CONFIRM_CLOSE_MULTI_POSITION": "Vérifier que tout ferme",
+      "LIMIT_MID_MARKET_CLOSE": "Clôture de la limite au prix moyen du marché",
+      "MARKET_CLOSE": "Clôture du marché",
+      "NUM_POSITION_SINGLE": "position sur {NUMBER}",
+      "NUM_POSITION_PLURAL": "{NUMBER}Positions",
+      "SLIPPAGE_EXCEEDED": "Glissement dépassé",
+      "SLIPPAGE_EXCEEDED_EXPLANATION": "Cette commande est trop importante et entraînerait un glissement excessif. Diminuez la taille de la clôture ou placez plutôt un ordre à cours limité.",
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Votre ordre pour les marchés suivants est trop important et entraînerait un glissement excessif. Envisagez de passer un ordre de limite."
+    },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Taxe de pont",
       "ENABLE_FOR_THIS_DEPOSIT": "Activer pour ce dépôt",
@@ -843,7 +929,7 @@
       "SETTING_ALLOWANCE_EXPLANATION": "Vous pourrez effectuer des dépôts une fois que vous aurez activé les confirmations de transactions {SYMBOL}. Vous n'avez à le faire qu'une seule fois par actif.",
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Sous réserve de ces règles",
-      "SWAP": "Échanger",
+      "SWAP": "Swap",
       "ESTIMATED_TIME": "Durée estimée"
     },
     "WITHDRAW_MODAL": {
@@ -894,6 +980,18 @@
       "LIVE_CHAT_DESCRIPTION": "Obtenir une assistance et de l'aide en direct",
       "PROVIDE_FEEDBACK": "Fournir des commentaires",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Commentaires et demandes sur les produits"
+    },
+    "TRIGGERS_MODAL": {
+      "AVG_ENTRY_PRICE": "Moy. Prix d'entrée",
+      "CUSTOM_AMOUNT_TOOLTIP": "L'ajustement de votre montant personnalisé s'appliquera aux ordres Take Profit et Stop Loss.",
+      "ENTER_TRIGGERS": "Saisir le(s) déclencheur(s)",
+      "LIMIT_PRICE_TOOLTIP": "En identifiant un prix limite, vous placez un ordre limite de prise de bénéfice et\/ou un ordre limite d'arrêt. Cliquez ici {DOCUMENTATION_LINK}pour plus de détails.",
+      "MULTIPLE_ORDERS_FOUND": "Plusieurs ordres trouvés.",
+      "PRICE_TRIGGERS": "Déclencheurs de prix",
+      "SL_PRICE": "Prix SL",
+      "STOP_LOSS_TOOLTIP": "Protège contre les pertes en clôturant la position d'un trader lorsque le prix de l'oracle franchit le prix de déclenchement.",
+      "TAKE_PROFIT_TOOLTIP": "Permet aux traders de fixer des objectifs et de protéger les profits sur les positions en spécifiant un prix auquel clôturer une position ouverte pour réaliser un profit.",
+      "TP_PRICE": "Prix TP"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Découvrez comment vos données de trading sont utilisées pour calculer les récompenses.",
@@ -967,7 +1065,7 @@
       "STAKING": "Staking",
       "STAKING_DESCRIPTION": "Mettre en jeu vos $DYDX pour aider à sécuriser le réseau et gagner des $USDC. Tous les frais sur la chaîne dYdX vont aux stakers. Disponible via Keplr.",
       "STOP_MARKET_ORDERS": "Ordres Stop market",
-      "STOP_MARKET_ORDERS_DESCRIPTION": "Les ordres Stop market et Take profit sont disponibles ! Définissez rapidement et facilement des déclencheurs pour limiter vos pertes et sécuriser vos profits.",
+      "STOP_MARKET_ORDERS_DESCRIPTION": "Les ordres Stop Take Profit Market sont disponibles ! Définissez rapidement et facilement des déclencheurs pour limiter vos pertes et sécuriser vos profits.",
       "TARGET_VOLUME": "Volume cible",
       "TESTNET_DEPOSIT_PROMO": "Des dépôts testnet gratuits en un clic sont désormais disponibles sur notre application Goerli.",
       "TESTNET_LOWERCASE": "Application Testnet",
@@ -999,12 +1097,16 @@
       "VIEW_REWARDS": "Afficher les récompenses"
     },
     "TRADE": {
+      "ADD_MARGIN": "Ajouter une marge",
       "ADD_TRIGGERS": "Ajouter des déclenchements",
+      "ADJUST_ISOLATED_MARGIN": "Ajuster la marge isolée",
+      "ADJUST_TARGET_LEVERAGE": "Ajuster l'effet de levier cible",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "L'ajustement de l'effet de levier cible n'ajustera pas la marge tant qu'un nouvel ordre n'est pas placé. Pour plus d'informations sur l'effet de levier cible, voir {HERE}.",
       "AMOUNT_FILLED": "Rempli",
       "ANNUALIZED": "Annualisé",
       "ASKS": "Demande",
-      "AVERAGE_CLOSE": "Clôture moyenne",
-      "AVERAGE_OPEN": "Ouverture moyenne",
+      "AVERAGE_CLOSE": "Clôture moy",
+      "AVERAGE_OPEN": "Ouverture moy",
       "AVERAGE_OPEN_CLOSE": "Moy. Ouvrir \/ Fermer",
       "BASELINE_POSITION_SIZE": "Taille de la position de base",
       "BEST_EFFORT_CANCELED": "Meilleur effort annulé",
@@ -1023,6 +1125,7 @@
       "CLEAN_UP": "Nettoyer",
       "CLOSE_ORDER": "Fermer l'ordre",
       "CLOSE_POSITION": "Fermer la position",
+      "CONFIRM_LEVERAGE": "Vérifier l'effet de levier",
       "CONFIRM_ORDER": "Confirmer{ORDER}",
       "CONFIRMED_DESCRIPTION": "Votre trade a été placé.",
       "CONFIRMED_TITLE": "Confirmé",
@@ -1034,6 +1137,7 @@
       "CURRENTLY_TRADING_GOERLI": "Vous tradez sur notre application Goerli testnet avec des fonds de test. Créez un compte sur notre application Mainnet pour commencer à trader avec des fonds réels",
       "CURRENTLY_TRADING_ROPSTEN": "Vous tradez sur notre application Ropsten testnet avec des fonds de test. Créez un compte sur notre application Mainnet pour commencer à trader avec des fonds réels",
       "DELEVERAGED": "Désendetté",
+      "EDIT_STOP_LOSS": "Modifier l'arrêt de la perte",
       "ENTER_AMOUNT": "Entrez le montant",
       "ENTER_LIMIT_PRICE": "Introduire le prix limite",
       "ENTER_TRIGGER_PRICE": "Introduire le prix de déclenchement",
@@ -1145,13 +1249,16 @@
       "PLACE_STOP_LIMIT_ORDER": "Placer un ordre Stop Limit",
       "PLACE_STOP_MARKET_ORDER": "Placer un ordre stop market",
       "PLACE_TAKE_PROFIT_LIMIT_ORDER": "Placer un ordre take profit limite",
-      "PLACE_TAKE_PROFIT_MARKET_ORDER": "Placer un ordre de marché Take Profit",
+      "PLACE_TAKE_PROFIT_MARKET_ORDER": "Placer un ordre de Take Market Profit",
       "PLACE_TRAILING_STOP_ORDER": "Placer un ordre trailing stop\n",
       "PLACE_ORDER": "Placer {ORDER}",
       "PLACE_SIMPLE_TRADE": "Passer un ordre au prix du marché pour {NAME}",
       "PLACE_TRADE": "Placer un trade",
       "PLACING_ORDER_DESCRIPTION": "Votre trade est actuellement en cours.",
       "PLACING_ORDER_TITLE": "Placer l'ordre",
+      "POSITION_COLLATERAL": "Collatéral de la position",
+      "POSITION_LEVERAGE": "Effet de levier de la position",
+      "POSITION_MARGIN": "Marge de position",
       "POSITIONS_EMPTY_STATE": "Vous n'avez pas de positions ouvertes.",
       "POSITIONS": "Positions",
       "POST_ONLY": "Post-Only",
@@ -1168,6 +1275,7 @@
       "REDUCE_ONLY": "Reduce-Only",
       "REDUCE_ONLY_RESIZED": "Reduce-Only redimensionné",
       "RELEASE_TO_EDIT": "Relâcher la souris pour modifier l'ordre",
+      "REMOVE_MARGIN": "Supprimer la marge",
       "RETURN_TO_MARKET": "Retour au marché",
       "RISK_REWARD": "Risque-Récompense",
       "SELECT_MARKET": "Sélectionnez un marché",
@@ -1186,14 +1294,15 @@
       "TAKE_PROFIT_LIMIT_SHORT": "Bénéfice",
       "TAKE_PROFIT_LIMIT": "Take Profit Limit",
       "TAKE_PROFIT": "Take Profit",
-      "TAKE_PROFIT_MARKET": "Marché Take Profit",
+      "TAKE_PROFIT_MARKET": "Take Profit Market",
       "TAKE_PROFIT_MARKET_DESCRIPTION": "Les ordres du marché Take Profit verrouillent les bénéfices en fermant votre position une fois que le prix d'oracle ou le dernier prix du trade croise votre prix de déclenchement.",
       "TAKE_PROFIT_MARKET_SHORT": "Profit de marché",
       "TAKER_FEE": "Frais Taker",
       "TAKER": "Taker",
       "TAP_TO_CLOSE": "Touchez pour fermer",
       "TAP_TO_TRADE": "Touchez pour trader",
-      "TIME_IN_FORCE": "Temps en vigueur",
+      "TARGET_LEVERAGE": "Effet de levier cible",
+      "TIME_IN_FORCE": "Time In Force",
       "TOTAL_COST": "Coût total",
       "TOTAL_SIZE": "Taille totale",
       "TOTAL": "Total",
@@ -1205,7 +1314,7 @@
       "TRAILING_STOP_DESCRIPTION": "Définissez un stop trailing pour limiter le pourcentage que vous pouvez perdre à votre pourcentage de trailing spécifié.",
       "TRAILING_STOP": "Trailing Stop",
       "TRANSFERS_EMPTY_STATE": "Vous n'avez pas d'historique de transfert.",
-      "TRIGGER_PRICE_SHORT": "Déclencher",
+      "TRIGGER_PRICE_SHORT": "Déclencheur",
       "TRIGGER_PRICE": "Prix de déclenchement",
       "TRIGGERS": "Déclencheurs",
       "UNDERCOLLATERALIZED": "Sous garantie",
@@ -1295,6 +1404,8 @@
       "ADJUSTED_IMR": "Marge ajustée",
       "ADJUSTED_IMR_BODY": "Nous avons temporairement  {ACTION}les exigences de marge initiale sur  {MARKET}à {PERCENT} en raison de la volatilité.{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Récompense en bloc",
+      "CHAIN_DISRUPTION_DETECTED": "Perturbation de la chaîne détectée",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "Le trading et le transfert sont désactivés car les ordres peuvent échouer ou être retardés en raison de la perturbation de la chaîne dYdX. Veuillez patienter et réessayer plus tard. Vos fonds sont en sécurité.",
       "CLOSE_MARKET_POSITIONS": "Fermer votre position sur {MARKET}",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}est configuré en mode fermé uniquement et le prix de fermeture de  {MARKET}est maintenant fixé. Veuillez fermer votre position ouverte sur {MARKET} aussitôt que possible. Nous sommes là pour vous aider via le chat d'aide si vous rencontrez des problèmes.",
       "COMPLIANCE_ALERT": "Alerte de conformité",
@@ -1318,6 +1429,8 @@
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Une erreur s'est produite lors de votre connexion avec Magic. Veuillez réessayer.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "Exigences de marge de maintenance  {ACTION}à {PERCENT} %.",
       "NOTIFICATIONS_EMPTY_STATE": "Vous n'avez pas de notifications.",
+      "ORDERBOOK_LAGGING": "Carnet d'ordres en retard",
+      "ORDERBOOK_LAGGING_BODY": "Les données du carnet d'ordres et des prix peuvent être obsolètes en raison de retards du Les ordres de marché et à court terme courent un risque plus élevé de présenter des écarts de prix au moment de l'exécution. Les transactions et les informations du compte pourraient également être retardées.",
       "OUT_OF_TEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS} de 10 confirmations",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}de 14 confirmations",
       "PERMANENTLY_BLOCKED": "Bloqué définitivement",
@@ -1329,6 +1442,7 @@
       "SLOW_WITHDRAW_AVAILABLE": "Retrait lent prêt",
       "SLOW_WITHDRAW_PENDING_DESCRIPTION": "Vous avez  {AMOUNT_ELEMENT}retraits lents en attente. Vous recevrez une notification lorsque vos fonds auront été confirmés sur la couche 2.",
       "SLOW_WITHDRAW_PENDING": "Retrait(s) lent(s) en attente",
+      "STATUS_PAGE": "Page d'état",
       "SUSPICIOUS_TRADE": "Activité suspecte",
       "SUSPICIOUS_TRADE_BODY": "Nous avons remarqué une activité de trading suspecte liée à votre compte sur dYdX, y compris une activité de trading fictif potentielle. Nous examinerons votre activité sur une base continue. Si nous constatons une activité similaire à l'avenir, on vous interdira définitivement d'effectuer des transferts au sein du protocole et de passer des ordres autres que des ordres de marché qui réduisent vos positions.",
       "TRANSFER_STATUS": {
@@ -1904,7 +2018,7 @@
       "MISSING_TRIGGER_PRICE": "Introduire le prix de déclenchement",
       "MISSING_TRAILING_PERCENTAGE": "Introduire le pourcentage de trailing",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Marché Take Profit",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market",
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Risque de liquidation",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Risque de liquidation",
       "ORDER_WOULD_FLIP_POSITION": "Réduire uniquement",
@@ -2010,7 +2124,7 @@
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "Trop d'effet de slippage",
       "MARKET_STATUS_CLOSE_ONLY": "Fermer uniquement",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Marché Take Profit"
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market"
     }
   }
 }
