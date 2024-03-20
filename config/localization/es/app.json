@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} horas",
         "X_MINUTES_LOWERCASED": "{X} minutos",
         "X_MINUTES": "{X} Minutos",
-        "X_SECONDS_LOWERCASED": "{X} segundos"
+        "X_SECONDS_LOWERCASED": "{X} segundos",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "Acerca de",
       "ACADEMY": "Academy",
@@ -43,11 +44,14 @@
       "ACKNOWLEDGEMENT": "Reconocimiento",
       "ACTION": "Acción",
       "ACTIVE": "Activar",
+      "ADDING": "Agregar",
       "ADDRESS": "Dirección",
       "ADVANCED": "Avanzado",
+      "AI": "IA",
       "ALERTS": "Alertas",
       "ALL_MARKETS": "Todos los mercados",
       "ALL": "Todo",
+      "ALLOWED": "Permitido",
       "AMOUNT": "Monto",
       "ANONYMOUS": "Anónimo",
       "ARE_UNCHANGED": "No se modifican",
@@ -85,12 +89,19 @@
       "COPIED": "¡Copiado!",
       "COPY": "Copiar",
       "CREATED_AT": "Creado en",
+      "CROSS": "Cruzar",
+      "CROSS_FREE_COLLATERAL": "Garantía sin cruce",
+      "CROSS_MARGIN": "Margen cruzado",
+      "CROSS_MARGIN_DESCRIPTION": "Usar garantías y riesgos compartidos en varias posiciones",
+      "CROSS_MARGIN_USAGE": "Uso de margen cruzado",
       "CURRENT": "Actual",
       "CUSTOM": "Personalizado",
+      "CUSTOM_AMOUNT": "Cantidad personalizada",
       "DAILY": "Diariamente",
       "DECREASED": "Disminuyó",
       "DECREASING": "Disminución",
       "DEFAULT": "Predeterminado",
+      "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "Predeterminado para todos los mercados en posiciones \/ órdenes \/ ejecuciones",
       "DEFI": "DeFi",
       "DEGRADED": "Degradado",
       "DEPOSIT_FUNDS": "Depósito de fondos",
@@ -129,6 +140,8 @@
       "FREE": "Gratis",
       "FROM_TO": "desde  {FROM}hasta{TO}",
       "FUNDING_RATE_CHART_SHORT": "Financiamiento",
+      "GAIN": "Ganancia",
+      "GAMING": "Juegos",
       "GAS_FEE": "Tarifa de gas",
       "GASLESS_DEPOSITS": "Depósitos sin gas",
       "GENERAL": "General",
@@ -148,10 +161,14 @@
       "INITIAL_MARGIN_FRACTION": "Fracción del margen inicial",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Inicialización",
+      "ISOLATED": "Aislado",
+      "ISOLATED_MARGIN": "Margen aislado",
+      "ISOLATED_MARGIN_DESCRIPTION": "Usar garantías distintas para cada posición para aislar el riesgo.",
       "KEEP_TRADING": "Seguir operaciones",
       "LANGUAGE": "Idioma",
       "LARGE_CAP": "Gran capitalización",
       "LAYER_1": "Capa 1",
+      "LAYER_2": "Capa 2",
       "LEARN_MORE": "Más información",
       "LEARN_MORE_ARROW": "Más información →",
       "LEARN": "Aprender",
@@ -164,17 +181,20 @@
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "Hacer 1 operación",
       "MANAGE_FUNDS": "Gestionar fondos",
-      "MARGIN_USAGE": "Uso del margen",
       "MARGIN": "Margen",
+      "MARGIN_MODE": "Modo de margen",
+      "MARGIN_USAGE": "Uso del margen",
       "MARKET_NAME": "Nombre del mercado",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Posiblemente, aún no admitimos este activo,  o todavía no existe.",
       "MARKET_SEARCH_PLACEHOLDER": "por ejemplo, “ETH” o “Ethereum”",
       "MARKET": "Mercado",
       "MARKETS": "Mercados",
-      "MAX_WITHDRAW": "Retiro máximo",
       "MAX": "Max",
+      "MAX_BUYING_POWER": "Poder de compra máximo",
+      "MAX_WITHDRAW": "Retiro máximo",
       "MAXIMUM_LEVERAGE": "Apalancamiento máximo",
       "MAXIMUM_REWARDS": "Recompensas estimadas",
+      "MEME": "Meme",
       "MENU": "Menú",
       "METRICS": "Métricas",
       "MID_CAP": "Mediana capitalización",
@@ -182,10 +202,13 @@
       "MINE": "Mina",
       "MINIMUM_ORDER_SIZE": "Pedido mínimo",
       "MODIFY": "Modificar",
+      "MULTIPLE": "Múltiple",
       "NETWORK": "Red",
       "NEW": "Nuevo",
+      "NFT": "NFT",
       "NO": "No",
       "NONE": "Ninguno",
+      "NOT_ALLOWED": "No permitido",
       "ON_CHAIN": "en {CHAIN}",
       "OPERATIONAL": "Operativo",
       "OPTIONAL": "Opcional",
@@ -225,6 +248,7 @@
       "REFERRAL_CODE": "Código de referencia",
       "REFERRALS": "Referidos",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% de descuento",
+      "REMOVING": "Eliminar",
       "RESULTS": "Resultados",
       "REWARDS": "Recompensas",
       "REWARDED": "Recompensado",
@@ -233,11 +257,14 @@
       "SAVE": "Guardar",
       "SAVED": "Guardado",
       "SCAN_TO_DOWNLOAD": "Escanear para descargar la aplicación",
+      "SELECT": "Seleccionar {SELECTION}",
       "SELECT_ASSET": "Seleccionar un activo",
       "SELECT_CHAIN": "Seleccionar una cadena",
       "SELL": "Vender",
       "SEND": "Enviar",
       "SHARE": "Compartir",
+      "SHARE_DYDX": "Compartir dYdX para iPhone",
+      "SHARE_MESSAGE": "¡Opera conmigo en dYdX!",
       "SHORT_POSITION_SHORT": "Corto",
       "SHOW_ALL_DETAILS": "Mostrar todos los detalles",
       "SIDE": "Lado",
@@ -293,6 +320,7 @@
       "VIEW": "Ver",
       "VIEWS": "Vistas",
       "VOLUME_30D": "Volumen (30d)",
+      "VOTING_LIVE": "Votación en vivo",
       "WALLET_BALANCE": "Balance de la billetera",
       "WALLET": "Billetera virtual",
       "WEBSITE": "Sitio web",
@@ -330,6 +358,10 @@
         "PRIMARY": "ApeCoin es el token de gobernanza del ecosistema, lo que permite a los titulares de ApeCoin participar en ApeCoin DAO.",
         "SECONDARY": "ApeCoin es el token de utilidad del ecosistema, que brinda a todos sus participantes una moneda compartida y abierta que se puede usar sin intermediarios centralizados."
       },
+      "API3": {
+        "PRIMARY": "API3 es un token de Ethereum que impulsa el proyecto API3 y se utiliza para gobernar la DAO de API3 y para votar en el proyecto.",
+        "SECONDARY": "API3 crea soluciones que tienden puentes entre los datos fuera de la cadena y las aplicaciones en la cadena con la máxima seguridad y la mínima latencia. Las dAPI de la API se agregan a partir de oráculos de primera parte directamente en la cadena nativa."
+      },
       "APT": {
         "PRIMARY": "Aptos es una cadena de bloques de capa 1 diseñada para ser escalable, segura y fácil de usar.",
         "SECONDARY": "Aptos está diseñado para manejar una gran cantidad de transacciones por segundo y utiliza un mecanismo de consenso de prueba de participación."
@@ -342,17 +374,25 @@
         "PRIMARY": "Avalanche es una plataforma de código abierto para lanzar aplicaciones altamente descentralizadas, nuevas financieras primitivas y nuevas blockchains interoperables.",
         "SECONDARY": "Los desarrolladores que programan en Avalanche pueden crear fácilmente aplicaciones poderosas, confiables y seguras y redes personalizadas de blockchain con conjuntos de reglas complejas, o construir sobre subredes públicas o privadas existentes."
       },
+      "AXL": {
+        "PRIMARY": "AXL es el token de utilidad nativo que potencia la comunicación segura entre cadenas en el ecosistema Axelar.",
+        "SECONDARY": "Axelar es una solución de interoperabilidad y proporciona la infraestructura necesaria para una comunicación entre cadenas sin fisuras y segura entre aplicaciones descentralizadas."
+      },
       "BCH": {
         "PRIMARY": "Con Bitcoin Cash, puedes enviar dinero a cualquier persona, en cualquier parte del mundo, las 24 horas del día, los 365 días del año. Al igual que Internet, la red siempre está activa.",
         "SECONDARY": "Bitcoin Cash ofrece más privacidad y anonimato que los sistemas de pago tradicionales como transferencias bancarias y pagos de tarjetas de crédito, ya que normalmente es imposible saber quién controla una dirección de Bitcoin. Bitcoin Cash ofrece varios niveles de privacidad dependiendo de cómo se utiliza. Es importante que aprendas a fondo antes de usar BCH por motivos de privacidad."
       },
       "BTC": {
         "PRIMARY": "Bitcoin es una moneda digital descentralizada, sin un banco central o un administrador único que puede ser enviado de usuario a usuario en la red de bitcoin peer-to-peer, sin necesidad de intermediarios.",
-        "SECONDARY": "Las transacciones son verificadas por nodos de red a través de criptografía y registradas en un ledger público distribuido conocido como blockchain. Los Bitcoins son creados como una recompensa para un proceso conocido como mining. Pueden ser intercambiados por otras divisas, productos y servicios."
+        "SECONDARY": "Las transacciones son verificadas por una red de nodos a través de criptografía y son registradas en un libro contable público distribuido conocido como blockchain. Los Bitcoins son creados como una recompensa para un proceso conocido como mining. Pueden ser intercambiados por otras divisas, productos y servicios."
       },
       "BLUR": {
         "PRIMARY": "BLUR es un mercado NFT.",
         "SECONDARY": "El token BLUR es el token de gobernanza del protocolo BLUR."
+      },
+      "BONK": {
+        "PRIMARY": "BONK es la primera moneda con temática canina en Solana para la gente, por la gente.",
+        "SECONDARY": "El objetivo principal del equipo es devolver la liquidez a las bolsas descentralizadas (DEX) basadas en Solana."
       },
       "BNB": {
         "PRIMARY": "BNB es la moneda de la cadena Binance.",
@@ -361,7 +401,7 @@
       "CHZ": {
         "PRIMARY": "CHZ es el token digital nativo para el ecosistema de deportes y entretenimiento Chiliz.",
         "SECONDARY": "Chiliz Chain es una infraestructura para deportes, que atrae a equipos, aficionados y desarrolladores para crear productos y experiencias web3 que reúnan a los aficionados y las marcas."
-      }, 
+      },
       "CELO": {
         "PRIMARY": "Celo es una blockchain de prueba de participación que ofrece compatibilidad total con EVM.",
         "SECONDARY": "CELO también les ofrece a los usuarios acceso a monedas estables nativas y no nativas, un cliente móvil ultraligero y gas que se puede pagar en múltiples monedas."
@@ -401,7 +441,7 @@
       "ENS": {
         "PRIMARY": "ENS es el estándar de nomenclatura de blockchain más ampliamente integrado.",
         "SECONDARY": "Ethereum Name Service es un sistema de nombres distribuido, abierto y expansible basado en la blockchain de Ethereum."
-      }, 
+      },
       "EOS": {
         "PRIMARY": "EOSIO es una plataforma de blockchain de código abierto de alto rendimiento, creada para apoyar y operar infraestructuras digitales seguras, compatibles y predecibles.",
         "SECONDARY": "Una plataforma de código abierto para la innovación y el rendimiento de las blockchains: empresas y desarrolladores de todo el mundo utilizan EOSIO para establecer infraestructuras digitales seguras, transparentes y deterministas."
@@ -466,10 +506,6 @@
         "PRIMARY": "KAVA es el token nativo de Kava, una red de blockchain creada con el SDK Cosmos.",
         "SECONDARY": "Kava es una blockchain de capa 1 que combina la velocidad y la interoperabilidad de Cosmos con el poder de desarrollador de Ethereum."
       },
-      "JUP": {
-        "PRIMARY": "Júpiter es un agregador de DEX líder construido en Solana",
-        "SECONDARY": "Júpiter está construyendo la infraestructura de intercambio de Solana. Júpiter tiene como objetivo ofrecer el mejor precio, la mejor selección de tokens y la mejor UX para usuarios y desarrolladores."
-      },
       "LDO": {
         "PRIMARY": "LDO es un token ERC20 que brinda la capacidad de participar en el proceso de gobernanza del Lido DAO.",
         "SECONDARY": "Lido es el nombre de una familia de herramientas de software de código abierto peer-to-system implementadas y que funcionan en las redes de blockchain Ethereum, Solana y Polygon."
@@ -477,6 +513,10 @@
       "LTC": {
         "PRIMARY": "Litecoin es una moneda digital P2P que permite pagos instantáneos y con casi ningún costo para cualquier persona del mundo.",
         "SECONDARY": "Litecoin es una red de pago global de código abierto totalmente descentralizada. Litecoin cuenta con tiempos de confirmación de transacción más rápidos y una mayor eficiencia de almacenamiento que la moneda tradicional basada en la matemática. Con un importante apoyo de la industria, volumen comercial y liquidez, Litecoin es un medio de comercio comprobado que complementa a Bitcoin."
+      },
+      "MAGIC": {
+        "PRIMARY": "MAGIC es el token de utilidad de Treasure, un ecosistema de juego descentralizado construido sobre Arbitrum.",
+        "SECONDARY": "Los tokens MAGIC se utilizan en el juego, para participar en la gobernanza, para comprar y vender NFT en el mercado de Treasure, y también se pueden apostar."
       },
       "MANA": {
         "PRIMARY": "MANA es un token ERC-20 que se debe quemar para adquirir tokens ERC-721 LAND no fungibles. Los tokens MANA también se pueden usar para pagar una variedad de avatares, wearables, nombres y más en el mercado Decentraland.",
@@ -490,6 +530,10 @@
         "PRIMARY": "Polygon es un protocolo y un marco para construir y conectar redes de blockchain compatibles con Ethereum. Agregando soluciones escalables en Ethereum y apoyando un ecosistema de Ethereum multi-chain.",
         "SECONDARY": "Polygon combina lo mejor de Ethereum y las blockchains soberanas en un sistema multicadena abierto, seguro y completo capaz de beneficiarse plenamente de los efectos de la red de Ethereum"
       },
+      "MEME": {
+        "PRIMARY": "Según su sitio web, Memecoin (MEME) es literalmente una moneda meme.",
+        "SECONDARY": "Memeland es el estudio web3 de 9GAG, la plataforma de memes más popular del mundo."
+      },
       "MINA": {
         "PRIMARY": "MINA es una criptomoneda que alimenta el Protocolo Mina y se utiliza para configurar nuevas cuentas, pagar transacciones y se puede apostar en la red.",
         "SECONDARY": "Mina Protocol es una blockchain de capa uno que tiene como objetivo ser ligera, preservar la privacidad y ser fácilmente verificable. Los desarrolladores en Mina pueden crear contratos inteligentes que preserven la privacidad y aplicaciones descentralizadas en pruebas de conocimiento cero."
@@ -498,13 +542,13 @@
         "PRIMARY": "El Protocolo Maker, también conocido como sistema de Dai Multicolateral (MCD), permite a los usuarios generar Dai beneficiándose de los activos colaterales aprobados por la \"Maker Governance\". Maker Governance es el proceso organizado y operado por la comunidad para administrar los diversos aspectos del Protocolo Maker.",
         "SECONDARY": "Dai es una criptomoneda descentralizada, imparcial, respaldada por garantías, pegada al dólar estadounidense. Resistente a la hiperinflación gracias a su baja volatilidad, Dai ofrece libertad económica y oportunidad para cualquier persona, en cualquier lugar."
       },
-      "XMR": {
-        "PRIMARY": "Monero es la criptomoneda líder enfocada a las transacciones privadas y resistentes a la censura.",
-        "SECONDARY": "A diferencia de las alternativas selectivamente transparentes (por ejemplo, Zcash), Monero es la única criptomoneda donde cada usuario es anónimo por defecto. El remitente, el receptor y la cantidad de cada transacción permanecen ocultos mediante el uso de tres tecnologías importantes: Stealth Addresses, Ring Signatures, y RingCT."
-      },
       "NEAR": {
         "PRIMARY": "NEAR es una plataforma de desarrollo construida en una blockchain partida, con prueba de participación de capa 1 y está diseñada para ser usada con facilidad.",
         "SECONDARY": "El token de NEAR se utiliza para asegurar la red mediante su mecanismo de prueba de participación."
+      },
+      "OCEAN": {
+        "PRIMARY": "El programa de incentivos Data Farming de Ocean permite a los titulares de OCEAN ganar bloqueando OCEAN y conservando datos.",
+        "SECONDARY": "El protocolo Ocean utiliza una combinación de tecnología blockchain, redes descentralizadas y técnicas criptográficas para facilitar el intercambio de datos de forma segura y preservando la privacidad."
       },
       "OP": {
         "PRIMARY": "OP Mainnet es una cadena de bloques Ethereum L2 de bajo costo y ultrarrápida impulsada por Optimism.",
@@ -517,6 +561,10 @@
       "PEPE": {
         "PRIMARY": "Pepe es un memecoin.",
         "SECONDARY": "Según su sitio web, Pepe está aquí para hacer que los memecoins vuelvan a ser geniales."
+      },
+      "PORTAL": {
+        "PRIMARY": "$portal es la moneda nativa de la plataforma portal. Actúa como nexo de unión entre los juegos web3 y los jugadores, proporcionando distribución de juegos y simplicidad para todos.",
+        "SECONDARY": "Portal pretende unir juegos y jugadores de varias redes de blockchain en su plataforma de tokens de cadenas cruzadas, estableciendo un ecosistema de juegos Web3 unido."
       },
       "PYTH": {
         "PRIMARY": "PYTH es el token de gobernanza para la red Pyth y su ecosistema.",
@@ -549,6 +597,10 @@
       "STX": {
         "PRIMARY": "STX es la moneda nativa de la red Stacks. Se usa para alimentar contratos inteligentes para Bitcoin, para recompensar a los mineros en la red abierta Stacks y permite a los titulares ganar bitcoins mediante Stacking.",
         "SECONDARY": "Stacks es una capa de Bitcoin para contratos inteligentes. Permite que los contratos inteligentes y las aplicaciones descentralizadas utilicen Bitcoin de forma confiable como un activo y liquidar transacciones en la blockchain Bitcoin."
+      },
+      "STRK": {
+        "PRIMARY": "El token Starknet se utilizará para pagar las comisiones de las transacciones y para dar forma a la evolución a largo plazo del protocolo Starknet mediante la participación en las votaciones de gobernanza.",
+        "SECONDARY": "StarkNet es una red de validez descentralizada y sin permisos (también conocida como \"Red ZK\"). Funciona como una red L2 sobre Ethereum, lo que permite a cualquier dApp alcanzar una escala ilimitada para su procesamiento, sin comprometer la composibilidad y seguridad de Ethereum, gracias a que StarkNet se basa en el sistema de pruebas criptográficas más seguro y escalable: STARK."
       },
       "SUI": {
         "PRIMARY": "Sui es una innovadora y descentralizada cadena de bloques de capa 1 que redefine la propiedad del activo.",
@@ -589,6 +641,10 @@
       "XLM": {
         "PRIMARY": "Stellar es una red abierta para almacenar y mover dinero.",
         "SECONDARY": "Stellar hace posible crear, enviar y negociar representaciones digitales comerciales de todas las formas de dinero: dólares, pesos, bitcoin, prácticamente cualquier cosa. Está diseñado para que todos los sistemas financieros del mundo puedan funcionar en una sola red."
+      },
+      "XMR": {
+        "PRIMARY": "Monero es la criptomoneda líder enfocada a las transacciones privadas y resistentes a la censura.",
+        "SECONDARY": "A diferencia de las alternativas selectivamente transparentes (por ejemplo, Zcash), Monero es la única criptomoneda donde cada usuario es anónimo por defecto. El remitente, el receptor y la cantidad de cada transacción permanecen ocultos mediante el uso de tres tecnologías importantes: Stealth Addresses, Ring Signatures, y RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple es una red diseñada para liquidar pagos transfronterizos.",
@@ -759,7 +815,7 @@
       "TOS_LINE2": "En el futuro no accederás a este sitio, ni usarás nuestros productos o servicios mientras te encuentres dentro de los Estados Unidos, Canadá u otra ubicación bloqueada o restringida.",
       "TOS_LINE3": "No estás utilizando y no utilizarás en el futuro una VPN para ocultar que te encuentras físicamente en una ubicación bloqueada o restringida.",
       "TOS_LINE4": "Tienes permitido acceder a este sitio y usar nuestros productos y servicios, en virtud de las leyes de la jurisdicción en la que resides y estás ubicado.",
-      "TOS_LINE5": "Entiendes los riesgos de inversión y tecnología asociados con la celebración de contratos perpetuos, al usar el impulso y la participación en blockchain y en otros productos y servicios de web3. Ver la solicitud legal aquí.",
+      "TOS_LINE5": "Entiendes los riesgos de inversión y tecnología asociados con la celebración de contratos perpetuos, al usar el apalancamiento y la participación en blockchain y en otros productos y servicios de web3.",
       "TOS_TRANSLATION_DISCLAIMER": "Según corresponda, la versión traducida no inglesa de esta notificación se te proporciona únicamente como cortesía. En caso de un conflicto entre la versión traducida y la versión inglesa, prevalecerá la versión inglesa. ",
       "TRANSFEROUT_ALERT_TITLE": "Tienes una transferencia pendiente de {PENDING_TRANSFERS} {TOKEN}.",
       "TRANSFEROUT_ALERT_SUBTITLE": "Consulta el estado",
@@ -818,6 +874,36 @@
       "LEAVING_WEBSITE": "Abandonar el sitio web",
       "LEAVING_WEBSITE_DESCRIPTION": "Al continuar, abandonarás nuestro sitio web y te unirás a un sitio web puesto a disposición por un tercero, que es independiente y no está afiliado con nosotros.",
       "LEAVING_WEBSITE_DISCLAIMER": "No somos responsables de ninguna acción realizada ni del contenido en el sitio web de terceros"
+    },
+    "CLOSE_POSITIONS_CONFIRMATION_TOAST": {
+      "AVERAGE_PRICE": "Precio promedio",
+      "CLOSE_ALL": "Cerrar todo",
+      "FAILED_TO_CLOSE": "No se pudo cerrar",
+      "FAILED_TO_CLOSE_SINGLE_POSITION_EXPLANATION": "Se produjo un error inesperado al intentar cerrar tu posición. Actualiza tu navegador e inténtalo de nuevo.",
+      "FAILED_TO_CLOSE_MULTI_POSITION_EXPLANATION": "Se produjo un error inesperado al intentar cerrar tus posiciones. Actualiza tu navegador e inténtalo de nuevo.",
+      "INSUFFICIENT_LIQUIDITY": "Liquidez insuficiente",
+      "INSUFFICIENT_LIQUIDITY_SINGLE_POSITION_EXPLANATION": "No hay suficiente liquidez para cerrar esta posición por completo. Intenta con una cantidad menor o inténtalo de nuevo más tarde.",
+      "INSUFFICIENT_LIQUIDITY_MULTI_POSITION_EXPLANATION": "No hay suficiente liquidez para cerrar las siguientes posiciones: {LIST_OF_POSITIONS}. Inténtalo de nuevo más tarde.",
+      "PARTIAL": "Parcial",
+      "PARTIAL_FILL": "Ejecución parcial",
+      "POSITIONS_CLOSED": "Posiciones cerradas",
+      "VIEW_ORDERS": "Ver órdenes"
+    },
+    "CLOSE_POSITIONS_MODAL": {
+      "ARE_YOU_SURE_CLOSE_SINGLE_POSITION": "¿Estás seguro de que quieres cerrar tu posición en {MARKET} ({MARKET_ABBREVIATION})?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION": "¿Estás seguro de que quieres cerrar tus posiciones abiertas a través de órdenes de mercado?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION_ALL": "¿Estás seguro de que quieres cerrar todas tus posiciones abiertas a través de órdenes de mercado?",
+      "CLOSE_ALL": "Cerrar todo lo permitido",
+      "CLOSE_ALL_POSITIONS": "Cerrar todas las posiciones",
+      "CONFIRM_CLOSE_SINGLE_POSITION": "Confirmar cierre",
+      "CONFIRM_CLOSE_MULTI_POSITION": "Confirmar cerrar todo",
+      "LIMIT_MID_MARKET_CLOSE": "Cierre de límite al precio medio de mercado",
+      "MARKET_CLOSE": "Cierre del mercado",
+      "NUM_POSITION_SINGLE": "{NUMBER}Posición",
+      "NUM_POSITION_PLURAL": "{NUMBER} posiciones",
+      "SLIPPAGE_EXCEEDED": "Slippage excedido",
+      "SLIPPAGE_EXCEEDED_EXPLANATION": "Esta orden es demasiado grande y causaría un slippage excesivo. Reduce el tamaño del cierre o coloca un limit order en su lugar.",
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Tu orden para los siguientes mercados es demasiado grande y causaría un slippage excesivo. Considera hacer una limit order."
     },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Tarifa de puente",
@@ -894,6 +980,18 @@
       "LIVE_CHAT_DESCRIPTION": "Obtener soporte y ayuda en tiempo real",
       "PROVIDE_FEEDBACK": "Proporcionar comentarios",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Opiniones y solicitudes sobre los productos "
+    },
+    "TRIGGERS_MODAL": {
+      "AVG_ENTRY_PRICE": "Promedio Precio de entrada",
+      "CUSTOM_AMOUNT_TOOLTIP": "El ajuste de tu cantidad personalizada se aplicará a las órdenes de Take Profit como a las de Stop Loss.",
+      "ENTER_TRIGGERS": "Ingresar gatillo(s)",
+      "LIMIT_PRICE_TOOLTIP": "Al identificar un precio límite, estás colocando una Take Profit Limit Order (con toma de ganancias) y\/o una Stop Limit Order (con precio mínimo). Haz clic {DOCUMENTATION_LINK} para obtener más detalles.",
+      "MULTIPLE_ORDERS_FOUND": "Múltiples órdenes encontradas.",
+      "PRICE_TRIGGERS": "Gatillos de precio",
+      "SL_PRICE": "Precio SL",
+      "STOP_LOSS_TOOLTIP": "Protege contra las pérdidas cerrando la posición de un trader una vez que el precio de oráculo cruza el trigger price.",
+      "TAKE_PROFIT_TOOLTIP": "Permite a los traders establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias.",
+      "TP_PRICE": "Precio TP"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Consulta cómo se utilizan tus datos de operaciones para calcular recompensas.",
@@ -999,7 +1097,11 @@
       "VIEW_REWARDS": "Ver recompensas"
     },
     "TRADE": {
+      "ADD_MARGIN": "Agregar margen",
       "ADD_TRIGGERS": "Añadir disparador(es)",
+      "ADJUST_ISOLATED_MARGIN": "Ajustar el margen aislado",
+      "ADJUST_TARGET_LEVERAGE": "Ajustar el apalancamiento objetivo",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "El ajuste del apalancamiento objetivo no ajustará el margen hasta que se realice una nueva orden. Para obtener más información sobre el apalancamiento objetivo, consulta {HERE}.",
       "AMOUNT_FILLED": "Completado",
       "ANNUALIZED": "Anualizado",
       "ASKS": "Preguntas",
@@ -1023,6 +1125,7 @@
       "CLEAN_UP": "Limpiar",
       "CLOSE_ORDER": "Cerrar orden",
       "CLOSE_POSITION": "Cerrar la posición",
+      "CONFIRM_LEVERAGE": "Confirmar apalancamiento",
       "CONFIRM_ORDER": "Confirmar {ORDER}",
       "CONFIRMED_DESCRIPTION": "Tu trade ha sido colocado.",
       "CONFIRMED_TITLE": "Confirmado",
@@ -1034,6 +1137,7 @@
       "CURRENTLY_TRADING_GOERLI": "Estás realizando operaciones en nuestra aplicación de Goerli para la red de pruebas con fondos de prueba. Crea una cuenta en nuestra aplicación mainnet para comenzar a operar con fondos reales",
       "CURRENTLY_TRADING_ROPSTEN": "Estás realizando operaciones en nuestra aplicación de Ropsten testnet con fondos de prueba. Crea una cuenta en nuestra aplicación mainnet para comenzar a operar con fondos reales",
       "DELEVERAGED": "Desapalancado",
+      "EDIT_STOP_LOSS": "Editar Stop loss",
       "ENTER_AMOUNT": "Ingresa el monto",
       "ENTER_LIMIT_PRICE": "Ingresa el precio de límite",
       "ENTER_TRIGGER_PRICE": "Ingresa el precio de activación",
@@ -1152,6 +1256,9 @@
       "PLACE_TRADE": "Realizar un trade",
       "PLACING_ORDER_DESCRIPTION": "Tu trade está en progreso.",
       "PLACING_ORDER_TITLE": "Poner una orden",
+      "POSITION_COLLATERAL": "Garantía de posición",
+      "POSITION_LEVERAGE": "Apalancamiento de posición",
+      "POSITION_MARGIN": "Margen de posición",
       "POSITIONS_EMPTY_STATE": "No tienes posiciones abiertas.",
       "POSITIONS": "Posiciones",
       "POST_ONLY": "Solo post",
@@ -1168,6 +1275,7 @@
       "REDUCE_ONLY": "Solo reducir",
       "REDUCE_ONLY_RESIZED": "Solo reducir redimensionado",
       "RELEASE_TO_EDIT": "Suelta el ratón para editar el orden",
+      "REMOVE_MARGIN": "Eliminar margen",
       "RETURN_TO_MARKET": "Volver al mercado",
       "RISK_REWARD": "Riesgo y recompensa",
       "SELECT_MARKET": "Selecciona el mercado",
@@ -1193,6 +1301,7 @@
       "TAKER": "Tomador",
       "TAP_TO_CLOSE": "Pulsa para cerrar",
       "TAP_TO_TRADE": "Toca para trade",
+      "TARGET_LEVERAGE": "Apalancamiento objetivo",
       "TIME_IN_FORCE": "Tiempo en vigor",
       "TOTAL_COST": "Costo total",
       "TOTAL_SIZE": "Volumen total",
@@ -1295,6 +1404,8 @@
       "ADJUSTED_IMR": "Margen ajustado",
       "ADJUSTED_IMR_BODY": "Hemos temporalmente {ACTION}los requisitos de margen inicial en {MARKET} al {PERCENT} debido a la volatilidad. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Recompensa de bloque",
+      "CHAIN_DISRUPTION_DETECTED": "Interrupción de cadena detectada",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "El trading y la transferencia están deshabilitados, ya que las órdenes pueden fallar o retrasarse debido a la interrupción de la cadena dYdX. Espera e inténtalo de nuevo más tarde. Tus fondos están seguros.",
       "CLOSE_MARKET_POSITIONS": "Cierra tu {MARKET}posición",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}está configurado para cerrar solo el modo y el precio de cierre de {MARKET} ahora es fijo. Cierra tu posición abierta {MARKET} tan pronto como puedas. Estamos aquí para ayudarte por chat en caso de que surja algún inconveniente.",
       "COMPLIANCE_ALERT": "Alerta de cumplimiento",
@@ -1318,6 +1429,8 @@
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Ocurrió un error durante tu inicio de sesión con Magic. Inténtalo de nuevo.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "Requisitos de margen de mantenimiento {ACTION} en {PERCENT}%.",
       "NOTIFICATIONS_EMPTY_STATE": "No tienes notificaciones.",
+      "ORDERBOOK_LAGGING": "Retraso en el libro de órdenes",
+      "ORDERBOOK_LAGGING_BODY": "Los datos del libro de órdenes y los precios pueden estar obsoletos debido a retrasos del sistema. Las órdenes de mercado y a corto plazo se enfrentan a un mayor riesgo de encontrar discrepancias de precios en el momento de la ejecución. Las transacciones y la información de la cuenta también podrían retrasarse.",
       "OUT_OF_TEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}de 10 confirmaciones",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}de 14 confirmaciones",
       "PERMANENTLY_BLOCKED": "Bloqueado permanentemente",
@@ -1329,6 +1442,7 @@
       "SLOW_WITHDRAW_AVAILABLE": "Retiro lento listo",
       "SLOW_WITHDRAW_PENDING_DESCRIPTION": "Tienes {AMOUNT_ELEMENT}en espera de retiros lentos. Recibirás una notificación cuando tus fondos hayan sido confirmados en la etapa 2.",
       "SLOW_WITHDRAW_PENDING": "Retiro lento pendiente",
+      "STATUS_PAGE": "Página de estado",
       "SUSPICIOUS_TRADE": "Actividad sospechosa",
       "SUSPICIOUS_TRADE_BODY": "Hemos notado una actividad de operaciones sospechosa relacionada con tu cuenta en dYdX, incluyendo una posible actividad de lavado de dinero. Revisaremos tu actividad de forma continua. Si notamos una actividad similar en el futuro, quedarás bloqueado permanentemente para realizar transferencias dentro del protocolo y para colocar órdenes que no sean de mercado y que reduzcan tus posiciones.",
       "TRANSFER_STATUS": {
