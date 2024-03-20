@@ -39,6 +39,10 @@
       "TITLE": "Satın Alma Gücü",
       "BODY": "{MARKET} üzerindeki pozisyonlarınızı artırmak için kullanabileceğiniz toplam satın alma gücü. Satın alma gücünüz seçtiğiniz piyasaya göre değişecektir."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Özel Miktar",
+      "BODY": "Özel miktarınızdaki değişiklik hem Kâr Alma hem de Zarar Durdurma talimatları için geçerli olacaktır."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Varsayılan Yürütme",
       "BODY": "Talimatınız açılış sırasında her türlü çakışan talimatı karşılayacaktır. Talimatınız tam olarak karşılanmadıysa karşılanana kadar, iptal edilene kadar veya süresi sona erene kadar açık kalacaktır."
@@ -91,8 +95,12 @@
       "TITLE": "Limit Fiyatı",
       "BODY": "Bu talimat yalnızca belirtilen limit fiyatı üzerinden veya daha iyisiyle karşılanabilir. Talimatınız yerleştirme sırasında çaprazlanırsa, talimatınız çaprazlanan tüm talimatları en uygun fiyatla karşılayacaktır."
     },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Limit Fiyatı",
+      "BODY": "Bir limit fiyatı belirleyerek, bir Kâr Alma Limit Talimatı ve\/veya bir Durdurma Limit Talimatı vermiş olursunuz. Daha fazla bilgi için {DOCUMENTATION_LINK} tıklayın."
+    },
     "LIMIT_PRICE_SLIPPAGE": {
-      "TITLE": "Slipaj",
+      "TITLE": "Kayma",
       "BODY": "Tetikleme fiyatınız ve limit fiyatınız arasındaki yüzdesel fark."
     },
     "LIQUIDATION_PRICE": {
@@ -151,6 +159,14 @@
       "TITLE": "Talimat Miktarı",
       "BODY": "Satılacak veya satın alınacak {SYMBOL}USD cinsinden miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "Kayıp Durdurma Emri, Kısmi bir Kapama",
+      "BODY": "Kayıp durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
+      "BODY": "Kâr al emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+    },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
       "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
@@ -187,12 +203,28 @@
       "TITLE": "Adım Boyutu",
       "BODY": "Adım boyutu, bu piyasadaki talimat miktarları için izin verilen en küçük faktördür."
     },
+    "STOP_LOSS": {
+      "TITLE": "Stop Emir",
+      "BODY": "Oracle fiyatı tetikleme fiyatını aştığında yatırımcının pozisyonunu kapatarak kayıplara karşı koruma sağlar."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Tasfiye Fiyatının Üzerinde Kayıp Durdurma",
+      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının üzerine çıktı. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Kayıp Durdurma Tasfiye Fiyatının Altında",
+      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının altına düştü. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+    },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
       "BODY": "Talimat defterinden likidite alan işlemler (örn. piyasa veya çakışan limit talimatları) alıcı talimatları olarak yürütülür. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
     },
+    "TAKE_PROFIT": {
+      "TITLE": "Kâr Alma",
+      "BODY": "Yatırımcıların hedef belirlemelerine ve açık bir pozisyonun kâr için kapatılacağı bir fiyat belirleyerek pozisyonlardaki kârlarını korumalarına olanak tanır."
+    },
     "TICK_SIZE": {
-      "TITLE": "Puan Büyüklüğü",
+      "TITLE": "Minimum Fiyat Büyüklüğü",
       "BODY": "Puan boyutu, bu piyasadaki minimum fiyat hareketidir."
     },
     "TIME_IN_FORCE": {
