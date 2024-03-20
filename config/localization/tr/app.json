@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} saat",
         "X_MINUTES_LOWERCASED": "{X} dakika",
         "X_MINUTES": "{X} Dakika",
-        "X_SECONDS_LOWERCASED": "{X} saniye"
+        "X_SECONDS_LOWERCASED": "{X} saniye",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "Hakkında",
       "ACADEMY": "Akademi",
@@ -43,11 +44,14 @@
       "ACKNOWLEDGEMENT": "Kabul",
       "ACTION": "Eylem",
       "ACTIVE": "Aktif",
+      "ADDING": "Ekleme",
       "ADDRESS": "Adres",
       "ADVANCED": "Gelişmiş",
+      "AI": "Yapay Zeka",
       "ALERTS": "Uyarılar",
       "ALL_MARKETS": "Tüm piyasalar",
       "ALL": "Tümü",
+      "ALLOWED": "İzin Verilen",
       "AMOUNT": "Miktar",
       "ANONYMOUS": "Anonim",
       "ARE_UNCHANGED": "değişmemiştir",
@@ -85,12 +89,19 @@
       "COPIED": "Kopyalandı!",
       "COPY": "Kopyala",
       "CREATED_AT": "Oluşturma Zamanı",
+      "CROSS": "Çapraz",
+      "CROSS_FREE_COLLATERAL": "Çapraz Serbest Teminat",
+      "CROSS_MARGIN": "Çapraz Marjin",
+      "CROSS_MARGIN_DESCRIPTION": "Birden fazla pozisyonda paylaşılan teminat ve risk kullanın",
+      "CROSS_MARGIN_USAGE": "Çapraz Marjin Kullanımı",
       "CURRENT": "Güncel",
       "CUSTOM": "Özel",
+      "CUSTOM_AMOUNT": "Özel miktar",
       "DAILY": "Günlük",
       "DECREASED": "azalmış",
       "DECREASING": "Azalan",
       "DEFAULT": "Varsayılan",
+      "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "Tüm piyasalar için varsayılan Pozisyonlar \/ Talimatlar \/ Karşılamalar",
       "DEFI": "DeFi",
       "DEGRADED": "Düşük Nitelikli",
       "DEPOSIT_FUNDS": "Fon Yatırma",
@@ -129,6 +140,8 @@
       "FREE": "Ücretsiz",
       "FROM_TO": "{FROM} token'ından {TO} token'ına",
       "FUNDING_RATE_CHART_SHORT": "Fonlama",
+      "GAIN": "Kazanç",
+      "GAMING": "Oyun",
       "GAS_FEE": "Gaz ücreti",
       "GASLESS_DEPOSITS": "Gas'sız yatırma işlemleri",
       "GENERAL": "Genel",
@@ -148,10 +161,14 @@
       "INITIAL_MARGIN_FRACTION": "Başlangıç Marj Oranı",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Başlatılıyor",
+      "ISOLATED": "İzole",
+      "ISOLATED_MARGIN": "İzole Marjin",
+      "ISOLATED_MARGIN_DESCRIPTION": "Riski izole etmek için her pozisyonda ayrı teminat kullanın.",
       "KEEP_TRADING": "İşlem yapmaya devam et",
       "LANGUAGE": "Dil",
       "LARGE_CAP": "Büyük sermayeli",
       "LAYER_1": "1.Katman",
+      "LAYER_2": "Katman 2",
       "LEARN_MORE": "Daha fazla bilgi",
       "LEARN_MORE_ARROW": "Daha fazla bilgi →",
       "LEARN": "Öğrenin",
@@ -164,17 +181,20 @@
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "DMO",
       "MAKE_ONE_TRADE": "1 işlem yap",
       "MANAGE_FUNDS": "Fonlarınızı yönetin",
-      "MARGIN_USAGE": "Marjin Kullanımı",
       "MARGIN": "Marj",
+      "MARGIN_MODE": "Marjin Modu",
+      "MARGIN_USAGE": "Marjin Kullanımı",
       "MARKET_NAME": "Piyasa Adı",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Bu varlığı henüz desteklemiyoruz veya bu varlık henüz mevcut değil.",
       "MARKET_SEARCH_PLACEHOLDER": "örn. \"ETH\" veya \"Ethereum\"",
       "MARKET": "Piyasa",
       "MARKETS": "Piyasalar",
-      "MAX_WITHDRAW": "Maks. Çekim",
       "MAX": "Maks.",
+      "MAX_BUYING_POWER": "Maksimum Satınalma Gücü",
+      "MAX_WITHDRAW": "Maks. Çekim",
       "MAXIMUM_LEVERAGE": "Maksimum Kaldıraç",
       "MAXIMUM_REWARDS": "Tahmin Edilen Ödüller",
+      "MEME": "Meme",
       "MENU": "Menü",
       "METRICS": "Ölçütler",
       "MID_CAP": "Orta sermayeli",
@@ -182,10 +202,13 @@
       "MINE": "Mine",
       "MINIMUM_ORDER_SIZE": "Minimum Talimat Büyüklüğü",
       "MODIFY": "Değiştir",
+      "MULTIPLE": "Çoklu",
       "NETWORK": "Ağ",
       "NEW": "Yeni",
+      "NFT": "NFT",
       "NO": "Hayır",
       "NONE": "Hiçbiri",
+      "NOT_ALLOWED": "İzin verilmeyen",
       "ON_CHAIN": "{CHAIN} üzerinde",
       "OPERATIONAL": "Operasyonel",
       "OPTIONAL": "İsteğe Bağlı",
@@ -225,6 +248,7 @@
       "REFERRAL_CODE": "Referans Kodu",
       "REFERRALS": "Tavsiyeler",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% indirim",
+      "REMOVING": "Kaldırma",
       "RESULTS": "Sonuçlar",
       "REWARDS": "Ödüller",
       "REWARDED": "Verilen ödüller",
@@ -233,11 +257,14 @@
       "SAVE": "Kaydet",
       "SAVED": "Kaydedildi",
       "SCAN_TO_DOWNLOAD": "Uygulamayı indirmek için tarayın",
+      "SELECT": "Seçin {SELECTION}",
       "SELECT_ASSET": "Bir varlık seçin",
       "SELECT_CHAIN": "Bir zincir seçin",
       "SELL": "Sat",
       "SEND": "Gönder",
       "SHARE": "Paylaş",
+      "SHARE_DYDX": "iPhone için dYdX'i paylaşın",
+      "SHARE_MESSAGE": "dYdX üzerinde benimle işlem yap!",
       "SHORT_POSITION_SHORT": "Kısa",
       "SHOW_ALL_DETAILS": "Tüm ayrıntıları göster",
       "SIDE": "Taraf",
@@ -293,6 +320,7 @@
       "VIEW": "Görüntüle",
       "VIEWS": "Görünümler",
       "VOLUME_30D": "Hacim (30g)",
+      "VOTING_LIVE": "Canlı oylama",
       "WALLET_BALANCE": "Cüzdan Bakiyesi",
       "WALLET": "Cüzdan",
       "WEBSITE": "Web Sitesi",
@@ -330,6 +358,10 @@
         "PRIMARY": "ApeCoin, ekosistemin yönetişim tokenidir ve ApeCoin sahiplerinin ApeCoin DAO'ya katılmalarına olanak sağlar.",
         "SECONDARY": "ApeCoin, ekosistemin yardımcı tokenidir, tüm katılımcılarına merkezi aracılar olmadan kullanılabilecek paylaşılan ve açık bir para birimi sağlar."
       },
+      "API3": {
+        "PRIMARY": "API3, API3 projesini destekleyen ve API3 DAO'yu yönetmek ve proje yükseltmeleri hakkında oy kullanmak için kullanılan bir Ethereum token'ıdır.",
+        "SECONDARY": "API3, zincir dışı veriler ile zincir içi uygulamalar arasındaki boşluğu maksimum güvenlik ve minimum gecikme ile dolduran çözümler üretir. API'nin dAPI'leri doğrudan yerel zincir üzerindeki birinci taraf oracle'lardan toplanır."
+      },
       "APT": {
         "PRIMARY": "Aptos, ölçeklenebilir, güvenli ve kullanımı kolay olacak şekilde tasarlanmış bir 1. katman blok zinciridir.",
         "SECONDARY": "Aptos, saniyede çok sayıda işlemi işleyebilmek üzere tasarlanmıştır ve hisse kanıtı konsensüs mekanizmasını kullanır."
@@ -341,6 +373,10 @@
       "AVAX": {
         "PRIMARY": "Avalanche son derece merkezsizleştirilmiş uygulamalar, yeni finansal temeller ve yeni birlikte işlem görebilir blokzincirler başlatmak için geliştirilmiş açık kaynaklı bir platformdur.",
         "SECONDARY": "Avalanche üzerinde çalışan geliştiriciler kolaylıkla güçlü, güvenilir ve güvenli uygulamalar ile karmaşık kural kümeli blok zincir ağları oluşturabilirler, veya mevcut özel ve genel alt ağlar üzerine kurabilirler."
+      },
+      "AXL": {
+        "PRIMARY": "AXL, Axelar ekosistemi üzerinde güvenli zincirler arası iletişimi sağlayan yerel hizmet token'ıdır.",
+        "SECONDARY": "Axelar bir birlikte çalışabilirlik çözümüdür ve merkeziyetsiz uygulamalar arasında kesintisiz ve güvenli zincirlerarası iletişim için gereken altyapıyı sağlar."
       },
       "BCH": {
         "PRIMARY": "Bitcoin Cash ile günün 24 saati, yılın 365 günü dünya üzerinde istediğiniz kişiye ve istediğiniz yere para gönderebilirsiniz. İnternet'in kendisi gibi, ağ her zaman açıktır.",
@@ -354,6 +390,10 @@
         "PRIMARY": "BLUR bir NFT pazaryeridir.",
         "SECONDARY": "BLUR token, BLUR protokolünün yönetişim tokenidir."
       },
+      "BONK": {
+        "PRIMARY": "BONK, Solana üzerinde insanlar tarafından insanlar için üretilmiş ilk köpek temalı kripto paradır.",
+        "SECONDARY": "Ekibin ana hedefi, Solana'daki merkeziyetsizleştirilmiş borsalara (DEX'ler) likiditeyi geri getirmektir."
+      },
       "BNB": {
         "PRIMARY": "BNB, Binance Chain'in para birimidir.",
         "SECONDARY": "Binance, Binance Chain'i de içeren merkezsiz, blok zincir tabanlı ağlardan oluşan benzersiz bir ekosistemdir."
@@ -361,7 +401,7 @@
       "CHZ": {
         "PRIMARY": "CHZ, Chiliz spor ve eğlence ekosistemi için yerel dijital token'dır.",
         "SECONDARY": "Chiliz Chain, taraftarları ve markaları bir araya getiren web3 ürünleri ve deneyimleri oluşturmak için takımları, taraftarları ve geliştiricileri çeken bir spor altyapısıdır."
-      }, 
+      },
       "CELO": {
         "PRIMARY": "Celo, EVM ile tam uyumlu bir proof-of-stake blok zinciridir.",
         "SECONDARY": "CELO ayrıca kullanıcılara native ve native olmayan stablecoin'lere erişim, külfetsiz bir mobil istemci ve gaz ücretinin birden fazla para birimiyle ödenmesi imkanı sunar."
@@ -401,7 +441,7 @@
       "ENS": {
         "PRIMARY": "ENS, en yaygın olarak entegre edilmiş olan blok zinciri adlandırma standardıdır.",
         "SECONDARY": "Ethereum Name Service, Ethereum blok zincirini temel alan dağıtık, açık ve genişletilebilir bir adlandırma sistemidir."
-      }, 
+      },
       "EOS": {
         "PRIMARY": "EOSIO; güvenli, uyumlu ve öngörülebilir dijital altyapıları desteklemek ve yönetmek için tasarlanmış, yüksek performanslı açık kaynaklı bir blok zinciri platformudur.",
         "SECONDARY": "Blokzincir yenilikleri ve performans için geliştirilmiş açık kaynaklı bir blokzincir platformu olan EOSIO'yu dünya çapında işletmeler ve geliştiriciler güvenli, şeffaf ve düzenli dijital altyapılar oluşturmak için kullanırlar."
@@ -466,10 +506,6 @@
         "PRIMARY": "KAVA, Cosmos SDK ile inşa edilmiş bir blok zinciri ağı olan Kava'nın yerel token'ıdır.",
         "SECONDARY": "Kava, Cosmos'un hızını ve birlikte çalışabilirliğini Ethereum'un geliştirici gücü ile birleştiren bir Katman-1 blok zinciridir."
       },
-      "JUP": {
-        "PRIMARY": "Jupiter, Solana üzerinde inşa edilmiş önde gelen bir DEX birleştiricisidir",
-        "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
-      },
       "LDO": {
         "PRIMARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 tokenidir.",
         "SECONDARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır."
@@ -477,6 +513,10 @@
       "LTC": {
         "PRIMARY": "Litecoin, dünyadaki herkese anında ve neredeyse sıfır maliyetli ödemeler sağlayan eşler arası bir İnternet para birimidir.",
         "SECONDARY": "Litecoin, tamamen merkeziyetsiz açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir trading aracıdır."
+      },
+      "MAGIC": {
+        "PRIMARY": "MAGIC, Arbitrum üzerinde inşa edilmiş, merkeziyetsiz bir oyun ekosistemi olan Treasure'un hizmet token'ıdır.",
+        "SECONDARY": "MAGIC token'ları oyun içinde yönetişime katılmak, Treasure mağazasında NFT satın almak ve satmak için kullanılır ve ayrıca stake edilebilir."
       },
       "MANA": {
         "PRIMARY": "MANA, takaslanamaz ERC-721 LAND token'ları elde etmek için yakılması gereken bir ERC-20 token'ıdır. MANA token'ları, Decentraland pazarında bir dizi avatar, giyilebilir ürün, ad ve daha fazlasının ücretini ödemek için de kullanılabilir.",
@@ -490,6 +530,10 @@
         "PRIMARY": "Polygon, Ethereum uyumlu blokzincir ağlarını oluşturmak ve birbirine bağlamak için geliştirilmiş bir protokol ve çerçevedir. Çok zincirli Ethereum ekosistemini destekler, Ethereum üzerinde ölçeklenebilir çözümler sunar.",
         "SECONDARY": "Polygon, Ethereum'un ağ etkilerinden bütünüyle yararlanabilen açık, güvenli, tam teşekküllü çok zincirli bir sistemle Ethereum'un ve egemen blok zincirlerinin en iyi özelliklerini bir araya getirir"
       },
+      "MEME": {
+        "PRIMARY": "Kendi websitesine göre Memecoin (MEME) gerçekten de bir meme (internet geyiği) kripto parasıdır.",
+        "SECONDARY": "Memeland, dünya çapında popüler meme platformu olan 9GAG'in web3 girişim stüdyosudur."
+      },
       "MINA": {
         "PRIMARY": "MINA, Mina Protokolü'ne güç veren ve yeni hesaplar oluşturmak, işlemler için ödeme yapmak ve ağda stake edilmek için kullanılan bir kripto para birimidir.",
         "SECONDARY": "Mina Protokolü; düşük yüklü, gizliliği koruyan ve kolayca doğrulanabilir olmayı hedefleyen bir birinci katman blok zinciridir. Mina'daki geliştiriciler, sıfır bilgi kanıtlarına dayalı olarak gizliliği koruyan akıllı sözleşmeler ve merkezi olmayan uygulamalar oluşturabilirler."
@@ -498,13 +542,13 @@
         "PRIMARY": "Maker Protocol, diğer adıyla Multi-Collateral Dai (MCD) sistemi, kullanıcıların \"Maker Yönetişimi\" ile onaylanmış teminat varlıklarından faydalanarak Dai üretmelerine olanak tanır. Maker Yönetişimi, Maker Protocol'ün çeşitli özelliklerini yönetmek için topluluk tarafından organize edilen ve yönetilen bir süreçtir.",
         "SECONDARY": "Dai, ABD Doları'na yumuşak sabit kur rejimiyle bağlanmış; merkezsiz, tarafsız ve teminat destekli bir kripto paradır. Düşük oynaklığı nedeniyle hiperenflasyona karşı dirençli olan Dai, herkese her yerde ekonomik özgürlük ve fırsatlar sunar."
       },
-      "XMR": {
-        "PRIMARY": "Monero, kişisel ve sansüre dirençli işlemlere odaklanan önde gelen bir kripto paradır.",
-        "SECONDARY": "Monero seçici olarak şeffaf alternatiflerinden (ör. Zcash) farklı olarak, her kullanıcının varsayılan olarak anonim olduğu tek kripto paradır. Her bir işlemin göndericisi, alıcısı ve miktarı üç önemli teknoloji kullanılarak gizlenir: Gizli Adresler, Halka İmzaları ve RingCT."
-      },
       "NEAR": {
         "PRIMARY": "NEAR, kullanılabilirlik için tasarlanmış parçalı, hisse kanıtlı, birinci katman blok zincir üzerine kurulu bir geliştirme platformudur.",
         "SECONDARY": "NEAR token, ağı hisse kanıtı mekanizması üzerinden güvenceye almak için kullanılır."
+      },
+      "OCEAN": {
+        "PRIMARY": "Ocean'ın Veri Çiftliği teşvik sistemi, OCEAN sahiplerinin OCEAN'ı kilitleyerek ve veriler oluşturarak kazanç elde etmelerini sağlar.",
+        "SECONDARY": "Ocean Protokolü, güvenli ve gizliliğin korunduğu veri paylaşımını sağlamak için blok zinciri teknolojisi, merkeziyetsiz ağlar ve kriptografik teknikleri bir arada kullanır."
       },
       "OP": {
         "PRIMARY": "OP Mainnet, Optimism tarafından desteklenen düşük maliyetli ve yıldırım hızında bir Ethereum L2 blok zinciridir.",
@@ -517,6 +561,10 @@
       "PEPE": {
         "PRIMARY": "Pepe bir memecoin'dir.",
         "SECONDARY": "Web sitesine göre Pepe, memecoin'leri yeniden iyi bir konuma getirmek ortaya çıkmıştır."
+      },
+      "PORTAL": {
+        "PRIMARY": "$portal, portal platformu için yerel platform token'ıdır. $portal, web3 oyunları ve oyuncuları arasında bir bağlantı noktası görevi görerek oyunun herkese dağıtılmasını ve oyundaki sadeliği sağlar.",
+        "SECONDARY": "Portal, çeşitli blokzinciri ağlarındaki oyunları ve oyuncuları, kendi zincirlerarası token platformunda birleştirerek, uyum içinde bir Web3 oyun ekosistemi oluşturmayı hedefliyor."
       },
       "PYTH": {
         "PRIMARY": "PYTH, Pyth Network ve ekosistemi için yönetişim token'ıdır.",
@@ -549,6 +597,10 @@
       "STX": {
         "PRIMARY": "STX, Stacks ağının yerel para birimidir. Bitcoin için akıllı sözleşmeleri beslemek, açık Stacks ağındaki madencileri ödüllendirmek için kullanılır ve sahiplerinin Stacking yaparak bitcoin kazanmalarını sağlar.",
         "SECONDARY": "Stacks, akıllı sözleşmeler için bir Bitcoin katmanıdır; akıllı sözleşmelerin ve merkezi olmayan uygulanımların Bitcoin'i bir varlık olarak güvenle kullanmasını ve Bitcoin blok zincirindeki işlemleri gerçekleştirmesini sağlar."
+      },
+      "STRK": {
+        "PRIMARY": "Starknet Token, işlem ücretlerini ödemek ve Starknet protokolünün uzun-dönem değişimini yönetişim oylamalarına katılım yoluyla şekillendirmek için kullanılacaktır.",
+        "SECONDARY": "StarkNet, izin gerektirmeyen ve merkeziyetsiz bir Geçerlilik Rollup'ıdır (\"ZK-Rollup\" olarak da bilinir). Ethereum üzerinde bir L2 ağı olarak çalışır ve (StarkNet'in STARK adı verilen, en güvenli ve en ölçeklenebilir kriptografik kanıt sistemine dayanması sayesinde, Ethereum'un şekillendirilebilirliğinden ve güvenliğinden ödün vermeden) tüm dApp'lerin kendi hesaplaması için sınırsız ölçeğe ulaşmasını sağlar."
       },
       "SUI": {
         "PRIMARY": "Sui, varlık sahipliğini yeniden tanımlayan yenilikçi, merkeziyetsiz bir 1. Katman blok zinciridir.",
@@ -589,6 +641,10 @@
       "XLM": {
         "PRIMARY": "Stellar, açık bir para depolama ve taşıma ağıdır.",
         "SECONDARY": "Stellar, tüm para cinslerinin dijital temsillerini oluşturmaya, göndermeye ve ticarete konu etmeye olanak tanır: Dolar, peso, bitcoin ve hemen hemen diğer her şey. Tüm dünyanın finansal sistemlerini tek bir ağ üzerinde birlikte çalıştırabilecek şekilde tasarlanmıştır."
+      },
+      "XMR": {
+        "PRIMARY": "Monero, kişisel ve sansüre dirençli işlemlere odaklanan önde gelen bir kripto paradır.",
+        "SECONDARY": "Monero seçici olarak şeffaf alternatiflerinden (ör. Zcash) farklı olarak, her kullanıcının varsayılan olarak anonim olduğu tek kripto paradır. Her bir işlemin göndericisi, alıcısı ve miktarı üç önemli teknoloji kullanılarak gizlenir: Gizli Adresler, Halka İmzaları ve RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple, sınır ötesi ödemeleri karşılamak için tasarlanmış bir ağdır.",
@@ -759,7 +815,7 @@
       "TOS_LINE2": "Gelecekte Amerika Birleşik Devletleri, Kanada veya diğer yasaklanmış veya engellenmiş konumlarda bulunurken bu siteye erişmeyecek veya ürünlerimizi veya hizmetlerimizi kullanmayacaksınız.",
       "TOS_LINE3": "Fiziksel konumunuzu yasaklı veya engellenmiş bir konumdan başka bir yerde göstermek için VPN kullanmıyorsunuz ve gelecekte kullanmayacaksınız.",
       "TOS_LINE4": "İkamet ettiğiniz ve fiziksel olarak bulunduğunuz bölgenin yasaları uyarınca ürün ve hizmetlerimizi kullanmanıza hukuken izin veriliyor.",
-      "TOS_LINE5": "Sürekli sözleşmelere girme, kaldıraç kullanma ve blok zinciri ile diğer web3 ürün ve hizmetleriyle etkileşim kurma ile ilgili yatırım ve teknoloji risklerini anlıyorsunuz. Yasal talebe buradan bakabilirsiniz.",
+      "TOS_LINE5": "Sürekli sözleşmelere girme, kaldıraç kullanma ve blokzinciri ve diğer web3 ürün ve hizmetleriyle etkileşim kurma ile ilgili yatırım ve teknoloji risklerini anlıyorsunuz.",
       "TOS_TRANSLATION_DISCLAIMER": "Uygun olduğu takdirde, bu bildirimin İngilizce dışındaki dillere çevrilmiş versiyonu size nezaketen verilecektir. Çevrilmiş versiyon ve İngilizce versiyon arasında bir çelişki olması durumunda, İngilizce versiyon geçerli olacaktır.",
       "TRANSFEROUT_ALERT_TITLE": "Bekleyen  transferiniz {PENDING_TRANSFERS}{TOKEN}bulunuyor.",
       "TRANSFEROUT_ALERT_SUBTITLE": "Durumu kontrol edin",
@@ -818,6 +874,36 @@
       "LEAVING_WEBSITE": "Web sitesinden çıkılıyor",
       "LEAVING_WEBSITE_DESCRIPTION": "Devam ettiğinizde web sitemizden ayrılacak, bizden bağımsız ve bizimle hiçbir bağlantısı olmayan üçüncü bir tarafça sunulan bir web sitesine giriş yapacaksınız.",
       "LEAVING_WEBSITE_DISCLAIMER": "Üçüncü taraf web sitesindeki herhangi bir eylemden veya içerikten sorumlu değiliz"
+    },
+    "CLOSE_POSITIONS_CONFIRMATION_TOAST": {
+      "AVERAGE_PRICE": "Ortalama Fiyat",
+      "CLOSE_ALL": "Tümünü Kapat",
+      "FAILED_TO_CLOSE": "Kapatma başarısız oldu",
+      "FAILED_TO_CLOSE_SINGLE_POSITION_EXPLANATION": "Pozisyonunuzu kapatmaya çalışırken beklenmeyen bir hata oluştu. Lütfen tarayıcınızı yenileyin ve tekrar deneyin.",
+      "FAILED_TO_CLOSE_MULTI_POSITION_EXPLANATION": "Pozisyonlarınızı kapatmaya çalışırken beklenmeyen bir hata oluştu. Lütfen tarayıcınızı yenileyin ve tekrar deneyin.",
+      "INSUFFICIENT_LIQUIDITY": "Yetersiz likidite",
+      "INSUFFICIENT_LIQUIDITY_SINGLE_POSITION_EXPLANATION": "Bu pozisyonu tümüyle kapatmak için yeterli likidite bulunmuyor. Lütfen daha küçük bir miktar deneyin veya daha sonra tekrar deneyin.",
+      "INSUFFICIENT_LIQUIDITY_MULTI_POSITION_EXPLANATION": "Şu pozisyonları kapatmak için yeterli likidite bulunmuyor: {LIST_OF_POSITIONS}. Lütfen daha sonra tekrar deneyin.",
+      "PARTIAL": "Kısmi",
+      "PARTIAL_FILL": "Kısmi karşılama",
+      "POSITIONS_CLOSED": "Kapalı Pozisyonlar",
+      "VIEW_ORDERS": "Talimatları görüntüle"
+    },
+    "CLOSE_POSITIONS_MODAL": {
+      "ARE_YOU_SURE_CLOSE_SINGLE_POSITION": "{MARKET} ({MARKET_ABBREVIATION}) piyasasındaki pozisyonunuzu kapatmak istediğinizden emin misiniz?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION": "Açık pozisyonlarınızı piyasa talimatları yoluyla kapatmak istediğinizden emin misiniz?",
+      "ARE_YOU_SURE_CLOSE_MULTI_POSITION_ALL": "Tüm açık pozisyonlarınızı piyasa talimatları yoluyla kapatmak istediğinizden emin misiniz?",
+      "CLOSE_ALL": "Tüm izin verilenleri kapat",
+      "CLOSE_ALL_POSITIONS": "Tüm pozisyonları kapat",
+      "CONFIRM_CLOSE_SINGLE_POSITION": "Kapatmayı onayla",
+      "CONFIRM_CLOSE_MULTI_POSITION": "Tümünü kapatmayı onayla",
+      "LIMIT_MID_MARKET_CLOSE": "Kapatmayı orta piyasa fiyatıyla sınırla",
+      "MARKET_CLOSE": "Piyasa kapatma",
+      "NUM_POSITION_SINGLE": "{NUMBER} Pozisyonu",
+      "NUM_POSITION_PLURAL": "{NUMBER} pozisyon",
+      "SLIPPAGE_EXCEEDED": "Kayma sınırı aşıldı",
+      "SLIPPAGE_EXCEEDED_EXPLANATION": "Bu talimat çok büyük ve aşırı kaymaya neden olacaktır. Kapatma boyutunu azaltın veya bunun yerine bir limit talimatı verin.",
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Aşağıdaki piyasalar için verdiğiniz talimat çok büyük ve aşırı kaymaya neden olacaktır. Bir limit talimatı vermeyi değerlendirin."
     },
     "DEPOSIT_MODAL": {
       "BRIDGE_FEE": "Köprü Ücreti",
@@ -894,6 +980,18 @@
       "LIVE_CHAT_DESCRIPTION": "Canlı destek ve yardım alın",
       "PROVIDE_FEEDBACK": "Geri bildirim sağlayın",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Ürün geri bildirimi ve talepleri"
+    },
+    "TRIGGERS_MODAL": {
+      "AVG_ENTRY_PRICE": "Ort. Giriş Fiyatı",
+      "CUSTOM_AMOUNT_TOOLTIP": "Özel miktarınızdaki değişiklik hem Kâr Alma hem de Zarar Durdurma talimatları için geçerli olacaktır.",
+      "ENTER_TRIGGERS": "Tetikleme değer(ler)ini girin",
+      "LIMIT_PRICE_TOOLTIP": "Bir limit fiyatı belirleyerek, bir Kâr Alma Limit Talimatı ve\/veya bir Durdurma Limit Talimatı vermiş olursunuz. Daha fazla bilgi için {DOCUMENTATION_LINK} tıklayın.",
+      "MULTIPLE_ORDERS_FOUND": "Birden fazla talimat bulundu.",
+      "PRICE_TRIGGERS": "Fiyat tetikleme değerleri",
+      "SL_PRICE": "Kayıp Durdurma Fiyatı",
+      "STOP_LOSS_TOOLTIP": "Oracle fiyatı tetikleme fiyatını aştığında yatırımcının pozisyonunu kapatarak kayıplara karşı koruma sağlar.",
+      "TAKE_PROFIT_TOOLTIP": "Yatırımcıların hedef belirlemelerine ve açık bir pozisyonun kâr için kapatılacağı bir fiyat belirleyerek pozisyonlardaki kârlarını korumalarına olanak tanır.",
+      "TP_PRICE": "Kar Alma Fiyatı"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Trading verilerinizin ödülleri hesaplamak için nasıl kullanıldığına göz atın.",
@@ -999,7 +1097,11 @@
       "VIEW_REWARDS": "Ödülleri görüntüleyin"
     },
     "TRADE": {
+      "ADD_MARGIN": "Marjin Ekle",
       "ADD_TRIGGERS": "Tetik(ler) ekleyin",
+      "ADJUST_ISOLATED_MARGIN": "İzole Marjini Ayarla",
+      "ADJUST_TARGET_LEVERAGE": "Hedef Kaldıracı Ayarla",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Hedef kaldıracın ayarlanması, yeni bir talimat verilene kadar marjin ayarlamasına neden olmaz. Hedef kaldıraç hakkında daha fazla bilgi için bkz. {HERE}.",
       "AMOUNT_FILLED": "Karşılanan",
       "ANNUALIZED": "Yıllık Olarak Hesaplanmış",
       "ASKS": "Talepler",
@@ -1023,6 +1125,7 @@
       "CLEAN_UP": "Temizle",
       "CLOSE_ORDER": "Emri kapat",
       "CLOSE_POSITION": "Pozisyonu kapat",
+      "CONFIRM_LEVERAGE": "Kaldıracı onayla",
       "CONFIRM_ORDER": "{ORDER} onayla",
       "CONFIRMED_DESCRIPTION": "İşleminiz gerçekleşti.",
       "CONFIRMED_TITLE": "Onaylandı",
@@ -1034,6 +1137,7 @@
       "CURRENTLY_TRADING_GOERLI": "Goerli testnet uygulamamız üzerinde test fonlarıyla trading yapıyorsunuz. Gerçek fonlarla yatırım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
       "CURRENTLY_TRADING_ROPSTEN": "Ropsten testnet uygulamamız üzerinde test fonlarıyla yatırım yapıyorsunuz. Gerçek fonlarla yatırım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
       "DELEVERAGED": "Kaldıraçsızlaştırılmış",
+      "EDIT_STOP_LOSS": "Kayıp durdurmayı düzenle",
       "ENTER_AMOUNT": "Miktar girin",
       "ENTER_LIMIT_PRICE": "Limit fiyatını girin",
       "ENTER_TRIGGER_PRICE": "Tetikleme fiyatını girin",
@@ -1152,6 +1256,9 @@
       "PLACE_TRADE": "Bir emir gerçekleştirin",
       "PLACING_ORDER_DESCRIPTION": "İşleminiz devam ediyor.",
       "PLACING_ORDER_TITLE": "Talimat veriliyor",
+      "POSITION_COLLATERAL": "Pozisyon Teminatı",
+      "POSITION_LEVERAGE": "Pozisyon Kaldıracı",
+      "POSITION_MARGIN": "Pozisyon Marjini",
       "POSITIONS_EMPTY_STATE": "Açık pozisyonunuz bulunmuyor.",
       "POSITIONS": "Pozisyonlar",
       "POST_ONLY": "Yalnızca Yerleştir",
@@ -1168,6 +1275,7 @@
       "REDUCE_ONLY": "Yalnızca Azalt",
       "REDUCE_ONLY_RESIZED": "Yalnızca Azalt yeniden boyutlandırılmış",
       "RELEASE_TO_EDIT": "Talimatı düzenlemek için fareyi bırakın",
+      "REMOVE_MARGIN": "Marjini Kaldır",
       "RETURN_TO_MARKET": "Piyasaya geri dön",
       "RISK_REWARD": "Risk-Getiri",
       "SELECT_MARKET": "Piyasa seçin",
@@ -1193,6 +1301,7 @@
       "TAKER": "Alıcı",
       "TAP_TO_CLOSE": "Kapatmak için dokunun",
       "TAP_TO_TRADE": "İşlem yapmak için dokunun",
+      "TARGET_LEVERAGE": "Hedef Kaldıraç",
       "TIME_IN_FORCE": "Yürürlükteki Süre",
       "TOTAL_COST": "Toplam Maliyet",
       "TOTAL_SIZE": "Toplam Büyüklük",
@@ -1295,6 +1404,8 @@
       "ADJUSTED_IMR": "Düzeltilmiş Marj",
       "ADJUSTED_IMR_BODY": "Fiyat oynaklığı nedeniyle {MARKET} için Başlangıç Marj Gereksinimlerini geçici olarak {PERCENT} değerine {ACTION}. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Blok Ödülü",
+      "CHAIN_DISRUPTION_DETECTED": "Zincirde aksama tespit edildi",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX Zincirindeki aksama nedeniyle talimatlar başarısız olabileceği veya gecikebileceği için alım satım ve aktarım devre dışı bırakılır. Lütfen bekleyin ve daha sonra tekrar deneyin. Fonlarınız güvende.",
       "CLOSE_MARKET_POSITIONS": "{MARKET} pozisyonunuzu kapatın",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} sadece kapanış moduna ayarlanmıştır ve {MARKET} kapanış fiyatı artık sabitlenmiştir. Lütfen mümkün olan en kısa sürede açık {MARKET} pozisyonunuzu kapatın. Bir sorun ile karşılaşırsanız canlı destek aracılığıyla bize ulaşabilirsiniz. ",
       "COMPLIANCE_ALERT": "Uyum uyarısı",
@@ -1318,6 +1429,8 @@
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Magic ile oturum açma sırasında bir hata oluştu. Lütfen tekrar deneyin.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "{ACTION} için devam marj gereksinimi %{PERCENT}.",
       "NOTIFICATIONS_EMPTY_STATE": "Bildiriminiz bulunmuyor.",
+      "ORDERBOOK_LAGGING": "Emir defteri gecikmesi",
+      "ORDERBOOK_LAGGING_BODY": "Sistem gecikmeleri nedeniyle emir defteri ve fiyatlandırma verileri güncel olmayabilir. Piyasa talimatları ve kısa vadeli talimatlar için, gerçekleştirme sırasında fiyat farklılıklarıyla karşılaşma riski daha yüksektir. İşlemler ve hesap bilgileri de gecikmeli olabilir.",
       "OUT_OF_TEN_CONFIRMATIONS": "10 onaydan {CURRENT_CONFIRMATIONS} adedi",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "14 onaydan {CURRENT_CONFIRMATIONS} adedi",
       "PERMANENTLY_BLOCKED": "Kalıcı olarak engellendi",
@@ -1329,6 +1442,7 @@
       "SLOW_WITHDRAW_AVAILABLE": "Yavaş çekme işlemi hazır",
       "SLOW_WITHDRAW_PENDING_DESCRIPTION": "Bekleyen yavaş çekme işlemlerinizde {AMOUNT_ELEMENT} bulunuyor. Fonlarınız Katman 2 üzerinde onaylandığı zaman bir bildirim alacaksınız.",
       "SLOW_WITHDRAW_PENDING": "Yavaş çekme işlemi\/işlemleri bekleniyor",
+      "STATUS_PAGE": "Durum sayfası",
       "SUSPICIOUS_TRADE": "Şüpheli aktivite",
       "SUSPICIOUS_TRADE_BODY": "dYdX hesabınız ile ilgili olarak potansiyel kendi kendine işlem aktivitesi dâhil olmak üzere şüpheli işlem aktivitesi fark ettik. Aktivitenizi sürekli olarak inceliyor olacağız. Gelecekte benzer aktivite fark edersek protokol içinde transfer yapmanız ve pozisyonlarınızı azaltan piyasa emirleri dışında emir vermeniz kalıcı olarak engellenecektir.",
       "TRANSFER_STATUS": {
