@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "입금 처리 중",
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}입금이 확인되었습니다. 이 작업은 몇 분 정도 소요될 수 있습니다.",
       "COMPLETED_TITLE": "입금 완료",
-      "COMPLETED_TEXT": "입금이 확인되었습니다. 이제 귀하의 자금은 dYdX에서 바로 거래에 사용할 수 있습니다. 이제 시작하세요!"
+      "COMPLETED_TEXT": "입금이 확인되었습니다. 이제 귀하의 자금은 dYdX에서 바로 거래에 사용할 수 있습니다. 이제 시작하세요!",
+      "MOBILE_WALLET_REQUIRED": "모바일 지갑을 입금에 연결하십시오."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "출금 상태 확인 중...",
@@ -396,6 +397,12 @@
       "COMPLETED_TITLE": "송금됨",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} 송금이 제출되었습니다"
     }
+  },
+  "RATE_APP": {
+    "YES": "예",
+    "NO": "아니요",
+    "DEFER": "해제",
+    "QUESTION": "dYdX가 좋으신가요?"
   },
   "FORCED_UPDATE": {
     "TITLE": "업데이트",
