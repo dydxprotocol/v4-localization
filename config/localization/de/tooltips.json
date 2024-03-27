@@ -39,6 +39,10 @@
       "TITLE": "Kaufkraft",
       "BODY": "Vollständig verfügbare Kaufkraft zur Stärkung Ihrer Position auf {MARKET}. Ihre Kaufkraft wird sich je nach gewähltem Markt ändern."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Benutzerdefinierter Betrag",
+      "BODY": "Die Anpassung Ihres benutzerdefinierten Betrags gilt sowohl für Take-Profit- als auch für Stop-Loss-Orders."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Standardausführung",
       "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie so lange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
@@ -90,6 +94,10 @@
     "LIMIT_PRICE": {
       "TITLE": "Limit-Preis",
       "BODY": "Diese Order kann nur zum angegebenen Limit-Preis oder besser ausgeführt werden. Wenn sich Ihre Order zum Zeitpunkt der Auftragserteilung überschneidet, wird sie alle Crossing Orders zum günstigsten Preis erfüllen."
+    },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Limit-Preis",
+      "BODY": "Durch die Bestimmung eines Limitpreises platzieren Sie eine Take-Profit-Limit-Order und\/oder eine Stop-Limit-Order. Klicken  Sie {DOCUMENTATION_LINK}für weitere Details."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -151,6 +159,14 @@
       "TITLE": "Orderbetrag",
       "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "Stop-Loss ist ein teilweiser Abschluss",
+      "BODY": "Ihr Stop-Loss ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte sein, weil Sie einen benutzerdefinierten Betrag festlegen oder weil Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Take-Profit ist ein teilweiser Abschluss",
+      "BODY": "Ihr Take-Profit ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte sein, weil Sie einen benutzerdefinierten Betrag festlegen oder weil Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
@@ -187,9 +203,25 @@
       "TITLE": "Step Size",
       "BODY": "Step Size ist der kleinste Faktor, der für Orderbeträge auf diesem Markt zulässig ist."
     },
+    "STOP_LOSS": {
+      "TITLE": "Stop Loss",
+      "BODY": "Schützt vor Verlusten, indem die Position eines Traders geschlossen wird, sobald der Oracle-Preis den Triggerpreis kreuzt."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop-Loss Über Dem Liquidationspreis",
+      "BODY": "Der Stop-Loss-Preis ist über den Liquidationspreis gestiegen. Dies kann aufgrund von Finanzierungsänderungen, aufgrund von Abhebungen von Geldern oder aufgrund sich ändernder Margenanforderungen geschehen."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop-Loss Unter Dem Liquidationspreis",
+      "BODY": "Der Stop-Loss-Preis ist über den Liquidationspreis gestiegen. Dies kann aufgrund von Finanzierungsänderungen, aufgrund von Abhebungen von Geldern oder aufgrund sich ändernder Margenanforderungen geschehen."
+    },
     "TAKER_FEE": {
       "TITLE": "Taker-Gebühr",
       "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Taker Orders haben eine höhere Gebühr als Maker Orders."
+    },
+    "TAKE_PROFIT": {
+      "TITLE": "Take Profit",
+      "BODY": "Ermöglicht es Tradern, Ziele zu setzen und schützt Gewinne auf Positionen, indem sie einen Preis angeben, zu dem eine offene Position mit Gewinn geschlossen werden soll."
     },
     "TICK_SIZE": {
       "TITLE": "Notierungssprung",
