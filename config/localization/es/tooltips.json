@@ -39,6 +39,10 @@
       "TITLE": "Poder de compra",
       "BODY": "Poder de compra total disponible para aumentar tu posición en {MARKET}. Tu poder de compra cambiará en función del mercado que has seleccionado."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Cantidad personalizada",
+      "BODY": "El ajuste de tu cantidad personalizada se aplicará a las órdenes de Take Profit como a las de Stop Loss."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Ejecución predeterminada",
       "BODY": "Tu orden ocupará cualquier orden de cruce al momento de abrirla. Si tu pedido no se completa por completo, permanecerá abierto hasta que se complete, se cancele o caduque."
@@ -91,8 +95,12 @@
       "TITLE": "Precio límite",
       "BODY": "Esta orden solo se puede completar con el precio límite especificado o uno más alto. Si tu orden se cruza en el momento de la colocación, tu orden completará cualquier orden cruzada al precio más favorable."
     },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Precio límite",
+      "BODY": "Al identificar un precio límite, estás colocando una Take Profit Limit Order (con toma de ganancias) y\/o una Stop Limit Order (con precio mínimo). Haz clic {DOCUMENTATION_LINK} para obtener más detalles."
+    },
     "LIMIT_PRICE_SLIPPAGE": {
-      "TITLE": "Slippage",
+      "TITLE": "Deslizamiento",
       "BODY": "Diferencia de porcentaje entre el precio de disparador y el precio límite."
     },
     "LIQUIDATION_PRICE": {
@@ -151,6 +159,14 @@
       "TITLE": "Monto de la orden",
       "BODY": "Cantidad de {SYMBOL} USD para comprar o vender. Esta es la cantidad en la que su posición aumentará o disminuirá cuando se complete la orden, no la cantidad de su posición resultante."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "El stop loss es un cierre parcial",
+      "BODY": "Tu stop loss no está configurado para cerrar toda tu posición. Esto podría deberse a que estableciste una cantidad personalizada, o a que cambiaste el tamaño de la posición después de agregar este activador."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "La toma de beneficios es un cierre parcial",
+      "BODY": "Tu toma de beneficios no está configurada para cerrar toda tu posición. Esto podría deberse a que estableciste una cantidad personalizada, o a que cambiaste el tamaño de la posición después de agregar este activador."
+    },
     "POST_ONLY": {
       "TITLE": "Solo post",
       "BODY": "Las órdenes de \"solo post\" habilitado únicamente se pueden realizar como órdenes del creador. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
@@ -187,12 +203,28 @@
       "TITLE": "Tamaño del paso",
       "BODY": "El tamaño del paso es el factor más pequeño permitido para las cantidades de orden en este mercado."
     },
+    "STOP_LOSS": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Protege contra las pérdidas cerrando la posición de un trader una vez que el precio de oráculo cruza el trigger price."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss por encima del precio de liquidación",
+      "BODY": "El precio de stop loss subió por encima del precio de liquidación. Esto puede ocurrir por cambios en la financiación, por retiros de fondos o por cambios en los requisitos de margen."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop loss por debajo del precio de liquidación",
+      "BODY": "El precio de stop loss cayó por debajo del precio de liquidación. Esto puede ocurrir por cambios en la financiación, por retiros de fondos o por cambios en los requisitos de margen."
+    },
     "TAKER_FEE": {
       "TITLE": "Tarifa del tomador (Taker fee)",
       "BODY": "Las operaciones que extraen liquidez del libro de órdenes (p. ej., órdenes de límite de cruce o de mercado) se ejecutan como órdenes de tomador. Las órdenes de tomador tienen una tasa más alta que las órdenes de creador."
     },
+    "TAKE_PROFIT": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Permite a los traders establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias."
+    },
     "TICK_SIZE": {
-      "TITLE": "Tamaño del botón",
+      "TITLE": "Variación mínima",
       "BODY": "La variación mínima es el movimiento de precio mínimo en este mercado."
     },
     "TIME_IN_FORCE": {
