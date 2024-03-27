@@ -39,6 +39,10 @@
       "TITLE": "Poder de compra",
       "BODY": "Poder de compra disponível para aumentar sua posição em {MARKET}. Seu poder de compra será alterado com base no mercado selecionado."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Valor personalizado",
+      "BODY": "O ajuste do seu valor personalizado será aplicado às ordens de Take Profit e Stop Loss."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Execução padrão",
       "BODY": "Sua ordem preencherá quaisquer ordens cruzadas no momento da abertura. Se sua ordem não for totalmente executada, ela permanecerá aberta até que seja executada, cancelada ou expire."
@@ -90,6 +94,10 @@
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
       "BODY": "Esta ordem só poderá ser executada ao preço limite especificado, ou melhor. Se sua ordem cruza no momento da colocação e executará quaisquer ordens que cruzarem ao preço mais favorável."
+    },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Preço limite",
+      "BODY": "Ao identificar um preço limite, você está realizando uma ordem limite Take Profit e\/ou Stop Limit. Clique em {DOCUMENTATION_LINK} para mais detalhes."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -151,6 +159,14 @@
       "TITLE": "Valor da ordem",
       "BODY": "Valor de {SYMBOL} em USD para comprar ou vender. Este é o valor que sua posição aumentará ou diminuirá quando a ordem for preenchida, não o valor da sua posição resultante."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "Uma Stop Loss é um fechamento parcial.",
+      "BODY": "A Stop Loss não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Take Profit é um fechamento parcial.",
+      "BODY": "Sua Take Profit não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
+    },
     "POST_ONLY": {
       "TITLE": "Ordem Post-Only",
       "BODY": "As ordens com post-only habilitadas podem ser feitas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
@@ -187,12 +203,28 @@
       "TITLE": "Tamanho do valor",
       "BODY": "O intervalo de aumento\/redução é o menor fator permitido a valores de ordem neste mercado."
     },
+    "STOP_LOSS": {
+      "TITLE": "Stop Loss",
+      "BODY": "Protege contra perdas fechando a posição de um trader quando o preço de oráculo ultrapassa o preço de disparo."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss acima do preço de liquidação",
+      "BODY": "O preço stop-loss subiu acima do preço da liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss abaixo do preço de liquidação",
+      "BODY": "O preço stop-loss caiu abaixo do preço de liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
+    },
     "TAKER_FEE": {
       "TITLE": "Taxa de Taker",
       "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
     },
+    "TAKE_PROFIT": {
+      "TITLE": "Take profit",
+      "BODY": "Permite que os traders definam metas e protejam os lucros nas posições especificando um preço para fechamento de uma posição aberta para lucro."
+    },
     "TICK_SIZE": {
-      "TITLE": "Valor de tick",
+      "TITLE": "Tamanho do tick",
       "BODY": "O tamanho do tick é o movimento de preço mínimo neste mercado."
     },
     "TIME_IN_FORCE": {
