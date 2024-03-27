@@ -245,7 +245,6 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recent",
       "RECOMMENDED": "Recommended",
-      "RECONNECT_WALLET": "Reconnect wallet",
       "REFERRAL_CODE": "Referral Code",
       "REFERRALS": "Referrals",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% off",
@@ -2106,7 +2105,7 @@
     "ACCOUNT_FUND_MANAGEMENT": {
       "WITHDRAWAL_LIMIT_OVER": "Please enter a smaller amount. The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}.",
       "WITHDRAWAL_LIMIT_OVER_TITLE": "Please enter a smaller amount",
-      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "The maximum withdrawal limit from dYdX Chain is currently {USDC_AMOUNT}.",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}.",
       "WITHDRAWAL_LIMIT_OVER_ACTION": "Modify amount",
       "WITHDRAWAL_PAUSED_TITLE": "Withdraws are paused",
       "WITHDRAWAL_PAUSED_DESCRIPTION": "Please try again in {SECONDS} seconds.",
