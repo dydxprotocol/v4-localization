@@ -39,6 +39,10 @@
       "TITLE": "Pouvoir d'achat",
       "BODY": "Pouvoir d'achat total disponible pour augmenter votre position sur  {MARKET}. Votre pouvoir d'achat changera en fonction du marché que vous avez sélectionné."
     },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Montant personnalisé",
+      "BODY": "L'ajustement de votre montant personnalisé s'appliquera aux ordres Take Profit et Stop Loss."
+    },
     "DEFAULT_EXECUTION": {
       "TITLE": "Exécution par défaut",
       "BODY": "Votre ordre remplira tous les ordres à marge croisée au moment de l'ouverture. Si votre ordre n'est pas entièrement exécuté, il restera ouvert jusqu'à ce qu'il soit exécuté, annulé ou expire."
@@ -91,8 +95,12 @@
       "TITLE": "Prix limite",
       "BODY": "Cet ordre ne peut être exécuté qu'au prix à cours limité spécifié ou mieux. Si votre ordre croise au moment du placement, votre ordre remplira tout ordre de croisement au prix le plus favorable."
     },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Prix à cours limité",
+      "BODY": "En identifiant un prix limite, vous placez un ordre limite de prise de bénéfice et\/ou un ordre limite d'arrêt. Cliquez ici {DOCUMENTATION_LINK}pour plus de détails."
+    },
     "LIMIT_PRICE_SLIPPAGE": {
-      "TITLE": "slippage",
+      "TITLE": "Slippage",
       "BODY": "Différence en pourcentage entre votre prix de déclenchement et votre prix limite."
     },
     "LIQUIDATION_PRICE": {
@@ -151,13 +159,21 @@
       "TITLE": "Montant de l'ordre",
       "BODY": "Montant de  {SYMBOL}à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
     },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "L'arrêt de la perte est une clôture partielle",
+      "BODY": "Votre stop loss n'est pas paramétré pour clôturer l'ensemble de votre position. Cela peut être dû au fait que vous définissez un montant personnalisé ou que vous avez modifié la taille de votre position après l'ajout de ce déclencheur."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Le Take Profit est une clôture partielle",
+      "BODY": "Votre stop loss n'est pas paramétré pour clôturer l'ensemble de votre position. Cela peut être dû au fait que vous définissez un montant personnalisé ou que vous avez modifié la taille de votre position après l'ajout de ce déclencheur."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Les ordres avec post-only activé ne peuvent être placés qu'en tant qu'ordres Maker. Si l'ordre croise d'autres ordres au moment du placement, il sera automatiquement annulé."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Post-Only",
-      "BODY": "Le Post-Only n'est disponible que si le temps en vigueur est défini sur Good Til Time."
+      "BODY": "Le Post-Only n'est disponible que si le Temps en vigueur est défini sur Good Til Time."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impact sur le prix",
@@ -187,16 +203,32 @@
       "TITLE": "Taille de l'étape",
       "BODY": "La taille de l'étape est le plus petit facteur autorisé pour les montants d'ordres sur ce marché."
     },
+    "STOP_LOSS": {
+      "TITLE": "Stop Loss",
+      "BODY": "Protège contre les pertes en clôturant la position d'un trader lorsque le prix de l'oracle franchit le prix de déclenchement."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss au-dessus du prix de liquidation",
+      "BODY": "Le prix stop-loss a augmenté au-dessus du prix de liquidation. Cela peut se produire en raison de changements de financement, du retrait de fonds ou de l'évolution des exigences de marge."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop Loss au-dessus du prix de liquidation",
+      "BODY": "Le prix stop-loss est tombé en dessous du prix Cela peut se produire en raison de changements de financement, du retrait de fonds ou de l'évolution des exigences de marge."
+    },
     "TAKER_FEE": {
       "TITLE": "Frais Taker",
       "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
+    },
+    "TAKE_PROFIT": {
+      "TITLE": "Take Profit",
+      "BODY": "Permet aux traders de fixer des objectifs et de protéger les profits sur les positions en spécifiant un prix auquel clôturer une position ouverte pour réaliser un profit."
     },
     "TICK_SIZE": {
       "TITLE": "Taille du tick",
       "BODY": "La taille du tick est le mouvement de prix minimum sur ce marché."
     },
     "TIME_IN_FORCE": {
-      "TITLE": "Temps en vigueur",
+      "TITLE": "Time In Force",
       "BODY": "L'option Temps en vigueur sélectionnée contrôle la durée pendant laquelle un ordre restera actif jusqu'à ce qu'il expire où soit exécuté."
     },
     "TRAILING_PERCENT": {
