@@ -988,9 +988,11 @@
       "LIMIT_PRICE_TOOLTIP": "지정가 가격을 식별하면 이익 환수 지정가 주문 및\/또는 손절매 지정가 주문을 하게 됩니다. 자세한 내용을 보려면 {DOCUMENTATION_LINK}을(를) 클릭하십시오.",
       "MULTIPLE_ORDERS_FOUND": "여러 개의 주문을 찾았습니다.",
       "PRICE_TRIGGERS": "가격 트리거",
+      "SL_LIMIT": "SL 제한",
       "SL_PRICE": "SL 가격",
       "STOP_LOSS_TOOLTIP": "오라클 가격이 트리거 가격을 넘어가면 트레이더의 포지션을 닫아 손실을 방지합니다.",
       "TAKE_PROFIT_TOOLTIP": "트레이더가 목표를 설정할 수 있도록 하고 이익을 위해 오픈 포지션을 마감할 가격을 지정하여 포지션에서 수익을 보호합니다.",
+      "TP_LIMIT": "TP 제한",
       "TP_PRICE": "TP 가격"
     },
     "PORTFOLIO": {
