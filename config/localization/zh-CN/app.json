@@ -34,7 +34,8 @@
         "X_HOURS_LOWERCASED": "{X} 小时",
         "X_MINUTES_LOWERCASED": "{X} 分钟",
         "X_MINUTES": "{X} 分钟",
-        "X_SECONDS_LOWERCASED": "{X} 秒"
+        "X_SECONDS_LOWERCASED": "{X} 秒",
+        "PERIOD": "{START} → {END}"
       },
       "ABOUT": "简介",
       "ACADEMY": "学院",
@@ -43,6 +44,7 @@
       "ACKNOWLEDGEMENT": "确认",
       "ACTION": "操作",
       "ACTIVE": "主动",
+      "ADDING": "添加",
       "ADDRESS": "地址",
       "ADVANCED": "高级",
       "AI": "人工智能",
@@ -87,6 +89,11 @@
       "COPIED": "已复制！",
       "COPY": "复制",
       "CREATED_AT": "创建时间",
+      "CROSS": "超过",
+      "CROSS_FREE_COLLATERAL": "交叉自由抵押品",
+      "CROSS_MARGIN": "交叉杠杆交易",
+      "CROSS_MARGIN_DESCRIPTION": "跨多个头寸使用共享抵押品和风险",
+      "CROSS_MARGIN_USAGE": "交叉保证金使用",
       "CURRENT": "当前",
       "CUSTOM": "定制",
       "CUSTOM_AMOUNT": "自定义金额",
@@ -154,6 +161,9 @@
       "INITIAL_MARGIN_FRACTION": "初始杠杆分数",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "初始化",
+      "ISOLATED": "逐仓",
+      "ISOLATED_MARGIN": "逐仓杠杆交易",
+      "ISOLATED_MARGIN_DESCRIPTION": "对每个仓位使用不同的抵押品以隔离风险。",
       "KEEP_TRADING": "保持交易",
       "LANGUAGE": "语言",
       "LARGE_CAP": "大盘股",
@@ -171,17 +181,20 @@
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "做1笔交易",
       "MANAGE_FUNDS": "管理资金",
-      "MARGIN_USAGE": "杠杆使用",
       "MARGIN": "杠杆交易",
+      "MARGIN_MODE": "保证金模式",
+      "MARGIN_USAGE": "杠杆使用",
       "MARKET_NAME": "市场名称",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "我们可能尚不支持此资产，或者该资产尚不存在。",
       "MARKET_SEARCH_PLACEHOLDER": "例如，“ETH”或“以太坊”",
       "MARKET": "市场",
       "MARKETS": "市场",
-      "MAX_WITHDRAW": "提现上限",
       "MAX": "最大值",
+      "MAX_BUYING_POWER": "最大购买力",
+      "MAX_WITHDRAW": "提现上限",
       "MAXIMUM_LEVERAGE": "最大杠杆",
       "MAXIMUM_REWARDS": "预估奖励",
+      "MEME": "模因",
       "MENU": "菜单",
       "METRICS": "指标",
       "MID_CAP": "中盘股",
@@ -235,6 +248,7 @@
       "REFERRAL_CODE": "推荐码",
       "REFERRALS": "转介",
       "REFERRER_PERCENT_OFF": "减价{DISCOUNT}%",
+      "REMOVING": "删除",
       "RESULTS": "结果",
       "REWARDS": "奖励",
       "REWARDED": "已获奖励",
@@ -243,12 +257,15 @@
       "SAVE": "保存",
       "SAVED": "已保存",
       "SCAN_TO_DOWNLOAD": "扫描以下载应用程序",
+      "SELECT": "选择 {SELECTION}",
       "SELECT_ASSET": "选择资产",
       "SELECT_CHAIN": "选择一条链",
       "SELL": "卖出",
       "SEND": "发送",
       "SHARE": "共享",
-      "SHORT_POSITION_SHORT": "做空",
+      "SHARE_DYDX": "共享iPhone版dYdX",
+      "SHARE_MESSAGE": "在dYdX上与我交易！",
+      "SHORT_POSITION_SHORT": "空头",
       "SHOW_ALL_DETAILS": "显示所有详情",
       "SIDE": "买\/卖",
       "SIGN_OUT": "退出",
@@ -341,6 +358,10 @@
         "PRIMARY": "ApeCoin是生态系统的治理代币，允许ApeCoin持有人参与ApeCoin DAO。",
         "SECONDARY": "ApeCoin是生态系统的实用代币，为所有参与者提供无需中心化中介即可使用的共享和开放的货币。"
       },
+      "API3": {
+        "PRIMARY": "API3是一种为API3项目提供支持的以太坊代币，用于管理API3 DAO并对项目升级进行投票。",
+        "SECONDARY": "API3构建的解决方案以最大程度的安全和最小的延迟弥合了链下数据和链上应用程序之间的差距。API的dAPI是直接从本机链上从第一方预言机聚合而来。"
+      },
       "APT": {
         "PRIMARY": "Aptos是一个第1层区块链，设计成可扩展、安全和易于使用。",
         "SECONDARY": "Aptos旨在每秒处理大量交易，并使用权益证明共识机制。"
@@ -352,6 +373,10 @@
       "AVAX": {
         "PRIMARY": "Avalanche是一个开放源平台，旨在推出高度去中心化的应用、新的金融基本要素和新的可互操作区块链。",
         "SECONDARY": "基于Avalanche的开发者可以轻松创建功能强大、可靠安全的应用程序和具有复杂规则集的定制区块链网络，或者在现有的私有或公共子网的基础上进一步完善。"
+      },
+      "AXL": {
+        "PRIMARY": "AXL是为Axelar生态系统上的安全跨链通信提供支持的原生实用代币。",
+        "SECONDARY": "Axelar是一种互操作性解决方案，为去中心化应用程序之间无缝、安全的跨链通信提供了所需的基础设施。"
       },
       "BCH": {
         "PRIMARY": "借助比特币现金，您可以一年365天、一天24小时向世界任何地方的任何人转账。就像互联网本身一样，这一网络始终维持运转。",
@@ -365,6 +390,10 @@
         "PRIMARY": "BLUR是一个NFT市场。",
         "SECONDARY": "BLUR代币是BLUR协议的治理代币。"
       },
+      "BONK": {
+        "PRIMARY": "BONK是Solana上第一枚以狗为主题的硬币，为人民服务，由人民发行。",
+        "SECONDARY": "该团队的主要目标是使基于Solana的去中心化交易所（DEX）恢复流动性。"
+      },
       "BNB": {
         "PRIMARY": "BNB 是币安链的货币。",
         "SECONDARY": "币安是一个由去中心化、基于区块链的网络组成的独特生态系统，包括币安链。"
@@ -372,7 +401,7 @@
       "CHZ": {
         "PRIMARY": "CHZ是Chiliz体育娱乐生态系统的原生数字代币。",
         "SECONDARY": "Chiliz链是吸引团队、球迷和开发人员的体育运动基础设施，用以构建将粉丝和品牌凝聚在一起的Web3产品和体验。"
-      }, 
+      },
       "CELO": {
         "PRIMARY": "Celo是一个权益证明的区块链，可提供完全的以太坊虚拟机兼容性。",
         "SECONDARY": "CELO还为用户提供了原生和非原生稳定币、超轻量移动客户端以及使用多种货币支付gas的访问权限。"
@@ -412,7 +441,7 @@
       "ENS": {
         "PRIMARY": "ENS是最广泛集成的区块链命名标准。",
         "SECONDARY": "以太坊名称服务是一个基于以太坊区块链的分布式、开放和可扩展的命名系统。"
-      }, 
+      },
       "EOS": {
         "PRIMARY": "EOSIO是一个高性能的开源区块链平台，旨在支持和运营安全、合规和可预测的数字基础设施。",
         "SECONDARY": "区块链创新和性能的开源平台——世界各地的企业和开发者使用EOSIO创建安全、透明和确定性的数字基础设施。"
@@ -485,6 +514,10 @@
         "PRIMARY": "Litecoin是一种点对点的互联网货币，能够向世界上任何人提供接近零成本的即时支付。",
         "SECONDARY": "Litecoin是一个完全去中心化的开源全球支付网络。与领先的基于数学的货币相比，Litecoin具有交易确认时间更快、存储效率更高的特点。Litecoin有着广泛的行业支持、巨大的交易量和丰富的流动性，是一种被证实对比特币起补充作用的商业媒介。"
       },
+      "MAGIC": {
+        "PRIMARY": "MAGIC是一个建立在Arbitrum基础上的去中心化游戏生态系统Treasure的实用代币。",
+        "SECONDARY": "MAGIC代币可用于游戏玩法，参与治理，在Treasure市场上买卖NFT，也可以质押。"
+      },
       "MANA": {
         "PRIMARY": "MANA是一种ERC-20代币，必须销毁它才能获得不可替代的ERC-721 LAND代币。 MANA代币还可用于支付Decentraland市场上的各种头像、可穿戴设备、名字等。",
         "SECONDARY": "Decentraland（MANA）是一个去中心化的虚拟世界平台，其软件基于以太坊区块链，用户可在此创建、测试内容并从中获利。 简而言之：用户在Decentraland平台上使用MANA代币作为NFT购买虚拟土地。"
@@ -497,6 +530,10 @@
         "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在以太坊聚合可扩展解决方案，支持以太坊多链生态系统。",
         "SECONDARY": "Polygon结合了以太坊和主权区块链的优点，将其打造成开放、安全、成熟的多链系统，能够充分受益于以太坊的网络效应"
       },
+      "MEME": {
+        "PRIMARY": "根据其网站介绍，Memecoin（MEME）实际上是一种模因币。",
+        "SECONDARY": "Memeland是全球流行的模因平台9GAG的web3创业工作室。"
+      },
       "MINA": {
         "PRIMARY": "MINA是一种为Mina协议提供支持的加密货币，可用于建立新账户、支付交易费用并且可在网络上质押。",
         "SECONDARY": "Mina协议是第一层区块链，旨在实现轻量化、保护隐私且易于验证。 Mina上的开发人员可以基于零知识证明构建保护隐私的智能合约和去中心化应用程序。"
@@ -505,13 +542,13 @@
         "PRIMARY": "Maker协议，也称多质押品Dai(MCD)系统，允许用户通过利用“Maker治理”批准的抵押资产来生成Dai。Maker治理是社区组织和运作的管理Maker协议的各个方面的过程。",
         "SECONDARY": "Dai是一种去中心化的、无偏颇的、有抵押物支持的加密货币，与美元软挂钩。由于其低波动性，Dai能够抵抗恶性通货膨胀，因此可在任何地方为任何人提供经济自由和机会。"
       },
-      "XMR": {
-        "PRIMARY": "Monero是领先的加密货币，专注于私人和抗审查交易。",
-        "SECONDARY": "与选择性透明的替代品（例如 Zcash）不同，Monero 是唯一一种默认每个用户都是匿名的加密货币。每笔交易的发送者、接收者和金额都通过使用三种重要技术来隐藏：隐形地址、环签名和RingCT。"
-      },
       "NEAR": {
         "PRIMARY": "NEAR 是一个开发平台，建立在为可用性而设计的分片、权益证明、第一层区块链上。",
         "SECONDARY": "NEAR 代币用于通过其权益证明机制保护网络。"
+      },
+      "OCEAN": {
+        "PRIMARY": "Ocean的数据农场奖励计划使Ocean持有者能够通过锁定Ocean和管理数据来赚钱。",
+        "SECONDARY": "海洋协议利用区块链技术、去中心化网络和加密技术的组合来促进安全和保护隐私的数据共享。"
       },
       "OP": {
         "PRIMARY": "OP主网是一个低成本、闪电般快速的以太坊L2区块链，由Optimism提供支持。",
@@ -524,6 +561,10 @@
       "PEPE": {
         "PRIMARY": "Pepe是一种迷因币。",
         "SECONDARY": "其网站指出，Pepe将再次让迷因币变得伟大。"
+      },
+      "PORTAL": {
+        "PRIMARY": "$portal 是门户平台的原生平台币。$portal充当web3游戏和玩家的纽带，为所有人提供游戏分发和玩家简易服务。",
+        "SECONDARY": "Portal 的目标是在其跨链代币平台上联合来自不同区块链网络的游戏和玩家，建立一个联合的 Web3 游戏生态系统。"
       },
       "PYTH": {
         "PRIMARY": "PYTH是Pyth网络及其生态系统的治理代币。",
@@ -556,6 +597,10 @@
       "STX": {
         "PRIMARY": "STX是Stacks网络的原生货币。 它用于为比特币的智能合约提供燃料，奖励开放Stacks网络上的矿工，并使持有者能够通过Stacking赚取比特币。",
         "SECONDARY": "Stacks是智能合约的比特币层；它使智能合约和去中心化应用能够无需信任地将比特币作为资产使用，并在比特币区块链上进行交易结算。"
+      },
+      "STRK": {
+        "PRIMARY": "Starknet代币将用于支付交易费用，并通过参与治理投票来塑造Starknet协议的长期演进发展。",
+        "SECONDARY": "StarkNet是一个无需许可的去中心化的Validity-Rollup（也称为“ZK-Rollup”）。StarkNet依靠最安全、最具可扩展性的密码学证明系统STARK，作为以太坊上的L2网络运行，这使任何dApp都能实现无限规模的计算，同时不影响以太坊的可组合性和安全性。"
       },
       "SUI": {
         "PRIMARY": "Sui是一个创新的、去中心化的第1层区块链，它重新定义了资产所有权。",
@@ -596,6 +641,10 @@
       "XLM": {
         "PRIMARY": "Stellar是一个用于存储和转移资金的开放网络。",
         "SECONDARY": "Stellar使创建、发送和交易各种形式的货币的数字表示成为可能：美元、比索、比特币，几乎无所不包。它经过专门设计，使世界上所有的金融系统都可以在单个网络上协同工作。"
+      },
+      "XMR": {
+        "PRIMARY": "Monero是领先的加密货币，专注于私人和抗审查交易。",
+        "SECONDARY": "与选择性透明的替代品（例如 Zcash）不同，Monero 是唯一一种默认每个用户都是匿名的加密货币。每笔交易的发送者、接收者和金额都通过使用三种重要技术来隐藏：隐形地址、环签名和RingCT。"
       },
       "XRP": {
         "PRIMARY": "Ripple是一个旨在解决跨境支付问题的网络。",
@@ -766,7 +815,7 @@
       "TOS_LINE2": "如果您位于美国、加拿大或其他受封锁或限制的地区时，您今后将不会访问本网站或使用我们的产品或服务。",
       "TOS_LINE3": "您没有且将来也不会在被封锁或限制的地点使用VPN以掩盖您的实际位置。",
       "TOS_LINE4": "根据您居住地和所在地司法管辖区的法律，您可以合法地访问此网站，以及使用我们的产品和服务。",
-      "TOS_LINE5": "您了解与签订永续合约、使用杠杆以及参与区块链和其他web3产品和服务相关的投资和技术风险。请参阅此处的法律要求。",
+      "TOS_LINE5": "您了解与签订永续合约、使用杠杆以及参与区块链和其他web3产品和服务相关的投资和技术风险。",
       "TOS_TRANSLATION_DISCLAIMER": "如适用，本通知非英文的翻译版仅出于礼貌提供。如果翻译版和英文版发生冲突，则以英文版为准。",
       "TRANSFEROUT_ALERT_TITLE": "您有正在待划转的 {PENDING_TRANSFERS} {TOKEN}。",
       "TRANSFEROUT_ALERT_SUBTITLE": "检查状态",
@@ -1048,7 +1097,11 @@
       "VIEW_REWARDS": "查看奖励"
     },
     "TRADE": {
+      "ADD_MARGIN": "添加保证金",
       "ADD_TRIGGERS": "添加触发价",
+      "ADJUST_ISOLATED_MARGIN": "调整逐仓保证金",
+      "ADJUST_TARGET_LEVERAGE": "调整目标杠杆",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "在下达新订单之前，调整目标杠杆率不会调整保证金。有关目标杠杆的更多信息，请参阅 {HERE}。",
       "AMOUNT_FILLED": "已全部成交",
       "ANNUALIZED": "年化",
       "ASKS": "报价",
@@ -1072,6 +1125,7 @@
       "CLEAN_UP": "清理",
       "CLOSE_ORDER": "平仓订单",
       "CLOSE_POSITION": "平仓头寸",
+      "CONFIRM_LEVERAGE": "确认杠杆",
       "CONFIRM_ORDER": "确认 {ORDER}",
       "CONFIRMED_DESCRIPTION": "您的交易已经下单。",
       "CONFIRMED_TITLE": "已确认",
@@ -1202,6 +1256,9 @@
       "PLACE_TRADE": "进行交易",
       "PLACING_ORDER_DESCRIPTION": "您的交易目前正在进行中。",
       "PLACING_ORDER_TITLE": "下订单",
+      "POSITION_COLLATERAL": "头寸抵押品",
+      "POSITION_LEVERAGE": "头寸杠杆",
+      "POSITION_MARGIN": "头寸保证金",
       "POSITIONS_EMPTY_STATE": "您没有敞口头寸。",
       "POSITIONS": "头寸",
       "POST_ONLY": "仅挂单",
@@ -1218,6 +1275,7 @@
       "REDUCE_ONLY": "只减仓",
       "REDUCE_ONLY_RESIZED": "只减少调整的尺寸",
       "RELEASE_TO_EDIT": "释放鼠标以编辑订单",
+      "REMOVE_MARGIN": "移除保证金",
       "RETURN_TO_MARKET": "返回市场",
       "RISK_REWARD": "风险-回报",
       "SELECT_MARKET": "选择市场",
@@ -1243,6 +1301,7 @@
       "TAKER": "吃单",
       "TAP_TO_CLOSE": "点击可平仓",
       "TAP_TO_TRADE": "点击可交易",
+      "TARGET_LEVERAGE": "目标杠杆",
       "TIME_IN_FORCE": "有效时间",
       "TOTAL_COST": "总成本",
       "TOTAL_SIZE": "总数量",
@@ -1345,6 +1404,8 @@
       "ADJUSTED_IMR": "已调整的保证金",
       "ADJUSTED_IMR_BODY": "由于波动性，我们暂时将{MARKET}的初始保证金要求{ACTION}至{PERCENT}。{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "区块奖励",
+      "CHAIN_DISRUPTION_DETECTED": "检测到链中断",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "由于dYdX链中断，订单可能失败或延迟，交易和转让将被禁用。请等待并稍后重试。您的资金是安全的。",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
       "COMPLIANCE_ALERT": "合规警告",
@@ -1368,6 +1429,8 @@
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "以 Magic 登录时出错。请重试。",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "维持保证金要求以{PERCENT}%{ACTION}。",
       "NOTIFICATIONS_EMPTY_STATE": "您没有通知。",
+      "ORDERBOOK_LAGGING": "订单簿滞后",
+      "ORDERBOOK_LAGGING_BODY": "由于系统延迟，订单簿和定价数据可能过时。市价和短期订单在执行时遇到价格差异的风险更高。交易和账户信息也可能延迟。",
       "OUT_OF_TEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}\/10次确认",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}\/14 次确认",
       "PERMANENTLY_BLOCKED": "永久禁止",
@@ -1379,6 +1442,7 @@
       "SLOW_WITHDRAW_AVAILABLE": "正常提现就绪",
       "SLOW_WITHDRAW_PENDING_DESCRIPTION": "您有{AMOUNT_ELEMENT}待处理的正常提现。当您的资金在Layer 2上确认时，您将收到通知。",
       "SLOW_WITHDRAW_PENDING": "正常提现正等待处理",
+      "STATUS_PAGE": "状态页面",
       "SUSPICIOUS_TRADE": "可疑活动",
       "SUSPICIOUS_TRADE_BODY": "我们注意到与您的 dYdX 账户相关的可疑交易活动，包括潜在的洗钱交易活动。我们将持续审查您的活动。如果我们注意到未来有类似的活动，那么您将被永久禁止在此协议内交易，也不得下达订单（减少您头寸的市价订单除外）。",
       "TRANSFER_STATUS": {

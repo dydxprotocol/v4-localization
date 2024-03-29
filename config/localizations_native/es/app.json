@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "Depósito en progreso",
       "IN_PROGRESS_TEXT": "Tu depósito de {AMOUNT_ELEMENT} se ha enviado. Esto puede tardar unos minutos.",
       "COMPLETED_TITLE": "Depósito completado",
-      "COMPLETED_TEXT": "Tu depósito ha sido confirmado. Tus fondos ahora están disponibles para trading instantáneo en dYdX. ¡Puedes continuar!"
+      "COMPLETED_TEXT": "Tu depósito ha sido confirmado. Tus fondos ahora están disponibles para trading instantáneo en dYdX. ¡Puedes continuar!",
+      "MOBILE_WALLET_REQUIRED": "Conecta tu billetera móvil al depósito."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Verificación del estado de retiro...",
@@ -396,6 +397,12 @@
       "COMPLETED_TITLE": "Transferencia enviada",
       "COMPLETED_TEXT": "Tu transferencia de {AMOUNT_ELEMENT} {TOKEN} se ha enviado"
     }
+  },
+  "RATE_APP": {
+    "YES": "Sí",
+    "NO": "No realmente",
+    "DEFER": "Descartar",
+    "QUESTION": "¿Estás disfrutando dYdX?"
   },
   "FORCED_UPDATE": {
     "TITLE": "Actualizar",

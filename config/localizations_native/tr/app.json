@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "Yatırma işlemi devam ediyor",
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT} tutarında yatırma talebiniz gönderildi. Bu işlem birkaç dakika sürebilir.",
       "COMPLETED_TITLE": "Yatırma işlemi tamamlandı",
-      "COMPLETED_TEXT": "Yatırma işleminiz onaylandı. Fonlarınız artık dYdX üzerinde anında işlem yapmak için kullanılabilir. Artık başlayabilirsiniz!"
+      "COMPLETED_TEXT": "Yatırma işleminiz onaylandı. Fonlarınız artık dYdX üzerinde anında işlem yapmak için kullanılabilir. Artık başlayabilirsiniz!",
+      "MOBILE_WALLET_REQUIRED": "Varlık yatırmak için lütfen mobil cüzdanınızı bağlayın."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Çekme durumu kontrol ediliyor ...",
@@ -396,6 +397,12 @@
       "COMPLETED_TITLE": "Transfer gönderildi",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} tutarındaki transferiniz gönderildi"
     }
+  },
+  "RATE_APP": {
+    "YES": "Evet",
+    "NO": "Hayır, pek sayılmaz",
+    "DEFER": "Reddet",
+    "QUESTION": "dYdX'i kullanmak hoşunuza gitti mi?"
   },
   "FORCED_UPDATE": {
     "TITLE": "Güncelle",
