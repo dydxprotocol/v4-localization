@@ -245,7 +245,6 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recent",
       "RECOMMENDED": "Recommended",
-      "RECONNECT_WALLET": "Reconnect wallet",
       "REFERRAL_CODE": "Referral Code",
       "REFERRALS": "Referrals",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% off",
@@ -2104,7 +2103,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "Please enter a smaller amount. The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}."
+      "WITHDRAWAL_LIMIT_OVER": "Please enter a smaller amount. The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "Please enter a smaller amount",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "The maximum withdrawal limit from dYdX Chain is currently {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "Modify amount",
+      "WITHDRAWAL_PAUSED_TITLE": "Withdraws are paused",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "Please try again in {SECONDS} seconds.",
+      "WITHDRAWAL_PAUSED_ACTION": "Withdraws paused",
+      "TRANSFERS_PAUSED_TITLE": "Transfers are paused",
+      "TRANSFERS_PAUSED_DESCRIPTION": "Please try again in {SECONDS} seconds.",
+      "TRANSFERS_PAUSED_ACTION": "Transfers paused"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys."
