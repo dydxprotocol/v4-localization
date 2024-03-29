@@ -396,6 +396,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer submitted",
       "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Report Issue",
+      "LOADING_TITLE": "Loading log files...",
+      "LOADING_COMPLETED_TITLE": "Log file created",
+      "LOADING_ERROR_TITLE": "Failed to create log file",
+      "EMAIL_SUBJECT": "Issue Report",
+      "EMAIL_BODY": "Please describe the issue you're facing:",
+      "CHOOSER_TITLE": "Send App Log"
     }
   },
   "RATE_APP": {
