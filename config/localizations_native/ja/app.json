@@ -382,7 +382,8 @@
       "IN_PROGRESS_TITLE": "入金処理中",
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}の入金が送信されました。これには数分かかる場合があります。",
       "COMPLETED_TITLE": "入金完了",
-      "COMPLETED_TEXT": "入金が確認されました。お客様の資金はdYdXで即時取引できるようになりました。さあ、始めましょう！"
+      "COMPLETED_TEXT": "入金が確認されました。お客様の資金はdYdXで即時取引できるようになりました。さあ、始めましょう！",
+      "MOBILE_WALLET_REQUIRED": "入金するには、モバイルウォレットを接続してください。"
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "出金ステータスを確認中...",
@@ -396,6 +397,12 @@
       "COMPLETED_TITLE": "送金提出",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN}の送金が提出されました"
     }
+  },
+  "RATE_APP": {
+    "YES": "あり",
+    "NO": "違います",
+    "DEFER": "取下げる",
+    "QUESTION": "dYdXを楽しんでますか？"
   },
   "FORCED_UPDATE": {
     "TITLE": "更新",
