@@ -1006,6 +1006,7 @@
       "LIMIT_PRICE_TOOLTIP": "By identifying a limit price, you are placing a Take Profit Limit Order and/or a Stop Limit Order. Click {DOCUMENTATION_LINK} for more details.",
       "MULTIPLE_ORDERS_FOUND": "Multiple orders found.",
       "PRICE_TRIGGERS": "Price triggers",
+      "PRICE_TRIGGERS_DESCRIPTION": "Minimize losses & secure profits with triggers.",
       "SL_LIMIT": "SL Limit",
       "SL_PRICE": "SL Price",
       "STOP_LOSS_TOOLTIP": "Protects against losses by closing a trader’s position once the oracle price crosses the trigger price.",
@@ -1119,7 +1120,9 @@
     "TRADE": {
       "ADD_MARGIN": "Add Margin",
       "ADD_TRIGGERS": "Add trigger(s)",
-      "ADD_TP_OR_SL": "Add TP | SL",
+      "ADD_TP_SL": "Add TP | SL",
+      "ADD_STOP_LOSS": "Add stop loss",
+      "ADD_TAKE_PROFIT": "Add take profit",
       "ADJUST_ISOLATED_MARGIN": "Adjust Isolated Margin",
       "ADJUST_TARGET_LEVERAGE": "Adjust Target Leverage",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Adjusting target leverage will not adjust margin until a new order is placed. For more information on target leverage, see {HERE}.",
