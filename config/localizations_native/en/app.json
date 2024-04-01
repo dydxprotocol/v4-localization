@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "Insufficent wallet balance to cover gas fee",
       "NO_GAS_BODY": "Please first make a small deposit to your dYdX account to refill wallet.",
       "THEME": "Theme",
+      "NOTIFICATIONS": "Notifications",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Display In-App Notifications",
       "DIRECTION_COLOR_PREFERENCE": "Color Preference",
       "DARK": "Dark",
       "CLASSIC_DARK": "Classic Dark",
