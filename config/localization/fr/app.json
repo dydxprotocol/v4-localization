@@ -1407,7 +1407,7 @@
       "ADJUSTED_IMR_BODY": "Nous avons temporairement  {ACTION}les exigences de marge initiale sur  {MARKET}à {PERCENT} en raison de la volatilité.{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Récompense en bloc",
       "CHAIN_DISRUPTION_DETECTED": "Perturbation de la chaîne détectée",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "Le trading et le transfert sont désactivés car les ordres peuvent échouer ou être retardés en raison d'une perturbation de la chaîne dYdX. Veuillez patienter et réessayer plus tard. Vos fonds sont en sécurité.",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "Le trading et le transfert sont désactivés car les ordres peuvent échouer ou être retardés en raison de la perturbation de la chaîne dYdX. Veuillez patienter et réessayer plus tard. Vos fonds sont en sécurité.",
       "CLOSE_MARKET_POSITIONS": "Fermer votre position sur {MARKET}",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}est configuré en mode fermé uniquement et le prix de fermeture de  {MARKET}est maintenant fixé. Veuillez fermer votre position ouverte sur {MARKET} aussitôt que possible. Nous sommes là pour vous aider via le chat d'aide si vous rencontrez des problèmes.",
       "COMPLIANCE_ALERT": "Alerte de conformité",
