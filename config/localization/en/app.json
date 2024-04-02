@@ -1141,6 +1141,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "You are trading on our Ropsten testnet app with test funds. Create an account on our mainnet app to start trading with real funds",
       "DELEVERAGED": "Deleveraged",
       "EDIT_STOP_LOSS": "Edit stop loss",
+      "EDIT_TAKE_PROFIT": "Edit take profit",
       "ENTER_AMOUNT": "Enter amount",
       "ENTER_LIMIT_PRICE": "Enter limit price",
       "ENTER_TRIGGER_PRICE": "Enter trigger price",
@@ -1199,6 +1200,7 @@
       "MAXIMUM_POSITION_SIZE": "Maximum Position Size",
       "MID_MARKET": "Mid-Market",
       "MODIFY_GOOD_TIL": "Modify Good Til",
+      "MODIFY_PRICE": "Modify price",
       "MODIFY_SIZE_FIELD": "Modify amount",
       "MODIFY_TRAILING_PERCENT": "Modify trailing %",
       "MODIFY_TRIGGER_PRICE": "Modify trigger price",
@@ -2042,6 +2044,12 @@
       "DEPOSIT_TO_TRADE": "Deposit",
       "USER_MAX_ORDERS": "Too many open orders",
       "INVALID_GOOD_TIL": "Invalid Good Til"
+    },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Invalid price input"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer Alert",

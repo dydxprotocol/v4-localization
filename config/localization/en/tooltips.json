@@ -279,6 +279,12 @@
       "BODY": "This is the gas cost of the deposit transaction, paid to Ethereum miners."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Unequal Order Sizes",
+      "BODY": "Your take profit and stop loss orders have different order sizes. To make edits to the order size, please cancel and re-make the orders."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Fast Withdraw Fee",
