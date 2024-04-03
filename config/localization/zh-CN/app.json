@@ -988,9 +988,11 @@
       "LIMIT_PRICE_TOOLTIP": "通过确定限价，您可以下达止盈限价单和\/或止损限价单。 单击 {DOCUMENTATION_LINK} 了解详情。",
       "MULTIPLE_ORDERS_FOUND": "找到多个订单。",
       "PRICE_TRIGGERS": "触发价",
+      "SL_LIMIT": "SL限制",
       "SL_PRICE": "SL价格",
       "STOP_LOSS_TOOLTIP": "在预言机价格超过触发价后，通过平仓交易者的头寸来防止损失。",
       "TAKE_PROFIT_TOOLTIP": "允许交易者通过指定平仓敞口头寸的止盈价格来设定目标并保护头寸利润。",
+      "TP_LIMIT": "TP限制",
       "TP_PRICE": "TP价格"
     },
     "PORTFOLIO": {
@@ -1405,7 +1407,7 @@
       "ADJUSTED_IMR_BODY": "由于波动性，我们暂时将{MARKET}的初始保证金要求{ACTION}至{PERCENT}。{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "区块奖励",
       "CHAIN_DISRUPTION_DETECTED": "检测到链中断",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "由于dYdX链中断，订单可能失败或延迟，交易和转让将被禁用。请等待并稍后重试。您的资金是安全的。",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "由于dYdX链中断，订单可能失败或被延迟，交易和转让将被禁用。请等待并稍后重试。您的资金是安全的。",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
       "COMPLIANCE_ALERT": "合规警告",
@@ -2101,7 +2103,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "请减少输入的金额。目前 dYdX Chain 的最大提现限额为 {USDC_LIMIT}。"
+      "WITHDRAWAL_LIMIT_OVER": "请减少输入的金额。目前 dYdX Chain 的最大提现限额为 {USDC_LIMIT}。",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "请输入一个较小的金额",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "目前 dYdX Chain 的最大提现限额为 {USDC_LIMIT}。",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "修改金额",
+      "WITHDRAWAL_PAUSED_TITLE": "暂停提现",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "请在 {SECONDS} 内重试。",
+      "WITHDRAWAL_PAUSED_ACTION": "暂停提现",
+      "TRANSFERS_PAUSED_TITLE": "暂停转账",
+      "TRANSFERS_PAUSED_DESCRIPTION": "请在 {SECONDS} 内重试。",
+      "TRANSFERS_PAUSED_ACTION": "暂停转账"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "在找回密钥时，始终切记检查并确认您访问的网站是https:\/\/trade.dydx.exchange。"
