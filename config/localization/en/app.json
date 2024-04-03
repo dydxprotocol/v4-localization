@@ -1102,6 +1102,7 @@
     "TRADE": {
       "ADD_MARGIN": "Add Margin",
       "ADD_TRIGGERS": "Add trigger(s)",
+      "ADD_TP_OR_SL": "Add TP | SL",
       "ADJUST_ISOLATED_MARGIN": "Adjust Isolated Margin",
       "ADJUST_TARGET_LEVERAGE": "Adjust Target Leverage",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Adjusting target leverage will not adjust margin until a new order is placed. For more information on target leverage, see {HERE}.",
