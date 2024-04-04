@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "가스 요금을 충당하기 위한 지갑 잔고 부족",
       "NO_GAS_BODY": "지갑을 다시 채우기 위해 먼저 dYdX 계정에 소액을 입금하십시오.",
       "THEME": "테마",
+      "NOTIFICATIONS": "알림",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "앱 내 알림 표시",
       "DIRECTION_COLOR_PREFERENCE": "색상 설정",
       "DARK": "어두운",
       "CLASSIC_DARK": "최대로 어두운",
