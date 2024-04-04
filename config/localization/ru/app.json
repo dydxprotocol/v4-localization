@@ -2103,7 +2103,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "Попробуйте уменьшить сумму. Максимальный лимит вывода из чейна dYdX в настоящее время составляет {USDC_LIMIT}."
+      "WITHDRAWAL_LIMIT_OVER": "Попробуйте уменьшить сумму. Максимальный лимит вывода из чейна dYdX в настоящее время составляет {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "Попробуйте уменьшить сумму",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "Максимальный лимит вывода из чейна dYdX в настоящее время составляет {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "Изменить сумму",
+      "WITHDRAWAL_PAUSED_TITLE": "Вывод средств приостановлен",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "Попробуйте еще раз через {SECONDS} секунд.",
+      "WITHDRAWAL_PAUSED_ACTION": "Вывод средств приостановлен",
+      "TRANSFERS_PAUSED_TITLE": "Переводы приостановлены",
+      "TRANSFERS_PAUSED_DESCRIPTION": "Попробуйте еще раз через {SECONDS} секунд.",
+      "TRANSFERS_PAUSED_ACTION": "Переводы приостановлены"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "При восстановлении ключей всегда проверяйте, что находитесь на сайте https:\/\/trade.dydx.exchange."
