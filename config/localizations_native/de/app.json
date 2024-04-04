@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "Unzureichendes Wallet-Guthaben zur Deckung der Gasgebühr",
       "NO_GAS_BODY": "Bitte nehmen Sie zuerst eine kleine Einzahlung auf Ihr dYdX-Konto vor, um Ihr Wallet aufzufüllen.",
       "THEME": "Thema",
+      "NOTIFICATIONS": "Benachrichtigungen",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "In-App-Benachrichtigungen anzeigen",
       "DIRECTION_COLOR_PREFERENCE": "Farbpräferenz",
       "DARK": "Dunkel",
       "CLASSIC_DARK": "Classic Dark",

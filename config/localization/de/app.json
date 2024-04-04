@@ -988,9 +988,11 @@
       "LIMIT_PRICE_TOOLTIP": "Durch die Bestimmung eines Limitpreises platzieren Sie eine Take-Profit-Limit-Order und\/oder eine Stop-Limit-Order. Klicken  Sie {DOCUMENTATION_LINK}für weitere Details.",
       "MULTIPLE_ORDERS_FOUND": "Mehrere Orders gefunden.",
       "PRICE_TRIGGERS": "Preisauslöser",
+      "SL_LIMIT": "SL-Grenze",
       "SL_PRICE": "SL Preis",
       "STOP_LOSS_TOOLTIP": "Schützt vor Verlusten, indem die Position eines Traders geschlossen wird, sobald der Oracle-Preis den Triggerpreis kreuzt.",
       "TAKE_PROFIT_TOOLTIP": "Ermöglicht es Tradern, Ziele zu setzen und schützt Gewinne auf Positionen, indem sie einen Preis angeben, zu dem eine offene Position mit Gewinn geschlossen werden soll.",
+      "TP_LIMIT": "TP-Grenze",
       "TP_PRICE": "TP Preis"
     },
     "PORTFOLIO": {
@@ -1405,7 +1407,7 @@
       "ADJUSTED_IMR_BODY": "Wir haben die Initial-Margin-Anforderungen für {MARKET} aufgrund der Volatilität vorübergehend auf {PERCENT} {ACTION}. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Prämie blockieren",
       "CHAIN_DISRUPTION_DETECTED": "Kettenunterbrechung erkannt",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "Der Handel und die Übertragung ist deaktiviert, da Orders aufgrund der Unterbrechung der dYdX-Kette fehlschlagen oder sich verzögern können. Bitte warten und versuchen Sie es später erneut. Ihre Gelder sind sicher.",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "Der Handel und die Übertragung ist deaktiviert, da Orders aufgrund einer Unterbrechung der dYdX-Kette fehlschlagen oder sich verzögern können. Bitte warten und versuchen Sie es später erneut. Ihre Gelder sind sicher.",
       "CLOSE_MARKET_POSITIONS": "Schließen Sie Ihre {MARKET}-Position",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} ist auf den Modus „Nur Schließen“ eingestellt und der Schlusskurs von {MARKET} ist jetzt festgelegt. Schließen Sie bitte Ihre offene {MARKET}-Position, sobald Sie dazu in der Lage sind. Wir sind hier, um Ihnen über den Hilfe-Chat zu helfen, wenn Sie auf Probleme stoßen.",
       "COMPLIANCE_ALERT": "Compliance-Warnung",
@@ -2101,7 +2103,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "Bitte versuchen Sie es mit einem kleineren Betrag. Das maximale Auszahlungslimit von dYdX Chain beträgt derzeit {USDC_LIMIT}."
+      "WITHDRAWAL_LIMIT_OVER": "Bitte versuchen Sie es mit einem kleineren Betrag. Das maximale Auszahlungslimit von dYdX Chain beträgt derzeit {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "Bitte versuchen Sie es mit einem kleineren Betrag",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "Das maximale Auszahlungslimit von dYdX Chain beträgt derzeit {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "Betrag ändern",
+      "WITHDRAWAL_PAUSED_TITLE": "Auszahlungen sind pausiert",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "Bitte versuchen Sie es erneut in  {SECONDS}Sekunden.",
+      "WITHDRAWAL_PAUSED_ACTION": "Auszahlungen pausiert",
+      "TRANSFERS_PAUSED_TITLE": "Übertragungen sind pausiert",
+      "TRANSFERS_PAUSED_DESCRIPTION": "Bitte versuchen Sie es erneut in  {SECONDS}Sekunden.",
+      "TRANSFERS_PAUSED_ACTION": "Transfers pausiert"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Überprüfen Sie immer und überzeugen sich, ob Sie sich auf https:\/\/trade.dydx.exchange befinden, wenn Sie Ihre Keys wiederherstellen."
