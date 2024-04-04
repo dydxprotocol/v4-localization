@@ -716,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "Email or social",
       "OTHER_WALLET": "Other"
     },
     "ONBOARDING": {
@@ -2125,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "Transfers are paused",
       "TRANSFERS_PAUSED_DESCRIPTION": "Please try again in {SECONDS} seconds.",
       "TRANSFERS_PAUSED_ACTION": "Transfers paused"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys."
