@@ -2103,7 +2103,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "더 적은 금액을 입력하십시오. dYdX 체인에서 최대 인출 한도는 현재 {USDC_LIMIT}입니다."
+      "WITHDRAWAL_LIMIT_OVER": "더 적은 금액을 입력하십시오. dYdX 체인에서 최대 인출 한도는 현재 {USDC_LIMIT}입니다.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "더 적은 금액을 입력하십시오",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "dYdX 체인에서 최대 인출 한도는 현재 {USDC_LIMIT}입니다.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "거래량 수정",
+      "WITHDRAWAL_PAUSED_TITLE": "인출이 일시 중지됨",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "{SECONDS}초 후 다시 시도하십시오.",
+      "WITHDRAWAL_PAUSED_ACTION": "일시 중지된 인출",
+      "TRANSFERS_PAUSED_TITLE": "송금이 일시 중지됨",
+      "TRANSFERS_PAUSED_DESCRIPTION": "{SECONDS}초 후 다시 시도하십시오.",
+      "TRANSFERS_PAUSED_ACTION": "일시 중지된 송금"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "키를 복구할 때 항상 https:\/\/trade.dydx.exchange상에 있는지 확인하십시오."
