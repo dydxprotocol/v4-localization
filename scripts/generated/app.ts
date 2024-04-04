@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1516,6 +1516,7 @@ export const APP_STRING_KEYS = {
     CLOVER_WALLET: 'APP.WALLETS.CLOVER_WALLET',
     COIN98: 'APP.WALLETS.COIN98',
     COINBASE_WALLET: 'APP.WALLETS.COINBASE_WALLET',
+    EMAIL_OR_SOCIAL: 'APP.WALLETS.EMAIL_OR_SOCIAL',
     HUOBI_WALLET: 'APP.WALLETS.HUOBI_WALLET',
     IMTOKEN: 'APP.WALLETS.IMTOKEN',
     KEPLR: 'APP.WALLETS.KEPLR',
