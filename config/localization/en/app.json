@@ -2050,10 +2050,26 @@
       "INVALID_GOOD_TIL": "Invalid Good Til"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices."
+      "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices.",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Your stop loss limit price must be above your trigger price for this order to fill when it triggers. Please adjust your limit price.",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Your stop loss limit price must be below your trigger price for this order to fill when it triggers. Please adjust your limit price.",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your stop loss trigger price must be above the current oracle price: {INDEX_PRICE}.",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Your stop loss trigger price must be below the current oracle price: {INDEX_PRICE}.",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Your take profit limit price must be above your trigger price for this order to fill when it triggers. Please adjust your limit price.",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Your take profit limit price must be below your trigger price for this order to fill when it triggers. Please adjust your limit price.",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your take profit trigger price must be above the current oracle price: {INDEX_PRICE}.",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Your take profit trigger price must be below the current oracle price: {INDEX_PRICE}."
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "Invalid price input"
+      "PRICE_MUST_POSITIVE": "Invalid price input",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Invalid stop loss limit price",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Invalid stop loss limit price",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Invalid stop loss trigger price",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Invalid stop loss trigger price",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Invalid take profit limit price",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Invalid take profit limit price",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Invalid take profit trigger price",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Invalid take profit trigger price"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer Alert",
