@@ -279,6 +279,12 @@
       "BODY": "입금 거래의 가스비이며, 이더리움 채굴자에게 지급됩니다."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "같지 않은 주문 크기",
+      "BODY": "이익 실현과 손절매 주문이 주문 크기가 다릅니다. 주문 크기를 편집하려면 주문을 취소하고 다시 만드십시오."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "빠른 인출 수수료",
