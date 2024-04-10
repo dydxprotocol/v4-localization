@@ -1420,6 +1420,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} is set to close only mode and the close price of {MARKET} is now fixed. Please close your open {MARKET} position as soon as you are able. We're here to help via the help chat if you run into issues.",
       "COMPLIANCE_ALERT": "Compliance alert",
       "COMPLIANCE_WARNING": "Compliance Warning",
+      "CREATED": "Created",
+      "CREATING": "Creating",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Your deposit of {AMOUNT_ELEMENT} will be available after 14 confirmations.",
       "DEPOSIT_IN_PROGRESS": "Deposit in progress",
       "DEPOSIT_SUCCESS_DESCRIPTION": "Your deposit of {AMOUNT_ELEMENT} has been confirmed and is now available for trading.",
@@ -1430,6 +1432,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "Enable Push Notifications",
       "EPOCH_REWARDS": "Epoch {EPOCH_NUMBER} Rewards",
       "EPOCH_REWARDS_BODY": "You earned {DYDX} $DYDX rewards during Epoch {EPOCH_NUMBER}!",
+      "ERROR": "Error",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "Your fast withdraw of {AMOUNT_ELEMENT} is pending confirmation on Layer 1.",
       "FAST_WITHDRAW_PENDING": "Fast withdraw pending",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "Your fast withdraw of {AMOUNT_ELEMENT} has been confirmed.",
@@ -1448,6 +1451,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked from performing transfers within the protocol, making fast withdrawals to remove funds from the protocol, and placing orders other than market orders that reduce your positions. You may withdraw your funds from the protocol at any time.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "For compliance reasons you are blocked from using the dYdX protocol.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "For compliance reasons you have been blocked from using the dYdX protocol. This account is in close-only mode. If you believe there has been an error, please email support@dydx.exchange.",
+      "REMOVED": "Removed",
+      "REMOVING": "Removing",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "Your slow withdraw request(s) have been confirmed. {AMOUNT_ELEMENT} is available for withdrawal.",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "Estimated transaction fee {GAS_ESTIMATE}.",
       "SLOW_WITHDRAW_AVAILABLE": "Slow withdraw ready",
@@ -1465,7 +1470,9 @@
         "WITHDRAW_IN_PROGRESS": "Withdrawal(s) in progress...",
         "WITHDRAW_TO_CHAIN": "Withdraw to {CHAIN}"
       },
-      "TRADING_REWARD_RECEIVED": "Trading Reward Received"
+      "TRADING_REWARD_RECEIVED": "Trading Reward Received",
+      "UPDATED": "Updated",
+      "UPDATING": "Updating"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Deposits, Withdrawals, Account Updates",
