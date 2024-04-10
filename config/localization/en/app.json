@@ -2050,7 +2050,9 @@
       "INVALID_GOOD_TIL": "Invalid Good Til"
     },
     "TRIGGERS_FORM": {
+      "LOSS_COLON": "Loss:",
       "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices.",
+      "PROFIT_COLON": "Profit:",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Your stop loss limit price must be above your trigger price for this order to fill when it triggers. Please adjust your limit price.",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Your stop loss limit price must be below your trigger price for this order to fill when it triggers. Please adjust your limit price.",
       "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your stop loss trigger price must be above the current oracle price: {INDEX_PRICE}.",
