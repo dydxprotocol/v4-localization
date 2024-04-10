@@ -1856,6 +1856,11 @@
       "SUBMITTED_PROPOSAL": "Submitted Proposal!",
       "SUGGEST_NEW_MARKET": "Suggest a new market",
       "VIEW_PROPOSAL": "View proposal"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please email {EMAIL}.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please email {EMAIL}",
+      "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our Terms of Use {LINK}"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2170,11 +2175,6 @@
       "MARKET_STATUS_CLOSE_ONLY": "Close only",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market"
-    },
-    "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please email {EMAIL}.",
-      "PERMANENTLY_BLOCKED_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please email {EMAIL}",
-      "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our Terms of Use {LINK}"
     }
   }
 }
