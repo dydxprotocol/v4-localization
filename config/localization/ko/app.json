@@ -164,6 +164,7 @@
       "ISOLATED": "격리됨",
       "ISOLATED_MARGIN": "격리 마진",
       "ISOLATED_MARGIN_DESCRIPTION": "각 포지션마다 고유한 담보를 사용하여 위험을 격리하세요.",
+      "ISOLATED_MARKET": "격리된 시장",
       "KEEP_TRADING": "거래 유지",
       "LANGUAGE": "언어",
       "LARGE_CAP": "대형 캡",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "거래",
       "RECENT": "현재",
       "RECOMMENDED": "권장됨",
+      "RECONNECT_WALLET": "지갑 재연결",
       "REFERRAL_CODE": "추천 코드",
       "REFERRALS": "추천",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% 하락",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "이메일 또는 소셜",
       "OTHER_WALLET": "기타"
     },
     "ONBOARDING": {
@@ -1101,6 +1104,7 @@
     "TRADE": {
       "ADD_MARGIN": "마진 추가",
       "ADD_TRIGGERS": "발동 요소 추가",
+      "ADD_TP_OR_SL": "TP | SL 추가",
       "ADJUST_ISOLATED_MARGIN": "격리된 마진 조정",
       "ADJUST_TARGET_LEVERAGE": "목표 레버리지 조정",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "목표 레버리지 조정은 신규 주문이 배치될 때까지 마진을 조정하지 않습니다. 대상 레버리지에 대한 자세한 내용은 {HERE}을 참조하십시오.",
@@ -1140,6 +1144,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "귀하는 Ropsten 테스트넷 앱에서 테스트 자금으로 거래 중입니다. 실제 자금으로 거래를 시작하려면 메인넷 앱에 계정을 만드세요",
       "DELEVERAGED": "차감",
       "EDIT_STOP_LOSS": "손절매 편집",
+      "EDIT_TAKE_PROFIT": "이익 실현 편집",
       "ENTER_AMOUNT": "금액을 입력하세요",
       "ENTER_LIMIT_PRICE": "지정가를 입력하세요",
       "ENTER_TRIGGER_PRICE": "발동 가격을 입력하세요",
@@ -1198,6 +1203,7 @@
       "MAXIMUM_POSITION_SIZE": "최대 포지션 크기",
       "MID_MARKET": "중간 시장",
       "MODIFY_GOOD_TIL": "취소시까지 유효한 주문 수정",
+      "MODIFY_PRICE": "가격 수정",
       "MODIFY_SIZE_FIELD": "거래량 수정",
       "MODIFY_TRAILING_PERCENT": "트레일링 % 수정",
       "MODIFY_TRIGGER_PRICE": "트리거 가격 수정",
@@ -1320,6 +1326,7 @@
       "TRIGGER_PRICE": "트리거 가격",
       "TRIGGERS": "발동",
       "UNDERCOLLATERALIZED": "담보 비율 미만",
+      "UNOPENED_ISOLATED_POSITIONS": "개설되지 않은 격리된 포지션",
       "UNREALIZED_PNL": "미실현 손익",
       "UNTRIGGERED": "발동되지 않음",
       "UP_TO_X": "최대 {LEVERAGE}배",
@@ -2042,6 +2049,12 @@
       "USER_MAX_ORDERS": "미결 주문이 너무 많습니다",
       "INVALID_GOOD_TIL": "잘못된 유효 주문"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "모든 입력 가격은 양수여야 합니다. 입력 가격을 조정하십시오."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "잘못된 가격 입력"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "인덱서 경고",
       "INDEXER_DOWN": "인덱서는 현재 블록 높이를 얻을 수 없습니다.",
@@ -2113,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "송금이 일시 중지됨",
       "TRANSFERS_PAUSED_DESCRIPTION": "{SECONDS}초 후 다시 시도하십시오.",
       "TRANSFERS_PAUSED_ACTION": "일시 중지된 송금"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "키를 복구할 때 항상 https:\/\/trade.dydx.exchange상에 있는지 확인하십시오."
