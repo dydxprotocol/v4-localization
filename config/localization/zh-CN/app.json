@@ -164,6 +164,7 @@
       "ISOLATED": "逐仓",
       "ISOLATED_MARGIN": "逐仓杠杆交易",
       "ISOLATED_MARGIN_DESCRIPTION": "对每个仓位使用不同的抵押品以隔离风险。",
+      "ISOLATED_MARKET": "孤立市场",
       "KEEP_TRADING": "保持交易",
       "LANGUAGE": "语言",
       "LARGE_CAP": "大盘股",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "交易订单",
       "RECENT": "最近的",
       "RECOMMENDED": "推荐",
+      "RECONNECT_WALLET": "重新连接钱包",
       "REFERRAL_CODE": "推荐码",
       "REFERRALS": "转介",
       "REFERRER_PERCENT_OFF": "减价{DISCOUNT}%",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "测试钱包",
+      "EMAIL_OR_SOCIAL": "电子邮件或社交",
       "OTHER_WALLET": "其他"
     },
     "ONBOARDING": {
@@ -1101,6 +1104,7 @@
     "TRADE": {
       "ADD_MARGIN": "添加保证金",
       "ADD_TRIGGERS": "添加触发价",
+      "ADD_TP_OR_SL": "添加 TP | SL",
       "ADJUST_ISOLATED_MARGIN": "调整逐仓保证金",
       "ADJUST_TARGET_LEVERAGE": "调整目标杠杆",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "在下达新订单之前，调整目标杠杆率不会调整保证金。有关目标杠杆的更多信息，请参阅 {HERE}。",
@@ -1140,6 +1144,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "您正在使用测试资金在我们的Ropsten测试网应用程序上进行交易。在我们的主网应用程序上创建一个账户，开始使用真实资金进行交易",
       "DELEVERAGED": "去杠杆化",
       "EDIT_STOP_LOSS": "编辑止损",
+      "EDIT_TAKE_PROFIT": "编辑获利",
       "ENTER_AMOUNT": "输入金额",
       "ENTER_LIMIT_PRICE": "请输入限价",
       "ENTER_TRIGGER_PRICE": "请输入触发价格",
@@ -1198,6 +1203,7 @@
       "MAXIMUM_POSITION_SIZE": "最大仓位",
       "MID_MARKET": "中端市场",
       "MODIFY_GOOD_TIL": "修改好直到",
+      "MODIFY_PRICE": "修改价格",
       "MODIFY_SIZE_FIELD": "修改金额",
       "MODIFY_TRAILING_PERCENT": "修改追踪 %",
       "MODIFY_TRIGGER_PRICE": "修改触发价格",
@@ -1320,6 +1326,7 @@
       "TRIGGER_PRICE": "触发价格",
       "TRIGGERS": "触发价格",
       "UNDERCOLLATERALIZED": "质押不足",
+      "UNOPENED_ISOLATED_POSITIONS": "未开仓孤立头寸",
       "UNREALIZED_PNL": "未实现盈亏",
       "UNTRIGGERED": "未触发",
       "UP_TO_X": "最高{LEVERAGE}倍",
@@ -2042,6 +2049,12 @@
       "USER_MAX_ORDERS": "太多未平仓订单",
       "INVALID_GOOD_TIL": "有效期无效"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "所有输入价格都必须为正值。 请调整您的输入价格。"
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "无效的价格输入"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer 警告",
       "INDEXER_DOWN": "无法获得 Indexer 当前区块高度。",
@@ -2113,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "暂停转账",
       "TRANSFERS_PAUSED_DESCRIPTION": "请在 {SECONDS} 内重试。",
       "TRANSFERS_PAUSED_ACTION": "暂停转账"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "在找回密钥时，始终切记检查并确认您访问的网站是https:\/\/trade.dydx.exchange。"
