@@ -960,7 +960,8 @@
       "ORDERBOOK_ANIMATIONS": "Orderbook animations",
       "PROFILE_SHARE_USERNAME": "Show my username",
       "PROFILE_SHARE_ADDRESS": "Show my wallet address",
-      "SAVE_ORDER_AMOUNT": "Save order amount"
+      "SAVE_ORDER_AMOUNT": "Save order amount",
+      "TAKE_PROFIT_STOP_LOSS": "Take Profit / Stop Loss"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "Trade with our API",
