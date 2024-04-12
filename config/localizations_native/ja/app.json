@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "ガス料金を支払うのに十分なウォレット残高がありません",
       "NO_GAS_BODY": "ウォレットに補充するには、まずdYdXアカウントに少額入金してください。",
       "THEME": "テーマ",
+      "NOTIFICATIONS": "通知",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "アプリ内通知を表示",
       "DIRECTION_COLOR_PREFERENCE": "色の設定",
       "DARK": "ダーク",
       "CLASSIC_DARK": "クラシックダーク",
