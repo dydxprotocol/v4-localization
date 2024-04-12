@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Перевод отправлен",
       "COMPLETED_TEXT": "Ваш перевод на сумму {AMOUNT_ELEMENT} {TOKEN} отправлен"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Проблема отчета",
+      "LOADING_TITLE": "Загрузка файлов журнала...",
+      "LOADING_COMPLETED_TITLE": "Создан файл журнала",
+      "LOADING_ERROR_TITLE": "Не удалось создать файл журнала",
+      "EMAIL_SUBJECT": "Отчет о проблеме",
+      "EMAIL_BODY": "Опишите проблему, с которой вы сталкиваетесь:",
+      "CHOOSER_TITLE": "Отправить журнал приложения"
     }
   },
   "RATE_APP": {

@@ -164,6 +164,7 @@
       "ISOLATED": "Изолированный",
       "ISOLATED_MARGIN": "Изолированная маржа",
       "ISOLATED_MARGIN_DESCRIPTION": "Используйте отдельное залоговое обеспечение для каждой позиции для изоляции риска.",
+      "ISOLATED_MARKET": "Изолированный рынок",
       "KEEP_TRADING": "Продолжить торговлю",
       "LANGUAGE": "Язык",
       "LARGE_CAP": "Большая капитализация",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "Число сделок",
       "RECENT": "Последние",
       "RECOMMENDED": "Рекомендуется",
+      "RECONNECT_WALLET": "Переподключить кошелек",
       "REFERRAL_CODE": "Реферальный код",
       "REFERRALS": "Рефералы",
       "REFERRER_PERCENT_OFF": "Скидка {DISCOUNT} %",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "Электронная почта или социальные сети",
       "OTHER_WALLET": "Другое"
     },
     "ONBOARDING": {
@@ -1101,6 +1104,7 @@
     "TRADE": {
       "ADD_MARGIN": "Добавить маржу",
       "ADD_TRIGGERS": "Добавить триггер(ы)",
+      "ADD_TP_OR_SL": "Добавить ТП | SL.",
       "ADJUST_ISOLATED_MARGIN": "Настроить изолированную маржу",
       "ADJUST_TARGET_LEVERAGE": "Настроить целевое кредитное плечо",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Изменение целевого кредитного плеча не приведет к изменению маржи до тех пор, пока не будет размещен новый ордер. Дополнительные сведения о целевом кредитном плече см. {HERE}.",
@@ -1140,6 +1144,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Вы осуществляете торговлю в нашем приложении тестовой сети Ropsten, используя тестовые средства. Чтобы начать торговлю с использованием реальных средств, создайте счет в нашем приложении основной сети",
       "DELEVERAGED": "Сокращение доли по заемным средствам",
       "EDIT_STOP_LOSS": "Редактировать стоп-лосс",
+      "EDIT_TAKE_PROFIT": "Редактировать тейк-профит",
       "ENTER_AMOUNT": "Введите сумму",
       "ENTER_LIMIT_PRICE": "Введите лимитную цену",
       "ENTER_TRIGGER_PRICE": "Введите триггерную цену",
@@ -1198,6 +1203,7 @@
       "MAXIMUM_POSITION_SIZE": "Максимальный размер позиции",
       "MID_MARKET": "Средний рынок",
       "MODIFY_GOOD_TIL": "Изменить срок действия",
+      "MODIFY_PRICE": "Изменить цену",
       "MODIFY_SIZE_FIELD": "Изменить сумму",
       "MODIFY_TRAILING_PERCENT": "Изменить конечный %",
       "MODIFY_TRIGGER_PRICE": "Изменить цену триггера",
@@ -1320,6 +1326,7 @@
       "TRIGGER_PRICE": "Триггерная цена",
       "TRIGGERS": "Триггеры",
       "UNDERCOLLATERALIZED": "Недостаточное обеспечение",
+      "UNOPENED_ISOLATED_POSITIONS": "Неоткрытые изолированные позиции",
       "UNREALIZED_PNL": "Нереализированные P&L",
       "UNTRIGGERED": "Не исполнено",
       "UP_TO_X": "До {LEVERAGE}×",
@@ -2042,6 +2049,12 @@
       "USER_MAX_ORDERS": "Слишком много открытых ордеров",
       "INVALID_GOOD_TIL": "Неверный «Действителен до»"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "Все входные цены должны быть положительными. Измените цены на вход."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Неверный ввод цены"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Предупреждение индексатора",
       "INDEXER_DOWN": "Не удалось получить текущую высоту блока индексатора.",
@@ -2113,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "Переводы приостановлены",
       "TRANSFERS_PAUSED_DESCRIPTION": "Попробуйте еще раз через {SECONDS} секунд.",
       "TRANSFERS_PAUSED_ACTION": "Переводы приостановлены"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "При восстановлении ключей всегда проверяйте, что находитесь на сайте https:\/\/trade.dydx.exchange."
