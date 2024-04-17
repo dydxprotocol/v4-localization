@@ -279,6 +279,12 @@
       "BODY": "Dies sind die Gaskosten der Einzahlungstransaktion, die an Ethereum-Miner gezahlt werden."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Ungleiche Bestellgrößen",
+      "BODY": "Ihre Take-Profit- und Stop-Loss-Orders haben verschiedene Ordergrößen. Um die Bestellgröße zu ändern, stornieren Sie bitte die Bestellungen und erstellen Sie sie neu."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Gebühr für schnelle Auszahlung",
