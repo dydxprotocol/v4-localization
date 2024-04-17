@@ -164,6 +164,7 @@
       "ISOLATED": "Isoliert",
       "ISOLATED_MARGIN": "Isolierte Marge",
       "ISOLATED_MARGIN_DESCRIPTION": "Verwenden Sie verschiedene Sicherheiten für jede Position, um das Risiko zu isolieren.",
+      "ISOLATED_MARKET": "Isolierter Markt",
       "KEEP_TRADING": "Weiter traden",
       "LANGUAGE": "Sprache",
       "LARGE_CAP": "Large-Cap",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Kürzlich",
       "RECOMMENDED": "Empfohlen",
+      "RECONNECT_WALLET": "Wallet wieder verbinden",
       "REFERRAL_CODE": "Empfehlungscode",
       "REFERRALS": "Empfehlungen",
       "REFERRER_PERCENT_OFF": "{DISCOUNT} % Abzug",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "E-Mail oder soziale Netzwerke",
       "OTHER_WALLET": "Andere"
     },
     "ONBOARDING": {
@@ -957,7 +960,8 @@
       "ORDERBOOK_ANIMATIONS": "Orderbook-Animationen",
       "PROFILE_SHARE_USERNAME": "Meinen Benutzernamen anzeigen",
       "PROFILE_SHARE_ADDRESS": "Meine Wallet-Adresse anzeigen",
-      "SAVE_ORDER_AMOUNT": "Orderbetrag speichern"
+      "SAVE_ORDER_AMOUNT": "Orderbetrag speichern",
+      "TAKE_PROFIT_STOP_LOSS": "Take-Profit \/ Stop-Loss"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "Traden Sie mit unserer API",
@@ -1101,6 +1105,7 @@
     "TRADE": {
       "ADD_MARGIN": "Marge hinzufügen",
       "ADD_TRIGGERS": "Fügen Sie Trigger(s) hinzu",
+      "ADD_TP_OR_SL": "TP hinzufügen | SL",
       "ADJUST_ISOLATED_MARGIN": "Anpassen der isolierten Marge",
       "ADJUST_TARGET_LEVERAGE": "Anpassen der Ziel-Hebelwirkung",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Die Anpassung der Ziel-Hebelwirkung wird die Marge nicht anpassen, bis eine neue Order platziert wird. Weitere Informationen zur Ziel-Hebelwirkung finden Sie unter {HERE}.",
@@ -1140,6 +1145,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Sie handeln auf unserer Ropsten Testnet-App mit Testgeldern. Erstellen Sie ein Konto in unserer Mainnet-App, um mit echtem Geld zu handeln",
       "DELEVERAGED": "Entschuldet",
       "EDIT_STOP_LOSS": "Stop-Loss bearbeiten",
+      "EDIT_TAKE_PROFIT": "Take-Profit bearbeiten",
       "ENTER_AMOUNT": "Geben Sie den Betrag ein",
       "ENTER_LIMIT_PRICE": "Geben Sie das Preislimit ein",
       "ENTER_TRIGGER_PRICE": "Geben Sie den Trigger-Preis ein",
@@ -1198,6 +1204,7 @@
       "MAXIMUM_POSITION_SIZE": "Maximale Positionsgröße",
       "MID_MARKET": "Mittleres Marktsegment",
       "MODIFY_GOOD_TIL": "Good Til ändern",
+      "MODIFY_PRICE": "Preis ändern",
       "MODIFY_SIZE_FIELD": "Betrag ändern",
       "MODIFY_TRAILING_PERCENT": "Trailing-% ändern",
       "MODIFY_TRIGGER_PRICE": "Trigger-Preis ändern",
@@ -1320,6 +1327,7 @@
       "TRIGGER_PRICE": "Trigger-Preis",
       "TRIGGERS": "Trigger",
       "UNDERCOLLATERALIZED": "Unterbesichert",
+      "UNOPENED_ISOLATED_POSITIONS": "Ungeöffnete isolierte Positionen",
       "UNREALIZED_PNL": "Nicht realisierte P&L",
       "UNTRIGGERED": "Untriggered",
       "UP_TO_X": "Bis zu {LEVERAGE}×",
@@ -1408,9 +1416,13 @@
       "BLOCK_REWARD": "Prämie blockieren",
       "CHAIN_DISRUPTION_DETECTED": "Kettenunterbrechung erkannt",
       "CHAIN_DISRUPTION_DETECTED_BODY": "Der Handel und die Übertragung ist deaktiviert, da Orders aufgrund einer Unterbrechung der dYdX-Kette fehlschlagen oder sich verzögern können. Bitte warten und versuchen Sie es später erneut. Ihre Gelder sind sicher.",
+      "CLICK_TO_VIEW": "Zum Anzeigen klicken",
       "CLOSE_MARKET_POSITIONS": "Schließen Sie Ihre {MARKET}-Position",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} ist auf den Modus „Nur Schließen“ eingestellt und der Schlusskurs von {MARKET} ist jetzt festgelegt. Schließen Sie bitte Ihre offene {MARKET}-Position, sobald Sie dazu in der Lage sind. Wir sind hier, um Ihnen über den Hilfe-Chat zu helfen, wenn Sie auf Probleme stoßen.",
       "COMPLIANCE_ALERT": "Compliance-Warnung",
+      "COMPLIANCE_WARNING": "Compliance-Warnung",
+      "CREATED": "Erstellt",
+      "CREATING": "Erstellen",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Ihre Einzahlung von {AMOUNT_ELEMENT} wird nach 14 Bestätigungen verfügbar sein.",
       "DEPOSIT_IN_PROGRESS": "Einzahlung ist in Bearbeitung",
       "DEPOSIT_SUCCESS_DESCRIPTION": "Ihre Einzahlung von {AMOUNT_ELEMENT} wurde bestätigt und steht jetzt für den Handel zur Verfügung.",
@@ -1421,6 +1433,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "Push-Benachrichtigungen aktivieren",
       "EPOCH_REWARDS": "Prämien in Epoche {EPOCH_NUMBER}",
       "EPOCH_REWARDS_BODY": "Sie haben sich {DYDX} $DYDX-Prämien während der Epoche {EPOCH_NUMBER} verdient.",
+      "ERROR": "Fehler",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "Ihre schnelle Auszahlung von {AMOUNT_ELEMENT} muss noch auf Ebene 1 bestätigt werden.",
       "FAST_WITHDRAW_PENDING": "Schnelle Auszahlung anstehend",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "Ihre schnelle Auszahlung von {AMOUNT_ELEMENT} wurde bestätigt.",
@@ -1439,6 +1452,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Da Sie anscheinend in einer Gerichtsbarkeit ansässig sind oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen Ihres Kontos geführt haben, wurden Sie dauerhaft für die Durchführung von Überweisungen innerhalb des Protokolls gesperrt, schnelle Abhebungen vornehmen zu können, um Gelder aus dem Protokoll zu entfernen, und andere Orders als Marktorders zu platzieren, die Ihre Positionen reduzieren. Sie können Ihr Geld jederzeit aus dem Protokoll abheben.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "Aus Compliance-Gründen ist die Verwendung des dYdX-Protokolls für Sie gesperrt.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "Aus Compliance-Gründen wurden Sie für die Verwendung des dYdX-Protokolls blockiert. Dieses Konto befindet sich im Close Only-Modus. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-Mail an support@dydx.exchange.",
+      "REMOVED": "Entfernt",
+      "REMOVING": "Entfernen",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "Ihre Anfrage(n) für eine langsame Auszahlung wurde(n) bestätigt.  {AMOUNT_ELEMENT}steht für Auszahlung zur Verfügung.",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "Geschätzte Transaktionsgebühr: {GAS_ESTIMATE}.",
       "SLOW_WITHDRAW_AVAILABLE": "Langsame Abheben bereit",
@@ -1456,7 +1471,9 @@
         "WITHDRAW_IN_PROGRESS": "Auszahlung(en) werden ausgeführt...",
         "WITHDRAW_TO_CHAIN": "Auszahlung an {CHAIN}"
       },
-      "TRADING_REWARD_RECEIVED": "Erhaltene Trading-Prämie"
+      "TRADING_REWARD_RECEIVED": "Erhaltene Trading-Prämie",
+      "UPDATED": "Aktualisiert",
+      "UPDATING": "Aktualisierung"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Einzahlungen, Auszahlungen, Kontoaktualisierungen",
@@ -1518,15 +1535,16 @@
       "HEDGIES_NFT": "Hedgies NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "Da Sie anscheinend in einem Land ansässig sind oder von dort aus handeln, das gegen unsere Nutzungsbedingungen verstößt, müssen Sie (1) Ihr Wohnsitzland und (2) den Ort bestätigen, von dem aus Sie handeln. Wenn Sie die Bestätigung nicht innerhalb von 24 Stunden abschließen, nachdem Sie als Verstoß gegen unsere Nutzungsbedingungen gekennzeichnet wurden, werden Sie aus Compliance-Zwecken daran gehindert, Überweisungen innerhalb des Protokolls durchzuführen, schnelle Auszahlungen vorzunehmen, um Gelder aus dem Protokoll zu entfernen, und andere Bestellungen aufzugeben als Market-Orders, die Ihre Positionen reduzieren.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Da Sie anscheinend in einem Land ansässig sind oder von einem Land aus handeln, das gegen unsere Nutzungsbedingungen verstößt, und noch keine vollständige Bestätigung Ihres Wohnsitzlandes und des Standorts, von dem aus Sie handeln, wie von uns gefordert, gesendet haben, wurden Sie für die Durchführung von Überweisungen gesperrt innerhalb des Protokolls, schnelle Abhebungen vorzunehmen, um Gelder aus dem Protokoll zu entfernen, und andere Orders als Marktorders zu platzieren, die Ihre Positionen reduzieren.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Wenn Sie entsperrt werden möchten, bestätigen Sie bitte (1) Ihr Wohnsitzland und (2) den Standort, von dem aus Sie handeln. Wenn Sie die Bestätigung abschließen und Ihr Konto entsperrt wird, beachten Sie bitte, dass jeder zukünftige Verstoß gegen unsere Nutzungsbedingungen zu einer sofortigen Sperrung führt, die wir nicht entsperren werden, obwohl Ihr Geld immer zur Auszahlung verfügbar sein wird.",
+      "COMPLIANCE_BODY": "da Sie anscheinend in einem Land ansässig sind oder von einem Land aus handeln, das gegen unsere Nutzungsbedingungen verstößt, und die Bestätigung Ihres Wohnsitzlandes und des Standortes, von dem aus Sie handeln, noch nicht abgeschlossen haben, wurden Sie für die Platzierung anderer Orders als Market-Orders gesperrt, die Ihre Positionen reduzieren.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "da Sie anscheinend in einem Land ansässig sind oder von einem Land aus handeln, das gegen unsere Nutzungsbedingungen verstößt, und die Bestätigung Ihres Wohnsitzlandes und des Standortes, von dem aus Sie handeln, noch nicht abgeschlossen haben, wurden Sie für die Platzierung anderer Orders als Market-Orders gesperrt, die Ihre Positionen reduzieren.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Wenn Sie entsperrt werden möchten, bestätigen Sie bitte (1) Ihr Wohnsitzland und (2) den Standort, von dem aus Sie handeln. Wenn Sie die Bestätigung abschließen und Ihr Konto entsperrt wird, beachten Sie bitte, dass jeder zukünftige Verstoß gegen unsere Nutzungsbedingungen zu einer dauerhaften Sperrung für das Protokoll führt – obwohl Ihr Geld immer zur Auszahlung verfügbar sein wird.",
       "COMPLIANCE_REQUEST": "Compliance-Anfrage",
       "CONTINUE": "Weiter",
       "COUNTRY_OF_RESIDENCE": "Land des Wohnsitzes",
       "SUBMIT": "Senden",
       "TRADING_LOCATION": "Handelsort",
-      "TYPE_TO_SEARCH": "Tippen Sie, um zu suchen"
+      "TYPE_TO_SEARCH": "Tippen Sie, um zu suchen",
+      "SELECT_A_COUNTRY": "Wählen Sie ein Land"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "Adresse",
@@ -1846,6 +1864,11 @@
       "SUBMITTED_PROPOSAL": "Eingereichter Vorschlag!",
       "SUGGEST_NEW_MARKET": "Neuen Markt vorschlagen",
       "VIEW_PROPOSAL": "Vorschlag anzeigen"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE}zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf das Frontend gesperrt ist. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-{EMAIL}Mail.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-{EMAIL}Mail.",
+      "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren Nutzungsbedingungen {LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2042,6 +2065,30 @@
       "USER_MAX_ORDERS": "Zu viele offene Aufträge",
       "INVALID_GOOD_TIL": "Ungültiger Good Til"
     },
+    "TRIGGERS_FORM": {
+      "LOSS_COLON": "Verlust:",
+      "PRICE_MUST_POSITIVE": "Alle Eingabepreise müssen positiv sein. Bitte passen Sie Ihre Eingabepreise an.",
+      "PROFIT_COLON": "Gewinn:",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ihr Stop-Loss-Limitpreis muss über Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an.",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Stop-Loss-Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an.",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Ihr Stop-Loss-Auslösepreis muss über dem aktuellen Oracle-Preis liegen: {INDEX_PRICE}.",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Ihr Stop-Loss-Auslösepreis muss unter dem aktuellen Oracle-Preis liegen: {INDEX_PRICE}.",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ihr Take-Profit-Limitpreis muss über Ihrem Triggerpreis liegen, damit diese Order ausgeführt wird, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an.",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Take-Profit-Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an.",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Ihr Take-Profit-Auslösepreis muss über dem aktuellen Oracle-Preis liegen: {INDEX_PRICE}.",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Ihr Take-Profit-Auslösepreis muss unter dem aktuellen Oracle-Preis liegen: {INDEX_PRICE}."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Ungültige Preiseingabe",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ungültiger Stop-Loss-Limitpreis",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ungültiger Stop-Loss-Limitpreis",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Ungültiger Stop-Loss-Auslösepreis",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Ungültiger Stop-Loss-Auslösepreis",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ungültiger Take-Profit-Limitpreis",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ungültiger Take-Profit-Limitpreis",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Ungültiger Take-Profit-Auslösepreis",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Ungültiger Take-Profit-Auslösepreis"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer-Alarm",
       "INDEXER_DOWN": "Die aktuelle Blockhöhe des Indexers kann nicht abgerufen werden.",
@@ -2113,7 +2160,6 @@
       "TRANSFERS_PAUSED_TITLE": "Übertragungen sind pausiert",
       "TRANSFERS_PAUSED_DESCRIPTION": "Bitte versuchen Sie es erneut in  {SECONDS}Sekunden.",
       "TRANSFERS_PAUSED_ACTION": "Transfers pausiert"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Überprüfen Sie immer und überzeugen sich, ob Sie sich auf https:\/\/trade.dydx.exchange befinden, wenn Sie Ihre Keys wiederherstellen."
