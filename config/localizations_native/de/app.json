@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer übermittelt",
       "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Problem melden",
+      "LOADING_TITLE": "Logdateien werden geladen...",
+      "LOADING_COMPLETED_TITLE": "Protokolldatei erstellt",
+      "LOADING_ERROR_TITLE": "Logdatei konnte nicht erstellt werden",
+      "EMAIL_SUBJECT": "Problembericht",
+      "EMAIL_BODY": "Bitte beschreiben Sie das Problem, mit dem Sie konfrontiert sind:",
+      "CHOOSER_TITLE": "App-Protokoll senden"
     }
   },
   "RATE_APP": {
