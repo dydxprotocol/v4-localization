@@ -67,6 +67,78 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "느린 출금이 완료되었습니다",
       "BODY": "{AMOUNT} {ASSET}출금이 확인되었습니다."
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "손절매",
+      "BODY": "손절매 트리거가 {NEW_VALUE}에 생성되고 있습니다."
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "손절매",
+      "BODY": "{NEW_VALUE}에서 손절매 트리거를 생성할 수 없습니다."
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "손절매",
+      "BODY": "{NEW_VALUE}에서 손절매 트리거가 생성되었습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "이익 환수",
+      "BODY": "이익 실현 트리거가 {NEW_VALUE}에 생성되고 있습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "이익 환수",
+      "BODY": "{NEW_VALUE}에서 이익 실현 트리거를 생성할 수 없습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "이익 환수",
+      "BODY": "{NEW_VALUE}에서 이익 실현 트리거가 생성되었습니다."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "손절매",
+      "BODY": "손절매 트리거가 {NEW_VALUE}(으)로 업데이트되고 있습니다."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "손절매",
+      "BODY": "{OLD_VALUE}에서 손절매 트리거를 교체할 수 없습니다."
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "손절매",
+      "BODY": "손절매 트리거가 {NEW_VALUE}에서 트리거됩니다."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "이익 환수",
+      "BODY": "이익 실현 트리거가 {NEW_VALUE}(으)로 업데이트되고 있습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "이익 환수",
+      "BODY": "{OLD_VALUE}에서 이익 실현 트리거를 교체할 수 없습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "이익 환수",
+      "BODY": "이익 실현 트리거가 {NEW_VALUE}에서 트리거됩니다."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "손절매",
+      "BODY": "{OLD_VALUE}에서 손절매 트리거가 제거됩니다."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "손절매",
+      "BODY": "{OLD_VALUE}에서 손절매 트리거를 취소할 수 없습니다."
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "손절매",
+      "BODY": "{OLD_VALUE}에서 손절매 트리거가 제거되었습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "이익 환수",
+      "BODY": "{OLD_VALUE}에서 이익 실현 트리거가 제거되고 있습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "이익 환수",
+      "BODY": "{OLD_VALUE}에서 이익 실현 트리거를 취소할 수 없습니다."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "이익 환수",
+      "BODY": "{OLD_VALUE}에서 이익 실현 트리거가 제거되었습니다."
     }
   }
 }
