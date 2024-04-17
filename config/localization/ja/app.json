@@ -164,6 +164,7 @@
       "ISOLATED": "単発",
       "ISOLATED_MARGIN": "単独の信用取引",
       "ISOLATED_MARGIN_DESCRIPTION": "リスクを分離するために、各ポジションごとに異なる担保を使用してください。",
+      "ISOLATED_MARKET": "分離した市場",
       "KEEP_TRADING": "トレードを維持する",
       "LANGUAGE": "言語",
       "LARGE_CAP": "大キャップ",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "取引",
       "RECENT": "最近",
       "RECOMMENDED": "推奨",
+      "RECONNECT_WALLET": "ウォレットを再接続する",
       "REFERRAL_CODE": "紹介コード",
       "REFERRALS": "紹介",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}%割引",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect（1.0）",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "テストウォレット",
+      "EMAIL_OR_SOCIAL": "メールまたはソーシャル",
       "OTHER_WALLET": "その他"
     },
     "ONBOARDING": {
@@ -1101,6 +1104,7 @@
     "TRADE": {
       "ADD_MARGIN": "マージンを追加",
       "ADD_TRIGGERS": "トリガーの追加",
+      "ADD_TP_OR_SL": "TP|SLを追加",
       "ADJUST_ISOLATED_MARGIN": "分離されたマージンを調整",
       "ADJUST_TARGET_LEVERAGE": "ターゲットレバレッジを調整",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "ターゲットレバレッジを調整すると、新しい注文が出されるまで証拠金を調整しません。 ターゲットレバレッジの詳細については、{HERE}を参照してください。",
@@ -1140,6 +1144,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Ropstenのテストネットアプリでテスト資金による取引を行っています。メインネットアプリで口座を作成し、リアル資金で取引を始めましょう。",
       "DELEVERAGED": "レバレッジ解消",
       "EDIT_STOP_LOSS": "ストップロスを編集する",
+      "EDIT_TAKE_PROFIT": "利益確定を編集する",
       "ENTER_AMOUNT": "金額を入力します",
       "ENTER_LIMIT_PRICE": "指値を入力します",
       "ENTER_TRIGGER_PRICE": "トリガー価格を入力します",
@@ -1198,6 +1203,7 @@
       "MAXIMUM_POSITION_SIZE": "最大のポジションサイズ",
       "MID_MARKET": "ミッドマーケット",
       "MODIFY_GOOD_TIL": "グッドティルを修正する",
+      "MODIFY_PRICE": "価格を変更する",
       "MODIFY_SIZE_FIELD": "金額を修正する",
       "MODIFY_TRAILING_PERCENT": "末尾の%を修正する",
       "MODIFY_TRIGGER_PRICE": "トリガー価格を修正する",
@@ -1320,6 +1326,7 @@
       "TRIGGER_PRICE": "トリガー価格",
       "TRIGGERS": "トリガー",
       "UNDERCOLLATERALIZED": "担保不足",
+      "UNOPENED_ISOLATED_POSITIONS": "開かれていない分離ポジション",
       "UNREALIZED_PNL": "未実現損益",
       "UNTRIGGERED": "トリガーなし",
       "UP_TO_X": "最大{LEVERAGE}倍",
@@ -2042,6 +2049,12 @@
       "USER_MAX_ORDERS": "オープンオーダーが多すぎます",
       "INVALID_GOOD_TIL": "無効なグッドティル"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "すべての入力価格はプラス値でなければなりません。入力価格を調整してください。"
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "無効な入力価格"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "インデクサーに関する警告",
       "INDEXER_DOWN": "インデックスの現在のブロックの高さを取得することができません。",
@@ -2113,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "転送は一時停止されています",
       "TRANSFERS_PAUSED_DESCRIPTION": "{SECONDS}秒後にもう一度お試しください。",
       "TRANSFERS_PAUSED_ACTION": "転送は一時停止されています"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "キーを再作成する場合は、 https:\/\/trade.dydx.exchange にアクセスしていることを常に確認、検証してください。"
