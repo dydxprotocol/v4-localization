@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transferência enviada",
       "COMPLETED_TEXT": "Sua transferência de {AMOUNT_ELEMENT} {TOKEN} foi enviada"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Reportar problema",
+      "LOADING_TITLE": "Carregando arquivos de log...",
+      "LOADING_COMPLETED_TITLE": "Arquivo de log criado",
+      "LOADING_ERROR_TITLE": "Falha ao criar arquivo de log",
+      "EMAIL_SUBJECT": "Relatório do problema",
+      "EMAIL_BODY": "Descreva o problema que você está enfrentando:",
+      "CHOOSER_TITLE": "Enviar log de aplicativo"
     }
   },
   "RATE_APP": {
