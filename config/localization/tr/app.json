@@ -164,6 +164,7 @@
       "ISOLATED": "İzole",
       "ISOLATED_MARGIN": "İzole Marjin",
       "ISOLATED_MARGIN_DESCRIPTION": "Riski izole etmek için her pozisyonda ayrı teminat kullanın.",
+      "ISOLATED_MARKET": "İzole Pazar",
       "KEEP_TRADING": "İşlem yapmaya devam et",
       "LANGUAGE": "Dil",
       "LARGE_CAP": "Büyük sermayeli",
@@ -176,7 +177,7 @@
       "LEVERAGE": "Kaldıraç",
       "LIVE": "Canlı",
       "LONG_POSITION_SHORT": "Uzun",
-      "LONG_TAIL": "Uzun kuyruklular",
+      "LONG_TAIL": "Uzun süreli",
       "MAINTENANCE_MARGIN_FRACTION": "Devam Marj Oranı",
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "DMO",
       "MAKE_ONE_TRADE": "1 işlem yap",
@@ -245,6 +246,7 @@
       "RECENT_TRADES_SHORT": "İşlemler",
       "RECENT": "En Son",
       "RECOMMENDED": "Önerilen",
+      "RECONNECT_WALLET": "Cüzdanı yeniden bağla",
       "REFERRAL_CODE": "Referans Kodu",
       "REFERRALS": "Tavsiyeler",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% indirim",
@@ -714,6 +716,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "E-posta veya sosyal medya hesabı",
       "OTHER_WALLET": "Diğer"
     },
     "ONBOARDING": {
@@ -1101,6 +1104,7 @@
     "TRADE": {
       "ADD_MARGIN": "Marjin Ekle",
       "ADD_TRIGGERS": "Tetik(ler) ekleyin",
+      "ADD_TP_OR_SL": "TP | SL ekle",
       "ADJUST_ISOLATED_MARGIN": "İzole Marjini Ayarla",
       "ADJUST_TARGET_LEVERAGE": "Hedef Kaldıracı Ayarla",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Hedef kaldıracın ayarlanması, yeni bir talimat verilene kadar marjin ayarlamasına neden olmaz. Hedef kaldıraç hakkında daha fazla bilgi için bkz. {HERE}.",
@@ -1140,6 +1144,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Ropsten testnet uygulamamız üzerinde test fonlarıyla yatırım yapıyorsunuz. Gerçek fonlarla yatırım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
       "DELEVERAGED": "Kaldıraçsızlaştırılmış",
       "EDIT_STOP_LOSS": "Kayıp durdurmayı düzenle",
+      "EDIT_TAKE_PROFIT": "Kâr almayı düzenle",
       "ENTER_AMOUNT": "Miktar girin",
       "ENTER_LIMIT_PRICE": "Limit fiyatını girin",
       "ENTER_TRIGGER_PRICE": "Tetikleme fiyatını girin",
@@ -1198,6 +1203,7 @@
       "MAXIMUM_POSITION_SIZE": "Maksimum Pozisyon Boyutu",
       "MID_MARKET": "Orta Piyasa",
       "MODIFY_GOOD_TIL": "Geçerliliği Değiştirin",
+      "MODIFY_PRICE": "Fiyatı değiştir",
       "MODIFY_SIZE_FIELD": "Miktarı değiştir",
       "MODIFY_TRAILING_PERCENT": "Takip eden % değiştirin",
       "MODIFY_TRIGGER_PRICE": "Tetikleme fiyatını değiştirin",
@@ -1320,6 +1326,7 @@
       "TRIGGER_PRICE": "Tetikleme Fiyatı",
       "TRIGGERS": "Tetikler",
       "UNDERCOLLATERALIZED": "Yetersiz teminat",
+      "UNOPENED_ISOLATED_POSITIONS": "Açılmayan İzole Pozisyonlar",
       "UNREALIZED_PNL": "Gerçekleşmemiş KZ",
       "UNTRIGGERED": "Tetiklenmemiş",
       "UP_TO_X": "{LEVERAGE} kata kadar",
@@ -2042,6 +2049,12 @@
       "USER_MAX_ORDERS": "Çok fazla açık emir",
       "INVALID_GOOD_TIL": "Geçersiz Geçerlilik Süresi"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "Tüm giriş fiyatları pozitif olmalıdır. Lütfen giriş fiyatlarınızı ayarlayın."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Geçersiz fiyat girişi"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Endeksleyici Uyarısı",
       "INDEXER_DOWN": "Endeksleyici (Indexer) mevcut blok yüksekliği alınamadı.",
@@ -2113,7 +2126,6 @@
       "TRANSFERS_PAUSED_TITLE": "Transferler duraklatıldı",
       "TRANSFERS_PAUSED_DESCRIPTION": "Lütfen {SECONDS} saniye içinde tekrar deneyin.",
       "TRANSFERS_PAUSED_ACTION": "Durdurulan transferler"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Anahtarlarınızı kurtarırken daima https:\/\/trade.dydx.exchange üzerinde olduğunuzu kontrol edin ve doğrulayın."
