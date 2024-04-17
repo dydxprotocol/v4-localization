@@ -67,6 +67,78 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "正常提现成功",
       "BODY": "您的{AMOUNT} {ASSET}提款已被确认。"
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "止损",
+      "BODY": "您的止损触发器正创建于{NEW_VALUE}。"
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "止损",
+      "BODY": "无法创建您在{NEW_VALUE}的止损触发器。"
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "止损",
+      "BODY": "已创建您在{NEW_VALUE}的止损触发器。"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "获得利润",
+      "BODY": "您的止盈触发器正创建于{NEW_VALUE}。"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "获得利润",
+      "BODY": "无法创建您在{NEW_VALUE}的止盈触发器。"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "获得利润",
+      "BODY": "已创建您在{NEW_VALUE}的止盈触发器。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "止损",
+      "BODY": "您的止损触发器正在更新为{NEW_VALUE}。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "止损",
+      "BODY": "无法替换您在{OLD_VALUE}的止损触发器。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "止损",
+      "BODY": "您的止损触发器现在将在{NEW_VALUE}被触发。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "获得利润",
+      "BODY": "您的止盈触发器正在更新为{NEW_VALUE}。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "获得利润",
+      "BODY": "无法替换您在{OLD_VALUE}的止盈触发器。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "获得利润",
+      "BODY": "您的止盈触发器现在将在{NEW_VALUE}被触发。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "止损",
+      "BODY": "您在{OLD_VALUE}的止损触发器正在被移除。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "止损",
+      "BODY": "无法取消您在{OLD_VALUE}的止损触发器。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "止损",
+      "BODY": "您在{OLD_VALUE}的止损触发器已被移除。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "获得利润",
+      "BODY": "您在{OLD_VALUE}的止盈触发器正在被移除。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "获得利润",
+      "BODY": "无法取消您在{OLD_VALUE}的止盈触发器。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "获得利润",
+      "BODY": "您在{OLD_VALUE}的止盈触发器已被移除。"
     }
   }
 }
