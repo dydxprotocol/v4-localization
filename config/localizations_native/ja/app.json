@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "送金提出",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN}の送金が提出されました"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "問題をレポート",
+      "LOADING_TITLE": "ログファイルを読み込み中...",
+      "LOADING_COMPLETED_TITLE": "作成されたログファイル",
+      "LOADING_ERROR_TITLE": "ログファイルの作成に失敗しました",
+      "EMAIL_SUBJECT": "問題レポート",
+      "EMAIL_BODY": "直面している問題を説明してください：",
+      "CHOOSER_TITLE": "アプリログを送信"
     }
   },
   "RATE_APP": {
