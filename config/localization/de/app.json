@@ -164,6 +164,7 @@
       "ISOLATED": "Isoliert",
       "ISOLATED_MARGIN": "Isolierte Marge",
       "ISOLATED_MARGIN_DESCRIPTION": "Verwenden Sie verschiedene Sicherheiten für jede Position, um das Risiko zu isolieren.",
+      "ISOLATED_MARKET": "Isolierter Markt",
       "KEEP_TRADING": "Weiter traden",
       "LANGUAGE": "Sprache",
       "LARGE_CAP": "Large-Cap",
@@ -253,6 +254,7 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Kürzlich",
       "RECOMMENDED": "Empfohlen",
+      "RECONNECT_WALLET": "Wallet wieder verbinden",
       "REFERRAL_CODE": "Empfehlungscode",
       "REFERRALS": "Empfehlungen",
       "REFERRER_PERCENT_OFF": "{DISCOUNT} % Abzug",
@@ -722,6 +724,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "E-Mail oder soziale Netzwerke",
       "OTHER_WALLET": "Andere"
     },
     "ONBOARDING": {
@@ -1109,6 +1112,7 @@
     "TRADE": {
       "ADD_MARGIN": "Marge hinzufügen",
       "ADD_TRIGGERS": "Fügen Sie Trigger(s) hinzu",
+      "ADD_TP_OR_SL": "TP hinzufügen | SL",
       "ADJUST_ISOLATED_MARGIN": "Anpassen der isolierten Marge",
       "ADJUST_TARGET_LEVERAGE": "Anpassen der Ziel-Hebelwirkung",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Die Anpassung der Ziel-Hebelwirkung wird die Marge nicht anpassen, bis eine neue Order platziert wird. Weitere Informationen zur Ziel-Hebelwirkung finden Sie unter {HERE}.",
@@ -1148,6 +1152,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Sie handeln auf unserer Ropsten Testnet-App mit Testgeldern. Erstellen Sie ein Konto in unserer Mainnet-App, um mit echtem Geld zu handeln",
       "DELEVERAGED": "Entschuldet",
       "EDIT_STOP_LOSS": "Stop-Loss bearbeiten",
+      "EDIT_TAKE_PROFIT": "Take-Profit bearbeiten",
       "ENTER_AMOUNT": "Geben Sie den Betrag ein",
       "ENTER_LIMIT_PRICE": "Geben Sie das Preislimit ein",
       "ENTER_TRIGGER_PRICE": "Geben Sie den Trigger-Preis ein",
@@ -1206,6 +1211,7 @@
       "MAXIMUM_POSITION_SIZE": "Maximale Positionsgröße",
       "MID_MARKET": "Mittleres Marktsegment",
       "MODIFY_GOOD_TIL": "Good Til ändern",
+      "MODIFY_PRICE": "Preis ändern",
       "MODIFY_SIZE_FIELD": "Betrag ändern",
       "MODIFY_TRAILING_PERCENT": "Trailing-% ändern",
       "MODIFY_TRIGGER_PRICE": "Trigger-Preis ändern",
@@ -1328,6 +1334,7 @@
       "TRIGGER_PRICE": "Trigger-Preis",
       "TRIGGERS": "Trigger",
       "UNDERCOLLATERALIZED": "Unterbesichert",
+      "UNOPENED_ISOLATED_POSITIONS": "Ungeöffnete isolierte Positionen",
       "UNREALIZED_PNL": "Nicht realisierte P&L",
       "UNTRIGGERED": "Untriggered",
       "UP_TO_X": "Bis zu {LEVERAGE}×",
@@ -2050,6 +2057,12 @@
       "USER_MAX_ORDERS": "Zu viele offene Aufträge",
       "INVALID_GOOD_TIL": "Ungültiger Good Til"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "Alle Eingabepreise müssen positiv sein. Bitte passen Sie Ihre Eingabepreise an."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Ungültige Preiseingabe"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer-Alarm",
       "INDEXER_DOWN": "Die aktuelle Blockhöhe des Indexers kann nicht abgerufen werden.",
@@ -2121,7 +2134,6 @@
       "TRANSFERS_PAUSED_TITLE": "Übertragungen sind pausiert",
       "TRANSFERS_PAUSED_DESCRIPTION": "Bitte versuchen Sie es erneut in  {SECONDS}Sekunden.",
       "TRANSFERS_PAUSED_ACTION": "Transfers pausiert"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Überprüfen Sie immer und überzeugen sich, ob Sie sich auf https:\/\/trade.dydx.exchange befinden, wenn Sie Ihre Keys wiederherstellen."
