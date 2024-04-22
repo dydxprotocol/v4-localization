@@ -164,9 +164,18 @@
       "ISOLATED": "Isolada",
       "ISOLATED_MARGIN": "Margem isolada",
       "ISOLATED_MARGIN_DESCRIPTION": "Use garantias distintas para cada posição para isolar o risco.",
+      "ISOLATED_MARKET": "Mercado isolado",
       "KEEP_TRADING": "Continuar negociando",
       "LANGUAGE": "Idioma",
       "LARGE_CAP": "Large-cap",
+      "BIGGEST_MOVERS": "Maiores movimentos",
+      "RECENTLY_LISTED": "Recentemente listado",
+      "GAINERS": "Ganhadores",
+      "LOSERS": "Perdedores",
+      "EARNED_BY_STAKERS": "Ganhou por Stakers",
+      "ADD_NEW_MARKET": "Adicionar novo mercado",
+      "NO_RECENTLY_LISTED_MARKETS": "Nenhum mercado recentemente cotado",
+      "HIGHLIGHTS": "Destaques",
       "LAYER_1": "Layer 1",
       "LAYER_2": "Segunda camada (L2)",
       "LEARN_MORE": "Saiba mais",
@@ -245,6 +254,7 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recente",
       "RECOMMENDED": "Recomendado",
+      "RECONNECT_WALLET": "Reconectar carteira",
       "REFERRAL_CODE": "Código de indicação",
       "REFERRALS": "Indicações",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% de desconto",
@@ -714,6 +724,7 @@
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "Email ou rede social",
       "OTHER_WALLET": "Outro"
     },
     "ONBOARDING": {
@@ -1101,6 +1112,7 @@
     "TRADE": {
       "ADD_MARGIN": "Adicionar margem",
       "ADD_TRIGGERS": "Adicionar gatilho(s)",
+      "ADD_TP_OR_SL": "Adicionar TP | SL",
       "ADJUST_ISOLATED_MARGIN": "Ajustar margem isolada",
       "ADJUST_TARGET_LEVERAGE": "Ajustar alavancagem alvo",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "O ajuste da alavancagem alvo não ajustará a margem até que uma nova ordem seja colocada. Para obter mais informações sobre a alavancagem alvo, consulte {HERE}.",
@@ -1140,6 +1152,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Você está fazendo trade em nosso aplicativo da testnet Ropsten com fundos de teste. Crie uma conta em nosso aplicativo da mainnet para começar a fazer trades com fundos reais",
       "DELEVERAGED": "Desalavancado",
       "EDIT_STOP_LOSS": "Editar stop loss",
+      "EDIT_TAKE_PROFIT": "Editar take profit",
       "ENTER_AMOUNT": "Digite o valor",
       "ENTER_LIMIT_PRICE": "Digite o preço limite",
       "ENTER_TRIGGER_PRICE": "Digite o preço de disparo",
@@ -1198,6 +1211,7 @@
       "MAXIMUM_POSITION_SIZE": "Tamanho máximo da posição",
       "MID_MARKET": "Médio porte",
       "MODIFY_GOOD_TIL": "Modificar Bom Até",
+      "MODIFY_PRICE": "Modificar preço",
       "MODIFY_SIZE_FIELD": "Modificar valor",
       "MODIFY_TRAILING_PERCENT": "Modificar % de trailing",
       "MODIFY_TRIGGER_PRICE": "Modificar preço gatilho",
@@ -1320,6 +1334,7 @@
       "TRIGGER_PRICE": "Preço de disparo",
       "TRIGGERS": "Disparos",
       "UNDERCOLLATERALIZED": "Sem colateral",
+      "UNOPENED_ISOLATED_POSITIONS": "Posições isoladas não abertas",
       "UNREALIZED_PNL": "L&P não realizados",
       "UNTRIGGERED": "Não disparado",
       "UP_TO_X": "Até {LEVERAGE}x",
@@ -2042,6 +2057,12 @@
       "USER_MAX_ORDERS": "Muitas ordens abertas",
       "INVALID_GOOD_TIL": "Good Til inválido"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "Todos os preços inseridos devem ser positivos. Ajuste os preços que você inseriu."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Entrada de preço inválida"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Alerta do indexador",
       "INDEXER_DOWN": "Não foi possível obter a altura do bloco atual do Indexador.",
@@ -2113,7 +2134,6 @@
       "TRANSFERS_PAUSED_TITLE": "As transferências foram temporariamente interrompidas",
       "TRANSFERS_PAUSED_DESCRIPTION": "Tente novamente em {SECONDS} segundos.",
       "TRANSFERS_PAUSED_ACTION": "Transferências interrompidas"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Ao recuperar suas chaves, verifique sempre se está no site https:\/\/trade.dydx.exchange."

@@ -164,9 +164,18 @@
       "ISOLATED": "Isolé",
       "ISOLATED_MARGIN": "Marge isolée",
       "ISOLATED_MARGIN_DESCRIPTION": "Utiliser des garanties distinctes pour chaque position afin d'isoler le risque.",
+      "ISOLATED_MARKET": "Marché isolé",
       "KEEP_TRADING": "Continuer le trading",
       "LANGUAGE": "Langue",
       "LARGE_CAP": "Grande capitalisation",
+      "BIGGEST_MOVERS": "Les plus grands mouvements",
+      "RECENTLY_LISTED": "Récemment listé",
+      "GAINERS": "Gagnants",
+      "LOSERS": "Les perdants",
+      "EARNED_BY_STAKERS": "Gagné par Stakers",
+      "ADD_NEW_MARKET": "Ajouter un nouveau marché",
+      "NO_RECENTLY_LISTED_MARKETS": "Pas de marchés récemment répertoriés",
+      "HIGHLIGHTS": "Points forts",
       "LAYER_1": "Layer 1",
       "LAYER_2": "Couche 2",
       "LEARN_MORE": "En savoir plus",
@@ -245,6 +254,7 @@
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Récent",
       "RECOMMENDED": "Recommandé",
+      "RECONNECT_WALLET": "Reconnecter le portefeuille",
       "REFERRAL_CODE": "Code de référence",
       "REFERRALS": "Références",
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% de réduction",
@@ -714,6 +724,7 @@
       "WALLET_CONNECT": "WalletConnect",
       "WALLET_CONNECT_2": "WalletConnect",
       "TEST_WALLET": "Test Wallet",
+      "EMAIL_OR_SOCIAL": "Courriel ou social",
       "OTHER_WALLET": "Autre"
     },
     "ONBOARDING": {
@@ -1101,6 +1112,7 @@
     "TRADE": {
       "ADD_MARGIN": "Ajouter une marge",
       "ADD_TRIGGERS": "Ajouter des déclenchements",
+      "ADD_TP_OR_SL": "Ajouter TP | SL",
       "ADJUST_ISOLATED_MARGIN": "Ajuster la marge isolée",
       "ADJUST_TARGET_LEVERAGE": "Ajuster l'effet de levier cible",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "L'ajustement de l'effet de levier cible n'ajustera pas la marge tant qu'un nouvel ordre n'est pas placé. Pour plus d'informations sur l'effet de levier cible, voir {HERE}.",
@@ -1140,6 +1152,7 @@
       "CURRENTLY_TRADING_ROPSTEN": "Vous tradez sur notre application Ropsten testnet avec des fonds de test. Créez un compte sur notre application Mainnet pour commencer à trader avec des fonds réels",
       "DELEVERAGED": "Désendetté",
       "EDIT_STOP_LOSS": "Modifier l'arrêt de la perte",
+      "EDIT_TAKE_PROFIT": "Modifier le seuil de rentabilité",
       "ENTER_AMOUNT": "Entrez le montant",
       "ENTER_LIMIT_PRICE": "Introduire le prix limite",
       "ENTER_TRIGGER_PRICE": "Introduire le prix de déclenchement",
@@ -1198,6 +1211,7 @@
       "MAXIMUM_POSITION_SIZE": "Taille de la position maximale",
       "MID_MARKET": "Marché intermédiaire",
       "MODIFY_GOOD_TIL": "Modifier le bon Til",
+      "MODIFY_PRICE": "Modifier le prix",
       "MODIFY_SIZE_FIELD": "Modifier le montant",
       "MODIFY_TRAILING_PERCENT": "Modifier le pourcentage de suivi",
       "MODIFY_TRIGGER_PRICE": "Modifier le prix de déclenchement",
@@ -1320,6 +1334,7 @@
       "TRIGGER_PRICE": "Prix de déclenchement",
       "TRIGGERS": "Déclencheurs",
       "UNDERCOLLATERALIZED": "Sous garantie",
+      "UNOPENED_ISOLATED_POSITIONS": "Postes isolés non ouverts",
       "UNREALIZED_PNL": "P&L non réalisé",
       "UNTRIGGERED": "Non déclenché",
       "UP_TO_X": "Jusqu'à {LEVERAGE}×",
@@ -2042,6 +2057,12 @@
       "USER_MAX_ORDERS": "Trop d'ordres ouverts",
       "INVALID_GOOD_TIL": "Invalide Good Til"
     },
+    "TRIGGERS_FORM": {
+      "PRICE_MUST_POSITIVE": "Tous les prix d'entrée doivent être positifs. Veuillez ajuster vos prix d'entrée."
+    },
+    "TRIGGERS_FORM_TITLE": {
+      "PRICE_MUST_POSITIVE": "Entrée de prix invalide"
+    },
     "API_STATUS": {
       "INDEXER_ALERT": "Alerte d'indexeur",
       "INDEXER_DOWN": "Impossible d'obtenir la hauteur de bloc actuelle de l'indexeur.",
@@ -2113,7 +2134,6 @@
       "TRANSFERS_PAUSED_TITLE": "Les transferts sont suspendus",
       "TRANSFERS_PAUSED_DESCRIPTION": "Veuillez réessayer dans {SECONDS} secondes.",
       "TRANSFERS_PAUSED_ACTION": "Transferts suspendus"
-
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Vérifiez toujours que vous êtes sur https:\/\/trade.dydx.exchange lors de la récupération de vos clés."

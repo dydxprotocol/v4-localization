@@ -279,6 +279,12 @@
       "BODY": "Bu, fon yatırma işleminin Ethereum madencilerine ödenen gaz maliyetidir."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Eşit Olmayan Emir Boyutları",
+      "BODY": "Kâr al ve zararı durdur emirleriniz farklı emir boyutlarına sahiptir. Emir boyutunda düzenleme yapmak için lütfen emirleri iptal edip yeniden oluşturun."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",

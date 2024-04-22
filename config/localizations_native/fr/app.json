@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfert envoyé",
       "COMPLETED_TEXT": "Votre transfert de {AMOUNT_ELEMENT}{TOKEN}a été soumis"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Signaler un problème",
+      "LOADING_TITLE": "Chargement des dossiers du journal...",
+      "LOADING_COMPLETED_TITLE": "Journal créé",
+      "LOADING_ERROR_TITLE": "Impossible de créer le journal",
+      "EMAIL_SUBJECT": "Signaler un problème",
+      "EMAIL_BODY": "Veuillez décrire le problème auquel vous faites face :",
+      "CHOOSER_TITLE": "Envoyer le journal d'application"
     }
   },
   "RATE_APP": {
