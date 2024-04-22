@@ -968,7 +968,8 @@
       "ORDERBOOK_ANIMATIONS": "订单簿动画",
       "PROFILE_SHARE_USERNAME": "显示我的用户名",
       "PROFILE_SHARE_ADDRESS": "显示我的钱包地址",
-      "SAVE_ORDER_AMOUNT": "存单金额"
+      "SAVE_ORDER_AMOUNT": "存单金额",
+      "TAKE_PROFIT_STOP_LOSS": "止盈\/止损"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "使用我们的API进行交易",
@@ -1423,9 +1424,13 @@
       "BLOCK_REWARD": "区块奖励",
       "CHAIN_DISRUPTION_DETECTED": "检测到链中断",
       "CHAIN_DISRUPTION_DETECTED_BODY": "由于dYdX链中断，订单可能失败或被延迟，交易和转让将被禁用。请等待并稍后重试。您的资金是安全的。",
+      "CLICK_TO_VIEW": "单击查看",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
       "COMPLIANCE_ALERT": "合规警告",
+      "COMPLIANCE_WARNING": "合规警告",
+      "CREATED": "已创建",
+      "CREATING": "创建",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "您的{AMOUNT_ELEMENT}充值将在14次确认后可用。",
       "DEPOSIT_IN_PROGRESS": "正在充值",
       "DEPOSIT_SUCCESS_DESCRIPTION": "您的{AMOUNT_ELEMENT}存款已被确认，现在可进行交易。",
@@ -1436,6 +1441,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "启用推送通知",
       "EPOCH_REWARDS": "时段{EPOCH_NUMBER}奖励",
       "EPOCH_REWARDS_BODY": "在时段{EPOCH_NUMBER}期间，您获得了{DYDX}$DYDX的奖励！",
+      "ERROR": "错误",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "您{AMOUNT_ELEMENT}的快速提现正在等待Layer 1确认。",
       "FAST_WITHDRAW_PENDING": "快速提现正等待处理",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "您{AMOUNT_ELEMENT}的快速提现已经得到确认。",
@@ -1454,6 +1460,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且先前曾有机会纠正导致您账户受限的情况，因此，您被永久禁止在协议内进行转账，以快速提现的方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。您可以随时从协议提取资金。",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "出于合规性原因，您被禁止使用 dYdX 协议。",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "出于合规性原因，您已被禁止使用dYdX协议。该帐户处于仅平仓模式。如果您认为有错误，请发送电子邮件至support@dydx.exchange。",
+      "REMOVED": "已移除",
+      "REMOVING": "删除",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "您的正常提现请求已被确认。{AMOUNT_ELEMENT}可用于提现。",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "预估交易费{GAS_ESTIMATE}。",
       "SLOW_WITHDRAW_AVAILABLE": "正常提现就绪",
@@ -1471,7 +1479,9 @@
         "WITHDRAW_IN_PROGRESS": "提现正在进行中...",
         "WITHDRAW_TO_CHAIN": "提现至 {CHAIN}"
       },
-      "TRADING_REWARD_RECEIVED": "已收到的交易奖励"
+      "TRADING_REWARD_RECEIVED": "已收到的交易奖励",
+      "UPDATED": "已更新",
+      "UPDATING": "更新"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "存款、提款、账户更新",
@@ -1533,15 +1543,16 @@
       "HEDGIES_NFT": "Hedgies NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且先前曾有机会纠正导致您账户受限的情况，因此，您必须确认（1）您的居留国和（2）交易地点。\n如果您不在被标记为违反我们使用条款的 24 小时内完成确认，那么，出于合规目的，您将被禁止在协议内进行转账，以快速提现方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且未按我们的要求完成居留国和交易地点确认，因此，您被禁止在协议内进行转账，以快速提现的方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "如果您希望解除限制，请确认（1）您的居留国和（2）交易地点。如果您完成确认，并且账户解除了限制，请注意，未来任何违反我们使用条款的行为都会导致立即受限，而我们不再解除限制，但您始终可以提现资金。",
+      "COMPLIANCE_BODY": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "如果您希望解除限制，请确认（1）您的居留国和（2）交易地点。如果您完成确认，并且账户解除了限制，请注意，未来任何违反我们使用条款的行为都会导致立即受限，届时我们将不再解除限制，但您始终可以提现资金。",
       "COMPLIANCE_REQUEST": "合规请求",
       "CONTINUE": "继续",
       "COUNTRY_OF_RESIDENCE": "居留国",
       "SUBMIT": "提交",
       "TRADING_LOCATION": "交易地点",
-      "TYPE_TO_SEARCH": "键入以查询"
+      "TYPE_TO_SEARCH": "键入以查询",
+      "SELECT_A_COUNTRY": "选择国家"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "地址",
@@ -1861,6 +1872,11 @@
       "SUBMITTED_PROPOSAL": "提交提议！",
       "SUGGEST_NEW_MARKET": "提议设立新市场",
       "VIEW_PROPOSAL": "查看提议"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
+      "PERMANENTLY_BLOCKED_MESSAGE": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
+      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 在我们的《使用条款》{LINK}中可以找到更多详情。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2058,10 +2074,28 @@
       "INVALID_GOOD_TIL": "有效期无效"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "所有输入价格都必须为正值。 请调整您的输入价格。"
+      "LOSS_COLON": "损失：",
+      "PRICE_MUST_POSITIVE": "所有输入价格都必须为正值。 请调整您的输入价格。",
+      "PROFIT_COLON": "利润：",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "您的止损限价必须高于触发价格，此订单才会在触发时成交。请调整您的限价。",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "您的止损限价必须低于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的止损触发价格必须超过当前预言机价格：{INDEX_PRICE}。",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "您的止损触发价格必须低于当前预言机价格：{INDEX_PRICE}。",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "您的止盈限价必须高于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "您的止盈限价必须低于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的止盈触发价格必须超过当前预言机价格：{INDEX_PRICE}。",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "您的止盈触发价格必须低于当前预言机价格：{INDEX_PRICE}。"
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "无效的价格输入"
+      "PRICE_MUST_POSITIVE": "无效的价格输入",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "无效的止损限价",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "无效的止损限价",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "无效的止损触发价格",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "无效的止损触发价格",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "无效的止盈限价",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "无效的止盈限价",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "无效的止盈触发价格",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "无效的止盈触发价格"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer 警告",
