@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transferencia enviada",
       "COMPLETED_TEXT": "Tu transferencia de {AMOUNT_ELEMENT} {TOKEN} se ha enviado"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Denunciar problema",
+      "LOADING_TITLE": "Cargando archivos de registro…",
+      "LOADING_COMPLETED_TITLE": "Archivo de registro creado",
+      "LOADING_ERROR_TITLE": "No se pudo crear el archivo de registro",
+      "EMAIL_SUBJECT": "Informe del problema",
+      "EMAIL_BODY": "Describe el problema que tienes:",
+      "CHOOSER_TITLE": "Enviar registro de la aplicación"
     }
   },
   "RATE_APP": {

@@ -279,6 +279,12 @@
       "BODY": "Este es el costo de gas de la transacción del depósito, que se paga a mineros de Ethereum."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Tamaños de orden desiguales",
+      "BODY": "Tus órdenes de toma de ganancias y de stop loss tienen diferentes tamaños de orden. Para realizar ediciones en el tamaño de la orden, cancela y vuelve a hacer las órdenes."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Tasa de retiro rápido",
