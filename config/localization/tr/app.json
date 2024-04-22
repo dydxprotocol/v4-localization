@@ -1155,7 +1155,7 @@
       "ENTER_TIME_IN_FORCE": "Yürürlükteki süreyi girin",
       "ENTER_GOOD_UNTIL": "Geçerlilik tarihini girin",
       "ENTER_EXECUTION": "Yürütmeyi girin",
-      "ENTRY_PRICE_SHORT": "Giriş",
+      "ENTRY_PRICE_SHORT": "Girdisini",
       "EXECUTION": "Yürütme",
       "EXPECTED_PRICE": "Beklenen Fiyat",
       "EXPIRED": "Vadesi Dolan",
@@ -1661,7 +1661,7 @@
       "CASH": "Nakit",
       "COPY": "Kopyala ve Paylaş",
       "DOWNLOAD": "İndir",
-      "ENTRY": "Giriş",
+      "ENTRY": "Girdisini",
       "I_WON": "Kazandım",
       "IN": ":",
       "INDEX": "Oracle",
@@ -2111,7 +2111,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "Lütfen daha küçük bir miktar girin. dYdX Zinciri'nden maksimum çekme limiti şu anda {USDC_LIMIT} düzeyindedir."
+      "WITHDRAWAL_LIMIT_OVER": "Lütfen daha küçük bir miktar girin. dYdX Zinciri'nden maksimum çekme limiti şu anda {USDC_LIMIT} düzeyindedir.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "Lütfen daha küçük bir miktar girin",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "dYdX Zinciri'nden maksimum çekme limiti şu anda {USDC_LIMIT} düzeyindedir.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "Miktarı değiştir",
+      "WITHDRAWAL_PAUSED_TITLE": "Çekme işlemleri duraklatıldı",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "Lütfen {SECONDS} saniye içinde tekrar deneyin.",
+      "WITHDRAWAL_PAUSED_ACTION": "Durdurulan çekme işlemleri",
+      "TRANSFERS_PAUSED_TITLE": "Transferler duraklatıldı",
+      "TRANSFERS_PAUSED_DESCRIPTION": "Lütfen {SECONDS} saniye içinde tekrar deneyin.",
+      "TRANSFERS_PAUSED_ACTION": "Durdurulan transferler"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Anahtarlarınızı kurtarırken daima https:\/\/trade.dydx.exchange üzerinde olduğunuzu kontrol edin ve doğrulayın."

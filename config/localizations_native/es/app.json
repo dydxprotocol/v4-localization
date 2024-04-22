@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "El balance de la billetera es insuficiente para cubrir la tarifa de gas",
       "NO_GAS_BODY": "Primero haz un pequeño depósito en tu cuenta dYdX para recargar la billetera.",
       "THEME": "Tema",
+      "NOTIFICATIONS": "Notificaciones",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Mostrar notificaciones en la aplicación",
       "DIRECTION_COLOR_PREFERENCE": "Preferencia de color",
       "DARK": "Oscuro",
       "CLASSIC_DARK": "Oscuro Clásico",

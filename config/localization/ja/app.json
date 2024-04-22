@@ -2111,7 +2111,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "より少ない金額をご入力ください。現在のdYdXチェーンからの最大出金制限は、{USDC_LIMIT}です。"
+      "WITHDRAWAL_LIMIT_OVER": "より少ない金額をご入力ください。現在のdYdXチェーンからの最大出金制限は、{USDC_LIMIT}です。",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "より少ない金額を入力してください",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "現在のdYdXチェーンからの最大出金制限は、{USDC_LIMIT}です。",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "金額を修正する",
+      "WITHDRAWAL_PAUSED_TITLE": "出金は一時停止されています",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "{SECONDS}秒後にもう一度お試しください。",
+      "WITHDRAWAL_PAUSED_ACTION": "出金は一時停止されています",
+      "TRANSFERS_PAUSED_TITLE": "転送は一時停止されています",
+      "TRANSFERS_PAUSED_DESCRIPTION": "{SECONDS}秒後にもう一度お試しください。",
+      "TRANSFERS_PAUSED_ACTION": "転送は一時停止されています"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "キーを再作成する場合は、 https:\/\/trade.dydx.exchange にアクセスしていることを常に確認、検証してください。"

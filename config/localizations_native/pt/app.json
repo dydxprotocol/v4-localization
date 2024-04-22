@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "Saldo insuficiente da carteira para cobrir a taxa de gás",
       "NO_GAS_BODY": "Primeiro, faça um pequeno depósito em sua conta dYdX para recarregar a carteira.",
       "THEME": "Tema",
+      "NOTIFICATIONS": "Notificações",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Exibir notificações no aplicativo",
       "DIRECTION_COLOR_PREFERENCE": "Preferência de cor",
       "DARK": "Escuro",
       "CLASSIC_DARK": "Escuro clássico",

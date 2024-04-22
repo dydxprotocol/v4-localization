@@ -2111,7 +2111,17 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "Insira um valor menor. O limite máximo de saque da chain dYdX atualmente é {USDC_LIMIT}."
+      "WITHDRAWAL_LIMIT_OVER": "Insira um valor menor. O limite máximo de saque da chain dYdX atualmente é {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "Insira um valor menor.",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "O limite máximo de saque da chain dYdX atualmente é {USDC_LIMIT}.",
+      "WITHDRAWAL_LIMIT_OVER_ACTION": "Modificar valor",
+      "WITHDRAWAL_PAUSED_TITLE": "Os saques foram temporariamente interrompidos",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "Tente novamente em {SECONDS} segundos.",
+      "WITHDRAWAL_PAUSED_ACTION": "Saques interrompidos",
+      "TRANSFERS_PAUSED_TITLE": "As transferências foram temporariamente interrompidas",
+      "TRANSFERS_PAUSED_DESCRIPTION": "Tente novamente em {SECONDS} segundos.",
+      "TRANSFERS_PAUSED_ACTION": "Transferências interrompidas"
+
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Ao recuperar suas chaves, verifique sempre se está no site https:\/\/trade.dydx.exchange."

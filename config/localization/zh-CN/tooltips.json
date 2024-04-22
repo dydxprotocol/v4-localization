@@ -279,6 +279,12 @@
       "BODY": "这是存款交易的 gas 成本，支付给以太坊矿工。"
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "不均等订单大小",
+      "BODY": "您的止盈和止损订单具有不同的订单大小。 要对订单大小进行编辑，请取消并重新进行订单。"
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "快速提现费",

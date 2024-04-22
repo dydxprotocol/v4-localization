@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "Gaz ücretini karşılamak için yetersiz cüzdan bakiyesi",
       "NO_GAS_BODY": "Lütfen cüzdanınızı doldurmak için önce dYdX hesabınıza küçük bir miktar para yatırın.",
       "THEME": "Tema",
+      "NOTIFICATIONS": "Bildirimler",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Uygulama İçi Bildirimleri Görüntüle",
       "DIRECTION_COLOR_PREFERENCE": "Renk Tercihi",
       "DARK": "Koyu",
       "CLASSIC_DARK": "Klasik Koyu",

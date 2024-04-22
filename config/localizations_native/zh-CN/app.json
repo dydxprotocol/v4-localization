@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "已提交转账",
       "COMPLETED_TEXT": "您已提交 {AMOUNT_ELEMENT} {TOKEN} 转账"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "报告问题",
+      "LOADING_TITLE": "加载日志文件......",
+      "LOADING_COMPLETED_TITLE": "已创建日志文件",
+      "LOADING_ERROR_TITLE": "创建日志文件失败",
+      "EMAIL_SUBJECT": "问题报告",
+      "EMAIL_BODY": "请描述您面对的问题：",
+      "CHOOSER_TITLE": "发送应用程序日志"
     }
   },
   "RATE_APP": {

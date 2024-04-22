@@ -359,6 +359,8 @@
       "NO_GAS_TITLE": "Solde du portefeuille insuffisant pour couvrir les frais de transaction",
       "NO_GAS_BODY": "Veuillez d'abord effectuer un petit dépôt sur votre compte dYdX pour recharger votre portefeuille",
       "THEME": "Thème",
+      "NOTIFICATIONS": "Notifications",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Afficher les notifications intégrées à l'application",
       "DIRECTION_COLOR_PREFERENCE": "Préférence de couleur",
       "DARK": "Sombre",
       "CLASSIC_DARK": "Sombre classique",

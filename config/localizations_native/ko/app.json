@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "송금됨",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} 송금이 제출되었습니다"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "문제 보고서",
+      "LOADING_TITLE": "로그 파일 로드 중...",
+      "LOADING_COMPLETED_TITLE": "로그 파일이 생성됨",
+      "LOADING_ERROR_TITLE": "로그 파일을 만들지 못했습니다",
+      "EMAIL_SUBJECT": "문제 보고서",
+      "EMAIL_BODY": "직면한 문제를 설명해 주십시오.",
+      "CHOOSER_TITLE": "앱 로그 보내기"
     }
   },
   "RATE_APP": {
