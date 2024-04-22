@@ -279,6 +279,12 @@
       "BODY": "Il s'agit du coût du gaz de la transaction de dépôt, payé aux mineurs d'Ethereum."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Tailles d'ordres inégales",
+      "BODY": "Vos ordres de prise de bénéfice et d'arrêt de perte ont des tailles d'ordre différentes. Pour apporter des modifications à la taille de l'ordre, veuillez annuler et refaire les ordres."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Frais de retrait rapide",
