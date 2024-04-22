@@ -398,6 +398,15 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer gönderildi",
       "COMPLETED_TEXT": "{AMOUNT_ELEMENT} {TOKEN} tutarındaki transferiniz gönderildi"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Sorunu Rapor Et",
+      "LOADING_TITLE": "Kayıt dosyaları yükleniyor...",
+      "LOADING_COMPLETED_TITLE": "Kayıt dosyası oluşturuldu",
+      "LOADING_ERROR_TITLE": "Kayıt dosyası oluşturulma başarısız oldu",
+      "EMAIL_SUBJECT": "Sorun Raporu",
+      "EMAIL_BODY": "Lütfen karşılaştığınız sorunu açıklayın:",
+      "CHOOSER_TITLE": "Uygulama Kaydı Gönder"
     }
   },
   "RATE_APP": {
