@@ -968,7 +968,8 @@
       "ORDERBOOK_ANIMATIONS": "오더북 애니메이션",
       "PROFILE_SHARE_USERNAME": "사용자 이름 보기",
       "PROFILE_SHARE_ADDRESS": "지갑 주소 보기",
-      "SAVE_ORDER_AMOUNT": "주문 금액을 저장하세요"
+      "SAVE_ORDER_AMOUNT": "주문 금액을 저장하세요",
+      "TAKE_PROFIT_STOP_LOSS": "수익 실현 \/ 손절매"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "dYdX의 API",
@@ -1423,9 +1424,13 @@
       "BLOCK_REWARD": "블록 보상",
       "CHAIN_DISRUPTION_DETECTED": "체인 중단 감지됨",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX 체인 중단으로 인해 주문이 실패하거나 지연될 수 있으므로 거래 및 이전이 비활성화됩니다. 기다린 후 나중에 다시 시도하십시오. 여러분의 자금은 안전합니다.",
+      "CLICK_TO_VIEW": "클릭하여 보기",
       "CLOSE_MARKET_POSITIONS": "{MARKET} 포지션 청산",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}은(는) 청산 가격 전용 모드로 설정되었으며, {MARKET}의 청산 가격은 현재 고정되었습니다. 열려 있는 {MARKET}포지션을 가능한 한 빨리 종료하십시오. 문제가 발생할 경우, 채팅 상담을 통해 도움을 받으실 수 있습니다.",
       "COMPLIANCE_ALERT": "규정 준수 경고",
+      "COMPLIANCE_WARNING": "준수 경고",
+      "CREATED": "생성됨",
+      "CREATING": "생성 중",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "14회의 승인 이후 {AMOUNT_ELEMENT} 입금이 가능합니다.",
       "DEPOSIT_IN_PROGRESS": "입금 처리 중",
       "DEPOSIT_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT}의 입금이 승인되었으며 지금부터 트레이딩이 가능합니다.",
@@ -1436,6 +1441,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "푸시 알림 사용",
       "EPOCH_REWARDS": "{EPOCH_NUMBER}에폭 보상",
       "EPOCH_REWARDS_BODY": "{EPOCH_NUMBER}에폭 중 {DYDX}DYDX의 보상을 받았습니다.",
+      "ERROR": "오류",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "{AMOUNT_ELEMENT}의 빠른 인출이 계층 1에서 확인 대기 중입니다.",
       "FAST_WITHDRAW_PENDING": "빠른 인출 대기 중",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT}의 빠른 인출이 확인되었습니다.",
@@ -1454,6 +1460,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "귀하는 당사 이용 약관을 위반하는 관할권의 거주자 또는 해당 관할권에서 거래 중인 것으로 보이며 사전에 계정의 제한으로 이어진 상황을 바로잡을 기회가 주워졌기 때문에 프로토콜 내에서의 전송 수행, 프로토콜로부터 자금을 빼내기 위한 빠른 인출 수행 및 포지션을 줄이는 시장 주문 이외의 주문 배치를 영구적으로 이용할 수 없습니다. 해당 프로토콜에서 자금은 인출할 수 있습니다.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "규정 준수 이유로 귀하의 dYdX 프로토콜 사용이 차단되었습니다.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "규정 준수 이유로 인하여 귀하는 dYdX 프로토콜에서 차단되었습니다. 이 계정은 청산 전용 모드입니다. 오류가 있었다고 생각되시면 support@dydx.exchange에 이메일로 문의하십시오.",
+      "REMOVED": "제거됨",
+      "REMOVING": "제거",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "느린 출금 요청이 승인되었습니다. {AMOUNT_ELEMENT}의 출금이 가능합니다.",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "예상 거래 수수료는 {GAS_ESTIMATE}입니다.",
       "SLOW_WITHDRAW_AVAILABLE": "느린 출금 준비됨",
@@ -1471,7 +1479,9 @@
         "WITHDRAW_IN_PROGRESS": "인출 진행 중...",
         "WITHDRAW_TO_CHAIN": "{CHAIN}으로 인출"
       },
-      "TRADING_REWARD_RECEIVED": "거래 보상 수령"
+      "TRADING_REWARD_RECEIVED": "거래 보상 수령",
+      "UPDATED": "업데이트됨",
+      "UPDATING": "업데이트 중"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "예금, 인출, 계정 업데이트",
@@ -1533,15 +1543,16 @@
       "HEDGIES_NFT": "Hedgies NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "귀하는 당사 이용 약관을 위반하는 관할권의 거주자 또는 해당 관할권에서 거래 중인 것으로 보이므로 (1)거주 중인 국가 (2)거래 중인 위치를 확인해 주셔야 합니다. 당사 이용 약관 위반으로 신고된 지 24시간 이내에 확인을 완료하지 않을 경우, 규정 준수 목적으로 귀하는 프로토콜 내에서의 전송 수행, 프로토콜에서 자금을 빼내기 위한 빠른 출금 수행 및 포지션 감소를 위한 시장 주문 이외의 주문 배치의 이용이 정지될 예정입니다.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "귀하는 당사 이용 약관을 위반하는 관할권의 거주자 또는 해당 관할권에서 거래 중인 것으로 보이며 아직 거주 중인 국가 및 거래 중인 위치에 대한 당사의 요청에 대한 확인을 완료하지 않았기 때문에 프로토콜 내에서의 전송 수행, 프로토콜에서 자금을 빼내기 위한 빠른 출금 수행 및 포지션 감소를 위한 시장 주문 이외의 주문 배치의 이용이 정지되었습니다.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "정지를 해제하고 싶다면 (1)거주 중인 국가 및 (2)거래 중인 위치를 확인해 주시기 바랍니다. 확인을 완료하고 계정 정지가 해제되더라도 추후 이용 약관의 위반 시에는 정지 해제 없는 즉각적인 정지 조치가 이루어질 수 있으며, 정지 조치가 이뤄지더라도 귀하의 자금은 항상 출금할 수 있습니다.",
+      "COMPLIANCE_BODY": "지금 계시는 곳, 혹은 거래 중인 곳이 이용 약관을 위반하는 관할 구역이거나, 거래 중인 거주 국가와 위치를 확인하지 않았기 때문에 포지션을 줄이는 시장 주문 이외의 주문은 차단되었습니다.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "지금 계시는 곳, 혹은 거래 중인 곳이 이용 약관을 위반하는 관할 구역이거나, 거래 중인 거주 국가와 위치를 확인하지 않았기 때문에 포지션을 줄이는 시장 주문 이외의 주문은 차단되었습니다.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "정지를 해제하고 싶다면 (1)거주 중인 국가 및 (2)거래 중인 위치를 확인해 주시기 바랍니다. 확인을 완료하여 계정 차단이 해제된 경우라도, 향후 이용 약관을 위반할 경우에는 프로토콜에서 영구 차단으로 이어지게 됩니다. 다만 자금은 언제나 인출할 수 있습니다.",
       "COMPLIANCE_REQUEST": "규정 준수 요청",
       "CONTINUE": "계속하기",
       "COUNTRY_OF_RESIDENCE": "거주 국가",
       "SUBMIT": "제출하기",
       "TRADING_LOCATION": "거래 위치",
-      "TYPE_TO_SEARCH": "검색 유형"
+      "TYPE_TO_SEARCH": "검색 유형",
+      "SELECT_A_COUNTRY": "국가를 선택하세요"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "주소",
@@ -1861,6 +1872,11 @@
       "SUBMITTED_PROPOSAL": "제출된 제안!",
       "SUGGEST_NEW_MARKET": "새 시장 제안",
       "VIEW_PROPOSAL": "제안 보기"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 자금을 {DATE}인출할 때까지 있어야 합니다. 오류가 있었다고 생각되시면 {EMAIL} 이메일로 문의하십시오.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있었다고 생각되시면 {EMAIL} 이메일로 문의하십시오.",
+      "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {LINK} 사용 약관에서 확인할 수 있습니다."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2058,10 +2074,28 @@
       "INVALID_GOOD_TIL": "잘못된 유효 주문"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "모든 입력 가격은 양수여야 합니다. 입력 가격을 조정하십시오."
+      "LOSS_COLON": "손실:",
+      "PRICE_MUST_POSITIVE": "모든 입력 가격은 양수여야 합니다. 입력 가격을 조정하십시오.",
+      "PROFIT_COLON": "이익:",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "발동 시에 거래가 실행되려면 해당 주문에 대한 귀하의 손절매 지정가는 발동 가격보다 높아야만 합니다. 제한 가격을 조정하십시오.",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "주문이 트리거될 때 채우려면 손절매 한도 가격이 이 주문의 트리거 가격보다 낮아야 합니다. 제한 가격을 조정하십시오.",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "트리거 가격은 현재 오라클 가격 {INDEX_PRICE}보다 높아야 합니다. ",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "발동 가격은 현재 오라클 가격인 {INDEX_PRICE}보다 낮아야 합니다. ",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "트리거될 때 채우려면 이익 실현 제한 가격이 이 주문에 대한 트리거 가격보다 높아야 합니다. 제한 가격을 조정하십시오.",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "주문이 트리거될 때 채우려면 이익 환수 한도 가격이 이 주문의 트리거 가격보다 낮아야 합니다. 제한 가격을 조정하십시오.",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "이익 환수 트리거 가격은 현재 오라클 가격 {INDEX_PRICE}보다 높아야 합니다. ",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "이익 환수 발동 가격은 현재 지수 가격인 {INDEX_PRICE}보다 낮아야 합니다."
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "잘못된 가격 입력"
+      "PRICE_MUST_POSITIVE": "잘못된 가격 입력",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "잘못된 손절매 한도 가격",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "잘못된 손절매 한도 가격",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "잘못된 손절매 트리거 가격",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "잘못된 손절매 트리거 가격",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "잘못된 이익 실현 제한 가격",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "잘못된 이익 실현 제한 가격",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "잘못된 이익 실현 트리거 가격",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "잘못된 이익 실현 트리거 가격"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "인덱서 경고",
