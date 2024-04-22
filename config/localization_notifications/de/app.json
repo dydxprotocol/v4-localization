@@ -67,6 +67,78 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "Verzögerte Auszahlung erfolgreich",
       "BODY": "Ihre Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser wird unter {NEW_VALUE}erstellt."
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {NEW_VALUE}konnte nicht erstellt werden."
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {NEW_VALUE}wurde erstellt."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser wird unter {NEW_VALUE}erstellt."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {NEW_VALUE}konnte nicht erstellt werden."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {NEW_VALUE}wurde erstellt."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser wird aktualisiert auf {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {OLD_VALUE}konnte nicht ersetzt werden."
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser wird jetzt bei {NEW_VALUE}ausgelöst."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser wird aktualisiert auf {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}konnte nicht ersetzt werden."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser wird jetzt bei {NEW_VALUE}ausgelöst."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {OLD_VALUE}wird entfernt."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {OLD_VALUE}konnte nicht storniert werden."
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Ihr Stop-Loss-Auslöser bei  {OLD_VALUE}wurde entfernt."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wird entfernt."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}konnte nicht storniert werden."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "Take Profit",
+      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wurde entfernt."
     }
   }
 }
