@@ -67,6 +67,78 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "Retiro lento exitoso",
       "BODY": "Tu retiro de  {AMOUNT}{ASSET}ha sido confirmado."
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Tu stop loss trigger se está creando en {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo crear tu stop loss trigger en {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se creó tu stop loss trigger en {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Se está creando tu take profit trigger en {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "No se pudo crear tu take profit trigger en {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Se creó tu take profit trigger en {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se actualizó tu stop loss trigger en {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo reemplazar tu stop loss trigger en {OLD_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo activar tu stop loss trigger en {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Se está actualizando tu stop loss trigger en {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "No se pudo reemplazar tu take profit trigger en {OLD_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Tu take profit trigger ahora se activará en {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se está eliminando tu take profit trigger en {OLD_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo cancelar tu stop loss trigger en {OLD_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se eliminó tu stop loss trigger en {OLD_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Se está eliminando tu take profit trigger en {OLD_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "No se pudo cancelar tu take profit trigger en {OLD_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "Tomar ganancias",
+      "BODY": "Se eliminó tu take profit trigger en {OLD_VALUE}."
     }
   }
 }
