@@ -168,14 +168,6 @@
       "KEEP_TRADING": "İşlem yapmaya devam et",
       "LANGUAGE": "Dil",
       "LARGE_CAP": "Büyük sermayeli",
-      "BIGGEST_MOVERS": "En Büyük Taşıyıcılar",
-      "RECENTLY_LISTED": "Yakın Zamanda Listelendi",
-      "GAINERS": "Kazananlar",
-      "LOSERS": "Kaybedenler",
-      "EARNED_BY_STAKERS": "Stakerlar tarafından kazanıldı",
-      "ADD_NEW_MARKET": "Yeni pazar ekleyin",
-      "NO_RECENTLY_LISTED_MARKETS": "Yakın zamanda listelenen pazar yok",
-      "HIGHLIGHTS": "Önemli Noktalar",
       "LAYER_1": "1.Katman",
       "LAYER_2": "Katman 2",
       "LEARN_MORE": "Daha fazla bilgi",
@@ -185,7 +177,7 @@
       "LEVERAGE": "Kaldıraç",
       "LIVE": "Canlı",
       "LONG_POSITION_SHORT": "Uzun",
-      "LONG_TAIL": "Uzun süreli",
+      "LONG_TAIL": "Uzun kuyruklular",
       "MAINTENANCE_MARGIN_FRACTION": "Devam Marj Oranı",
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "DMO",
       "MAKE_ONE_TRADE": "1 işlem yap",
@@ -968,10 +960,11 @@
       "ORDERBOOK_ANIMATIONS": "Talimat defteri animasyonları",
       "PROFILE_SHARE_USERNAME": "Kullanıcı adımı göster",
       "PROFILE_SHARE_ADDRESS": "Cüzdan adresimi göster",
-      "SAVE_ORDER_AMOUNT": "Teklif miktarını kaydet"
+      "SAVE_ORDER_AMOUNT": "Teklif miktarını kaydet",
+      "TAKE_PROFIT_STOP_LOSS": "Kâr Alma \/ Zarar Durdurma"
     },
     "MORE_LINKS_MODAL": {
-      "DOCUMENTATION_DESCRIPTION": "API ile alım satım yapın",
+      "DOCUMENTATION_DESCRIPTION": "API ile trade yapın",
       "COMMUNITY_DESCRIPTION": "Diğer yatırımcılarla sohbet edin",
       "TERMS_OF_USE_DESCRIPTION": "Platformu kullanma kuralları",
       "PRIVACY_POLICY_DESCRIPTION": "Veri hakkındaki politikalarımız",
@@ -1423,9 +1416,13 @@
       "BLOCK_REWARD": "Blok Ödülü",
       "CHAIN_DISRUPTION_DETECTED": "Zincirde aksama tespit edildi",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX Zincirindeki bir aksama nedeniyle talimatlar başarısız olabileceği veya gecikebileceği için alım satım ve aktarım devre dışı bırakılır. Lütfen bekleyin ve daha sonra tekrar deneyin. Fonlarınız güvende.",
+      "CLICK_TO_VIEW": "Görüntülemek için tıklayın",
       "CLOSE_MARKET_POSITIONS": "{MARKET} pozisyonunuzu kapatın",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} sadece kapanış moduna ayarlanmıştır ve {MARKET} kapanış fiyatı artık sabitlenmiştir. Lütfen mümkün olan en kısa sürede açık {MARKET} pozisyonunuzu kapatın. Bir sorun ile karşılaşırsanız canlı destek aracılığıyla bize ulaşabilirsiniz. ",
       "COMPLIANCE_ALERT": "Uyum uyarısı",
+      "COMPLIANCE_WARNING": "Uyumluluk Uyarısı",
+      "CREATED": "Oluşturuldu",
+      "CREATING": "Oluşturuluyor",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "{AMOUNT_ELEMENT} yatırma işleminiz 14 onaydan sonra kullanıma sunulacaktır.",
       "DEPOSIT_IN_PROGRESS": "Yatırma işlemi devam ediyor",
       "DEPOSIT_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT} yatırma işleminiz onaylandı ve yatırım için artık kullanılabilir.",
@@ -1436,6 +1433,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "Anlık Bildirimleri Etkinleştir",
       "EPOCH_REWARDS": "{EPOCH_NUMBER}. Dönem Ödülleri",
       "EPOCH_REWARDS_BODY": "{EPOCH_NUMBER}. Dönem boyunca {DYDX} $DYDX ödülü kazandınız!",
+      "ERROR": "Hata",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "{AMOUNT_ELEMENT} için hızlı çekme işleminiz Katman 1 üzerinde onay bekliyor.",
       "FAST_WITHDRAW_PENDING": "Hızlı çekme bekleniyor",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT} için hızlı çekme işleminiz onaylandı.",
@@ -1454,6 +1452,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Kullanım şartlarımızı ihlal eden bir bölgede ikamet ettiğiniz veya böyle bir bölgeden yatırım işlemi yaptığınız ve daha önce hesabınızda kısıtlamalara yol açan durumları düzeltmek için size fırsat tanındığı tespit edilmiştir. Hesabınızla protokol içinde aktarım yapmanız, protokol dışına fon çıkarmak için hızlı çekme işlemi yapmanız ve pozisyonlarınızı azaltan piyasa talimatları dışında talimat vermeniz kalıcı olarak engellenmiştir. Fonlarınızı protokolden istediğiniz zaman çekebilirsiniz.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "Uygunluk nedenleriyle dYdX protokolünü kullanımınız engellendi.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "Uygunluk gereğince dYdX protokolünü kullanımınız engellenmiştir. Bu hesap sadece kapanış modundadır. Bir hata olduğunu düşünüyorsanız, lütfen support@dydx.exchange adresine bir e-posta gönderin.",
+      "REMOVED": "Kaldırıldı",
+      "REMOVING": "Kaldırma",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "Yavaş çekme talebiniz veya talepleriniz onaylandı. {AMOUNT_ELEMENT} öğesi çekme için kullanılabilir.",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "Tahmini işlem ücreti {GAS_ESTIMATE}.",
       "SLOW_WITHDRAW_AVAILABLE": "Yavaş çekme işlemi hazır",
@@ -1471,7 +1471,9 @@
         "WITHDRAW_IN_PROGRESS": "Çekme işlem(ler)i devam ediyor...",
         "WITHDRAW_TO_CHAIN": "{CHAIN} zincirine çek"
       },
-      "TRADING_REWARD_RECEIVED": "Alınan Alım Satım Ödülü"
+      "TRADING_REWARD_RECEIVED": "Alınan Alım Satım Ödülü",
+      "UPDATED": "Güncellendi",
+      "UPDATING": "Güncelleniyor"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Yatırma, Çekme, Hesap güncellemeleri",
@@ -1533,15 +1535,16 @@
       "HEDGIES_NFT": "Hedgie Ödülleri NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "Kullanım şartlarımızı ihlal eden bir bölgede ikamet ettiğiniz veya yatırım talebi gönderdiğiniz tespit edildiği için, (1) ikamet ettiğiniz ülkeyi ve (2) yatırım işlemi gönderirken bulunduğunuz konumu teyit etmeniz gerekmektedir. Kullanım şartlarımızı ihlal ediyor olarak işaretlendikten sonraki 24 saat içinde onay işlemini tamamlamazsanız, uyum şartlarımız gereği protokol içinde transfer yapmanız, protokol dışına hızlı çekme kullanarak fon çıkarmanız ve pozisyonlarınızı azaltan piyasa talimatları dışında talimat vermeniz engellenecektir.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Kullanım şartlarımızı ihlal eden bir bölgede ikamet ettiğiniz veya yatırım talebi gönderdiğiniz tespit edildiği ve sizden istediğimiz ikamet ettiğiniz ülke ve yatırım talebi gönderdiğiniz konum teyitlerini henüz tamamlamadığınız için; protokol içinde transfer yapmanız, protokol dışına hızlı çekme işlemi yaparak fon çıkarmanız ve pozisyonlarınızı azaltan piyasa talimatları dışında talimatlar vermeniz engellenmiştir.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Engeli kaldırmak istiyorsanız, lütfen (1) ikamet ettiğiniz ülkeyi ve (2) yatırım talebi gönderdiğiniz konumu teyit edin. Teyit işlemini tamamlayıp hesabınızın engeli kaldırıldığında; lütfen gelecekteki kullanım şartlarımızı ihlal eden durumların derhal engellemeyle sonuçlanacağını, bu engeli kaldırmayacağımızı ancak fonlarınızın her zaman çekilebilir durumda olacağını unutmayın.",
+      "COMPLIANCE_BODY": "Kullanım koşullarımızı ihlal eden bir bölgede ikamet ediyor veya buradan alım-satım yapıyor olduğunuzdan ve ikamet ettiğiniz ülkenin ve alım-satım yaptığınız yerin onaylamasını henüz tamamlamadığınızdan dolayı, pozisyonlarınızı azaltmaya yönelik piyasa emirleri dışında emir vermeniz engellenmiştir.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Kullanım koşullarımızı ihlal eden bir bölgede ikamet ediyor veya buradan alım-satım yapıyor olduğunuzdan ve ikamet ettiğiniz ülkenin ve alım-satım yaptığınız yerin onaylamasını henüz tamamlamadığınızdan dolayı, pozisyonlarınızı azaltmaya yönelik piyasa emirleri dışında emir vermeniz engellenmiştir.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Engeli kaldırmak istiyorsanız, lütfen (1) ikamet ettiğiniz ülkeyi ve (2) yatırım talebi gönderdiğiniz konumu teyit edin. Onaylamayı tamamlamanız ve hesabınızın engelinin kaldırılması durumunda, kullanım koşullarımızın gelecekteki ihlallerinin protokolden kalıcı bir engellemeye neden olacağını lütfen unutmayın; bu durumda varlıklarınızı dilediğiniz zaman çekebilirsiniz.",
       "COMPLIANCE_REQUEST": "Uyum kontrol talebi",
       "CONTINUE": "Devam edin",
       "COUNTRY_OF_RESIDENCE": "İkamet Edilen Ülke",
       "SUBMIT": "Gönder",
       "TRADING_LOCATION": "Yatırım Talebi Gönderilen Konum",
-      "TYPE_TO_SEARCH": "Aramak için yazın"
+      "TYPE_TO_SEARCH": "Aramak için yazın",
+      "SELECT_A_COUNTRY": "Bir ülke seçin"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "Adres",
@@ -1861,6 +1864,11 @@
       "SUBMITTED_PROPOSAL": "Teklif Gönderildi!",
       "SUGGEST_NEW_MARKET": "Yeni bir piyasa önerin",
       "VIEW_PROPOSAL": "Teklifi görüntüleyin"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Kullanıcı arayüzüne erişiminiz {DATE} tarihinde engellenmeden önce paranızı çekebilirsiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
+      "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı için {LINK} adresindeki Kullanım Koşullarımıza bakabilirsiniz."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2058,10 +2066,28 @@
       "INVALID_GOOD_TIL": "Geçersiz Geçerlilik Süresi"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "Tüm giriş fiyatları pozitif olmalıdır. Lütfen giriş fiyatlarınızı ayarlayın."
+      "LOSS_COLON": "Zarar:",
+      "PRICE_MUST_POSITIVE": "Tüm giriş fiyatları pozitif olmalıdır. Lütfen giriş fiyatlarınızı ayarlayın.",
+      "PROFIT_COLON": "Kâr:",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Zarar durdurma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın üstünde olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Zarar durdurma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın altında olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Zarar durdurma tetikleme fiyatınız, mevcut oracle fiyatından yüksek olmalıdır: {INDEX_PRICE}.",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Zarar durdurma tetikleme fiyatınız, mevcut oracle fiyatından düşük olmalıdır: {INDEX_PRICE}.",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Kâr alma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın üstünde olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Kâr alma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın altında olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Kâr alma tetikleme fiyatınız, mevcut oracle fiyatının üstünde olmalıdır: {INDEX_PRICE}.",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Kâr alma tetikleme fiyatınız, mevcut oracle fiyatının altında olmalıdır: {INDEX_PRICE}."
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "Geçersiz fiyat girişi"
+      "PRICE_MUST_POSITIVE": "Geçersiz fiyat girişi",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Geçersiz zarar durdurma limit fiyatı",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Geçersiz zarar durdurma limit fiyatı",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Geçersiz zarar durdurma tetikleme fiyatı",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Geçersiz zarar durdurma tetikleme fiyatı",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Geçersiz kâr alma limit fiyatı",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Geçersiz kâr alma limit fiyatı",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Geçersiz kâr alma tetikleme fiyatı",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Geçersiz kâr alma tetikleme fiyatı"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Endeksleyici Uyarısı",
