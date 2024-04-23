@@ -67,6 +67,78 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "Saque lento bem-sucedido",
       "BODY": "Seu saque de {AMOUNT} {ASSET} foi confirmado."
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "O disparo de stop loss está sendo criado no {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Não foi possível criar seu disparo de stop loss em {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Seu disparo de stop loss em {NEW_VALUE} foi criado."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "Take profit",
+      "BODY": "O disparo de take profit está sendo criado em {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Take profit",
+      "BODY": "Não foi possível criar seu disparo de take profit em {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "Take profit",
+      "BODY": "Seu disparo de take profit em {NEW_VALUE} foi criado."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Seu disparo de stop loss está sendo atualizado para {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Não foi {OLD_VALUE}possível substituir seu disparo de stop loss em ."
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Seu disparo de stop loss agora será disparado em {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "Take profit",
+      "BODY": "Seu disparo de stop loss está sendo atualizado para {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Take profit",
+      "BODY": "Não foi {OLD_VALUE}possível substituir seu disparo de take profit em ."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "Take profit",
+      "BODY": "Seu disparo de take profit agora será disparado em {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Seu disparo de stop loss em {OLD_VALUE} está sendo removido."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Não {OLD_VALUE} foi possível cancelar seu disparo de stop loss em ."
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Seu disparo de stop loss em {OLD_VALUE} foi removido."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "Take profit",
+      "BODY": "Seu disparo de take profit em {OLD_VALUE} está sendo removido."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Take profit",
+      "BODY": "Não {OLD_VALUE}foi possível cancelar seu disparo de take profit em ."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "Take profit",
+      "BODY": "Seu disparo de take profit em {OLD_VALUE} foi removido."
     }
   }
 }
