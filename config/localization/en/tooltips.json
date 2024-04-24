@@ -294,7 +294,7 @@
       "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX"
     },
     "LOWEST_FEE_WITHDRAWALS": {
-      "BODY": "USDC withdrawals on \"{LOWEST_FEE_TOKEN_NAMES}\" have the lowest fees"
+      "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees"
     },
     "THIRD_PARTY_FEES":{
       "BODY": "Bridge fees are paid to other protocols in order to complete the bridge, transferring, and swapping required for this withdrawal."
