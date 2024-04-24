@@ -291,12 +291,15 @@
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
     },
     "GAS_FEES":{
+      "TITLE": "Gas Fees",
       "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX"
     },
     "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Lowest Fee Withdrawals",
       "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees"
     },
-    "THIRD_PARTY_FEES":{
+    "BRIDGE_FEES":{
+      "TITLE": "Bridge Fees",
       "BODY": "Bridge fees are paid to other protocols in order to complete the bridge, transferring, and swapping required for this withdrawal."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
