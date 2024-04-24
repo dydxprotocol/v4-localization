@@ -954,9 +954,9 @@
       "SLOW": "Slow",
       "SLOW_WITHDRAW_DESCRIPTION": "Slow withdraws are a two step process. This step initiates your withdraw request and will be processed on Layer 2. Once your funds are ready (can take up to {HOURS} hours), you will receive a notification to withdraw your funds to your wallet. You are responsible for the withdraw transaction gas fees.",
       "SLOW_WITHDRAW_CONFIRMATION": "This {STYLED_SLOW} withdraw may take up to {HOURS} hours before it is available to withdraw. You will be responsible for the withdraw transaction gas fees. If you need your funds sooner, try a {STYLED_FAST} withdraw.",
-      "SUB_HEADER_1": "USDC withdrawals to",
-      "SUB_HEADER_2": "select chains",
-      "SUB_HEADER_3": "have the lowest fees. Other withdrawals may have additional third-party fees",
+      "SUB_HEADER_PRE_TOOLTIP": "USDC withdrawals to",
+      "SUB_HEADER_TOOLTIP": "select chains",
+      "SUB_HEADER_POST_TOOLTIP": "have the lowest fees. Other withdrawals may have additional third-party fees",
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible."
     },
     "FEEDBACK_MODAL": {

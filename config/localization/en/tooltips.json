@@ -293,10 +293,10 @@
     "GAS_FEES":{
       "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX"
     },
-    "SUBHEADER_1": {
+    "SUBHEADER_PRE_DYNAMIC_TEXT": {
       "BODY": "USDC withdrawals on "
     },
-    "SUBHEADER_2": {
+    "SUBHEADER_POST_DYNAMIC_TEXT": {
       "BODY": " have the lowest fees"
     },
     "THIRD_PARTY_FEES":{
