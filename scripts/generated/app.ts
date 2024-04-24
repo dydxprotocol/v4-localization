@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1570,6 +1570,9 @@ export const APP_STRING_KEYS = {
     SLOW: 'APP.WITHDRAW_MODAL.SLOW',
     SLOW_WITHDRAW_CONFIRMATION: 'APP.WITHDRAW_MODAL.SLOW_WITHDRAW_CONFIRMATION',
     SLOW_WITHDRAW_DESCRIPTION: 'APP.WITHDRAW_MODAL.SLOW_WITHDRAW_DESCRIPTION',
+    SUB_HEADER_1: 'APP.WITHDRAW_MODAL.SUB_HEADER_1',
+    SUB_HEADER_2: 'APP.WITHDRAW_MODAL.SUB_HEADER_2',
+    SUB_HEADER_3: 'APP.WITHDRAW_MODAL.SUB_HEADER_3',
     WITHDRAW_IRREVERSIBLE: 'APP.WITHDRAW_MODAL.WITHDRAW_IRREVERSIBLE',
 };
 
