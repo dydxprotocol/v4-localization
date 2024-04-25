@@ -2016,7 +2016,7 @@
       "TAKER_FEE_INVALID": "Your fee rates may have changed. Please refresh the app and try again.",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your trigger price must be above the current oracle price: {INDEX_PRICE}.",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Your trigger price must be below the current oracle price: {INDEX_PRICE}.",
-      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please update your trigger price or use a stop limit order.",
+      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please update your trigger price or use a Stop Limit order.",
       "USER_MAX_ORDERS": "This order would put you above the max limit of 20 open orders per market, per side.",
       "USER_MAX_ORDERS_FOR_EQUITY_TIER": "This order would put you above the equity tier limit of {LIMIT} open orders",
       "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "This order would put you over the limit of {LIMIT} open orders for your equity tier. The next equity tier is at {EQUITY}.",
@@ -2077,9 +2077,11 @@
       "INVALID_GOOD_TIL": "Invalid Good Til"
     },
     "TRIGGERS_FORM": {
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price below ${TRIGGER_PRICE_LIMIT}.",
       "LOSS_COLON": "Loss:",
       "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices.",
       "PROFIT_COLON": "Profit:",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price above ${TRIGGER_PRICE_LIMIT}.",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Your stop loss limit price must be above your trigger price for this order to fill when it triggers. Please adjust your limit price.",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Your stop loss limit price must be below your trigger price for this order to fill when it triggers. Please adjust your limit price.",
       "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your stop loss trigger price must be above the current oracle price: {INDEX_PRICE}.",
@@ -2090,7 +2092,9 @@
       "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Your take profit trigger price must be below the current oracle price: {INDEX_PRICE}."
     },
     "TRIGGERS_FORM_TITLE": {
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Liquidation Risk",
       "PRICE_MUST_POSITIVE": "Invalid price input",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Liquidation Risk",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Invalid stop loss limit price",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Invalid stop loss limit price",
       "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Invalid stop loss trigger price",
