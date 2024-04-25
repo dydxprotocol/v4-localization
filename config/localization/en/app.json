@@ -951,7 +951,7 @@
       "FAST": "Fast",
       "FAST_WITHDRAW_CONFIRMATION": "A fee of {FEE} will be collected for this fast withdraw. Your funds will be sent immediately and will appear in your wallet once the withdraw transaction has confirmed.",
       "LOWEST_FEE_WITHDRAWALS": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawals may have additional third-party fees.",
-      "LOWEST_FEES_WITH_USDC": "{LOWEST_FEES_HIGHLIGHT_TEXT} with USDC",
+      "LOWEST_FEES_WITH_USDC": "{LOWEST_FEES_HIGHLIGHT_TEXT} with USDC.",
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "To access the withdrawn funds and reuse your Magic wallet outside of dYdX, you must export your wallet to another wallet provider.",
       "SLOW": "Slow",
       "SLOW_WITHDRAW_DESCRIPTION": "Slow withdraws are a two step process. This step initiates your withdraw request and will be processed on Layer 2. Once your funds are ready (can take up to {HOURS} hours), you will receive a notification to withdraw your funds to your wallet. You are responsible for the withdraw transaction gas fees.",
