@@ -292,15 +292,15 @@
     },
     "GAS_FEES":{
       "TITLE": "Gas Fees",
-      "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX"
+      "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX."
     },
     "LOWEST_FEE_WITHDRAWALS": {
       "TITLE": "Lowest Fee Withdrawals",
-      "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees"
+      "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
     },
     "BRIDGE_FEES":{
       "TITLE": "Bridge Fees",
-      "BODY": "Bridge fees are paid to other protocols in order to complete the bridge, transferring, and swapping required for this withdrawal."
+      "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this withdrawal."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Minimum Amount Received",
