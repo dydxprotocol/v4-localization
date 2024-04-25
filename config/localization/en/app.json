@@ -1228,6 +1228,7 @@
       "MODIFY_SIZE_FIELD": "Modify amount",
       "MODIFY_TRAILING_PERCENT": "Modify trailing %",
       "MODIFY_TRIGGER_PRICE": "Modify trigger price",
+      "MULTIPLE_ARROW": "Multiple →",
       "NET_FUNDING": "Net Funding",
       "NEXT_FUNDING": "Next Funding",
       "NEXT_IN": "Next in {TIME}",
