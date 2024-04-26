@@ -256,6 +256,10 @@
       "TITLE": "Unavailable",
       "BODY": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Gas Fees",
+      "BODY": "Gas fees are transaction fees on the source chain, in this case {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
