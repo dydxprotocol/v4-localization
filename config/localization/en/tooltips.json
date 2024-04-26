@@ -264,6 +264,10 @@
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
     },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Lowest Fee Deposits",
+      "BODY": "USDC Deposits on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
+    },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Minimum Deposit Amount",
       "BODY": "Inclusive of any slippage that may occur due to liquidity changes while the bridge is in progress"
