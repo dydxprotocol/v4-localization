@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -246,6 +246,7 @@ export const APP_STRING_KEYS = {
     ACCOUNT_LEVERAGE: 'APP.GENERAL.ACCOUNT_LEVERAGE',
     ACKNOWLEDGEMENT: 'APP.GENERAL.ACKNOWLEDGEMENT',
     ACTION: 'APP.GENERAL.ACTION',
+    ACTIONS: 'APP.GENERAL.ACTIONS',
     ACTIVE: 'APP.GENERAL.ACTIVE',
     ADDING: 'APP.GENERAL.ADDING',
     ADDRESS: 'APP.GENERAL.ADDRESS',
