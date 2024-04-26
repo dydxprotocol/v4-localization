@@ -932,6 +932,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gasless deposits are subject to these rules",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!",
       "GASLESS_ETH_DEPOSITS": "Gasless deposits are not available for ETH. You can convert your ETH to WETH on {1INCH_WETH_LINK} or {UNISWAP_WETH_LINK} and use WETH gasless deposits, or directly deposit ETH by paying your own gas costs.",
+      "LOWEST_FEE_DEPOSITS": "USDC deposits from {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other deposits may have additional third-party fees.",
       "MAX_SLIPPAGE": "Max Slippage",
       "MINIMUM_DEPOSIT_AMOUNT": "Minimum Deposit Amount",
       "MINIMUM_DEPOSIT_MET": "Nice! Your deposit meets the gasless deposit minimum of {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX will cover the gas fees for this deposit.",
