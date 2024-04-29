@@ -270,7 +270,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Lowest Fee Deposits",
-      "BODY": "USDC Deposits on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
+      "BODY": "USDC deposits on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Minimum Deposit Amount",
