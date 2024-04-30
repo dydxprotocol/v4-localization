@@ -1278,6 +1278,8 @@
       "PLACE_ORDER": "Place {ORDER}",
       "PLACE_SIMPLE_TRADE": "Place a market order for {NAME}",
       "PLACE_TRADE": "Place a trade",
+      "PLACE_ORDER_FAILED": "Order failed",
+      "PLACE_ORDER_FAILED_DESCRIPTION": "Your trade was unsuccessful.",
       "PLACING_ORDER_DESCRIPTION": "Your trade is currently in progress.",
       "PLACING_ORDER_TITLE": "Placing order",
       "POSITION_COLLATERAL": "Position Collateral",
