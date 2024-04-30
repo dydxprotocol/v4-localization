@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1417,6 +1417,8 @@ export const APP_STRING_KEYS = {
     PLACE_LIMIT_ORDER: 'APP.TRADE.PLACE_LIMIT_ORDER',
     PLACE_MARKET_ORDER: 'APP.TRADE.PLACE_MARKET_ORDER',
     PLACE_ORDER: 'APP.TRADE.PLACE_ORDER',
+    PLACE_ORDER_FAILED: 'APP.TRADE.PLACE_ORDER_FAILED',
+    PLACE_ORDER_FAILED_DESCRIPTION: 'APP.TRADE.PLACE_ORDER_FAILED_DESCRIPTION',
     PLACE_SIMPLE_TRADE: 'APP.TRADE.PLACE_SIMPLE_TRADE',
     PLACE_STOP_LIMIT_ORDER: 'APP.TRADE.PLACE_STOP_LIMIT_ORDER',
     PLACE_STOP_MARKET_ORDER: 'APP.TRADE.PLACE_STOP_MARKET_ORDER',
