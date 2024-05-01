@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1463,6 +1463,7 @@ export const APP_STRING_KEYS = {
     STOP_PRICE: 'APP.TRADE.STOP_PRICE',
     STOP_PRICE_ABBREVIATED: 'APP.TRADE.STOP_PRICE_ABBREVIATED',
     SUBMITTED: 'APP.TRADE.SUBMITTED',
+    SUBMITTING: 'APP.TRADE.SUBMITTING',
     TAKER: 'APP.TRADE.TAKER',
     TAKER_FEE: 'APP.TRADE.TAKER_FEE',
     TAKE_PROFIT: 'APP.TRADE.TAKE_PROFIT',
