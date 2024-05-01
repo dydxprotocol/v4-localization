@@ -4,6 +4,10 @@
       "TITLE": "Reward Earned",
       "BODY": "You have earned {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading reward."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "Refreshed conditional order experience!",
+      "BODY": "Conditional orders on dYdX Chain have been completely re-vamped! Now more reliable, intuitive, and performant than ever before. Check out more details {TWITTER_LINK}."
+    },
     "DELEVERAGED": {
       "TITLE": "Position Deleveraged",
       "BODY": "Your {SIDE} position on {MARKET} has been deleveraged."
