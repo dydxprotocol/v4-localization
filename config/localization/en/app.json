@@ -1317,6 +1317,7 @@
       "STOP_PRICE_ABBREVIATED": "Stop",
       "STOP_PRICE": "Stop Price",
       "SUBMITTED": "Submitted",
+      "SUBMITTING": "Submitting",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "A take profit limit order converts to a traditional limit order whenever the oracle price or last trade price crosses your trigger price.",
       "TAKE_PROFIT_LIMIT_SHORT": "Take Profit Limit",
       "TAKE_PROFIT_LIMIT": "Take Profit Limit",
