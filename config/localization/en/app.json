@@ -1558,7 +1558,8 @@
     "COMPLIANCE_MODAL": {
       "COMPLIANCE_BODY": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "If you would like to be unblocked, then please confirm (1) your country of residence and (2) the location from which you trade. In the event that you complete the confirmation and your account is unblocked, please be aware that any future violation of our terms of use will result in a permanent ban from the protocol - though your funds are always available for withdrawal.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "If you would like to be unblocked, then please confirm (1) your country of residence and (2) your compliance with the Terms of Use. In the event that you complete the confirmation and your account is unblocked, please be aware that any future violation of our terms of use will result in a permanent ban from the protocol - though your funds are always available for withdrawal.",
+      "COMPLIANCE_ACKNOWLEDGEMENT": "I have read and confirm I am compliant with the Terms of Use, including the prohibition on persons or entities in the United States, Canada, or other restricted jurisdictions.",
       "COMPLIANCE_REQUEST": "Compliance request",
       "CONTINUE": "Continue",
       "COUNTRY_OF_RESIDENCE": "Country of Residence",
