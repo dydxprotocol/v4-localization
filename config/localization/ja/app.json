@@ -168,14 +168,6 @@
       "KEEP_TRADING": "トレードを維持する",
       "LANGUAGE": "言語",
       "LARGE_CAP": "大キャップ",
-      "BIGGEST_MOVERS": "最大の動き",
-      "RECENTLY_LISTED": "最近上場",
-      "GAINERS": "ゲイナーズ",
-      "LOSERS": "敗者",
-      "EARNED_BY_STAKERS": "ステイカーズ",
-      "ADD_NEW_MARKET": "新市場の追加",
-      "NO_RECENTLY_LISTED_MARKETS": "最近上場した市場はない",
-      "HIGHLIGHTS": "ハイライト",
       "LAYER_1": "レイヤー1",
       "LAYER_2": "レイヤー2",
       "LEARN_MORE": "詳しくはこちら",
@@ -968,7 +960,8 @@
       "ORDERBOOK_ANIMATIONS": "オーダーブックのアニメーション",
       "PROFILE_SHARE_USERNAME": "ユーザー名を表示する",
       "PROFILE_SHARE_ADDRESS": "ウォレットアドレスを表示する",
-      "SAVE_ORDER_AMOUNT": "注文数量を保存する"
+      "SAVE_ORDER_AMOUNT": "オーダー金額を保存する",
+      "TAKE_PROFIT_STOP_LOSS": "利益を確定する／ストップロス"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "dYdXのAPIで取引",
@@ -1423,9 +1416,13 @@
       "BLOCK_REWARD": "ブロック報酬",
       "CHAIN_DISRUPTION_DETECTED": "チェーン中断を検出しました",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdXチェーンの中断により、注文が失敗または遅延する可能性があるため、取引と転送は無効です。 しばらくしてから、もう一度お試しください。 資金は安全です。",
+      "CLICK_TO_VIEW": "クリックして表示",
       "CLOSE_MARKET_POSITIONS": "{MARKET}ポジションをクローズする",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}はクローズオンリーモードに設定され、{MARKET}のクローズ価格が固定されました。オープンになっている{MARKET}ポジションを速やかにクローズしてください。問題が生じた場合、ヘルプチャットをご利用いただけます。",
       "COMPLIANCE_ALERT": "コンプライアンスに関する警告",
+      "COMPLIANCE_WARNING": "コンプライアンス警告",
+      "CREATED": "作成済み",
+      "CREATING": "作成中",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "お客様の{AMOUNT_ELEMENT}のデポジットは、14承認後に入金できるようになります。",
       "DEPOSIT_IN_PROGRESS": "入金処理中",
       "DEPOSIT_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT}の入金が確認できましたので、取引にご利用いただけます。",
@@ -1436,6 +1433,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "プッシュ通知を有効にする",
       "EPOCH_REWARDS": "エポック{EPOCH_NUMBER}の報酬",
       "EPOCH_REWARDS_BODY": "エポック中に{DYDX}$DYDX報酬を獲得しました{EPOCH_NUMBER}！",
+      "ERROR": "エラー",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "レイヤー1上で承認保留中の高速出金が{AMOUNT_ELEMENT}あります。",
       "FAST_WITHDRAW_PENDING": "保留中の高速出金",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "{AMOUNT_ELEMENT}の高速出金が承認されました。",
@@ -1454,6 +1452,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "あなたは、当社の利用条件に抵触する国や地域の居住者であるか、そうした国や地域で取引を行っているものとみなされており、かつ口座への制約につながる状況から回復する機会をすでに与えられているにもかかわらず、それが実現されていないため、当該プロトコル内での資金の移動、高速出金による当該プロトコルからの資金の引き上げ、および市場でのポジションの減額以外の注文に関して恒久的にブロックされています。プロトコルからいつでも資金を引き出すことができます。",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "コンプライアンス上の理由により、dYdXプロトコルの使用がブロックされています。",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "コンプライアンス上の理由により、dYdXプロトコルの使用がブロックされています。この口座はクローズ限定モードです。エラーが発生していると思われる場合、support@dydx.exchangeまでご連絡ください。",
+      "REMOVED": "削除済み",
+      "REMOVING": "削除する",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "お客様の通常出金リクエストは承認されました。{AMOUNT_ELEMENT}を出金可能です。",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "トランザクション手数料見積もり{GAS_ESTIMATE}。",
       "SLOW_WITHDRAW_AVAILABLE": "通常出金の準備完了",
@@ -1471,7 +1471,9 @@
         "WITHDRAW_IN_PROGRESS": "出金中...",
         "WITHDRAW_TO_CHAIN": "{CHAIN}に出金する"
       },
-      "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました"
+      "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました",
+      "UPDATED": "アップデート済み",
+      "UPDATING": "アップデート中"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "デポジット、出金、アカウントの更新",
@@ -1533,15 +1535,16 @@
       "HEDGIES_NFT": "ヘッジNFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "当社の利用条件に抵触する国や地域の居住者であるか、そうした国や地域において取引を行っているものとみなされています。ご自身の（1）居住する国や地域、（2）取引の場所について確認してください。当社の利用条件に抵触しているとしてフラグが立ってから24時間以内にこの確認作業を完了しない場合、コンプライアンスを目的として、当該プロトコル内での資金の移動、高速出金による当該プロトコルからの資金の引き上げ、および市場でのポジションの減額以外の注文に関してブロックが行われます。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "あなたは、当社の利用条件に抵触する国や地域の居住者であるか、そうした国や地域において取引を行っているものとみなされており、かつ居住する国や地域および取引の場所について必要な確認作業を完了していないため、当該プロトコル内での資金の移動、高速出金による当該プロトコルからの資金の引き上げ、および市場でのポジションの減額以外の注文に関してブロックされています。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "ブロックの解除を希望する場合、ご自身の（1）居住する国や地域、（2）取引の場所について確認してください。確認作業を完了し、口座のブロックが解除されても、将来において当社の利用条件に抵触した場合には直ちに解除不能のブロックが行われます。ただし、その場合でも資金の引き出しは可能です。",
+      "COMPLIANCE_BODY": "お客様は当社の利用規約に抵触する国や地域の居住者であるか、そうした国や地域において取引を行っているものと見なされており、居住国や取引を行っている地域の確認がまだ完了していないため、ポジションを減額する成行注文以外の注文はブロックされています。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "お客様は当社の利用規約に抵触する国や地域の居住者であるか、そうした国や地域において取引を行っているものと見なされており、居住国や取引を行っている地域の確認がまだ完了していないため、ポジションを減額する成行注文以外の注文はブロックされています。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "ブロックの解除を希望する場合、ご自身の（1）居住する国や地域、（2）取引の場所について確認してください。確認作業を完了し、口座のブロックが解除されても、将来において当社の利用規約に抵触した場合は、プロトコルからの無期限追放となりますのでご注意ください。ただし、その場合でも資金の引き出しは可能です。",
       "COMPLIANCE_REQUEST": "コンプライアンスに関するリクエスト",
       "CONTINUE": "続く",
       "COUNTRY_OF_RESIDENCE": "居住する国や地域",
       "SUBMIT": "送信",
       "TRADING_LOCATION": "取引の場所",
-      "TYPE_TO_SEARCH": "入力して検索"
+      "TYPE_TO_SEARCH": "入力して検索",
+      "SELECT_A_COUNTRY": "国を選択"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "所在地",
@@ -1861,6 +1864,11 @@
       "SUBMITTED_PROPOSAL": "提案書を送信しました！",
       "SUGGEST_NEW_MARKET": "新しいマーケットを提案する",
       "VIEW_PROPOSAL": "提案の表示"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "あなたは当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っている、または当社の利用規約に違反する行為を行っているとみなされており、あなたはブロックされています。フロントエンドへのアクセスがブロックされる前に資金を引き出すには、{DATE}まで猶予があります。 エラーが発生していると思われる場合、以下に電子メールを送信してください： {EMAIL}。",
+      "PERMANENTLY_BLOCKED_MESSAGE": "あなたは当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられています。あなたは永久にブロックされました。 エラーが発生していると思われる場合、以下に電子メールを送信してください： {EMAIL}。",
+      "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は利用規約をご参照ください {LINK}。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -1974,7 +1982,7 @@
       "BRACKET_ORDER_TAKE_PROFIT_ABOVE_LIQUIDATION_PRICE": "利益確定注文のトリガー価格が清算価格に近すぎます。この利益確定注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力してください。 ",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "利益確定注文のトリガー価格は、成行注文の予想価格${EXPECTED_PRICE}を下回っている必要があります。",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "利益確定注文のトリガー価格が清算価格に近すぎます。この利益確定注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を下回るトリガー価格を入力してください。",
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。{TRIGGER_PRICE_LIMIT}を下回るトリガー価格を入力するか、ストップリミット注文を使用してください。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を下回るトリガー価格を入力するか、ストップリミット注文を使用してください。",
       "INVALID_LARGE_POSITION_LEVERAGE": "この取引の結果、ポジションにおけるレバレッジが無効になる可能性があります。リスクを限定するため、 なポジションの最大レバレッジは引き下げられています。",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "この取引の結果、お客様の口座の証拠金使用率が100%を超えてしまう可能性があります。",
       "INVALID_NEW_POSITION_LEVERAGE": "この取引の結果、ポジションにおけるレバレッジが無効になる可能性があります。",
@@ -1993,7 +2001,7 @@
       "ORDER_SIZE_BELOW_MIN_SIZE": "注文サイズが最小注文サイズ（{MIN_SIZE} {SYMBOL}）を下回っています。",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "お客様の現在のオープンオーダーを考慮すると、この注文により、お客様のポジションのレバレッジが無効になる可能性があります。この注文より先に執行される注文の一部または全部をクローズするか、注文のサイズを減らしてください。",
       "ORDER_WOULD_FLIP_POSITION": "この注文により、ポジションがフリップまたは増加するでしょう。リデュースオンリーのチェックを解除するか、または注文サイズを縮小してください。",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。{TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力するか、ストップリミット注文を使用してください。",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力するか、ストップリミット注文を使用してください。",
       "TAKER_FEE_INVALID": "手数料レートが変更された可能性があります。アプリを更新し、もう一度お試しください。",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "トリガー価格が現在のオラクル価格である{INDEX_PRICE}{INDEX_PRICE}を上回っている必要があります。",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "トリガー価格が現在のオラクル価格である{INDEX_PRICE}を下回っている必要があります。",
@@ -2058,10 +2066,28 @@
       "INVALID_GOOD_TIL": "無効なグッドティル"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "すべての入力価格はプラス値でなければなりません。入力価格を調整してください。"
+      "LOSS_COLON": "損失：",
+      "PRICE_MUST_POSITIVE": "すべての入力価格はプラス値でなければなりません。入力価格を調整してください。",
+      "PROFIT_COLON": "利益：",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "この注文のトリガー価格を満たすには、ストップロスの指値がトリガー価格を上回っている必要があります。指値を調整してください。",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "この注文のトリガー価格を満たすには、ストップロス指値がトリガー価格を下回っている必要があります。指値を調整してください。",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "指値のトリガー価格が以下の現在のオラクル価格を上回っている必要があります：{INDEX_PRICE}。",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "指値のトリガー価格が以下の現在のオラクル価格を下回っている必要があります： {INDEX_PRICE}。",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "この注文のトリガー価格を満たすには、利益確定指値がトリガー価格を上回っている必要があります。指値を調整してください。",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "この注文のトリガー価格を満たすには、利益確定指値がトリガー価格を下回っている必要があります。指値を調整してください。",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "利益確定のトリガー価格が以下の現在のオラクル価格を上回っている必要があります： {INDEX_PRICE}。",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "指値のトリガー価格が以下の現在のオラクル価格を下回っている必要があります： {INDEX_PRICE}。"
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "無効な入力価格"
+      "PRICE_MUST_POSITIVE": "無効な入力価格",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "無効なストップロス指値",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "無効なストップロス指値",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "無効なストップロスのトリガー価格",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "無効なストップロスのトリガー価格",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "無効な利益確定指値",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "無効な利益確定指値",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "無効な利益確定のトリガー価格",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "無効な利益確定のトリガー価格"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "インデクサーに関する警告",
