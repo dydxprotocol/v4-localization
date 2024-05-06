@@ -168,14 +168,6 @@
       "KEEP_TRADING": "Seguir operaciones",
       "LANGUAGE": "Idioma",
       "LARGE_CAP": "Gran capitalización",
-      "BIGGEST_MOVERS": "Los que más se mueven",
-      "RECENTLY_LISTED": "Recientes",
-      "GAINERS": "Ganadores",
-      "LOSERS": "Perdedores",
-      "EARNED_BY_STAKERS": "Ganado por Stakers",
-      "ADD_NEW_MARKET": "Añadir un nuevo mercado",
-      "NO_RECENTLY_LISTED_MARKETS": "No hay mercados de reciente cotización",
-      "HIGHLIGHTS": "Destacados",
       "LAYER_1": "Capa 1",
       "LAYER_2": "Capa 2",
       "LEARN_MORE": "Más información",
@@ -968,7 +960,8 @@
       "ORDERBOOK_ANIMATIONS": "Animaciones de los libros de órdenes ",
       "PROFILE_SHARE_USERNAME": "Mostrar mi nombre de usuario",
       "PROFILE_SHARE_ADDRESS": "Mostrar la dirección de mi billetera",
-      "SAVE_ORDER_AMOUNT": "Guardar el importe del pedido"
+      "SAVE_ORDER_AMOUNT": "Guardar el importe del pedido",
+      "TAKE_PROFIT_STOP_LOSS": "Toma de ganancias \/ Stop loss"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "Haz transacciones con nuestra API",
@@ -1423,9 +1416,13 @@
       "BLOCK_REWARD": "Recompensa de bloque",
       "CHAIN_DISRUPTION_DETECTED": "Interrupción de cadena detectada",
       "CHAIN_DISRUPTION_DETECTED_BODY": "El trading y la transferencia están deshabilitados, ya que las órdenes pueden fallar o retrasarse debido a una interrupción de la cadena dYdX. Espera e inténtalo de nuevo más tarde. Tus fondos están seguros.",
+      "CLICK_TO_VIEW": "Haz clic para ver",
       "CLOSE_MARKET_POSITIONS": "Cierra tu {MARKET}posición",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}está configurado para cerrar solo el modo y el precio de cierre de {MARKET} ahora es fijo. Cierra tu posición abierta {MARKET} tan pronto como puedas. Estamos aquí para ayudarte por chat en caso de que surja algún inconveniente.",
       "COMPLIANCE_ALERT": "Alerta de cumplimiento",
+      "COMPLIANCE_WARNING": "Advertencia de cumplimiento",
+      "CREATED": "Se creó",
+      "CREATING": "Creando",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Tu depósito de {AMOUNT_ELEMENT} estará disponible después de 14 confirmaciones.",
       "DEPOSIT_IN_PROGRESS": "Depósito en progreso",
       "DEPOSIT_SUCCESS_DESCRIPTION": "Tu depósito de {AMOUNT_ELEMENT} ha sido confirmado y ahora está disponible para realizar operaciones.",
@@ -1436,6 +1433,7 @@
       "ENABLE_PUSH_NOTIFICATIONS": "Habilitar las notificaciones push",
       "EPOCH_REWARDS": "Recompensas de {EPOCH_NUMBER}época",
       "EPOCH_REWARDS_BODY": "¡Ganaste {DYDX} recompensas de $DYDX durante la Época {EPOCH_NUMBER}!",
+      "ERROR": "Error",
       "FAST_WITHDRAW_PENDING_DESCRIPTION": "Tu retiro rápido de {AMOUNT_ELEMENT} está pendiente de confirmación en la capa principal.",
       "FAST_WITHDRAW_PENDING": "Retiro rápido pendiente",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "Tu retiro rápido de {AMOUNT_ELEMENT} ha sido confirmado.",
@@ -1454,6 +1452,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Debido a que pareces ser residente o estar haciendo operaciones desde una jurisdicción que infringe nuestras condiciones de uso y anteriormente se te ha dado la oportunidad de remediar circunstancias que llevaron a restricciones en tu cuenta, has sido bloqueado permanentemente para hacer transferencias dentro del protocolo, hacer retiros rápidos para sacar fondos del protocolo y hacer pedidos diferentes a pedidos de mercado para reducir tus posiciones. Puedes retirar tus fondos del protocolo en cualquier momento.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "Por razones de cumplimiento, se te ha bloqueado el uso del protocolo dYdX.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "Por motivos de cumplimiento, has sido bloqueado para hacer uso del protocolo dYdX. Esta cuenta está en modo de solo cierre. Si crees que ha sucedido un error, envíanos un correo electrónico a support@dydx.exchange.",
+      "REMOVED": "Se eliminó",
+      "REMOVING": "Eliminar",
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "Tu solicitud de retiro lento ha sido confirmada. {AMOUNT_ELEMENT} está disponible para retiro.",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "Tarifa de transacción estimada {GAS_ESTIMATE}.",
       "SLOW_WITHDRAW_AVAILABLE": "Retiro lento listo",
@@ -1471,7 +1471,9 @@
         "WITHDRAW_IN_PROGRESS": "Retiro(s) en curso...",
         "WITHDRAW_TO_CHAIN": "Retirar a {CHAIN}"
       },
-      "TRADING_REWARD_RECEIVED": "Recompensa de trading recibida"
+      "TRADING_REWARD_RECEIVED": "Recompensa de trading recibida",
+      "UPDATED": "Se actualizó",
+      "UPDATING": "Actualizando"
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Depósitos, retiros y actualizaciones de la cuenta",
@@ -1533,15 +1535,16 @@
       "HEDGIES_NFT": "Hedgies NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "Debido a que pareces ser residente o estar haciendo operaciones desde una jurisdicción que infringe nuestras condiciones de uso, debes confirmar (1) tu país de residencia y (2) la ubicación desde la que operas. Si no completas la confirmación dentro de las 24 horas siguientes a que se te alerte de que estás infringiendo nuestras condiciones de uso, por motivos de cumplimiento quedarás bloqueado para hacer transferencias dentro del protocolo, hacer retiros rápidos para sacar fondos del protocolo y hacer pedidos diferentes a pedidos de mercado que reduzcan tus posiciones.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Debido a que pareces ser residente o estar haciendo operaciones desde una jurisdicción que infringe nuestras condiciones de uso y aún no has confirmado la información completa de tu país de residencia y la ubicación desde la que operas como te solicitamos, has sido bloqueado de hacer transferencias dentro del protocolo, hacer retiros rápidos para sacar fondos del protocolo y hacer pedidos diferentes a pedidos de mercado para reducir tus posiciones.",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Si quieres ser desbloqueado, por favor confirma (1) tu país de residencia y (2) la ubicación desde la que operas. Si completas la confirmación y tu cuenta es desbloqueada, ten en cuenta que cualquier futura infracción de nuestras condiciones de uso dará lugar a un bloqueo inmediato, y no te desbloquearemos, aunque tus fondos siempre estarán disponibles para ser retirados.",
+      "COMPLIANCE_BODY": "Debido que pareces ser residente de, o estar comercializando desde una jurisdicción que viola nuestros términos de uso y aún no has completado la confirmación de tu país de residencia y la ubicación desde la que haces trading, has sido bloqueado de realizar pedidos que no sean pedidos de mercado que reduzcan tus posiciones.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Debido que pareces ser residente de, o estar comercializando desde una jurisdicción que viola nuestros términos de uso y aún no has completado la confirmación de tu país de residencia y la ubicación desde la que haces trading, has sido bloqueado de realizar pedidos que no sean pedidos de mercado que reduzcan tus posiciones.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "Si quieres ser desbloqueado, por favor confirma (1) tu país de residencia y (2) la ubicación desde la que operas. En caso de que completes la confirmación y tu cuenta sea desbloqueada, ten en cuenta que cualquier violación futura de nuestros términos de uso dará lugar a una prohibición permanente del protocolo, pero tus fondos siempre estarán disponibles para retirar.",
       "COMPLIANCE_REQUEST": "Solicitud de cumplimiento",
       "CONTINUE": "Continuar",
       "COUNTRY_OF_RESIDENCE": "País de residencia",
       "SUBMIT": "Enviar",
       "TRADING_LOCATION": "Lugar de operación",
-      "TYPE_TO_SEARCH": "Escribir para buscar"
+      "TYPE_TO_SEARCH": "Escribir para buscar",
+      "SELECT_A_COUNTRY": "Seleccionar un país"
     },
     "PROFILES_PAGE": {
       "ADDRESS": "Dirección",
@@ -1861,6 +1864,11 @@
       "SUBMITTED_PROPOSAL": "¡Propuesta enviada!",
       "SUGGEST_NEW_MARKET": "Sugiere un nuevo mercado",
       "VIEW_PROPOSAL": "Ver propuesta"
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_MESSAGE": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE}para retirar tus fondos antes de que se bloquee tu acceso a la interfaz. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
+      "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en nuestros Términos de uso {LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2058,10 +2066,28 @@
       "INVALID_GOOD_TIL": "Inválido hasta"
     },
     "TRIGGERS_FORM": {
-      "PRICE_MUST_POSITIVE": "Todos los precios de entrada deben ser positivos. Ajusta tus precios de entrada."
+      "LOSS_COLON": "Pérdida:",
+      "PRICE_MUST_POSITIVE": "Todos los precios de entrada deben ser positivos. Ajusta tus precios de entrada.",
+      "PROFIT_COLON": "Ganancia:",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Tu precio límite de stop loss debe estar por encima de tu trigger price para que esta orden se ejecute cuando se active. Ajusta tu precio límite.",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Tu precio límite de stop loss debe estar por debajo de tu trigger price para que esta orden se ejecute cuando se active. Ajusta tu precio límite.",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Tu trigger price debe estar por encima del precio de oráculo actual: {INDEX_PRICE}.",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Tu trigger price de stop loss debe estar por debajo del precio de oráculo actual: {INDEX_PRICE}.",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Tu precio límite de toma de ganancias debe estar por encima de tu trigger price para que esta orden se ejecute cuando se active. Ajusta tu precio límite.",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Tu precio límite de toma de ganancias debe estar por debajo de tu trigger price para que esta orden se ejecute cuando se active. Ajusta tu precio límite.",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Tu trigger price de toma de ganancias debe estar por encima del precio de oráculo actual:{INDEX_PRICE} .",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Tu trigger price de toma de ganancias debe estar por encima del precio de oráculo actual:{INDEX_PRICE} ."
     },
     "TRIGGERS_FORM_TITLE": {
-      "PRICE_MUST_POSITIVE": "Entrada de precio no válida"
+      "PRICE_MUST_POSITIVE": "Entrada de precio no válida",
+      "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Precio límite de stop loss no válido",
+      "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Precio límite de stop loss no válido",
+      "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Trigger price de stop loss no válido",
+      "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Trigger price de stop loss no válido",
+      "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Precio límite de toma de ganancias no válido",
+      "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Precio límite de toma de ganancias no válido",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Trigger price de toma de ganancias no válido",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Trigger price de toma de ganancias no válido"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Alerta del indexador",
