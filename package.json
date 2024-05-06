@@ -9,7 +9,8 @@
     "generate:app": "cd scripts && ./codegen_localization_app.swift ../config/localization/en/app.json > ./generated/app.ts && cd ..",
     "generate:notifications": "cd scripts && ./codegen_localization_notifications.swift ../config/localization_notifications/en/app.json > ./generated/notifications.ts && cd ..",
     "generate:tooltips": "cd scripts && ./codegen_localization_tooltips.swift ../config/localization/en/tooltips.json > ./generated/tooltips.ts && cd ..",
-    "bump_version": "./scripts/bump_version.sh"
+    "bump_version": "./scripts/bump_version.sh",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/dydxprotocol/v4-localization#readme",
   "devDependencies": {
-    "@types/node": "^20.1.7"
+    "@types/node": "^20.1.7",
+    "husky": "^9.0.11"
   }
 }
