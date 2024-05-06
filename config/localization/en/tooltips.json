@@ -252,13 +252,25 @@
       "TITLE": "Available",
       "BODY": "You are eligible! Deposit at least {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} to enable gasless deposit."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Bridge Fees",
+      "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this deposit."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Unavailable",
       "BODY": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Gas Fees",
+      "BODY": "Gas fees are transaction fees on the source chain, in this case {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Lowest Fee Deposits",
+      "BODY": "USDC deposits on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Minimum Deposit Amount",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Fast Withdraw Fee",
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
+    },
+    "GAS_FEES":{
+      "TITLE": "Gas Fees",
+      "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Lowest Fee Withdrawals",
+      "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Bridge Fees",
+      "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this withdrawal."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Minimum Amount Received",
