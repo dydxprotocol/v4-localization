@@ -81,7 +81,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Initial Margin Fraction",
-      "BODY": "Initial Margin Fraction defines the amount leverage a trader can initially use when entering a position. IMF is calculated as a trader’s position notional value divided by equity. If a trader’s margin fraction exceeds the initial margin fraction, a trader will no longer be allowed to increase their position."
+      "BODY": "Initial Margin Fraction defines the amount leverage a trader can initially use when entering a position. IMF is calculated as a trader’s position notional value divided by equity. If a trader’s margin fraction exceeds the initial margin fraction, a trader will no longer be allowed to increase their position. {LEARN_MORE_URL}"
     },
     "INITIAL_STOP": {
       "TITLE": "Initial Stop",
