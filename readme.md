@@ -33,6 +33,28 @@ Each of them contains a list of language folders, such as
 
 Each folder contains either a list of JSON files ending .json, or text files ending .txt
 
+# Syntax and Structure
+
+Text that goes within tooltip pop ups should go in the config/localization/{language}/tooltips.json
+Other text goes to config/localization/{language}/app.json
+
+Within each json file, find the component/view that your text belongs in (or create a new key for it) and your text.
+
+Typically, tooltips will have both `TITLE` and `BODY` text.
+
+## Parameters
+
+If you need to inject dynamic text or other values, use {} to notate an input parameter.
+
+Ex:
+```
+"SOME_TEXT": "A zebra has {ZEBRA_PATTERN} stripes"
+```
+
+The term within the {} will be the name of the variable used to inject your dynamic values.
+Parameters are quite flexible - you can even insert react components (as long as they can be rendered properly).
+
+
 # Work with Github
 
 The "main" branch cannot be written directly. You must create a separate branch, make the changes there, commit and push the branch, and then create a PR (Push request) to "main"
