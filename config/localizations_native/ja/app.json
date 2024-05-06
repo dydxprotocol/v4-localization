@@ -422,10 +422,10 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。{TRIGGER_PRICE_LIMIT}を下回るトリガー価格を入力するか、ストップリミットオーダーを使用してください。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を下回るトリガー価格を入力するか、ストップリミットオーダーを使用してください。",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "{SYMBOL}のポジションをクローズ、または減らすことのみ可能です。",
       "GEO_LOCATION_RESTRICTED": "パーペチュアルは、米国または制限を受けている地域に居住している自然人、またはそうした地域に拠点を置いて法人化しているか、登録代理人を置いている企業は利用できません。 詳細は利用規約をご参照ください。",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。{TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力するか、ストップリミットオーダーを使用してください。",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力するか、ストップリミットオーダーを使用してください。",
       "CONNECT_WALLET_TO_TRADE": "ウォレットを取引に接続します。",
       "DEPOSIT_TO_TRADE": "取引のために入金します。"
     }
