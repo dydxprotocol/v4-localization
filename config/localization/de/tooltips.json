@@ -252,6 +252,10 @@
       "TITLE": "Verfügbar",
       "BODY": "Sie sind berechtigt! Zahlen Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ein, um eine „gasfreie“ Einzahlung zu ermöglichen."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Brückengebühren",
+      "BODY": "Brückengebühren werden an andere Protokolle gezahlt, um die für diese Einzahlung erforderliche Überbrückung, Übertragung und das Swapping abzuschließen."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Nicht verfügbar",
       "BODY": "Gasless-Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!"
@@ -266,7 +270,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Einzahlungen mit der niedrigsten Gebühr",
-      "BODY": "USDC-Einzahlungen auf {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
+      "BODY": "USDC-Einzahlungen auf  {LOWEST_FEE_TOKEN_NAMES}haben die niedrigsten Gebühren."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Mindesteinzahlungsbetrag",
