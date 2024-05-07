@@ -302,6 +302,12 @@
         "CROSS_SIDE": "{TOKEN}-Position ändern zu {SIDE}"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Nur Schließmodus",
+      "CLOSE_ONLY_BODY": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE} zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf die App gesperrt ist. Bitte besuchen Sie die Weboberfläche, um die nächsten Schritte zu sehen. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-{EMAIL}Mail.",
+      "PERMANENTLY_BLOCKED_TITLE": "Permanent blockiert",
+      "PERMANENTLY_BLOCKED_BODY": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-Mail {EMAIL}"
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Konto eingeschränkt",
       "COMPLIANCE_REQUIRED": "Compliance erforderlich",
