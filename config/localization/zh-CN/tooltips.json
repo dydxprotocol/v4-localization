@@ -252,6 +252,10 @@
       "TITLE": "可用",
       "BODY": "您符合条件！至少存款{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}才能启用无gas存款。"
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "桥接费用",
+      "BODY": "桥接费用支付给其他协议，以完成该押金所需的桥接、转移和交换。"
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "不可用",
       "BODY": "无 gas 存款暂时不可用。别担心，很快就会恢复！"
@@ -266,7 +270,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "最低费用存款",
-      "BODY": " {LOWEST_FEE_TOKEN_NAMES} 的 USDC 存款费用最低。"
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES} 的 USDC 存款费用最低。"
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "最低存款金额",
