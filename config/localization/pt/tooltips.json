@@ -256,9 +256,17 @@
       "TITLE": "Não disponível",
       "BODY": "Depósitos sem cobrança de tarifas estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "",
+      "BODY": ""
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Depósitos sem taxas",
       "BODY": "A dYdX cobrirá suas taxas de gás se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem cobrança de tarifa a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "",
+      "BODY": ""
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Valor mínimo do depósito ",
@@ -289,6 +297,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Taxa de saque rápido",
       "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobre os custos de “gás” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Layer 2)."
+    },
+    "GAS_FEES":{
+      "TITLE": "",
+      "BODY": ""
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "",
+      "BODY": ""
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "",
+      "BODY": ""
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Valor mínimo recebido",
