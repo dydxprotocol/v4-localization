@@ -256,9 +256,17 @@
       "TITLE": "사용할 수 없음",
       "BODY": "가스 수수료 면제 입금이 일시적으로 불가능합니다. 걱정 마세요, 곧 복구될 예정입니다!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "가스 수수료",
+      "BODY": "가스 수수료는 소스 체인의 거래 수수료입니다(이 경우 {SOURCE_CHAIN})."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "가스 수수료 면제 입금",
       "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}이상의 금액을 입금하면 dYdX가 가스 수수료를 대신 부담합니다. 3일마다 가스 수수료를 1회 면제받으실 수 있습니다. 가스 수수료 면제 입금에는 규칙이 적용됩니다."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "최저 수수료 예금",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES}에 USDC 입급이 수수료가 가장 낮습니다."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "최소 입금 금액",
@@ -289,6 +297,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "빠른 인출 수수료",
       "BODY": "빠른 인출은 즉시 전송되며 dYdX는 수수료를 받는 대신 가스 비용을 부담합니다. 수수료 없이 인출하려면, 느린 인출을 사용하십시오(사용자가 본인의 가스 비용을 지불하며 레이어 2 확인을 기다려야 합니다)."
+    },
+    "GAS_FEES":{
+      "TITLE": "가스 수수료",
+      "BODY": "가스 수수료는 소스 체인의 거래 수수료입니다(이 경우 dYdX)."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "최저 수수료 인출",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES}에서 USDC 인출이 수수료가 가장 낮습니다. "
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "브리지 수수료",
+      "BODY": "이 인출에 필요한 브리징, 전송 및 스왑을 완료하기 위해 브리지 수수료가 다른 프로토콜에 지불됩니다."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "최소 수령 금액",
