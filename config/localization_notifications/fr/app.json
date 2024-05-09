@@ -4,6 +4,10 @@
       "TITLE": "Récompense gagnée",
       "BODY": "Vous avez gagné {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} une récompense de trading."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "",
+      "BODY": ""
+    },
     "DELEVERAGED": {
       "TITLE": "Position désendettée",
       "BODY": "Votre {SIDE}position ci-dessus{MARKET} a été désendettée."
