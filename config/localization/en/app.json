@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "Wait {SECONDS} second...",
       "SYNC_WITH_DESKTOP": "Sync with Desktop",
       "WHILE_ONBOARDING": "While onboarding to the mobile app, select the {SYNC_WITH_DESKTOP} option.",
+      "VERIFICATION_CODE": "Verification code: {CODE}",
       "NEVER_SHARE": "Never ever share this code with anyone!",
       "READY": "Ready to scan?",
       "NOT_READY": "Not in a safe place?",
