@@ -302,6 +302,12 @@
         "CROSS_SIDE": "更改{TOKEN}头寸为{SIDE}"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "仅平仓模式",
+      "CLOSE_ONLY_BODY": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。您必须在 {DATE} 之前提取资金，以免无法访问应用程序。 请访问网站界面，查看后续步骤。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
+      "PERMANENTLY_BLOCKED_TITLE": "永久禁止",
+      "PERMANENTLY_BLOCKED_BODY": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请发送电子邮件至 {EMAIL}"
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "账户受限",
       "COMPLIANCE_REQUIRED": "合规要求",

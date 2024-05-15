@@ -4,6 +4,10 @@
       "TITLE": "보상 획득",
       "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}거래 보상을 획득했습니다."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "새롭게 고친 조건부 주문 경험!",
+      "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용{TWITTER_LINK}을 확인하십시오."
+    },
     "DELEVERAGED": {
       "TITLE": "포지션 차감",
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감되었습니다."
