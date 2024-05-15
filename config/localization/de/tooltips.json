@@ -252,13 +252,25 @@
       "TITLE": "Verfügbar",
       "BODY": "Sie sind berechtigt! Zahlen Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ein, um eine „gasfreie“ Einzahlung zu ermöglichen."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Brückengebühren",
+      "BODY": "Brückengebühren werden an andere Protokolle gezahlt, um die für diese Einzahlung erforderliche Überbrückung, Übertragung und das Swapping abzuschließen."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Nicht verfügbar",
       "BODY": "Gasless-Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Gasgebühren",
+      "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasfreie Einlagen",
       "BODY": "dYdX übernimmt Ihre Gas-Kosten, wenn Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen. Sie haben alle drei Tage Anspruch auf eine Einzahlung ohne Gas. Die Einzahlungen ohne Gas unterliegen bestimmten Regeln."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Einzahlungen mit der niedrigsten Gebühr",
+      "BODY": "USDC-Einzahlungen auf  {LOWEST_FEE_TOKEN_NAMES}haben die niedrigsten Gebühren."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Mindesteinzahlungsbetrag",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Gebühr für schnelle Auszahlung",
       "BODY": "Schnelle Auszahlungen werden sofort versandt und dYdX übernimmt die Gaskosten im Austausch gegen eine Gebühr. Für gebührenfreie Auszahlungen verwenden Sie bitte eine langsame Auszahlung (Sie zahlen Ihre eigenen Gaskosten und müssen die Layer 2-Bestätigung abwarten.)"
+    },
+    "GAS_FEES":{
+      "TITLE": "Gasgebühren",
+      "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Auszahlungen mit der niedrigsten Gebühr",
+      "BODY": "USDC-Auszahlungen auf {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Brückengebühren",
+      "BODY": "Brückengebühren werden an andere Protokolle gezahlt, um die für diese Auszahlung erforderliche Überbrückung, Übertragung und das Swapping abzuschließen."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Erhaltener Mindestbetrag",

@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Network Mismatch",
       "SWITCH_WALLET": "Please switch your wallet to {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Unable to obtain account",
-      "ENTER_CODE": "Enter the decoding key"
+      "ENTER_CODE": "Enter the verification code"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Create Profile"
