@@ -252,13 +252,25 @@
       "TITLE": "Disponível",
       "BODY": "Você atende aos requisitos! Depositar pelo menos {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} para habilitar o depósito sem cobrança de tarifa"
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Taxas de Bridge",
+      "BODY": "As taxas de  Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este depósito."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Não disponível",
       "BODY": "Depósitos sem cobrança de tarifas estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Taxas de \"gas\"",
+      "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Depósitos sem taxas",
       "BODY": "A dYdX cobrirá suas taxas de gás se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem cobrança de tarifa a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Depósitos de taxa mais baixa",
+      "BODY": "Os depósitos em USDC em {LOWEST_FEE_TOKEN_NAMES} têm as taxas mais baixas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Valor mínimo do depósito ",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Taxa de saque rápido",
       "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobre os custos de “gás” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Layer 2)."
+    },
+    "GAS_FEES":{
+      "TITLE": "Taxas de \"gas\"",
+      "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Saques de taxa mais baixa",
+      "BODY": "Os saques em USDC em {LOWEST_FEE_TOKEN_NAMES} têm as taxas mais baixas."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Taxas de Bridge",
+      "BODY": "As taxas de  Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este saque."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Valor mínimo recebido",

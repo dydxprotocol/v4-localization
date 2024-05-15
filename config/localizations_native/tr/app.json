@@ -302,6 +302,12 @@
         "CROSS_SIDE": "{TOKEN} pozisyonunu {SIDE} ile değiştirin"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Sadece kapatma modu",
+      "CLOSE_ONLY_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Uygulamaya erişiminiz engellenmeden önce paranızı çekmek için {DATE} tarihine kadar vaktiniz bulunuyor. Sonraki adımları görmek için lütfen web arayüzünü ziyaret edin. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
+      "PERMANENTLY_BLOCKED_TITLE": "Kalıcı olarak engellendi",
+      "PERMANENTLY_BLOCKED_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin"
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Hesap Kısıtlandı",
       "COMPLIANCE_REQUIRED": "Uyum Gerekiyor",
