@@ -4,6 +4,10 @@
       "TITLE": "Kazanılan Ödül",
       "BODY": "Alım satım ödülü olarak {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} kazandınız."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "Yenilenmiş koşullu talimat deneyimi!",
+      "BODY": "dYdX Zinciri üzerinde koşullu talimatlar tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, içgüdüsel ve performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
+    },
     "DELEVERAGED": {
       "TITLE": "Pozisyon kaldıraçsızlaştırıldı",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."

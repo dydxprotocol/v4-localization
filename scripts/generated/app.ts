@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -484,6 +484,8 @@ export const APP_STRING_KEYS = {
     SHARE_DYDX: 'APP.GENERAL.SHARE_DYDX',
     SHARE_MESSAGE: 'APP.GENERAL.SHARE_MESSAGE',
     SHORT_POSITION_SHORT: 'APP.GENERAL.SHORT_POSITION_SHORT',
+    SHOW: 'APP.GENERAL.SHOW',
+    SHOWING_NUM_OUT_OF_TOTAL: 'APP.GENERAL.SHOWING_NUM_OUT_OF_TOTAL',
     SHOW_ALL_DETAILS: 'APP.GENERAL.SHOW_ALL_DETAILS',
     SIDE: 'APP.GENERAL.SIDE',
     SIGN_OUT: 'APP.GENERAL.SIGN_OUT',
