@@ -252,13 +252,25 @@
       "TITLE": "可用",
       "BODY": "您符合条件！至少存款{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}才能启用无gas存款。"
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "桥接费用",
+      "BODY": "桥接费用支付给其他协议，以完成该押金所需的桥接、转移和交换。"
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "不可用",
       "BODY": "无 gas 存款暂时不可用。别担心，很快就会恢复！"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Gas 费",
+      "BODY": "在这种情况下{SOURCE_CHAIN}，Gas 费用是源链上的交易费用。"
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "无 gas 存款",
       "BODY": "如果您存入{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}或更多，dYdX会支付您的gas费用。您有资格每三天获得一次无 gas 存款。无 gas 存款受规则约束。"
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "最低费用存款",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES} 的 USDC 存款费用最低。"
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "最低存款金额",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "快速提现费",
       "BODY": "高速出金は直ちに送金され、dYdXが手数料と引き換えにGasコストを負担します。手数料がかからない出金については、通常出金（お客様がGasコストを負担するほか、レイヤー2の承認を待つ必要があります）をご利用ください。"
+    },
+    "GAS_FEES":{
+      "TITLE": "Gas 费",
+      "BODY": "在 DYDX 的情况下，Gas 费用是源链上的交易费用。"
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "提现费用最低",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES} 的 USDC 提现费用最低。"
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "桥接费用",
+      "BODY": "桥接费用支付给其他协议，以完成该提现所需的桥接、转移和交换。"
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "最低收到金额",
