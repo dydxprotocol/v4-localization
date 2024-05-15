@@ -4,6 +4,10 @@
       "TITLE": "已获得的奖励",
       "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "刷新有条件订单体验！",
+      "BODY": "dYdX 链上的有条件订单已完全修改！ 现在比以往任何时候都更可靠、直观且高性能。 查看更多详细信息 {TWITTER_LINK}。"
+    },
     "DELEVERAGED": {
       "TITLE": "头寸去杠杆化",
       "BODY": "您在{MARKET}中的{SIDE}头寸已去杠杆化。"
