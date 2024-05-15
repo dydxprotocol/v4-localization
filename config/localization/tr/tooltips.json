@@ -252,6 +252,10 @@
       "TITLE": "Mevcut",
       "BODY": "Uygunsunuz! Gazsız yatırma işlemini etkinleştirmek için en az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} yatırın."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Köprü Ücretleri",
+      "BODY": "Köprü ücretleri, bu yatırma işlemi için gereken köprüleme, aktarma ve takas işlemlerini gerçekleştirmek için diğer protokollere ödenir."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Kullanılamıyor",
       "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!"
