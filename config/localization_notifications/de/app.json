@@ -4,6 +4,10 @@
       "TITLE": "Verdiente Prämie",
       "BODY": "Sie haben eine {BLOCK_REWARD_AMOUNT}{TOKEN_NAME}Handelsprämie verdient."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "Aktualisiertes bedingtes Order-Erlebnis!",
+      "BODY": "Bedingte Orders auf dYdX Chain wurden vollständig überarbeitet! Jetzt zuverlässiger, intuitiver und leistungsfähiger als je zuvor. Sehen Sie sich weitere Details an {TWITTER_LINK}."
+    },
     "DELEVERAGED": {
       "TITLE": "Position entschuldet",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde entschuldet."
