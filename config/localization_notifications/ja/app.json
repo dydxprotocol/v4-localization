@@ -4,6 +4,10 @@
       "TITLE": "獲得した報酬",
       "BODY": "取引報酬の{BLOCK_REWARD_AMOUNT} {TOKEN_NAME}を獲得しました。"
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "条件付き注文体験を更新しました！",
+      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ これまで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細を確認する {TWITTER_LINK}。"
+    },
     "DELEVERAGED": {
       "TITLE": "レバレッジを解消されたポジション",
       "BODY": "{MARKET}の{SIDE}ポジションはレバレッジ解消されました。"
