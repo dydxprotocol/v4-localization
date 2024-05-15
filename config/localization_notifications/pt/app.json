@@ -4,6 +4,10 @@
       "TITLE": "Recompensa recebida",
       "BODY": "Você ganhou {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} como recompensa de trading."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "Experiência de ordem condicional atualizada!",
+      "BODY": "As ordens condicionais na cadeia dYdX foram completamente renovadas! Agora mais confiável, intuitiva e com mais desempenho do que nunca. Confira mais detalhes {TWITTER_LINK}."
+    },
     "DELEVERAGED": {
       "TITLE": "Posição desalavancada",
       "BODY": "Sua {SIDE} posição em {MARKET} foi desalavancada."
