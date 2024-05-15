@@ -256,9 +256,17 @@
       "TITLE": "Kullanılamıyor",
       "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Gaz Ücretleri",
+      "BODY": "Gaz ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
+    },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Gazsız yatırma işlemleri",
+      "TITLE": "Gas'sız yatırma işlemleri",
       "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "En Düşük Ücretli Yatırma İşlemleri",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES} üzerindeki USDC yatırma işlemleri en düşük ücretlere sahiptir."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Minimum Yatırma Miktarı",
@@ -289,6 +297,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
       "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas maliyetlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+    },
+    "GAS_FEES":{
+      "TITLE": "Gaz Ücretleri",
+      "BODY": "Gaz ücretleri, bu örnekte dYdX olan kaynak zincirdeki işlem ücretleridir."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "En Düşük Ücretli Çekme İşlemleri",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES} üzerine yapılan USDC çekme işlemleri, en düşük ücretlere sahiptir."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Köprü Ücretleri",
+      "BODY": "Köprü ücretleri, bu çekme işlemi için gereken köprüleme, aktarma ve takas işlemlerini gerçekleştirmek için diğer protokollere ödenir."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Alınan Minimum Miktar",
