@@ -252,13 +252,25 @@
       "TITLE": "Disponible",
       "BODY": "¡Eres elegible! Deposita al menos  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}para permitir el depósito sin gas."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Tarifas de puente",
+      "BODY": "Las tarifas de puente se pagan a otros protocolos para completar el puente, la transferencia y el intercambio necesarios para este depósito."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "No disponible",
       "BODY": "Los depósitos sin gas no están disponibles. No te preocupes, ¡volverán pronto!"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Tarifas de gas",
+      "BODY": "Las tarifas de gas son tarifas de transacción en la cadena fuente, en este caso {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Depósitos sin gas",
       "BODY": "dYdX cubrirá tus tarifas de gas si depositas {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} o más. Eres elegible para un depósito sin gas cada tres días. Los depósitos sin gas están sujetos a ciertas reglas."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Depósitos de tarifa más baja",
+      "BODY": "Los depósitos USDC en {LOWEST_FEE_TOKEN_NAMES} tienen las tarifas más bajas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Cantidad a depositar mínima",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Tasa de retiro rápido",
       "BODY": "Los retiros rápidos se envían de inmediato y dYdX cubrirá los costos del gas a cambio de una tasa. Para retiros sin cargo, usa un retiro lento (pagarás tus propios costos de gas y tendrás que esperar la confirmación de la etapa 2)."
+    },
+    "GAS_FEES":{
+      "TITLE": "Tarifas de gas",
+      "BODY": "Las tarifas de gas son tarifas de transacción en la cadena fuente, en este caso dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Retiros de la tarifa más baja",
+      "BODY": "Los retiros de USDC en {LOWEST_FEE_TOKEN_NAMES} tienen las tarifas más bajas."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Tarifas de puente",
+      "BODY": "Las tarifas de puente se pagan a otros protocolos para completar el puente, la transferencia y el intercambio necesarios para este retiro."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Cantidad mínima recibida",

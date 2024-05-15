@@ -302,6 +302,12 @@
         "CROSS_SIDE": "Cambiar {TOKEN}posición a{SIDE}"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Modo de solo cierre",
+      "CLOSE_ONLY_BODY": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE} para retirar tus fondos antes de que se bloquee tu acceso a la aplicación. Visita la interfaz web para ver los próximos pasos. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
+      "PERMANENTLY_BLOCKED_TITLE": "Bloqueado permanentemente",
+      "PERMANENTLY_BLOCKED_BODY": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}"
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Cuenta restringida",
       "COMPLIANCE_REQUIRED": "Se requiere cumplimiento",
