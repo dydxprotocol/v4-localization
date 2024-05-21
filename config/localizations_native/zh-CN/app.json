@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "网络不匹配",
       "SWITCH_WALLET": "请将钱包切换到{WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "无法获得账户",
-      "ENTER_CODE": "输入解码密钥"
+      "ENTER_CODE": "输入验证码"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "创建个人资料"
