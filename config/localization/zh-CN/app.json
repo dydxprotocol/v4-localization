@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "等待{SECONDS}秒...",
       "SYNC_WITH_DESKTOP": "与桌面同步",
       "WHILE_ONBOARDING": "在进入移动应用程序时，选择{SYNC_WITH_DESKTOP}选项。",
+      "VERIFICATION_CODE": "验证码：{CODE}",
       "NEVER_SHARE": "永远不要与任何人共享此码！",
       "READY": "是否准备进行扫描？",
       "NOT_READY": "不是在安全的地方？",
