@@ -37,7 +37,7 @@
     },
     "BUYING_POWER": {
       "TITLE": "Kaufkraft",
-      "BODY": "Vollständig verfügbare Kaufkraft zur Stärkung Ihrer Position auf {MARKET}. Ihre Kaufkraft wird sich je nach gewähltem Markt ändern."
+      "BODY": "Dies stellt Ihre gesamte verfügbare Kaufkraft dar. Ihre Kaufkraft basiert auf der maximalen auf der Börse verfügbaren Hebelwirkung und wird sich nicht auf der Grundlage des von Ihnen ausgewählten Marktes ändern."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Benutzerdefinierter Betrag",
