@@ -5,8 +5,8 @@
       "BODY": "Vous avez gagné {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} une récompense de trading."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
-      "TITLE": "",
-      "BODY": ""
+      "TITLE": "Expérience de commande conditionnée actualisée !",
+      "BODY": "Les commandes conditionnées sur la chaîne dYdX ont été complètement revues. Elles sont désormais plus fiables, plus intuitives et plus performantes que jamais. Voir plus de détails {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Position désendettée",
