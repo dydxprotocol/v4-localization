@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Falsches Netzwerk",
       "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um.",
       "WALLET_ACCOUNT_ERROR": "Kann kein Konto erhalten",
-      "ENTER_CODE": "Geben Sie den Decodierungsschlüssel ein"
+      "ENTER_CODE": "Geben Sie den Bestätigungscode ein"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil erstellen"

@@ -252,13 +252,25 @@
       "TITLE": "Disponible",
       "BODY": "Vous êtes éligible ! Dépôt d'au moins  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}pour permettre le dépôt sans frais de gaz."
     },
+    "BRIDGE_FEES_DEPOSIT":{
+      "TITLE": "Frais de bridge",
+      "BODY": "Les frais de transaction sont payés à d'autres protocoles afin de compléter le bridging, le transfert et l'échange requis pour ce retrait."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Indisponible",
       "BODY": "Les dépôts sans gas sont temporairement indisponibles. Ne vous inquiétez pas, ils seront bientôt de retour !"
     },
+    "GAS_FEES_DEPOSIT":{
+      "TITLE": "Frais de gaz",
+      "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Dépôts sans gas",
       "BODY": "dYdX couvrira vos frais de gaz si vous déposez  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Dépôts de frais les plus bas",
+      "BODY": "Les dépôts USDC sur  {LOWEST_FEE_TOKEN_NAMES}ont les frais les plus bas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Montant du dépôt minimum",
@@ -289,6 +301,18 @@
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Frais de retrait rapide",
       "BODY": "Les retraits rapides sont envoyés immédiatement et dYdX couvrira les frais de gaz en échange d'une commission. Pour les retraits sans frais, veuillez utiliser un retrait lent (vous payez vos propres frais de gaz et devrez attendre la confirmation de la couche 2)."
+    },
+    "GAS_FEES":{
+      "TITLE": "Frais de gaz",
+      "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Retraits à frais les plus bas",
+      "BODY": "Les retraits USDC vers {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
+    },
+    "BRIDGE_FEES":{
+      "TITLE": "Frais de bridge",
+      "BODY": "Les frais de transaction sont payés à d'autres protocoles afin de compléter le bridging, le transfert et l'échange requis pour ce retrait."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Montant minimum reçu",

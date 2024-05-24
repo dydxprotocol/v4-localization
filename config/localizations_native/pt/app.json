@@ -302,6 +302,12 @@
         "CROSS_SIDE": "Mudar posição em {TOKEN} para {SIDE}"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Modo Somente fechamento",
+      "CLOSE_ONLY_BODY": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes que seu acesso ao aplicativo ser bloqueado. Visite a interface da web para ver as próximas etapas. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
+      "PERMANENTLY_BLOCKED_TITLE": "Bloqueado permanentemente",
+      "PERMANENTLY_BLOCKED_BODY": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}"
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Conta restrita",
       "COMPLIANCE_REQUIRED": "Conformidade obrigatória",
