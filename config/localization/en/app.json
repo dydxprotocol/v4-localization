@@ -1131,7 +1131,7 @@
       "ADD_TAKE_PROFIT": "Add take profit",
       "ADJUST_ISOLATED_MARGIN": "Adjust Isolated Margin",
       "ADJUST_TARGET_LEVERAGE": "Adjust Target Leverage",
-      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Adjusting target leverage will not adjust margin until a new order is placed. For more information on target leverage, see {HERE}.",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Target leverage determines the amount of margin applied to your next order. Adjusting target leverage will not transfer margin until a new order is placed.",
       "AMOUNT_FILLED": "Filled",
       "ANNUALIZED": "Annualized",
       "ASKS": "Asks",
