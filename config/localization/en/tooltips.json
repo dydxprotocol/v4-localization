@@ -37,7 +37,7 @@
     },
     "BUYING_POWER": {
       "TITLE": "Buying Power",
-      "BODY": "Total available buying power to increase your position on {MARKET}. Your buying power will change based on the market you have selected."
+      "BODY": "This represents your total available buying power. Your buying power is based on the max leverage available on the exchange, and will not change based on the market you have selected."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Custom Amount",
