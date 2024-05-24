@@ -340,6 +340,7 @@
       "VIEW_LESS": "View less",
       "VIEW_MORE": "View more",
       "VIEW_OPTIONS": "View options",
+      "VIEW_ORDER": "View order",
       "VIEW": "View",
       "VIEW_ALL": "View all →",
       "VIEWS": "Views",
@@ -1243,6 +1244,7 @@
       "MODIFY_GOOD_TIL": "Modify Good Til",
       "MODIFY_PRICE": "Modify price",
       "MODIFY_SIZE_FIELD": "Modify amount",
+      "MODIFY_TARGET_LEVERAGE": "Modify target leverage",
       "MODIFY_TRAILING_PERCENT": "Modify trailing %",
       "MODIFY_TRIGGER_PRICE": "Modify trigger price",
       "MULTIPLE_ARROW": "Multiple →",
@@ -2065,6 +2067,8 @@
       "ORDER_WOULD_FLIP_POSITION": "This order would flip or increase your position. Please uncheck Reduce-Only or reduce your order size.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price above {TRIGGER_PRICE_LIMIT} or use a Stop Limit order.",
       "TAKER_FEE_INVALID": "Your fee rates may have changed. Please refresh the app and try again.",
+      "TARGET_LEVERAGE_NEGATIVE": "Your target leverage cannot be negative. Please enter a positive number.",
+      "TARGET_LEVERAGE_TOO_HIGH": "Your target leverage is too high. Please reduce your target leverage.",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "Your trigger price must be above the current oracle price: {INDEX_PRICE}.",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Your trigger price must be below the current oracle price: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please update your trigger price or use a Stop Limit order.",
@@ -2081,6 +2085,7 @@
       "INVALID_LARGE_POSITION_LEVERAGE": "Invalid leverage",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Margin too high",
       "INVALID_NEW_POSITION_LEVERAGE": "Invalid leverage",
+      "INVALID_TARGET_LEVERAGE": "Invalid target leverage",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Close position only",
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Too much slippage",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Too much slippage",
@@ -2209,6 +2214,10 @@
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
       "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
       "TRANSFER_INSUFFICIENT_GAS": "The USDC balance {USDC_BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds."
+    },
+    "ADJUST_ISOLATED_MARGIN": {
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
+      "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Please enter a valid amount."
     },
     "NEW_MARKET_WIDGET": {
       "NOT_ENOUGH_BALANCE": "You need at least {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} to add a market."
