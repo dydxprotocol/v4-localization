@@ -254,7 +254,7 @@
     },
     "BRIDGE_FEES_DEPOSIT":{
       "TITLE": "Frais de bridge",
-      "BODY": ""
+      "BODY": "Les frais de transaction sont payés à d'autres protocoles afin de compléter le bridging, le transfert et l'échange requis pour ce retrait."
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Indisponible",
@@ -270,7 +270,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Dépôts de frais les plus bas",
-      "BODY": ""
+      "BODY": "Les dépôts USDC sur  {LOWEST_FEE_TOKEN_NAMES}ont les frais les plus bas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Montant du dépôt minimum",
