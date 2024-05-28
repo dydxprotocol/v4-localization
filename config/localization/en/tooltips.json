@@ -39,6 +39,14 @@
       "TITLE": "Buying Power",
       "BODY": "This represents your total available buying power. Your buying power is based on the max leverage available on the exchange, and will not change based on the market you have selected."
     },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Cross Free Collateral",
+      "BODY": "Amount of collateral that is available to be withdrawn from your cross margin account."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Cross Margin Usage",
+      "BODY": "Percentage of your total cross margin used by open positions."
+    },
     "CUSTOM_AMOUNT": {
       "TITLE": "Custom Amount",
       "BODY": "Adjusting your custom amount will apply to both Take Profit and Stop Loss orders."
@@ -244,7 +252,7 @@
       "BODY": "Total profit / loss if you were to fully close the remainder of your current position at the current oracle price. Resets if you close your position or change position sides (long to short, or vice versa)."
     },
     "REWARD_HISTORY": {
-        "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
+      "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
     }
   },
   "DEPOSIT": {
@@ -252,7 +260,7 @@
       "TITLE": "Available",
       "BODY": "You are eligible! Deposit at least {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} to enable gasless deposit."
     },
-    "BRIDGE_FEES_DEPOSIT":{
+    "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Bridge Fees",
       "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this deposit."
     },
@@ -260,7 +268,7 @@
       "TITLE": "Unavailable",
       "BODY": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!"
     },
-    "GAS_FEES_DEPOSIT":{
+    "GAS_FEES_DEPOSIT": {
       "TITLE": "Gas Fees",
       "BODY": "Gas fees are transaction fees on the source chain, in this case {SOURCE_CHAIN}."
     },
@@ -302,7 +310,7 @@
       "TITLE": "Fast Withdraw Fee",
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
     },
-    "GAS_FEES":{
+    "GAS_FEES": {
       "TITLE": "Gas Fees",
       "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX."
     },
@@ -310,7 +318,7 @@
       "TITLE": "Lowest Fee Withdrawals",
       "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
     },
-    "BRIDGE_FEES":{
+    "BRIDGE_FEES": {
       "TITLE": "Bridge Fees",
       "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this withdrawal."
     },
