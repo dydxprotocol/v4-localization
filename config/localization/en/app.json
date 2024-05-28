@@ -1861,7 +1861,15 @@
       "DONT_SHOW": "Don’t show anyone this!",
       "TAP_TO_REVEAL": "Tap to reveal"
     },
+    "EQUITY_TIERS":{
+      "EQUITY_TIERS": "Equity Tiers",
+      "NET_COLLATERAL": "Net Collateral",
+      "LONG_TERM_OR_CONDITIONAL_ORDERS": "Long-term or Conditional orders",
+      "EQUITY_TIERS_DESCRIPTION": "Limit on how many open orders a subaccount is allowed to have",
+      "EQUITY_TIERS_DESCRIPTION_LONG": "Equity tier limit defines the set of equity tiers to limit how many open orders a subaccount is allowed to have."
+    },
     "FEE_TIERS": {
+      "FEE_TIERS": "Fee Tiers",
       "ADDITIONAL_CONDITION": "Additional Condition",
       "AND_EXCHANGE_MARKET_SHARE": "and exchange market share",
       "AND_MAKER_MARKET_SHARE": "and maker market share",
