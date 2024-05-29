@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "{SECONDS}초만 기다리십시오...",
       "SYNC_WITH_DESKTOP": "데스크톱 동기화",
       "WHILE_ONBOARDING": "모바일 앱으로 온보딩하는 동안 {SYNC_WITH_DESKTOP}옵션을 선택하십시오.",
+      "VERIFICATION_CODE": "확인 코드: {CODE}",
       "NEVER_SHARE": "이 코드는 누구와도 공유하지 마세요!",
       "READY": "스캔하시겠습니까?",
       "NOT_READY": "안전한 장소가 아닌가요?",
