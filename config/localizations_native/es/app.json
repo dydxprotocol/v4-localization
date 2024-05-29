@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "La red no coincide",
       "SWITCH_WALLET": "Cambia tu billetera a{WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "No se puede obtener la cuenta.",
-      "ENTER_CODE": "Ingresa la clave de decodificación"
+      "ENTER_CODE": "Ingresa el código de verificación"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Crear perfil"
