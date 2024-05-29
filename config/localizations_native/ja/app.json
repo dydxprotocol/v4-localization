@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "ネットワークの不一致",
       "SWITCH_WALLET": "ウォレットを{WALLET_ADDR}に切り替えてください",
       "WALLET_ACCOUNT_ERROR": "アカウントを獲得できません",
-      "ENTER_CODE": "デコードキーを入力"
+      "ENTER_CODE": "検証コードを入力"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "プロフィールを作成する"
