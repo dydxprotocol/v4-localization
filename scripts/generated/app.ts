@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -262,6 +262,7 @@ export const APP_STRING_KEYS = {
     ADDING: 'APP.GENERAL.ADDING',
     ADDRESS: 'APP.GENERAL.ADDRESS',
     ADD_NEW_MARKET: 'APP.GENERAL.ADD_NEW_MARKET',
+    ADD_NEW_MARKET_CAPITALIZED: 'APP.GENERAL.ADD_NEW_MARKET_CAPITALIZED',
     ADVANCED: 'APP.GENERAL.ADVANCED',
     AI: 'APP.GENERAL.AI',
     ALERTS: 'APP.GENERAL.ALERTS',
