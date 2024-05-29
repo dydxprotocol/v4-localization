@@ -48,6 +48,8 @@
       "INSTALL": "Установить",
       "INSTALLED": "Установлено",
       "IOS_APP_BETA": "Бета-версия приложения для iOS",
+      "ISOLATED_POSITIONS_COMING_SOON": "Изолированные позиции скоро станут доступны на мобильных устройствах",
+      "ISOLATED_POSITION_ORDERS_COMING_SOON": "Ордера на изолированные позиции скоро станут доступны на мобильных устройствах",
       "LAYER_2": "Уровень 2",
       "LEADERBOARDS": "Списки лидеров",
       "LEARN_MORE_ABOUT_WALLETS": "Узнать больше о кошельках",
@@ -163,7 +165,7 @@
       "NETWORK_MISMATCH": "Несоответствие сети",
       "SWITCH_WALLET": "Переключите кошелек на {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Не удалось получить счет",
-      "ENTER_CODE": "Введите ключ декодирования"
+      "ENTER_CODE": "Введите код проверки"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Создать профиль"
