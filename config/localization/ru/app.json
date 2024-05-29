@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "Подождите {SECONDS} с...",
       "SYNC_WITH_DESKTOP": "Синхронизация с версией для настольного компьютера",
       "WHILE_ONBOARDING": "При регистрации в мобильном приложении выберите параметр {SYNC_WITH_DESKTOP}.",
+      "VERIFICATION_CODE": "Код проверки: {CODE}",
       "NEVER_SHARE": "Никому не сообщайте этот код.",
       "READY": "Готовы к сканированию?",
       "NOT_READY": "Вы не в безопасном месте?",
