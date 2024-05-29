@@ -37,7 +37,7 @@
     },
     "BUYING_POWER": {
       "TITLE": "Satın Alma Gücü",
-      "BODY": "{MARKET} üzerindeki pozisyonlarınızı artırmak için kullanabileceğiniz toplam satın alma gücü. Satın alma gücünüz seçtiğiniz piyasaya göre değişecektir."
+      "BODY": "Bu değer, mevcut satın alma gücünüzü ifade eder. Satın alma gücünüz, borsada mevcut olan maksimum kaldıraca dayanır ve seçtiğiniz piyasaya bağlı olarak değişmez."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Özel Miktar",
