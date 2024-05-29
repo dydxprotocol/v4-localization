@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "Lütfen {SECONDS} saniye bekleyin...",
       "SYNC_WITH_DESKTOP": "Masaüstü ile eşitle",
       "WHILE_ONBOARDING": "Mobil uygulamaya kayıt sırasında {SYNC_WITH_DESKTOP} tercihini seçin.",
+      "VERIFICATION_CODE": "Doğrulama kodu: {CODE}",
       "NEVER_SHARE": "Bu kodu asla kimseyle paylaşmayın!",
       "READY": "Taramaya hazır mısınız?",
       "NOT_READY": "Güvenli bir yerde değil misiniz?",
