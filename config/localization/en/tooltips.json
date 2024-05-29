@@ -231,6 +231,10 @@
       "TITLE": "Take Profit",
       "BODY": "Allows traders to set targets and protects profits on positions by specifying a price at which to close an open position for profit."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Target Leverage",
+      "BODY": "Target Leverage set to {TARGET_LEVERAGE}×, which determines the amount of margin used for your next order."
+    },
     "TICK_SIZE": {
       "TITLE": "Tick Size",
       "BODY": "Tick size is the minimum price movement on this market."
