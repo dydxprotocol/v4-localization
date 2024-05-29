@@ -37,7 +37,7 @@
     },
     "BUYING_POWER": {
       "TITLE": "Pouvoir d'achat",
-      "BODY": "Pouvoir d'achat total disponible pour augmenter votre position sur  {MARKET}. Votre pouvoir d'achat changera en fonction du marché que vous avez sélectionné."
+      "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximum disponible sur la bourse, et ne changera pas en fonction du marché que vous avez sélectionné."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Montant personnalisé",

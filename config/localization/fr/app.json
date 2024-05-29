@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "Attendre {SECONDS} seconde...",
       "SYNC_WITH_DESKTOP": "Synchronisez avec Desktop",
       "WHILE_ONBOARDING": "Lors de l'intégration à l'application mobile, sélectionnez l'option {SYNC_WITH_DESKTOP}.",
+      "VERIFICATION_CODE": "Code de vérification : {CODE}",
       "NEVER_SHARE": "Ne partagez jamais ce code avec qui que ce soit !",
       "READY": "Prêt à scanner ?",
       "NOT_READY": "Pas dans un endroit sûr ?",
