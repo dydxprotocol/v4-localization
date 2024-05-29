@@ -37,7 +37,7 @@
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
-      "BODY": "Poder de compra disponível para aumentar sua posição em {MARKET}. Seu poder de compra será alterado com base no mercado selecionado."
+      "BODY": "Isso representa o seu poder de compra total disponível. Seu poder de compra é baseado na alavancagem máxima disponível no câmbio e não será alterado com base no mercado selecionado."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Valor personalizado",

@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "Aguarde {SECONDS} segundo...",
       "SYNC_WITH_DESKTOP": "Sincronizar com desktop",
       "WHILE_ONBOARDING": "Ao realizar o acesso no aplicativo móvel, selecione a opção {SYNC_WITH_DESKTOP}.",
+      "VERIFICATION_CODE": "Código de verificação: {CODE}",
       "NEVER_SHARE": "Nunca compartilhe este código com ninguém!",
       "READY": "Pronto para escanear?",
       "NOT_READY": "Não está em um lugar seguro?",

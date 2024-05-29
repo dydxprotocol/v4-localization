@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Incompatibilidade de rede",
       "SWITCH_WALLET": "Mude sua carteira para {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Não foi possível obter a conta",
-      "ENTER_CODE": "Digite a chave de decodificação"
+      "ENTER_CODE": "Insira o código de verificação"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Crie um perfil"
