@@ -876,6 +876,7 @@
       "WAIT_SECONDS_SINGULAR": "{SECONDS}秒間お待ちください",
       "SYNC_WITH_DESKTOP": "デスクトップとの同期",
       "WHILE_ONBOARDING": "モバイルアプリにオンボーディングする場合、{SYNC_WITH_DESKTOP}オプションを選択してください。",
+      "VERIFICATION_CODE": "検証コード： {CODE}",
       "NEVER_SHARE": "このコードは絶対に他の人と共有しないでください！",
       "READY": "スキャンの準備はできていますか？",
       "NOT_READY": "安全な場所ではありませんか？",
