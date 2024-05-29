@@ -1461,7 +1461,7 @@
       "ADJUSTED_IMR_BODY": "We have temporarily {ACTION} the Initial Margin Requirements on {MARKET} to {PERCENT} due to volatility. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Block Reward",
       "CHAIN_DISRUPTION_DETECTED": "Potential chain disruption detected",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "There is a potential dYdX Chain disruption. Please try to refresh the page, and check the status page below. In the case of a chain disruption, trading and transferring is temporarily disabled. Your funds are safe.",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "There is a potential dYdX Chain disruption. Please check the status page and refresh. In the case of a chain disruption, trading and transfers are temporarily disabled. Your funds are safe.",
       "CLICK_TO_VIEW": "Click to view",
       "CLOSE_MARKET_POSITIONS": "Close your {MARKET} position",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} is set to close only mode and the close price of {MARKET} is now fixed. Please close your open {MARKET} position as soon as you are able. We're here to help via the help chat if you run into issues.",
