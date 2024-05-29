@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Discordance de réseau",
       "SWITCH_WALLET": "Veuillez changer portefeuille à {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Impossible d'obtenir un compte",
-      "ENTER_CODE": "Entrer la clé de décodage"
+      "ENTER_CODE": "Saisir le code de vérification"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Créer un profil"
