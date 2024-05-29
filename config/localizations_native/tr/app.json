@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Ağ Uyumsuzluğu",
       "SWITCH_WALLET": "Lütfen cüzdanınızı {WALLET_ADDR} ile değiştirin",
       "WALLET_ACCOUNT_ERROR": "Hesap alınamadı",
-      "ENTER_CODE": "Kod çözme anahtarını girin"
+      "ENTER_CODE": "Doğrulama kodunu girin"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil Oluşturun"
