@@ -2035,7 +2035,7 @@
     "BROADCAST_ERROR_3007": "Stateful order collateralization check failed.",
     "BROADCAST_ERROR_3008": "Stateful order was previously cancelled and therefore cannot be placed.",
     "BROADCAST_ERROR_3009": "Stateful order was previously removed and therefore cannot be placed.",
-    "BROADCAST_ERROR_10001": "Subaccount cannot open more orders due to equity tier limit.",
+    "BROADCAST_ERROR_10001": "Subaccount cannot open more orders due to equity tier limit. {EQUITY_TIER_LEARN_MORE}",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Rate Limit Reached",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Rate limited reached for this IP address. Please try again later.",
