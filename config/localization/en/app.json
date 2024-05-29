@@ -342,6 +342,7 @@
       "VIEW_MORE": "View more",
       "VIEW_OPTIONS": "View options",
       "VIEW_ORDER": "View order",
+      "VIEW_ORDERS_COUNT": "View {NUM_ORDERS} orders",
       "VIEW": "View",
       "VIEW_ALL": "View all →",
       "VIEWS": "Views",
@@ -2256,7 +2257,8 @@
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "This market order would result in {SLIPPAGE} of orderbook price impact given current liquidity.",
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET} is currently in close only mode. No new positions can be created.",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market orders on dYdX are not guaranteed to fill depending on liquidity at time of triggering. For more control, try a Stop Limit order.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market orders on dYdX are not guaranteed to fill depending on liquidity at time of triggering. For more control, try a Take Profit Limit order."
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market orders on dYdX are not guaranteed to fill depending on liquidity at time of triggering. For more control, try a Take Profit Limit order.",
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "Unable to change margin mode for {MARKET} with an open position."
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Limit price",
