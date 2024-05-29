@@ -163,7 +163,7 @@
       "NETWORK_MISMATCH": "Несоответствие сети",
       "SWITCH_WALLET": "Переключите кошелек на {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Не удалось получить счет",
-      "ENTER_CODE": "Введите ключ декодирования"
+      "ENTER_CODE": ""
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Создать профиль"
