@@ -2243,7 +2243,7 @@
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
       "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
       "TRANSFER_INSUFFICIENT_GAS": "The USDC balance {USDC_BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds.",
-      "TRANSFER_WITHOUT_MEMO": "Transfering to a centralized exchange without a memo can result in a loss of funds."
+      "TRANSFER_WITHOUT_MEMO": "Transferring to a centralized exchange without a memo can result in a loss of funds."
     },
     "ADJUST_ISOLATED_MARGIN": {
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
