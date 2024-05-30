@@ -980,6 +980,23 @@
       "SLOW_WITHDRAW_CONFIRMATION": "This {STYLED_SLOW} withdraw may take up to {HOURS} hours before it is available to withdraw. You will be responsible for the withdraw transaction gas fees. If you need your funds sooner, try a {STYLED_FAST} withdraw.",
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible."
     },
+    "STAKE_MODAL": {
+      "STAKE_DESCRIPTION": "Stake your DYDX to receive rewards in USDC. Unstaking can up to 30 days.",
+      "AMOUNT_TO_STAKE": "Amount to Stake",
+      "SELECTED_VALIDATOR": "Selected Validator",
+      "ENTER_AMOUNT_TO_STAKE": "Enter amount to stake",
+      "STAKED_BALANCE": "Staked Balance"
+    },
+    "UNSTAKE_MODAL": {
+      "CURRENTLY_STAKING": "You're currently staking {AMOUNT}",
+      "CURRENTLY_STAKING_WITH": "You're currently staking with {VALIDATOR}",
+      "AMOUNT_TO_UNSTAKE": "Amount to Unstake",
+      "UNSTAKED_BALANCE": "Unstaked Balance",
+      "SELECTED_VALIDATOR": "Selected Validator",
+      "UNSTAKING_PERIOD": "Unstaking Period",
+      "VALIDATOR": "Validator",
+      "UNSTAKING_PERIOD_DESCRIPTION": "The unstaking period can take up to 30 days and you will not earn rewards on this balance."
+    },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Tell us how we can build a better trading experience for you. For questions or bug reports, please use the help chat.",
       "GIVE_FEEDBACK": "Give feedback"
@@ -1865,7 +1882,7 @@
       "DONT_SHOW": "Don’t show anyone this!",
       "TAP_TO_REVEAL": "Tap to reveal"
     },
-    "EQUITY_TIERS":{
+    "EQUITY_TIERS": {
       "EQUITY_TIERS": "Equity Tiers",
       "NET_COLLATERAL": "Net Collateral",
       "LONG_TERM_OR_CONDITIONAL_ORDERS": "Long-term or Conditional orders",
