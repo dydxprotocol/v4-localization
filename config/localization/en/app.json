@@ -815,6 +815,7 @@
       "NOT_SUPPORTED": "Not supported",
       "ONBOARDING": "Onboarding",
       "MINIMUM_AMOUNT_RECEIVED": "Minimum Amount Received",
+      "MULTI_FACTOR_AUTH": "Multi-Factor Authentication",
       "PERMITTED_TO_USE": "You are lawfully permitted to access this site and trade on dYdX under the laws of the jurisdiction in which you reside and are located.",
       "PRIVACY_POLICY": "Privacy Policy",
       "RECOVER_KEYS": "Recover keys",
