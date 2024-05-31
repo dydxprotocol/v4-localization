@@ -1001,6 +1001,12 @@
       "FEEDBACK_PLACEHOLDER": "Tell us how we can build a better trading experience for you. For questions or bug reports, please use the help chat.",
       "GIVE_FEEDBACK": "Give feedback"
     },
+    "CANCEL_ORDERS_MODAL": {
+      "CANCEL_ORDERS_CONFIRMATION": "Are you sure you want to cancel {OPEN_ORDERS_TEXT} in {ASSET} ({MARKET})?",
+      "ONE_OPEN_ORDER": "1 open order",
+      "N_OPEN_ORDERS": "{COUNT} open orders",
+      "OPEN_ORDERS": "Open orders"
+    },
     "PREFERENCES_MODAL": {
       "MAGIC_EXPORT_PRIVATE_KEY": "Export private key",
       "MAGIC_EXPORT_PRIVATE_KEY_DESCRIPTION": "To use Magic wallet outside of dYdX, you must export your wallet to another wallet provider.",
@@ -1181,6 +1187,8 @@
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "If {ASSET} falls to a fixed price, trigger a {ACTION} to capture profits.",
       "CANCEL_ALL": "Cancel all",
       "CANCEL_ORDER": "Cancel order",
+      "CANCEL_ORDERS_COUNT": "Cancel {COUNT} orders",
+      "CANCEL_ORDERS": "Cancel orders",
       "CANCEL_REASON": "Cancel Reason",
       "CANCELED_ON_CHAIN": "Canceled on chain",
       "CANCELING": "Canceling",
