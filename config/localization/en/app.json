@@ -1513,6 +1513,7 @@
       "FAST_WITHDRAW_PENDING": "Fast withdraw pending",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "Your fast withdraw of {AMOUNT_ELEMENT} has been confirmed.",
       "FAST_WITHDRAW_SUCCESS": "Fast withdraw success!",
+      "FOK_DEPRECATION": "Fill-or-Kill (FOK) orders have been deprecated. All other order types continue to be available.",
       "LEGAL_UPDATES": "Legal updates",
       "LEGAL_UPDATES_DESCRIPTION": "Please check out our updated {TOU} and {PRIVACY_POLICY}.",
       "MAGIC_OAUTH_REDIRECT_FAILED": "Sign in failed",
@@ -1548,6 +1549,7 @@
         "WITHDRAW_IN_PROGRESS": "Withdrawal(s) in progress...",
         "WITHDRAW_TO_CHAIN": "Withdraw to {CHAIN}"
       },
+      "TRADE_UDPATES": "Trade Updates",
       "TRADING_REWARD_RECEIVED": "Trading Reward Received",
       "UPDATED": "Updated",
       "UPDATING": "Updating"
@@ -1750,7 +1752,7 @@
       "PLANNED_MAINTENANCE": "Planned maintenance",
       "PLANNED_MAINTENANCE_080322_BODY": "dYdX will be undergoing planned maintenance on August 3rd, 2022",
       "REDUCE_ONLY_LIVE": "Reduce-Only live",
-      "REDUCE_ONLY_LIVE_BODY": "Reduce-Only is now live for all order types! Execution must be FOK or IOC to enable Reduce-Only.",
+      "REDUCE_ONLY_LIVE_BODY": "Reduce-Only is now live for all order types! Execution must be IOC to enable Reduce-Only.",
       "REFER_AND_EARN": "Refer & earn",
       "SET_UP_REFERRALS_BODY": "Refer other traders and earn up to {COMMISSION} on their trading fees!",
       "SET_UP_REFERRALS_PARAM": "40% commission",
@@ -1759,8 +1761,8 @@
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "Reduce-Only support",
-      "REDUCE_ONLY_WILL_DISABLE": "Reduce-Only is only available for Fill-Or-Kill (FOK) and Immediate-Or-Cancel (IOC) orders. Changing the execution option will automatically disable Reduce-Only.",
-      "REDUCE_ONLY_WILL_ENABLE": "Reduce-Only is only available for Fill-Or-Kill (FOK) and Immediate-Or-Cancel (IOC) orders. When applicable, enabling Reduce-Only will automatically change your execution method to a supported option."
+      "REDUCE_ONLY_WILL_DISABLE": "Reduce-Only is only available for Immediate-Or-Cancel (IOC) orders. Changing the execution option will automatically disable Reduce-Only.",
+      "REDUCE_ONLY_WILL_ENABLE": "Reduce-Only is only available for and Immediate-Or-Cancel (IOC) orders. When applicable, enabling Reduce-Only will automatically change your execution method to a supported option."
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "Cash",
