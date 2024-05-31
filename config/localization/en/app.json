@@ -1762,7 +1762,7 @@
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "Reduce-Only support",
       "REDUCE_ONLY_WILL_DISABLE": "Reduce-Only is only available for Immediate-Or-Cancel (IOC) orders. Changing the execution option will automatically disable Reduce-Only.",
-      "REDUCE_ONLY_WILL_ENABLE": "Reduce-Only is only available for and Immediate-Or-Cancel (IOC) orders. When applicable, enabling Reduce-Only will automatically change your execution method to a supported option."
+      "REDUCE_ONLY_WILL_ENABLE": "Reduce-Only is only available for Immediate-Or-Cancel (IOC) orders. When applicable, enabling Reduce-Only will automatically change your execution method to a supported option."
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "Cash",
