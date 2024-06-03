@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1367,6 +1367,7 @@ export const APP_STRING_KEYS = {
     DELEVERAGED: 'APP.TRADE.DELEVERAGED',
     EDIT_STOP_LOSS: 'APP.TRADE.EDIT_STOP_LOSS',
     EDIT_TAKE_PROFIT: 'APP.TRADE.EDIT_TAKE_PROFIT',
+    EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS: 'APP.TRADE.EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS',
     ENTER_AMOUNT: 'APP.TRADE.ENTER_AMOUNT',
     ENTER_EXECUTION: 'APP.TRADE.ENTER_EXECUTION',
     ENTER_GOOD_UNTIL: 'APP.TRADE.ENTER_GOOD_UNTIL',

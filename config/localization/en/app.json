@@ -1212,6 +1212,7 @@
       "DELEVERAGED": "Deleveraged",
       "EDIT_STOP_LOSS": "Edit stop loss",
       "EDIT_TAKE_PROFIT": "Edit take profit",
+      "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "Edit Take Profit / Stop Loss triggers",
       "ENTER_AMOUNT": "Enter amount",
       "ENTER_LIMIT_PRICE": "Enter limit price",
       "ENTER_TRIGGER_PRICE": "Enter trigger price",
