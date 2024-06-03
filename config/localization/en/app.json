@@ -54,6 +54,8 @@
       "ALL": "All",
       "ALLOWED": "Allowed",
       "AMOUNT": "Amount",
+      "AMOUNT_TO_ADD": "Amount to Add",
+      "AMOUNT_TO_REMOVE": "Amount to Remove",
       "ANONYMOUS": "Anonymous",
       "ARE_UNCHANGED": "are unchanged",
       "ARE_YOU_SURE": "Are you sure?",
