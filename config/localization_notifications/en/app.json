@@ -17,7 +17,7 @@
       "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
     },
     "FOK_DEPRECATION": {
-      "TITLE": "FOK Orders Deprecation",
+      "TITLE": "FOK orders deprecated",
       "BODY": "Fill-or-Kill (FOK) orders have been deprecated. All other order types continue to be available."
     },
     "INCENTIVES_SEASON_BEGUN": {
