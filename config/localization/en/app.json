@@ -1516,7 +1516,6 @@
       "FAST_WITHDRAW_PENDING": "Fast withdraw pending",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "Your fast withdraw of {AMOUNT_ELEMENT} has been confirmed.",
       "FAST_WITHDRAW_SUCCESS": "Fast withdraw success!",
-      "FOK_DEPRECATION": "Fill-or-Kill (FOK) orders have been deprecated. All other order types continue to be available.",
       "LEGAL_UPDATES": "Legal updates",
       "LEGAL_UPDATES_DESCRIPTION": "Please check out our updated {TOU} and {PRIVACY_POLICY}.",
       "MAGIC_OAUTH_REDIRECT_FAILED": "Sign in failed",
