@@ -16,6 +16,10 @@
       "TITLE": "Position Settled",
       "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK orders deprecated",
+      "BODY": "Fill-or-Kill (FOK) orders have been deprecated. All other order types continue to be available."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
       "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
