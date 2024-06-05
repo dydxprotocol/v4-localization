@@ -1697,7 +1697,9 @@
       "STAKING_AND_LEAVING": "Staking and leaving website disclaimer",
       "STAKING_PAGE_SUBTITLE": "Stake to earn APR. Unstaking can take up to 30 days.",
       "STAKING_REWARDS": "Staking Rewards",
-      "STAKING_REWARDS_AVAILABLE": "Staking Rewards Available"
+      "STAKING_REWARDS_AVAILABLE": "Staking Rewards Available",
+      "UNSTAKING_FROM": "Unstaking from {VALIDATOR}",
+      "AVAILABLE_IN_DAYS": "Available in {DAYS} days"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "Participate in the ecosystem by voting on Governance proposals or submitting your own.",
