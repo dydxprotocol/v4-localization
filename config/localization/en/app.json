@@ -1166,6 +1166,7 @@
     },
     "TRADE": {
       "ADD_MARGIN": "Add Margin",
+      "ADD_TRIGGER": "Add trigger",
       "ADD_TRIGGERS": "Add trigger(s)",
       "ADD_TP_SL": "Add TP | SL",
       "ADD_STOP_LOSS": "Add stop loss",
