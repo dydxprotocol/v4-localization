@@ -147,6 +147,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger at {OLD_VALUE} has been removed."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1} and {MARKET_2} markets wound down",
+      "BODY": "At block {BLOCK_NUMBER} {DATE}, the {MARKET_1} and {MARKET_2} markets went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live proposal to wind down {MARKET_1} and {MARKET_2} markets",
+      "BODY": "There is currently a live proposal to wind down the {MARKET_1} and {MARKET_2} markets. If passed, the {MARKET_1} and {MARKET_2} markets will enter final settlement at block {BLOCK_NUMBER} {DATE}. Existing positions will be closed and open orders will be canceled. You can find more information regarding the proposal {HERE_LINK}."
     }
   }
 }
