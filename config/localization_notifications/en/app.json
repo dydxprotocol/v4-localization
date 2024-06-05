@@ -26,7 +26,7 @@
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "Season {SEASON_NUMBER} launch rewards have been distributed!",
-      "BODY": "Season {SEASON_NUMBER} rewards"
+      "BODY": "Season {SEASON_NUMBER} rewards +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Position Offsetting",
