@@ -24,6 +24,10 @@
       "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
       "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "Season {SEASON_NUMBER} launch rewards have been distributed!",
+      "BODY": "Season {SEASON_NUMBER} rewards +{DYDX_AMOUNT} DYDX"
+    },
     "OFFSETTING": {
       "TITLE": "Position Offsetting",
       "BODY": "Your {SIDE} position on {MARKET} was used to offset a deleveraged position."
