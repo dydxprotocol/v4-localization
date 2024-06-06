@@ -1105,7 +1105,7 @@
       "LAUNCH_INCENTIVES_DESCRIPTION": "Earn trading rewards each season. View how you compare to other traders and view past seasons on the leaderboard.",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "Season {SEASON_NUMBER} begins soon!",
       "LAUNCH_INCENTIVES_SEASON_NUM": "Season {SEASON_NUMBER}",
-      "LAUNCH_INCENTIVES_SEASON_REWARDS": "Season {SEASON_NUMBER} rewards", 
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "Season {SEASON_NUMBER} rewards",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{NUM_POINTS} received during Season {SEASON_NUMBER}, which ended on {PAST_DATE}.",
       "LEADERBOARD": "Leaderboard",
       "LEARN_TO_EXPORT": "{STRONG_NO}, learn how to export my secret phrase.",
@@ -1697,7 +1697,8 @@
       "STAKING_AND_LEAVING": "Staking and leaving website disclaimer",
       "STAKING_PAGE_SUBTITLE": "Stake to earn APR. Unstaking can take up to 30 days.",
       "STAKING_REWARDS": "Staking Rewards",
-      "STAKING_REWARDS_AVAILABLE": "Staking Rewards Available"
+      "STAKING_REWARDS_AVAILABLE": "Staking Rewards Available",
+      "AVAILABLE_IN_DAYS": "Available in {DAYS} days"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "Participate in the ecosystem by voting on Governance proposals or submitting your own.",
