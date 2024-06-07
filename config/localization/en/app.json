@@ -1322,6 +1322,7 @@
       "ORDERBOOK_SHORT": "Book",
       "ORDERBOOK_SPREAD_PERCENT": "Spread %",
       "ORDERBOOK_SPREAD": "Spread",
+      "ORDERBOOK_UNITS": "Units",
       "ORDERS_EMPTY_STATE": "You have no orders.",
       "PARTIALLY_FILLED": "Partially Filled",
       "PAYMENT": "Payment",
