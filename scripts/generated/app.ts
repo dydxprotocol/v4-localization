@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1450,6 +1450,7 @@ export const APP_STRING_KEYS = {
     ORDERBOOK: 'APP.TRADE.ORDERBOOK',
     ORDERBOOK_ASK_PRICE: 'APP.TRADE.ORDERBOOK_ASK_PRICE',
     ORDERBOOK_BID_PRICE: 'APP.TRADE.ORDERBOOK_BID_PRICE',
+    ORDERBOOK_GROUPING: 'APP.TRADE.ORDERBOOK_GROUPING',
     ORDERBOOK_MID_MARKET_PRICE: 'APP.TRADE.ORDERBOOK_MID_MARKET_PRICE',
     ORDERBOOK_MY_ORDER_SIZE: 'APP.TRADE.ORDERBOOK_MY_ORDER_SIZE',
     ORDERBOOK_ORDER_SIZE: 'APP.TRADE.ORDERBOOK_ORDER_SIZE',
