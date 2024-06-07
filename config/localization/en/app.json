@@ -1683,6 +1683,8 @@
       "YOU_CAN_WIN_THESE": "You can win these in our {LEAGUES_LINK}"
     },
     "STAKING_REWARDS": {
+      "AMOUNT_IN_GAS_TO_CLAIM": "{AMOUNT} in gas to claim",
+      "AMOUNT_WILL_BE_AVAILABLE_FOR_TRADING": "{AMOUNT} will be available for trading",
       "CLAIM_USDC_AMOUNT": "Claim {USDC_AMOUNT} USDC",
       "CLAIM_STAKING_REWARDS": "Claim Staking Rewards!",
       "EARN_APR": "Earn {APR_PERCENTAGE} APR",

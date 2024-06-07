@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1280,6 +1280,8 @@ export const APP_STRING_KEYS = {
 
     // STAKING_REWARDS
 
+    AMOUNT_IN_GAS_TO_CLAIM: 'APP.STAKING_REWARDS.AMOUNT_IN_GAS_TO_CLAIM',
+    AMOUNT_WILL_BE_AVAILABLE_FOR_TRADING: 'APP.STAKING_REWARDS.AMOUNT_WILL_BE_AVAILABLE_FOR_TRADING',
     AVAILABLE_IN_DAYS: 'APP.STAKING_REWARDS.AVAILABLE_IN_DAYS',
     CLAIM_STAKING_REWARDS: 'APP.STAKING_REWARDS.CLAIM_STAKING_REWARDS',
     CLAIM_USDC_AMOUNT: 'APP.STAKING_REWARDS.CLAIM_USDC_AMOUNT',
