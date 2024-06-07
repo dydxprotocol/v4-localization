@@ -2069,7 +2069,7 @@
     "BROADCAST_ERROR_CLOB_2003": "Post-only order would cross one or more maker orders.",
     "BROADCAST_ERROR_CLOB_2005": "Order would violate isolated subaccount constraints.",
     "BROADCAST_ERROR_CLOB_3000": "Invalid order flags.",
-    "BROADCAST_ERROR_CLOB__3001": "Invalid order goodTilBlockTime.",
+    "BROADCAST_ERROR_CLOB_3001": "Invalid order goodTilBlockTime.",
     "BROADCAST_ERROR_CLOB_3002": "Stateful orders cannot require immediate execution.",
     "BROADCAST_ERROR_CLOB_3003": "The block time is greater than the GoodTilBlockTime of the message. Please refresh the page and try again.",
     "BROADCAST_ERROR_CLOB_3004": "The GoodTilBlockTime of the message is further than StatefulOrderTimeWindow into the future. Please refresh the page and try again.",
