@@ -39,6 +39,14 @@
       "TITLE": "Satın Alma Gücü",
       "BODY": "Bu değer, mevcut satın alma gücünüzü ifade eder. Satın alma gücünüz, borsada mevcut olan maksimum kaldıraca dayanır ve seçtiğiniz piyasaya bağlı olarak değişmez."
     },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Çapraz Serbest Teminat",
+      "BODY": "Çapraz marj hesabınızdan çekilebilecek teminat miktarı."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Çapraz Marjin Kullanımı",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
+    },
     "CUSTOM_AMOUNT": {
       "TITLE": "Özel Miktar",
       "BODY": "Özel miktarınızdaki değişiklik hem Kâr Alma hem de Zarar Durdurma talimatları için geçerli olacaktır."
@@ -223,6 +231,10 @@
       "TITLE": "Kâr Alma",
       "BODY": "Yatırımcıların hedef belirlemelerine ve açık bir pozisyonun kâr için kapatılacağı bir fiyat belirleyerek pozisyonlardaki kârlarını korumalarına olanak tanır."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Hedef Kaldıraç",
+      "BODY": "Hedef Kaldıraç {TARGET_LEVERAGE}× olarak ayarlanmıştır, bu da bir sonraki talimatınız için kullanılacak marj miktarını belirler."
+    },
     "TICK_SIZE": {
       "TITLE": "Minimum Fiyat Büyüklüğü",
       "BODY": "Puan boyutu, bu piyasadaki minimum fiyat hareketidir."
@@ -244,7 +256,7 @@
       "BODY": "Mevcut pozisyonunuzun geri kalanını mevcut oracle fiyatından tamamen kapatmanız durumunda elde edeceğiniz toplam kar \/ zarar. Pozisyonunuzu kapatır veya pozisyonun tarafını değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
     },
     "REWARD_HISTORY": {
-        "BODY": "Saat, Koordineli Evrensel Saat (UTC) zaman dilimi içinde gösterilir"
+      "BODY": "Saat, Koordineli Evrensel Saat (UTC) zaman dilimi içinde gösterilir"
     }
   },
   "DEPOSIT": {
@@ -252,7 +264,7 @@
       "TITLE": "Mevcut",
       "BODY": "Uygunsunuz! Gazsız yatırma işlemini etkinleştirmek için en az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} yatırın."
     },
-    "BRIDGE_FEES_DEPOSIT":{
+    "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Köprü Ücretleri",
       "BODY": "Köprü ücretleri, bu yatırma işlemi için gereken köprüleme, aktarma ve takas işlemlerini gerçekleştirmek için diğer protokollere ödenir."
     },
@@ -260,7 +272,7 @@
       "TITLE": "Kullanılamıyor",
       "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!"
     },
-    "GAS_FEES_DEPOSIT":{
+    "GAS_FEES_DEPOSIT": {
       "TITLE": "Gaz Ücretleri",
       "BODY": "Gaz ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
     },
@@ -302,7 +314,7 @@
       "TITLE": "Hızlı Çekme Ücreti",
       "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas maliyetlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
     },
-    "GAS_FEES":{
+    "GAS_FEES": {
       "TITLE": "Gaz Ücretleri",
       "BODY": "Gaz ücretleri, bu örnekte dYdX olan kaynak zincirdeki işlem ücretleridir."
     },
@@ -310,7 +322,7 @@
       "TITLE": "En Düşük Ücretli Çekme İşlemleri",
       "BODY": "{LOWEST_FEE_TOKEN_NAMES} üzerine yapılan USDC çekme işlemleri, en düşük ücretlere sahiptir."
     },
-    "BRIDGE_FEES":{
+    "BRIDGE_FEES": {
       "TITLE": "Köprü Ücretleri",
       "BODY": "Köprü ücretleri, bu çekme işlemi için gereken köprüleme, aktarma ve takas işlemlerini gerçekleştirmek için diğer protokollere ödenir."
     },
