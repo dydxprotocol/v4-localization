@@ -39,6 +39,14 @@
       "TITLE": "Poder de compra",
       "BODY": "Isso representa o seu poder de compra total disponível. Seu poder de compra é baseado na alavancagem máxima disponível no câmbio e não será alterado com base no mercado selecionado."
     },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Sem garantia cruzada",
+      "BODY": "Valor de garantia disponível para saque da sua conta de margem cruzada."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Uso de margem cruzada",
+      "BODY": "Porcentagem de sua margem total usada nas posições abertas."
+    },
     "CUSTOM_AMOUNT": {
       "TITLE": "Valor personalizado",
       "BODY": "O ajuste do seu valor personalizado será aplicado às ordens de Take Profit e Stop Loss."
@@ -223,6 +231,10 @@
       "TITLE": "Take profit",
       "BODY": "Permite que os traders definam metas e protejam os lucros nas posições especificando um preço para fechamento de uma posição aberta para lucro."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Alavancagem alvo",
+      "BODY": "A alavancagem alvo definida como {TARGET_LEVERAGE}×, que determina o valor de margem usado para sua próxima ordem."
+    },
     "TICK_SIZE": {
       "TITLE": "Tamanho do tick",
       "BODY": "O tamanho do tick é o movimento de preço mínimo neste mercado."
@@ -244,7 +256,7 @@
       "BODY": "O total de lucro\/perda se você fechasse completamente o restante de sua posição atual no preço do oráculo atual. É redefinido se você fechar sua posição ou alterar o tipo de posição (long para short, ou vice-versa)."
     },
     "REWARD_HISTORY": {
-        "BODY": "A hora é exibida no Tempo Universal Coordenado (UTC)"
+      "BODY": "A hora é exibida no Tempo Universal Coordenado (UTC)"
     }
   },
   "DEPOSIT": {
@@ -252,7 +264,7 @@
       "TITLE": "Disponível",
       "BODY": "Você atende aos requisitos! Depositar pelo menos {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} para habilitar o depósito sem cobrança de tarifa"
     },
-    "BRIDGE_FEES_DEPOSIT":{
+    "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Taxas de Bridge",
       "BODY": "As taxas de  Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este depósito."
     },
@@ -260,7 +272,7 @@
       "TITLE": "Não disponível",
       "BODY": "Depósitos sem cobrança de tarifas estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
-    "GAS_FEES_DEPOSIT":{
+    "GAS_FEES_DEPOSIT": {
       "TITLE": "Taxas de \"gas\"",
       "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso {SOURCE_CHAIN}."
     },
@@ -302,7 +314,7 @@
       "TITLE": "Taxa de saque rápido",
       "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobre os custos de “gás” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Layer 2)."
     },
-    "GAS_FEES":{
+    "GAS_FEES": {
       "TITLE": "Taxas de \"gas\"",
       "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso dYdX."
     },
@@ -310,7 +322,7 @@
       "TITLE": "Saques de taxa mais baixa",
       "BODY": "Os saques em USDC em {LOWEST_FEE_TOKEN_NAMES} têm as taxas mais baixas."
     },
-    "BRIDGE_FEES":{
+    "BRIDGE_FEES": {
       "TITLE": "Taxas de Bridge",
       "BODY": "As taxas de  Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este saque."
     },
