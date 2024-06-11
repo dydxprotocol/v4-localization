@@ -39,6 +39,14 @@
       "TITLE": "Pouvoir d'achat",
       "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximum disponible sur la bourse, et ne changera pas en fonction du marché que vous avez sélectionné."
     },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Collatéral gratuit croisé",
+      "BODY": "Montant de collatéral disponible pour être retiré de votre compte de marge croisée."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Utilisation de la marge croisée",
+      "BODY": "Pourcentage de la marge totale utilisée par les positions ouvertes."
+    },
     "CUSTOM_AMOUNT": {
       "TITLE": "Montant personnalisé",
       "BODY": "L'ajustement de votre montant personnalisé s'appliquera aux ordres Take Profit et Stop Loss."
@@ -223,6 +231,10 @@
       "TITLE": "Take Profit",
       "BODY": "Permet aux traders de fixer des objectifs et de protéger les profits sur les positions en spécifiant un prix auquel clôturer une position ouverte pour réaliser un profit."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Effet de levier cible",
+      "BODY": "L'effet de levier cible est fixé à {TARGET_LEVERAGE}×, ce qui détermine le montant de la marge utilisée pour votre prochain ordre."
+    },
     "TICK_SIZE": {
       "TITLE": "Taille du tick",
       "BODY": "La taille du tick est le mouvement de prix minimum sur ce marché."
@@ -244,7 +256,7 @@
       "BODY": "Perte\/bénéfice total si vous deviez fermer complètement le reste de votre position actuelle au prix actuel d'oracle. Réinitialise si vous fermez votre position ou changez de côté de position (longue à courte, ou vice versa)."
     },
     "REWARD_HISTORY": {
-        "BODY": "L'heure est affichée en temps universel coordonné (UTC)"
+      "BODY": "L'heure est affichée en temps universel coordonné (UTC)"
     }
   },
   "DEPOSIT": {
@@ -252,7 +264,7 @@
       "TITLE": "Disponible",
       "BODY": "Vous êtes éligible ! Dépôt d'au moins  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}pour permettre le dépôt sans frais de gaz."
     },
-    "BRIDGE_FEES_DEPOSIT":{
+    "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Frais de bridge",
       "BODY": "Les frais de transaction sont payés à d'autres protocoles afin de compléter le bridging, le transfert et l'échange requis pour ce retrait."
     },
@@ -260,7 +272,7 @@
       "TITLE": "Indisponible",
       "BODY": "Les dépôts sans gas sont temporairement indisponibles. Ne vous inquiétez pas, ils seront bientôt de retour !"
     },
-    "GAS_FEES_DEPOSIT":{
+    "GAS_FEES_DEPOSIT": {
       "TITLE": "Frais de gaz",
       "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas {SOURCE_CHAIN}."
     },
@@ -302,7 +314,7 @@
       "TITLE": "Frais de retrait rapide",
       "BODY": "Les retraits rapides sont envoyés immédiatement et dYdX couvrira les frais de gaz en échange d'une commission. Pour les retraits sans frais, veuillez utiliser un retrait lent (vous payez vos propres frais de gaz et devrez attendre la confirmation de la couche 2)."
     },
-    "GAS_FEES":{
+    "GAS_FEES": {
       "TITLE": "Frais de gaz",
       "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas dYdX."
     },
@@ -310,7 +322,7 @@
       "TITLE": "Retraits à frais les plus bas",
       "BODY": "Les retraits USDC vers {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
     },
-    "BRIDGE_FEES":{
+    "BRIDGE_FEES": {
       "TITLE": "Frais de bridge",
       "BODY": "Les frais de transaction sont payés à d'autres protocoles afin de compléter le bridging, le transfert et l'échange requis pour ce retrait."
     },

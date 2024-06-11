@@ -18,7 +18,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
-      "BODY": "Na temporada {PREV_SEASON_NUMBER}, a maioria dos traders ganhou pelo menos {DYDX_AMOUNT} DYDX (~ {USDC_AMOUNT} USDC)!"
+      "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "OFFSETTING": {
       "TITLE": "Compensação de posição",

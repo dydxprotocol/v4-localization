@@ -39,6 +39,14 @@
       "TITLE": "Kaufkraft",
       "BODY": "Dies stellt Ihre gesamte verfügbare Kaufkraft dar. Ihre Kaufkraft basiert auf der maximalen auf der Börse verfügbaren Hebelwirkung und wird sich nicht auf der Grundlage des von Ihnen ausgewählten Marktes ändern."
     },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Kreuzfreie Sicherheiten",
+      "BODY": "Betrag der Sicherheiten, die von Ihrem Cross-Margin-Konto abgehoben werden können."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Verwendung von Kreuzmargen",
+      "BODY": "Prozentsatz Ihrer gesamten Cross-Marge, der von offenen Positionen in Anspruch genommen wird."
+    },
     "CUSTOM_AMOUNT": {
       "TITLE": "Benutzerdefinierter Betrag",
       "BODY": "Die Anpassung Ihres benutzerdefinierten Betrags gilt sowohl für Take-Profit- als auch für Stop-Loss-Orders."
@@ -223,6 +231,10 @@
       "TITLE": "Take Profit",
       "BODY": "Ermöglicht es Tradern, Ziele zu setzen und schützt Gewinne auf Positionen, indem sie einen Preis angeben, zu dem eine offene Position mit Gewinn geschlossen werden soll."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Ziel-Hebelwirkung",
+      "BODY": "Ziel-Hebel auf {TARGET_LEVERAGE}× festgelegt. Das bestimmt die Höhe der Marge, die für Ihre nächste Order verwendet wird."
+    },
     "TICK_SIZE": {
       "TITLE": "Notierungssprung",
       "BODY": "Der Notierungssprung ist die minimale Preisbewegung auf diesem Markt."
@@ -244,7 +256,7 @@
       "BODY": "Gesamter Gewinn\/Verlust, wenn Sie den Rest Ihrer aktuellen Position zum aktuellen Oracle-Preis vollständig schließen sollten. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Position wechseln (Long zu Short oder umgekehrt)"
     },
     "REWARD_HISTORY": {
-        "BODY": "Die Zeit wird in Coordinated Universal Time (UTC) angezeigt"
+      "BODY": "Die Zeit wird in Coordinated Universal Time (UTC) angezeigt"
     }
   },
   "DEPOSIT": {
@@ -252,7 +264,7 @@
       "TITLE": "Verfügbar",
       "BODY": "Sie sind berechtigt! Zahlen Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ein, um eine „gasfreie“ Einzahlung zu ermöglichen."
     },
-    "BRIDGE_FEES_DEPOSIT":{
+    "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Brückengebühren",
       "BODY": "Brückengebühren werden an andere Protokolle gezahlt, um die für diese Einzahlung erforderliche Überbrückung, Übertragung und das Swapping abzuschließen."
     },
@@ -260,7 +272,7 @@
       "TITLE": "Nicht verfügbar",
       "BODY": "Gasless-Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!"
     },
-    "GAS_FEES_DEPOSIT":{
+    "GAS_FEES_DEPOSIT": {
       "TITLE": "Gasgebühren",
       "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall {SOURCE_CHAIN}."
     },
@@ -302,7 +314,7 @@
       "TITLE": "Gebühr für schnelle Auszahlung",
       "BODY": "Schnelle Auszahlungen werden sofort versandt und dYdX übernimmt die Gaskosten im Austausch gegen eine Gebühr. Für gebührenfreie Auszahlungen verwenden Sie bitte eine langsame Auszahlung (Sie zahlen Ihre eigenen Gaskosten und müssen die Layer 2-Bestätigung abwarten.)"
     },
-    "GAS_FEES":{
+    "GAS_FEES": {
       "TITLE": "Gasgebühren",
       "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall dYdX."
     },
@@ -310,7 +322,7 @@
       "TITLE": "Auszahlungen mit der niedrigsten Gebühr",
       "BODY": "USDC-Auszahlungen auf {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
     },
-    "BRIDGE_FEES":{
+    "BRIDGE_FEES": {
       "TITLE": "Brückengebühren",
       "BODY": "Brückengebühren werden an andere Protokolle gezahlt, um die für diese Auszahlung erforderliche Überbrückung, Übertragung und das Swapping abzuschließen."
     },
