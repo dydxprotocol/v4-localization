@@ -2261,6 +2261,10 @@
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
     },
+    "ADJUST_ISOLATED_MARGIN": {
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
+      "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
+    },
     "NEW_MARKET_WIDGET": {
       "NOT_ENOUGH_BALANCE": "Necesitas al menos {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} para agregar un mercado."
     }
