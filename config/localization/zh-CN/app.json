@@ -179,6 +179,7 @@
       "LOSERS": "亏损者",
       "EARNED_BY_STAKERS": "质押人赚取",
       "ADD_NEW_MARKET": "添加新市场",
+      "ADD_NEW_MARKET_CAPITALIZED": "添加新市场",
       "NO_RECENTLY_LISTED_MARKETS": "最近没有上市市场",
       "HIGHLIGHTS": "亮点",
       "LAYER_1": "第 1 层",
@@ -210,6 +211,7 @@
       "MAXIMUM_LEVERAGE": "最大杠杆",
       "MAXIMUM_REWARDS": "预估奖励",
       "MEME": "模因",
+      "MEMO": "备忘录",
       "MENU": "菜单",
       "METRICS": "指标",
       "MID_CAP": "中盘股",
@@ -341,6 +343,7 @@
       "VIEW_MORE": "查看更多",
       "VIEW_OPTIONS": "查看选项",
       "VIEW_ORDER": "查看订单",
+      "VIEW_ORDERS_COUNT": "查看{NUM_ORDERS}订单",
       "VIEW": "查看",
       "VIEW_ALL": "查看所有 →",
       "VIEWS": "视图",
@@ -977,9 +980,32 @@
       "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提取可能需要{HOURS}小时才能提取。您将自行承担提现交易gas费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
       "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。"
     },
+    "STAKE_MODAL": {
+      "STAKE_DESCRIPTION": "质押您的 DYDX 即可获得 USDC 奖励。取消质押最长可达 30 天。",
+      "AMOUNT_TO_STAKE": "质押金额",
+      "SELECTED_VALIDATOR": "选定的验证者",
+      "ENTER_AMOUNT_TO_STAKE": "输入投注金额",
+      "STAKED_BALANCE": "质押余额"
+    },
+    "UNSTAKE_MODAL": {
+      "CURRENTLY_STAKING": "您当前正在质押 {AMOUNT}",
+      "CURRENTLY_STAKING_WITH": "您目前正在质押 {VALIDATOR}",
+      "AMOUNT_TO_UNSTAKE": "取消质押金额",
+      "UNSTAKED_BALANCE": "未质押余额",
+      "SELECTED_VALIDATOR": "选定的验证者",
+      "UNSTAKING_PERIOD": "取消质押期",
+      "VALIDATOR": "验证者",
+      "UNSTAKING_PERIOD_DESCRIPTION": "取消质押期最长可能需要 30 天，并且您将无法通过此余额获得奖励。"
+    },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "告诉我们如何为您打造更好的交易体验。有关问题或错误报告，请使用帮助聊天。",
       "GIVE_FEEDBACK": "提供反馈"
+    },
+    "CANCEL_ORDERS_MODAL": {
+      "CANCEL_ORDERS_CONFIRMATION": "您确定要删除 {ASSET} 的 {OPEN_ORDERS_TEXT} 吗 ({MARKET})？",
+      "ONE_OPEN_ORDER": "1 个未平仓订单",
+      "N_OPEN_ORDERS": "{COUNT} 个未平仓订单",
+      "OPEN_ORDERS": "未平仓订单"
     },
     "PREFERENCES_MODAL": {
       "MAGIC_EXPORT_PRIVATE_KEY": "导出私钥",
@@ -1161,6 +1187,8 @@
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "如果{ASSET}跌至固定价格，触发{ACTION}以获取利润。",
       "CANCEL_ALL": "全部取消",
       "CANCEL_ORDER": "取消订单",
+      "CANCEL_ORDERS_COUNT": "取消 {COUNT} 个订单",
+      "CANCEL_ORDERS": "取消订单",
       "CANCEL_REASON": "取消原因",
       "CANCELED_ON_CHAIN": "在链上取消",
       "CANCELING": "取消",
@@ -1460,8 +1488,8 @@
       "ADJUSTED_IMR": "已调整的保证金",
       "ADJUSTED_IMR_BODY": "由于波动性，我们暂时将{MARKET}的初始保证金要求{ACTION}至{PERCENT}。{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "区块奖励",
-      "CHAIN_DISRUPTION_DETECTED": "检测到链中断",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "由于dYdX链中断，订单可能失败或被延迟，交易和转让将被禁用。请等待并稍后重试。您的资金是安全的。",
+      "CHAIN_DISRUPTION_DETECTED": "检测到潜在的链中断",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "有潜在的 dYdX 链中断。请检查状态页面并刷新。 如果发生链中断，交易和转账将暂时停止。您的资金是安全的。",
       "CLICK_TO_VIEW": "单击查看",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
@@ -1684,17 +1712,21 @@
       "TRADING_REWARD_HISTORY": "交易奖励历史",
       "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "您的历史记录将显示在这里。",
       "TRADING_REWARD_TABLE_EMPTY_STATE": "您没有历史记录。",
-      "TRADING_REWARDS_LEGAL_DISCLAIMER": "上述服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。所有该等服务均由第三方直接向您提供，独立于本网站的主办方和运营方（“运营方”），且不涉及运营方。所有此类服务，包括任何质押、治理或交换，都发生在运营方网站之外，并且任何交易或价值传送将直接发生在您和适用的第三方之间。此类适用的第三方向您请求的任何信息均不会提供给运营方，并且运营方对您与此类适用的第三方之间的任何交易或传输的任何方面不承担任何责任。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。您同意，在采取与上述任何事项相关的任何财务、税务、法律或投资行动（包括与适用的第三方确认 APY）之前，您有责任进行独立研究、尽职调查并聘请专业顾问。",
+      "TRADING_REWARDS_LEGAL_DISCLAIMER": "管理、奖励和质押相关服务由独立于该接口的主办方和运营商（“运营商”）的第三方直接在第三方网站上向您提供，无需运营商参与。您同意您熟悉使用条款并了解与这些服务相关的风险，包括可变奖励率、削减和质押固有的其他风险。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。在采取与服务相关的任何行动之前，您全权负责进行独立研究、尽职调查并寻求专业顾问的建议。",
       "REWARD_HISTORY_DESCRIPTION": "交易奖励在每个区块之后立即分配，但历史记录每五分钟更新一次。 交易奖励历史记录可追溯到 {REWARDS_HISTORY_START_DATE}。",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "开始交易以赚取奖励。",
-      "FAQ_WHAT_IS_STAKING_QUESTION": "什么是质押？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "我如何质押并领取质押奖励？",
-      "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
-      "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
-      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
-      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX Chain 地址。",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领奖励？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX Chain 地址。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "我如何质押并领取质押奖励？",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。前端将自动选择一个信誉良好的验证者（即从未被削减的验证者），根据该验证者持有的代币最少的合格验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 Gas 费。",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX Chain 地址。阅读更多 {HERE_LINK}。",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "质押的风险是什么？",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "使用任何 DeFi 协议都会带来风险。 在质押的情况下，重要的是要了解取消质押代币需要 30 天，这意味着存在一段流动性不足的时期，在此期间您将无法转移您的代币，即使在协议或市场波动的情况下也是如此。此外，用户在将资产抵押给验证者之前，应该对验证者进行尽职调查。违反协议规则的验证节点可能会受到惩罚，包括将他们质押的代币削减（即销毁）或被禁止参与,这将阻止他们获得奖励。虽然前端根据历史表现从可信组中选择代币质押的验证者，但无法保证验证者未来的行为。",
+      "FAQ_WHAT_IS_STAKING_QUESTION": "什么是质押？",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX Chain 使用权益证明作为其共识机制。代币持有者可以将其代币质押给验证者，以帮助保护网络并验证交易，作为交换，从协议收集的交易和 Gas 费中赚取 USDC 奖励。所有费用均支付给质押者，减去支付给保险基金和验证者佣金的任何费用。奖励率基于 {HERE_LINK} 的数据。无法保证未来的奖励率，该奖励率可能会根据协议条件而波动。",
+      "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
+      "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "上述第三方产品和服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     },
     "EPOCH_END_MODAL": {
@@ -1758,6 +1790,7 @@
       "INVALID_ADDRESS_TITLE": "無效的錢包地址",
       "INVALID_ADDRESS_BODY": "请输入一个有效的 dYdX 链地址。",
       "PLEASE_CONFIRM_ADDRESS": "请在继续之前确认这是所需的地址。",
+      "REQUIRED_FOR_TRANSFERS_TO_CEX": "转账至中心化交易所的必要条件",
       "SELECT_ADDRESS": "输入或选择地址"
     },
     "DEPOSIT_WITH_FIAT": {
@@ -1861,7 +1894,15 @@
       "DONT_SHOW": "不要向任何人展示！",
       "TAP_TO_REVEAL": "点击以显示"
     },
+    "EQUITY_TIERS": {
+      "EQUITY_TIERS": "权益等级",
+      "NET_COLLATERAL": "净抵押品",
+      "LONG_TERM_OR_CONDITIONAL_ORDERS": "长期或条件订单",
+      "EQUITY_TIERS_DESCRIPTION": "子账户允许持有的未结订单数量限制",
+      "EQUITY_TIERS_DESCRIPTION_LONG": "权益等级限制定义了一组权益等级，以限制子账户允许拥有的未结订单数量。"
+    },
     "FEE_TIERS": {
+      "FEE_TIERS": "费用等级",
       "ADDITIONAL_CONDITION": "附加条件",
       "AND_EXCHANGE_MARKET_SHARE": "和交易所市场份额",
       "AND_MAKER_MARKET_SHARE": "和挂单市场份额",
@@ -2027,7 +2068,7 @@
     "BROADCAST_ERROR_3007": "状态订单质押检查失败。",
     "BROADCAST_ERROR_3008": "状态订单先前已取消，因此无法发出。",
     "BROADCAST_ERROR_3009": "状态订单先前已撤销，因此无法发出。",
-    "BROADCAST_ERROR_10001": "由于净值等级限制，子账户无法开立更多订单。",
+    "BROADCAST_ERROR_10001": "由于净值等级限制，子账户无法开立更多订单。{EQUITY_TIER_LEARN_MORE}",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "已达到费率上限",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "此 IP 地址已达到的费率上限。 请稍后重试。",
@@ -2213,7 +2254,8 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "我们无法找到与此钱包地址关联的帐户。",
       "TRANSFER_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
       "TRANSFER_TO_YOURSELF": "您无法直接转帐到自己的钱包地址。",
-      "TRANSFER_INSUFFICIENT_GAS": "链钱包中的USDC余额 {USDC_BALANCE} 可能不够支付交易费用。 请存入额外资金。"
+      "TRANSFER_INSUFFICIENT_GAS": "链钱包中的USDC余额 {USDC_BALANCE} 可能不够支付交易费用。 请存入额外资金。",
+      "TRANSFER_WITHOUT_MEMO": "在没有备忘录的情况下转移到中心化交易所可能会导致资金损失。"
     },
     "ADJUST_ISOLATED_MARGIN": {
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
@@ -2247,7 +2289,8 @@
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格影响。",
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET}目前为仅平仓模式。无法创建新头寸。",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX上的止损市价单不能保证根据触发时的流动性来成交。要想获得更多的控制权，可以尝试使用止损限价单。",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX上的止盈市价单不能保证根据触发时的流动性来成交。要想获得更多的控制权，可以尝试使用止盈限价单。"
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX上的止盈市价单不能保证根据触发时的流动性来成交。要想获得更多的控制权，可以尝试使用止盈限价单。",
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "无法更改 {MARKET} 未平仓头寸的保证金模式。"
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "限价",
