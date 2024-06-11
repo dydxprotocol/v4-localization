@@ -18,7 +18,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "赛季 {SEASON_NUMBER} 启动激励计划现已开始！",
-      "BODY": "在赛季 {PREV_SEASON_NUMBER}，大多数交易者至少已赚 {DYDX_AMOUNT} DYDX（~{USDC_AMOUNT} 个 USDC）！"
+      "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
     "OFFSETTING": {
       "TITLE": "头寸抵消",
