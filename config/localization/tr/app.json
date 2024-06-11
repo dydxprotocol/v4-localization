@@ -60,6 +60,8 @@
       "ASSET_BALANCE": "{ASSET} Bakiye",
       "ASSET": "Varlık",
       "AVAILABLE": "Mevcut",
+      "AVAILABLE_IN": "{DURATION} içinde mevcut",
+      "AVAILABLE_ON_SHORT": " tarihinde mevcut{ON_DATE}",
       "BACK": "Geri",
       "BALANCE": "Bakiye",
       "BASE_INITIAL_MARGIN_FRACTION": "Temel Başlangıç Marj Oranı",
@@ -73,6 +75,7 @@
       "CARDS": "Kartlar",
       "CATEGORY": "Kategori",
       "CHAINS": "Zincirler",
+      "CLAIM": "Talep",
       "CLEAR": "Temizle",
       "CLEAR_ALL": "Tümünü Temizle",
       "CLICK_HERE": "Buraya tıklayın",
@@ -126,6 +129,7 @@
       "EMAIL": "E-posta",
       "ENDED": "Sonuçlandı",
       "EQUITY": "Net Varlık",
+      "EST_GAS": "Tahmini Gaz",
       "ESTIMATED": "Tahmin Edilen",
       "EXPAND_SECTION": "Bölümü genişlet",
       "EXPAND": "Genişlet",
@@ -175,6 +179,7 @@
       "LOSERS": "Kaybedenler",
       "EARNED_BY_STAKERS": "Staker'lar tarafından kazanılan",
       "ADD_NEW_MARKET": "Yeni piyasa ekle",
+      "ADD_NEW_MARKET_CAPITALIZED": "Yeni piyasa ekle",
       "NO_RECENTLY_LISTED_MARKETS": "Yakın zamanda listelenen piyasa yok",
       "HIGHLIGHTS": "Öne Çıkanlar",
       "LAYER_1": "1.Katman",
@@ -206,6 +211,7 @@
       "MAXIMUM_LEVERAGE": "Maksimum Kaldıraç",
       "MAXIMUM_REWARDS": "Tahmin Edilen Ödüller",
       "MEME": "Meme",
+      "MEMO": "Memo",
       "MENU": "Menü",
       "METRICS": "Ölçütler",
       "MID_CAP": "Orta sermayeli",
@@ -287,8 +293,10 @@
       "SLOW_WITHDRAW": "Yavaş Çekme",
       "SORT_BY": "Sıralama ölçütü",
       "SOURCE_ADDRESS": "Kaynak Adresi",
+      "STAKE": "Stake",
       "STAKED": "Stake Edildi",
       "START_TRADING": "Alım satıma başla",
+      "STARTED_FROM_DATE": "Başlangıç {FROM_DATE}",
       "STATISTICS": "İstatistikler",
       "STATUS": "Durum",
       "STEP_SIZE": "Adım Boyutu",
@@ -325,12 +333,17 @@
       "UNCONFIRMED": "Onaylanmamış",
       "UNKNOWN_ERROR": "Bilinmeyen hata",
       "UNKNOWN": "Bilinmiyor",
+      "UNSTAKE": "Staking'den çıkar",
+      "UNSTAKED": "Staking'den çıkarılmış",
+      "UNSTAKING_FROM": "{VALIDATOR} doğrulayıcısından stake çıkarma",
       "USERNAME": "Kullanıcı adı",
       "VIEW_DETAILS": "Ayrıntıları görüntüle",
       "VIEW_LEAGUE": "Ligi Görüntüle",
       "VIEW_LESS": "Daha az göster",
       "VIEW_MORE": "Daha fazla göster",
       "VIEW_OPTIONS": "Seçenekleri görüntüle",
+      "VIEW_ORDER": "Talimatı görüntüle",
+      "VIEW_ORDERS_COUNT": "{NUM_ORDERS} talimatı görüntüle",
       "VIEW": "Görüntüle",
       "VIEW_ALL": "Tümünü görüntüle →",
       "VIEWS": "Görünümler",
@@ -826,7 +839,7 @@
       "SKIP_FOR_NOW": "Şimdilik atla",
       "START_TRADING_BLURB": "Dünyanın en güçlü açık borsası üzerinde yatırım yapmaya başlayın.",
       "SWITCH_NETWORK": "Ağı değiştir",
-      "TOS_TITLE": "Ürün ve hizmetlerimizden herhangi birini kullanarak, {TERMS_LINK}ve k{PRIVACY_POLICY_LINK}oşullarını kabul etmiş olursunuz.  Bu şartları kabul, temsil ve garanti ediyorsunuz:",
+      "TOS_TITLE": "Ürün ve hizmetlerimizden herhangi birini kullanarak, {TERMS_LINK} ve {PRIVACY_POLICY_LINK} koşullarını kabul etmiş olursunuz. Bu şartları kabul, temsil ve garanti ediyorsunuz:",
       "TOS_LINE1": "Amerika Birleşik Devletleri, Kanada veya yasaklı ya da engellenmiş diğer bir konumda ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi olan bir firma ya da kişi değilsiniz.",
       "TOS_LINE2": "Gelecekte Amerika Birleşik Devletleri, Kanada veya diğer yasaklanmış veya engellenmiş konumlarda bulunurken bu siteye erişmeyecek veya ürünlerimizi veya hizmetlerimizi kullanmayacaksınız.",
       "TOS_LINE3": "Fiziksel konumunuzu yasaklı veya engellenmiş bir konumdan başka bir yerde göstermek için VPN kullanmıyorsunuz ve gelecekte kullanmayacaksınız.",
@@ -967,9 +980,32 @@
       "SLOW_WITHDRAW_CONFIRMATION": "Bu {STYLED_SLOW} çekme işlemi, çekme için kullanılabilir hale gelene dek {HOURS} saate kadar sürebilir. Çekme işlemi gaz ücretlerinden siz sorumlu olacaksınız. Fonlarınıza daha erken ihtiyacınız varsa, {STYLED_FAST} çekme işlemini deneyin.",
       "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz."
     },
+    "STAKE_MODAL": {
+      "STAKE_DESCRIPTION": "USDC cinsinden ödül kazanmak için DYDX'inizi stake edin. Staking'den çıkarma 30 güne kadar sürebilir.",
+      "AMOUNT_TO_STAKE": "Stake Edilecek Miktar",
+      "SELECTED_VALIDATOR": "Seçilen Doğrulayıcı",
+      "ENTER_AMOUNT_TO_STAKE": "Stake edilecek miktarı girin",
+      "STAKED_BALANCE": "Stake Edilen Bakiye"
+    },
+    "UNSTAKE_MODAL": {
+      "CURRENTLY_STAKING": "Şu anda {AMOUNT} stake ediyorsunuz",
+      "CURRENTLY_STAKING_WITH": "Şu anda {VALIDATOR} ile stake ediyorsunuz",
+      "AMOUNT_TO_UNSTAKE": "Staking'den Çıkarılacak Miktar",
+      "UNSTAKED_BALANCE": "Staking'den Çıkarılan Bakiye",
+      "SELECTED_VALIDATOR": "Seçilen Doğrulayıcı",
+      "UNSTAKING_PERIOD": "Staking'den Çıkarma Dönemi",
+      "VALIDATOR": "Doğrulayıcı",
+      "UNSTAKING_PERIOD_DESCRIPTION": "Staking'den çıkarma süresi 30 güne kadar sürebilir ve bu bakiye üzerinden ödül kazanamazsınız."
+    },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Sizin için nasıl daha iyi bir yatırım deneyimi oluşturabileceğimizi bize bildirin. Sorular veya hata raporları için lütfen yardım sohbetini kullanın.",
       "GIVE_FEEDBACK": "Geri bildirim verin"
+    },
+    "CANCEL_ORDERS_MODAL": {
+      "CANCEL_ORDERS_CONFIRMATION": "{ASSET} cinsinden {OPEN_ORDERS_TEXT} ({MARKET}) iptal etmek istediğinizden emin misiniz?",
+      "ONE_OPEN_ORDER": "1 açık talimat",
+      "N_OPEN_ORDERS": "{COUNT} açık talimatı",
+      "OPEN_ORDERS": "Açık talimatlar"
     },
     "PREFERENCES_MODAL": {
       "MAGIC_EXPORT_PRIVATE_KEY": "Özel anahtarı dışa aktarın",
@@ -1063,7 +1099,9 @@
       "IN_THIS_EPOCH": "bu dönemde",
       "LAUNCH_INCENTIVES_TITLE": "{FOR_V4} Lansman Teşvikleri",
       "LAUNCH_INCENTIVES_DESCRIPTION": "Her sezon alım satım ödülleri kazanın. Lider tablosunda diğer yatırımcılarla olan karşılaştırmanızı ve geçmiş sezonları nasıl görüntüleyeceğinizi inceleyin. ",
+      "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "{SEASON_NUMBER}. sezon yakında başlıyor!",
       "LAUNCH_INCENTIVES_SEASON_NUM": "{SEASON_NUMBER}. sezon",
+      "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{NUM_POINTS} puan, {PAST_DATE} tarihinde sona eren {SEASON_NUMBER}. Sezon sırasında kazanıldı.",
       "LEADERBOARD": "Lider Tablosu",
       "LEARN_TO_EXPORT": "{STRONG_NO}, gizli ifadenizi nasıl dışa aktaracağınızı öğrenin.",
       "MAKER_MARKET_SHARE": "düzenleyici piyasa payı",
@@ -1131,7 +1169,7 @@
       "ADD_TAKE_PROFIT": "Kâr alma ekle",
       "ADJUST_ISOLATED_MARGIN": "İzole Marjini Ayarla",
       "ADJUST_TARGET_LEVERAGE": "Hedef Kaldıracı Ayarla",
-      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Hedef kaldıracın ayarlanması, yeni bir talimat verilene kadar marjin ayarlamasına neden olmaz. Hedef kaldıraç hakkında daha fazla bilgi için bkz. {HERE}.",
+      "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Hedef kaldıraç, bir sonraki talimatınıza uygulanan marj miktarını belirler. Yeni bir emir verilene kadar hedef kaldıracın ayarlanması marjı aktarmaz.",
       "AMOUNT_FILLED": "Karşılanan",
       "ANNUALIZED": "Yıllık Olarak Hesaplanmış",
       "ASKS": "Talepler",
@@ -1149,6 +1187,8 @@
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "{ASSET} varlığının fiyatı sabitlenmiş bir fiyata düşerse, kârınızı elde tutmak için bir {ACTION} tetikleyebilirsiniz.",
       "CANCEL_ALL": "Hepsini iptal et",
       "CANCEL_ORDER": "Emiri iptal et",
+      "CANCEL_ORDERS_COUNT": "{COUNT} talimatı iptal et",
+      "CANCEL_ORDERS": "Talimatları iptal et",
       "CANCEL_REASON": "Gerekçeyi İptal Et",
       "CANCELED_ON_CHAIN": "Zincir üzerinde iptal edildi",
       "CANCELING": "İptal Ediliyor",
@@ -1232,6 +1272,7 @@
       "MODIFY_GOOD_TIL": "Geçerliliği Değiştirin",
       "MODIFY_PRICE": "Fiyatı değiştir",
       "MODIFY_SIZE_FIELD": "Miktarı değiştir",
+      "MODIFY_TARGET_LEVERAGE": "Hedef kaldıracı değiştir",
       "MODIFY_TRAILING_PERCENT": "Takip eden % değiştirin",
       "MODIFY_TRIGGER_PRICE": "Tetikleme fiyatını değiştirin",
       "MULTIPLE_ARROW": "Çoklu →",
@@ -1447,8 +1488,8 @@
       "ADJUSTED_IMR": "Düzeltilmiş Marj",
       "ADJUSTED_IMR_BODY": "Fiyat oynaklığı nedeniyle {MARKET} için Başlangıç Marj Gereksinimlerini geçici olarak {PERCENT} değerine {ACTION}. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Blok Ödülü",
-      "CHAIN_DISRUPTION_DETECTED": "Zincirde aksama tespit edildi",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX Zincirindeki bir aksama nedeniyle talimatlar başarısız olabileceği veya gecikebileceği için alım satım ve aktarım devre dışı bırakılır. Lütfen bekleyin ve daha sonra tekrar deneyin. Fonlarınız güvende.",
+      "CHAIN_DISRUPTION_DETECTED": "Zincirde potansiyel aksama tespit edildi",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "Potansiyel bir dYdX Zinciri kesintisi var. Lütfen durum sayfasını kontrol edin ve yenileyin. Bir zincir kesintisi durumunda, alım satım ve transferler geçici olarak devre dışı bırakılır. Fonlarınız güvende.",
       "CLICK_TO_VIEW": "Görüntülemek için tıklayın",
       "CLOSE_MARKET_POSITIONS": "{MARKET} pozisyonunuzu kapatın",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} sadece kapanış moduna ayarlanmıştır ve {MARKET} kapanış fiyatı artık sabitlenmiştir. Lütfen mümkün olan en kısa sürede açık {MARKET} pozisyonunuzu kapatın. Bir sorun ile karşılaşırsanız canlı destek aracılığıyla bize ulaşabilirsiniz. ",
@@ -1634,6 +1675,9 @@
       "YOU_CAN_WIN_THESE": "{LEAGUES_LINK} üzerinden bunları kazanabilirsiniz"
     },
     "STAKING_REWARDS": {
+      "CLAIM_USDC_AMOUNT": "{USDC_AMOUNT} USDC'yi talep edin",
+      "CLAIM_STAKING_REWARDS": "Staking Ödüllerini Talep Edin!",
+      "EARN_APR": "{APR_PERCENTAGE} APR kazanın",
       "LEAVING_WEBSITE_STAKING_GOVERNANCE": "Staking, yönetişim ve web sitesinden ayrılma feragat bildirimi",
       "LIQUID_STAKE_ON_STRIDE": "Stride Üzerinde Likit Stake",
       "LIQUID_STAKING_AND_LEAVING": "Likit stake yapılıyor ve web sitesinden ayrılıyor",
@@ -1645,10 +1689,12 @@
       "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Chainapsis, Inc. (\"Keplr\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetlerin size doğrudan Keplr tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetlerin ve herhangi bir staking veya yönetişimin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Keplr arasında gerçekleşeceğini kabul ve beyan edersiniz. Bu hizmetler ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Keplr tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Keplr arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
       "STAKING_AND_LEAVING": "Stake etme ve web sitesinden ayrılma feragat bildirimi",
       "STAKING_PAGE_SUBTITLE": "APR kazanmak için stake edin. Stake'den çıkarma 30 güne kadar sürebilir.",
-      "STAKING_REWARDS": "Staking Ödülleri"
+      "STAKING_REWARDS": "Staking Ödülleri",
+      "STAKING_REWARDS_AVAILABLE": "Staking Ödülleri Mevcut"
     },
     "TOKEN_GOVERNANCE": {
-      "GOVERNANCE_PAGE_SUBTITLE": "Yönetişim tekliflerini oylayarak veya kendi teklifinizi sunarak ekosisteme katılın."
+      "GOVERNANCE_PAGE_SUBTITLE": "Yönetişim tekliflerini oylayarak veya kendi teklifinizi sunarak ekosisteme katılın.",
+      "GOVERNANCE_DETAILS": "Yönetişime katılmak için gizli ifadenizi Keplr Wallet'a aktarmanız gerekecektir."
     },
     "TRADING_REWARDS": {
       "ABOUT": "Hakkında",
@@ -1662,14 +1708,26 @@
       "POWERED_BY": "TARAFINDAN DESTEKLENMEKTEDİR:",
       "SEASON_ID": "{SEASON_ID}. sezon",
       "TRADING_REWARD": "Alım Satım Ödülü",
+      "TRADING_REWARD_CHART_EMPTY_STATE": "Ödülünüz bulunmuyor.",
+      "TRADING_REWARD_HISTORY": "Alım Satım Ödülü Geçmişi",
+      "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "Geçmişiniz burada görünecektir.",
+      "TRADING_REWARD_TABLE_EMPTY_STATE": "Geçmişiniz bulunmuyor.",
+      "TRADING_REWARDS_LEGAL_DISCLAIMER": "Yönetişim, ödüller ve stake etme ile ilgili hizmetler, bu arayüzün sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan üçüncü taraflarca, Operatörün müdahalesi olmaksızın üçüncü taraf sitelerinde doğrudan size sağlanır. Kullanım Şartlarını bildiğinizi ve değişken ödül oranları, slashing ve stake etmeye özgü diğer riskler dahil olmak üzere bu hizmetlerle ilişkili riskleri anladığınızı kabul edersiniz. Bu web sitesindeki hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye olarak yorumlanmamalı veya bunlara güvenilmemelidir. Hizmetlerle ilgili herhangi bir işlem yapmadan önce bağımsız araştırma yapmak, durum tespiti yapmak ve profesyonel bir danışmandan tavsiye almaktan yalnızca siz sorumlusunuz.",
       "REWARD_HISTORY_DESCRIPTION": "Alım satım ödülleri her bloktan hemen sonra dağıtılırken, geçmiş her beş dakikada bir güncellenir. Alım satım ödülleri geçmişi {REWARDS_HISTORY_START_DATE} tarihine kadar uzanır.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Ödül kazanmak için alım satım yapmaya başlayın.",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Ödüllerimi nasıl alabilirim?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Nasıl stake ederim ve stake ödüllerini talep ederim?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Stake etmek için \"Stake\" butonuna tıklayın ve stake etmek istediğiniz token miktarını girin. Arayüz, hangi uygun doğrulayıcının en az token stake ettiğine bağlı olarak otomatik olarak iyi durumda olan (yani hiç slash edilmemiş olan) bir doğrulayıcı seçecektir. Staking ödüllerini talep etmek için, USDC ödülleri mevcut olduğunda \"Talep Et\" butonuna tıklayın. Talep edilen USDC ödülleri hesabınıza yatırılacaktır, böylece anında işlem yapabilirsiniz! USDC ödüllerini talep etmek için bir gaz ücreti olduğunu unutmayın.",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
+      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir. Daha fazla bilgi edinin: {HERE_LINK}.",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "Stake etmenin riskleri nelerdir?",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "Herhangi bir DeFi protokolünün kullanımı, risklerle birlikte gelir. Staking söz konusu olduğunda, token'ları staking'den çıkarmanın 30 gün sürdüğünü bilmek önemlidir; bu, protokol veya piyasa oynaklığı durumunda bile token'larınızı transfer edemeyeceğiniz bir likidite eksikliği dönemi olduğu anlamına gelir. Ayrıca, kullanıcılar varlıklarını bir doğrulayıcı ile stake etmeden önce doğrulayıcılar hakkında kendi durum tespitlerini yapmalıdır. Protokol kurallarını ihlal eden doğrulayıcılar, kendilerine stake edilen token'ların slash edilmesiyle (yani yakılmasıyla) veya ödül kazanmalarını engelleyecek şekilde nezarete alınmaları yoluyla cezalandırılabilir. Arayüz, token'ların stake edileceği doğrulayıcıyı geçmiş performansa dayalı olarak güvenilir bir kümeden seçerken, bir doğrulayıcının gelecekteki davranışının garantisi yoktur.",
+      "FAQ_WHAT_IS_STAKING_QUESTION": "Staking nedir?",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX Zinciri, konsensüs mekanizması için Proof-of-Stake kullanır. Token sahipleri, ağın güvenliğini sağlamaya ve işlemleri doğrulamaya yardımcı olmak için token'larını doğrulayıcılara stake edebilir ve bunun karşılığında protokolün topladığı alım satım ve gaz ücretlerinden USDC ödülleri kazanabilir. Tüm ücretler, sigorta fonuna gönderilen ücretler ve doğrulayıcı komisyonları düşüldükten sonra stake edenlere ödenir. Ödül oranları, {HERE_LINK} verilerine dayanmaktadır. Protokol koşullarına bağlı olarak dalgalanabilecek olan gelecekteki ödül oranlarının garantisi yoktur.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tüm yatırımcılar alım satım ödülleri için uygundur.",
-      "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
-      "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Ödüllerimi nasıl alabilirim?",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir."
+      "TRADING_REWARDS_UNAVAILABLE_IN_US": "Bu üçüncü taraf hizmetleri; ABD, Kanada veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "{EPOCH_NUMBER}. Dönem boyunca {AMOUNT} $DYDX ödülü kazandınız! Ödüllerinizi yönetişim panelinde talep edin.",
@@ -1732,6 +1790,7 @@
       "INVALID_ADDRESS_TITLE": "Geçersiz cüzdan adresi",
       "INVALID_ADDRESS_BODY": "Lütfen geçerli bir dYdX zinciri adresi giriniz.",
       "PLEASE_CONFIRM_ADDRESS": "Lütfen devam etmeden bu adresin istenen adres olduğunu onaylayın.",
+      "REQUIRED_FOR_TRANSFERS_TO_CEX": "Merkezi Borsalara yapılan transferler için gereklidir",
       "SELECT_ADDRESS": "Adresi girin veya seçin"
     },
     "DEPOSIT_WITH_FIAT": {
@@ -1740,7 +1799,7 @@
       "MODAL_BUY_CTA": "USDC satın alma",
       "MODAL_CONFIRMATION": "Gaz ücreti ödemeden fiat para ile USDC satın almak için Banxa'dan emir verin. Emir durumunuzu e-postanızda kontrol edin veya {BANXA_SUPPORT_LINK} destek ile iletişime geçin",
       "MODAL_CONFIRMATION_TITLE": "Banxa'daki işlemlerinizi bitirin",
-      "MODAL_LEGAL_DISCLAIMER": "\"USDC Satın Al\" seçeneğine tıklayarak bu hizmetin size doğrudan Banxa.com Pty Ltd. (\"Banxa\") tarafından sağlandığını ve dYdX Trading Inc.'in (\"dYdX\") bu süreçte yer almadığını; bu hizmetin ve bir değer (ör. fiat para, kripto para, kredi vb.) karşılığında kripto para satın almanın ancak siz dYdX web sitesinden ve protokolden ayrıldıktan sonra gerçekleşeceğini ve bir değer iletiminin (gönderim, alım ve emanet değeri dahil) doğrudan Ethereum ağ adresiniz ve Banxa arasında gerçekleşeceğini teyit ve kabul edersiniz. Bu hizmet Amerika Birleşik Devletleri'nde yerleşik herhangi bir kişiye sağlanmaz. Ayrıca, Banxa'nın sizden talep ettiği bilgilerin (kart numarası ve KYC dâhil) dYdX'e verilmediğini ve siz ile Banxa arasındaki bir işlemle veya iletimle ilgili bir hususta dYdX'i sorumlu tutmayacağınızı kabul edersiniz.  Bir uyuşmazlık durumunda, bu beyanın İngilizce sürümünün geçerli olacaktır. Bu beyan https:\/\/dydx.exchange\/legal adresindeki dYdX Kullanım Koşulları'nda bulunabilir. ",
+      "MODAL_LEGAL_DISCLAIMER": "\"USDC Satın Al\" seçeneğine tıklayarak bu hizmetin size doğrudan Banxa.com Pty Ltd. (\"Banxa\") tarafından sağlandığını ve dYdX Trading Inc.'in (\"dYdX\") bu süreçte yer almadığını; bu hizmetin ve bir değer (ör. fiat para, kripto para, kredi vb.) karşılığında kripto para satın almanın ancak siz dYdX web sitesinden ve protokolden ayrıldıktan sonra gerçekleşeceğini ve bir değer iletiminin (gönderim, alım ve emanet değeri dahil) doğrudan Ethereum ağ adresiniz ve Banxa arasında gerçekleşeceğini teyit ve kabul edersiniz. Bu hizmet Amerika Birleşik Devletleri'nde yerleşik herhangi bir kişiye sağlanmaz. Ayrıca, Banxa'nın sizden talep ettiği bilgilerin (kart numarası ve KYC dâhil) dYdX'e verilmediğini ve siz ile Banxa arasındaki bir işlemle veya iletimle ilgili bir hususta dYdX'i sorumlu tutmayacağınızı kabul edersiniz. Bir uyuşmazlık durumunda, bu beyanın İngilizce sürümü geçerli olacaktır. Bu beyan https:\/\/dydx.exchange\/legal adresindeki dYdX Kullanım Koşulları'nda bulunabilir.",
       "MODAL_NEED_HELP": "Yardıma mı ihtiyacınız var?",
       "MODAL_SUBTITLE": "Banxa aracılığıyla USDC satın alın. Fonlar, doğrudan hesabınıza yatırılacaktır ve {NO_GAS_FEES_STYLED}.",
       "NO_GAS_FEES_STYLED": "hiçbir gaz ücreti gerekmeden",
@@ -1835,7 +1894,15 @@
       "DONT_SHOW": "Bunu kimseye göstermeyin!",
       "TAP_TO_REVEAL": "Görünür yapmak için dokunun"
     },
+    "EQUITY_TIERS": {
+      "EQUITY_TIERS": "Net Varlık Katmanları",
+      "NET_COLLATERAL": "Net Teminat",
+      "LONG_TERM_OR_CONDITIONAL_ORDERS": "Uzun vadeli veya Koşullu talimatlar",
+      "EQUITY_TIERS_DESCRIPTION": "Bir alt hesabın sahip olmasına izin verilen açık talimat sayısı sınırı",
+      "EQUITY_TIERS_DESCRIPTION_LONG": "Net varlık katman limiti, bir alt hesabın sahip olmasına izin verilen açık talimat sayısını sınırlamak için net varlık katman kümesini tanımlar."
+    },
     "FEE_TIERS": {
+      "FEE_TIERS": "Ücret Katmanları",
       "ADDITIONAL_CONDITION": "Ek Koşul",
       "AND_EXCHANGE_MARKET_SHARE": "ve borsa piyasa payı",
       "AND_MAKER_MARKET_SHARE": "ve satıcı piyasa payı",
@@ -1874,6 +1941,7 @@
       "ADD_MARKET_STEP_1_DESCRIPTION": "Eklemek istediğiniz piyasaları arayın veya listeden seçin. Bu önceden doldurulmuş piyasa listesi, popüler merkezi borsalardaki derinlik ve hacme dayanmaktadır ve bu tür piyasaların onaylandığı anlamına gelmez. Metodoloji hakkında daha fazla bilgi burada bulunabilir: {HERE}",
       "ADD_MARKET_STEP_2_DESCRIPTION": "Bir piyasa seçildikten sonra, içerdiği parametrelerin tümü otomatik olarak doldurulacaktır.",
       "ADD_MARKET_STEP_3_DESCRIPTION": "Yeni piyasayı eklemek için bir teklif oluşturan bir işlem gönderin. Bu da {REQUIRED_NUM_TOKENS} tutarında stake edilmemiş {NATIVE_TOKEN_DENOM} bakiyesi gerektirir.",
+      "ADD_NEW_MARKET_DETAILS": "Bir yönetişim teklifi aracılığıyla dYdX Zinciri'ne yeni bir varlık ekleyin. {AMOUNT} stake edilmemiş DYDX gerektirir.",
       "CONFIRM_NEW_MARKET_PROPOSAL": "Yeni piyasa önerisini onaylayın",
       "HIDE_STEPS": "Adımları gizle",
       "IMPACT_NOTIONAL": "Etki kavram değeri",
@@ -2000,9 +2068,9 @@
     "BROADCAST_ERROR_3007": "Durum denetlemeli emir teminatlandırma kontrolü başarısız.",
     "BROADCAST_ERROR_3008": "Durum denetlemeli emir daha önce iptal edildi ve bu nedenle gerçekleştirilemedi.",
     "BROADCAST_ERROR_3009": "Durum denetlemeli emir daha önce kaldırıldı ve bu nedenle gerçekleştirilemedi.",
-    "BROADCAST_ERROR_10001": "Alt hesap, net varlık seviye limiti nedeniyle daha fazla emir açmıyor.",
+    "BROADCAST_ERROR_10001": "Alt hesap, net varlık seviye limiti nedeniyle daha fazla emir açmıyor. {EQUITY_TIER_LEARN_MORE}",
     "GENERAL": {
-      "RATE_LIMIT_REACHED_ERROR_TITLE": "Hız Limitine Ulaşıldı",
+      "RATE_LIMIT_REACHED_ERROR_TITLE": "Limite Ulaşıldı",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Bu IP adresi için Hız sınırına ulaşıldı. Lütfen daha sonra tekrar deneyin.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Bir şey ters gitti: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
@@ -2040,6 +2108,8 @@
       "ORDER_WOULD_FLIP_POSITION": "Bu talimat pozisyonunuzu yönünü değiştirecek veya miktarını artıracaktır. Lütfen Yalnızca Azalt özelliğini kaldırın veya talimat büyüklüğünüzü azaltın.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin veya bir Durdurma Limiti emri kullanın.",
       "TAKER_FEE_INVALID": "Ücret oranlarınız değişmiş olabilir. Lütfen uygulamayı yenileyin ve tekrar deneyin.",
+      "TARGET_LEVERAGE_NEGATIVE": "Hedef kaldıracınız negatif olamaz. Lütfen pozitif bir sayı girin.",
+      "TARGET_LEVERAGE_TOO_HIGH": "Hedef kaldıracınız çok yüksek. Lütfen hedef kaldıracınızı azaltın.",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının üstünde olmalıdır: {INDEX_PRICE}.",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının altında olmalıdır: {INDEX_PRICE}.",
       "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen tetikleme fiyatınızı güncelleyin veya bir durdurma limit talimatı kullanın.",
@@ -2056,6 +2126,7 @@
       "INVALID_LARGE_POSITION_LEVERAGE": "Geçersiz kaldıraç",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Marj çok yüksek",
       "INVALID_NEW_POSITION_LEVERAGE": "Geçersiz kaldıraç",
+      "INVALID_TARGET_LEVERAGE": "Geçersiz hedef kaldıraç",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Yalnızca pozisyon kapatma",
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Çok fazla kayma",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Çok fazla kayma",
@@ -2183,7 +2254,12 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "Bu cüzdan adresi ile ilişkili bir hesap bulamadık.",
       "TRANSFER_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
       "TRANSFER_TO_YOURSELF": "Kendi cüzdan adresinize doğrudan transfer işlemini gerçekleştiremezsiniz.",
-      "TRANSFER_INSUFFICIENT_GAS": "Zincir cüzdanınızdaki {USDC_BALANCE} USDC bakiyesi işlem ücretlerini karşılamayabilir. Lütfen ilave bakiye yatırınız."
+      "TRANSFER_INSUFFICIENT_GAS": "Zincir cüzdanınızdaki {USDC_BALANCE} USDC bakiyesi işlem ücretlerini karşılamayabilir. Lütfen ilave bakiye yatırınız.",
+      "TRANSFER_WITHOUT_MEMO": "Memo olmadan merkezi bir borsaya aktarım yapmak, fon kaybına neden olabilir."
+    },
+    "ADJUST_ISOLATED_MARGIN": {
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
+      "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Lütfen geçerli bir miktar girin."
     },
     "NEW_MARKET_WIDGET": {
       "NOT_ENOUGH_BALANCE": "Bir piyasa eklemeniz için en az {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} tutarına ihtiyacınız vardır."
@@ -2213,7 +2289,8 @@
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "Bu piyasa emri mevcut likiditede emir defteri fiyatı için {SLIPPAGE} etkisi ile sonuçlanır.",
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET} şu anda sadece kapanış modundadır. Yeni pozisyon oluşturulamaz.",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Durdurma Piyasa Emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Durdurma Limit Emri kullanmayı deneyin.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit Emri kullanmayı deneyin."
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit Emri kullanmayı deneyin.",
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "Açık bir pozisyon varken {MARKET} piyasası için marj modu değiştirilemiyor."
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Limit Fiyatı",
