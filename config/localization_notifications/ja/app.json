@@ -18,7 +18,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "シーズン{SEASON_NUMBER}の発売奨励プログラムが始まりました！",
-      "BODY": "シーズン{PREV_SEASON_NUMBER}では、ほとんどのトレーダーが少なくとも{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）を獲得しました！"
+      "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
     },
     "OFFSETTING": {
       "TITLE": "オフセットポジション",

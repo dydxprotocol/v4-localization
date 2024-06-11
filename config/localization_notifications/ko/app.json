@@ -18,7 +18,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "시즌 {SEASON_NUMBER} 출시 인센티브 프로그램이 시작되었습니다!",
-      "BODY": "{PREV_SEASON_NUMBER} 시즌에서는 대부분의 트레이더는 최소한 {DYDX_AMOUNT} DYDX(~{USDC_AMOUNT} USDC)를 획득했습니다!"
+      "BODY": "시즌 {PREV_SEASON_NUMBER}에서 얻은 중간 보상은 {DYDX_AMOUNT} DYDX(약 {USDC_AMOUNT}USDC)입니다!"
     },
     "OFFSETTING": {
       "TITLE": "포지션 오프셋",
