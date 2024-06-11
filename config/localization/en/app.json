@@ -132,6 +132,7 @@
       "EMAIL": "Email",
       "ENDED": "Ended",
       "EQUITY": "Equity",
+      "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gas",
       "ESTIMATED": "Estimated",
       "EXPAND_SECTION": "Expand section",
@@ -989,7 +990,9 @@
       "AMOUNT_TO_STAKE": "Amount to Stake",
       "SELECTED_VALIDATOR": "Selected Validator",
       "ENTER_AMOUNT_TO_STAKE": "Enter amount to stake",
-      "STAKED_BALANCE": "Staked Balance"
+      "KEPLR_DASHBOARD": "Keplr Dashboard",
+      "STAKED_BALANCE": "Staked Balance",
+      "STAKING_LEGAL_DISCLAIMER": "You are staking your assets to a validator node operated by a third party. The operator of this site is not responsible for such staking services provided by third parties. Stake to another validator with {KEPLR_DASHBOARD_LINK} or liquid stake with {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "You're currently staking {AMOUNT}",
