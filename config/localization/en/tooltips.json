@@ -335,6 +335,12 @@
       "BODY": "dYdX supports two types of withdraws from Layer 2. Fast withdraws carry a small fee but do not require gas and are sent immediately. Slow withdraws are free but require two steps, take much longer, and the user will have to pay their own gas fees."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Selected Validator",
+      "BODY": "Selection is based on lowest stake weight from a pre-configured set of validators."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "Verify email address",
