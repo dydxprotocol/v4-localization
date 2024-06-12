@@ -16,9 +16,17 @@
       "TITLE": "Position abgewickelt",
       "BODY": "{MARKET} ist geschlossen. Ihre {SIDE}-Position bei {MARKET} hat die Endabrechnung erreicht."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK-Orders veraltet",
+      "BODY": "Fill-or-Kill-Orders (FOK) wurden nicht mehr unterstützt. Alle anderen Ordertypen sind weiterhin verfügbar."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Das Incentives-Programm zum {SEASON_NUMBER}Saisonstart hat begonnen!",
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "Die Prämien zum {SEASON_NUMBER}Saisonstart wurden verteilt!",
+      "BODY": "{SEASON_NUMBER}Saisonprämien +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Positionsverrechnung",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
       "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wurde entfernt."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1} und  {MARKET_2}Märkte rückläufig",
+      "BODY": "Am {DATE}, dem {MARKET_1} und {MARKET_2} durchliefen die Märkte die Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live-Vorschlag zur Abschwächung {MARKET_1}von  und  den {MARKET_2}Märkten",
+      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die  {MARKET_1}und die  {MARKET_2}Märkte abzubauen. Wenn sie bestanden haben, treten die  {MARKET_1}und die  {MARKET_2}Märkte in die Endabrechnung am {DATE}ein. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     }
   }
 }
