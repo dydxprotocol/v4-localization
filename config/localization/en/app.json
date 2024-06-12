@@ -992,6 +992,7 @@
       "ENTER_AMOUNT_TO_STAKE": "Enter amount to stake",
       "KEPLR_DASHBOARD": "Keplr Dashboard",
       "STAKED_BALANCE": "Staked Balance",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Estimated gas fees are greater than the claimable reward value.",
       "STAKING_LEGAL_DISCLAIMER": "You are staking your assets to a validator node operated by a third party. The operator of this site is not responsible for such staking services provided by third parties. Stake to another validator with {KEPLR_DASHBOARD_LINK} or liquid stake with {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
@@ -2284,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "We could not find an account associated with this wallet address.",
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
       "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
-      "TRANSFER_INSUFFICIENT_GAS": "The USDC balance {USDC_BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds.",
+      "TRANSFER_INSUFFICIENT_GAS": "The {TOKEN} balance {BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds.",
       "TRANSFER_WITHOUT_MEMO": "Transferring to a centralized exchange without the memo they have provided you can result in a loss of funds."
     },
     "ADJUST_ISOLATED_MARGIN": {

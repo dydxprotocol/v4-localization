@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1275,6 +1275,7 @@ export const APP_STRING_KEYS = {
 
     AMOUNT_TO_STAKE: 'APP.STAKE_MODAL.AMOUNT_TO_STAKE',
     ENTER_AMOUNT_TO_STAKE: 'APP.STAKE_MODAL.ENTER_AMOUNT_TO_STAKE',
+    GAS_FEE_GREATER_THAN_REWARD_ERROR: 'APP.STAKE_MODAL.GAS_FEE_GREATER_THAN_REWARD_ERROR',
     KEPLR_DASHBOARD: 'APP.STAKE_MODAL.KEPLR_DASHBOARD',
     SELECTED_VALIDATOR: 'APP.STAKE_MODAL.SELECTED_VALIDATOR',
     STAKED_BALANCE: 'APP.STAKE_MODAL.STAKED_BALANCE',
