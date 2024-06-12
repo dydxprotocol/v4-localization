@@ -2285,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "We could not find an account associated with this wallet address.",
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
       "TRANSFER_TO_YOURSELF": "You cannot complete a direct transfer to your own wallet address.",
-      "TRANSFER_INSUFFICIENT_GAS": "The {TOKEN} balance {BALANCE} in your chain wallet may not cover the transaction fees. Please deposit additional funds.",
+      "TRANSFER_INSUFFICIENT_GAS": "The {TOKEN} balance ({BALANCE} {TOKEN}) in your chain wallet may not cover the transaction fees. Please deposit additional funds.",
       "TRANSFER_WITHOUT_MEMO": "Transferring to a centralized exchange without the memo they have provided you can result in a loss of funds."
     },
     "ADJUST_ISOLATED_MARGIN": {
