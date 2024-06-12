@@ -16,9 +16,17 @@
       "TITLE": "头寸已结算",
       "BODY": "{MARKET} 已平仓。 您在{MARKET}上的{SIDE}头寸已完成最终结算。"
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "全部成交否则取消(FOK)订单已弃用",
+      "BODY": "全部成交否则取消(FOK)订单已被弃用。 所有其他订单类型继续可用。"
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "赛季 {SEASON_NUMBER} 启动激励计划现已开始！",
       "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "第{SEASON_NUMBER}季启动奖励已分发！",
+      "BODY": "第{SEASON_NUMBER}季奖励 + {DYDX_AMOUNT}DYDX"
     },
     "OFFSETTING": {
       "TITLE": "头寸抵消",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "获得利润",
       "BODY": "您在{OLD_VALUE}的止盈触发器已被移除。"
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
+      "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "关闭{MARKET_1}和{MARKET_2}市场的现场提议",
+      "BODY": "目前有关闭{MARKET_1}和{MARKET_2}市场的现场提议。 如果通过，{MARKET_1}和{MARKET_2}市场将于 {DATE} 进入最终结算。 现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
     }
   }
 }
