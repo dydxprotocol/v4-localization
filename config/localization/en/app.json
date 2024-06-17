@@ -2084,7 +2084,7 @@
     "BROADCAST_ERROR_CLOB_3004": "The GoodTilBlockTime of the message is further than StatefulOrderTimeWindow into the future. Please refresh the page and try again.",
     "BROADCAST_ERROR_CLOB_3005": "Existing stateful order has higher-or-equal priority than the new one.",
     "BROADCAST_ERROR_CLOB_3006": "Stateful order does not exist.",
-    "BROADCAST_ERROR_CLOB_3007": "Stateful order collateralization check failed.",
+    "BROADCAST_ERROR_CLOB_3007": "Stateful order collateralization check failed. Order size might be too large, please try again with a smaller order.",
     "BROADCAST_ERROR_CLOB_3008": "Stateful order was previously cancelled and therefore cannot be placed.",
     "BROADCAST_ERROR_CLOB_3009": "Stateful order was previously removed and therefore cannot be placed.",
     "BROADCAST_ERROR_CLOB_10001": "Subaccount cannot open more orders due to equity tier limit. {EQUITY_TIER_LEARN_MORE}",
