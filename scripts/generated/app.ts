@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1564,6 +1564,7 @@ export const APP_STRING_KEYS = {
     TRAILING_STOP_DESCRIPTION: 'APP.TRADE.TRAILING_STOP_DESCRIPTION',
     TRANSFERS_EMPTY_STATE: 'APP.TRADE.TRANSFERS_EMPTY_STATE',
     TRIGGERS: 'APP.TRADE.TRIGGERS',
+    TRIGGER_ORDER_CANCELED_BY_FRONTEND: 'APP.TRADE.TRIGGER_ORDER_CANCELED_BY_FRONTEND',
     TRIGGER_PRICE: 'APP.TRADE.TRIGGER_PRICE',
     TRIGGER_PRICE_SHORT: 'APP.TRADE.TRIGGER_PRICE_SHORT',
     UNDERCOLLATERALIZED: 'APP.TRADE.UNDERCOLLATERALIZED',
