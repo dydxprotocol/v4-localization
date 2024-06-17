@@ -1412,6 +1412,7 @@
       "TRANSFERS_EMPTY_STATE": "You have no transfer history.",
       "TRIGGER_PRICE_SHORT": "Trigger",
       "TRIGGER_PRICE": "Trigger Price",
+      "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "The trigger order's associated position has been closed or flipped.",
       "TRIGGERS": "Triggers",
       "UNDERCOLLATERALIZED": "Undercollateralized",
       "UNOPENED_ISOLATED_POSITIONS": "Unopened Isolated Positions",
