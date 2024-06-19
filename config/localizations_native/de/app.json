@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Wallet Adresse eingeben",
-      "ENTER_TRANSFER_AMOUNT": "Transferbetrag eingeben"
+      "ENTER_TRANSFER_AMOUNT": "Transferbetrag eingeben",
+      "REQUIRED_FOR_CEX": "Für zentralisierte Börsen erforderlich"
     },
     "FIAT_ONRAMP": {
       "NEW": "Neu!",
