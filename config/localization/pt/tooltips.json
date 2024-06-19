@@ -195,13 +195,13 @@
       "TITLE": "Apenas redução",
       "BODY": "A opção Apenas redução impede que um pedido altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível somente se o Tempo em vigor estiver definido como IOC ou FOK."
+      "BODY": "Apenas redução está disponível somente se o Tempo em vigor estiver definido como IOC."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível apenas se a Execução estiver definida como IOC ou FOK."
+      "BODY": "Apenas redução está disponível somente se a Execução estiver definida como IOC."
     },
     "SPREAD": {
       "TITLE": "Spread",
