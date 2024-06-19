@@ -16,9 +16,17 @@
       "TITLE": "決済されたポジション",
       "BODY": "{MARKET}はクローズされました。{MARKET}の{SIDE}ポジションは最終決済に達しました。"
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK注文は非推奨です",
+      "BODY": "FOK（Fill-or-Kill）注文は非推奨になりました。 その他の注文タイプはすべて引き続きご利用いただけます。"
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "シーズン{SEASON_NUMBER}の発売奨励プログラムが始まりました！",
       "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "シーズン{SEASON_NUMBER}ローンチ報酬が配布されました！",
+      "BODY": "シーズン{SEASON_NUMBER}報酬+ {DYDX_AMOUNT}DYDX"
     },
     "OFFSETTING": {
       "TITLE": "オフセットポジション",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "利益を確定する",
       "BODY": "利益確定の {OLD_VALUE} でのトリガーが削除されました。"
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1}および{MARKET_2}「マーケット」はダウンしました",
+      "BODY": "{DATE}に、{MARKET_1}および{MARKET_2}「マーケット」は最終決済を通過しました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "ライブ提案で{MARKET_1}および{MARKET_2}「マーケット」の段階的縮小",
+      "BODY": "現在、{MARKET_1}および{MARKET_2}「マーケット」を段階的に縮小するライブ提案があります。 パスした場合、{MARKET_1}および{MARKET_2}「マーケット」は{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
     }
   }
 }
