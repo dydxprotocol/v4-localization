@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Entrez l'adresse du portefeuille",
-      "ENTER_TRANSFER_AMOUNT": "Saisir le montant du transfert"
+      "ENTER_TRANSFER_AMOUNT": "Saisir le montant du transfert",
+      "REQUIRED_FOR_CEX": "Requis pour les échanges centralisés"
     },
     "FIAT_ONRAMP": {
       "NEW": "Nouveau !",
