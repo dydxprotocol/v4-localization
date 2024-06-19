@@ -16,9 +16,17 @@
       "TITLE": "Posição estabelecida",
       "BODY": "{MARKET} foi fechado. Sua posição {SIDE} em {MARKET} atingiu a liquidação final."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "Ordens FOK descontinuadas",
+      "BODY": "As ordens Fill-or-Kill (FOK) foram descontinuadas. Todos os outros tipos de ordem continuam disponíveis."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "As recompensas de lançamento da temporada {SEASON_NUMBER} foram distribuídas!",
+      "BODY": "Recompensas da temporada {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Compensação de posição",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take profit",
       "BODY": "Seu disparo de take profit em {OLD_VALUE} foi removido."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1}Os mercados  e  foram {MARKET_2}encerrados",
+      "BODY": "Em {DATE}, os mercados {MARKET_2} e {MARKET_1} passaram pela liquidação final. As posições existentes foram fechadas e as ordens abertas foram canceladas. Você pode encontrar mais informações sobre a liquidação final {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Proposta ativa para encerrar os mercados {MARKET_1} e {MARKET_2}",
+      "BODY": "Há atualmente uma proposta ativa para reduzir os mercados {MARKET_1} e {MARKET_2}. Se ela for aprovada, os mercados {MARKET_1} e {MARKET_2} entrarão em liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     }
   }
 }
