@@ -1202,6 +1202,7 @@
       "CANCEL_ALL": "Cancel all",
       "CANCEL_ORDER": "Cancel order",
       "CANCEL_ORDERS_COUNT": "Cancel {COUNT} orders",
+      "CANCELING_ORDERS_COUNT": "Cancelling {COUNT} orders...",
       "CANCEL_ORDERS": "Cancel orders",
       "CANCEL_REASON": "Cancel Reason",
       "CANCELED_ON_CHAIN": "Canceled on chain",
