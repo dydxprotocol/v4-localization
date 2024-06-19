@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "输入钱包地址",
-      "ENTER_TRANSFER_AMOUNT": "输入转账金额"
+      "ENTER_TRANSFER_AMOUNT": "输入转账金额",
+      "REQUIRED_FOR_CEX": "中心化交易所的必要条件"
     },
     "FIAT_ONRAMP": {
       "NEW": "全新！",

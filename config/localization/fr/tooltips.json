@@ -195,13 +195,13 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à short, ou short à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera. "
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only n'est disponible que si le délai en vigueur est défini sur IOC ou FOK."
+      "BODY": "La réduction seule n'est disponible que si le délai en vigueur est défini sur IOC."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only n'est disponible que si l'exécution est définie sur IOC ou FOK."
+      "BODY": "Reduce-Only n'est disponible que si l'exécution est définie sur IOC."
     },
     "SPREAD": {
       "TITLE": "Spread",

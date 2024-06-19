@@ -45,6 +45,7 @@
       "ACTION": "アクション",
       "ACTIONS": "アクション",
       "ACTIVE": "アクティブ",
+      "ADD": "追加 →",
       "ADDING": "追加する",
       "ADDRESS": "所在地",
       "ADVANCED": "アドバンスト",
@@ -54,6 +55,8 @@
       "ALL": "全期間",
       "ALLOWED": "許可されました",
       "AMOUNT": "金額",
+      "AMOUNT_TO_ADD": "追加する金額",
+      "AMOUNT_TO_REMOVE": "削除する金額",
       "ANONYMOUS": "匿名",
       "ARE_UNCHANGED": "変更なし",
       "ARE_YOU_SURE": "本当ですか？",
@@ -815,6 +818,7 @@
       "NOT_SUPPORTED": "非対応",
       "ONBOARDING": "オンボーディング",
       "MINIMUM_AMOUNT_RECEIVED": "受け取った最低金額",
+      "MULTI_FACTOR_AUTH": "多要素認証",
       "PERMITTED_TO_USE": "あなたが居住し、拠点を置いている地域の法律の下でこのサイトにアクセスし、dYdXで取引することを合法的に許可されています。",
       "PRIVACY_POLICY": "個人情報保護方針",
       "RECOVER_KEYS": "キーを再作成",
@@ -1101,6 +1105,7 @@
       "LAUNCH_INCENTIVES_DESCRIPTION": "シーズンごとに取引報酬を獲得できます。他のトレーダーとの比較を確認したり、リーダーボードでの過去のシーズンを確認できます。",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "間もなくシーズン{SEASON_NUMBER}が始まります！",
       "LAUNCH_INCENTIVES_SEASON_NUM": "シーズン{SEASON_NUMBER}",
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "シーズン{SEASON_NUMBER}報酬",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{PAST_DATE}に終了したシーズン{SEASON_NUMBER}期間中に{NUM_POINTS}を受け取りました。",
       "LEADERBOARD": "リーダーボード",
       "LEARN_TO_EXPORT": "{STRONG_NO}で、シークレットフレーズをエクスポートする方法を学びます。",
@@ -1211,6 +1216,7 @@
       "DELEVERAGED": "レバレッジ解消",
       "EDIT_STOP_LOSS": "ストップロスを編集する",
       "EDIT_TAKE_PROFIT": "利益確定を編集する",
+      "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "利益確定\/ストップロスを編集する",
       "ENTER_AMOUNT": "金額を入力します",
       "ENTER_LIMIT_PRICE": "指値を入力します",
       "ENTER_TRIGGER_PRICE": "トリガー価格を入力します",
@@ -1316,6 +1322,8 @@
       "ORDERBOOK_SHORT": "ブック",
       "ORDERBOOK_SPREAD_PERCENT": "スプレッド%",
       "ORDERBOOK_SPREAD": "スプレッド",
+      "ORDERBOOK_UNITS": "ユニット",
+      "ORDERBOOK_GROUPING": "グループ化",
       "ORDERS_EMPTY_STATE": "注文がありません。",
       "PARTIALLY_FILLED": "部分執行済",
       "PAYMENT": "支払い",
@@ -1547,6 +1555,7 @@
         "WITHDRAW_IN_PROGRESS": "出金中...",
         "WITHDRAW_TO_CHAIN": "{CHAIN}に出金する"
       },
+      "TRADE_UDPATES": "取引アップデート",
       "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました",
       "UPDATED": "アップデート済み",
       "UPDATING": "アップデート中"
@@ -1690,7 +1699,8 @@
       "STAKING_AND_LEAVING": "ステーキングと退会ウェブサイトの免責事項",
       "STAKING_PAGE_SUBTITLE": "APR獲得のためのステーキング。 アンステーキングには最大30日間かかることがあります。",
       "STAKING_REWARDS": "ステーキング報酬",
-      "STAKING_REWARDS_AVAILABLE": "ステーキング報酬が利用可能"
+      "STAKING_REWARDS_AVAILABLE": "ステーキング報酬が利用可能",
+      "AVAILABLE_IN_DAYS": "{DAYS}日で利用可能"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "ガバナンス提案に投票するか、独自の提案を提出することで、エコシステムに参加します。",
@@ -1718,7 +1728,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "報酬を請求するにはどうすればよいですか？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "各ブロックの取引報酬は、直接トレーダーのdYdXチェーンアドレスに自動的に送信されます。",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "ステーキング報酬を請求するにはどうすればよいですか？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。 フロントエンドは、適格なバリデータ（スラッシュされていないものを意味します）を自動的に選択します。これに基づいて、適格なバリデータがステーキングされたトークンが最も少ない値になります。ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。 請求されたUSDC報酬は口座に預金されるため、即座に取引できます！ USDC報酬を請求するには、ガス手数料が発生します。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。 良好な状態のバリデータ（スラッシュされていないものを意味します）のセットのバリデータは、適格なバリデータがステーキングされたトークンが最も少ないかに基づいて自動的に選択されます。 ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。 請求されたUSDC報酬は口座に預金されるため、即座に取引できます！ USDC報酬を請求するには、ガス手数料が発生します。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "取引報酬の仕組みは？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "各約定の直後、トレーダーが支払った手数料の金額に基づいて、取引報酬がトレーダーのdYdXチェーンアドレスに直接送信されます。 {HERE_LINK}続きを読む。",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "ステーキングのリスクは何ですか？",
@@ -1749,7 +1759,7 @@
       "PLANNED_MAINTENANCE": "予定されているメンテナンス",
       "PLANNED_MAINTENANCE_080322_BODY": "dYdXは、2022年8月3日にメンテナンス管理を実施いたします。",
       "REDUCE_ONLY_LIVE": "リデュースオンリーが公開中です",
-      "REDUCE_ONLY_LIVE_BODY": "リデュースオンリーがすべてのオーダータイプについて公開中です！リデュースオンリーを有効にするには、FOKまたはIOCで実行する必要があります。",
+      "REDUCE_ONLY_LIVE_BODY": "リデュースオンリーがすべてのオーダータイプについて公開中です！リデュースオンリーを有効にするには、実行はIOCである必要があります。",
       "REFER_AND_EARN": "紹介および獲得",
       "SET_UP_REFERRALS_BODY": "トレーダーを紹介すると、取引手数料を最大{COMMISSION}獲得できます！",
       "SET_UP_REFERRALS_PARAM": "40％の手数料",
@@ -1758,8 +1768,8 @@
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "リデュースオンリーのサポート",
-      "REDUCE_ONLY_WILL_DISABLE": "リデュースオンリーは、フィル・オア・キル（FOK）および即座またはキャンセル（IOC）注文の場合にのみ利用できます。実行オプションを変更すると、自動的にリデュースオンリーが無効になります。",
-      "REDUCE_ONLY_WILL_ENABLE": "リデュースオンリーは、フィル・オア・キル（FOK）および即座またはキャンセル（IOC）注文の場合にのみ利用できます。該当する場合、リデュースオンリーを有効にするこことで、実行方法が自動的にサポートされているオプションに変更されます。"
+      "REDUCE_ONLY_WILL_DISABLE": "リデュースオンリーは、即時またはキャンセル（IOC）注文でのみ利用できます。 実行オプションを変更すると、自動的にリデュースオンリーが無効になります。",
+      "REDUCE_ONLY_WILL_ENABLE": "リデュースオンリーは、即時またはキャンセル（IOC）注文でのみ利用できます。 該当する場合、リデュースオンリーを有効にするこことで、実行方法が自動的にサポートされているオプションに変更されます。"
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "現金",
@@ -2053,6 +2063,23 @@
     "V4_TESTNET_IMPERATOR": "V4テストネット3（Imperator）"
   },
   "ERRORS": {
+    "BROADCAST_ERROR_SDK_5": "チェーンウォレットには、トランザクション手数料をカバーするのに十分な残高がありません。追加の資金を入金するか、またはガス通貨を環境設定で更新してください。",
+    "BROADCAST_ERROR_CLOB_2000": "Fill or Kill（FOK）注文で全数量が約定できませんでした。",
+    "BROADCAST_ERROR_CLOB_2001": "リデュースオンリー注文では、ポジションサイズを増やすことはできません。",
+    "BROADCAST_ERROR_CLOB_2002": "リデュースオンリー注文では、ポジションサイドを変更することはできません。",
+    "BROADCAST_ERROR_CLOB_2003": "ポストオンリー注文は、１つ以上のメーカー注文を跨ぎます。",
+    "BROADCAST_ERROR_CLOB_2005": "オーダーは、分離されたサブアカウントの制約に違反します。",
+    "BROADCAST_ERROR_CLOB_3000": "無効な注文フラグ。",
+    "BROADCAST_ERROR_CLOB_3001": "無効な注文グッド・ティル・ブロックタイム。",
+    "BROADCAST_ERROR_CLOB_3002": "ステートフル注文は、即時実行を要求することはできません。",
+    "BROADCAST_ERROR_CLOB_3003": "ブロックタイムがメッセージのグッド・ティル・ブロックタイムを超えています。 ページを更新して、もう一度お試しください。",
+    "BROADCAST_ERROR_CLOB_3004": "メッセージのグッド・ティル・ブロックタイムは、ステートフル注文のタイムウィンドウより先まであります。 ページを更新して、もう一度お試しください。",
+    "BROADCAST_ERROR_CLOB_3005": "既存のステートフル注文の優先度は、新規注文より高いか、または同じです。",
+    "BROADCAST_ERROR_CLOB_3006": "ステートフル注文はありません。",
+    "BROADCAST_ERROR_CLOB_3007": "ステートフル注文の担保チェックに失敗しました。",
+    "BROADCAST_ERROR_CLOB_3008": "ステートフル注文は以前にキャンセルされているため、発注できません。",
+    "BROADCAST_ERROR_CLOB_3009": "ステートフル注文は以前に削除されているため、発注できません。",
+    "BROADCAST_ERROR_CLOB_10001": "エクイティティア限度額のため、サブアカウントはこれ以上注文をオープンできません。{EQUITY_TIER_LEARN_MORE}",
     "BROADCAST_ERROR_2000": "Fill or Kill（FOK）注文で全数量が約定できませんでした。",
     "BROADCAST_ERROR_2001": "リデュースオンリー注文では、ポジションサイズを増やすことはできません。",
     "BROADCAST_ERROR_2002": "リデュースオンリー注文では、ポジションサイドを変更することはできません。",
@@ -2255,11 +2282,7 @@
       "TRANSFER_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
       "TRANSFER_TO_YOURSELF": "自分自身のウォレットアドレスへのダイレクト送金はできません。",
       "TRANSFER_INSUFFICIENT_GAS": "お客様のチェーンウォレットの{USDC_BALANCE}USDC残高では、トランザクション手数料が不足する場合があります。追加資金を入金してください。",
-      "TRANSFER_WITHOUT_MEMO": "メモなしで集中型取引所に移管すると、資金の損失につながる可能性があります。"
-    },
-    "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
-      "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "有効な金額を入力してください。"
+      "TRANSFER_WITHOUT_MEMO": "集中型取引所から提供されたメモを持たずに送金すると、資金を失う可能性があります。"
     },
     "ADJUST_ISOLATED_MARGIN": {
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
@@ -2294,7 +2317,7 @@
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET}は現在クローズオンリーモードです。新しいポジションを得ることはできません。",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの成行注文のストップオーダーは、トリガー時点における流動性に依存して行われるものではありません。指値注文のストップオーダーを行うと、取引をもっとコントロールすることができます。",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの利益確定成行注文は、トリガー時点における流動性に依存して行われるものではありません。利益確定指値注文を行うと、取引をもっとコントロールすることができます。",
-      "UNABLE_TO_CHANGE_MARGIN_MODE": "オープンポジション{MARKET}のマージンモードを変更できません。"
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "{MARKET}のマージンモードを変更できません。"
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "指値",
