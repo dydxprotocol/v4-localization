@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Ingresar la dirección de la billetera",
-      "ENTER_TRANSFER_AMOUNT": "Ingresa la cantidad de la transferencia"
+      "ENTER_TRANSFER_AMOUNT": "Ingresa la cantidad de la transferencia",
+      "REQUIRED_FOR_CEX": "Requerido para intercambios centralizados"
     },
     "FIAT_ONRAMP": {
       "NEW": "¡Nuevo!",

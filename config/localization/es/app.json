@@ -45,6 +45,7 @@
       "ACTION": "Acción",
       "ACTIONS": "Acciones",
       "ACTIVE": "Activar",
+      "ADD": "Agregar →",
       "ADDING": "Agregar",
       "ADDRESS": "Dirección",
       "ADVANCED": "Avanzado",
@@ -54,6 +55,8 @@
       "ALL": "Todo",
       "ALLOWED": "Permitido",
       "AMOUNT": "Monto",
+      "AMOUNT_TO_ADD": "Cantidad a agregar",
+      "AMOUNT_TO_REMOVE": "Cantidad a eliminar",
       "ANONYMOUS": "Anónimo",
       "ARE_UNCHANGED": "No se modifican",
       "ARE_YOU_SURE": "¿Estás seguro?",
@@ -815,6 +818,7 @@
       "NOT_SUPPORTED": "No es compatible",
       "ONBOARDING": "Integración",
       "MINIMUM_AMOUNT_RECEIVED": "Cantidad mínima recibida",
+      "MULTI_FACTOR_AUTH": "Autenticación de múltiples factores",
       "PERMITTED_TO_USE": "Puedes acceder a este sitio y realizar operaciones en dYdX bajo las leyes de la jurisdicción en la que resides y estás ubicado.",
       "PRIVACY_POLICY": "Política de privacidad",
       "RECOVER_KEYS": "Recuperar claves",
@@ -1101,6 +1105,7 @@
       "LAUNCH_INCENTIVES_DESCRIPTION": "Gana recompensas de trading cada temporada. Observa cómo te comparas con otros traders y consulta las temporadas anteriores en la tabla de clasificación.",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "La temporada {SEASON_NUMBER} comienza pronto",
       "LAUNCH_INCENTIVES_SEASON_NUM": "Temporada {SEASON_NUMBER}",
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "Recompensas de la {SEASON_NUMBER}temporada",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "Recibiste {NUM_POINTS} durante la temporada {SEASON_NUMBER}, que terminó el {PAST_DATE}.",
       "LEADERBOARD": "Tabla de clasificación",
       "LEARN_TO_EXPORT": "{STRONG_NO}, aprende cómo exportar mi frase secreta.",
@@ -1211,6 +1216,7 @@
       "DELEVERAGED": "Desapalancado",
       "EDIT_STOP_LOSS": "Editar Stop loss",
       "EDIT_TAKE_PROFIT": "Editar toma de ganancias",
+      "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "Editar disparadores de toma de ganancias \/ stop loss",
       "ENTER_AMOUNT": "Ingresa el monto",
       "ENTER_LIMIT_PRICE": "Ingresa el precio de límite",
       "ENTER_TRIGGER_PRICE": "Ingresa el precio de activación",
@@ -1316,6 +1322,8 @@
       "ORDERBOOK_SHORT": "Libro",
       "ORDERBOOK_SPREAD_PERCENT": "Porcentaje de propagación",
       "ORDERBOOK_SPREAD": "Propagación",
+      "ORDERBOOK_UNITS": "Unidades",
+      "ORDERBOOK_GROUPING": "Agrupación",
       "ORDERS_EMPTY_STATE": "No tienes órdenes.",
       "PARTIALLY_FILLED": "Parcialmente ocupado",
       "PAYMENT": "Pago",
@@ -1547,6 +1555,7 @@
         "WITHDRAW_IN_PROGRESS": "Retiro(s) en curso...",
         "WITHDRAW_TO_CHAIN": "Retirar a {CHAIN}"
       },
+      "TRADE_UDPATES": "Actualizaciones de comercio",
       "TRADING_REWARD_RECEIVED": "Recompensa de trading recibida",
       "UPDATED": "Se actualizó",
       "UPDATING": "Actualizando"
@@ -1690,7 +1699,8 @@
       "STAKING_AND_LEAVING": "Descargo de responsabilidad de participación y salida del sitio web",
       "STAKING_PAGE_SUBTITLE": "Participa para ganar APR. La eliminación de las apuestas puede tardar hasta 30 días.",
       "STAKING_REWARDS": "Recompensas de participación",
-      "STAKING_REWARDS_AVAILABLE": "Recompensas de staking disponibles"
+      "STAKING_REWARDS_AVAILABLE": "Recompensas de staking disponibles",
+      "AVAILABLE_IN_DAYS": "Disponible en  {DAYS}días"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "Participa en el ecosistema votando sobre las propuestas de gobernanza o enviando las tuyas.",
@@ -1718,7 +1728,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "¿Cómo reclamo mis recompensas por operaciones?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "En cada bloque, las recompensas de trading se envían automáticamente directamente a la dirección de la cadena dYdX del trader.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "¿Cómo participo y reclamo recompensas de staking?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Para apostar, haz clic en el botón \"Apuesta\" e ingresa la cantidad de tokens que te gustaría apostar. La interfaz seleccionará automáticamente un validador en buen estado (lo que significa que uno que nunca se ha reducido), en función del validador elegible que tenga la menor cantidad de tokens apostados. Para reclamar recompensas de participación, haz clic en el botón \"Reclamar\" cuando las recompensas de USDC estén disponibles. ¡Las recompensas de USDC reclamadas se depositarán en tu cuenta para que puedas operar al instante! Ten en cuenta que hay una tarifa de gas para reclamar recompensas de USDC.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Para apostar, haz clic en el botón \"Apuesta\" e ingresa la cantidad de tokens que te gustaría apostar. Un validador de un conjunto de validadores en buen estado (lo que significa que uno que nunca se ha reducido) se seleccionará automáticamente en función del validador elegible que tenga la menor cantidad de tokens apostados. Para reclamar recompensas de participación, haz clic en el botón \"Reclamar\" cuando las recompensas de USDC estén disponibles. ¡Las recompensas de USDC reclamadas se depositarán en tu cuenta para que puedas operar al instante! Ten en cuenta que hay una tarifa de gas para reclamar recompensas de USDC.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "¿Cómo funcionan las recompensas de trading?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Inmediatamente después de cada llenado, las recompensas de trading se envían directamente a la dirección de la cadena dYdX del trader, en función de la cantidad de tarifas pagadas por el trader. Leer más {HERE_LINK}.",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "¿Cuáles son los riesgos de la participación?",
@@ -1749,7 +1759,7 @@
       "PLANNED_MAINTENANCE": "Mantenimiento planificado",
       "PLANNED_MAINTENANCE_080322_BODY": "dYdX se someterá a un mantenimiento planificado el 3 de agosto de 2022.",
       "REDUCE_ONLY_LIVE": "Solo reducir en vivo",
-      "REDUCE_ONLY_LIVE_BODY": "¡Solo reducir ahora está en vivo para todos los tipos de orden! La ejecución debe ser FOK o IOC para habilitar Solo reducir.",
+      "REDUCE_ONLY_LIVE_BODY": "¡Solo reducir ahora está en vivo para todos los tipos de orden! La ejecución debe ser IOC para habilitar la opción Solo reducir.",
       "REFER_AND_EARN": "Refiere y gana",
       "SET_UP_REFERRALS_BODY": "¡Refiere a otros traders y gana hasta {COMMISSION} de comisión según sus tarifas de trading!",
       "SET_UP_REFERRALS_PARAM": "40 % comisión",
@@ -1758,8 +1768,8 @@
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "Soporte de Solo reducir",
-      "REDUCE_ONLY_WILL_DISABLE": "Solo reducir está disponible únicamente para Completar o eliminar (FOK) e Inmediato o cancelar (IOC). Si cambias la opción de ejecución, Solo reducir se deshabilitará automáticamente.",
-      "REDUCE_ONLY_WILL_ENABLE": "Solo reducir está disponible únicamente para Completar o eliminar (FOK) e Inmediato o cancelar (IOC). Cuando sea pertinente, habilitar Solo reducir cambiará automáticamente tu método de ejecución a una opción compatible."
+      "REDUCE_ONLY_WILL_DISABLE": "Solo reducir está disponible para órdenes de cancelación o inmediata (IOC). Si cambias la opción de ejecución, Solo reducir se deshabilitará automáticamente.",
+      "REDUCE_ONLY_WILL_ENABLE": "Solo reducir está disponible para órdenes de cancelación o inmediata (IOC). Cuando sea pertinente, habilitar Solo reducir cambiará automáticamente tu método de ejecución a una opción compatible."
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "Efectivo",
@@ -2053,6 +2063,23 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3"
   },
   "ERRORS": {
+    "BROADCAST_ERROR_SDK_5": "No hay suficiente saldo en tu billetera de la cadena para cubrir las tarifas de transacción, deposita fondos adicionales o actualiza la moneda de gas en las preferencias.",
+    "BROADCAST_ERROR_CLOB_2000": "La orden de completar o cancelar no se pudo completar con éxito",
+    "BROADCAST_ERROR_CLOB_2001": "Las órdenes de solo reducción no pueden aumentar el tamaño de la posición",
+    "BROADCAST_ERROR_CLOB_2002": "Las órdenes de solo reducción no pueden cambiar el lado de la posición",
+    "BROADCAST_ERROR_CLOB_2003": "Una orden de solo publicar cruzaría una o más órdenes de creadores",
+    "BROADCAST_ERROR_CLOB_2005": "La orden infrigiría las restricciones de subcuenta aisladas",
+    "BROADCAST_ERROR_CLOB_3000": "Banderas de orden no válidas.",
+    "BROADCAST_ERROR_CLOB_3001": "Orden no válida goodTilBlockTime.",
+    "BROADCAST_ERROR_CLOB_3002": "Las órdenes con estado no pueden requerir ejecución inmediata",
+    "BROADCAST_ERROR_CLOB_3003": "El tiempo de bloqueo es mayor que el GoodTilBlockTime del mensaje. Actualiza la página e inténtalo nuevamente.",
+    "BROADCAST_ERROR_CLOB_3004": "El GoodTilBlockTime del mensaje es mayor que StatefulOrderTimeWindow en el futuro. Actualiza la página e inténtalo nuevamente.",
+    "BROADCAST_ERROR_CLOB_3005": "La orden de estado existente tiene una prioridad mayor o igual que la nueva.",
+    "BROADCAST_ERROR_CLOB_3006": "La orden con estado no existe.",
+    "BROADCAST_ERROR_CLOB_3007": "La comprobación de colateralización de orden con estado falló.",
+    "BROADCAST_ERROR_CLOB_3008": "La orden con estado se canceló anteriormente y, por lo tanto, no se puede realizar.",
+    "BROADCAST_ERROR_CLOB_3009": "La orden con estado se borró anteriormente y, por lo tanto, no se puede realizar.",
+    "BROADCAST_ERROR_CLOB_10001": "La subcuenta no puede abrir más órdenes debido al límite de nivel de capital.{EQUITY_TIER_LEARN_MORE}",
     "BROADCAST_ERROR_2000": "La orden de completar o cancelar no se pudo completar con éxito",
     "BROADCAST_ERROR_2001": "Las órdenes de solo reducción no pueden aumentar el tamaño de la posición",
     "BROADCAST_ERROR_2002": "Las órdenes de solo reducción no pueden cambiar el lado de la posición",
@@ -2255,11 +2282,7 @@
       "TRANSFER_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
       "TRANSFER_TO_YOURSELF": "No puedes realizar una transferencia directa a tu propia dirección de billetera.",
       "TRANSFER_INSUFFICIENT_GAS": "Es posible que el saldo de USDC {USDC_BALANCE}en tu billetera de cadena no cubra las tarifas de transacción. Deposita fondos adicionales.",
-      "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin una nota puede resultar en una pérdida de fondos."
-    },
-    "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
-      "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
+      "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
@@ -2294,7 +2317,7 @@
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET} está actualmente en modo de solo cierre. No se pueden crear nuevas posiciones.",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de detención de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una orden de límite de parada.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de ganancia.",
-      "UNABLE_TO_CHANGE_MARGIN_MODE": "No se pudo cambiar el modo de margen para {MARKET} con una posición abierta."
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "No se pudo cambiar el modo de margen para {MARKET}."
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Precio límite",

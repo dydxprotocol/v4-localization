@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "지갑 주소 입력",
-      "ENTER_TRANSFER_AMOUNT": "송금액 입력"
+      "ENTER_TRANSFER_AMOUNT": "송금액 입력",
+      "REQUIRED_FOR_CEX": "중앙 집중식 교환에 필요"
     },
     "FIAT_ONRAMP": {
       "NEW": "신규!",
