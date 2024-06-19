@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Selected Validator",
-      "BODY": "Selection is based on lowest stake weight from a pre-configured set of validators."
+      "BODY": "The validator is selected from a pre-configured set of unslashed validators based on lowest stakeweight."
     }
   },
   "EMAIL_NOTIFICATIONS": {
