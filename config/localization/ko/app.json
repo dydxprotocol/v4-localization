@@ -45,6 +45,7 @@
       "ACTION": "작업",
       "ACTIONS": "작업",
       "ACTIVE": "활성",
+      "ADD": "추가 →",
       "ADDING": "추가 중",
       "ADDRESS": "주소",
       "ADVANCED": "고급",
@@ -54,6 +55,8 @@
       "ALL": "전체",
       "ALLOWED": "허용됨",
       "AMOUNT": "금액",
+      "AMOUNT_TO_ADD": "추가할 금액",
+      "AMOUNT_TO_REMOVE": "제거할 금액",
       "ANONYMOUS": "익명",
       "ARE_UNCHANGED": "변경되지 않음",
       "ARE_YOU_SURE": "계속하시겠습니까?",
@@ -815,6 +818,7 @@
       "NOT_SUPPORTED": "지원하지 않음",
       "ONBOARDING": "온보딩",
       "MINIMUM_AMOUNT_RECEIVED": "최소 수령 금액",
+      "MULTI_FACTOR_AUTH": "멀티 팩터 인증",
       "PERMITTED_TO_USE": "귀하는 귀하가 거주하고 있는 관할권의 법률에 따라 합법적으로 이 사이트에 액세스하고 dYdX에서 거래할 수 있습니다.",
       "PRIVACY_POLICY": "개인정보 보호정책",
       "RECOVER_KEYS": "키 복구",
@@ -1101,6 +1105,7 @@
       "LAUNCH_INCENTIVES_DESCRIPTION": "각 시즌마다 거래 보상을 획득하세요. 다른 트레이더와 비교하는 방법을 확인하고 순위표에서 지난 시즌을 확인하세요.",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "{SEASON_NUMBER} 시즌이 곧 시작됩니다!",
       "LAUNCH_INCENTIVES_SEASON_NUM": "{SEASON_NUMBER} 시즌",
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "시즌 {SEASON_NUMBER} 보상",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{PAST_DATE}에 종료된 {SEASON_NUMBER} 시즌 중 {NUM_POINTS}을(를) 받았습니다.",
       "LEADERBOARD": "리더보드",
       "LEARN_TO_EXPORT": "{STRONG_NO}, 내 비밀 문구를 내보내는 방법을 알아봅니다.",
@@ -1211,6 +1216,7 @@
       "DELEVERAGED": "차감",
       "EDIT_STOP_LOSS": "손절매 편집",
       "EDIT_TAKE_PROFIT": "이익 실현 편집",
+      "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "이익 실현 \/ 손절매 트리거 편집",
       "ENTER_AMOUNT": "금액을 입력하세요",
       "ENTER_LIMIT_PRICE": "지정가를 입력하세요",
       "ENTER_TRIGGER_PRICE": "발동 가격을 입력하세요",
@@ -1316,6 +1322,8 @@
       "ORDERBOOK_SHORT": "호가창",
       "ORDERBOOK_SPREAD_PERCENT": "스프레드 %",
       "ORDERBOOK_SPREAD": "스프레드(Spread)",
+      "ORDERBOOK_UNITS": "단위",
+      "ORDERBOOK_GROUPING": "그룹화",
       "ORDERS_EMPTY_STATE": "주문 내역 없음",
       "PARTIALLY_FILLED": "부분 체결됨",
       "PAYMENT": "지불",
@@ -1547,6 +1555,7 @@
         "WITHDRAW_IN_PROGRESS": "인출 진행 중...",
         "WITHDRAW_TO_CHAIN": "{CHAIN}으로 인출"
       },
+      "TRADE_UDPATES": "거래 업데이트",
       "TRADING_REWARD_RECEIVED": "거래 보상 수령",
       "UPDATED": "업데이트됨",
       "UPDATING": "업데이트 중"
@@ -1690,7 +1699,8 @@
       "STAKING_AND_LEAVING": "스테이킹 및 웹사이트 나가기 면책 조항",
       "STAKING_PAGE_SUBTITLE": "스테이킹하고 APR을 얻으세요. 언스테이킹은 최대 30일이 걸릴 수 있습니다.",
       "STAKING_REWARDS": "스테이킹 보상",
-      "STAKING_REWARDS_AVAILABLE": "사용 가능한 스테이킹 보상"
+      "STAKING_REWARDS_AVAILABLE": "사용 가능한 스테이킹 보상",
+      "AVAILABLE_IN_DAYS": "{DAYS}일 후 사용 가능"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "거버넌스 제안에 투표하거나 자신의 제안을 제출하여 생태계에 참여하세요.",
@@ -1718,7 +1728,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "보상을 어떻게 청구할 수 있나요?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "각 블록, 거래 보상은 자동으로 트레이더의 dYdX 체인 주소로 직접 전송됩니다.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "스테이킹은 어떻게 하고 스테이킹 보상은 어떻게 받나요?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "스테이킹하려면 \"스테이킹\" 버튼을 클릭하고 스테이킹하려는 토큰의 수량을 입력하십시오. 프론트엔드는 스테이킹된 토큰이 가장 적은 자격 있는 검증자를 기준으로 신뢰할 수 있는(슬래시된 적이 없는 검증자를 의미) 검증자를 자동으로 선택합니다. 스테이킹 보상을 요청하려면 USDC 보상을 받을 수 있을 때마다 \"받기\" 버튼을 클릭하십시오. 청구한 USDC 보상은 귀하의 계정에 입금되며 즉시 거래할 수 있습니다! USDC 보상을 받으려면 가스 수수료를 내야 하는 점을 참고해 주십시오.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "스테이킹하려면 \"스테이킹\" 버튼을 클릭하고 스테이킹하려는 토큰의 수량을 입력하십시오. 양호한 상태로 있는 검증자 세트(슬래시된 적이 없는 검증자)의 검증자는 적격한 검증자가 가장 적은 토큰을 가진 검증자를 기준으로 자동으로 선택됩니다. 스테이킹 보상을 요청하려면 USDC 보상을 받을 수 있을 때마다 \"받기\" 버튼을 클릭하십시오. 청구한 USDC 보상은 귀하의 계정에 입금되며 즉시 거래할 수 있습니다! USDC 보상을 받으려면 가스 수수료를 내야 하는 점을 참고해 주십시오.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "거래 보상은 어떻게 이루어지나요?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "각 체결 직후 거래 보상은 트레이더가 지불한 수수료 금액을 기준으로 트레이더의 dYdX 체인 주소로 직접 전송됩니다. {HERE_LINK}에서 자세이 알아보십시오.",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "스테이킹의 위험은 무엇인가요?",
@@ -1749,7 +1759,7 @@
       "PLANNED_MAINTENANCE": "계획된 유지 보수",
       "PLANNED_MAINTENANCE_080322_BODY": "dYdX는 2022년 8월 3일에 계획된 유지 보수를 받을 예정입니다.",
       "REDUCE_ONLY_LIVE": "리듀스 온리 도입",
-      "REDUCE_ONLY_LIVE_BODY": "리듀스 온리를 모든 주문 유형에 이용하실 수 있습니다! 리듀스 온리를 활성화하려면 FOK(전체 거래 전제) 또는 IOC(즉시 체결 외 취소)으로 거래를 실행하셔야 합니다.",
+      "REDUCE_ONLY_LIVE_BODY": "리듀스 온리를 모든 주문 유형에 이용하실 수 있습니다! 리듀스 온리를 사용하려면 실행이 IOC여야 합니다.",
       "REFER_AND_EARN": "추천 및 획득하기",
       "SET_UP_REFERRALS_BODY": "다른 트레이더를 추천하고 해당 트레이더의 거래에 대해 최대 {COMMISSION}%의 수수료를 획득하십시오!",
       "SET_UP_REFERRALS_PARAM": "40% 수수료",
@@ -1758,8 +1768,8 @@
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "리듀스 온리 지원",
-      "REDUCE_ONLY_WILL_DISABLE": "리듀스 온리는 FOK(전체 거래 전제) 및 IOC(즉시 체결 외 취소) 주문에만 사용하실 수 있습니다. 실행 옵션을 변경하실 경우, 리듀스 온리가 자동으로 비활성화됩니다.",
-      "REDUCE_ONLY_WILL_ENABLE": "리듀스 온리는 FOK(전체 거래 전제) 및 IOC(즉시 체결 외 취소) 주문에만 사용하실 수 있습니다. 적용 가능한 경우, 리듀스 온리를 활성화하시면 자동으로 실행 방법이 지원되는 옵션으로 변경됩니다."
+      "REDUCE_ONLY_WILL_DISABLE": "리듀스 온리는 즉시 또는 취소(IOC) 주문에만 사용할 수 있습니다. 실행 옵션을 변경하실 경우, 리듀스 온리가 자동으로 비활성화됩니다.",
+      "REDUCE_ONLY_WILL_ENABLE": "리듀스 온리는 즉시 또는 취소(IOC) 주문에만 사용할 수 있습니다. 적용 가능한 경우, 리듀스 온리를 활성화하시면 자동으로 실행 방법이 지원되는 옵션으로 변경됩니다."
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "현금",
@@ -2053,6 +2063,23 @@
     "V4_TESTNET_IMPERATOR": "V4 테스트넷 3(임퍼레이터)"
   },
   "ERRORS": {
+    "BROADCAST_ERROR_SDK_5": "체인 지갑에 거래 수수료를 충당하기에 충분하지 않습니다. 추가 자금을 입금하거나 Preferences에서 가스 통화를 업데이트하십시오.",
+    "BROADCAST_ERROR_CLOB_2000": "채우기 또는 삭제 주문이 완전히 채워지지 않았습니다.",
+    "BROADCAST_ERROR_CLOB_2001": "감소 전용 주문은 포지션 크기를 늘릴 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_2002": "감소 전용 주문은 포지션 측면을 변경할 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_2003": "포스트 온리 주문은 하나 이상의 메이커 주문을 교차하는 것입니다.",
+    "BROADCAST_ERROR_CLOB_2005": "주문이 격리된 하위 계정 제약 조건을 위반합니다.",
+    "BROADCAST_ERROR_CLOB_3000": "잘못된 주문 플래그.",
+    "BROADCAST_ERROR_CLOB_3001": "잘못된 주문 goodTilBlockTime.",
+    "BROADCAST_ERROR_CLOB_3002": "연결 상태를 추적할 수 있는 주문은 즉시 실행을 요청할 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_3003": "블록 시간이 메시지의 GoodTilBlockTime보다 큽니다. 페이지를 새로 고친 후 다시 시도하십시오.",
+    "BROADCAST_ERROR_CLOB_3004": "메시지의 GoodTilBlockTime은 향후 StatefulOrderTimeWindow보다 멀리 떨어져 있습니다. 페이지를 새로 고친 후 다시 시도하십시오.",
+    "BROADCAST_ERROR_CLOB_3005": "기존 상태 추적 주문은 새로운 주문보다 우선 순위가 높거나 같습니다.",
+    "BROADCAST_ERROR_CLOB_3006": "상태 추적 주문이 존재하지 않습니다.",
+    "BROADCAST_ERROR_CLOB_3007": "상태 추적 주문 자료화 검사 실패.",
+    "BROADCAST_ERROR_CLOB_3008": "상태 추적 주문은 이전에 취소되었으므로 배치할 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_3009": "상태 추적 주문은 이전에 제거되었으므로 배치할 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_10001": "하위 계정은 계층 제한으로 인해 추가 주문을 열 수 없습니다. {EQUITY_TIER_LEARN_MORE} ",
     "BROADCAST_ERROR_2000": "채우기 또는 삭제 주문이 완전히 채워지지 않았습니다.",
     "BROADCAST_ERROR_2001": "감소 전용 주문은 포지션 크기를 늘릴 수 없습니다.",
     "BROADCAST_ERROR_2002": "감소 전용 주문은 포지션 측면을 변경할 수 없습니다.",
@@ -2255,7 +2282,7 @@
       "TRANSFER_MORE_THAN_FREE": "무료 담보보다 많은 금액을 전송할 수 없습니다.",
       "TRANSFER_TO_YOURSELF": "귀하 자신의 지갑 주소로 직접 전송을 완료할 수 없습니다.",
       "TRANSFER_INSUFFICIENT_GAS": "체인 지갑의 USDC 잔고 {USDC_BALANCE}는 거래 수수료를 충당하지 못할 수 있습니다. 추가 자금을 입금하십시오.",
-      "TRANSFER_WITHOUT_MEMO": "메모 없이 중앙화된 거래소로 전송하면 자금을 손실할 수 있습니다."
+      "TRANSFER_WITHOUT_MEMO": "제공한 메모 없이 중앙화된 거래소로 전송하면 자금을 잃을 수 있습니다."
     },
     "ADJUST_ISOLATED_MARGIN": {
       "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "무료 담보보다 많은 금액을 전송할 수 없습니다.",
@@ -2290,7 +2317,7 @@
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET}은(는) 현재 청산 전용 모드입니다. 새로운 포지션을 생성할 수 없습니다.",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX의 스탑 마켓 주문은 발동 시점의 유동성에 따라 체결되지 않을 수 있습니다. 더 나은 통제력을 위해 스탑 리밋 주문을 사용해 보시기 바랍니다.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX의 이익 환수 시장가 주문은 발동 시점의 유동성에 따라 체결되지 않을 수 있습니다. 더 나은 통제력을 위해 이익 환수 지정가 주문을 사용해 보시기 바랍니다.",
-      "UNABLE_TO_CHANGE_MARGIN_MODE": "{MARKET}에 열린 포지션이 있어 마진 모드를 변경할 수 없습니다."
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "{MARKET}의 마진 모드를 변경할 수 없습니다."
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "지정가",
