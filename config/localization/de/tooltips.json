@@ -195,13 +195,13 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only verhindert, dass eine Order die Position wechselt (Long zu Short oder Short zu Long). Eine Order mit eingestelltem Reduce-Only wird automatisch ihre Größe anpassen und sich selbst stornieren, wenn sich Ihre Position ändert."
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only ist nur verfügbar, wenn Time in Force auf IOC oder FOK festgelegt ist."
+      "BODY": "Reduce-Only ist nur verfügbar, wenn Time in Force auf IOC festgelegt ist."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only ist nur verfügbar, wenn Execution auf IOC oder FOK festgelegt ist."
+      "BODY": "Reduce-Only ist nur verfügbar, wenn Ausführung auf IOC festgelegt ist."
     },
     "SPREAD": {
       "TITLE": "Spread",

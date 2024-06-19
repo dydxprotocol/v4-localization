@@ -195,13 +195,13 @@
       "TITLE": "Solo reducir",
       "BODY": "Solo reducir evita que una orden cambie el lado de tu posición (largo a corto o corto a largo). Una orden con Solo reducir se redimensionará y se cancelará automáticamente a medida que cambie tu posición. "
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Solo reducir",
-      "BODY": "Reduce-Only solo está disponible si el Tiempo en vigor está establecido en IOC o FOK."
+      "BODY": "Solo reducir está disponible si el Tiempo en vigor está establecido en IOC."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Solo reducir",
-      "BODY": "Reduce-Only solo está disponible si la ejecución está establecida en IOC o FOK."
+      "BODY": "Solo reducir está disponible si la ejecución está establecida en IOC."
     },
     "SPREAD": {
       "TITLE": "Propagación",

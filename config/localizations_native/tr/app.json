@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Cüzdan adresini girin",
-      "ENTER_TRANSFER_AMOUNT": "Transfer miktarını girin"
+      "ENTER_TRANSFER_AMOUNT": "Transfer miktarını girin",
+      "REQUIRED_FOR_CEX": "Merkezi Borsalar için gerekli"
     },
     "FIAT_ONRAMP": {
       "NEW": "Yeni!",

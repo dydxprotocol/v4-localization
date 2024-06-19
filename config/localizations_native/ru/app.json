@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Введите адрес кошелька",
-      "ENTER_TRANSFER_AMOUNT": "Введите сумму перевода"
+      "ENTER_TRANSFER_AMOUNT": "Введите сумму перевода",
+      "REQUIRED_FOR_CEX": "Требуется для централизованных бирж"
     },
     "FIAT_ONRAMP": {
       "NEW": "Новинка!",

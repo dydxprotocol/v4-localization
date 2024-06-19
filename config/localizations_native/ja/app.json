@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "ウォレットアドレスを入力",
-      "ENTER_TRANSFER_AMOUNT": "送金金額を入力"
+      "ENTER_TRANSFER_AMOUNT": "送金金額を入力",
+      "REQUIRED_FOR_CEX": "集中型取引所に必要"
     },
     "FIAT_ONRAMP": {
       "NEW": "新！",

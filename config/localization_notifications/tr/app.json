@@ -16,9 +16,17 @@
       "TITLE": "Pozisyon Bağlandı",
       "BODY": "{MARKET} kapatıldı. {MARKET} üzerindeki {SIDE} pozisyonunuzda nihai bağlamaya ulaşılmıştır."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK talimatları kullanımdan kaldırıldı",
+      "BODY": "Karşıla veya İptal Et (FOK) talimatları kullanımdan kaldırıldı. Diğer tüm talimat türleri kullanımda olmaya devam edecektir."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Sezon {SEASON_NUMBER} lansman teşvik programı başladı!",
       "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "{SEASON_NUMBER}. sezon lansman ödülleri dağıtıldı!",
+      "BODY": "{SEASON_NUMBER}. sezon ödülleri +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Posizyonda Denkleştirme",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Kâr Alma",
       "BODY": "{OLD_VALUE} için oluşturuluş kâr alma tetikleyiciniz kaldırıldı."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kaldırıldı",
+      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai uzlaşma sürecini gerçekleştirdi. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "{MARKET_1} ve {MARKET_2} piyasalarının kaldırılması için canlı teklif",
+      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kaldırılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai uzlaşmaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     }
   }
 }
