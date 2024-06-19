@@ -132,6 +132,7 @@
       "EMAIL": "邮箱",
       "ENDED": "已结束",
       "EQUITY": "账户净值",
+      "EST_APR": "估计 {PERCENTAGE}APR（年利率）",
       "EST_GAS": "估计 Gas",
       "ESTIMATED": "估计的",
       "EXPAND_SECTION": "展开部分",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "质押金额",
       "SELECTED_VALIDATOR": "选定的验证者",
       "ENTER_AMOUNT_TO_STAKE": "输入投注金额",
-      "STAKED_BALANCE": "质押余额"
+      "KEPLR_DASHBOARD": "Keplr 控制面板",
+      "STAKED_BALANCE": "质押余额",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "估计的 Gas 费用大于可领取奖励价值。",
+      "STAKING_LEGAL_DISCLAIMER": "您正在将您的资产质押到由第三方运营的验证者节点。 本网站的运营商不对第三方提供的此类质押服务负责。 用 {KEPLR_DASHBOARD_LINK} 质押到另一个验证者，或用 {STRIDE_LINK} 流动性质押。"
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "您当前正在质押 {AMOUNT}",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "我们无法找到与此钱包地址关联的帐户。",
       "TRANSFER_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
       "TRANSFER_TO_YOURSELF": "您无法直接转帐到自己的钱包地址。",
-      "TRANSFER_INSUFFICIENT_GAS": "链钱包中的USDC余额 {USDC_BALANCE} 可能不够支付交易费用。 请存入额外资金。",
+      "TRANSFER_INSUFFICIENT_GAS": "链钱包中的 {TOKEN} 余额 ({BALANCE} {TOKEN}) 可能不够支付交易费用。 请存入额外资金。",
       "TRANSFER_WITHOUT_MEMO": "在没有他们提供的备忘录的情况下，转移到中心化交易所，可能会导致资金损失。"
     },
     "ADJUST_ISOLATED_MARGIN": {

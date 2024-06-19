@@ -65,6 +65,7 @@
       "NO_RESULTS": "没有结果",
       "OF": "第{ITEM1}个，共{ITEM2}个",
       "OK": "好的",
+      "PAY_GAS_WITH": "使用支付 Gas",
       "PLACEHOLDER_NO_POSITIONS": "您没有任何未结头寸",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "您必须登录才能查看头寸",
       "PLACEHOLDER_NO_ORDERS": "您没有任何未结订单",

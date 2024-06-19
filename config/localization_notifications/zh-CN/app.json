@@ -24,6 +24,10 @@
       "TITLE": "赛季 {SEASON_NUMBER} 启动激励计划现已开始！",
       "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "逐仓保证金已上线",
+      "BODY": "逐仓保证金现已上线！要了解更多信息，请访问 {LEARN_MORE}。"
+    },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "第{SEASON_NUMBER}季启动奖励已分发！",
       "BODY": "第{SEASON_NUMBER}季奖励 + {DYDX_AMOUNT}DYDX"
