@@ -195,13 +195,13 @@
       "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azalt özelliği talimatın pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Yalnızca Azalt",
-      "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Karşıla veya İptal Et (Fill-or-Kill -FOK) veya Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
+      "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Yalnızca Azalt",
-      "BODY": "Yalnızca Azalt seçeneği, Yürütme ancak IOC veya FOK olarak belirlendiyse kullanılabilir."
+      "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
     },
     "SPREAD": {
       "TITLE": "Alış-Satış Farkı (Spread)",
