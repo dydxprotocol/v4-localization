@@ -16,9 +16,17 @@
       "TITLE": "Position réglée",
       "BODY": "{MARKET} a fermé. Votre {SIDE}position ci-dessus {MARKET}a atteint le règlement final."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "Ordres FOK dépréciés",
+      "BODY": "Les ordres Fill-or-Kill (FOK) ont été dépréciés. Tous les autres types d'ordres restent disponibles."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Le programme d'incitation au {SEASON_NUMBER}lancement de la saison a commencé !",
       "BODY": "Au cours de la saison {PREV_SEASON_NUMBER}, les récompenses médianes gagnées étaient  {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC) !"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "Les récompenses de {SEASON_NUMBER}lancement de la saison ont été distribuées !",
+      "BODY": "{SEASON_NUMBER}Récompenses de la saison + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Compensation de position",
@@ -143,6 +151,14 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
       "BODY": "Votre déclencheur de prise de profit à \n {OLD_VALUE}a été supprimé."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "Les marchés {MARKET_1} et {MARKET_2} ont chuté",
+      "BODY": "Le {DATE}, les marchés {MARKET_1} et {MARKET_2} ont été soumis au règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Proposition en direct pour la réduction {MARKET_1} et les marchés {MARKET_2}",
+      "BODY": "Il existe actuellement une proposition en direct pour réduire les marchés {MARKET_1} et {MARKET_2}. En cas de validation, les marchés {MARKET_1} et {MARKET_2} passeront en phase de règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     }
   }
 }
