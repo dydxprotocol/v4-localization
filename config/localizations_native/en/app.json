@@ -240,6 +240,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Select expiration time unit",
       "SUBMITTING_ORDER": "Submitting",
       "SUBMITTING_ORDER_DESC": "Your order is being submitted.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} order cancels failed",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} order cancel failed",
       "CANCELING_ORDER": "Canceling",
       "CANCELING_ORDER_DESC": "Your order to {SIDE} {SIZE} {MARKET} is being canceled.",
       "UNREALIZED": "Unrealized",
