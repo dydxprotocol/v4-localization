@@ -195,13 +195,13 @@
       "TITLE": "只减仓",
       "BODY": "只减仓功能可以防止订单改变您的头寸方向（多头变空头，或空头变多头）。当您的头寸变化时，设置了只减仓功能的订单将自动调整大小并自行取消。"
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "只减仓",
-      "BODY": "只减仓在有效时间设置为立即成交否则取消 (IOC) 或全部成交否则取消 (FOK) 时才可用。"
+      "BODY": "只有在有效时间设置为立即成交否则取消 (IOC) 时，仅减仓才可用。"
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "只减仓",
-      "BODY": "只减仓在执行设置为立即成交否则取消 (IOC) 或全部成交否则取消 (FOK) 时才可用。"
+      "BODY": "只有在执行设置为 IOC 时，仅减仓才可用。"
     },
     "SPREAD": {
       "TITLE": "点差",
@@ -333,6 +333,12 @@
     "WITHDRAW_TYPES": {
       "TITLE": "提现类型",
       "BODY": "dYdX支持两种从Layer 2提现的类型。快速提现会产生小额费用，但不需要gas，并会立即发送提现请求。通常出金は手数料はかかりませんが、2ステップの手続きが必要で所要時間がはるかに長く、ユーザーがGas手数料を負担しなければなりません。"
+    }
+  },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "选定的验证者",
+      "BODY": "选定基于预先配置的一组验证者的最低质押权重。"
     }
   },
   "EMAIL_NOTIFICATIONS": {
