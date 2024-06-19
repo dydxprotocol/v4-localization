@@ -344,7 +344,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Digite o endereço da carteira",
-      "ENTER_TRANSFER_AMOUNT": "Digite o valor da transferência"
+      "ENTER_TRANSFER_AMOUNT": "Digite o valor da transferência",
+      "REQUIRED_FOR_CEX": "Obrigatório para câmbios centralizados"
     },
     "FIAT_ONRAMP": {
       "NEW": "Novo!",
