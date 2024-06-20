@@ -24,6 +24,10 @@
       "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "A Margem Isolada está ativa",
+      "BODY": "A margem isolada está ativa! Para saber mais, consulte {LEARN_MORE}."
+    },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "As recompensas de lançamento da temporada {SEASON_NUMBER} foram distribuídas!",
       "BODY": "Recompensas da temporada {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
