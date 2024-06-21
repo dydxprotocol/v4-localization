@@ -1754,7 +1754,7 @@
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Who is eligible for trading rewards?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "All traders are eligible for trading rewards.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Which validators are available for staking?",
-      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "The site picks an initial default validator based on lowest commission and stakeweight among a pre-configured set, but you are free to make an alternate selection. This site permits you to stake to any validator in the active set that is not jailed, and you may stake to any validator not shown on this site by using alternate portal such as {KEPLR_LINK}. Please refer to this {DOCUMENT_LINK} for more information on the pre-configured used for the initial default selection.",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "The site picks an initial default validator based on lowest commission and stakeweight among a pre-configured set, but you are free to make an alternate selection. This site permits you to stake to any validator in the active set that is not jailed, and you may stake to any validator not shown on this site by using an alternate portal such as {KEPLR_LINK}. Please refer to this {DOCUMENT_LINK} for more information on the pre-configured set used for the initial default selection.",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "These third-party products and services are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in the U.S., Canada or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
     },
     "EPOCH_END_MODAL": {
