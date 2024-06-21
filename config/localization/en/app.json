@@ -205,6 +205,7 @@
       "MAKE_ONE_TRADE": "Make 1 trade",
       "MANAGE_FUNDS": "Manage funds",
       "MARGIN": "Margin",
+      "MARGIN_WITH_MODE": "Margin ({MODE})",
       "MARGIN_MODE": "Margin Mode",
       "MARGIN_USAGE": "Margin Usage",
       "MARKET_NAME": "Market Name",
