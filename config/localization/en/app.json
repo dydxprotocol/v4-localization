@@ -2081,7 +2081,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperator)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "There is not enough balance in your chain wallet to cover the transaction fees, please deposit additional funds or update gas currency in Preferences.",
+    "BROADCAST_ERROR_SDK_5": "There is not enough balance in your chain wallet to cover the transaction fees, please deposit additional funds.",
     "BROADCAST_ERROR_CLOB_2000": "Fill Or Kill order could not be fully filled.",
     "BROADCAST_ERROR_CLOB_2001": "Reduce-only orders cannot increase the position size.",
     "BROADCAST_ERROR_CLOB_2002": "Reduce-only orders cannot change the position side.",
