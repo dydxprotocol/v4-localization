@@ -1227,6 +1227,7 @@
       "CURRENTLY_TRADING_GOERLI": "You are trading on our Goerli testnet app with test funds. Create an account on our mainnet app to start trading with real funds",
       "CURRENTLY_TRADING_ROPSTEN": "You are trading on our Ropsten testnet app with test funds. Create an account on our mainnet app to start trading with real funds",
       "DELEVERAGED": "Deleveraged",
+      "EDIT_MARGIN": "Edit margin",
       "EDIT_STOP_LOSS": "Edit stop loss",
       "EDIT_TAKE_PROFIT": "Edit take profit",
       "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "Edit Take Profit / Stop Loss triggers",
