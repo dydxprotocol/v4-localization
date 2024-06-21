@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -363,6 +363,7 @@ export const APP_STRING_KEYS = {
     ESTIMATED: 'APP.GENERAL.ESTIMATED',
     EST_APR: 'APP.GENERAL.EST_APR',
     EST_GAS: 'APP.GENERAL.EST_GAS',
+    EST_REWARDS: 'APP.GENERAL.EST_REWARDS',
     EXPAND: 'APP.GENERAL.EXPAND',
     EXPAND_SECTION: 'APP.GENERAL.EXPAND_SECTION',
     FAST_WITHDRAW: 'APP.GENERAL.FAST_WITHDRAW',
