@@ -2299,6 +2299,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Please select a source chain to withdraw to."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "Amount must be greater than {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Invalid dYdX Chain address.",
       "TRANSFER_INVALID_ETH_ADDRESS": "We could not find an account associated with this wallet address.",
       "TRANSFER_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
