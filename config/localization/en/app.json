@@ -993,7 +993,8 @@
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Stake your DYDX to receive rewards in USDC. Unstaking can up to 30 days.",
+      "INSUFFICIENT_STAKE_BALANCE": "Wallet balance is insufficient to cover the transaction fees.",
+      "STAKE_DESCRIPTION": "Stake your DYDX to receive rewards in USDC. Unstaking will take 30 days to complete.",
       "AMOUNT_TO_STAKE": "Amount to Stake",
       "SELECTED_VALIDATOR": "Selected Validator",
       "ENTER_AMOUNT_TO_STAKE": "Enter amount to stake",
@@ -1014,6 +1015,14 @@
       "UNSTAKING_PERIOD": "Unstaking Period",
       "VALIDATOR": "Validator",
       "UNSTAKING_PERIOD_DESCRIPTION": "The unstaking period can take up to 30 days and you will not earn rewards on this balance."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Confirm Stake",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Once confirmed, you will start earning rewards in USDC. Remember, unstaking will take 30 days to complete."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Confirm Unstake",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Once confirmed, you will stop earning rewards on the staked amount. All unclaimed rewards from this validator will automatically be claimed. Unstaking will take 30 days to complete."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Tell us how we can build a better trading experience for you. For questions or bug reports, please use the help chat.",
@@ -1744,7 +1753,7 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Governance, rewards, and staking related services are provided to you directly by third parties, who are independent from and unaffiliated with the host and operator of this interface (the “Operator”), on third-party sites, without involvement of the Operator. You agree that you are familiar with the {TERMS_OF_USE_LINK} and understand the risks associated with these services, including variable reward rates, slashing and other risks inherent in staking. Nothing on this website constitutes, nor should be construed or relied upon as, financial advice, legal advice, tax advice, investment advice or advice of any other nature. You are solely responsible for conducting independent research, due diligence and seeking advice from a professional advisor prior to taking any action related to the services.",
       "REWARD_HISTORY_DESCRIPTION": "While trading rewards are distributed immediately after every block, history is updated every five minutes. Trading rewards history goes back until {REWARDS_HISTORY_START_DATE}.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Start trading to earn rewards.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "How do I claim my rewards?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "How do I claim my trading rewards?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Each block, trading rewards are automatically sent directly to the trader’s dYdX Chain address.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "How do I stake and claim staking rewards?",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "To stake, click the “Stake” button and input the amount of tokens you would like to stake. A validator from a set of validators in good standing with the community will automatically be selected based on which eligible validator has the fewest tokens staked and has never been slashed. To claim staking rewards, click the “Claim” button whenever USDC rewards are available. The claimed USDC rewards will be deposited into your account so that you may trade instantly! Note that there is a gas fee to claim USDC rewards.",
@@ -2088,7 +2097,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperator)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "There is not enough balance in your chain wallet to cover the transaction fees, please deposit additional funds.",
+    "BROADCAST_ERROR_SDK_5": "Wallet balance is insufficient to cover the transaction fees; please deposit additional funds.",
     "BROADCAST_ERROR_CLOB_2000": "Fill Or Kill order could not be fully filled.",
     "BROADCAST_ERROR_CLOB_2001": "Reduce-only orders cannot increase the position size.",
     "BROADCAST_ERROR_CLOB_2002": "Reduce-only orders cannot change the position side.",
