@@ -1014,7 +1014,7 @@
       "UNSTAKED_BALANCE": "Unstaked Balance",
       "SELECTED_VALIDATOR": "Selected Validator",
       "UNSTAKING_PERIOD": "Unstaking Period",
-      "PREVIEW_STAKE": "Preview Unstake",
+      "PREVIEW_UNSTAKE": "Preview Unstake",
       "VALIDATOR": "Validator",
       "UNSTAKING_PERIOD_DESCRIPTION": "The unstaking period can take up to 30 days and you will not earn rewards on this balance."
     },
