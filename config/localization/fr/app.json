@@ -132,6 +132,7 @@
       "EMAIL": "E-mail",
       "ENDED": "Terminé",
       "EQUITY": "Capital",
+      "EST_APR": "Est. {PERCENTAGE}TAEG",
       "EST_GAS": "Est. Gaz",
       "ESTIMATED": "Estimé",
       "EXPAND_SECTION": "Agrandir la section",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "Montant à mettre",
       "SELECTED_VALIDATOR": "Validateur sélectionné",
       "ENTER_AMOUNT_TO_STAKE": "Introduire le montant à mettre",
-      "STAKED_BALANCE": "Solde jalonné"
+      "KEPLR_DASHBOARD": "Tableau de bord Keplr",
+      "STAKED_BALANCE": "Solde jalonné",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Les frais de gaz estimés sont supérieurs à la valeur de la récompense réclamable.",
+      "STAKING_LEGAL_DISCLAIMER": "Vous misez vos actifs sur un nœud de validateur exploité par un tiers. L'opérateur de ce site n'est pas responsable de ces services de staking fournis par des tiers. Mise en jeu vers un autre validateur avec  {KEPLR_DASHBOARD_LINK}ou mise en jeu liquide avec {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "Vous êtes actuellement en train de jalonner {AMOUNT}",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "Nous n'avons pas pu trouver de compte associé à cette adresse de portefeuille.",
       "TRANSFER_MORE_THAN_FREE": "Vous ne pouvez pas transférer plus que votre garantie gratuite.",
       "TRANSFER_TO_YOURSELF": "Vous ne pouvez pas effectuer de transfert direct vers votre propre adresse de portefeuille.",
-      "TRANSFER_INSUFFICIENT_GAS": "Le solde d'USDC dans votre porte-monnaie en chaîne peut ne pas couvrir les frais {USDC_BALANCE}de transaction. Veuillez déposer des fonds supplémentaires.",
+      "TRANSFER_INSUFFICIENT_GAS": "Le  {TOKEN}solde ( {BALANCE}{TOKEN}) de votre portefeuille de chaîne peut ne pas couvrir les frais de transaction. Veuillez déposer des fonds supplémentaires.",
       "TRANSFER_WITHOUT_MEMO": "Le transfert vers un échange centralisé sans le mémo fourni peut entraîner une perte de fonds."
     },
     "ADJUST_ISOLATED_MARGIN": {
