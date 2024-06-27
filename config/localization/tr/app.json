@@ -132,6 +132,7 @@
       "EMAIL": "E-posta",
       "ENDED": "Sonuçlandı",
       "EQUITY": "Net Varlık",
+      "EST_APR": "Tahmini {PERCENTAGE} APR",
       "EST_GAS": "Tahmini Gaz",
       "ESTIMATED": "Tahmin Edilen",
       "EXPAND_SECTION": "Bölümü genişlet",
@@ -214,7 +215,7 @@
       "MAXIMUM_LEVERAGE": "Maksimum Kaldıraç",
       "MAXIMUM_REWARDS": "Tahmin Edilen Ödüller",
       "MEME": "Meme",
-      "MEMO": "Not",
+      "MEMO": "Memo",
       "MENU": "Menü",
       "METRICS": "Ölçütler",
       "MID_CAP": "Orta sermayeli",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "Stake Edilecek Miktar",
       "SELECTED_VALIDATOR": "Seçilen Doğrulayıcı",
       "ENTER_AMOUNT_TO_STAKE": "Stake edilecek miktarı girin",
-      "STAKED_BALANCE": "Stake Edilen Bakiye"
+      "KEPLR_DASHBOARD": "Keplr Kontrol Paneli",
+      "STAKED_BALANCE": "Stake Edilen Bakiye",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Tahmini gas ücretleri, talep edilebilir ödül değerinden daha yüksek.",
+      "STAKING_LEGAL_DISCLAIMER": "Varlıklarınızı üçüncü taraflarca işletilen bir doğrulayıcı düğüme stake ediyorsunuz. Bu sitenin operatörü, üçüncü taraflarca sağlanan bu tür stake etme hizmetlerinden sorumlu değildir. {KEPLR_DASHBOARD_LINK} ile başka bir doğrulayıcıya stake edin ya da{STRIDE_LINK} ile likit stake edin."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "Şu anda {AMOUNT} stake ediyorsunuz",
@@ -1007,7 +1011,7 @@
     },
     "CANCEL_ORDERS_MODAL": {
       "CANCEL_ORDERS_CONFIRMATION": "{ASSET} cinsinden {OPEN_ORDERS_TEXT} ({MARKET}) iptal etmek istediğinizden emin misiniz?",
-      "ONE_OPEN_ORDER": "1 açık talimatı",
+      "ONE_OPEN_ORDER": "1 açık talimat",
       "N_OPEN_ORDERS": "{COUNT} açık talimatı",
       "OPEN_ORDERS": "Açık talimatlar"
     },
@@ -1732,7 +1736,7 @@
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir. Daha fazla bilgi edinin: {HERE_LINK}.",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "Stake etmenin riskleri nelerdir?",
-      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "Herhangi bir DeFi protokolünün kullanımı, risklerle birlikte gelir. Staking söz konusu olduğunda, token'ları staking'den çıkarmanın 30 gün sürdüğünü bilmek önemlidir; bu, protokol veya piyasa oynaklığı durumunda bile token'larınızı transfer edemeyeceğiniz bir likidite eksikliği dönemi olduğu anlamına gelir. Ayrıca, kullanıcılar varlıklarını bir doğrulayıcı ile stake etmeden önce doğrulayıcılar hakkında kendi durum tespitlerini yapmalıdır. Protokol kurallarını ihlal eden doğrulayıcılar, kendilerine stake edilen token'ların slash edilmesiyle (yani yakılmasıyla) veya ödül kazanmalarını engelleyecek şekilde nezarete alınmaları yoluyla cezalandırılabilir. Ön uç, token'ların stake edileceği doğrulayıcıyı geçmiş performansa dayalı olarak güvenilir bir kümeden seçerken, bir doğrulayıcının gelecekteki davranışının garantisi yoktur.",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "Herhangi bir DeFi protokolünün kullanımı, risklerle birlikte gelir. Staking söz konusu olduğunda, token'ları staking'den çıkarmanın 30 gün sürdüğünü bilmek önemlidir; bu, protokol veya piyasa oynaklığı durumunda bile token'larınızı transfer edemeyeceğiniz bir likidite eksikliği dönemi olduğu anlamına gelir. Ayrıca, kullanıcılar varlıklarını bir doğrulayıcı ile stake etmeden önce doğrulayıcılar hakkında kendi durum tespitlerini yapmalıdır. Protokol kurallarını ihlal eden doğrulayıcılar, kendilerine stake edilen token'ların slash edilmesiyle (yani yakılmasıyla) veya ödül kazanmalarını engelleyecek şekilde nezarete alınmaları yoluyla cezalandırılabilir. Arayüz, token'ların stake edileceği doğrulayıcıyı geçmiş performansa dayalı olarak güvenilir bir kümeden seçerken, bir doğrulayıcının gelecekteki davranışının garantisi yoktur.",
       "FAQ_WHAT_IS_STAKING_QUESTION": "Staking nedir?",
       "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX Zinciri, konsensüs mekanizması için Proof-of-Stake kullanır. Token sahipleri, ağın güvenliğini sağlamaya ve işlemleri doğrulamaya yardımcı olmak için token'larını doğrulayıcılara stake edebilir ve bunun karşılığında protokolün topladığı alım satım ve gaz ücretlerinden USDC ödülleri kazanabilir. Tüm ücretler, sigorta fonuna gönderilen ücretler ve doğrulayıcı komisyonları düşüldükten sonra stake edenlere ödenir. Ödül oranları, {HERE_LINK} verilerine dayanmaktadır. Protokol koşullarına bağlı olarak dalgalanabilecek olan gelecekteki ödül oranlarının garantisi yoktur.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
@@ -1809,7 +1813,7 @@
       "MODAL_BUY_CTA": "USDC satın alma",
       "MODAL_CONFIRMATION": "Gaz ücreti ödemeden fiat para ile USDC satın almak için Banxa'dan emir verin. Emir durumunuzu e-postanızda kontrol edin veya {BANXA_SUPPORT_LINK} destek ile iletişime geçin",
       "MODAL_CONFIRMATION_TITLE": "Banxa'daki işlemlerinizi bitirin",
-      "MODAL_LEGAL_DISCLAIMER": "\"USDC Satın Al\" seçeneğine tıklayarak bu hizmetin size doğrudan Banxa.com Pty Ltd. (\"Banxa\") tarafından sağlandığını ve dYdX Trading Inc.'in (\"dYdX\") bu süreçte yer almadığını; bu hizmetin ve bir değer (ör. fiat para, kripto para, kredi vb.) karşılığında kripto para satın almanın ancak siz dYdX web sitesinden ve protokolden ayrıldıktan sonra gerçekleşeceğini ve bir değer iletiminin (gönderim, alım ve emanet değeri dahil) doğrudan Ethereum ağ adresiniz ve Banxa arasında gerçekleşeceğini teyit ve kabul edersiniz. Bu hizmet Amerika Birleşik Devletleri'nde yerleşik herhangi bir kişiye sağlanmaz. Ayrıca, Banxa'nın sizden talep ettiği bilgilerin (kart numarası ve KYC dâhil) dYdX'e verilmediğini ve siz ile Banxa arasındaki bir işlemle veya iletimle ilgili bir hususta dYdX'i sorumlu tutmayacağınızı kabul edersiniz. Bir uyuşmazlık durumunda, bu beyanın İngilizce sürümünün geçerli olacaktır. Bu beyan https:\/\/dydx.exchange\/legal adresindeki dYdX Kullanım Koşulları'nda bulunabilir.",
+      "MODAL_LEGAL_DISCLAIMER": "\"USDC Satın Al\" seçeneğine tıklayarak bu hizmetin size doğrudan Banxa.com Pty Ltd. (\"Banxa\") tarafından sağlandığını ve dYdX Trading Inc.'in (\"dYdX\") bu süreçte yer almadığını; bu hizmetin ve bir değer (ör. fiat para, kripto para, kredi vb.) karşılığında kripto para satın almanın ancak siz dYdX web sitesinden ve protokolden ayrıldıktan sonra gerçekleşeceğini ve bir değer iletiminin (gönderim, alım ve emanet değeri dahil) doğrudan Ethereum ağ adresiniz ve Banxa arasında gerçekleşeceğini teyit ve kabul edersiniz. Bu hizmet Amerika Birleşik Devletleri'nde yerleşik herhangi bir kişiye sağlanmaz. Ayrıca, Banxa'nın sizden talep ettiği bilgilerin (kart numarası ve KYC dâhil) dYdX'e verilmediğini ve siz ile Banxa arasındaki bir işlemle veya iletimle ilgili bir hususta dYdX'i sorumlu tutmayacağınızı kabul edersiniz. Bir uyuşmazlık durumunda, bu beyanın İngilizce sürümü geçerli olacaktır. Bu beyan https:\/\/dydx.exchange\/legal adresindeki dYdX Kullanım Koşulları'nda bulunabilir.",
       "MODAL_NEED_HELP": "Yardıma mı ihtiyacınız var?",
       "MODAL_SUBTITLE": "Banxa aracılığıyla USDC satın alın. Fonlar, doğrudan hesabınıza yatırılacaktır ve {NO_GAS_FEES_STYLED}.",
       "NO_GAS_FEES_STYLED": "hiçbir gaz ücreti gerekmeden",
@@ -2097,7 +2101,7 @@
     "BROADCAST_ERROR_3009": "Durum denetlemeli emir daha önce kaldırıldı ve bu nedenle gerçekleştirilemedi.",
     "BROADCAST_ERROR_10001": "Alt hesap, net varlık seviye limiti nedeniyle daha fazla emir açmıyor. {EQUITY_TIER_LEARN_MORE}",
     "GENERAL": {
-      "RATE_LIMIT_REACHED_ERROR_TITLE": "Hız Limitine Ulaşıldı",
+      "RATE_LIMIT_REACHED_ERROR_TITLE": "Limite Ulaşıldı",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Bu IP adresi için Hız sınırına ulaşıldı. Lütfen daha sonra tekrar deneyin.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Bir şey ters gitti: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
@@ -2139,7 +2143,7 @@
       "TARGET_LEVERAGE_TOO_HIGH": "Hedef kaldıracınız çok yüksek. Lütfen hedef kaldıracınızı azaltın.",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının üstünde olmalıdır: {INDEX_PRICE}.",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının altında olmalıdır: {INDEX_PRICE}.",
-      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen tetikleme fiyatınızı güncelleyin veya bir durdurma limit talimatı kullanın.",
+      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen tetikleme fiyatınızı güncelleyin veya bir Durdurma Limiti talimatı kullanın.",
       "USER_MAX_ORDERS": "Bu talimat, her bir taraf için piyasa başına maks 20 açık talimat limitinin üzerine çıkaracaktır.",
       "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Bu emir sizi net varlık seviyesinin {LIMIT} açık emir limitinin üzerine çıkaracaktır",
       "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "Bu talimat sizi varlık seviyeniz için geçerli açık talimat limitinin {LIMIT} kadar üzerine çıkaracaktır. Bir sonraki varlık seviyesi {EQUITY} düzeyindedir.",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "Bu cüzdan adresi ile ilişkili bir hesap bulamadık.",
       "TRANSFER_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
       "TRANSFER_TO_YOURSELF": "Kendi cüzdan adresinize doğrudan transfer işlemini gerçekleştiremezsiniz.",
-      "TRANSFER_INSUFFICIENT_GAS": "Zincir cüzdanınızdaki {USDC_BALANCE} USDC bakiyesi işlem ücretlerini karşılamayabilir. Lütfen ilave bakiye yatırınız.",
+      "TRANSFER_INSUFFICIENT_GAS": "Zincir cüzdanınızdaki {TOKEN} bakiyesi ({BALANCE} {TOKEN}) işlem ücretlerini karşılamayabilir. Lütfen ilave bakiye yatırınız.",
       "TRANSFER_WITHOUT_MEMO": "Sağlanan not olmadan merkezi bir borsaya transfer yapmak, fon kaybına neden olabilir."
     },
     "ADJUST_ISOLATED_MARGIN": {
