@@ -1001,6 +1001,7 @@
       "KEPLR_DASHBOARD": "Keplr Dashboard",
       "STAKED_BALANCE": "Staked Balance",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Estimated gas fees are greater than the claimable reward value.",
+      "PREVIEW_STAKE": "Preview Stake",
       "VALIDATORS_INFO_LINK": "For more information on validators, please visit {MINTSCAN_LINK}.",
       "STAKING_LEGAL_DISCLAIMER": "You are staking your assets to a validator node operated by a third party. The operator of this site is not responsible for such staking services provided by third parties. Stake to another validator with {KEPLR_DASHBOARD_LINK} or liquid stake with {STRIDE_LINK}.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "You are staking your assets to a validator node operated by a third party, and you are solely responsible for choosing your validator. This site's Operator is not responsible for staking services provided by third parties. You may stake to any validator not on this dropdown menu on {KEPLR_DASHBOARD_LINK}, or liquid stake on {STRIDE_LINK}."
@@ -1013,6 +1014,7 @@
       "UNSTAKED_BALANCE": "Unstaked Balance",
       "SELECTED_VALIDATOR": "Selected Validator",
       "UNSTAKING_PERIOD": "Unstaking Period",
+      "PREVIEW_STAKE": "Preview Unstake",
       "VALIDATOR": "Validator",
       "UNSTAKING_PERIOD_DESCRIPTION": "The unstaking period can take up to 30 days and you will not earn rewards on this balance."
     },
