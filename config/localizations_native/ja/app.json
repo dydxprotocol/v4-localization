@@ -65,6 +65,7 @@
       "NO_RESULTS": "結果なし",
       "OF": "{ITEM2}の{ITEM1}",
       "OK": "OK",
+      "PAY_GAS_WITH": "ガスを支払います",
       "PLACEHOLDER_NO_POSITIONS": "オープンポジションはありません",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "ポジションを表示するには、サインインする必要があります。",
       "PLACEHOLDER_NO_ORDERS": "オープンオーダーはありません",
