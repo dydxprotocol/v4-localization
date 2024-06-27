@@ -2352,7 +2352,7 @@
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET} is currently in close only mode. No new positions can be created.",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market orders on dYdX are not guaranteed to fill depending on liquidity at time of triggering. For more control, try a Stop Limit order.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market orders on dYdX are not guaranteed to fill depending on liquidity at time of triggering. For more control, try a Take Profit Limit order.",
-      "UNABLE_TO_CHANGE_MARGIN_MODE": "Unable to change margin mode for {MARKET}."
+      "UNABLE_TO_CHANGE_MARGIN_MODE": "Unable to change margin mode for {MARKET} with an open order or position."
     },
     "TRADE_BOX_TITLE": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Limit price",
