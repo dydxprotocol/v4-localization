@@ -2207,7 +2207,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "This order would put you over the limit of {LIMIT} open orders.",
       "WOULD_NOT_REDUCE": "Your position would not be reduced if order is filled.",
       "WOULD_NOT_REDUCE_UNCHECK": "Your position would not be reduced with this order. Please uncheck Reduce-Only if you would like to place your order.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days.",
+      "POSITION_LEVERAGE_OVER_MAX": "Position leverage is over the maximum leverage for this market."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Step size",
