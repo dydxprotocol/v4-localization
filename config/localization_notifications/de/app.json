@@ -24,6 +24,10 @@
       "TITLE": "Das Incentives-Programm zum {SEASON_NUMBER}Saisonstart hat begonnen!",
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
     },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "Isolierte Marge ist live",
+      "BODY": "Isolierte Marge ist jetzt live! Um mehr zu erfahren, gehen Sie unter {LEARN_MORE}."
+    },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "Die Prämien zum {SEASON_NUMBER}Saisonstart wurden verteilt!",
       "BODY": "{SEASON_NUMBER}Saisonprämien +{DYDX_AMOUNT} DYDX"

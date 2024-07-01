@@ -335,6 +335,12 @@
       "BODY": "dYdX unterstützt zwei Arten von Layer 2-Auszahlungen. Schnelle Auszahlungen ohne Gas, mit einer geringen Gebühr und Sofortanweisung. Langsame Auszahlungen sind kostenfrei, erfordern allerdings zwei Schritte und dauern weitaus länger. Der Kunde muss seine eigenen Gasgebühren bezahlen."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Ausgewählter Validator",
+      "BODY": "Die Auswahl basiert auf dem niedrigsten Einsatzgewicht aus einem vorkonfigurierten Satz von Validatoren."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "E-Mail-Adresse verifizieren",
