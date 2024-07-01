@@ -24,6 +24,10 @@
       "TITLE": "시즌 {SEASON_NUMBER} 출시 인센티브 프로그램이 시작되었습니다!",
       "BODY": "시즌 {PREV_SEASON_NUMBER}에서 얻은 중간 보상은 {DYDX_AMOUNT} DYDX(약 {USDC_AMOUNT}USDC)입니다!"
     },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "격리 마진이 라이브 상태입니다.",
+      "BODY": "격리 마진이 현재 라이브입니다! 자세한 내용은 {LEARN_MORE} 여기를 참조하십시오."
+    },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "시즌 {SEASON_NUMBER} 출시 보상이 분배되었습니다!",
       "BODY": "시즌 {SEASON_NUMBER} 보상 +{DYDX_AMOUNT} DYDX"
