@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -359,6 +359,7 @@ export const APP_STRING_KEYS = {
     EG: 'APP.GENERAL.EG',
     EMAIL: 'APP.GENERAL.EMAIL',
     ENDED: 'APP.GENERAL.ENDED',
+    ENTERTAINMENT: 'APP.GENERAL.ENTERTAINMENT',
     EQUITY: 'APP.GENERAL.EQUITY',
     ESTIMATED: 'APP.GENERAL.ESTIMATED',
     EST_APR: 'APP.GENERAL.EST_APR',
@@ -489,6 +490,7 @@ export const APP_STRING_KEYS = {
     QUERY_NOT_FOUND: 'APP.GENERAL.QUERY_NOT_FOUND',
     QUEUED: 'APP.GENERAL.QUEUED',
     RANKINGS: 'APP.GENERAL.RANKINGS',
+    REAL_WORLD_ASSET_SHORT: 'APP.GENERAL.REAL_WORLD_ASSET_SHORT',
     RECEIVE: 'APP.GENERAL.RECEIVE',
     RECENT: 'APP.GENERAL.RECENT',
     RECENTLY_LISTED: 'APP.GENERAL.RECENTLY_LISTED',

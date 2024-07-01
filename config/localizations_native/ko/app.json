@@ -65,6 +65,7 @@
       "NO_RESULTS": "결과 없음",
       "OF": "{ITEM1}\/{ITEM2}",
       "OK": "OK",
+      "PAY_GAS_WITH": "다음으로 가스 지불",
       "PLACEHOLDER_NO_POSITIONS": "미결 포지션이 없습니다",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "포지션을 보려면 로그인해야 합니다",
       "PLACEHOLDER_NO_ORDERS": "미결 주문이 없습니다",
