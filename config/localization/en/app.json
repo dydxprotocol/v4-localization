@@ -84,7 +84,7 @@
       "CLICK_HERE": "Click here",
       "CLOSE": "Close",
       "COMING_SOON": "Coming soon",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission",
       "COMPETITION": "Competition",
       "COMPETITIONS": "Competitions",
       "CONFIRM_DEPOSIT": "Confirm deposit",
@@ -1023,8 +1023,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Once confirmed, you will start earning rewards in USDC. Remember, unstaking will take 30 days to complete."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "Confirm Unstake",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Once confirmed, you will stop earning rewards on the staked amount. All unclaimed rewards from this validator will automatically be claimed. Unstaking will take 30 days to complete."
+      "CONFIRM_UNSTAKE": "Confirm Unstake",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Once confirmed, you will stop earning rewards on the staked amount. All unclaimed rewards from this validator will automatically be claimed. Unstaking will take 30 days to complete."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Tell us how we can build a better trading experience for you. For questions or bug reports, please use the help chat.",
@@ -1518,6 +1518,31 @@
       "YOU_WON": "You won!",
       "YOUR_LEAGUE": "Your League",
       "YOURE_IN": "You're in {LEAGUE}"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Vaults provide automated liquidity on all dYdX markets. Vaults aim for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
+      "LP_VAULT": "LP Vault",
+      "VAULT": "Vault",
+      "ASSET_VAULT": "{ASSET} Vault",
+      "VAULTS": "Vaults",
+      "VAULT_DETAILS": "Vault Details",
+      "VAULT_FAQS": "Vault FAQs",
+      "VAULT_BALANCE": "Vault Balance",
+      "VAULT_POSITION": "Vault Position",
+      "VAULT_LEVERAGE": "Vault Leverage",
+      "VAULT_ALL_TIME_PNL": "All-time Vault P&L",
+      "VAULT_THIRTY_DAY_APR": "30d APR",
+      "VAULTS_OVERVIEW": "Vaults Overview",
+      "VAULT_DOCS": "Vault Docs",
+      "ALL_VAULTS": "All Vaults",
+      "MY_VAULTS": "My Vaults",
+      "YOUR_BALANCE": "Your Balance",
+      "SEARCH_VAULTS": "Search Vaults",
+      "YOUR_LP_VAULT_BALANCE": "Your LP Vault Balance",
+      "VIEW_VAULT": "View Vault",
+      "VAULT_EQUITY": "Vault Equity",
+      "VAULT_PNL": "Vault P&L",
+      "DEPOSITS_AND_WITHDRAWALS": "Deposits & Withdrawals"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% reduction",
