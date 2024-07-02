@@ -2285,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "No hemos podido encontrar una cuenta asociada a esta dirección de la billetera.",
       "TRANSFER_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
       "TRANSFER_TO_YOURSELF": "No puedes realizar una transferencia directa a tu propia dirección de billetera.",
-      "TRANSFER_INSUFFICIENT_GAS": "Es posible que el {TOKEN} saldo de ({BALANCE} {TOKEN})en tu billetera de cadena no cubra las tarifas de transacción. Deposita fondos adicionales.",
+      "TRANSFER_INSUFFICIENT_GAS": "Es posible que el {TOKEN} saldo de ({BALANCE} {TOKEN}) en tu billetera de cadena no cubra las tarifas de transacción. Deposita fondos adicionales.",
       "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
