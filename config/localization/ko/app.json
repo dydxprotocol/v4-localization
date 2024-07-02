@@ -132,6 +132,7 @@
       "EMAIL": "이메일",
       "ENDED": "종료",
       "EQUITY": "자본",
+      "EST_APR": "예상 {PERCENTAGE} APR",
       "EST_GAS": "예상 가스",
       "ESTIMATED": "예상",
       "EXPAND_SECTION": "섹션 확장",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "스테이킹할 금액",
       "SELECTED_VALIDATOR": "선택한 검증자",
       "ENTER_AMOUNT_TO_STAKE": "스테이킹할 금액을 입력하세요",
-      "STAKED_BALANCE": "스테이킹한 잔액"
+      "KEPLR_DASHBOARD": "Keplr 대시보드",
+      "STAKED_BALANCE": "스테이킹한 잔액",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "예상 가스 수수료가 청구 가능한 보상 값보다 큽니다.",
+      "STAKING_LEGAL_DISCLAIMER": "타사가 운영하는 검증자 노드에 자산을 스테이킹하고 있습니다. 이 사이트의 운영자는 제3자가 제공하는 스테이킹 서비스에 대해 책임을 지지 않습니다. {KEPLR_DASHBOARD_LINK}이(가) 있는 다른 검증자에 스테이킹 또는 {STRIDE_LINK}이(가) 있는 리퀴드 스테이킹입니다."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "현재 스테이킹 수량은 {AMOUNT}입니다",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "해당 지갑 주소와 연결된 계정을 찾을 수 없습니다.",
       "TRANSFER_MORE_THAN_FREE": "무료 담보보다 많은 금액을 전송할 수 없습니다.",
       "TRANSFER_TO_YOURSELF": "귀하 자신의 지갑 주소로 직접 전송을 완료할 수 없습니다.",
-      "TRANSFER_INSUFFICIENT_GAS": "체인 지갑의 USDC 잔고 {USDC_BALANCE}는 거래 수수료를 충당하지 못할 수 있습니다. 추가 자금을 입금하십시오.",
+      "TRANSFER_INSUFFICIENT_GAS": "체인 지갑의 {TOKEN} 잔고({BALANCE} {TOKEN})는 거래 수수료를 충당하지 못할 수 있습니다. 추가 자금을 입금하십시오.",
       "TRANSFER_WITHOUT_MEMO": "제공한 메모 없이 중앙화된 거래소로 전송하면 자금을 잃을 수 있습니다."
     },
     "ADJUST_ISOLATED_MARGIN": {
