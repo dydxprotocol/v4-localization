@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "选定的验证者",
-      "BODY": "选定基于预先配置的一组验证者的最低质押权重。"
+      "BODY": "根据最低质押量，从预先配置的一组未削减的验证者中，选出验证者。"
     }
   },
   "EMAIL_NOTIFICATIONS": {
