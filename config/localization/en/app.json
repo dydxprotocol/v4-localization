@@ -1547,8 +1547,7 @@
       "VAULT_PNL": "Vault P&L",
       "DEPOSITS_AND_WITHDRAWALS": "Deposits & Withdrawals",
       "VIEW_ALL_VAULTS": "View All Vaults",
-      "YOU_HAVE_NO_VAULT_DEPOSITS": "You have no vault deposits.",
-      "": ""
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "You have no vault deposits."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% reduction",
