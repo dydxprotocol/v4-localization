@@ -190,6 +190,7 @@
       "ADD_NEW_MARKET": "Add new market",
       "ADD_NEW_MARKET_CAPITALIZED": "Add New Market",
       "NO_RECENTLY_LISTED_MARKETS": "No recently listed markets",
+      "NO_RESULTS": "No results",
       "HIGHLIGHTS": "Highlights",
       "LAYER_1": "Layer 1",
       "LAYER_2": "Layer 2",
@@ -286,6 +287,7 @@
       "SAVE": "Save",
       "SAVED": "Saved",
       "SCAN_TO_DOWNLOAD": "Scan to download app",
+      "SEARCH": "Search",
       "SELECT": "Select {SELECTION}",
       "SELECT_ASSET": "Select an asset",
       "SELECT_CHAIN": "Select a chain",
@@ -1995,6 +1997,7 @@
       "SELECT_A_THEME": "Select Color Theme"
     },
     "GLOBAL_COMMANDS": {
+      "COMMANDS": "Commands",
       "SET_CLASSIC_DARK_THEME": "Set Classic Dark Theme",
       "SET_SYSTEM_THEME": "Set System Theme",
       "SET_DARK_THEME": "Set Dark Theme",
