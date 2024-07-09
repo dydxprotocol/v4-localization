@@ -84,6 +84,7 @@
       "CLICK_HERE": "ここをクリック",
       "CLOSE": "クローズ",
       "COMING_SOON": "近日公開",
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE}コミッション", 
       "COMPETITION": "コンペティション",
       "COMPETITIONS": "コンペティション",
       "CONFIRM_DEPOSIT": "入金確認",
@@ -122,6 +123,7 @@
       "DIRECTION": "方向",
       "DISCOUNT": "割引",
       "DISMISS": "取下げる",
+      "DOCUMENT": "ドキュメント",
       "DONE": "完了",
       "DOWNLOAD_MOBILE_APP": "モバイルアプリをダウンロード",
       "DYDX_CHAIN_ADDRESS": "dYdXチェーンアドレス",
@@ -132,7 +134,9 @@
       "EMAIL": "メール",
       "ENDED": "終了",
       "EQUITY": "エクイティ",
+      "EST_APR": "設立{PERCENTAGE}年利",
       "EST_GAS": "推定Gas（ガス）",
+      "EST_REWARDS": "推定報酬",
       "ESTIMATED": "推定",
       "EXPAND_SECTION": "セクションを表示",
       "EXPAND": "展開",
@@ -153,6 +157,7 @@
       "GAS_FEE": "ガス代",
       "GASLESS_DEPOSITS": "ガスレス入金",
       "GENERAL": "全般",
+      "GET_DYDX_ON_PHONE": "携帯電話でdYdXを入手",
       "GO_BACK": "戻る",
       "GO_TO_MARKET": "市場に進む",
       "GOVERNANCE": "ガバナンス",
@@ -201,6 +206,7 @@
       "MAKE_ONE_TRADE": "取引の実行",
       "MANAGE_FUNDS": "資金管理",
       "MARGIN": "保証金",
+      "MARGIN_WITH_MODE": "マージン{MODE}（）",
       "MARGIN_MODE": "マージンモード",
       "MARGIN_USAGE": "保証金使用率",
       "MARKET_NAME": "マーケット名",
@@ -240,7 +246,7 @@
       "PASTE": "ペースト",
       "PENDING_REWARDS": "保留中の報酬",
       "PENDING": "保留",
-      "PERPETUALS_UNAVAILABLE_IN_US": "パーペチュアルは、米国または制限を受けている地域に居住している自然人、またはそうした地域に拠点を置いて法人化しているか、登録代理人を置いている企業は利用できません。 詳細は利用規約をご参照ください",
+      "PERPETUALS_UNAVAILABLE_IN_US": "パーペチュアルは、米国または制限を受けている地域に居住している自然人、またはそうした地域に拠点を置いて法人化しているか、登録代理人を置いている企業は利用できません。 詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。",
       "PERPETUALS": "パーペチュアル",
       "PNL": "P&L",
       "POSITION": "ポジション",
@@ -298,6 +304,7 @@
       "SOURCE_ADDRESS": "ソースアドレス",
       "STAKE": "ステーキング",
       "STAKED": "ステーク済",
+      "STAKE_NOW": "今すぐステーキング",
       "START_TRADING": "取引スタート",
       "STARTED_FROM_DATE": "{FROM_DATE}から開始",
       "STATISTICS": "統計",
@@ -352,6 +359,7 @@
       "VIEWS": "閲覧",
       "VOLUME_30D": "出来高（30USD）",
       "VOTING_LIVE": "ライブ投票",
+      "VOTING_POWER": "選択権",
       "WALLET_BALANCE": "ウォレット  残高",
       "WALLET": "ウォレット",
       "WEBSITE": "ウェブサイト",
@@ -985,21 +993,38 @@
       "WITHDRAW_IRREVERSIBLE": "いったん出金を開始すると元に戻すことはできません。"
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "DYDXをステーキングして、USDCで報酬を受け取ります。 ステーキング解除は最大30日間です。",
+      "INSUFFICIENT_STAKE_BALANCE": "ウォレット残高は、トランザクション手数料をカバーするには不十分です。",
+      "STAKE_DESCRIPTION": "DYDXをステーキングして、USDCで報酬を受け取ります。 ステーキング解除が完了するまで30日間かかります。",
       "AMOUNT_TO_STAKE": "ステーク金額",
       "SELECTED_VALIDATOR": "選択されたバリデータ",
       "ENTER_AMOUNT_TO_STAKE": "ステーク金額を入力します",
-      "STAKED_BALANCE": "ステーキング残高"
+      "KEPLR_DASHBOARD": "Keplrダッシュボード",
+      "STAKED_BALANCE": "ステーキング残高",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "推定ガス使用料は、請求可能な報酬地を越えています。",
+      "PREVIEW_STAKE": "ステークをプレビュー",
+      "VALIDATORS_INFO_LINK": "バリデータに関する詳細は、{MINTSCAN_LINK}をご覧ください。",
+      "STAKING_LEGAL_DISCLAIMER": "あなたは、第三者が運営するバリデータノードに資産を賭けています。本サイトの運営者は、第三者が提供するこのようなステーキングサービスについて責任を負いません。別のバリデータにステーキングするか、ある{KEPLR_DASHBOARD_LINK}いは液体ステークでステーキングする{STRIDE_LINK}。",
+      "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "あなたは、第三者が運営するバリデータノードに資産をステーキングしており、バリデータを選択する責任はあなたにあります。 本サイトの運営者は、第三者が提供するステーキングサービスについて責任を負いません。 {KEPLR_DASHBOARD_LINK}にあるこのドロップダウンメニューにないバリデータにステーキングするか、または{STRIDE_LINK}でリキッドステーキングできます。"
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "現在{AMOUNT}をステーキングしています ",
       "CURRENTLY_STAKING_WITH": "現在、{VALIDATOR}をステーキング中です ",
       "AMOUNT_TO_UNSTAKE": "ステーキング解除金額",
+      "ENTER_AMOUNT_TO_UNSTAKE": "ステーキング解除金額を入力します",
       "UNSTAKED_BALANCE": "ステーキング解除した残高",
       "SELECTED_VALIDATOR": "選択されたバリデータ",
       "UNSTAKING_PERIOD": "ステーキング解除期間",
+      "PREVIEW_UNSTAKE": "ステーキング解除をプレビュー",
       "VALIDATOR": "バリデータ",
       "UNSTAKING_PERIOD_DESCRIPTION": "ステーキング解除期間には最大30日間かかることがあり、この残高では報酬を獲得できません。"
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "ステーキングを確認",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "確認されると、USDCで報酬の獲得を開始します。 ステーキング解除が完了するのに30日間かかることにご注意ください。"
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "ステーキング解除を確認",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "確認されると、ステーキング金額の報酬の獲得を停止します。 このバリデータからのすべての未請求報酬は、自動的に請求されます。 ステーキング解除が完了するまで30日間かかります。"
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "お客様のために、当社がより優れた取引体験をどのように提供できるかについて、ご意見をお聞かせください。ご質問やバグ報告については、ヘルプチャットをご利用ください。",
@@ -1193,6 +1218,7 @@
       "CANCEL_ALL": "すべてキャンセルする",
       "CANCEL_ORDER": "注文をキャンセルする",
       "CANCEL_ORDERS_COUNT": "{COUNT}件の注文をキャンセル",
+      "CANCELING_ORDERS_COUNT": "{COUNT}件の注文をキャンセル中...",
       "CANCEL_ORDERS": "注文をキャンセル",
       "CANCEL_REASON": "キャンセル理由",
       "CANCELED_ON_CHAIN": "チェーンでキャンセルされました",
@@ -1214,6 +1240,7 @@
       "CURRENTLY_TRADING_GOERLI": "Goerliのテストネットアプリでテスト資金による取引を行っています。メインネットアプリで口座を作成し、リアル資金で取引を始めましょう。",
       "CURRENTLY_TRADING_ROPSTEN": "Ropstenのテストネットアプリでテスト資金による取引を行っています。メインネットアプリで口座を作成し、リアル資金で取引を始めましょう。",
       "DELEVERAGED": "レバレッジ解消",
+      "EDIT_MARGIN": "マージンを編集",
       "EDIT_STOP_LOSS": "ストップロスを編集する",
       "EDIT_TAKE_PROFIT": "利益確定を編集する",
       "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "利益確定\/ストップロスを編集する",
@@ -1260,7 +1287,7 @@
       "LIMIT_PRICE": "指値",
       "LIQUIDATED": "清算済",
       "LIQUIDATION": "清算",
-      "LIQUIDATION_PRICE_SHORT": "現金化",
+      "LIQUIDATION_PRICE_SHORT": "現金化価格",
       "LIQUIDATION_PRICE": "清算価格",
       "LIQUIDITY": "流動性",
       "MAKER_FEE": "メイカー手数料",
@@ -1407,6 +1434,7 @@
       "TRANSFERS_EMPTY_STATE": "移転履歴はありません。",
       "TRIGGER_PRICE_SHORT": "トリガー",
       "TRIGGER_PRICE": "トリガー価格",
+      "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "トリガー注文の関連ポジションがクローズまたは反転されました。",
       "TRIGGERS": "トリガー",
       "UNDERCOLLATERALIZED": "担保不足",
       "UNOPENED_ISOLATED_POSITIONS": "開かれていない分離ポジション",
@@ -1684,9 +1712,11 @@
       "YOU_CAN_WIN_THESE": "これらは当社の{LEAGUES_LINK}で獲得できます"
     },
     "STAKING_REWARDS": {
+      "AVAILABLE_IN_DAYS": "{DAYS}日で利用可能",
       "CLAIM_USDC_AMOUNT": "{USDC_AMOUNT}USDCを請求",
       "CLAIM_STAKING_REWARDS": "ステーキング報酬を請求！",
       "EARN_APR": "{APR_PERCENTAGE}APRを獲得",
+      "ESTIMATED_APR_DATA_BASED_ON": "推定APRは、{PROTOCOL_STAKING_LINK}からのデータに基づいています ",
       "LEAVING_WEBSITE_STAKING_GOVERNANCE": "ステーキング、ガバナンス、および退会ウェブサイトの免責事項",
       "LIQUID_STAKE_ON_STRIDE": "ストライドでのリキッドステーク",
       "LIQUID_STAKING_AND_LEAVING": "リキッドステーキングと離脱ウェブサイト",
@@ -1694,13 +1724,13 @@
       "LIQUID_STAKE_W_STRIDE": "Strideによるリキッドステーク",
       "LIQUID_STAKE_STRIDE_DESCRIPTION": "エコシステム周りにデプロイできるstのトーク{TOKEN_DENOM}ンをステーク{TOKEN_DENOM}します。",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}、Strideゾーンに移動します。",
+      "PROTOCOL_STAKING": "プロトコルステーキング",
       "STAKE_WITH_KEPLR": "Keplrのステーク",
       "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "以下の「{CTA}」を選択することにより、お客様は（a）当社のウェブサイトを離れ、本ウェブサイトのホストおよび運営者（以下「運営者」）とは独立しており、無関係であるChainapsis Labs、Inc.（以下「Keplr」）によって利用可能なウェブサイトに参加することを認め、同意するものとします。 （b）これらのサービスは、Keplrによってお客様に直接提供され、オペレーターが関与しません。 （c）これらのサービス、およびオペレーターのウェブサイト外でステーキングまたはガバナンスが発生します。 （d）お客様とKeplrとの間で直接取引または価値のトランザクションが発生します。 これらのサービスは、米国、カナダ、または制限地域に所在する人は利用できません。 また、お客様は、Keplrによってお客様から要求された情報がオペレーターに提供されないこと、およびお客様とKeplrとの間のトランザクションまたは転送のいかなる側面についてもオペレーターに責任を負わないことに同意するものとします。 オペレーターのウェブサイト上のいかなるものも、財務アドバイス、法律アドバイス、税務アドバイス、投資アドバイス、またはその他の性質のアドバイスとして解釈または信頼するべきではありません。あなたは、前述のいずれかに関連する財務、税、法律または投資措置を講じる前に、独立した調査を行い、デューデリジェンスを実行し、プロフェッショナルアドバイザーを関与させる責任があることに同意するものとします。",
       "STAKING_AND_LEAVING": "ステーキングと退会ウェブサイトの免責事項",
       "STAKING_PAGE_SUBTITLE": "APR獲得のためのステーキング。 アンステーキングには最大30日間かかることがあります。",
       "STAKING_REWARDS": "ステーキング報酬",
-      "STAKING_REWARDS_AVAILABLE": "ステーキング報酬が利用可能",
-      "AVAILABLE_IN_DAYS": "{DAYS}日で利用可能"
+      "STAKING_REWARDS_AVAILABLE": "ステーキング報酬が利用可能"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "ガバナンス提案に投票するか、独自の提案を提出することで、エコシステムに参加します。",
@@ -1722,21 +1752,25 @@
       "TRADING_REWARD_HISTORY": "取引報酬履歴",
       "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "ここに履歴が表示されます。",
       "TRADING_REWARD_TABLE_EMPTY_STATE": "履歴がありません。",
-      "TRADING_REWARDS_LEGAL_DISCLAIMER": "ガバナンス、報酬、およびステーキング関連サービスは、第三者サイト上で、このインターフェイスのホストおよびオペレーター（「オペレーター」）とは独立しており、無関係の第三者によって、オペレーターの関与なしに直接提供されます。 お客様は、利用規約に精通しており、変動報酬レート、スラッシング、ステーキングに固有のその他のリスクなど、これらのサービスに関連するリスクを理解していることに同意するものとします。 このウェブサイト上のいかなるものも、財務上のアドバイスや法律上のアドバイス、税に関するアドバイス、投資に関するアドバイス、あるいはその他の性質のアドバイスとして解釈または信頼されるものではありません。サービスに関連するアクションを実行する前に、独立した調査、デューデリジェンス、および専門アドバイザーからのアドバイスを求めることについて、お客様は単独で責任を負います。",
+      "TRADING_REWARDS_LEGAL_DISCLAIMER": "ガバナンス、報酬、およびステーキング関連サービスは、第三者サイト上で、このインターフェイスのホストおよびオペレーター（「オペレーター」）とは独立しており、無関係の第三者によって、オペレーターの関与なしに直接提供されます。 お客様は、{TERMS_OF_USE_LINK}に精通しており、変動報酬レート、スラッシング、ステーキングに固有のその他のリスクなど、これらのサービスに関連するリスクを理解していることに同意するものとします。 このウェブサイト上のいかなるものも、財務上のアドバイスや法律上のアドバイス、税に関するアドバイス、投資に関するアドバイス、あるいはその他の性質のアドバイスとして解釈または信頼されるものではありません。サービスに関連するアクションを実行する前に、独立した調査、デューデリジェンス、および専門アドバイザーからのアドバイスを求めることについて、お客様は単独で責任を負います。",
       "REWARD_HISTORY_DESCRIPTION": "取引報酬はブロックごとに直ちに配布されますが、履歴は5分ごとに更新されます。 取引報酬の履歴は、{REWARDS_HISTORY_START_DATE}まで遡ります。",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "報酬を得るために取引を開始します。",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "報酬を請求するにはどうすればよいですか？",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "取引報酬を請求するにはどうすればよいですか？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "各ブロックの取引報酬は、直接トレーダーのdYdXチェーンアドレスに自動的に送信されます。",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "ステーキング報酬を請求するにはどうすればよいですか？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。 良好な状態のバリデータ（スラッシュされていないものを意味します）のセットのバリデータは、適格なバリデータがステーキングされたトークンが最も少ないかに基づいて自動的に選択されます。 ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。 請求されたUSDC報酬は口座に預金されるため、即座に取引できます！ USDC報酬を請求するには、ガス手数料が発生します。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "ステーキング報酬を請求するにはどうすればよいですか？",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。 コミュニティに良好な地位にある一連のバリデータからのバリデータは、ステーキングされたトークンが最も少なく、スラッシュされていないかに基づいて適格なバリデータが自動的に選択されます。 ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。 請求されたUSDC報酬は口座に預金されるため、即座に取引できます！ USDC報酬を請求するには、ガス手数料が発生します。 詳細を見る{HERE_LINK}。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "取引報酬の仕組みは？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "各約定の直後、トレーダーが支払った手数料の金額に基づいて、取引報酬がトレーダーのdYdXチェーンアドレスに直接送信されます。 {HERE_LINK}続きを読む。",
+      "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "事前設定されたバリデータのセットはどのように決定されますか？",
+      "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_ANSWER": "事前設定されたバリデータのセットは、ステーキングするデフォルトのバリデータを決定するために使用されます。 詳細については、こちらの{DOCUMENT_LINK}を参照してください。",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "ステーキングのリスクは何ですか？",
-      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "DeFiプロトコルを使用する場合、リスクが伴います。 ステーキングの場合、ステーキング解除トークンは30日間かかることを理解することが重要です。つまり、プロトコルまたは市場のボラティリティの場合でも、トークンを転送できない流動性の期間があることを意味します。 さらに、ユーザーは、資産を1つにステーキングする前に、バリデータで独自のデューデリジェンスを行う必要があります。 プロトコルルールに違反するバリデータは、トークンをスラッシュ（すなわち、書き込み）またはジェイド（投獄）することで、報酬を獲得できなくなります。 フロントエンドは、過去のパフォーマンスに基づいて、信頼されたセットからトークンにステーキングされるバリデータを選択しますが、バリデータの将来の動作を保証するものではありません。",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "DeFiプロトコルを使用する場合、リスクが伴います。 ステーキングの場合、ステーキング解除トークンは30日間かかることを理解することが重要です。つまり、プロトコルまたは市場のボラティリティの場合でも、トークンを転送できない流動性の期間があることを意味します。 さらに、ユーザーは、資産を1つにステーキングする前に、バリデータで独自のデューデリジェンスを行う必要があります。 プロトコルルールに違反するバリデータは、トークンをスラッシュ（すなわち、書き込み）またはジェイド（投獄）することで、報酬を獲得できなくなります。",
       "FAQ_WHAT_IS_STAKING_QUESTION": "ステーキングとは何ですか？",
       "FAQ_WHAT_IS_STAKING_ANSWER": "dYdXチェーンは、コンセンサスメカニズムにプルーフオブステークを使用しています。 トークン保有者は、ネットワークの安全性とトランザクションの検証を支援するために、トークンをバリデータにステーキングし、その代わりに、プロトコルが収集する取引手数料とガス手数料からUSDC報酬を獲得できます。 すべての手数料は、ステーカーに支払われます。保険基金とバリデータ手数料に送られる手数料は差し引かれます。 報酬レートは、{HERE_LINK}からのデータに基づいています。 将来の報酬レートの保証はありません。これは、プロトコル条件に基づいて変動する可能性があります。",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "どのような人がトレード報酬の対象になるのですか？",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "すべてのトレーダーは、取引報酬を受け取る資格があります。",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "ステーキングにはどのバリデータが使用できますか？",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "サイトは、事前設定されたセットのうち、最低手数料とステーキングエイトに基づいて、初期デフォルトのバリデータを選択しますが、代替の選択を自由に行えます。 このサイトでは、ジェイルされていないアクティブセットのバリデータにステーキングできます。また、次のような代替ポータルを使用して、このサイトに表示されていないバリデータにステーキングできます{KEPLR_LINK}。 初期デフォルト選択に使用される事前設定されたセットの詳細については、こちらの{DOCUMENT_LINK}を参照してください。",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "これらの第三者による製品およびサービスは、米国、カナダ、あるいは制限地域に居住している、拠点を置いている、法人化している、または登録代理人を置いているユーザーは利用できません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。"
     },
     "EPOCH_END_MODAL": {
@@ -1956,6 +1990,8 @@
       "HIDE_STEPS": "ステップを非表示にする",
       "IMPACT_NOTIONAL": "影響の概念",
       "LIQUIDITY_TIER": "流動性階層",
+      "LIST_A_NEW_MARKET": "新しいマーケットをリスト化する",
+      "LISTINGS_DESCRIPTION": "dYdXのリスティングは、完全にコミュニティ主導です。 このツールは、新しいマーケットをリスト化したガバナンス提案を提出するのに役立ちます。",
       "MESSAGE_DETAILS": "メッセージの詳細",
       "MSG_CREATE_CLOB_PAIR": "clobPairのメッセージ作成",
       "MSG_CREATE_ORACLE_MARKET": "オラクルマーケットのメッセージ作成",
@@ -1982,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "あなたは当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っている、または当社の利用規約に違反する行為を行っているとみなされており、あなたはブロックされています。フロントエンドへのアクセスがブロックされる前に資金を引き出すには、{DATE}まで猶予があります。 エラーが発生していると思われる場合、以下に電子メールを送信してください： {EMAIL}。",
       "PERMANENTLY_BLOCKED_MESSAGE": "あなたは当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられています。あなたは永久にブロックされました。 エラーが発生していると思われる場合、以下に電子メールを送信してください： {EMAIL}。",
-      "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は利用規約をご参照ください {LINK}。"
+      "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2063,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "V4テストネット3（Imperator）"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "チェーンウォレットには、トランザクション手数料をカバーするのに十分な残高がありません。追加の資金を入金するか、またはガス通貨を環境設定で更新してください。",
+    "BROADCAST_ERROR_SDK_5": "ウォレット残高は、トランザクション手数料をカバーするには不十分です。追加の資金を入金してください。",
     "BROADCAST_ERROR_CLOB_2000": "Fill or Kill（FOK）注文で全数量が約定できませんでした。",
     "BROADCAST_ERROR_CLOB_2001": "リデュースオンリー注文では、ポジションサイズを増やすことはできません。",
     "BROADCAST_ERROR_CLOB_2002": "リデュースオンリー注文では、ポジションサイドを変更することはできません。",
@@ -2076,7 +2112,7 @@
     "BROADCAST_ERROR_CLOB_3004": "メッセージのグッド・ティル・ブロックタイムは、ステートフル注文のタイムウィンドウより先まであります。 ページを更新して、もう一度お試しください。",
     "BROADCAST_ERROR_CLOB_3005": "既存のステートフル注文の優先度は、新規注文より高いか、または同じです。",
     "BROADCAST_ERROR_CLOB_3006": "ステートフル注文はありません。",
-    "BROADCAST_ERROR_CLOB_3007": "ステートフル注文の担保チェックに失敗しました。",
+    "BROADCAST_ERROR_CLOB_3007": "ステートフル注文の担保チェックに失敗しました。 注文サイズが大きすぎる場合があります。小さな注文で再度お試しください。",
     "BROADCAST_ERROR_CLOB_3008": "ステートフル注文は以前にキャンセルされているため、発注できません。",
     "BROADCAST_ERROR_CLOB_3009": "ステートフル注文は以前に削除されているため、発注できません。",
     "BROADCAST_ERROR_CLOB_10001": "エクイティティア限度額のため、サブアカウントはこれ以上注文をオープンできません。{EQUITY_TIER_LEARN_MORE}",
@@ -2277,11 +2313,12 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "出金先のソースチェーンを選択してください。"
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "金額は、{NUMBER} {TOKEN}より大きくなければなりません",
       "TRANSFER_INVALID_DYDX_ADDRESS": "無効なdYdXチェーンアドレスです。",
       "TRANSFER_INVALID_ETH_ADDRESS": "このウォレットアドレスに関連付けられている口座が見つかりませんでした。",
       "TRANSFER_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
       "TRANSFER_TO_YOURSELF": "自分自身のウォレットアドレスへのダイレクト送金はできません。",
-      "TRANSFER_INSUFFICIENT_GAS": "お客様のチェーンウォレットの{USDC_BALANCE}USDC残高では、トランザクション手数料が不足する場合があります。追加資金を入金してください。",
+      "TRANSFER_INSUFFICIENT_GAS": "お客様のチェーンウォレットのUSDC残{TOKEN}高{BALANCE}{TOKEN}では、トランザクション手数料が不足する場合があります。追加資金を入金してください。",
       "TRANSFER_WITHOUT_MEMO": "集中型取引所から提供されたメモを持たずに送金すると、資金を失う可能性があります。"
     },
     "ADJUST_ISOLATED_MARGIN": {
