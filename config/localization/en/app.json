@@ -1683,6 +1683,7 @@
       "COMPLIANCE_BODY": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_2": "If you would like to be unblocked, then please confirm (1) your country of residence and (2) your compliance with the Terms of Use. In the event that you complete the confirmation and your account is unblocked, please be aware that any future violation of our terms of use will result in a permanent ban from the protocol - though your funds are always available for withdrawal.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "WARNING: Once you confirm your country of residence, your ability to access this site will be suspended until you are no longer in a jurisdiction that violates our terms of use. Any further attempt to connect to this site from the restricted jurisdiction will result in a permanent ban.",
       "COMPLIANCE_ACKNOWLEDGEMENT": "I have read and confirm I am compliant with the Terms of Use, including the prohibition on persons or entities in the United States, Canada, or other restricted jurisdictions.",
       "COMPLIANCE_REQUEST": "Compliance request",
       "CONTINUE": "Continue",
@@ -2049,8 +2050,8 @@
       "VIEW_PROPOSAL": "View proposal"
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please email {EMAIL}.",
-      "PERMANENTLY_BLOCKED_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please email {EMAIL}.",
+      "CLOSE_ONLY_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
+      "PERMANENTLY_BLOCKED_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
     }
   },
