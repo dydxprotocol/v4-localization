@@ -240,6 +240,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "만료 시간 단위를 선택하세요",
       "SUBMITTING_ORDER": "제출",
       "SUBMITTING_ORDER_DESC": "사용자의 주문이 제출 중에 있습니다.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} 주문 취소 실패",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} 주문 취소 실패",
       "CANCELING_ORDER": "취소 중",
       "CANCELING_ORDER_DESC": "{SIDE} {SIZE} {MARKET}의 주문이 취소되었습니다.",
       "UNREALIZED": "미실현",
