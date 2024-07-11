@@ -225,7 +225,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de Taker",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) executam como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take profit",
@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Validador Selecionado",
-      "BODY": "A seleção é baseada no menor peso de stake de um conjunto pré-configurado de validadores."
+      "BODY": "O validador é selecionado de um conjunto pré-configurado de validadores sem barras com base no menor peso de stakeweight."
     }
   },
   "EMAIL_NOTIFICATIONS": {
