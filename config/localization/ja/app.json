@@ -132,6 +132,7 @@
       "EMAIL": "メール",
       "ENDED": "終了",
       "EQUITY": "エクイティ",
+      "EST_APR": "設立{PERCENTAGE}年利",
       "EST_GAS": "推定Gas（ガス）",
       "ESTIMATED": "推定",
       "EXPAND_SECTION": "セクションを表示",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "ステーク金額",
       "SELECTED_VALIDATOR": "選択されたバリデータ",
       "ENTER_AMOUNT_TO_STAKE": "ステーク金額を入力します",
-      "STAKED_BALANCE": "ステーキング残高"
+      "KEPLR_DASHBOARD": "Keplrダッシュボード",
+      "STAKED_BALANCE": "ステーキング残高",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "推定ガス使用料は、請求可能な報酬地を越えています。",
+      "STAKING_LEGAL_DISCLAIMER": "あなたは、第三者が運営するバリデータノードに資産を賭けています。本サイトの運営者は、第三者が提供するこのようなステーキングサービスについて責任を負いません。別のバリデータにステーキングするか、ある{KEPLR_DASHBOARD_LINK}いは液体ステークでステーキングする{STRIDE_LINK}。"
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "現在{AMOUNT}をステーキングしています ",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "このウォレットアドレスに関連付けられている口座が見つかりませんでした。",
       "TRANSFER_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
       "TRANSFER_TO_YOURSELF": "自分自身のウォレットアドレスへのダイレクト送金はできません。",
-      "TRANSFER_INSUFFICIENT_GAS": "お客様のチェーンウォレットの{USDC_BALANCE}USDC残高では、トランザクション手数料が不足する場合があります。追加資金を入金してください。",
+      "TRANSFER_INSUFFICIENT_GAS": "お客様のチェーンウォレットのUSDC残{TOKEN}高{BALANCE}{TOKEN}では、トランザクション手数料が不足する場合があります。追加資金を入金してください。",
       "TRANSFER_WITHOUT_MEMO": "集中型取引所から提供されたメモを持たずに送金すると、資金を失う可能性があります。"
     },
     "ADJUST_ISOLATED_MARGIN": {

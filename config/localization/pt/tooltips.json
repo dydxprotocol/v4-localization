@@ -335,6 +335,12 @@
       "BODY": "A dYdX oferece suporte a dois tipos de saques da Layer 2. Os saques rápidos têm uma taxa pequena, mas não exigem “gas” e são enviados imediatamente. Já os saques lentos são gratuitos, mas possuem duas etapas, pois levam muito mais tempo e o usuário terá de pagar suas próprias taxas de gás."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Validador Selecionado",
+      "BODY": "A seleção é baseada no menor peso de stake de um conjunto pré-configurado de validadores."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "Verificar o endereço de e-mail",

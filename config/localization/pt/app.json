@@ -132,6 +132,7 @@
       "EMAIL": "E-mail",
       "ENDED": "Encerrado",
       "EQUITY": "Equity",
+      "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gás",
       "ESTIMATED": "Estimado",
       "EXPAND_SECTION": "Expandir seção",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "Valor para Stake",
       "SELECTED_VALIDATOR": "Validador Selecionado",
       "ENTER_AMOUNT_TO_STAKE": "Digite o valor para o stake",
-      "STAKED_BALANCE": "Saldo em staking"
+      "KEPLR_DASHBOARD": "Painel do Keplr",
+      "STAKED_BALANCE": "Saldo em staking",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "As taxas de gas estimadas são maiores do que o valor de recompensa resgatável.",
+      "STAKING_LEGAL_DISCLAIMER": "Você está fazendo staking de seus ativos para um nó validador operado por terceiros. A operadora deste site não é responsável por tais serviços de staking fornecidos por terceiros. Faça staking para outro validador com  {KEPLR_DASHBOARD_LINK}ou stake líquido com {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "Você está fazendo staking de {AMOUNT}",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "Não foi possível encontrar uma conta associada ao endereço desta carteira.",
       "TRANSFER_MORE_THAN_FREE": "Não é possível transferir mais do que sua garantia gratuita.",
       "TRANSFER_TO_YOURSELF": "Não é possível concluir uma transferência direta para o seu próprio endereço de carteira.",
-      "TRANSFER_INSUFFICIENT_GAS": "O saldo em dólares {USDC_BALANCE} em sua carteira pode não cobrir as taxas de transação. Deposite mais fundos.",
+      "TRANSFER_INSUFFICIENT_GAS": "O saldo em {TOKEN} ({BALANCE} {TOKEN}) na sua carteira da cadeia pode não cobrir as taxas de transação. Deposite mais fundos.",
       "TRANSFER_WITHOUT_MEMO": "Transferir para um câmbio centralizado sem o memo que eles forneceram, pode resultar em perda de fundos."
     },
     "ADJUST_ISOLATED_MARGIN": {
