@@ -132,6 +132,7 @@
       "EMAIL": "Correo electrónico",
       "ENDED": "Finalizado",
       "EQUITY": "Equidad",
+      "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gas",
       "ESTIMATED": "Estimado",
       "EXPAND_SECTION": "Ampliar la sección",
@@ -989,7 +990,10 @@
       "AMOUNT_TO_STAKE": "Cantidad para la participación",
       "SELECTED_VALIDATOR": "Validador seleccionado",
       "ENTER_AMOUNT_TO_STAKE": "Ingresa el monto para la participación",
-      "STAKED_BALANCE": "Saldo apostado"
+      "KEPLR_DASHBOARD": "Panel de control de Keplr",
+      "STAKED_BALANCE": "Saldo apostado",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Las tarifas de gas estimadas son mayores que el valor de la recompensa reclamable.",
+      "STAKING_LEGAL_DISCLAIMER": "Estás apostando tus activos en un nodo de validador operado por un tercero. El operador de este sitio no es responsable de dichos servicios de participación proporcionados por terceros. Participación en otro validador con {KEPLR_DASHBOARD_LINK}o participación líquida con {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "Estás apostando actualmente {AMOUNT}",
@@ -2281,7 +2285,7 @@
       "TRANSFER_INVALID_ETH_ADDRESS": "No hemos podido encontrar una cuenta asociada a esta dirección de la billetera.",
       "TRANSFER_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
       "TRANSFER_TO_YOURSELF": "No puedes realizar una transferencia directa a tu propia dirección de billetera.",
-      "TRANSFER_INSUFFICIENT_GAS": "Es posible que el saldo de USDC {USDC_BALANCE}en tu billetera de cadena no cubra las tarifas de transacción. Deposita fondos adicionales.",
+      "TRANSFER_INSUFFICIENT_GAS": "Es posible que el {TOKEN} saldo de ({BALANCE} {TOKEN}) en tu billetera de cadena no cubra las tarifas de transacción. Deposita fondos adicionales.",
       "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
