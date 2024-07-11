@@ -65,6 +65,7 @@
       "NO_RESULTS": "Pas de résultat",
       "OF": "{ITEM1}de {ITEM2}",
       "OK": "OK",
+      "PAY_GAS_WITH": "Payer le gaz avec",
       "PLACEHOLDER_NO_POSITIONS": "Vous n'avez pas de positions ouvertes",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "Vous devez vous connecter pour voir les positions",
       "PLACEHOLDER_NO_ORDERS": "Vous n'avez pas d'ordres ouverts",
