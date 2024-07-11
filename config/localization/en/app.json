@@ -1307,6 +1307,7 @@
       "MARKET_SELL": "market sell",
       "MAXIMUM_POSITION_SIZE": "Maximum Position Size",
       "MID_MARKET": "Mid-Market",
+      "MID_MARKET_PRICE_SHORT": "Mid",
       "MODIFY_GOOD_TIL": "Modify Good Til",
       "MODIFY_PRICE": "Modify price",
       "MODIFY_SIZE_FIELD": "Modify amount",
