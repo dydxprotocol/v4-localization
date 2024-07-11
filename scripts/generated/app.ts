@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1461,6 +1461,7 @@ export const APP_STRING_KEYS = {
     MARKET_SELL: 'APP.TRADE.MARKET_SELL',
     MAXIMUM_POSITION_SIZE: 'APP.TRADE.MAXIMUM_POSITION_SIZE',
     MID_MARKET: 'APP.TRADE.MID_MARKET',
+    MID_MARKET_PRICE_SHORT: 'APP.TRADE.MID_MARKET_PRICE_SHORT',
     MODIFY_GOOD_TIL: 'APP.TRADE.MODIFY_GOOD_TIL',
     MODIFY_PRICE: 'APP.TRADE.MODIFY_PRICE',
     MODIFY_SIZE_FIELD: 'APP.TRADE.MODIFY_SIZE_FIELD',
