@@ -84,7 +84,7 @@
       "CLICK_HERE": "Cliquez ici",
       "CLOSE": "Fermer",
       "COMING_SOON": "Bientôt disponible",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission",
       "COMPETITION": "Compétition",
       "COMPETITIONS": "Compétitions",
       "CONFIRM_DEPOSIT": "Confirmer le dépôt",
@@ -133,6 +133,7 @@
       "EG": "Par ex.",
       "EMAIL": "E-mail",
       "ENDED": "Terminé",
+      "ENTERTAINMENT": "Divertissement",
       "EQUITY": "Capital",
       "EST_APR": "Est. {PERCENTAGE}TAEG",
       "EST_GAS": "Est. Gaz",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "« {QUERY} » n'a pas été trouvée",
       "QUEUED": "En attente",
       "RANKINGS": "Classements",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Recevoir",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Récent",
@@ -1016,6 +1018,7 @@
       "UNSTAKING_PERIOD": "Période de déjalonnement",
       "PREVIEW_UNSTAKE": "Aperçu du déjalonnement",
       "VALIDATOR": "Validateur",
+      "VALIDATORS": "Validateurs",
       "UNSTAKING_PERIOD_DESCRIPTION": "La période de déjalonnement peut prendre jusqu'à 30 jours et vous ne gagnerez pas de récompenses sur ce solde."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1023,8 +1026,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Une fois validé, vous commencerez à gagner des récompenses en USDC. Rappelez-vous, le déjalonnement prendra 30 jours pour être terminé."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "Valider le déjalonnement",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Une fois validé, vous cesserez de gagner des récompenses sur le montant misé. Toutes les récompenses non réclamées de ce validateur seront automatiquement réclamées. Le déjalonnement prendra 30 jours pour être terminé."
+      "CONFIRM_UNSTAKE": "Valider le déjalonnement",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Une fois validé, vous cesserez de gagner des récompenses sur le montant misé. Toutes les récompenses non réclamées de ce validateur seront automatiquement réclamées. Le déjalonnement prendra 30 jours pour être terminé."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Dites-nous comment nous pouvons créer une meilleure expérience de trading pour vous. Pour toute question ou rapport de bogue, veuillez utiliser le chat d'aide.",
@@ -1518,6 +1521,33 @@
       "YOU_WON": "Vous avez gagné !",
       "YOUR_LEAGUE": "Votre Ligue",
       "YOURE_IN": "Vous êtes dans {LEAGUE}"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Les coffres-forts fournissent une liquidité automatisée sur tous les marchés dYdX. Les coffres-forts visent à adopter une position neutre par rapport au marché en citant les deux côtés du livre. P&L variera en fonction de l'état du marché et il existe un risque de perdre tout ou partie des USDC déposés.",
+      "LP_VAULT": "Coffre-fort LP",
+      "VAULT": "Coffre-fort",
+      "ASSET_VAULT": "{ASSET}  Coffre-fort",
+      "VAULTS": "Coffres-forts",
+      "VAULT_DETAILS": "Détails du coffre-fort",
+      "VAULT_FAQS": "FAQ sur le coffre-fort",
+      "VAULT_BALANCE": "Solde du coffre-fort",
+      "VAULT_POSITION": "Position du coffre-fort",
+      "VAULT_LEVERAGE": "Effet de levier du coffre-fort",
+      "VAULT_ALL_TIME_PNL": "Résultats de tous les temps pour le coffre-fort",
+      "VAULT_THIRTY_DAY_APR": "30d TAEG",
+      "VAULTS_OVERVIEW": "Aperçu des coffres-forts",
+      "VAULT_DOCS": "Docs des coffres-forts",
+      "ALL_VAULTS": "Tous les coffres-forts",
+      "MY_VAULTS": "Mes coffres-forts",
+      "YOUR_BALANCE": "Votre solde",
+      "SEARCH_VAULTS": "Rechercher des coffres-forts",
+      "YOUR_LP_VAULT_BALANCE": "Votre solde du coffre-fort LP",
+      "VIEW_VAULT": "Afficher le coffre-fort",
+      "VAULT_EQUITY": "Capitaux propres du coffre-fort",
+      "VAULT_PNL": "Coffre-fort P&L",
+      "DEPOSITS_AND_WITHDRAWALS": "Dépôts et retraits",
+      "VIEW_ALL_VAULTS": "Afficher tous les coffres-forts",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "Vous n'avez pas de dépôts de coffre-fort."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66 % de réduction",
@@ -2182,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Cet ordre vous ferait dépasser la limite des {LIMIT} ordres ouverts.",
       "WOULD_NOT_REDUCE": "Votre position ne serait pas réduite si l'ordre est exécuté.",
       "WOULD_NOT_REDUCE_UNCHECK": "Votre position ne serait pas réduite avec cet ordre. Veuillez décocher Reduce-Only si vous souhaitez passer votre ordre.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til dépasse le maximum de 90 jours."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til dépasse le maximum de 90 jours.",
+      "POSITION_LEVERAGE_OVER_MAX": "L'effet de levier de la position qui en résulterait serait supérieur à l'effet de levier maximal pour ce marché."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Taille de pas",
