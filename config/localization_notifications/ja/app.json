@@ -24,6 +24,10 @@
       "TITLE": "シーズン{SEASON_NUMBER}の発売奨励プログラムが始まりました！",
       "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
     },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "分離されたマージンはライブです",
+      "BODY": "分離されたマージンがライブになりました！ 詳しくは、ヘッド{LEARN_MORE}。"
+    },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "シーズン{SEASON_NUMBER}ローンチ報酬が配布されました！",
       "BODY": "シーズン{SEASON_NUMBER}報酬+ {DYDX_AMOUNT}DYDX"
