@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Validador seleccionado",
-      "BODY": "La selección se basa en el peso de la participación más baja de un conjunto preconfigurado de validadores."
+      "BODY": "El validador se selecciona de un conjunto preconfigurado de validadores sin barras en función del menor peso de participación."
     }
   },
   "EMAIL_NOTIFICATIONS": {
