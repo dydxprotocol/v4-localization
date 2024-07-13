@@ -190,6 +190,7 @@
       "ADD_NEW_MARKET": "Add new market",
       "ADD_NEW_MARKET_CAPITALIZED": "Add New Market",
       "NO_RECENTLY_LISTED_MARKETS": "No recently listed markets",
+      "NO_RESULTS": "No results",
       "HIGHLIGHTS": "Highlights",
       "LAYER_1": "Layer 1",
       "LAYER_2": "Layer 2",
@@ -286,6 +287,7 @@
       "SAVE": "Save",
       "SAVED": "Saved",
       "SCAN_TO_DOWNLOAD": "Scan to download app",
+      "SEARCH": "Search",
       "SELECT": "Select {SELECTION}",
       "SELECT_ASSET": "Select an asset",
       "SELECT_CHAIN": "Select a chain",
@@ -985,7 +987,8 @@
       "FAST": "Fast",
       "FAST_WITHDRAW_CONFIRMATION": "A fee of {FEE} will be collected for this fast withdraw. Your funds will be sent immediately and will appear in your wallet once the withdraw transaction has confirmed.",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "lowest fees",
-      "LOWEST_FEE_WITHDRAWALS": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawals methods (e.g., assets on Ethereum) may have higher third-party fees.",
+      "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawal methods (e.g., assets on Ethereum) may have higher third-party fees.",
+      "LOWEST_FEE_WITHDRAWALS": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawals may have additional third-party fees.",
       "LOWEST_FEES_WITH_USDC": "{LOWEST_FEES_HIGHLIGHT_TEXT} with USDC",
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "To access the withdrawn funds and reuse your Magic wallet outside of dYdX, you must export your wallet to another wallet provider.",
       "SELECT_CHAINS": "select chains",
@@ -1305,6 +1308,7 @@
       "MARKET_SELL": "market sell",
       "MAXIMUM_POSITION_SIZE": "Maximum Position Size",
       "MID_MARKET": "Mid-Market",
+      "MID_MARKET_PRICE_SHORT": "Mid",
       "MODIFY_GOOD_TIL": "Modify Good Til",
       "MODIFY_PRICE": "Modify price",
       "MODIFY_SIZE_FIELD": "Modify amount",
@@ -1523,31 +1527,17 @@
       "YOURE_IN": "You're in {LEAGUE}"
     },
     "VAULTS": {
-      "VAULT_DESCRIPTION": "Vaults provide automated liquidity on all dYdX markets. Vaults aim for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
-      "LP_VAULT": "LP Vault",
       "VAULT": "Vault",
-      "ASSET_VAULT": "{ASSET} Vault",
-      "VAULTS": "Vaults",
-      "VAULT_DETAILS": "Vault Details",
-      "VAULT_FAQS": "Vault FAQs",
-      "VAULT_BALANCE": "Vault Balance",
-      "VAULT_POSITION": "Vault Position",
-      "VAULT_LEVERAGE": "Vault Leverage",
-      "VAULT_ALL_TIME_PNL": "All-time Vault P&L",
+      "YOUR_ALL_TIME_PNL": "Your All-time P&L",
       "VAULT_THIRTY_DAY_APR": "30d APR",
-      "VAULTS_OVERVIEW": "Vaults Overview",
-      "VAULT_DOCS": "Vault Docs",
-      "ALL_VAULTS": "All Vaults",
-      "MY_VAULTS": "My Vaults",
-      "YOUR_BALANCE": "Your Balance",
-      "SEARCH_VAULTS": "Search Vaults",
-      "YOUR_LP_VAULT_BALANCE": "Your LP Vault Balance",
+      "VAULT_THIRTY_DAY_PNL": "30d P&L",
+      "YOUR_VAULT_BALANCE": "Your Vault Balance",
       "VIEW_VAULT": "View Vault",
       "VAULT_EQUITY": "Vault Equity",
       "VAULT_PNL": "Vault P&L",
-      "DEPOSITS_AND_WITHDRAWALS": "Deposits & Withdrawals",
-      "VIEW_ALL_VAULTS": "View All Vaults",
-      "YOU_HAVE_NO_VAULT_DEPOSITS": "You have no vault deposits."
+      "YOUR_DEPOSITS_AND_WITHDRAWALS": "Your Deposits & Withdrawals",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "You have no vault deposits.",
+      "TVL": "TVL"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% reduction",
@@ -1681,6 +1671,7 @@
       "COMPLIANCE_BODY": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_1": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and have not yet completed confirmation of your country of residence and the location from which you are trading, you have been blocked from placing orders other than market orders that reduce your positions.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_2": "If you would like to be unblocked, then please confirm (1) your country of residence and (2) your compliance with the Terms of Use. In the event that you complete the confirmation and your account is unblocked, please be aware that any future violation of our terms of use will result in a permanent ban from the protocol - though your funds are always available for withdrawal.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "WARNING: Once you confirm your country of residence, your ability to access this site will be suspended until you are no longer in a jurisdiction that violates our terms of use. Any further attempt to connect to this site from the restricted jurisdiction will result in a permanent ban.",
       "COMPLIANCE_ACKNOWLEDGEMENT": "I have read and confirm I am compliant with the Terms of Use, including the prohibition on persons or entities in the United States, Canada, or other restricted jurisdictions.",
       "COMPLIANCE_REQUEST": "Compliance request",
       "CONTINUE": "Continue",
@@ -1995,6 +1986,7 @@
       "SELECT_A_THEME": "Select Color Theme"
     },
     "GLOBAL_COMMANDS": {
+      "COMMANDS": "Commands",
       "SET_CLASSIC_DARK_THEME": "Set Classic Dark Theme",
       "SET_SYSTEM_THEME": "Set System Theme",
       "SET_DARK_THEME": "Set Dark Theme",
@@ -2046,8 +2038,8 @@
       "VIEW_PROPOSAL": "View proposal"
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please email {EMAIL}.",
-      "PERMANENTLY_BLOCKED_MESSAGE": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please email {EMAIL}.",
+      "CLOSE_ONLY_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
+      "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
     }
   },

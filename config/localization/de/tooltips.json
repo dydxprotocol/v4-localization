@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Ausgewählter Validator",
-      "BODY": "Die Auswahl basiert auf dem niedrigsten Einsatzgewicht aus einem vorkonfigurierten Satz von Validatoren."
+      "BODY": "Der Validator wird aus einem vorkonfigurierten Satz nicht geslashter Validatoren auf der Grundlage des niedrigsten Stakeweights ausgewählt."
     }
   },
   "EMAIL_NOTIFICATIONS": {
