@@ -157,6 +157,7 @@
       "GAS_FEE": "Gas 费",
       "GASLESS_DEPOSITS": "无 gas 存款",
       "GENERAL": "常规",
+      "GET_DYDX_ON_PHONE": "在您的手机上获取 dYdX",
       "GO_BACK": "返回",
       "GO_TO_MARKET": "转到市场",
       "GOVERNANCE": "治理",
@@ -245,7 +246,7 @@
       "PASTE": "粘贴",
       "PENDING_REWARDS": "待处理奖励",
       "PENDING": "待处理",
-      "PERPETUALS_UNAVAILABLE_IN_US": "永续合约不向符合以下条件的居民或公司提供：美国或受限区域的居民或公司、位于美国或受限区域、在美国或受限区域成立或在美国或受限区域有注册代理人。在我们的《使用条款》中可以找到更多详情",
+      "PERPETUALS_UNAVAILABLE_IN_US": "永续合约不向符合以下条件的居民或公司提供：美国或受限区域的居民或公司、位于美国或受限区域、在美国或受限区域成立或在美国或受限区域有注册代理人。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
       "PERPETUALS": "永续合约",
       "PNL": "盈亏",
       "POSITION": "当前持仓",
@@ -992,13 +993,15 @@
       "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。"
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "质押您的 DYDX 即可获得 USDC 奖励。取消质押最长可达 30 天。",
+      "INSUFFICIENT_STAKE_BALANCE": "钱包余额不足以支付交易费用。",
+      "STAKE_DESCRIPTION": "质押您的 DYDX 即可获得 USDC 奖励。取消质押需要 30 天才能完成。",
       "AMOUNT_TO_STAKE": "质押金额",
       "SELECTED_VALIDATOR": "选定的验证者",
       "ENTER_AMOUNT_TO_STAKE": "输入投注金额",
       "KEPLR_DASHBOARD": "Keplr 控制面板",
       "STAKED_BALANCE": "质押余额",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "估计的 Gas 费用大于可领取奖励价值。",
+      "PREVIEW_STAKE": "预览质押",
       "VALIDATORS_INFO_LINK": "有关验证者的更多信息，请访问 {MINTSCAN_LINK}。",
       "STAKING_LEGAL_DISCLAIMER": "您正在将您的资产质押到由第三方运营的验证者节点。 本网站的运营商不对第三方提供的此类质押服务负责。 用 {KEPLR_DASHBOARD_LINK} 质押到另一个验证者，或用 {STRIDE_LINK} 流动性质押。",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "您正在将您的资产质押到由第三方运营的验证者节点，并且您全权负责选择您的验证者。 本网站的运营商对于第三方提供的质押服务概不负责。您可以质押到 {KEPLR_DASHBOARD_LINK} 此下拉菜单以外的验证者，或 {STRIDE_LINK} 的流动性质押。"
@@ -1011,8 +1014,17 @@
       "UNSTAKED_BALANCE": "未质押余额",
       "SELECTED_VALIDATOR": "选定的验证者",
       "UNSTAKING_PERIOD": "取消质押期",
+      "PREVIEW_UNSTAKE": "预览取消质押",
       "VALIDATOR": "验证者",
       "UNSTAKING_PERIOD_DESCRIPTION": "取消质押期最长可能需要 30 天，并且您将无法通过此余额获得奖励。"
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "确认质押",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "确认质押后，您将开始获得 USDC 形式的奖励。切记，取消质押需要 30 天才能完成。"
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "确认取消质押",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "确认取消质押后，您将停止在质押金额上获得奖励。此验证者的所有未领取奖励将自动领取。取消质押需要 30 天才能完成。"
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "告诉我们如何为您打造更好的交易体验。有关问题或错误报告，请使用帮助聊天。",
@@ -1743,10 +1755,10 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "管理、奖励和质押相关服务由独立于该接口的主办方和运营商（“运营商”）的第三方直接在第三方网站上向您提供，无需运营商参与。您同意您熟悉 {TERMS_OF_USE_LINK} 并了解与这些服务相关的风险，包括可变奖励率、削减和质押固有的其他风险。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。在采取与服务相关的任何行动之前，您全权负责进行独立研究、尽职调查并寻求专业顾问的建议。",
       "REWARD_HISTORY_DESCRIPTION": "交易奖励在每个区块之后立即分配，但历史记录每五分钟更新一次。 交易奖励历史记录可追溯到 {REWARDS_HISTORY_START_DATE}。",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "开始交易以赚取奖励。",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领奖励？",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领交易奖励？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX Chain 地址。",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "我如何质押并领取质押奖励？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。根据拥有最少代币且从未削减过的合格质押者，自动从社区中一组信誉良好的验证者中选出一名验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 Gas 费。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "我如何质押并领取质押奖励？",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。根据拥有最少代币且从未削减过的合格质押者，自动从社区中一组信誉良好的验证者中选出一名验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 Gas 费。查看更多 {HERE_LINK}。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX Chain 地址。阅读更多 {HERE_LINK}。",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "如何确定预先配置的一组验证者？",
@@ -1978,6 +1990,8 @@
       "HIDE_STEPS": "隐藏步骤",
       "IMPACT_NOTIONAL": "影响名义",
       "LIQUIDITY_TIER": "流动性等级",
+      "LIST_A_NEW_MARKET": "列出新市场",
+      "LISTINGS_DESCRIPTION": "dYdX 上的市场列表完全由社区驱动。此工具将帮助您提交治理提案，以列出新市场。",
       "MESSAGE_DETAILS": "消息详情",
       "MSG_CREATE_CLOB_PAIR": "消息创建clobPair",
       "MSG_CREATE_ORACLE_MARKET": "消息创建Oracle市场",
@@ -2004,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
       "PERMANENTLY_BLOCKED_MESSAGE": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
-      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 在我们的《使用条款》{LINK}中可以找到更多详情。"
+      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperator)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "您的链钱包中没有足够的余额来支付交易费用，请存入额外资金。",
+    "BROADCAST_ERROR_SDK_5": "钱包余额不足以支付交易费用；请存入额外资金。",
     "BROADCAST_ERROR_CLOB_2000": "无法完全执行“全部成交否则取消”订单。",
     "BROADCAST_ERROR_CLOB_2001": "仅减仓订单无法增加头寸数量。",
     "BROADCAST_ERROR_CLOB_2002": "仅减仓订单无法改变头寸方向。",
@@ -2299,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "请选择要提现到的来源链。"
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "金额必须大于 {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "无效的 dYdX 链地址。",
       "TRANSFER_INVALID_ETH_ADDRESS": "我们无法找到与此钱包地址关联的帐户。",
       "TRANSFER_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
