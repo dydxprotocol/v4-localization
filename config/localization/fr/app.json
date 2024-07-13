@@ -84,7 +84,7 @@
       "CLICK_HERE": "Cliquez ici",
       "CLOSE": "Fermer",
       "COMING_SOON": "Bientôt disponible",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} commission",
       "COMPETITION": "Compétition",
       "COMPETITIONS": "Compétitions",
       "CONFIRM_DEPOSIT": "Confirmer le dépôt",
@@ -133,6 +133,7 @@
       "EG": "Par ex.",
       "EMAIL": "E-mail",
       "ENDED": "Terminé",
+      "ENTERTAINMENT": "Divertissement",
       "EQUITY": "Capital",
       "EST_APR": "Est. {PERCENTAGE}TAEG",
       "EST_GAS": "Est. Gaz",
@@ -157,6 +158,7 @@
       "GAS_FEE": "Frais d'essence",
       "GASLESS_DEPOSITS": "Dépôts sans gaz",
       "GENERAL": "Général",
+      "GET_DYDX_ON_PHONE": "Obtenir dYdX sur votre téléphone",
       "GO_BACK": "Retour",
       "GO_TO_MARKET": "Aller sur le marché",
       "GOVERNANCE": "Gouvernance",
@@ -245,7 +247,7 @@
       "PASTE": "Coller",
       "PENDING_REWARDS": "Récompenses en attente",
       "PENDING": "En cours",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Les contrats perpétuels ne sont pas disponibles pour les personnes ou les entreprises qui résident, ou sont situées, constituées en société ou ont un agent enregistré aux États-Unis ou dans un territoire restreint. Plus de détails peuvent être trouvés dans nos conditions d'utilisation ",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Les contrats perpétuels ne sont pas disponibles pour les personnes ou les entreprises qui résident, où sont situées, constituées en société ou ont un agent enregistré aux États-Unis ou dans un territoire restreint. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpétuels",
       "PNL": "P&L",
       "POSITION": "Position",
@@ -266,6 +268,7 @@
       "QUERY_NOT_FOUND": "« {QUERY} » n'a pas été trouvée",
       "QUEUED": "En attente",
       "RANKINGS": "Classements",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Recevoir",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Récent",
@@ -992,13 +995,15 @@
       "WITHDRAW_IRREVERSIBLE": "Initier un retrait est irréversible."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Misez sur votre DYDX pour recevoir des récompenses en USDC. Le désenchérissement peut jusqu'à 30 jours.",
+      "INSUFFICIENT_STAKE_BALANCE": "Le solde du portefeuille est insuffisant pour couvrir les frais de transaction.",
+      "STAKE_DESCRIPTION": "Misez sur votre DYDX pour recevoir des récompenses en USDC. Le déjalonnement prendra 30 jours pour être terminé.",
       "AMOUNT_TO_STAKE": "Montant à mettre",
       "SELECTED_VALIDATOR": "Validateur sélectionné",
       "ENTER_AMOUNT_TO_STAKE": "Introduire le montant à mettre",
       "KEPLR_DASHBOARD": "Tableau de bord Keplr",
       "STAKED_BALANCE": "Solde jalonné",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Les frais de gaz estimés sont supérieurs à la valeur de la récompense réclamable.",
+      "PREVIEW_STAKE": "Aperçu de la mise en jeu",
       "VALIDATORS_INFO_LINK": "Pour plus d'informations sur les validateurs, veuillez visiter {MINTSCAN_LINK}.",
       "STAKING_LEGAL_DISCLAIMER": "Vous misez vos actifs sur un nœud de validateur exploité par un tiers. L'opérateur de ce site n'est pas responsable de ces services de staking fournis par des tiers. Mettre en jeu vers un autre validateur avec  {KEPLR_DASHBOARD_LINK}ou mettre en jeu liquide avec {STRIDE_LINK}.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Vous misez vos actifs sur un nœud de validateur exploité par un tiers, et vous êtes seul responsable du choix de votre validateur. L'opérateur de ce site n'est pas responsable des services de staking fournis par des tiers. Vous pouvez miser sur tout validateur qui n'est pas dans ce menu déroulant sur {KEPLR_DASHBOARD_LINK}, ou sur la mise en jeu liquide sur {STRIDE_LINK}."
@@ -1011,8 +1016,18 @@
       "UNSTAKED_BALANCE": "Solde désenchéri ",
       "SELECTED_VALIDATOR": "Validateur sélectionné",
       "UNSTAKING_PERIOD": "Période de déjalonnement",
+      "PREVIEW_UNSTAKE": "Aperçu du déjalonnement",
       "VALIDATOR": "Validateur",
+      "VALIDATORS": "Validateurs",
       "UNSTAKING_PERIOD_DESCRIPTION": "La période de déjalonnement peut prendre jusqu'à 30 jours et vous ne gagnerez pas de récompenses sur ce solde."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Valider la mise en jeu",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Une fois validé, vous commencerez à gagner des récompenses en USDC. Rappelez-vous, le déjalonnement prendra 30 jours pour être terminé."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_UNSTAKE": "Valider le déjalonnement",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Une fois validé, vous cesserez de gagner des récompenses sur le montant misé. Toutes les récompenses non réclamées de ce validateur seront automatiquement réclamées. Le déjalonnement prendra 30 jours pour être terminé."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Dites-nous comment nous pouvons créer une meilleure expérience de trading pour vous. Pour toute question ou rapport de bogue, veuillez utiliser le chat d'aide.",
@@ -1507,6 +1522,33 @@
       "YOUR_LEAGUE": "Votre Ligue",
       "YOURE_IN": "Vous êtes dans {LEAGUE}"
     },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Les coffres-forts fournissent une liquidité automatisée sur tous les marchés dYdX. Les coffres-forts visent à adopter une position neutre par rapport au marché en citant les deux côtés du livre. P&L variera en fonction de l'état du marché et il existe un risque de perdre tout ou partie des USDC déposés.",
+      "LP_VAULT": "Coffre-fort LP",
+      "VAULT": "Coffre-fort",
+      "ASSET_VAULT": "{ASSET}  Coffre-fort",
+      "VAULTS": "Coffres-forts",
+      "VAULT_DETAILS": "Détails du coffre-fort",
+      "VAULT_FAQS": "FAQ sur le coffre-fort",
+      "VAULT_BALANCE": "Solde du coffre-fort",
+      "VAULT_POSITION": "Position du coffre-fort",
+      "VAULT_LEVERAGE": "Effet de levier du coffre-fort",
+      "VAULT_ALL_TIME_PNL": "Résultats de tous les temps pour le coffre-fort",
+      "VAULT_THIRTY_DAY_APR": "30d TAEG",
+      "VAULTS_OVERVIEW": "Aperçu des coffres-forts",
+      "VAULT_DOCS": "Docs des coffres-forts",
+      "ALL_VAULTS": "Tous les coffres-forts",
+      "MY_VAULTS": "Mes coffres-forts",
+      "YOUR_BALANCE": "Votre solde",
+      "SEARCH_VAULTS": "Rechercher des coffres-forts",
+      "YOUR_LP_VAULT_BALANCE": "Votre solde du coffre-fort LP",
+      "VIEW_VAULT": "Afficher le coffre-fort",
+      "VAULT_EQUITY": "Capitaux propres du coffre-fort",
+      "VAULT_PNL": "Coffre-fort P&L",
+      "DEPOSITS_AND_WITHDRAWALS": "Dépôts et retraits",
+      "VIEW_ALL_VAULTS": "Afficher tous les coffres-forts",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "Vous n'avez pas de dépôts de coffre-fort."
+    },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66 % de réduction",
       "ADJUSTED_IMR": "Marge ajustée",
@@ -1743,10 +1785,10 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Les services liés à la gouvernance, aux récompenses et aux enjeux vous sont fournis directement par des tiers, qui sont indépendants et non affiliés à l'hôte et à l'opérateur de cette interface (l'\"Opérateur\"), sur des sites tiers, sans l'implication de l'Opérateur. Vous reconnaissez avoir pris connaissance {TERMS_OF_USE_LINK}des conditions d'utilisation et comprendre les risques associés à ces services, y compris les taux de récompense variables, le slashing et les autres risques inhérents au staking. Rien sur ce site web ne constitue, ni ne doit être interprété ou invoqué comme un conseil financier, un conseil juridique, un conseil fiscal, un conseil en investissement ou un conseil de toute autre nature. Il est de votre seule responsabilité d'effectuer des recherches indépendantes, de faire preuve de diligence raisonnable et de demander l'avis d'un conseiller professionnel avant d'entreprendre toute action liée aux services.",
       "REWARD_HISTORY_DESCRIPTION": "Bien que les récompenses de trading soient distribuées immédiatement après chaque bloc, l'historique est mis à jour toutes les cinq minutes. L'histoire des récompenses commerciales remonte jusqu'à{REWARDS_HISTORY_START_DATE}.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Commencez à échanger pour gagner des récompenses.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Comment puis-je réclamer mes récompenses ?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Comment puis-je réclamer mes récompenses de trading ?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Chaque bloc, les récompenses de trading sont automatiquement envoyées directement à l'adresse de la chaîne dYdX du trader.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Comment puis-je miser (stake) et réclamer des récompenses de mise ?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Pour miser, cliquez sur le button « Stake » et saisissez le montant de jetons que vous souhaitez miser. Un validateur d'un ensemble de validateurs en règle avec la communauté sera automatiquement sélectionné en fonction du validateur éligible ayant le moins de jetons mis en jeu et n'ayant jamais été slashé. Pour réclamer des récompenses de mise en jeu, cliquez sur le button « Réclamer » chaque fois que les récompenses USDC sont disponibles. Les récompenses USDC réclamées seront déposées sur votre compte afin que vous puissiez trader instantanément ! Notez qu'il existe des frais de gaz pour réclamer les récompenses USDC.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Comment puis-je miser (stake) et réclamer des récompenses de mise ?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Pour miser, cliquez sur le button « Stake » et saisissez le montant de jetons que vous souhaitez miser. Un validateur d'un ensemble de validateurs en règle avec la communauté sera automatiquement sélectionné en fonction du validateur éligible ayant le moins de jetons mis en jeu et n'ayant jamais été slashé. Pour réclamer des récompenses de mise en jeu, cliquez sur le button « Réclamer » chaque fois que les récompenses USDC sont disponibles. Les récompenses USDC réclamées seront déposées sur votre compte afin que vous puissiez trader instantanément ! Notez qu'il existe des frais de gaz pour réclamer les récompenses USDC. En savoir plus {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Comment fonctionnent les récompenses de trading ?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Immédiatement après chaque remplissage, les récompenses de trading sont envoyées directement à l'adresse de la chaîne dYdX du trader, en fonction du montant des frais payés par le trader. En savoir plus {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Comment l'ensemble de validateurs prédéfinis est-il déterminé ?",
@@ -1978,6 +2020,8 @@
       "HIDE_STEPS": "Masquer les étapes",
       "IMPACT_NOTIONAL": "Impact notionnel",
       "LIQUIDITY_TIER": "Niveau de liquidité",
+      "LIST_A_NEW_MARKET": "Lister un nouveau marché",
+      "LISTINGS_DESCRIPTION": "Les annonces sur dYdX sont complètement pilotées par la communauté. Cet outil vous aidera à soumettre une proposition de gouvernance pour répertorier un nouveau marché.",
       "MESSAGE_DETAILS": "Détails du message",
       "MSG_CREATE_CLOB_PAIR": "Msg crée clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Msg crée un marché oracle",
@@ -2004,7 +2048,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez la {DATE}possibilité de retirer vos fonds avant que votre accès au frontend ne soit bloqué. Si vous pensez qu'une erreur s'est produite, veuillez envoyer un courriel {EMAIL}à",
       "PERMANENTLY_BLOCKED_MESSAGE": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez envoyer un courriel {EMAIL}à",
-      "BLOCKED_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir nos conditions d'{LINK}utilisation."
+      "BLOCKED_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2129,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperateur)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "Il n'y a pas assez de solde dans votre portefeuille de chaîne pour couvrir les frais de transaction, veuillez déposer des fonds supplémentaires.",
+    "BROADCAST_ERROR_SDK_5": "Le solde du portefeuille est insuffisant pour couvrir les frais de transaction ; veuillez déposer des fonds supplémentaires.",
     "BROADCAST_ERROR_CLOB_2000": "L'ordre Fill Or Kill n'a pas pu être entièrement exécuté.",
     "BROADCAST_ERROR_CLOB_2001": "Les ordres de réduction uniquement ne peuvent pas augmenter la taille de la position.",
     "BROADCAST_ERROR_CLOB_2002": "Les ordres à réduction seule ne peuvent pas changer le côté de la position.",
@@ -2168,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Cet ordre vous ferait dépasser la limite des {LIMIT} ordres ouverts.",
       "WOULD_NOT_REDUCE": "Votre position ne serait pas réduite si l'ordre est exécuté.",
       "WOULD_NOT_REDUCE_UNCHECK": "Votre position ne serait pas réduite avec cet ordre. Veuillez décocher Reduce-Only si vous souhaitez passer votre ordre.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til dépasse le maximum de 90 jours."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til dépasse le maximum de 90 jours.",
+      "POSITION_LEVERAGE_OVER_MAX": "L'effet de levier de la position qui en résulterait serait supérieur à l'effet de levier maximal pour ce marché."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Taille de pas",
@@ -2299,6 +2344,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Veuillez sélectionner une chaîne source à laquelle vous pouvez vous retirer."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "Le montant doit être supérieur à {NUMBER}{TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Adresse de la chaîne dYdX invalide.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Nous n'avons pas pu trouver de compte associé à cette adresse de portefeuille.",
       "TRANSFER_MORE_THAN_FREE": "Vous ne pouvez pas transférer plus que votre garantie gratuite.",
