@@ -240,6 +240,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Sélectionner l'unité de temps expiré",
       "SUBMITTING_ORDER": "Soumettre",
       "SUBMITTING_ORDER_DESC": "Votre ordre est en cours de soumission.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT}Les annulations de l'ordre ont échoué",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT}L'ordre d'annulation a échoué",
       "CANCELING_ORDER": "Annuler",
       "CANCELING_ORDER_DESC": "Votre ordre à {SIDE}{SIZE}{MARKET} est en cours d'annulation.",
       "UNREALIZED": "Non réalisé",

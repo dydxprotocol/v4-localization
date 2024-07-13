@@ -20,6 +20,10 @@
       "TITLE": "Ordres FOK dépréciés",
       "BODY": "Les ordres Fill-or-Kill (FOK) ont été dépréciés. Tous les autres types d'ordres restent disponibles."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "Vous pouvez maintenant miser sur DYDX !",
+      "BODY": "Recevoir des récompenses USDC."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Le programme d'incitation au {SEASON_NUMBER}lancement de la saison a commencé !",
       "BODY": "Au cours de la saison {PREV_SEASON_NUMBER}, les récompenses médianes gagnées étaient  {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC) !"
