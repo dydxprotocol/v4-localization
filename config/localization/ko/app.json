@@ -133,6 +133,7 @@
       "EG": "예",
       "EMAIL": "이메일",
       "ENDED": "종료",
+      "ENTERTAINMENT": "엔터테인먼트",
       "EQUITY": "자본",
       "EST_APR": "예상 {PERCENTAGE} APR",
       "EST_GAS": "예상 가스",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "'{QUERY}을(를) 찾을 수 없음",
       "QUEUED": "대기 중",
       "RANKINGS": "순위",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "수신",
       "RECENT_TRADES_SHORT": "거래",
       "RECENT": "현재",
@@ -1016,6 +1018,7 @@
       "UNSTAKING_PERIOD": "스테이킹 해제 기간",
       "PREVIEW_UNSTAKE": "스테이킹 해제 미리 보기",
       "VALIDATOR": "검증자",
+      "VALIDATORS": "검증자",
       "UNSTAKING_PERIOD_DESCRIPTION": "스테이킹 해제 기간은 최대 30일이 걸릴 수 있으며, 이 잔액에 대해서는 보상을 받지 않습니다."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1518,6 +1521,33 @@
       "YOU_WON": "승리했습니다!",
       "YOUR_LEAGUE": "리그",
       "YOURE_IN": "귀하는 {LEAGUE}위입니다"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "볼트는 모든 dYdX 시장에서 자동화된 유동성을 제공합니다. 볼트는 책의 양면을 인용하여 시장 중립적인 입장을 취하도록 합니다. P&L은 시장 상황에 따라 달라지며 USDC가 입금된 일부 또는 전부를 잃을 위험이 있습니다.",
+      "LP_VAULT": "LP 금고",
+      "VAULT": "금고",
+      "ASSET_VAULT": "{ASSET} 금고",
+      "VAULTS": "금고",
+      "VAULT_DETAILS": "금고 세부 정보",
+      "VAULT_FAQS": "금고 FAQ",
+      "VAULT_BALANCE": "금고 잔액",
+      "VAULT_POSITION": "금고 위치",
+      "VAULT_LEVERAGE": "금고 레버리지",
+      "VAULT_ALL_TIME_PNL": "상시 금고 P&L",
+      "VAULT_THIRTY_DAY_APR": "4월 30일",
+      "VAULTS_OVERVIEW": "금고 개요",
+      "VAULT_DOCS": "금고 문서",
+      "ALL_VAULTS": "모든 금고",
+      "MY_VAULTS": "내 금고",
+      "YOUR_BALANCE": "잔액",
+      "SEARCH_VAULTS": "금고 검색",
+      "YOUR_LP_VAULT_BALANCE": "LP 금고 잔액",
+      "VIEW_VAULT": "금고 보기",
+      "VAULT_EQUITY": "금고 지분",
+      "VAULT_PNL": "금고 P&L",
+      "DEPOSITS_AND_WITHDRAWALS": "입금 및 출금",
+      "VIEW_ALL_VAULTS": "모든 금고 보기",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "금고 입금이 없습니다."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% 감소",
@@ -2182,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "이 주문으로 귀하는 {LIMIT} 미결 주문 한도를 초과하게 됩니다.",
       "WOULD_NOT_REDUCE": "주문이 체결될 경우, 귀하의 포지션은 감소되지 않습니다.",
       "WOULD_NOT_REDUCE_UNCHECK": "귀하의 포지션은 해당 주문을 통해 감소되지 않을 수 있습니다. 주문을 요청하려면 리듀스 온리를 해제하세요.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "유효 주문은 최대 90일을 초과합니다."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "유효 주문은 최대 90일을 초과합니다.",
+      "POSITION_LEVERAGE_OVER_MAX": "결과 포지션 레버리지는 이 시장의 최대 레버리지를 초과합니다."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "스텝 크기",

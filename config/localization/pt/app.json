@@ -84,6 +84,7 @@
       "CLICK_HERE": "Clique aqui",
       "CLOSE": "Fechar",
       "COMING_SOON": "Em breve",
+      "COMMISSION_PERCENTAGE": "Comissão de {PERCENTAGE}", 
       "COMPETITION": "Competição",
       "COMPETITIONS": "Competições",
       "CONFIRM_DEPOSIT": "Confirmar depósito",
@@ -122,6 +123,7 @@
       "DIRECTION": "Direção",
       "DISCOUNT": "Desconto",
       "DISMISS": "Dispensar",
+      "DOCUMENT": "documento",
       "DONE": "Feito",
       "DOWNLOAD_MOBILE_APP": "Baixar aplicativo móvel",
       "DYDX_CHAIN_ADDRESS": "Endereço de cadeia dYdX",
@@ -134,6 +136,7 @@
       "EQUITY": "Equity",
       "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gás",
+      "EST_REWARDS": "Est. Recompensas",
       "ESTIMATED": "Estimado",
       "EXPAND_SECTION": "Expandir seção",
       "EXPAND": "Expandir",
@@ -154,6 +157,7 @@
       "GAS_FEE": "Taxa de gás",
       "GASLESS_DEPOSITS": "Depósitos sem taxas",
       "GENERAL": "Geral",
+      "GET_DYDX_ON_PHONE": "Obtenha a dYdX pelo seu telefone",
       "GO_BACK": "Voltar",
       "GO_TO_MARKET": "Ir ao mercado",
       "GOVERNANCE": "Governança",
@@ -202,6 +206,7 @@
       "MAKE_ONE_TRADE": "Fazer 1 trade",
       "MANAGE_FUNDS": "Gerenciar fundos",
       "MARGIN": "Margem",
+      "MARGIN_WITH_MODE": "Margem ({MODE})",
       "MARGIN_MODE": "Modo de margem",
       "MARGIN_USAGE": "Uso de margem",
       "MARKET_NAME": "Nome do mercado",
@@ -241,7 +246,7 @@
       "PASTE": "Colar",
       "PENDING_REWARDS": "Recompensas pendentes",
       "PENDING": "Pendente",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Os perpétuos não estão disponíveis para pessoas ou empresas que sejam residentes ou que estejam localizadas, incorporadas ou tenham um agente registrado nos Estados Unidos ou em um território restrito. Mais detalhes podem ser encontrados em nossos Termos de Uso ",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Os perpétuos não estão disponíveis para pessoas ou empresas que sejam residentes ou que estejam localizadas, incorporadas ou tenham um agente registrado nos Estados Unidos ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpétuos",
       "PNL": "Lucros e perdas",
       "POSITION": "Posição",
@@ -299,6 +304,7 @@
       "SOURCE_ADDRESS": "Endereço de origem",
       "STAKE": "Stake",
       "STAKED": "Staked",
+      "STAKE_NOW": "Faça stake agora",
       "START_TRADING": "Começar trades",
       "STARTED_FROM_DATE": "Iniciado {FROM_DATE}",
       "STATISTICS": "Estatísticas",
@@ -353,6 +359,7 @@
       "VIEWS": "Visualizações",
       "VOLUME_30D": "Volume (30d)",
       "VOTING_LIVE": "Votação ao vivo",
+      "VOTING_POWER": "Poder de voto",
       "WALLET_BALANCE": "Saldo da carteira",
       "WALLET": "Carteira",
       "WEBSITE": "Site",
@@ -986,24 +993,38 @@
       "WITHDRAW_IRREVERSIBLE": "Iniciar um saque é irreversível."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Faça stake no seu DYDX para receber recompensas em USDC. A remoção de staking pode ter até 30 dias.",
+      "INSUFFICIENT_STAKE_BALANCE": "O saldo da carteira é insuficiente para cobrir as taxas da transação.",
+      "STAKE_DESCRIPTION": "Faça stake no seu DYDX para receber recompensas em USDC. A remoção de staking levará 30 dias para ser concluída.",
       "AMOUNT_TO_STAKE": "Valor para Stake",
       "SELECTED_VALIDATOR": "Validador Selecionado",
       "ENTER_AMOUNT_TO_STAKE": "Digite o valor para o stake",
       "KEPLR_DASHBOARD": "Painel do Keplr",
       "STAKED_BALANCE": "Saldo em staking",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "As taxas de gas estimadas são maiores do que o valor de recompensa resgatável.",
-      "STAKING_LEGAL_DISCLAIMER": "Você está fazendo staking de seus ativos para um nó validador operado por terceiros. A operadora deste site não é responsável por tais serviços de staking fornecidos por terceiros. Faça staking para outro validador com  {KEPLR_DASHBOARD_LINK}ou stake líquido com {STRIDE_LINK}."
+      "PREVIEW_STAKE": "Pré-visualizar stake",
+      "VALIDATORS_INFO_LINK": "Para obter mais informações sobre validadores, visite {MINTSCAN_LINK}.",
+      "STAKING_LEGAL_DISCLAIMER": "Você está fazendo staking de seus ativos para um nó validador operado por terceiros. A operadora deste site não é responsável por tais serviços de staking fornecidos por terceiros. Faça staking para outro validador com  {KEPLR_DASHBOARD_LINK}ou stake líquido com {STRIDE_LINK}.",
+      "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Você está fazendo staking de seus ativos para um nó de validador operado por um terceiro e você é o único responsável por escolher seu validador. O Operador deste site não é responsável pelos serviços de staking fornecidos por terceiros. Você pode fazer stake para qualquer validador que não esteja neste menu suspenso em {KEPLR_DASHBOARD_LINK} ou stake líquido em {STRIDE_LINK}."
     },
     "UNSTAKE_MODAL": {
       "CURRENTLY_STAKING": "Você está fazendo staking de {AMOUNT}",
       "CURRENTLY_STAKING_WITH": "Você está fazendo staking com {VALIDATOR}",
       "AMOUNT_TO_UNSTAKE": "Valor para desfazer staking",
+      "ENTER_AMOUNT_TO_UNSTAKE": "Digite o valor para desativar o stake",
       "UNSTAKED_BALANCE": "Saldo sem stake",
       "SELECTED_VALIDATOR": "Validador Selecionado",
       "UNSTAKING_PERIOD": "Período de retirada de stake",
+      "PREVIEW_UNSTAKE": "Pré-visualizar retirada de stake",
       "VALIDATOR": "Validador",
       "UNSTAKING_PERIOD_DESCRIPTION": "O período de não staking pode levar até 30 dias e você não ganhará recompensas neste saldo."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Confirmar staking",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmado, você começará a ganhar recompensas em USDC. Lembre-se de que a remoção de staking levará 30 dias para ser concluída."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Confirmar remoção de staking",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Para perguntas ou relatar bugs, use o chat de ajuda.",
@@ -1197,6 +1218,7 @@
       "CANCEL_ALL": "Cancelar tudo",
       "CANCEL_ORDER": "Cancelar ordem",
       "CANCEL_ORDERS_COUNT": "Cancelar {COUNT} ordens",
+      "CANCELING_ORDERS_COUNT": "Cancelando  {COUNT}ordens...",
       "CANCEL_ORDERS": "Cancelar ordens",
       "CANCEL_REASON": "Cancelar razão",
       "CANCELED_ON_CHAIN": "Cancelado on chain",
@@ -1218,6 +1240,7 @@
       "CURRENTLY_TRADING_GOERLI": "Está fazendo trade em nossa aplicação testnet Goerli com fundos de teste. Crie uma conta em nosso aplicativo da mainnet para começar a fazer trades com fundos reais",
       "CURRENTLY_TRADING_ROPSTEN": "Você está fazendo trade em nosso aplicativo da testnet Ropsten com fundos de teste. Crie uma conta em nosso aplicativo da mainnet para começar a fazer trades com fundos reais",
       "DELEVERAGED": "Desalavancado",
+      "EDIT_MARGIN": "Editar margem",
       "EDIT_STOP_LOSS": "Editar stop loss",
       "EDIT_TAKE_PROFIT": "Editar take profit",
       "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "Editar disparos Take Profit\/Stop Loss",
@@ -1264,7 +1287,7 @@
       "LIMIT_PRICE": "Preço limite",
       "LIQUIDATED": "Liquidado",
       "LIQUIDATION": "Liquidação",
-      "LIQUIDATION_PRICE_SHORT": "Líq.",
+      "LIQUIDATION_PRICE_SHORT": "Liq. Preço",
       "LIQUIDATION_PRICE": "Preço de liquidação",
       "LIQUIDITY": "Liquidez",
       "MAKER_FEE": "Taxa maker",
@@ -1411,6 +1434,7 @@
       "TRANSFERS_EMPTY_STATE": "Você não tem histórico de transferências.",
       "TRIGGER_PRICE_SHORT": "Disparo",
       "TRIGGER_PRICE": "Preço de disparo",
+      "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "A posição associada da ordem de disparo foi fechada ou invertida.",
       "TRIGGERS": "Disparos",
       "UNDERCOLLATERALIZED": "Sem colateral",
       "UNOPENED_ISOLATED_POSITIONS": "Posições isoladas não abertas",
@@ -1688,9 +1712,11 @@
       "YOU_CAN_WIN_THESE": "Você pode ganhar um desses em nossa {LEAGUES_LINK}"
     },
     "STAKING_REWARDS": {
+      "AVAILABLE_IN_DAYS": "Disponível em {DAYS} dias",
       "CLAIM_USDC_AMOUNT": "Resgatar {USDC_AMOUNT} USDC",
       "CLAIM_STAKING_REWARDS": "Resgatar recompensas de staking!",
       "EARN_APR": "Ganhar {APR_PERCENTAGE} de APR",
+      "ESTIMATED_APR_DATA_BASED_ON": "A APR estimada é baseada em dados de {PROTOCOL_STAKING_LINK}",
       "LEAVING_WEBSITE_STAKING_GOVERNANCE": "Isenção de responsabilidade de staking, governança e saída do site",
       "LIQUID_STAKE_ON_STRIDE": "Stake líquido na Stride",
       "LIQUID_STAKING_AND_LEAVING": "Fazendo liquid staking e saindo do site",
@@ -1698,13 +1724,13 @@
       "LIQUID_STAKE_W_STRIDE": "Staking líquido com a Stride",
       "LIQUID_STAKE_STRIDE_DESCRIPTION": "Faça o staking de seus{TOKEN_DENOM} tokens para st{TOKEN_DENOM}, que você pode implantar em todo o ecossistema.",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}, navegue até a Stride Zone.",
+      "PROTOCOL_STAKING": "ProtocolStaking",
       "STAKE_WITH_KEPLR": "Staking com a Keplr",
       "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "Ao selecionar “{CTA}”, abaixo, você reconhece e concorda que (a) você sairá do nosso site e entrará em um site disponibilizado pela Chainapsis, Inc. (“Keplr”), que é independente e não afiliada ao host e à operadora deste site (a “Operadora”); (b) esses serviços são fornecidos a você diretamente pela Keplr e não envolvem a Operadora; (c) esses serviços e qualquer staking ou governança ocorrem fora do site da Operadora; e (d) qualquer transação ou transmissão de valores ocorrerá diretamente entre você e a Keplr. Esses serviços não estão disponíveis para pessoas localizadas nos EUA, Canadá ou territórios restritos. Você também concorda que qualquer informação solicitada pela Keplr não é fornecida à Operadora e que você não responsabilizará a Operadora por qualquer aspecto de qualquer transação ou transmissão entre você e a Keplr. Nada no site da Operadora constitui, nem deve ser interpretado ou confiado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimentos ou consultoria ou conselho de qualquer outra natureza, e você concorda que é responsável por conduzir pesquisas independentes, realizar a devida diligência e contratar um consultor profissional antes de tomar qualquer ação financeira, fiscal, legal ou de investimento relacionada a qualquer uma das ações acima.",
       "STAKING_AND_LEAVING": "Isenção de responsabilidade de staking e saída do site",
       "STAKING_PAGE_SUBTITLE": "Stake para receber APR. A remoção de staking pode levar até 30 dias.",
       "STAKING_REWARDS": "Recompensas de staking",
-      "STAKING_REWARDS_AVAILABLE": "Recompensas de staking disponíveis",
-      "AVAILABLE_IN_DAYS": "Disponível em {DAYS} dias"
+      "STAKING_REWARDS_AVAILABLE": "Recompensas de staking disponíveis"
     },
     "TOKEN_GOVERNANCE": {
       "GOVERNANCE_PAGE_SUBTITLE": "Participe do ecossistema votando nas propostas de governança ou enviando as suas.",
@@ -1726,21 +1752,25 @@
       "TRADING_REWARD_HISTORY": "Histórico de recompensas de trading",
       "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "Seu histórico aparecerá aqui.",
       "TRADING_REWARD_TABLE_EMPTY_STATE": "Você não tem histórico.",
-      "TRADING_REWARDS_LEGAL_DISCLAIMER": "Os serviços relacionados a governança, recompensas e staking são fornecidos a você diretamente por terceiros, que são independentes e não afiliados ao host e à operadora desta interface (a “Operadora”), em sites de terceiros, sem envolvimento da Operadora. Você concorda que está familiarizado com os Termos de Uso e entende os riscos associados a esses serviços, incluindo taxas de recompensa variáveis, cortes e outros riscos inerentes ao staking. Nada neste site constitui, nem deve ser interpretado ou invocado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimento ou consultoria de qualquer outra natureza. Você é o único responsável por conduzir pesquisas independentes, devida diligência e buscar aconselhamento de um consultor profissional antes de tomar qualquer ação relacionada aos serviços.",
+      "TRADING_REWARDS_LEGAL_DISCLAIMER": "Os serviços relacionados a governança, recompensas e staking são fornecidos a você diretamente por terceiros, que são independentes e não afiliados ao host e à operadora desta interface (a “Operadora”), em sites de terceiros, sem envolvimento da Operadora. Você concorda que está familiarizado com os {TERMS_OF_USE_LINK} e entende os riscos associados a esses serviços, incluindo taxas de recompensa variáveis, cortes e outros riscos inerentes ao staking. Nada neste site constitui, nem deve ser interpretado ou invocado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimento ou consultoria de qualquer outra natureza. Você é o único responsável por conduzir pesquisas independentes, devida diligência e buscar aconselhamento de um consultor profissional antes de tomar qualquer ação relacionada aos serviços.",
       "REWARD_HISTORY_DESCRIPTION": "Embora as recompensas de trading sejam distribuídas imediatamente após cada bloco, o histórico é atualizado a cada cinco minutos. O histórico de recompensas de trading vai até {REWARDS_HISTORY_START_DATE}.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Comece a fazer trades para ganhar recompensas.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas de trading?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "A cada bloco, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Como faço para fazer stake e resgatar recompensas de staking?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Para fazer stake, clique no botão “Stake” e insira o valor de tokens que você gostaria de fazer stake. Um validador de um conjunto de validadores em boas condições (o que significa que nunca foi cortado) será selecionado automaticamente com base em qual validador elegível tem o menor número de tokens em staking. Para resgatar recompensas de staking, clique no ponto “Resgatar” sempre que as recompensas USDC estiverem disponíveis. As recompensas USDC resgatadas serão depositadas na sua conta para que você possa negociar instantaneamente! Observe que há uma taxa de gás para resgatar recompensas USDC.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Como faço para fazer stake e resgatar recompensas de staking?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Para fazer stake, clique no botão “Stake” e insira o valor de tokens que você gostaria de fazer stake. Um validador de um conjunto de validadores em boas condições com a comunidade será selecionado automaticamente com base em qual validador elegível tem o menor número de tokens em staking e nunca foi cortado. Para resgatar recompensas de staking, clique no ponto “Resgatar” sempre que as recompensas USDC estiverem disponíveis. As recompensas USDC resgatadas serão depositadas na sua conta para que você possa negociar instantaneamente! Observe que há uma taxa de gas para resgatar recompensas USDC. Veja mais {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Como as recompensas de trading funcionam?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Imediatamente após cada preenchimento, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader, com base no valor de taxas pagas pelo trader. Leia mais em {HERE_LINK}.",
+      "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Como o conjunto pré-configurado de validadores é determinado?",
+      "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_ANSWER": "O conjunto pré-configurado de validadores é usado para determinar o validador padrão para fazer stake. Consulte o link {DOCUMENT_LINK} para obter mais informações.",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "Quais são os riscos do staking?",
-      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "O uso de qualquer protocolo DeFi têm riscos inerentes. No caso de staking, é importante entender que a remoção de staking de tokens leva 30 dias, o que significa que há um período sem liquidez durante o qual você não poderá transferir seus tokens, mesmo no caso de protocolo ou volatilidade do mercado. Além disso, os usuários devem fazer sua própria devida diligência nos validadores antes de fazer staking de seus assets. Os validadores que violarem as regras do protocolo podem ser penalizados com tokens cortados (ou seja, queimados) ou podem ser presos, o que impedirá que eles ganhem recompensas. Embora o front-end selecione o validador para o qual os tokens fazem staking de um conjunto confiável com base no desempenho histórico, não há garantia da conduta futura de um validador.",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "O uso de qualquer protocolo DeFi têm riscos inerentes. No caso de staking, é importante entender que a remoção de staking de tokens leva 30 dias, o que significa que há um período sem liquidez durante o qual você não poderá transferir seus tokens, mesmo no caso de protocolo ou volatilidade do mercado. Além disso, os usuários devem fazer sua própria devida diligência nos validadores antes de fazer staking de seus assets. Os validadores que violarem as regras do protocolo podem ser penalizados com tokens cortados (ou seja, queimados) ou podem ser presos, o que impedirá que eles ganhem recompensas.",
       "FAQ_WHAT_IS_STAKING_QUESTION": "O que é staking?",
       "FAQ_WHAT_IS_STAKING_ANSWER": "A cadeia dYdX usa a prova de participação para seu mecanismo de consenso. Os detentores de token podem fazer stake de seus tokens para validadores para ajudar a proteger a rede e validar as transações e, em troca, ganhar recompensas USDC de taxas de trading e gas que o protocolo coleta. Todas as taxas são pagas aos stakers, menos taxas enviadas para o fundo de seguro e as comissões do validador. As taxas de recompensas são baseadas em dados de {HERE_LINK}. Não há garantia de taxas de recompensa futuras que possam flutuar com base nas condições do protocolo.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Quem é elegível para as recompensas de trades?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Todos os traders são elegíveis para recompensas de trading.",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Quais validadores estão disponíveis para staking?",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "O site escolhe um validador padrão inicial com base na menor comissão e no peso de participação durante um conjunto pré-configurado, mas você está livre para fazer outra escolha. Este site permite que você faça stake para qualquer validador no conjunto ativo que não esteja suspenso e você pode fazer stake para qualquer validador não mostrado neste site usando um portal alternativo, como {KEPLR_LINK}. Consulte o link  {DOCUMENT_LINK}para obter mais informações sobre o conjunto pré-configurado usado para a seleção padrão inicial.",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "Os produtos e serviços de terceiros não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, nos EUA, Canadá ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}."
     },
     "EPOCH_END_MODAL": {
@@ -1960,6 +1990,8 @@
       "HIDE_STEPS": "Esconder etapas",
       "IMPACT_NOTIONAL": "Nocional de impacto",
       "LIQUIDITY_TIER": "Nível de liquidez",
+      "LIST_A_NEW_MARKET": "Listar um novo mercado",
+      "LISTINGS_DESCRIPTION": "As listagens na dYdX são completamente orientadas pela comunidade. Esta ferramenta ajudará você a enviar uma proposta de governança para listar um novo mercado.",
       "MESSAGE_DETAILS": "Detalhes da mensagem",
       "MSG_CREATE_CLOB_PAIR": "Msg criar clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Msg criar mercado oracle",
@@ -1986,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes de seu acesso ao frontend ser bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
       "PERMANENTLY_BLOCKED_MESSAGE": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
-      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em nossos Termos de Uso {LINK}."
+      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2067,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "Testnet 3 (Imperator) V4"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "Não há saldo suficiente na sua carteira da cadeia para cobrir as taxas de transação, deposite mais fundos ou atualize a moeda do gas em Preferências.",
+    "BROADCAST_ERROR_SDK_5": "O saldo da carteira é insuficiente para cobrir as taxas de transação; deposite fundos adicionais.",
     "BROADCAST_ERROR_CLOB_2000": "A ordem Preencher ou encerrar não pôde ser totalmente preenchida.",
     "BROADCAST_ERROR_CLOB_2001": "Ordens de somente redução não podem aumentar o tamanho da posição.",
     "BROADCAST_ERROR_CLOB_2002": "Ordens de somente redução não podem alterar o lado da posição.",
@@ -2080,7 +2112,7 @@
     "BROADCAST_ERROR_CLOB_3004": "O GoodTilBlockTime da mensagem vai além do StatefulOrderTimeWindow no futuro. Atualize a página e tente novamente.",
     "BROADCAST_ERROR_CLOB_3005": "A ordem com estado existente tem prioridade maior ou igual a nova.",
     "BROADCAST_ERROR_CLOB_3006": "A ordem com estado não existe.",
-    "BROADCAST_ERROR_CLOB_3007": "Falha na verificação de colaterização de ordem com estado.",
+    "BROADCAST_ERROR_CLOB_3007": "Falha na verificação de colaterização de ordem com estado. O tamanho da ordem pode ser muito grande. Tente novamente com uma ordem menor.",
     "BROADCAST_ERROR_CLOB_3008": "A ordem com estado foi cancelada anteriormente e, portanto, não pode ser colocada.",
     "BROADCAST_ERROR_CLOB_3009": "A ordem com estado foi removida anteriormente e, portanto, não pode ser colocada.",
     "BROADCAST_ERROR_CLOB_10001": "A subconta não pode abrir mais ordens devido ao limite do nível de equity.{EQUITY_TIER_LEARN_MORE}",
@@ -2281,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Selecione uma cadeia de origem para saque."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER}{TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Endereço de cadeia dYdX inválido.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Não foi possível encontrar uma conta associada ao endereço desta carteira.",
       "TRANSFER_MORE_THAN_FREE": "Não é possível transferir mais do que sua garantia gratuita.",

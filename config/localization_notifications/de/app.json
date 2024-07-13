@@ -20,6 +20,10 @@
       "TITLE": "FOK-Orders veraltet",
       "BODY": "Fill-or-Kill-Orders (FOK) wurden nicht mehr unterstützt. Alle anderen Ordertypen sind weiterhin verfügbar."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "Sie können jetzt DYDX staken!",
+      "BODY": "Erhalten Sie USDC-Prämien."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Das Incentives-Programm zum {SEASON_NUMBER}Saisonstart hat begonnen!",
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
