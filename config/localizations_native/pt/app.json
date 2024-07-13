@@ -240,6 +240,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Selecione unidade de tempo de expiração",
       "SUBMITTING_ORDER": "Enviando",
       "SUBMITTING_ORDER_DESC": "Sua ordem está sendo enviada.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} cancelamentos da ordem falharam",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} cancelamento da ordem falhou",
       "CANCELING_ORDER": "Cancelando",
       "CANCELING_ORDER_DESC": "Sua ordem para {SIDE} {SIZE} {MARKET} está sendo cancelada.",
       "UNREALIZED": "Não realizado",
