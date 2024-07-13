@@ -20,6 +20,10 @@
       "TITLE": "사용하지 않는 FOK 주문",
       "BODY": "Fill-or-Kill(FOK) 주문이 더 이상 사용되지 않습니다. 다른 모든 주문 유형은 계속 사용할 수 있습니다."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "이제 DYDX를 스테이킹할 수 있습니다!",
+      "BODY": "USDC 보상을 받으십시오."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "시즌 {SEASON_NUMBER} 출시 인센티브 프로그램이 시작되었습니다!",
       "BODY": "시즌 {PREV_SEASON_NUMBER}에서 얻은 중간 보상은 {DYDX_AMOUNT} DYDX(약 {USDC_AMOUNT}USDC)입니다!"
