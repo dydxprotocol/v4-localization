@@ -335,6 +335,12 @@
       "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Seçilen Doğrulayıcı",
+      "BODY": "Doğrulayıcı, en düşük stake ağırlığına göre önceden yapılandırılan bir dizi slash edilmemiş doğrulayıcı arasından seçilir."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "E-posta adresini doğrulayın",

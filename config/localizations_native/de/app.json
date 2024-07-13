@@ -240,6 +240,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Einheit der Verfallszeit auswählen.",
       "SUBMITTING_ORDER": "Wird übermittelt",
       "SUBMITTING_ORDER_DESC": "Ihre Order wird übermittelt.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT}Stornierung Auftrag fehlgeschlagen",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT}Abbruch Auftrag fehlgeschlagen",
       "CANCELING_ORDER": "Abbrechen",
       "CANCELING_ORDER_DESC": "Ihre Order an {SIDE} {SIZE} {MARKET} wird storniert.",
       "UNREALIZED": "Nicht ausgeführt",
