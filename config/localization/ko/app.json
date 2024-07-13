@@ -84,7 +84,7 @@
       "CLICK_HERE": "여기를 클릭하세요",
       "CLOSE": "종료",
       "COMING_SOON": "곧 출시",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 수수료",
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 수수료", 
       "COMPETITION": "대회",
       "COMPETITIONS": "경쟁",
       "CONFIRM_DEPOSIT": "입금 승인",
@@ -1026,8 +1026,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "확인되면 USDC에서 보상을 받기 시작합니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-      "CONFIRM_UNSTAKE": "스테이킹 해제 확인",
-      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "확인되면 스테이킹된 금액에 대한 보상을 받지 않습니다. 이 검증자의 청구되지 않은 모든 보상은 자동으로 청구됩니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
+       "CONFIRM_UNSTAKE": "스테이킹 해제 확인",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "확인되면 스테이킹된 금액에 대한 보상을 받지 않습니다. 이 검증자의 청구되지 않은 모든 보상은 자동으로 청구됩니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "우리가 더 나은 트레이딩 환경을 구축할 수 있는 방법을 들려주세요. 질문이나 오류 보고는 도움말 채팅을 이용해 주세요.",
