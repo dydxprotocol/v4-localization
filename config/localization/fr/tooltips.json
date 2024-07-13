@@ -335,6 +335,12 @@
       "BODY": "dYdX prend en charge deux types de retraits de la couche 2. Les retraits rapides entraînent des frais minimes mais ne nécessitent pas de gas et sont envoyés immédiatement. Les retraits lents sont gratuits, mais nécessitent deux étapes, prennent beaucoup plus de temps et l'utilisateur devra payer ses propres frais de gaz."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Validateur sélectionné",
+      "BODY": "Le validateur est sélectionné parmi un ensemble préconfiguré de validateurs non soumis à l'encaissement, en fonction du poids de l'enjeu le plus faible."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "Vérifier l'adresse e-mail",
