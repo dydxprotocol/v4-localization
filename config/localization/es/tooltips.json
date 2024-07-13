@@ -335,6 +335,12 @@
       "BODY": "dYdX permite dos tipos de retiros de la etapa 2. Los retiros rápidos implican una pequeña tasa, pero no requieren gas y son enviadas de inmediato. Los retiros lentos son gratuitos, pero requieren dos pasos, toman mucho más tiempo y el usuario tendrá que pagar sus propias tasas de gas."
     }
   },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Validador seleccionado",
+      "BODY": "El validador se selecciona de un conjunto preconfigurado de validadores sin barras en función del menor peso de participación."
+    }
+  },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
       "TITLE": "Verificar la dirección de correo electrónico",
