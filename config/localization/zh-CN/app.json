@@ -84,7 +84,7 @@
       "CLICK_HERE": "点击此处",
       "CLOSE": "平仓",
       "COMING_SOON": "即将推出",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 佣金", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 佣金",
       "COMPETITION": "竞争",
       "COMPETITIONS": "竞争",
       "CONFIRM_DEPOSIT": "确认充值",
@@ -133,6 +133,7 @@
       "EG": "例如",
       "EMAIL": "邮箱",
       "ENDED": "已结束",
+      "ENTERTAINMENT": "娱乐",
       "EQUITY": "账户净值",
       "EST_APR": "估计 {PERCENTAGE}APR（年利率）",
       "EST_GAS": "估计 Gas",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "未找到“{QUERY}”",
       "QUEUED": "排队中",
       "RANKINGS": "排名",
+      "REAL_WORLD_ASSET_SHORT": "风险加权资产（Risk-weighted assets，RWA）",
       "RECEIVE": "接收",
       "RECENT_TRADES_SHORT": "交易订单",
       "RECENT": "最近的",
@@ -1016,6 +1018,7 @@
       "UNSTAKING_PERIOD": "取消质押期",
       "PREVIEW_UNSTAKE": "预览取消质押",
       "VALIDATOR": "验证者",
+      "VALIDATORS": "验证者",
       "UNSTAKING_PERIOD_DESCRIPTION": "取消质押期最长可能需要 30 天，并且您将无法通过此余额获得奖励。"
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1023,8 +1026,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "确认质押后，您将开始获得 USDC 形式的奖励。切记，取消质押需要 30 天才能完成。"
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "确认取消质押",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "确认取消质押后，您将停止在质押金额上获得奖励。此验证者的所有未领取奖励将自动领取。取消质押需要 30 天才能完成。"
+      "CONFIRM_UNSTAKE": "确认取消质押",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "确认取消质押后，您将停止在质押金额上获得奖励。此验证者的所有未领取奖励将自动领取。取消质押需要 30 天才能完成。"
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "告诉我们如何为您打造更好的交易体验。有关问题或错误报告，请使用帮助聊天。",
@@ -1518,6 +1521,33 @@
       "YOU_WON": "您赢了！",
       "YOUR_LEAGUE": "您的联盟",
       "YOURE_IN": "您在{LEAGUE}"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "保险库为所有 dYdX 市场提供自动化流动性。通过报价账面双方，保险库旨在实现市场中立头寸。损益将根据市场状况而变化，并且存在损失部分或全部USDC存款的风险。",
+      "LP_VAULT": "流动性提供商（Liquidity Provider, LP）保险库",
+      "VAULT": "保险库",
+      "ASSET_VAULT": "{ASSET}保险库",
+      "VAULTS": "保险库",
+      "VAULT_DETAILS": "保险库详细信息",
+      "VAULT_FAQS": "保险库常见问题",
+      "VAULT_BALANCE": "保险库余额",
+      "VAULT_POSITION": "保险库位置",
+      "VAULT_LEVERAGE": "保险库杠杆",
+      "VAULT_ALL_TIME_PNL": "历年保险库盈亏情况",
+      "VAULT_THIRTY_DAY_APR": "30 天的年利率",
+      "VAULTS_OVERVIEW": "保险库概览",
+      "VAULT_DOCS": "保险库文档",
+      "ALL_VAULTS": "所有保险库",
+      "MY_VAULTS": "我的保险库",
+      "YOUR_BALANCE": "您的余额",
+      "SEARCH_VAULTS": "搜索保险库",
+      "YOUR_LP_VAULT_BALANCE": "您的流动性提供商（Liquidity Provider, LP）保险库余额",
+      "VIEW_VAULT": "查看保险库",
+      "VAULT_EQUITY": "保险库权益",
+      "VAULT_PNL": "保险库盈亏",
+      "DEPOSITS_AND_WITHDRAWALS": "存款与提款",
+      "VIEW_ALL_VAULTS": "查看所有保险库",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "您并无保险库存款。"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "降低66%",
@@ -2182,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "此订单将超过未平仓订单的限额 {LIMIT}。",
       "WOULD_NOT_REDUCE": "如果订单成交，您的头寸不会减少。",
       "WOULD_NOT_REDUCE_UNCHECK": "您的仓位不会因为此订单而减少。如果您想下单，请取消勾选“只减仓”。",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "有效期超过最大 90 天。"
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "有效期超过最大 90 天。",
+      "POSITION_LEVERAGE_OVER_MAX": "由此产生的头寸杠杆将超过该市场的最大杠杆。\n"
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "步骤数量",
