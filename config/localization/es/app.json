@@ -157,6 +157,7 @@
       "GAS_FEE": "Tarifa de gas",
       "GASLESS_DEPOSITS": "Depósitos sin gas",
       "GENERAL": "General",
+      "GET_DYDX_ON_PHONE": "Obtén dYdX en tu teléfono",
       "GO_BACK": "Volver",
       "GO_TO_MARKET": "Ir al mercado",
       "GOVERNANCE": "Gobernanza",
@@ -245,7 +246,7 @@
       "PASTE": "Pegar",
       "PENDING_REWARDS": "Recompensas pendientes",
       "PENDING": "Pendiente",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Las Perpetuals no están disponibles para personas o empresas que son residentes de, o se encuentran localizadas, tiene una empresa constituida o un agente registrado en, los Estados Unidos o un territorio restringido. Puedes encontrar más detalles en nuestros Términos de uso",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Las Perpetuals no están disponibles para personas o empresas que son residentes de, o se encuentran localizadas, tiene una empresa constituida o un agente registrado en, los Estados Unidos o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpetuos",
       "PNL": "P&L",
       "POSITION": "Posición",
@@ -992,13 +993,15 @@
       "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Participa en tu DYDX para recibir recompensas en USDC. La eliminación de las apuestas puede durar hasta 30 días.",
+      "INSUFFICIENT_STAKE_BALANCE": "El balance de la billetera es insuficiente para cubrir las tarifas de transacción.",
+      "STAKE_DESCRIPTION": "Participa en tu DYDX para recibir recompensas en USDC. La eliminación de apuestas tardará 30 días en completarse.",
       "AMOUNT_TO_STAKE": "Cantidad para la participación",
       "SELECTED_VALIDATOR": "Validador seleccionado",
       "ENTER_AMOUNT_TO_STAKE": "Ingresa el monto para la participación",
       "KEPLR_DASHBOARD": "Panel de control de Keplr",
       "STAKED_BALANCE": "Saldo apostado",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Las tarifas de gas estimadas son mayores que el valor de la recompensa reclamable.",
+      "PREVIEW_STAKE": "Vista previa de la apuesta",
       "VALIDATORS_INFO_LINK": "Para obtener más información sobre los validadores, visita {MINTSCAN_LINK}.",
       "STAKING_LEGAL_DISCLAIMER": "Estás apostando tus activos en un nodo de validador operado por un tercero. El operador de este sitio no es responsable de dichos servicios de participación proporcionados por terceros. Participación en otro validador con {KEPLR_DASHBOARD_LINK}o participación líquida con {STRIDE_LINK}.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Estás apostando tus activos en un nodo de validador operado por un tercero y eres el único responsable de elegir tu validador. El Operador de este sitio no es responsable de los servicios de participación proporcionados por terceros. Puedes apostar en cualquier validador que no esté en este menú desplegable en {KEPLR_DASHBOARD_LINK}, o una participación líquida en {STRIDE_LINK}."
@@ -1011,8 +1014,17 @@
       "UNSTAKED_BALANCE": "Saldo no apostado",
       "SELECTED_VALIDATOR": "Validador seleccionado",
       "UNSTAKING_PERIOD": "Período de eliminación de apuestas",
+      "PREVIEW_UNSTAKE": "Vista previa de la eliminación de apuestas",
       "VALIDATOR": "Validador",
       "UNSTAKING_PERIOD_DESCRIPTION": "El período de eliminación de apuestas puede tardar hasta 30 días y no ganarás recompensas en este saldo."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Confirmar apuesta",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Una vez confirmada, comenzarás a ganar recompensas en USDC. Recuerda que la eliminación de apuestas tardará 30 días en completarse."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Confirmar la eliminación de apuestas",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Una vez confirmada, dejarás de ganar recompensas en la cantidad apostada. Todas las recompensas no reclamadas de este validador se reclamarán automáticamente. La eliminación de apuestas tardará 30 días en completarse."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Cuéntanos cómo podemos construir una mejor experiencia de trading para ti. Para preguntas o informes de errores, por favor utiliza el chat de ayuda.",
@@ -1743,10 +1755,10 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Los servicios relacionados con la gobernanza, las recompensas y la participación en las apuestas te los proporcionan directamente terceros, que son independientes y no están afiliados al anfitrión y el operador de esta interfaz (el \"Operador\"), en sitios de terceros, sin la participación del Operador. Aceptas que estás familiarizado con {TERMS_OF_USE_LINK}los  y que entiendes los riesgos asociados con estos servicios, incluidas las tasas de recompensa variables, la reducción y otros riesgos inherentes a la participación. Nada de lo contenido en este sitio web constituye, ni debe interpretarse ni considerarse como, asesoramiento financiero, jurídico, fiscal, de inversión o de cualquier otra naturaleza. Eres el único responsable de realizar investigaciones independientes, la debida diligencia y la búsqueda de asesoramiento de un asesor profesional antes de tomar cualquier medida relacionada con los servicios.",
       "REWARD_HISTORY_DESCRIPTION": "Si bien las recompensas de trading se distribuyen inmediatamente después de cada bloque, el historial se actualiza cada cinco minutos. El historial de recompensas de trading se remonta hasta {REWARDS_HISTORY_START_DATE}.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Comienza a operar para ganar recompensas.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "¿Cómo reclamo mis recompensas por operaciones?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "¿Cómo reclamo mis recompensas de trading?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "En cada bloque, las recompensas de trading se envían automáticamente directamente a la dirección de la cadena dYdX del trader.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "¿Cómo participo y reclamo recompensas de staking?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Para apostar, haz clic en el botón \"Apuesta\" e ingresa la cantidad de tokens que te gustaría apostar. Un validador de un conjunto de validadores en buen estado con la comunidad se seleccionará automáticamente en función del validador elegible que tenga la menor cantidad de tokens apostados y nunca se haya reducido. Para reclamar recompensas de participación, haz clic en el botón \"Reclamar\" cuando las recompensas de USDC estén disponibles. ¡Las recompensas de USDC reclamadas se depositarán en tu cuenta para que puedas operar al instante! Ten en cuenta que hay una tarifa de gas para reclamar recompensas de USDC.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "¿Cómo participo y reclamo recompensas de staking?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Para apostar, haz clic en el botón \"Apuesta\" e ingresa la cantidad de tokens que te gustaría apostar. Un validador de un conjunto de validadores en buen estado con la comunidad se seleccionará automáticamente en función del validador elegible que tenga la menor cantidad de tokens apostados y nunca se haya reducido. Para reclamar recompensas de participación, haz clic en el botón \"Reclamar\" cuando las recompensas de USDC estén disponibles. ¡Las recompensas de USDC reclamadas se depositarán en tu cuenta para que puedas operar al instante! Ten en cuenta que hay una tarifa de gas para reclamar recompensas de USDC. Ver más {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "¿Cómo funcionan las recompensas de trading?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Inmediatamente después de cada llenado, las recompensas de trading se envían directamente a la dirección de la cadena dYdX del trader, en función de la cantidad de tarifas pagadas por el trader. Leer más {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "¿Cómo se determina el conjunto preconfigurado de validadores?",
@@ -1978,6 +1990,8 @@
       "HIDE_STEPS": "Ocultar pasos",
       "IMPACT_NOTIONAL": "Nocional de impacto",
       "LIQUIDITY_TIER": "Nivel de liquidez",
+      "LIST_A_NEW_MARKET": "Listar un nuevo mercado",
+      "LISTINGS_DESCRIPTION": "Los listados en dYdX están completamente impulsados por la comunidad. Esta herramienta te ayudará a enviar una propuesta de gobernanza para listar un nuevo mercado.",
       "MESSAGE_DETAILS": "Detalles del mensaje",
       "MSG_CREATE_CLOB_PAIR": "Crear mensaje clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Crear mensaje mercado oráculo",
@@ -2004,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE}para retirar tus fondos antes de que se bloquee tu acceso a la interfaz. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
       "PERMANENTLY_BLOCKED_MESSAGE": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
-      "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en nuestros Términos de uso {LINK}."
+      "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "No hay suficiente saldo en tu billetera de la cadena para cubrir las tarifas de transacción, deposita fondos adicionales.",
+    "BROADCAST_ERROR_SDK_5": "El balance de la billetera es insuficiente para cubrir las tarifas de transacción; deposita fondos adicionales.",
     "BROADCAST_ERROR_CLOB_2000": "La orden de completar o cancelar no se pudo completar con éxito",
     "BROADCAST_ERROR_CLOB_2001": "Las órdenes de solo reducción no pueden aumentar el tamaño de la posición",
     "BROADCAST_ERROR_CLOB_2002": "Las órdenes de solo reducción no pueden cambiar el lado de la posición",
@@ -2299,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Selecciona una cadena de origen para retirar."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "La cantidad debe ser mayor que {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Dirección de la cadena dYdX no válida.",
       "TRANSFER_INVALID_ETH_ADDRESS": "No hemos podido encontrar una cuenta asociada a esta dirección de la billetera.",
       "TRANSFER_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
