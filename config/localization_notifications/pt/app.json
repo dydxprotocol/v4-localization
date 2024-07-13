@@ -20,6 +20,10 @@
       "TITLE": "Ordens FOK descontinuadas",
       "BODY": "As ordens Fill-or-Kill (FOK) foram descontinuadas. Todos os outros tipos de ordem continuam disponíveis."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "Agora você pode fazer stake DYDX!",
+      "BODY": "Receba recompensas USDC."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
