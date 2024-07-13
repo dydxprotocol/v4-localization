@@ -157,6 +157,7 @@
       "GAS_FEE": "Gaz ücreti",
       "GASLESS_DEPOSITS": "Gas'sız yatırma işlemleri",
       "GENERAL": "Genel",
+      "GET_DYDX_ON_PHONE": "dYdX'i telefonunuza indirin",
       "GO_BACK": "Geri git",
       "GO_TO_MARKET": "Piyasaya git",
       "GOVERNANCE": "Yönetişim",
@@ -245,7 +246,7 @@
       "PASTE": "Yapıştır",
       "PENDING_REWARDS": "Bekleyen ödüller",
       "PENDING": "Beklemede",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Sürekli Varlıklar Amerika Birleşik Devletleri veya kısıtlı bir bölgede ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi bulunan firma veya kişilerin kullanımına açık değildir. Daha fazla ayrıntı Kullanım Koşulları'mızda bulunabilir",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Sürekli Varlıklar Amerika Birleşik Devletleri veya kısıtlı bir bölgede ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi bulunan firma veya kişilerin kullanımına açık değildir. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir.",
       "PERPETUALS": "Sürekli Vadeli Varlıklar",
       "PNL": "Kar&Zarar",
       "POSITION": "Pozisyon",
@@ -992,13 +993,15 @@
       "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "USDC cinsinden ödül kazanmak için DYDX'inizi stake edin. Staking'den çıkarma 30 güne kadar sürebilir.",
+      "INSUFFICIENT_STAKE_BALANCE": "Cüzdan bakiyesi, işlem ücretlerini karşılamak için yetersiz.",
+      "STAKE_DESCRIPTION": "USDC cinsinden ödül kazanmak için DYDX'inizi stake edin. Staking'den çıkarmak 30 gün sürecektir.",
       "AMOUNT_TO_STAKE": "Stake Edilecek Miktar",
       "SELECTED_VALIDATOR": "Seçilen Doğrulayıcı",
       "ENTER_AMOUNT_TO_STAKE": "Stake edilecek miktarı girin",
       "KEPLR_DASHBOARD": "Keplr Kontrol Paneli",
       "STAKED_BALANCE": "Stake Edilen Bakiye",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Tahmini gas ücretleri, talep edilebilir ödül değerinden daha yüksek.",
+      "PREVIEW_STAKE": "Staking'i Önizle",
       "VALIDATORS_INFO_LINK": "Doğrulayıcılar hakkında daha fazla bilgi için lütfen ziyaret edin: {MINTSCAN_LINK}",
       "STAKING_LEGAL_DISCLAIMER": "Varlıklarınızı üçüncü taraflarca işletilen bir doğrulayıcı düğüme stake ediyorsunuz. Bu sitenin operatörü, üçüncü taraflarca sağlanan bu tür stake etme hizmetlerinden sorumlu değildir. {KEPLR_DASHBOARD_LINK} ile başka bir doğrulayıcıya stake edin ya da{STRIDE_LINK} ile likit stake edin.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Varlıklarınızı üçüncü bir tarafça işletilen bir doğrulayıcı düğümüne stake ediyorsunuz ve doğrulayıcı seçiminizden yalnızca siz sorumlusunuz. Bu sitenin Operatörü, üçüncü taraflarca sağlanan stake hizmetlerinden sorumlu değildir. {KEPLR_DASHBOARD_LINK} üzerinde bu açılır menüde olmayan herhangi bir doğrulayıcıya stake edebilir veya {STRIDE_LINK} üzerinde likit stake edebilirsiniz."
@@ -1011,8 +1014,17 @@
       "UNSTAKED_BALANCE": "Staking'den Çıkarılan Bakiye",
       "SELECTED_VALIDATOR": "Seçilen Doğrulayıcı",
       "UNSTAKING_PERIOD": "Staking'den Çıkarma Dönemi",
+      "PREVIEW_UNSTAKE": "Staking'den Çıkarmayı Önizle",
       "VALIDATOR": "Doğrulayıcı",
       "UNSTAKING_PERIOD_DESCRIPTION": "Staking'den çıkarma süresi 30 güne kadar sürebilir ve bu bakiye üzerinden ödül kazanamazsınız."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Staking'i Onayla",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Onaylandıktan sonra, USDC cinsinden ödül kazanmaya başlayacaksınız. Staking'den çıkarmanın 30 gün süreceğini unutmayın."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Staking'den Çıkarmayı Onayla",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Onaylandıktan sonra, stake edilen miktar üzerinden ödül kazanmanız durdurulacaktır. Bu doğrulayıcıdan talep edilmeyen tüm ödüller otomatik olarak talep edilecektir. Staking'den çıkarmak 30 gün sürecektir."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Sizin için nasıl daha iyi bir yatırım deneyimi oluşturabileceğimizi bize bildirin. Sorular veya hata raporları için lütfen yardım sohbetini kullanın.",
@@ -1743,10 +1755,10 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Yönetişim, ödüller ve stake etme ile ilgili hizmetler, bu arayüzün sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan üçüncü taraflarca, Operatörün müdahalesi olmaksızın üçüncü taraf sitelerinde doğrudan size sağlanır. {TERMS_OF_USE_LINK} koşullarını bildiğinizi ve değişken ödül oranları, slashing ve stake etmeye özgü diğer riskler dahil olmak üzere bu hizmetlerle ilişkili riskleri anladığınızı kabul edersiniz. Bu web sitesindeki hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye olarak yorumlanmamalı veya bunlara güvenilmemelidir. Hizmetlerle ilgili herhangi bir işlem yapmadan önce bağımsız araştırma yapmak, durum tespiti yapmak ve profesyonel bir danışmandan tavsiye almaktan yalnızca siz sorumlusunuz.",
       "REWARD_HISTORY_DESCRIPTION": "Alım satım ödülleri her bloktan hemen sonra dağıtılırken, geçmiş her beş dakikada bir güncellenir. Alım satım ödülleri geçmişi {REWARDS_HISTORY_START_DATE} tarihine kadar uzanır.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Ödül kazanmak için alım satım yapmaya başlayın.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Ödüllerimi nasıl alabilirim?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Alım satım ödüllerimi nasıl alabilirim?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Nasıl stake ederim ve stake ödüllerini talep ederim?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Stake etmek için \"Stake\" butonuna tıklayın ve stake etmek istediğiniz token miktarını girin. Toplulukta iyi durumda olan doğrulayıcılar arasından bir tanesi, en az token stake eden ve hiç slash edilmemiş olan uygun doğrulayıcı kriteriyle otomatik olarak seçilecektir. Staking ödüllerini talep etmek için, USDC ödülleri mevcut olduğunda \"Talep Et\" butonuna tıklayın. Talep edilen USDC ödülleri hesabınıza yatırılacaktır, böylece anında işlem yapabilirsiniz! USDC ödüllerini talep etmek için bir gaz ücreti olduğunu unutmayın.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Nasıl stake ederim ve stake ödüllerini talep ederim?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Stake etmek için \"Stake\" butonuna tıklayın ve stake etmek istediğiniz token miktarını girin. Toplulukta iyi durumda olan doğrulayıcılar arasından bir tanesi, en az token stake eden ve hiç slash edilmemiş olan uygun doğrulayıcı kriteriyle otomatik olarak seçilecektir. Staking ödüllerini talep etmek için, USDC ödülleri mevcut olduğunda \"Talep Et\" butonuna tıklayın. Talep edilen USDC ödülleri hesabınıza yatırılacaktır, böylece anında işlem yapabilirsiniz! USDC ödüllerini talep etmek için bir gaz ücreti olduğunu unutmayın. Daha fazlasını görün: {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir. Daha fazla bilgi edinin: {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Önceden yapılandırılmış doğrulayıcı kümesi nasıl belirlenir?",
@@ -1978,6 +1990,8 @@
       "HIDE_STEPS": "Adımları gizle",
       "IMPACT_NOTIONAL": "Etki kavram değeri",
       "LIQUIDITY_TIER": "Likidite katmanı",
+      "LIST_A_NEW_MARKET": "Yeni bir piyasa listeleyin",
+      "LISTINGS_DESCRIPTION": "dYdX'teki listeler tamamen topluluk tarafından yönlendirilir. Bu araç, yeni bir piyasa listelemek için bir yönetişim teklifi göndermenize yardımcı olacaktır.",
       "MESSAGE_DETAILS": "Mesaj ayrıntıları",
       "MSG_CREATE_CLOB_PAIR": "Msg create clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Msg create oracle market",
@@ -2004,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Kullanıcı arayüzüne erişiminiz {DATE} tarihinde engellenmeden önce paranızı çekebilirsiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
       "PERMANENTLY_BLOCKED_MESSAGE": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
-      "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı için {LINK} adresindeki Kullanım Koşullarımıza bakabilirsiniz."
+      "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3(Imperator)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "Zincir cüzdanınızda işlem ücretlerini karşılamak için yeterli bakiye bulunmuyor, lütfen ek fon yatırın.",
+    "BROADCAST_ERROR_SDK_5": "Cüzdan bakiyesi, işlem ücretlerini karşılamak için yetersiz; lütfen daha fazla fon yatırın.",
     "BROADCAST_ERROR_CLOB_2000": "Karşıla Veya İptal Et emri tam olarak karşılanamadı.",
     "BROADCAST_ERROR_CLOB_2001": "Sadece azaltma emirleri pozisyon boyutunu artıramaz.",
     "BROADCAST_ERROR_CLOB_2002": "Sadece azaltma emirleri pozisyon tarafını değiştiremez.",
@@ -2299,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Lütfen çekmek için bir kaynak zinciri seçiniz."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "Miktar {NUMBER} {TOKEN} tutarından büyük olmalıdır",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Geçersiz dYdX Zincir adresi.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Bu cüzdan adresi ile ilişkili bir hesap bulamadık.",
       "TRANSFER_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
