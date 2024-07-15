@@ -84,7 +84,7 @@
       "CLICK_HERE": "Hier klicken",
       "CLOSE": "Schließen",
       "COMING_SOON": "Demnächst",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} Provision",
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} Provision", 
       "COMPETITION": "Wettbewerb",
       "COMPETITIONS": "Wettbewerbe",
       "CONFIRM_DEPOSIT": "Einzahlung bestätigen",
@@ -133,7 +133,6 @@
       "EG": "z.B.",
       "EMAIL": "E-Mail",
       "ENDED": "Beendet",
-      "ENTERTAINMENT": "Unterhaltung",
       "EQUITY": "Eigenkapital",
       "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gas",
@@ -268,7 +267,6 @@
       "QUERY_NOT_FOUND": "„{QUERY}“ wurde nicht gefunden",
       "QUEUED": "Warteschlange",
       "RANKINGS": "Rankings",
-      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Erhalten",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Kürzlich",
@@ -1018,7 +1016,6 @@
       "UNSTAKING_PERIOD": "Unstaking-Zeitraum",
       "PREVIEW_UNSTAKE": "Vorschau Unstake",
       "VALIDATOR": "Validator",
-      "VALIDATORS": "Validatoren",
       "UNSTAKING_PERIOD_DESCRIPTION": "Der Unstaking-Zeitraum kann bis zu 30 Tage dauern und Sie verdienen keine Prämien auf diesen Saldo."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1026,8 +1023,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Nach der Bestätigung verdienen Sie Prämien in USDC. Denken Sie daran, dass das Unstaking 30 Tage dauert."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-      "CONFIRM_UNSTAKE": "Unstake bestätigen",
-      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Nach der Bestätigung werden Sie keine Prämien mehr für den gestakten Betrag verdienen. Alle nicht beanspruchten Prämien von diesem Validator werden automatisch beansprucht. Das Unstaking dauert 30 Tage."
+       "CONFIRM_UNSTAKE": "Unstake bestätigen",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Nach der Bestätigung werden Sie keine Prämien mehr für den gestakten Betrag verdienen. Alle nicht beanspruchten Prämien von diesem Validator werden automatisch beansprucht. Das Unstaking dauert 30 Tage."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Sagen Sie uns, wie wir für Sie ein besseres Handelserlebnis schaffen können. Für Fragen oder Fehlerberichte verwenden Sie bitte den Hilfe-Chat.",
@@ -1521,33 +1518,6 @@
       "YOU_WON": "Sie haben gewonnen!",
       "YOUR_LEAGUE": "Ihre Liga",
       "YOURE_IN": "Sie sind in der {LEAGUE}"
-    },
-    "VAULTS": {
-      "VAULT_DESCRIPTION": "Tresore bieten automatisierte Liquidität auf allen dYdX-Märkten. Tresore zielen auf eine marktneutrale Position an, indem sie beide Seiten des Buches notieren. Die GuV variieren je nach den Marktbedingungen und es besteht das Risiko, dass ein Teil oder der gesamte eingezahlte USDC verloren geht.",
-      "LP_VAULT": "LP-Vault",
-      "VAULT": "Vault",
-      "ASSET_VAULT": "{ASSET} Vault",
-      "VAULTS": "Tresore",
-      "VAULT_DETAILS": "Vault-Details",
-      "VAULT_FAQS": "Vault FAQs",
-      "VAULT_BALANCE": "Vault-Guthaben",
-      "VAULT_POSITION": "Vault-Position",
-      "VAULT_LEVERAGE": "Vault-Hebelwirkung",
-      "VAULT_ALL_TIME_PNL": "P&L für alle Zeit-Vault",
-      "VAULT_THIRTY_DAY_APR": "30d APR",
-      "VAULTS_OVERVIEW": "Tresor-Übersicht",
-      "VAULT_DOCS": "Vault-Dokumente",
-      "ALL_VAULTS": "Alle Tresore",
-      "MY_VAULTS": "Meine Tresore",
-      "YOUR_BALANCE": "Ihr Guthaben",
-      "SEARCH_VAULTS": "Tresore suchen",
-      "YOUR_LP_VAULT_BALANCE": "Ihr LP-Vault-Guthaben",
-      "VIEW_VAULT": "Vault anzeigen",
-      "VAULT_EQUITY": "Vault-Aktien",
-      "VAULT_PNL": "Vault P&L",
-      "DEPOSITS_AND_WITHDRAWALS": "Einzahlungen & Auszahlungen",
-      "VIEW_ALL_VAULTS": "Alle Tresore anzeigen",
-      "YOU_HAVE_NO_VAULT_DEPOSITS": "Sie haben keine Tresoreinzahlungen ."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66 % Rabatt",
@@ -2212,8 +2182,7 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Dieser Auftrag würde Sie über das Limit der {LIMIT}offenen Aufträge bringen.",
       "WOULD_NOT_REDUCE": "Ihre Position wird nicht reduziert, wenn die Order ausgeführt wird.",
       "WOULD_NOT_REDUCE_UNCHECK": "Ihre Position würde mit dieser Order nicht reduziert werden. Bitte deaktivieren Sie „Nur reduzieren“, wenn Sie Ihre Bestellung aufgeben möchten.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til überschreitet die maximale Dauer von 90 Tagen.",
-      "POSITION_LEVERAGE_OVER_MAX": "Die resultierende Positionshebelwirkung würde über der maximalen Hebelwirkung für diesen Markt liegen."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til überschreitet die maximale Dauer von 90 Tagen."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Step Size",
