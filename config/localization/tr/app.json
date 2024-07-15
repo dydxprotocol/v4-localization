@@ -84,7 +84,7 @@
       "CLICK_HERE": "Buraya tıklayın",
       "CLOSE": "Kapat",
       "COMING_SOON": "Çok yakında",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} komisyon", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} komisyon",
       "COMPETITION": "Yarışma",
       "COMPETITIONS": "Rekabetler",
       "CONFIRM_DEPOSIT": "Yatırma işlemini onayla",
@@ -133,6 +133,7 @@
       "EG": "örn.",
       "EMAIL": "E-posta",
       "ENDED": "Sonuçlandı",
+      "ENTERTAINMENT": "Eğlence",
       "EQUITY": "Net Varlık",
       "EST_APR": "Tahmini {PERCENTAGE} APR",
       "EST_GAS": "Tahmini Gaz",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "\"{QUERY}\" bulunamadı",
       "QUEUED": "Sırada",
       "RANKINGS": "Sıralamalar",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Teslim Al",
       "RECENT_TRADES_SHORT": "İşlemler",
       "RECENT": "En Son",
@@ -1016,6 +1018,7 @@
       "UNSTAKING_PERIOD": "Staking'den Çıkarma Dönemi",
       "PREVIEW_UNSTAKE": "Staking'den Çıkarmayı Önizle",
       "VALIDATOR": "Doğrulayıcı",
+      "VALIDATORS": "Doğrulayıcılar",
       "UNSTAKING_PERIOD_DESCRIPTION": "Staking'den çıkarma süresi 30 güne kadar sürebilir ve bu bakiye üzerinden ödül kazanamazsınız."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1023,8 +1026,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Onaylandıktan sonra, USDC cinsinden ödül kazanmaya başlayacaksınız. Staking'den çıkarmanın 30 gün süreceğini unutmayın."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "Staking'den Çıkarmayı Onayla",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Onaylandıktan sonra, stake edilen miktar üzerinden ödül kazanmanız durdurulacaktır. Bu doğrulayıcıdan talep edilmeyen tüm ödüller otomatik olarak talep edilecektir. Staking'den çıkarmak 30 gün sürecektir."
+      "CONFIRM_UNSTAKE": "Staking'den Çıkarmayı Onayla",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Onaylandıktan sonra, stake edilen miktar üzerinden ödül kazanmanız durdurulacaktır. Bu doğrulayıcıdan talep edilmeyen tüm ödüller otomatik olarak talep edilecektir. Staking'den çıkarmak 30 gün sürecektir."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Sizin için nasıl daha iyi bir yatırım deneyimi oluşturabileceğimizi bize bildirin. Sorular veya hata raporları için lütfen yardım sohbetini kullanın.",
@@ -1251,7 +1254,7 @@
       "ENTER_TIME_IN_FORCE": "Yürürlükteki süreyi girin",
       "ENTER_GOOD_UNTIL": "Geçerlilik tarihini girin",
       "ENTER_EXECUTION": "Yürütmeyi girin",
-      "ENTRY_PRICE_SHORT": "Girdisini",
+      "ENTRY_PRICE_SHORT": "Giriş",
       "EXECUTION": "Yürütme",
       "EXPECTED_PRICE": "Beklenen Fiyat",
       "EXPIRED": "Vadesi Dolan",
@@ -1518,6 +1521,33 @@
       "YOU_WON": "Kazandınız!",
       "YOUR_LEAGUE": "Liginiz",
       "YOURE_IN": "{LEAGUE} ligindesiniz"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Kasalar, tüm dYdX piyasalarında otomatikleştirilmiş likidite sağlar. Kasalar, tahtanın her iki tarafından fiyat vererek piyasadan bağımsız bir pozisyon hedefler. Kar ve zarar piyasa koşullarına bağlı olarak değişir ve yatırılan USDC'nin bir kısmını veya tamamını kaybetme riski vardır.",
+      "LP_VAULT": "LP Kasası",
+      "VAULT": "Kasa",
+      "ASSET_VAULT": "{ASSET} Kasası",
+      "VAULTS": "Kasalar",
+      "VAULT_DETAILS": "Kasa Detayları",
+      "VAULT_FAQS": "Kasa SSS",
+      "VAULT_BALANCE": "Kasa Bakiyesi",
+      "VAULT_POSITION": "Kasa Pozisyonu",
+      "VAULT_LEVERAGE": "Kasa Kaldıracı",
+      "VAULT_ALL_TIME_PNL": "Tüm Zamanların Kasa Kar ve Zararı",
+      "VAULT_THIRTY_DAY_APR": "30 günlük APR",
+      "VAULTS_OVERVIEW": "Kasalara Genel Bakış",
+      "VAULT_DOCS": "Kasa Dokümanları",
+      "ALL_VAULTS": "Tüm Kasalar",
+      "MY_VAULTS": "Kasalarım",
+      "YOUR_BALANCE": "Bakiyeniz",
+      "SEARCH_VAULTS": "Kasaları Ara",
+      "YOUR_LP_VAULT_BALANCE": "LP Kasa Bakiyeniz",
+      "VIEW_VAULT": "Kasayı Görüntüle",
+      "VAULT_EQUITY": "Kasa Net Varlığı",
+      "VAULT_PNL": "Kasa Kar ve Zararı",
+      "DEPOSITS_AND_WITHDRAWALS": "Yatırma ve Çekme İşlemleri",
+      "VIEW_ALL_VAULTS": "Tüm Kasaları Görüntüle",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "Kasada yatırma işleminiz yok."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "%66 kesinti",
@@ -1809,7 +1839,7 @@
       "CASH": "Nakit",
       "COPY": "Kopyala ve Paylaş",
       "DOWNLOAD": "İndir",
-      "ENTRY": "Girdisini",
+      "ENTRY": "Giriş",
       "I_WON": "Kazandım",
       "IN": ":",
       "INDEX": "Oracle",
@@ -2182,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Bu talimat sizi açık talimat limitinin {LIMIT} kadar üzerine çıkaracaktır.",
       "WOULD_NOT_REDUCE": "Talimat karşılanırsa pozisyonunuz azaltılmayacaktır.",
       "WOULD_NOT_REDUCE_UNCHECK": "Pozisyonunuz bu emriniz ile azaltılmayacaktır. Emrinizi vermek istiyorsanız lütfen Yalnızca Azalt işaretini kaldırın.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Geçerlilik süresi maksimum 90 günü aşıyor."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Geçerlilik süresi maksimum 90 günü aşıyor.",
+      "POSITION_LEVERAGE_OVER_MAX": "Oluşacak pozisyon kaldıracı, bu piyasa için maksimum kaldıracın üzerinde olacaktır."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Adım Boyutu",
