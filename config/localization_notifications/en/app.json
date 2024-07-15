@@ -25,7 +25,7 @@
       "BODY": "Receive USDC rewards."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
+      "TITLE": "Season {SEASON_NUMBER} has begun!",
       "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "ISOLATED_MARGIN_LIVE": {
