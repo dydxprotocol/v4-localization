@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -532,6 +532,7 @@ export const APP_STRING_KEYS = {
     SOURCE_ADDRESS: 'APP.GENERAL.SOURCE_ADDRESS',
     STAKE: 'APP.GENERAL.STAKE',
     STAKED: 'APP.GENERAL.STAKED',
+    STAKE_FOR_REWARDS: 'APP.GENERAL.STAKE_FOR_REWARDS',
     STAKE_NOW: 'APP.GENERAL.STAKE_NOW',
     STARTED_FROM_DATE: 'APP.GENERAL.STARTED_FROM_DATE',
     START_TRADING: 'APP.GENERAL.START_TRADING',

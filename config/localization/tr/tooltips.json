@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Seçilen Doğrulayıcı",
-      "BODY": "Seçim, önceden yapılandırılmış bir doğrulayıcı kümesinden en düşük stake ağırlığına dayanmaktadır."
+      "BODY": "Doğrulayıcı, en düşük stake ağırlığına göre önceden yapılandırılan bir dizi slash edilmemiş doğrulayıcı arasından seçilir."
     }
   },
   "EMAIL_NOTIFICATIONS": {

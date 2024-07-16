@@ -157,6 +157,7 @@
       "GAS_FEE": "Taxa de gás",
       "GASLESS_DEPOSITS": "Depósitos sem taxas",
       "GENERAL": "Geral",
+      "GET_DYDX_ON_PHONE": "Obtenha a dYdX pelo seu telefone",
       "GO_BACK": "Voltar",
       "GO_TO_MARKET": "Ir ao mercado",
       "GOVERNANCE": "Governança",
@@ -245,7 +246,7 @@
       "PASTE": "Colar",
       "PENDING_REWARDS": "Recompensas pendentes",
       "PENDING": "Pendente",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Os perpétuos não estão disponíveis para pessoas ou empresas que sejam residentes ou que estejam localizadas, incorporadas ou tenham um agente registrado nos Estados Unidos ou em um território restrito. Mais detalhes podem ser encontrados em nossos Termos de Uso ",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Os perpétuos não estão disponíveis para pessoas ou empresas que sejam residentes ou que estejam localizadas, incorporadas ou tenham um agente registrado nos Estados Unidos ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpétuos",
       "PNL": "Lucros e perdas",
       "POSITION": "Posição",
@@ -992,13 +993,15 @@
       "WITHDRAW_IRREVERSIBLE": "Iniciar um saque é irreversível."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Faça stake no seu DYDX para receber recompensas em USDC. A remoção de staking pode ter até 30 dias.",
+      "INSUFFICIENT_STAKE_BALANCE": "O saldo da carteira é insuficiente para cobrir as taxas da transação.",
+      "STAKE_DESCRIPTION": "Faça stake no seu DYDX para receber recompensas em USDC. A remoção de staking levará 30 dias para ser concluída.",
       "AMOUNT_TO_STAKE": "Valor para Stake",
       "SELECTED_VALIDATOR": "Validador Selecionado",
       "ENTER_AMOUNT_TO_STAKE": "Digite o valor para o stake",
       "KEPLR_DASHBOARD": "Painel do Keplr",
       "STAKED_BALANCE": "Saldo em staking",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "As taxas de gas estimadas são maiores do que o valor de recompensa resgatável.",
+      "PREVIEW_STAKE": "Pré-visualizar stake",
       "VALIDATORS_INFO_LINK": "Para obter mais informações sobre validadores, visite {MINTSCAN_LINK}.",
       "STAKING_LEGAL_DISCLAIMER": "Você está fazendo staking de seus ativos para um nó validador operado por terceiros. A operadora deste site não é responsável por tais serviços de staking fornecidos por terceiros. Faça staking para outro validador com  {KEPLR_DASHBOARD_LINK}ou stake líquido com {STRIDE_LINK}.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Você está fazendo staking de seus ativos para um nó de validador operado por um terceiro e você é o único responsável por escolher seu validador. O Operador deste site não é responsável pelos serviços de staking fornecidos por terceiros. Você pode fazer stake para qualquer validador que não esteja neste menu suspenso em {KEPLR_DASHBOARD_LINK} ou stake líquido em {STRIDE_LINK}."
@@ -1011,8 +1014,17 @@
       "UNSTAKED_BALANCE": "Saldo sem stake",
       "SELECTED_VALIDATOR": "Validador Selecionado",
       "UNSTAKING_PERIOD": "Período de retirada de stake",
+      "PREVIEW_UNSTAKE": "Pré-visualizar retirada de stake",
       "VALIDATOR": "Validador",
       "UNSTAKING_PERIOD_DESCRIPTION": "O período de não staking pode levar até 30 dias e você não ganhará recompensas neste saldo."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Confirmar staking",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmado, você começará a ganhar recompensas em USDC. Lembre-se de que a remoção de staking levará 30 dias para ser concluída."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Confirmar remoção de staking",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Para perguntas ou relatar bugs, use o chat de ajuda.",
@@ -1743,10 +1755,10 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Os serviços relacionados a governança, recompensas e staking são fornecidos a você diretamente por terceiros, que são independentes e não afiliados ao host e à operadora desta interface (a “Operadora”), em sites de terceiros, sem envolvimento da Operadora. Você concorda que está familiarizado com os {TERMS_OF_USE_LINK} e entende os riscos associados a esses serviços, incluindo taxas de recompensa variáveis, cortes e outros riscos inerentes ao staking. Nada neste site constitui, nem deve ser interpretado ou invocado como, consultoria financeira, consultoria jurídica, consultoria fiscal, consultoria de investimento ou consultoria de qualquer outra natureza. Você é o único responsável por conduzir pesquisas independentes, devida diligência e buscar aconselhamento de um consultor profissional antes de tomar qualquer ação relacionada aos serviços.",
       "REWARD_HISTORY_DESCRIPTION": "Embora as recompensas de trading sejam distribuídas imediatamente após cada bloco, o histórico é atualizado a cada cinco minutos. O histórico de recompensas de trading vai até {REWARDS_HISTORY_START_DATE}.",
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Comece a fazer trades para ganhar recompensas.",
-      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas?",
+      "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Como posso resgatar minhas recompensas de trading?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "A cada bloco, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Como faço para fazer stake e resgatar recompensas de staking?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Para fazer stake, clique no botão “Stake” e insira o valor de tokens que você gostaria de fazer stake. Um validador de um conjunto de validadores em boas condições com a comunidade será selecionado automaticamente com base em qual validador elegível tem o menor número de tokens em staking e nunca foi cortado. Para resgatar recompensas de staking, clique no ponto “Resgatar” sempre que as recompensas USDC estiverem disponíveis. As recompensas USDC resgatadas serão depositadas na sua conta para que você possa negociar instantaneamente! Observe que há uma taxa de gás para resgatar recompensas USDC.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Como faço para fazer stake e resgatar recompensas de staking?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Para fazer stake, clique no botão “Stake” e insira o valor de tokens que você gostaria de fazer stake. Um validador de um conjunto de validadores em boas condições com a comunidade será selecionado automaticamente com base em qual validador elegível tem o menor número de tokens em staking e nunca foi cortado. Para resgatar recompensas de staking, clique no ponto “Resgatar” sempre que as recompensas USDC estiverem disponíveis. As recompensas USDC resgatadas serão depositadas na sua conta para que você possa negociar instantaneamente! Observe que há uma taxa de gas para resgatar recompensas USDC. Veja mais {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Como as recompensas de trading funcionam?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Imediatamente após cada preenchimento, as recompensas de trading são enviadas diretamente para o endereço da Cadeia dYdX do trader, com base no valor de taxas pagas pelo trader. Leia mais em {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Como o conjunto pré-configurado de validadores é determinado?",
@@ -1978,6 +1990,8 @@
       "HIDE_STEPS": "Esconder etapas",
       "IMPACT_NOTIONAL": "Nocional de impacto",
       "LIQUIDITY_TIER": "Nível de liquidez",
+      "LIST_A_NEW_MARKET": "Listar um novo mercado",
+      "LISTINGS_DESCRIPTION": "As listagens na dYdX são completamente orientadas pela comunidade. Esta ferramenta ajudará você a enviar uma proposta de governança para listar um novo mercado.",
       "MESSAGE_DETAILS": "Detalhes da mensagem",
       "MSG_CREATE_CLOB_PAIR": "Msg criar clobPair",
       "MSG_CREATE_ORACLE_MARKET": "Msg criar mercado oracle",
@@ -2004,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes de seu acesso ao frontend ser bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
       "PERMANENTLY_BLOCKED_MESSAGE": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
-      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em nossos Termos de Uso {LINK}."
+      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "Testnet 3 (Imperator) V4"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "Não há saldo suficiente na sua carteira da cadeia para cobrir as taxas de transação. Deposite fundos adicionais.",
+    "BROADCAST_ERROR_SDK_5": "O saldo da carteira é insuficiente para cobrir as taxas de transação; deposite fundos adicionais.",
     "BROADCAST_ERROR_CLOB_2000": "A ordem Preencher ou encerrar não pôde ser totalmente preenchida.",
     "BROADCAST_ERROR_CLOB_2001": "Ordens de somente redução não podem aumentar o tamanho da posição.",
     "BROADCAST_ERROR_CLOB_2002": "Ordens de somente redução não podem alterar o lado da posição.",
@@ -2299,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Selecione uma cadeia de origem para saque."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER}{TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Endereço de cadeia dYdX inválido.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Não foi possível encontrar uma conta associada ao endereço desta carteira.",
       "TRANSFER_MORE_THAN_FREE": "Não é possível transferir mais do que sua garantia gratuita.",

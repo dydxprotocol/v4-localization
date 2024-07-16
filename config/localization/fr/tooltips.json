@@ -338,7 +338,7 @@
   "STAKE": {
     "VALIDATOR_SELECTION": {
       "TITLE": "Validateur sélectionné",
-      "BODY": "La sélection est basée sur le poids de mise le plus bas d'un ensemble de validateurs prédéfinis."
+      "BODY": "Le validateur est sélectionné parmi un ensemble préconfiguré de validateurs non soumis à l'encaissement, en fonction du poids de l'enjeu le plus faible."
     }
   },
   "EMAIL_NOTIFICATIONS": {

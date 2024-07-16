@@ -20,6 +20,10 @@
       "TITLE": "FOK talimatları kullanımdan kaldırıldı",
       "BODY": "Karşıla veya İptal Et (FOK) talimatları kullanımdan kaldırıldı. Diğer tüm talimat türleri kullanımda olmaya devam edecektir."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "Artık DYDX stake edebilirsiniz!",
+      "BODY": "USDC ödüllerini alın."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Sezon {SEASON_NUMBER} lansman teşvik programı başladı!",
       "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"

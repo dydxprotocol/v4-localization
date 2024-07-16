@@ -20,6 +20,10 @@
       "TITLE": "Órdenes FOK obsoletas",
       "BODY": "Las órdenes de completar o eliminar (FOK) han quedado obsoletas. Todos los demás tipos de orden siguen estando disponibles."
     },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "¡Ahora puedes apostar en DYDX!",
+      "BODY": "Recibe recompensas de USDC."
+    },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "¡Empezó el programa de incentivos de lanzamiento de la temporada {SEASON_NUMBER}!",
       "BODY": "¡En {PREV_SEASON_NUMBER} de temporada, la mediana de las recompensas ganadas fue de {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"

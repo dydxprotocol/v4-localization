@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "Source Address",
       "STAKE": "Stake",
       "STAKED": "Staked",
+      "STAKE_FOR_REWARDS": "Stake for rewards",
       "STAKE_NOW": "Stake now",
       "START_TRADING": "Start trading",
       "STARTED_FROM_DATE": "Started {FROM_DATE}",
