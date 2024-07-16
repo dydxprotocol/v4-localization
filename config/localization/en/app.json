@@ -1528,6 +1528,7 @@
     },
     "VAULTS": {
       "VAULT": "Vault",
+      "VAULT_FAQS": "Vault FAQs",
       "YOUR_ALL_TIME_PNL": "Your All-time P&L",
       "VAULT_THIRTY_DAY_APR": "30d APR",
       "VAULT_THIRTY_DAY_PNL": "30d P&L",
@@ -1537,6 +1538,16 @@
       "VAULT_PNL": "Vault P&L",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "Your Deposits & Withdrawals",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "You have no vault deposits.",
+      "SLIPPAGE_ACK": "I understand that withdrawing now will result in {AMOUNT} slippage.",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "Acknowledge High Slippage",
+      "SLIPPAGE_WARNING": " This withdrawal would result in {AMOUNT} slippage. Slippage may be reduced if you withdraw at a later time. For more information, see {LINK}.",
+      "EST_SLIPPAGE": "Est. slippage",
+      "PROTOCOL_VAULT": "dYdX Protocol Vault",
+      "WITHDRAW_TOO_HIGH": "You cannot withdraw more than your vault balance.",
+      "DEPOSIT_TOO_HIGH": "You cannot deposit more than your free collateral.",
+      "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
+      "ENTER_AMOUNT_TO_WITHDRAW": "Enter amount to withdraw",
+      "CROSS_ACCOUNT": "Cross Account",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
