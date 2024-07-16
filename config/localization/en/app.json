@@ -1549,6 +1549,7 @@
       "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
       "ENTER_AMOUNT_TO_WITHDRAW": "Enter amount to withdraw",
       "CROSS_ACCOUNT": "Cross Account",
+      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. Vaults aim for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
