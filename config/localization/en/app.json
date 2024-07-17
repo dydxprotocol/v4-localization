@@ -1311,6 +1311,7 @@
       "MID_MARKET": "Mid-Market",
       "MID_MARKET_PRICE_SHORT": "Mid",
       "MODIFY_GOOD_TIL": "Modify Good Til",
+      "MODIFY_MARGIN_AMOUNT": "Modify amount",
       "MODIFY_PRICE": "Modify price",
       "MODIFY_SIZE_FIELD": "Modify amount",
       "MODIFY_TARGET_LEVERAGE": "Modify target leverage",
@@ -2171,6 +2172,7 @@
     "BROADCAST_ERROR_3008": "Stateful order was previously cancelled and therefore cannot be placed.",
     "BROADCAST_ERROR_3009": "Stateful order was previously removed and therefore cannot be placed.",
     "BROADCAST_ERROR_10001": "Subaccount cannot open more orders due to equity tier limit. {EQUITY_TIER_LEARN_MORE}",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "This would put your account below the collateralization threshold. Please try a smaller amount.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Rate Limit Reached",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Rate limited reached for this IP address. Please try again later.",
