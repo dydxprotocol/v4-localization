@@ -980,7 +980,7 @@
       "SUBJECT_TO_RULES": "Subject to these rules",
       "SWAP": "Swap",
       "ESTIMATED_TIME": "Estimated Time",
-      "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS} and {POLICY}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Enable withdraw",
