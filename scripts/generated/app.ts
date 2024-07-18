@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -77,7 +77,9 @@ export const APP_STRING_KEYS = {
 
     // DEPOSIT_MODAL
 
+    ACKNOWLEDGE_TERMS_AND_DEPOSIT: 'APP.DEPOSIT_MODAL.ACKNOWLEDGE_TERMS_AND_DEPOSIT',
     BRIDGE_FEE: 'APP.DEPOSIT_MODAL.BRIDGE_FEE',
+    DEPOSIT_ACKNOWLEDGEMENT: 'APP.DEPOSIT_MODAL.DEPOSIT_ACKNOWLEDGEMENT',
     ENABLE_FOR_THIS_DEPOSIT: 'APP.DEPOSIT_MODAL.ENABLE_FOR_THIS_DEPOSIT',
     ENABLE_SYMBOL: 'APP.DEPOSIT_MODAL.ENABLE_SYMBOL',
     ENABLE_SYMBOL_ON_DYDX: 'APP.DEPOSIT_MODAL.ENABLE_SYMBOL_ON_DYDX',

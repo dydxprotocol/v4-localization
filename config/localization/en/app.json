@@ -953,6 +953,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Your order for the following markets is too large and would cause excessive slippage. Consider placing a limit order."
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Acknowledge terms and deposit",
       "BRIDGE_FEE": "Bridge Fee",
       "ENABLE_FOR_THIS_DEPOSIT": "Enable for this deposit",
       "ENABLE_SYMBOL_ON_DYDX": "Enable {SYMBOL} on dYdX",
@@ -978,7 +979,8 @@
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Subject to these rules",
       "SWAP": "Swap",
-      "ESTIMATED_TIME": "Estimated Time"
+      "ESTIMATED_TIME": "Estimated Time",
+      "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS} and {POLICY}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Enable withdraw",
