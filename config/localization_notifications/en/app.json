@@ -170,7 +170,7 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Live proposal to update {MARKET} parameters",
-      "BODY": "There is currently a live proposal to update the parameters of {MARKET} markets. If passed, the {MARKET} market will have Coinbase Pro {MARKET} as the only oracle source. You can find more information regarding the proposal here."
+      "BODY": "There is currently a live proposal to update the parameters of {MARKET} market. If passed, the {MARKET} market will have Coinbase Pro {MARKET} as the only oracle source. You can find more information regarding the proposal here."
     }
   }
 }
