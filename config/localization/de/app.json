@@ -157,6 +157,7 @@
       "GAS_FEE": "Gasgebühr",
       "GASLESS_DEPOSITS": "Gasfreie Einlagen",
       "GENERAL": "Allgemein",
+      "GET_DYDX_ON_PHONE": "Holen Sie sich dYdX auf Ihr Handy",
       "GO_BACK": "Zurück",
       "GO_TO_MARKET": "Zum Markt gehen",
       "GOVERNANCE": "Governance",
@@ -245,7 +246,7 @@
       "PASTE": "Einfügen",
       "PENDING_REWARDS": "Ausstehende Rewards",
       "PENDING": "Ausstehend",
-      "PERPETUALS_UNAVAILABLE_IN_US": "Perpetuals sind nicht für Personen oder Unternehmen verfügbar, die ansässig sind oder in den USA oder einem eingeschränkten Gebiet einen registrierten Agenten besitzen. Weitere Details finden Sie in unseren Nutzungsbedingungen",
+      "PERPETUALS_UNAVAILABLE_IN_US": "Perpetuals sind nicht für Personen oder Unternehmen verfügbar, die ansässig sind oder in den USA oder einem eingeschränkten Gebiet einen registrierten Agenten besitzen. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpetuals",
       "PNL": "G&V",
       "POSITION": "Position",
@@ -992,13 +993,15 @@
       "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Abhebung veranlassen, kann diese nicht mehr rückgängig gemacht werden."
     },
     "STAKE_MODAL": {
-      "STAKE_DESCRIPTION": "Staken Sie Ihre DYDX, um Prämien in USDC zu erhalten. Das Unstaking kann bis zu 30 Tage dauern.",
+      "INSUFFICIENT_STAKE_BALANCE": "Das Wallet-Guthaben reicht nicht aus, um die Transaktionsgebühren zu decken.",
+      "STAKE_DESCRIPTION": "Staken Sie Ihre DYDX, um Prämien in USDC zu erhalten. Das Unstaking dauert 30 Tage.",
       "AMOUNT_TO_STAKE": "Zu stakender Betrag",
       "SELECTED_VALIDATOR": "Ausgewählter Validator",
       "ENTER_AMOUNT_TO_STAKE": "Geben Sie den zu stakenden Betrag ein.",
       "KEPLR_DASHBOARD": "Keplr-Dashboard",
       "STAKED_BALANCE": "Gestakter Saldo",
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Die geschätzten Gasgebühren sind größer als der beanspruchbare Prämienwert.",
+      "PREVIEW_STAKE": "Stake vorschau",
       "VALIDATORS_INFO_LINK": "Weitere Informationen zu Validatoren finden Sie unter {MINTSCAN_LINK}.",
       "STAKING_LEGAL_DISCLAIMER": "Sie staken Ihre Assets auf einen Validator-Knoten, der von einem Dritten betrieben wird. Der Betreiber dieser Website ist nicht verantwortlich für solche Staking-Dienste, die von Dritten bereitgestellt werden. Stake zu einem anderen Validator mit  {KEPLR_DASHBOARD_LINK}oder liquide Stake mit {STRIDE_LINK}.",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "Sie staken Ihre Assets zu einem Validator-Knoten, der von einem Dritten betrieben wird, und Sie sind allein verantwortlich für die Auswahl Ihres Validators. Der Betreiber dieser Website ist nicht verantwortlich für Staking-Dienste, die von Dritten bereitgestellt werden. Sie können zu jedem Validator staken, der sich nicht in diesem Dropdown-Menü auf {KEPLR_DASHBOARD_LINK} befindet, oder einen Liquid Stake auf {STRIDE_LINK} durchführen."
@@ -1011,8 +1014,17 @@
       "UNSTAKED_BALANCE": "Ungestakter Saldo",
       "SELECTED_VALIDATOR": "Ausgewählter Validator",
       "UNSTAKING_PERIOD": "Unstaking-Zeitraum",
+      "PREVIEW_UNSTAKE": "Vorschau Unstake",
       "VALIDATOR": "Validator",
       "UNSTAKING_PERIOD_DESCRIPTION": "Der Unstaking-Zeitraum kann bis zu 30 Tage dauern und Sie verdienen keine Prämien auf diesen Saldo."
+    },
+    "STAKE_CONFIRMATION_MODAL": {
+      "CONFIRM_STAKE": "Einsatz bestätigen",
+      "STAKE_CONFIRMATION_DESCRIPTOR": "Nach der Bestätigung verdienen Sie Prämien in USDC. Denken Sie daran, dass das Unstaking 30 Tage dauert."
+    },
+    "UNSTAKE_CONFIRMATION_MODAL": {
+       "CONFIRM_UNSTAKE": "Unstake bestätigen",
+       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Nach der Bestätigung werden Sie keine Prämien mehr für den gestakten Betrag verdienen. Alle nicht beanspruchten Prämien von diesem Validator werden automatisch beansprucht. Das Unstaking dauert 30 Tage."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Sagen Sie uns, wie wir für Sie ein besseres Handelserlebnis schaffen können. Für Fragen oder Fehlerberichte verwenden Sie bitte den Hilfe-Chat.",
@@ -1745,8 +1757,8 @@
       "EMPTY_HISTORICAL_REWARDS_DESCRIPTION": "Beginnen Sie mit dem Trading, um Prämien zu verdienen.",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Wie kann ich meine Trading-Prämien abholen?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Trading-Prämien werden für jeden Block automatisch direkt an die dYdX Chain-Adresse des Traders gesendet.",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_QUESTION": "Wie kann ich Staking durchführen und Staking-Prämien beanspruchen?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_ANSWER": "Um zu staken, klicken Sie auf die Schaltfläche „Staken“ und geben Sie den Betrag der Token ein, die Sie einsetzen möchten. Ein Validator aus einer Reihe von Validatoren mit gutem Ruf in der Community wird automatisch ausgewählt, basierend darauf. welcher qualifizierte Validator die wenigsten Token gestaked hat und nie geslasht wurde. Um Staking-Prämien zu beanspruchen, klicken Sie auf die Schaltfläche „Claim“, sofern USCD-Prämien verfügbar sind. Die beanspruchten USDC-Prämien werden Ihrem Konto gutgeschrieben, so dass Sie sofort damit handeln können! Beachten Sie, dass bei der Beanspruchung von USDC-Prämien eine Gasgebühr anfällt.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Wie kann ich Staking durchführen und Staking-Prämien beanspruchen?",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Um zu staken, klicken Sie auf die Schaltfläche „Staken“ und geben Sie den Betrag der Token ein, die Sie einsetzen möchten. Ein Validator aus einer Reihe von Validatoren mit gutem Ruf in der Community wird automatisch ausgewählt, basierend darauf. welcher qualifizierte Validator die wenigsten Token gestaked hat und nie geslasht wurde. Um Staking-Prämien zu beanspruchen, klicken Sie auf die Schaltfläche „Claim“, sofern USCD-Prämien verfügbar sind. Die beanspruchten USDC-Prämien werden Ihrem Konto gutgeschrieben, so dass Sie sofort damit handeln können! Beachten Sie, dass bei der Beanspruchung von USDC-Prämien eine Gasgebühr anfällt. Mehr anzeigen {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Wie funktionieren Trading-Prämien?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Unmittelbar nach jedem Auffüllen werden Trading-Prämien gemäß der Höhe der vom Trader gezahlten Gebühren direkt an die dYdX-Chain-Adresse des Traders gesendet. Lesen Sie mehr {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Wie wird der vorkonfigurierte Satz von Validatoren bestimmt?",
@@ -1978,6 +1990,8 @@
       "HIDE_STEPS": "Schritte ausblenden",
       "IMPACT_NOTIONAL": "Einfluss nominal",
       "LIQUIDITY_TIER": "Liquiditätsstufe",
+      "LIST_A_NEW_MARKET": "Neuen Markt vorschlagen",
+      "LISTINGS_DESCRIPTION": "Angebote auf dYdX sind vollständig von der Community gesteuert. Dieses Tool hilft Ihnen dabei, einen Governance-Vorschlag einzureichen, um einen neuen Markt zu listen.",
       "MESSAGE_DETAILS": "Nachrichtendetails",
       "MSG_CREATE_CLOB_PAIR": "Msg clobPair erstellen",
       "MSG_CREATE_ORACLE_MARKET": "Msg Oracle-Markt erstellen",
@@ -2004,7 +2018,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE}zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf das Frontend gesperrt ist. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-{EMAIL}Mail.",
       "PERMANENTLY_BLOCKED_MESSAGE": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn sie meinen, dass ein Fehler aufgetreten ist, senden Sie bitte eine E-{EMAIL}Mail.",
-      "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren Nutzungsbedingungen {LINK}."
+      "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2085,7 +2099,7 @@
     "V4_TESTNET_IMPERATOR": "V4 Testnet 3 (Imperator)"
   },
   "ERRORS": {
-    "BROADCAST_ERROR_SDK_5": "Ihr Ketten-Wallet hat nicht genug Guthaben, um die Transaktionsgebühren zu decken. Bitte zahlen Sie zusätzliche Mittel ein.",
+    "BROADCAST_ERROR_SDK_5": "Das Wallet-Guthaben reicht nicht aus, um die Transaktionsgebühren zu decken. Bitte zahlen Sie zusätzliche Mittel ein.",
     "BROADCAST_ERROR_CLOB_2000": "„Fill or Kill“-Order konnte nicht erfüllt werden.",
     "BROADCAST_ERROR_CLOB_2001": "„Reduce-only“-Orders können die Positionsgröße nicht erhöhen.",
     "BROADCAST_ERROR_CLOB_2002": "„Reduce-only“-Orders können die Positionsseite nicht ändern.",
@@ -2299,6 +2313,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Bitte wählen Sie eine Quellkette aus, an die Sie auszahlen möchten."
     },
     "TRANSFER_MODAL": {
+      "AMOUNT_MINIMUM_ERROR": "Der Betrag muss größer als {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Ungültige dYdX-Kettenadresse.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Wir konnten kein mit dieser Wallet-Adresse verknüpftes Konto finden.",
       "TRANSFER_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten übertragen.",

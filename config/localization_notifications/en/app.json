@@ -25,7 +25,7 @@
       "BODY": "Receive USDC rewards."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
+      "TITLE": "Season {SEASON_NUMBER} has begun!",
       "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -167,6 +167,10 @@
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Live proposal to wind down {MARKET_1} and {MARKET_2} markets",
       "BODY": "There is currently a live proposal to wind down the {MARKET_1} and {MARKET_2} markets. If passed, the {MARKET_1} and {MARKET_2} markets will enter final settlement on {DATE}. Existing positions will be closed and open orders will be canceled. You can find more information regarding the proposal {HERE_LINK}."
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "Live proposal to update {MARKET} parameters",
+      "BODY": "There is currently a live proposal to update the parameters of {MARKET} market. If passed, the {MARKET} market will have Coinbase Pro {MARKET} as the only oracle source. You can find more information regarding the proposal {HERE_LINK}."
     }
   }
 }
