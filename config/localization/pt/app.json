@@ -84,7 +84,7 @@
       "CLICK_HERE": "Clique aqui",
       "CLOSE": "Fechar",
       "COMING_SOON": "Em breve",
-      "COMMISSION_PERCENTAGE": "Comissão de {PERCENTAGE}", 
+      "COMMISSION_PERCENTAGE": "Comissão de {PERCENTAGE}",
       "COMPETITION": "Competição",
       "COMPETITIONS": "Competições",
       "CONFIRM_DEPOSIT": "Confirmar depósito",
@@ -133,7 +133,8 @@
       "EG": "ex.:",
       "EMAIL": "E-mail",
       "ENDED": "Encerrado",
-      "EQUITY": "Equity",
+      "ENTERTAINMENT": "Entretenimento",
+      "EQUITY": "Equidade",
       "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gás",
       "EST_REWARDS": "Est. Recompensas",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "“{QUERY}” não encontrado",
       "QUEUED": "Na fila",
       "RANKINGS": "Classificações",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Receba",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recente",
@@ -1016,6 +1018,7 @@
       "UNSTAKING_PERIOD": "Período de retirada de stake",
       "PREVIEW_UNSTAKE": "Pré-visualizar retirada de stake",
       "VALIDATOR": "Validador",
+      "VALIDATORS": "Validadores",
       "UNSTAKING_PERIOD_DESCRIPTION": "O período de não staking pode levar até 30 dias e você não ganhará recompensas neste saldo."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1023,8 +1026,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmado, você começará a ganhar recompensas em USDC. Lembre-se de que a remoção de staking levará 30 dias para ser concluída."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "Confirmar remoção de staking",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
+      "CONFIRM_UNSTAKE": "Confirmar remoção de staking",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Para perguntas ou relatar bugs, use o chat de ajuda.",
@@ -1518,6 +1521,33 @@
       "YOU_WON": "Você ganhou!",
       "YOUR_LEAGUE": "Sua Liga",
       "YOURE_IN": "Você está em {LEAGUE}"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Os cofres fornecem liquidez automatizada em todos os mercados de dYdX. Os cofres visam uma posição neutra no mercado cotando dos dois lados do livro. A P&L varia de acordo com as condições do mercado e existe o risco de perda de parte ou da totalidade do USDC depositado.",
+      "LP_VAULT": "Cofre de LP",
+      "VAULT": "Cofre",
+      "ASSET_VAULT": "Cofre de {ASSET}",
+      "VAULTS": "Cofres",
+      "VAULT_DETAILS": "Dados do cofre",
+      "VAULT_FAQS": "Perguntas frequentes sobre cofres",
+      "VAULT_BALANCE": "Saldo do cofre",
+      "VAULT_POSITION": "Posição do cofre",
+      "VAULT_LEVERAGE": "Alavancagem do cofre",
+      "VAULT_ALL_TIME_PNL": "Lucros e perdas do cofre por todo o período",
+      "VAULT_THIRTY_DAY_APR": "APR 30d",
+      "VAULTS_OVERVIEW": "Visão geral dos cofres",
+      "VAULT_DOCS": "Docs do cofre",
+      "ALL_VAULTS": "Todos os cofres",
+      "MY_VAULTS": "Meus cofres",
+      "YOUR_BALANCE": "Seu saldo",
+      "SEARCH_VAULTS": "Pesquisar cofres",
+      "YOUR_LP_VAULT_BALANCE": "Seu saldo no cofre de LP",
+      "VIEW_VAULT": "Ver cofre",
+      "VAULT_EQUITY": "Equity do cofre",
+      "VAULT_PNL": "Lucros e perdas do cofre",
+      "DEPOSITS_AND_WITHDRAWALS": "Depósitos e saques",
+      "VIEW_ALL_VAULTS": "Ver todos os cofres",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "Você não tem depósitos no cofre."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "Redução de 66%",
@@ -2182,7 +2212,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Essa ordem colocaria você acima do limite de {LIMIT} ordens abertas.",
       "WOULD_NOT_REDUCE": "Sua posição não será reduzida se o pedido for preenchido.",
       "WOULD_NOT_REDUCE_UNCHECK": "Com esta ordem, sua posição não seria reduzida. Desmarque a opção Somente Reduzir se quiser colocar sua ordem.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til excede o máximo de 90 dias."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til excede o máximo de 90 dias.",
+      "POSITION_LEVERAGE_OVER_MAX": "A alavancagem da posição resultante seria superior à alavancagem máxima para este mercado."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Intervalo de aumento\/redução",
