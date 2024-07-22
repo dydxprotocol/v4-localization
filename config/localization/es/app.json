@@ -84,7 +84,7 @@
       "CLICK_HERE": "Haz clic aquí",
       "CLOSE": "Cerrar",
       "COMING_SOON": "Próximamente",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} comisión", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} comisión",
       "COMPETITION": "Competencia",
       "COMPETITIONS": "Competencias",
       "CONFIRM_DEPOSIT": "Confirmar el depósito",
@@ -133,6 +133,7 @@
       "EG": "por ejemplo:",
       "EMAIL": "Correo electrónico",
       "ENDED": "Finalizado",
+      "ENTERTAINMENT": "Entretenimiento",
       "EQUITY": "Equidad",
       "EST_APR": "Est. {PERCENTAGE} APR",
       "EST_GAS": "Est. Gas",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "“{QUERY}” no fue encontrada",
       "QUEUED": "En cola",
       "RANKINGS": "Posicionamientos",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "Recibir",
       "RECENT_TRADES_SHORT": "Operaciones",
       "RECENT": "Reciente",
@@ -1017,6 +1019,7 @@
       "UNSTAKING_PERIOD": "Período de eliminación de apuestas",
       "PREVIEW_UNSTAKE": "Vista previa de la eliminación de apuestas",
       "VALIDATOR": "Validador",
+      "VALIDATORS": "Validadores",
       "UNSTAKING_PERIOD_DESCRIPTION": "El período de eliminación de apuestas puede tardar hasta 30 días y no ganarás recompensas en este saldo."
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1024,8 +1027,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "Una vez confirmada, comenzarás a ganar recompensas en USDC. Recuerda que la eliminación de apuestas tardará 30 días en completarse."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "Confirmar la eliminación de apuestas",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Una vez confirmada, dejarás de ganar recompensas en la cantidad apostada. Todas las recompensas no reclamadas de este validador se reclamarán automáticamente. La eliminación de apuestas tardará 30 días en completarse."
+      "CONFIRM_UNSTAKE": "Confirmar la eliminación de apuestas",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Una vez confirmada, dejarás de ganar recompensas en la cantidad apostada. Todas las recompensas no reclamadas de este validador se reclamarán automáticamente. La eliminación de apuestas tardará 30 días en completarse."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "Cuéntanos cómo podemos construir una mejor experiencia de trading para ti. Para preguntas o informes de errores, por favor utiliza el chat de ayuda.",
@@ -1519,6 +1522,33 @@
       "YOU_WON": "¡Ganaste!",
       "YOUR_LEAGUE": "Tu categoría",
       "YOURE_IN": "Estás en {LEAGUE}"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "Las bóvedas proporcionan liquidez automatizada en todos los mercados de dYdX. Las bóvedas apuntan a una posición neutral en el mercado al citar ambos lados del libro. Las P&G variarán en función de las condiciones del mercado y hay un riesgo de perder parte o la totalidad del USDC depositado.",
+      "LP_VAULT": "Bóveda de LP",
+      "VAULT": "Bóveda",
+      "ASSET_VAULT": "{ASSET} Bóveda",
+      "VAULTS": "Bóvedas",
+      "VAULT_DETAILS": "Detalles de la bóveda",
+      "VAULT_FAQS": "Preguntas frecuentes de la bóveda",
+      "VAULT_BALANCE": "Saldo de la bóveda",
+      "VAULT_POSITION": "Posición de la bóveda",
+      "VAULT_LEVERAGE": "Aprovechameinto de la bóveda",
+      "VAULT_ALL_TIME_PNL": "P&G de la bóveda completa",
+      "VAULT_THIRTY_DAY_APR": "APR de 30 días",
+      "VAULTS_OVERVIEW": "Descripción general de las bóvedas",
+      "VAULT_DOCS": "Documentos de la bóveda",
+      "ALL_VAULTS": "Todas las bóvedas",
+      "MY_VAULTS": "Mis bóvedas",
+      "YOUR_BALANCE": "Tu saldo",
+      "SEARCH_VAULTS": "Bóvedas de búsqueda",
+      "YOUR_LP_VAULT_BALANCE": "Tu balance de la bóveda de LP",
+      "VIEW_VAULT": "Ver la bóveda",
+      "VAULT_EQUITY": "Capital de la bóveda",
+      "VAULT_PNL": "P&G de la bóveda",
+      "DEPOSITS_AND_WITHDRAWALS": "Depósitos y retiros",
+      "VIEW_ALL_VAULTS": "Ver todas las bóvedas",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "No tienes depósitos en la bóveda."
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "Reducción del 66%",
@@ -2183,7 +2213,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Esta orden te pondría por encima del límite de órdenes {LIMIT}abiertas.",
       "WOULD_NOT_REDUCE": "Tu posición no se reduciría si la orden se completa.",
       "WOULD_NOT_REDUCE_UNCHECK": "Con esta orden tu posición no se reduciría. Por favor, desmarca Solo reducir si deseas poner tu orden.",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "Válido hasta que excede el máximo de 90 días."
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "Válido hasta que excede el máximo de 90 días.",
+      "POSITION_LEVERAGE_OVER_MAX": "El apalancamiento de la posición resultante estaría por encima del apalancamiento máximo para este mercado."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Tamaño del escalón",

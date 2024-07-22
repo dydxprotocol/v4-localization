@@ -84,7 +84,7 @@
       "CLICK_HERE": "여기를 클릭하세요",
       "CLOSE": "종료",
       "COMING_SOON": "곧 출시",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 수수료", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE} 수수료",
       "COMPETITION": "대회",
       "COMPETITIONS": "경쟁",
       "CONFIRM_DEPOSIT": "입금 승인",
@@ -190,6 +190,7 @@
       "ADD_NEW_MARKET": "새 시장 추가",
       "ADD_NEW_MARKET_CAPITALIZED": "새 시장 추가",
       "NO_RECENTLY_LISTED_MARKETS": "최근에 나열된 시장이 없습니다",
+      "NO_RESULTS": "결과 없음",
       "HIGHLIGHTS": "주요 내용",
       "LAYER_1": "레이어 1",
       "LAYER_2": "레이어 2",
@@ -286,6 +287,7 @@
       "SAVE": "저장",
       "SAVED": "저장됨",
       "SCAN_TO_DOWNLOAD": "스캔하여 앱 다운로드",
+      "SEARCH": "검색",
       "SELECT": "선택 {SELECTION}",
       "SELECT_ASSET": "자산 선택",
       "SELECT_CHAIN": "체인 선택",
@@ -986,6 +988,7 @@
       "FAST": "빠른",
       "FAST_WITHDRAW_CONFIRMATION": "빠른 인출을 이용하는 데 {FEE}의 수수료가 청구됩니다. 귀하의 자금이 즉시 전송되며 인출 거래가 확인되면 지갑에 나타납니다.",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "최저 수수료",
+      "LOWEST_FEE_WITHDRAWALS_SKIP": "{LOWEST_FEE_TOKENS_TOOLTIP}(으)로 USDC 인출이 수수료가 가장 낮습니다. 다른 인출 방법(예: 이더리움의 자산)은 서드파티 수수료가 더 높을 수 있습니다.",
       "LOWEST_FEE_WITHDRAWALS": "{LOWEST_FEE_TOKENS_TOOLTIP}(으)로 USDC 인출이 수수료가 가장 낮습니다. 다른 인출에는 추가 서드파티 수수료가 있을 수 있습니다.",
       "LOWEST_FEES_WITH_USDC": "USDC와 함께 {LOWEST_FEES_HIGHLIGHT_TEXT}",
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "인출된 자금에 액세스하여 dYdX 외부의 Magic 지갑을 다시 사용하려면 지갑을 다른 지갑 공급자로 내보내야 합니다.",
@@ -1027,8 +1030,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "확인되면 USDC에서 보상을 받기 시작합니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "스테이킹 해제 확인",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "확인되면 스테이킹된 금액에 대한 보상을 받지 않습니다. 이 검증자의 청구되지 않은 모든 보상은 자동으로 청구됩니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
+      "CONFIRM_UNSTAKE": "스테이킹 해제 확인",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "확인되면 스테이킹된 금액에 대한 보상을 받지 않습니다. 이 검증자의 청구되지 않은 모든 보상은 자동으로 청구됩니다. 스테이킹 해제를 완료하는 데 30일이 걸립니다."
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "우리가 더 나은 트레이딩 환경을 구축할 수 있는 방법을 들려주세요. 질문이나 오류 보고는 도움말 채팅을 이용해 주세요.",
@@ -1306,6 +1309,7 @@
       "MARKET_SELL": "시장가 매도",
       "MAXIMUM_POSITION_SIZE": "최대 포지션 크기",
       "MID_MARKET": "중간 시장",
+      "MID_MARKET_PRICE_SHORT": "중간",
       "MODIFY_GOOD_TIL": "취소시까지 유효한 주문 수정",
       "MODIFY_PRICE": "가격 수정",
       "MODIFY_SIZE_FIELD": "거래량 수정",
@@ -1524,31 +1528,17 @@
       "YOURE_IN": "귀하는 {LEAGUE}위입니다"
     },
     "VAULTS": {
-      "VAULT_DESCRIPTION": "볼트는 모든 dYdX 시장에서 자동화된 유동성을 제공합니다. 볼트는 책의 양면을 인용하여 시장 중립적인 입장을 취하도록 합니다. P&L은 시장 상황에 따라 달라지며 USDC가 입금된 일부 또는 전부를 잃을 위험이 있습니다.",
-      "LP_VAULT": "LP 금고",
       "VAULT": "금고",
-      "ASSET_VAULT": "{ASSET} 금고",
-      "VAULTS": "금고",
-      "VAULT_DETAILS": "금고 세부 정보",
-      "VAULT_FAQS": "금고 FAQ",
-      "VAULT_BALANCE": "금고 잔액",
-      "VAULT_POSITION": "금고 위치",
-      "VAULT_LEVERAGE": "금고 레버리지",
-      "VAULT_ALL_TIME_PNL": "상시 금고 P&L",
+      "YOUR_ALL_TIME_PNL": "전체 시간 P&L",
       "VAULT_THIRTY_DAY_APR": "4월 30일",
-      "VAULTS_OVERVIEW": "금고 개요",
-      "VAULT_DOCS": "금고 문서",
-      "ALL_VAULTS": "모든 금고",
-      "MY_VAULTS": "내 금고",
-      "YOUR_BALANCE": "잔액",
-      "SEARCH_VAULTS": "금고 검색",
-      "YOUR_LP_VAULT_BALANCE": "LP 금고 잔액",
+      "VAULT_THIRTY_DAY_PNL": "30일 손익",
+      "YOUR_VAULT_BALANCE": "금고 잔액",
       "VIEW_VAULT": "금고 보기",
       "VAULT_EQUITY": "금고 지분",
       "VAULT_PNL": "금고 P&L",
-      "DEPOSITS_AND_WITHDRAWALS": "입금 및 출금",
-      "VIEW_ALL_VAULTS": "모든 금고 보기",
-      "YOU_HAVE_NO_VAULT_DEPOSITS": "금고 입금이 없습니다."
+      "YOUR_DEPOSITS_AND_WITHDRAWALS": "나의 입금 및 출금",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "금고 입금이 없습니다.",
+      "TVL": "TVL"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% 감소",
@@ -1682,6 +1672,7 @@
       "COMPLIANCE_BODY": "지금 계시는 곳, 혹은 거래 중인 곳이 이용 약관을 위반하는 관할 구역이거나, 거래 중인 거주 국가와 위치를 확인하지 않았기 때문에 포지션을 줄이는 시장 주문 이외의 주문은 차단되었습니다.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_1": "지금 계시는 곳, 혹은 거래 중인 곳이 이용 약관을 위반하는 관할 구역이거나, 거래 중인 거주 국가와 위치를 확인하지 않았기 때문에 포지션을 줄이는 시장 주문 이외의 주문은 차단되었습니다.",
       "COMPLIANCE_BODY_FIRST_OFFENSE_2": "차단 해제하려면 (1) 거주 국가 및 (2) 사용 약관 준수를 확인하십시오. 확인을 완료하여 계정 차단이 해제된 경우라도, 향후 이용 약관을 위반할 경우에는 프로토콜에서 영구 차단으로 이어지게 됩니다. 다만 자금은 언제나 인출할 수 있습니다.",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "경고: 거주 국가를 확인하면 이 사이트에 액세스할 수 있는 권한이 더 이상 당사의 이용 약관을 위반하는 관할권에 속하지 않을 때까지 일시 중단됩니다. 제한된 관할권에서 이 사이트에 연결하려는 추가 시도는 영구적인 금지 조치로 이어집니다.",
       "COMPLIANCE_ACKNOWLEDGEMENT": "미국, 캐나다 또는 기타 제한된 관할권의 개인 또는 항목에 대한 금지를 포함하여 사용 약관을 읽고 준수함을 확인합니다.",
       "COMPLIANCE_REQUEST": "규정 준수 요청",
       "CONTINUE": "계속하기",
@@ -1996,6 +1987,7 @@
       "SELECT_A_THEME": "색상 테마 선택"
     },
     "GLOBAL_COMMANDS": {
+      "COMMANDS": "명령",
       "SET_CLASSIC_DARK_THEME": "클래식 다크 테마 설정",
       "SET_SYSTEM_THEME": "시스템 테마 설정",
       "SET_DARK_THEME": "다크 테마 설정",
@@ -2047,8 +2039,8 @@
       "VIEW_PROPOSAL": "제안 보기"
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 자금을 {DATE}인출할 때까지 있어야 합니다. 오류가 있었다고 생각되시면 {EMAIL} 이메일로 문의하십시오.",
-      "PERMANENTLY_BLOCKED_MESSAGE": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있었다고 생각되시면 {EMAIL} 이메일로 문의하십시오.",
+      "CLOSE_ONLY_MESSAGE_WITH_HELP": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 자금을 {DATE}인출할 때까지 있어야 합니다. 오류가 있다고 생각되면 {HELP_LINK} 지원에 문의하십시오.",
+      "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK} 지원에 문의하십시오.",
       "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. "
     }
   },

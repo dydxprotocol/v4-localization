@@ -84,7 +84,7 @@
       "CLICK_HERE": "ここをクリック",
       "CLOSE": "クローズ",
       "COMING_SOON": "近日公開",
-      "COMMISSION_PERCENTAGE": "{PERCENTAGE}コミッション", 
+      "COMMISSION_PERCENTAGE": "{PERCENTAGE}コミッション",
       "COMPETITION": "コンペティション",
       "COMPETITIONS": "コンペティション",
       "CONFIRM_DEPOSIT": "入金確認",
@@ -133,6 +133,7 @@
       "EG": "例",
       "EMAIL": "メール",
       "ENDED": "終了",
+      "ENTERTAINMENT": "エンターテインメント",
       "EQUITY": "エクイティ",
       "EST_APR": "設立{PERCENTAGE}年利",
       "EST_GAS": "推定Gas（ガス）",
@@ -267,6 +268,7 @@
       "QUERY_NOT_FOUND": "「{QUERY}」が見つかりませんでした",
       "QUEUED": "待機",
       "RANKINGS": "ランキング",
+      "REAL_WORLD_ASSET_SHORT": "RWA",
       "RECEIVE": "受け取る",
       "RECENT_TRADES_SHORT": "取引",
       "RECENT": "最近",
@@ -1017,6 +1019,7 @@
       "UNSTAKING_PERIOD": "ステーキング解除期間",
       "PREVIEW_UNSTAKE": "ステーキング解除をプレビュー",
       "VALIDATOR": "バリデータ",
+      "VALIDATORS": "バリデータ",
       "UNSTAKING_PERIOD_DESCRIPTION": "ステーキング解除期間には最大30日間かかることがあり、この残高では報酬を獲得できません。"
     },
     "STAKE_CONFIRMATION_MODAL": {
@@ -1024,8 +1027,8 @@
       "STAKE_CONFIRMATION_DESCRIPTOR": "確認されると、USDCで報酬の獲得を開始します。 ステーキング解除が完了するのに30日間かかることにご注意ください。"
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
-       "CONFIRM_UNSTAKE": "ステーキング解除を確認",
-       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "確認されると、ステーキング金額の報酬の獲得を停止します。 このバリデータからのすべての未請求報酬は、自動的に請求されます。 ステーキング解除が完了するまで30日間かかります。"
+      "CONFIRM_UNSTAKE": "ステーキング解除を確認",
+      "UNSTAKE_CONFIRMATION_DESCRIPTOR": "確認されると、ステーキング金額の報酬の獲得を停止します。 このバリデータからのすべての未請求報酬は、自動的に請求されます。 ステーキング解除が完了するまで30日間かかります。"
     },
     "FEEDBACK_MODAL": {
       "FEEDBACK_PLACEHOLDER": "お客様のために、当社がより優れた取引体験をどのように提供できるかについて、ご意見をお聞かせください。ご質問やバグ報告については、ヘルプチャットをご利用ください。",
@@ -1519,6 +1522,33 @@
       "YOU_WON": "勝ちました！",
       "YOUR_LEAGUE": "あなたのリーグ",
       "YOURE_IN": "あなたは{LEAGUE}に参加しています"
+    },
+    "VAULTS": {
+      "VAULT_DESCRIPTION": "ボールトは、すべてのdYdXマーケットで自動化された流動性を提供します。 ボールトは、本の両面を引用することで、市場中立的な立場を目指しています。 P&Lは、市況に基づいて異なり、入金されたUSDCの一部または全部を失うリスクがあります。",
+      "LP_VAULT": "LPボールト",
+      "VAULT": "ボールト",
+      "ASSET_VAULT": "{ASSET}ボールト",
+      "VAULTS": "ボールト",
+      "VAULT_DETAILS": "ボールトの詳細",
+      "VAULT_FAQS": "ボールトFAQ",
+      "VAULT_BALANCE": "ボールト残高",
+      "VAULT_POSITION": "ボールトポジション",
+      "VAULT_LEVERAGE": "ボールトレバレッジ",
+      "VAULT_ALL_TIME_PNL": "オールタイムボールトP＆L",
+      "VAULT_THIRTY_DAY_APR": "30d APR",
+      "VAULTS_OVERVIEW": "ボールトの概要",
+      "VAULT_DOCS": "ボールトドキュメント",
+      "ALL_VAULTS": "すべてのボールト",
+      "MY_VAULTS": "私のボールト",
+      "YOUR_BALANCE": "残高",
+      "SEARCH_VAULTS": "ボールトを検索",
+      "YOUR_LP_VAULT_BALANCE": "LPボールト残高",
+      "VIEW_VAULT": "ボールトを見る",
+      "VAULT_EQUITY": "ボールトエクイティ",
+      "VAULT_PNL": "ボールトP＆L",
+      "DEPOSITS_AND_WITHDRAWALS": "入金と引き出し",
+      "VIEW_ALL_VAULTS": "すべてのボールトを見る",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "ボールト預金はありません。"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66％削減",
@@ -2183,7 +2213,8 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "この注文を行うと、オープンオーダーの上限である{LIMIT}件を超過します。",
       "WOULD_NOT_REDUCE": "注文が約定された場合、ポジションが減少することはありません。",
       "WOULD_NOT_REDUCE_UNCHECK": "この注文ではポジションが減少することはありません。注文を出す場合、リデュースオンリーのチェックを外してください。",
-      "INVALID_GOOD_TIL_MAX_90_DAYS": "グッドティルが最大の90日を超えています。"
+      "INVALID_GOOD_TIL_MAX_90_DAYS": "グッドティルが最大の90日を超えています。",
+      "POSITION_LEVERAGE_OVER_MAX": "結果として生じるポジションレバレッジは、この市場の最大レバレッジを超えています。"
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "ステップサイズ",

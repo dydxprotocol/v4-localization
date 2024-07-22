@@ -190,6 +190,7 @@
       "ADD_NEW_MARKET": "添加新市场",
       "ADD_NEW_MARKET_CAPITALIZED": "添加新市场",
       "NO_RECENTLY_LISTED_MARKETS": "最近没有上市市场",
+      "NO_RESULTS": "没有结果",
       "HIGHLIGHTS": "亮点",
       "LAYER_1": "第 1 层",
       "LAYER_2": "Layer 2",
@@ -286,6 +287,7 @@
       "SAVE": "保存",
       "SAVED": "已保存",
       "SCAN_TO_DOWNLOAD": "扫描以下载应用程序",
+      "SEARCH": "搜索",
       "SELECT": "选择 {SELECTION}",
       "SELECT_ASSET": "选择资产",
       "SELECT_CHAIN": "选择一条链",
@@ -986,6 +988,7 @@
       "FAST": "快速提现",
       "FAST_WITHDRAW_CONFIRMATION": "将对此笔快速提现收取{FEE}的费用。您的资金将立即发送，并会在提现交易确认后出现在您的钱包中。",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "最低费用",
+      "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现方法（例如，以太坊上的资产）可能具有更高的第三方费用。",
       "LOWEST_FEE_WITHDRAWALS": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现可能有额外的第三方费用。",
       "LOWEST_FEES_WITH_USDC": "{LOWEST_FEES_HIGHLIGHT_TEXT} 使用USDC",
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "要使用所提取的资金并在 dYdX 之外重新使用您的 Magic 钱包，您必须将您的钱包导出到另一个钱包提供商。",
@@ -1306,6 +1309,7 @@
       "MARKET_SELL": "市价卖出",
       "MAXIMUM_POSITION_SIZE": "最大仓位",
       "MID_MARKET": "中端市场",
+      "MID_MARKET_PRICE_SHORT": "中端",
       "MODIFY_GOOD_TIL": "修改好直到",
       "MODIFY_PRICE": "修改价格",
       "MODIFY_SIZE_FIELD": "修改金额",
@@ -1524,31 +1528,17 @@
       "YOURE_IN": "您在{LEAGUE}"
     },
     "VAULTS": {
-      "VAULT_DESCRIPTION": "保险库为所有 dYdX 市场提供自动化流动性。通过报价账面双方，保险库旨在实现市场中立头寸。损益将根据市场状况而变化，并且存在损失部分或全部USDC存款的风险。",
-      "LP_VAULT": "流动性提供商（Liquidity Provider, LP）保险库",
       "VAULT": "保险库",
-      "ASSET_VAULT": "{ASSET}保险库",
-      "VAULTS": "保险库",
-      "VAULT_DETAILS": "保险库详细信息",
-      "VAULT_FAQS": "保险库常见问题",
-      "VAULT_BALANCE": "保险库余额",
-      "VAULT_POSITION": "保险库位置",
-      "VAULT_LEVERAGE": "保险库杠杆",
-      "VAULT_ALL_TIME_PNL": "历年保险库盈亏情况",
+      "YOUR_ALL_TIME_PNL": "您的历史盈亏记录",
       "VAULT_THIRTY_DAY_APR": "30 天的年利率",
-      "VAULTS_OVERVIEW": "保险库概览",
-      "VAULT_DOCS": "保险库文档",
-      "ALL_VAULTS": "所有保险库",
-      "MY_VAULTS": "我的保险库",
-      "YOUR_BALANCE": "您的余额",
-      "SEARCH_VAULTS": "搜索保险库",
-      "YOUR_LP_VAULT_BALANCE": "您的流动性提供商（Liquidity Provider, LP）保险库余额",
+      "VAULT_THIRTY_DAY_PNL": "30天盈亏",
+      "YOUR_VAULT_BALANCE": "您的保险库余额",
       "VIEW_VAULT": "查看保险库",
       "VAULT_EQUITY": "保险库权益",
       "VAULT_PNL": "保险库盈亏",
-      "DEPOSITS_AND_WITHDRAWALS": "存款与提款",
-      "VIEW_ALL_VAULTS": "查看所有保险库",
-      "YOU_HAVE_NO_VAULT_DEPOSITS": "您并无保险库存款。"
+      "YOUR_DEPOSITS_AND_WITHDRAWALS": "您的存款与提款",
+      "YOU_HAVE_NO_VAULT_DEPOSITS": "您并无保险库存款。",
+      "TVL": "总锁仓价值"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "降低66%",
@@ -1682,6 +1672,7 @@
       "COMPLIANCE_BODY": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
       "COMPLIANCE_BODY_FIRST_OFFENSE_1": "由于您似乎是违反我们使用条款的管辖区的居民或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
       "COMPLIANCE_BODY_FIRST_OFFENSE_2": "如果您希望解除封锁，请确认：(1) 您居住的国家；(2) 您遵守了使用条款。如果您完成确认，并且账户解除了限制，请注意，未来任何违反我们使用条款的行为都会导致立即受限，届时我们将不再解除限制，但您始终可以提现资金。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "警告：一旦您确认了所在居住国家，您访问本网站的能力将被暂停，直到您不再处于违反我们的使用条款的司法管辖区。 任何从受限制的司法管辖区连接到本网站的进一步尝试都将导致永久禁止。",
       "COMPLIANCE_ACKNOWLEDGEMENT": "我已阅读并确认遵守使用条款，包括禁止美国、加拿大或其他受限司法管辖区的个人或实体使用。",
       "COMPLIANCE_REQUEST": "合规请求",
       "CONTINUE": "继续",
@@ -1996,6 +1987,7 @@
       "SELECT_A_THEME": "选择颜色主题"
     },
     "GLOBAL_COMMANDS": {
+      "COMMANDS": "命令",
       "SET_CLASSIC_DARK_THEME": "设置经典深色主题",
       "SET_SYSTEM_THEME": "设置系统主题",
       "SET_DARK_THEME": "设置深色主题",
@@ -2047,8 +2039,8 @@
       "VIEW_PROPOSAL": "查看提议"
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
-      "PERMANENTLY_BLOCKED_MESSAGE": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
+      "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
+      "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     }
   },
