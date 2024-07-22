@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1735,6 +1735,7 @@ export const APP_STRING_KEYS = {
     METAMASK: 'APP.WALLETS.METAMASK',
     OKX_WALLET: 'APP.WALLETS.OKX_WALLET',
     OTHER_WALLET: 'APP.WALLETS.OTHER_WALLET',
+    PHANTOM: 'APP.WALLETS.PHANTOM',
     RAINBOW_WALLET: 'APP.WALLETS.RAINBOW_WALLET',
     TEST_WALLET: 'APP.WALLETS.TEST_WALLET',
     TOKEN_POCKET: 'APP.WALLETS.TOKEN_POCKET',
