@@ -2240,6 +2240,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Too much slippage",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Too much slippage",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Not enough liquidity",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "One-sided liquidity",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Potentally invalid leverage",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Too much slippage",
       "NEW_POSITION_SIZE_OVER_MAX": "Max position size",
