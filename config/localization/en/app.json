@@ -2205,6 +2205,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "This market order would result in {SLIPPAGE} oracle price slippage given current liquidity. Please use a limit order if you still intend to place this order.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "This market order would result in {SLIPPAGE} of orderbook price impact given current liquidity. Please use a limit order if you still intend to place this order.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "There is not enough liquidity to fill this market order, please try a smaller order amount.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "This market order is not recommended due to one-sided orderbook liquidity. Please place a limit order instead.",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "This order has a non-zero price impact and could potentially put your position over max leverage. Please try a smaller order amount.",
       "NEW_POSITION_SIZE_OVER_MAX": "This trade could result in a position size over the maximum size of {MAX_SIZE} {SYMBOL}.",
       "NO_EQUITY_DEPOSIT_FIRST": "You must deposit funds before you can place orders.",
