@@ -1328,7 +1328,7 @@
       "OFFSETTING": "Offsetting",
       "OHLC": "OHLC",
       "OHLC_VIA_MID_PRICE": "OHLC (via mid-price)",
-      "OHLC_TOOLTIP": "Enable or disable OHLC data via mid-price. Disabling this will only display OHLC data from the orderbook",
+      "OHLC_TOOLTIP": "Enable or disable OHLC data via mid-price. Disabling this will only display OHLC data from the orderbook.",
       "OPEN_INTEREST": "Open Interest",
       "OPEN_POSITIONS": "Open Positions",
       "OPEN_STATUS": "Open",
