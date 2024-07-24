@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1479,6 +1479,9 @@ export const APP_STRING_KEYS = {
     NEXT_IN: 'APP.TRADE.NEXT_IN',
     NOTIONAL_VALUE: 'APP.TRADE.NOTIONAL_VALUE',
     OFFSETTING: 'APP.TRADE.OFFSETTING',
+    OHLC: 'APP.TRADE.OHLC',
+    OHLC_TOOLTIP: 'APP.TRADE.OHLC_TOOLTIP',
+    OHLC_VIA_MID_PRICE: 'APP.TRADE.OHLC_VIA_MID_PRICE',
     OPEN_INTEREST: 'APP.TRADE.OPEN_INTEREST',
     OPEN_POSITIONS: 'APP.TRADE.OPEN_POSITIONS',
     OPEN_STATUS: 'APP.TRADE.OPEN_STATUS',
