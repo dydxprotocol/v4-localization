@@ -353,6 +353,12 @@
       "BODY": "To ensure the security of the protocol, dYdX Chain validators delay the settlement of dYdX Chain DYDX."
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Enable or disable OHLC data via mid-price. Disabling this will only display OHLC data from the orderbook."
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Reference Price",
