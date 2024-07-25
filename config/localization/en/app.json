@@ -1002,7 +1002,8 @@
       "SLOW_WITHDRAW_DESCRIPTION": "Slow withdraws are a two step process. This step initiates your withdraw request and will be processed on Layer 2. Once your funds are ready (can take up to {HOURS} hours), you will receive a notification to withdraw your funds to your wallet. You are responsible for the withdraw transaction gas fees.",
       "SLOW_WITHDRAW_CONFIRMATION": "This {STYLED_SLOW} withdraw may take up to {HOURS} hours before it is available to withdraw. You will be responsible for the withdraw transaction gas fees. If you need your funds sooner, try a {STYLED_FAST} withdraw.",
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible.",
-      "WITHDRAW_ROUTE_WARNING_MESSAGE": "Acknowledge the following warning: {WARNING_MESSAGE}."
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "High third party fees from chosen route. I acknowledge:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "I acknowledge the following warning:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Wallet balance is insufficient to cover the transaction fees.",
