@@ -356,7 +356,7 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Enable or disable OHLC data via mid-price. Disabling this will only display OHLC data from the orderbook."
+      "BODY": "Enable or disable OHLC data via mid-price. Disabling this will only display OHLC data from historical trades."
     }
   },
   "NEW_MARKET_WIDGET": {
