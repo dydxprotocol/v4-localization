@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -56,6 +56,7 @@ export const APP_STRING_KEYS = {
 
     // COMPLIANCE
 
+    BLOCKED_BANNER_MESSAGE: 'APP.COMPLIANCE.BLOCKED_BANNER_MESSAGE',
     BLOCKED_MESSAGE: 'APP.COMPLIANCE.BLOCKED_MESSAGE',
     CLOSE_ONLY_MESSAGE_WITH_HELP: 'APP.COMPLIANCE.CLOSE_ONLY_MESSAGE_WITH_HELP',
     PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP: 'APP.COMPLIANCE.PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP',
