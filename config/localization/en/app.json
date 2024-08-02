@@ -254,6 +254,7 @@
       "POSITION": "Position",
       "POWERED_BY": "Powered By",
       "POWERED_BY_ALL_CAPS": "POWERED BY",
+      "PREDICTION_MARKET": "Prediction Market",
       "PRICE_CHART_SHORT": "Price",
       "PRICE": "Price",
       "PRIVACY": "Privacy",
@@ -661,6 +662,10 @@
       "TIA": {
         "PRIMARY": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
         "SECONDARY": "Celestia enables the next generation of scalable blockchain architectures - modular blockchains. Celestia scales by decoupling execution from consensus and introducing a new primitive, data availability sampling."
+      },
+      "TRUMPWIN": {
+        "PRIMARY": "This market will final settle to $1 if Donald J. Trump wins the 2024 US Presidential Election. Otherwise, this market will final settle to 0.00001. This market uses Polymarket as its oracle source.",
+        "SECONDARY": "Polymarket’s resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2025) this market will resolve based on who is inaugurated."
       },
       "TRX": {
         "PRIMARY": "TRON is a public blockchain dedicated to providing the underlying infrastructure that enables developers to create smart contracts and decentralized applications, freely publish, own, and store data & other content.",
