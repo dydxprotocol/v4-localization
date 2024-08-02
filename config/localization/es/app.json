@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "Dirección de origen",
       "STAKE": "Participación",
       "STAKED": "Staked",
+      "STAKE_FOR_REWARDS": "Participación para recompensas",
       "STAKE_NOW": "Participa ahora",
       "START_TRADING": "Iniciar una operación",
       "STARTED_FROM_DATE": "Comienzo: {FROM_DATE}",
@@ -952,6 +953,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Tu orden para los siguientes mercados es demasiado grande y causaría un slippage excesivo. Considera hacer una limit order."
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Reconocer términos y depositar",
       "BRIDGE_FEE": "Tarifa de puente",
       "ENABLE_FOR_THIS_DEPOSIT": "Habilitar para este depósito",
       "ENABLE_SYMBOL_ON_DYDX": "Habilitar {SYMBOL} en dYdX",
@@ -977,7 +979,8 @@
       "SLIPPAGE": "Deslizamiento",
       "SUBJECT_TO_RULES": "Sujeto a estas reglas",
       "SWAP": "Intercambiar",
-      "ESTIMATED_TIME": "Tiempo estimado"
+      "ESTIMATED_TIME": "Tiempo estimado",
+      "DEPOSIT_ACKNOWLEDGEMENT": "Acepto {TERMS_LINK}y {POLICY_LINK}, incluido que acepto los riesgos asociados con estos productos y servicios y no los usaré desde los Estados Unidos ni desde ninguna otra jurisdicción restringida. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Habilitar retiros",
@@ -1310,6 +1313,7 @@
       "MID_MARKET": "Mercado medio",
       "MID_MARKET_PRICE_SHORT": "Medio",
       "MODIFY_GOOD_TIL": "Modificar Good Til",
+      "MODIFY_MARGIN_AMOUNT": "Modificar la cantidad",
       "MODIFY_PRICE": "Modificar precio",
       "MODIFY_SIZE_FIELD": "Modificar la cantidad",
       "MODIFY_TARGET_LEVERAGE": "Modificar el apalancamiento objetivo",
@@ -1528,6 +1532,7 @@
     },
     "VAULTS": {
       "VAULT": "Bóveda",
+      "VAULT_FAQS": "Preguntas frecuentes de la bóveda",
       "YOUR_ALL_TIME_PNL": "Tus P&G de todos los tiempos",
       "VAULT_THIRTY_DAY_APR": "APR de 30 días",
       "VAULT_THIRTY_DAY_PNL": "P&G de 30 d",
@@ -1537,6 +1542,21 @@
       "VAULT_PNL": "P&G de la bóveda",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "Tus depósitos y retiros",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "No tienes depósitos en la bóveda.",
+      "SLIPPAGE_ACK": "Entiendo que retirar ahora dará como resultado un {AMOUNT}slippage.",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "Reconocer slippage alto",
+      "SLIPPAGE_WARNING": "Este retiro daría como resultado un {AMOUNT}slippage. El slippage puede reducirse si retiras en un momento posterior. Para obtener más información, consulta {LINK}.",
+      "EST_SLIPPAGE": "Slippage estimado",
+      "PROTOCOL_VAULT": "Bóveda de protocolo dYdX",
+      "WITHDRAW_TOO_HIGH": "No puedes retirar más que tu balance de bóveda.",
+      "DEPOSIT_TOO_HIGH": "No puedes depositar más que tu garantía gratuita.",
+      "ENTER_AMOUNT_TO_DEPOSIT": "Ingresa el monto para depositar",
+      "ENTER_AMOUNT_TO_WITHDRAW": "Ingresa el monto para retiro",
+      "AMOUNT_TO_WITHDRAW": "Cantidad a retirar",
+      "PREVIEW_WITHDRAW": "Vista previa de retiro",
+      "PREVIEW_DEPOSIT": "Vista previa del depósito",
+      "AMOUNT_TO_DEPOSIT": "Cantidad para depositar",
+      "CROSS_ACCOUNT": "Cuenta cruzada",
+      "VAULT_DESCRIPTION": "Esta bóveda proporciona liquidez automatizada en todos los mercados de dYdX y obtiene una parte de los ingresos de las tarifas. Las bóvedas apuntan a una posición neutral en el mercado al citar ambos lados del libro. Las P&G variarán en función de las condiciones del mercado y hay un riesgo de perder parte o la totalidad del USDC depositado.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
@@ -2154,6 +2174,7 @@
     "BROADCAST_ERROR_3008": "La orden con estado se canceló anteriormente y, por lo tanto, no se puede realizar.",
     "BROADCAST_ERROR_3009": "La orden con estado se borró anteriormente y, por lo tanto, no se puede realizar.",
     "BROADCAST_ERROR_10001": "La subcuenta no puede abrir más órdenes debido al límite de nivel de capital.{EQUITY_TIER_LEARN_MORE}",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "Esto pondría tu cuenta por debajo del umbral de colateralización. Intenta con una cantidad menor.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Límite de la tasa alcanzado",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Tasa limitada alcanzada para esta dirección IP. Inténtalo de nuevo más tarde.",
