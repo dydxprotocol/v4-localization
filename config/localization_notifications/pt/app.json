@@ -25,7 +25,7 @@
       "BODY": "Receba recompensas USDC."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Começou o lançamento da temporada {SEASON_NUMBER} do programa de incentivos!",
+      "TITLE": "A temporada {SEASON_NUMBER} começou!",
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -167,6 +167,10 @@
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Proposta ativa para encerrar os mercados {MARKET_1} e {MARKET_2}",
       "BODY": "Há atualmente uma proposta ativa para reduzir os mercados {MARKET_1} e {MARKET_2}. Se ela for aprovada, os mercados {MARKET_1} e {MARKET_2} entrarão em liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "Proposta em tempo real para atualizar parâmetros de {MARKET}",
+      "BODY": "Há atualmente uma proposta em tempo real para atualizar os parâmetros do mercado de {MARKET}. Se aprovada, o mercado {MARKET} terá a Coinbase Pro de {MARKET} como a única fonte de oráculo. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     }
   }
 }
