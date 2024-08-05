@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "源地址",
       "STAKE": "权益质押",
       "STAKED": "已质押",
+      "STAKE_FOR_REWARDS": "质押以换取奖励",
       "STAKE_NOW": "立即质押",
       "START_TRADING": "开始交易",
       "STARTED_FROM_DATE": "开始时间 {FROM_DATE}",
@@ -814,6 +815,7 @@
       "INITIATED_TRANSFEROUT": "已发起划转",
       "INVITED_YOU": "已推荐您开始在世界上最强大的开放交易所进行交易。",
       "JOIN_ME": "和我一起在dYdX上享受所有交易费用{DISCOUNT}的优惠！",
+      "KEEP_WINDOW_OPEN": "请保持此窗口处于打开状态，以确保资金到账。",
       "LEDGER_DERIVATION_PATH": "路径",
       "LEGACY_SIGNING": "传统签名",
       "LINK_WALLET": "链接钱",
@@ -834,6 +836,8 @@
       "MULTI_FACTOR_AUTH": "多因素身份验证",
       "PERMITTED_TO_USE": "根据您居住地和所在地司法管辖区的法律，您可以合法地访问此网站，并在dYdX上进行交易。",
       "PRIVACY_POLICY": "隐私政策",
+      "PENDING_TOKEN_APPROVAL": "钱包中待处理的代币批准",
+      "PENDING_DEPOSIT_CONFIRMATION": "钱包中待处理的存款确认",
       "RECOVER_KEYS": "找回密钥",
       "REFERRAL_DISCOUNT": "{DISCOUNT}折扣",
       "REGISTER": "注册",
@@ -953,6 +957,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "您以下交易对的订单太大，会导致超过滑点。 考虑下限价单。"
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "确认条款和充值",
       "BRIDGE_FEE": "桥接费",
       "ENABLE_FOR_THIS_DEPOSIT": "对此存款启用",
       "ENABLE_SYMBOL_ON_DYDX": "在dYdX上启用{SYMBOL}",
@@ -978,7 +983,8 @@
       "SLIPPAGE": "滑点",
       "SUBJECT_TO_RULES": "受这些规则约束",
       "SWAP": "互换",
-      "ESTIMATED_TIME": "预计时间"
+      "ESTIMATED_TIME": "预计时间",
+      "DEPOSIT_ACKNOWLEDGEMENT": "我同意 {TERMS_LINK} 和 {POLICY_LINK}，包括我接受与这些产品和服务相关的风险，并且不会在美国或任何其他受限制的司法管辖区使用这些产品和服务。 {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "启用提现功能",
@@ -987,6 +993,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "预期收到金额",
       "FAST": "快速提现",
       "FAST_WITHDRAW_CONFIRMATION": "将对此笔快速提现收取{FEE}的费用。您的资金将立即发送，并会在提现交易确认后出现在您的钱包中。",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}（一般情况）",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "最高费用",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "最低费用",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现方法（例如，以太坊上的资产）可能具有更高的第三方费用。",
       "LOWEST_FEE_WITHDRAWALS": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现可能有额外的第三方费用。",
@@ -996,7 +1004,9 @@
       "SLOW": "正常提现",
       "SLOW_WITHDRAW_DESCRIPTION": "正常提现是一个两步过程。此步骤将发起您的提现请求，并将在Layer 2进行处理。一旦资金准备就绪（可能需要{HOURS}小时），您将收到一条将资金提现到钱包的通知。您自行负责承担交易gas费用。",
       "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提取可能需要{HOURS}小时才能提取。您将自行承担提现交易gas费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
-      "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。"
+      "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "所选路线的第三方费用较高。 我确认：\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "我确认知悉以下警告：\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "钱包余额不足以支付交易费用。",
@@ -1311,6 +1321,7 @@
       "MID_MARKET": "中端市场",
       "MID_MARKET_PRICE_SHORT": "中端",
       "MODIFY_GOOD_TIL": "修改好直到",
+      "MODIFY_MARGIN_AMOUNT": "修改金额",
       "MODIFY_PRICE": "修改价格",
       "MODIFY_SIZE_FIELD": "修改金额",
       "MODIFY_TARGET_LEVERAGE": "修改目标杠杆",
@@ -1322,6 +1333,7 @@
       "NEXT_IN": "下一次在{TIME}",
       "NOTIONAL_VALUE": "名义价值",
       "OFFSETTING": "抵消",
+      "OHLC_VIA_MID_PRICE": "OHLC（通过中间价）",
       "OPEN_INTEREST": "未平仓合约",
       "OPEN_POSITIONS": "オープンポジション",
       "OPEN_STATUS": "开仓",
@@ -1529,6 +1541,7 @@
     },
     "VAULTS": {
       "VAULT": "保险库",
+      "VAULT_FAQS": "保险库常见问题",
       "YOUR_ALL_TIME_PNL": "您的历史盈亏记录",
       "VAULT_THIRTY_DAY_APR": "30 天的年利率",
       "VAULT_THIRTY_DAY_PNL": "30天盈亏",
@@ -1538,6 +1551,21 @@
       "VAULT_PNL": "保险库盈亏",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "您的存款与提款",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "您并无保险库存款。",
+      "SLIPPAGE_ACK": "我知道现在提现将导致 {AMOUNT} 滑点。",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "确认大额滑点",
+      "SLIPPAGE_WARNING": " 此提现将导致 {AMOUNT} 滑点。 如果您稍后提现，则可以减少滑点。 如需了解更多信息，请查看 {LINK}。",
+      "EST_SLIPPAGE": "估计滑点",
+      "PROTOCOL_VAULT": "dYdX 协议保险库",
+      "WITHDRAW_TOO_HIGH": "您的提现不能超过保险库余额。",
+      "DEPOSIT_TOO_HIGH": "您的充值不能超过可用质押品。",
+      "ENTER_AMOUNT_TO_DEPOSIT": "输入充值金额",
+      "ENTER_AMOUNT_TO_WITHDRAW": "请输入提现金额",
+      "AMOUNT_TO_WITHDRAW": "要提现的金额",
+      "PREVIEW_WITHDRAW": "预览提现",
+      "PREVIEW_DEPOSIT": "预览充值",
+      "AMOUNT_TO_DEPOSIT": "充值金额",
+      "CROSS_ACCOUNT": "交叉账户",
+      "VAULT_DESCRIPTION": "该保险库在所有 dYdX 市场提供自动挂单\/吃单，并获得一部分交易收入。 通过报价账面双方，保险库旨在实现市场中立头寸。损益将根据市场状况而变化，并且存在损失部分或全部USDC存款的风险。",
       "TVL": "总锁仓价值"
     },
     "NOTIFICATIONS": {
@@ -2155,6 +2183,7 @@
     "BROADCAST_ERROR_3008": "状态订单先前已取消，因此无法发出。",
     "BROADCAST_ERROR_3009": "状态订单先前已撤销，因此无法发出。",
     "BROADCAST_ERROR_10001": "由于净值等级限制，子账户无法开立更多订单。{EQUITY_TIER_LEARN_MORE}",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "成交此单将会使您的账户低于担保门槛。 请尝试较小金额。",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "已达到费率上限",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "此 IP 地址已达到的费率上限。 请稍后重试。",
@@ -2184,6 +2213,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}预言机价格下滑。如果您仍然打算下该订单，请使用限价单。",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格影响。如果您仍然打算下该订单，请使用限价单。",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "没有足够的流动性来全部成交此市价订单，请尝试较小的订单金额。",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "由于订单簿单边流动性，因此不建议使用此市价订单。 请改为下限价订单。",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "此订单具有非零价格差，有可能使您的头寸超过最大杠杆。请尝试较小的订单金额。",
       "NEW_POSITION_SIZE_OVER_MAX": "此交易可能导致头寸规模超过{MAX_SIZE} {SYMBOL}的最大规模。",
       "NO_EQUITY_DEPOSIT_FIRST": "您必须先存入资金，才能下订单。",
@@ -2218,6 +2248,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "滑点太多",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "滑点太多",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "流动性不够",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "单边流动性",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "可能无效的杠杆",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "滑点太多",
       "NEW_POSITION_SIZE_OVER_MAX": "最大仓位",
