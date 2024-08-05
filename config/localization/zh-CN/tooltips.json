@@ -353,6 +353,12 @@
       "BODY": "为确保协议安全，dYdX 链验证者延迟 dYdX 链 DYDX 的结算。"
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "通过中间价启用或禁用 OHLC 数据。 禁用此功能将只显示历史交易的 OHLC 数据。"
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "参考价格",
