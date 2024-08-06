@@ -72,7 +72,6 @@ Before committing your changes to the repo, you need to run the following comman
 
 `npm version patch` to update the package version number
 
-
 # JSON Translations
 
 Please translate each JSON entry, using the file in /en folder as the original, and translate into the same file name in other language files.
