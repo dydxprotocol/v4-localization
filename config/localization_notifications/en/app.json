@@ -171,6 +171,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Live proposal to update {MARKET} parameters",
       "BODY": "There is currently a live proposal to update the parameters of {MARKET} market. If passed, the {MARKET} market will have Coinbase Pro {MARKET} as the only oracle source. You can find more information regarding the proposal {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "Trade the U.S. presidential election!",
+      "BODY": "{MARKET} is now live. This market will settle at $1 if Donald J. Trump wins the 2024 election. Otherwise, it will settle at $0.001."
     }
   }
 }
