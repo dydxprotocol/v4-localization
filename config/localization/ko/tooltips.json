@@ -353,6 +353,12 @@
       "BODY": "프로토콜의 보안을 보장하기 위해 dYdX 체인 검증기는 dYdX 체인 DYDX의 정산을 지연시킵니다."
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "중간 가격으로 OHLC 데이터를 활성화 또는 비활성화합니다. 이를 비활성화하면 과거 거래의 OHLC 데이터만 표시됩니다."
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "참조 가격",
