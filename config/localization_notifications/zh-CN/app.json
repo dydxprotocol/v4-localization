@@ -25,7 +25,7 @@
       "BODY": "收到 USDC 奖励。"
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "赛季 {SEASON_NUMBER} 启动激励计划现已开始！",
+      "TITLE": "赛季 {SEASON_NUMBER} 已经开始！",
       "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -167,6 +167,10 @@
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "关闭{MARKET_1}和{MARKET_2}市场的现场提议",
       "BODY": "目前有关闭{MARKET_1}和{MARKET_2}市场的现场提议。 如果通过，{MARKET_1}和{MARKET_2}市场将于 {DATE} 进入最终结算。 现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "更新 {MARKET} 参数的现场提议",
+      "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过， {MARKET} 市场会将 CoinbasePro {MARKET} 作为唯一的预言机来源。 您可以找到有关该提议的更多信息{HERE_LINK}。"
     }
   }
 }
