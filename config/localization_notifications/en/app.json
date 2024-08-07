@@ -160,6 +160,10 @@
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger at {OLD_VALUE} has been removed."
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "$20K giveaway",
+      "BODY": "To celebrate surpassing 200B in cumulative trading volume, dYdX is running a Twitter giveaway, where you have the opportunity to claim $200. 100 winners will be selected based on a random selection mechanism after August 16, 2024, 23:59 UTC {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} and {MARKET_2} markets wound down",
       "BODY": "On {DATE}, the {MARKET_1} and {MARKET_2} markets went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
