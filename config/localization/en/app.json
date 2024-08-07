@@ -254,6 +254,7 @@
       "POSITION": "Position",
       "POWERED_BY": "Powered By",
       "POWERED_BY_ALL_CAPS": "POWERED BY",
+      "PREDICTION_MARKET": "Prediction Market",
       "PRICE_CHART_SHORT": "Price",
       "PRICE": "Price",
       "PRIVACY": "Privacy",
@@ -330,6 +331,7 @@
       "TOTAL_VALUE": "Total Value",
       "TRADE_AN_AMOUNT": "Trade {AMOUNT}",
       "TRADE": "Trade",
+      "TRADE_NOW": "Trade now",
       "TRADER": "Trader",
       "TRADES": "Trades",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "We've updated our fee structure! Enjoy an up to {REDUCTION} in fees across all tiers.",
@@ -662,6 +664,10 @@
         "PRIMARY": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
         "SECONDARY": "Celestia enables the next generation of scalable blockchain architectures - modular blockchains. Celestia scales by decoupling execution from consensus and introducing a new primitive, data availability sampling."
       },
+      "TRUMPWIN": {
+        "PRIMARY": "This market will final settle to $1 if Donald J. Trump wins the 2024 US Presidential Election. Otherwise, this market will final settle to $0.001. This market uses Polymarket as its oracle source.",
+        "SECONDARY": "Polymarket’s resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2025) this market will resolve based on who is inaugurated."
+      },
       "TRX": {
         "PRIMARY": "TRON is a public blockchain dedicated to providing the underlying infrastructure that enables developers to create smart contracts and decentralized applications, freely publish, own, and store data & other content.",
         "SECONDARY": "TRON relies on a Delegated Proof-of-Stake (DPoS) mechanism in which 27 Super Representatives rotate every 6 hours to validate blocks and transactions."
@@ -815,6 +821,7 @@
       "INITIATED_TRANSFEROUT": "Initiated transfer",
       "INVITED_YOU": "has referred you to start trading on the world's most powerful open exchange.",
       "JOIN_ME": "Join me on dYdX to receive a {DISCOUNT} on all trading fees!",
+      "KEEP_WINDOW_OPEN": "Please keep this window open to ensure funds arrive.",
       "LEDGER_DERIVATION_PATH": "Path",
       "LEGACY_SIGNING": "Legacy signing",
       "LINK_WALLET": "Link wallet",
@@ -835,6 +842,8 @@
       "MULTI_FACTOR_AUTH": "Multi-Factor Authentication",
       "PERMITTED_TO_USE": "You are lawfully permitted to access this site and trade on dYdX under the laws of the jurisdiction in which you reside and are located.",
       "PRIVACY_POLICY": "Privacy Policy",
+      "PENDING_TOKEN_APPROVAL": "Pending token approval in wallet",
+      "PENDING_DEPOSIT_CONFIRMATION": "Pending deposit confirmation in wallet",
       "RECOVER_KEYS": "Recover keys",
       "REFERRAL_DISCOUNT": "{DISCOUNT} discount",
       "REGISTER": "Register",
@@ -990,6 +999,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Expected Amount Received",
       "FAST": "Fast",
       "FAST_WITHDRAW_CONFIRMATION": "A fee of {FEE} will be collected for this fast withdraw. Your funds will be sent immediately and will appear in your wallet once the withdraw transaction has confirmed.",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} in general",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Highest fees",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "lowest fees",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawal methods (e.g., assets on Ethereum) may have higher third-party fees.",
       "LOWEST_FEE_WITHDRAWALS": "USDC withdrawals to {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other withdrawals may have additional third-party fees.",
@@ -999,7 +1010,9 @@
       "SLOW": "Slow",
       "SLOW_WITHDRAW_DESCRIPTION": "Slow withdraws are a two step process. This step initiates your withdraw request and will be processed on Layer 2. Once your funds are ready (can take up to {HOURS} hours), you will receive a notification to withdraw your funds to your wallet. You are responsible for the withdraw transaction gas fees.",
       "SLOW_WITHDRAW_CONFIRMATION": "This {STYLED_SLOW} withdraw may take up to {HOURS} hours before it is available to withdraw. You will be responsible for the withdraw transaction gas fees. If you need your funds sooner, try a {STYLED_FAST} withdraw.",
-      "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible."
+      "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "High third party fees from chosen route. I acknowledge:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "I acknowledge the following warning:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Wallet balance is insufficient to cover the transaction fees.",
@@ -2062,7 +2075,14 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
-      "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
+      "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}.",
+      "BLOCKED_BANNER_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}. If you think this is an error, please contact support in the {HELP_LINK}."
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "Leverage trade the outcome of the U.S. Election",
+      "PREDICTION_MARKET_DESC": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.001.",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
+      "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0.001. {LEARN_MORE} or {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
