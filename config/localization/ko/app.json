@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "소스 주소",
       "STAKE": "스테이킹",
       "STAKED": "스테이킹됨",
+      "STAKE_FOR_REWARDS": "보상을 위한 스테이킹",
       "STAKE_NOW": "지금 스테이킹",
       "START_TRADING": "트레이딩 시작",
       "STARTED_FROM_DATE": "{FROM_DATE} 시작함",
@@ -751,7 +752,6 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
-      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -953,6 +953,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "다음 시장에 대한 주문이 너무 크기 때문에 과도한 슬리피지가 발생합니다. 지정가 주문을 고려하십시오."
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "약관 및 입금 확인",
       "BRIDGE_FEE": "브릿지 수수료",
       "ENABLE_FOR_THIS_DEPOSIT": "이 입금 활성화",
       "ENABLE_SYMBOL_ON_DYDX": "dYdX에서 {SYMBOL} 활성화",
@@ -978,7 +979,8 @@
       "SLIPPAGE": "슬리피지",
       "SUBJECT_TO_RULES": "해당 규칙의 적용 대상",
       "SWAP": "스왑",
-      "ESTIMATED_TIME": "예상 시간"
+      "ESTIMATED_TIME": "예상 시간",
+      "DEPOSIT_ACKNOWLEDGEMENT": "본인은 이러한 제품 및 서비스와 관련된 위험을 수락하며 미국 또는 기타 제한된 관할권의 위험을 사용하지 않을 것임을 포함하여 {TERMS_LINK} 및 {POLICY_LINK}에 동의합니다. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "인출 활성화",
@@ -1311,6 +1313,7 @@
       "MID_MARKET": "중간 시장",
       "MID_MARKET_PRICE_SHORT": "중간",
       "MODIFY_GOOD_TIL": "취소시까지 유효한 주문 수정",
+      "MODIFY_MARGIN_AMOUNT": "거래량 수정",
       "MODIFY_PRICE": "가격 수정",
       "MODIFY_SIZE_FIELD": "거래량 수정",
       "MODIFY_TARGET_LEVERAGE": "목표 레버리지 수정",
@@ -1529,6 +1532,7 @@
     },
     "VAULTS": {
       "VAULT": "금고",
+      "VAULT_FAQS": "금고 FAQ",
       "YOUR_ALL_TIME_PNL": "전체 시간 P&L",
       "VAULT_THIRTY_DAY_APR": "4월 30일",
       "VAULT_THIRTY_DAY_PNL": "30일 손익",
@@ -1538,6 +1542,21 @@
       "VAULT_PNL": "금고 P&L",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "나의 입금 및 출금",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "금고 입금이 없습니다.",
+      "SLIPPAGE_ACK": "지금 철회하면 {AMOUNT} 슬리피지가 발생할 수 있음을 이해합니다.",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "높은 슬리피지 확인",
+      "SLIPPAGE_WARNING": " 이 인출은 {AMOUNT} 슬리피지가 됩니다. 나중에 인출하면 슬리피지가 줄어들 수 있습니다. 자세한 내용은 {LINK} 링크를 참조하십시오.",
+      "EST_SLIPPAGE": "예상 슬리피지",
+      "PROTOCOL_VAULT": "dYdX 프로토콜 금고",
+      "WITHDRAW_TOO_HIGH": "금고 잔액보다 더 큰 금액을 출금할 수 없습니다.",
+      "DEPOSIT_TOO_HIGH": "무료 담보 이상 입금할 수 없습니다.",
+      "ENTER_AMOUNT_TO_DEPOSIT": "입금할 금액을 입력하세요",
+      "ENTER_AMOUNT_TO_WITHDRAW": "인출할 금액을 입력하세요",
+      "AMOUNT_TO_WITHDRAW": "인출할 금액",
+      "PREVIEW_WITHDRAW": "인출 미리 보기",
+      "PREVIEW_DEPOSIT": "예금 미리 보기",
+      "AMOUNT_TO_DEPOSIT": "입금할 금액",
+      "CROSS_ACCOUNT": "상호 계정",
+      "VAULT_DESCRIPTION": "이 금고는 모든 dYdX 시장에서 자동화된 유동성을 제공하며 수수료 수익의 일부를 가져옵니다. 볼트는 책의 양면을 인용하여 시장 중립적인 입장을 취하도록 합니다. P&L은 시장 상황에 따라 달라지며 USDC가 입금된 일부 또는 전부를 잃을 위험이 있습니다.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
@@ -2155,6 +2174,7 @@
     "BROADCAST_ERROR_3008": "상태 추적 주문은 이전에 취소되었으므로 배치할 수 없습니다.",
     "BROADCAST_ERROR_3009": "상태 추적 주문은 이전에 제거되었으므로 배치할 수 없습니다.",
     "BROADCAST_ERROR_10001": "하위 계정은 계층 제한으로 인해 추가 주문을 열 수 없습니다. {EQUITY_TIER_LEARN_MORE} ",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "그러면 계정이 담보 임계값 아래로 설정됩니다. 더 적은 금액을 시도하십시오.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "요율 한도 도달",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "이 IP 주소의 요율 제한에 도달했습니다. 나중에 다시 시도하십시오.",
