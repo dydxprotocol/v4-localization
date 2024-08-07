@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "Kaynak Adresi",
       "STAKE": "Stake",
       "STAKED": "Stake Edildi",
+      "STAKE_FOR_REWARDS": "Ödüller için Stake Edin",
       "STAKE_NOW": "Hemen stake edin",
       "START_TRADING": "Alım satıma başla",
       "STARTED_FROM_DATE": "Başlangıç {FROM_DATE}",
@@ -952,6 +953,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Aşağıdaki piyasalar için verdiğiniz talimat çok büyük ve aşırı kaymaya neden olacaktır. Bir limit talimatı vermeyi değerlendirin."
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Şartları kabul edin ve yatırma işlemini gerçekleştirin",
       "BRIDGE_FEE": "Köprü Ücreti",
       "ENABLE_FOR_THIS_DEPOSIT": "Bu yatırma işlemi için etkinleştirin",
       "ENABLE_SYMBOL_ON_DYDX": "dYdX üzerinde {SYMBOL} birimini etkinleştirin",
@@ -977,7 +979,8 @@
       "SLIPPAGE": "Kayma",
       "SUBJECT_TO_RULES": "Şu kurallara tabi",
       "SWAP": "Takas",
-      "ESTIMATED_TIME": "Tahmini Süre"
+      "ESTIMATED_TIME": "Tahmini Süre",
+      "DEPOSIT_ACKNOWLEDGEMENT": "Bu ürün ve hizmetlerle ilgili riskleri kabul ettiğim ve bunlara Amerika Birleşik Devletleri'nden veya kısıtlanmış başka bir yargı alanından erişmeyeceğim de dahil olmak üzere {TERMS_LINK} ve {POLICY_LINK} koşullarını kabul ediyorum. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Çekme işlemini etkinleştirin",
@@ -1257,7 +1260,7 @@
       "ENTER_TIME_IN_FORCE": "Yürürlükteki süreyi girin",
       "ENTER_GOOD_UNTIL": "Geçerlilik tarihini girin",
       "ENTER_EXECUTION": "Yürütmeyi girin",
-      "ENTRY_PRICE_SHORT": "Girdisini",
+      "ENTRY_PRICE_SHORT": "Giriş",
       "EXECUTION": "Yürütme",
       "EXPECTED_PRICE": "Beklenen Fiyat",
       "EXPIRED": "Vadesi Dolan",
@@ -1310,6 +1313,7 @@
       "MID_MARKET": "Orta Piyasa",
       "MID_MARKET_PRICE_SHORT": "Orta",
       "MODIFY_GOOD_TIL": "Geçerliliği Değiştirin",
+      "MODIFY_MARGIN_AMOUNT": "Miktarı değiştir",
       "MODIFY_PRICE": "Fiyatı değiştir",
       "MODIFY_SIZE_FIELD": "Miktarı değiştir",
       "MODIFY_TARGET_LEVERAGE": "Hedef kaldıracı değiştir",
@@ -1528,6 +1532,7 @@
     },
     "VAULTS": {
       "VAULT": "Kasa",
+      "VAULT_FAQS": "Kasa SSS",
       "YOUR_ALL_TIME_PNL": "Tüm Zamanlardaki Kar ve Zararınız",
       "VAULT_THIRTY_DAY_APR": "30 günlük APR",
       "VAULT_THIRTY_DAY_PNL": "30g K ve Z",
@@ -1537,6 +1542,21 @@
       "VAULT_PNL": "Kasa Kar ve Zararı",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "Yatırma ve Çekme İşlemleriniz",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "Kasada yatırma işleminiz yok.",
+      "SLIPPAGE_ACK": "Şimdi yapılacak çekme işleminin {AMOUNT} tutarında kayma ile sonuçlanacağını anlıyorum.",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "Yüksek Kaymayı Kabul Et",
+      "SLIPPAGE_WARNING": " Bu çekme işlemi {AMOUNT} tutarında kayma ile sonuçlanacaktır. Daha sonraki bir zamanda çekme işleminizi yaparsanız kayma daha düşük olabilir. Daha fazla bilgi için bkz.: {LINK}.",
+      "EST_SLIPPAGE": "Tahmini kayma",
+      "PROTOCOL_VAULT": "dYdX Protokol Kasası",
+      "WITHDRAW_TOO_HIGH": "Kasa bakiyenizden daha fazlasını çekemezsiniz.",
+      "DEPOSIT_TOO_HIGH": "Ücretsiz teminatınızdan daha fazlasını yatıramazsınız.",
+      "ENTER_AMOUNT_TO_DEPOSIT": "Yatırılacak miktarı girin",
+      "ENTER_AMOUNT_TO_WITHDRAW": "Çekilecek miktarı girin",
+      "AMOUNT_TO_WITHDRAW": "Çekilecek Miktar",
+      "PREVIEW_WITHDRAW": "Çekme Önizleme",
+      "PREVIEW_DEPOSIT": "Yatırma Önizleme",
+      "AMOUNT_TO_DEPOSIT": "Yatırılacak Miktar",
+      "CROSS_ACCOUNT": "Çapraz Hesap",
+      "VAULT_DESCRIPTION": "Bu kasa, tüm dYdX piyasalarında otomatik likidite sağlar ve ücret gelirinden pay alır. Kasalar, tahtanın her iki tarafından fiyat vererek piyasadan bağımsız bir pozisyon hedefler. Kar ve zarar piyasa koşullarına bağlı olarak değişir ve yatırılan USDC'nin bir kısmını veya tamamını kaybetme riski vardır.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
@@ -1830,7 +1850,7 @@
       "CASH": "Nakit",
       "COPY": "Kopyala ve Paylaş",
       "DOWNLOAD": "İndir",
-      "ENTRY": "Girdisini",
+      "ENTRY": "Giriş",
       "I_WON": "Kazandım",
       "IN": ":",
       "INDEX": "Oracle",
@@ -2154,6 +2174,7 @@
     "BROADCAST_ERROR_3008": "Durum denetlemeli emir daha önce iptal edildi ve bu nedenle gerçekleştirilemedi.",
     "BROADCAST_ERROR_3009": "Durum denetlemeli emir daha önce kaldırıldı ve bu nedenle gerçekleştirilemedi.",
     "BROADCAST_ERROR_10001": "Alt hesap, net varlık seviye limiti nedeniyle daha fazla emir açmıyor. {EQUITY_TIER_LEARN_MORE}",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "Bunu yapmak hesabınızı teminat eşiğinin altına düşürecektir. Lütfen daha küçük bir miktar deneyin.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Limite Ulaşıldı",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Bu IP adresi için Hız sınırına ulaşıldı. Lütfen daha sonra tekrar deneyin.",
