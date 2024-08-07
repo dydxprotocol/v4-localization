@@ -25,7 +25,7 @@
       "BODY": "USDC報酬を受け取ります。"
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "シーズン{SEASON_NUMBER}の発売奨励プログラムが始まりました！",
+      "TITLE": "シーズン{SEASON_NUMBER}が始まりました！",
       "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -167,6 +167,10 @@
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "ライブ提案で{MARKET_1}および{MARKET_2}「マーケット」の段階的縮小",
       "BODY": "現在、{MARKET_1}および{MARKET_2}「マーケット」を段階的に縮小するライブ提案があります。 パスした場合、{MARKET_1}および{MARKET_2}「マーケット」は{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "{MARKET}パラメータ更新のライブ提案",
+      "BODY": "現在、{MARKET}市場のパラメータを更新するライブ提案があります。可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案{HERE_LINK}に関する詳細情報を見つけることができます。"
     }
   }
 }
