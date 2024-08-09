@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Balance",
       "ASSET": "Asset",
       "AVAILABLE": "Available",
+      "AVAILABLE_BALANCE": "Available Balance",
       "AVAILABLE_IN": "Available in {DURATION}",
       "AVAILABLE_ON_SHORT": "Avail. {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Available to Remove",
       "BACK": "Back",
       "BALANCE": "Balance",
       "BASE_INITIAL_MARGIN_FRACTION": "Base Initial Margin Fraction",
@@ -2390,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Transferring to a centralized exchange without the memo they have provided you can result in a loss of funds."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "You cannot transfer more than your free collateral.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Transferring this collateral would put you above the market's max leverage. Please input a lower amount.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Please enter a valid amount."
     },
     "NEW_MARKET_WIDGET": {
