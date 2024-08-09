@@ -23,6 +23,10 @@
       "TITLE": "Account Leverage",
       "BODY": "Leverage of your account based on all your open positions. Because your account is cross-margined, each open position has its own leverage while also affecting your overall account leverage."
     },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Available Balance",
+      "BODY": "Percentage of your total cross margin used by open positions."
+    },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Base Position Notional",
       "BODY": "The maximum position size at which the margin requirements are not increased."
