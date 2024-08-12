@@ -12,6 +12,10 @@
       "TITLE": "Position Deleveraged",
       "BODY": "Your {SIDE} position on {MARKET} has been deleveraged."
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "Earn up to $200 in 30 Minutes!",
+      "BODY": "Make your trading journey the best it can be by participating in a user interview and sharing feedback. Spots are limited so click {HERE_LINK} to sign up or learn more!"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position Settled",
       "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
