@@ -34,6 +34,7 @@
       "COUNTRY": "Country",
       "DESTINATION": "Destination",
       "DOCS": "Docs",
+      "DONT_SHOW_AGAIN": "Don’t show me this again",
       "EARN": "You will earn",
       "ERROR": "Error",
       "FAILED": "Failed",
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "Issue Report",
       "EMAIL_BODY": "Please describe the issue you're facing:",
       "CHOOSER_TITLE": "Send App Log"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Prediction Markets",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Leverage trade the U.S. Election",
+      "WITH_PREDICTION_MARKETS": "with Prediction Markets",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Leverage Trade Event Outcomes",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Leverage Trade Event Outcomes",
+      "SETTLEMENT_OUTCOMES_TITLE": "$0 or $1 Settlement",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
     }
   },
   "RATE_APP": {
