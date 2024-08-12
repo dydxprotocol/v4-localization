@@ -308,6 +308,7 @@
       "SOURCE_ADDRESS": "Adresse source",
       "STAKE": "Staker",
       "STAKED": "Stacké",
+      "STAKE_FOR_REWARDS": "Staker pour des récompenses",
       "STAKE_NOW": "Mettre en jeu maintenant",
       "START_TRADING": "Démarrer la transaction",
       "STARTED_FROM_DATE": "Commencé{FROM_DATE}",
@@ -952,6 +953,7 @@
       "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "Votre ordre pour les marchés suivants est trop important et entraînerait un glissement excessif. Envisagez de passer un ordre de limite."
     },
     "DEPOSIT_MODAL": {
+      "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Accepter les termes et le dépôt",
       "BRIDGE_FEE": "Taxe de pont",
       "ENABLE_FOR_THIS_DEPOSIT": "Activer pour ce dépôt",
       "ENABLE_SYMBOL_ON_DYDX": "Activer {SYMBOL} sur dYdX",
@@ -977,7 +979,8 @@
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Sous réserve de ces règles",
       "SWAP": "Swap",
-      "ESTIMATED_TIME": "Durée estimée"
+      "ESTIMATED_TIME": "Durée estimée",
+      "DEPOSIT_ACKNOWLEDGEMENT": "J'accepte {TERMS_LINK}{POLICY_LINK}les risques associés à ces produits et services et je ne les utiliserai pas depuis les États-Unis ou toute autre juridiction restreinte. {VIEW_MORE_LINK}"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Activer le retrait",
@@ -1310,6 +1313,7 @@
       "MID_MARKET": "Marché intermédiaire",
       "MID_MARKET_PRICE_SHORT": "Mid",
       "MODIFY_GOOD_TIL": "Modifier le bon Til",
+      "MODIFY_MARGIN_AMOUNT": "Modifier le montant",
       "MODIFY_PRICE": "Modifier le prix",
       "MODIFY_SIZE_FIELD": "Modifier le montant",
       "MODIFY_TARGET_LEVERAGE": "Modifier l'effet de levier cible",
@@ -1528,6 +1532,7 @@
     },
     "VAULTS": {
       "VAULT": "Coffre-fort",
+      "VAULT_FAQS": "FAQ sur le coffre-fort",
       "YOUR_ALL_TIME_PNL": "Votre P&L de tous les temps",
       "VAULT_THIRTY_DAY_APR": "30d TAEG",
       "VAULT_THIRTY_DAY_PNL": "P&L de 30 j",
@@ -1537,6 +1542,21 @@
       "VAULT_PNL": "Coffre-fort P&L",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "Dépôts et retraits",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "Vous n'avez pas de dépôts de coffre-fort.",
+      "SLIPPAGE_ACK": "Je comprends que le retrait maintenant entraînera un slippage {AMOUNT}.",
+      "ACKNOWLEDGE_HIGH_SLIPPAGE": "Accepter le slippage élevé",
+      "SLIPPAGE_WARNING": " Ce retrait entraînerait un slippage {AMOUNT}. Le slippage peut être réduit si vous retirez à un moment ultérieur. Pour plus d'informations, voir {LINK}.",
+      "EST_SLIPPAGE": "Slippage estimé",
+      "PROTOCOL_VAULT": "Coffre-fort du protocole dYdX",
+      "WITHDRAW_TOO_HIGH": "Vous ne pouvez pas retirer plus que le solde de votre coffre-fort.",
+      "DEPOSIT_TOO_HIGH": "Vous ne pouvez pas déposer plus que votre garantie gratuite.",
+      "ENTER_AMOUNT_TO_DEPOSIT": "Saisir le montant à déposer",
+      "ENTER_AMOUNT_TO_WITHDRAW": "Saisir le montant à retirer",
+      "AMOUNT_TO_WITHDRAW": "Montant à retirer",
+      "PREVIEW_WITHDRAW": "Aperçu du retrait",
+      "PREVIEW_DEPOSIT": "Aperçu du dépôt",
+      "AMOUNT_TO_DEPOSIT": "Montant à déposer",
+      "CROSS_ACCOUNT": "Compte croisé",
+      "VAULT_DESCRIPTION": "Ce coffre-fort fournit une liquidité automatisée sur tous les marchés dYdX et obtient une part des revenus de frais. Les coffres-forts visent à adopter une position neutre par rapport au marché en citant les deux côtés du livre. P&L variera en fonction de l'état du marché et il existe un risque de perdre tout ou partie des USDC déposés.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
@@ -2154,6 +2174,7 @@
     "BROADCAST_ERROR_3008": "L'ordre à état a été précédemment annulé et ne peut donc pas être placé.",
     "BROADCAST_ERROR_3009": "L'ordre à état a été précédemment supprimée et ne peut donc pas être placé.",
     "BROADCAST_ERROR_10001": "Le sous-compte ne peut pas ouvrir plus d'ordres en raison de la limite de niveau de fonds propres.{EQUITY_TIER_LEARN_MORE}",
+    "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "Cela placerait votre compte en dessous du seuil de collatéralisation. Veuillez essayer un montant inférieur.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Limite de taux atteinte",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Taux limité atteint pour cette adresse IP. Veuillez réessayer plus tard.",
