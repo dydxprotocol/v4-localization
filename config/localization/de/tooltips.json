@@ -21,7 +21,7 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Konto-Hebelwirkung",
-      "BODY": "Hebelwirkung auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
+      "BODY": "Leverage auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Basis-Positionsnominalwert",
@@ -53,7 +53,7 @@
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Standardausführung",
-      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie so lange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
+      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie solange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
     },
     "EQUITY": {
       "TITLE": "Eigenkapital",
@@ -73,10 +73,10 @@
     },
     "FREE_COLLATERAL": {
       "TITLE": "Finanzierung ohne Sicherheit",
-      "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Leverage."
+      "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Hebelwirkung."
     },
     "GOOD_TIL": {
-      "TITLE": "Good-till-canceled",
+      "TITLE": "Good Til",
       "BODY": "Zeit, bis Ihre Order abläuft."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -97,7 +97,7 @@
     },
     "LEVERAGE": {
       "TITLE": "Hebelwirkung",
-      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+      "BODY": "Die Hebelwirkung ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Leverage, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit-Preis",
@@ -121,7 +121,7 @@
     },
     "LIQUIDITY": {
       "TITLE": "Liquidität",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Maintenance Margin-Bruchwert",
@@ -132,7 +132,7 @@
       "BODY": "Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt. Maker Orders haben eine niedrigere Gebühr als Taker Orders."
     },
     "MARGIN_USAGE": {
-      "TITLE": "Marge-Anwendung",
+      "TITLE": "Margin-Anwendung",
       "BODY": "Prozentsatz Ihrer gesamten Margin, der von offenen Positionen verwendet wird."
     },
     "MAX_WITHDRAW": {
@@ -140,7 +140,7 @@
       "BODY": "Maximaler Betrag, der für eine einzelne schnelle Auszahlung zulässig ist."
     },
     "MAXIMUM_LEVERAGE": {
-      "TITLE": "Maximale Hebelwirkung",
+      "TITLE": "Maximale Leverage",
       "BODY": "Maximal zulässige Leverage für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
     },
     "MAXIMUM_REWARDS": {
@@ -351,6 +351,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "dYdX-Chain-Abwicklung",
       "BODY": "Um die Sicherheit des Protokolls zu gewährleisten, verzögern dYdX-Chain-Validatoren die Abwicklung von dYdX-Chain-DYDX."
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Aktivieren oder deaktivieren Sie OHLC-Daten über den Mittelpreis. Bei der Deaktivierung werden nur OHLC-Daten von historischen Trades angezeigt."
     }
   },
   "NEW_MARKET_WIDGET": {

@@ -169,7 +169,7 @@
       "HIDE_DETAILS": "Details ausblenden",
       "HIDE_SECTION": "Abschnitt ausblenden",
       "HIDE": "Ausblenden",
-      "HISTORY": "Historie",
+      "HISTORY": "Geschichte",
       "INCREASED": "erhöht",
       "INCREASING": "Zunehmend",
       "INITIAL_MARGIN_FRACTION": "Anfangsmargin-Bruchwert",
@@ -198,7 +198,7 @@
       "LEARN_MORE_ARROW": "Mehr erfahren →",
       "LEARN": "Lernen",
       "LEGACY": "Legacy",
-      "LEVERAGE": "Hebelwirkung",
+      "LEVERAGE": "Leverage",
       "LIVE": "Live",
       "LONG_POSITION_SHORT": "Lang",
       "LONG_TAIL": "Long-Tail-Modell",
@@ -375,15 +375,15 @@
     },
     "__ASSETS": {
       "ZRX": {
-        "PRIMARY": "0x ist ein professioneller Liquididäts-Aggregator-Protokoll, das es Benutzern ermöglicht, Tokens und andere Vermögenswerte ganz einfach zu traden. 0x verwendet eine einzigartige hybride Off-Chain Relay und eine On-Chain Settlement Architektur, um Tradern eine flexible und gassparende Erfahrung zu bieten.",
+        "PRIMARY": "0x ist ein professionelles Liquiditätsaggregatorprotokoll, das es Benutzern ermöglicht, ERC20-Token und andere Vermögenswerte einfach zu handeln. 0x verwendet eine einzigartige hybride Off-Chain-Relais-, On-Chain-Abwicklungsarchitektur, um ein flexibles und Gas-effizientes Erlebnis für Händler zu erreichen.",
         "SECONDARY": "ZRX ist der native Governance- und Staking-Token von 0x. Dadurch können Inhaber auf 0x Improvement Proposals (ZEIPs) voten und somit die Entwicklung des Protokolls beeinflussen. Darüber hinaus kann ZRX gestakt oder delegiert werden, um Liquiditätsprämien durch deren Market-Maker-Liquiditätsprogramm zu verdienen."
       },
       "1INCH": {
         "PRIMARY": "Das 1-Zoll-Netzwerk vereint dezentrale Protokolle, deren Synergie die lukrativsten, schnellsten und geschütztesten Operationen im DeFi-Raum ermöglicht.",
-        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1-Zoll-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
+        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1inch-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
       },
       "AAVE": {
-        "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Aufsicht, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
+        "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Verwahrung, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
         "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Verwahrung, an dem Benutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
       },
       "ADA": {
@@ -396,7 +396,7 @@
       },
       "ALGO": {
         "PRIMARY": "Algorand beseitigt die technischen Barrieren, die jahrelang die Mainstream-Blockchain-Akzeptanz untergraben haben: Dezentralisierung, Skalierung und Sicherheit.",
-        "SECONDARY": "Algorand verwendet einen genehmigungslosen, reinen Proof-of-Stake-Konsensmechanismus, der eine vollständige Teilnahme, Schutz und Geschwindigkeit innerhalb eines wirklich dezentralisierten Netzwerks gewährleistet. Darüber hinaus ist Algorand die erste Blockchain, die neben einem Durchsatz von bis zu 1.000 Transaktionen pro Sekunde eine sofortige Transaktionsendgültigkeit bietet."
+        "SECONDARY": "Algorand verwendet einen genehmigungsfreien, reinen Proof-of-Stake-Konsensmechanismus, der eine vollständige Teilnahme, Schutz und Geschwindigkeit innerhalb eines wirklich dezentralisierten Netzwerks gewährleistet. Darüber hinaus ist Algorand die erste Blockchain, die neben einem Durchsatz von bis zu 1.000 Transaktionen pro Sekunde eine sofortige Transaktionsendgültigkeit bietet."
       },
       "APE": {
         "PRIMARY": "ApeCoin ist das Governance-Token des Ökosystems, mit dem ApeCoin-Inhaber an ApeCoin-DAO teilnehmen können.",
@@ -668,7 +668,7 @@
       },
       "UMA": {
         "PRIMARY": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
-        "SECONDARY": "UMA baut eine Open-Source-Infrastruktur für „unbezahlbare“ Finanzverträge auf Ethereum in Form von zwei Technologien auf: unbezahlbare Finanzvertragsvorlagen, die zur Erstellung synthetischer Token verwendet werden, und einen dezentralisierten Orakeldienst, der zur Verwaltung und Durchsetzung von Verträgen auf UMA verwendet wird."
+        "SECONDARY": "UMA baut eine Open-Source-Infrastruktur für „von unschätzbarem Wert“ Finanzverträge auf Ethereum in Form von zwei Technologien auf: unbezahlbare Finanzvertragsvorlagen, die zur Erstellung synthetischer Token verwendet werden, und einen dezentralisierten Orakeldienst, der zur Verwaltung und Durchsetzung von Verträgen auf UMA verwendet wird."
       },
       "UNI": {
         "PRIMARY": "Uniswap ist ein dezentralisiertes Protokoll für die automatisierte Bereitstellung von Liquidität auf Ethereum.",
@@ -684,11 +684,11 @@
       },
       "XLM": {
         "PRIMARY": "Stellar ist ein offenes Netzwerk zum Speichern und zum Bewegen von Geld.",
-        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Formen von Geld zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
+        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Geldformen zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
       },
       "XMR": {
         "PRIMARY": "Monero ist die führende Kryptowährung, die sich auf private und zensurresistente Transaktionen konzentriert.",
-        "SECONDARY": "Im Gegensatz zu selektiv transparenten Alternativen (zum Beispiel Zcash) ist Monero die einzige Kryptowährung, bei der jeder Benutzer standardmäßig anonym ist. Absender, Empfänger und Betrag jeder einzelnen Transaktion werden durch den Einsatz von drei wichtigen Technologien verborgen: Stealth-Adressen, Ring-Signaturen und RingCT."
+        "SECONDARY": "Im Gegensatz zu selektiv transparenten Alternativen (z. B. Zcash) ist Monero die einzige Kryptowährung, bei der jeder Benutzer standardmäßig anonym ist. Absender, Empfänger und Betrag jeder einzelnen Transaktion werden durch den Einsatz von drei wichtigen Technologien verborgen: Stealth-Adressen, Ring-Signaturen und RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
@@ -703,7 +703,7 @@
         "SECONDARY": "Das Protokoll wird von verschiedenen unabhängigen Entwicklern gepflegt und von YFI-Inhabern verwaltet."
       },
       "ZEC": {
-        "PRIMARY": "Zcash ist eine digitale Währung - schnell und vertraulich mit niedrigen Gebühren.",
+        "PRIMARY": "Zcash ist eine digitale Währung – schnell und vertraulich mit niedrigen Gebühren.",
         "SECONDARY": "Zcash bietet Ihnen die Möglichkeit vertraulicher Transaktionen und finanzieller Privatsphäre durch abgeschirmte Adressen. Zero-Knowledge-Proofs ermöglichen die Verifizierung von Transaktionen, ohne Absender, Empfänger oder Transaktionsbetrag preiszugeben. Selektive Offenlegungsfunktionen in Zcash ermöglichen es einem Benutzer, einige Transaktionsdetails zu Compliance- oder Auditzwecken zu teilen."
       },
       "ZETA": {
@@ -814,6 +814,7 @@
       "INITIATED_TRANSFEROUT": "Initiierter Transfer",
       "INVITED_YOU": "hat Sie dazu verwiesen, an der mächtigsten offenen Börse der Welt zu handeln.",
       "JOIN_ME": "Begleiten Sie mich auf dYdX, um einen {DISCOUNT} auf alle Trading-Kosten zu erhalten!",
+      "KEEP_WINDOW_OPEN": "Bitte lassen Sie dieses Fenster geöffnet, um sicherzustellen, dass die Gelder ankommen.",
       "LEDGER_DERIVATION_PATH": "Pfad",
       "LEGACY_SIGNING": "Legacy Signing",
       "LINK_WALLET": "Link Wallet",
@@ -834,6 +835,8 @@
       "MULTI_FACTOR_AUTH": "Multi-Faktor-Authentifizierung",
       "PERMITTED_TO_USE": "Sie sind rechtmäßig berechtigt, auf diese Webseite zuzugreifen und auf dYdX gemäß den Gesetzen der Gerichtsbarkeit, in der Sie wohnen und sich befinden, zu handeln.",
       "PRIVACY_POLICY": "Datenschutzbestimmungen",
+      "PENDING_TOKEN_APPROVAL": "Ausstehende Token-Genehmigung in der Wallet",
+      "PENDING_DEPOSIT_CONFIRMATION": "Ausstehende Einzahlungsbestätigung in der Wallet",
       "RECOVER_KEYS": "Wiederherstellen der Schlüssel",
       "REFERRAL_DISCOUNT": "{DISCOUNT} Ermäßigung",
       "REGISTER": "Registrieren",
@@ -989,6 +992,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Erwarteter erhaltener Betrag",
       "FAST": "Schnell",
       "FAST_WITHDRAW_CONFIRMATION": "Für diese schnelle Auszahlung wird eine Gebühr von {FEE} erhoben. Ihr Geld wird sofort gesendet und erscheint in Ihrem Wallet, sobald die Auszahlungstransaktion bestätigt wurde.",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} im Allgemeinen",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Höchste Gebühren",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "Niedrigste Gebühren",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC-Auszahlungen {LOWEST_FEE_TOKENS_TOOLTIP}auf haben die niedrigsten Gebühren. Andere Auszahlungsmethoden (z. B. Vermögenswerte auf Ethereum) können zusätzliche Gebühren von Drittanbietern enthalten.",
       "LOWEST_FEE_WITHDRAWALS": "USDC-Auszahlungen {LOWEST_FEE_TOKENS_TOOLTIP}auf haben die niedrigsten Gebühren. Andere Auszahlungen können zusätzliche Gebühren von Drittanbietern enthalten.",
@@ -998,7 +1003,9 @@
       "SLOW": "Langsam",
       "SLOW_WITHDRAW_DESCRIPTION": "Langsame Auszahlungen sind ein zweistufiger Prozess. Dieser Schritt leitet Ihre Auszahlungsanforderung ein und wird auf dem Level 2 verarbeitet. Sobald Ihr Geld bereit ist (kann bis zu {HOURS} Stunden dauern), erhalten Sie eine Benachrichtigung, um Ihren Betrag auf Ihr Wallet zu übertragen. Sie sind für die Gasless-Gebühren der Auszahlungstransaktionen verantwortlich.",
       "SLOW_WITHDRAW_CONFIRMATION": "Bei dieser {STYLED_SLOW} Auszahlung kann es bis zu {HOURS} Stunden dauern, bevor sie verfügbar ist. Sie sind für die Gasless-Gebühren der Abhebungstransaktionen verantwortlich. Wenn Sie Ihr Geld früher benötigen, versuchen Sie es mit einer {STYLED_FAST} Auszahlung.",
-      "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Abhebung veranlassen, kann diese nicht mehr rückgängig gemacht werden."
+      "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Abhebung veranlassen, kann diese nicht mehr rückgängig gemacht werden.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Ich bestätige die Kenntnisnahme der folgenden Warnung:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Das Wallet-Guthaben reicht nicht aus, um die Transaktionsgebühren zu decken.",
@@ -1266,7 +1273,7 @@
       "EXPIRED": "Abgelaufen",
       "FAILED": "Fehlgeschlagen",
       "FEE_AMOUNT": "Gebührenbetrag",
-      "FEE_PERCENT": "Fee Prozent",
+      "FEE_PERCENT": "Gebühren-Prozent",
       "FEE": "Gebühr",
       "FILL_OR_KILL": "Fill or Kill",
       "FILLS_EMPTY_STATE": "Sie haben keine Einlagen.",
@@ -1325,6 +1332,7 @@
       "NEXT_IN": "Nächste in {TIME}",
       "NOTIONAL_VALUE": "Nennwert",
       "OFFSETTING": "Verrechnung",
+      "OHLC_VIA_MID_PRICE": "OHLC (über Mittelpreis)",
       "OPEN_INTEREST": "Offener Anteil",
       "OPEN_POSITIONS": "Offene Positionen",
       "OPEN_STATUS": "Eröffnen",
@@ -1406,7 +1414,7 @@
       "RETURN_TO_MARKET": "Rückkehr zum Markt",
       "RISK_REWARD": "Risiko-Belohnung",
       "SELECT_MARKET": "Markt auswählen",
-      "SELF_TRADE": "Selbsthandel",
+      "SELF_TRADE": "Self-Trade",
       "SET_ORDER_SIZE": "Setzen Sie die Ordergröße",
       "SET_PRICE_TRIGGERS": "Setzen Sie den Preis-Trigger",
       "SLIDER": "Slider",
@@ -1703,7 +1711,7 @@
     },
     "PROFILES_PAGE": {
       "ADDRESS": "Adresse",
-      "APPLICATION_PENDING": "Antrag läuft",
+      "APPLICATION_PENDING": "Bewerbung läuft",
       "APPLICATION_REJECTED": "Antrag abgelehnt",
       "CERTIFY_AND_ACCEPT": "Sie müssen bestätigen, dass Sie die angezeigten Bedingungen akzeptieren und ihnen zustimmen.",
       "CERTIFY_CAPACITY_AND_AUTHORITY": "Sie müssen bestätigen und unterschreiben, dass Sie die Fähigkeit und Befugnis haben, dieses Formular auszufüllen.",
@@ -2180,7 +2188,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Ratenlimit für diese IP-Adresse erreicht. Bitte versuchen Sie es später erneut.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Etwas ist schiefgelaufen: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
-      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir die Zeitstempel bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
+      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir Zeitstempel bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Der Orderbetrag muss ein Vielfaches von {STEP_SIZE} sein.",
@@ -2199,11 +2207,12 @@
       "INVALID_NEW_POSITION_LEVERAGE": "Dieser Trade würde zu einer ungültigen Leverage auf Ihre Position führen.",
       "INVALID_SIGNATURE": "Diese Order konnte aufgrund einer ungültigen Signatur nicht eingestellt werden. Ihr Konto ist möglicherweise nicht mehr synchronisiert. Bitte verbinden Sie Ihr Wallet noch einmal und versuchen Sie es erneut.",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ihr Limitpreis muss über Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
-      "LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
+      "LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn er auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
       "LIMITED_ORDERS_FOR_PAIR": "Dieses Paar erlaubt nur eine begrenzte Anzahl von Bestellungen pro Seite.",
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Diese Market-Order würde angesichts der aktuellen Liquidität zu einer Slippage von {SLIPPAGE} des Oracle-Preises führen. Bitte verwenden Sie eine Limit-Order, wenn Sie diese Order dennoch platzieren möchten.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Diese Market-Order würde angesichts der aktuellen Liquidität eine Auswirkung von {SLIPPAGE} auf den Orderbuchkurs haben. Bitte verwenden Sie eine Limit-Order, wenn Sie diese Order dennoch platzieren möchten.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Es ist nicht genug Liquidität vorhanden, um diese Marktorder auszuführen, bitte versuchen Sie es mit einem kleineren Orderbetrag.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Diese Market-Order wird aufgrund der einseitigen Orderbuch-Liquidität nicht empfohlen. Bitte erteilen Sie stattdessen eine Limit-Order.",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Diese Order hat eine Preisauswirkung ungleich Null und könnte Ihre Position möglicherweise über die maximale Hebelwirkung bringen. Bitte versuchen Sie es mit einem kleineren Orderbetrag.",
       "NEW_POSITION_SIZE_OVER_MAX": "Dieser Handel könnte zu einem größeren Positionsumfang als dem maximalen Umfang von {MAX_SIZE} {SYMBOL} führen.",
       "NO_EQUITY_DEPOSIT_FIRST": "Sie müssen Geld einzahlen, bevor Sie Orders platzieren können.",
@@ -2238,6 +2247,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Zu hohe Slippage",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Zu hohe Slippage",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Nicht genug Liquidität",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Einseitige Liquidität",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Potentiell ungültige Leverage",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Zu hohe Slippage",
       "NEW_POSITION_SIZE_OVER_MAX": "Max. Positionsgröße",
@@ -2335,7 +2345,7 @@
       "LEDGER_U2F_REQUIRED": "Für Ledger-Verbindungen ist U2F-Browserunterstützung erforderlich. Bitte stellen Sie sicher, dass diese Funktion in Ihrem aktuellen Browser unterstützt wird.",
       "PRICE_IMPACT_TOO_HIGH": "Es gibt nicht genügend Liquidität für den angeforderten Betrag, die resultierende Slippage übersteigt unser sicheres Limit.",
       "USERNAME_TAKEN": "Dieser Benutzername ist bereits vergeben.",
-      "WALLET_NO_TRANSACTIONS": "Dies Wallet hat kein Guthaben und keine früheren Transaktionen. Bitte zahlen Sie Geld in Ihr Wallet ein, um fortzufahren."
+      "WALLET_NO_TRANSACTIONS": "Diese Wallet hat kein Guthaben und keine früheren Transaktionen. Bitte zahlen Sie Geld in Ihre Wallet ein, um fortzufahren."
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Ihr Konto ist nicht synchron. Bitte verbinden Sie Ihr Wallet und versuchen Sie es erneut.",
@@ -2350,7 +2360,7 @@
       "MAX_FAST_WITHDRAW_AMOUNT": "Geben Sie bitte einen Auszahlungsbetrag von weniger als {MAX_FAST_WITHDRAW_AMOUNT} ein.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Der Betrag für langsame Auszahlungen muss größer oder gleich 10 oder Ihr gesamter Kontostand sein.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Ihr Konto ist eingeschränkt. Sie müssen alle Ihre Positionen schließen, bevor Sie abheben können.",
-      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten abheben. Stellen Sie sicher, dass Sie die Schnellabhebungsgebühr berücksichtigen, wenn Sie einen Betrag eingeben.",
+      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben. Stellen Sie sicher, dass Sie die Schnellabhebungsgebühr berücksichtigen, wenn Sie einen Betrag eingeben.",
       "WITHDRAW_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Bitte geben Sie eine Zieladresse ein.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Bitte wählen Sie ein Asset aus, auf das Sie auszahlen möchten.",
