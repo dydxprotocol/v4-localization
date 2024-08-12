@@ -25,7 +25,7 @@
       "BODY": "Erhalten Sie USDC-Prämien."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Das Incentives-Programm zum {SEASON_NUMBER}Saisonstart hat begonnen!",
+      "TITLE": "Die Saison {SEASON_NUMBER}hat begonnen!",
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -167,6 +167,10 @@
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Live-Vorschlag zur Abschwächung {MARKET_1}von  und  den {MARKET_2}Märkten",
       "BODY": "Derzeit gibt es einen Live-Vorschlag, um die  {MARKET_1}und die  {MARKET_2}Märkte abzubauen. Wenn sie bestanden haben, treten die  {MARKET_1}und die  {MARKET_2}Märkte in die Endabrechnung am {DATE}ein. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "Live-Vorschlag zur Aktualisierung  von {MARKET}Parametern",
+      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der {MARKET}Marktparameter. Wenn bestanden wird, wird der  {MARKET}Markt Coinbase Pro  {MARKET}als einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     }
   }
 }
