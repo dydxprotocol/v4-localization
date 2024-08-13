@@ -63,6 +63,7 @@
       "NAME": "Name",
       "NETWORK": "Network",
       "NEWS": "News",
+      "NEW": "New",
       "NICE": "Nice!",
       "NO_RESULTS": "No results",
       "OF": "{ITEM1} of {ITEM2}",
@@ -428,7 +429,7 @@
       "WITH_PREDICTION_MARKETS": "with Prediction Markets",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Leverage Trade Event Outcomes",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Leverage Trade Event Outcomes",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"On a wide range of topics, including politics, sports, pop culture, and more.",
       "SETTLEMENT_OUTCOMES_TITLE": "$0 or $1 Settlement",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
     }
