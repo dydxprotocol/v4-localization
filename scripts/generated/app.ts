@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1681,6 +1681,8 @@ export const APP_STRING_KEYS = {
     TAKE_PROFIT_TOOLTIP: 'APP.TRIGGERS_MODAL.TAKE_PROFIT_TOOLTIP',
     TP_LIMIT: 'APP.TRIGGERS_MODAL.TP_LIMIT',
     TP_PRICE: 'APP.TRIGGERS_MODAL.TP_PRICE',
+    TRIGGERS_INFO_AUTOMATICALLY_CANCELED: 'APP.TRIGGERS_MODAL.TRIGGERS_INFO_AUTOMATICALLY_CANCELED',
+    TRIGGERS_INFO_CUSTOM_AMOUNT: 'APP.TRIGGERS_MODAL.TRIGGERS_INFO_CUSTOM_AMOUNT',
 
     // UNSTAKE_CONFIRMATION_MODAL
 
