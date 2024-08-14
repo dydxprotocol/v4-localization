@@ -323,6 +323,7 @@
       "TAKE_ME_THERE": "Take me there",
       "TERMS_AND_CONDITIONS": "Terms & Conditions",
       "TICK_SIZE": "Tick Size",
+      "TICKER": "Ticker",
       "TIER": "Tier",
       "TIME": "Time",
       "TIMESTAMP_ERROR": "Timestamp error",
@@ -617,6 +618,10 @@
       "PYTH": {
         "PRIMARY": "PYTH is the governance token for the Pyth Network and its ecosystem.",
         "SECONDARY": "Pyth delivers real-time market data to financial dApps across 40+ blockchains and provides 380+ low-latency price feeds across cryptocurrencies, equities, ETFs, FX pairs, and commodities."
+      },
+      "RENDER": {
+        "PRIMARY": "RENDER is an ERC-20 utility token used by artists on the Render Network to exchange for GPU compute power from GPU providers (node operators)",
+        "SECONDARY": "The Render Network is a distributed GPU rendering network built on top of the Ethereum blockchain, aiming to connect artists and studios in need of GPU compute power with mining partners willing to rent their GPU capabilities out."
       },
       "RNDR": {
         "PRIMARY": "RNDR is an ERC-20 utility token used by artists on the Render Network to exchange for GPU compute power from GPU providers (node operators)",
