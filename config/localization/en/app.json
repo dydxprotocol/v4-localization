@@ -127,6 +127,7 @@
       "DISMISS": "Dismiss",
       "DOCUMENT": "document",
       "DONE": "Done",
+      "DONT_SHOW_ME_AGAIN": "Don't show me this again",
       "DOWNLOAD_MOBILE_APP": "Download mobile app",
       "DYDX_CHAIN_ADDRESS": "dYdX Chain Address",
       "DYDX_CHAIN": "dYdX Chain",
@@ -2088,8 +2089,13 @@
       "BLOCKED_BANNER_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}. If you think this is an error, please contact support in the {HELP_LINK}."
     },
     "PREDICTION_MARKET": {
+      "BINARY SETTLEMENT": "Binary Settlement",
+      "BINARY_SETTLEMENT_DESC": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at $0.001. Price is equivalent to the percentage chance the outcome will occur.",
+      "LEVERAGE_TRADE_EVENTS": "Leverage Trade Event Outcomes",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "On a wide range of topics, including politics, sports, pop culture, and more.",
       "LEVERAGE_TRADE_US_ELECTION": "Leverage trade the outcome of the U.S. Election",
       "PREDICTION_MARKET_DESC": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.001.",
+      "PREDICTION_MARKETS": "Prediction Markets",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
       "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0.001. {LEARN_MORE} or {DISMISS}."
     }
