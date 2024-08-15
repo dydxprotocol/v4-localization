@@ -1114,8 +1114,8 @@
       "TAKE_PROFIT_TOOLTIP": "Allows traders to set targets and protects profits on positions by specifying a price at which to close an open position for profit.",
       "TP_LIMIT": "TP Limit",
       "TP_PRICE": "TP Price",
-      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Take profit and stop loss orders will automatically be canceled if the underlying position is closed.",
-      "TRIGGERS_INFO_CUSTOM_AMOUNT": "Configuring a custom amount will apply to both take profit and stop loss orders."
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Take Profit and Stop Loss orders will automatically be canceled if the underlying position is closed.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "Configuring a custom amount will apply to both Take Profit and Stop Loss orders."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "See how your trading data is used to calculate rewards.",
