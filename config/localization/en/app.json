@@ -1649,6 +1649,9 @@
       "STATUS_PAGE": "Status page",
       "SUSPICIOUS_TRADE": "Suspicious activity",
       "SUSPICIOUS_TRADE_BODY": "We have noticed suspicious trading activity related to your account on dYdX, including potential wash trading activity. We will be reviewing your activity on an ongoing basis. If we notice similar activity in the future, then you will be permanently blocked from performing transfers within the protocol and from placing orders other than market orders that reduce your positions.",
+      "TOP_100_ACTION": "Get in touch →",
+      "TOP_100_BODY": "Thank you for being a large trader on dYdX! The team would like to offer you a higher level of personalized support and the opportunity to connect directly with them.",
+      "TOP_100_TITLE": "Want more support?",
       "TRANSFER_STATUS": {
         "BRIDGING_TOKENS": "Bridging tokens",
         "DEPOSIT_IN_PROGRESS_": "Deposit in progress...",
