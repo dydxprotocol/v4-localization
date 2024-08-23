@@ -164,6 +164,11 @@
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger at {OLD_VALUE} has been removed."
     },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "Want more support?",
+      "BODY": "Thank you for being a large trader on dYdX! The team would like to offer you a higher level of personalized support and the opportunity to connect directly with them.",
+      "ACTION": "Get in touch →"
+    },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "$20K giveaway",
       "BODY": "To celebrate surpassing 200B in cumulative trading volume, dYdX is running a Twitter giveaway, where you have the opportunity to claim $200. 100 winners will be selected based on a random selection mechanism after August 16, 2024, 23:59 UTC {HERE_LINK}."
