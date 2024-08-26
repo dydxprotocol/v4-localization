@@ -14,7 +14,7 @@
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "決済されたポジション",
-      "BODY": "{MARKET}はクローズされました。{MARKET}の{SIDE}ポジションは最終決済に達しました。"
+      "BODY": "{MARKET}はクローズされました。 {MARKET}の{SIDE}ポジションは最終決済に達しました。"
     },
     "FOK_DEPRECATION": {
       "TITLE": "FOK注文は非推奨です",
@@ -78,7 +78,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "報酬と取引はdYdXチェーン上でライブ！",
-      "BODY": "完全な取引はdYdXチェーン上でライブ！これには、株式報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。{DOS_BLOGPOST}と{TRADING_BLOGPOST}（第三者のリンク）の詳細をご覧ください。"
+      "BODY": "完全な取引はdYdXチェーン上でライブ！ これには、株式報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。 {DOS_BLOGPOST}と{TRADING_BLOGPOST}（第三者のリンク）の詳細をご覧ください。"
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "通常出金は保留中です",
@@ -160,6 +160,10 @@
       "TITLE": "利益を確定する",
       "BODY": "利益確定の {OLD_VALUE} でのトリガーが削除されました。"
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "2万ドルプレゼント",
+      "BODY": "dYdXは、累計取引高が200億ドルを突破したことを記念して、Twitterプレゼントキャンペーンを実施しています。2024年8月16日23:59 UTC{HERE_LINK}以降、ランダムな選定方法により100名の当選者が選ばれ、200ドルを獲得できるチャンスがあります。"
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}および{MARKET_2}「マーケット」はダウンしました",
       "BODY": "{DATE}に、{MARKET_1}および{MARKET_2}「マーケット」は最終決済を通過しました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
@@ -170,7 +174,11 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET}パラメータ更新のライブ提案",
-      "BODY": "現在、{MARKET}市場のパラメータを更新するライブ提案があります。可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "現在、{MARKET}市場のパラメータを更新するライブ提案があります。 可決された場合、市場は唯一のオラクルソースとしてCoinbase Proを持つことになります。{MARKET}{MARKET} 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "米国大統領選挙で取引を!",
+      "BODY": "{MARKET}は公開開始しました。この市場は、ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、1ドルで落ち着くでしょう。 そうでなければ、$0.001に落ち着きます。"
     }
   }
 }
