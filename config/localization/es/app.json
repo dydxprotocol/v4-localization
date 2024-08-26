@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Saldo",
       "ASSET": "Activo",
       "AVAILABLE": "Disponible",
+      "AVAILABLE_BALANCE": "",
       "AVAILABLE_IN": "Disponible en {DURATION}",
       "AVAILABLE_ON_SHORT": "Disp. {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "",
       "BACK": "Volver",
       "BALANCE": "Saldo",
       "BASE_INITIAL_MARGIN_FRACTION": "Fracción del margen inicial de base",
@@ -254,7 +256,7 @@
       "POSITION": "Posición",
       "POWERED_BY": "Desarrollado por",
       "POWERED_BY_ALL_CAPS": "PROPORCIONADO POR",
-      "PREDICTION_MARKET": "Mercado de predicciones",
+      "PREDICTION_MARKET": "",
       "PRICE_CHART_SHORT": "Precio",
       "PRICE": "Precio",
       "PRIVACY": "Privacidad",
@@ -331,6 +333,7 @@
       "TOTAL_VALUE": "Valor total",
       "TRADE_AN_AMOUNT": "Operación{AMOUNT}",
       "TRADE": "Operación",
+      "TRADE_NOW": "Realiza operaciones ahora",
       "TRADER": "Comerciante",
       "TRADES": "Operaciones",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "¡Hemos actualizado nuestra estructura de tarifas! Disfruta de hasta {REDUCTION} en tarifas en todos los niveles.",
@@ -757,7 +760,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
-      "PHANTOM": "",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -820,7 +823,7 @@
       "INITIATED_TRANSFEROUT": "Transferencia iniciada",
       "INVITED_YOU": "le ha referido para comenzar a operar en el intercambio abierto más poderoso del mundo.",
       "JOIN_ME": "¡Únete a mí en dYdX para recibir un {DISCOUNT} en todas tus tasas de operación!",
-      "KEEP_WINDOW_OPEN": "",
+      "KEEP_WINDOW_OPEN": "Mantén esta ventana abierta para garantizar que lleguen los fondos.",
       "LEDGER_DERIVATION_PATH": "Ruta",
       "LEGACY_SIGNING": "Firma de patrimonio",
       "LINK_WALLET": "Vincular billetera",
@@ -841,8 +844,8 @@
       "MULTI_FACTOR_AUTH": "Autenticación de múltiples factores",
       "PERMITTED_TO_USE": "Puedes acceder a este sitio y realizar operaciones en dYdX bajo las leyes de la jurisdicción en la que resides y estás ubicado.",
       "PRIVACY_POLICY": "Política de privacidad",
-      "PENDING_TOKEN_APPROVAL": "",
-      "PENDING_DEPOSIT_CONFIRMATION": "",
+      "PENDING_TOKEN_APPROVAL": "Aprobación de tokens pendiente en billetera",
+      "PENDING_DEPOSIT_CONFIRMATION": "Confirmación de depósito pendiente en billetera",
       "RECOVER_KEYS": "Recuperar claves",
       "REFERRAL_DISCOUNT": "{DISCOUNT}descuento",
       "REGISTER": "Registro",
@@ -998,8 +1001,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Cantidad esperada recibida",
       "FAST": "Rápido",
       "FAST_WITHDRAW_CONFIRMATION": "Se cobrará una cuota de {FEE} para este retiro rápido. Tus fondos se enviarán inmediatamente y aparecerán en tu billetera una vez que la transacción de retiro haya sido confirmada.",
-      "HIGH_FEES_IN_GENERAL": "",
-      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} en general",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Tarifas más altas",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "tarifas más bajas",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "Los retiros de USDC en {LOWEST_FEE_TOKENS_TOOLTIP} tienen las tarifas más bajas. Otros métodos de retiro (por ejemplo, los activos en Ethereum) pueden tener tarifas de terceros más altas.",
       "LOWEST_FEE_WITHDRAWALS": "Los retiros de USDC en {LOWEST_FEE_TOKENS_TOOLTIP} tienen las tarifas más bajas. Otros retiros pueden tener comisiones adicionales de terceros.",
@@ -1010,8 +1013,8 @@
       "SLOW_WITHDRAW_DESCRIPTION": "Los retiros lentos son un proceso de dos pasos. Este paso inicia tu solicitud de retiro y se procesará en la capa 2. Una vez que tus fondos estén listos (puede tardar hasta {HOURS} horas), recibirás una notificación para transferir tus fondos a tu billetera. Eres responsable de las tasas de transacción de retiro por gas.",
       "SLOW_WITHDRAW_CONFIRMATION": "Este {STYLED_SLOW} retiro puede tomar hasta {HOURS} horas antes de que esté disponible para retirar. Serás responsable de las cuotas de transacción de retiro por gas. Si necesitas tus fondos antes, prueba un retiro {STYLED_FAST}.",
       "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible.",
-      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": ""
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Tarifas altas de terceros en la ruta seleccionada. Acepto:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Acepto la siguiente advertencia:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "El balance de la billetera es insuficiente para cubrir las tarifas de transacción.",
@@ -1338,7 +1341,7 @@
       "NEXT_IN": "Siguiente en {TIME}",
       "NOTIONAL_VALUE": "Valor nocional",
       "OFFSETTING": "Compensación",
-      "OHLC_VIA_MID_PRICE": "",
+      "OHLC_VIA_MID_PRICE": "OHLC (a través de precio medio)",
       "OPEN_INTEREST": "Interés abierto",
       "OPEN_POSITIONS": "Posiciones abiertas",
       "OPEN_STATUS": "Abierto",
@@ -2076,6 +2079,12 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}.",
       "BLOCKED_BANNER_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. "
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "",
+      "PREDICTION_MARKET_DESC": "",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "",
+      "TRUMPWIN_DESC": ""
     }
   },
   "TOKEN_MIGRATION": {
@@ -2219,7 +2228,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Esta orden de mercado daría lugar {SLIPPAGE}a un deslizamiento del precio de oráculo dada la liquidez actual. Utiliza un pedido limitado si todavía tienes la intención de hacer este pedido.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Este pedido de mercado daría como resultado {SLIPPAGE} de impacto en el precio del libro de pedidos dada la liquidez actual. Utiliza un pedido limitado si todavía tienes la intención de hacer este pedido.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "No hay suficiente liquidez para completar este pedido de mercado. Intenta con un pedido por un monto menor.",
-      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "No se recomienda esta orden de mercado debido a la liquidez del libro de órdenes unilateral. Por favor, haz un pedido límite como alternativa.",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Este pedido tiene un impacto en los precios distintos a cero y potencialmente podría poner tu posición por encima del apalancamiento máximo. Intenta con un pedido de menor cantidad.",
       "NEW_POSITION_SIZE_OVER_MAX": "Esta operación podría resultar en un tamaño de posición sobre el tamaño máximo de {MAX_SIZE} {SYMBOL}.",
       "NO_EQUITY_DEPOSIT_FIRST": "Debes depositar fondos antes de poder hacer pedidos.",
@@ -2383,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
     },
     "NEW_MARKET_WIDGET": {
