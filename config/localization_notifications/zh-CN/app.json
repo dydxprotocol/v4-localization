@@ -160,6 +160,10 @@
       "TITLE": "获得利润",
       "BODY": "您在{OLD_VALUE}的止盈触发器已被移除。"
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "",
+      "BODY": ""
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
       "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
@@ -171,6 +175,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "更新 {MARKET} 参数的现场提议",
       "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过， {MARKET} 市场会将 CoinbasePro {MARKET} 作为唯一的预言机来源。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "",
+      "BODY": ""
     }
   }
 }
