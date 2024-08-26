@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET}Solde",
       "ASSET": "Actif",
       "AVAILABLE": "Disponible",
+      "AVAILABLE_BALANCE": "Solde disponible",
       "AVAILABLE_IN": "Disponible en {DURATION}",
       "AVAILABLE_ON_SHORT": "Dispo.{ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Disponible à la suppression ",
       "BACK": "Retour",
       "BALANCE": "Solde",
       "BASE_INITIAL_MARGIN_FRACTION": "Fraction de marge initiale de base",
@@ -254,7 +256,7 @@
       "POSITION": "Position",
       "POWERED_BY": "Alimenté par",
       "POWERED_BY_ALL_CAPS": "ALIMENTÉ PAR",
-      "PREDICTION_MARKET": "Marché prédictif",
+      "PREDICTION_MARKET": "Marché Prédictif ",
       "PRICE_CHART_SHORT": "Prix",
       "PRICE": "Prix",
       "PRIVACY": "Confidentialité",
@@ -331,6 +333,7 @@
       "TOTAL_VALUE": "Valeur totale",
       "TRADE_AN_AMOUNT": "Transaction {AMOUNT}",
       "TRADE": "Trade",
+      "TRADE_NOW": "Trader maintenant",
       "TRADER": "Trader",
       "TRADES": "Trades",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Nous avons mis à jour notre structure de frais ! Bénéficiez d'une réduction des frais allant jusqu'à {REDUCTION} sur tous les niveaux.",
@@ -664,8 +667,8 @@
         "SECONDARY": "Celestia permet la mise en place de la prochaine génération d'architectures de blockchain évolutives : les blockchains modulaires. Celestia évolue en découplant l'exécution du consensus et en introduisant une nouvelle primitive, l'échantillonnage de disponibilité des données."
       },
       "TRUMPWIN": {
-        "PRIMARY": "Ce marché s'établissera définitivement à 1$ si Donald J. Trump gagne les élections présidentielles de 2024 aux USA. Autrement, ce marché s'établira  définitivement à 0.00001. Ce marché utilise Polymarket comme source oracle.",
-        "SECONDARY": "La source de résolution de polymarket pour ce marché est l'Associated Press , Fox News et NBC. Ce marché va se résoudre une fois que les trois sources vont annoncer la course pour le même candidat . Si les trois sources n'ont pas annoncé le course pour le même candidat à la date d'inauguration ( le 20 Janvier 2025)  ce marché sera résolu en fonction de l'inauguration ."
+        "PRIMARY": "Ce marché s'établira définitivement à 1$ si Donald J. Trump gagne les élections présidentielles de 2024 aux USA. Autrement, ce marché s'établira  définitivement à 0.00001. Ce marché utilise Polymarket comme source oracle.",
+        "SECONDARY": "La source de résolution de polymarket pour ce marché est l'Associated Press , Fox News et NBC. Ce marché va se résoudre une fois que les trois sources vont annoncer la course pour le même candidat . Si les trois sources n'ont pas annoncé le course pour le même candidat à la date d'inauguration ( le 20 Janvier 2025) ce marché sera résolu en fonction de l'inauguration"
       },
       "TRX": {
         "PRIMARY": "TRON est une blockchain publique destinée à fournir l'infrastructure sous-jacente qui permet aux développeurs de créer des contrats intelligents et des applications décentralisées, de publier librement, de posséder et de stocker des données et autres contenus.",
@@ -2075,7 +2078,13 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez la {DATE}possibilité de retirer vos fonds avant que votre accès au frontend ne soit bloqué. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}.",
-      "BLOCKED_BANNER_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance dans le {HELP_LINK}"
+      "BLOCKED_BANNER_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance dans {HELP_LINK}le"
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "L'effet de levier du résultat de l'élection américaine.",
+      "PREDICTION_MARKET_DESC": "Les marchés de prédiction seront réglés à 1 $ si l'événement se produit comme prévu. Autrement ils seront réglés à  $ 0.001 .",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Tradez  à l'élection Américaine",
+      "TRUMPWIN_DESC": "Il s'agit du marché de prédiction qui s'établira à 1$ si Donald J. Trump remporte l'élection américaine présidentielle 2024 . Autrement , s'établira à 0.001 ${DISMISS}. {LEARN_MORE}ou"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2383,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Le transfert vers un échange centralisé sans le mémo fourni peut entraîner une perte de fonds."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Vous ne pouvez pas transférer plus que votre garantie gratuite.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Le transfert de cette garantie vous placerait au dessus de l'effet de levier maximal du marché. Veuillez indiquer un montant inférieur",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Veuillez saisir un montant valide."
     },
     "NEW_MARKET_WIDGET": {
