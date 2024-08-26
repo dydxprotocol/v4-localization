@@ -9,7 +9,7 @@
     },
     "REMEMBER_ME": {
       "TITLE": "Remember Me",
-      "BODY": "N'utilisez \"Remember Me\" que si vous utilisez un appareil sécurisé que vous possédez. La sélection de cette option peut exposer vos clés et vos informations à d'autres si vous êtes sur un appareil public ou non sécurisé."
+      "BODY": "N'utilisez \"se souvenir de moi\" que si vous utilisez un appareil sécurisé que vous possédez. La sélection de cette option peut exposer vos clés et vos informations à d'autres si vous êtes sur un appareil public ou non sécurisé."
     }
   },
   "PORTFOLIO": {
@@ -60,7 +60,7 @@
       "BODY": "Valeur totale de votre compte."
     },
     "EXPECTED_PRICE": {
-      "TITLE": "Prix attendu",
+      "TITLE": "Prix prévu",
       "BODY": "Prix d'exécution prévu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre commande ne soit traitée par le réseau."
     },
     "FEE": {
@@ -100,7 +100,7 @@
       "BODY": "L'effet de levier modifie le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur une transaction avec le même mouvement de prix."
     },
     "LIMIT_PRICE": {
-      "TITLE": "Prix limite",
+      "TITLE": "Prix à cours limité",
       "BODY": "Cet ordre ne peut être exécuté qu'au prix à cours limité spécifié ou mieux. Si votre ordre croise au moment du placement, votre ordre remplira tout ordre de croisement au prix le plus favorable."
     },
     "LIMIT_PRICE_LEARN_MORE": {
@@ -149,7 +149,7 @@
     },
     "NET_FUNDING": {
       "TITLE": "Financement net",
-      "BODY": "Financement total gagné \/ payé pour la durée de vie de la position actuelle. Réinitialise si vous fermez votre position ou changez de côté de position (longue à courte, ou vice versa)."
+      "BODY": "Financement total gagné \/ payé pour la durée de vie de la position actuelle. Réinitialise si vous fermez votre position ou changez de côté de position (long à short, ou vice versa)."
     },
     "OPEN_INTEREST": {
       "TITLE": "Intérêt ouvert",
@@ -193,7 +193,7 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à short, ou short à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera. "
+      "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à court, ou court à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera. "
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Reduce-Only",
@@ -225,7 +225,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Frais Taker",
-      "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
+      "BODY": "Les transactions qui prélèvent de la liquidité dans le livre (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take Profit",
@@ -332,7 +332,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Types de retrait",
-      "BODY": "dYdX prend en charge deux types de retraits de la couche 2. Les retraits rapides entraînent des frais minimes mais ne nécessitent pas de gas et sont envoyés immédiatement. Les retraits lents sont gratuits, mais nécessitent deux étapes, prennent beaucoup plus de temps et l'utilisateur devra payer ses propres frais de gaz."
+      "BODY": "dYdX prend en charge deux types de retraits de la couche 2. Les retraits rapides entraînent des frais minimes mais ne nécessitent pas de gaz et sont envoyés immédiatement. Les retraits lents sont gratuits, mais nécessitent deux étapes, prennent beaucoup plus de temps et l'utilisateur devra payer ses propres frais de gaz."
     }
   },
   "STAKE": {
@@ -351,6 +351,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "Règlement de la chaîne dYdX",
       "BODY": "Pour assurer la sécurité du protocole, les validateurs de la chaîne dYdX retardent le règlement de la chaîne dYdX DYDX."
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Activer ou désactiver les données OHLC via le prix moyen. En désactivant cette option, seules les données OHLC des transactions historiques seront affichées."
     }
   },
   "NEW_MARKET_WIDGET": {
