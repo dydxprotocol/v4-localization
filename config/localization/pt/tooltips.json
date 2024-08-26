@@ -23,6 +23,10 @@
       "TITLE": "Alavancagem da conta",
       "BODY": "Alavanque sua conta com base em todas as suas posições abertas. Como sua conta é de margem cruzada, cada posição aberta tem sua própria alavancagem, o que também afeta a alavancagem geral da sua conta."
     },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Saldo disponível",
+      "BODY": "Porcentagem de sua margem total usada nas posições abertas."
+    },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Valor referencial básico da posição ",
       "BODY": "O tamanho máximo da posição no qual os requisitos de margem não são aumentados."
