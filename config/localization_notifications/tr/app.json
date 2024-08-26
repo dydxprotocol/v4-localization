@@ -29,8 +29,8 @@
       "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "İzole Marjin aktif",
-      "BODY": "İzole Marjin şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
+      "TITLE": "İzole Marj aktif",
+      "BODY": "İzole Marj şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "{SEASON_NUMBER}. sezon lansman ödülleri dağıtıldı!",
