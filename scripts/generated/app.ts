@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -345,6 +345,7 @@ export const APP_STRING_KEYS = {
     DEFAULT_TO_ALL_MARKETS_IN_POSITIONS: 'APP.GENERAL.DEFAULT_TO_ALL_MARKETS_IN_POSITIONS',
     DEFI: 'APP.GENERAL.DEFI',
     DEGRADED: 'APP.GENERAL.DEGRADED',
+    DEPLOYER_TERMS_AND_CONDITIONS: 'APP.GENERAL.DEPLOYER_TERMS_AND_CONDITIONS',
     DEPOSIT: 'APP.GENERAL.DEPOSIT',
     DEPOSIT_FUNDS: 'APP.GENERAL.DEPOSIT_FUNDS',
     DEPOSIT_MORE: 'APP.GENERAL.DEPOSIT_MORE',
