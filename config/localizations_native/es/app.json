@@ -446,7 +446,7 @@
   "WARNINGS": {
     "TRADE_BOX": {
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de detención de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una orden de límite de parada.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de ganancia."
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de toma de ganancia."
     }
   }
 }
