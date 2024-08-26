@@ -353,6 +353,12 @@
       "BODY": "dYdX Zinciri doğrulayıcıları, protokolün güvenliğini sağlamak için dYdX Zinciri DYDX'in bağlanmasını geciktirir."
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Orta fiyat üzerinden OHLC (Açılış-Yüksek-Düşük-Kapanış Grafiği) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Referans Fiyatı",
