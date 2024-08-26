@@ -2289,7 +2289,8 @@
       "WOULD_NOT_REDUCE": "Your position would not be reduced if order is filled.",
       "WOULD_NOT_REDUCE_UNCHECK": "Your position would not be reduced with this order. Please uncheck Reduce-Only if you would like to place your order.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days.",
-      "POSITION_LEVERAGE_OVER_MAX": "Resulting position leverage would be over the maximum leverage for this market."
+      "POSITION_LEVERAGE_OVER_MAX": "Resulting position leverage would be over the maximum leverage for this market.",
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "This limit order is below the minimum order size of {MIN_VALUE}."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Step size",
@@ -2342,7 +2343,8 @@
       "CONNECT_WALLET_TO_TRADE": "Connect Wallet",
       "DEPOSIT_TO_TRADE": "Deposit",
       "USER_MAX_ORDERS": "Too many open orders",
-      "INVALID_GOOD_TIL": "Invalid Good Til"
+      "INVALID_GOOD_TIL": "Invalid Good Til",
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Below minimum size"
     },
     "TRIGGERS_FORM": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price below {TRIGGER_PRICE_LIMIT}.",
