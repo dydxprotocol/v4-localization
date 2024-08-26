@@ -771,6 +771,8 @@
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
       "PHANTOM": "Phantom",
+      "PHANTOM_SOL": "Phantom (Solana)",
+      "PHANTOM_EVM": "Phantom (EVM)",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
