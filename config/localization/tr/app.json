@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Bakiye",
       "ASSET": "Varlık",
       "AVAILABLE": "Mevcut",
+      "AVAILABLE_BALANCE": "Kullanılabilir Bakiye",
       "AVAILABLE_IN": "{DURATION} içinde mevcut",
       "AVAILABLE_ON_SHORT": " tarihinde mevcut{ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Kaldırılabilir",
       "BACK": "Geri",
       "BALANCE": "Bakiye",
       "BASE_INITIAL_MARGIN_FRACTION": "Temel Başlangıç Marj Oranı",
@@ -331,6 +333,7 @@
       "TOTAL_VALUE": "Toplam Değer",
       "TRADE_AN_AMOUNT": "{AMOUNT} Alım Satımı",
       "TRADE": "Alım Satım",
+      "TRADE_NOW": "Hemen trade edin",
       "TRADER": "Yatırımcı",
       "TRADES": "İşlemler",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Komisyon yapımızı güncelledik! Tüm seviyelerdeki komisyonlarda {REDUCTION} değerine varan indirimin tadını çıkarın.",
@@ -664,7 +667,7 @@
         "SECONDARY": "Celestia, yeni nesil ölçeklenebilir blok zinciri mimarilerini, yani modüler blok zincirlerini mümkün kılar. Celestia, yürütmeyi konsensüsten ayırarak ve yeni bir ilkel veri kullanılabilirliği örneklemesi sunarak ölçeklenir."
       },
       "TRUMPWIN": {
-        "PRIMARY": "2024 ABD Başkanlık Seçimlerini Donald J. Trump kazanırsa, bu piyasa en son 1 Amerikan Doları olarak bağlanacaktır. Aksi takdirde bu piyasa en son 0,00001 olarak bağlanacaktır. Bu piyasa, oracle kaynağı olarak Polymarket'i kullanmaktadır.",
+        "PRIMARY": "2024 ABD Başkanlık Seçimlerini Donald J. Trump kazanırsa, bu piyasa en son 1 Amerikan Doları olarak bağlanacaktır. Aksi takdirde bu piyasa en son $0,001 olarak bağlanacaktır. Bu piyasa, oracle kaynağı olarak Polymarket'i kullanmaktadır.",
         "SECONDARY": "Bu piyasa için Polymarket'in çözüm kaynağı Associated Press, Fox News ve NBC'dir. Bu kaynakların üçü de başkanlık yarışını aynı adayın kazandığını ilan ettiğinde bu piyasa çözüme ulaşacaktır. Göreve başlama tarihine (20 Ocak 2025) kadar bu kaynakların üçü de aynı adayın kazandığını ilan etmezse, bu piyasa kimin göreve başladığını temel alarak çözüme ulaşacaktır."
       },
       "TRX": {
@@ -2076,6 +2079,12 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin.",
       "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir.",
       "BLOCKED_BANNER_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla bilgiyi {TERMS_OF_USE_LINK} adresinden edinebilirsiniz. Burada bir hata olduğunu düşünüyorsanız, lütfen {HELP_LINK} adresinden destek birimimiz ile irtibata geçin."
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "ABD Seçiminin sonucuna göre kaldıraç işlemi yapın",
+      "PREDICTION_MARKET_DESC": "Etkinlik, tahmin edilen şekilde gerçekleşirse Tahmin Piyasaları 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "ABD Başkanlık Seçimi için işlem yapın",
+      "TRUMPWIN_DESC": "Bu bir Tahmin Piyasası ve Donald J. Trump, 2024 ABD Başkanlık Seçimi'ni kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.  {LEARN_MORE}veya  {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2383,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Sağlanan not olmadan merkezi bir borsaya transfer yapmak, fon kaybına neden olabilir."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Bu teminatın transfer edilmesi, sizi piyasanın maksimum kaldıraç seviyesinin üzerine çıkaracaktır. Lütfen daha düşük bir tutar girin.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Lütfen geçerli bir miktar girin."
     },
     "NEW_MARKET_WIDGET": {
