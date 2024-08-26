@@ -13,9 +13,9 @@
         "LAST_24H": "过去24小时",
         "LAST_WEEK": "上周",
         "MONTHLY": "每月",
-        "MINUTES_ABBREVIATED": "月",
+        "MINUTES_ABBREVIATED": "分",
         "MINUTES_SHORT": "分钟",
-        "MONTHS_ABBREVIATED": "分",
+        "MONTHS_ABBREVIATED": "月",
         "PAST_30D": "过去30天",
         "PAST_HOUR": "过去一小时",
         "PAST_MONTH": "上月",
@@ -254,6 +254,7 @@
       "POSITION": "当前持仓",
       "POWERED_BY": "支持方",
       "POWERED_BY_ALL_CAPS": "技术支持方",
+      "PREDICTION_MARKET": "预测市场",
       "PRICE_CHART_SHORT": "价格",
       "PRICE": "价格",
       "PRIVACY": "隐私",
@@ -662,6 +663,10 @@
         "PRIMARY": "Celestia 是一个模块化数据可用网络，可以根据用户数量安全地进行扩展，任何人都可以轻松启动自己的区块链。",
         "SECONDARY": "Celestia 支持下一代可扩展的区块链架构 - 模块化区块链。 Celestia 扩展通过分离执行与共识，并引入新的原始数据可用取样来实现。"
       },
+      "TRUMPWIN": {
+        "PRIMARY": "如果唐纳德·J·特朗普 (Donald J. Trump) 赢得 2024 年美国总统大选，该市场最终将稳定在 1 美元。否则，该市场最终将结算为 0.00001。该市场使用 Polymarket 作为其预言来源。",
+        "SECONDARY": "Polymarket 对该市场的解析来源是美联社、福克斯新闻和 NBC。当所有三个消息来源都认定同一个候选人获胜时，这个市场状况就会得到解决。如果所有三个消息来源都没有在就职日期（2025 年 1 月 20 日）之前宣布同一候选人的获胜，那么这个市场将根据谁就职而决定。"
+      },
       "TRX": {
         "PRIMARY": "TRON是一个公共区块链，致力于提供底层基础设施，使开发者能够创建智能合约和去中心化应用程序，自由发布、拥有和存储数据和其他内容。",
         "SECONDARY": "TRON依赖于委托权益证明机制，其中27名超级代表每6小时轮换一次，以验证区块和交易。"
@@ -993,7 +998,7 @@
       "EXPECTED_AMOUNT_RECEIVED": "预期收到金额",
       "FAST": "快速提现",
       "FAST_WITHDRAW_CONFIRMATION": "将对此笔快速提现收取{FEE}的费用。您的资金将立即发送，并会在提现交易确认后出现在您的钱包中。",
-      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}（一般情况）",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}一般情况",
       "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "最高费用",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "最低费用",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现方法（例如，以太坊上的资产）可能具有更高的第三方费用。",
@@ -2069,7 +2074,8 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
-      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
+      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
+      "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。"
     }
   },
   "TOKEN_MIGRATION": {
