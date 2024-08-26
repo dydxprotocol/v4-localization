@@ -23,6 +23,10 @@
       "TITLE": "Apalancamiento de la cuenta",
       "BODY": "Apalancamiento de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
     },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "",
+      "BODY": "El porcentaje de tu margen total cruzado usado por posiciones abiertas."
+    },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Posición nocional de base",
       "BODY": "El tamaño de la posición máxima en la que los requisitos de margen no se aumentan."
