@@ -14,7 +14,7 @@
         "LAST_WEEK": "Última semana",
         "MONTHLY": "Mensal",
         "MINUTES_ABBREVIATED": "m",
-        "MINUTES_SHORT": "Mins",
+        "MINUTES_SHORT": "Min",
         "MONTHS_ABBREVIATED": "Min",
         "PAST_30D": "Últimos 30 dias",
         "PAST_HOUR": "Última hora",
@@ -254,6 +254,7 @@
       "POSITION": "Posição",
       "POWERED_BY": "Criado por",
       "POWERED_BY_ALL_CAPS": "DESENVOLVIDO POR",
+      "PREDICTION_MARKET": "Mercado de predições",
       "PRICE_CHART_SHORT": "Preço",
       "PRICE": "Preço",
       "PRIVACY": "Privacidade",
@@ -380,7 +381,7 @@
       },
       "1INCH": {
         "PRIMARY": "A rede 1inch une protocolos descentralizados cuja sinergia permite operações mais lucrativas, mais rápidas e protegidas no espaço DeFi.",
-        "SECONDARY": "O protocolo inicial da rede 1inch é uma solução agregadora de troca decentralizada (DEX) que pesquisa ofertas em várias fontes de liquidez, oferecendo aos usuários as melhores taxas do que qualquer exchange individual. Esse protocolo incorpora o algoritmo Pathfinder, capaz de encontrar os melhores caminhos entre diferentes mercados e em mais de 50 fontes de liquidez no Ethereum e mais de 20 fontes de liquidez na Binance Smart Chain. Em menos de dois anos, o agregador DEX da 1inch teve mais de 30 bilhões de dólares em volume total."
+        "SECONDARY": "O protocolo inicial da rede 1inch é uma solução agregadora DEX que pesquisa ofertas em várias fontes de liquidez, oferecendo aos usuários as melhores taxas do que qualquer corretora individual. Esse protocolo incorpora o algoritmo Pathfinder, capaz de encontrar os melhores caminhos entre diferentes mercados e em mais de 50 fontes de liquidez no Ethereum e mais de 20 fontes de liquidez na Binance Smart Chain. Em menos de dois anos, o agregador DEX da 1inch teve mais de 30 bilhões de dólares em volume total."
       },
       "AAVE": {
         "PRIMARY": "A Aave é um protocolo de código aberto, sem custódia, usado para ganhar juros a partir de depósitos e ativos emprestados.",
@@ -396,7 +397,7 @@
       },
       "ALGO": {
         "PRIMARY": "A Algorand remove as barreiras técnicas que, por anos, atrapalharam a adoção geral da blockchain: descentralização, escala e segurança.",
-        "SECONDARY": "A Algorand usa um mecanismo de consenso de Prova de Participação (PoS) pura, sem necessidade de autorização, o que garante a participação completa, proteção e velocidade dentro de uma rede verdadeiramente descentralizada. Além disso, a Algorando é a primeira blockchain a oferecer a finalidade de transações imediatas junto a uma taxa de até 1.000 transações por segundo."
+        "SECONDARY": "A Algorand usa um mecanismo de consenso Proof of Stake puro, sem permissão, o que garante a participação completa, proteção e velocidade dentro de uma rede verdadeiramente descentralizada. Além disso, a Algorando é a primeira blockchain a oferecer a finalidade de transações imediatas junto a uma taxa de até 1.000 transações por segundo."
       },
       "APE": {
         "PRIMARY": "ApeCoin é o token de governança do ecossistema, permitindo que os titulares da ApeCoin participem do ApeCoin DAO.",
@@ -456,7 +457,7 @@
       },
       "COMP": {
         "PRIMARY": "A Compound é um protocolo de taxa de juros autônomo e algorítmico criado para desenvolvedores explorarem um universo de aplicativos financeiros abertos.",
-        "SECONDARY": "Os fornecedores (e os mutuários) de um ativo interagem diretamente com o protocolo, ganhando (e pagando) uma taxa de juros flutuante, sem ter que negociar termos como vencimentos, taxa de juros ou garantias com uma parte ou contraparte."
+        "SECONDARY": "Os fornecedores (e os tomadores) de um ativo interagem diretamente com o protocolo, ganhando (e pagando) uma taxa de juros flutuante, sem ter que negociar termos como vencimentos, taxa de juros ou garantias com uma parte, ou contraparte."
       },
       "ATOM": {
         "PRIMARY": "A Cosmos é um ecossistema em constante expansão de aplicativos e serviços interconectados, construído para um futuro descentralizado.",
@@ -464,14 +465,14 @@
       },
       "CRV": {
         "PRIMARY": "A Curve é um pool de liquidez de exchange na rede Ethereum (como a Uniswap), desenvolvida para a negociação de stablecoins extremamente eficiente e de baixo risco, e renda a partir de taxas suplementares para provedores de liquidez, sem um custo de oportunidade.",
-        "SECONDARY": "A Curve permite que os usuários (e contratos inteligentes como a 1inch, Paraswap, Totle e Dex.ag) negociem entre DAI e USDC com uma slippage baixa sob medida, algoritmo de taxas baixas projetado especificamente para stablecoins e ganho de taxas."
+        "SECONDARY": "A Curve permite que os usuários (e contratos inteligentes como a 1inch, Paraswap, Totle e Dex.ag) negociem entre DAI e USDC com uma slippage baixa sob medida, algoritmo de taxas baixas projetado especificamente para stablecoins e taxas de ganhos."
       },
       "DOGE": {
         "PRIMARY": "A Dogecoin é uma moeda digital peer-to-peer de código aberto.",
         "SECONDARY": "Sendo um fork da Litecoin, a Dogecoin é uma criptomoeda baseada no popular meme da Internet \"Doge\", que possui um Shiba Inu em seu logotipo."
       },
       "DOT": {
-        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende de confiança, através da Relay Chain da Polkadot.",
+        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende da confiança em terceiros através da chain de relays da Polkadot.",
         "SECONDARY": "A Polkadot torna mais fácil do que nunca criar e conectar aplicativos, serviços e instituições descentralizadas. Ao capacitar aqueles que querem inovar a criar soluções melhores, buscamos libertar a sociedade de sua dependência de uma web fragilizada onde grandes instituições não possam violar nossa confiança."
       },
       "DYM": {
@@ -496,7 +497,7 @@
       },
       "ETH": {
         "PRIMARY": "O Ethereum é uma plataforma global de código aberto para aplicações descentralizadas.",
-        "SECONDARY": "O Ethereum é uma plataforma blockchain descentralizada fundada em 2014. Ele é um projeto de código aberto que não é de propriedade nem é operado por um único indivíduo. Isso indica que qualquer pessoa, de qualquer lugar, pode baixar o software e começar a interagir com a rede. O Ethereum permite que os desenvolvedores façam e operem os chamados “contratos inteligentes”, uma parte essencial da infraestrutura em qualquer aplicação descentralizada."
+        "SECONDARY": "O Ethereum é uma plataforma blockchain descentralizada fundado em 2014. Ele é um projeto de código aberto que não é de propriedade nem é operado por um único indivíduo. Isso indica que qualquer pessoa, de qualquer lugar, pode baixar o software e começar a interagir com a rede. O Ethereum permite que os desenvolvedores façam e operem os chamados “contratos inteligentes”, uma parte essencial da infraestrutura em qualquer aplicação descentralizada."
       },
       "FET": {
         "PRIMARY": "FET é o token nativo da blockchain Fetch.ai.",
@@ -556,7 +557,7 @@
       },
       "LTC": {
         "PRIMARY": "A Litecoin é uma moeda peer-to-peer da Internet que permite pagamentos instantâneos de baixo custo a qualquer pessoa do mundo.",
-        "SECONDARY": "O Litecoin é uma rede de pagamento global de código aberto, que é totalmente descentralizada. O Litecoin possui tempos de confirmação de transação e eficiência de armazenamento aprimorada mais rápidos do que qualquer outra criptomoeda. Devido à adoção do setor, volume de trades e liquidez, o Litecoin é um meio comprovado de negociação complementar ao Bitcoin."
+        "SECONDARY": "O Litecoin é uma rede de pagamento global de código aberto, que é totalmente descentralizada. O Litecoin possui tempos de confirmação de transação e eficiência de armazenamento aprimorado mais rápidos do que qualquer outra criptomoeda. Devido à adoção do setor, volume de trades e liquidez, o Litecoin é um meio comprovado de negociação complementar ao Bitcoin."
       },
       "MAGIC": {
         "PRIMARY": "MAGIC é o token de utilidade no Treasure, um ecossistema de jogos descentralizado criado com Arbitrum.",
@@ -652,7 +653,7 @@
       },
       "SUSHI": {
         "PRIMARY": "A SushiSwap é uma exchange descentralizada de mercado automatizada que opera atualmente na rede Ethereum.",
-        "SECONDARY": "A SushiSwap é um projeto executado pela comunidade e governado pelo votos dos seus detentores de tokens. Os principais produtos incluem: Exchange, Pools de Liquidez, Farms e SushiBar Staking."
+        "SECONDARY": "A SushiSwap é um projeto executado pela comunidade e regido pelo voto dos respectivos detentores de tokens. Os principais produtos incluem: Exchange, Pools de Liquidez, Farms e o SushiBar Staking."
       },
       "SNX": {
         "PRIMARY": "A Synthetix é um protocolo de emissão de ativos sintéticos descentralizados, criado na rede Ethereum.",
@@ -661,6 +662,10 @@
       "TIA": {
         "PRIMARY": "Celestia é uma rede modular de disponibilidade de dados que pode ser escalada de forma segura considerando o número de usuários. Isso facilita que qualquer pessoa possa criar sua própria blockchain.",
         "SECONDARY": "Celestia capacitando a próxima geração de arquiteturas de blockchain escaláveis - blockchains modulares. Celestia pode ser escalada desassociando a execução do consenso e introduzindo uma nova amostragem primitiva de disponibilidade de dados."
+      },
+      "TRUMPWIN": {
+        "PRIMARY": "Este mercado acabará se estabilizando em US$ 1 se Donald J. Trump vencer a eleição presidencial dos EUA em 2024. Caso contrário, esse mercado acabará se estabilizando em 0,00001. Este mercado usa Polymarket como sua fonte de oráculo.",
+        "SECONDARY": "As fontes de resolução da Polymarket para este mercado são Associated Press, Fox News e NBC. Este mercado será resolvido quando todas as três fontes declararem a vitória do mesmo candidato. Se todas as três fontes não tiverem indicado a vitória do mesmo candidato até a data da posse (20 de janeiro de 2025), este mercado será resolvido com base em quem está sendo empossado."
       },
       "TRX": {
         "PRIMARY": "A TRON é uma blockchain pública dedicada a fornecer a infraestrutura subjacente, que permite que os desenvolvedores criem contratos inteligentes e aplicativos descentralizados, publique livremente possuem dados e outros conteúdos.",
@@ -752,6 +757,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -814,6 +820,7 @@
       "INITIATED_TRANSFEROUT": "Transferência iniciada",
       "INVITED_YOU": "indicou você para começar a negociar na exchange aberta mais poderosa do mundo.",
       "JOIN_ME": "Junte-se a mim na dYdX para receber um {DISCOUNT} em todas as taxas de trade!",
+      "KEEP_WINDOW_OPEN": "Mantenha esta janela aberta para garantir que os fundos cheguem.",
       "LEDGER_DERIVATION_PATH": "Caminho",
       "LEGACY_SIGNING": "Assinatura legada",
       "LINK_WALLET": "Vincular carteira",
@@ -834,6 +841,8 @@
       "MULTI_FACTOR_AUTH": "Autenticação multifatorial",
       "PERMITTED_TO_USE": "Você está legalmente autorizado a acessar este site e fazer trades na dYdX sob as leis da jurisdição na qual você reside e está localizado.",
       "PRIVACY_POLICY": "Política de privacidade",
+      "PENDING_TOKEN_APPROVAL": "Aprovação de token pendente na carteira",
+      "PENDING_DEPOSIT_CONFIRMATION": "Confirmação de depósito pendente na carteira",
       "RECOVER_KEYS": "Chaves de recuperação",
       "REFERRAL_DISCOUNT": "Desconto de {DISCOUNT}",
       "REGISTER": "Registrar-se",
@@ -868,7 +877,7 @@
       "TRANSFERS_PAUSED": "Transferências temporariamente interrompidas",
       "TRY_AGAIN": "Tente novamente",
       "TWO_SIGNATURE_REQUESTS": "Você receberá duas solicitações de assinatura. Assinar é gratuito e não envia uma transação.",
-      "UNDERSTAND_RISKS": "Você compreende os riscos associados ao uso de contratos perpétuos e da alavancagem.",
+      "UNDERSTAND_RISKS": "Você compreende os riscos associados ao celebrar contratos perpétuos e usar a alavancagem.",
       "VALUE_PROP_ADVANCED_DESC": "Faça trades com alavancagem e gerencie os riscos usando ferramentas avançadas",
       "VALUE_PROP_ADVANCED": "Avançado",
       "VALUE_PROP_LIQUID_DESC": "Liquidez de nível mundial nos pares mais populares",
@@ -891,7 +900,7 @@
       "WITHDRAWALS_PAUSED": "Saques temporariamente interrompidos",
       "WITHDRAWALS_PAUSED_DESC": "Tente novamente em {ESTIMATED_DURATION}.",
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Para concluir a integração da dYdX, defina a rede de sua carteira como 'Ethereum Mainnet'.",
-      "WRONG_NETWORK_EXPLANATION_STAGING": "Para concluir a integração da dYdX, defina a rede de sua carteira como “Goerli Test Network”.",
+      "WRONG_NETWORK_EXPLANATION_STAGING": "Para concluir a integração da dYdX, defina a rede de sua carteira como \"Goerli Test Network\".",
       "WRONG_NETWORK": "Rede incorreta",
       "YOU_AGREE_TO_TERMS": "Ao negociar na dYdX, voce concorda {TERMS_LINK} com e {PRIVACY_POLICY_LINK}."
     },
@@ -989,6 +998,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Valor recebido esperado",
       "FAST": "Rápido",
       "FAST_WITHDRAW_CONFIRMATION": "Uma taxa de {FEE} será cobrada em relação a este saque rápido. Seus fundos serão enviados imediatamente e aparecerão na sua carteira assim que a transação de saque for confirmada.",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} em geral",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Taxas mais altas",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "taxas mais baixas",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "Os saques em USDC para {LOWEST_FEE_TOKENS_TOOLTIP} têm as taxas mais baixas. Outros métodos de saque (por exemplo, ativos na Ethereum) podem ter taxas de terceiros mais altas.",
       "LOWEST_FEE_WITHDRAWALS": "Os saques em USDC para {LOWEST_FEE_TOKENS_TOOLTIP} têm as taxas mais baixas. Outros saques podem ter taxas adicionais de terceiros.",
@@ -998,7 +1009,9 @@
       "SLOW": "Lento",
       "SLOW_WITHDRAW_DESCRIPTION": "Saques lentos têm duas etapas. Esta etapa inicia sua solicitação de saque e será processada na Layer 2. Assim que os fundos estiverem prontos (isso pode levar até {HOURS} horas), você receberá uma notificação para sacar os fundos para a sua carteira. Você é responsável pelas taxas de “gas” da transação de saque.",
       "SLOW_WITHDRAW_CONFIRMATION": "O saque de {STYLED_SLOW} pode levar até {HOURS} horas antes que esteja disponível para saque. Você fica responsável pelas taxas de “gas” da transação de saque. Se precisar dos fundos antes disso, tente um saque de {STYLED_FAST}.",
-      "WITHDRAW_IRREVERSIBLE": "Iniciar um saque é irreversível."
+      "WITHDRAW_IRREVERSIBLE": "Iniciar um saque é irreversível.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Taxas de terceiros altas da rota escolhida. Reconheço:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Reconheço o seguinte aviso:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "O saldo da carteira é insuficiente para cobrir as taxas da transação.",
@@ -1036,7 +1049,7 @@
       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
     },
     "FEEDBACK_MODAL": {
-      "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Para perguntas ou relatar bugs, use o chat de ajuda.",
+      "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Em caso de dúvidas ou para relatar bugs, use o chat de ajuda.",
       "GIVE_FEEDBACK": "Dar feedback"
     },
     "CANCEL_ORDERS_MODAL": {
@@ -1050,7 +1063,7 @@
       "MAGIC_EXPORT_PRIVATE_KEY_DESCRIPTION": "Para usar a carteira do Magic fora da dYdX, você deve exportar sua carteira para outro provedor de carteiras.",
       "POP_UP_NOTIFICATIONS": "Notificações pop-up",
       "PREFERENCES": "Preferências",
-      "ORDERBOOK_ANIMATIONS": "Animações do livro de ordens",
+      "ORDERBOOK_ANIMATIONS": "Animações do livro de registro de pedidos",
       "PROFILE_SHARE_USERNAME": "Mostrar meu nome de usuário",
       "PROFILE_SHARE_ADDRESS": "Mostrar meu endereço de carteira",
       "SAVE_ORDER_AMOUNT": "Salvar valor do pedido",
@@ -1102,7 +1115,7 @@
       "AVAILABLE_TO_MIGRATE": "Disponível para migração",
       "AVERAGE_OPEN_INTEREST": "Média de posições em aberto",
       "CAN_BE_CLAIMABLE_BY_YOU": "pode ser resgatado por você",
-      "CLAIM_DATA_DESCRIPTION": "Dados usados para calcular Recompensas Retroativas da DYDX. recompensas retroativas são fornecidas pela dYdX Foundation.",
+      "CLAIM_DATA_DESCRIPTION": "Dados usados para calcular Recompensas Retroativas da DYDX. Recompensas retroativas são fornecidas pela dYdX Foundation.",
       "CLAIM_DATA": "Dados de recompensas retroativas",
       "COMPILING": "Compilando os dados…",
       "COUNTDOWN": "Contagem",
@@ -1268,7 +1281,7 @@
       "FEE_AMOUNT": "Valor de taxas",
       "FEE_PERCENT": "Porcentagem de taxas",
       "FEE": "Taxa",
-      "FILL_OR_KILL": "Execução imediata",
+      "FILL_OR_KILL": "Ordens Fill or Kill",
       "FILLS_EMPTY_STATE": "Você não tem ordens a executar.",
       "FINAL_SETTLEMENT": "Liquidação final",
       "FULL_CLOSE": "Fechamento completo",
@@ -1325,6 +1338,7 @@
       "NEXT_IN": "Próximo em {TIME}",
       "NOTIONAL_VALUE": "Valor referencial",
       "OFFSETTING": "Compensação",
+      "OHLC_VIA_MID_PRICE": "OHLC (por preço médio)",
       "OPEN_INTEREST": "Contratos em aberto",
       "OPEN_POSITIONS": "Posições abertas",
       "OPEN_STATUS": "Abrir",
@@ -1440,7 +1454,7 @@
       "TRADES": "Trades",
       "TRAIL": "Trail",
       "TRAILING_PERCENT": "Porcentagem de trailing",
-      "TRAILING_STOP_DESCRIPTION": "Definir um stop de trailing para limitar o percentual que você pode perder do seu percentual de trailing especificado.",
+      "TRAILING_STOP_DESCRIPTION": "Definir um stop de trailing para limitar o percentual que você pode perder do percentual de trailing especificado.",
       "TRAILING_STOP": "Stop de trailing",
       "TRANSFERS_EMPTY_STATE": "Você não tem histórico de transferências.",
       "TRIGGER_PRICE_SHORT": "Disparo",
@@ -1475,7 +1489,7 @@
       "EMPTY_LADDER_STATE": "Em breve!",
       "GIVEN_TO": "Concedido ao trader com o melhor L&P Relativo",
       "GOLD": "Ouro",
-      "HELD_BY": "Detido por",
+      "HELD_BY": "Hold de",
       "INACTIVE": "Inativo",
       "LAST_SEASON": "Última temporada",
       "LAST_SEASON_OUTCOME": "Resultado da temporada passada",
@@ -1517,7 +1531,7 @@
       "SEE_RESULTS": "Clique para ver seus resultados no final da temporada!",
       "SILVER": "Prata",
       "THIS_SEASON": "Esta temporada",
-      "THIS_SEASON_HEDGIES": "Estes são os Hedgies premiados a serem distribuídos nesta temporada",
+      "THIS_SEASON_HEDGIES": "Estes são os prêmios em Hedgies a serem distribuídos nesta temporada",
       "TO_RANGE": "para",
       "TO_STAY_IN": "Para permanecer em {PERIOD}",
       "TODAYS_HEDGIE": "O Hedgie que será dado ao vencedor da competição diária de hoje",
@@ -1634,7 +1648,7 @@
       "EMAIL_UPDATES": "Atualizações importantes enviadas por e-mail",
       "ERROR_MANY_REQUESTS": "Muitas solicitações. Tente novamente mais tarde",
       "GENERAL_DESCRIPTION": "Newsletter, atualizações de mercado e de produtos",
-      "GET_NOTIFIED": "Não perca nada enquanto faz seus trades! Receba notificações por e-mail sobre mudanças de mercado, atividade de conta, atualizações de trades e muito mais.",
+      "GET_NOTIFIED": "Não erre uma vez sequer ao fazer trades! Receba notificações por e-mail sobre mudanças de mercado, atividade de conta, atualizações de trades e muito mais.",
       "MANAGE_NOTIFICATIONS": "Gerenciar notificações",
       "MANAGE_NOTIFICATIONS_ONBOARD": "Você não fez login no site. Conclua a integração para gerenciar suas notificações de e-mail.",
       "RESEND_VERIFICATION": "Re-enviar e-mail de verificação →",
@@ -1880,11 +1894,11 @@
     },
     "DEPOSIT_WITH_FIAT": {
       "BANXA_SUPPORT_LINK": "Suporte à Banxa",
-      "CHECK_ORDER_STATUS": "Procurando um depósito de fiat? Verifique o status da sua ordem no e-mail ou entre em contato com o suporte de {BANXA_SUPPORT_LINK}.",
+      "CHECK_ORDER_STATUS": "Procurando um depósito de fiat? Verifique o status da sua ordem no e-mail ou entre em contato com o suporte de {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Compre USDC",
-      "MODAL_CONFIRMATION": "Complete o fluxo de ordens na Banxa para comprar USDC sem taxas de gás. Verifique o status da sua ordem no e-mail ou entre em contato com o suporte de {BANXA_SUPPORT_LINK}.",
+      "MODAL_CONFIRMATION": "Complete o fluxo de ordens na Banxa para comprar USDC sem taxas de gás. Verifique o status da sua ordem no e-mail ou entre em contato com o suporte de {BANXA_SUPPORT_LINK}",
       "MODAL_CONFIRMATION_TITLE": "Termine na Banxa",
-      "MODAL_LEGAL_DISCLAIMER": "Ao clicar em \"Comprar USDC\", você reconhece e concorda que este serviço é fornecido a você diretamente por Banxa.com Pty Ltd. (\"Banxa\") e não tem relação com a dYdX trading, Inc. (\"dYdX\"); este serviço e qualquer compra ou venda de criptomoeda por valor (incluindo fiat, criptomoeda e empréstimo) ocorrerão somente após você sair da página do site e do protocolo dYdX; além disso, qualquer transmissão de valor (incluindo valor de envio, recebimento e custódia) ocorrerão diretamente entre a rede Ethereum e a Banxa. Este serviço não está disponível para quaisquer pessoas que estejam nos Estados Unidos. Você também concorda que qualquer informação solicitada pela Banxa (incluindo o número de cartão e KYC) não será fornecida para a dYdX. Desse modo, você não responsabilizará a dYdX por nenhum aspecto das transações ou transmissões realizadas entre você e a Banxa. Em caso de conflitos, a versão em inglês desta declaração prevalecerá e pode ser encontrada nos Termos de Uso da dYdX, disponíveis em https:\/\/dydx.exchange\/legal. ",
+      "MODAL_LEGAL_DISCLAIMER": "Ao clicar em “Comprar USDC”, você reconhece e concorda que este serviço é fornecido a você diretamente por Banxa.com Pty Ltd. (“Banxa”) e não tem relação com a dYdX trading, Inc. (“dYdX”); este serviço e qualquer compra ou venda de criptomoeda por valor (incluindo fiat, criptomoeda e empréstimo) ocorrerão somente após você sair da página do site e do protocolo dYdX; além disso, qualquer transmissão de valor (incluindo valor de envio, recebimento e custódia) ocorrerão diretamente entre a rede Ethereum e a Banxa. Este serviço não está disponível para quaisquer pessoas que estejam nos Estados Unidos. Você também concorda que qualquer informação solicitada pela Banxa (incluindo o número de cartão e KYC) não será fornecida para a dYdX. Desse modo, você não responsabilizará a dYdX por nenhum aspecto das transações ou transmissões realizadas entre você e a Banxa. Em caso de conflitos, a versão em inglês desta declaração prevalecerá e pode ser encontrada nos Termos de Uso da dYdX, disponíveis em https:\/\/dydx.exchange\/legal. ",
       "MODAL_NEED_HELP": "Precisa de ajuda?",
       "MODAL_SUBTITLE": "Compre USDC via Banxa. Os fundos serão depositados diretamente na sua conta, {NO_GAS_FEES_STYLED}.",
       "NO_GAS_FEES_STYLED": "sem necessidade de taxas de “gas”",
@@ -1925,7 +1939,7 @@
       "DEPOSIT_PROMO_STEP_2_DESCRIPTION": "Esta promoção pode ser reivindicada em uma conta por pessoa.",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_ELIGIBLE": "Você se qualifica para o bônus!",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_NOT_ELIGIBLE": "Você não se qualifica para ganhar o bônus.",
-      "DEPOSIT_PROMO_STEP_2_LIVENESS_PENDING": "Você enviou uma verificação de atividade. Verifique novamente mais tarde para saber se sua conta se qualifica.",
+      "DEPOSIT_PROMO_STEP_2_LIVENESS_PENDING": "Você enviou uma verificação ao vivo. Verifique novamente mais tarde para saber se sua conta se qualifica.",
       "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "Realize uma verificação ao vivo",
       "DEPOSIT_PROMO_STEP_2_VERIFY_LIVENESS": "Verifique-se ao vivo",
       "DEPOSIT_PROMO_STEP_3_BONUS_RECEIVED": "Seu bônus de {PROMO_BONUS_AMOUNT} foi recebido!",
@@ -2060,7 +2074,8 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes de seu acesso ao frontend ser bloqueado. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}.",
-      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}."
+      "BLOCKED_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}.",
+      "BLOCKED_BANNER_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}. Se você acha que isso é um erro, entre em contato com o suporte em {HELP_LINK}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2185,7 +2200,7 @@
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Valor da ordem deve ser um fator de {STEP_SIZE}.",
       "BRACKET_ORDER_FAILED_TO_PLACE": "Uma ou mais ordens em sua ordem de suporte falhou. Verifique a aba Ordens para revisar suas ordens de take profit e stop loss ativas.",
-      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "O preço de disparo de stop loss deve ficar acima do preço esperado da ordem de mercado: ${EXPECTED_PRICE}",
+      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "O preço de disparo de stop loss deve ficar acima do preço esperado da ordem de mercado: ${EXPECTED_PRICE}.",
       "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "O preço de disparo de stop loss está muito próximo do preço de liquidação. Esta ordem de stop loss pode não ser executada totalmente antes de ser liquidada. Digite o preço de disparo acima de ${TRIGGER_PRICE_LIMIT}.",
       "BRACKET_ORDER_STOP_LOSS_BELOW_EXPECTED_PRICE": "O preço de disparo da ordem de stop loss deve ficar abaixo do preço esperado para a ordem de mercado: ${EXPECTED_PRICE}.",
       "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "O preço de disparo de stop loss está muito próximo do preço de liquidação. Esta ordem de stop loss pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo abaixo de ${TRIGGER_PRICE_LIMIT}.",
@@ -2204,6 +2219,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Esta ordem de mercado resultaria em uma slippage do preço do {SLIPPAGE}oráculo dada a liquidez atual. Use uma ordem limite se você ainda pretende colocar esta ordem.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Esta ordem de mercado resultaria num impacto no preço do livro de registro de pedidos de {SLIPPAGE} devido à liquidez atual. Use uma ordem limite se você ainda pretende colocar esta ordem.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Não há liquidez suficiente para executar esta ordem de mercado. Tente um valor de ordem menor.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Esta ordem de mercado não é recomendada devido à liquidez unilateral do livro de registro de pedidos. Coloque uma ordem limite.",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Esta ordem tem um impacto de preço nulo e poderia potencialmente colocar sua posição acima da alavancagem máxima. Tente um valor de ordem menor.",
       "NEW_POSITION_SIZE_OVER_MAX": "Este trade pode resultar em um tamanho da posição maior que o tamanho máximo de {MAX_SIZE} {SYMBOL}.",
       "NO_EQUITY_DEPOSIT_FIRST": "É preciso depositar fundos antes de colocar ordens.",
@@ -2238,6 +2254,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Slippage excessiva",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Slippage excessiva",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Liquidez insuficiente",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Liquidez unilateral",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Alavancagem possivelmente inválida",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Slippage excessiva",
       "NEW_POSITION_SIZE_OVER_MAX": "Tamanho de posição máximo",
@@ -2357,7 +2374,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Selecione uma cadeia de origem para saque."
     },
     "TRANSFER_MODAL": {
-      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER}{TOKEN}",
+      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Endereço de cadeia dYdX inválido.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Não foi possível encontrar uma conta associada ao endereço desta carteira.",
       "TRANSFER_MORE_THAN_FREE": "Não é possível transferir mais do que sua garantia gratuita.",
