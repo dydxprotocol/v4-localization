@@ -160,6 +160,10 @@
       "TITLE": "Take Profit",
       "BODY": "Votre déclencheur de prise de profit à \n {OLD_VALUE}a été supprimé."
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "Prix de 20 000 $ à gagner",
+      "BODY": "Afin de célébrer le dépassement de 200 milliards de dollars en volume de trading cumulés , dYdX organise un tirage au sort sur Twitter , où vous pourrez remporter 200 {HERE_LINK}dollars. 100 gagnants seront sélectionnés au hasard après le 16 Août 2024 ,  23:59 TU"
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Les marchés {MARKET_1} et {MARKET_2} ont chuté",
       "BODY": "Le {DATE}, les marchés {MARKET_1} et {MARKET_2} ont été soumis au règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
@@ -171,6 +175,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposition en direct pour la mise à jour des {MARKET}paramètres",
       "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du {MARKET}marché. Si elle est adoptée, le {MARKET}marché aura Coinbase Pro {MARKET}comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "Comment trader les élections présidentielles américaines!",
+      "BODY": "{MARKET}est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement , il s'établira à 0.001$."
     }
   }
 }
