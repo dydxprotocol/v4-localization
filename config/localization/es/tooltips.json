@@ -353,6 +353,12 @@
       "BODY": "Para garantizar la seguridad del protocolo, los validadores de la cadena dYdX retrasan la liquidación de la cadena dYdX DYDX."
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Habilita o deshabilita los datos de OHLC a través de precio medio. Deshabilitar esto solo mostrará datos de OHLC de las operaciones históricas."
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Precio de referencia",
