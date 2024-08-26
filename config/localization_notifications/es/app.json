@@ -160,6 +160,10 @@
       "TITLE": "Tomar ganancias",
       "BODY": "Se eliminó tu take profit trigger en {OLD_VALUE}."
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "",
+      "BODY": ""
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}y  los {MARKET_2}mercados se redujeron",
       "BODY": "En {DATE}, el {MARKET_1} y los {MARKET_2}mercados pasaron por la liquidación final. Las posiciones existentes se han cerrado y las órdenes abiertas ahora se han cancelado. Puedes encontrar más información sobre la liquidación final {HERE_LINK}."
@@ -171,6 +175,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Propuesta en vivo para actualizar los {MARKET} parámetros",
       "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros de mercado de {MARKET}. Si se pasa, el {MARKET}mercado tendrá Coinbase Pro  {MARKET}como la única fuente de oráculo. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "",
+      "BODY": ""
     }
   }
 }
