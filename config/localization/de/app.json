@@ -10,7 +10,7 @@
         "DAYS": "Tage",
         "HOURS_ABBREVIATED": "h",
         "HOURS": "Stunden",
-        "LAST_24H": "Letzte 24 Std.",
+        "LAST_24H": "Letzten 24 Std.",
         "LAST_WEEK": "Letzte Woche",
         "MONTHLY": "Monatlich",
         "MINUTES_ABBREVIATED": "m",
@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Guthaben",
       "ASSET": "Vermögenswerte",
       "AVAILABLE": "Verfügbar",
+      "AVAILABLE_BALANCE": "Verfügbares Guthaben",
       "AVAILABLE_IN": "Verfügbar in {DURATION}",
       "AVAILABLE_ON_SHORT": "Verfügbar. {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Zum Entfernen verfügbar",
       "BACK": "Zurück",
       "BALANCE": "Guthaben",
       "BASE_INITIAL_MARGIN_FRACTION": "Anfänglicher Basis-Margenanteil",
@@ -330,7 +332,8 @@
       "TOTAL_FEES": "Gebühren insgesamt",
       "TOTAL_VALUE": "Gesamtwert",
       "TRADE_AN_AMOUNT": "Traden: {AMOUNT}",
-      "TRADE": "Trade",
+      "TRADE": "Traden",
+      "TRADE_NOW": "Trade jetzt",
       "TRADER": "Trader",
       "TRADES": "Trades",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Wir haben unsere Gebührenstruktur aktualisiert! Profitieren Sie von bis zu {REDUCTION} an Kosten auf allen Stufen.",
@@ -359,7 +362,7 @@
       "VIEW_MORE": "Mehr anzeigen",
       "VIEW_OPTIONS": "Optionen anzeigen",
       "VIEW_ORDER": "Bestellung anzeigen",
-      "VIEW_ORDERS_COUNT": "{NUM_ORDERS} Aufträge anzeigen",
+      "VIEW_ORDERS_COUNT": "{NUM_ORDERS}Aufträge anzeigen",
       "VIEW": "Anzeigen",
       "VIEW_ALL": "Alle anzeigen →",
       "VIEWS": "Ansichten",
@@ -664,12 +667,12 @@
         "SECONDARY": "Celestia ermöglicht die nächste Generation skalierbarer Blockchain-Architekturen – modulare Blockchains. Celestia skaliert durch die Entkopplung der Ausführung vom Konsens und die Einführung einer neuen primitiven Stichprobe für die Datenverfügbarkeit."
       },
       "TRUMPWIN": {
-        "PRIMARY": "Dieser Markt wird sich endgültig auf 1 USD einpendeln, wenn Donald J. Trump die Präsidentenwahl 2024 gewinnt. Andernfalls wird sich der Markt schließlich auf 0,001 USD einpendeln. Dieser Markt verwendet Polymarket als Orakelquelle.",
-        "SECONDARY": "Polymarkets Auflösungsquelle für diesen Markt sind die Associated Press, Fox News und NBC. Dieser Markt wird sich auflösen, sobald alle drei Quellen das Rennen für denselben Kandidaten ausrufen. Wenn bis zum Tag der Amtseinführung (20. Januar 2025) nicht alle drei Quellen denselben Kandidaten genannt haben, wird dieser Markt auf der Grundlage der Amtseinführung aufgelöst."
+        "PRIMARY": "Dieser Markt wird sich endgültig auf 1 USD einpendeln, wenn Donald J. Trump die Präsidentenwahl 2024 gewinnt. Andernfalls wird sich der Markt auf 0,001 USD einpendeln. Dieser Markt verwendet Polymarket als Orakelquelle. ",
+        "SECONDARY": "Polymarkets Auflösungsquelle für diesen Markt sind die Associated Press, Fox News und NBC. Dieser Markt wird sich auflösen, sobald alle drei Quellen das Rennen für denselben Kandidaten ausrufen. Wenn bis zum Tag der Amtseinführung (20. Januar 2025) nicht alle drei Quellen denselben Kandidaten genannt haben, wird dieser Markt auf der Grundlage der Amtseinführung aufgelöst. "
       },
       "TRX": {
-        "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat. Diese ermöglicht es Entwicklern, Smart Contracts und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
-        "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives im 6-Stunden-Takt rotieren, um Blöcke und Transaktionen zu validieren."
+        "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat, die es Entwicklern ermöglicht, intelligente Verträge und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
+        "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives alle 6 Stunden rotieren, um Blöcke und Transaktionen zu validieren."
       },
       "UMA": {
         "PRIMARY": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
@@ -872,7 +875,7 @@
       "TOS_LINE4": "Sie sind rechtmäßig berechtigt, auf diese Webseite zuzugreifen und unsere Produkte und Dienstleistungen gemäß den Gesetzen der Gerichtsbarkeit, in der Sie wohnen und sich befinden, zu nutzen.",
       "TOS_LINE5": "Sie verstehen die Investitions- und Technologierisiken, die mit dem Abschluss unbefristeter Verträge, der Nutzung der Hebelwirkung und der Interaktion mit Blockchain und anderen web3-Produkten und -Diensten verbunden sind.",
       "TOS_TRANSLATION_DISCLAIMER": "Soweit anwendbar, wird Ihnen die nicht-englische, übersetzte Fassung dieser Mitteilung lediglich aus Gefälligkeit zur Verfügung gestellt. Im Falle eines Konflikts zwischen der übersetzten Fassung und der englischen Fassung ist die englische Fassung maßgeblich.",
-      "TRANSFEROUT_ALERT_TITLE": "Sie haben einen ausstehenden Transfer von {PENDING_TRANSFERS} {TOKEN}.",
+      "TRANSFEROUT_ALERT_TITLE": "Sie haben einen ausstehenden Transfer von.{PENDING_TRANSFERS}{TOKEN}",
       "TRANSFEROUT_ALERT_SUBTITLE": "Status prüfen",
       "TRANSFERS_PAUSED": "Transfers vorübergehend pausiert",
       "TRY_AGAIN": "Versuchen Sie es noch einmal",
@@ -1010,7 +1013,7 @@
       "SLOW_WITHDRAW_DESCRIPTION": "Langsame Auszahlungen sind ein zweistufiger Prozess. Dieser Schritt leitet Ihre Auszahlungsanforderung ein und wird auf dem Level 2 verarbeitet. Sobald Ihr Geld bereit ist (kann bis zu {HOURS} Stunden dauern), erhalten Sie eine Benachrichtigung, um Ihren Betrag auf Ihr Wallet zu übertragen. Sie sind für die Gasless-Gebühren der Auszahlungstransaktionen verantwortlich.",
       "SLOW_WITHDRAW_CONFIRMATION": "Bei dieser {STYLED_SLOW} Auszahlung kann es bis zu {HOURS} Stunden dauern, bevor sie verfügbar ist. Sie sind für die Gasless-Gebühren der Abhebungstransaktionen verantwortlich. Wenn Sie Ihr Geld früher benötigen, versuchen Sie es mit einer {STYLED_FAST} Auszahlung.",
       "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Abhebung veranlassen, kann diese nicht mehr rückgängig gemacht werden.",
-      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:\n{WARNING_MESSAGE}",
       "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Ich bestätige die Kenntnisnahme der folgenden Warnung:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
@@ -1152,7 +1155,7 @@
       "LAUNCH_INCENTIVES_DESCRIPTION": "Verdienen Sie jede Saison Trading-Prämien. Sehen Sie sich an, wie Sie im Vergleich zu anderen Tradern abschneiden, und schauen Sie sich die vergangenen Saisons im Leaderboard an.",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "Die Saison  {SEASON_NUMBER}beginnt bald!",
       "LAUNCH_INCENTIVES_SEASON_NUM": "Saison {SEASON_NUMBER}",
-      "LAUNCH_INCENTIVES_SEASON_REWARDS": "Prämien in Saison {SEASON_NUMBER}",
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "{SEASON_NUMBER}Saisonprämien",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{NUM_POINTS} während Saison {SEASON_NUMBER} erhalten, die am {PAST_DATE} endete.",
       "LEADERBOARD": "Leaderboard",
       "LEARN_TO_EXPORT": "{STRONG_NO}, erfahren Sie, wie Sie meine geheime Phrase exportieren.",
@@ -1796,7 +1799,7 @@
       "EVENT": "Veranstaltung",
       "FOR_TRADING": "Für den Handel {PERIOD}",
       "FOR_V4": "{SUBJECT}für v4",
-      "LAUNCH_INCENTIVES": "Start-Incentives",
+      "LAUNCH_INCENTIVES": "Start-Incentives ",
       "LAUNCH_INCENTIVES_DESCRIPTION": "In jeder Saison können Sie Prämien für den Handel auf dYdX Chain verdienen. Handeln Sie, um sich einen Platz Leaderboard zu sichern.",
       "LEADERBOARD": "Leaderboard",
       "POINTS": "{POINTS}Punkte",
@@ -1813,7 +1816,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Wie kann ich meine Trading-Prämien abholen?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Trading-Prämien werden für jeden Block automatisch direkt an die dYdX Chain-Adresse des Traders gesendet.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Wie kann ich Staking durchführen und Staking-Prämien beanspruchen?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Um zu staken, klicken Sie auf die Schaltfläche „Staken“ und geben Sie den Betrag der Token ein, die Sie einsetzen möchten. Ein Validator aus einer Reihe von Validatoren mit gutem Ruf in der Community wird automatisch ausgewählt, basierend darauf. welcher qualifizierte Validator die wenigsten Token gestaked hat und nie geslasht wurde. Um Staking-Prämien zu beanspruchen, klicken Sie auf die Schaltfläche „Claim“, sofern USCD-Prämien verfügbar sind. Die beanspruchten USDC-Prämien werden Ihrem Konto gutgeschrieben, sodass Sie sofort damit handeln können! Beachten Sie, dass bei der Beanspruchung von USDC-Prämien eine Gasgebühr anfällt. Mehr anzeigen {HERE_LINK}.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Um zu staken, klicken Sie auf die Schaltfläche „Staken“ und geben Sie den Betrag der Token ein, die Sie einsetzen möchten. Ein Validator aus einer Reihe von Validatoren mit gutem Ruf in der Community wird automatisch ausgewählt, basierend darauf. welcher qualifizierte Validator die wenigsten Token gestaked hat und nie geslasht wurde. Um Staking-Prämien zu beanspruchen, klicken Sie auf die Schaltfläche „Claim“, sofern USCD-Prämien verfügbar sind. Die beanspruchten USDC-Prämien werden Ihrem Konto gutgeschrieben, so dass Sie sofort damit handeln können! Beachten Sie, dass bei der Beanspruchung von USDC-Prämien eine Gasgebühr anfällt. Mehr anzeigen {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Wie funktionieren Trading-Prämien?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Unmittelbar nach jedem Auffüllen werden Trading-Prämien gemäß der Höhe der vom Trader gezahlten Gebühren direkt an die dYdX-Chain-Adresse des Traders gesendet. Lesen Sie mehr {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Wie wird der vorkonfigurierte Satz von Validatoren bestimmt?",
@@ -1825,7 +1828,7 @@
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Wer ist für Trading-Prämien berechtigt?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Alle Trader sind für Trading-Prämien berechtigt.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Welche Validatoren sind für das Staking verfügbar?",
-      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "Die Website wählt einen ersten Standardvalidator auf der Grundlage der niedrigsten Provision und des Stakeweights aus einem vorkonfigurierten Satz aus. Es steht Ihnen jedoch frei, eine alternative Auswahl zu treffen. Diese Website ermöglicht es Ihnen, zu jedem Validator im aktiven Satz zu staken, der nicht gejailed ist, und Sie können zu jedem Validator staken, der nicht auf dieser Website angezeigt wird, indem Sie verwenden wie {KEPLR_LINK}. Weitere Informationen zu dem vorkonfigurierten Satz, der für die erste Standardauswahl verwendet wird, finden Sie hier: {DOCUMENT_LINK}.",
+      "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "Die Website wählt einen ersten Standardvalidator auf der Grundlage der niedrigsten Provision und des Stakeweights aus einem vorkonfigurierten Satz aus. Es steht Ihnen jedoch frei, eine alternative Auswahl zu treffen. Diese Website ermöglicht es Ihnen, zu jedem Validator im aktiven Satz zu staken, der nicht gejailed ist, und Sie können zu jedem Validator staken, der nicht auf dieser Website angezeigt wird, indem Sie verwenden wie {KEPLR_LINK}. Weitere Informationen zu dem vorkonfigurierten Satz, der für die erste Standardauswahl verwendet wird, finden Sie hier: {DOCUMENT_LINK}",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "Diese Dienste von Drittanbietern sind nicht für Personen verfügbar, die in den USA, Kanada oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in den USA, Kanada oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}."
     },
     "EPOCH_END_MODAL": {
@@ -2075,7 +2078,13 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE}zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf das Frontend gesperrt ist. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}.",
-      "BLOCKED_BANNER_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
+      "BLOCKED_BANNER_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Einzelheiten finden Sie in unseren {TERMS_OF_USE_LINK}. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "Hebelwirkung auf das Ergebnis der US-Wahl",
+      "PREDICTION_MARKET_DESC": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls bei 0,001 USD",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Trade auf die US-PRäsidentenwahl.",
+      "TRUMPWIN_DESC": "Dies ist ein Prognosemarkt und wird bei 1 USD abgerechnet, wenn Donald J. Trump die US-Präsidentschaftswahlen 2024 gewinnt. Andernfalls bei 0,001 USD{LEARN_MORE} oder {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2383,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Wenn Sie an eine zentralisierte Börse ohne das Memo überweisen, das sie zur Verfügung gestellt haben, können Sie zu einem Verlust von Geldern führen."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten übertragen.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Durch die Übertragung dieser Sicherheiten würden Sie die maximale Hebelwirkung des Marktes überschreiten. Geben Sie bitte einen kleineren Betrag ein.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Bitte geben Sie einen gültigen Betrag ein."
     },
     "NEW_MARKET_WIDGET": {
