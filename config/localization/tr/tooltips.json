@@ -23,6 +23,10 @@
       "TITLE": "Hesap Kaldıracı",
       "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjlı olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
     },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Kullanılabilir Bakiye",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
+    },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
       "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
@@ -351,6 +355,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "dYdX Zincir bağlama",
       "BODY": "dYdX Zinciri doğrulayıcıları, protokolün güvenliğini sağlamak için dYdX Zinciri DYDX'in bağlanmasını geciktirir."
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Orta fiyat üzerinden OHLC (Açılış-Yüksek-Düşük-Kapanış Grafiği) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
     }
   },
   "NEW_MARKET_WIDGET": {
