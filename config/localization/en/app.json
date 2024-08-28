@@ -2292,7 +2292,7 @@
       "WOULD_NOT_REDUCE_UNCHECK": "Your position would not be reduced with this order. Please uncheck Reduce-Only if you would like to place your order.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til exceeds the maximum 90 days.",
       "POSITION_LEVERAGE_OVER_MAX": "Resulting position leverage would be over the maximum leverage for this market.",
-      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "This limit order is below the minimum order size of {MIN_VALUE}."
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Your order is below the minimum collateral requirement for isolated margin orders. Isolated margin orders require at least {MIN_VALUE} of collateral."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Step size",
