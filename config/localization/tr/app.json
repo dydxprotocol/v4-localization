@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Bakiye",
       "ASSET": "Varlık",
       "AVAILABLE": "Mevcut",
+      "AVAILABLE_BALANCE": "Kullanılabilir Bakiye",
       "AVAILABLE_IN": "{DURATION} içinde mevcut",
       "AVAILABLE_ON_SHORT": " tarihinde mevcut{ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Kaldırılabilir",
       "BACK": "Geri",
       "BALANCE": "Bakiye",
       "BASE_INITIAL_MARGIN_FRACTION": "Temel Başlangıç Marj Oranı",
@@ -254,6 +256,7 @@
       "POSITION": "Pozisyon",
       "POWERED_BY": "Destekleyen",
       "POWERED_BY_ALL_CAPS": "TARAFINDAN DESTEKLENMEKTEDİR:",
+      "PREDICTION_MARKET": "Tahmin Piyasası",
       "PRICE_CHART_SHORT": "Fiyat",
       "PRICE": "Fiyat",
       "PRIVACY": "Gizlilik",
@@ -330,6 +333,7 @@
       "TOTAL_VALUE": "Toplam Değer",
       "TRADE_AN_AMOUNT": "{AMOUNT} Alım Satımı",
       "TRADE": "Alım Satım",
+      "TRADE_NOW": "Hemen trade edin",
       "TRADER": "Yatırımcı",
       "TRADES": "İşlemler",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Komisyon yapımızı güncelledik! Tüm seviyelerdeki komisyonlarda {REDUCTION} değerine varan indirimin tadını çıkarın.",
@@ -662,6 +666,10 @@
         "PRIMARY": "Celestia, kullanıcı sayısı ile güvenli bir şekilde ölçeklenebilen ve herkesin kendi blok zincirini başlatmasını kolaylaştıran modüler bir veri kullanılabilirlik ağıdır.",
         "SECONDARY": "Celestia, yeni nesil ölçeklenebilir blok zinciri mimarilerini, yani modüler blok zincirlerini mümkün kılar. Celestia, yürütmeyi konsensüsten ayırarak ve yeni bir ilkel veri kullanılabilirliği örneklemesi sunarak ölçeklenir."
       },
+      "TRUMPWIN": {
+        "PRIMARY": "2024 ABD Başkanlık Seçimlerini Donald J. Trump kazanırsa, bu piyasa en son 1 Amerikan Doları olarak bağlanacaktır. Aksi takdirde bu piyasa en son $0,001 olarak bağlanacaktır. Bu piyasa, oracle kaynağı olarak Polymarket'i kullanmaktadır.",
+        "SECONDARY": "Bu piyasa için Polymarket'in çözüm kaynağı Associated Press, Fox News ve NBC'dir. Bu kaynakların üçü de başkanlık yarışını aynı adayın kazandığını ilan ettiğinde bu piyasa çözüme ulaşacaktır. Göreve başlama tarihine (20 Ocak 2025) kadar bu kaynakların üçü de aynı adayın kazandığını ilan etmezse, bu piyasa kimin göreve başladığını temel alarak çözüme ulaşacaktır."
+      },
       "TRX": {
         "PRIMARY": "TRON; geliştiricilerin akıllı sözleşmeler ve merkeziyetsiz uygulamalar oluşturabilmelerine, veriyi ve diğer içerikleri serbestçe yayınlamalarına, sahiplenmelerine ve depolamalarına olanak sağlayan dayanak altyapıyı sunmaya adanmış genele açık bir blok zinciridir.",
         "SECONDARY": "TRON, 27 Süper Temsilcinin blok ve işlemleri doğrulamak için her 6 saatte bir rotasyon yaptığı Delege Edilmiş Hisse Kanıtı (Delegated Proof-of-Stake - DPoS) mekanizmasını temel alır."
@@ -752,6 +760,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -814,6 +823,7 @@
       "INITIATED_TRANSFEROUT": "Başlatılan transfer",
       "INVITED_YOU": "size dünyanın en güçlü açık borsası üzerinde yatırıma başlamanız için referans oldu.",
       "JOIN_ME": "Tüm alım satım komisyonlarında {DISCOUNT} değerinde indirim almak için dYdX üzerinde bana katılın!",
+      "KEEP_WINDOW_OPEN": "Fonların ulaştığından emin olmak için lütfen bu pencereyi açık tutun.",
       "LEDGER_DERIVATION_PATH": "Dizin",
       "LEGACY_SIGNING": "Eski imza",
       "LINK_WALLET": "Cüzdanı bağlayın",
@@ -834,6 +844,8 @@
       "MULTI_FACTOR_AUTH": "Çok Faktörlü Kimlik Doğrulama",
       "PERMITTED_TO_USE": "İkamet ettiğiniz ve fiziksel olarak bulunduğunuz bölgenin yasaları uyarınca dYdX üzerinde yatırım yapmanıza hukuken izin veriliyor.",
       "PRIVACY_POLICY": "Gizlilik Politikası",
+      "PENDING_TOKEN_APPROVAL": "Cüzdanda token onayı bekleniyor",
+      "PENDING_DEPOSIT_CONFIRMATION": "Cüzdanda para yatırma onayı bekleniyor",
       "RECOVER_KEYS": "Anahtarları kurtar",
       "REFERRAL_DISCOUNT": "{DISCOUNT} indirim",
       "REGISTER": "Kayıt",
@@ -989,6 +1001,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Alınan Beklenen Miktar",
       "FAST": "Hızlı",
       "FAST_WITHDRAW_CONFIRMATION": "Bu hızlı çekme işlemi için {FEE} kadar ücret alınacaktır. Çekme işlemi onaylandıktan sonra fonlarınız derhal gönderilecek ve cüzdanınızda görünecektir.",
+      "HIGH_FEES_IN_GENERAL": "Genelde {HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "En yüksek ücretler",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "en düşük ücretler",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "{LOWEST_FEE_TOKENS_TOOLTIP} üzerine yapılan USDC çekme işlemleri, en düşük ücretlere sahiptir. Diğer çekme yöntemleri (örneğin, Ethereum üzerindeki varlıklar) daha yüksek üçüncü taraf ücretleri doğurabilir.",
       "LOWEST_FEE_WITHDRAWALS": "{LOWEST_FEE_TOKENS_TOOLTIP} üzerine yapılan USDC çekme işlemleri, en düşük ücretlere sahiptir. Diğer çekme işlemlerinde ek üçüncü taraf ücretleri olabilir.",
@@ -998,7 +1012,9 @@
       "SLOW": "Yavaş",
       "SLOW_WITHDRAW_DESCRIPTION": "Yavaş çekme iki adımlı bir işlemdir. Bu adım, çekme talebinizi başlatır ve Katman 2 üzerinde işlenir. Fonlarınız hazır olduktan sonra ({HOURS} saate kadar sürebilir), onları cüzdanınıza çekmek için bir bildirim alacaksınız. Çekme işlemi gaz ücretlerinden siz sorumlu olursunuz.",
       "SLOW_WITHDRAW_CONFIRMATION": "Bu {STYLED_SLOW} çekme işlemi, çekme için kullanılabilir hale gelene dek {HOURS} saate kadar sürebilir. Çekme işlemi gaz ücretlerinden siz sorumlu olacaksınız. Fonlarınıza daha erken ihtiyacınız varsa, {STYLED_FAST} çekme işlemini deneyin.",
-      "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz."
+      "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Seçilen rotadan alınan yüksek üçüncü taraf ücretleri. Aşağıdakileri onaylıyorum:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Aşağıdaki uyarıyı gördüğümü onaylıyorum:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Cüzdan bakiyesi, işlem ücretlerini karşılamak için yetersiz.",
@@ -1260,7 +1276,7 @@
       "ENTER_TIME_IN_FORCE": "Yürürlükteki süreyi girin",
       "ENTER_GOOD_UNTIL": "Geçerlilik tarihini girin",
       "ENTER_EXECUTION": "Yürütmeyi girin",
-      "ENTRY_PRICE_SHORT": "Giriş",
+      "ENTRY_PRICE_SHORT": "Girdisini",
       "EXECUTION": "Yürütme",
       "EXPECTED_PRICE": "Beklenen Fiyat",
       "EXPIRED": "Vadesi Dolan",
@@ -1325,6 +1341,7 @@
       "NEXT_IN": "Bir sonraki için {TIME}",
       "NOTIONAL_VALUE": "Kavram Değeri",
       "OFFSETTING": "Denkleştirme",
+      "OHLC_VIA_MID_PRICE": "OHLC (orta fiyat üzerinden)",
       "OPEN_INTEREST": "Açık Faiz",
       "OPEN_POSITIONS": "Açık Pozisyonlar",
       "OPEN_STATUS": "Açık",
@@ -1850,7 +1867,7 @@
       "CASH": "Nakit",
       "COPY": "Kopyala ve Paylaş",
       "DOWNLOAD": "İndir",
-      "ENTRY": "Giriş",
+      "ENTRY": "Girdisini",
       "I_WON": "Kazandım",
       "IN": ":",
       "INDEX": "Oracle",
@@ -2060,7 +2077,14 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Kullanıcı arayüzüne erişiminiz {DATE} tarihinde engellenmeden önce paranızı çekebilirsiniz. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin.",
-      "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir."
+      "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir.",
+      "BLOCKED_BANNER_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla bilgiyi {TERMS_OF_USE_LINK} adresinden edinebilirsiniz. Burada bir hata olduğunu düşünüyorsanız, lütfen {HELP_LINK} adresinden destek birimimiz ile irtibata geçin."
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "ABD Seçiminin sonucuna göre kaldıraç işlemi yapın",
+      "PREDICTION_MARKET_DESC": "Etkinlik, tahmin edilen şekilde gerçekleşirse Tahmin Piyasaları 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "ABD Başkanlık Seçimi için işlem yapın",
+      "TRUMPWIN_DESC": "Bu bir Tahmin Piyasası ve Donald J. Trump, 2024 ABD Başkanlık Seçimi'ni kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.  {LEARN_MORE}veya  {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2204,6 +2228,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Bu piyasa talimatı, mevcut likiditeye göre düzeyinde {SLIPPAGE}oracle fiyat kayması ile sonuçlanacaktır. Bu talimatı hâlâ vermek istiyorsanız lütfen bir limit talimatı kullanın.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Bu piyasa emri mevcut likiditede emir defteri fiyatı için {SLIPPAGE} etkisi ile sonuçlanır. Bu talimatı hâlâ vermek istiyorsanız lütfen bir limit talimatı kullanın.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Bu piyasa emrini karşılamak için yeterli likidite bulunmuyor, lütfen daha küçük bir emir miktarı deneyin.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Tek taraflı emir defteri likiditesi nedeniyle bu piyasa emri önerilmez. Lütfen bunun yerine bir limit emri verin.",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Bu talimat sıfır dışında bir fiyat etkisine sahiptir ve potansiyel olarak pozisyonunuzu maksimum kaldıraç seviyesi üzerine taşıyabilir. Lütfen daha küçük bir talimat miktarı deneyin.",
       "NEW_POSITION_SIZE_OVER_MAX": "Bu işlem {MAX_SIZE} {SYMBOL} için maksimum  boyutun üzerinde bir pozisyon büyüklüğü ile sonuçlanabilir.",
       "NO_EQUITY_DEPOSIT_FIRST": "Talimat vermeden önce fon yatırmanız gerekiyor.",
@@ -2238,6 +2263,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Çok fazla kayma",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Çok fazla kayma",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Yetersiz likidite",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Tek taraflı likidite",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Potansiyel olarak geçersiz kaldıraç",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Çok fazla kayma",
       "NEW_POSITION_SIZE_OVER_MAX": "Maks Pozisyon Büyüklüğü",
@@ -2366,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Sağlanan not olmadan merkezi bir borsaya transfer yapmak, fon kaybına neden olabilir."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını transfer edemezsiniz.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Bu teminatın transfer edilmesi, sizi piyasanın maksimum kaldıraç seviyesinin üzerine çıkaracaktır. Lütfen daha düşük bir tutar girin.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Lütfen geçerli bir miktar girin."
     },
     "NEW_MARKET_WIDGET": {

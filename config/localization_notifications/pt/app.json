@@ -29,7 +29,7 @@
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "A Margem Isolada está ativa",
+      "TITLE": "A margem isolada está ativa",
       "BODY": "A margem isolada está ativa! Para saber mais, consulte {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
@@ -160,6 +160,10 @@
       "TITLE": "Take profit",
       "BODY": "Seu disparo de take profit em {OLD_VALUE} foi removido."
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "Sorteio de U$20 mil",
+      "BODY": "Para comemorar a ultrapassagem de 200 bilhões em volume de negociação cumulativa, a dYdX está realizando um sorteio no Twitter, em que você tem a oportunidade de reivindicar US$ 200. Serão sorteados 100 vencedores com base em um mecanismo de seleção aleatória após 16 de agosto de 2024, 23:59 UTC {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}Os mercados  e  foram {MARKET_2}encerrados",
       "BODY": "Em {DATE}, os mercados {MARKET_2} e {MARKET_1} passaram pela liquidação final. As posições existentes foram fechadas e as ordens abertas foram canceladas. Você pode encontrar mais informações sobre a liquidação final {HERE_LINK}."
@@ -170,7 +174,11 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposta em tempo real para atualizar parâmetros de {MARKET}",
-      "BODY": "Há atualmente uma proposta em tempo real para atualizar os parâmetros do mercado de {MARKET}. Se aprovada, o mercado {MARKET} terá a Coinbase Pro de {MARKET} como a única fonte de oráculo. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+      "BODY": "Há atualmente uma proposta em tempo real para atualizar os parâmetros do mercado de .{MARKET} Se aprovada, o mercado {MARKET} terá a Coinbase Pro de {MARKET} como a única fonte de oráculo. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "Faça trades com a eleição presidencial dos EUA!",
+      "BODY": "{MARKET} já está disponível. Este mercado será liquidado em US$ 1 se Donald J. Trump vencer a eleição de 2024. Caso contrário, ele será liquidado em US$ 0,001."
     }
   }
 }
