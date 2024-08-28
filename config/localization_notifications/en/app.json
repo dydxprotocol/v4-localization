@@ -173,6 +173,14 @@
       "TITLE": "$20K giveaway",
       "BODY": "To celebrate surpassing 200B in cumulative trading volume, dYdX is running a Twitter giveaway, where you have the opportunity to claim $200. 100 winners will be selected based on a random selection mechanism after August 16, 2024, 23:59 UTC {HERE_LINK}."
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET} market wound down",
+      "BODY": "On {DATE}, the {MARKET} market went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live proposal to wind down {MARKET} markets",
+      "BODY": "There is currently a live proposal to wind down the {MARKET} market. If passed, the {MARKET} market will enter final settlement on {DATE}. Existing positions will be closed and open orders will be canceled. You can find more information regarding the proposal {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} and {MARKET_2} markets wound down",
       "BODY": "On {DATE}, the {MARKET_1} and {MARKET_2} markets went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
