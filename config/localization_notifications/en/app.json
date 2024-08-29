@@ -80,6 +80,10 @@
       "TITLE": "Fast Withdrawal Succeeded",
       "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
     },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "Trade SOL-USD with 20x Leverage",
+      "BODY": "SOL-USD and all Isolated Markets are now available to trade with up to 20x leverage."
+    },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Rewards and trading are live on dYdX Chain!",
       "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {DOS_BLOGPOST} and {TRADING_BLOGPOST} (third-party link)."
