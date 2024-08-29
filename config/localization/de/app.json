@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Guthaben",
       "ASSET": "Vermögenswerte",
       "AVAILABLE": "Verfügbar",
+      "AVAILABLE_BALANCE": "Verfügbares Guthaben",
       "AVAILABLE_IN": "Verfügbar in {DURATION}",
       "AVAILABLE_ON_SHORT": "Verfügbar. {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Zum Entfernen verfügbar",
       "BACK": "Zurück",
       "BALANCE": "Guthaben",
       "BASE_INITIAL_MARGIN_FRACTION": "Anfänglicher Basis-Margenanteil",
@@ -254,6 +256,7 @@
       "POSITION": "Position",
       "POWERED_BY": "Powered By",
       "POWERED_BY_ALL_CAPS": "POWERED BY",
+      "PREDICTION_MARKET": "Prediction Market",
       "PRICE_CHART_SHORT": "Preis",
       "PRICE": "Preis",
       "PRIVACY": "Datenschutz",
@@ -329,7 +332,8 @@
       "TOTAL_FEES": "Gebühren insgesamt",
       "TOTAL_VALUE": "Gesamtwert",
       "TRADE_AN_AMOUNT": "Traden: {AMOUNT}",
-      "TRADE": "Trade",
+      "TRADE": "Traden",
+      "TRADE_NOW": "Trade jetzt",
       "TRADER": "Trader",
       "TRADES": "Trades",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Wir haben unsere Gebührenstruktur aktualisiert! Profitieren Sie von bis zu {REDUCTION} an Kosten auf allen Stufen.",
@@ -662,6 +666,10 @@
         "PRIMARY": "Celestia ist ein modulares Datenverfügbarkeitsnetzwerk, das sich sicher mit der Anzahl der Benutzer skalieren lässt, sodass jeder seine eigene Blockchain einfach starten kann.",
         "SECONDARY": "Celestia ermöglicht die nächste Generation skalierbarer Blockchain-Architekturen – modulare Blockchains. Celestia skaliert durch die Entkopplung der Ausführung vom Konsens und die Einführung einer neuen primitiven Stichprobe für die Datenverfügbarkeit."
       },
+      "TRUMPWIN": {
+        "PRIMARY": "Dieser Markt wird sich endgültig auf 1 USD einpendeln, wenn Donald J. Trump die Präsidentenwahl 2024 gewinnt. Andernfalls wird sich der Markt auf 0,001 USD einpendeln. Dieser Markt verwendet Polymarket als Orakelquelle. ",
+        "SECONDARY": "Polymarkets Auflösungsquelle für diesen Markt sind die Associated Press, Fox News und NBC. Dieser Markt wird sich auflösen, sobald alle drei Quellen das Rennen für denselben Kandidaten ausrufen. Wenn bis zum Tag der Amtseinführung (20. Januar 2025) nicht alle drei Quellen denselben Kandidaten genannt haben, wird dieser Markt auf der Grundlage der Amtseinführung aufgelöst. "
+      },
       "TRX": {
         "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat, die es Entwicklern ermöglicht, intelligente Verträge und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
         "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives alle 6 Stunden rotieren, um Blöcke und Transaktionen zu validieren."
@@ -752,6 +760,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -2068,7 +2077,14 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE}zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf das Frontend gesperrt ist. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
-      "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}."
+      "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}.",
+      "BLOCKED_BANNER_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Einzelheiten finden Sie in unseren {TERMS_OF_USE_LINK}. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
+    },
+    "PREDICTION_MARKET": {
+      "LEVERAGE_TRADE_US_ELECTION": "Hebelwirkung auf das Ergebnis der US-Wahl",
+      "PREDICTION_MARKET_DESC": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls bei 0,001 USD",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Trade auf die US-PRäsidentenwahl.",
+      "TRUMPWIN_DESC": "Dies ist ein Prognosemarkt und wird bei 1 USD abgerechnet, wenn Donald J. Trump die US-Präsidentschaftswahlen 2024 gewinnt. Andernfalls bei 0,001 USD{LEARN_MORE} oder {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2376,7 +2392,7 @@
       "TRANSFER_WITHOUT_MEMO": "Wenn Sie an eine zentralisierte Börse ohne das Memo überweisen, das sie zur Verfügung gestellt haben, können Sie zu einem Verlust von Geldern führen."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten übertragen.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Durch die Übertragung dieser Sicherheiten würden Sie die maximale Hebelwirkung des Marktes überschreiten. Geben Sie bitte einen kleineren Betrag ein.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Bitte geben Sie einen gültigen Betrag ein."
     },
     "NEW_MARKET_WIDGET": {

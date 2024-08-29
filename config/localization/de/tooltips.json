@@ -1,7 +1,7 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS": {
-      "BODY": "Ihre dYdX-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
+      "BODY": "Ihre dYdX-Chain-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
@@ -22,6 +22,10 @@
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Konto-Hebelwirkung",
       "BODY": "Leverage auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
+    },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Verfügbares Guthaben",
+      "BODY": "Prozentsatz Ihrer gesamten Cross-Marge, der von offenen Positionen in Anspruch genommen wird."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Basis-Positionsnominalwert",
@@ -161,11 +165,11 @@
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag in USD für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Stop-Loss ist ein teilweiser Abschluss",
