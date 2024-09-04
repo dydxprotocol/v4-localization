@@ -730,6 +730,28 @@
         "SECONDARY": "ZetaChain is a public, decentralized blockchain and smart contract platform that enables message passing and value transfer between any blockchain."
       }
     },
+    "AFFILIATES": {
+      "AFFILIATES_PROGRAM": "Affiliates Program",
+      "AFFILIATE_LINK": "Affiliate Link",
+      "EARN_FOR_EACH_TRADER": "Earn up to ${AMOUNT_USD}/mo for each new trader",
+      "EARN_FEES": "Earn fees",
+      "REFER_FOR_DISCOUNTS": "Refer a friend and they can receive up to ${AMOUNT_USD} in discounts.",
+      "REFER_FOR_DISCOUNTS_FIRST_ORDER": "Receive up to ${AMOUNT_USD} in fee discounts after placing your first order!",
+      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Earn up to ${AMOUNT_PER_MONTH}/mo for each new trader you refer. Your referral can save up to ${AMOUNT_DISCOUNT} in trading fees. {LEARN_MORE_LINK}",
+      "WANT_TO_VIEW_EARNINGS": "Want to view your earnings? {LINK}",
+      "INVITE_FRIENDS": "Invite Friends",
+      "YOUR_FRIEND": "Your friend",
+      "HAS_REFERRED_YOU": "has referred you to start trading on the world’s most powerful open exchange.",
+      "EARN_USDC": "Earn USDC",
+      "EARN_USDC_DISCRIPTION": "Take advantage of staking and other products to earn USDC.",
+      "TRADE_ANYTHING": "Trade anything",
+      "TRADE_ANYTHING_DISCRIPTION": "Any asset, any time. Don't see what you're looking for? List the market and be the first to trade it!",
+      "LIGHTNING_FAST": "Lightning fast with deep liquidity",
+      "LIGHTNING_FAST_DISCRIPTION": "The most seamless and powerful experience in DeFi.",
+      "ALL_REWARDS_DYDX_COMMUNITY": "*All rewards are made available through {DYDX_COMMUNITY_LINK}.",
+      "DYDX_COMMUNITY": "dYdX Community",
+      "THE_PRO_TRADING PLATFORM": "The Pro Trading Platform for DeFi"
+    },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
       "CHAT": "Chat",
