@@ -750,7 +750,8 @@
       "LIGHTNING_FAST_DISCRIPTION": "The most seamless and powerful experience in DeFi.",
       "ALL_REWARDS_DYDX_COMMUNITY": "*All rewards are made available through {DYDX_COMMUNITY_LINK}.",
       "DYDX_COMMUNITY": "dYdX Community",
-      "THE_PRO_TRADING_PLATFORM": "The Pro Trading Platform for DeFi"
+      "THE_PRO_TRADING_PLATFORM": "The Pro Trading Platform for DeFi",
+      "TWEET_SHARE_AFFILIATES": "Save up to ${AMOUNT_USD} in trading fees on @dYdX: "
     },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
