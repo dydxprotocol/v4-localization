@@ -27,7 +27,7 @@ jobs:
         for file in $json_files
         do
             echo "Validating $file"
-            result=`python -m json.tool $file`
+            result=$(python -m json.tool "$file")
             if [ $? -ne 0 ]; then
                 echo "Invalid JSON file: $file"
                 exit 1
