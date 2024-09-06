@@ -10,7 +10,7 @@
         "DAYS": "Tage",
         "HOURS_ABBREVIATED": "h",
         "HOURS": "Stunden",
-        "LAST_24H": "Letzten 24 Std.",
+        "LAST_24H": "Letzte 24 Std.",
         "LAST_WEEK": "Letzte Woche",
         "MONTHLY": "Monatlich",
         "MINUTES_ABBREVIATED": "m",
@@ -127,6 +127,7 @@
       "DISMISS": "Verwerfen",
       "DOCUMENT": "Dokument",
       "DONE": "Fertig",
+      "DONT_SHOW_ME_AGAIN": "Zeigen Sie mir das nicht wieder",
       "DOWNLOAD_MOBILE_APP": "Mobile App herunterladen",
       "DYDX_CHAIN_ADDRESS": "dYdX-Kettenadresse",
       "DYDX_CHAIN": "dYdX Chain",
@@ -323,6 +324,7 @@
       "TAKE_ME_THERE": "Hingehen",
       "TERMS_AND_CONDITIONS": "Allgemeine Geschäftsbedingungen",
       "TICK_SIZE": "Notierungssprung",
+      "TICKER": "Ticker",
       "TIER": "Stufe",
       "TIME": "Zeit",
       "TIMESTAMP_ERROR": "Timestamp-Fehler",
@@ -618,6 +620,10 @@
         "PRIMARY": "PYTH ist das Governance-Token für das Pyth-Netzwerk und sein Ökosystem.",
         "SECONDARY": "Pyth liefert Echtzeit-Marktdaten an Finanz-dApps über 40 Blockchains hinweg und bietet 380 + Preisfeeds mit niedriger Latenz für Kryptowährungen, Aktien, ETFs, FX-Paare und Rohstoffe."
       },
+      "RENDER": {
+        "PRIMARY": "RENDER ist ein ERC-20-Dienstprogramm-Token, das von Künstlern im Render-Netzwerk zum Austausch von GPU-Rechenleistung von GPU-Anbietern (Knotenbetreibern) verwendet wird",
+        "SECONDARY": "Das Render-Netzwerk ist ein verteiltes GPU-Rendering-Netzwerk, das auf der Ethereum-Blockchain aufgebaut ist und darauf abzielt, Künstler und Studios, die GPU-Rechenleistung benötigen, mit Mining-Partnern zu verbinden, die ihre GPU-Funktionen vermieten möchten."
+      },
       "RNDR": {
         "PRIMARY": "RNDR ist ein ERC-20-Dienstprogramm-Token, das von Künstlern im Render-Netzwerk zum Austausch von GPU-Rechenleistung von GPU-Anbietern (Knotenbetreibern) verwendet wird",
         "SECONDARY": "Das Render-Netzwerk ist ein verteiltes GPU-Rendering-Netzwerk, das auf der Ethereum-Blockchain aufgebaut ist und darauf abzielt, Künstler und Studios, die GPU-Rechenleistung benötigen, mit Mining-Partnern zu verbinden, die ihre GPU-Funktionen vermieten möchten."
@@ -668,11 +674,11 @@
       },
       "TRUMPWIN": {
         "PRIMARY": "Dieser Markt wird sich endgültig auf 1 USD einpendeln, wenn Donald J. Trump die Präsidentenwahl 2024 gewinnt. Andernfalls wird sich der Markt auf 0,001 USD einpendeln. Dieser Markt verwendet Polymarket als Orakelquelle. ",
-        "SECONDARY": "Polymarkets Auflösungsquelle für diesen Markt sind die Associated Press, Fox News und NBC. Dieser Markt wird sich auflösen, sobald alle drei Quellen das Rennen für denselben Kandidaten ausrufen. Wenn bis zum Tag der Amtseinführung (20. Januar 2025) nicht alle drei Quellen denselben Kandidaten genannt haben, wird dieser Markt auf der Grundlage der Amtseinführung aufgelöst. "
+        "SECONDARY": "Polymarkets Auflösungsquelle für diesen Markt sind die Associated Press, Fox News und NBC. Dieser Markt wird sich auflösen, sobald alle drei Quellen das Rennen für denselben Kandidaten ausrufen. Wenn bis zum Tag der Amtseinführung (20. Januar 2025) nicht alle drei Quellen denselben Kandidaten genannt haben, wird dieser Markt auf der Grundlage der Amtseinführung aufgelöst."
       },
       "TRX": {
-        "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat, die es Entwicklern ermöglicht, intelligente Verträge und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
-        "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives alle 6 Stunden rotieren, um Blöcke und Transaktionen zu validieren."
+        "PRIMARY": "TRON ist eine öffentliche Blockchain, die sich der Bereitstellung der zugrunde liegenden Infrastruktur verschrieben hat. Diese ermöglicht es Entwicklern, Smart Contracts und dezentrale Anwendungen zu erstellen, Daten und andere Inhalte frei zu veröffentlichen, zu besitzen und zu speichern.",
+        "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives im 6-Stunden-Takt rotieren, um Blöcke und Transaktionen zu validieren."
       },
       "UMA": {
         "PRIMARY": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
@@ -875,7 +881,7 @@
       "TOS_LINE4": "Sie sind rechtmäßig berechtigt, auf diese Webseite zuzugreifen und unsere Produkte und Dienstleistungen gemäß den Gesetzen der Gerichtsbarkeit, in der Sie wohnen und sich befinden, zu nutzen.",
       "TOS_LINE5": "Sie verstehen die Investitions- und Technologierisiken, die mit dem Abschluss unbefristeter Verträge, der Nutzung der Hebelwirkung und der Interaktion mit Blockchain und anderen web3-Produkten und -Diensten verbunden sind.",
       "TOS_TRANSLATION_DISCLAIMER": "Soweit anwendbar, wird Ihnen die nicht-englische, übersetzte Fassung dieser Mitteilung lediglich aus Gefälligkeit zur Verfügung gestellt. Im Falle eines Konflikts zwischen der übersetzten Fassung und der englischen Fassung ist die englische Fassung maßgeblich.",
-      "TRANSFEROUT_ALERT_TITLE": "Sie haben einen ausstehenden Transfer von.{PENDING_TRANSFERS}{TOKEN}",
+      "TRANSFEROUT_ALERT_TITLE": "Sie haben einen ausstehenden Transfer von {PENDING_TRANSFERS} {TOKEN}.",
       "TRANSFEROUT_ALERT_SUBTITLE": "Status prüfen",
       "TRANSFERS_PAUSED": "Transfers vorübergehend pausiert",
       "TRY_AGAIN": "Versuchen Sie es noch einmal",
@@ -1013,7 +1019,7 @@
       "SLOW_WITHDRAW_DESCRIPTION": "Langsame Auszahlungen sind ein zweistufiger Prozess. Dieser Schritt leitet Ihre Auszahlungsanforderung ein und wird auf dem Level 2 verarbeitet. Sobald Ihr Geld bereit ist (kann bis zu {HOURS} Stunden dauern), erhalten Sie eine Benachrichtigung, um Ihren Betrag auf Ihr Wallet zu übertragen. Sie sind für die Gasless-Gebühren der Auszahlungstransaktionen verantwortlich.",
       "SLOW_WITHDRAW_CONFIRMATION": "Bei dieser {STYLED_SLOW} Auszahlung kann es bis zu {HOURS} Stunden dauern, bevor sie verfügbar ist. Sie sind für die Gasless-Gebühren der Abhebungstransaktionen verantwortlich. Wenn Sie Ihr Geld früher benötigen, versuchen Sie es mit einer {STYLED_FAST} Auszahlung.",
       "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Abhebung veranlassen, kann diese nicht mehr rückgängig gemacht werden.",
-      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:{WARNING_MESSAGE}",
       "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Ich bestätige die Kenntnisnahme der folgenden Warnung:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
@@ -1108,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "Schützt vor Verlusten, indem die Position eines Traders geschlossen wird, sobald der Oracle-Preis den Triggerpreis kreuzt.",
       "TAKE_PROFIT_TOOLTIP": "Ermöglicht es Tradern, Ziele zu setzen und schützt Gewinne auf Positionen, indem sie einen Preis angeben, zu dem eine offene Position mit Gewinn geschlossen werden soll.",
       "TP_LIMIT": "TP-Grenze",
-      "TP_PRICE": "TP Preis"
+      "TP_PRICE": "TP Preis",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Take-Profit- und Stop-Loss-Orders werden automatisch storniert, wenn die zugrunde liegende Position geschlossen wird.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "Die Konfiguration eines benutzerdefinierten Betrags gilt sowohl für Take-Profit- als auch für Stop-Loss-Orders."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Sehen Sie, wie Ihre Handelsdaten zur Berechnung von Prämien verwendet werden.",
@@ -1240,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "Wenn {ASSET} um einen bestimmten Betrag steigt, lösen Sie einen {ACTION} aus, um Gewinne mitzunehmen.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "Wenn {ASSET} um einen bestimmten Betrag steigt, lösen Sie einen {ACTION} aus, um Verluste zu verhindern.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "Wenn {ASSET} auf einen festen Preis fällt, lösen Sie eine(n) {ACTION} aus, um Gewinne mitzunehmen.",
+      "BUY_MARK_TOOLTIP": "Gekauft   {ASSET_SIZE}{ASSET}bei {PRICE}",
+      "BUYS_SELLS_TOGGLE": "Kauft\/verkauft",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "Anzeigen von historischen Käufen und Verkäufen",
       "CANCEL_ALL": "Alle stornieren",
       "CANCEL_ORDER": "Bestellung stornieren",
       "CANCEL_ORDERS_COUNT": "{COUNT}Orders stornieren",
@@ -1423,6 +1434,7 @@
       "RETURN_TO_MARKET": "Rückkehr zum Markt",
       "RISK_REWARD": "Risiko-Belohnung",
       "SELECT_MARKET": "Markt auswählen",
+      "SELL_MARK_TOOLTIP": "Verkauft {ASSET_SIZE}{ASSET}bei {PRICE}",
       "SELF_TRADE": "Self-Trade",
       "SET_ORDER_SIZE": "Setzen Sie die Ordergröße",
       "SET_PRICE_TRIGGERS": "Setzen Sie den Preis-Trigger",
@@ -2078,11 +2090,16 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE}zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf das Frontend gesperrt ist. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}.",
-      "BLOCKED_BANNER_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Einzelheiten finden Sie in unseren {TERMS_OF_USE_LINK}. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
+      "BLOCKED_BANNER_MESSAGE": "Perpetuals sind nicht für Personen verfügbar, die in einem gesperrten Land oder einem eingeschränkten Gebiet ansässig oder eingetragen sind oder einen registrierten Vertreter in einem gesperrten Land oder einem eingeschränkten Gebiet haben. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
     },
     "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "Binäre Abrechnung",
+      "BINARY_SETTLEMENT_DESC": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei 0,001 USD abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt.",
+      "LEVERAGE_TRADE_EVENTS": "Hebelwirkung von Handelsereignissen",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
       "LEVERAGE_TRADE_US_ELECTION": "Hebelwirkung auf das Ergebnis der US-Wahl",
       "PREDICTION_MARKET_DESC": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls bei 0,001 USD",
+      "PREDICTION_MARKETS": "Vorhersagemärkte",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade auf die US-PRäsidentenwahl.",
       "TRUMPWIN_DESC": "Dies ist ein Prognosemarkt und wird bei 1 USD abgerechnet, wenn Donald J. Trump die US-Präsidentschaftswahlen 2024 gewinnt. Andernfalls bei 0,001 USD{LEARN_MORE} oder {DISMISS}."
     }
