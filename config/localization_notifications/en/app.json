@@ -200,6 +200,10 @@
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Trade the U.S. presidential election!",
       "BODY": "{MARKET} is now live. This market will settle at $1 if Donald J. Trump wins the 2024 election. Otherwise, it will settle at $0.001."
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX now supports Keplr!",
+      "BODY": "You can now connect and use dYdX with your Keplr wallet! Try it now."
     }
   }
 }
