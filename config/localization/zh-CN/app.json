@@ -13,9 +13,9 @@
         "LAST_24H": "过去24小时",
         "LAST_WEEK": "上周",
         "MONTHLY": "每月",
-        "MINUTES_ABBREVIATED": "月",
+        "MINUTES_ABBREVIATED": "分",
         "MINUTES_SHORT": "分钟",
-        "MONTHS_ABBREVIATED": "分",
+        "MONTHS_ABBREVIATED": "月",
         "PAST_30D": "过去30天",
         "PAST_HOUR": "过去一小时",
         "PAST_MONTH": "上月",
@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} 余额",
       "ASSET": "资产",
       "AVAILABLE": "可用",
+      "AVAILABLE_BALANCE": "可用余额",
       "AVAILABLE_IN": "可用时间 {DURATION}",
       "AVAILABLE_ON_SHORT": "可用时间 {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "可用于删除",
       "BACK": "返回",
       "BALANCE": "余额",
       "BASE_INITIAL_MARGIN_FRACTION": "基准初始杠杆分数",
@@ -125,6 +127,7 @@
       "DISMISS": "撤销",
       "DOCUMENT": "文档",
       "DONE": "已完成",
+      "DONT_SHOW_ME_AGAIN": "不要再给我看这个",
       "DOWNLOAD_MOBILE_APP": "下载移动应用程序",
       "DYDX_CHAIN_ADDRESS": "dYdX 链地址",
       "DYDX_CHAIN": "dYdX 链",
@@ -254,6 +257,7 @@
       "POSITION": "当前持仓",
       "POWERED_BY": "支持方",
       "POWERED_BY_ALL_CAPS": "技术支持方",
+      "PREDICTION_MARKET": "预测市场",
       "PRICE_CHART_SHORT": "价格",
       "PRICE": "价格",
       "PRIVACY": "隐私",
@@ -320,6 +324,7 @@
       "TAKE_ME_THERE": "前往浏览",
       "TERMS_AND_CONDITIONS": "条款和条件",
       "TICK_SIZE": "最小报价数量",
+      "TICKER": "Ticker",
       "TIER": "等级",
       "TIME": "时间",
       "TIMESTAMP_ERROR": "时间戳错误",
@@ -330,6 +335,7 @@
       "TOTAL_VALUE": "总价值",
       "TRADE_AN_AMOUNT": "交易{AMOUNT}",
       "TRADE": "交易",
+      "TRADE_NOW": "立即交易",
       "TRADER": "交易者",
       "TRADES": "交易订单",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "我们更新了费用结构！在所有等级，享受最高{REDUCTION}的收费降低。",
@@ -614,6 +620,10 @@
         "PRIMARY": "PYTH是Pyth网络及其生态系统的治理代币。",
         "SECONDARY": "Pyth向40多个区块链上的金融去中心化应用程序提供实时市场数据，并在加密货币、股票、ETF、外汇对和商品上提供380多个低延迟价格馈送。"
       },
+      "RENDER": {
+        "PRIMARY": "RENDER是Render Network上的艺术家使用ERC-20实用代币，用于交换GPU提供商（节点运营商）的GPU计算能力",
+        "SECONDARY": "Render Network是一个建立在以太坊区块链之上的分布式GPU渲染网络，旨在将需要GPU计算能力的艺术家和工作室与愿意租用其GPU能力的挖矿合作伙伴联系起来。"
+      },
       "RNDR": {
         "PRIMARY": "RNDR是一种ERC-20实用代币，Render Network上的艺术家将其用于交换GPU提供商（节点运营商）的GPU计算能力",
         "SECONDARY": "Render Network是一个建立在以太坊区块链之上的分布式GPU渲染网络，旨在将需要GPU计算能力的艺术家和工作室与愿意租用其GPU能力的挖矿合作伙伴联系起来。"
@@ -661,6 +671,10 @@
       "TIA": {
         "PRIMARY": "Celestia 是一个模块化数据可用网络，可以根据用户数量安全地进行扩展，任何人都可以轻松启动自己的区块链。",
         "SECONDARY": "Celestia 支持下一代可扩展的区块链架构 - 模块化区块链。 Celestia 扩展通过分离执行与共识，并引入新的原始数据可用取样来实现。"
+      },
+      "TRUMPWIN": {
+        "PRIMARY": "如果唐纳德·J·特朗普 (Donald J. Trump) 赢得 2024 年美国总统大选，该市场最终将稳定在 1 美元。否则，该市场最终将结算为 0.001。 该市场使用 Polymarket 作为其预言来源。",
+        "SECONDARY": "Polymarket 对该市场的解析来源是美联社、福克斯新闻和 NBC。当所有三个消息来源都认定同一个候选人获胜时，这个市场状况就会得到解决。如果所有三个消息来源都没有在就职日期（2025 年 1 月 20 日）之前宣布同一候选人的获胜，那么这个市场将根据谁就职而决定。"
       },
       "TRX": {
         "PRIMARY": "TRON是一个公共区块链，致力于提供底层基础设施，使开发者能够创建智能合约和去中心化应用程序，自由发布、拥有和存储数据和其他内容。",
@@ -993,7 +1007,7 @@
       "EXPECTED_AMOUNT_RECEIVED": "预期收到金额",
       "FAST": "快速提现",
       "FAST_WITHDRAW_CONFIRMATION": "将对此笔快速提现收取{FEE}的费用。您的资金将立即发送，并会在提现交易确认后出现在您的钱包中。",
-      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}（一般情况）",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}一般情况",
       "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "最高费用",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "最低费用",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDC 提现到{LOWEST_FEE_TOKENS_TOOLTIP}有最低的费用。其他提现方法（例如，以太坊上的资产）可能具有更高的第三方费用。",
@@ -1100,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "在预言机价格超过触发价后，通过平仓交易者的头寸来防止损失。",
       "TAKE_PROFIT_TOOLTIP": "允许交易者通过指定平仓敞口头寸的止盈价格来设定目标并保护头寸利润。",
       "TP_LIMIT": "TP限制",
-      "TP_PRICE": "TP价格"
+      "TP_PRICE": "TP价格",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "如果基础头寸平仓，止盈和止损订单将自动取消。",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "配置自定义金额将适用于止盈和止损订单。"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "看看您的交易数据是如何用于计算奖励的。",
@@ -1232,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "如果{ASSET}增加了一定金额，触发{ACTION}以获取利润。",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "如果{ASSET}增加了一定金额，触发{ACTION}以防止您的损失。",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "如果{ASSET}跌至固定价格，触发{ACTION}以获取利润。",
+      "BUY_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}在 {PRICE}",
+      "BUYS_SELLS_TOGGLE": "买\/卖",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "显示历史买入和卖出",
       "CANCEL_ALL": "全部取消",
       "CANCEL_ORDER": "取消订单",
       "CANCEL_ORDERS_COUNT": "取消 {COUNT} 个订单",
@@ -1415,6 +1434,7 @@
       "RETURN_TO_MARKET": "返回市场",
       "RISK_REWARD": "风险-回报",
       "SELECT_MARKET": "选择市场",
+      "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}在 {PRICE}",
       "SELF_TRADE": "自动交易",
       "SET_ORDER_SIZE": "设置订单规模",
       "SET_PRICE_TRIGGERS": "设置触发价",
@@ -2069,7 +2089,19 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
-      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
+      "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
+      "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。"
+    },
+    "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "二元结算",
+      "BINARY_SETTLEMENT_DESC": "如果事件发生，市场将自动结算为1美元。 否则，它将以0.001美元结算。 价格相当于结果发生的百分比机会。",
+      "LEVERAGE_TRADE_EVENTS": "杠杆交易事件结果",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "涉及广泛的主题，包括政治、体育、流行文化等。",
+      "LEVERAGE_TRADE_US_ELECTION": "杠杆交易 美国大选的结果",
+      "PREDICTION_MARKET_DESC": "如果事件按预测发生，预测市场将结算为1美元。 否则，它们将结算为 $0.001。",
+      "PREDICTION_MARKETS": "预测市场",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "交易美国总统选举",
+      "TRUMPWIN_DESC": "这是一个预测市场，如果唐纳德·J·特朗普赢得2024年美国总统大选，则将以1美元结算。 否则，它将以 $0.001。 {LEARN_MORE}{DISMISS}或 。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2377,7 +2409,7 @@
       "TRANSFER_WITHOUT_MEMO": "在没有他们提供的备忘录的情况下，转移到中心化交易所，可能会导致资金损失。"
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "转移此抵押品将使您超过市场的最大杠杆。 请输入较低的金额。",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "请输入有效金额。"
     },
     "NEW_MARKET_WIDGET": {
