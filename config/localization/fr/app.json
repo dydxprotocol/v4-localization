@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET}Solde",
       "ASSET": "Actif",
       "AVAILABLE": "Disponible",
+      "AVAILABLE_BALANCE": "Solde disponible",
       "AVAILABLE_IN": "Disponible en {DURATION}",
       "AVAILABLE_ON_SHORT": "Dispo.{ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Disponible à la suppression ",
       "BACK": "Retour",
       "BALANCE": "Solde",
       "BASE_INITIAL_MARGIN_FRACTION": "Fraction de marge initiale de base",
@@ -125,6 +127,7 @@
       "DISMISS": "Rejeter",
       "DOCUMENT": "document",
       "DONE": "Fait",
+      "DONT_SHOW_ME_AGAIN": "Ne me montrez pas cela à nouveau",
       "DOWNLOAD_MOBILE_APP": "Télécharger l'application mobile",
       "DYDX_CHAIN_ADDRESS": "Adresse de la chaîne dYdX",
       "DYDX_CHAIN": " Chaine dYdX",
@@ -143,7 +146,7 @@
       "EXPAND": "Agrandir",
       "FAST_WITHDRAW": "Retrait rapide",
       "FAVORITES": "Favoris",
-      "FEES_30D": "Frais (30j)",
+      "FEES_30D": "Frais (30 j)",
       "FEES_PAID": "Frais payés",
       "FEES": "Frais",
       "FIAT": "Fiat",
@@ -254,6 +257,7 @@
       "POSITION": "Position",
       "POWERED_BY": "Alimenté par",
       "POWERED_BY_ALL_CAPS": "ALIMENTÉ PAR",
+      "PREDICTION_MARKET": "Marché Prédictif ",
       "PRICE_CHART_SHORT": "Prix",
       "PRICE": "Prix",
       "PRIVACY": "Confidentialité",
@@ -320,6 +324,7 @@
       "TAKE_ME_THERE": "Emmenez-moi",
       "TERMS_AND_CONDITIONS": "Conditions générales",
       "TICK_SIZE": "Taille du tick",
+      "TICKER": "Téléscripteur",
       "TIER": "Niveau",
       "TIME": "Temps",
       "TIMESTAMP_ERROR": "Erreur d'horodatage",
@@ -330,6 +335,7 @@
       "TOTAL_VALUE": "Valeur totale",
       "TRADE_AN_AMOUNT": "Transaction {AMOUNT}",
       "TRADE": "Trade",
+      "TRADE_NOW": "Trader maintenant",
       "TRADER": "Trader",
       "TRADES": "Trades",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "Nous avons mis à jour notre structure de frais ! Bénéficiez d'une réduction des frais allant jusqu'à {REDUCTION} sur tous les niveaux.",
@@ -368,7 +374,7 @@
       "WALLET_BALANCE": "Solde du portefeuille",
       "WALLET": "Portefeuille",
       "WEBSITE": "Site Web",
-      "WHITEPAPER": "Whitepaper",
+      "WHITEPAPER": "Livre blanc",
       "WITHDRAW": "Retrait",
       "YES": "Oui",
       "YOU": "Vous "
@@ -376,7 +382,7 @@
     "__ASSETS": {
       "ZRX": {
         "PRIMARY": "0x est un protocole d'agrégation de liquidités de qualité professionnelle qui permet aux utilisateurs d'échanger facilement des jetons ERC20 et d'autres actifs. 0x utilise un relais hors chaîne hybride unique et une architecture de règlement sur l chaîne pour offrir une expérience flexible et économe en gaz aux traders.",
-        "SECONDARY": "ZRX est le jeton de gouvernance et de jalonnement natif de 0x, permettant aux détenteurs de voter sur les propositions d'amélioration 0x (ZEIP) et d'influencer le développement du protocole. De plus, ZRX peut être staké ou délégué pour gagner des récompenses de liquidité grâce à son programme de liquidité de teneur de marché."
+        "SECONDARY": "ZRX est le jeton de gouvernance et de staking natif de 0x, permettant aux détenteurs de voter sur les propositions d'amélioration 0x (ZEIP) et d'influencer le développement du protocole. De plus, ZRX peut être stacké ou délégué pour gagner des récompenses de liquidité grâce à son programme de liquidité de teneur de marché."
       },
       "1INCH": {
         "PRIMARY": "Le réseau 1inch réunit des protocoles décentralisés dont la synergie permet les opérations les plus lucratives, les plus rapides et les plus protégées de l'espace DeFi.",
@@ -384,7 +390,7 @@
       },
       "AAVE": {
         "PRIMARY": "Aave est un protocole open source et non-dépositaire pour gagner des intérêts sur les dépôts et emprunter des actifs.",
-        "SECONDARY": "Aave est un protocole de marché de liquidité non dépositaire décentralisé auquel les utilisateurs peuvent participer en tant que déposants ou emprunteurs. Les déposants fournissent des liquidités au marché pour gagner un revenu passif, tandis que les emprunteurs peuvent emprunter de manière surdimensionnée (perpétuelle) ou sous-dimensionnée (liquidité d'un bloc)."
+        "SECONDARY": "Aave est un protocole de marché de liquidité non-dépositaire décentralisé auquel les utilisateurs peuvent participer en tant que déposants ou emprunteurs. Les déposants fournissent des liquidités au marché pour gagner un revenu passif, tandis que les emprunteurs peuvent emprunter de manière surdimensionnée (perpétuelle) ou sous-dimensionnée (liquidité d'un bloc)."
       },
       "ADA": {
         "PRIMARY": "Cardano est une plate-forme blockchain de preuve d'enjeu : la première à être fondée sur des recherches évaluées par des pairs et développée à l'aide de méthodes fondées sur des preuves. Elle combine des technologies pionnières pour fournir une sécurité et une durabilité inégalées aux applications, systèmes et sociétés décentralisés.",
@@ -460,7 +466,7 @@
       },
       "ATOM": {
         "PRIMARY": "Cosmos est un écosystème en constante expansion d'applications et de services interconnectés, conçu pour un avenir décentralisé.",
-        "SECONDARY": "Les applications et services Cosmos se connectent à l'aide d'IBC, le protocole de communication inter-blockchain. Cette innovation vous permet d'échanger librement des actifs et des données sur des chaînes de blocs souveraines et décentralisées."
+        "SECONDARY": "Les applications et services Cosmos se connectent à l'aide d'IBC, le protocole de communication inter-blockchain. Cette innovation vous permet d'échanger librement des actifs et des données sur des blockchains souveraines et décentralisées."
       },
       "CRV": {
         "PRIMARY": "Curve est un pool de liquidités d'échange sur Ethereum (comme Uniswap) conçu pour un trading de stablecoins extrêmement efficace et des revenus de commissions supplémentaires à faible risque pour les fournisseurs de liquidités, sans coût d'opportunité.",
@@ -471,7 +477,7 @@
         "SECONDARY": "Lancé par Litecoin, Dogecoin est une crypto-monnaie basée sur le même Internet populaire « Doge » et présente un Shiba Inu sur son logo."
       },
       "DOT": {
-        "PRIMARY": "Polkadot est conçu pour connecter des chaînes privées et de consortium, des réseaux publics et sans autorisation, des oracles et des technologies futures qui restent à créer. Polkadot facilite un Internet où des chaînes de blocs indépendantes peuvent échanger des informations et des transactions sans confiance via la chaîne de relais Polkadot.",
+        "PRIMARY": "Polkadot est conçu pour connecter des chaînes privées et de consortium, des réseaux publics et sans autorisation, des oracles et des technologies futures qui restent à créer. Polkadot facilite un Internet où des blockchains indépendantes peuvent échanger des informations et des transactions sans confiance via la chaîne de relais Polkadot.",
         "SECONDARY": "Polkadot facilite plus que jamais la création et la connexion d'applications, de services et d'institutions décentralisés. En donnant aux innovateurs les moyens de créer de meilleures solutions, nous cherchons à libérer la société de sa dépendance à un réseau défaillant où ses grandes institutions ne peuvent pas violer notre confiance."
       },
       "DYM": {
@@ -480,7 +486,7 @@
       },
       "ENJ": {
         "PRIMARY": "Enjin a conçu des produits simples pour vous aider à gérer vos NFT et vos crypto-monnaies et à vous impliquer dans la nouvelle économie virtuelle en croissance rapide.",
-        "SECONDARY": "ENJ est utilisé pour infuser des actifs numériques tels que les NFT. Il alimente les NFT lorsqu'ils se déplacent entre les jeux, les applications, les marchés et les portefeuilles. Chaque actif miné contient ENJ, ce qui lui confère une valeur réelle qui peut être récupérée à tout moment grâce à la « fusion »."
+        "SECONDARY": "ENJ est utilisé pour intégrer des actifs numériques tels que les NFT. Il alimente les NFT lorsqu'ils se déplacent entre les jeux, les applications, les marchés et les portefeuilles. Chaque actif miné contient ENJ, ce qui lui confère une valeur réelle qui peut être récupérée à tout moment grâce à la « fusion »."
       },
       "ENS": {
         "PRIMARY": "ENS est la norme de dénomination de blockchain la plus largement intégrée.",
@@ -488,15 +494,15 @@
       },
       "EOS": {
         "PRIMARY": "EOSIO est une plateforme de blockchain open source hautement performante, conçue pour prendre en charge et exploiter des infrastructures numériques sûres, conformes et prévisibles.",
-        "SECONDARY": "Une plateforme open source pour l'innovation et la performance de la blockchain - les entreprises et les développeurs du monde entier utilisent EOSIO pour créer des infrastructures numériques sécurisées, transparentes et déterministes."
+        "SECONDARY": "Une plate-forme open source pour l'innovation et la performance de la blockchain - les entreprises et les développeurs du monde entier utilisent EOSIO pour créer des infrastructures numériques sécurisées, transparentes et déterministes."
       },
       "ETC": {
         "PRIMARY": "Ethereum Classic est un hard fork d'Ethereum qui a été lancé en juillet 2016. Il fonctionne comme un réseau de contrats intelligents, avec la capacité d'héberger et de prendre en charge des applications décentralisées.",
         "SECONDARY": "ETC a été lancé dans le but de préserver une proposition de valeur principale des plateformes de contrats intelligents blockchain : \"Code is Law\". Le hard fork est le résultat de la conviction que la majorité des protocoles de blockchain, y compris Ethereum, ont dévié de ce principe fondamental."
       },
       "ETH": {
-        "PRIMARY": "Ethereum est une plateforme mondiale open source pour les applications décentralisées.",
-        "SECONDARY": "Ethereum est une plateforme blockchain décentralisée fondée en 2014. Ethereum est un projet open source qui n'appartient ni n'est exploité par une seule personne. Cela signifie que n'importe qui, n'importe où, peut télécharger le logiciel et commencer à interagir avec le réseau. Ethereum permet aux développeurs de créer et d'exploiter des « contrats intelligents », un élément central de l'infrastructure de toute application décentralisée."
+        "PRIMARY": "Ethereum est une plate-forme mondiale open source pour les applications décentralisées.",
+        "SECONDARY": "Ethereum est une plateforme blockchain décentralisée fondée en 2014. Ethereum est un projet open source qui n'est pas détenu ou exploité par une seule personne.. Cela signifie que n'importe qui, n'importe où, peut télécharger le logiciel et commencer à interagir avec le réseau. Ethereum permet aux développeurs de créer et d'exploiter des « contrats intelligents », un élément central de l'infrastructure de toute application décentralisée."
       },
       "FET": {
         "PRIMARY": "FET est le jeton natif de la blockchain Fetch.ai.",
@@ -572,7 +578,7 @@
       },
       "MATIC": {
         "PRIMARY": "Polygon est un protocole et un cadre permettant de créer et de connecter des réseaux blockchain compatibles Ethereum. Agrégation de solutions évolutives sur Ethereum prenant en charge un écosystème Ethereum multi-chaînes.",
-        "SECONDARY": ""
+        "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects"
       },
       "MEME": {
         "PRIMARY": "Selon son site Web, Memecoin (MEME) est littéralement une pièce de monnaie meme.",
@@ -614,6 +620,10 @@
         "PRIMARY": "PYTH est le jeton de gouvernance du réseau Pyth et de son écosystème.",
         "SECONDARY": "Pyth fournit des données de marché en temps réel aux dApps financières à travers 40+ blockchains et fournit 380+ flux de prix à faible latence à travers les cryptocurrencies, les actions, les ETF, les paires de devises et les matières premières."
       },
+      "RENDER": {
+        "PRIMARY": "RENDER est un jeton utilitaire ERC-20 utilisé par les artistes sur le réseau Render pour échanger la puissance de traitement GPU des fournisseurs GPU (opérateurs de nœud)",
+        "SECONDARY": "Le réseau Render est un réseau de rendu GPU distribué construit sur la blockchain Ethereum, visant à mettre en relation les artistes et les studios ayant besoin de puissance de calcul GPU avec des partenaires miniers désireux de louer leurs capacités GPU."
+      },
       "RNDR": {
         "PRIMARY": "RNDR est un jeton utilitaire ERC-20 utilisé par les artistes sur le Render Network pour échanger de la puissance de calcul GPU avec les fournisseurs de GPU (opérateurs de nœuds).",
         "SECONDARY": "Le réseau Render est un réseau de rendu GPU distribué construit sur la blockchain Ethereum, visant à mettre en relation les artistes et les studios ayant besoin de puissance de calcul GPU avec des partenaires miniers désireux de louer leurs capacités GPU."
@@ -652,7 +662,7 @@
       },
       "SUSHI": {
         "PRIMARY": "SushiSwap est un marché automatisé faisant un échange décentralisé fonctionnant actuellement sur Ethereum.",
-        "SECONDARY": "SushiSwap est un projet géré par la communauté qui est régi par le vote de ses détenteurs de token. Les produits de base incluent Exchange, Liquidity Pools, Farms et SushiBar Staking."
+        "SECONDARY": "SushiSwap est un projet géré par la communauté qui est régi par le vote de ses détenteurs de jetons. Les produits de base incluent Exchange, Liquidity Pools, Farms et SushiBar Staking."
       },
       "SNX": {
         "PRIMARY": "Synthetix est un protocole décentralisé d'émission d'actifs synthétiques basé sur Ethereum.",
@@ -662,13 +672,17 @@
         "PRIMARY": "Celestia est un réseau modulaire de disponibilité des données qui s'adapte en toute sécurité au nombre d'utilisateurs, ce qui permet à chacun de lancer facilement sa propre blockchain.",
         "SECONDARY": "Celestia permet la mise en place de la prochaine génération d'architectures de blockchain évolutives : les blockchains modulaires. Celestia évolue en découplant l'exécution du consensus et en introduisant une nouvelle primitive, l'échantillonnage de disponibilité des données."
       },
+      "TRUMPWIN": {
+        "PRIMARY": "Ce marché s'établira définitivement à 1$ si Donald J. Trump gagne les élections présidentielles de 2024 aux USA. Autrement, ce marché s'établira  définitivement à 0.00001. Ce marché utilise Polymarket comme source oracle.",
+        "SECONDARY": "La source de résolution de polymarket pour ce marché est l'Associated Press , Fox News et NBC. Ce marché va se résoudre une fois que les trois sources vont annoncer la course pour le même candidat . Si les trois sources n'ont pas annoncé le course pour le même candidat à la date d'inauguration ( le 20 Janvier 2025) ce marché sera résolu en fonction de l'inauguration"
+      },
       "TRX": {
         "PRIMARY": "TRON est une blockchain publique destinée à fournir l'infrastructure sous-jacente qui permet aux développeurs de créer des contrats intelligents et des applications décentralisées, de publier librement, de posséder et de stocker des données et autres contenus.",
         "SECONDARY": "TRON s'appuie sur un mécanisme de preuve d'authenticité déléguée (DPoS) dans lequel 27 super représentants effectuent une rotation toutes les 6 heures pour valider les blocs et les transactions."
       },
       "UMA": {
         "PRIMARY": "UMA est une infrastructure open source pour le déploiement et l'application d'actifs synthétiques sur Ethereum.",
-        "SECONDARY": "UMA construit une infrastructure open-source pour les contrats financiers \"inestimables\" sur Ethereum sous la forme de deux technologies : des modèles de contrats financiers inestimables utilisés pour créer des token synthétiques et un service oracle décentralisé utilisé pour gérer et appliquer les contrats sur UMA."
+        "SECONDARY": "UMA construit une infrastructure open-source pour les contrats financiers « inestimables » sur Ethereum sous la forme de deux technologies : des modèles de contrats financiers inestimables utilisés pour créer des jetons synthétiques et un service oracle décentralisé utilisé pour gérer et appliquer les contrats sur UMA."
       },
       "UNI": {
         "PRIMARY": "Uniswap est un protocole décentralisé pour la fourniture automatisée de liquidités sur Ethereum.",
@@ -752,6 +766,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -814,6 +829,7 @@
       "INITIATED_TRANSFEROUT": "Transfert initié",
       "INVITED_YOU": "vous a référé pour commencer à trader sur la bourse ouverte la plus puissante au monde.",
       "JOIN_ME": "Rejoignez-moi sur dYdX pour recevoir une  {DISCOUNT}sur tous les frais d'opération!",
+      "KEEP_WINDOW_OPEN": "Veuillez garder cette fenêtre ouverte pour vous assurer que l'arrivée des fonds.",
       "LEDGER_DERIVATION_PATH": "Parcours",
       "LEGACY_SIGNING": "Legacy Signing",
       "LINK_WALLET": "Lier le portefeuille",
@@ -834,6 +850,8 @@
       "MULTI_FACTOR_AUTH": "Authentification multi-facteurs",
       "PERMITTED_TO_USE": "Vous êtes légalement autorisé à accéder à ce site et à trader sur dYdX en vertu des lois de la juridiction dans laquelle vous résidez et êtes situé.",
       "PRIVACY_POLICY": "Politique de confidentialité",
+      "PENDING_TOKEN_APPROVAL": "Approbation du jeton en attente dans le portefeuille",
+      "PENDING_DEPOSIT_CONFIRMATION": "Validation du dépôt en attente dans le portefeuille",
       "RECOVER_KEYS": "Récupérer les clés",
       "REFERRAL_DISCOUNT": "Réduction de {DISCOUNT}",
       "REGISTER": "S'enregistrer",
@@ -989,6 +1007,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Montant escompté reçu",
       "FAST": "Rapide",
       "FAST_WITHDRAW_CONFIRMATION": "Des frais {FEE}de  seront perçus pour ce retrait rapide. Vos fonds seront envoyés immédiatement et apparaîtront dans votre portefeuille une fois la transaction de retrait confirmée.",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} en général",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Frais les plus élevés",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "frais les plus bas",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "Les retraits USDC vers {LOWEST_FEE_TOKENS_TOOLTIP} ont les frais les plus bas. D'autres méthodes de retrait (par exemple, les actifs sur Ethereum) peuvent avoir des frais de tiers plus élevés.",
       "LOWEST_FEE_WITHDRAWALS": "Les retraits USDC vers {LOWEST_FEE_TOKENS_TOOLTIP} ont les frais les plus bas. D'autres retraits peuvent avoir des frais supplémentaires de tiers.",
@@ -998,7 +1018,9 @@
       "SLOW": "Lent",
       "SLOW_WITHDRAW_DESCRIPTION": "Les retraits lents sont un processus en deux étapes. Cette étape lance votre demande de retrait et sera traitée sur la couche 2. Une fois que vos fonds sont prêts (cela peut prendre jusqu'à {HOURS} heures), vous recevrez une notification pour retirer vos fonds dans votre portefeuille. Vous êtes responsable des frais de retrait de gaz de transaction.",
       "SLOW_WITHDRAW_CONFIRMATION": "Ce {STYLED_SLOW}retrait  peut prendre jusqu'à  {HOURS} heures avant qu'il ne soit disponible pour le retrait. Vous serez responsable des frais de retrait de gaz de transaction. Si vous avez besoin de vos fonds plus tôt, essayez un retrait {STYLED_FAST}.",
-      "WITHDRAW_IRREVERSIBLE": "Initier un retrait est irréversible."
+      "WITHDRAW_IRREVERSIBLE": "Initier un retrait est irréversible.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Frais de tiers élevés de l'itinéraire choisi. Je prends acte :{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Je prends acte de l'avertissement suivant :\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Le solde du portefeuille est insuffisant pour couvrir les frais de transaction.",
@@ -1092,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "Protège contre les pertes en clôturant la position d'un trader lorsque le prix de l'oracle franchit le prix de déclenchement.",
       "TAKE_PROFIT_TOOLTIP": "Permet aux traders de fixer des objectifs et de protéger les profits sur les positions en spécifiant un prix auquel clôturer une position ouverte pour réaliser un profit.",
       "TP_LIMIT": "Limite TP",
-      "TP_PRICE": "Prix TP"
+      "TP_PRICE": "Prix TP",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Les ordres Take Profit et Stop Loss seront automatiquement annulés si la position sous-jacente est clôturée.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "Le paramétrage d'un montant personnalisé s'appliquera aux ordres Take Profit et Stop Loss."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Découvrez comment vos données de trading sont utilisées pour calculer les récompenses.",
@@ -1109,7 +1133,7 @@
       "CURRENT_EPOCH": "Epoch actuelle",
       "CURRENTLY_HELD": "actuellement tenu",
       "DISCOVER_NEW_ASSETS": "Découvrir de nouveaux actifs disponibles pour trader sur dYdX",
-      "DOWNLOAD_CSV": "Télécharger en tant que.csv",
+      "DOWNLOAD_CSV": "Télécharger en tant que .csv",
       "EARN_DYDX_FOR_TRADING_DESCRIPTION": "Les récompenses de trading sont distribuées par la Fondation dYdX.",
       "EARN_DYDX_FOR_TRADING": "Gagnez du DYDX pour le trading",
       "EPOCH_NUMBER": "Epoch {EPOCH_NUMBER}",
@@ -1155,7 +1179,7 @@
       "OVER_THE_LAST_30_DAYS": "au cours des 30 derniers jours",
       "OVERVIEW_DESCRIPTION": "Aperçu du compte",
       "PAYMENTS_DESCRIPTION": "Voir combien vous avez dépensé en trading",
-      "POINTS": "",
+      "POINTS": "points",
       "PORTFOLIO_VALUE": "Valeur du portefeuille",
       "PORTFOLIO": "Portefeuille",
       "POSITIONS_DESCRIPTION": "Surveillez votre exposition et votre risque",
@@ -1224,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "Si {ASSET} augmente d'un montant donné, activez une {ACTION} afin d'engranger des bénéfices.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "Si {ASSET} augmente d'un montant donné, déclenchez une  {ACTION}pour éviter vos pertes.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "Si {ASSET} tombe à un prix fixe, déclenchez une {ACTION} afin d'engranger des bénéfices.",
+      "BUY_MARK_TOOLTIP": "Acheté   {ASSET_SIZE}{ASSET}à {PRICE}",
+      "BUYS_SELLS_TOGGLE": "Achat\/vente",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "Afficher l'historique des achats et des ventes",
       "CANCEL_ALL": "Tout annuler",
       "CANCEL_ORDER": "Annuler l'ordre",
       "CANCEL_ORDERS_COUNT": "Annuler  les {COUNT}ordres",
@@ -1262,13 +1289,13 @@
       "ENTER_EXECUTION": "Entrez l'exécution",
       "ENTRY_PRICE_SHORT": "Entrée",
       "EXECUTION": "Exécution",
-      "EXPECTED_PRICE": "Prix prévu",
+      "EXPECTED_PRICE": "Prix attendu",
       "EXPIRED": "Expiré",
       "FAILED": "Échec",
       "FEE_AMOUNT": "Montant des frais",
       "FEE_PERCENT": "Pourcentage des frais",
       "FEE": "Frais",
-      "FILL_OR_KILL": "Exécution ou Suppression",
+      "FILL_OR_KILL": "Fill or Kill",
       "FILLS_EMPTY_STATE": "Vous n'avez pas de remplissages.",
       "FINAL_SETTLEMENT": "Règlement final",
       "FULL_CLOSE": "Complètement fermé",
@@ -1292,8 +1319,8 @@
       "INITIAL_STOP": "Stop initial",
       "LIMIT_ORDER_DESCRIPTION": "Achetez ou vendez  {SYMBOL}à un prix spécifique (ou mieux) et affinez votre ordre avec les options de négoce avancées.",
       "LIMIT_ORDER_SHORT": "Limite",
-      "LIMIT_ORDER": "Ordre à cours limité",
-      "LIMIT_PRICE": "Prix à cours limité",
+      "LIMIT_ORDER": "Ordre limité",
+      "LIMIT_PRICE": "Prix limite",
       "LIQUIDATED": "Liquidé",
       "LIQUIDATION": "Liquidation",
       "LIQUIDATION_PRICE_SHORT": "Liq. Prix",
@@ -1325,6 +1352,7 @@
       "NEXT_IN": "Prochaine dans {TIME}",
       "NOTIONAL_VALUE": "Valeur notionnelle",
       "OFFSETTING": "Compensation",
+      "OHLC_VIA_MID_PRICE": "OHLC (via le prix moyen)",
       "OPEN_INTEREST": "Intérêt ouvert",
       "OPEN_POSITIONS": "Positions ouvertes",
       "OPEN_STATUS": "Ouvert",
@@ -1405,7 +1433,8 @@
       "REMOVE_MARGIN": "Supprimer la marge",
       "RETURN_TO_MARKET": "Retour au marché",
       "RISK_REWARD": "Risque-Récompense",
-      "SELECT_MARKET": "Sélectionnez un marché",
+      "SELECT_MARKET": "Sélectionner un marché",
+      "SELL_MARK_TOOLTIP": "Vendu   {ASSET_SIZE}{ASSET}à {PRICE}",
       "SELF_TRADE": "Trading automatique",
       "SET_ORDER_SIZE": "Définir la taille de l'ordre",
       "SET_PRICE_TRIGGERS": "Définir des déclenchements de prix",
@@ -1634,7 +1663,7 @@
       "EMAIL_UPDATES": "Mises à jour importantes fournies par e-mail",
       "ERROR_MANY_REQUESTS": "Trop de demandes. Réessayez plus tard",
       "GENERAL_DESCRIPTION": "Newsletter, mises à jour du marché, mises à jour des produits",
-      "GET_NOTIFIED": "Ne manquez aucune nouvelle pendant que vous trader ! Soyez informé par e-mail des changements du marché, de l'activité du compte, des mises à jour de trading, et plus encore.",
+      "GET_NOTIFIED": "Ne manquez aucune nouvelle pendant que vous négociez ! Soyez informé par e-mail des changements du marché, de l'activité du compte, des mises à jour de trading, et plus encore.",
       "MANAGE_NOTIFICATIONS": "Gérer les notifications",
       "MANAGE_NOTIFICATIONS_ONBOARD": "Vous n'êtes pas connecté. Veuillez terminer l'intégration pour gérer vos notifications par e-mail.",
       "RESEND_VERIFICATION": "Renvoyer l'e-mail de vérification →",
@@ -1658,7 +1687,7 @@
       "ALERT_FORCE_WITHDRAW_REQUESTED": "Retrait forcé demandé.",
       "ALERT_FUNDS_WITHDRAWN": "Fonds retirés avec succès.",
       "AUTHENTICATE": "Authentifier",
-      "DESCRIPTION_WAIT": "Vos fonds seront disponibles avec retrait une fois que le prochain bloc de couche 2 sera miné. Cela peut prendre jusqu'à 12 heures.",
+      "DESCRIPTION_WAIT": "Vos fonds seront disponibles avec retrait une fois que le prochain bloc de couche 2 sera extrait. Cela peut prendre jusqu'à 12 heures.",
       "FORCE_WITHDRAW": "Forcer le retrait",
       "REQUEST_FORCE_WITHDRAW": "Demander le retrait forcé",
       "STEP_1_CONNECT": "1. Connecter le portefeuille",
@@ -1729,7 +1758,7 @@
       "I_HAVE_READ_AND_AGREE": "J'ai lu et accepté",
       "INCORPORATION_COUNTRY": "Pays de constitution",
       "INDIVIDUAL": "Individuel",
-      "LAST_EPOCH": "Dernière époch",
+      "LAST_EPOCH": "Dernière epoch",
       "LAST_NAME": "Nom de famille",
       "LAST_UPDATED": "Dernière mise à jour  il y a {TIME_STRING}",
       "MANDATORY_MINIMIZED_W8_FORM": "Le processus d'inscription de l'affilié nécessite de remplir un formulaire électronique W8 qui doit être rempli avec précision afin de continuer.",
@@ -1783,7 +1812,7 @@
       "FOR_TRADING": "Pour le trading{PERIOD}",
       "FOR_V4": "{SUBJECT}pour v4",
       "LAUNCH_INCENTIVES": "Incitatifs de lancement ",
-      "LAUNCH_INCENTIVES_DESCRIPTION": "Chaque saison, vous pouvez gagner des récompenses pour le trading sur la chaîne dYdX. ",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "Chaque saison, vous pouvez gagner des récompenses pour le trading sur la chaîne dYdX. Trade to earn your spot on the leaderboard.",
       "LEADERBOARD": "Classement",
       "POINTS": "{POINTS}points",
       "POWERED_BY": "ALIMENTÉ PAR",
@@ -1822,7 +1851,7 @@
       "ALLOWANCE_AFTER": "• Une fois que vous avez des allocations non définies, votre portefeuille est à l'abri de la vulnérabilité et peut être utilisé normalement.",
       "ALLOWANCE_ALERT_BODY": "Vos fonds sont vulnérables en raison d'une vulnérabilité du contrat intelligent dans un ancien contrat de dépôt.",
       "ALLOWANCE_ALERT_TITLE": "Avis important",
-      "ALLOWANCE_WARNING": "• N'ENVOYEZ PAS de fonds supplémentaires dans votre portefeuille tant que vous n'avez pas défini les allocations pour tous les jetons répertoriés ci-dessous.",
+      "ALLOWANCE_WARNING": "• N'ENVOYEZ PAS de fonds supplémentaires dans votre portefeuille tant que vous n'avez pas défini les allocations pour tous les tokens répertoriés ci-dessous.",
       "FUNDS_RECOVERABLE": "• Vos fonds sont en sécurité et peuvent être récupérés.",
       "PROTECT_YOUR_FUNDS": "Pour protéger vos fonds et démarrer le processus de récupération - allocation non définie en cliquant sur chaque bouton ci-dessous. Une fois chaque allocation annulée, vous pourrez envoyer la transaction finale pour récupérer vos fonds.",
       "RECOVER_FUNDS": "Récupérer les fonds",
@@ -2060,7 +2089,19 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez la {DATE}possibilité de retirer vos fonds avant que votre accès au frontend ne soit bloqué. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
-      "BLOCKED_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}."
+      "BLOCKED_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}.",
+      "BLOCKED_BANNER_MESSAGE": "Les titres perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance dans {HELP_LINK}le"
+    },
+    "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "Règlement binaire",
+      "BINARY_SETTLEMENT_DESC": "Le marché s'établira automatiquement à 1 $ si l'événement se produit. Sinon, il s'établira à 0.001$. Le prix est équivalent au pourcentage de chance que le résultat se produise.",
+      "LEVERAGE_TRADE_EVENTS": "Effet de levier des résultats de l'événement commercial",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "Sur un large éventail de sujets, y compris la politique, les sports, la pop et plus encore.",
+      "LEVERAGE_TRADE_US_ELECTION": "L'effet de levier du résultat de l'élection américaine.",
+      "PREDICTION_MARKET_DESC": "Les marchés de prédiction seront réglés à 1 $ si l'événement se produit comme prévu. Autrement ils seront réglés à  $ 0.001 .",
+      "PREDICTION_MARKETS": "Marchés de prédiction",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Tradez  à l'élection Américaine",
+      "TRUMPWIN_DESC": "Il s'agit du marché de prédiction qui s'établira à 1$ si Donald J. Trump remporte l'élection américaine présidentielle 2024 . Autrement , s'établira à 0.001 ${DISMISS}. {LEARN_MORE}ou"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2194,8 +2235,8 @@
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "Votre prix de déclenchement Take Profit doit être inférieur au prix attendu de l'ordre au marché : ${EXPECTED_PRICE}.",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "Votre prix de déclenchement Take Profit est trop proche de votre prix de liquidation, l'ordre Take Profit peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez saisir un prix de déclenchement inférieur à ${TRIGGER_PRICE_LIMIT}.",
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation - cet ordre peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez entrer un prix de déclenchement inférieur à {TRIGGER_PRICE_LIMIT} ou utilisez un ordre de limite d'arrêt.",
-      "INVALID_LARGE_POSITION_LEVERAGE": "Ce trade entraînerait un effet de levier non valide sur votre position. Pour limiter le risque, les positions plus importantes ont des effets de levier maximaux inférieurs.",
-      "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Cette transaction entraînerait une utilisation de la marge de plus de 100 % sur votre compte.",
+      "INVALID_LARGE_POSITION_LEVERAGE": "Ce trade entraînerait un effet de levier non valide sur votre position. Pour limiter le risque, les positions plus importantes ont des leviers maximaux inférieurs.",
+      "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Ce trade entraînerait une utilisation de la marge de plus de 100 % sur votre compte.",
       "INVALID_NEW_POSITION_LEVERAGE": "Cette transaction entraînerait un effet de levier invalide sur votre position. ",
       "INVALID_SIGNATURE": "Cet ordre n'a pas pu être placé en raison d'une signature invalide. Votre compte peut être désynchronisé. Veuillez reconnecter votre portefeuille et réessayer.",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Votre prix limite doit être supérieur à votre prix de déclenchement pour que cet ordre soit exécuté lorsqu'il se déclenche. Veuillez ajuster votre prix limite ou modifier votre méthode d'exécution.",
@@ -2204,7 +2245,8 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Cet ordre au prix du marché entraînerait {SLIPPAGE} un slippage du prix d'oracle compte tenu de la liquidité actuelle. Veuillez utiliser un ordre à cours limité si vous avez toujours l'intention de passer cet ordre.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Cet ordre au marché entraînerait un impact du prix de {SLIPPAGE} sur le prix du carnet d'ordres compte tenu de la liquidité actuelle. Veuillez utiliser un ordre à cours limité si vous avez toujours l'intention de passer cet ordre.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Il n'y a pas assez de liquidités pour exécuter cet ordre au marché, veuillez essayer un montant d'ordre inférieur.",
-      "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Cet ordre a un impact sur les prix non nul et pourrait potentiellement mettre votre position au-dessus de l'effet de levier maximum. Veuillez essayer un montant d'ordre inférieur.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Cet ordre au marché n'est pas recommandé en raison de la liquidité unilatérale du carnet d'ordres. Veuillez passer une commande limitée.",
+      "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Cet ordre a un impact sur les prix non nul et pourrait mettre votre position au-dessus de l'effet de levier maximum. Veuillez essayer un montant d'ordre inférieur.",
       "NEW_POSITION_SIZE_OVER_MAX": "Cette opération pourrait entraîner un dépassement de la taille maximale de la position de {MAX_SIZE} {SYMBOL}.",
       "NO_EQUITY_DEPOSIT_FIRST": "Vous devez déposer des fonds avant de pouvoir passer des ordres.",
       "ORDER_BELOW_COLLATERALIZATION": "Cet ordre peut placer votre compte sous le seuil de garantie de ce marché. Veuillez essayer un montant inférieur.",
@@ -2235,11 +2277,12 @@
       "INVALID_NEW_POSITION_LEVERAGE": "Effet de levier invalide",
       "INVALID_TARGET_LEVERAGE": "Effet de levier cible invalide",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Fermer la position uniquement",
-      "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Trop de slippage",
-      "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Trop d'effet de slippage",
+      "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Trop d'effet de slippage",
+      "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Trop d'effet de glissement",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "Pas assez de liquidité",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Liquidité unilatérale",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Effet de levier potentiellement invalide",
-      "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Trop d'effet de slippage",
+      "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Trop de slippage",
       "NEW_POSITION_SIZE_OVER_MAX": "Taille de la position maximale",
       "NO_EQUITY_DEPOSIT_FIRST": "Dépôt en premier",
       "ORDER_BELOW_COLLATERALIZATION": "Seuil de garantie",
@@ -2349,8 +2392,8 @@
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "Il n'y a pas assez de liquidités pour traiter ce retrait rapide. Veuillez essayer un montant inférieur.",
       "MAX_FAST_WITHDRAW_AMOUNT": "Veuillez saisir un montant de retrait inférieur à {MAX_FAST_WITHDRAW_AMOUNT}.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Le montant du retrait lent doit être supérieur ou égal à 10, ou à la totalité du solde de votre compte.",
-      "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Votre compte est restreint. Vous devez fermer toutes vos positions avant que vous puissiez retirer.",
-      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Vous ne pouvez pas retirer plus que votre garantie gratuite. Assurez-vous de tenir compte des frais de retrait rapide lors de la saisie d'un montant.",
+      "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Votre compte est restreint. Vous devez fermer toutes vos positions avant de pouvoir retirer.",
+      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Vous ne pouvez pas retirer plus que votre garantie disponible. Assurez-vous de tenir compte des frais de retrait rapide lors de la saisie d'un montant.",
       "WITHDRAW_MORE_THAN_FREE": "Vous ne pouvez pas retirer plus que votre garantie gratuite. ",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Veuillez entrer une adresse de destination.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Veuillez sélectionner un actif pour lequel vous pouvez vous retirer.",
@@ -2366,7 +2409,7 @@
       "TRANSFER_WITHOUT_MEMO": "Le transfert vers un échange centralisé sans le mémo fourni peut entraîner une perte de fonds."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Vous ne pouvez pas transférer plus que votre garantie gratuite.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Le transfert de cette garantie vous placerait au dessus de l'effet de levier maximal du marché. Veuillez indiquer un montant inférieur",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Veuillez saisir un montant valide."
     },
     "NEW_MARKET_WIDGET": {
