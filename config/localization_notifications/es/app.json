@@ -12,6 +12,10 @@
       "TITLE": "Posición desapalancada",
       "BODY": "Tu {SIDE}posición  {MARKET} ha sido desapalancada."
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "¡Gana hasta $ 200 en 30 minutos!",
+      "BODY": "Haz que tu viaje de trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK}para registrarte u obtener más información!"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posición establecida",
       "BODY": "{MARKET} ha cerrado. Tu {SIDE}posición en {MARKET} ha llegado a su establecimiento final."
@@ -160,6 +164,10 @@
       "TITLE": "Tomar ganancias",
       "BODY": "Se eliminó tu take profit trigger en {OLD_VALUE}."
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "Regalo de $ 20 K",
+      "BODY": "Para celebrar el superpaso de 200 B en el volumen de trading cumulativo, dYdX está ejecutando un sorteo de Twitter, donde tienes la oportunidad de reclamar $ 200. Se seleccionarán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}y  los {MARKET_2}mercados se redujeron",
       "BODY": "En {DATE}, el {MARKET_1} y los {MARKET_2}mercados pasaron por la liquidación final. Las posiciones existentes se han cerrado y las órdenes abiertas ahora se han cancelado. Puedes encontrar más información sobre la liquidación final {HERE_LINK}."
@@ -171,6 +179,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Propuesta en vivo para actualizar los {MARKET} parámetros",
       "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros de mercado de {MARKET}. Si se pasa, el {MARKET}mercado tendrá Coinbase Pro  {MARKET}como la única fuente de oráculo. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "¡Opera en las elecciones presidenciales de Estados Unidos!",
+      "BODY": "{MARKET} Ahora está en vivo. Este mercado se liquidará en $ 1 si Donald J. Trump gana las elecciones de 2024. De lo contrario, se liquidará en $ 0,001."
     }
   }
 }
