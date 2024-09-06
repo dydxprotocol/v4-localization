@@ -34,6 +34,7 @@
       "COUNTRY": "País",
       "DESTINATION": "Destino",
       "DOCS": "Docs",
+      "DONT_SHOW_AGAIN": "No me vuelvas a mostrar esto",
       "EARN": "Ganarás",
       "ERROR": "Error",
       "FAILED": "Fallido",
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "Informe del problema",
       "EMAIL_BODY": "Describe el problema que tienes:",
       "CHOOSER_TITLE": "Enviar registro de la aplicación"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Mercados de predicción",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Aprovechar el apalancamiento de comercio en las elecciones de EE.",
+      "WITH_PREDICTION_MARKETS": "con Mercados de predicción",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Los mercados de predicción se liquidarán en $ 1 si el evento se produce como se predijo. De lo contrario, se liquidarán en $ 0.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Aprovechamiento de los resultados del evento de trading",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"En una amplia gama de temas, incluidos política, deportes, cultura pop y más.",
+      "SETTLEMENT_OUTCOMES_TITLE": "Liquidación de $0 o $1",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "El mercado se liquidará automáticamente en $ 1 si el evento ocurre. De lo contrario, se liquidará en ~ $0. El precio es equivalente al porcentaje de probabilidad de que ocurra el resultado."
     }
   },
   "RATE_APP": {
@@ -446,7 +457,7 @@
   "WARNINGS": {
     "TRADE_BOX": {
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de detención de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una orden de límite de parada.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de ganancia."
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de toma de ganancia."
     }
   }
 }
