@@ -12,6 +12,10 @@
       "TITLE": "Posição desalavancada",
       "BODY": "Sua {SIDE} posição em {MARKET} foi desalavancada."
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "Ganhe até US$ 200 em 30 minutos!",
+      "BODY": "Faça da sua jornada de trading o melhor possível participando de uma entrevista de usuário e compartilhando feedback. Os spots são limitados, então clique {HERE_LINK}para se inscrever ou saiba mais!"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posição estabelecida",
       "BODY": "{MARKET} foi fechado. Sua posição {SIDE} em {MARKET} atingiu a liquidação final."
