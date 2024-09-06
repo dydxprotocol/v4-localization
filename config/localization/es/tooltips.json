@@ -23,6 +23,10 @@
       "TITLE": "Apalancamiento de la cuenta",
       "BODY": "Apalancamiento de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
     },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Saldo disponible",
+      "BODY": "El porcentaje de tu margen total cruzado usado por posiciones abiertas."
+    },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Posición nocional de base",
       "BODY": "El tamaño de la posición máxima en la que los requisitos de margen no se aumentan."
@@ -351,6 +355,12 @@
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "liquidación de la cadena dYdX",
       "BODY": "Para garantizar la seguridad del protocolo, los validadores de la cadena dYdX retrasan la liquidación de la cadena dYdX DYDX."
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Habilita o deshabilita los datos de OHLC a través de precio medio. Deshabilitar esto solo mostrará datos de OHLC de las operaciones históricas."
     }
   },
   "NEW_MARKET_WIDGET": {
