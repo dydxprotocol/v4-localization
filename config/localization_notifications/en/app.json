@@ -32,6 +32,10 @@
       "TITLE": "Season {SEASON_NUMBER} has begun!",
       "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "Season {SEASON_NUMBER} has ended!",
+      "BODY": "Thanks for participating in the launch incentives program. Stay tuned for updates on future reward programs!"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "Isolated Margin is live",
       "BODY": "Isolated Margin is now live! To learn more, head {LEARN_MORE}."
