@@ -1230,6 +1230,7 @@
       "STOP_MARKET_ORDERS": "Stop market orders",
       "STOP_MARKET_ORDERS_DESCRIPTION": "Stop market and take profit market orders are here! Quickly and easily set triggers to limit your losses and lock in profits.",
       "TARGET_VOLUME": "Target Volume",
+      "TELEGRAM_INVITE_BANNER": "Thank you for using dYdX! The team would like to offer you a higher level of personalized support and the opportunity to connect directly them. Click {HERE_LINK} to join the dYdX Chain VIP Traders Telegram group.",
       "TESTNET_DEPOSIT_PROMO": "Free, one-click testnet deposits are now available on our Goerli app.",
       "TESTNET_LOWERCASE": "Testnet app",
       "TRADES_DESCRIPTION": "All fee-generating trading activity",
