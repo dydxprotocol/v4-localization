@@ -12,6 +12,10 @@
       "TITLE": "Position entschuldet",
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde entschuldet."
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
+      "BODY": "Machen Sie Ihre Trading-Reise so gut, indem Sie an einem Benutzerinterview teilnehmen und Feedback teilen. Die Spots sind begrenzt, also klicken Sie, um sich zu registrieren oder mehr {HERE_LINK}zu erfahren!"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position abgewickelt",
       "BODY": "{MARKET} ist geschlossen. Ihre {SIDE}-Position bei {MARKET} hat die Endabrechnung erreicht."

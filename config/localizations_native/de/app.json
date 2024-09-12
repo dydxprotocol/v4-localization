@@ -34,6 +34,7 @@
       "COUNTRY": "Land",
       "DESTINATION": "Reiseziel",
       "DOCS": "Dokumente",
+      "DONT_SHOW_AGAIN": "Zeigen Sie mir das nicht wieder",
       "EARN": "Sie werden verdienen",
       "ERROR": "Fehler",
       "FAILED": "Fehlgeschlagen",
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "Problembericht",
       "EMAIL_BODY": "Bitte beschreiben Sie das Problem, mit dem Sie konfrontiert sind:",
       "CHOOSER_TITLE": "App-Protokoll senden"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Vorhersagemärkte",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Hebelhandel bei der US-Wahl",
+      "WITH_PREDICTION_MARKETS": "mit Vorhersagemärkten",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls werden sie bei 0 USD abgerechnet.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Hebelwirkung von Handelsereignissen",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
+      "SETTLEMENT_OUTCOMES_TITLE": "0 $ oder 1 $ Abrechnung",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei ~$0 abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt."
     }
   },
   "RATE_APP": {

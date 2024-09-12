@@ -165,11 +165,11 @@
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag in USD für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Stop-Loss ist ein teilweiser Abschluss",
