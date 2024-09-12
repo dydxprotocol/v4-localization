@@ -34,6 +34,7 @@
       "COUNTRY": "Ülke",
       "DESTINATION": "Gönderileceği Yer",
       "DOCS": "Dokümanlar",
+      "DONT_SHOW_AGAIN": "Bunu bana tekrar gösterme",
       "EARN": "Kazanacağınız miktar",
       "ERROR": "Hata",
       "FAILED": "Başarısız Oldu",
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "Sorun Raporu",
       "EMAIL_BODY": "Lütfen karşılaştığınız sorunu açıklayın:",
       "CHOOSER_TITLE": "Uygulama Kaydı Gönder"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Tahmin Piyasaları",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "ABD Seçimi için kaldıraç ticareti",
+      "WITH_PREDICTION_MARKETS": "Tahmin Piyasaları ile",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Etkinlik, tahmin edilen şekilde gerçekleşirse Tahmin Piyasaları 1 $ olarak bağlanacak. Aksi takdirde 0 $ olarak bağlanacaklar.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Kaldıraç Alım Satım Etkinliği Sonuçları",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Politika, spor, popüler kültür ve daha fazlası dahil olmak üzere çok çeşitli konularda",
+      "SETTLEMENT_OUTCOMES_TITLE": "0 $ veya 1 $ Uzlaşma",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde ~ $0 olarak bağlanacak. Fiyat, sonucun oluşma olasılığı yüzdesine eşittir."
     }
   },
   "RATE_APP": {

@@ -127,6 +127,7 @@
       "DISMISS": "Reddet",
       "DOCUMENT": "belge",
       "DONE": "Bitti",
+      "DONT_SHOW_ME_AGAIN": "Bana bunu tekrar gösterme",
       "DOWNLOAD_MOBILE_APP": "Mobil uygulamayı indirin",
       "DYDX_CHAIN_ADDRESS": "dYdX Zinciri Adresi",
       "DYDX_CHAIN": "dYdX Zinciri",
@@ -323,6 +324,7 @@
       "TAKE_ME_THERE": "Beni oraya götür",
       "TERMS_AND_CONDITIONS": "Şartlar ve Koşullar",
       "TICK_SIZE": "Minimum Fiyat Büyüklüğü",
+      "TICKER": "Ticker",
       "TIER": "Seviye",
       "TIME": "Zaman",
       "TIMESTAMP_ERROR": "Zaman damgası hatası",
@@ -617,6 +619,10 @@
       "PYTH": {
         "PRIMARY": "PYTH, Pyth Network ve ekosistemi için yönetişim token'ıdır.",
         "SECONDARY": "Pyth, 40'tan fazla blok zincirinde finansal dApp'lere gerçek zamanlı piyasa verileri sunar ve kripto para birimleri, hisse senetleri, ETF'ler, döviz çiftleri ve emtialarda 380'den fazla düşük gecikmeli fiyat akışı sağlar."
+      },
+      "RENDER": {
+        "PRIMARY": "RENDER, Render Ağı'ndaki sanatçılar tarafından GPU işlem gücü sağlayıcılarından (node operatörleri) gelen (GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'ıdır",
+        "SECONDARY": "Render Network, GPU işlem gücüne ihtiyaç duyan sanatçıları ve stüdyoları, GPU kapasitelerini kiralamak isteyen madencilik ortaklarıyla buluşturmayı amaçlayan, Ethereum blok zincirinin üzerine inşa edilmiş dağıtık bir GPU işleme ağıdır."
       },
       "RNDR": {
         "PRIMARY": "RNDR, Render Network'teki sanatçılar tarafından GPU sağlayıcılarından (node operatörleri) GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'ıdır",
@@ -1108,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "Oracle fiyatı tetikleme fiyatını aştığında yatırımcının pozisyonunu kapatarak kayıplara karşı koruma sağlar.",
       "TAKE_PROFIT_TOOLTIP": "Yatırımcıların hedef belirlemelerine ve açık bir pozisyonun kâr için kapatılacağı bir fiyat belirleyerek pozisyonlardaki kârlarını korumalarına olanak tanır.",
       "TP_LIMIT": "Kâr Alma Limiti",
-      "TP_PRICE": "Kar Alma Fiyatı"
+      "TP_PRICE": "Kar Alma Fiyatı",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Temel pozisyon kapatılırsa Kâr Alma ve Zarar Durdurma emirleri otomatik olarak iptal edilir.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "Özel bir miktar yapılandırma hem Kâr Alma hem de Zarar Durdurma emirleri için geçerli olacaktır."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Trading verilerinizin ödülleri hesaplamak için nasıl kullanıldığına göz atın.",
@@ -1240,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "{ASSET} varlığı belirli bir miktar artarsa, kârınızı elde tutmak için bir {ACTION} tetikleyebilirsiniz.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "{ASSET} belirli bir miktar kadar artarsa, kayıplarınızı önlemek için bir {ACTION} tetikleyebilirsiniz.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "{ASSET} varlığının fiyatı sabitlenmiş bir fiyata düşerse, kârınızı elde tutmak için bir {ACTION} tetikleyebilirsiniz.",
+      "BUY_MARK_TOOLTIP": "Satın {ASSET_SIZE}{ASSET}alındı {PRICE}",
+      "BUYS_SELLS_TOGGLE": "Alımlar\/Satımlar",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "Geçmiş alım ve satımları göster",
       "CANCEL_ALL": "Hepsini iptal et",
       "CANCEL_ORDER": "Emiri iptal et",
       "CANCEL_ORDERS_COUNT": "{COUNT} talimatı iptal et",
@@ -1423,6 +1434,7 @@
       "RETURN_TO_MARKET": "Piyasaya geri dön",
       "RISK_REWARD": "Risk-Getiri",
       "SELECT_MARKET": "Piyasa seçin",
+      "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}Satılan {PRICE}",
       "SELF_TRADE": "Kendi kendine alım satım",
       "SET_ORDER_SIZE": "Teklif boyutunu belirle",
       "SET_PRICE_TRIGGERS": "Fiyat tetikleme seviyelerini belirleyin",
@@ -2081,8 +2093,13 @@
       "BLOCKED_BANNER_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla bilgiyi {TERMS_OF_USE_LINK} adresinden edinebilirsiniz. Burada bir hata olduğunu düşünüyorsanız, lütfen {HELP_LINK} adresinden destek birimimiz ile irtibata geçin."
     },
     "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "İkili Uzlaşma",
+      "BINARY_SETTLEMENT_DESC": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak. Fiyat, sonucun oluşma olasılığı yüzdesine eşittir.",
+      "LEVERAGE_TRADE_EVENTS": "Kaldıraç Alım Satım Etkinliği Sonuçları",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "Politika, spor, popüler kültür ve daha fazlası dahil olmak üzere çok çeşitli konularda",
       "LEVERAGE_TRADE_US_ELECTION": "ABD Seçiminin sonucuna göre kaldıraç işlemi yapın",
       "PREDICTION_MARKET_DESC": "Etkinlik, tahmin edilen şekilde gerçekleşirse Tahmin Piyasaları 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.",
+      "PREDICTION_MARKETS": "Tahmin Piyasaları",
       "TRADE_US_PRESIDENTIAL_ELECTION": "ABD Başkanlık Seçimi için işlem yapın",
       "TRUMPWIN_DESC": "Bu bir Tahmin Piyasası ve Donald J. Trump, 2024 ABD Başkanlık Seçimi'ni kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak.  {LEARN_MORE}veya  {DISMISS}."
     }

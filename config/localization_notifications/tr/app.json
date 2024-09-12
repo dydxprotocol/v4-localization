@@ -12,6 +12,10 @@
       "TITLE": "Pozisyon kaldıraçsızlaştırıldı",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "30 Dakika içinde 200 $ 'a kadar kazanın!",
+      "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Noktalar sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek {HERE_LINK}için tıklayın!"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "Pozisyon Bağlandı",
       "BODY": "{MARKET} kapatıldı. {MARKET} üzerindeki {SIDE} pozisyonunuzda nihai bağlamaya ulaşılmıştır."
