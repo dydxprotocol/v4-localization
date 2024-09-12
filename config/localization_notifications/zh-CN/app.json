@@ -12,6 +12,10 @@
       "TITLE": "头寸去杠杆化",
       "BODY": "您在{MARKET}中的{SIDE}头寸已去杠杆化。"
     },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "30 分钟内最高可赚到 200 美元！",
+      "BODY": "通过参与用户访谈和分享反馈，使您的交易旅程达到最佳状态。 现货有限，因此单击{HERE_LINK}以注册或了解更多信息！"
+    },
     "FINAL_SETTLEMENT": {
       "TITLE": "头寸已结算",
       "BODY": "{MARKET} 已平仓。 您在{MARKET}上的{SIDE}头寸已完成最终结算。"
@@ -160,6 +164,10 @@
       "TITLE": "获得利润",
       "BODY": "您在{OLD_VALUE}的止盈触发器已被移除。"
     },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "$20K 赠品",
+      "BODY": "为了庆祝 200 亿交易量，dYdX 正在运行 Twitter 赠品，您有机会领取 200 美元。在 2024 年 8 月 16 日23:59 {HERE_LINK}UTC 之后，将根据随机选择机制选出100 名获奖者。"
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
       "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
@@ -171,6 +179,10 @@
     "MARKET_PARAM_UPDATE": {
       "TITLE": "更新 {MARKET} 参数的现场提议",
       "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过， {MARKET} 市场会将 CoinbasePro {MARKET} 作为唯一的预言机来源。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "交易美国总统大选！",
+      "BODY": "{MARKET} 现已生活。 如果唐纳德·J·特朗普赢得2024年大选，这个市场将结算为1美元。 否则，它将以0.001美元结算。"
     }
   }
 }
