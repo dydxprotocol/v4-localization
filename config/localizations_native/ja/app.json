@@ -34,6 +34,7 @@
       "COUNTRY": "国",
       "DESTINATION": "出金先",
       "DOCS": "ドキュメント",
+      "DONT_SHOW_AGAIN": "これをもう一度見せないでください",
       "EARN": "獲得予定",
       "ERROR": "エラー",
       "FAILED": "失敗しました",
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "問題レポート",
       "EMAIL_BODY": "直面している問題を説明してください：",
       "CHOOSER_TITLE": "アプリログを送信"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "予測市場",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "米国の選挙におけるレバレッジ取引",
+      "WITH_PREDICTION_MARKETS": "予測市場",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測市場は、予測されたとおりイベントが発生した場合、1ドルで落ち着きます。 そうでなければ、0ドルで決済されます。",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"レバレッジ取引イベントの結果",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
+      "SETTLEMENT_OUTCOMES_TITLE": "$0または$1決済",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "イベントは発生した場合、市場は自動的に1ドルで決済されます。 そうでなければ、~$0で落ち着きます。 価格は、結果が発生する可能性の割合に相当します。"
     }
   },
   "RATE_APP": {

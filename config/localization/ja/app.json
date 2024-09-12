@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET}残高",
       "ASSET": "銘柄",
       "AVAILABLE": "余力",
+      "AVAILABLE_BALANCE": "利用可能な残高",
       "AVAILABLE_IN": "{DURATION}後に利用可能",
       "AVAILABLE_ON_SHORT": "{ON_DATE}に利用可能",
+      "AVAILABLE_TO_REMOVE": "削除できます",
       "BACK": "戻る",
       "BALANCE": "残高",
       "BASE_INITIAL_MARGIN_FRACTION": "基本初期保証金比率",
@@ -125,6 +127,7 @@
       "DISMISS": "取下げる",
       "DOCUMENT": "ドキュメント",
       "DONE": "完了",
+      "DONT_SHOW_ME_AGAIN": "もう二度と表示しないでください",
       "DOWNLOAD_MOBILE_APP": "モバイルアプリをダウンロード",
       "DYDX_CHAIN_ADDRESS": "dYdXチェーンアドレス",
       "DYDX_CHAIN": "dYdXチェーン",
@@ -254,6 +257,7 @@
       "POSITION": "ポジション",
       "POWERED_BY": "Powered By",
       "POWERED_BY_ALL_CAPS": "搭載",
+      "PREDICTION_MARKET": "予測市場",
       "PRICE_CHART_SHORT": "価格",
       "PRICE": "価格",
       "PRIVACY": "プライバシー",
@@ -320,6 +324,7 @@
       "TAKE_ME_THERE": "そこに移動する",
       "TERMS_AND_CONDITIONS": "利用規約",
       "TICK_SIZE": "ティックサイズ",
+      "TICKER": "ティッカー",
       "TIER": "クラス",
       "TIME": "時間",
       "TIMESTAMP_ERROR": "タイムスタンプエラー",
@@ -330,6 +335,7 @@
       "TOTAL_VALUE": "総価値",
       "TRADE_AN_AMOUNT": "{AMOUNT}を取引",
       "TRADE": "取引",
+      "TRADE_NOW": "今すぐ取引する",
       "TRADER": "トレーダー",
       "TRADES": "取引",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "手数料体系がアップデートされました。すべてのクラスで、手数料が最大{REDUCTION}割引になります。",
@@ -614,6 +620,10 @@
         "PRIMARY": "PYTHは、Pyth Networkとそのエコシステムのガバナンストークンです。",
         "SECONDARY": "Pythは、40以上のブロックチェーンにまたがる金融dAppsにリアルタイムの市場データを配信し、暗号通貨、株式、ETF、FXペア、およびコモディティにわたる380以上の低遅延価格フィードを提供します。"
       },
+      "RENDER": {
+        "PRIMARY": "RENDERは、Render NetworkのアーティストがGPUプロバイダー（ノードオペレーター）からのGPU計算能力を交換するために使用するERC-20ユーティリティトークンです。",
+        "SECONDARY": "Render Networkはイーサリアムブロックチェーン上に構築された分散型GPUレンダリングネットワークで、GPU計算能力を必要としているアーティストやスタジオと、GPU能力を貸し出す意思のあるマイニングパートナーをつなぐことを目的としています。"
+      },
       "RNDR": {
         "PRIMARY": "RNDRはERC-20ユーティリティトークンで、Render NetworkのアーティストがGPUプロバイダー（ノードオペレーター）からGPU計算能力を得るために使用する",
         "SECONDARY": "Render Networkはイーサリアムブロックチェーン上に構築された分散型GPUレンダリングネットワークで、GPU計算能力を必要としているアーティストやスタジオと、GPU能力を貸し出す意思のあるマイニングパートナーをつなぐことを目的としています。"
@@ -661,6 +671,10 @@
       "TIA": {
         "PRIMARY": "Celestiaは、ユーザー数に応じて安全に拡張できるモジュラーデータ可用性ネットワークであり、誰でも簡単に独自のブロックチェーンを立ち上げることができます。",
         "SECONDARY": "Celestiaは、次世代のスケーラブルなブロックチェーンアーキテクチャ、モジュラーブロックチェーンを実現します。Celestiaでは、コンセンサスから実行を分離することで、新たな基本のデータ可用性サンプリングを導入し、スケール化を実現しています。"
+      },
+      "TRUMPWIN": {
+        "PRIMARY": "Donald J. Trump が2024年のアメリカ大統領選挙で勝利すれば、この市場は最終的に1ドルに落ち着きます。そうでなければ、この市場は最終的に0.001ドルに落ち着きます。 この市場はPolymarketをオラクルソースとして使用しています。",
+        "SECONDARY": "Polymarketのこの市場に関する情報源は、AP通信、Fox News、NBCです。この市場は、3つの情報源すべてが同じ候補者のレースを呼んだ時点で解決します。もし3つの情報源すべてが就任日（2025年1月20日）までに同じ候補者のレースを呼んでいなければ、この市場は誰が就任するかによって解決します。"
       },
       "TRX": {
         "PRIMARY": "TRONは、開発者がスマートコントラクトおよび分散型取引アプリケーションを作成し、データやその他のコンテンツを自由に公開、所有および保存できるようにするために、基盤となるインフラストラクチャを提供することのみを目的としたパブリックブロックチェーンです。",
@@ -752,6 +766,7 @@
       "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -814,6 +829,7 @@
       "INITIATED_TRANSFEROUT": "送金開始",
       "INVITED_YOU": "世界で最もパワフルなオープンエクスチェンジで取引を開始することを推奨しています。",
       "JOIN_ME": "dYdXに参加し、すべての取引手数料につき{DISCOUNT}割引を受け取ましょう！",
+      "KEEP_WINDOW_OPEN": "資金が到着することを確実にするために、このウィンドウを開いたままにしておいてください。",
       "LEDGER_DERIVATION_PATH": "パス",
       "LEGACY_SIGNING": "レガシー署名",
       "LINK_WALLET": "リンクウォレット",
@@ -834,6 +850,8 @@
       "MULTI_FACTOR_AUTH": "多要素認証",
       "PERMITTED_TO_USE": "あなたが居住し、拠点を置いている地域の法律の下でこのサイトにアクセスし、dYdXで取引することを合法的に許可されています。",
       "PRIVACY_POLICY": "個人情報保護方針",
+      "PENDING_TOKEN_APPROVAL": "ウォレットでトークン承認を保留中",
+      "PENDING_DEPOSIT_CONFIRMATION": "ウォレットでの入金の確認保留中",
       "RECOVER_KEYS": "キーを再作成",
       "REFERRAL_DISCOUNT": "{DISCOUNT}割引",
       "REGISTER": "登録",
@@ -989,6 +1007,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "予想受け入れ金額",
       "FAST": "高速",
       "FAST_WITHDRAW_CONFIRMATION": "この高速出金には{FEE}の手数料がかかります。資金はすぐに送金され、出金トランザクションが確認されるとウォレットに表示されます。",
+      "HIGH_FEES_IN_GENERAL": "一般的に{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT}",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "最高手数料",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "最低手数料",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "USDCから{LOWEST_FEE_TOKENS_TOOLTIP}への出金が最も低い手数料になります。 その他の出金方法（イーサリアムの資産など）は、より高いサードパーティの手数料が必要な場合があります。",
       "LOWEST_FEE_WITHDRAWALS": "USDCから{LOWEST_FEE_TOKENS_TOOLTIP}への出金が最も低い手数料になります。 その他の出金には、追加の第三者手数料がかかる場合があります。",
@@ -998,7 +1018,9 @@
       "SLOW": "通常",
       "SLOW_WITHDRAW_DESCRIPTION": "通常出金は2つのステップで行われる処理です。このステップによりレイヤー2での出金リクエストが開始されます。資金の準備ができると（最大{HOURS}時間かかる場合があります）、ウォレットへの資金の出金通知が届きます。出金トランザクションのガスコストはお客様の負担となります。",
       "SLOW_WITHDRAW_CONFIRMATION": "この{STYLED_SLOW}を出金するには、出金が可能になるまで最大{HOURS}時間かかる場合があります。出金トランザクションのガスコストはお客様の負担となります。いち早く資金が必要な場合は、{STYLED_FAST}出金をお試しください。",
-      "WITHDRAW_IRREVERSIBLE": "いったん出金を開始すると元に戻すことはできません。"
+      "WITHDRAW_IRREVERSIBLE": "いったん出金を開始すると元に戻すことはできません。",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "選択したルートの高い第三者料金。 同意します：\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "以下の警告に同意します。\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "ウォレット残高は、トランザクション手数料をカバーするには不十分です。",
@@ -1092,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "オラクル価格がトリガー価格を超えたら、トレーダーのポジションをクローズすることで損失から保護します。",
       "TAKE_PROFIT_TOOLTIP": "トレーダーが利益のためにオープンポジションのクローズ価格を指定することで、目標を設定し、ポジションの利益を保護します。",
       "TP_LIMIT": "TPリミット",
-      "TP_PRICE": "TP価格"
+      "TP_PRICE": "TP価格",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "利益確定およびストップロスの注文は、基礎となるポジションがクローズされた場合、自動的にキャンセルされます。",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "カスタム金額の設定は、利益確定注文とストップロスの両方に適用されます。"
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "取引データが報酬の計算にどのように使用されているかを確認します。",
@@ -1224,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "{ASSET}が一定の金額増加すると、{ACTION}をトリガーして利益を獲得します。",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "{ASSET}が一定の金額増加すると、{ACTION}をトリガーして損失を防ぎます。",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "{ASSET}が一定の価格まで下落すると、{ACTION}をトリガーして利益を獲得します。",
+      "BUY_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}購入 {PRICE}",
+      "BUYS_SELLS_TOGGLE": "バイ\/セル",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "履歴の売買履歴を表示",
       "CANCEL_ALL": "すべてキャンセルする",
       "CANCEL_ORDER": "注文をキャンセルする",
       "CANCEL_ORDERS_COUNT": "{COUNT}件の注文をキャンセル",
@@ -1325,6 +1352,7 @@
       "NEXT_IN": "次は{TIME}後",
       "NOTIONAL_VALUE": "想定元本",
       "OFFSETTING": "オフセット",
+      "OHLC_VIA_MID_PRICE": "OHLC（ミッドプライス経由）",
       "OPEN_INTEREST": "オープン金利",
       "OPEN_POSITIONS": "ポジションを形成",
       "OPEN_STATUS": "注文完了",
@@ -1406,6 +1434,7 @@
       "RETURN_TO_MARKET": "マーケットに戻る",
       "RISK_REWARD": "リスクと報酬",
       "SELECT_MARKET": "マーケットを選択する",
+      "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}で売却 {PRICE}",
       "SELF_TRADE": "自己取引",
       "SET_ORDER_SIZE": "注文サイズを設定する",
       "SET_PRICE_TRIGGERS": "トリガー価格を設定する",
@@ -2060,7 +2089,19 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "あなたは当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っている、または当社の利用規約に違反する行為を行っているとみなされており、あなたはブロックされています。フロントエンドへのアクセスがブロックされる前に資金を引き出すには、{DATE}まで猶予があります。 エラーが発生していると思われる場合は、サポートまでご連絡ください{HELP_LINK}。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "あなたは当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられています。あなたは永久にブロックされました。 エラーが発生していると思われる場合は、サポートまでご連絡ください{HELP_LINK}。",
-      "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。"
+      "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。",
+      "BLOCKED_BANNER_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。エラーと思われる場合は、{HELP_LINK}のサポートまでご連絡ください。"
+    },
+    "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "バイナリ決済",
+      "BINARY_SETTLEMENT_DESC": "イベントは発生した場合、市場は自動的に1ドルで決済されます。 そうでなければ、0.001ドルに落ち着きます。 価格は、結果が発生する可能性の割合に相当します。",
+      "LEVERAGE_TRADE_EVENTS": "レバレッジ取引イベントの結果",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
+      "LEVERAGE_TRADE_US_ELECTION": "レバレッジ取引は、米国選挙の結果を検証します。",
+      "PREDICTION_MARKET_DESC": "予測市場は、予測されたとおりイベントが発生した場合、1ドルで落ち着きます。 そうでなければ、0.001ドルで決済されます。",
+      "PREDICTION_MARKETS": "予測市場",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "米国大統領選挙の取引",
+      "TRUMPWIN_DESC": "これは予測市場であり、ドナルド・J・トランプが2024年の米国大統領選挙で勝利した場合、1ドルで落ち着きます。 そうでなければ、0.001ドルで落ち着きます。 {LEARN_MORE}または{DISMISS}。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2204,6 +2245,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "この成行注文により、現在の流動性の下でオラクル価格に{SLIPPAGE}のスリッページが発生します。引き続きこの注文を行いたい場合は、指値注文を使用してください。",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "この成行注文により、現在の流動性の下でオーダーブック価格に{SLIPPAGE}の影響が生じます。引き続きこの注文を行いたい場合は、指値注文を使用してください。",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "この成行注文を執行するための十分な流動性がありません。注文金額を少なくしてみてください。",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "片側注文書の流動性のため、この成行注文は推奨されません。 代わりに指値注文を行ってください。",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "この注文はゼロではない影響を及ぼし、お客様のポジションが最大レバレッジを超えてしまう可能性があります。取引額を引き下げてお試しください。",
       "NEW_POSITION_SIZE_OVER_MAX": "この取引の結果、ポジションサイズが{MAX_SIZE}{SYMBOL}の最大サイズを超えてしまう可能性があります。",
       "NO_EQUITY_DEPOSIT_FIRST": "発注前に資金を入金しなければなりません。",
@@ -2238,6 +2280,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "スリッページが大きすぎます",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "スリッページが大きすぎます",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "流動性が十分ではありません",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "片側流動性",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "無効なレバレッジの可能性",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "スリッページが大きすぎます",
       "NEW_POSITION_SIZE_OVER_MAX": "最大ポジションサイズ",
@@ -2366,7 +2409,7 @@
       "TRANSFER_WITHOUT_MEMO": "集中型取引所から提供されたメモを持たずに送金すると、資金を失う可能性があります。"
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "利用可能担保以上の金額を送金することはできません。",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "この担保を移転すると、市場の最大レバレッジを上回ります。 より低い金額を入力してください。",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "有効な金額を入力してください。"
     },
     "NEW_MARKET_WIDGET": {
