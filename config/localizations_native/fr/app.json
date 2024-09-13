@@ -34,6 +34,7 @@
       "COUNTRY": "Pays",
       "DESTINATION": "Destination",
       "DOCS": "Docs",
+      "DONT_SHOW_AGAIN": "Ne me montrez pas cela à nouveau",
       "EARN": "Vous gagnerez",
       "ERROR": "Erreur",
       "FAILED": "Échec",
@@ -342,7 +343,7 @@
       "PRIMER_MESSAGE": "Activez la notification push pour recevoir des alertes lorsque le statut de votre transaction change."
     },
     "SHARE_ACTIVITY_MODAL": {
-      "TWEET_PROFILE": "Consultez mon profil sur @dYdX !",
+      "TWEET_PROFILE": "Consultez mon profil sur @dYdX!",
       "TWEET_PNL": "Consultez mon P&L sur @dYdX!",
       "TWEET_PRIZE": "Consultez mon prix de ligue sur @dYdX !"
     },
@@ -420,6 +421,16 @@
       "EMAIL_SUBJECT": "Signaler un problème",
       "EMAIL_BODY": "Veuillez décrire le problème auquel vous faites face :",
       "CHOOSER_TITLE": "Envoyer le journal d'application"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Marchés de prédiction",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Effet de levier du trade aux États-Unis",
+      "WITH_PREDICTION_MARKETS": "avec les marchés de prédiction",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Les marchés de prédiction seront réglés à 1 $ si l'événement se produit comme prévu. Sinon, ils s'établiront à 0 $.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Effet de levier des résultats de l'événement commercial",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sur un large éventail de sujets, y compris la politique, les sports, la pop et plus encore.",
+      "SETTLEMENT_OUTCOMES_TITLE": "Règlement de 0 $ ou 1 $",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Le marché s'établira automatiquement à 1 $ si l'événement se produit. Sinon, il s'établira à ~ 0 $. Le prix est équivalent au pourcentage de chance que le résultat se produise."
     }
   },
   "RATE_APP": {
