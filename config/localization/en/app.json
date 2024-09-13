@@ -386,7 +386,7 @@
     },
     "__ASSETS": {
       "ZRX": {
-        "PRIMARY": "0x is a professional grade liquidity aggregator protocol that allows users to easily trade ERC20 tokens and other assets. 0x uses a unique hybrid off-chain relay, on-chain settlement architecture to achieve a flexible and gas-efficient experience for traders.",
+        "PRIMARY": "0x is a professional grade liquidity aggregator protocol that allows users to easily trade ERC20 tokens and other assets. 0x uses a unique hybrid offchain relay, onchain settlement architecture to achieve a flexible and gas-efficient experience for traders.",
         "SECONDARY": "ZRX is 0x's native governance and staking token, allowing holders to vote on 0x Improvement Proposals (ZEIPs) and influence the development of the protocol. Additionally, ZRX can be staked or delegated to earn liquidity rewards through their market maker liquidity program."
       },
       "1INCH": {
@@ -415,7 +415,7 @@
       },
       "API3": {
         "PRIMARY": "API3 is an Ethereum token that powers the API3 project and is used to govern the API3 DAO and to vote on project upgrades.",
-        "SECONDARY": "API3 builds solutions that bridge the gap between off-chain data and on-chain applications with maximal security and minimal latency. API's dAPIs are aggregated from first-party oracles directly on the native chain."
+        "SECONDARY": "API3 builds solutions that bridge the gap between offchain data and onchain applications with maximal security and minimal latency. API's dAPIs are aggregated from first-party oracles directly on the native chain."
       },
       "APT": {
         "PRIMARY": "Aptos is a layer-1 blockchain designed to be scalable, secure, and easy to use.",
@@ -430,8 +430,8 @@
         "SECONDARY": "Developers who build on Avalanche can easily create powerful, reliable, and secure applications and custom blockchain networks with complex rulesets, or build on existing private or public subnets."
       },
       "AXL": {
-        "PRIMARY": "AXL is the native utility token that powers secure cross-chain communication on the Axelar ecosystem.",
-        "SECONDARY": "Axelar is an interoperability solution, and provides the infrastructure needed for seamless and secure cross-chain communication among decentralized applications."
+        "PRIMARY": "AXL is the native utility token that powers secure crosschain communication on the Axelar ecosystem.",
+        "SECONDARY": "Axelar is an interoperability solution, and provides the infrastructure needed for seamless and secure crosschain communication among decentralized applications."
       },
       "BCH": {
         "PRIMARY": "With Bitcoin Cash, you can send money to anyone, anywhere in the world, 24 hours a day, 365 days a year. Like the Internet itself, the network is always on.",
@@ -486,7 +486,7 @@
         "SECONDARY": "Polkadot makes it easier than ever to create and connect decentralized applications, services, and institutions. By empowering innovators to build better solutions, we seek to free society from its reliance on a broken web where its large institutions can’t violate our trust."
       },
       "DYM": {
-        "PRIMARY": "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
+        "PRIMARY": "Dymension is a home for easily deployable and lightning fast appchains, called RollApps.",
         "SECONDARY": "Dymension standardizes rollups with IBC (Inter-Blockchain Communication Protocol), similar to how tokens were standardized with ERC."
       },
       "ENJ": {
@@ -582,8 +582,8 @@
         "SECONDARY": "Mask Network enables users of popular social media platforms to send cryptocurrency, interact with decentralized applications, and share encrypted content."
       },
       "MATIC": {
-        "PRIMARY": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.",
-        "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multi-chain system that is able to fully benefit from Ethereum’s network effects"
+        "PRIMARY": "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multichain Ethereum ecosystem.",
+        "SECONDARY": "Polygon combines the best of Ethereum and sovereign blockchains into an open, secure, full-fledged multichain system that is able to fully benefit from Ethereum’s network effects"
       },
       "MEME": {
         "PRIMARY": "According to its website, Memecoin (MEME) is literally a meme coin.",
@@ -619,7 +619,7 @@
       },
       "PORTAL": {
         "PRIMARY": "$portal is the native platform coin for the portal platform. $portal acts as a nexus of web3 games and gamers, providing game distribution and player simplicity for all.",
-        "SECONDARY": "Portal aims to unite games and gamers from various blockchain networks on its cross-chain token platform, establishing a united Web3 gaming ecosystem."
+        "SECONDARY": "Portal aims to unite games and gamers from various blockchain networks on its crosschain token platform, establishing a united Web3 gaming ecosystem."
       },
       "PYTH": {
         "PRIMARY": "PYTH is the governance token for the Pyth Network and its ecosystem.",
@@ -634,7 +634,7 @@
         "SECONDARY": "The Render Network is a distributed GPU rendering network built on top of the Ethereum blockchain, aiming to connect artists and studios in need of GPU compute power with mining partners willing to rent their GPU capabilities out."
       },
       "RUNE": {
-        "PRIMARY": "Thorchain is a decentralized and autonomous cross-chain liquidity network.",
+        "PRIMARY": "Thorchain is a decentralized and autonomous crosschain liquidity network.",
         "SECONDARY": "RUNE is the asset which powers the THORChain ecosystem and provides the economic incentives required to secure the network economically."
       },
       "SAND": {
@@ -2119,7 +2119,7 @@
       "MSG_CREATE_PERPETUAL": "Msg create perpetual",
       "MSG_DELAY_MESSAGE": "Msg delay message",
       "MSG_SUBMIT_PROPOSAL": "Msg submit proposal",
-      "NEW_MARKET_PROPOSAL_AGREEMENT": "By checking the box below, you acknowledge and understand that (a) the pre-populated list of markets does not reflect an endorsement of any particular asset or market, and should not be relied on as investment, legal or any other form of professional advice; (b) this list is not a recommendation of any specific market, and markets are included based on compatibility and functionality assessments from a technical standpoint using public data; and (c) you are encouraged to conduct your own research and consult qualified legal counsel to ensure compliance with the laws of any and all applicable jurisdictions. Additionally, you acknowledge and understand that by clicking “Propose new market”, you will create an on-chain governance proposal — more information about on-chain governance proposals can be found on this {DOCUMENTATION_LINK}, which is independent from and unaffiliated with the host and operator of this website. Use of this widget is prohibited in the U.S., Canada and sanctioned jurisdictions as described in the {TERMS_OF_USE}.",
+      "NEW_MARKET_PROPOSAL_AGREEMENT": "By checking the box below, you acknowledge and understand that (a) the pre-populated list of markets does not reflect an endorsement of any particular asset or market, and should not be relied on as investment, legal or any other form of professional advice; (b) this list is not a recommendation of any specific market, and markets are included based on compatibility and functionality assessments from a technical standpoint using public data; and (c) you are encouraged to conduct your own research and consult qualified legal counsel to ensure compliance with the laws of any and all applicable jurisdictions. Additionally, you acknowledge and understand that by clicking “Propose new market”, you will create an onchain governance proposal — more information about onchain governance proposals can be found on this {DOCUMENTATION_LINK}, which is independent from and unaffiliated with the host and operator of this website. Use of this widget is prohibited in the U.S., Canada and sanctioned jurisdictions as described in the {TERMS_OF_USE}.",
       "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "Select an asset, confirm details, and launch a governance proposal to add a new market to dYdX Chain. Requires {REQUIRED_NUM_TOKENS} unstaked {NATIVE_TOKEN_DENOM}.",
       "OR_MORE": "{NUMBER} or more",
       "POPULATED_DETAILS": "Populated details",
