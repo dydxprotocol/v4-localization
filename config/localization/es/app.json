@@ -16,7 +16,7 @@
         "MINUTES_ABBREVIATED": "m",
         "MINUTES_SHORT": "Minutos",
         "MONTHS_ABBREVIATED": "M",
-        "PAST_30D": "Últimos 30 días",
+        "PAST_30D": "30 últimos días",
         "PAST_HOUR": "Última hora",
         "PAST_MONTH": "Mes pasado",
         "PAST_THREE_MONTHS": "Últimos 3 meses",
@@ -63,8 +63,10 @@
       "ASSET_BALANCE": "{ASSET} Saldo",
       "ASSET": "Activo",
       "AVAILABLE": "Disponible",
+      "AVAILABLE_BALANCE": "Saldo disponible",
       "AVAILABLE_IN": "Disponible en {DURATION}",
       "AVAILABLE_ON_SHORT": "Disp. {ON_DATE}",
+      "AVAILABLE_TO_REMOVE": "Disponible para eliminar",
       "BACK": "Volver",
       "BALANCE": "Saldo",
       "BASE_INITIAL_MARGIN_FRACTION": "Fracción del margen inicial de base",
@@ -125,6 +127,7 @@
       "DISMISS": "Descartar",
       "DOCUMENT": "documento",
       "DONE": "Hecho",
+      "DONT_SHOW_ME_AGAIN": "No me vuelvas a mostrar esto",
       "DOWNLOAD_MOBILE_APP": "Descargar la aplicación móvil",
       "DYDX_CHAIN_ADDRESS": "Dirección de la cadena dYdX",
       "DYDX_CHAIN": "Cadena dYdX",
@@ -143,7 +146,7 @@
       "EXPAND": "Ampliar",
       "FAST_WITHDRAW": "Retiro rápido",
       "FAVORITES": "Favoritos",
-      "FEES_30D": "Cuotas (30d)",
+      "FEES_30D": "Tarifas (30d)",
       "FEES_PAID": "Tarifas pagadas",
       "FEES": "Tarifas",
       "FIAT": "Moneda fiduciaria",
@@ -254,12 +257,13 @@
       "POSITION": "Posición",
       "POWERED_BY": "Desarrollado por",
       "POWERED_BY_ALL_CAPS": "PROPORCIONADO POR",
+      "PREDICTION_MARKET": "Mercado de predicciones",
       "PRICE_CHART_SHORT": "Precio",
       "PRICE": "Precio",
       "PRIVACY": "Privacidad",
       "PRIZE": "Premio",
       "PROFILE": "Perfil",
-      "PROFIT_AND_LOSS_ABSOLUTE_BY": "Por beneficio \/ pérdida",
+      "PROFIT_AND_LOSS_ABSOLUTE_BY": "Por Beneficio \/ Pérdida",
       "PROFIT_AND_LOSS_ABSOLUTE_LABEL": "Beneficio \/ Pérdida",
       "PROFIT_AND_LOSS_ABSOLUTE": "P&L absoluto",
       "PROFIT_AND_LOSS_PERCENT_BY": "Por porcentaje de beneficio \/ pérdida",
@@ -319,7 +323,8 @@
       "SWITCH_LEADERBOARD": "Cambiar tabla de clasificación",
       "TAKE_ME_THERE": "Llévame allí",
       "TERMS_AND_CONDITIONS": "Términos y condiciones",
-      "TICK_SIZE": "Variación mínima",
+      "TICK_SIZE": "Tamaño del botón",
+      "TICKER": "Ticker",
       "TIER": "Nivel",
       "TIME": "Tiempo",
       "TIMESTAMP_ERROR": "Error de registro de hora",
@@ -330,6 +335,7 @@
       "TOTAL_VALUE": "Valor total",
       "TRADE_AN_AMOUNT": "Operación{AMOUNT}",
       "TRADE": "Operación",
+      "TRADE_NOW": "Realiza operaciones ahora",
       "TRADER": "Comerciante",
       "TRADES": "Operaciones",
       "TRADING_FEE_REDUCTION_DESCRIPTION_2": "¡Hemos actualizado nuestra estructura de tarifas! Disfruta de hasta {REDUCTION} en tarifas en todos los niveles.",
@@ -376,10 +382,10 @@
     "__ASSETS": {
       "ZRX": {
         "PRIMARY": "0x es un protocolo agregador de liquidez de nivel profesional que permite a los usuarios intercambiar fácilmente tokens ERC20 y otros activos. 0x utiliza un relé híbrido único fuera de la cadena, una arquitectura de liquidación en la cadena para lograr una experiencia flexible y eficiente en gas para los comerciantes.",
-        "SECONDARY": "ZRX es el token nativo de gobernanza y participación de 0x, que permite a los titulares votar sobre las propuestas de mejora de 0x (ZEIPs) e influir en el desarrollo del protocolo. Además, ZRX se puede participar o delegar para obtener recompensas de liquidez a través de su programa de liquidez de creadores de mercado. "
+        "SECONDARY": "ZRX es el token nativo de gobernanza y participación de 0x, que permite a los titulares votar sobre las propuestas de mejora de 0x (ZEIP) e influir en el desarrollo del protocolo. Además, ZRX se puede invertir o delegar para obtener recompensas de liquidez a través de su programa de liquidez de creadores de mercado. "
       },
       "1INCH": {
-        "PRIMARY": "La Red de 1inch combina protocolos descentralizados cuya sinergia permite operaciones más lucrativas, rápidas y protegidas en el espacio DeFi.",
+        "PRIMARY": "La Red de 1 pulgada combina protocolos descentralizados cuya sinergia permite operaciones más lucrativas, rápidas y protegidas en el espacio DeFi.",
         "SECONDARY": "El protocolo inicial de Red 1inch es una solución de agregador DEX que busca ofertas en múltiples fuentes de liquidez, ofreciendo a los usuarios mejores tasas que cualquier intercambio individual. Este protocolo incorpora el algoritmo Pathfinder que encuentra las mejores rutas en diferentes mercados con más de 50 fuentes de liquidez en Ethereum y más de 20 fuentes de liquidez en Binance Smart Chain. En menos de dos años, el agregador DEX de 1inch superó los $ 30 mil millones en volumen total."
       },
       "AAVE": {
@@ -463,7 +469,7 @@
         "SECONDARY": "Las aplicaciones y los servicios de Cosmos se conectan mediante IBC, el protocolo de comunicación entre blockchains. Esta innovación le permite intercambiar libremente activos y datos a través de blockchains soberanas y descentralizadas."
       },
       "CRV": {
-        "PRIMARY": "Curve es un grupo de liquidez de intercambio en Ethereum (como Uniswap) diseñado para un comercio de monedas estables extremadamente eficiente y de bajo riesgo, con ingresos por tarifas suplementarias para proveedores de liquidez, sin costo de oportunidad.",
+        "PRIMARY": "Curve es un grupo de liquidez de intercambio en Ethereum (como Uniswap) diseñado para un trading extremadamente eficiente de monedas estables y bajo riesgo, ingresos por tasas suplementarias para proveedores de liquidez, sin costo de oportunidad.",
         "SECONDARY": "Curve permite a los usuarios (y contratos inteligentes como 1inch, Paraswap, Totle y Dex.ag) operar entre DAI y USDC con un algoritmo personalizado de bajo deslizamiento y baja tarifa diseñado específicamente para monedas estables y ganar tasas."
       },
       "DOGE": {
@@ -480,7 +486,7 @@
       },
       "ENJ": {
         "PRIMARY": "Enjin ha creado productos simples para ayudarte a administrar tus NFT y criptomonedas, e involucrarte en la nueva economía virtual de rápido crecimiento.",
-        "SECONDARY": "ENJ se utiliza para incorporar activos digitales como NFTs. Potencia los NFT a medida que estos se mueven en juegos, aplicaciones, mercados y billeteras. Cada activo acuñado contiene ENJ, lo que le otorga un valor real que se puede recuperar en cualquier momento a través de una \"fusión\"."
+        "SECONDARY": "ENJ se utiliza para incorporar activos digitales como NFT. Potencia los NFT a medida que estos se mueven en juegos, aplicaciones, mercados y billeteras. Cada activo acuñado contiene ENJ, lo que le otorga un valor real que se puede recuperar en cualquier momento a través de una \"fusión\"."
       },
       "ENS": {
         "PRIMARY": "ENS es el estándar de nomenclatura de blockchain más ampliamente integrado.",
@@ -492,7 +498,7 @@
       },
       "ETC": {
         "PRIMARY": "Ethereum Classic es una bifurcación dura de Ethereum que se lanzó en julio de 2016. Funciona como una red de contratos inteligentes, con la capacidad de alojar y apoyar aplicaciones descentralizadas.",
-        "SECONDARY": "ETC fue lanzado con el objetivo de preservar una propuesta de valor primario de las plataformas de contratos inteligentes de blockchain: \"Code is Law\". La bifurcación dura fue el resultado de la creencia de que la mayoría de los protocolos de blockchain, incluyendo Ethereum, se han desviado de ese principio fundamental. "
+        "SECONDARY": "ETC fue lanzado con el objetivo de preservar una propuesta de valor primario de las plataformas de contratos inteligentes de blockchain: \"Él código es ley\". La bifurcación dura fue el resultado de la creencia de que la mayoría de los protocolos de blockchain, incluyendo Ethereum, se han desviado de ese principio fundamental. "
       },
       "ETH": {
         "PRIMARY": "Ethereum es una plataforma global y de código abierto para aplicaciones descentralizadas.",
@@ -614,6 +620,10 @@
         "PRIMARY": "PYTH es el token de gobernanza para la red Pyth y su ecosistema.",
         "SECONDARY": "Pyth ofrece datos de mercado en tiempo real a dApps financieras en más de 40 blockchains y proporciona más de 380 feeds de precios de baja latencia en criptomonedas, acciones, ETF, pares de FX y commodities."
       },
+      "RENDER": {
+        "PRIMARY": "RENDER es un token de utilidad ERC-20 utilizado por los artistas en la red de renderizado para intercambiar potencia de cálculo de GPU de los proveedores de GPU (operadores de nodo)",
+        "SECONDARY": "La Render Network es una red de renderizado de GPU distribuida construida sobre la blockchain Ethereum, con el objetivo de conectar artistas y estudios que necesitan potencia de cálculo de GPU con socios de minería dispuestos a alquilar sus capacidades de GPU."
+      },
       "RNDR": {
         "PRIMARY": "RNDR es un token de utilidad ERC-20 usado por los artistas en la red de renderizado para intercambiar potencia de cálculo de GPU de proveedores de GPU (operadores de nodo)",
         "SECONDARY": "La Render Network es una red de renderizado de GPU distribuida construida sobre la blockchain Ethereum, con el objetivo de conectar artistas y estudios que necesitan potencia de cálculo de GPU con socios de minería dispuestos a alquilar sus capacidades de GPU."
@@ -661,6 +671,10 @@
       "TIA": {
         "PRIMARY": "Celestia es una red de disponibilidad de datos modular que se escala de forma segura con la cantidad de usuarios, lo que facilita que cualquier persona pueda lanzar su propia blockchain.",
         "SECONDARY": "Celestia permite la próxima generación de arquitecturas de blockchain escalables: blockchains modulares. Celestia escala al desacoplar la ejecución del consenso e introducir un nuevo muestreo de disponibilidad de datos primitivo."
+      },
+      "TRUMPWIN": {
+        "PRIMARY": "Este mercado finalmente se liquidará en $ 1 si Donald J. Trump gana las elecciones presidenciales de Estados Unidos de 2024. De lo contrario, este mercado se establecerá finalmente en $ 0,001. Este mercado utiliza Polymarket como su fuente de oráculo.",
+        "SECONDARY": "La fuente de resolución de Polymarket para este mercado es Associated Press, Fox News y NBC. Este mercado se resolverá una vez que las tres fuentes llamen la carrera para el mismo candidato. Si las tres fuentes no han convocado la carrera para el mismo candidato para la fecha de inauguración (20 de enero de 2025), este mercado se resolverá en función de quién se inaugura."
       },
       "TRX": {
         "PRIMARY": "TRON es una blockchain pública dedicada a proporcionar la infraestructura subyacente que permite a los desarrolladores crear contratos inteligentes y aplicaciones descentralizadas, publicar libremente, poseer y almacenar datos y otros contenidos.",
@@ -742,18 +756,19 @@
     "WALLETS": {
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
-      "CLOVER_WALLET": "Billetera Clover",
+      "CLOVER_WALLET": "Clover Wallet",
       "COINBASE_WALLET": "Coinbase Wallet",
       "COIN98": "Coin98",
       "HUOBI_WALLET": "iToken",
       "IMTOKEN": "imToken",
       "KEPLR": "Keplr",
       "LEDGER": "Ledger",
-      "MATH_WALLET": "Billetera Math Wallet",
+      "MATH_WALLET": "MathWallet",
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
+      "PHANTOM": "Phantom",
       "RAINBOW_WALLET": "Rainbow",
-      "TOKEN_POCKET": "Billetera TokenPocket",
+      "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
       "WALLET_CONNECT": "WalletConnect (1.0)",
       "WALLET_CONNECT_2": "WalletConnect",
@@ -814,6 +829,7 @@
       "INITIATED_TRANSFEROUT": "Transferencia iniciada",
       "INVITED_YOU": "le ha referido para comenzar a operar en el intercambio abierto más poderoso del mundo.",
       "JOIN_ME": "¡Únete a mí en dYdX para recibir un {DISCOUNT} en todas tus tasas de operación!",
+      "KEEP_WINDOW_OPEN": "Mantén esta ventana abierta para garantizar que lleguen los fondos.",
       "LEDGER_DERIVATION_PATH": "Ruta",
       "LEGACY_SIGNING": "Firma de patrimonio",
       "LINK_WALLET": "Vincular billetera",
@@ -834,6 +850,8 @@
       "MULTI_FACTOR_AUTH": "Autenticación de múltiples factores",
       "PERMITTED_TO_USE": "Puedes acceder a este sitio y realizar operaciones en dYdX bajo las leyes de la jurisdicción en la que resides y estás ubicado.",
       "PRIVACY_POLICY": "Política de privacidad",
+      "PENDING_TOKEN_APPROVAL": "Aprobación de tokens pendiente en billetera",
+      "PENDING_DEPOSIT_CONFIRMATION": "Confirmación de depósito pendiente en billetera",
       "RECOVER_KEYS": "Recuperar claves",
       "REFERRAL_DISCOUNT": "{DISCOUNT}descuento",
       "REGISTER": "Registro",
@@ -868,7 +886,7 @@
       "TRANSFERS_PAUSED": "Transferencias temporalmente pausadas",
       "TRY_AGAIN": "Intentar de nuevo",
       "TWO_SIGNATURE_REQUESTS": "Recibirás dos solicitudes de firma. Firmar es gratuito y no supone una transacción.",
-      "UNDERSTAND_RISKS": "Comprendes los riesgos asociados con la celebración de contratos perpetuos y el uso de apalancamiento.",
+      "UNDERSTAND_RISKS": "Comprendes los riesgos asociados con la celebración de contratos perpetuales y el uso de apalancamiento.",
       "VALUE_PROP_ADVANCED_DESC": "Opera con el apalancamiento y gestiona el riesgo mediante herramientas avanzadas",
       "VALUE_PROP_ADVANCED": "Avanzado",
       "VALUE_PROP_LIQUID_DESC": "liquidez de primera clase en los pares más populares",
@@ -898,7 +916,7 @@
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Iniciar sesión en móvil",
       "TITLE_SCAN_FROM_APP": "Escanear desde la aplicación",
-      "TITLE_CONNECTED": "Vinculada",
+      "TITLE_CONNECTED": "Conectado",
       "TITLE_FAILED_TO_CONNECT": "Falla en conexión",
       "DESCRIPTION_ABOUT_TO_TRANSFER": "Estás a punto de transferir tus claves mediante código QR a la aplicación móvil.",
       "DESCRIPTION_NEVER_SHARE": "Nunca compartas este código con nadie. dYdX nunca te pedirá eso.",
@@ -989,6 +1007,8 @@
       "EXPECTED_AMOUNT_RECEIVED": "Cantidad esperada recibida",
       "FAST": "Rápido",
       "FAST_WITHDRAW_CONFIRMATION": "Se cobrará una cuota de {FEE} para este retiro rápido. Tus fondos se enviarán inmediatamente y aparecerán en tu billetera una vez que la transacción de retiro haya sido confirmada.",
+      "HIGH_FEES_IN_GENERAL": "{HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT} en general",
+      "HIGH_FEES_IN_GENERAL_HIGHLIGHT_TEXT": "Tarifas más altas",
       "LOWEST_FEES_HIGHLIGHT_TEXT": "tarifas más bajas",
       "LOWEST_FEE_WITHDRAWALS_SKIP": "Los retiros de USDC en {LOWEST_FEE_TOKENS_TOOLTIP} tienen las tarifas más bajas. Otros métodos de retiro (por ejemplo, los activos en Ethereum) pueden tener tarifas de terceros más altas.",
       "LOWEST_FEE_WITHDRAWALS": "Los retiros de USDC en {LOWEST_FEE_TOKENS_TOOLTIP} tienen las tarifas más bajas. Otros retiros pueden tener comisiones adicionales de terceros.",
@@ -998,7 +1018,9 @@
       "SLOW": "Lento",
       "SLOW_WITHDRAW_DESCRIPTION": "Los retiros lentos son un proceso de dos pasos. Este paso inicia tu solicitud de retiro y se procesará en la capa 2. Una vez que tus fondos estén listos (puede tardar hasta {HOURS} horas), recibirás una notificación para transferir tus fondos a tu billetera. Eres responsable de las tasas de transacción de retiro por gas.",
       "SLOW_WITHDRAW_CONFIRMATION": "Este {STYLED_SLOW} retiro puede tomar hasta {HOURS} horas antes de que esté disponible para retirar. Serás responsable de las cuotas de transacción de retiro por gas. Si necesitas tus fondos antes, prueba un retiro {STYLED_FAST}.",
-      "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible."
+      "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible.",
+      "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Tarifas altas de terceros en la ruta seleccionada. Acepto:\n{WARNING_MESSAGE}",
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Acepto la siguiente advertencia:\n{WARNING_MESSAGE}"
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "El balance de la billetera es insuficiente para cubrir las tarifas de transacción.",
@@ -1073,7 +1095,7 @@
       "HELP_CENTER_DESCRIPTION": "Explorar tutoriales y artículos de ayuda",
       "JOIN_DISCORD": "Únete a Discord",
       "JOIN_DISCORD_DESCRIPTION": "Chatear con nuestra comunidad de traders",
-      "LIVE_CHAT": "Chat en vivo",
+      "LIVE_CHAT": "chat en vivo",
       "LIVE_CHAT_DESCRIPTION": "Obtener soporte y ayuda en tiempo real",
       "PROVIDE_FEEDBACK": "Proporcionar comentarios",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Opiniones y solicitudes sobre los productos "
@@ -1092,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "Protege contra las pérdidas cerrando la posición de un trader una vez que el precio de oráculo cruza el trigger price.",
       "TAKE_PROFIT_TOOLTIP": "Permite a los traders establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias.",
       "TP_LIMIT": "Límite de TP",
-      "TP_PRICE": "Precio TP"
+      "TP_PRICE": "Precio TP",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Las órdenes de toma de ganancias y stop loss se cancelarán automáticamente si la posición subyacente está cerrada.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "La configuración de una cantidad personalizada se aplicará a las órdenes de toma de ganancias y de stop loss."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Consulta cómo se utilizan tus datos de operaciones para calcular recompensas.",
@@ -1118,7 +1142,7 @@
       "ESTIMATED_UNLOCKED_REWARDS": "Recompensas desbloqueadas estimadas",
       "EXCHANGE_MARKET_SHARE": "participación de mercado de intercambio",
       "EXPORT": "Exportar",
-      "FEE_DISCOUNT": "Descuento de tasas",
+      "FEE_DISCOUNT": "Descuento de tarifa",
       "FEE_STRUCTURE": "Estructura de tarifas",
       "FOR_V4": "para v4",
       "FREE_TRADING_TITLE": "Haz trading gratuitamente",
@@ -1224,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "Si {ASSET} aumenta en una cantidad determinada, activa un {ACTION} para capturar ganancias.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "Si {ASSET} aumenta a una cantidad determinada, activa una {ACTION}para evitar tus pérdidas.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "Si {ASSET} cae a un precio fijo, activa un {ACTION} para obtener ganancias.",
+      "BUY_MARK_TOOLTIP": "Comprado   {ASSET_SIZE}{ASSET}en {PRICE}",
+      "BUYS_SELLS_TOGGLE": "Compras\/ventas",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "Mostrar compras y ventas históricas",
       "CANCEL_ALL": "Cancelar todo",
       "CANCEL_ORDER": "Cancelar la orden",
       "CANCEL_ORDERS_COUNT": "Cancelar {COUNT} órdenes",
@@ -1262,13 +1289,13 @@
       "ENTER_EXECUTION": "Ingresar la ejecución",
       "ENTRY_PRICE_SHORT": "Entrada",
       "EXECUTION": "Ejecución",
-      "EXPECTED_PRICE": "Precio previsto",
+      "EXPECTED_PRICE": "Precio esperado",
       "EXPIRED": "Caducado",
       "FAILED": "Fallido",
       "FEE_AMOUNT": "Importe de tarifa",
       "FEE_PERCENT": "Porcentaje de la tasa",
-      "FEE": "Tasa",
-      "FILL_OR_KILL": "Fill Or Kill",
+      "FEE": "Tarifa",
+      "FILL_OR_KILL": "Fill o Kill",
       "FILLS_EMPTY_STATE": "No tienes rellenos.",
       "FINAL_SETTLEMENT": "Liquidación final",
       "FULL_CLOSE": "Cierre total",
@@ -1293,14 +1320,14 @@
       "LIMIT_ORDER_DESCRIPTION": "Compra o vende {SYMBOL} a un precio específico (o mejor) y ajusta tu pedido con opciones de comercio avanzadas.",
       "LIMIT_ORDER_SHORT": "Límite",
       "LIMIT_ORDER": "Orden limitada",
-      "LIMIT_PRICE": "Precio límite",
+      "LIMIT_PRICE": "Limit Price",
       "LIQUIDATED": "Liquidado",
       "LIQUIDATION": "Liquidación",
       "LIQUIDATION_PRICE_SHORT": "Liq. Precio",
       "LIQUIDATION_PRICE": "Precio de liquidación",
       "LIQUIDITY": "Liquidez",
-      "MAKER_FEE": "Tasa de creador",
-      "MAKER": "Maker",
+      "MAKER_FEE": "Tarifa de creador",
+      "MAKER": "Creador",
       "MANAGE_YOUR_RISK_STOP": "Gestionar tu riesgo con una orden de \"stop\"",
       "MARKET_BUY": "comprar de mercado",
       "MARKET_ORDER_DESCRIPTION": "La forma más fácil de comprar o vender {SYMBOL} a precio de mercado.",
@@ -1325,6 +1352,7 @@
       "NEXT_IN": "Siguiente en {TIME}",
       "NOTIONAL_VALUE": "Valor nocional",
       "OFFSETTING": "Compensación",
+      "OHLC_VIA_MID_PRICE": "OHLC (a través de precio medio)",
       "OPEN_INTEREST": "Interés abierto",
       "OPEN_POSITIONS": "Posiciones abiertas",
       "OPEN_STATUS": "Abierto",
@@ -1405,7 +1433,8 @@
       "REMOVE_MARGIN": "Eliminar margen",
       "RETURN_TO_MARKET": "Volver al mercado",
       "RISK_REWARD": "Riesgo y recompensa",
-      "SELECT_MARKET": "Selecciona el mercado",
+      "SELECT_MARKET": "Seleccionar un mercado",
+      "SELL_MARK_TOOLTIP": "Vendido   {ASSET_SIZE}{ASSET}en {PRICE}",
       "SELF_TRADE": "Trading con uno mismo",
       "SET_ORDER_SIZE": "Establecer el tamaño de la orden",
       "SET_PRICE_TRIGGERS": "Establecer disparadores de precio",
@@ -1426,8 +1455,8 @@
       "TAKE_PROFIT_MARKET": "Mercado de retirar ganancias",
       "TAKE_PROFIT_MARKET_DESCRIPTION": "Las órdenes de mercado de toma de ganancias bloquean las ganancias cerrando tu posición una vez que el precio de oráculo o el precio de la última operación cruce tu precio de activación.",
       "TAKE_PROFIT_MARKET_SHORT": "Tomar ganancias",
-      "TAKER_FEE": "Tasa de tomador",
-      "TAKER": "Tomador",
+      "TAKER_FEE": "Tarifa del tomador (Taker)",
+      "TAKER": "Tomador (Taker)",
       "TAP_TO_CLOSE": "Pulsa para cerrar",
       "TAP_TO_TRADE": "Toca para trade",
       "TARGET_LEVERAGE": "Apalancamiento objetivo",
@@ -1463,13 +1492,13 @@
     "LEAGUES": {
       "ACTIVE": "Activar",
       "AND": "y",
-      "BROWSE_LEAGUES": "Explorar las categorías",
+      "BROWSE_LEAGUES": "Explorar ligas de Trading",
       "BRONZE": "Bronce",
       "BY_RECENT": "por los más recientes",
       "COMPETE_AGAINST": "Compite contra los mejores para ganar premios.",
       "DAILY_HEDGIES": "Un Hedgie se otorga al operador #1 en cada competencia diaria",
       "DAILY_SUBHEADER": "Obtén el P&L máximo hoy para ganar un Hedgie",
-      "DEMOTION": "Democión",
+      "DEMOTION": "Descenso",
       "DIAMOND": "Diamante",
       "EARN_AVATAR": "Gana un avatar único al realizar operaciones de manera competitiva",
       "EMPTY_LADDER_STATE": "¡Muy pronto!",
@@ -1479,7 +1508,7 @@
       "INACTIVE": "Inactivo",
       "LAST_SEASON": "Temporada pasada",
       "LAST_SEASON_OUTCOME": "Resultado de la temporada pasada",
-      "LEAGUE_SIZE": "Tamaño de la categoría",
+      "LEAGUE_SIZE": "Tamaño de la liga",
       "LEAGUE": "Liga",
       "LEAGUES": "Ligas",
       "LEAGUES_LAUNCH_TITLE": "¡Las categorías de operaciones están activas!",
@@ -2060,7 +2089,19 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE}para retirar tus fondos antes de que se bloquee tu acceso a la interfaz. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
-      "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}."
+      "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}.",
+      "BLOCKED_BANNER_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en nuestro {TERMS_OF_USE_LINK}. Si crees que esto es un error, ponte en contacto con soporte en {HELP_LINK}."
+    },
+    "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "Liquidación binaria",
+      "BINARY_SETTLEMENT_DESC": "El mercado se liquidará automáticamente en $ 1 si el evento ocurre. De lo contrario, se liquidará en $ 0,001. El precio es equivalente al porcentaje de probabilidad de que ocurra el resultado.",
+      "LEVERAGE_TRADE_EVENTS": "Aprovechamiento de los resultados del evento de trading",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "En una amplia gama de temas, incluidos política, deportes, cultura pop y más.",
+      "LEVERAGE_TRADE_US_ELECTION": "Aproveche el apalancamiento del resultado de las elecciones de Estados Unidos",
+      "PREDICTION_MARKET_DESC": "Los mercados de predicción se liquidarán en $ 1 si el evento se produce como se predijo. De lo contrario, se liquidarán en $ 0,001.",
+      "PREDICTION_MARKETS": "Mercados de predicción",
+      "TRADE_US_PRESIDENTIAL_ELECTION": "Opera en la elección presidencial de Estados Unidos",
+      "TRUMPWIN_DESC": "Este es un mercado de predicción y se liquidará en $ 1 si Donald J. Trump gana las elecciones presidenciales de los Estados Unidos de 2024. De lo contrario, se liquidará en $ 0,001.  {LEARN_MORE}o {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2204,11 +2245,12 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Esta orden de mercado daría lugar {SLIPPAGE}a un deslizamiento del precio de oráculo dada la liquidez actual. Utiliza un pedido limitado si todavía tienes la intención de hacer este pedido.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Este pedido de mercado daría como resultado {SLIPPAGE} de impacto en el precio del libro de pedidos dada la liquidez actual. Utiliza un pedido limitado si todavía tienes la intención de hacer este pedido.",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "No hay suficiente liquidez para completar este pedido de mercado. Intenta con un pedido por un monto menor.",
-      "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Esta orden tiene un impacto de precio no nulo y podría poner su posición por encima del apalancamiento máximo. Intenta con un pedido de menor cantidad.",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "No se recomienda esta orden de mercado debido a la liquidez del libro de órdenes unilateral. Por favor, haz un pedido límite como alternativa.",
+      "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Este pedido tiene un impacto en los precios distintos a cero y potencialmente podría poner tu posición por encima del apalancamiento máximo. Intenta con un pedido de menor cantidad.",
       "NEW_POSITION_SIZE_OVER_MAX": "Esta operación podría resultar en un tamaño de posición sobre el tamaño máximo de {MAX_SIZE} {SYMBOL}.",
       "NO_EQUITY_DEPOSIT_FIRST": "Debes depositar fondos antes de poder hacer pedidos.",
       "ORDER_BELOW_COLLATERALIZATION": "Este pedido puede poner tu cuenta por debajo del umbral de colateralización de este mercado. Intenta con una cantidad menor.",
-      "ORDER_CROSSES_OWN_ORDER": "Este pedido puede ocupar uno o más de tus propios pedidos existentes. Cancela cualquier pedido conflictivo o ajusta el monto de tu pedido.",
+      "ORDER_CROSSES_OWN_ORDER": "Esta orden puede ocupar uno o más de tus propias órdenes existentes. Cancela cualquier pedido conflictivo o ajusta el monto de tu pedido.",
       "ORDER_SIZE_BELOW_MIN_SIZE": "El tamaño de tu pedido está por debajo del tamaño mínimo de pedido de {MIN_SIZE} {SYMBOL}",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "Dados tus pedidos abiertos actuales, este pedido puede dar como resultado un apalancamiento no válido en tu posición. Por favor, cierre algunas o todas las órdenes que se llenarían antes de este pedido, o reduzca el tamaño de su orden.",
       "ORDER_WOULD_FLIP_POSITION": "Esta orden cambiará o aumentará tu posición. Desmarca Solo reducir o reduce el tamaño de tu orden.",
@@ -2238,6 +2280,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Demasiado deslizamiento",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Demasiado deslizamiento",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "No hay suficiente liquidez",
+      "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "Liquidez unilateral",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Apalancamiento potencialmente inválido",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Demasiado deslizamiento",
       "NEW_POSITION_SIZE_OVER_MAX": "Tamaño máximo de la posición",
@@ -2366,7 +2409,7 @@
       "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "No puedes transferir más que tu garantía gratuita.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Transferir esta garantía te pondría por encima del apalancamiento máximo del mercado. Ingresa una cantidad menor.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
     },
     "NEW_MARKET_WIDGET": {
