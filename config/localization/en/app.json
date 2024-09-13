@@ -1203,6 +1203,7 @@
       "LAUNCH_INCENTIVES_SEASON_REWARDS": "Season {SEASON_NUMBER} rewards",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{NUM_POINTS} received during Season {SEASON_NUMBER}, which ended on {PAST_DATE}.",
       "LAUNCH_INCENTIVES_TOTAL_REWARDS": "Total Rewards",
+      "LAUNCH_INCENTIVES_CONCLUDED": "Concluded",
       "LEADERBOARD": "Leaderboard",
       "LEARN_TO_EXPORT": "{STRONG_NO}, learn how to export my secret phrase.",
       "MAKER_MARKET_SHARE": "maker market share",
