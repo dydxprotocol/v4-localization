@@ -161,7 +161,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle Price",
-      "BODY": "Leverage and liquidations are determined based on the on-chain oracle price. The oracle price aggregates price data from multiple exchanges, protecting you from events like flash crashes."
+      "BODY": "Leverage and liquidations are determined based on the onchain oracle price. The oracle price aggregates price data from multiple exchanges, protecting you from events like flash crashes."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Order Amount",
