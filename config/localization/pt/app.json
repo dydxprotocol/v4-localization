@@ -127,6 +127,7 @@
       "DISMISS": "Dispensar",
       "DOCUMENT": "documento",
       "DONE": "Feito",
+      "DONT_SHOW_ME_AGAIN": "Não me mostre isso novamente",
       "DOWNLOAD_MOBILE_APP": "Baixar aplicativo móvel",
       "DYDX_CHAIN_ADDRESS": "Endereço de cadeia dYdX",
       "DYDX_CHAIN": "Cadeia dYdX",
@@ -317,12 +318,13 @@
       "STARTED_FROM_DATE": "Iniciado {FROM_DATE}",
       "STATISTICS": "Estatísticas",
       "STATUS": "Status",
-      "STEP_SIZE": "Tamanho do valor",
+      "STEP_SIZE": "Intervalo de aumento\/redução",
       "STOP_ORDER_SHORT": "Parar",
       "SWITCH_LEADERBOARD": "Mudar com o Leaderboard",
       "TAKE_ME_THERE": "Leve-me até lá",
       "TERMS_AND_CONDITIONS": "Termos e condições",
-      "TICK_SIZE": "Tamanho do tick",
+      "TICK_SIZE": "Valor de tick",
+      "TICKER": "Ticker",
       "TIER": "Nível",
       "TIME": "Tempo",
       "TIMESTAMP_ERROR": "Erro de carimbo de data\/hora",
@@ -400,7 +402,7 @@
       },
       "ALGO": {
         "PRIMARY": "A Algorand remove as barreiras técnicas que, por anos, atrapalharam a adoção geral da blockchain: descentralização, escala e segurança.",
-        "SECONDARY": "A Algorand usa um mecanismo de consenso Proof of Stake puro, sem permissão, o que garante a participação completa, proteção e velocidade dentro de uma rede verdadeiramente descentralizada. Além disso, a Algorando é a primeira blockchain a oferecer a finalidade de transações imediatas junto a uma taxa de até 1.000 transações por segundo."
+        "SECONDARY": "A Algorand usa um mecanismo de consenso de Prova de Participação (PoS) pura, sem necessidade de autorização, o que garante a participação completa, proteção e velocidade dentro de uma rede verdadeiramente descentralizada. Além disso, a Algorando é a primeira blockchain a oferecer a finalidade de transações imediatas junto a uma taxa de até 1.000 transações por segundo."
       },
       "APE": {
         "PRIMARY": "ApeCoin é o token de governança do ecossistema, permitindo que os titulares da ApeCoin participem do ApeCoin DAO.",
@@ -468,14 +470,14 @@
       },
       "CRV": {
         "PRIMARY": "A Curve é um pool de liquidez de exchange na rede Ethereum (como a Uniswap), desenvolvida para a negociação de stablecoins extremamente eficiente e de baixo risco, e renda a partir de taxas suplementares para provedores de liquidez, sem um custo de oportunidade.",
-        "SECONDARY": "A Curve permite que os usuários (e contratos inteligentes como a 1inch, Paraswap, Totle e Dex.ag) negociem entre DAI e USDC com uma slippage baixa sob medida, algoritmo de taxas baixas projetado especificamente para stablecoins e taxas de ganhos."
+        "SECONDARY": "A Curve permite que os usuários (e contratos inteligentes como a 1inch, Paraswap, Totle e Dex.ag) negociem entre DAI e USDC com uma slippage baixa sob medida, algoritmo de taxas baixas projetado especificamente para stablecoins e ganho de taxas."
       },
       "DOGE": {
         "PRIMARY": "A Dogecoin é uma moeda digital peer-to-peer de código aberto.",
         "SECONDARY": "Sendo um fork da Litecoin, a Dogecoin é uma criptomoeda baseada no popular meme da Internet \"Doge\", que possui um Shiba Inu em seu logotipo."
       },
       "DOT": {
-        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende da confiança em terceiros através da chain de relays da Polkadot.",
+        "PRIMARY": "A Polkadot foi desenvolvida para conectar chains privadas e de consórcio, redes públicas e sem necessidade de autorização, oracles e tecnologias futuras que ainda serão criadas. A Polkadot facilita uma Internet na qual blockchains independentes podem trocar informações e transações de uma forma que não depende de confiança, através da Relay Chain da Polkadot.",
         "SECONDARY": "A Polkadot torna mais fácil do que nunca criar e conectar aplicativos, serviços e instituições descentralizadas. Ao capacitar aqueles que querem inovar a criar soluções melhores, buscamos libertar a sociedade de sua dependência de uma web fragilizada onde grandes instituições não possam violar nossa confiança."
       },
       "DYM": {
@@ -500,7 +502,7 @@
       },
       "ETH": {
         "PRIMARY": "O Ethereum é uma plataforma global de código aberto para aplicações descentralizadas.",
-        "SECONDARY": "O Ethereum é uma plataforma blockchain descentralizada fundado em 2014. Ele é um projeto de código aberto que não é de propriedade nem é operado por um único indivíduo. Isso indica que qualquer pessoa, de qualquer lugar, pode baixar o software e começar a interagir com a rede. O Ethereum permite que os desenvolvedores façam e operem os chamados “contratos inteligentes”, uma parte essencial da infraestrutura em qualquer aplicação descentralizada."
+        "SECONDARY": "O Ethereum é uma plataforma blockchain descentralizada fundada em 2014. Ele é um projeto de código aberto que não é de propriedade nem operado por um único indivíduo. Isso indica que qualquer pessoa, de qualquer lugar, pode baixar o software e começar a interagir com a rede. O Ethereum permite que os desenvolvedores façam e operem os chamados “contratos inteligentes”, uma parte essencial da infraestrutura em qualquer aplicação descentralizada."
       },
       "FET": {
         "PRIMARY": "FET é o token nativo da blockchain Fetch.ai.",
@@ -576,7 +578,7 @@
       },
       "MATIC": {
         "PRIMARY": "A Polygon é um protocolo e um framework para a criação e conexão de redes blockchain compatíveis com o Ethereum. Agregando soluções escalonáveis na rede Ethereum, dando suporte a um ecossistema Ethereum multi-chain.",
-        "SECONDARY": "A Polygon combina o melhor das blockchains Ethereum e soberanas em um sistema multi-chain aberto, seguro e completo, capaz de se beneficiar totalmente dos impactos da rede Ethereum"
+        "SECONDARY": "A Polygon combina o melhor das blockchains Ethereum e soberanas em um sistema multi-chain aberto, seguro e completo, capaz de se beneficiar totalmente dos impactos da rede Ethereum."
       },
       "MEME": {
         "PRIMARY": "De acordo com seu site, a Memecoin (MEME) é literalmente uma moeda meme.",
@@ -618,6 +620,10 @@
         "PRIMARY": "PYTH é o token de governança para a Rede Pyth e seu ecossistema.",
         "SECONDARY": "A Pyth fornece dados de mercado em tempo real para dApps financeiros em mais de 40 blockchains e fornece mais de 380 feeds de preços de baixa latência em criptomoedas, ações, ETFs, pares FX e commodities."
       },
+      "RENDER": {
+        "PRIMARY": "RENDER é um token de utilidade ERC-20 usado por artistas na Render Network para trocar por poder de processamento de GPU de provedores de GPU (operadores de nó)",
+        "SECONDARY": "A rede Render é uma rede de renderização por GPU distribuída, criada com base na blockchain Ethereum, com o objetivo de conectar artistas e estúdios que precisam de poder de processamento de GPU com parceiros de mineração dispostos a alugar suas capacidades de GPU."
+      },
       "RNDR": {
         "PRIMARY": "RNDR é um token de utilidade ERC-20 usado por artistas na Rede Render para trocar por poder de processamento GPU de provedores de GPU (operadores de nó)",
         "SECONDARY": "A rede Render é uma rede de renderização por GPU distribuída, criada com base na blockchain Ethereum, com o objetivo de conectar artistas e estúdios que precisam de poder de processamento de GPU com parceiros de mineração dispostos a alugar suas capacidades de GPU."
@@ -640,7 +646,7 @@
       },
       "SOL": {
         "PRIMARY": "A Solana é uma blockchain rápida, segura e anticensura que fornece a infraestrutura aberta necessária para uma adoção global.",
-        "SECONDARY": "A Solana é um projeto de código aberto que implementa uma nova blockchain de alto desempenho, sem necessidade de autorização. A Fundação Solana é sediada em Genebra, na Suíça, onde é mantido o projeto de código aberto."
+        "SECONDARY": "A Solana é um projeto de código aberto que implementa uma nova blockchain independente da confiança em terceiros e de alto desempenho. A Fundação Solana é sediada em Genebra, na Suíça, onde é mantido o projeto de código aberto."
       },
       "STX": {
         "PRIMARY": "STX é a moeda nativa da rede Stacks. É usada para alimentar contratos inteligentes para Bitcoin, para recompensar os mineradores na rede Stacks aberta e permite que os detentores ganhem bitcoin por Stacking.",
@@ -656,7 +662,7 @@
       },
       "SUSHI": {
         "PRIMARY": "A SushiSwap é uma exchange descentralizada de mercado automatizada que opera atualmente na rede Ethereum.",
-        "SECONDARY": "A SushiSwap é um projeto executado pela comunidade e regido pelo voto dos respectivos detentores de tokens. Os principais produtos incluem: Exchange, Pools de Liquidez, Farms e o SushiBar Staking."
+        "SECONDARY": "A SushiSwap é um projeto executado pela comunidade e governado pelo votos dos seus detentores de tokens. Os principais produtos incluem: Exchange, Pools de Liquidez, Farms e SushiBar Staking."
       },
       "SNX": {
         "PRIMARY": "A Synthetix é um protocolo de emissão de ativos sintéticos descentralizados, criado na rede Ethereum.",
@@ -671,7 +677,7 @@
         "SECONDARY": "As fontes de resolução da Polymarket para este mercado são Associated Press, Fox News e NBC. Este mercado será resolvido quando todas as três fontes declararem a vitória do mesmo candidato. Se todas as três fontes não tiverem indicado a vitória do mesmo candidato até a data da posse (20 de janeiro de 2025), este mercado será resolvido com base em quem está sendo empossado."
       },
       "TRX": {
-        "PRIMARY": "A TRON é uma blockchain pública dedicada a fornecer a infraestrutura subjacente, que permite que os desenvolvedores criem contratos inteligentes e aplicativos descentralizados, publiquem, possuam e armazenem livremente dados e outros conteúdos.",
+        "PRIMARY": "A TRON é uma blockchain pública dedicada a fornecer a infraestrutura subjacente, que permite que os desenvolvedores criem contratos inteligentes e aplicativos descentralizados, publique livremente possuem dados e outros conteúdos.",
         "SECONDARY": "A TRON depende de um mecanismo de Proof-of-Stake (DPoS), no qual 27 Super representantes giram a cada 6 horas para validar blocos e transações."
       },
       "UMA": {
@@ -708,7 +714,7 @@
       },
       "YFI": {
         "PRIMARY": "A Yearn Finance é um pacote de produtos de Finança Descentralizada (DeFi) que fornece agregação de empréstimos, geração de rendimentos e seguros na blockchain Ethereum.",
-        "SECONDARY": "O protocolo é mantido por vários desenvolvedores independentes e é controlado pelos detentores da YFI."
+        "SECONDARY": "O protocolo é mantido por vários desenvolvedores independentes e é governado pelos detentores da YFI."
       },
       "ZEC": {
         "PRIMARY": "O Zcash é uma moeda digital rápida e confidencial com taxas baixas. ",
@@ -782,7 +788,7 @@
       "CHECK_WALLET_FOR_REQUEST": "Verifique sua carteira para um pedido!",
       "COMING_SOON": "Em breve!",
       "COMPLETE_ONBOARDING": "Concluir integração",
-      "CONFIRM_OWNERSHIP": "Confirme se você é o proprietário desta carteira",
+      "CONFIRM_OWNERSHIP": "Confirme que você é o proprietário desta carteira",
       "CONNECT_YOUR_WALLET_EXTENDED": "Conecte sua carteira Ethereum para depositar fundos e começar a negociar.",
       "CONNECT_YOUR_WALLET_SEARCH": "Pesquisar carteiras...",
       "CONNECT_YOUR_WALLET": "Conectar sua carteira",
@@ -796,7 +802,7 @@
       "DEPOSIT_ALERT_SUBTITLE": "Verifique o status",
       "DEPOSIT_COMPLETE": "Seu depósito de {AMOUNT_USD} já está disponível.",
       "DEPOSIT_OF": "Depósito de {AMOUNT_USD}",
-      "DEPOSIT_STATUS": "Seu depósito de {AMOUNT_USD} estará disponível em aproximadamente {ESTIMATED_DURATION}.",
+      "DEPOSIT_STATUS": "Seu depósito de {AMOUNT_USD} estará disponível em aproximadamente {ESTIMATED_DURATION}. ",
       "DEPOSIT_STATUS_SHORTLY": "Seu depósito de {AMOUNT_USD} estará disponível em breve.",
       "DEPOSIT_TO_DESTINATION": "Depositar em {DESTINATION_CHAIN}",
       "DEPOSIT_TO_DYDX": "Depositar na dYdX",
@@ -868,7 +874,7 @@
       "SKIP_FOR_NOW": "Pular por enquanto",
       "START_TRADING_BLURB": "Comece a fazer trades na exchange aberta mais poderosa do mundo.",
       "SWITCH_NETWORK": "Mudar de rede",
-      "TOS_TITLE": "Ao usar qualquer um de nossos produtos e serviços, você concorda com e .{TERMS_LINK}{PRIVACY_POLICY_LINK} Você concorda, representa e garante que:",
+      "TOS_TITLE": "Ao usar qualquer um de nossos produtos e serviços, você concorda com {TERMS_LINK}e {PRIVACY_POLICY_LINK}. Você concorda, representa e garante que:",
       "TOS_LINE1": "Você não é uma pessoa ou empresa residente ou localizada, incorporada, ou tem um agente registrado nos Estados Unidos, Canadá ou outras localidades restritas, ou bloqueadas.",
       "TOS_LINE2": "Você não acessará este site no futuro, nem usará nossos produtos ou serviços enquanto estiver localizado nos Estados Unidos, Canadá ou outras localidades restritas, ou bloqueadas.",
       "TOS_LINE3": "Você não está usando, e nem usará no futuro, uma VPN para mascarar sua localização física em localidades bloqueadas ou restritas.",
@@ -889,7 +895,7 @@
       "VALUE_PROP_TRUSTLESS_DESC": "Construído com contratos inteligentes auditados de código aberto",
       "VALUE_PROP_TRUSTLESS": "Trustless",
       "VERIFY_OWNERSHIP": "Verificar a propriedade",
-      "VERIFY_WALLET_OWNERSHIP": "Verifique se você é o proprietário dessa carteira",
+      "VERIFY_WALLET_OWNERSHIP": " Verifique se você é o proprietário dessa carteira ",
       "VERIFY_WALLET_COMPATIBILITY": "Verifique a compatibilidade da carteira",
       "WANT_TO_LEARN": "Quer saber mais?",
       "WELCOME_DYDX": "Boas-vindas à dYdX",
@@ -982,7 +988,7 @@
       "GASLESS_ETH_DEPOSITS": "Os depósitos sem cobrança de tarifas não estão disponíveis para ETH. Você pode converter ETH em WETH em {1INCH_WETH_LINK} ou {UNISWAP_WETH_LINK} e usar depósitos sem tarifa de gás de WETH ou depositar ETH diretamente e pagar os custos de gás.",
       "LOWEST_FEE_DEPOSITS": "Os depósitos em USDC de {LOWEST_FEE_TOKENS_TOOLTIP} têm as taxas mais baixas. Outros depósitos podem ter taxas adicionais de terceiros.",
       "MAX_SLIPPAGE": "Slippage máxima",
-      "MINIMUM_DEPOSIT_AMOUNT": "Valor mínimo do depósito",
+      "MINIMUM_DEPOSIT_AMOUNT": "Valor mínimo do depósito ",
       "MINIMUM_DEPOSIT_MET": "Ótimo! O depósito atende ao requisito de depósito sem cobrança de tarifa mínimo de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. A dYdX cobrirá as taxas de gás para este depósito.",
       "MINIMUM_DEPOSIT_UNMET": "Deposite ao menos {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} e a dYdX pagará gas taxas de gás para este depósito!",
       "EXCHANGE_RECEIVED": "Receba",
@@ -1052,7 +1058,7 @@
       "UNSTAKE_CONFIRMATION_DESCRIPTOR": "Uma vez confirmada, você deixará de ganhar recompensas no valor em staking. Todas as recompensas não resgatadas deste validador serão automaticamente resgatadas. A remoção de staking levará 30 dias para ser concluída."
     },
     "FEEDBACK_MODAL": {
-      "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Em caso de dúvidas ou para relatar bugs, use o chat de ajuda.",
+      "FEEDBACK_PLACEHOLDER": "Conte-nos como podemos criar uma experiência melhor de trades para você. Para perguntas ou relatar bugs, use o chat de ajuda.",
       "GIVE_FEEDBACK": "Dar feedback"
     },
     "CANCEL_ORDERS_MODAL": {
@@ -1066,7 +1072,7 @@
       "MAGIC_EXPORT_PRIVATE_KEY_DESCRIPTION": "Para usar a carteira do Magic fora da dYdX, você deve exportar sua carteira para outro provedor de carteiras.",
       "POP_UP_NOTIFICATIONS": "Notificações pop-up",
       "PREFERENCES": "Preferências",
-      "ORDERBOOK_ANIMATIONS": "Animações do livro de registro de pedidos",
+      "ORDERBOOK_ANIMATIONS": "Animações do livro de ordens",
       "PROFILE_SHARE_USERNAME": "Mostrar meu nome de usuário",
       "PROFILE_SHARE_ADDRESS": "Mostrar meu endereço de carteira",
       "SAVE_ORDER_AMOUNT": "Salvar valor do pedido",
@@ -1108,7 +1114,9 @@
       "STOP_LOSS_TOOLTIP": "Protege contra perdas fechando a posição de um trader, quando o preço de oráculo ultrapassa o gatilho para preço.",
       "TAKE_PROFIT_TOOLTIP": "Permite que os traders definam metas e protejam os lucros nas posições especificando um preço para fechamento de uma posição aberta para lucro.",
       "TP_LIMIT": "Limite de TP",
-      "TP_PRICE": "Preço de TP"
+      "TP_PRICE": "Preço de TP",
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "As ordens de Take Profit e Stop Loss serão canceladas automaticamente se a posição subjacente for fechada.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "A configuração de um valor personalizado será aplicada às ordens de Take Profit e Stop Loss."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Veja como seus dados de trades são usados para calcular recompensas.",
@@ -1187,14 +1195,14 @@
       "STOP_MARKET_ORDERS": "Ordens de mercado stop",
       "STOP_MARKET_ORDERS_DESCRIPTION": "As ordens de mercado take profit e mercado stop chegaram! Defina disparadores rápidos e fáceis para limitar suas perdas e bloquear lucros.",
       "TARGET_VOLUME": "Volume alvo",
-      "TESTNET_DEPOSIT_PROMO": "Depósitos gratuitos, rápidos e num único clique para a testnet agora estão disponíveis em nossa aplicação Goerli.",
+      "TESTNET_DEPOSIT_PROMO": "Depósitos rápidos e num único clique da testnet agora estão disponíveis em nossa aplicação Goerli.",
       "TESTNET_LOWERCASE": "App da Testnet",
       "TRADES_DESCRIPTION": "Toda a atividade de trading com geração de taxas",
       "TRADES_LABEL": "executado nas últimas 24h",
       "TRADING_COMPETITION": "Concorrência de trades",
       "TRADING_DATA_DESCRIPTION": "Dados usados para calcular as recompensas de trades da DYDX. Recompensas de trades são fornecidas pela dYdX Foundation.",
       "TRADING_DATA": "Dados de recompensas de trades",
-      "TRADING_FORMULA_DESCRIPTION": "A {TRADING_FORMULA} determina as recompensas DYDX que estão disponíveis para você em cada época dos contratos inteligentes implantados por {FOUNDATION_LINK}.",
+      "TRADING_FORMULA_DESCRIPTION": "A {TRADING_FORMULA} determina as recompensas DYDX que estão disponíveis para você em cada época dos contratos inteligentes implantados por {FOUNDATION_LINK}.",
       "TRADING_FORMULA_UPDATE_DESCRIPTION": "A participação na DYDX agora aumenta as recompensas em token obtidas em trades.",
       "TRADING_FORMULA_UPDATE": "Atualização de recompensas de trades",
       "TRADING_FORMULA": "Fórmula de recompensas de trades",
@@ -1240,6 +1248,9 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "Se {ASSET} subir em um determinado valor, dispare um {ACTION} para obter lucros.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "Se o {ASSET} aumentar a um determinado valor, dispare um {ACTION}para evitar perdas.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "Se {ASSET} cair para um preço fixo, dispare {ACTION} um para obter lucros.",
+      "BUY_MARK_TOOLTIP": "Comprado   {ASSET_SIZE}{ASSET}em {PRICE}",
+      "BUYS_SELLS_TOGGLE": "Compras\/vendas",
+      "BUYS_SELLS_TOGGLE_TOOLTIP": "Exibir compras e vendas históricas",
       "CANCEL_ALL": "Cancelar tudo",
       "CANCEL_ORDER": "Cancelar ordem",
       "CANCEL_ORDERS_COUNT": "Cancelar {COUNT} ordens",
@@ -1380,7 +1391,7 @@
       "ORDERBOOK_UNITS": "Unidades",
       "ORDERBOOK_GROUPING": "Agrupamento",
       "ORDERS_EMPTY_STATE": "Você não tem ordens.",
-      "PARTIALLY_FILLED": "Executado parcialmente",
+      "PARTIALLY_FILLED": "Preenchido parcialmente",
       "PAYMENT": "Pagamento",
       "PAYMENTS": "Pagamentos",
       "PENDING": "Pendente",
@@ -1422,7 +1433,8 @@
       "REMOVE_MARGIN": "Remover margem",
       "RETURN_TO_MARKET": "Voltar ao mercado",
       "RISK_REWARD": "Recompensa-risco",
-      "SELECT_MARKET": "Selecione o mercado",
+      "SELECT_MARKET": "Selecionar mercado",
+      "SELL_MARK_TOOLTIP": "Vendido   {ASSET_SIZE}{ASSET}em {PRICE}",
       "SELF_TRADE": "Autotrade",
       "SET_ORDER_SIZE": "Definir tamanho da ordem",
       "SET_PRICE_TRIGGERS": "Definir gatilhos de preços",
@@ -1492,7 +1504,7 @@
       "EMPTY_LADDER_STATE": "Em breve!",
       "GIVEN_TO": "Concedido ao trader com o melhor L&P Relativo",
       "GOLD": "Ouro",
-      "HELD_BY": "Hold de",
+      "HELD_BY": "Detido por",
       "INACTIVE": "Inativo",
       "LAST_SEASON": "Última temporada",
       "LAST_SEASON_OUTCOME": "Resultado da temporada passada",
@@ -1651,9 +1663,9 @@
       "EMAIL_UPDATES": "Atualizações importantes enviadas por e-mail",
       "ERROR_MANY_REQUESTS": "Muitas solicitações. Tente novamente mais tarde",
       "GENERAL_DESCRIPTION": "Newsletter, atualizações de mercado e de produtos",
-      "GET_NOTIFIED": "Não erre uma vez sequer ao fazer trades! Receba notificações por e-mail sobre mudanças de mercado, atividade de conta, atualizações de trades e muito mais.",
+      "GET_NOTIFIED": "Não perca nada enquanto faz seus trades! Receba notificações por e-mail sobre mudanças de mercado, atividade de conta, atualizações de trades e muito mais.",
       "MANAGE_NOTIFICATIONS": "Gerenciar notificações",
-      "MANAGE_NOTIFICATIONS_ONBOARD": "Você não fez login no site. Conclua a integração para gerenciar suas notificações de e-mail.",
+      "MANAGE_NOTIFICATIONS_ONBOARD": "Você não está logado no site. Conclua a integração para gerenciar suas notificações de e-mail.",
       "RESEND_VERIFICATION": "Re-enviar e-mail de verificação →",
       "REQUIRED": "Necessário",
       "SENT_VERIFICATION": "E-mail de verificação enviado.",
@@ -1743,7 +1755,7 @@
       "FIRST_NAME": "Primeiro nome",
       "FULL_NAME": "Nome completo",
       "HISTORICAL_TRADING_PERF": "Desempenho histórico de trades",
-      "I_HAVE_READ_AND_AGREE": "Li e concordo",
+      "I_HAVE_READ_AND_AGREE": "Li e concordo ",
       "INCORPORATION_COUNTRY": "País de incorporação",
       "INDIVIDUAL": "Individual",
       "LAST_EPOCH": "Última epoch",
@@ -1901,7 +1913,7 @@
       "MODAL_BUY_CTA": "Compre USDC",
       "MODAL_CONFIRMATION": "Complete o fluxo de ordens na Banxa para comprar USDC sem taxas de gás. Verifique o status da sua ordem no e-mail ou entre em contato com o suporte de {BANXA_SUPPORT_LINK}",
       "MODAL_CONFIRMATION_TITLE": "Termine na Banxa",
-      "MODAL_LEGAL_DISCLAIMER": "Ao clicar em “Comprar USDC”, você reconhece e concorda que este serviço é fornecido a você diretamente por Banxa.com Pty Ltd. (“Banxa”) e não tem relação com a dYdX trading, Inc. (“dYdX”); este serviço e qualquer compra ou venda de criptomoeda por valor (incluindo fiat, criptomoeda e empréstimo) ocorrerão somente após você sair da página do site e do protocolo dYdX; além disso, qualquer transmissão de valor (incluindo valor de envio, recebimento e custódia) ocorrerão diretamente entre a rede Ethereum e a Banxa. Este serviço não está disponível para quaisquer pessoas que estejam nos Estados Unidos. Você também concorda que qualquer informação solicitada pela Banxa (incluindo o número de cartão e KYC) não será fornecida para a dYdX. Desse modo, você não responsabilizará a dYdX por nenhum aspecto das transações ou transmissões realizadas entre você e a Banxa. Em caso de conflitos, a versão em inglês desta declaração prevalecerá e pode ser encontrada nos Termos de Uso da dYdX, disponíveis em https:\/\/dydx.exchange\/legal.",
+      "MODAL_LEGAL_DISCLAIMER": "Ao clicar em \"Comprar USDC\", você reconhece e concorda que este serviço é fornecido a você diretamente por Banxa.com Pty Ltd. (\"Banxa\") e não tem relação com a dYdX trading, Inc. (\"dYdX\"); este serviço e qualquer compra ou venda de criptomoeda por valor (incluindo fiat, criptomoeda e empréstimo) ocorrerão somente após você sair da página do site e do protocolo dYdX; além disso, qualquer transmissão de valor (incluindo valor de envio, recebimento e custódia) ocorrerão diretamente entre a rede Ethereum e a Banxa. Este serviço não está disponível para quaisquer pessoas que estejam nos Estados Unidos. Você também concorda que qualquer informação solicitada pela Banxa (incluindo o número de cartão e KYC) não será fornecida para a dYdX. Desse modo, você não responsabilizará a dYdX por nenhum aspecto das transações ou transmissões realizadas entre você e a Banxa. Em caso de conflitos, a versão em inglês desta declaração prevalecerá e pode ser encontrada nos Termos de Uso da dYdX, disponíveis em https:\/\/dydx.exchange\/legal. ",
       "MODAL_NEED_HELP": "Precisa de ajuda?",
       "MODAL_SUBTITLE": "Compre USDC via Banxa. Os fundos serão depositados diretamente na sua conta, {NO_GAS_FEES_STYLED}.",
       "NO_GAS_FEES_STYLED": "sem necessidade de taxas de “gas”",
@@ -1943,7 +1955,7 @@
       "DEPOSIT_PROMO_STEP_2_LIVENESS_ELIGIBLE": "Você se qualifica para o bônus!",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_NOT_ELIGIBLE": "Você não se qualifica para ganhar o bônus.",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_PENDING": "Você enviou uma verificação ao vivo. Verifique novamente mais tarde para saber se sua conta se qualifica.",
-      "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "Realize uma verificação ao vivo",
+      "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "Realize uma verificação de atividade",
       "DEPOSIT_PROMO_STEP_2_VERIFY_LIVENESS": "Verifique-se ao vivo",
       "DEPOSIT_PROMO_STEP_3_BONUS_RECEIVED": "Seu bônus de {PROMO_BONUS_AMOUNT} foi recebido!",
       "DEPOSIT_PROMO_STEP_3_DESCRIPTION": "Sua conta receberá o crédito assim que as etapas acima forem verificadas.",
@@ -2081,8 +2093,13 @@
       "BLOCKED_BANNER_MESSAGE": "Os Perpétuos não estão disponíveis para pessoas residentes, localizadas ou incorporadas, ou que tenham um agente registrado, em um país bloqueado ou em um território restrito. Mais detalhes podem ser encontrados em {TERMS_OF_USE_LINK}. Se você acha que isso é um erro, entre em contato com o suporte em {HELP_LINK}."
     },
     "PREDICTION_MARKET": {
+      "BINARY_SETTLEMENT": "Liquidação binária",
+      "BINARY_SETTLEMENT_DESC": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em US$ 0,001. O preço é equivalente à porcentagem de chance de o resultado ocorrer.",
+      "LEVERAGE_TRADE_EVENTS": "Alavancagem de resultados de eventos de trade",
+      "LEVERAGE_TRADE_EVENTS_CONTINUATION": "Sobre uma ampla gama de tópicos, incluindo política, esportes, música pop e muito mais.",
       "LEVERAGE_TRADE_US_ELECTION": "Alavancagem de trade do resultado da eleição dos EUA",
       "PREDICTION_MARKET_DESC": "Os mercados de previsão serão liquidados em US$ 1 se o evento ocorrer conforme previsto. Caso contrário, eles serão liquidados em US$ 0,001.",
+      "PREDICTION_MARKETS": "Mercados de previsão",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Faça trades com a eleição presidencial dos EUA",
       "TRUMPWIN_DESC": "Este é um mercado de previsões e será liquidado em US$ 1 se Donald J. Trump vencer a eleição presidencial dos EUA de 2024. Caso contrário, ele será liquidado em US$ 0,001. {LEARN_MORE} ou {DISMISS}."
     }
@@ -2103,7 +2120,7 @@
     "EMPTY_PENDING_MIGRATIONS_ALL": "Não há migrações pendentes atualmente.",
     "EMPTY_PENDING_MIGRATIONS_MINE": "Não há migrações pendentes com seu endereço de cadeia dYdX no momento.",
     "EMPTY_PENDING_MIGRATIONS_SEARCH": "Não há migrações pendentes com correspondência de endereço {SEARCH_STRING} no momento.",
-    "ENTER_ADDRESS": "Digite o endereço da cadeia dYdX",
+    "ENTER_ADDRESS": "Digite o endereço da cadeia dYdX ",
     "ESTIMATED_TIME_LEFT": "Tempo estimado restante",
     "ESTIMATED_TIMELINE": "Prazo estimado",
     "ETHEREUM_FINALIZATION": "Finalização do Ethereum",
@@ -2161,7 +2178,7 @@
     "V4_TESTNET": "Testnet 3 V4",
     "V4_TESTNET_DSRV": "Testnet 3 (DSRV) V4 ",
     "V4_TESTNET_DYDX": "Testnet 3 (dYdX) V4",
-    "V4_TESTNET_NODEFLEET": "Testnet 3 V4 (nodefleet)",
+    "V4_TESTNET_NODEFLEET": "Testnet 3 V4 (nodefleet) ",
     "V4_TESTNET_IMPERATOR": "Testnet 3 (Imperator) V4"
   },
   "ERRORS": {
@@ -2176,7 +2193,7 @@
     "BROADCAST_ERROR_CLOB_3002": "Ordens com estado não podem exigir execução imediata.",
     "BROADCAST_ERROR_CLOB_3003": "O tempo de bloqueio é maior do que o GoodTilBlockTime da mensagem. Atualize a página e tente novamente.",
     "BROADCAST_ERROR_CLOB_3004": "O GoodTilBlockTime da mensagem vai além do StatefulOrderTimeWindow no futuro. Atualize a página e tente novamente.",
-    "BROADCAST_ERROR_CLOB_3005": "A ordem com estado existente tem prioridade maior ou igual à nova.",
+    "BROADCAST_ERROR_CLOB_3005": "A ordem com estado existente tem prioridade maior ou igual a nova.",
     "BROADCAST_ERROR_CLOB_3006": "A ordem com estado não existe.",
     "BROADCAST_ERROR_CLOB_3007": "Falha na verificação de colaterização de ordem com estado. O tamanho da ordem pode ser muito grande. Tente novamente com uma ordem menor.",
     "BROADCAST_ERROR_CLOB_3008": "A ordem com estado foi cancelada anteriormente e, portanto, não pode ser colocada.",
@@ -2192,7 +2209,7 @@
     "BROADCAST_ERROR_3002": "Ordens com estado não podem exigir execução imediata.",
     "BROADCAST_ERROR_3003": "O tempo de bloqueio é maior do que o GoodTilBlockTime da mensagem.",
     "BROADCAST_ERROR_3004": "O GoodTilBlockTime da mensagem vai além do StatefulOrderTimeWindow no futuro.",
-    "BROADCAST_ERROR_3005": "A ordem com estado existente tem prioridade maior ou igual à nova.",
+    "BROADCAST_ERROR_3005": "A ordem com estado existente tem prioridade maior ou igual a nova.",
     "BROADCAST_ERROR_3006": "A ordem com estado não existe.",
     "BROADCAST_ERROR_3007": "Falha na verificação de colaterização de ordem com estado.",
     "BROADCAST_ERROR_3008": "A ordem com estado foi cancelada anteriormente e, portanto, não pode ser colocada.",
@@ -2209,7 +2226,7 @@
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Valor da ordem deve ser um fator de {STEP_SIZE}.",
       "BRACKET_ORDER_FAILED_TO_PLACE": "Uma ou mais ordens em sua ordem de suporte falhou. Verifique a aba Ordens para revisar suas ordens de take profit e stop loss ativas.",
-      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "O preço de disparo de stop loss deve ficar acima do preço esperado da ordem de mercado: ${EXPECTED_PRICE}.",
+      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "O preço de disparo de stop loss deve ficar acima do preço esperado da ordem de mercado: ${EXPECTED_PRICE}",
       "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "O preço de disparo de stop loss está muito próximo do preço de liquidação. Esta ordem de stop loss pode não ser executada totalmente antes de ser liquidada. Digite o preço de disparo acima de ${TRIGGER_PRICE_LIMIT}.",
       "BRACKET_ORDER_STOP_LOSS_BELOW_EXPECTED_PRICE": "O preço de disparo da ordem de stop loss deve ficar abaixo do preço esperado para a ordem de mercado: ${EXPECTED_PRICE}.",
       "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "O preço de disparo de stop loss está muito próximo do preço de liquidação. Esta ordem de stop loss pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo abaixo de ${TRIGGER_PRICE_LIMIT}.",
@@ -2220,7 +2237,7 @@
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo acima de {TRIGGER_PRICE_LIMIT} ou use uma ordem limite de stop.",
       "INVALID_LARGE_POSITION_LEVERAGE": "Esse trade resultaria em uma alavancagem inválida na sua posição. Para evitar riscos, posições maiores têm alavancagens máximas menores.",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Esse trade resultaria em mais de 100% do uso de margem na sua conta.",
-      "INVALID_NEW_POSITION_LEVERAGE": "Esse trade resultaria em uma alavancagem inválida sobre sua posição.",
+      "INVALID_NEW_POSITION_LEVERAGE": "Esse trade resultaria em uma alavancagem inválida sobre sua posição. ",
       "INVALID_SIGNATURE": "Essa ordem não pôde ser colocada devido a uma assinatura inválida. Sua conta pode estar fora de sincronização. Reconecte sua carteira e tente novamente.",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Seu preço limite deve estar acima de seu preço de gatilho para que essa ordem seja executada quando for disparada. Ajuste o preço limite ou altere o método de execução.",
       "LIMIT_MUST_BELOW_TRIGGER_PRICE": "O preço limite deve ficar abaixo do preço de gatilho para que a ordem seja executada quando for disparada. Ajuste o preço limite ou altere o método de execução.",
@@ -2383,7 +2400,7 @@
       "WITHDRAW_MUST_SPECIFY_CHAIN": "Selecione uma cadeia de origem para saque."
     },
     "TRANSFER_MODAL": {
-      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER} {TOKEN}",
+      "AMOUNT_MINIMUM_ERROR": "O valor deve ser superior a {NUMBER}{TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Endereço de cadeia dYdX inválido.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Não foi possível encontrar uma conta associada ao endereço desta carteira.",
       "TRANSFER_MORE_THAN_FREE": "Não é possível transferir mais do que sua garantia gratuita.",
