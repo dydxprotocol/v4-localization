@@ -733,15 +733,17 @@
     "AFFILIATES": {
       "AFFILIATES_PROGRAM": "Affiliates Program",
       "AFFILIATE_LINK": "Affiliate Link",
-      "EARN_FOR_EACH_TRADER": "Earn up to ${AMOUNT_USD}/mo for each new trader",
+      "AFFILIATE_LINK_REQUIREMENT": "Affiliate Link will activate at ${AMOUNT_USD} volume",
+      "BECOME_A_VIP": "Become a VIP",
+      "EARN_FOR_EACH_TRADER": "Earn up to ${AMOUNT_USD} per month for each new trader",
       "EARN_FEES": "Earn fees",
       "REFER_FOR_DISCOUNTS": "Refer a friend and they can receive up to ${AMOUNT_USD} in discounts.",
-      "REFER_FOR_DISCOUNTS_FIRST_ORDER": "Receive up to ${AMOUNT_USD} in fee discounts after placing your first order!",
-      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Earn up to ${AMOUNT_PER_MONTH}/mo for each new trader you refer. Your referral can save up to ${AMOUNT_DISCOUNT} in trading fees. {LEARN_MORE_LINK}",
+      "REFER_FOR_DISCOUNTS_FIRST_ORDER": "Receive up to {AMOUNT_USD} in fee discounts after placing your first order!",
+      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Earn up to ${AMOUNT_PER_MONTH} per month for each new trader you refer. If you're a VIP, you can earn up to ${VIP_AMOUNT_USD}! Your referral can save up to ${AMOUNT_DISCOUNT} in trading fees. {LEARN_MORE_LINK}",
       "WANT_TO_VIEW_EARNINGS": "Want to view your earnings? {LINK}",
       "INVITE_FRIENDS": "Invite Friends",
       "YOUR_FRIEND": "Your friend",
-      "HAS_REFERRED_YOU": "has referred you to start trading on the world’s most powerful open exchange.",
+      "HAS_REFERRED_YOU": "has referred you to start trading on the world's most powerful open exchange.",
       "EARN_USDC": "Earn USDC",
       "EARN_USDC_DISCRIPTION": "Take advantage of staking and other products to earn USDC.",
       "TRADE_ANYTHING": "Trade anything",
@@ -751,7 +753,8 @@
       "ALL_REWARDS_DYDX_COMMUNITY": "*All rewards are made available through {DYDX_COMMUNITY_LINK}.",
       "DYDX_COMMUNITY": "dYdX Community",
       "THE_PRO_TRADING_PLATFORM": "The Pro Trading Platform for DeFi",
-      "TWEET_SHARE_AFFILIATES": "Save up to ${AMOUNT_USD} in trading fees on @dYdX: "
+      "TWEET_SHARE_AFFILIATES": "Save up to ${AMOUNT_USD} in trading fees on @dYdX: ",
+      "YOUVE_TRADED": "You've traded ${AMOUNT_USD}"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
