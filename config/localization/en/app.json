@@ -2382,6 +2382,13 @@
       "INVALID_GOOD_TIL": "Invalid Good Til",
       "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Below minimum size"
     },
+    "TRADING_VIEW": {
+      "ORDER_MODIFICATION_ERROR_LIMIT_PRICE_CROSS": "Dragging limit orders across current price is not allowed. To execute an order immediately, use the trade form.",
+      "ORDER_MODIFICATION_ERROR_SL_PRICE_HIGHER": "Stop Loss price must be higher than current price.",
+      "ORDER_MODIFICATION_ERROR_SL_PRICE_LOWER": "Stop Loss price must be lower than current price.",
+      "ORDER_MODIFICATION_ERROR_TP_PRICE_HIGHER": "Take Profit price must be higher than current price.",
+      "ORDER_MODIFICATION_ERROR_TP_PRICE_LOWER": "Take Profit price must be lower than current price."
+    },
     "TRIGGERS_FORM": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price below {TRIGGER_PRICE_LIMIT}.",
       "LOSS_COLON": "Loss:",
