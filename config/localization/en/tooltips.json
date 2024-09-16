@@ -103,6 +103,10 @@
       "TITLE": "Leverage",
       "BODY": "Leverage changes the multiplier on your gains or losses. Increasing your leverage increases how much you would gain / lose on a trade with the same price movement."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Limit Close",
+      "BODY": "A limit close may not happen instantly, and will only be filled once the entered price is hit. Monitor the Orders tab to check its status."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Limit Price",
       "BODY": "This order can only be filled at the specified limit price or better. If your order crosses at the time of placement, your order will fill any crossing orders at the most favorable price."
