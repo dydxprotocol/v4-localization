@@ -1650,7 +1650,9 @@
     },
     "VAULTS": {
       "VAULT": "Vault",
+      "MEGAVAULT": "MegaVault",
       "VAULT_FAQS": "Vault FAQs",
+      "MEGAVAULT_FAQS": "MegaVault FAQs",
       "YOUR_ALL_TIME_PNL": "Your All-time P&L",
       "VAULT_THIRTY_DAY_APR": "30d APR",
       "VAULT_THIRTY_DAY_PNL": "30d P&L",
@@ -1672,6 +1674,8 @@
       "AMOUNT_TO_WITHDRAW": "Amount to Withdraw",
       "PREVIEW_WITHDRAW": "Preview Withdraw",
       "PREVIEW_DEPOSIT": "Preview Deposit",
+      "CONFIRM_WITHDRAW": "Confirm Withdraw",
+      "CONFIRM_DEPOSIT": "Confirm Deposit",
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
       "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. Vaults aim for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
