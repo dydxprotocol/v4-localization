@@ -1359,6 +1359,7 @@
       "INITIAL_STOP": "Initial Stop",
       "LIMIT_ORDER_DESCRIPTION": "Buy or sell {SYMBOL} at a specific price (or better) and fine tune your order with advanced trade options.",
       "LIMIT_ORDER_SHORT": "Limit",
+      "LIMIT_CLOSE": "Limit Close",
       "LIMIT_ORDER": "Limit Order",
       "LIMIT_PRICE": "Limit Price",
       "LIQUIDATED": "Liquidated",
