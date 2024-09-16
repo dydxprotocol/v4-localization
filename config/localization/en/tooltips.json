@@ -18,7 +18,6 @@
       "BODY": "Commission percentage from taker fees."
     }
   },
-
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Hedgies discount",
