@@ -12,6 +12,13 @@
       "BODY": "Only use \"Remember Me\" if you are using a secure device that you own. Selecting this option can expose your keys and information to others if you are on a public or non-secured device."
     }
   },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Affiliate Comissions",
+      "BODY": "Commission percentage from taker fees."
+    }
+  },
+
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Hedgies discount",
