@@ -1302,7 +1302,7 @@
       "CANCEL_ORDERS_COUNT": "Cancel {COUNT} orders",
       "CANCELING_ALL_ORDERS": "Canceling all orders",
       "CANCELING_ALL_ORDERS_IN_MARKET": "Canceling all orders in {MARKET_ID}",
-      "CANCELING_ORDERS_COUNT": "Cancelling {COUNT} orders...",
+      "CANCELING_ORDERS_COUNT": "Canceling {COUNT} orders...",
       "CANCEL_ORDERS": "Cancel orders",
       "CANCEL_REASON": "Cancel Reason",
       "CANCELED_ON_CHAIN": "Canceled on chain",
