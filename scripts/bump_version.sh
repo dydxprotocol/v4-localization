@@ -13,3 +13,5 @@ if [ -n "$NEW_VERSION" ]; then
   echo "Version bumped to $NEW_VERSION"
   npm i
 fi
+
+npm run generate
