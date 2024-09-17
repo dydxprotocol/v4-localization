@@ -1,6 +1,6 @@
 {
   "name": "@dydxprotocol/v4-localization",
-  "version": "1.1.200",
+  "version": "1.1.201",
   "description": "v4 localization",
   "main": "index.ts",
   "scripts": {
@@ -9,7 +9,8 @@
     "generate:app": "cd scripts && ./codegen_localization_app.swift ../config/localization/en/app.json > ./generated/app.ts && cd ..",
     "generate:notifications": "cd scripts && ./codegen_localization_notifications.swift ../config/localization_notifications/en/app.json > ./generated/notifications.ts && cd ..",
     "generate:tooltips": "cd scripts && ./codegen_localization_tooltips.swift ../config/localization/en/tooltips.json > ./generated/tooltips.ts && cd ..",
-    "bump_version": "./scripts/bump_version.sh"
+    "bump_version": "./scripts/bump_version.sh",
+    "prepare_for_pr": "./scripts/bump_version.sh --no-warning && npm run generate"
   },
   "repository": {
     "type": "git",
