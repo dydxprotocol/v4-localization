@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1774,6 +1774,11 @@ export const APP_STRING_KEYS = {
     TRADING_REWARD_HISTORY: 'APP.TRADING_REWARDS.TRADING_REWARD_HISTORY',
     TRADING_REWARD_TABLE_DISCONNECTED_STATE: 'APP.TRADING_REWARDS.TRADING_REWARD_TABLE_DISCONNECTED_STATE',
     TRADING_REWARD_TABLE_EMPTY_STATE: 'APP.TRADING_REWARDS.TRADING_REWARD_TABLE_EMPTY_STATE',
+
+    // TRADING_VIEW
+
+    DRAFT_LIMIT_BUY: 'APP.TRADING_VIEW.DRAFT_LIMIT_BUY',
+    DRAFT_LIMIT_SELL: 'APP.TRADING_VIEW.DRAFT_LIMIT_SELL',
 
     // TRIGGERS_MODAL
 
