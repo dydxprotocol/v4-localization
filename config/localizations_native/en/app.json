@@ -64,6 +64,7 @@
       "NETWORK": "Network",
       "NEWS": "News",
       "NICE": "Nice!",
+      "NOT_NOW": "Not now",
       "NO_RESULTS": "No results",
       "OF": "{ITEM1} of {ITEM2}",
       "OK": "OK",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Please update notifications in your app settings.",
       "PERMIT": "Permit",
       "GO_TO_SETTINGS": "Go to Settings",
-      "PRIMER_TITLE": "Get Push Alerts",
-      "PRIMER_MESSAGE": "Enable push notification to get alerts when your transaction status changes."
+      "PRIMER_TITLE": "Turn on notifications",
+      "PRIMER_MESSAGE": "Stay up to date on your orders and positions.",
+      "ENABLED": "Notifications turned on",
+      "DISABLED": "Notifications disabled",
+      "DISABLED_BODY": "Turn them on in settings."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Check out my profile on @dYdX!",
