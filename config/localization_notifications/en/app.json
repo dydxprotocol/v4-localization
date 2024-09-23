@@ -208,6 +208,10 @@
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX now supports Keplr!",
       "BODY": "You can now connect and use dYdX with your Keplr wallet! Try it now."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX now supports Phantom!",
+      "BODY": "You can now connect and use dYdX with your Phantom wallet! Try it now."
     }
   }
 }
