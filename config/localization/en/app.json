@@ -1678,6 +1678,7 @@
       "SLIPPAGE_WARNING": "This withdrawal would result in {AMOUNT} slippage. Slippage may be reduced if you withdraw at a later time. For more information, see {LINK}.",
       "EST_SLIPPAGE": "Est. slippage",
       "PROTOCOL_VAULT": "dYdX Protocol Vault",
+      "LOCKED_BALANCE": "Locked Balance",
       "WITHDRAW_TOO_HIGH": "You cannot withdraw more than your vault balance.",
       "DEPOSIT_TOO_HIGH": "You cannot deposit more than your free collateral.",
       "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
