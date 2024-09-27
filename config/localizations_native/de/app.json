@@ -34,7 +34,7 @@
       "COUNTRY": "Land",
       "DESTINATION": "Reiseziel",
       "DOCS": "Dokumente",
-      "DONT_SHOW_AGAIN": "Zeigen Sie mir das nicht wieder",
+      "DONT_SHOW_AGAIN": "Zeigen Sie mir das nicht noch einmal",
       "EARN": "Sie werden verdienen",
       "ERROR": "Fehler",
       "FAILED": "Fehlgeschlagen",
@@ -250,7 +250,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "Einstellung auswählen",
         "MODE_TO_BE_USED": "Dieser Modus gilt für alle Trades",
-        "CHANGE_SETINGS": "Ändern Sie dies in Ihrem Profil› Einstellungen",
+        "CHANGE_SETINGS": "Ändern Sie dies in Ihrem Profil › Einstellungen",
         "SIMPLE": "Einfach",
         "ADVANCED": "Fortgeschritten",
         "EASIER": "Benutzerfreundlicher",
@@ -427,7 +427,7 @@
       "LEVERAGE_TRADE_US_ELECTION_SHORT": "Hebelhandel bei der US-Wahl",
       "WITH_PREDICTION_MARKETS": "mit Vorhersagemärkten",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls werden sie bei 0 USD abgerechnet.",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Hebelwirkung von Handelsereignissen",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Handelsergebnisse nutzen",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
       "SETTLEMENT_OUTCOMES_TITLE": "0 $ oder 1 $ Abrechnung",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei ~$0 abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt."
