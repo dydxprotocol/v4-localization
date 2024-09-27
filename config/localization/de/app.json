@@ -67,6 +67,7 @@
       "AVAILABLE_IN": "Verfügbar in {DURATION}",
       "AVAILABLE_ON_SHORT": "Verfügbar. {ON_DATE}",
       "AVAILABLE_TO_REMOVE": "Zum Entfernen verfügbar",
+      "AWAITING_CONFIRMATION": "Bestätigung erwartet",
       "BACK": "Zurück",
       "BALANCE": "Guthaben",
       "BASE_INITIAL_MARGIN_FRACTION": "Anfänglicher Basis-Margenanteil",
@@ -90,6 +91,7 @@
       "COMPETITION": "Wettbewerb",
       "COMPETITIONS": "Wettbewerbe",
       "CONFIRM_DEPOSIT": "Einzahlung bestätigen",
+      "CONFIRM_PENDING_DEPOSIT": "Ausstehende Einzahlung bestätigen",
       "CONFIRM_WITHDRAW": "Abhebung bestätigen",
       "CONFIRMED": "Bestätigt",
       "CONNECT_WALLET": "Wallet verbinden",
@@ -201,7 +203,7 @@
       "LEARN_MORE_ARROW": "Mehr erfahren →",
       "LEARN": "Lernen",
       "LEGACY": "Legacy",
-      "LEVERAGE": "Leverage",
+      "LEVERAGE": "Hebelwirkung",
       "LIVE": "Live",
       "LONG_POSITION_SHORT": "Lang",
       "LONG_TAIL": "Long-Tail-Modell",
@@ -215,8 +217,8 @@
       "MARGIN_MODE": "Margin-Modus",
       "MARGIN_USAGE": "Margin-Anwendung",
       "MARKET_NAME": "Marktname",
-      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Asset möglicherweise noch nicht, oder es existiert noch nicht.",
-      "MARKET_SEARCH_PLACEHOLDER": "z. B. „ETH“ oder „Ethereum“",
+      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Anlage möglicherweise noch nicht, oder es existiert noch nicht.",
+      "MARKET_SEARCH_PLACEHOLDER": "zum Beispiel „ETH“ oder „Ethereum“",
       "MARKET": "Markt",
       "MARKETS": "Märkte",
       "MAX": "Max.",
@@ -373,7 +375,7 @@
       "VOTING_POWER": "Stimmrecht",
       "WALLET_BALANCE": "Wallet Guthaben",
       "WALLET": "Wallet",
-      "WEBSITE": "Webseite",
+      "WEBSITE": "Website",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Auszahlung",
       "YES": "Ja",
@@ -386,10 +388,10 @@
       },
       "1INCH": {
         "PRIMARY": "Das 1-Zoll-Netzwerk vereint dezentrale Protokolle, deren Synergie die lukrativsten, schnellsten und geschütztesten Operationen im DeFi-Raum ermöglicht.",
-        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1inch-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
+        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1-Zoll-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
       },
       "AAVE": {
-        "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Verwahrung, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
+        "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Aufsicht, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
         "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Verwahrung, an dem Benutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
       },
       "ADA": {
@@ -457,12 +459,12 @@
         "SECONDARY": "CELO bietet Benutzern auch Zugang zu nativen und nicht nativen Stablecoins, einem ultraleichten mobilen Client und Gas, das in mehreren Währungen zahlbar ist."
       },
       "LINK": {
-        "PRIMARY": "Chainlink verbindet intelligente Verträge auf jeder Blockchain mit Datenanbietern, Web-APIs, Unternehmenssystemen, Cloud-Diensten, IoT-Geräten, Zahlungssystemen und anderen Blockchains.",
+        "PRIMARY": "Chainlink verbindet Smart Contracts auf jeder Blockchain mit Datenanbietern, Web-APIs, Unternehmenssystemen, Cloud-Diensten, IoT-Geräten, Zahlungssystemen und anderen Blockchains.",
         "SECONDARY": "Chainlink erweitert die Möglichkeiten von intelligenten Verträgen, indem es den Zugriff auf reale Daten, Ereignisse, Zahlungen und mehr ermöglicht, ohne die Sicherheits- und Zuverlässigkeitsgarantien der Blockchain-Technologie zu opfern."
       },
       "COMP": {
         "PRIMARY": "Compound ist ein algorithmisches, autonomes Zinsprotokoll, das für Entwickler entwickelt wurde, um ein Universum offener Finanzanwendungen zu erschließen.",
-        "SECONDARY": "Lieferanten (und Kreditnehmer) eines Vermögenswerts interagieren direkt mit dem Protokoll und verdienen (und zahlen) einen variablen Zinssatz, ohne Bedingungen wie Laufzeit, Zinssatz oder Sicherheiten mit einem Kollegen oder einer Gegenpartei aushandeln zu müssen."
+        "SECONDARY": "Lieferanten (und Kreditnehmer) eines Vermögenswerts interagieren direkt mit dem Protokoll und verdienen (und zahlen) einen variablen Zinssatz, ohne Bedingungen wie Laufzeit, Zinssatz oder Sicherheiten mit einem Gegenüber oder einer Gegenpartei aushandeln zu müssen."
       },
       "ATOM": {
         "PRIMARY": "Cosmos ist ein ständig wachsendes Ökosystem aus miteinander verbundenen Anwendungen und Diensten, das für eine dezentralisierte Zukunft entwickelt wurde.",
@@ -510,7 +512,7 @@
       },
       "FIL": {
         "PRIMARY": "Filecoin ist ein dezentralisiertes Speichernetzwerk, das die wichtigsten Informationen der Menschheit speichern soll.",
-        "SECONDARY": "Das Filecoin-Netzwerk besteht aus einer Vielzahl verschiedener Speicheranbieter und Entwickler. Dies schafft einen robusten und zuverlässigen Service, während kryptografische Beweise garantieren, dass Ihre Daten im Laufe der Zeit verfügbar und unverändert bleiben."
+        "SECONDARY": "Das Filecoin-Netzwerk besteht aus einer großen Anzahl verschiedener Speicheranbieter und Entwickler. Dies schafft einen robusten und zuverlässigen Service, während kryptografische Beweise garantieren, dass Ihre Daten im Laufe der Zeit verfügbar und unverändert bleiben."
       },
       "FTM": {
         "PRIMARY": "FTM ist das native Token von Fantom und wird für die Steuerung der Plattform, die Sicherung des Netzwerks und die Zahlung von Transaktionsgebühren verwendet.",
@@ -815,6 +817,7 @@
       "EXCHANGES": "Austausch",
       "FINISH_ONBOARDING_DESCRIPTION": "Schließen Sie den Onboarding-Flow ab, um mit dem Handel auf dYdX zu beginnen",
       "FREE_SIGNING": "Die Signierung ist {FREE}und wird keine Transaktion senden.",
+      "FUND_YOUR_SUBACCOUNT": "Finanzieren Sie Ihr dYdX-Unterkonto-Guthaben, sobald Ihre IBC-Überweisung eingegangen ist.",
       "GASLESS_ONBOARDING_RULES": "Gasless Onboarding-Regeln",
       "GENERATE_DYDX_WALLET": "Generieren Sie Ihre dYdX-Chain-Wallet",
       "GENERATE_KEYS": "dYdX-Schlüssel generieren",
@@ -843,7 +846,7 @@
       "NO_FUTURE_ACCESS": "Sie werden in Zukunft nicht auf diese Website zugreifen oder auf dYdX handeln, während Sie sich in den Vereinigten Staaten oder an einem eingeschränkten Ort befinden.",
       "NO_VPN_USE": "Sie verwenden kein VPN und werden es auch in Zukunft nicht verwenden, um Ihren physischen Standort vor einem eingeschränkten Standort zu verbergen.",
       "NOT_A_RESIDENT": "Sie sind keine Person oder Gesellschaft, die in den Vereinigten Staaten oder an einem eingeschränkten Ort ansässig ist oder sich dort befindet, eingetragen ist oder einen eingetragenen Vertreter hat.",
-      "NOT_SUPPORTED_DESCRIPTION": "Ihre Brieftasche unterstützt nicht den neuesten Signaturstandard (häufiges Problem bei Hardware-Wallets). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
+      "NOT_SUPPORTED_DESCRIPTION": "Ihre Wallet unterstützt nicht den neuesten Signaturstandard (häufiges Problem bei Hardware-Wallets). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
       "NOT_SUPPORTED": "Nicht unterstützt",
       "ONBOARDING": "Onboarding",
       "MINIMUM_AMOUNT_RECEIVED": "Erhaltener Mindestbetrag",
@@ -852,6 +855,7 @@
       "PRIVACY_POLICY": "Datenschutzbestimmungen",
       "PENDING_TOKEN_APPROVAL": "Ausstehende Token-Genehmigung in der Wallet",
       "PENDING_DEPOSIT_CONFIRMATION": "Ausstehende Einzahlungsbestätigung in der Wallet",
+      "ENTER_VALID_ADDRESS": "Bitte geben Sie eine gültige Adresse ein.",
       "RECOVER_KEYS": "Wiederherstellen der Schlüssel",
       "REFERRAL_DISCOUNT": "{DISCOUNT} Ermäßigung",
       "REGISTER": "Registrieren",
@@ -872,6 +876,8 @@
       "SIGN_IN_WITH_EMAIL": "Mit E-Mail anmelden",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Eine einfache Möglichkeit, sich anzumelden, unterstützt durch {MAGIC}",
       "SKIP_FOR_NOW": "Für jetzt überspringen",
+      "SITE_OPERATED_BY_SHORT": "Diese Website wird von , unter Verwendung von Software {NAME_OF_DEPLOYER}betrieben, die von dYdX Trading {LEARN_MORE_LINK}Inc.",
+      "SITE_OPERATED_BY_LONG": "Diese Website wird von [Deployer -AGB] betrieben {NAME_OF_DEPLOYER}und verwendet bestimmte Software, die von dYdX Trading Inc. von Drittanbietern gemäß seinen Nutzungsbedingungen als Open Source betrieben wird, die die Verwendung der Software durch Personen mit Sitz in den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten untersagen.  Die dYdX-Blockchain wird von einer Community unabhängiger Validatoren  unterstützt. . {LEARN_MORE_LINK}.",
       "START_TRADING_BLURB": "Beginnen Sie mit dem Handel an der mächtigsten und offenen Börse der Welt.",
       "SWITCH_NETWORK": "Netzwerk wechseln",
       "TOS_TITLE": "Durch die Nutzung unserer Produkte und Dienstleistungen stimmen Sie den  {TERMS_LINK}und  {PRIVACY_POLICY_LINK}zu.  Sie stimmen hiermit zu, versichern und garantieren, dass:",
@@ -1293,7 +1299,7 @@
       "EXPIRED": "Abgelaufen",
       "FAILED": "Fehlgeschlagen",
       "FEE_AMOUNT": "Gebührenbetrag",
-      "FEE_PERCENT": "Gebühren-Prozent",
+      "FEE_PERCENT": "Fee Prozent",
       "FEE": "Gebühr",
       "FILL_OR_KILL": "Fill or Kill",
       "FILLS_EMPTY_STATE": "Sie haben keine Einlagen.",
@@ -1747,7 +1753,7 @@
       "EARN_COMMISSION": "Empfehlen Sie Händler und verdienen Sie bis zu 40 % Provision",
       "EARN_DYDX_REWARDS": "Verdienen Sie $DYDX-Belohnungen, während Sie handeln",
       "EARN_USDC": "Verdienen Sie USDC, indem Sie Händler zu dYdX einladen",
-      "EARNINGS": "Verdienste",
+      "EARNINGS": "Gewinne",
       "ENTITY": "Entity",
       "ENTITY_NAME": "Entity-Name",
       "EPOCH_REVENUE": "Epochen-Einnahmen",
@@ -2221,7 +2227,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Ratenlimit für diese IP-Adresse erreicht. Bitte versuchen Sie es später erneut.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Etwas ist schiefgelaufen: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
-      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir Zeitstempel bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
+      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir die Zeitstempeln bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Der Orderbetrag muss ein Vielfaches von {STEP_SIZE} sein.",
@@ -2240,7 +2246,7 @@
       "INVALID_NEW_POSITION_LEVERAGE": "Dieser Trade würde zu einer ungültigen Leverage auf Ihre Position führen.",
       "INVALID_SIGNATURE": "Diese Order konnte aufgrund einer ungültigen Signatur nicht eingestellt werden. Ihr Konto ist möglicherweise nicht mehr synchronisiert. Bitte verbinden Sie Ihr Wallet noch einmal und versuchen Sie es erneut.",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Ihr Limitpreis muss über Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
-      "LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn er auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
+      "LIMIT_MUST_BELOW_TRIGGER_PRICE": "Ihr Limitpreis muss unter Ihrem Triggerpreis liegen, damit diese Order ausgeführt werden kann, wenn sie auslöst. Bitte passen Sie Ihren Limitpreis an oder ändern Sie Ihre Ausführungsmethode.",
       "LIMITED_ORDERS_FOR_PAIR": "Dieses Paar erlaubt nur eine begrenzte Anzahl von Bestellungen pro Seite.",
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "Diese Market-Order würde angesichts der aktuellen Liquidität zu einer Slippage von {SLIPPAGE} des Oracle-Preises führen. Bitte verwenden Sie eine Limit-Order, wenn Sie diese Order dennoch platzieren möchten.",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "Diese Market-Order würde angesichts der aktuellen Liquidität eine Auswirkung von {SLIPPAGE} auf den Orderbuchkurs haben. Bitte verwenden Sie eine Limit-Order, wenn Sie diese Order dennoch platzieren möchten.",
@@ -2252,7 +2258,7 @@
       "ORDER_BELOW_COLLATERALIZATION": "Dieser Auftrag kann Ihr Konto unter die Besicherungsschwelle dieses Marktes bringen. Bitte versuchen Sie es mit einem kleineren Betrag.",
       "ORDER_CROSSES_OWN_ORDER": "Diese Bestellung kann eine oder mehrere Ihrer eigenen bestehenden Bestellungen erfüllen. Bitte stornieren Sie widersprüchliche Orders oder passen Sie Ihre Ordermenge an.",
       "ORDER_SIZE_BELOW_MIN_SIZE": "Ihr Orderumfang liegt unter dem Mindestorderumfang von {MIN_SIZE} {SYMBOL}",
-      "ORDER_WITH_CURRENT_ORDERS_INVALID": "Angesichts Ihrer aktuellen offenen Orders kann diese Order zu einer ungültigen Leverage auf Ihre Position führen. Bitte schließen Sie einige oder alle Order, die vor dieser Order ausgeführt würden, oder reduzieren Sie Ihre Order.",
+      "ORDER_WITH_CURRENT_ORDERS_INVALID": "Angesichts Ihrer aktuellen offenen Orders kann diese Order zu einer ungültigen Leverage auf Ihre Position führen. Bitte schließen Sie einige oder alle Orders, die vor dieser Order ausgeführt würden oder reduzieren Sie Ihre Ordergröße.",
       "ORDER_WOULD_FLIP_POSITION": "Diese Order würde Ihre Position umkehren oder erhöhen. Bitte deaktivieren Sie „Nur reduzieren“ oder reduzieren Sie Ihre Ordergröße.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis über {TRIGGER_PRICE_LIMIT} ein oder verwenden Sie eine Stop-Limit-Order.",
       "TAKER_FEE_INVALID": "Möglicherweise haben sich Ihre Gebührensätze geändert Bitte aktualisieren Sie die App und versuchen Sie es erneut.",
@@ -2381,7 +2387,7 @@
       "WALLET_NO_TRANSACTIONS": "Diese Wallet hat kein Guthaben und keine früheren Transaktionen. Bitte zahlen Sie Geld in Ihre Wallet ein, um fortzufahren."
     },
     "DEPOSIT_MODAL": {
-      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Ihr Konto ist nicht synchron. Bitte verbinden Sie Ihr Wallet und versuchen Sie es erneut.",
+      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Ihr Konto ist nicht synchron. Bitte verbinden Sie Ihr Wallet noch einmal und versuchen Sie es erneut.",
       "DEPOSIT_MORE_THAN_BALANCE": "Sie können nicht mehr als Ihr verfügbares Wallet-Guthaben einzahlen.",
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "Ihr Wallet-Netzwerk ist falsch. Bitte stellen Sie sicher, dass es auf „Ethereum Mainnet“ eingestellt ist.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "Ihr Wallet-Netzwerk ist falsch. Bitte vergewissern Sie sich, dass es auf 'Goerli Test Network' eingestellt ist.",
@@ -2393,7 +2399,7 @@
       "MAX_FAST_WITHDRAW_AMOUNT": "Geben Sie bitte einen Auszahlungsbetrag von weniger als {MAX_FAST_WITHDRAW_AMOUNT} ein.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Der Betrag für langsame Auszahlungen muss größer oder gleich 10 oder Ihr gesamter Kontostand sein.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Ihr Konto ist eingeschränkt. Sie müssen alle Ihre Positionen schließen, bevor Sie abheben können.",
-      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben. Stellen Sie sicher, dass Sie die Schnellabhebungsgebühr berücksichtigen, wenn Sie einen Betrag eingeben.",
+      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten abheben. Stellen Sie sicher, dass Sie die Gebühr für schnelle Auszahlungen einberechnen, wenn Sie einen Betrag eingeben.",
       "WITHDRAW_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Bitte geben Sie eine Zieladresse ein.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Bitte wählen Sie ein Asset aus, auf das Sie auszahlen möchten.",
@@ -2403,7 +2409,7 @@
       "AMOUNT_MINIMUM_ERROR": "Der Betrag muss größer als {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Ungültige dYdX-Kettenadresse.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Wir konnten kein mit dieser Wallet-Adresse verknüpftes Konto finden.",
-      "TRANSFER_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten übertragen.",
+      "TRANSFER_MORE_THAN_FREE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten übertragen.",
       "TRANSFER_TO_YOURSELF": "Sie können keine direkte Überweisung an Ihre eigene Wallet-Adresse durchführen.",
       "TRANSFER_INSUFFICIENT_GAS": "Das  {TOKEN}Guthaben ( {BALANCE}{TOKEN}) in Ihrem Ketten-Wallet deckt möglicherweise nicht die Transaktionsgebühren. Bitte zahlen Sie mehr ein.",
       "TRANSFER_WITHOUT_MEMO": "Wenn Sie an eine zentralisierte Börse ohne das Memo überweisen, das sie zur Verfügung gestellt haben, können Sie zu einem Verlust von Geldern führen."
