@@ -352,6 +352,7 @@
       "SIZE": "Size",
       "SLOW_WITHDRAW": "Slow Withdraw",
       "SORT_BY": "Sort by",
+      "SOURCE": "Source",
       "SOURCE_ADDRESS": "Source Address",
       "STAKE": "Stake",
       "STAKED": "Staked",
@@ -2093,7 +2094,8 @@
       "SEND_FUNDS": "Deposit crypto",
       "SEND_FUNDS_MODAL_TITLE": "Transfer & Deposit",
       "SEND_FUNDS_MODAL_SUBTITLE": "Deposit crypto to your wallet and trading account",
-      "SEND_FUNDS_SUBTITLE": "Send funds to this wallet address and deposit to your trading account."
+      "SEND_FUNDS_SUBTITLE": "Send funds to this wallet address and deposit to your trading account.",
+      "SHOW_DEPOSIT_FORM": "Show deposit form"
     },
     "USER_SURVEY": {
       "USER_SURVEY_BODY": "We're constantly looking for ways to improve your trading experience on dYdX! Please consider taking our 10 minute user survey.",
