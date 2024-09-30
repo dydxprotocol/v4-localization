@@ -1681,7 +1681,7 @@
       "LOCKED_BALANCE": "Locked Balance",
       "WITHDRAW_TOO_HIGH": "You cannot withdraw more than your vault balance.",
       "DEPOSIT_TOO_HIGH": "You cannot deposit more than your free collateral.",
-      "DEPOSIT_TOO_LOW": "Your deposit amount is below the minimum deposit threshold.",
+      "DEPOSIT_TOO_LOW": "Your deposit amount is below the $20 minimum deposit threshold.",
       "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
       "ENTER_AMOUNT_TO_WITHDRAW": "Enter amount to withdraw",
       "AVAILABLE_TO_WITHDRAW": "Available to Withdraw",
