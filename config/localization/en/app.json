@@ -1678,7 +1678,7 @@
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Acknowledge High Slippage",
       "SLIPPAGE_WARNING": "This withdrawal would result in {AMOUNT} slippage. Slippage may be reduced if you withdraw at a later time. For more information, see {LINK}.",
       "EST_SLIPPAGE": "Est. slippage",
-      "ESTIMATED_SLIPPAGE": "Estimated slippage",
+      "ESTIMATED_SLIPPAGE": "Estimated Slippage",
       "ESTIMATED_AMOUNT_RECEIVED": "Estimated Amount Received",
       "PROTOCOL_VAULT": "dYdX Protocol Vault",
       "LOCKED_BALANCE": "Locked Balance",
