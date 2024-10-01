@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1863,6 +1863,7 @@ export const APP_STRING_KEYS = {
     SLIPPAGE_WARNING: 'APP.VAULTS.SLIPPAGE_WARNING',
     TVL: 'APP.VAULTS.TVL',
     VAULT: 'APP.VAULTS.VAULT',
+    VAULTS: 'APP.VAULTS.VAULTS',
     VAULT_DESCRIPTION: 'APP.VAULTS.VAULT_DESCRIPTION',
     VAULT_EQUITY: 'APP.VAULTS.VAULT_EQUITY',
     VAULT_FAQS: 'APP.VAULTS.VAULT_FAQS',
