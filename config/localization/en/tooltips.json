@@ -1,7 +1,10 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
       "BODY": "Your dYdX Chain address \"{DYDX_ADDRESS}\" was created from the signature of the Ethereum address \"{EVM_ADDRESS}\"."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "Your dYdX Chain address \"{DYDX_ADDRESS}\" was created from the signature of the Solana address \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
