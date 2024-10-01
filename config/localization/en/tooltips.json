@@ -378,5 +378,22 @@
       "TITLE": "Reference Price",
       "BODY": "The Reference Price is the rolling 30 day average of the market's price and is used as an input to automatically calculate the market's parameters on dYdX Chain. The Reference Price should approximately be the same as the market's current price (i.e. round down to the same powers of 10)."
     }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "The estimated amount to receive when withdrawing, which is withdrawal amount minus estimated slippage amount. This amount is an estimation based on the current conditions. The actual amount may be different based on the actual conditions at the execution time."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "The estimated amount of slippage when withdrawing. The slippage comes from the vault's need to update the current positions to free up margin in order to meet the withdrawal amount. This amount is an estimation based on the current conditions. The actual amount may be different based on the actual conditions at the execution time."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "The amount you can withdraw, which is your vault balance minus any amount that's locked up for new market listings."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "The current value of your deposits. This is calculated based on the vault's current equity and positions."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "The total PnL over time. This includes historical PnL of your vault deposits."
+    }
   }
 }
