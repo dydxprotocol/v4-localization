@@ -1660,6 +1660,7 @@
     },
     "VAULTS": {
       "VAULT": "Vault",
+      "VAULTS": "Vaults",
       "MEGAVAULT": "MegaVault",
       "MEGAVAULT_TRANSFERS": "MegaVault Transfers",
       "MEGAVAULT_TRANSFERS_DESCRIPTION": "Transfers to and from the MegaVault",
