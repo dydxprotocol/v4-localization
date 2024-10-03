@@ -380,6 +380,9 @@
     "REFERENCE_PRICE": {
       "TITLE": "Reference Price",
       "BODY": "The Reference Price is the rolling 30 day average of the market's price and is used as an input to automatically calculate the market's parameters on dYdX Chain. The Reference Price should approximately be the same as the market's current price (i.e. round down to the same powers of 10)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "This value is self reported on CoinMarketCap"
     }
   },
   "VAULT": {
