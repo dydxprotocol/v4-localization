@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1887,6 +1887,7 @@ export const APP_STRING_KEYS = {
     VAULT_PNL: 'APP.VAULTS.VAULT_PNL',
     VAULT_THIRTY_DAY_APR: 'APP.VAULTS.VAULT_THIRTY_DAY_APR',
     VAULT_THIRTY_DAY_PNL: 'APP.VAULTS.VAULT_THIRTY_DAY_PNL',
+    VAULT_TRANSFERS: 'APP.VAULTS.VAULT_TRANSFERS',
     VIEW_MEGAVAULT: 'APP.VAULTS.VIEW_MEGAVAULT',
     VIEW_VAULT: 'APP.VAULTS.VIEW_VAULT',
     WITHDRAW_TOO_HIGH: 'APP.VAULTS.WITHDRAW_TOO_HIGH',
