@@ -424,13 +424,13 @@
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "Mercados de predicción",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Aprovechar el apalancamiento de comercio en las elecciones de EE.",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Impulsar el comercio en las elecciones de EE.UU.",
       "WITH_PREDICTION_MARKETS": "con Mercados de predicción",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Los mercados de predicción se liquidarán en $ 1 si el evento se produce como se predijo. De lo contrario, se liquidarán en $ 0.",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Aprovechamiento de los resultados del evento de trading",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"En una amplia gama de temas, incluidos política, deportes, cultura pop y más.",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Los mercados de predicción se liquidarán en $1 si el evento sucede como se predijo. De lo contrario, se liquidarán en $0.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Impulsar los resultados comerciales del evento",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"En una amplia gama de temas, incluidos politica, deportes, cultura pop y más.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidación de $0 o $1",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "El mercado se liquidará automáticamente en $ 1 si el evento ocurre. De lo contrario, se liquidará en ~ $0. El precio es equivalente al porcentaje de probabilidad de que ocurra el resultado."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "El mercado se liquidará automáticamente en $1 si el evento ocurre. De lo contrario, se liquidará en ~$0. El precio es equivalente al porcentaje de probabilidad que ocurra el resultado."
     }
   },
   "RATE_APP": {

@@ -13,8 +13,8 @@
       "BODY": "Tu {SIDE}posición  {MARKET} ha sido desapalancada."
     },
     "DISCOVERY_PROGRAM": {
-      "TITLE": "¡Gana hasta $ 200 en 30 minutos!",
-      "BODY": "Haz que tu viaje de trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK}para registrarte u obtener más información!"
+      "TITLE": "¡Gana hasta $200 en 30 minutos!",
+      "BODY": "Haz que tu viaje de trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haga clic {HERE_LINK} para registrarte u obtener más información!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posición establecida",
@@ -164,9 +164,14 @@
       "TITLE": "Tomar ganancias",
       "BODY": "Se eliminó tu take profit trigger en {OLD_VALUE}."
     },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "¿Necesitas más asistencia?",
+      "BODY": "¡Gracias por ser un gran comerciante en dYdX! Al equipo le gustaría ofrecerte un mayor nivel de asistencia personalizada y la oportunidad de conectarte directamente con ellos.",
+      "ACTION": "Ponte en contacto →"
+    },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "Regalo de $ 20 K",
-      "BODY": "Para celebrar el superpaso de 200 B en el volumen de trading cumulativo, dYdX está ejecutando un sorteo de Twitter, donde tienes la oportunidad de reclamar $ 200. Se seleccionarán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
+      "TITLE": "Regalo de $20K",
+      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está ejecutando un sorteo en Twitter, donde tienes la oportunidad de reclamar $200. Se seleccionarán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC.{HERE_LINK}"
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}y  los {MARKET_2}mercados se redujeron",
@@ -182,7 +187,7 @@
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "¡Opera en las elecciones presidenciales de Estados Unidos!",
-      "BODY": "{MARKET} Ahora está en vivo. Este mercado se liquidará en $ 1 si Donald J. Trump gana las elecciones de 2024. De lo contrario, se liquidará en $ 0,001."
+      "BODY": "{MARKET} Ahora está en vivo. Este mercado se liquidará en $1 si Donald J. Trump gana la elección de 2024. De lo contrario, se liquidará en $ 0,001."
     }
   }
 }

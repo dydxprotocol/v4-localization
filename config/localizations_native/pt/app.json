@@ -424,13 +424,13 @@
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "Mercados de previsão",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Alavancagem de trade na eleição dos EUA",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Negocie com alavancagem na eleição dos EUA",
       "WITH_PREDICTION_MARKETS": "com Mercados de previsão",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Os mercados de previsão serão liquidados em US$ 1 se o evento ocorrer conforme previsto. Caso contrário, eles serão liquidados em US$ 0.",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Alavancagem de resultados de eventos de trade",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sobre uma ampla gama de tópicos, incluindo política, esportes, música pop e muito mais.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Aproveitar resultados de eventos de trade",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sobre uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidação de US$ 0 ou US$ 1",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem de chance de o resultado ocorrer."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
     }
   },
   "RATE_APP": {

@@ -67,6 +67,7 @@
       "AVAILABLE_IN": "Disponible en {DURATION}",
       "AVAILABLE_ON_SHORT": "Disp. {ON_DATE}",
       "AVAILABLE_TO_REMOVE": "Disponible para eliminar",
+      "AWAITING_CONFIRMATION": "En espera de confirmación",
       "BACK": "Volver",
       "BALANCE": "Saldo",
       "BASE_INITIAL_MARGIN_FRACTION": "Fracción del margen inicial de base",
@@ -90,6 +91,7 @@
       "COMPETITION": "Competencia",
       "COMPETITIONS": "Competencias",
       "CONFIRM_DEPOSIT": "Confirmar el depósito",
+      "CONFIRM_PENDING_DEPOSIT": "Confirmar depósito pendiente",
       "CONFIRM_WITHDRAW": "Confirmar el retiro",
       "CONFIRMED": "Confirmado",
       "CONNECT_WALLET": "Vincular la billetera virtual",
@@ -674,7 +676,7 @@
       },
       "TRUMPWIN": {
         "PRIMARY": "Este mercado finalmente se liquidará en $ 1 si Donald J. Trump gana las elecciones presidenciales de Estados Unidos de 2024. De lo contrario, este mercado se establecerá finalmente en $ 0,001. Este mercado utiliza Polymarket como su fuente de oráculo.",
-        "SECONDARY": "La fuente de resolución de Polymarket para este mercado es Associated Press, Fox News y NBC. Este mercado se resolverá una vez que las tres fuentes llamen la carrera para el mismo candidato. Si las tres fuentes no han convocado la carrera para el mismo candidato para la fecha de inauguración (20 de enero de 2025), este mercado se resolverá en función de quién se inaugura."
+        "SECONDARY": "La fuente de resolución de Polymarket para este mercado es Associated Press, Fox News y NBC. Este mercado se resolverá una vez que las tres fuentes participen apoyando al mismo candidato. Si las tres fuentes no participan apoyando al mismo candidato para la fecha de asunción (20 de enero de 2025), este mercado se resolverá en función de quien asuma."
       },
       "TRX": {
         "PRIMARY": "TRON es una blockchain pública dedicada a proporcionar la infraestructura subyacente que permite a los desarrolladores crear contratos inteligentes y aplicaciones descentralizadas, publicar libremente, poseer y almacenar datos y otros contenidos.",
@@ -815,6 +817,7 @@
       "EXCHANGES": "Intercambios",
       "FINISH_ONBOARDING_DESCRIPTION": "Completar el flujo de integración para comenzar a operar en dYdX",
       "FREE_SIGNING": "Firmar es {FREE} y no enviará una transacción.",
+      "FUND_YOUR_SUBACCOUNT": "Financia tu saldo de subcuenta de dYdX una vez que se haya recibido tu transferencia de IBC.",
       "GASLESS_ONBOARDING_RULES": "Reglas de incorporación sin gas",
       "GENERATE_DYDX_WALLET": "Genera tu billetera de la cadena dYdX",
       "GENERATE_KEYS": "Genera claves dYdX",
@@ -852,6 +855,7 @@
       "PRIVACY_POLICY": "Política de privacidad",
       "PENDING_TOKEN_APPROVAL": "Aprobación de tokens pendiente en billetera",
       "PENDING_DEPOSIT_CONFIRMATION": "Confirmación de depósito pendiente en billetera",
+      "ENTER_VALID_ADDRESS": "Ingresa una dirección válida.",
       "RECOVER_KEYS": "Recuperar claves",
       "REFERRAL_DISCOUNT": "{DISCOUNT}descuento",
       "REGISTER": "Registro",
@@ -872,6 +876,8 @@
       "SIGN_IN_WITH_EMAIL": "Iniciar sesión con correo electrónico",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Una forma sencilla de iniciar sesión, impulsada por {MAGIC}",
       "SKIP_FOR_NOW": "Omitir por ahora",
+      "SITE_OPERATED_BY_SHORT": "Este sitio es operado por {NAME_OF_DEPLOYER}, utilizando software de código abierto de dYdX Trading Inc.  {LEARN_MORE_LINK}.",
+      "SITE_OPERATED_BY_LONG": "Este sitio es operado por {NAME_OF_DEPLOYER} sujeto a [T y C de implementador], utilizando cierto software de código abierto de dYdX Trading Inc. de terceros sujeto a sus Términos de uso, que prohíben el uso del software hecho por personas desde Estados Unidos u otras jurisdicciones restringidas.  La blockchain de dYdX está impulsada por una comunidad de validadores independientes.  {LEARN_MORE_LINK}.",
       "START_TRADING_BLURB": "Empiece a operar con el intercambio abierto más poderoso del mundo.",
       "SWITCH_NETWORK": "Cambiar de red",
       "TOS_TITLE": "Al utilizar cualquiera de nuestros productos y servicios, aceptas {TERMS_LINK} y {PRIVACY_POLICY_LINK}. Por la presente estás de acuerdo, representas y te comprometes a:",
@@ -1115,8 +1121,8 @@
       "TAKE_PROFIT_TOOLTIP": "Permite a los traders establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias.",
       "TP_LIMIT": "Límite de TP",
       "TP_PRICE": "Precio TP",
-      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Las órdenes de toma de ganancias y stop loss se cancelarán automáticamente si la posición subyacente está cerrada.",
-      "TRIGGERS_INFO_CUSTOM_AMOUNT": "La configuración de una cantidad personalizada se aplicará a las órdenes de toma de ganancias y de stop loss."
+      "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "Las órdenes para tomar las ganancias y detener las pérdidas se cancelarán automáticamente si la posición subyacente está cerrada.",
+      "TRIGGERS_INFO_CUSTOM_AMOUNT": "El ajuste de configuración de tu cantidad personalizada se aplicará a las órdenes de Take Profit como a las de Stop Loss."
     },
     "PORTFOLIO": {
       "ABOUT_TRADING_DATA_DESCRIPTION": "Consulta cómo se utilizan tus datos de operaciones para calcular recompensas.",
@@ -2090,18 +2096,18 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE}para retirar tus fondos antes de que se bloquee tu acceso a la interfaz. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}.",
-      "BLOCKED_BANNER_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en nuestro {TERMS_OF_USE_LINK}. Si crees que esto es un error, ponte en contacto con soporte en {HELP_LINK}."
+      "BLOCKED_BANNER_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}. Si crees que esto es un error, ponte en contacto con asistencia en {HELP_LINK}."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Liquidación binaria",
-      "BINARY_SETTLEMENT_DESC": "El mercado se liquidará automáticamente en $ 1 si el evento ocurre. De lo contrario, se liquidará en $ 0,001. El precio es equivalente al porcentaje de probabilidad de que ocurra el resultado.",
-      "LEVERAGE_TRADE_EVENTS": "Aprovechamiento de los resultados del evento de trading",
+      "BINARY_SETTLEMENT_DESC": "El mercado se liquidará automáticamente en $1 si el evento ocurre. De lo contrario, se liquidará en $0,001. El precio es equivalente al porcentaje de probabilidad que ocurra el resultado.",
+      "LEVERAGE_TRADE_EVENTS": "Impulso de los resultados del evento de trading",
       "LEVERAGE_TRADE_EVENTS_CONTINUATION": "En una amplia gama de temas, incluidos política, deportes, cultura pop y más.",
-      "LEVERAGE_TRADE_US_ELECTION": "Aproveche el apalancamiento del resultado de las elecciones de Estados Unidos",
-      "PREDICTION_MARKET_DESC": "Los mercados de predicción se liquidarán en $ 1 si el evento se produce como se predijo. De lo contrario, se liquidarán en $ 0,001.",
+      "LEVERAGE_TRADE_US_ELECTION": "Impulse el resultado comercial de las elecciones en Estados Unidos",
+      "PREDICTION_MARKET_DESC": "Los mercados de predicción se liquidarán en $1 si el evento se produce como se predijo. De lo contrario, se liquidarán en $0,001.",
       "PREDICTION_MARKETS": "Mercados de predicción",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Opera en la elección presidencial de Estados Unidos",
-      "TRUMPWIN_DESC": "Este es un mercado de predicción y se liquidará en $ 1 si Donald J. Trump gana las elecciones presidenciales de los Estados Unidos de 2024. De lo contrario, se liquidará en $ 0,001.  {LEARN_MORE}o {DISMISS}."
+      "TRUMPWIN_DESC": "Este es un mercado de predicción y se liquidará en $1 si Donald J. Trump gana las elecciones presidenciales de los Estados Unidos en 2024. De lo contrario, se liquidará en $0,001.  {LEARN_MORE}o {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2409,7 +2415,7 @@
       "TRANSFER_WITHOUT_MEMO": "La transferencia a un intercambio centralizado sin la nota que te han proporcionado puede resultar en una pérdida de fondos."
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Transferir esta garantía te pondría por encima del apalancamiento máximo del mercado. Ingresa una cantidad menor.",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "Transferir esta garantía te pondría por encima del imulso máximo del mercado. Ingresa una cantidad menor.",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Introduce una cantidad válida."
     },
     "NEW_MARKET_WIDGET": {

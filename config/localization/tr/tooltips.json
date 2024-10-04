@@ -29,7 +29,7 @@
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu."
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",

@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Ganhe até US$ 200 em 30 minutos!",
-      "BODY": "Faça da sua jornada de trading o melhor possível participando de uma entrevista de usuário e compartilhando feedback. Os spots são limitados, então clique {HERE_LINK}para se inscrever ou saiba mais!"
+      "BODY": "Faça da sua jornada de trading o melhor possível participando de uma entrevista de usuário e compartilhando feedback. As vagas são limitadas, então clique {HERE_LINK}para se inscrever ou saiba mais!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posição estabelecida",
@@ -163,6 +163,11 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take profit",
       "BODY": "Seu disparo de take profit em {OLD_VALUE} foi removido."
+    },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "Quer mais suporte?",
+      "BODY": "Obrigado por ser um grande trader na dYdX! A equipe gostaria de oferecer a você um nível mais alto de suporte personalizado e a oportunidade de se conectar diretamente com eles.",
+      "ACTION": "Entre em contato →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "Sorteio de U$20 mil",
