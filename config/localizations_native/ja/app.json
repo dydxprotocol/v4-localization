@@ -423,10 +423,10 @@
       "CHOOSER_TITLE": "アプリログを送信"
     },
     "PREDICTION_MARKET": {
-      "PREDICTION_MARKETS": "予測市場",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "米国の選挙におけるレバレッジ取引",
-      "WITH_PREDICTION_MARKETS": "予測市場",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測市場は、予測されたとおりイベントが発生した場合、1ドルで落ち着きます。 そうでなければ、0ドルで決済されます。",
+      "PREDICTION_MARKETS": "予測「マーケット」",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "米国の選挙におけるレバレッジ取引を活用する",
+      "WITH_PREDICTION_MARKETS": "予測「マーケット」",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測「マーケット」は、予測されたとおりイベントが発生した場合、1ドルで落ち着きます。 そうでなければ、0ドルで決済されます。",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"レバレッジ取引イベントの結果",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
       "SETTLEMENT_OUTCOMES_TITLE": "$0または$1決済",
