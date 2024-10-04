@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30 Dakika içinde 200 $ 'a kadar kazanın!",
-      "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Noktalar sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek {HERE_LINK}için tıklayın!"
+      "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Kontenjan sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} üzerine tıklayın!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Pozisyon Bağlandı",
@@ -163,6 +163,11 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Kâr Alma",
       "BODY": "{OLD_VALUE} için oluşturuluş kâr alma tetikleyiciniz kaldırıldı."
+    },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "Daha fazla destek ister misiniz?",
+      "BODY": "dYdX üzerinde büyük bir yatırımcı olduğunuz için teşekkür ederiz! Ekip size daha yüksek düzeyde kişiselleştirilmiş destek ve doğrudan onlarla bağlantı kurma fırsatı sunmak istiyor.",
+      "ACTION": "İletişime geçin →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20.000 $ değerinde hediye",
