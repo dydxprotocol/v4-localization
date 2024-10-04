@@ -277,7 +277,7 @@
       "CONVERSION_RATE": "Taux de conversion",
       "SWAP_MARGIN_ERROR_TEXT": "Passez au mode Pro pour accéder à un effet de levier plus important.",
       "SWAP_INTRO": {
-        "TITLE": "Mode Échanger",
+        "TITLE": "Mode Swap",
         "SUBTITLE": "Nous avons construit un moyen plus facile pour trader sur dYdX",
         "ITEM_1_TITLE": "Interface familière",
         "ITEM_1_SUBTITLE": "Tradez sur dYdX grâce à une interface familière et simplifiée.",
@@ -344,7 +344,7 @@
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Consultez mon profil sur @dYdX!",
-      "TWEET_PNL": "Consultez mon P&L sur @dYdX!",
+      "TWEET_PNL": "Consultez mon P&L sur @dYdX !",
       "TWEET_PRIZE": "Consultez mon prix de ligue sur @dYdX !"
     },
     "DIRECT_TRANSFER_MODAL": {
