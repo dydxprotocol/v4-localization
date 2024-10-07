@@ -32,6 +32,10 @@
       "TITLE": "シーズン{SEASON_NUMBER}が始まりました！",
       "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "シーズン{SEASON_NUMBER}が終了しました！",
+      "BODY": "ローンチインセンティブプログラムにご参加いただきありがとうございます。今後の報酬プログラムに関する最新情報をお見逃しなく！"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "分離されたマージンはライブです",
       "BODY": "分離されたマージンがライブになりました！ 詳しくは、ヘッド{LEARN_MORE}。"
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "高速出金に成功しました",
       "BODY": "{ASSET}の{AMOUNT}の高速出金が承認されました。"
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "20倍のレバレッジでSOL-USDを取引",
+      "BODY": "SOL-USDおよびすべての分離したマーケットは、最大20倍のレバレッジで取引できるようになりました。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "報酬と取引はdYdXチェーン上でライブ！",
@@ -173,21 +181,37 @@
       "TITLE": "2万ドルプレゼント",
       "BODY": "dYdXは、累計取引高が200億ドルを突破したことを記念して、Twitterプレゼントキャンペーンを実施しています。2024年8月16日23:59 UTC{HERE_LINK}以降、ランダムな選定方法により100名の当選者が選ばれ、200ドルを獲得できるチャンスがあります。"
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET}マーケットは終了しました",
+      "BODY": "{DATE}に{MARKET}マーケットは最終決済を行いました。既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "{MARKET}マーケットを縮小する進行中の提案",
+      "BODY": "現在、{MARKET}マーケットを縮小する提案が進行中です。パスした場合、{MARKET}マーケットは{DATE}に最終決済に入ります。既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}および{MARKET_2}「マーケット」はダウンしました",
       "BODY": "{DATE}に、{MARKET_1}および{MARKET_2}「マーケット」は最終決済を通過しました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "ライブ提案で{MARKET_1}および{MARKET_2}「マーケット」の段階的縮小",
-      "BODY": "現在、{MARKET_1}および{MARKET_2}「マーケット」を段階的に縮小するライブ提案があります。 パスした場合、{MARKET_1}および{MARKET_2}「マーケット」は{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "TITLE": "{MARKET_1}と{MARKET_2}のマーケットを縮小する進行中の提案",
+      "BODY": "現在、{MARKET_1}と{MARKET_2}のマーケットを縮小する進行中の提案があります。パスした場合、{MARKET_1}および{MARKET_2}「マーケット」は{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "{MARKET}パラメータ更新のライブ提案",
-      "BODY": "現在、{MARKET}市場のパラメータを更新するライブ提案があります。 可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "TITLE": "{MARKET}のパラメータを更新する進行中の提案",
+      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案{HERE_LINK}に関する詳細情報を見つけることができます。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "米国大統領選挙で取引を!",
       "BODY": "{MARKET}は公開開始しました。この市場は、ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、1ドルで落ち着くでしょう。 そうでなければ、$0.001に落ち着きます。"
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdXがKeplrに対応しました！",
+      "BODY": "KeplrウォレットでdYdXを接続して使用できるようになりました！ 今すぐお試しください。"
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdXがPhantomnに対応しました！",
+      "BODY": "PhantomウォレットとdYdXを接続して使用できるようになりました！ 今すぐお試しください。"
     }
   }
 }
