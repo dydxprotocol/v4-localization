@@ -12,6 +12,12 @@
       "BODY": "Solo utiliza \"Recordarme\" si estás utilizando un dispositivo seguro de tu propiedad. Seleccionar esta opción puede exponer tus claves e información a otros si estás en un dispositivo público o no seguro."
     }
   },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Comisiones de afiliados",
+      "BODY": "Porcentaje de comisión de las tarifas de taker."
+    }
+  },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Hedgies de descuento ",
@@ -103,6 +109,10 @@
       "TITLE": "Apalancar",
       "BODY": "El apalancamiento cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu apalancamiento aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Orden limitada al cierre",
+      "BODY": "Es posible que una orden limitada al cierre no ocurra instantáneamente y solo se completará una vez que se alcance el precio ingresado. Supervisa la pestaña Órdenes para comprobar su estado."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Precio límite",
       "BODY": "Esta orden solo se puede completar con el precio límite especificado o uno más alto. Si tu orden se cruza en el momento de la colocación, tu orden completará cualquier orden cruzada al precio más favorable."
@@ -161,7 +171,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Precio de Oracle",
-      "BODY": "El apalancamiento y las liquidaciones se determinan en función del precio de Oracle en la cadena. El precio de Oracle agrega datos de precios de múltiples intercambios, protegiéndolo de eventos como caídas repentinas."
+      "BODY": "El apalancamiento y las liquidaciones se determinan en función del precio de oráculo en cadena. El precio de Oracle agrega datos de precios de múltiples intercambios, protegiéndolo de eventos como caídas repentinas."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Monto de la orden",
@@ -360,7 +370,7 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Habilita o deshabilita los datos de OHLC a través de precio medio. Deshabilitar esto solo mostrará datos de OHLC de las operaciones históricas."
+      "BODY": "Habilita o deshabilita los datos de OHLC (apertura-alto-bajo-cierre) a través de precio medio. Deshabilitar esto solo mostrará datos de OHLC de las operaciones históricas."
     }
   },
   "NEW_MARKET_WIDGET": {
