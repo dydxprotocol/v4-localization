@@ -64,6 +64,7 @@
       "NETWORK": "Red",
       "NEWS": "Noticias",
       "NICE": "¡Bien!",
+      "NOT_NOW": "No ahora",
       "NO_RESULTS": "Sin resultados",
       "OF": "{ITEM1}de{ITEM2}",
       "OK": "OK",
@@ -311,9 +312,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Modo de solo cierre",
-      "CLOSE_ONLY_BODY": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE} para retirar tus fondos antes de que se bloquee tu acceso a la aplicación. Visita la interfaz web para ver los próximos pasos. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}.",
+      "CLOSE_ONLY_BODY": "Debido a que pareces residir en una jurisdicción que viola nuestros términos de uso, o que realizas trading desde una jurisdicción que viola nuestros términos de uso, o que has participado en una actividad que viola nuestros términos de uso, has sido bloqueado. Tienes hasta {DATE} para retirar tus fondos antes de que se bloquee tu acceso a la aplicación. Visita la interfaz web para ver los próximos pasos. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqueado permanentemente",
-      "PERMANENTLY_BLOCKED_BODY": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, envíanos un correo electrónico a {EMAIL}"
+      "PERMANENTLY_BLOCKED_BODY": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Cuenta restringida",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Actualiza las notificaciones en la configuración de tu aplicación.",
       "PERMIT": "Permiso",
       "GO_TO_SETTINGS": "Ir a Configuración",
-      "PRIMER_TITLE": "Recibe alertas de Push",
-      "PRIMER_MESSAGE": "Habilita la notificación de Push para recibir alertas cuando cambie el estado de tu transacción."
+      "PRIMER_TITLE": "Activar las notificaciones",
+      "PRIMER_MESSAGE": "Mantente al día en tus órdenes y posiciones.",
+      "ENABLED": "Notificaciones activadas",
+      "DISABLED": "Notificaciones deshabilitadas",
+      "DISABLED_BODY": "Actívalos en la configuración."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "¡Mira mi perfil en @dYdX!",
