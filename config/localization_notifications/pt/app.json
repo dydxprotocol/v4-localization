@@ -32,6 +32,10 @@
       "TITLE": "A temporada {SEASON_NUMBER} começou!",
       "BODY": "Na temporada {PREV_SEASON_NUMBER}, as recompensas medianas recebidas foram {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "A temporada {SEASON_NUMBER} terminou!",
+      "BODY": "Obrigado por participar do programa de incentivos de lançamento. Fique atento para atualizações sobre programas de recompensas futuros!"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "A margem isolada está ativa",
       "BODY": "A margem isolada está ativa! Para saber mais, consulte {LEARN_MORE}."
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Saques rápidos bem-sucedidos",
       "BODY": "Seu saque rápido de {AMOUNT} {ASSET} foi confirmado."
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "Negocie SOL-USD com alavancagem de 20x",
+      "BODY": "SOL-USD e todos os mercados isolados agora estão disponíveis para negociação com alavancagem de até 20x."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "As recompensas e as negociações estão ativas na Cadeia dYdX!",
@@ -173,6 +181,14 @@
       "TITLE": "Sorteio de U$20 mil",
       "BODY": "Para comemorar a ultrapassagem de 200 bilhões em volume de negociação cumulativa, a dYdX está realizando um sorteio no Twitter, em que você tem a oportunidade de reivindicar US$ 200. Serão sorteados 100 vencedores com base em um mecanismo de seleção aleatória após 16 de agosto de 2024, 23:59 UTC {HERE_LINK}."
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET} mercado encerrado",
+      "BODY": "Em {DATE}, o {MARKET} mercado passou pela liquidação final. As posições existentes foram fechadas e as ordens abertas foram canceladas. Você pode encontrar mais informações sobre a liquidação final {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Proposta ao vivo para reduzir o {MARKET} mercado",
+      "BODY": "Há atualmente uma proposta ao vivo para reduzir o {MARKET} mercado. Se ela for aprovada, o {MARKET} mercado entrará na liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}Os mercados  e  foram {MARKET_2}encerrados",
       "BODY": "Em {DATE}, os mercados {MARKET_2} e {MARKET_1} passaram pela liquidação final. As posições existentes foram fechadas e as ordens abertas foram canceladas. Você pode encontrar mais informações sobre a liquidação final {HERE_LINK}."
@@ -188,6 +204,14 @@
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Faça trades com a eleição presidencial dos EUA!",
       "BODY": "{MARKET} já está disponível. Este mercado será liquidado em US$ 1 se Donald J. Trump vencer a eleição de 2024. Caso contrário, ele será liquidado em US$ 0,001."
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "A dYdX agora é compatível com Keplr!",
+      "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Keplr! Experimente agora."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "A dYdX agora é compatível com Phantom!",
+      "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Phantom! Experimente agora."
     }
   }
 }
