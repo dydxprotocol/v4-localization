@@ -1,6 +1,40 @@
 {
   "APP": {
     "GENERAL": {
+      "AFFILIATES": {
+        "CONTACT_SUPPORT": "Support kontaktieren",
+        "APPLY_NOW": "Jetzt bewerben",
+        "AFFILIATE_PAYOUTS": "Affiliate-Auszahlungen",
+        "TOTAL_AFFILIATES": "Affiliates insgesamt",
+        "AFFILIATE_COMISSIONS": "Affiliate-Provisionen",
+        "YOUR_TIER_VIP": "Sie sind eine {VIP}In-Stufe {TIER}",
+        "CRITERIA_MODAL_VIP_DISCLAIMER": "Wenn Sie ein VIP werden möchten, um noch mehr (bis zu {VIP_VALUE}pro Benutzer und Monat) verdienen möchten{APPLY_HERE}.",
+        "YOUR_TIER": "Sie sind in der Stufe {TIER}",
+        "AFFILIATES": "Affiliates",
+        "APPLY_HERE": "hier bewerben",
+        "VIP": "VIP",
+        "PROGRAM_CARD_TITLE": "Verdienen Sie mehr als VIP!",
+        "PROGRAM_CARD_BODY": "Wenn Sie ein VIP sind, können Sie bis zu {VIP_VALUE}pro geworbenem Benutzer pro Monat verdienen.",
+        "PROGRAM_CARD_TITLE_VIP": "Sie sind ein VIP!",
+        "PROGRAM_CARD_BODY_VIP": "Vielen Dank, dass Sie ein {VIP}! Sie verdienen jetzt noch mehr Prämien.",
+        "YOUR_STATS": "Ihre Statistiken",
+        "PROGRAM_STATS": "Programmstatistiken",
+        "AFFILIATE_TIER": "Affiliate-Stufe",
+        "AFFILIATE_TIERS": "Affiliate-Stufen",
+        "AFFILIATE_EARNINGS": "Affiliate-Einnahmen",
+        "ALL_TIME_RANK": "Allzeitrang",
+        "VOLUME_REFERRED": "Verwiesenes Volumen",
+        "FEES_REFERRED": "Gebühren empfohlen",
+        "USERS_REFERRED": "Benutzer empfohlen",
+        "TRADES_REFERRED": "Trades empfohlen",
+        "AFFILIATE_TIERS_CRITERIA": "Kriterien anzeigen",
+        "TOTAL_EARNINGS": "Gesamteinkommen",
+        "AFFILIATES_LEADERBOARD": "Leaderboard",
+        "CURRENT_AFFILIATE_TIER": "Aktuelle Affiliate-Stufe",
+        "YOUR_RANK": "Ihr Rang",
+        "AFFILIATE_CONNECT_WALLET": "Bitte verbinden Sie Ihre Wallet, um Ihre Rankings zu überprüfen"
+      },
+
       "TIME_STRINGS": {
         "_24H": "24 Std.",
         "_30D": "30 T",
@@ -90,6 +124,7 @@
       "COMMISSION_PERCENTAGE": "{PERCENTAGE} Provision",
       "COMPETITION": "Wettbewerb",
       "COMPETITIONS": "Wettbewerbe",
+      "CONFIRM": "Bestätigen",
       "CONFIRM_DEPOSIT": "Einzahlung bestätigen",
       "CONFIRM_PENDING_DEPOSIT": "Ausstehende Einzahlung bestätigen",
       "CONFIRM_WITHDRAW": "Abhebung bestätigen",
@@ -116,6 +151,7 @@
       "DEFAULT_TO_ALL_MARKETS_IN_POSITIONS": "Standard für alle Märkte in Positionen\/Orders\/Fills",
       "DEFI": "DeFi",
       "DEGRADED": "Abgebaut",
+      "DEPLOYER_TERMS_AND_CONDITIONS": "Allgemeine Geschäftsbedingungen des Deployers",
       "DEPOSIT_FUNDS": "Guthaben einzahlen",
       "DEPOSIT_MORE": "Zahlen Sie mehr ein",
       "DEPOSIT_WITH_FIAT": "Mit Fiat einzahlen",
@@ -157,6 +193,7 @@
       "FREE_COLLATERAL": "Finanzierung ohne Sicherheit",
       "FREE": "Kostenlos",
       "FROM_TO": "von {FROM} bis {TO}",
+      "FOREX": "Forex",
       "FUNDING_RATE_CHART_SHORT": "Finanzierung",
       "GAIN": "Gewinn",
       "GAMING": "Gaming",
@@ -197,6 +234,7 @@
       "NO_RECENTLY_LISTED_MARKETS": "Keine kürzlich notierten Märkte",
       "NO_RESULTS": "Keine Ergebnisse",
       "HIGHLIGHTS": "Highlights",
+      "LAUNCHABLE": "Startbar",
       "LAYER_1": "Schicht 1",
       "LAYER_2": "Layer 2",
       "LEARN_MORE": "Mehr erfahren",
@@ -216,10 +254,12 @@
       "MARGIN_WITH_MODE": "Marge ({MODE})",
       "MARGIN_MODE": "Margin-Modus",
       "MARGIN_USAGE": "Margin-Anwendung",
+      "MARGIN_USED": "Verwendete Marge",
       "MARKET_NAME": "Marktname",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Anlage möglicherweise noch nicht, oder es existiert noch nicht.",
-      "MARKET_SEARCH_PLACEHOLDER": "zum Beispiel „ETH“ oder „Ethereum“",
+      "MARKET_SEARCH_PLACEHOLDER": "z. B. „ETH“ oder „Ethereum“",
       "MARKET": "Markt",
+      "MARKET_CAP": "Marktkapitalisierung",
       "MARKETS": "Märkte",
       "MAX": "Max.",
       "MAX_BUYING_POWER": "Max. Kaufkraft",
@@ -288,6 +328,7 @@
       "RESULTS": "Ergebnisse",
       "REWARDS": "Prämien",
       "REWARDED": "Mit einem Reward belohnt",
+      "REWARDS_EARNED": "Verdiente Belohnungen",
       "REWARD_HISTORY": "Prämienverlauf",
       "SAFETY": "Sicherheit",
       "SAVE": "Speichern",
@@ -322,7 +363,7 @@
       "STATUS": "Status",
       "STEP_SIZE": "Step Size",
       "STOP_ORDER_SHORT": "Stop",
-      "SWITCH_LEADERBOARD": "Leaderboard wechseln",
+      "SWITCH_LEADERBOARD": "Bestenliste wechseln",
       "TAKE_ME_THERE": "Hingehen",
       "TERMS_AND_CONDITIONS": "Allgemeine Geschäftsbedingungen",
       "TICK_SIZE": "Notierungssprung",
@@ -360,6 +401,7 @@
       "UNSTAKED": "Unstaked",
       "UNSTAKING_FROM": "Unstaking von {VALIDATOR}",
       "USERNAME": "Benutzername",
+      "VALUE": "Wert",
       "VIEW_DETAILS": "Details anzeigen",
       "VIEW_LEAGUE": "League anzeigen",
       "VIEW_LESS": "Weniger anzeigen",
@@ -375,7 +417,7 @@
       "VOTING_POWER": "Stimmrecht",
       "WALLET_BALANCE": "Wallet Guthaben",
       "WALLET": "Wallet",
-      "WEBSITE": "Website",
+      "WEBSITE": "Webseite",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Auszahlung",
       "YES": "Ja",
@@ -383,19 +425,19 @@
     },
     "__ASSETS": {
       "ZRX": {
-        "PRIMARY": "0x ist ein professionelles Liquiditätsaggregatorprotokoll, das es Benutzern ermöglicht, ERC20-Token und andere Vermögenswerte einfach zu handeln. 0x verwendet eine einzigartige hybride Off-Chain-Relais-, On-Chain-Abwicklungsarchitektur, um ein flexibles und Gas-effizientes Erlebnis für Händler zu erreichen.",
+        "PRIMARY": "0x ist ein professionelles Liquiditätsaggregator-Protokoll, mit dem Benutzer auf einfache Weise ERC20-Token und andere Vermögenswerte handeln können. 0x verwendet ein einzigartiges hybrides Offchain-Relay und eine Onchain-Abrechnungsarchitektur, um eine flexible und gaseffiziente Erfahrung für Trader zu erreichen.",
         "SECONDARY": "ZRX ist der native Governance- und Staking-Token von 0x. Dadurch können Inhaber auf 0x Improvement Proposals (ZEIPs) voten und somit die Entwicklung des Protokolls beeinflussen. Darüber hinaus kann ZRX gestakt oder delegiert werden, um Liquiditätsprämien durch deren Market-Maker-Liquiditätsprogramm zu verdienen."
       },
       "1INCH": {
         "PRIMARY": "Das 1-Zoll-Netzwerk vereint dezentrale Protokolle, deren Synergie die lukrativsten, schnellsten und geschütztesten Operationen im DeFi-Raum ermöglicht.",
-        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1-Zoll-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
+        "SECONDARY": "Das ursprüngliche Protokoll des 1inch Network ist eine DEX-Aggregatorlösung, die Tauschgeschäfte über mehrere Liquiditätsquellen hinweg absucht und den Benutzern bessere Kurse bietet als jede andere Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1-Zoll-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
       },
       "AAVE": {
         "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Aufsicht, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
         "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Verwahrung, an dem Benutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
       },
       "ADA": {
-        "PRIMARY": "Cardano ist eine Proof-of-Stake-Blockchain-Plattform: die erste, die auf Peer-Review-Forschung basiert und durch evidenzbasierte Methoden entwickelt wurde. Sie kombiniert wegweisende Technologien, um dezentralisierte Anwendungen, Systemen und Gesellschaften beispiellose Sicherheit und Nachhaltigkeit zu bieten.",
+        "PRIMARY": "Cardano ist eine Proof-of-Stake-Blockchain-Plattform: die erste, die auf Peer-Review-Forschung basiert und durch evidenzbasierte Methoden entwickelt wurde. Sie kombiniert wegweisende Technologien, um dezentralisierten Anwendungen, Systemen und Gesellschaften beispiellose Sicherheit und Nachhaltigkeit zu bieten.",
         "SECONDARY": "Mit einem führenden Team von Ingenieuren existiert Cardano, um die Macht von nicht nachvollziehbaren Strukturen an die Margen – an Einzelpersonen – umzuverteilen und eine treibende Kraft für positive Veränderungen und Fortschritt zu sein."
       },
       "AGIX": {
@@ -412,7 +454,7 @@
       },
       "API3": {
         "PRIMARY": "API3 ist ein Ethereum-Token, das das API3-Projekt unterstützt und zur Steuerung der API3-DAO und zur Abstimmung über Projekt-Upgrades verwendet wird.",
-        "SECONDARY": "API3 erstellt Lösungen, die die Lücke zwischen Off-Chain-Daten und On-Chain-Anwendungen mit maximaler Sicherheit und minimaler Latenz schließen. Die dAPIs der API werden von Erstanbieter-Orakeln direkt in der nativen Kette aggregiert."
+        "SECONDARY": "API3 erstellt Lösungen, die die Lücke zwischen Offchain-Daten und Onchain-Anwendungen mit maximaler Sicherheit und minimaler Latenz schließen. Die dAPIs der API werden von Erstanbieter-Orakeln direkt in der nativen Kette aggregiert."
       },
       "APT": {
         "PRIMARY": "Aptos ist eine Layer-1-Blockchain, die skalierbar, sicher und einfach zu verwenden ist.",
@@ -427,8 +469,8 @@
         "SECONDARY": "Entwickler, die auf Avalanche aufbauen, können problemlos leistungsstarke, zuverlässige und sichere Anwendungen und benutzerdefinierte Blockchain-Netzwerke mit komplexen Regelsätzen erstellen oder auf bestehenden privaten oder öffentlichen Subnetzen aufbauen."
       },
       "AXL": {
-        "PRIMARY": "AXL ist das native Dienstprogramm-Token, das die sichere kettenübergreifende Kommunikation im Axelar-Ökosystem unterstützt.",
-        "SECONDARY": "Axelar ist eine Interoperabilitätslösung und bietet die Infrastruktur, die für eine nahtlose und sichere kettenübergreifende Kommunikation zwischen dezentralisierten Anwendungen erforderlich ist."
+        "PRIMARY": "AXL ist das native Dienstprogramm-Token, das die sichere Crosschain-Kommunikation im Axelar-Ökosystem unterstützt.",
+        "SECONDARY": "Axelar ist eine Interoperabilitätslösung und bietet die Infrastruktur, die für eine nahtlose und sichere Crosschain-Kommunikation zwischen dezentralisierten Anwendungen erforderlich ist."
       },
       "BCH": {
         "PRIMARY": "Mit Bitcoin Cash können Sie Geld an jeden überall auf der Welt senden, 24 Stunden am Tag, 365 Tage im Jahr. Wie das Internet selbst ist das Netzwerk immer aktiv.",
@@ -459,7 +501,7 @@
         "SECONDARY": "CELO bietet Benutzern auch Zugang zu nativen und nicht nativen Stablecoins, einem ultraleichten mobilen Client und Gas, das in mehreren Währungen zahlbar ist."
       },
       "LINK": {
-        "PRIMARY": "Chainlink verbindet Smart Contracts auf jeder Blockchain mit Datenanbietern, Web-APIs, Unternehmenssystemen, Cloud-Diensten, IoT-Geräten, Zahlungssystemen und anderen Blockchains.",
+        "PRIMARY": "Chainlink verbindet intelligente Verträge auf jeder Blockchain mit Datenanbietern, Web-APIs, Unternehmenssystemen, Cloud-Diensten, IoT-Geräten, Zahlungssystemen und anderen Blockchains.",
         "SECONDARY": "Chainlink erweitert die Möglichkeiten von intelligenten Verträgen, indem es den Zugriff auf reale Daten, Ereignisse, Zahlungen und mehr ermöglicht, ohne die Sicherheits- und Zuverlässigkeitsgarantien der Blockchain-Technologie zu opfern."
       },
       "COMP": {
@@ -472,23 +514,23 @@
       },
       "CRV": {
         "PRIMARY": "Curve ist ein Börsen-Liquiditätspool auf Ethereum (wie Uniswap), der für einen äußerst effizienten Stablecoin-Handel und risikoarme, zusätzliche Gebühreneinnahmen für Liquiditätsanbieter ohne Opportunitätskosten konzipiert ist.",
-        "SECONDARY": "Curve ermöglicht Benutzern (und intelligenten Verträgen wie 1inch, Paraswap, Totle und Dex.ag) den Handel zwischen DAI und USDC mit einem maßgeschneiderten Algorithmus mit geringem Schlupf und niedrigen Gebühren, der speziell für Stablecoins entwickelt wurde, und um Gebühren zu verdienen."
+        "SECONDARY": "Curve ermöglicht Benutzern (und Smart Contracts wie 1inch, Paraswap, Totle und Dex.ag) den Handel zwischen DAI und USDC mithilfe eines maßgeschneiderten Algorithmus mit geringer Slippage und niedrigen Gebühren, der speziell für Stablecoins und zur Einnahme von Gebühren entwickelt wurde."
       },
       "DOGE": {
         "PRIMARY": "Dogecoin ist eine Open-Source-Peer-to-Peer-Digitalwährung.",
         "SECONDARY": "Dogecoin wurde von Litecoin gegabelt und ist eine Kryptowährung, die auf dem beliebten Internet-Meme „Doge“ basiert und einen Shiba Inu auf seinem Logo aufweist."
       },
       "DOT": {
-        "PRIMARY": "Polkadot wurde entwickelt, um private Ketten und Konsortialketten, öffentliche und genehmigungslose Netzwerke, Orakel und zukünftige Technologien zu verbinden, die noch geschaffen werden müssen. Polkadot ermöglicht ein Internet, in dem unabhängige Blockchains Informationen und Transaktionen vertrauenswürdig über die Polkadot-Relaiskette austauschen können.",
-        "SECONDARY": "Polkadot macht es einfacher denn je, dezentrale Anwendungen, Dienste und Institutionen zu erstellen und zu verbinden. Indem wir Innovatoren befähigen, bessere Lösungen zu entwickeln, versuchen wir, die Gesellschaft aus ihrer Abhängigkeit von einem kaputten Netz zu befreien, in welchem große Institutionen unser Vertrauen nicht missbrauchen können."
+        "PRIMARY": "Polkadot wurde entwickelt, um private Ketten und Konsortialketten, öffentliche und genehmigungslose Netzwerke, Orakel und zukünftige Technologien zu verbinden, die noch geschaffen werden müssen. Polkadot ermöglicht ein Internet, in dem unabhängige Blockchains Informationen und Transaktionen \"trustless\", d. h. parteifrei, über die Polkadot-Relaiskette austauschen können.",
+        "SECONDARY": "Polkadot macht es einfacher denn je, dezentrale Anwendungen, Dienste und Institutionen zu erstellen und zu verbinden. Indem wir Innovatoren befähigen, bessere Lösungen zu entwickeln, versuchen wir, die Gesellschaft von ihrer Abhängigkeit von einem unvollständigen Netz zu befreien, in dem ihre großen Institutionen unser Vertrauen nicht missbrauchen können."
       },
       "DYM": {
-        "PRIMARY": "Dymension ist eine Heimat für einfach bereitstellbare und blitzschnelle App-Chains, die so genannten RollApps.",
+        "PRIMARY": "Dymension ist eine Heimat für einfach bereitstellbare und blitzschnelle Appchains, die so genannten RollApps.",
         "SECONDARY": "Dymension standardisiert Rollups mit IBC (Inter-Blockchain Communication Protocol), ähnlich der Standardisierung von Token mit ERC."
       },
       "ENJ": {
         "PRIMARY": "Enjin hat einfache Produkte entwickelt, die Ihnen helfen, Ihre NFTs und Kryptowährungen zu verwalten – und sich an der neuen, schnell wachsenden virtuellen Wirtschaft zu beteiligen.",
-        "SECONDARY": "ENJ wird verwendet, um digitale Vermögenswerte wie NFTs zu infundieren. Es treibt NFTs an, wenn sie sich über Spiele, Apps, Marktplätze und Wallets bewegen. Jeder geprägte Vermögenswert enthält ENJ, was ihm einen realen Wert verleiht, der jederzeit durch „Schmelzen“ abgerufen werden kann."
+        "SECONDARY": "ENJ wird verwendet, um digitale Vermögenswerte wie NFTs zu zu bezuschussen. Es gibt NFTs Aufwind, wenn sie sich über Spiele, Apps, Marktplätze und Wallets bewegen. Jeder geprägte Vermögenswert enthält ENJ, was ihm einen realen Wert verleiht, der jederzeit durch „Schmelzen“ abgerufen werden kann."
       },
       "ENS": {
         "PRIMARY": "ENS ist der am weitesten integrierte Blockchain-Benennungsstandard.",
@@ -499,12 +541,12 @@
         "SECONDARY": "Eine Open-Source-Plattform für Blockchain-Innovation und -Leistung – Unternehmen und Entwickler auf der ganzen Welt nutzen EOSIO, um sichere, transparente und deterministische digitale Infrastrukturen zu schaffen."
       },
       "ETC": {
-        "PRIMARY": "Ethereum Classic ist eine Hard Fork von Ethereum, die im Juli 2016 eingeführt wurde. Es fungiert als intelligentes Vertragsnetzwerk mit der Fähigkeit, dezentrale Anwendungen zu hosten und zu unterstützen.",
-        "SECONDARY": "ETC wurde mit dem Ziel ins Leben gerufen, ein primäres Wertversprechen von Blockchain-Smart-Vertrags-Plattformen zu bewahren: „Code ist Gesetz“. Die Hard Fork war das Ergebnis der Überzeugung, dass die Mehrheit der Blockchain-Protokolle, einschließlich Ethereum, von diesem Kernprinzip abgewichen sind."
+        "PRIMARY": "Ethereum Classic ist eine Hard Fork von Ethereum, die im Juli 2016 eingeführt wurde. Es fungiert als Smart Contract Network und besitzt die Fähigkeit, dezentrale Anwendungen zu hosten und zu unterstützen.",
+        "SECONDARY": "ETC wurde mit dem Ziel ins Leben gerufen, ein primäres Wertversprechen von Blockchain-Smart-Contract-Plattformen zu bewahren: „Code ist Gesetz“. Die Hard Fork war das Ergebnis der Überzeugung, dass die Mehrheit der Blockchain-Protokolle, einschließlich Ethereum, von diesem Kernprinzip abgewichen sind."
       },
       "ETH": {
         "PRIMARY": "Ethereum ist eine globale Open-Source-Plattform für dezentrale Anwendungen.",
-        "SECONDARY": "Ethereum ist eine dezentrale Blockchain-Plattform, die 2014 gegründet wurde. Ethereum ist ein Open-Source-Projekt, das keiner einzelnen Person gehört oder von ihr betrieben wird. Das bedeutet, dass jeder überall die Software herunterladen und mit dem Netzwerk interagieren kann. Ethereum ermöglicht es Entwicklern, „intelligente Verträge“ zu erstellen und zu betreiben, ein Kernstück der Infrastruktur für jede dezentrale Anwendung."
+        "SECONDARY": "Ethereum ist eine dezentrale Blockchain-Plattform, die 2014 gegründet wurde. Ethereum ist ein Open-Source-Projekt, das keiner einzelnen Person gehört oder von ihr betrieben wird. Das bedeutet, dass jeder von überall aus die Software herunterladen und mit dem Netzwerk interagieren kann. Ethereum ermöglicht es Entwicklern, „intelligente Verträge“ zu erstellen und zu betreiben, ein Kernstück der Infrastruktur für jede dezentrale Anwendung."
       },
       "FET": {
         "PRIMARY": "FET ist das native Token der Fetch.ai-Blockchain.",
@@ -512,7 +554,7 @@
       },
       "FIL": {
         "PRIMARY": "Filecoin ist ein dezentralisiertes Speichernetzwerk, das die wichtigsten Informationen der Menschheit speichern soll.",
-        "SECONDARY": "Das Filecoin-Netzwerk besteht aus einer großen Anzahl verschiedener Speicheranbieter und Entwickler. Dies schafft einen robusten und zuverlässigen Service, während kryptografische Beweise garantieren, dass Ihre Daten im Laufe der Zeit verfügbar und unverändert bleiben."
+        "SECONDARY": "Das Filecoin-Netzwerk besteht aus einer Vielzahl verschiedener Speicheranbieter und Entwickler. Dies schafft einen robusten und zuverlässigen Service, während kryptografische Beweise garantieren, dass Ihre Daten im Laufe der Zeit verfügbar und unverändert bleiben."
       },
       "FTM": {
         "PRIMARY": "FTM ist das native Token von Fantom und wird für die Steuerung der Plattform, die Sicherung des Netzwerks und die Zahlung von Transaktionsgebühren verwendet.",
@@ -579,8 +621,8 @@
         "SECONDARY": "Mask Network ermöglicht es Benutzern beliebter Social-Media-Plattformen, Kryptowährung zu senden, mit dezentralisierten Anwendungen zu interagieren und verschlüsselte Inhalte zu teilen."
       },
       "MATIC": {
-        "PRIMARY": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum zur Unterstützung eines Ethereum-Ökosystems mit mehreren Ketten.",
-        "SECONDARY": "Polygon kombiniert das Beste aus Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multi-Chain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum voll auszunutzen."
+        "PRIMARY": "Polygon ist ein Protokoll und ein Framework zum Aufbau und zur Verbindung von Ethereum-kompatiblen Blockchain-Netzwerken. Aggregation skalierbarer Lösungen auf Ethereum, die ein Multichain-Ethereum-Ökosystem unterstützen.",
+        "SECONDARY": "Polygon kombiniert das Beste von Ethereum und souveränen Blockchains zu einem offenen, sicheren, vollwertigen Multichain-System, das in der Lage ist, die Netzwerkeffekte von Ethereum in vollem Umfang zu nutzen"
       },
       "MEME": {
         "PRIMARY": "Laut seiner Website ist Memecoin (MEME) buchstäblich eine Meme-Münze.",
@@ -616,7 +658,7 @@
       },
       "PORTAL": {
         "PRIMARY": "$portal ist die native Plattform-Münze für die Portal-Plattform. $portal fungiert als Nexus von Web3-Spielen und Spielern und bietet die Spielverteilung und die Einfachheit des Spielers für alle.",
-        "SECONDARY": "Portal zielt darauf ab, Spiele und Spieler aus verschiedenen Blockchain-Netzwerken auf seiner kettenübergreifenden Token-Plattform zu vereinen und ein vereintes Web3-Gaming-Ökosystem zu schaffen."
+        "SECONDARY": "Portal zielt darauf ab, Spiele und Spieler aus verschiedenen Blockchain-Netzwerken auf seiner Crosschain-Token-Plattform zu vereinen und ein vereintes Web3-Gaming-Ökosystem zu schaffen."
       },
       "PYTH": {
         "PRIMARY": "PYTH ist das Governance-Token für das Pyth-Netzwerk und sein Ökosystem.",
@@ -631,7 +673,7 @@
         "SECONDARY": "Das Render-Netzwerk ist ein verteiltes GPU-Rendering-Netzwerk, das auf der Ethereum-Blockchain aufgebaut ist und darauf abzielt, Künstler und Studios, die GPU-Rechenleistung benötigen, mit Mining-Partnern zu verbinden, die ihre GPU-Funktionen vermieten möchten."
       },
       "RUNE": {
-        "PRIMARY": "Thorchain ist ein dezentralisiertes und autonomes Cross-Chain-Liquiditätsnetzwerk.",
+        "PRIMARY": "Thorchain ist ein dezentralisiertes und autonomes Crosschain-Liquiditätsnetzwerk.",
         "SECONDARY": "RUNE ist der Vermögenswert, der das THORChain-Ökosystem antreibt und die wirtschaftlichen Anreize bietet, die erforderlich sind, um das Netzwerk wirtschaftlich zu sichern."
       },
       "SAND": {
@@ -648,7 +690,7 @@
       },
       "SOL": {
         "PRIMARY": "Solana ist eine schnelle, sichere und zensurresistente Blockchain, die die offene Infrastruktur bereitstellt, die für eine globale Einführung erforderlich ist.",
-        "SECONDARY": "Solana ist ein Open-Source-Projekt, das eine neue, leistungsstarke, erlaubnisfreie Blockchain implementiert Die Solana Foundation hat ihren Sitz in Genf, Schweiz, und unterhält das Open-Source-Projekt."
+        "SECONDARY": "Solana ist ein Open-Source-Projekt, das eine neue, leistungsstarke, genehmigungsfreie Blockchain implementiert. Die Solana Foundation hat ihren Sitz in Genf, Schweiz, und unterhält das Open-Source-Projekt."
       },
       "STX": {
         "PRIMARY": "STX ist die native Währung des Stacks-Netzwerks. Es wird verwendet, um Smart-Contracts für Bitcoin zu tanken, um Miner im offenen Stacks-Netzwerk zu belohnen und ermöglicht es Inhabern, Bitcoin durch Stacking zu verdienen.",
@@ -684,7 +726,7 @@
       },
       "UMA": {
         "PRIMARY": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
-        "SECONDARY": "UMA baut eine Open-Source-Infrastruktur für „von unschätzbarem Wert“ Finanzverträge auf Ethereum in Form von zwei Technologien auf: unbezahlbare Finanzvertragsvorlagen, die zur Erstellung synthetischer Token verwendet werden, und einen dezentralisierten Orakeldienst, der zur Verwaltung und Durchsetzung von Verträgen auf UMA verwendet wird."
+        "SECONDARY": "UMA baut eine Open-Source-Infrastruktur für „unbezahlbare“ Finanzverträge auf Ethereum in Form von zwei Technologien auf: unbezahlbare Finanzvertragsvorlagen, die zur Erstellung synthetischer Token verwendet werden, und einen dezentralisierten Orakeldienst, der zur Verwaltung und Durchsetzung von Verträgen auf UMA verwendet wird."
       },
       "UNI": {
         "PRIMARY": "Uniswap ist ein dezentralisiertes Protokoll für die automatisierte Bereitstellung von Liquidität auf Ethereum.",
@@ -700,11 +742,11 @@
       },
       "XLM": {
         "PRIMARY": "Stellar ist ein offenes Netzwerk zum Speichern und zum Bewegen von Geld.",
-        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Geldformen zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
+        "SECONDARY": "Stellar ermöglicht es, digitale Repräsentationen aller Formen von Geld zu erstellen, zu versenden und zu handeln: Dollar, Pesos, Bitcoin – so ziemlich alles. Es ist so konzipiert, dass alle Finanzsysteme der Welt in einem einzigen Netzwerk zusammenarbeiten können."
       },
       "XMR": {
         "PRIMARY": "Monero ist die führende Kryptowährung, die sich auf private und zensurresistente Transaktionen konzentriert.",
-        "SECONDARY": "Im Gegensatz zu selektiv transparenten Alternativen (z. B. Zcash) ist Monero die einzige Kryptowährung, bei der jeder Benutzer standardmäßig anonym ist. Absender, Empfänger und Betrag jeder einzelnen Transaktion werden durch den Einsatz von drei wichtigen Technologien verborgen: Stealth-Adressen, Ring-Signaturen und RingCT."
+        "SECONDARY": "Im Gegensatz zu selektiv transparenten Alternativen (zum Beispiel Zcash) ist Monero die einzige Kryptowährung, bei der jeder Benutzer standardmäßig anonym ist. Absender, Empfänger und Betrag jeder einzelnen Transaktion werden durch den Einsatz von drei wichtigen Technologien verborgen: Stealth-Adressen, Ring-Signaturen und RingCT."
       },
       "XRP": {
         "PRIMARY": "Ripple ist ein Netzwerk, das zur Abwicklung grenzüberschreitender Zahlungen entwickelt wurde.",
@@ -726,6 +768,32 @@
         "PRIMARY": "ZetaChain ist ein neuartiges L1, das über eine integrierte chain-agnostische Interoperabilität verfügt.",
         "SECONDARY": "ZetaChain ist eine öffentliche, dezentralisierte Blockchain- und Smart-Contract-Plattform, die die Nachrichtenübergabe und Wertübertragung zwischen jeder Blockchain ermöglicht."
       }
+    },
+    "AFFILIATES": {
+      "AFFILIATES_PROGRAM": "Affiliates-Programm",
+      "AFFILIATE_LINK": "Affiliate-Link",
+      "AFFILIATE_LINK_REQUIREMENT": "Affiliate-Link wird bei dem {AMOUNT_USD}Volumen von $ aktiviert",
+      "BECOME_A_VIP": "Werden Sie VIP",
+      "EARN_FOR_EACH_TRADER": "Verdienen Sie bis zu $ {AMOUNT_USD}pro Monat für jeden neuen Trader",
+      "EARN_FEES": "Gebühren verdienen",
+      "REFER_FOR_DISCOUNTS": "Empfehlen Sie einen Freund und er kann bis zu {AMOUNT_USD}$ Rabatte erhalten.",
+      "REFER_FOR_DISCOUNTS_FIRST_ORDER": "Erhalten Sie bis zu {AMOUNT_USD}Gebührenrabatte nach der ersten Bestellung!",
+      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Verdienen Sie bis zu $ {AMOUNT_PER_MONTH}pro Monat für jeden neuen Trader, den Sie verweisen. Wenn Sie ein VIP sind, können Sie bis zu {VIP_AMOUNT_USD}$! Ihre Empfehlung kann bis zu $ an Handelsgebühren einsparen. {AMOUNT_DISCOUNT}{LEARN_MORE_LINK}",
+      "WANT_TO_VIEW_EARNINGS": "Möchten Sie Ihre Einnahmen anzeigen? {LINK}",
+      "INVITE_FRIENDS": "Freunde einladen",
+      "YOUR_FRIEND": "Ihr Freund",
+      "HAS_REFERRED_YOU": "hat Sie dazu verwiesen, an der mächtigsten offenen Börse der Welt zu handeln.",
+      "EARN_USDC": "USDC verdienen",
+      "EARN_USDC_DISCRIPTION": "Nutzen Sie die Vorteile von Staking und anderen Produkten, um USDC zu verdienen.",
+      "TRADE_ANYTHING": "Traden Sie alles",
+      "TRADE_ANYTHING_DISCRIPTION": "Jedes Asset zu jeder Zeit. Sie sehen nicht, wonach Sie suchen? Listen Sie den Markt und seien Sie der Erste, der ihn tradet!",
+      "LIGHTNING_FAST": "Blitzschnell mit großer Liquidität",
+      "LIGHTNING_FAST_DISCRIPTION": "Das nahtloseste und leistungsfähigste Erlebnis in DeFi.",
+      "ALL_REWARDS_DYDX_COMMUNITY": "*Alle Prämien werden über zur Verfügung {DYDX_COMMUNITY_LINK}gestellt.",
+      "DYDX_COMMUNITY": "dYdX-Community",
+      "THE_PRO_TRADING_PLATFORM": "Die Pro-Trading-Plattform für DeFi",
+      "TWEET_SHARE_AFFILIATES": "Sparen Sie bis zu $ {AMOUNT_USD}an Handelsgebühren auf @dYdX: ",
+      "YOUVE_TRADED": "Sie haben $ gehandelt{AMOUNT_USD}"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API-Dokumentation",
@@ -769,6 +837,8 @@
       "METAMASK": "MetaMask",
       "OKX_WALLET": "OKX",
       "PHANTOM": "Phantom",
+      "PHANTOM_SOL": "Phantom (Solana)",
+      "PHANTOM_EVM": "Phantom (EVM)",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -791,7 +861,7 @@
       "COMING_SOON": "Demnächst!",
       "COMPLETE_ONBOARDING": "Vollständiges Onboarding",
       "CONFIRM_OWNERSHIP": "Bestätigen Sie, dass Sie der Besitzer dieses Wallets sind",
-      "CONNECT_YOUR_WALLET_EXTENDED": "Verbinden Sie Ihr Ethereum-Wallet, um Geld einzuzahlen und mit dem Handel zu beginnen.",
+      "CONNECT_YOUR_WALLET_EXTENDED": "Verbinden Sie Ihre Wallet, um Gelder einzuzahlen und mit dem Handel zu beginnen.",
       "CONNECT_YOUR_WALLET_SEARCH": "Wallets durchsuchen...",
       "CONNECT_YOUR_WALLET": "Verbinden Sie Ihr Wallet",
       "CONNECT_YOUR_WALLET_SUBTITLE": "Wählen Sie Ihr Wallet aus diesen unterstützten Optionen aus.",
@@ -846,7 +916,7 @@
       "NO_FUTURE_ACCESS": "Sie werden in Zukunft nicht auf diese Website zugreifen oder auf dYdX handeln, während Sie sich in den Vereinigten Staaten oder an einem eingeschränkten Ort befinden.",
       "NO_VPN_USE": "Sie verwenden kein VPN und werden es auch in Zukunft nicht verwenden, um Ihren physischen Standort vor einem eingeschränkten Standort zu verbergen.",
       "NOT_A_RESIDENT": "Sie sind keine Person oder Gesellschaft, die in den Vereinigten Staaten oder an einem eingeschränkten Ort ansässig ist oder sich dort befindet, eingetragen ist oder einen eingetragenen Vertreter hat.",
-      "NOT_SUPPORTED_DESCRIPTION": "Ihre Wallet unterstützt nicht den neuesten Signaturstandard (häufiges Problem bei Hardware-Wallets). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
+      "NOT_SUPPORTED_DESCRIPTION": "Ihre Brieftasche unterstützt nicht den neuesten Signaturstandard (häufiges Problem bei Hardware-Wallets). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
       "NOT_SUPPORTED": "Nicht unterstützt",
       "ONBOARDING": "Onboarding",
       "MINIMUM_AMOUNT_RECEIVED": "Erhaltener Mindestbetrag",
@@ -876,8 +946,8 @@
       "SIGN_IN_WITH_EMAIL": "Mit E-Mail anmelden",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Eine einfache Möglichkeit, sich anzumelden, unterstützt durch {MAGIC}",
       "SKIP_FOR_NOW": "Für jetzt überspringen",
-      "SITE_OPERATED_BY_SHORT": "Diese Website wird von , unter Verwendung von Software {NAME_OF_DEPLOYER}betrieben, die von dYdX Trading {LEARN_MORE_LINK}Inc.",
-      "SITE_OPERATED_BY_LONG": "Diese Website wird von [Deployer -AGB] betrieben {NAME_OF_DEPLOYER}und verwendet bestimmte Software, die von dYdX Trading Inc. von Drittanbietern gemäß seinen Nutzungsbedingungen als Open Source betrieben wird, die die Verwendung der Software durch Personen mit Sitz in den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten untersagen.  Die dYdX-Blockchain wird von einer Community unabhängiger Validatoren  unterstützt. . {LEARN_MORE_LINK}.",
+      "SITE_OPERATED_BY_SHORT": "Diese Website wird von , unter Verwendung von Software {NAME_OF_DEPLOYER}betrieben, die von dYdX Trading Inc. {LEARN_MORE_LINK}",
+      "SITE_OPERATED_BY_LONG": "Diese Website wird von unter {NAME_OF_DEPLOYER}der Verwendung bestimmter Software {DEPLOYER_TERMS_AND_CONDITIONS}betrieben, die von dYdX Trading Inc. von Drittanbietern gemäß {TERMS_OF_USE}deren Open Source betrieben , die die Verwendung der Software durch Personen mit Sitz in den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten verbieten. Die dYdX-Blockchain wird von einer Community unabhängiger Validatoren unterstützt. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Beginnen Sie mit dem Handel an der mächtigsten und offenen Börse der Welt.",
       "SWITCH_NETWORK": "Netzwerk wechseln",
       "TOS_TITLE": "Durch die Nutzung unserer Produkte und Dienstleistungen stimmen Sie den  {TERMS_LINK}und  {PRIVACY_POLICY_LINK}zu.  Sie stimmen hiermit zu, versichern und garantieren, dass:",
@@ -1073,6 +1143,11 @@
       "N_OPEN_ORDERS": "{COUNT} offene Orders",
       "OPEN_ORDERS": "Offene Orders"
     },
+    "CANCEL_ALL_ORDERS_MODAL": {
+      "CANCEL_ALL_ORDERS": "Alle Bestellungen stornieren",
+      "CANCEL_ALL_ORDERS_CONFIRMATION": "Sind Sie sicher, dass Sie alle Ihre Orders stornieren möchten?",
+      "CANCEL_ALL_ORDERS_SINGLE_MARKET_OPTION": "Nur {MARKET_ID}"
+    },
     "PREFERENCES_MODAL": {
       "MAGIC_EXPORT_PRIVATE_KEY": "Privaten Schlüssel exportieren",
       "MAGIC_EXPORT_PRIVATE_KEY_DESCRIPTION": "Um Magic Wallet außerhalb von dYdX zu verwenden, müssen Sie Ihr Wallet zu einem anderen Wallet-Anbieter exportieren.",
@@ -1171,6 +1246,8 @@
       "LAUNCH_INCENTIVES_SEASON_NUM": "Saison {SEASON_NUMBER}",
       "LAUNCH_INCENTIVES_SEASON_REWARDS": "{SEASON_NUMBER}Saisonprämien",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{NUM_POINTS} während Saison {SEASON_NUMBER} erhalten, die am {PAST_DATE} endete.",
+      "LAUNCH_INCENTIVES_TOTAL_REWARDS": "Gesamtprämien",
+      "LAUNCH_INCENTIVES_CONCLUDED": "Abgeschlossen",
       "LEADERBOARD": "Leaderboard",
       "LEARN_TO_EXPORT": "{STRONG_NO}, erfahren Sie, wie Sie meine geheime Phrase exportieren.",
       "MAKER_MARKET_SHARE": "Maker-Marktanteil",
@@ -1201,6 +1278,7 @@
       "STOP_MARKET_ORDERS": "Market-Orders stoppen",
       "STOP_MARKET_ORDERS_DESCRIPTION": "Stop-Market- und Take-Profit-Market-Orders sind da! Stellen Sie schnell und einfach Trigger ein, um Ihre Verluste zu begrenzen und Gewinne zu sichern.",
       "TARGET_VOLUME": "Zielvolumen",
+      "TELEGRAM_INVITE_BANNER": "Vielen Dank für die Verwendung von dYdX! Das Team möchte Ihnen ein höheres Maß an personalisiertem Support und die Möglichkeit bieten, sie direkt zu verbinden. Klicken Sie, {HERE_LINK}um der dYdX Chain VIP Traders Telegramm-Gruppe beizutreten.",
       "TESTNET_DEPOSIT_PROMO": "Kostenlose Testnet-Einzahlungen mit nur einem Mausklick sind jetzt in unserer Goerli App verfügbar.",
       "TESTNET_LOWERCASE": "Testnet-App",
       "TRADES_DESCRIPTION": "Alle gebührenerzeugenden Handelsaktivitäten",
@@ -1247,6 +1325,7 @@
       "AVERAGE_OPEN": "Durchschnittlich geöffnet",
       "AVERAGE_OPEN_CLOSE": "Durchschn. Öffnen \/ Schließen",
       "AVERAGE_OPEN_SHORT": "Eröffnen",
+      "AVG_OPEN": "Durchschn. Eröffnen",
       "BASELINE_POSITION_SIZE": "Ausgangsposition Größe",
       "BEST_EFFORT_CANCELED": "Best Effort abgebrochen",
       "BIDS": "Gebote",
@@ -1254,13 +1333,16 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "Wenn {ASSET} um einen bestimmten Betrag steigt, lösen Sie einen {ACTION} aus, um Gewinne mitzunehmen.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "Wenn {ASSET} um einen bestimmten Betrag steigt, lösen Sie einen {ACTION} aus, um Verluste zu verhindern.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "Wenn {ASSET} auf einen festen Preis fällt, lösen Sie eine(n) {ACTION} aus, um Gewinne mitzunehmen.",
+      "BUY_LONG": "| Long kaufen",
       "BUY_MARK_TOOLTIP": "Gekauft   {ASSET_SIZE}{ASSET}bei {PRICE}",
       "BUYS_SELLS_TOGGLE": "Kauft\/verkauft",
       "BUYS_SELLS_TOGGLE_TOOLTIP": "Anzeigen von historischen Käufen und Verkäufen",
-      "CANCEL_ALL": "Alle stornieren",
+      "CANCEL_ALL": "Alle abbrechen",
       "CANCEL_ORDER": "Bestellung stornieren",
       "CANCEL_ORDERS_COUNT": "{COUNT}Orders stornieren",
-      "CANCELING_ORDERS_COUNT": "{COUNT} Orders werden storniert ...",
+      "CANCELING_ALL_ORDERS": "Alle Bestellungen stornieren",
+      "CANCELING_ALL_ORDERS_IN_MARKET": "Alle Bestellungen in {MARKET_ID}",
+      "CANCELING_ORDERS_COUNT": "Aufträge {COUNT}stornieren...",
       "CANCEL_ORDERS": "Orders stornieren",
       "CANCEL_REASON": "Grund des Abbruchs",
       "CANCELED_ON_CHAIN": "Auf Kette storniert",
@@ -1299,7 +1381,7 @@
       "EXPIRED": "Abgelaufen",
       "FAILED": "Fehlgeschlagen",
       "FEE_AMOUNT": "Gebührenbetrag",
-      "FEE_PERCENT": "Fee Prozent",
+      "FEE_PERCENT": "Gebühren-Prozent",
       "FEE": "Gebühr",
       "FILL_OR_KILL": "Fill or Kill",
       "FILLS_EMPTY_STATE": "Sie haben keine Einlagen.",
@@ -1310,6 +1392,7 @@
       "FUNDING_PAYMENTS_SHORT": "Finanzierung",
       "FUNDING_PAYMENTS": "Finanzierungszahlungen",
       "FUNDING_RATE_1H_SHORT": "1h Finanzierung",
+      "FUNDING_RATE_DURATION_SHORT": "{DURATION} Finanzierung",
       "FUNDING_RATE": "Geschätzte 1h Finanzierung",
       "GOOD_TIL_DATE_ABBREVIATED": "Good Til",
       "GOOD_TIL_DATE": "Gut bis Datum",
@@ -1323,8 +1406,10 @@
       "INDEX_PRICE_ABBREVIATED": "Oracle",
       "INDEX_PRICE": "Oracle-Preis",
       "INITIAL_STOP": "Initialer Stop",
+      "LAUNCH_MARKET_WITH_PLUS": "+ Startmarkt",
       "LIMIT_ORDER_DESCRIPTION": "Kaufen oder verkaufen Sie {SYMBOL} zu einem bestimmten Preis (oder besser) und passen Sie Ihre Order mit erweiterten Handelsoptionen an.",
       "LIMIT_ORDER_SHORT": "Limit",
+      "LIMIT_CLOSE": "Limit Close",
       "LIMIT_ORDER": "Limit-Order",
       "LIMIT_PRICE": "Limit-Preis",
       "LIQUIDATED": "Liquidiert",
@@ -1342,6 +1427,7 @@
       "MARKET_PRICE_SHORT": "Markt",
       "MARKET_PROFIT": "Take Profit Market",
       "MARKET_SELL": "Markt verkaufen",
+      "MARK_PRICE": "Preis markieren",
       "MAXIMUM_POSITION_SIZE": "Maximale Positionsgröße",
       "MID_MARKET": "Mittleres Marktsegment",
       "MID_MARKET_PRICE_SHORT": "Mitte",
@@ -1441,10 +1527,12 @@
       "RISK_REWARD": "Risiko-Belohnung",
       "SELECT_MARKET": "Markt auswählen",
       "SELL_MARK_TOOLTIP": "Verkauft {ASSET_SIZE}{ASSET}bei {PRICE}",
-      "SELF_TRADE": "Self-Trade",
+      "SELL_SHORT": "| Kurz verkaufen",
+      "SELF_TRADE": "Selbsthandel",
       "SET_ORDER_SIZE": "Setzen Sie die Ordergröße",
       "SET_PRICE_TRIGGERS": "Setzen Sie den Preis-Trigger",
       "SLIDER": "Slider",
+      "SPOT_VOLUME_24H": "24h Spot-Volumen",
       "STOP_LIMIT_DESCRIPTION": "Eine Stop-Limit-Order schützt wie Stop-Market-Orders vor Verlusten, jedoch mit der Vielseitigkeit und den Merkmalen einer Limit-Order.",
       "STOP_LIMIT": "Stop Limit",
       "STOP_LOSS": "Stop Loss",
@@ -1494,6 +1582,10 @@
       "WANT_TO_AVOID_LIQUIDATION": "Sie möchten eine Liquidation vermeiden?",
       "YOUR_MARKET_POSITION": "Ihre {MARKET}Position",
       "YOUR_POSITION_WAS_LIQUIDATED": "Ihre Position wurde liquidiert."
+    },
+    "TRADING_VIEW": {
+      "DRAFT_LIMIT_SELL": "Entwurfslimit Verkauf bei {PRICE}",
+      "DRAFT_LIMIT_BUY": "Entwurfslimit Bei kaufen {PRICE}"
     },
     "LEAGUES": {
       "ACTIVE": "Aktiv",
@@ -1567,7 +1659,11 @@
     },
     "VAULTS": {
       "VAULT": "Vault",
+      "MEGAVAULT": "MegaVault",
+      "MEGAVAULT_TRANSFERS": "MegaVault-Transfers",
+      "MEGAVAULT_TRANSFERS_DESCRIPTION": "Transfers zum und vom MegaVault",
       "VAULT_FAQS": "Vault FAQs",
+      "MEGAVAULT_FAQS": "MegaVault FAQs",
       "YOUR_ALL_TIME_PNL": "Ihr Allzeit-G&V",
       "VAULT_THIRTY_DAY_APR": "30d APR",
       "VAULT_THIRTY_DAY_PNL": "30T G&V",
@@ -1579,16 +1675,20 @@
       "YOU_HAVE_NO_VAULT_DEPOSITS": "Sie haben keine Tresoreinzahlungen .",
       "SLIPPAGE_ACK": "Ich verstehe, dass eine jetzt vorgenommene Auszahlung zu  einer {AMOUNT}Slippage führt.",
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Hohe Slippage bestätigen",
-      "SLIPPAGE_WARNING": " Diese Auszahlung würde zu einer {AMOUNT}Slippage führen. Slippage kann reduziert werden, wenn Sie zu einem späteren Zeitpunkt abheben. Weitere Informationen finden Sie unter {LINK}.",
+      "SLIPPAGE_WARNING": "Diese Auszahlung würde zu einer Slippage {AMOUNT}führen. Slippage kann reduziert werden, wenn Sie zu einem späteren Zeitpunkt abheben. Weitere Informationen finden Sie unter {LINK}.",
       "EST_SLIPPAGE": "Est. Slippage",
       "PROTOCOL_VAULT": "dYdX-Protokoll-Vault",
+      "LOCKED_BALANCE": "Gesperrtes Guthaben",
       "WITHDRAW_TOO_HIGH": "Sie können nicht mehr als Ihr Tresor-Guthaben abheben.",
       "DEPOSIT_TOO_HIGH": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten einzahlen.",
       "ENTER_AMOUNT_TO_DEPOSIT": "Betrag für die Einzahlung eingeben",
       "ENTER_AMOUNT_TO_WITHDRAW": "Abzuhebenden Betrag eingeben",
+      "AVAILABLE_TO_WITHDRAW": "Für Auszahlungen verfügbar",
       "AMOUNT_TO_WITHDRAW": "Auszahlungsbetrag",
       "PREVIEW_WITHDRAW": "Vorschau Auszahlung",
       "PREVIEW_DEPOSIT": "Einzahlung vorschauen",
+      "CONFIRM_WITHDRAW_CTA": "Auszahlung bestätigen",
+      "CONFIRM_DEPOSIT_CTA": "Einzahlung bestätigen",
       "AMOUNT_TO_DEPOSIT": "Zu einzahlender Betrag",
       "CROSS_ACCOUNT": "Kreuzkonto",
       "VAULT_DESCRIPTION": "Dieser Tresor bietet automatisierte Liquidität auf allen dYdX-Märkten und erhält einen Anteil an den Gebühreneinnahmen. Tresore zielen auf eine marktneutrale Position an, indem sie beide Seiten des Buches notieren. Die GuV variieren je nach den Marktbedingungen und es besteht das Risiko, dass ein Teil oder der gesamte eingezahlte USDC verloren geht.",
@@ -1599,6 +1699,7 @@
       "ADJUSTED_IMR": "Angepasste Marge",
       "ADJUSTED_IMR_BODY": "Wir haben die Initial-Margin-Anforderungen für {MARKET} aufgrund der Volatilität vorübergehend auf {PERCENT} {ACTION}. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Prämie blockieren",
+      "CANCELING_ALL_ORDERS": "Alle Bestellungen stornieren",
       "CHAIN_DISRUPTION_DETECTED": "Potenzielle Unterbrechung der Verkettung erkannt",
       "CHAIN_DISRUPTION_DETECTED_BODY": "Es liegt eine potenzielle Unterbrechung der dYdX-Kette vor. Bitte überprüfen Sie die Statusseite und aktualisieren Sie. Im Fall einer Unterbrechung der Verkettung sind Handel und Transfers vorübergehend deaktiviert. Ihre Gelder sind sicher.",
       "CLICK_TO_VIEW": "Zum Anzeigen klicken",
@@ -1631,6 +1732,7 @@
       "NOTIFICATIONS_EMPTY_STATE": "Sie haben keine Benachrichtigungen.",
       "ORDERBOOK_LAGGING": "Verzögerung des Orderbuchs",
       "ORDER_STATUS": "Bestellstatus",
+      "ORDERS_CANCELED": "Bestellungen storniert",
       "ORDERBOOK_LAGGING_BODY": "Orderbuch- und Preisdaten können aufgrund von Systemverzögerungen veraltet sein. Markt- und kurzfristige Orders sehen sich einem höheren Risiko ausgesetzt, dass zum Zeitpunkt der Ausführung Preisabweichungen auftreten. Transaktionen und Kontoinformationen könnten auch verzögert sein.",
       "OUT_OF_TEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS} von 10 Bestätigungen",
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS} von 14 Bestätigungen",
@@ -1738,7 +1840,7 @@
     },
     "PROFILES_PAGE": {
       "ADDRESS": "Adresse",
-      "APPLICATION_PENDING": "Bewerbung läuft",
+      "APPLICATION_PENDING": "Antrag läuft",
       "APPLICATION_REJECTED": "Antrag abgelehnt",
       "CERTIFY_AND_ACCEPT": "Sie müssen bestätigen, dass Sie die angezeigten Bedingungen akzeptieren und ihnen zustimmen.",
       "CERTIFY_CAPACITY_AND_AUTHORITY": "Sie müssen bestätigen und unterschreiben, dass Sie die Fähigkeit und Befugnis haben, dieses Formular auszufüllen.",
@@ -2063,33 +2165,50 @@
       "ADD_MARKET_STEP_2_DESCRIPTION": "Sobald ein Markt ausgewählt ist, werden alle seine Parameter automatisch gefüllt.",
       "ADD_MARKET_STEP_3_DESCRIPTION": "Senden Sie eine Transaktion, die einen Vorschlag für das Hinzufügen des neuen Marktes erstellt. Dies erfordert ein Gleichgewicht von {REQUIRED_NUM_TOKENS}Unstaked {NATIVE_TOKEN_DENOM}.",
       "ADD_NEW_MARKET_DETAILS": "Fügen Sie ein neues Asset zu dYdX Chain über einen Governance-Vorschlag hinzu. Erfordert  {AMOUNT}unstaked DYDX.",
+      "AVAILABLE_TO_TRADE_POST_LAUNCH": "Sobald Sie starten {MARKET}, wird es für den Handel verfügbar sein.",
+      "CONFIRM_LAUNCH_DETAILS": "Startdetails bestätigen",
       "CONFIRM_NEW_MARKET_PROPOSAL": "Neuen Marktvorschlag bestätigen",
+      "DEPOSIT_APR": "APR einzahlen",
+      "DEPOSIT_LOCKUP": "Einzahlungssperre",
+      "DEPOSIT_LOCKUP_DESCRIPTION": "Die Einzahlungssperre beträgt  {NUM_DAYS}Tage und Ihre Einzahlung wird einen geschätzten  {APR_PERCENTAGE}APR (basierend auf den letzten Tagen) {PAST_DAYS}verdienen.",
       "HIDE_STEPS": "Schritte ausblenden",
       "IMPACT_NOTIONAL": "Einfluss nominal",
+      "INSTANTLY_LAUNCH": "Sofort starten {MARKET}",
+      "LAUNCH_A_MARKET": "Einen Markt starten",
+      "LAUNCH_MARKET": "Startmarkt",
+      "LAUNCH_MARKETS": "Märkte starten",
       "LIQUIDITY_TIER": "Liquiditätsstufe",
+      "LIQUIDITY_TIER_IS": "Die Liquiditätsstufe ist {TIER}",
       "LIST_A_NEW_MARKET": "Neuen Markt vorschlagen",
       "LISTINGS_DESCRIPTION": "Angebote auf dYdX sind vollständig von der Community gesteuert. Dieses Tool hilft Ihnen dabei, einen Governance-Vorschlag einzureichen, um einen neuen Markt zu listen.",
+      "MARKET_LAUNCH_DETAILS": "Wählen Sie den Markt aus, den Sie starten möchten, und eine Einzahlung {DEPOSIT_AMOUNT}bei MegaVault vornehmen. Ihre Einzahlung wird einen geschätzten  {APR_PERCENTAGE}APR (basierend auf den letzten Tagen) {PAST_DAYS}verdienen.",
+      "MARKET_LAUNCH_DETAILS_2": "Starten Sie sofort einen neuen Markt auf dYdX Chain, indem Sie {DEPOSIT_AMOUNT}bei MegaVault einzahlen. Ihre Einzahlung wird einen geschätzten  {APR_PERCENTAGE}APR (basierend auf den letzten Tagen) {PAST_DAYS}verdienen.",
+      "MARKET_TO_LAUNCH": "Market bis Launch",
       "MESSAGE_DETAILS": "Nachrichtendetails",
       "MSG_CREATE_CLOB_PAIR": "Msg clobPair erstellen",
       "MSG_CREATE_ORACLE_MARKET": "Msg Oracle-Markt erstellen",
       "MSG_CREATE_PERPETUAL": "Msg perpetual erstellen",
       "MSG_DELAY_MESSAGE": "Msg-Verzögerungsmeldung",
       "MSG_SUBMIT_PROPOSAL": "Msg-Vorschlag einreichen",
-      "NEW_MARKET_PROPOSAL_AGREEMENT": "Durch das Aktivieren des untenstehenden Kästchens erkennen Sie an und verstehen, dass (a) die vorab gefüllte Liste von Märkten keine Billigung eines bestimmten Vermögenswertes oder Marktes widerspiegelt und nicht als Anlage-, Rechts- oder andere Form von professioneller Beratung herangezogen werden sollte; (b) diese Liste ist keine Empfehlung für einen bestimmten Markt und Märkte werden basierend auf Kompatibilitäts- und Funktionsbewertungen aus technischer Sicht unter Verwendung öffentlicher Daten aufgenommen; und (c) Sie werden ermutigt, Ihre eigenen Recherchen durchzuführen und qualifizierten Rechtsbeistand zu konsultieren, um die Einhaltung der Gesetze aller anwendbaren Rechtsordnungen sicherzustellen. Darüber hinaus erkennen Sie an und verstehen, dass Sie durch Klicken auf „Neuen Markt vorschlagen“ einen On-Chain-Governance-Vorschlag erstellen werden. Weitere Informationen zu On-Chain-Governance-Vorschlägen finden Sie auf dieser {DOCUMENTATION_LINK}, die unabhängig von dem Host und Betreiber dieser Website und nicht mit diesem verbunden ist. Die Verwendung dieses Widgets ist in den USA, Kanada und sanktionierten Gerichtsbarkeiten verboten, wie in den {TERMS_OF_USE}dargestellt.",
+      "NEW_MARKET_PROPOSAL_AGREEMENT": "Durch das Aktivieren des untenstehenden Kästchens erkennen Sie an und verstehen, dass (a) die vorab gefüllte Liste von Märkten keine Billigung eines bestimmten Vermögenswertes oder Marktes widerspiegelt und nicht als Anlage-, Rechts- oder andere Form von professioneller Beratung herangezogen werden sollte; (b) diese Liste ist keine Empfehlung für einen bestimmten Markt und Märkte werden basierend auf Kompatibilitäts- und Funktionsbewertungen aus technischer Sicht unter Verwendung öffentlicher Daten aufgenommen; und (c) Sie werden ermutigt, Ihre eigenen Recherchen durchzuführen und qualifizierten Rechtsbeistand zu konsultieren, um die Einhaltung der Gesetze aller anwendbaren Rechtsordnungen sicherzustellen. Darüber hinaus bestätigen und verstehen, dass Sie durch Klicken auf „Neuen Markt vorschlagen“ einen Onchain-Governance-Vorschlag erstellen werden. Weitere Informationen zu Onchain-Governance-Vorschlägen finden Sie auf dieser {DOCUMENTATION_LINK}, die unabhängig von dem Host und Betreiber dieser Website und nicht mit diesem verbunden ist. Die Verwendung dieses Widgets ist in den USA, Kanada und sanktionierten Gerichtsbarkeiten verboten, wie in den {TERMS_OF_USE}dargestellt.",
       "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "Wählen Sie ein Asset aus, bestätigen Sie Details und starten Sie einen Governance-Vorschlag, um der dYdX Chain einen neuen Markt hinzuzufügen. Erfordert  {REQUIRED_NUM_TOKENS}Unstaked {NATIVE_TOKEN_DENOM}.",
+      "NOT_LAUNCHED": "Nicht gestartet",
       "OR_MORE": "{NUMBER} oder mehr",
       "POPULATED_DETAILS": "Ausgefüllte Details",
+      "PREVIEW_LAUNCH": "Vorschau Start",
       "PREVIEW_MARKET_PROPOSAL": "Vorschau des Marktvorschlags",
       "PROPOSAL_DISCLAIMER": "Wenn Sie einen Vorschlag einreichen, {NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}wird dieser von Ihrer Wallet abgezogen. Nach Abschluss der Governance-Abstimmung werden diese Token an Ihr Wallet zurückgegeben, es sei denn, der Vorschlag wird mit einem Veto abgeschlossen.",
       "PROPOSAL_DISCLAIMER_1": "Das Einreichen eines Vorschlags erfordert  {NUM_TOKENS_REQUIRED}Unstaked {NATIVE_TOKEN_DENOM}. Ihr {NATIVE_TOKEN_DENOM}wird für die Dauer des Vorschlags gesperrt. Klicken  Sie {HERE}für weitere Details.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Ihr Vorschlag wurde erfolgreich onchain übermittelt.",
       "PROPOSE_NEW_MARKET": "Neuen Markt vorschlagen",
       "REFERENCE_PRICE": "Referenzpreis",
+      "REQUIRED_AMOUNT_TO_DEPOSIT": "Erforderlicher Betrag zur Einzahlung",
       "REQUIRED_BALANCE": "Erforderliches Guthaben",
       "SHOW_STEPS": "Schritte anzeigen",
       "STEPS_TO_CREATE": "Schritte zur Schaffung eines neuen Marktes",
       "SUBMITTED_PROPOSAL": "Eingereichter Vorschlag!",
       "SUGGEST_NEW_MARKET": "Neuen Markt vorschlagen",
+      "TRADE_INSTANTLY": "Sofortiger Handel",
       "VIEW_PROPOSAL": "Vorschlag anzeigen"
     },
     "COMPLIANCE": {
@@ -2100,14 +2219,14 @@
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Binäre Abrechnung",
-      "BINARY_SETTLEMENT_DESC": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei 0,001 USD abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt.",
+      "BINARY_SETTLEMENT_DESC": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei 0 USD abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt.",
       "LEVERAGE_TRADE_EVENTS": "Hebelwirkung von Handelsereignissen",
       "LEVERAGE_TRADE_EVENTS_CONTINUATION": "Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
       "LEVERAGE_TRADE_US_ELECTION": "Hebelwirkung auf das Ergebnis der US-Wahl",
-      "PREDICTION_MARKET_DESC": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls bei 0,001 USD",
+      "PREDICTION_MARKET_DESC": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls werden sie bei 0 USD abgerechnet.",
       "PREDICTION_MARKETS": "Vorhersagemärkte",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade auf die US-PRäsidentenwahl.",
-      "TRUMPWIN_DESC": "Dies ist ein Prognosemarkt und wird bei 1 USD abgerechnet, wenn Donald J. Trump die US-Präsidentschaftswahlen 2024 gewinnt. Andernfalls bei 0,001 USD{LEARN_MORE} oder {DISMISS}."
+      "TRUMPWIN_DESC": "Dies ist ein Prognosemarkt und wird bei 1 USD abgerechnet, wenn Donald J. Trump die US-Präsidentschaftswahlen 2024 gewinnt. Andernfalls wird bei 0 USD {LEARN_MORE}oder {DISMISS}."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2227,7 +2346,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Ratenlimit für diese IP-Adresse erreicht. Bitte versuchen Sie es später erneut.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Etwas ist schiefgelaufen: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut.",
-      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir die Zeitstempeln bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
+      "TIMESTAMP_DISCREPANCY": "Aus Sicherheitsgründen überprüfen wir die Zeitstempel bei der Authentifizierung Ihres Kontos. Bitte stellen Sie sicher, dass Ihre Systemuhr korrekt synchronisiert ist und aktualisieren Sie die App."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Der Orderbetrag muss ein Vielfaches von {STEP_SIZE} sein.",
@@ -2241,7 +2360,7 @@
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "Ihr Take-Profit-Auslösepreis muss unter dem erwarteten Market-Order-Preis liegen: {EXPECTED_PRICE} USD.",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "Ihr Take-Profit-Auslösepreis liegt zu nahe an Ihrem Abwicklungspreis – die Take-Profit-Order wird möglicherweise nicht vollständig ausgeführt, bevor sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis unter {TRIGGER_PRICE_LIMIT} USD ein.",
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis unter {TRIGGER_PRICE_LIMIT} USD ein oder verwenden Sie eine Stop-Limit-Order.",
-      "INVALID_LARGE_POSITION_LEVERAGE": "Dieser Handel würde zu einer ungültigen Hebelwirkung auf Ihre Position führen. Um das Risiko zu begrenzen, haben größere Positionen niedrigere maximale Hebelwirkung.",
+      "INVALID_LARGE_POSITION_LEVERAGE": "Dieser Handel würde zu einer ungültigen Hebelwirkung auf Ihre Position führen. Um das Risiko zu begrenzen, haben größere Positionen niedrigere maximale Leverages.",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Dieser Handel würde zu einer Margin von über 100 % auf Ihrem Konto führen.",
       "INVALID_NEW_POSITION_LEVERAGE": "Dieser Trade würde zu einer ungültigen Leverage auf Ihre Position führen.",
       "INVALID_SIGNATURE": "Diese Order konnte aufgrund einer ungültigen Signatur nicht eingestellt werden. Ihr Konto ist möglicherweise nicht mehr synchronisiert. Bitte verbinden Sie Ihr Wallet noch einmal und versuchen Sie es erneut.",
@@ -2255,11 +2374,11 @@
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "Diese Order hat eine Preisauswirkung ungleich Null und könnte Ihre Position möglicherweise über die maximale Hebelwirkung bringen. Bitte versuchen Sie es mit einem kleineren Orderbetrag.",
       "NEW_POSITION_SIZE_OVER_MAX": "Dieser Handel könnte zu einem größeren Positionsumfang als dem maximalen Umfang von {MAX_SIZE} {SYMBOL} führen.",
       "NO_EQUITY_DEPOSIT_FIRST": "Sie müssen Geld einzahlen, bevor Sie Orders platzieren können.",
-      "ORDER_BELOW_COLLATERALIZATION": "Dieser Auftrag kann Ihr Konto unter die Besicherungsschwelle dieses Marktes bringen. Bitte versuchen Sie es mit einem kleineren Betrag.",
+      "ORDER_BELOW_COLLATERALIZATION": "Dieser Auftrag kann Ihr Konto möglicherweise unter die Besicherungsschwelle dieses Marktes bringen. Bitte versuchen Sie es mit einem kleineren Betrag.",
       "ORDER_CROSSES_OWN_ORDER": "Diese Bestellung kann eine oder mehrere Ihrer eigenen bestehenden Bestellungen erfüllen. Bitte stornieren Sie widersprüchliche Orders oder passen Sie Ihre Ordermenge an.",
       "ORDER_SIZE_BELOW_MIN_SIZE": "Ihr Orderumfang liegt unter dem Mindestorderumfang von {MIN_SIZE} {SYMBOL}",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "Angesichts Ihrer aktuellen offenen Orders kann diese Order zu einer ungültigen Leverage auf Ihre Position führen. Bitte schließen Sie einige oder alle Orders, die vor dieser Order ausgeführt würden oder reduzieren Sie Ihre Ordergröße.",
-      "ORDER_WOULD_FLIP_POSITION": "Diese Order würde Ihre Position umkehren oder erhöhen. Bitte deaktivieren Sie „Nur reduzieren“ oder reduzieren Sie Ihre Ordergröße.",
+      "ORDER_WOULD_FLIP_POSITION": "Diese Order würde Ihre Position umkehren oder erhöhen. Bitte deaktivieren Sie „Nur Reduzierung“ oder reduzieren Sie Ihre Ordergröße.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis über {TRIGGER_PRICE_LIMIT} ein oder verwenden Sie eine Stop-Limit-Order.",
       "TAKER_FEE_INVALID": "Möglicherweise haben sich Ihre Gebührensätze geändert Bitte aktualisieren Sie die App und versuchen Sie es erneut.",
       "TARGET_LEVERAGE_NEGATIVE": "Ihre Ziel-Hebelwirkung kann nicht negativ sein. Bitte geben Sie eine positive Zahl ein.",
@@ -2272,9 +2391,10 @@
       "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "Dieser Auftrag würde Sie über das Limit der {LIMIT}offenen Aufträge für Ihre Aktienstufe bringen. Die nächste Aktienstufe liegt bei {EQUITY}.",
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Dieser Auftrag würde Sie über das Limit der {LIMIT}offenen Aufträge bringen.",
       "WOULD_NOT_REDUCE": "Ihre Position wird nicht reduziert, wenn die Order ausgeführt wird.",
-      "WOULD_NOT_REDUCE_UNCHECK": "Ihre Position würde mit dieser Order nicht reduziert werden. Bitte deaktivieren Sie „Nur reduzieren“, wenn Sie Ihre Bestellung aufgeben möchten.",
+      "WOULD_NOT_REDUCE_UNCHECK": "Ihre Position würde bei dieser Order nicht reduziert werden. Bitte deaktivieren Sie „Nur reduzieren“, wenn Sie Ihre Bestellung aufgeben möchten.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Good Til überschreitet die maximale Dauer von 90 Tagen.",
-      "POSITION_LEVERAGE_OVER_MAX": "Die resultierende Positionshebelwirkung würde über der maximalen Hebelwirkung für diesen Markt liegen."
+      "POSITION_LEVERAGE_OVER_MAX": "Die resultierende Positionshebelwirkung würde über der maximalen Hebelwirkung für diesen Markt liegen.",
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Ihre Order liegt unter der Mindestsicherheitsanforderung für isolierte Margin-Orders. Isolierte Margin-Orders erfordern {MIN_VALUE}mindestens Sicherheiten."
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "Step Size",
@@ -2327,7 +2447,16 @@
       "CONNECT_WALLET_TO_TRADE": "Wallet verbinden",
       "DEPOSIT_TO_TRADE": "Einzahlung",
       "USER_MAX_ORDERS": "Zu viele offene Aufträge",
-      "INVALID_GOOD_TIL": "Ungültiger Good Til"
+      "INVALID_GOOD_TIL": "Ungültiger Good Til",
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Unterhalb der Mindestgröße"
+    },
+    "TRADING_VIEW": {
+      "ORDER_MODIFICATION_ERROR_LIMIT_PRICE_CROSS": "Das Ziehen von Limit-Orders über den aktuellen Preis ist nicht erlaubt",
+      "ORDER_MODIFICATION_ERROR_USE_TRADE_FORM": "Um eine Order sofort auszuführen, verwenden Sie das Handelsformular.",
+      "ORDER_MODIFICATION_ERROR_SL_PRICE_HIGHER": "Der Stop-Loss-Preis muss höher als der aktuelle Preis sein.",
+      "ORDER_MODIFICATION_ERROR_SL_PRICE_LOWER": "Der Stop-Loss-Preis muss niedriger als der aktuelle Preis sein.",
+      "ORDER_MODIFICATION_ERROR_TP_PRICE_HIGHER": "Der Take-Profit-Preis muss höher als der aktuelle Preis sein.",
+      "ORDER_MODIFICATION_ERROR_TP_PRICE_LOWER": "Der Take-Profit-Preis muss niedriger als der aktuelle Preis sein."
     },
     "TRIGGERS_FORM": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis unter {TRIGGER_PRICE_LIMIT}ein.",
@@ -2380,7 +2509,7 @@
       "INDETERMINISTIC_SIGNING": "Ihre Wallet unterstützt keine deterministische Signierung. Bitte wechseln Sie zu einem anderen Wallet-Anbieter.",
       "INVALID_EMAIL": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
       "INVALID_USERNAME": "Benutzernamen müssen mit einem Buchstaben beginnen, weniger als 24 Zeichen lang sein und dürfen nur Buchstaben, Zahlen und Unterstriche enthalten.",
-      "KEY_RECOVERY_FAILED": "Schlüsselwiederherstellung fehlgeschlagen. Versuchen Sie es erneut mit aktivierter „Legacy Signing“.",
+      "KEY_RECOVERY_FAILED": "Schlüsselwiederherstellung fehlgeschlagen. Versuchen Sie es erneut mit aktiviertem „Legacy Signing“.",
       "LEDGER_U2F_REQUIRED": "Für Ledger-Verbindungen ist U2F-Browserunterstützung erforderlich. Bitte stellen Sie sicher, dass diese Funktion in Ihrem aktuellen Browser unterstützt wird.",
       "PRICE_IMPACT_TOO_HIGH": "Es gibt nicht genügend Liquidität für den angeforderten Betrag, die resultierende Slippage übersteigt unser sicheres Limit.",
       "USERNAME_TAKEN": "Dieser Benutzername ist bereits vergeben.",
@@ -2399,7 +2528,7 @@
       "MAX_FAST_WITHDRAW_AMOUNT": "Geben Sie bitte einen Auszahlungsbetrag von weniger als {MAX_FAST_WITHDRAW_AMOUNT} ein.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Der Betrag für langsame Auszahlungen muss größer oder gleich 10 oder Ihr gesamter Kontostand sein.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Ihr Konto ist eingeschränkt. Sie müssen alle Ihre Positionen schließen, bevor Sie abheben können.",
-      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten abheben. Stellen Sie sicher, dass Sie die Gebühr für schnelle Auszahlungen einberechnen, wenn Sie einen Betrag eingeben.",
+      "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten abheben. Stellen Sie sicher, dass Sie die Schnellabhebungsgebühr berücksichtigen, wenn Sie einen Betrag eingeben.",
       "WITHDRAW_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Bitte geben Sie eine Zieladresse ein.",
       "WITHDRAW_MUST_SPECIFY_ASSET": "Bitte wählen Sie ein Asset aus, auf das Sie auszahlen möchten.",
@@ -2409,7 +2538,7 @@
       "AMOUNT_MINIMUM_ERROR": "Der Betrag muss größer als {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "Ungültige dYdX-Kettenadresse.",
       "TRANSFER_INVALID_ETH_ADDRESS": "Wir konnten kein mit dieser Wallet-Adresse verknüpftes Konto finden.",
-      "TRANSFER_MORE_THAN_FREE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten übertragen.",
+      "TRANSFER_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten übertragen.",
       "TRANSFER_TO_YOURSELF": "Sie können keine direkte Überweisung an Ihre eigene Wallet-Adresse durchführen.",
       "TRANSFER_INSUFFICIENT_GAS": "Das  {TOKEN}Guthaben ( {BALANCE}{TOKEN}) in Ihrem Ketten-Wallet deckt möglicherweise nicht die Transaktionsgebühren. Bitte zahlen Sie mehr ein.",
       "TRANSFER_WITHOUT_MEMO": "Wenn Sie an eine zentralisierte Börse ohne das Memo überweisen, das sie zur Verfügung gestellt haben, können Sie zu einem Verlust von Geldern führen."
