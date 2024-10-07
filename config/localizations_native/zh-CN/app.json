@@ -64,6 +64,7 @@
       "NETWORK": "网络",
       "NEWS": "新闻",
       "NICE": "好！",
+      "NOT_NOW": "现在不行",
       "NO_RESULTS": "没有结果",
       "OF": "第{ITEM1}个，共{ITEM2}个",
       "OK": "好的",
@@ -311,9 +312,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "仅平仓模式",
-      "CLOSE_ONLY_BODY": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。您必须在 {DATE} 之前提取资金，以免无法访问应用程序。 请访问网站界面，查看后续步骤。 如果您认为有错误，请发送电子邮件至 {EMAIL}。",
+      "CLOSE_ONLY_BODY": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。您必须在 {DATE} 之前提取资金，以免无法访问应用程序。 请访问网站界面，查看后续步骤。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_TITLE": "永久禁止",
-      "PERMANENTLY_BLOCKED_BODY": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请发送电子邮件至 {EMAIL}"
+      "PERMANENTLY_BLOCKED_BODY": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。"
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "账户受限",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "请在您的应用设置中更新通知。",
       "PERMIT": "许可证",
       "GO_TO_SETTINGS": "前往设置",
-      "PRIMER_TITLE": "获取推送警报",
-      "PRIMER_MESSAGE": "启用推送通知，以便在交易状态更改时收到提醒。"
+      "PRIMER_TITLE": "打开通知",
+      "PRIMER_MESSAGE": "随时了解您的订单和仓位。",
+      "ENABLED": "通知已打开",
+      "DISABLED": "已禁用通知",
+      "DISABLED_BODY": "在设置中开启通知。"
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "在 @dYdX 上查看我的个人资料！",
