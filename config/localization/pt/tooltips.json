@@ -12,6 +12,12 @@
       "BODY": "Use \"Lembrar-me\" se você estiver usando um dispositivo seguro. Selecionar esta opção pode expor suas chaves e informações a outros se você estiver em um dispositivo público ou não seguro."
     }
   },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Comissões de afiliados",
+      "BODY": "Percentagem de comissão de taxas taker."
+    }
+  },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Desconto nos Hedgies",
@@ -103,6 +109,10 @@
       "TITLE": "Alavancagem",
       "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Fechamento limite",
+      "BODY": "Um fechamento do limite pode não acontecer instantaneamente e só será executado quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu posição."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
       "BODY": "Esta ordem só poderá ser executada ao preço limite especificado, ou melhor. Se sua ordem cruza no momento da colocação e executará quaisquer ordens que cruzarem ao preço mais favorável."
@@ -161,7 +171,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Preço de Oracle",
-      "BODY": "A alavancagem e as liquidações são determinadas com base no preço de oracle on-chain. O preço do oracle agrega os dados de preço de várias exchanges, protegendo você de eventos como flash crashes."
+      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo onchain. O preço do oracle agrega os dados de preço de várias exchanges, protegendo você de eventos como flash crashes."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
@@ -360,7 +370,7 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Habilite ou desabilite os dados de OHLC por preço médio. Desabilitar isso exibirá apenas dados de OHLC de trades históricos."
+      "BODY": "Habilite ou desabilite os dados de OHLC (abertura-alta-baixa-fechamento) por preço médio. Desabilitar isso exibirá apenas dados de OHLC de trades históricos."
     }
   },
   "NEW_MARKET_WIDGET": {
