@@ -64,6 +64,7 @@
       "NETWORK": "Réseau",
       "NEWS": "Nouvelles",
       "NICE": "Super !",
+      "NOT_NOW": "Pas maintenant",
       "NO_RESULTS": "Pas de résultat",
       "OF": "{ITEM1}de {ITEM2}",
       "OK": "OK",
@@ -311,9 +312,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Mode fermeture seule",
-      "CLOSE_ONLY_BODY": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu’a {DATE} pour retirer vos fonds avant que votre accès à l’application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'une erreur s'est produite, veuillez envoyer un courriel {EMAIL}à",
+      "CLOSE_ONLY_BODY": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu’a {DATE} pour retirer vos fonds avant que votre accès à l’application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqué définitivement",
-      "PERMANENTLY_BLOCKED_BODY": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez envoyer un courriel à{EMAIL}"
+      "PERMANENTLY_BLOCKED_BODY": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Compte restreint",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Veuillez mettre à jour les notifications dans les paramètres de votre application.",
       "PERMIT": "Permettre",
       "GO_TO_SETTINGS": "Aller dans Paramètres",
-      "PRIMER_TITLE": "Recevoir des alertes Push",
-      "PRIMER_MESSAGE": "Activez la notification push pour recevoir des alertes lorsque le statut de votre transaction change."
+      "PRIMER_TITLE": "Activer les notifications",
+      "PRIMER_MESSAGE": "Restez à jour sur vos ordres et vos positions.",
+      "ENABLED": "Notifications activées",
+      "DISABLED": "Notifications désactivées",
+      "DISABLED_BODY": "Activez-les dans les paramètres."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Consultez mon profil sur @dYdX!",
