@@ -2,7 +2,7 @@
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
       "TITLE": "Verdiente Prämie",
-      "BODY": "Sie haben eine {BLOCK_REWARD_AMOUNT}{TOKEN_NAME}Handelsprämie verdient."
+      "BODY": "Sie haben eine {BLOCK_REWARD_AMOUNT}{TOKEN_NAME} Handelsprämie verdient."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Aktualisiertes bedingtes Order-Erlebnis!",
@@ -14,11 +14,11 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
-      "BODY": "Machen Sie Ihre Trading-Reise so gut wie möglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback teilen. Die Plätze sind begrenzt, also klicken Sie, um sich zu registrieren oder mehr{HERE_LINK} zu erfahren!"
+      "BODY": "Gestalten Sie Ihre Trading Journey bestmöglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback bereitstellen. Die Plätze sind begrenzt. Klicken Sie hier, {HERE_LINK} um sich zu registrieren bzw. mehr zu erfahren!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position abgewickelt",
-      "BODY": "{MARKET} ist geschlossen. Ihre {SIDE}-Position bei {MARKET} hat die Endabrechnung erreicht."
+      "BODY": "{MARKET} ist geschlossen. Ihre {SIDE} Position auf {MARKET} hat die Endabrechnung erreicht."
     },
     "FOK_DEPRECATION": {
       "TITLE": "FOK-Orders veraltet",
@@ -31,6 +31,10 @@
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Die Saison {SEASON_NUMBER}hat begonnen!",
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
+    },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "Die Saison {SEASON_NUMBER}ist beendet!",
+      "BODY": "Vielen Dank für die Teilnahme am Anreizprogramm zum Start. Bleiben Sie gespannt auf Updates zu zukünftigen Prämienprogrammen!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "Isolierte Marge ist live",
@@ -45,7 +49,7 @@
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde verwendet, um eine entschuldete Position auszugleichen."
     },
     "ORDER_FILL": {
-      "TITLE": "Auftrag ausgefüllt",
+      "TITLE": "Auftrag ausgeführt",
       "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
     },
     "ORDER_PARTIAL_FILL": {
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Schnell-Auszahlung erfolgreich",
       "BODY": "Ihre schnelle Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "Handeln Sie SOL-USD mit 20-facher Hebelwirkung",
+      "BODY": "SOL-USD und alle Isolated Markets können jetzt mit einer bis zu 20-fachen Hebelwirkung gehandelt werden."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Prämien und Handel sind live auf dYdX Chain!",
@@ -165,13 +173,21 @@
       "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wurde entfernt."
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "Möchten Sie mehr Unterstützung?",
-      "BODY": "Vielen Dank, dass Sie ein großer Trader auf dYdX sind! Das Team möchte Ihnen ein höheres Maß an personalisiertem Support und die Möglichkeit bieten, sich direkt mit ihnen zu verbinden.",
+      "TITLE": "Wünschen Sie mehr Unterstützung?",
+      "BODY": "Vielen Dank, dass Sie ein starker Trader auf dYdX sind! Das Team möchte Ihnen ein höheres Maß an persönlicher Unterstützung bereitstellen sowie die Möglichkeit bieten, sich direkt mit ihm in Verbindung zu setzen.",
       "ACTION": "Kontakt aufnehmen →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20 K USD Giveaway",
       "BODY": "Zur Feier des Überschreitens des kumulativen Handelsvolumens von 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen.100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt{HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET} Marktabschwächung",
+      "BODY": "Am {DATE} hat sich der {MARKET} Markt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live-Vorschlag zur Ababschwächung des {MARKET} Marktes",
+      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen {MARKET}wird, wird der Markt in die En{DATE}dabrechnung am [Datum] eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} und  {MARKET_2}Märkte rückläufig",
@@ -188,6 +204,14 @@
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Handel auf das Ergebnis der US-Prässidentenwahl!",
       "BODY": "{MARKET} ist jetzt live. Dieser Markt wird sich bei 1 USD einpendeln, wenn Donald J. Trump die Wahl 2024 gewinnt. Andernfalls bei 0,001"
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX unterstützt jetzt auch Keplr!",
+      "BODY": "Sie können jetzt dYdX mit Ihrem Keplr-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX unterstützt jetzt Phantom!",
+      "BODY": "Sie können jetzt dYdX mit Ihrer Phantom-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
     }
   }
 }
