@@ -32,6 +32,10 @@
       "TITLE": "La saison {SEASON_NUMBER}a commencé !",
       "BODY": "Au cours de la saison {PREV_SEASON_NUMBER}, les récompenses médianes gagnées étaient  {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC) !"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "La saison {SEASON_NUMBER}est terminée !",
+      "BODY": "Merci de participer au programme d'incitation au lancement. Restez à l'écoute pour les mises à jour sur les futurs programmes de récompenses !"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "La marge isolée a été lancée",
       "BODY": "La marge isolée est maintenant en ligne ! Pour en savoir plus, rendez-{LEARN_MORE}vous "
@@ -66,11 +70,11 @@
     },
     "LIQUIDATION": {
       "TITLE": "Position liquidée",
-      "BODY": "Votre positition {SIDE}sur {MARKET} a été liquidée."
+      "BODY": "Votre position sur  a été liquidée.{SIDE}{MARKET}"
     },
     "POSITION_CLOSED": {
       "TITLE": "Position fermée",
-      "BODY": "Votre positition sur  {MARKET}a été liquidée."
+      "BODY": "Votre positition sur  a été liquidée.{MARKET}"
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Dépôt réussi",
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Retrait rapide réussi",
       "BODY": "Votre retrait rapide de {AMOUNT}{ASSET} a été confirmé."
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "Trader SOL-USD avec un effet de levier 20x",
+      "BODY": "SOL-USD et tous les marchés isolés sont maintenant disponibles pour le trading avec un effet de levier allant jusqu'à 20x."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Les récompenses et le trading sont en direct sur la chaîne dYdX !",
@@ -173,6 +181,14 @@
       "TITLE": "Prix de 20 000 $ à gagner",
       "BODY": "Afin de célébrer le dépassement de 200 milliards de dollars en volume de trading cumulés , dYdX organise un tirage au sort sur Twitter , où vous pourrez remporter 200 {HERE_LINK}dollars. 100 gagnants seront sélectionnés au hasard après le 16 Août 2024 ,  23:59 TU"
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": " Le marché s'est effrondré{MARKET}",
+      "BODY": "Le {DATE}, le {MARKET}marché a fait l'objet d'un règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Proposition en direct pour la fermeture du {MARKET}marché",
+      "BODY": "Il existe actuellement une proposition en direct pour fermer le {MARKET}marché. Si elle est adoptée le {MARKET}marché entrera dans le règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Les marchés {MARKET_1} et {MARKET_2} ont chuté",
       "BODY": "Le {DATE}, les marchés {MARKET_1} et {MARKET_2} ont été soumis au règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
@@ -187,7 +203,15 @@
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Comment trader les élections présidentielles américaines!",
-      "BODY": "{MARKET}est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement , il s'établira à 0.001$."
+      "BODY": "{MARKET}est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX prend maintenant en charge Keplr !",
+      "BODY": "Vous pouvez maintenant lier et utiliser dYdX avec votre portefeuille Keplr ! Essayez-le maintenant."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX prend maintenant en charge Phantom !",
+      "BODY": "Vous pouvez maintenant brancher et utiliser dYdX avec votre portefeuille Phantom ! Essayez-le maintenant."
     }
   }
 }
