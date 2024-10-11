@@ -28,13 +28,13 @@
       "AUTHENTICATE_WITH_FACE_ID": "Autenticar com Face ID",
       "AUTHENTICATE_WITH_TOUCH_ID": "Autenticar com ID de toque",
       "AUTHENTICATE_WITH_BIOMETRICS": "Autenticar com biometria",
-      "AUTHENTICATE_TO_PROCEED": "Autenticar para acessar sua conta na dYdX",
+      "AUTHENTICATE_TO_PROCEED": "Autenticar para acessar sua conta dYdX",
       "CANDLES": "Velas",
       "CONNECT_WALLET_TEXT": "Certifique de selecionar a conta correta de sua carteira.",
       "COUNTRY": "País",
       "DESTINATION": "Destino",
       "DOCS": "Doctos.",
-      "DONT_SHOW_AGAIN": "Não me mostre isso novamente",
+      "DONT_SHOW_AGAIN": "Não mostrar isso novamente",
       "EARN": "Você ganhará",
       "ERROR": "Erro",
       "FAILED": "Falha",
@@ -64,6 +64,7 @@
       "NETWORK": "Rede",
       "NEWS": "Notícias",
       "NICE": "Ótimo!",
+      "NOT_NOW": "Não agora",
       "NO_RESULTS": "Nenhum resultado",
       "OF": "{ITEM1} de {ITEM2}",
       "OK": "OK",
@@ -179,7 +180,7 @@
       "DEPOSIT_GAS_FREE": "Este depósito não terá cobrança de taxa de “gas”!",
       "DEPOSIT_CONNECT": "Você receberá uma solicitação de conexão.",
       "DEPOSIT_OVERVIEW": "Você receberá uma solicitação de conexão e duas solicitações de transação.",
-      "DEPOSIT_AVAILABLE": "O depósito atende requisito de depósito sem cobrança de tarifa mínimo de {DOLLAR_AMOUNT}. A dYdX cobrirá as taxas de gás para este depósito. Seu limite é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
+      "DEPOSIT_AVAILABLE": "O depósito atende requisito de depósito sem cobrança de tarifa mínimo de {DOLLAR_AMOUNT}. A dYdX cobrirá as taxas de \"gas\" para este depósito. Seu limite é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Sujeito a estas regras",
       "MINIMUM_DEPOSIT_MET": "Ótimo! O depósito atende requisito de depósito sem cobrança de tarifa mínimo de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. A dYdX cobrirá as taxas de gás para este depósito. {DEPOSIT_SUBJECT_TO_RULES}",
       "MINIMUM_DEPOSIT_UNMET": "O valor do seu depósito está abaixo do mínimo para depósitos sem cobrança de tarifa. Deposite mais de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} e a dYdX pagará as taxas de gás para este depósito. Você também pode continuar com esse depósito e pagar suas próprias tarifas de gás. {DEPOSIT_SUBJECT_TO_RULES}",
@@ -311,9 +312,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Modo Somente fechamento",
-      "CLOSE_ONLY_BODY": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes que seu acesso ao aplicativo ser bloqueado. Visite a interface da web para ver as próximas etapas. Se você acredita que houve um erro, envie um e-mail para {EMAIL}.",
+      "CLOSE_ONLY_BODY": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes que seu acesso ao aplicativo ser bloqueado. Visite a interface da web para ver as próximas etapas. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqueado permanentemente",
-      "PERMANENTLY_BLOCKED_BODY": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, envie um e-mail para {EMAIL}"
+      "PERMANENTLY_BLOCKED_BODY": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Conta restrita",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Atualize as notificações nas configurações do aplicativo.",
       "PERMIT": "Permitir",
       "GO_TO_SETTINGS": "Ir a Configurações",
-      "PRIMER_TITLE": "Obter Alertas Push",
-      "PRIMER_MESSAGE": "Habilite notificações push e obtenha alertas quando o status da transação for alterado."
+      "PRIMER_TITLE": "Ativar notificações",
+      "PRIMER_MESSAGE": "Mantenha-se atualizado sobre suas ordens e posições.",
+      "ENABLED": "Notificações ativadas",
+      "DISABLED": "Notificações desativadas",
+      "DISABLED_BODY": "Ative-as nas configurações."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Confira meu perfil em @dYdX!",
@@ -424,10 +428,10 @@
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "Mercados de previsão",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Negocie com alavancagem na eleição dos EUA",
-      "WITH_PREDICTION_MARKETS": "com Mercados de previsão",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Aposte na eleição dos EUA",
+      "WITH_PREDICTION_MARKETS": "com Mercados de Previsões",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Os mercados de previsão serão liquidados em US$ 1 se o evento ocorrer conforme previsto. Caso contrário, eles serão liquidados em US$ 0.",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Aproveitar resultados de eventos de trade",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Alavancagem dos Resultados de Eventos de Trade",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sobre uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidação de US$ 0 ou US$ 1",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
