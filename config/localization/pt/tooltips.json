@@ -1,7 +1,10 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
       "BODY": "Seu endereço de cadeia dYdX \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Ethereum \"{EVM_ADDRESS}\"."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "Seu endereço da cadeia dYdX \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Solana \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
@@ -12,10 +15,16 @@
       "BODY": "Use \"Lembrar-me\" se você estiver usando um dispositivo seguro. Selecionar esta opção pode expor suas chaves e informações a outros se você estiver em um dispositivo público ou não seguro."
     }
   },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Comissões de Afiliados",
+      "BODY": "Percentagem de comissão das taxas de taker."
+    }
+  },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Desconto nos Hedgies",
-      "BODY": "Ter um {NFT} vai aumentar seu nível de desconto de taxa uma vez. Ter vários não tem um efeito adicional."
+      "BODY": "Ter um {NFT} vai aumentar seu nível de desconto de taxa em uma unidade. Ter vários não gera efeito adicional."
     }
   },
   "TRADE": {
@@ -37,7 +46,7 @@
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Take profit",
-      "BODY": "O preço de disparo atual para executar uma ordem de Take Profit em relação a esta ordem Bracket."
+      "BODY": "O preço de disparo atual para executar uma ordem de Take Profit em relação a esta ordem bracket."
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
@@ -60,7 +69,7 @@
       "BODY": "Sua ordem preencherá quaisquer ordens cruzadas no momento da abertura. Se sua ordem não for totalmente executada, ela permanecerá aberta até que seja executada, cancelada ou expire."
     },
     "EQUITY": {
-      "TITLE": "Equidade",
+      "TITLE": "Patrimônio",
       "BODY": "Valor total da sua conta."
     },
     "EXPECTED_PRICE": {
@@ -76,8 +85,8 @@
       "BODY": "As ordens Fill or Kill devem ser completamente preenchidas após a execução ou elas serão canceladas automaticamente."
     },
     "FREE_COLLATERAL": {
-      "TITLE": "Garantia gratuita",
-      "BODY": "O valor máximo que você pode sacar. Quando a garantia gratuita é 0 ou negativa, sua conta está usando a alavancagem máxima."
+      "TITLE": "Sem garantia",
+      "BODY": "O valor máximo que você pode sacar. Quando o valor sem garantia é 0 ou negativo, sua conta está usando a alavancagem máxima."
     },
     "GOOD_TIL": {
       "TITLE": "Good Til",
@@ -88,8 +97,8 @@
       "BODY": "Sua ordem executará quaisquer ordens cruzadas no momento da abertura e então cancelará qualquer valor de ordem não executada."
     },
     "INDEX_PRICE": {
-      "TITLE": "Preço de Oracle",
-      "BODY": "As ordens Stop são acionadas com base no preço do oráculo. O preço do oracle agrega os dados de preço de várias exchanges, protegendo você de eventos como flash crashes."
+      "TITLE": "Preço do oráculo",
+      "BODY": "As ordens Stop são acionadas com base no preço do oráculo. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
@@ -103,6 +112,10 @@
       "TITLE": "Alavancagem",
       "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Fechamento limite",
+      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu posição."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
       "BODY": "Esta ordem só poderá ser executada ao preço limite especificado, ou melhor. Se sua ordem cruza no momento da colocação e executará quaisquer ordens que cruzarem ao preço mais favorável."
@@ -113,7 +126,7 @@
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
-      "BODY": "A diferença percentual entre seu preço de gatilho e o preço limite."
+      "BODY": "A diferença percentual entre seu preço de disparo e o preço limite."
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Preço de liquidação",
@@ -121,7 +134,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Preço de liquidação",
-      "BODY": "Se o preço de oracle da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+      "BODY": "Se o preço de oráculo da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
@@ -160,8 +173,8 @@
       "BODY": "Os contratos em aberto representam o tamanho total de todas as posições abertas neste mercado."
     },
     "ORACLE_PRICE": {
-      "TITLE": "Preço de Oracle",
-      "BODY": "A alavancagem e as liquidações são determinadas com base no preço de oracle on-chain. O preço do oracle agrega os dados de preço de várias exchanges, protegendo você de eventos como flash crashes."
+      "TITLE": "Preço do oráculo",
+      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo onchain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
@@ -189,30 +202,30 @@
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto do preço",
-      "BODY": "A diferença entre o preço de execução esperado para sua ordem e a melhor ordem na compra ou venda. Isso aumentará quanto a trades maiores."
+      "BODY": "A diferença entre o preço de execução esperado para sua ordem e a melhor ordem na compra ou venda. Essa diferença será maior para trades maiores."
     },
     "REALIZED_PNL": {
       "TITLE": "Lucro\/perda realizados",
       "BODY": "Lucro\/perda totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
     },
     "REDUCE_ONLY": {
-      "TITLE": "Apenas redução",
-      "BODY": "A opção Apenas redução impede que um pedido altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
+      "TITLE": "Reduce-Only",
+      "BODY": "A opção Reduce-Only impede que uma ordem altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
-      "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível somente se o Tempo em vigor estiver definido como IOC."
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only está disponível somente se o Tempo em vigor estiver definido como IOC."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
-      "TITLE": "Apenas redução",
-      "BODY": "Apenas redução está disponível somente se a Execução estiver definida como IOC."
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only está disponível somente se a execução estiver definida como IOC."
     },
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a vender) de um ativo."
     },
     "STEP_SIZE": {
-      "TITLE": "Tamanho do valor",
+      "TITLE": "Intervalo de aumento\/redução",
       "BODY": "O intervalo de aumento\/redução é o menor fator permitido a valores de ordem neste mercado."
     },
     "STOP_LOSS": {
@@ -221,7 +234,7 @@
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss acima do preço de liquidação",
-      "BODY": "O preço stop-loss subiu acima do preço da liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
+      "BODY": "O preço stop-loss subiu acima do preço de liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss abaixo do preço de liquidação",
@@ -240,8 +253,8 @@
       "BODY": "A alavancagem alvo definida como {TARGET_LEVERAGE}×, que determina o valor de margem usado para sua próxima ordem."
     },
     "TICK_SIZE": {
-      "TITLE": "Tamanho do tick",
-      "BODY": "O tamanho do tick é o movimento de preço mínimo neste mercado."
+      "TITLE": "Valor de tick",
+      "BODY": "O valor de tick é o movimento de preço mínimo neste mercado."
     },
     "TIME_IN_FORCE": {
       "TITLE": "Tempo em vigor",
@@ -249,7 +262,7 @@
     },
     "TRAILING_PERCENT": {
       "TITLE": "Porcentagem de trailing",
-      "BODY": "A porcentagem de trailing define o percentual no qual seu preço de stop fará o \"trailing\" do preço do oráculo. Sempre que o preço do oráculo se mover a favor da sua posição, o preço de parada da sua ordem será atualizado conforme o seu percentual de trailing especificado."
+      "BODY": "A porcentagem de trailing define o percentual no qual seu preço de stop fará o \"trailing\" do preço do oráculo. Sempre que o preço do oráculo se mover a favor da sua posição, o preço de stop da sua ordem será atualizado conforme o seu percentual de trailing especificado."
     },
     "TRIGGER_PRICE": {
       "TITLE": "Preço de disparo",
@@ -309,7 +322,7 @@
   },
   "TRIGGER_ORDERS": {
     "UNEQUAL_ORDER_SIZES": {
-      "TITLE": "Volumes de ordens desiguais",
+      "TITLE": "Volumes desiguais de ordem",
       "BODY": "Suas ordens de take profit e stop loss têm volumes diferentes. Para fazer edições no volume da ordem, cancele e emita novamente as ordens."
     }
   },
@@ -360,13 +373,33 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Habilite ou desabilite os dados de OHLC por preço médio. Desabilitar isso exibirá apenas dados de OHLC de trades históricos."
+      "BODY": "Habilite ou desabilite os dados de OHLC (open-high-low-close) via preço médio. Desabilitar isso exibirá apenas dados de OHLC de trades históricos."
     }
   },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Preço de referência",
       "BODY": "O Preço de referência é a média contínua de 30 dias do preço de mercado e é usado como uma entrada para calcular automaticamente os parâmetros do mercado na Cadeia dYdX. O preço de referência deve ser aproximadamente o mesmo que o preço atual do mercado (ex.: arredondado para baixo, para as mesmas potências de 10)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "Este valor é autorrelatado na CoinMarketCap"
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "O valor estimado a receber ao fazer o saque, sendo o valor da retirada menos o valor estimado de slippage. Este valor é uma estimativa com base nas condições atuais. O valor real pode ser diferente com base nas condições reais no momento de execução."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "O valor estimado de slippage ao fazer o saque. A slippage vem da necessidade do cofre em atualizar as posições atuais para liberar a margem para atender ao valor do saque. Este valor é uma estimativa com base nas condições atuais. O valor real pode ser diferente com base nas condições reais no momento de execução."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "O valor que você pode sacar, que é o saldo do seu cofre menos qualquer valor bloqueado para novas listagens de mercado."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "O valor atual de seus depósitos. Isso é calculado com base no capital e nas posições atuais do cofre."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
     }
   }
 }
