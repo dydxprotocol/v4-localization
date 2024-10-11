@@ -64,6 +64,7 @@
       "NETWORK": "Ağ",
       "NEWS": "Haberler",
       "NICE": "Harika!",
+      "NOT_NOW": "Şimdi değil",
       "NO_RESULTS": "Sonuç yok",
       "OF": "{ITEM1}\/{ITEM2}",
       "OK": "TAMAM",
@@ -311,9 +312,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Sadece kapatma modu",
-      "CLOSE_ONLY_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Uygulamaya erişiminiz engellenmeden önce paranızı çekmek için {DATE} tarihine kadar vaktiniz bulunuyor. Sonraki adımları görmek için lütfen web arayüzünü ziyaret edin. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin.",
+      "CLOSE_ONLY_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden alım-satım yaptığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz. Uygulamaya erişiminiz engellenmeden önce paranızı çekmek için {DATE} tarihine kadar vaktiniz bulunuyor. Sonraki adımları görmek için lütfen web arayüzünü ziyaret edin. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin.",
       "PERMANENTLY_BLOCKED_TITLE": "Kalıcı olarak engellendi",
-      "PERMANENTLY_BLOCKED_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {EMAIL} adresine bir e-posta gönderin"
+      "PERMANENTLY_BLOCKED_BODY": "Kullanım şartlarımızı ihlal eden bir yargı bölgesinde bulunduğunuz veya bu bölgeden işlem yaptığınız için ve daha önce tarafınıza hesabınızda kısıtlanmaya yol açan durumları telafi etme fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Hesap Kısıtlandı",
@@ -339,8 +340,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Lütfen uygulama ayarlarınızdan bildirimleri güncelleyin.",
       "PERMIT": "İzin",
       "GO_TO_SETTINGS": "Ayarlara gidin",
-      "PRIMER_TITLE": "Anlık Uyarı Alın",
-      "PRIMER_MESSAGE": "İşlem durumunuz değiştiğinde uyarı almak için anlık bildirimleri etkinleştirin."
+      "PRIMER_TITLE": "Bildirimleri aç",
+      "PRIMER_MESSAGE": "Emirleriniz ve pozisyonlarınız hakkında güncel kalın.",
+      "ENABLED": "Bildirimler açık",
+      "DISABLED": "Bildirimler devre dışı bırakıldı",
+      "DISABLED_BODY": "Ayarlarda açın."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "@dYdX üzerindeki profilime göz atın!",
