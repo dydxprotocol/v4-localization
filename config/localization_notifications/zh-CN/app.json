@@ -32,6 +32,10 @@
       "TITLE": "赛季 {SEASON_NUMBER} 已经开始！",
       "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "{SEASON_NUMBER}季结束了！",
+      "BODY": "感谢您参与启动激励计划。敬请关注未来奖励计划的更新！"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "逐仓保证金已上线",
       "BODY": "逐仓保证金现已上线！要了解更多信息，请访问 {LEARN_MORE}。"
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "快速提现成功",
       "BODY": "您对{AMOUNT} {ASSET}的快速提现已被确认。"
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "使用 20 倍杠杆交易 SOL-USD",
+      "BODY": "SOL-USD 和所有独立市场现在都可以进行高达 20 倍杠杆的交易。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "奖励和交易功能已在 dYdX Chain 上线！",
@@ -173,6 +181,14 @@
       "TITLE": "$20K 赠品",
       "BODY": "为了庆祝累计交易量超过200亿，dYdX正在举办Twitter赠品活动，您有机会领取200美元。2024年8月16日23:59 UTC之后，将根{HERE_LINK}据随机选择机制选出100名获奖者。"
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET}市场清盘",
+      "BODY": "于 {DATE}，{MARKET} 市场通过最终结算。现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "关于{MARKET}市场清盘的现场提案",
+      "BODY": "目前有一个关于逐步关闭市场的{MARKET}现场提案。如果通过，{MARKET}市场将在{DATE}最终结算。现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
       "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
@@ -188,6 +204,14 @@
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "参与美国总统大选交易！",
       "BODY": "{MARKET} 现已上线。 如果唐纳德·J·特朗普赢得2024年大选，这个市场将结算为1美元。 否则，它将以0.001美元结算。"
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX 现在支持 Keplr！",
+      "BODY": "您现在可以连接并使用 dYdX，与 Keplr 钱包一起使用！立即试用。"
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX 现在支持 Phantom！",
+      "BODY": "您现在可以连接并使用 dYdX，与 Phantom 钱包一起！立即试用。"
     }
   }
 }
