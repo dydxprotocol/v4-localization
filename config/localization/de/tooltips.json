@@ -1,7 +1,10 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
       "BODY": "Ihre dYdX-Chain-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "Ihre dYdX-Chain-Adresse „“ wurde aus der Signatur der Solana-Adresse {DYDX_ADDRESS}„“ {SOLANA_ADDRESS}erstellt."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
@@ -9,7 +12,13 @@
     },
     "REMEMBER_ME": {
       "TITLE": "Automatische Anmeldung",
-      "BODY": "Verwenden Sie \"Automatische Anmeldung\" nur, wenn Sie ein sicheres Gerät benutzen, das in Ihrem Besitz ist. Benutzen Sie ein öffentliches oder ungesichertes Gerät, können sich Dritte bei Auswahl dieser Option Zugang zu Ihren Keys und Daten verschaffen."
+      "BODY": "Verwenden Sie „Automatische Anmeldung“ nur, wenn Sie ein sicheres Gerät benutzen, das in Ihrem Besitz ist. Benutzen Sie ein öffentliches oder ungesichertes Gerät, können sich Dritte bei Auswahl dieser Option Zugang zu Ihren Keys und Daten verschaffen."
+    }
+  },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Affiliate-Provisionen",
+      "BODY": "Prozentsatz der Provision von den Taker-Gebühren."
     }
   },
   "PORTFOLIO": {
@@ -77,7 +86,7 @@
     },
     "FREE_COLLATERAL": {
       "TITLE": "Finanzierung ohne Sicherheit",
-      "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Leverage."
+      "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Hebelwirkung."
     },
     "GOOD_TIL": {
       "TITLE": "Good-till-canceled",
@@ -100,8 +109,12 @@
       "BODY": "Der initiale Stop-Preis, basierend auf Ihrem Trailing-Prozentsatz."
     },
     "LEVERAGE": {
-      "TITLE": "Leverage",
-      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Leverage, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+      "TITLE": "Hebelwirkung",
+      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+    },
+    "LIMIT_CLOSE": {
+      "TITLE": "Limit Close",
+      "BODY": "Eine Limitorder kann nicht sofort erfolgen und wird nur ausgeführt, wenn der eingegebene Preis erreicht wird. Überwachen Sie die Registerkarte Aufträge, um den Status zu überprüfen."
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit-Preis",
@@ -125,7 +138,7 @@
     },
     "LIQUIDITY": {
       "TITLE": "Liquidität",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Maintenance Margin-Bruchwert",
@@ -136,7 +149,7 @@
       "BODY": "Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt. Maker Orders haben eine niedrigere Gebühr als Taker Orders."
     },
     "MARGIN_USAGE": {
-      "TITLE": "Margin-Anwendung",
+      "TITLE": "Marge-Anwendung",
       "BODY": "Prozentsatz Ihrer gesamten Marge, der von offenen Positionen verwendet wird."
     },
     "MAX_WITHDRAW": {
@@ -145,7 +158,7 @@
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Maximale Hebelwirkung",
-      "BODY": "Maximal zulässige Hebelwirkung für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
+      "BODY": "Maximal zulässige Leverage für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Geschätzte Prämien",
@@ -161,7 +174,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle-Preis",
-      "BODY": "Hebelwirkung und Abwicklungen werden basierend auf dem Oracle-Preis der jeweiligen Blockchain bestimmt. Der Oracle-Preis bündelt Kursdaten von mehreren Börsen und schützt Sie somit vor Ereignissen wie starken Kurseinbrüchen."
+      "BODY": "Die Hebelwirkung und Liquidationen werden auf der Grundlage des Onchain-Orakelpreises bestimmt. Der Oracle-Preis bündelt Kursdaten von mehreren Börsen und schützt Sie somit vor Ereignissen wie starken Kurseinbrüchen."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
@@ -360,13 +373,33 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Aktivieren oder deaktivieren Sie OHLC-Daten über den Mittelpreis. Bei der Deaktivierung werden nur OHLC-Daten von historischen Trades angezeigt."
+      "BODY": "Aktivieren oder deaktivieren Sie OHLC-Daten (Open-High-Low-Close) über den Mittelpreis. Bei der Deaktivierung werden nur OHLC-Daten von historischen Trades angezeigt."
     }
   },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Referenzpreis",
       "BODY": "Der Referenzpreis ist der rollierende 30-Tage-Durchschnitt des Marktpreises und wird als Input verwendet, um die Marktparameter auf dYdX Chain automatisch zu berechnen. Der Referenzpreis sollte ungefähr gleich dem aktuellen Preis des Marktes sein (d. h. auf die gleichen 10-Potenzen runtergerundet)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "Dieser Wert wird auf CoinMarketCap selbst gemeldet."
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "Der geschätzte Betrag, der ausgezahlt wird, ist der Auszahlungsbetrag minus des geschätzten Slippage-Betrags. Dieser Betrag ist eine Schätzung, die auf den aktuellen Bedingungen basiert. Der tatsächliche Betrag kann auf der Grundlage der tatsächlichen Bedingungen zum Ausführungszeitpunkt unterschiedlich sein."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "Der geschätzte Betrag der Slippage bei der Auszahlung. Die Slippage kommt davon, dass der Tresor die aktuellen Positionen aktualisieren muss, um die Marge freizugeben, um den Auszahlungsbetrag zu erfüllen. Dieser Betrag ist eine Schätzung, die auf den aktuellen Bedingungen basiert. Der tatsächliche Betrag kann auf der Grundlage der tatsächlichen Bedingungen zum Ausführungszeitpunkt unterschiedlich sein."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "Der Betrag, den Sie auszahlen können, ist Ihr Tresorguthaben abzüglich des Betrags, der für neue Marktangebote gesperrt ist."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "Der aktuelle Wert Ihrer Einzahlungen. Dies wird auf der Grundlage des aktuellen Eigenkapitals und der Positionen des Tresors berechnet."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "Der Gesamt-PnL im Laufe der Zeit. Dies umfasst historische PnL Ihrer Einzahlungen in den Tresor."
     }
   }
 }
