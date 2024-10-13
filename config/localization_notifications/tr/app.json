@@ -32,6 +32,10 @@
       "TITLE": "{SEASON_NUMBER}. sezon başladı!",
       "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "Sezon {SEASON_NUMBER} sona erdi!",
+      "BODY": "Lansman teşvik programına katıldığınız için teşekkür ederiz. Gelecek ödül programlarındaki güncellemeler için bizden ayrılmayın!"
+    },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "İzole Marj aktif",
       "BODY": "İzole Marj şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
@@ -79,6 +83,10 @@
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Hızlı Çekme Başarılı Oldu",
       "BODY": "{AMOUNT} {ASSET} için hızlı çekme işleminiz onaylandı."
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "20 kat Kaldıraç ile SOL-USD alım satımı",
+      "BODY": "SOL-USD ve tüm İzole Piyasalar artık 20 kata kadar kaldıraçla işlem yapmaya uygundur."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Ödüller ve alım satım işlemleri dYdX Zinciri üzerinde yayında!",
@@ -173,6 +181,14 @@
       "TITLE": "20.000 $ değerinde hediye",
       "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 17 Ağustos 2024, 02.59'dan (TSİ) sonra rastgele bir seçim mekanizmasına göre {HERE_LINK}seçilecektir."
     },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET} piyasası kapatıldı",
+      "BODY": "{DATE} tarihinde, {MARKET} piyasası son uzlaşmadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
+      "BODY": "Şu anda {MARKET} piyasayı kapatmak için canlı bir teklif var. Teklif geçtiği takdirde, {MARKET} piyasası son anlaşmaya {DATE} bağlanacak. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+    },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kaldırıldı",
       "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai uzlaşma sürecini gerçekleştirdi. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
@@ -188,6 +204,14 @@
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi için işlem yapın!",
       "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX artık Keplr'ı destekliyor!",
+      "BODY": "Artık Keplr cüzdanınızla dYdX'e bağlanabilir ve kullanabilirsiniz! Şimdi deneyin."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX artık Phantom'u destekliyor!",
+      "BODY": "Artık Phantom cüzdanınızla dYdX'i bağlayabilir ve kullanabilirsiniz! Şimdi deneyin."
     }
   }
 }

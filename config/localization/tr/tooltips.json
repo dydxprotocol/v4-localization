@@ -1,7 +1,10 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
       "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski imza",
@@ -10,6 +13,12 @@
     "REMEMBER_ME": {
       "TITLE": "Beni hatırla",
       "BODY": "Yalnızca sahibi olduğunuz güvenli bir cihazı kullanıyorsanız \"Beni Hatırla\" seçeneğini kullanın. Bu tercihi seçmek, genel veya güvenli olmayan bir cihaz kullanıyorsanız anahtarlarınızı ve bilgilerinizi başkalarına ifşa edebilir."
+    }
+  },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Bağlı Kuruluş Komisyonları",
+      "BODY": "Alıcı ücretlerinden komisyon yüzdesi."
     }
   },
   "PORTFOLIO": {
@@ -29,7 +38,7 @@
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu."
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",
@@ -103,6 +112,10 @@
       "TITLE": "Kaldıraç",
       "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Limit Kapatma",
+      "BODY": "Bir limit kapatma anında gerçekleşmeyebilir, yalnızca girilen fiyata ulaşıldığında karşılanır. Durumunu kontrol etmek için Emirler sekmesini izleyin."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Limit Fiyatı",
       "BODY": "Bu talimat yalnızca belirtilen limit fiyatı üzerinden veya daha iyisiyle karşılanabilir. Talimatınız yerleştirme sırasında çaprazlanırsa, talimatınız çaprazlanan tüm talimatları en uygun fiyatla karşılayacaktır."
@@ -161,7 +174,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle Fiyatı",
-      "BODY": "Kaldıraç ve tasfiye değerleri, zincir içi oracle fiyatına göre belirlenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
+      "BODY": "Kaldıraç ve tasfiyeler, zincir içi oracle fiyatına göre belirlenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Talimat Miktarı",
@@ -367,6 +380,26 @@
     "REFERENCE_PRICE": {
       "TITLE": "Referans Fiyatı",
       "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "Bu değer CoinMarketCap üzerinde kendi kendine bildirilir"
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "Çekme sırasında alınacak tahmini miktar, yani çekme tutarı eksi tahmini kayma tutarıdır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "Çekme sırasında tahmini kayma tutarı. Kayma, çekme tutarını karşılamak üzere marjı serbest bırakmak için kasanın mevcut pozisyonları güncelleme ihtiyacından kaynaklanır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "Çekebileceğiniz tutar, kasa bakiyenizden yeni piyasa listeleri için kilitlenmiş herhangi bir tutar çıkarıldığında kalan tutardır."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "Yatırma işlemlerinizin mevcut değeri. Bu, kasanın mevcut net varlığına ve pozisyonlarına göre hesaplanır."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     }
   }
 }
