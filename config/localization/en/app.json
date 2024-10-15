@@ -1720,7 +1720,7 @@
       "CONFIRM_DEPOSIT_CTA": "Confirm Deposit",
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
-      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. Vaults aim for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
+      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited. dYdX Trading Inc. is not the operator of this vault. The operator was selected by dYdX community.",
       "TVL": "TVL"
     },
     "NOTIFICATIONS": {
