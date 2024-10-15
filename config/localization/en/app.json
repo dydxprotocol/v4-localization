@@ -1707,7 +1707,7 @@
       "PROTOCOL_VAULT": "dYdX Protocol Vault",
       "LOCKED_BALANCE": "Locked Balance",
       "WITHDRAW_TOO_HIGH": "You cannot withdraw more than your vault balance.",
-      "WITHDRAW_TOO_LOW": "Your withdrawal amount is below the $20 minimum withdrawal threshold.",
+      "WITHDRAW_TOO_LOW": "Your withdrawal amount is below the $20 minimum withdrawal threshold. If your vault balance is below the minimum withdrawal threshold, you must withdraw the entire vault balance.",
       "DEPOSIT_TOO_HIGH": "You cannot deposit more than your free collateral.",
       "DEPOSIT_TOO_LOW": "Your deposit amount is below the $20 minimum deposit threshold.",
       "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
