@@ -114,6 +114,7 @@
       "CROSS_MARGIN": "Cross Margin",
       "CROSS_MARGIN_DESCRIPTION": "Use shared collateral and risk across multiple positions",
       "CROSS_MARGIN_USAGE": "Cross Margin Usage",
+      "COLLATERAL": "Collateral",
       "CURRENT": "Current",
       "CUSTOM": "Custom",
       "CUSTOM_AMOUNT": "Custom amount",
