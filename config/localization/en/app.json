@@ -192,6 +192,7 @@
       "INITIAL_MARGIN_FRACTION": "Initial Margin Fraction",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "Initializing",
+      "INTRODUCING": "Introducing",
       "INSTANT": "Instant",
       "ISOLATED": "Isolated",
       "ISOLATED_MARGIN": "Isolated Margin",
@@ -401,7 +402,8 @@
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Withdraw",
       "YES": "Yes",
-      "YOU": "You"
+      "YOU": "You",
+      "YOUR_ACCOUNT": "Your account"
     },
     "__ASSETS": {
       "ZRX": {
@@ -871,7 +873,7 @@
       "API_KEYS_NOT_FOUND": "API Key not found",
       "APPEARS_OUTSIDE_ACCESS": "It appears that you are accessing dYdX from outside the United States or a restricted territory. You hereby agree, represent and warrant that:",
       "BRIDGING_TOKENS": "Bridging tokens",
-      "CHECK_WALLET_FOR_REQUEST": "Check your wallet for a request!",
+      "CHECK_WALLET_FOR_REQUEST": "Check wallet for request...",
       "COMING_SOON": "Coming soon!",
       "COMPLETE_ONBOARDING": "Complete onboarding",
       "CONFIRM_OWNERSHIP": "Confirm you are the owner of this wallet",
@@ -985,7 +987,7 @@
       "VALUE_PROP_TRUSTLESS_DESC": "Built with open-source, audited smart contracts",
       "VALUE_PROP_TRUSTLESS": "Trustless",
       "VERIFY_OWNERSHIP": "Verify ownership",
-      "VERIFY_WALLET_OWNERSHIP": "Verify that you own this wallet",
+      "VERIFY_WALLET_OWNERSHIP": "Verify that you own this wallet.",
       "VERIFY_WALLET_COMPATIBILITY": "Verify wallet compatibility",
       "WANT_TO_LEARN": "Want to learn more?",
       "WELCOME_DYDX": "Welcome to dYdX",
@@ -1111,6 +1113,26 @@
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "High third party fees from chosen route. I acknowledge:\n{WARNING_MESSAGE}",
       "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "I acknowledge the following warning:\n{WARNING_MESSAGE}"
+    },
+    "ONBOARDING_MODAL": {
+      "ABOUT_WALLETS": "About wallets",
+      "CHOOSE_PREFERRED_LANGUAGE": "Choose your preferred language.",
+      "LEARN_ABOUT_WALLETS": "Learn about wallets",
+      "SELECT_LANGUAGE": "Select language",
+      "SELECT_WALLET_FROM_OPTIONS": "Please select your wallet from the options below.",
+      "WALLET_DEFINITION": "A wallet is a device or application that stores your keys and enables you to explore crypto."
+    },
+    "DYDX_UNLIMITED_MODAL": {
+      "AFFILIATES_PROGRAM_DESCRIPTION": "Turn your network into a lucrative venture for everyone with the dYdX affiliate program!",
+      "INCENTIVES_PROGRAM": "Incentives Program",
+      "INCENTIVES_PROGRAM_DESCRIPTION": "Season 7 of the launch incentives program is back! Trade to earn rewards.",
+      "MARKET_LISTINGS": "Market Listings",
+      "MARKET_LISTINGS_DESCRIPTION": "List markets on dYdX instantly & permissionlessly.",
+      "MEGAVAULT_DESCRIPTION": "Earn by providing liquidity across markets.",
+      "PERMISIONLESS_MARKET_LISTINGS": "Permissionless Market Listings",
+      "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "Instantly list markets on dYdX Chain without requiring governance approval.",
+      "UPDATED_INCENTIVES": "Updated Incentives",
+      "UPDATED_INCENTIVES_DESCRIPTION": "Earn DYDX by staking, listing markets, trading, and more."
     },
     "STAKE_MODAL": {
       "INSUFFICIENT_STAKE_BALANCE": "Wallet balance is insufficient to cover the transaction fees.",
@@ -1454,6 +1476,7 @@
       "MODIFY_TRIGGER_PRICE": "Modify trigger price",
       "MULTIPLE_ARROW": "Multiple →",
       "NET_FUNDING": "Net Funding",
+      "NEXT": "Next",
       "NEXT_FUNDING": "Next Funding",
       "NEXT_IN": "Next in {TIME}",
       "NOTIONAL_VALUE": "Notional Value",
