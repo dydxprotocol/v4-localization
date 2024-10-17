@@ -2227,7 +2227,7 @@
       "MARKET_LAUNCH_DETAILS_2": "Immediately launch a new market on dYdX Chain by depositing {DEPOSIT_AMOUNT} into MegaVault. Your deposit will earn an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
       "MARKET_LAUNCH_DETAILS_3": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into MegaVault for at least {PAST_DAYS} days. Your deposit will earn an estimated {APR_PERCENTAGE} APR.",
       "MARKET_LAUNCHED": "Market Launched!",
-      "MARKET_NOW_LIVE": "{MARKET} is now live, start trading.",
+      "MARKET_NOW_LIVE_TRADE": "{MARKET} is now live, start trading.",
       "MARKET_TO_LAUNCH": "Market to Launch",
       "MESSAGE_DETAILS": "Message details",
       "MSG_CREATE_CLOB_PAIR": "Msg create clobPair",
