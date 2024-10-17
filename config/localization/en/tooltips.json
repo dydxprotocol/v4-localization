@@ -152,6 +152,10 @@
       "TITLE": "Margin Usage",
       "BODY": "Percentage of your total margin used by open positions."
     },
+    "MARGIN_USED": {
+      "TITLE": "Margin Used",
+      "BODY": "Percentage of your total margin used by open positions."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Maximum Fast Withdraw",
       "BODY": "Maximum amount allowed for a single fast withdraw."
@@ -192,6 +196,10 @@
       "TITLE": "Take Profit is a Partial Close",
       "BODY": "Your take profit is not configured to close your entire position. This could be because you set a custom amount, or because you have changed your position size after adding this trigger."
     },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Portfolio Value",
+      "BODY": "Total value of your account."
+    },  
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
@@ -220,6 +228,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only is only available if Execution is set to IOC."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Rewards Earned",
+      "BODY": "Earn rewards when you trade on dYdX."
+    }, 
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "The difference in price between the highest bid (the price a buyer is willing to buy for) and lowest ask (the price a seller is willing to sell for) an asset."
