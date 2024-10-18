@@ -154,7 +154,7 @@
     },
     "MARGIN_USED": {
       "TITLE": "Margin Used",
-      "BODY": "Percentage of your total margin used by open positions."
+      "BODY": "Percentage of your total cross margin used by open positions."
     },
     "MAX_WITHDRAW": {
       "TITLE": "Maximum Fast Withdraw",
@@ -198,7 +198,7 @@
     },
     "PORTFOLIO_VALUE": {
       "TITLE": "Portfolio Value",
-      "BODY": "Total value of your account."
+      "BODY": "Total equity value of your account."
     },  
     "POST_ONLY": {
       "TITLE": "Post-Only",
