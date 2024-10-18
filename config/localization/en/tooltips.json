@@ -200,6 +200,14 @@
       "TITLE": "Portfolio Value",
       "BODY": "Total equity value of your account."
     },  
+    "POSITION_MARGIN": {
+      "TITLE": "Position Margin",
+      "BODY": "The amount of collateral backing the position."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Position Leverage",
+      "BODY": "Leverage changes the multiplier on your gains or losses. Increasing your leverage increases how much you would gain / lose on a trade with the same price movement."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders with post-only enabled can only be placed as maker orders. If the order crosses other orders at the time of placement, it will be automatically cancelled."
