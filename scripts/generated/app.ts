@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using ./codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -2079,6 +2079,7 @@ export const ERRORS_STRING_KEYS = {
 
     // NEW_MARKET_WIDGET
 
+    LAUNCHING_MARKET_REQUIRES_USDC: 'ERRORS.NEW_MARKET_WIDGET.LAUNCHING_MARKET_REQUIRES_USDC',
     NOT_ENOUGH_BALANCE: 'ERRORS.NEW_MARKET_WIDGET.NOT_ENOUGH_BALANCE',
 
     // ONBOARDING
