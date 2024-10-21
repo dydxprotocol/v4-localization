@@ -1751,7 +1751,8 @@
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
       "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited. This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community. {OPERATOR_LEARN_MORE}.",
-      "TVL": "TVL"
+      "TVL": "TVL",
+      "HOLDINGS": "Holdings"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% reduction",
