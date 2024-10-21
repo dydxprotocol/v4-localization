@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1902,6 +1902,7 @@ export const APP_STRING_KEYS = {
     ESTIMATED_AMOUNT_RECEIVED: 'APP.VAULTS.ESTIMATED_AMOUNT_RECEIVED',
     ESTIMATED_SLIPPAGE: 'APP.VAULTS.ESTIMATED_SLIPPAGE',
     EST_SLIPPAGE: 'APP.VAULTS.EST_SLIPPAGE',
+    HOLDINGS: 'APP.VAULTS.HOLDINGS',
     LOCKED_BALANCE: 'APP.VAULTS.LOCKED_BALANCE',
     MEGAVAULT: 'APP.VAULTS.MEGAVAULT',
     MEGAVAULT_CANT_SUBMIT: 'APP.VAULTS.MEGAVAULT_CANT_SUBMIT',
