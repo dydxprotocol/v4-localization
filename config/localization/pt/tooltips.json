@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "Seu endereço de cadeia dYdX \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Ethereum \"{EVM_ADDRESS}\"."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Seu endereço da cadeia dYdX \"{DYDX_ADDRESS}\" foi criado a partir da assinatura do endereço Solana \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
@@ -114,7 +111,7 @@
     },
     "LIMIT_CLOSE": {
       "TITLE": "Fechamento limite",
-      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu posição."
+      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu status."
     },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
@@ -380,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Preço de referência",
       "BODY": "O Preço de referência é a média contínua de 30 dias do preço de mercado e é usado como uma entrada para calcular automaticamente os parâmetros do mercado na Cadeia dYdX. O preço de referência deve ser aproximadamente o mesmo que o preço atual do mercado (ex.: arredondado para baixo, para as mesmas potências de 10)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Este valor é autorrelatado na CoinMarketCap"
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "O valor estimado a receber ao fazer o saque, sendo o valor da retirada menos o valor estimado de slippage. Este valor é uma estimativa com base nas condições atuais. O valor real pode ser diferente com base nas condições reais no momento de execução."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "O valor estimado de slippage ao fazer o saque. A slippage vem da necessidade do cofre em atualizar as posições atuais para liberar a margem para atender ao valor do saque. Este valor é uma estimativa com base nas condições atuais. O valor real pode ser diferente com base nas condições reais no momento de execução."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "O valor que você pode sacar, que é o saldo do seu cofre menos qualquer valor bloqueado para novas listagens de mercado."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "O valor atual de seus depósitos. Isso é calculado com base no capital e nas posições atuais do cofre."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
     }
   }
 }
