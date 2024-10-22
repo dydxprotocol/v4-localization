@@ -10,7 +10,7 @@
     },
     "DELEVERAGED": {
       "TITLE": "Position entschuldet",
-      "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde entschuldet."
+      "BODY": "Ihre {SIDE} Position auf {MARKET} wurde entschuldet."
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
@@ -33,8 +33,8 @@
       "BODY": "In der {PREV_SEASON_NUMBER}Saison waren die verdienten mittleren Prämien {DYDX_AMOUNT}DYDX (~ {USDC_AMOUNT}USDC)!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "Die Saison {SEASON_NUMBER}ist beendet!",
-      "BODY": "Vielen Dank für die Teilnahme am Anreizprogramm zum Start. Bleiben Sie gespannt auf Updates zu zukünftigen Prämienprogrammen!"
+      "TITLE": "Die Saison {SEASON_NUMBER} ist beendet!",
+      "BODY": "Vielen Dank für die Teilnahme beim Start des Marktanreizprogramms. Bleiben Sie dran für Updates über zukünftige Prämienprogramme!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "Isolierte Marge ist live",
@@ -187,15 +187,15 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Live-Vorschlag zur Ababschwächung des {MARKET} Marktes",
-      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen {MARKET}wird, wird der Markt in die En{DATE}dabrechnung am [Datum] eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn bestanden wird, wird der {MARKET}Markt in die Endabrechnung am {DATE}eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET_1} und  {MARKET_2}Märkte rückläufig",
+      "TITLE": "{MARKET_1} und  {MARKET_2} Märkte rückläufig",
       "BODY": "Am {DATE} durchliefen die Märkte {MARKET_1} und {MARKET_2} die Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Abschwächung {MARKET_1}von  und  den {MARKET_2}Märkten",
-      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die  {MARKET_1}und die  {MARKET_2}Märkte abzubauen. Wenn sie bestanden haben, treten die  {MARKET_1}und die  {MARKET_2}Märkte in die Endabrechnung am {DATE}ein. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zur Abschwächung {MARKET_1} und  {MARKET_2} zu den Märkten",
+      "BODY": "Derzeit gibt es einen Live-Vorschlag zur Abschwächung  {MARKET_1} und  {MARKET_2} den Märkten. Wenn sie bestanden haben, treten die  {MARKET_1}und die  {MARKET_2}Märkte in die Endabrechnung am {DATE}ein. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Live-Vorschlag zur Aktualisierung  von {MARKET}Parametern",
@@ -208,10 +208,6 @@
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX unterstützt jetzt auch Keplr!",
       "BODY": "Sie können jetzt dYdX mit Ihrem Keplr-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
-    },
-    "PHANTOM_SUPPORT": {
-      "TITLE": "dYdX unterstützt jetzt Phantom!",
-      "BODY": "Sie können jetzt dYdX mit Ihrer Phantom-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
     }
   }
 }
