@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski imza",
@@ -380,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Referans Fiyatı",
       "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Bu değer CoinMarketCap üzerinde kendi kendine bildirilir"
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "Çekme sırasında alınacak tahmini miktar, yani çekme tutarı eksi tahmini kayma tutarıdır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "Çekme sırasında tahmini kayma tutarı. Kayma, çekme tutarını karşılamak üzere marjı serbest bırakmak için kasanın mevcut pozisyonları güncelleme ihtiyacından kaynaklanır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "Çekebileceğiniz tutar, kasa bakiyenizden yeni piyasa listeleri için kilitlenmiş herhangi bir tutar çıkarıldığında kalan tutardır."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "Yatırma işlemlerinizin mevcut değeri. Bu, kasanın mevcut net varlığına ve pozisyonlarına göre hesaplanır."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     }
   }
 }
