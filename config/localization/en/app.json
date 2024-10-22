@@ -293,6 +293,7 @@
       "QUEUED": "Queued",
       "RANKINGS": "Rankings",
       "REAL_WORLD_ASSET_SHORT": "RWA",
+      "RECEIPT": "Receipt",
       "RECEIVE": "Receive",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recent",
@@ -1751,7 +1752,8 @@
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
       "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited. This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community. {OPERATOR_LEARN_MORE}.",
-      "TVL": "TVL"
+      "TVL": "TVL",
+      "HOLDINGS": "Holdings"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66% reduction",
@@ -2248,8 +2250,8 @@
       "LIST_A_NEW_MARKET": "List a new market",
       "LISTINGS_DESCRIPTION": "Listings on dYdX are completely community-driven. This tool will help you submit a governance proposal to list a new market.",
       "MARKET_LAUNCH_DETAILS": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into MegaVault. Your deposit will earn an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
-      "MARKET_LAUNCH_DETAILS_2": "Immediately launch a new market on dYdX Chain by depositing {DEPOSIT_AMOUNT} into MegaVault. Your deposit will earn an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
-      "MARKET_LAUNCH_DETAILS_3": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into MegaVault for at least {PAST_DAYS} days. Your deposit will earn an estimated {APR_PERCENTAGE} APR.",
+      "MARKET_LAUNCH_DETAILS_2": "Immediately launch a new market on dYdX Chain by depositing {DEPOSIT_AMOUNT} into MegaVault. Deposits have earned an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
+      "MARKET_LAUNCH_DETAILS_3": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into MegaVault for at least {PAST_DAYS} days. Deposits have earned an estimated {APR_PERCENTAGE} APR.",
       "MARKET_LAUNCHED": "Market Launched!",
       "MARKET_NOW_LIVE_TRADE": "{MARKET} is now live, start trading.",
       "MARKET_TO_LAUNCH": "Market to Launch",
@@ -2620,6 +2622,7 @@
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "Please enter a valid amount."
     },
     "NEW_MARKET_WIDGET": {
+      "LAUNCHING_MARKET_REQUIRES_USDC": "Launching a market requires a minimum of {USDC_AMOUNT} USDC of cross free collateral",
       "NOT_ENOUGH_BALANCE": "You need at least {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} to add a market."
     }
   },
