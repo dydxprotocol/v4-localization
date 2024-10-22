@@ -434,7 +434,7 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Alavancagem dos Resultados de Eventos de Trade",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sobre uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidação de US$ 0 ou US$ 1",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem de chance de o resultado ocorrer."
     }
   },
   "RATE_APP": {

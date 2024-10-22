@@ -207,11 +207,7 @@
     },
     "KEPLR_SUPPORT": {
       "TITLE": "A dYdX agora suporta o Keplr!",
-      "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Keplr! Experimente agora."
-    },
-    "PHANTOM_SUPPORT": {
-      "TITLE": "A dYdX agora é compatível com Phantom!",
-      "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Phantom! Experimente agora."
+      "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Keplr! Experimente já."
     }
   }
 }
