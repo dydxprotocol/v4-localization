@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "Votre adresse dYdX Chain \"{DYDX_ADDRESS}\" a été créée à partir de la signature de l'adresse Ethereum \"{EVM_ADDRESS}\"."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Votre adresse dYdX Chain {DYDX_ADDRESS}\"\" a été créée à partir de la signature de l'adresse Solana {SOLANA_ADDRESS}\"\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
@@ -18,7 +15,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Commissions d'affiliation",
-      "BODY": "Pourcentage de commission provenant des frais du Taker."
+      "BODY": "Pourcentage de commission des frais de preneur."
     }
   },
   "PORTFOLIO": {
@@ -174,7 +171,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Prix Oracle",
-      "BODY": "L'effet de levier et les liquidations sont déterminés en fonction du prix oracle sur chaîne. Le prix oracle regroupe les données de prix de plusieurs échanges, vous protégeant des événements tels que les crashs éclair. "
+      "BODY": "L'effet de levier et les liquidations sont déterminés en fonction du prix de l'oracle onchain. Le prix oracle regroupe les données de prix de plusieurs échanges, vous protégeant des événements tels que les crashs éclair. "
     },
     "ORDER_AMOUNT": {
       "TITLE": "Montant de l'ordre",
@@ -380,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Prix de référence",
       "BODY": "Le prix de référence est la moyenne mobile sur 30 jours du prix du marché et est utilisé comme entrée pour estimer automatiquement les paramètres du marché sur la chaîne dYdX. Le prix de référence devrait être approximativement le même que le prix actuel du marché (c'est-à-dire arrondir aux mêmes pouvoirs de 10)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Cette valeur est déclarée sur CoinMarketCap."
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "Le montant estimé à recevoir lors du retrait, qui est le montant du retrait moins le montant de slippage estimé. Ce montant est une estimation basée sur les conditions actuelles. Le montant réel peut être différent en fonction des conditions réelles au moment de l'exécution."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "Le montant estimé du slippage lors du retrait. Le slippage provient de la nécessité du coffre-fort de mettre à jour les positions actuelles pour libérer de la marge afin de satisfaire le montant du retrait. Ce montant est une estimation basée sur les conditions actuelles. Le montant réel peut être différent en fonction des conditions réelles au moment de l'exécution."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "Le montant que vous pouvez retirer, qui correspond au solde de votre coffre-fort moins tout montant qui est bloqué pour les listings sur le marché."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "La valeur actuelle de vos dépôts. Le calcul est effectué en se basant sur les capitaux propres actuels et les positions du coffre-fort."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "Le PNL total dans le temps. Cela inclut l'historique du PNL de vos dépôts dans le coffre-fort."
     }
   }
 }
