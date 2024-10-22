@@ -208,10 +208,6 @@
     "KEPLR_SUPPORT": {
       "TITLE": "dYdXがKeplrに対応しました！",
       "BODY": "KeplrウォレットとdYdXを接続して使用できるようになりました！今すぐお試しください。"
-    },
-    "PHANTOM_SUPPORT": {
-      "TITLE": "dYdXがPhantomnに対応しました！",
-      "BODY": "PhantomウォレットとdYdXを接続して使用できるようになりました！ 今すぐお試しください。"
     }
   }
 }

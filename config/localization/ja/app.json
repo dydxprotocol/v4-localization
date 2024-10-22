@@ -1,14 +1,41 @@
 {
   "APP": {
     "GENERAL": {
+      "AFFILIATES": {
+        "CONTACT_SUPPORT": "サポートに連絡",
+        "APPLY_NOW": "今すぐ申し込む",
+        "AFFILIATE_PAYOUTS": "アフィリエイト支払い",
+        "TOTAL_AFFILIATES": "総アフィリエイト数",
+        "AFFILIATE_COMISSIONS": "アフィリエイトコミッション",
+        "YOUR_TIER_VIP": "あなたはクラス{TIER}の{VIP}です",
+        "CRITERIA_MODAL_VIP_DISCLAIMER": "VIPになってさらに獲得（1ユーザーあたり月に最大{VIP_VALUE}）したい場合は、{APPLY_HERE}。",
+        "YOUR_TIER": "あなたはクラス{TIER}です。",
+        "AFFILIATES": "アフィリエイト",
+        "APPLY_HERE": "こちらから",
+        "VIP": "VIP",
+        "PROGRAM_CARD_TITLE": "VIPとしてさらに稼ぐ！",
+        "PROGRAM_CARD_BODY": "VIPの場合は、紹介したユーザー1人あたり月に最大{VIP_VALUE}を獲得できます。",
+        "PROGRAM_CARD_TITLE_VIP": "あなたはVIPです！",
+        "PROGRAM_CARD_BODY_VIP": "{VIP}でいてくださりありがとうございます！さらに報酬を獲得できるようになりました。",
+        "YOUR_STATS": "統計データ",
+        "PROGRAM_STATS": "プログラム統計",
+        "AFFILIATE_TIER": "アフィリエイトクラス",
+        "AFFILIATE_TIERS": "アフィリエイトクラス",
+        "AFFILIATE_EARNINGS": "アフィリエイト収益",
+        "ALL_TIME_RANK": "通算ランキング",
+        "VOLUME_REFERRED": "紹介数量",
+        "FEES_REFERRED": "紹介料",
+        "USERS_REFERRED": "紹介したユーザー",
+        "TRADES_REFERRED": "紹介による取引",
+        "AFFILIATE_TIERS_CRITERIA": "基準を見る",
+        "TOTAL_EARNINGS": "総収益",
+        "AFFILIATES_LEADERBOARD": "リーダーボード",
+        "CURRENT_AFFILIATE_TIER": "現在のアフィリエイトクラス",
+        "YOUR_RANK": "ランク",
+        "AFFILIATE_CONNECT_WALLET": "ランキングを確認するには、ウォレットを接続してください"
+      },
+
       "TIME_STRINGS": {
-        "JUST_NOW": "今すぐ",
-        "1_MIN_AGO": "1分前",
-        "X_MIN_AGO": "{X} 分前",
-        "1_HOUR_AGO": "1時間前",
-        "X_HOUR_AGO": "{X} 数時間前",
-        "1_DAY_AGO": "1ヶ月前",
-        "X_DAY_AGO": "{X} 数日前",
         "_24H": "24時間",
         "_30D": "30D",
         "ALL_TIME": "すべての時間",
@@ -35,7 +62,7 @@
         "TODAY_LOWERCASED": "今日",
         "TODAY": "今日",
         "WEEK": "週",
-        "WEEKS_ABBREVIATED": "週",
+        "WEEKS_ABBREVIATED": "w",
         "WEEKS": "週間",
         "WEEKLY": "毎週",
         "X_HOURS_LOWERCASED": "{X}時間",
@@ -183,14 +210,13 @@
       "HIDE_ALL_DETAILS": "すべての詳細を非表示",
       "HIDE_DETAILS": "詳細を非表示",
       "HIDE_SECTION": "セクションを非表示",
-      "HIDE": "非表示",
+      "HIDE": "隠す",
       "HISTORY": "履歴",
       "INCREASED": "増加しました",
       "INCREASING": "増加",
       "INITIAL_MARGIN_FRACTION": "当初保証金比率",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "初期化",
-      "INSTANT": "インスタント",
       "ISOLATED": "単発",
       "ISOLATED_MARGIN": "分離マージン",
       "ISOLATED_MARGIN_DESCRIPTION": "リスクを分離するために、各ポジションごとに異なる担保を使用してください。",
@@ -228,9 +254,8 @@
       "MARGIN_WITH_MODE": "マージン{MODE}（）",
       "MARGIN_MODE": "マージンモード",
       "MARGIN_USAGE": "保証金使用率",
-      "MARGIN_USED": "保証金使用状況",
       "MARKET_NAME": "マーケット名",
-      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "この資産をまだサポートしていないか、またはまだ存在していない可能性があります。",
+      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "この資産をまだサポートしていないか、またはまだ存在していない可能性があります",
       "MARKET_SEARCH_PLACEHOLDER": "例：「ETH」または「イーサリアム」",
       "MARKET": "マーケット",
       "MARKET_CAP": "時価総額",
@@ -281,7 +306,7 @@
       "PROFILE": "プロフィール",
       "PROFIT_AND_LOSS_ABSOLUTE_BY": "利益\/損失",
       "PROFIT_AND_LOSS_ABSOLUTE_LABEL": "利益\/損失（ドル）",
-      "PROFIT_AND_LOSS_ABSOLUTE": "純P&L",
+      "PROFIT_AND_LOSS_ABSOLUTE": "絶対P＆L",
       "PROFIT_AND_LOSS_PERCENT_BY": "利益\/損失（％）",
       "PROFIT_AND_LOSS_PERCENT_LABEL": "利益\/損失（％）",
       "PROFIT_AND_LOSS_PERCENT": "相対P＆L",
@@ -302,7 +327,6 @@
       "RESULTS": "結果",
       "REWARDS": "報酬",
       "REWARDED": "報酬を受け取り済み",
-      "REWARDS_EARNED": "獲得した報酬",
       "REWARD_HISTORY": "報酬履歴",
       "SAFETY": "安全性",
       "SAVE": "保存",
@@ -326,7 +350,6 @@
       "SIZE": "サイズ",
       "SLOW_WITHDRAW": "通常出金",
       "SORT_BY": "ソート条件",
-      "SOURCE": "ソース",
       "SOURCE_ADDRESS": "ソースアドレス",
       "STAKE": "ステーキング",
       "STAKED": "ステーク済",
@@ -361,8 +384,6 @@
       "TRADING_REWARDS": "トレード報酬",
       "TRADING_REWARDS_SUMMARY": "取引報酬の概要",
       "TRADING": "取引",
-      "TRADING_ACCOUNT": "取引口座",
-      "TRADING_ACCOUNT_BALANCE": "取引口座残高",
       "TRAILING_STOP_SHORT": "トレーリング",
       "TRANSFER_IN": "外部からの資金移動",
       "TRANSFER_OUT": "外部への資金移動",
@@ -378,7 +399,6 @@
       "UNSTAKED": "ステーキング解除済み",
       "UNSTAKING_FROM": "{VALIDATOR}からステーキング解除",
       "USERNAME": "ユーザー名",
-      "VALUE": "評価額",
       "VIEW_DETAILS": "詳細を表示",
       "VIEW_LEAGUE": "リーグを見る",
       "VIEW_LESS": "表示を減らす",
@@ -406,12 +426,12 @@
         "SECONDARY": "ZRXは0xのネイティブガバナンスおよびステーキングトークンです。保有者は0xの改善提案（ZEIP）についての選択を行い、プロトコルの開発に影響を与えることができます。さらに、ZRXをステーキングまたは委任してそのマーケットメーカー流動性プログラムを通じて流動性報酬を獲得することができます。"
       },
       "1INCH": {
-        "PRIMARY": "1inch Networkは分散型プロトコルを統合します。その相乗効果により、DeFiスペースにおいて最も高い収益性を発揮するとともに、最速で保護された操作が可能となります。",
-        "SECONDARY": "1inch Networkの初期プロトコルは、複数の流動性ソース間にて取引を検索するDEXアグリゲーター・ソリューションであり、個別交換よりもお得なレートをユーザーに提供します。このプロトコルには、イーサリアムで50以上、Binance Smart Chainで20以上の流動性ソース間において、さまざまな市場から最適なパスを検索できるPathfinderアルゴリズムが組み込まれています。1inchのDEXアグリゲーターは、2年足らずの間に全体で300億ドル以上の出来高を達成しています。"
+        "PRIMARY": "1インチネットワークは分散型プロトコルを統合することで、その相乗効果により、DeFiスペースにおいて最も高い収益性を発揮するとともに、最速で保護された操作が可能となります。",
+        "SECONDARY": "1インチネットワークの初期プロトコルは、複数の流動性ソース間にて取引を検索するDEXアグリゲーター・ソリューションであり、個別交換よりもお得なレートをユーザーに提供します。このプロトコルには、イーサリアムで50以上、Binance SmartChainで20以上の流動性ソース間において、さまざまな市場から最適なパスを検索できるPathfinderアルゴリズムが組み込まれています。1インチのDEXアグリゲーターは、2年足らずの間に全体で300億ドル以上の出来高を達成しています。"
       },
       "AAVE": {
-        "PRIMARY": "アーベは、資産を入金して金利を獲得したり、借り入れたりするためのオープンソースでノンカストディアルのプロトコルです。",
-        "SECONDARY": "アーベは分散型でノンカストディアルの流動性市場プロトコルであり、ユーザーは入金者や借り手として参加できます。入金者は市場に流動性を提供して受動的収入を得ます。一方、借り手は担保を上回る形（パーペチュアル）や担保の範囲内（1ブロックの流動性）で借り入れることが可能です。"
+        "PRIMARY": "アーベは、資産を入金して金利を獲得したり、借り入れるためのオープンソースプロトコルであり、カストディ機能はありません。",
+        "SECONDARY": "アーベは分散型の流動性市場プロトコルであり、ユーザーは入金者や借り手として参加できます。カストディ機能はありません。入金者は市場に流動性を提供して受動的収入を得ます。一方、借り手は担保を上回る形（パーペチュアル）や担保の範囲内（1ブロックの流動性）で借り入れることが可能です。"
       },
       "ADA": {
         "PRIMARY": "カルダノは、プルーフ・オブ・ステークによるブロックチェーン・プラットフォームであり、ピアレビューされた研究に基づいて設立され、実証済みの方法で開発された最初のプラットフォームです。先駆的なテクノロジーの組み合わせにより、分散型のアプリケーション、システム、および社会に対して抜群のセキュリティおよび持続可能性を提供します。",
@@ -451,7 +471,7 @@
       },
       "BCH": {
         "PRIMARY": "Bitcoin Cashは世界のどこにでも、誰にでも24時間365日送金することができます。インターネットと同様に、ネットワークは常にオンになっています。",
-        "SECONDARY": "ビットコインキャッシュを利用すると、銀行振込やクレジットカードなどの従来の支払システムよりもプライバシー保護や匿名性が高まります。なぜなら、誰がビットコインアドレスを管理しているのかを知ることは不可能だからです。ビットコインキャッシュでは利用方法に応じて、さまざまなレベルのプライバシー保護が提供されています。プライバシー保護のため、BCHの利用前にその仕組みを徹底して学ぶことが重要です。"
+        "SECONDARY": "Bitcoin Cashを利用すると、銀行振込やクレジットカードなどの従来の支払システムよりもプライバシー保護や匿名性が高まります。なぜなら、誰がビットコインアドレスを管理しているのかを知ることは不可能だからです。Bitcoin Cashでは利用方法に応じて、さまざまなレベルのプライバシー保護が提供されています。プライバシー保護のため、BCHの利用前にその仕組みを徹底して学ぶことが重要です。"
       },
       "BTC": {
         "PRIMARY": "ビットコインは、中央銀行や管理者を1人も必要としない分散型デジタル通貨です。仲介機関を介さずに、ピアツーピアビットコインネットワークでユーザー間の送信が可能です。",
@@ -478,7 +498,7 @@
         "SECONDARY": "また、CELOはユーザーに対してネイティブおよびノンネイティブなステーブルコイン、超軽量モバイルクライアント、複数の通貨で支払い可能なガス代へのアクセスを提供します。"
       },
       "LINK": {
-        "PRIMARY": "Chainlink（チェーンリンク）は、任意のブロックチェーンに関するスマートコントラクトをデータプロバイダー、ウェブAPI、エンタープライズシステム、クラウドサービス、IoTデバイス、決済システム、その他のブロックチェーンに接続します。",
+        "PRIMARY": "Chainlinkは、任意のブロックチェーンに関するスマートコントラクトをデータプロバイダー、ウェブAPI、エンタープライズシステム、クラウドサービス、IoTデバイス、決済システム、その他のブロックチェーンに接続します。",
         "SECONDARY": "Chainlinkは、ブロックチェーン技術に固有のセキュリティーと信頼性の保証を損なわずに、リアルワールドデータ、イベント、支払い、その他へのアクセスを可能にすることで、スマートコントラクトの機能を拡張します。"
       },
       "COMP": {
@@ -490,7 +510,7 @@
         "SECONDARY": "コスモスのアプリおよびサービスは、ブロックチェーン間の通信プロトコルであるIBCを使用して接続します。このイノベーションにより、ソブリンの分散型ブロックチェーン間で資産とデータを自由に交換できます。"
       },
       "CRV": {
-        "PRIMARY": "Curve（カーブ）はイーサリアム（Uniswapなど）の交換流動性プールであり、非常に効率的で安定した通貨取引を可能にし、さらに機会費用なしでリクイディティ・プロバイダー向けの低リスクによる追加手数料収入が実現できるよう設計されています。",
+        "PRIMARY": "Curveはイーサリアム（Uniswapなど）の交換流動性プールであり、非常に効率的で安定した通貨取引を可能にし、さらに機会費用なしでリクイディティ・プロバイダー向けの低リスクによる追加手数料収入が実現できるよう設計されています。",
         "SECONDARY": "Curveにより、ユーザー（および1インチ、Paraswap、Totle、Dex.agなどのスマートコントラクト）はステーブルコイン専用に設計された特注の低スリップ、低料金アルゴリズムを使用することで、DAIとUSDCの間の取引で料金を稼ぐことができます。"
       },
       "DOGE": {
@@ -502,7 +522,7 @@
         "SECONDARY": "Polkadotにより、分散型のアプリケーション、サービス、およびインスティテューションの作成と接続がこれまで以上に簡単になります。イノベーターがより良いソリューションを構築できるようにすることで、不安定なウェブに対する依存から社会を解放するだけでなく、大規模なインスティテューションが当社の信頼を侵害できないようにするのです。"
       },
       "DYM": {
-        "PRIMARY": "Dymensionは、RollAppsと呼ばれる、簡単に展開可能で超高速のアプリチェーンのホームです。",
+        "PRIMARY": "Dymensionは、RollAppsと呼ばれる、簡単に展開可能な超高速のアプリチェーンのホームです。",
         "SECONDARY": "Dymensionは、トークンがERCで標準化された方法と同様に、IBC（インターブロックチェーン通信プロトコル）でロールアップを標準化します。"
       },
       "ENJ": {
@@ -598,7 +618,7 @@
         "SECONDARY": "Mask Networkは、人気のソーシャルメディアプラットフォームのユーザーが暗号資産を送信し、分散型アプリケーションと対話し、暗号化されたコンテンツを共有することを可能にします。"
       },
       "MATIC": {
-        "PRIMARY": "ポリゴン（Polygon）とは、イーサリアム対応のブロックチェーンネットワークを構築および接続するためのプロトコルおよびフレームワークです。イーサリアム上のスケーラブルなソリューションを集約し、マルチチェーン・イーサリアム・エコシステムをサポートします。",
+        "PRIMARY": "ポリゴン（Polygon）とは、イーサリアム対応のブロックチェーンネットワークを構築および接続するためのプロトコルおよびフレームワークです。マルチチェーンイーサリアムエコシステムをサポートするイーサリアムにスケーラブルなソリューションを統合します。",
         "SECONDARY": "ポリゴンは、イーサリアムとソブリンによる最高のブロックチェーンをオープンで安全な本格的マルチチェーン・システムに統合することで、イーサリアムのネットワーク効果を最大限に活用できます。"
       },
       "MEME": {
@@ -650,7 +670,7 @@
         "SECONDARY": "Render Networkはイーサリアムブロックチェーン上に構築された分散型GPUレンダリングネットワークで、GPU計算能力を必要としているアーティストやスタジオと、GPU能力を貸し出す意思のあるマイニングパートナーをつなぐことを目的としています。"
       },
       "RUNE": {
-        "PRIMARY": "THORchainは、分散型および自律型のクロスチェーン流動性ネットワークです。",
+        "PRIMARY": "THORchainは分散型かつ自律的なクロスチェーン流動性ネットワークです。",
         "SECONDARY": "RUNEはTHORChainのエコシステムで取引される資産であり、ネットワークを経済的に保護するのに必要なインセンティブを提供します。"
       },
       "SAND": {
@@ -723,7 +743,7 @@
       },
       "XMR": {
         "PRIMARY": "モネロはプライベートで検閲耐性のある取引に焦点を当てた主要な暗号通貨です。",
-        "SECONDARY": "選択的に開示できる代替通貨（Zcashなど）とは異なり、モネロはすべてのユーザーがデフォルトで匿名化されている唯一の暗号通貨です。送金人、受取人、およびすべての取引の金額は、ステルスアドレス、リング署名、およびRingCTの3つの重要なテクノロジーを使用することで秘匿されます。"
+        "SECONDARY": "選択的に開示できるアルトコイン（Zcashなど）とは異なり、モネロはすべてのユーザーがデフォルトで匿名化されている唯一の暗号通貨です。送金人、受取人、およびすべての取引の金額は、ステルスアドレス、リング署名、およびRingCTの3つの重要なテクノロジーを使用することで秘匿されます。"
       },
       "XRP": {
         "PRIMARY": "リップルは、国境を越えた支払決済を行うために設計されたネットワークです。",
@@ -734,11 +754,11 @@
         "SECONDARY": "テゾスは長期間のアップグレード、オープン参加、コラボレーション、およびスマートコントラクトの安全性に配慮した設計になっています。テゾスはPoS（プルーフ・オブ・ステーク）ブロックチェーンの一種です。"
       },
       "YFI": {
-        "PRIMARY": "Yearn Finance（ヤーンファイナンス）とは、分散型金融（DeFi）に関する一連のプロダクトであり、イーサリアムブロックチェーンによる貸付の集約、利回りの発生、および保険を提供します。 ",
+        "PRIMARY": "Yearn Financeとは、Decentralized Finance（DeFi）に関する一連のプロダクトであり、イーサリアムブロックチェーンによる貸付の集約、利回りの発生、および保険を提供します。 ",
         "SECONDARY": "プロトコルはさまざまな独立した開発者によって維持されるとともに、YFI保有者によって管理されています。"
       },
       "ZEC": {
-        "PRIMARY": "Zcash（ジーキャッシュ）はデジタル通貨です。高速で匿名性が高く、低い手数料で取引ができます。",
+        "PRIMARY": "Zcashはデジタル通貨です。高速で匿名性が高く、低い手数料で取引ができます。",
         "SECONDARY": "Zcashではシールドされたアドレスを通じて、匿名性の高い取引と財務面のプライバシー保護を選択することができます。ゼロ知識証明により、送金人、受取人、取引金額を明らかにすることなく取引を証明することができます。Zcash内の選択的開示機能により、ユーザーはコンプライアンスまたは監査を目的として取引の詳細を共有することができます。"
       },
       "ZETA": {
@@ -749,13 +769,13 @@
     "AFFILIATES": {
       "AFFILIATES_PROGRAM": "アフィリエイトプログラム",
       "AFFILIATE_LINK": "アフィリエイトリンク",
-      "AFFILIATE_LINK_REQUIREMENT": "アフィリエイトリンクは、ボリュームが${AMOUNT_USD}に達するとアクティブになります",
+      "AFFILIATE_LINK_REQUIREMENT": "アフィリエイトリンクは、ボリュームが$ {AMOUNT_USD}に達するとアクティブになります",
       "BECOME_A_VIP": "VIPになる",
-      "EARN_FOR_EACH_TRADER": "新規トレーダーを紹介するごとに、月額最大${AMOUNT_USD}を獲得できます。",
+      "EARN_FOR_EACH_TRADER": "新規トレーダーを紹介するごとに、月額最大${AMOUNT_USD}を獲得できます",
       "EARN_FEES": "手数料を獲得",
-      "REFER_FOR_DISCOUNTS": "友人を紹介すると、最大${AMOUNT_USD}の割引を受けることができます。",
+      "REFER_FOR_DISCOUNTS": "友人を紹介すると、最大${AMOUNT_USD}の割引を受け取ることができます。",
       "REFER_FOR_DISCOUNTS_FIRST_ORDER": "初回注文後、最大${AMOUNT_USD}の手数料割引を受け取ることができます！",
-      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "新規トレーダーを紹介するごとに、月額最大${AMOUNT_PER_MONTH}を獲得できます。VIPであれば、最大${VIP_AMOUNT_USD}を獲得することができます！あなたから紹介を受けたご友人は、取引手数料を最大${AMOUNT_DISCOUNT}まで節約できます。{LEARN_MORE_LINK}",
+      "EARCH_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "新規トレーダーを紹介するごとに、月額最大${AMOUNT_PER_MONTH}を獲得できます。 VIPであれば、最大${VIP_AMOUNT_USD}を獲得することができます！ あなたから紹介を受けたご友人は、取引手数料を最大${AMOUNT_DISCOUNT}まで節約できます。 {LEARN_MORE_LINK}",
       "WANT_TO_VIEW_EARNINGS": "収益を確認しますか？{LINK}",
       "INVITE_FRIENDS": "お友達を招待",
       "YOUR_FRIEND": "ご友人",
@@ -763,48 +783,14 @@
       "EARN_USDC": "USDCを獲得",
       "EARN_USDC_DISCRIPTION": "ステーキングやその他のプロダクトを活用して、USDCを獲得しましょう。",
       "TRADE_ANYTHING": "何でも取引",
-      "TRADE_ANYTHING_DISCRIPTION": "いつでも、どんな資産でも。お探しのものが見つかりませんか？マーケットをリストアップして、いち早く取引しましょう！",
+      "TRADE_ANYTHING_DISCRIPTION": "いつでも、どんな資産でも。 お探しのものが見つかりませんか？マーケットをリストアップして、いち早く取引しましょう！",
       "LIGHTNING_FAST": "驚異的なスピードと豊富な流動性",
       "LIGHTNING_FAST_DISCRIPTION": "DeFiで最もシームレスでパワフルなエクスペリエンス。",
-      "ALL_REWARDS_DYDX_COMMUNITY": "*すべての報酬は、{DYDX_COMMUNITY_LINK}を通じて利用可能になります。",
+      "ALL_REWARDS_DYDX_COMMUNITY": "*すべての報酬は{DYDX_COMMUNITY_LINK}を通じて利用できます。",
       "DYDX_COMMUNITY": "dYdXコミュニティ",
       "THE_PRO_TRADING_PLATFORM": "DeFiに特化したプロフェッショナル向け取引プラットフォーム",
-      "TWEET_SHARE_AFFILIATES": "@dYdXで取引手数料を最大${AMOUNT_USD}節約できます。",
-      "YOUVE_TRADED": "${AMOUNT_USD}を取引しました",
-      "CONTACT_SUPPORT": "サポートに連絡",
-      "APPLY_NOW": "今すぐ申し込む",
-      "AFFILIATE_PAYOUTS": "アフィリエイト支払い",
-      "TOTAL_AFFILIATES": "総アフィリエイト数",
-      "COMISSIONS": "コミッション",
-      "CRITERIA_MODAL_VIP_DISCLAIMER": "アフィリエイト{REGULAR_VALUE}として獲得できます。 VIPになってさらに獲得（1ユーザーあたり月に最大）したい場合は、{VIP_VALUE}{APPLY_HERE}。",
-      "YOUR_TIER": "あなたは{TIER}クラスです。",
-      "AFFILIATES": "アフィリエイト",
-      "APPLY_HERE": "こちらから",
-      "VIP": "VIP",
-      "BY_APPLICATION_ONLY": "アプリケーションのみ。",
-      "YOURE_A_VIP": "あなたは {VIP}",
-      "PROGRAM_CARD_TITLE": "VIPとしてさらに稼ぐ！",
-      "PROGRAM_CARD_BODY": "VIPの場合は、紹介したユーザー1人あたり月に最大{VIP_VALUE}を獲得できます。",
-      "PROGRAM_CARD_TITLE_VIP": "あなたはVIPです！",
-      "PROGRAM_CARD_BODY_VIP": "{VIP}でいてくださりありがとうございます！さらに報酬を獲得できるようになりました。",
-      "YOUR_STATS": "統計データ",
-      "PROGRAM_STATS": "プログラム統計",
-      "AFFILIATE_TIER": "アフィリエイトクラス",
-      "AFFILIATE_TIERS": "アフィリエイトクラス",
-      "AFFILIATE_EARNINGS": "アフィリエイト収益",
-      "ALL_TIME_RANK": "通算ランキング",
-      "VOLUME_REFERRED": "紹介数量",
-      "FEES_REFERRED": "紹介料",
-      "USERS_REFERRED": "紹介したユーザー",
-      "TRADES_REFERRED": "紹介による取引",
-      "AFFILIATE_TIERS_CRITERIA": "基準を見る",
-      "TOTAL_EARNINGS": "総収益",
-      "AFFILIATES_LEADERBOARD": "リーダーボード",
-      "CURRENT_AFFILIATE_TIER": "現在のアフィリエイトクラス",
-      "YOUR_RANK": "ランク",
-      "AFFILIATE_CONNECT_WALLET": "ランキングを確認するには、ウォレットを接続してください",
-      "LOAD_MORE": "もっとロード",
-      "SHARE_AFFILIATE_BANNER_TITLE": "アフィリエイトリンクのロックを解除{AMMOUNT}するには、$ を超える取引"
+      "TWEET_SHARE_AFFILIATES": "@dYdXで取引手数料を最大${AMOUNT_USD}節約できます。 ",
+      "YOUVE_TRADED": "${AMOUNT_USD}を取引しました"
     },
     "HEADER": {
       "API_DOCUMENTATION": "APIドキュメント",
@@ -866,7 +852,7 @@
       "ACKNOWLEDGE_TERMS": "条件の確認",
       "ACKNOWLEDGE_TO_REVEAL": "開示する承認",
       "API_KEYS_NOT_FOUND": "APIキーが見つかりません",
-      "APPEARS_OUTSIDE_ACCESS": "米国外または取引制限の対象地域からdYdXにアクセスしようとしているようです。以下の事項について同意し、表明し、保証します。",
+      "APPEARS_OUTSIDE_ACCESS": "米国外または制限を受けている地域以外からdYdXにアクセスしようとしているようです。以下の事項について同意し、表明し、保証します。",
       "BRIDGING_TOKENS": "トークンをブリッジ",
       "CHECK_WALLET_FOR_REQUEST": "ウォレットでリクエストを確認しましょう！",
       "COMING_SOON": "近日公開！",
@@ -940,7 +926,7 @@
       "RECOVER_KEYS": "キーを再作成",
       "REFERRAL_DISCOUNT": "{DISCOUNT}割引",
       "REGISTER": "登録",
-      "REMEMBER_ME": "情報を記憶する",
+      "REMEMBER_ME": "ご注意ください",
       "SEARCHING_FOR_LEDGER_DESCRIPTION": "台帳の鍵がかかっていないほか、イーサリアムアプリが開いていることを確認してください。",
       "SEARCHING_FOR_LEDGER": "台帳を探しています...",
       "SEND_LINK": "リンクを送信する",
@@ -958,7 +944,7 @@
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC}を利用して簡単にサインイン",
       "SKIP_FOR_NOW": "スキップする",
       "SITE_OPERATED_BY_SHORT": "このサイトは{NAME_OF_DEPLOYER}によって、dYdX Trading Inc.のオープンソースソフトウェアを利用して運営されています。{LEARN_MORE_LINK}",
-      "SITE_OPERATED_BY_LONG": "本サイトはデプロイヤーである{NAME_OF_DEPLOYER}によって運営されており、第三者であるdYdX Trading Inc.によってオープンソース化された特定のソフトウェアを利用しています。また、規約は{DEPLOYER_TERMS_AND_CONDITIONS}に従うものとします。ただし、米国または他の制限された管轄区域に拠点を置く者によるソフトウェアの使用を禁止する同社の{TERMS_OF_USE}に従うものとします。dYdXブロックチェーンは、独立したバリデータのコミュニティによって運営されています。{LEARN_MORE_LINK}",
+      "SITE_OPERATED_BY_LONG": "本サイトはデプロイヤーである{NAME_OF_DEPLOYER}によって運営されており、第三者であるdYdX Trading Inc.によってオープンソース化された特定のソフトウェアを利用しています。また、規約は{DEPLOYER_TERMS_AND_CONDITIONS}に従うものとします。ただし、米国または他の制限された管轄区域に拠点を置く者によるソフトウェアの使用を禁止する同社の{TERMS_OF_USE}に従うものとします。dYdXブロックチェーンは、独立したバリデータのコミュニティによって運営されています。 {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "世界で最もパワフルなオープンエクスチェンジで取引を開始します。",
       "SWITCH_NETWORK": "ネットワークを切り替える",
       "TOS_TITLE": "当社の製品やサービスを使用することにより、お客様は、{TERMS_LINK}および{PRIVACY_POLICY_LINK}に同意したものとみなされます。  以下の事項について同意し、表明し、保証します。",
@@ -1336,7 +1322,6 @@
       "AVERAGE_OPEN": "平均始値",
       "AVERAGE_OPEN_CLOSE": "平均オープン\/クローズ",
       "AVERAGE_OPEN_SHORT": "寄付",
-      "AVG_OPEN": "平均寄付",
       "BASELINE_POSITION_SIZE": "ベースラインのポジションサイズ",
       "BEST_EFFORT_CANCELED": "ベストエフォートのキャンセル",
       "BIDS": "ビッド",
@@ -1344,7 +1329,6 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "{ASSET}が一定の金額増加すると、{ACTION}をトリガーして利益を獲得します。",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "{ASSET}が一定の金額増加すると、{ACTION}をトリガーして損失を防ぎます。",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "{ASSET}が一定の価格まで下落すると、{ACTION}をトリガーして利益を獲得します。",
-      "BUY_LONG": "購入｜ロング",
       "BUY_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}を{PRICE}で購入 ",
       "BUYS_SELLS_TOGGLE": "売買",
       "BUYS_SELLS_TOGGLE_TOOLTIP": "履歴の売買履歴を表示",
@@ -1352,7 +1336,7 @@
       "CANCEL_ORDER": "注文をキャンセルする",
       "CANCEL_ORDERS_COUNT": "{COUNT}件の注文をキャンセル",
       "CANCELING_ALL_ORDERS": "すべての注文をキャンセル",
-      "CANCELING_ALL_ORDERS_IN_MARKET": "{MARKET_ID}のすべての注文をキャンセルする",
+      "CANCELING_ALL_ORDERS_IN_MARKET": "{MARKET_ID}のすべての注文をキャンセルする ",
       "CANCELING_ORDERS_COUNT": "{COUNT}件の注文をキャンセル中...",
       "CANCEL_ORDERS": "注文をキャンセル",
       "CANCEL_REASON": "キャンセル理由",
@@ -1403,7 +1387,6 @@
       "FUNDING_PAYMENTS_SHORT": "ファンディング",
       "FUNDING_PAYMENTS": "ファンディングにおける支払い",
       "FUNDING_RATE_1H_SHORT": "1時間ファンディング",
-      "FUNDING_RATE_DURATION_SHORT": "{DURATION}ファンディング",
       "FUNDING_RATE": "1時間ファンディング見積額",
       "GOOD_TIL_DATE_ABBREVIATED": "有効期限",
       "GOOD_TIL_DATE": "Good Til Date (GTD)",
@@ -1417,7 +1400,6 @@
       "INDEX_PRICE_ABBREVIATED": "オラクル",
       "INDEX_PRICE": "オラクル価格",
       "INITIAL_STOP": "初期逆指値",
-      "LAUNCH_MARKET_WITH_PLUS": "+ ローンチマーケット",
       "LIMIT_ORDER_DESCRIPTION": "指定した価格（かそれより好ましい価格）で{SYMBOL}を売買し、取引の詳細オプションで注文を微調整します。",
       "LIMIT_ORDER_SHORT": "指値",
       "LIMIT_CLOSE": "リミットクローズ",
@@ -1438,7 +1420,6 @@
       "MARKET_PRICE_SHORT": "マーケット",
       "MARKET_PROFIT": "利益確定成行",
       "MARKET_SELL": "成行で売る",
-      "MARK_PRICE": "マーク価格",
       "MAXIMUM_POSITION_SIZE": "最大のポジションサイズ",
       "MID_MARKET": "ミッドマーケット",
       "MID_MARKET_PRICE_SHORT": "ミッド",
@@ -1538,7 +1519,6 @@
       "RISK_REWARD": "リスクと報酬",
       "SELECT_MARKET": "マーケットを選択する",
       "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}を{PRICE}で売却 ",
-      "SELL_SHORT": "売り｜ショート",
       "SELF_TRADE": "自己取引",
       "SET_ORDER_SIZE": "注文サイズを設定する",
       "SET_PRICE_TRIGGERS": "トリガー価格を設定する",
@@ -1670,49 +1650,27 @@
     },
     "VAULTS": {
       "VAULT": "ボールト",
-      "VAULTS": "ボールト",
       "MEGAVAULT": "MegaVault",
-      "MEGAVAULT_TRANSFERS": "MegaVault転送",
-      "VAULT_TRANSFERS": "ボールト転送",
-      "MEGAVAULT_TRANSFERS_DESCRIPTION": "MegaVaultへの及びMegaVaultからの転送",
       "VAULT_FAQS": "ボールトFAQ",
       "MEGAVAULT_FAQS": "MegaVaultに関するよくある質問",
       "YOUR_ALL_TIME_PNL": "オールタイムP＆L",
       "VAULT_THIRTY_DAY_APR": "30d APR",
-      "APR": "{PERCENT}年利",
       "VAULT_THIRTY_DAY_PNL": "30日間 P&L",
       "YOUR_VAULT_BALANCE": "ボールト残高",
       "VIEW_VAULT": "ボールトを見る",
-      "VIEW_MEGAVAULT": "MegaVaultを見る",
       "VAULT_EQUITY": "ボールトエクイティ",
       "VAULT_PNL": "ボールトP＆L",
-      "MEGAVAULT_CANT_SUBMIT": "MegaVaultトランザクションを提出できません",
-      "MEGAVAULT_CANT_SUBMIT_BODY": "金額を調整して、もう一度お試しください。",
-      "MEGAVAULT_DEPOSIT_SUCCESSFUL": "MegaVault入金に成功",
-      "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "MegaVault{AMOUNT}に入金しました。",
-      "MEGAVAULT_WITHDRAWAL_SUCCESSFUL": "MegaVault出金に成功",
-      "MEGAVAULT_WITHDRAWAL_SUCCESSFUL_BODY": "MegaVault{AMOUNT}から撤退しました。",
-      "MEGAVAULT_DEPOSIT_FAILED": "MegaVault入金に失敗しました",
-      "MEGAVAULT_DEPOSIT_FAILED_BODY": "入金リクエストの実行中にエラーが発生しました。",
-      "MEGAVAULT_WITHDRAWAL_FAILED": "MegaVaultの出金に失敗しました",
-      "MEGAVAULT_WITHDRAWAL_FAILED_BODY": "出金リクエストの実行中にエラーが発生しました。",
       "YOUR_DEPOSITS_AND_WITHDRAWALS": "入金と引き出し",
       "YOU_HAVE_NO_VAULT_DEPOSITS": "ボールト預金はありません。",
       "SLIPPAGE_ACK": "私は、今すぐ出金することで{AMOUNT}のスリッページが発生することを理解しています。",
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "高スリッページを承認する",
-      "SLIPPAGE_WARNING": "この出金では{AMOUNT}のスリッページが発生します。後で出金することで、スリッページが減少する場合があります。 詳細については、{LINK}を参照してください。",
+      "SLIPPAGE_WARNING": " この出金では{AMOUNT}のスリッページが発生します。 後で出金することで、スリッページが減少する場合があります。 詳細については、{LINK}を参照してください。",
       "EST_SLIPPAGE": "想定されるスリッページ",
-      "ESTIMATED_SLIPPAGE": "推定スリッページ",
-      "ESTIMATED_AMOUNT_RECEIVED": "受け取った推定金額",
       "PROTOCOL_VAULT": "dYdXプロトコルボールト",
-      "LOCKED_BALANCE": "ロックされた残高",
       "WITHDRAW_TOO_HIGH": "ボールト残高を超えて出金することはできません。",
-      "WITHDRAW_TOO_LOW": "出金額は、最小出金しきい値$20を下回っています。",
       "DEPOSIT_TOO_HIGH": "担保不要額を超えて入金することはできません。",
-      "DEPOSIT_TOO_LOW": "入金金額は、最低入金額の$20のしきい値を下回っています。",
       "ENTER_AMOUNT_TO_DEPOSIT": "入金額を入力します",
       "ENTER_AMOUNT_TO_WITHDRAW": "出金額を入力します",
-      "AVAILABLE_TO_WITHDRAW": "出金できます",
       "AMOUNT_TO_WITHDRAW": "出金額",
       "PREVIEW_WITHDRAW": "出金のプレビュー",
       "PREVIEW_DEPOSIT": "入金のプレビュー",
@@ -2121,8 +2079,7 @@
       "SEND_FUNDS": "暗号資産を入金",
       "SEND_FUNDS_MODAL_TITLE": "送金＆入金",
       "SEND_FUNDS_MODAL_SUBTITLE": "ウォレット＆取引口座に暗号資産を入金",
-      "SEND_FUNDS_SUBTITLE": "ウォレットアドレスに資金を送り、取引口座に入金します。",
-      "SHOW_DEPOSIT_FORM": "入金フォームを表示"
+      "SEND_FUNDS_SUBTITLE": "ウォレットアドレスに資金を送り、取引口座に入金します。"
     },
     "USER_SURVEY": {
       "USER_SURVEY_BODY": "dYdXでの取引経験を向上させる方法を常に探しています！10分間のユーザー調査をご検討ください。",
@@ -2196,7 +2153,6 @@
       "ADD_MARKET_STEP_3_DESCRIPTION": "新しいマーケットを追加するための提案を作成するトランザクションを送信します。これは、{REQUIRED_NUM_TOKENS}のアンステーク{NATIVE_TOKEN_DENOM}の残高を必要とします。",
       "ADD_NEW_MARKET_DETAILS": "ガバナンス提案を介してdYdXチェーンに新しい資産を追加します。ステーキング解除されたDYDX{AMOUNT}が必要です。",
       "AVAILABLE_TO_TRADE_POST_LAUNCH": "{MARKET}をローンチすると、すぐに取引を開始できます。",
-      "BEGIN_LAUNCH": "ローンチを開始",
       "CONFIRM_LAUNCH_DETAILS": "ローンチの詳細を確認",
       "CONFIRM_NEW_MARKET_PROPOSAL": "新しいマーケット提案の確認",
       "DEPOSIT_APR": "預入年利",
@@ -2209,12 +2165,11 @@
       "LAUNCH_MARKET": "マーケットをローンチ",
       "LAUNCH_MARKETS": "マーケットをローンチ",
       "LIQUIDITY_TIER": "流動性階層",
-      "LIQUIDITY_TIER_IS": "流動性層は{TIER}です",
+      "LIQUIDITY_TIER_IS": "流動性階層は{TIER}です",
       "LIST_A_NEW_MARKET": "新しいマーケットをリスト化する",
       "LISTINGS_DESCRIPTION": "dYdXのリスティングは、完全にコミュニティ主導です。 このツールは、新しいマーケットをリスト化したガバナンス提案を提出するのに役立ちます。",
       "MARKET_LAUNCH_DETAILS": "ローンチしたいマーケットを選択し、{DEPOSIT_AMOUNT}をMegaVaultに入金します。預入金は、推定年利{APR_PERCENTAGE}（過去{PAST_DAYS}日間の実績に基づく）を獲得します。",
       "MARKET_LAUNCH_DETAILS_2": "{DEPOSIT_AMOUNT}をMegaVaultに入金することで、dYdXチェーンの新しいマーケットを即座にローンチできます。預入金は、推定年利{APR_PERCENTAGE}（過去{PAST_DAYS}日間の実績に基づく）を獲得します。",
-      "MARKET_LAUNCH_DETAILS_3": "ローンチしたいマーケットを選択し、少なくとも数日間MegaVault{DEPOSIT_AMOUNT}に入金します{PAST_DAYS}。 預入金は、推定年利を獲得します{APR_PERCENTAGE}",
       "MARKET_TO_LAUNCH": "マーケットをローンチ",
       "MESSAGE_DETAILS": "メッセージの詳細",
       "MSG_CREATE_CLOB_PAIR": "clobPairのメッセージ作成",
@@ -2240,7 +2195,6 @@
       "STEPS_TO_CREATE": "新しいマーケットを創造するためのステップ",
       "SUBMITTED_PROPOSAL": "提案書を送信しました！",
       "SUGGEST_NEW_MARKET": "新しいマーケットを提案する",
-      "TIME_UNTIL_LIVE": "ライブまでの時間",
       "TRADE_INSTANTLY": "即座に取引",
       "VIEW_PROPOSAL": "提案の表示"
     },
@@ -2259,7 +2213,7 @@
       "PREDICTION_MARKET_DESC": "予測市場は、イベントが予測通りに発生した場合、$1で決済されます。そうでない場合は、$0で決済されます。",
       "PREDICTION_MARKETS": "予測市場",
       "TRADE_US_PRESIDENTIAL_ELECTION": "米国大統領選挙の取引",
-      "TRUMPWIN_DESC": "これは予測市場であり、ドナルド・J・トランプが2024年の米国大統領選挙で勝利した場合、$1ドルで決済されます。 そうでない場合は、$0で決済されます。{LEARN_MORE}または{DISMISS}"
+      "TRUMPWIN_DESC": "これは予測市場であり、ドナルド・J・トランプが2024年の米国大統領選挙で勝利した場合、$1ドルで決済されます。 そうでない場合は$0で決済されます。{LEARN_MORE}または{DISMISS}"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2379,7 +2333,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "この IP アドレスの率制限に達しました。 後ほどやり直してください。",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "問題が発生しました：{ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "問題が発生しました。後ほどやり直してください。",
-      "TIMESTAMP_DISCREPANCY": "セキュリティ上の理由により、口座認証の際にタイムスタンプを検証します。システムクロックが正しく同期されていることを確認し、アプリを更新してください。"
+      "TIMESTAMP_DISCREPANCY": "セキュリティ上の理由により、アカウント認証の際にタイムスタンプを検証します。システムクロックが正しく同期されていることを確認し、アプリを更新してください。"
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "注文金額は、{STEP_SIZE}の因数でなければなりません。",
@@ -2407,11 +2361,11 @@
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "この注文はゼロではない影響を及ぼし、お客様のポジションが最大レバレッジを超えてしまう可能性があります。取引額を引き下げてお試しください。",
       "NEW_POSITION_SIZE_OVER_MAX": "この取引の結果、ポジションサイズが{MAX_SIZE}{SYMBOL}の最大サイズを超えてしまう可能性があります。",
       "NO_EQUITY_DEPOSIT_FIRST": "発注前に資金を入金しなければなりません。",
-      "ORDER_BELOW_COLLATERALIZATION": "この注文により、口座はこのマーケットの担保率のしきい値を下回る可能性があります。金額を引き下げてお試しください。",
+      "ORDER_BELOW_COLLATERALIZATION": "この注文により、口座はこのマーケットの担保率のしきい値を下回る可能性があります。取引額を引き下げてお試しください。",
       "ORDER_CROSSES_OWN_ORDER": "この注文は、保有する1つ以上の既存注文を執行できます。競合する注文をキャンセルするか、注文金額を調整してください。",
       "ORDER_SIZE_BELOW_MIN_SIZE": "注文サイズが最小注文サイズ（{MIN_SIZE} {SYMBOL}）を下回っています。",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "お客様の現在のオープンオーダーを考慮すると、この注文により、お客様のポジションのレバレッジが無効になる可能性があります。この注文より先に執行される注文の一部または全部をクローズするか、注文のサイズを減らしてください。",
-      "ORDER_WOULD_FLIP_POSITION": "この注文により、ポジションがフリップまたは増加することになります。リデュースオンリーのチェックを解除するか、または注文サイズを縮小してください。",
+      "ORDER_WOULD_FLIP_POSITION": "この注文により、ポジションがフリップまたは増加するでしょう。リデュースオンリーのチェックを解除するか、または注文サイズを縮小してください。",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}を上回るトリガー価格を入力するか、ストップリミットオーダーを使用してください。",
       "TAKER_FEE_INVALID": "手数料レートが変更された可能性があります。アプリを更新し、もう一度お試しください。",
       "TARGET_LEVERAGE_NEGATIVE": "ターゲットレバレッジがマイナス値になることはありません。プラス値の数字を入力してください。",
@@ -2549,9 +2503,9 @@
       "WALLET_NO_TRANSACTIONS": "このウォレットには資金や過去のトランザクションがありません。ウォレットに資金を入金してオンボーディングを続けてください。"
     },
     "DEPOSIT_MODAL": {
-      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "口座が同期されていません。ウォレットを再接続し、もう一度お試しください。",
+      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "アカウントが同期されていません。ウォレットを再接続し、もう一度お試しください。",
       "DEPOSIT_MORE_THAN_BALANCE": "ウォレットの利用可能残高を超えて入金することはできません。",
-      "DEPOSIT_WRONG_NETWORK_PRODUCTION": "ウォレットネットワークが正しくありません。「イーサリアム・メインネット」に設定されていることを確認してください。",
+      "DEPOSIT_WRONG_NETWORK_PRODUCTION": "ウォレットネットワークが正しくありません。「Ethereum Mainnet」に設定されていることを確認してください。",
       "DEPOSIT_WRONG_NETWORK_STAGING": "ウォレットネットワークが正しくありません。「Goerli Test Network」に設定されていることを確認してください。",
       "MUST_SPECIFY_ASSET": "入金する資産を選択してください。",
       "MUST_SPECIFY_CHAIN": "入金元のソースチェーンを選択してください。"
@@ -2560,7 +2514,7 @@
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "この高速出金を処理するのに十分な流動性がありません。取引額を引き下げてお試しください。",
       "MAX_FAST_WITHDRAW_AMOUNT": "出金額には、{MAX_FAST_WITHDRAW_AMOUNT}未満の金額を入力してください。",
       "MIN_SLOW_WITHDRAW_AMOUNT": "通常出金額は10以上か、お客様の口座残高全額でなければなりません。",
-      "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "お客様の口座は取引が制限されています。出金する前にすべてのポジションをクローズする必要があります。",
+      "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "お客様の口座は取引が制限されています。出金前にはすべてのポジションを閉じる必要があります。",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "担保不要額を超えて出金することはできません。金額入力時には、お客様が高速出金手数料を負担することをお忘れにならないようお願いします。",
       "WITHDRAW_MORE_THAN_FREE": "担保不要額を超えて出金することはできません。",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "宛先アドレスを入力してください。",
