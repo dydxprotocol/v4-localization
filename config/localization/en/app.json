@@ -1750,7 +1750,10 @@
       "CONFIRM_DEPOSIT_CTA": "Confirm Deposit",
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
-      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited. This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community. {OPERATOR_LEARN_MORE}.",
+      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
+      "LEARN_MORE_ABOUT_MEGAVAULT": "Learn more about MegaVault",
+      "VAULT_OPERATOR_DESCRIPTION": "This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community.",
+      "LEARN_MORE_ABOUT_OPERATOR": "Learn more about {OPERATOR_NAME}",
       "TVL": "TVL",
       "HOLDINGS": "Holdings"
     },
