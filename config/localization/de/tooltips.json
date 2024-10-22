@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "Ihre dYdX-Chain-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Ihre dYdX-Chain-Adresse „“ wurde aus der Signatur der Solana-Adresse {DYDX_ADDRESS}„“ {SOLANA_ADDRESS}erstellt."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
@@ -18,7 +15,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Affiliate-Provisionen",
-      "BODY": "Prozentsatz der Provision von den Taker-Gebühren."
+      "BODY": "Prozentsatz der Kommission von den Taker-Gebühren."
     }
   },
   "PORTFOLIO": {
@@ -89,7 +86,7 @@
       "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Hebelwirkung."
     },
     "GOOD_TIL": {
-      "TITLE": "Good-till-canceled",
+      "TITLE": "Good Til",
       "BODY": "Zeit, bis Ihre Order abläuft."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -110,7 +107,7 @@
     },
     "LEVERAGE": {
       "TITLE": "Hebelwirkung",
-      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+      "BODY": "Die Hebelwirkung ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
     },
     "LIMIT_CLOSE": {
       "TITLE": "Limit Close",
@@ -158,7 +155,7 @@
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Maximale Hebelwirkung",
-      "BODY": "Maximal zulässige Leverage für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
+      "BODY": "Maximal zulässige Hebelwirkung für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Geschätzte Prämien",
@@ -380,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Referenzpreis",
       "BODY": "Der Referenzpreis ist der rollierende 30-Tage-Durchschnitt des Marktpreises und wird als Input verwendet, um die Marktparameter auf dYdX Chain automatisch zu berechnen. Der Referenzpreis sollte ungefähr gleich dem aktuellen Preis des Marktes sein (d. h. auf die gleichen 10-Potenzen runtergerundet)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Dieser Wert wird auf CoinMarketCap selbst gemeldet."
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "Der geschätzte Betrag, der ausgezahlt wird, ist der Auszahlungsbetrag minus des geschätzten Slippage-Betrags. Dieser Betrag ist eine Schätzung, die auf den aktuellen Bedingungen basiert. Der tatsächliche Betrag kann auf der Grundlage der tatsächlichen Bedingungen zum Ausführungszeitpunkt unterschiedlich sein."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "Der geschätzte Betrag der Slippage bei der Auszahlung. Die Slippage kommt davon, dass der Tresor die aktuellen Positionen aktualisieren muss, um die Marge freizugeben, um den Auszahlungsbetrag zu erfüllen. Dieser Betrag ist eine Schätzung, die auf den aktuellen Bedingungen basiert. Der tatsächliche Betrag kann auf der Grundlage der tatsächlichen Bedingungen zum Ausführungszeitpunkt unterschiedlich sein."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "Der Betrag, den Sie auszahlen können, ist Ihr Tresorguthaben abzüglich des Betrags, der für neue Marktangebote gesperrt ist."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "Der aktuelle Wert Ihrer Einzahlungen. Dies wird auf der Grundlage des aktuellen Eigenkapitals und der Positionen des Tresors berechnet."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "Der Gesamt-PnL im Laufe der Zeit. Dies umfasst historische PnL Ihrer Einzahlungen in den Tresor."
     }
   }
 }
