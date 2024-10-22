@@ -64,7 +64,7 @@
       "NETWORK": "ネットワーク",
       "NEWS": "ニュース",
       "NICE": "すばらしい！",
-      "NOT_NOW": "今は無理",
+      "NOT_NOW": "今はだめ",
       "NO_RESULTS": "結果なし",
       "OF": "{ITEM2}の{ITEM1}",
       "OK": "OK",
@@ -340,10 +340,10 @@
       "UPDATE_SETTINGS_MESSAGE": "アプリの設定通知を更新してください。",
       "PERMIT": "許可する",
       "GO_TO_SETTINGS": "設定に移動する",
-      "PRIMER_TITLE": "通知をオンにする",
+      "PRIMER_TITLE": "通知をオンにします",
       "PRIMER_MESSAGE": "注文とポジションの最新情報を入手してください。",
-      "ENABLED": "通知がオンになりました",
-      "DISABLED": "通知が無効になりました",
+      "ENABLED": "通知が有効になりました",
+      "DISABLED": "通知はオフにしました",
       "DISABLED_BODY": "設定で有効にします。"
     },
     "SHARE_ACTIVITY_MODAL": {
