@@ -325,6 +325,7 @@
       "SHORT_POSITION_SHORT": "Short",
       "SHOW": "Show {NUMBER}",
       "SHOW_ALL_DETAILS": "Show all details",
+      "SHOWING": "Showing {ALL_OR_MARKET}",
       "SHOWING_NUM_OUT_OF_TOTAL": "Showing {START} - {END} out of {TOTAL}",
       "SIDE": "Side",
       "SIGN_OUT": "Sign out",
@@ -1122,7 +1123,7 @@
       "LEARN_ABOUT_WALLETS": "Learn about wallets",
       "SELECT_LANGUAGE": "Select language",
       "SELECT_WALLET_FROM_OPTIONS": "Please select your wallet from the options below.",
-      "WALLET_DEFINITION": "A wallet is a device or application that stores your keys and enables you to explore crypto."
+      "WALLET_DEFINITION": "A wallet is a device or application that stores your keys and enables you to explore crypto.\n{ABOUT_WALLETS_LINK}"
     },
     "DYDX_UNLIMITED_MODAL": {
       "AFFILIATES_PROGRAM_DESCRIPTION": "Turn your network into a lucrative venture for everyone with the dYdX affiliate program!",
