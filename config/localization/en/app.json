@@ -812,7 +812,8 @@
       "YOUR_RANK": "Your rank",
       "AFFILIATE_CONNECT_WALLET": "Please connect your wallet to check your rankings",
       "LOAD_MORE": "Load more",
-      "SHARE_AFFILIATE_BANNER_TITLE": "Trade over ${AMMOUNT} to unlock your affiliate link"
+      "SHARE_AFFILIATE_BANNER_TITLE": "Trade over ${AMOUNT} to unlock your affiliate link",
+      "AFFILIATE_CHART_EMPTY_STATE": "There is no data available"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
