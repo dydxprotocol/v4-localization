@@ -2303,6 +2303,7 @@
       "LEVERAGE_TRADE_US_ELECTION": "Leverage trade the outcome of the U.S. Election",
       "PREDICTION_MARKET_DESC": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
       "PREDICTION_MARKETS": "Prediction Markets",
+      "PREDICTION_MARKET_DISCLAIMER": "Prediction markets have a higher risk of volatility and may result in deleveraging. Read more about prediction markets {HERE}",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
       "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0. {LEARN_MORE} or {DISMISS}."
     }
