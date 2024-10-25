@@ -37,7 +37,7 @@
       "BODY": "Porcentagem de sua margem total usada nas posições abertas."
     },
     "BASE_POSITION_NOTIONAL": {
-      "TITLE": "Valor referencial básico da posição ",
+      "TITLE": "Valor referencial básico da posição",
       "BODY": "O tamanho máximo da posição no qual os requisitos de margem não são aumentados."
     },
     "BRACKET_ORDER_SL": {
@@ -102,7 +102,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
-      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor nocional de posição de um trader dividido por capital. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição. "
+      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor nocional de posição de um trader dividido por capital. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop inicial",
@@ -114,7 +114,7 @@
     },
     "LIMIT_CLOSE": {
       "TITLE": "Fechamento limite",
-      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu posição."
+      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar sua posição."
     },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
@@ -130,7 +130,7 @@
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Preço de liquidação",
-      "BODY": "Se o preço do oráculo de {SYMBOL} cair abaixo do preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+      "BODY": "Se o preço do oráculo de  cair abaixo do preço de liquidação, sua posição será liquidada.{SYMBOL} Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Preço de liquidação",
@@ -142,7 +142,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fração da margem de manutenção",
-      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como um valor nocional de posição de um trader, dividido por capital. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pago a penalidade de liquidação máxima de 1,5%."
+      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como um valor nocional de posição de um trader, dividido por capital. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pagado a penalidade de liquidação máxima de 1,5%."
     },
     "MAKER_FEE": {
       "TITLE": "Taxa maker",
@@ -150,6 +150,10 @@
     },
     "MARGIN_USAGE": {
       "TITLE": "Uso de margem",
+      "BODY": "Porcentagem de sua margem total usada nas posições abertas."
+    },
+    "MARGIN_USED": {
+      "TITLE": "Margem usada",
       "BODY": "Porcentagem de sua margem total usada nas posições abertas."
     },
     "MAX_WITHDRAW": {
@@ -174,7 +178,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Preço do oráculo",
-      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo onchain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
+      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo on-chain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
@@ -191,6 +195,18 @@
     "PARTIAL_CLOSE_TAKE_PROFIT": {
       "TITLE": "Take Profit é um fechamento parcial.",
       "BODY": "Sua Take Profit não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
+    },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Valor de portfólio",
+      "BODY": "Valor patrimonial total da sua conta."
+    },  
+    "POSITION_MARGIN": {
+      "TITLE": "Margem de posição",
+      "BODY": "O valor de garantia que respalda a posição."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Alavancagem de posição",
+      "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
     "POST_ONLY": {
       "TITLE": "Ordem Post-Only",
@@ -220,6 +236,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only está disponível somente se a execução estiver definida como IOC."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Recompensas recebidas",
+      "BODY": "Ganhe recompensas quando fizer trades na dYdX."
+    }, 
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a vender) de um ativo."
@@ -302,7 +322,7 @@
       "BODY": "Os depósitos em USDC em {LOWEST_FEE_TOKEN_NAMES} têm as taxas mais baixas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
-      "TITLE": "Valor mínimo do depósito ",
+      "TITLE": "Valor mínimo do depósito",
       "BODY": "Incluindo qualquer slippage que possa ocorrer devido a mudanças de liquidez enquanto a ponte está em andamento"
     },
     "SWAP": {
