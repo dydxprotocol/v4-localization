@@ -152,6 +152,10 @@
       "TITLE": "Utilisation de la marge",
       "BODY": "Pourcentage de votre marge totale utilisé par les positions ouvertes."
     },
+    "MARGIN_USED": {
+      "TITLE": "Marge utilisée",
+      "BODY": "Pourcentage de la marge totale utilisée par les positions ouvertes."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Retrait rapide maximum",
       "BODY": "Le montant maximum autorisé pour un retrait rapide unique."
@@ -192,6 +196,18 @@
       "TITLE": "Le Take Profit est une clôture partielle",
       "BODY": "Votre stop loss n'est pas paramétré pour clôturer l'ensemble de votre position. Cela peut être dû au fait que vous définissez un montant personnalisé ou que vous avez modifié la taille de votre position après l'ajout de ce déclencheur."
     },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Valeur du portefeuille",
+      "BODY": "Valeur totale de votre compte."
+    },  
+    "POSITION_MARGIN": {
+      "TITLE": "Marge de position",
+      "BODY": "Le montant du collatéral garantissant la position."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Effet de levier de la position",
+      "BODY": "L'effet de levier modifie le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Les ordres avec post-only activé ne peuvent être placés qu'en tant qu'ordres Maker. Si l'ordre croise d'autres ordres au moment du placement, il sera automatiquement annulé."
@@ -220,6 +236,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only n'est disponible que si l'exécution est définie sur IOC."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Récompenses gagnées",
+      "BODY": "Gagnez des récompenses lorsque vous effectuez des transactions sur dYdX."
+    }, 
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "La différence de prix entre l'offre la plus élevée (le prix auquel un acheteur est prêt à acheter) et la demande la plus basse (le prix auquel un vendeur est prêt à vendre) d'un actif."
