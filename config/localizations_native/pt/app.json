@@ -55,7 +55,7 @@
       "LEADERBOARDS": "Tabelas de Classificação",
       "LEARN_MORE_ABOUT_WALLETS": "Saiba mais sobre carteiras",
       "LINE": "Linha",
-      "LIQ_ORACLE": "Liq. \/ Oracle",
+      "LIQ_ORACLE": "Liq. \/ Oráculo",
       "LOSERS": "Perdedores",
       "MANAGE": "Gerenciar",
       "MARKET_CAP_SHORT": "Capitalização de mercado",
@@ -403,6 +403,7 @@
       "IN_PROGRESS_TEXT": "Seu depósito de  {AMOUNT_ELEMENT}foi enviado. Isso pode levar alguns minutos.",
       "COMPLETED_TITLE": "Depósito concluído",
       "COMPLETED_TEXT": "Seu depósito foi confirmado. Seus fundos estão agora disponíveis para trading instantâneo na dYdX. Pode prosseguir!",
+      "COMPLETED_TEXT_SHORT": "Seu depósito foi concluído.",
       "MOBILE_WALLET_REQUIRED": "Vincule sua carteira móvel ao depósito."
     },
     "V4_WITHDRAWAL": {
