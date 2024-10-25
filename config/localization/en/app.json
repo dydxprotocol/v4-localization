@@ -1135,6 +1135,7 @@
       "MEGAVAULT_DESCRIPTION": "Earn by providing liquidity across markets.",
       "PERMISIONLESS_MARKET_LISTINGS": "Permissionless Market Listings",
       "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "Instantly list markets on dYdX Chain without requiring governance approval.",
+      "UNLIMITED": "unlimited",
       "UPDATED_INCENTIVES": "Updated Incentives",
       "UPDATED_INCENTIVES_DESCRIPTION": "Earn DYDX by staking, listing markets, trading, and more."
     },
