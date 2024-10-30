@@ -34,7 +34,7 @@
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Available Balance",
-      "BODY": "Percentage of your total cross margin used by open positions."
+      "BODY": "Amount of collateral that is available to trade or be withdrawn from your cross margin account."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Base Position Notional",
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Cross Free Collateral",
-      "BODY": "Amount of collateral that is available to be withdrawn from your cross margin account."
+      "BODY": "Amount of collateral that is available to trade or be withdrawn from your cross margin account."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Cross Margin Usage",
@@ -199,7 +199,7 @@
     "PORTFOLIO_VALUE": {
       "TITLE": "Portfolio Value",
       "BODY": "Total equity value of your account."
-    },  
+    },
     "POSITION_MARGIN": {
       "TITLE": "Position Margin",
       "BODY": "The amount of collateral backing the position."
@@ -239,7 +239,7 @@
     "REWARDS_EARNED": {
       "TITLE": "Rewards Earned",
       "BODY": "Earn rewards when you trade on dYdX."
-    }, 
+    },
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "The difference in price between the highest bid (the price a buyer is willing to buy for) and lowest ask (the price a seller is willing to sell for) an asset."
