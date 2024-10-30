@@ -34,7 +34,7 @@
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Available Balance",
-      "BODY": "Amount of collateral that is available to trade or be withdrawn from your cross margin account."
+      "BODY": "Amount of collateral that is available to trade or withdraw from your cross margin account."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Base Position Notional",
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Cross Free Collateral",
-      "BODY": "Amount of collateral that is available to trade or be withdrawn from your cross margin account."
+      "BODY": "Amount of collateral that is available to trade or withdraw from your cross margin account."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Cross Margin Usage",
