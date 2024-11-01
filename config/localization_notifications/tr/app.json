@@ -9,11 +9,11 @@
       "BODY": "dYdX Zinciri üzerinde koşullu talimatlar tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, içgüdüsel ve performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
     },
     "DELEVERAGED": {
-      "TITLE": "Pozisyon kaldıraçsızlaştırıldı",
+      "TITLE": "Pozisyon Kaldıraçsızlaştırıldı",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
     },
     "DISCOVERY_PROGRAM": {
-      "TITLE": "30 Dakika içinde 200 $ 'a kadar kazanın!",
+      "TITLE": "30 Dakika içinde 200 $'a kadar kazanın!",
       "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Kontenjan sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} üzerine tıklayın!"
     },
     "FINAL_SETTLEMENT": {
@@ -29,20 +29,20 @@
       "BODY": "USDC ödüllerini alın."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "{SEASON_NUMBER}. sezon başladı!",
-      "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
+      "TITLE": "{SEASON_NUMBER} sezonu başladı!",
+      "BODY": ".{PREV_SEASON_NUMBER} sezonunda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "Sezon {SEASON_NUMBER} sona erdi!",
-      "BODY": "Lansman teşvik programına katıldığınız için teşekkür ederiz. Gelecek ödül programlarındaki güncellemeler için bizden ayrılmayın!"
+      "TITLE": "{SEASON_NUMBER} sezonu sona erdi!",
+      "BODY": "Lansman teşvikleri programına katıldığınız için teşekkür ederiz. Gelecekteki ödül programlarındaki güncellemeler için bizden ayrılmayın!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "İzole Marj aktif",
       "BODY": "İzole Marj şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "{SEASON_NUMBER}. sezon lansman ödülleri dağıtıldı!",
-      "BODY": "{SEASON_NUMBER}. sezon ödülleri +{DYDX_AMOUNT} DYDX"
+      "TITLE": "{SEASON_NUMBER} sezonu lansman ödülleri dağıtıldı!",
+      "BODY": "{SEASON_NUMBER} sezonu ödülleri +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Posizyonda Denkleştirme",
@@ -179,30 +179,30 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20.000 $ değerinde hediye",
-      "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 17 Ağustos 2024, 02.59'dan (TSİ) sonra rastgele bir seçim mekanizmasına göre {HERE_LINK}seçilecektir."
+      "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 17 Ağustos 2024, 02.59'dan (TSİ) sonra rastgele bir seçim mekanizmasına göre seçilecektir {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} piyasası kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET} piyasası son uzlaşmadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "BODY": "On {DATE}, {MARKET} piyasa nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
-      "BODY": "Şu anda {MARKET} piyasayı kapatmak için canlı bir teklif var. Teklif geçtiği takdirde, {MARKET} piyasası son anlaşmaya {DATE} bağlanacak. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {MARKET} piyasası {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kaldırıldı",
-      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai uzlaşma sürecini gerçekleştirdi. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kapatıldı",
+      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "{MARKET_1} ve {MARKET_2} piyasalarının kaldırılması için canlı teklif",
-      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kaldırılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai uzlaşmaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "TITLE": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için canlı teklif",
+      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "{MARKET} ayarı güncellemek için canlı teklif",
-      "BODY": "Şu an {MARKET} piyasanın ayarlarını güncellemek için canlı bir teklif bulunmaktadır. Eğer ayarlar onaylanırsa, {MARKET} piyasada tek oracle kaynağı olarak Coinbase Pro'ya{MARKET} sahip olacaktır. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "TITLE": "{MARKET} parametrelerini güncellemek için canlı teklif",
+      "BODY": "Şu an {MARKET} piyasanın parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasası tek oracle kaynağı olarak Coinbase Pro {MARKET} sahibi olacaktır. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "ABD başkanlık seçimi için işlem yapın!",
+      "TITLE": "ABD başkanlık seçimi üzerine alım satım yapın!",
       "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
     },
     "KEPLR_SUPPORT": {
