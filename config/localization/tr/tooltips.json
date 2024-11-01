@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski imza",
@@ -152,10 +149,6 @@
       "TITLE": "Marj Kullanımı",
       "BODY": "Açık pozisyonlar tarafından kullanılan toplam marj oranınızın yüzdesi."
     },
-    "MARGIN_USED": {
-      "TITLE": "Kullanılan Marj",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
-    },
     "MAX_WITHDRAW": {
       "TITLE": "Maksimum Hızlı Çekme Miktarı",
       "BODY": "Tek bir hızlı çekme işlemi için izin verilen maksimum miktar."
@@ -196,18 +189,6 @@
       "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
       "BODY": "Kâr al emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
-    "PORTFOLIO_VALUE": {
-      "TITLE": "Portföy Değeri",
-      "BODY": "Hesabınızın toplam varlık değeri."
-    },  
-    "POSITION_MARGIN": {
-      "TITLE": "Pozisyon Marjini",
-      "BODY": "Pozisyonu destekleyen teminat miktarı."
-    },
-    "POSITION_LEVERAGE": {
-      "TITLE": "Pozisyon Kaldıracı",
-      "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
-    },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
       "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
@@ -236,10 +217,6 @@
       "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
     },
-    "REWARDS_EARNED": {
-      "TITLE": "Kazanılan Ödüller",
-      "BODY": "dYdX üzerinde işlem yaptığınızda ödül kazanın."
-    }, 
     "SPREAD": {
       "TITLE": "Alış-Satış Farkı (Spread)",
       "BODY": "Bir varlık için verilen en yüksek alış (bir alıcının satın almak için ödemek istediği fiyat) ve en düşük satış (bir satıcının satış yapmak istediği fiyat) fiyatları arasındaki farktır."
@@ -400,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Referans Fiyatı",
       "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Bu değer CoinMarketCap üzerinde kendi kendine bildirilir"
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "Çekme sırasında alınacak tahmini miktar, yani çekme tutarı eksi tahmini kayma tutarıdır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "Çekme sırasında tahmini kayma tutarı. Kayma, çekme tutarını karşılamak üzere marjı serbest bırakmak için kasanın mevcut pozisyonları güncelleme ihtiyacından kaynaklanır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "Çekebileceğiniz tutar, kasa bakiyenizden yeni piyasa listeleri için kilitlenmiş herhangi bir tutar çıkarıldığında kalan tutardır."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "Yatırma işlemlerinizin mevcut değeri. Bu, kasanın mevcut net varlığına ve pozisyonlarına göre hesaplanır."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     }
   }
 }
