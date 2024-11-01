@@ -1,10 +1,10 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS_FROM_ETHEREUM": {
-      "BODY": "Tu dirección de cadena dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección Ethereum \"{EVM_ADDRESS}\"."
+      "BODY": "Tu dirección de la cadena dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección de Ethereum \"{EVM_ADDRESS}\"."
     },
     "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Su dirección de la cadena de dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección de Solana \"{SOLANA_ADDRESS}\"."
+      "BODY": "Tu dirección de la cadena dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección de Solana \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Firma de patrimonio",
@@ -24,13 +24,13 @@
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Hedgies de descuento ",
-      "BODY": "Tener un {NFT} aumentará un nivel de descuento de tasas para ti. Tener varias no tendrá ningún efecto adicional."
+      "BODY": "Tener un {NFT} aumentará tu nivel de descuento de tarifas en uno. Tener varios no tendrá ningún efecto adicional."
     }
   },
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Apalancamiento de la cuenta",
-      "BODY": "Apalancamiento de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
+      "BODY": "Apalancamiento de su cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Saldo disponible",
@@ -41,12 +41,12 @@
       "BODY": "El tamaño de la posición máxima en la que los requisitos de margen no se aumentan."
     },
     "BRACKET_ORDER_SL": {
-      "TITLE": "Detención de pérdida",
-      "BODY": "Tu precio de activación actual para ejecutar un stop loss para esta orden de soporte."
+      "TITLE": "Stop Loss",
+      "BODY": "Su trigger price actual para ejecutar una detención de pérdida para esta orden de rango."
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Tu precio de activación actual para ejecutar una toma de ganancia para esta orden de soporte."
+      "BODY": "Su trigger price actual para ejecutar una toma de ganancia para esta orden de rango."
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
@@ -73,7 +73,7 @@
       "BODY": "Valor total de tu cuenta."
     },
     "EXPECTED_PRICE": {
-      "TITLE": "Precio previsto",
+      "TITLE": "Precio estimado",
       "BODY": "Precio previsto de ejecución para tu orden. Este precio es solo una estimación, ya que el libro de órdenes puede cambiar antes de que la red procese tu orden."
     },
     "FEE": {
@@ -86,7 +86,7 @@
     },
     "FREE_COLLATERAL": {
       "TITLE": "Sin garantía",
-      "BODY": "La cantidad máxima que puedes retirar. Cuando la garantía es gratis es 0 o negativo, tu cuenta está utilizando el apalancamiento máximo."
+      "BODY": "La cantidad máxima que puedes retirar. Cuando la garantía es 0 o negativa, tu cuenta está utilizando el apalancamiento máximo."
     },
     "GOOD_TIL": {
       "TITLE": "Buena hasta",
@@ -152,6 +152,10 @@
       "TITLE": "Uso del margen",
       "BODY": "El porcentaje de tu margen total usado por posiciones abiertas."
     },
+    "MARGIN_USED": {
+      "TITLE": "Margen utilizado",
+      "BODY": "El porcentaje de tu margen total cruzado usado por posiciones abiertas."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Retiro rápido máximo",
       "BODY": "La cantidad máxima permitida para un retiro rápido único."
@@ -192,13 +196,25 @@
       "TITLE": "La toma de beneficios es un cierre parcial",
       "BODY": "Tu toma de beneficios no está configurada para cerrar toda tu posición. Esto podría deberse a que estableciste una cantidad personalizada, o a que cambiaste el tamaño de la posición después de agregar este activador."
     },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Valor de la cartera",
+      "BODY": "Valor de capital total de tu cuenta."
+    },  
+    "POSITION_MARGIN": {
+      "TITLE": "Margen de posición",
+      "BODY": "La cantidad de garantía que respalda la posición."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Apalancamiento de posición",
+      "BODY": "El apalancamiento cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu apalancamiento aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
+    },
     "POST_ONLY": {
-      "TITLE": "Solo post",
-      "BODY": "Las órdenes de \"solo post\" habilitado únicamente se pueden realizar como órdenes del creador. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
+      "TITLE": "Post-Only",
+      "BODY": "Las órdenes con post-only habilitado únicamente se pueden realizar como órdenes del creador. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Solo post",
-      "BODY": "Solo post únicamente está disponible si el Tiempo en vigor está establecido en Válido hasta."
+      "TITLE": "Post-Only",
+      "BODY": "Post-Only únicamente está disponible si el Tiempo en vigor está establecido en Válido hasta."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto de precios",
@@ -220,8 +236,12 @@
       "TITLE": "Solo reducir",
       "BODY": "Solo reducir está disponible si la ejecución está establecida en IOC."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Recompensas ganadas",
+      "BODY": "Gana recompensas cuando operas en dYdX."
+    }, 
     "SPREAD": {
-      "TITLE": "Propagación",
+      "TITLE": "Spread",
       "BODY": "La diferencia de precio entre la oferta más alta (el precio por el que un comprador está dispuesto a comprar) y la oferta más baja (el precio por el que un vendedor está dispuesto a vender) un activo."
     },
     "STEP_SIZE": {
