@@ -114,7 +114,7 @@
     },
     "LIMIT_CLOSE": {
       "TITLE": "Fechamento limite",
-      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu posição."
+      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar sua posição."
     },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
@@ -142,7 +142,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fração da margem de manutenção",
-      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como um valor nocional de posição de um trader, dividido por capital. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pago a penalidade de liquidação máxima de 1,5%."
+      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como um valor nocional de posição de um trader, dividido por capital. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pagado a penalidade de liquidação máxima de 1,5%."
     },
     "MAKER_FEE": {
       "TITLE": "Taxa maker",
@@ -150,6 +150,10 @@
     },
     "MARGIN_USAGE": {
       "TITLE": "Uso de margem",
+      "BODY": "Porcentagem de sua margem total usada nas posições abertas."
+    },
+    "MARGIN_USED": {
+      "TITLE": "Margem usada",
       "BODY": "Porcentagem de sua margem total usada nas posições abertas."
     },
     "MAX_WITHDRAW": {
@@ -174,7 +178,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Preço do oráculo",
-      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo onchain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
+      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo on-chain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas na bolsa (flash crashes)."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
@@ -191,6 +195,18 @@
     "PARTIAL_CLOSE_TAKE_PROFIT": {
       "TITLE": "Take Profit é um fechamento parcial.",
       "BODY": "Sua Take Profit não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
+    },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Valor de portfólio",
+      "BODY": "Valor patrimonial total da sua conta."
+    },  
+    "POSITION_MARGIN": {
+      "TITLE": "Margem de posição",
+      "BODY": "O valor de garantia que respalda a posição."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Alavancagem de posição",
+      "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
     "POST_ONLY": {
       "TITLE": "Ordem Post-Only",
@@ -220,6 +236,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only está disponível somente se a execução estiver definida como IOC."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Recompensas recebidas",
+      "BODY": "Ganhe recompensas quando fizer trades na dYdX."
+    }, 
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a vender) de um ativo."
