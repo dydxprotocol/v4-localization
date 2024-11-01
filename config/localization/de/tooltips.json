@@ -152,6 +152,10 @@
       "TITLE": "Marge-Anwendung",
       "BODY": "Prozentsatz Ihrer gesamten Marge, der von offenen Positionen verwendet wird."
     },
+    "MARGIN_USED": {
+      "TITLE": "Verwendete Marge",
+      "BODY": "Prozentsatz Ihrer gesamten Cross-Marge, der von offenen Positionen in Anspruch genommen wird."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Maximal schnelle Auszahlung",
       "BODY": "Maximaler Betrag, der für eine einzelne schnelle Auszahlung zulässig ist."
@@ -192,6 +196,18 @@
       "TITLE": "Take-Profit ist ein teilweiser Abschluss",
       "BODY": "Ihr Take-Profit ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte sein, weil Sie einen benutzerdefinierten Betrag festlegen oder weil Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
     },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Portfolio-Wert",
+      "BODY": "Gesamtwert des Eigenkapitals Ihres Kontos."
+    },  
+    "POSITION_MARGIN": {
+      "TITLE": "Positions-Marge",
+      "BODY": "Der Betrag der Sicherheiten, die die Position absichern."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Positionshebelwirkung",
+      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+    },
     "POST_ONLY": {
       "TITLE": "Post-Only",
       "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
@@ -220,6 +236,10 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only ist nur verfügbar, wenn Ausführung auf IOC festgelegt ist."
     },
+    "REWARDS_EARNED": {
+      "TITLE": "Verdiente Belohnungen",
+      "BODY": "Verdienen Sie Prämien, wenn Sie auf dYdX handeln."
+    }, 
     "SPREAD": {
       "TITLE": "Spread",
       "BODY": "Der Preisunterschied zwischen dem höchsten (dem Preis, für den ein Käufer kaufen will) und  niedrigsten Gebot (der Preis, für den Verkäufer verkaufen will) für einen Vermögenswert."
