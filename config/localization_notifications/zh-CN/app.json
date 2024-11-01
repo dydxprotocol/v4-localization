@@ -1,7 +1,7 @@
 {
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
-      "TITLE": "已获得的奖励",
+      "TITLE": "已获得奖励",
       "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
     },
     "CONDITIONAL_ORDERS_REVAMP": {
@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30 分钟内最高可赚到 200 美元！",
-      "BODY": "通过参与用户访谈和分享反馈，使您的交易旅程达到最佳状态。 名额有限，请点击以{HERE_LINK}注册或了解更多信息！"
+      "BODY": "通过参与用户访谈和分享反馈，使您的交易体验达到最佳状态。名额有限，请单击{HERE_LINK}以注册或了解更多信息！"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "头寸已结算",
@@ -33,7 +33,7 @@
       "BODY": "在第 {PREV_SEASON_NUMBER}季中，获得的奖励中位数为 {DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "{SEASON_NUMBER}季结束了！",
+      "TITLE": "{SEASON_NUMBER}季节结束！",
       "BODY": "感谢您参与启动激励计划。敬请关注未来奖励计划的更新！"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -85,8 +85,8 @@
       "BODY": "您对{AMOUNT} {ASSET}的快速提现已被确认。"
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
-      "TITLE": "使用 20 倍杠杆交易 SOL-USD",
-      "BODY": "SOL-USD 和所有独立市场现在都可以进行高达 20 倍杠杆的交易。"
+      "TITLE": "以 20 倍杠杆交易 SOL-USD",
+      "BODY": "SOL-USD 和所有独立市场现在都可以以高达 20 倍的杠杆进行交易。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "奖励和交易功能已在 dYdX Chain 上线！",
@@ -179,15 +179,15 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "$20K 赠品",
-      "BODY": "为了庆祝累计交易量超过200亿，dYdX正在举办Twitter赠品活动，您有机会领取200美元。2024年8月16日23:59 UTC之后，将根{HERE_LINK}据随机选择机制选出100名获奖者。"
+      "BODY": "为庆祝累计交易量超过 2000 亿美元，dYdX 将举办 Twitter 赠品活动，您有机会领取 200 美元。2024 年 8 月 16 日 23:59 UTC 之{HERE_LINK}后，将通过随机选择机制选出 100 名获奖者。"
     },
     "MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET}市场清盘",
-      "BODY": "于 {DATE}，{MARKET} 市场通过最终结算。现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
+      "TITLE": "{MARKET}市场结束交易",
+      "BODY": "在 {DATE}，{MARKET} 市场通过最终结算。现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "关于{MARKET}市场清盘的现场提案",
-      "BODY": "目前有一个关于逐步关闭市场的{MARKET}现场提案。如果通过，{MARKET}市场将在{DATE}最终结算。现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+      "TITLE": "逐步结束 {MARKET} 市场的现场提议",
+      "BODY": "目前有一个逐步结束 {MARKET} 市场的现场提议。如果通过，{MARKET}市场将进入最终结算{DATE}。现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
@@ -202,12 +202,12 @@
       "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过， {MARKET} 市场会将 CoinbasePro {MARKET} 作为唯一的预言机来源。 您可以找到有关该提议的更多信息{HERE_LINK}。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "参与美国总统大选交易！",
-      "BODY": "{MARKET} 现已上线。 如果唐纳德·J·特朗普赢得2024年大选，这个市场将结算为1美元。 否则，它将以0.001美元结算。"
+      "TITLE": "押注美国总统大选！",
+      "BODY": "{MARKET}现已上线。如果唐纳德·J·特朗普赢得2024年大选，这个市场将结算为1美元。 否则，它将以0.001美元结算。"
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX 现在支持 Keplr！",
-      "BODY": "您现在可以连接并使用 dYdX，与 Keplr 钱包一起使用！立即试用。"
+      "BODY": "您现在可以连接并与 Keplr 钱包一起使用 dYdX！立即试用。"
     },
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX 现在支持 Phantom！",
