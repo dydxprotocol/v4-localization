@@ -341,7 +341,7 @@
       "PERMIT": "İzin",
       "GO_TO_SETTINGS": "Ayarlara gidin",
       "PRIMER_TITLE": "Bildirimleri aç",
-      "PRIMER_MESSAGE": "Emirleriniz ve pozisyonlarınız hakkında güncel kalın.",
+      "PRIMER_MESSAGE": "Talimatlarınız ve pozisyonlarınız hakkında güncel kalın.",
       "ENABLED": "Bildirimler açık",
       "DISABLED": "Bildirimler devre dışı bırakıldı",
       "DISABLED_BODY": "Ayarlarda açın."
@@ -403,7 +403,6 @@
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT} tutarında yatırma talebiniz gönderildi. Bu işlem birkaç dakika sürebilir.",
       "COMPLETED_TITLE": "Yatırma işlemi tamamlandı",
       "COMPLETED_TEXT": "Yatırma işleminiz onaylandı. Fonlarınız artık dYdX üzerinde anında işlem yapmak için kullanılabilir. Artık başlayabilirsiniz!",
-      "COMPLETED_TEXT_SHORT": "Yatırma işleminiz sonuçlandı.",
       "MOBILE_WALLET_REQUIRED": "Varlık yatırmak için lütfen mobil cüzdanınızı bağlayın."
     },
     "V4_WITHDRAWAL": {
