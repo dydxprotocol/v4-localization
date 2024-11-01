@@ -71,7 +71,7 @@
       "PAY_GAS_WITH": "Pagar gas con",
       "PLACEHOLDER_NO_POSITIONS": "No tienes ninguna posición abierta",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "Debes iniciar sesión para ver posiciones",
-      "PLACEHOLDER_NO_ORDERS": "No tienes ningún pedido abierto",
+      "PLACEHOLDER_NO_ORDERS": "No tienes ninguna orden abierta",
       "PLACEHOLDER_NO_ORDERS_LOG_IN": "Debes iniciar sesión para ver pedidos",
       "PLACEHOLDER_NO_FILLS": "No tienes operaciones",
       "PLACEHOLDER_NO_FILLS_LOG_IN": "Debes iniciar sesión para ver las operaciones",
@@ -156,7 +156,7 @@
       "OPEN_QR_CODE_NEXT": "Listo, ¡lo tengo!",
       "PERMITTED_TO_USE_TITLE": "La ley me permite hacer operaciones.",
       "SCAN_QR_CODE": "Escanear código QR",
-      "SCAN_QR_CODE_DESC": "Escanear código QR desde la opción en el menú desplegable de la billetera en la aplicación web.",
+      "SCAN_QR_CODE_DESC": "Escanear código QR desde la opción en la lista de billeteras en la aplicación web.",
       "SCAN_QR_CODE_ERROR": "Código no reconocido",
       "SCAN_QR_CODE_SHORT": "Escanear QR",
       "SELECT_WALLET": "Seleccionar billetera",
@@ -362,7 +362,7 @@
       "SUPPORT_MESSAGE": "¿Buscas un depósito de fiat? Consulta el estado de tu pedido en tu correo electrónico o ponte en contacto con el soporte de {PROVIDER}."
     },
     "V4": {
-      "ALERTS_PLACHOLDER": "Las alertas de comercio y protocolo se mostrarán aquí.",
+      "ALERTS_PLACHOLDER": "Las alertas de trading y protocolo se mostrarán aquí.",
       "INDEXER_ALERT": "Alerta del indexador",
       "INDEXER_DOWN": "No se puede obtener la altura actual del bloque del Indexador.",
       "INDEXER_HALTED": "El indexador se ha detenido en el bloque {HALTED_BLOCK}.",
@@ -403,6 +403,7 @@
       "IN_PROGRESS_TEXT": "Tu depósito de {AMOUNT_ELEMENT} se ha enviado. Esto puede tardar unos minutos.",
       "COMPLETED_TITLE": "Depósito completado",
       "COMPLETED_TEXT": "Tu depósito ha sido confirmado. Tus fondos ahora están disponibles para trading instantáneo en dYdX. ¡Puedes continuar!",
+      "COMPLETED_TEXT_SHORT": "Tu depósito se ha completado.",
       "MOBILE_WALLET_REQUIRED": "Conecta tu billetera móvil al depósito."
     },
     "V4_WITHDRAWAL": {
@@ -460,8 +461,8 @@
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes stop de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una orden stop limitada.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, prueba con una orden de límite de toma de ganancia."
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes stop de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una limit order de detención.",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, pruebe con una limit order de toma de ganancia."
     }
   }
 }
