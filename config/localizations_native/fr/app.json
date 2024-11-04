@@ -312,7 +312,7 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Mode fermeture seule",
-      "CLOSE_ONLY_BODY": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu’a {DATE} pour retirer vos fonds avant que votre accès à l’application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
+      "CLOSE_ONLY_BODY": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu’au {DATE} pour retirer vos fonds avant que votre accès à l’application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqué définitivement",
       "PERMANENTLY_BLOCKED_BODY": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez communiquer avec le support à {HELP_LINK}."
     },
