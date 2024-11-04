@@ -34,7 +34,7 @@
       "COUNTRY": "国家",
       "DESTINATION": "目标",
       "DOCS": "文档",
-      "DONT_SHOW_AGAIN": "不要再显示此内容",
+      "DONT_SHOW_AGAIN": "不要再给我显示",
       "EARN": "您将赚取",
       "ERROR": "错误",
       "FAILED": "失败",
@@ -341,10 +341,10 @@
       "PERMIT": "许可证",
       "GO_TO_SETTINGS": "前往设置",
       "PRIMER_TITLE": "打开通知",
-      "PRIMER_MESSAGE": "随时了解您的订单和仓位。",
-      "ENABLED": "通知已打开",
+      "PRIMER_MESSAGE": "保持最新的订单和头寸。",
+      "ENABLED": "已打开通知",
       "DISABLED": "已禁用通知",
-      "DISABLED_BODY": "在设置中开启通知。"
+      "DISABLED_BODY": "在设置中打开它们。"
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "在 @dYdX 上查看我的个人资料！",
@@ -428,13 +428,13 @@
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "预测市场",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "杠杆式交易美国大选",
-      "WITH_PREDICTION_MARKETS": "使用预测市场",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "如果事件按预测发生，预测市场将结算为1美元。 否则，它们将以 $0 结算。",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"利用交易事件结果",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "利用预测市场杠杆",
+      "WITH_PREDICTION_MARKETS": "交易美国大选",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "如果事件按预测发生，预测市场将结算为 $1。 否则将以 $0 结算。",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"杠杆交易事件结果",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"涉及广泛的主题，包括政治、体育、流行文化等。",
       "SETTLEMENT_OUTCOMES_TITLE": "$0 或 $1 结算",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "如果事件发生，市场将自动结算为1美元。 否则，它将以 ~$0 结算。 价格相当于结果发生的概率百分比。"
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "如果事件发生，市场将自动结算为 $1。 否则将以 ~$0 结算。 价格相当于结果发生的百分比机会。"
     }
   },
   "RATE_APP": {
