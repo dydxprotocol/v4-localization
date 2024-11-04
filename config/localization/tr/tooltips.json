@@ -38,7 +38,7 @@
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu."
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",
@@ -113,8 +113,8 @@
       "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
     "LIMIT_CLOSE": {
-      "TITLE": "Limit Kapatma",
-      "BODY": "Bir limit kapatma anında gerçekleşmeyebilir, yalnızca girilen fiyata ulaşıldığında karşılanır. Durumunu kontrol etmek için Emirler sekmesini izleyin."
+      "TITLE": "Limit Kapat",
+      "BODY": "Bir limit kapatma anında gerçekleşmeyebilir ve yalnızca girilen fiyat vurulduktan sonra doldurulacaktır. Durumunu kontrol etmek için Emirler sekmesini izleyin."
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit Fiyatı",
@@ -373,7 +373,7 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Orta fiyat üzerinden OHLC (Açılış-Yüksek-Düşük-Kapanış Grafiği) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
+      "BODY": "Orta fiyat üzerinden OHLC (açık-yüksek-düşük-kapalı) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
     }
   },
   "NEW_MARKET_WIDGET": {
