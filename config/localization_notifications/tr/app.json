@@ -34,7 +34,7 @@
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "Sezon {SEASON_NUMBER} sona erdi!",
-      "BODY": "Lansman teşvik programına katıldığınız için teşekkür ederiz. Gelecek ödül programlarındaki güncellemeler için bizden ayrılmayın!"
+      "BODY": "Lansman teşvik programına katıldığınız için teşekkür ederiz. Gelecekteki ödül yazılımlarındaki güncellemeler için bizden ayrılmayın!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "İzole Marj aktif",
@@ -183,11 +183,11 @@
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} piyasası kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET} piyasası son uzlaşmadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "BODY": "On {DATE}, {MARKET}piyasa son uzlaşmadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai uzlaşma hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
-      "BODY": "Şu anda {MARKET} piyasayı kapatmak için canlı bir teklif var. Teklif geçtiği takdirde, {MARKET} piyasası son anlaşmaya {DATE} bağlanacak. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
+      "TITLE": "{MARKET}Piyasayı sarmak için canlı teklif",
+      "BODY": "Şu anda piyasayı düşürmek için canlı bir teklif {MARKET} var. Eğer geçerse, {MARKET}piyasa üzerinde nihai anlaşmaya {DATE}girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kaldırıldı",
@@ -203,7 +203,7 @@
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi için işlem yapın!",
-      "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
+      "BODY": " şimdi kullanıma açık.{MARKET} Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX artık Keplr'ı destekliyor!",
