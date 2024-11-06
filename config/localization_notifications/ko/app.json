@@ -187,7 +187,7 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET} 시장을 종료하기 위한 라이브 제안",
-      "BODY": "현재 {MARKET} 시장을 종료하기 위한 라이브 제안이 있습니다. 법안이 통과되면 {MARKET} 시장은 {DATE}에 최종 정산에 들어갑니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "현재 {MARKET} 시장을 종료하기 위한 라이브 제안이 있습니다. 제안이 통과되면 {MARKET} 시장은 {DATE} 최종 정산에 들어갑니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} 및 {MARKET_2} 시장이 하락했습니다",
