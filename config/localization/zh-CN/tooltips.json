@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "您的 dYdX 地址“{DYDX_ADDRESS}”根据以太坊地址“{EVM_ADDRESS}”的签名创建。"
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "您的 dYdX 链地址“{DYDX_ADDRESS}”是根据 Solana 地址“{SOLANA_ADDRESS}”的签名创建。"
     },
     "LEGACY_SIGNING": {
       "TITLE": "传统签名",
@@ -17,8 +14,8 @@
   },
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
-      "TITLE": "关联方佣金",
-      "BODY": "来自交易者费用的佣金百分比。"
+      "TITLE": "联盟成员费用",
+      "BODY": "来自取款人费用的佣金百分比。"
     }
   },
   "PORTFOLIO": {
@@ -113,8 +110,8 @@
       "BODY": "杠杆将更改您的收益或损失乘数。增加您的杠杆会增加您的交易在相同价格波动下获利\/亏损的金额。"
     },
     "LIMIT_CLOSE": {
-      "TITLE": "限价关闭",
-      "BODY": "限价平仓可能不会立即发生，并且只有在达到输入的价格后才会成交。监控订单标签以检查其状态。"
+      "TITLE": "限制 关闭",
+      "BODY": "限价平仓可能不会立即发生，并且只有在输入的价格被击中后才会成交。 监控订单选项卡以检查其状态。"
     },
     "LIMIT_PRICE": {
       "TITLE": "限价",
@@ -174,7 +171,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "预言机价格",
-      "BODY": "杠杆和清算根据链上预言机价格确定。预报价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
+      "BODY": "杠杆和清算根据链上预言机价格确定。 预报价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
     },
     "ORDER_AMOUNT": {
       "TITLE": "订单金额",
@@ -373,33 +370,13 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "通过中间价启用或禁用 OHLC（开盘价-最高价-最低价-收盘价）数据。禁用此功能将只显示历史交易的 OHLC 数据。"
+      "BODY": "通过中间价启用或禁用 OHLC（开仓-高-低-收盘）数据。 禁用此功能将只显示历史交易的 OHLC 数据。"
     }
   },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "参考价格",
       "BODY": "参考价格是市场价格的 30 天滚动平均值，用作自动计算 dYdX 链上的市场参数输入。 参考价格应与市场当前价格大致相同（即四舍五入至相同的 10 的幂次）。"
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "此值在 CoinMarketCap 上自行报告"
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "提现时收到的估计金额，即提现金额减去估计滑点金额。此金额是基于当前条件的估计。 实际金额可能根据执行时的实际情况而有所不同。"
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "提现时的估计滑点数量。 滑点来自金库需要更新当前头寸以释放保证金以满足提现金额。此金额是基于当前条件的估计。 实际金额可能根据执行时的实际情况而有所不同。"
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "您可以提现的金额，是您的金库余额减去为新市场上市而锁定的任何金额。"
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "您存款的当前价值。这是基于金库当前的权益和头寸计算。"
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "一段时间内的总盈亏。这包括您的金库存款的历史盈亏。"
     }
   }
 }
