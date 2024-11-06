@@ -1,10 +1,7 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS_FROM_ETHEREUM": {
+    "DYDX_ADDRESS": {
       "BODY": "Tu dirección de cadena dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección Ethereum \"{EVM_ADDRESS}\"."
-    },
-    "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Su dirección de la cadena de dYdX \"{DYDX_ADDRESS}\" se creó a partir de la firma de la dirección de Solana \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Firma de patrimonio",
@@ -18,7 +15,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Comisiones de afiliados",
-      "BODY": "Porcentaje de comisión de las tarifas de taker."
+      "BODY": "Porcentaje de comisión de las tarifas de tomador."
     }
   },
   "PORTFOLIO": {
@@ -174,7 +171,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Precio de oráculo",
-      "BODY": "El apalancamiento y las liquidaciones se determinan en función del precio de oráculo en cadena. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
+      "BODY": "El apalancamiento y las liquidaciones se determinan en función del precio de oráculo en la cadena. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Monto de la orden",
@@ -380,26 +377,6 @@
     "REFERENCE_PRICE": {
       "TITLE": "Precio de referencia",
       "BODY": "El precio de referencia es el promedio móvil de 30 días del precio de mercado y se utiliza como dato para calcular automáticamente los parámetros del mercado en la cadena dYdX. El precio de referencia debe ser aproximadamente el mismo que el precio actual del mercado (es decir, redondeado a la baja a las mismas potencias de 10)."
-    },
-    "SELF_REPORTED_CMC": {
-      "BODY": "Este valor se informa en CoinMarketCap"
-    }
-  },
-  "VAULT": {
-    "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "La cantidad estimada a recibir al retirar, que es la cantidad de retiro menos la cantidad de slippage estimada. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
-    },
-    "ESTIMATED_SLIPPAGE": {
-      "BODY": "La cantidad estimada de slippage al momento de retirar. El slippage proviene de la necesidad de la bóveda de actualizar las posiciones actuales para liberar margen para cumplir con la cantidad a retirar. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
-    },
-    "AVAILABLE_TO_WITHDRAW": {
-      "BODY": "La cantidad que puede retirar, que es su balance de bóveda menos cualquier cantidad que esté bloqueada para nuevos listados en el mercado."
-    },
-    "YOUR_VAULT_BALANCE": {
-      "BODY": "El valor actual de tus depósitos. Esto se calcula basado en las posiciones y patrimonio actuales de la bóveda."
-    },
-    "YOUR_ALL_TIME_PNL": {
-      "BODY": "El PNL total a lo largo del tiempo. Esto incluye el PNL histórico de sus depósitos de bóveda."
     }
   }
 }
