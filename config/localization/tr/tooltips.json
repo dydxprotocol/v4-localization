@@ -34,7 +34,7 @@
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Kullanılabilir Bakiye",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Çapraz Serbest Teminat",
-      "BODY": "Çapraz marj hesabınızdan çekilebilecek teminat miktarı."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Çapraz Marjin Kullanımı",
@@ -113,8 +113,8 @@
       "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
     "LIMIT_CLOSE": {
-      "TITLE": "Limit Kapatma",
-      "BODY": "Bir limit kapatma anında gerçekleşmeyebilir, yalnızca girilen fiyata ulaşıldığında karşılanır. Durumunu kontrol etmek için Emirler sekmesini izleyin."
+      "TITLE": "Limit Kapat",
+      "BODY": "Bir limit kapatma anında gerçekleşmeyebilir ve yalnızca girilen fiyat vurulduktan sonra doldurulacaktır. Durumunu kontrol etmek için Emirler sekmesini izleyin."
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit Fiyatı",
@@ -151,6 +151,10 @@
     "MARGIN_USAGE": {
       "TITLE": "Marj Kullanımı",
       "BODY": "Açık pozisyonlar tarafından kullanılan toplam marj oranınızın yüzdesi."
+    },
+    "MARGIN_USED": {
+      "TITLE": "Kullanılan Marj",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
     },
     "MAX_WITHDRAW": {
       "TITLE": "Maksimum Hızlı Çekme Miktarı",
@@ -192,6 +196,18 @@
       "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
       "BODY": "Kâr al emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Portföy Değeri",
+      "BODY": "Hesabınızın toplam varlık değeri."
+    },
+    "POSITION_MARGIN": {
+      "TITLE": "Pozisyon Marjini",
+      "BODY": "Pozisyonu destekleyen teminat miktarı."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Pozisyon Kaldıracı",
+      "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
+    },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
       "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
@@ -219,6 +235,10 @@
     "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
+    },
+    "REWARDS_EARNED": {
+      "TITLE": "Kazanılan Ödüller",
+      "BODY": "dYdX üzerinde işlem yaptığınızda ödül kazanın."
     },
     "SPREAD": {
       "TITLE": "Alış-Satış Farkı (Spread)",
@@ -373,7 +393,7 @@
   "TRADE_CHART": {
     "OHLC": {
       "TITLE": "OHLC",
-      "BODY": "Orta fiyat üzerinden OHLC (Açılış-Yüksek-Düşük-Kapanış Grafiği) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
+      "BODY": "Orta fiyat üzerinden OHLC (açık-yüksek-düşük-kapalı) verilerini etkinleştirin veya devre dışı bırakın. Bu özellik devre dışı bırakıldığında yalnızca geçmiş işlemlerden gelen OHLC verileri gösterilir."
     }
   },
   "NEW_MARKET_WIDGET": {
