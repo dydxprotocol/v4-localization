@@ -264,6 +264,7 @@
       "OPTIONAL": "Optional",
       "OR": "or",
       "ORDERS": "Orders",
+      "ORDER_VALUE": "Order Value",
       "OTHER_DETAILS": "Other details",
       "OTHER": "Other",
       "OVERVIEW": "Overview",
@@ -324,6 +325,7 @@
       "SHORT_POSITION_SHORT": "Short",
       "SHOW": "Show {NUMBER}",
       "SHOW_ALL_DETAILS": "Show all details",
+      "SHOWING": "Showing {ALL_OR_MARKET}",
       "SHOWING_NUM_OUT_OF_TOTAL": "Showing {START} - {END} out of {TOTAL}",
       "SIDE": "Side",
       "SIGN_OUT": "Sign out",
@@ -810,7 +812,8 @@
       "YOUR_RANK": "Your rank",
       "AFFILIATE_CONNECT_WALLET": "Please connect your wallet to check your rankings",
       "LOAD_MORE": "Load more",
-      "SHARE_AFFILIATE_BANNER_TITLE": "Trade over ${AMMOUNT} to unlock your affiliate link"
+      "SHARE_AFFILIATE_BANNER_TITLE": "Trade over ${AMOUNT} to unlock your affiliate link",
+      "AFFILIATE_CHART_EMPTY_STATE": "There is no data available"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
@@ -1121,7 +1124,7 @@
       "LEARN_ABOUT_WALLETS": "Learn about wallets",
       "SELECT_LANGUAGE": "Select language",
       "SELECT_WALLET_FROM_OPTIONS": "Please select your wallet from the options below.",
-      "WALLET_DEFINITION": "A wallet is a device or application that stores your keys and enables you to explore crypto."
+      "WALLET_DEFINITION": "A wallet is a device or application that stores your keys and enables you to explore crypto.\n{ABOUT_WALLETS_LINK}"
     },
     "DYDX_UNLIMITED_MODAL": {
       "AFFILIATES_PROGRAM_DESCRIPTION": "Turn your network into a lucrative venture for everyone with the dYdX affiliate program!",
@@ -1132,6 +1135,7 @@
       "MEGAVAULT_DESCRIPTION": "Earn by providing liquidity across markets.",
       "PERMISIONLESS_MARKET_LISTINGS": "Permissionless Market Listings",
       "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "Instantly list markets on dYdX Chain without requiring governance approval.",
+      "UNLIMITED": "unlimited",
       "UPDATED_INCENTIVES": "Updated Incentives",
       "UPDATED_INCENTIVES_DESCRIPTION": "Earn DYDX by staking, listing markets, trading, and more."
     },
@@ -1343,6 +1347,7 @@
       "UNTIL_NEXT_EPOCH_ON_DATE": "until the next epoch on {NEXT_EPOCH_DATE}",
       "VIEW_FEES": "View fees",
       "VIEW_FEE_STRUCTURE": "View fee structure",
+      "VIEW_FILLS": "View fills",
       "VIEW_REWARDS": "View rewards"
     },
     "TRADE": {
@@ -1737,9 +1742,9 @@
       "PROTOCOL_VAULT": "dYdX Protocol Vault",
       "LOCKED_BALANCE": "Locked Balance",
       "WITHDRAW_TOO_HIGH": "You cannot withdraw more than your vault balance.",
-      "WITHDRAW_TOO_LOW": "Your withdrawal amount is below the $20 minimum withdrawal threshold. If your vault balance is below the minimum withdrawal threshold, you must withdraw the entire vault balance.",
+      "WITHDRAW_TOO_LOW": "Your withdrawal amount is below the $5 minimum withdrawal threshold. If your vault balance is below the minimum withdrawal threshold, you must withdraw the entire vault balance.",
       "DEPOSIT_TOO_HIGH": "You cannot deposit more than your free collateral.",
-      "DEPOSIT_TOO_LOW": "Your deposit amount is below the $20 minimum deposit threshold.",
+      "DEPOSIT_TOO_LOW": "Your deposit amount is below the $5 minimum deposit threshold.",
       "ENTER_AMOUNT_TO_DEPOSIT": "Enter amount to deposit",
       "ENTER_AMOUNT_TO_WITHDRAW": "Enter amount to withdraw",
       "AVAILABLE_TO_WITHDRAW": "Available to Withdraw",
@@ -1750,7 +1755,10 @@
       "CONFIRM_DEPOSIT_CTA": "Confirm Deposit",
       "AMOUNT_TO_DEPOSIT": "Amount to Deposit",
       "CROSS_ACCOUNT": "Cross Account",
-      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited. This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community. {OPERATOR_LEARN_MORE}.",
+      "VAULT_DESCRIPTION": "This vault provides automated liquidity on all dYdX markets and gets a share of fee revenue. The vault aims for a market-neutral position by quoting both sides of the book. P&L will vary based on market conditions and there's a risk of losing some or all of the USDC deposited.",
+      "LEARN_MORE_ABOUT_MEGAVAULT": "Learn more about MegaVault",
+      "VAULT_OPERATOR_DESCRIPTION": "This vault is operated by {OPERATOR_NAME}. The operator was selected by the dYdX community.",
+      "LEARN_MORE_ABOUT_OPERATOR": "Learn more about {OPERATOR_NAME}",
       "TVL": "TVL",
       "HOLDINGS": "Holdings"
     },
@@ -1818,7 +1826,18 @@
         "INITIATED_DEPOSIT": "Initiated deposit",
         "INITIATED_WITHDRAWAL": "Initiated withdrawal",
         "WITHDRAW_IN_PROGRESS": "Withdrawal(s) in progress...",
-        "WITHDRAW_TO_CHAIN": "Withdraw to {CHAIN}"
+        "WITHDRAW_TO_CHAIN": "Withdraw to {CHAIN}",
+        "INSTANT_DEPOSIT": "Instant deposit",
+        "INSTANT_DEPOSIT_IN_PROGRESS": "Instant deposit in progress",
+        "DEPOSIT_COMPLETED": "Deposit completed",
+        "DEPOSIT_FAILD": "Deposit failed",
+        "DEPOSIT_SHORTLY": "Your deposit should arrive shortly",
+        "VIEW_INSTANT_DEPOSIT_HISTORY": "View instant deposit history",
+        "VIEW_DEPOSIT_STATUS": "View deposit status",
+        "INSTANT": "Instant",
+        "STANDARD": "Standard",
+        "HIGHER_FEES": "Higer fees, ${AMOUNT_USD} limit",
+        "LOWEST_FEES": "Lowest fees, no limit"
       },
       "TRADE_UDPATES": "Trade Updates",
       "TRADING_REWARD_RECEIVED": "Trading Reward Received",
@@ -2242,8 +2261,10 @@
       "LAUNCH_ANOTHER_MARKET": "Launch another market",
       "LAUNCH_MARKET": "Launch Market",
       "LAUNCH_MARKET_AGREEMENT": "By clicking below, you agree that (a) there is material risk of economic loss by launching a market; (b) you are solely responsible for any loss or liability from launching a market; (c) there are no fixed or guaranteed earnings from launching a market any earnings shown are indicative and could vary significantly; (d) you have independently made the decision to launch the market and have not relied on any recommendation from any other party (including, the operator of this site and the software developer of the code); and (e) you have conducted your own diligence and/or consulted a qualified professional to advise you on the legality, regulatory compliance, tax treatment, investment and financial suitability of launching a market.",
+      "LAUNCH_MARKET_TERMS": "Launch Market Agreement",
       "LAUNCH_MARKETS": "Launch Markets",
       "LAUNCHING_MARKET_LOADING": "Launching Market...",
+      "LEARN_MORE_MARKET_LAUNCH": "Learn more about Launching a Market",
       "LIQUIDITY_TIER": "Liquidity tier",
       "LIQUIDITY_TIER_IS": "Liquidity tier is {TIER}",
       "LIST_A_NEW_MARKET": "List a new market",
@@ -2251,6 +2272,7 @@
       "MARKET_LAUNCH_DETAILS": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into MegaVault. Your deposit will earn an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
       "MARKET_LAUNCH_DETAILS_2": "Immediately launch a new market on dYdX Chain by depositing {DEPOSIT_AMOUNT} into {MEGAVAULT_LINK}. Deposits have earned an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
       "MARKET_LAUNCH_DETAILS_3": "Select the market you'd like to launch and deposit {DEPOSIT_AMOUNT} into {MEGAVAULT_LINK} for at least {PAST_DAYS} days. Deposits have earned an estimated {APR_PERCENTAGE} APR.",
+      "MARKET_LAUNCH_DETAILS_4": "Deposit {DEPOSIT_AMOUNT} into {MEGAVAULT_LINK} to instantly launch a market. Your deposit will be locked for {NUM_DAYS} days. MegaVault deposits have earned an estimated {APR_PERCENTAGE} APR.",
       "MARKET_LAUNCHED": "Market Launched!",
       "MARKET_NOW_LIVE_TRADE": "{MARKET} is now live, start trading.",
       "MARKET_TO_LAUNCH": "Market to Launch",
@@ -2297,8 +2319,13 @@
       "LEVERAGE_TRADE_EVENTS": "Leverage Trade Event Outcomes",
       "LEVERAGE_TRADE_EVENTS_CONTINUATION": "On a wide range of topics, including politics, sports, pop culture, and more.",
       "LEVERAGE_TRADE_US_ELECTION": "Leverage trade the outcome of the U.S. Election",
+      "PREDICTION_MARKET_CONCLUDED": "{MARKET} has concluded",
+      "PREDICTION_MARKET_CONCLUDED_DESC": "The {MARKET} Prediction Market has reached a conclusion and has settled.",
       "PREDICTION_MARKET_DESC": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
       "PREDICTION_MARKETS": "Prediction Markets",
+      "PREDICTION_MARKET_DISCLAIMER": "Prediction markets have a higher risk of volatility and may result in deleveraging. Read more about prediction markets {HERE}",
+      "PREDICTION_MARKET_WIN": "You have correctly predicted the outcome of {MARKET}!",
+      "PREDICTION_MARKET_LOSS": "You have incorrectly predicted the outcome of {MARKET}.",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
       "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0. {LEARN_MORE} or {DISMISS}."
     }
