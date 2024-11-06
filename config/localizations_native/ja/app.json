@@ -403,6 +403,7 @@
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}の入金が送信されました。これには数分かかる場合があります。",
       "COMPLETED_TITLE": "入金完了",
       "COMPLETED_TEXT": "入金が確認されました。お客様の資金はdYdXで即時取引できるようになりました。さあ、始めましょう！",
+      "COMPLETED_TEXT_SHORT": "入金が完了しました。",
       "MOBILE_WALLET_REQUIRED": "入金するには、モバイルウォレットを接続してください。"
     },
     "V4_WITHDRAWAL": {
