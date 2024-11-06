@@ -1347,6 +1347,7 @@
       "UNTIL_NEXT_EPOCH_ON_DATE": "until the next epoch on {NEXT_EPOCH_DATE}",
       "VIEW_FEES": "View fees",
       "VIEW_FEE_STRUCTURE": "View fee structure",
+      "VIEW_FILLS": "View fills",
       "VIEW_REWARDS": "View rewards"
     },
     "TRADE": {
@@ -2318,9 +2319,13 @@
       "LEVERAGE_TRADE_EVENTS": "Leverage Trade Event Outcomes",
       "LEVERAGE_TRADE_EVENTS_CONTINUATION": "On a wide range of topics, including politics, sports, pop culture, and more.",
       "LEVERAGE_TRADE_US_ELECTION": "Leverage trade the outcome of the U.S. Election",
+      "PREDICTION_MARKET_CONCLUDED": "{MARKET} has concluded",
+      "PREDICTION_MARKET_CONCLUDED_DESC": "The {MARKET} Prediction Market has reached a conclusion and has settled.",
       "PREDICTION_MARKET_DESC": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
       "PREDICTION_MARKETS": "Prediction Markets",
       "PREDICTION_MARKET_DISCLAIMER": "Prediction markets have a higher risk of volatility and may result in deleveraging. Read more about prediction markets {HERE}",
+      "PREDICTION_MARKET_WIN": "You have correctly predicted the outcome of {MARKET}!",
+      "PREDICTION_MARKET_LOSS": "You have incorrectly predicted the outcome of {MARKET}.",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
       "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0. {LEARN_MORE} or {DISMISS}."
     }
