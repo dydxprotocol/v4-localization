@@ -2214,7 +2214,7 @@
       "LISTINGS_DESCRIPTION": "Angebote auf dYdX sind vollständig von der Community gesteuert. Dieses Tool hilft Ihnen dabei, einen Governance-Vorschlag einzureichen, um einen neuen Markt zu listen.",
       "MARKET_LAUNCH_DETAILS": "Wählen Sie den Markt aus, den Sie starten möchten, und eine Einzahlung {DEPOSIT_AMOUNT}bei MegaVault vornehmen. Ihre Einzahlung wird einen geschätzten {APR_PERCENTAGE}APR (basierend auf den letzten {PAST_DAYS}Tagen) verdienen.",
       "MARKET_LAUNCH_DETAILS_2": "Starten Sie sofort einen neuen Markt auf dYdX Chain, indem Sie {DEPOSIT_AMOUNT}bei MegaVault einzahlen. Ihre Einzahlung wird einen geschätzten {APR_PERCENTAGE}APR (basierend auf den letzten {PAST_DAYS}Tagen) verdienen.",
-      "MARKET_LAUNCH_DETAILS_3": "Wählen Sie den Markt aus, mit dem Sie starten möchten, und zahlen Sie {DEPOSIT_AMOUNT} für mindestens {PAST_DAYS} Tage bei MegaVault ein. Ihre Einzahlung wird einen geschätzten  APR {APR_PERCENTAGE}verdienen.",
+      "MARKET_LAUNCH_DETAILS_3": "Wählen Sie den Markt aus, den Sie starten möchten, und zahlen Sie für mindestens {PAST_DAYS} Tage {DEPOSIT_AMOUNT} in MegaVault ein. Ihre Einzahlung wird einen geschätzten {APR_PERCENTAGE} APR verdienen.",
       "MARKET_TO_LAUNCH": "Market bis Launch",
       "MESSAGE_DETAILS": "Nachrichtendetails",
       "MSG_CREATE_CLOB_PAIR": "Msg clobPair erstellen",
@@ -2240,7 +2240,7 @@
       "STEPS_TO_CREATE": "Schritte zur Schaffung eines neuen Marktes",
       "SUBMITTED_PROPOSAL": "Eingereichter Vorschlag!",
       "SUGGEST_NEW_MARKET": "Neuen Markt vorschlagen",
-      "TIME_UNTIL_LIVE": "Zeit bis zum Live",
+      "TIME_UNTIL_LIVE": "Zeit bis zur Live-Schaltung",
       "TRADE_INSTANTLY": "Sofortiger Handel",
       "VIEW_PROPOSAL": "Vorschlag anzeigen"
     },
