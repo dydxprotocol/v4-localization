@@ -264,6 +264,7 @@
       "OPTIONAL": "オプション",
       "OR": "または",
       "ORDERS": "注文",
+      "ORDER_VALUE": "注文価値",
       "OTHER_DETAILS": "その他の詳細",
       "OTHER": "その他",
       "OVERVIEW": "概要",
@@ -293,6 +294,7 @@
       "QUEUED": "待機",
       "RANKINGS": "ランキング",
       "REAL_WORLD_ASSET_SHORT": "RWA",
+      "RECEIPT": "領収書",
       "RECEIVE": "受け取る",
       "RECENT_TRADES_SHORT": "取引",
       "RECENT": "最近",
@@ -323,6 +325,7 @@
       "SHORT_POSITION_SHORT": "ショート",
       "SHOW": "{NUMBER}を表示",
       "SHOW_ALL_DETAILS": "すべての詳細を表示",
+      "SHOWING": "表示中 {ALL_OR_MARKET}",
       "SHOWING_NUM_OUT_OF_TOTAL": "{START}{END}を表示 {TOTAL}のうち",
       "SIDE": "サイド（売\/買）",
       "SIGN_OUT": "サインアウト",
@@ -480,7 +483,7 @@
       },
       "CELO": {
         "PRIMARY": "Celo（セロ）は完全なEVM互換性を提供するプルーフ・オブ・ステークなブロックチェーンです。",
-        "SECONDARY": "また、CELOはユーザーに対してネイティブおよびノンネイティブなステーブルコイン、超軽量モバイルクライアント、複数の通貨で支払い可能なGas（ガス）代へのアクセスを提供します。"
+        "SECONDARY": "また、CELO（セロ）はユーザーに対してネイティブおよびノンネイティブなステーブルコイン、超軽量モバイルクライアント、複数の通貨で支払い可能なGas（ガス）代へのアクセスを提供します。"
       },
       "LINK": {
         "PRIMARY": "Chainlink（チェーンリンク）は、任意のブロックチェーンに関するスマートコントラクトをデータプロバイダー、ウェブAPI、エンタープライズシステム、クラウドサービス、IoTデバイス、決済システム、その他のブロックチェーンに接続します。",
@@ -809,7 +812,8 @@
       "YOUR_RANK": "ランク",
       "AFFILIATE_CONNECT_WALLET": "ランキングを確認するには、ウォレットを接続してください",
       "LOAD_MORE": "もっとロード",
-      "SHARE_AFFILIATE_BANNER_TITLE": "アフィリエイトリンクのロックを解除{AMMOUNT}するには、$ を超える取引"
+      "SHARE_AFFILIATE_BANNER_TITLE": "アフィリエイトリンクのロックを解除{AMOUNT}するには、$ を超える取引",
+      "AFFILIATE_CHART_EMPTY_STATE": "利用可能なデータはありません"
     },
     "HEADER": {
       "API_DOCUMENTATION": "APIドキュメント",
@@ -1120,7 +1124,7 @@
       "LEARN_ABOUT_WALLETS": "ウォレットについて",
       "SELECT_LANGUAGE": "言語を選択してください",
       "SELECT_WALLET_FROM_OPTIONS": "以下のオプションからウォレットを選択してください。",
-      "WALLET_DEFINITION": "ウォレットは、キーを保存し、暗号通貨を探索するためのデバイスまたはアプリケーションです。"
+      "WALLET_DEFINITION": "ウォレットは、キーを保存し、暗号通貨を探索するためのデバイスまたはアプリケーションです。\n{ABOUT_WALLETS_LINK}"
     },
     "DYDX_UNLIMITED_MODAL": {
       "AFFILIATES_PROGRAM_DESCRIPTION": "dYdXアフィリエイトプログラムを活用して、あなたのネットワークを全員にとって利益のあるベンチャーに変えましょう！",
@@ -1131,6 +1135,7 @@
       "MEGAVAULT_DESCRIPTION": "マーケット全体で流動性を提供することで収益を得ることができます。",
       "PERMISIONLESS_MARKET_LISTINGS": "パーミッションレスマーケットリスティング",
       "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "ガバナンス承認を必要とせずに、dYdXチェーンにマーケットを即座にリストできます。",
+      "UNLIMITED": "無制限",
       "UPDATED_INCENTIVES": "更新されたインセンティブ",
       "UPDATED_INCENTIVES_DESCRIPTION": "ステーキング、マーケットのリスティング、取引などによりDYDXを獲得できます。"
     },
@@ -1736,9 +1741,9 @@
       "PROTOCOL_VAULT": "dYdXプロトコルボールト",
       "LOCKED_BALANCE": "ロックされた残高",
       "WITHDRAW_TOO_HIGH": "ボールト残高を超えて出金することはできません。",
-      "WITHDRAW_TOO_LOW": "出金額は、最小出金しきい値$20を下回っています。ボールト残高が最小出金しきい値を下回っている場合は、ボールト残高全体を引き出す必要があります。",
+      "WITHDRAW_TOO_LOW": "出金額は、最低出金基準$5を下回っています。 ボールト残高が最小出金しきい値を下回っている場合は、ボールト残高全体を引き出す必要があります。",
       "DEPOSIT_TOO_HIGH": "担保不要額を超えて入金することはできません。",
-      "DEPOSIT_TOO_LOW": "入金金額は、最低入金額の$20のしきい値を下回っています。",
+      "DEPOSIT_TOO_LOW": "入金金額は、最低入金額の$5のしきい値を下回っています。",
       "ENTER_AMOUNT_TO_DEPOSIT": "入金額を入力します",
       "ENTER_AMOUNT_TO_WITHDRAW": "出金額を入力します",
       "AVAILABLE_TO_WITHDRAW": "出金できます",
@@ -1749,8 +1754,12 @@
       "CONFIRM_DEPOSIT_CTA": "入金を確認",
       "AMOUNT_TO_DEPOSIT": "入金額",
       "CROSS_ACCOUNT": "クロスアカウント",
-      "VAULT_DESCRIPTION": "このボールトは、dYdXのすべての市場で自動流動性を提供し、手数料収入を得ます。ボールトは、本の両面を引用することで、市場中立的な立場を目指しています。P&Lは、市況に基づいて異なり、入金されたUSDCの一部または全部を失うリスクがあります。このボールトは{OPERATOR_NAME}によって運営されています。オペレーターはdYdXコミュニティによって選択されました。{OPERATOR_LEARN_MORE}。",
-      "TVL": "TVL"
+      "VAULT_DESCRIPTION": "このボールトは、dYdXのすべての市場で自動流動性を提供し、手数料収入を得ます。ボールトは、本の両面を引用することで、市場中立的な立場を目指しています。P&Lは、市況に基づいて異なり、入金されたUSDCの一部または全部を失うリスクがあります。",
+      "LEARN_MORE_ABOUT_MEGAVAULT": "MegaVaultについて詳しく知る",
+      "VAULT_OPERATOR_DESCRIPTION": "このボールトは{OPERATOR_NAME}によって運営されています。オペレーターはdYdXコミュニティによって選択されました。",
+      "LEARN_MORE_ABOUT_OPERATOR": "{OPERATOR_NAME}について詳しく知る",
+      "TVL": "TVL",
+      "HOLDINGS": "保有額"
     },
     "NOTIFICATIONS": {
       "66_REDUCTION": "66％削減",
@@ -1816,7 +1825,18 @@
         "INITIATED_DEPOSIT": "入金開始",
         "INITIATED_WITHDRAWAL": "出金開始",
         "WITHDRAW_IN_PROGRESS": "出金中...",
-        "WITHDRAW_TO_CHAIN": "{CHAIN}に出金する"
+        "WITHDRAW_TO_CHAIN": "{CHAIN}に出金する",
+        "INSTANT_DEPOSIT": "即時入金",
+        "INSTANT_DEPOSIT_IN_PROGRESS": "即時入金処理中",
+        "DEPOSIT_COMPLETED": "入金完了",
+        "DEPOSIT_FAILD": "入金に失敗しました",
+        "DEPOSIT_SHORTLY": "まもなく入金が反映されます",
+        "VIEW_INSTANT_DEPOSIT_HISTORY": "即時入金履歴を見る",
+        "VIEW_DEPOSIT_STATUS": "入金状況を確認する",
+        "INSTANT": "インスタント",
+        "STANDARD": "スタンダード",
+        "HIGHER_FEES": "高めの手数料、${AMOUNT_USD}の制限あり",
+        "LOWEST_FEES": "最低手数料、制限なし"
       },
       "TRADE_UDPATES": "取引アップデート",
       "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました",
@@ -2240,6 +2260,7 @@
       "LAUNCH_ANOTHER_MARKET": "別のマーケットをローンチ",
       "LAUNCH_MARKET": "マーケットをローンチ",
       "LAUNCH_MARKET_AGREEMENT": "下記をクリックすることにより、あなたは、(a) マーケットをローンチすることにより経済的損失の重大なリスクがあること、(b) マーケットをローンチすることにより生じる損失または責任について単独で責任を負うことに同意します。(c) マーケットをローンチした場合、固定または保証された収益はありません。表示される収益は指標であり、大きく異なる可能性があります。(d) マーケットをローンチする決定を独自に行い、他の当事者（本サイトの運営者およびコードのソフトウェア開発者を含む）からの推奨に依存していないこと。および(e)マーケットをローンチする際の適法性、規制遵守、税制、投資、財務上の適合性について助言するために、独自の注意事項を実施し、および有資格の専門家に相談したことがあること。",
+      "LAUNCH_MARKET_TERMS": "市場立ち上げ契約",
       "LAUNCH_MARKETS": "マーケットをローンチ",
       "LAUNCHING_MARKET_LOADING": "マーケットをローンチ...",
       "LIQUIDITY_TIER": "流動性階層",
@@ -2247,8 +2268,8 @@
       "LIST_A_NEW_MARKET": "新しいマーケットをリスト化する",
       "LISTINGS_DESCRIPTION": "dYdXのリスティングは、完全にコミュニティ主導です。 このツールは、新しいマーケットをリスト化したガバナンス提案を提出するのに役立ちます。",
       "MARKET_LAUNCH_DETAILS": "ローンチしたいマーケットを選択し、{DEPOSIT_AMOUNT}をMegaVaultに入金します。預入金は、推定年利{APR_PERCENTAGE}（過去{PAST_DAYS}日間の実績に基づく）を獲得します。",
-      "MARKET_LAUNCH_DETAILS_2": "{DEPOSIT_AMOUNT}をMegaVaultに入金することで、dYdXチェーンの新しいマーケットを即座にローンチできます。預入金は、推定年利{APR_PERCENTAGE}（過去{PAST_DAYS}日間の実績に基づく）を獲得します。",
-      "MARKET_LAUNCH_DETAILS_3": "ローンチしたいマーケットを選択し、少なくとも数日間MegaVault{DEPOSIT_AMOUNT}に入金します{PAST_DAYS}。 預入金は、推定年利を獲得します{APR_PERCENTAGE}",
+      "MARKET_LAUNCH_DETAILS_2": "{DEPOSIT_AMOUNT}を{MEGAVAULT_LINK}に入金することで、dYdXチェーンの新しいマーケットを即座にローンチできます。入金された資金は、推定年利{APR_PERCENTAGE}（過去{PAST_DAYS}日間に基づく）を獲得しています。",
+      "MARKET_LAUNCH_DETAILS_3": "ローンチしたいマーケットを選択し、{MEGAVAULT_LINK}に{DEPOSIT_AMOUNT}を入金して、少なくとも{PAST_DAYS}日間保有します。入金された資金は推定年利{APR_PERCENTAGE}を獲得しています。",
       "MARKET_LAUNCHED": "マーケットがローンチされました！",
       "MARKET_NOW_LIVE_TRADE": "{MARKET}はただ今ライブ中です。取引を開始してください。",
       "MARKET_TO_LAUNCH": "マーケットをローンチ",
@@ -2274,6 +2295,7 @@
       "REFERENCE_PRICE": "参考価格",
       "REQUIRED_AMOUNT_TO_DEPOSIT": "入金に必要な金額",
       "REQUIRED_BALANCE": "必要な残高",
+      "SHOW_LAUNCHABLE_MARKETS": "ローンチ可能なマーケットを表示する",
       "SHOW_STEPS": "ステップを表示",
       "STEPS_TO_CREATE": "新しいマーケットを創造するためのステップ",
       "SUBMITTED_PROPOSAL": "提案書を送信しました！",
@@ -2296,6 +2318,7 @@
       "LEVERAGE_TRADE_US_ELECTION": "レバレッジ取引は、米国選挙の結果を検証します。",
       "PREDICTION_MARKET_DESC": "予測市場は、イベントが予測通りに発生した場合、$1で決済されます。そうでない場合は、$0で決済されます。",
       "PREDICTION_MARKETS": "予測市場",
+      "PREDICTION_MARKET_DISCLAIMER": "予測市場はボラティリティのリスクが高く、レバレッジ解消を引き起こす可能性があります。予測市場についての詳細は{HERE}をご覧ください",
       "TRADE_US_PRESIDENTIAL_ELECTION": "米国大統領選挙の取引",
       "TRUMPWIN_DESC": "これは予測市場であり、ドナルド・J・トランプが2024年の米国大統領選挙で勝利した場合、$1ドルで決済されます。 そうでない場合は、$0で決済されます。{LEARN_MORE}または{DISMISS}"
     }
@@ -2619,6 +2642,7 @@
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "有効な金額を入力してください。"
     },
     "NEW_MARKET_WIDGET": {
+      "LAUNCHING_MARKET_REQUIRES_USDC": "マーケットをローンチするには、最低{USDC_AMOUNT}USDCのクロスフリー担保が必要です",
       "NOT_ENOUGH_BALANCE": "マーケットを追加するには少なくとも{NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}が必要です。"
     }
   },
