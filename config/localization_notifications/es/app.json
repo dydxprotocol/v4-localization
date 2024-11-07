@@ -34,7 +34,7 @@
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "¡La temporada {SEASON_NUMBER} ha terminado!",
-      "BODY": "Gracias por participar en el programa de incentivos de lanzamiento. ¡Mantente atento a las novedades sobre los futuros programas de recompensas!"
+      "BODY": "Gracias por participar en el programa de incentivos de lanzamiento. ¡Mantente atento a las actualizaciones sobre futuros programas de recompensas!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "El margen aislado está activo",
@@ -208,6 +208,10 @@
     "KEPLR_SUPPORT": {
       "TITLE": "¡dYdX ahora es compatible con Keplr!",
       "BODY": "¡Ahora puedes conectar y usar dYdX con tu billetera Keplr! Pruébalo ahora."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "¡dYdX ahora es compatible con Phantom!",
+      "BODY": "¡Ahora puedes conectar y usar dYdX con tu billetera Phantom! Pruébalo ahora."
     }
   }
 }
