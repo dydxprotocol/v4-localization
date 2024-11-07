@@ -51,7 +51,7 @@
       "IOS_APP_BETA": "iOS应用程序测试版",
       "ISOLATED_POSITIONS_COMING_SOON": "孤立头寸即将登陆移动设备",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "孤立头寸的订单即将登陆移动设备",
-      "LAYER_2": "Layer 2",
+      "LAYER_2": "第 2 层",
       "LEADERBOARDS": "排行榜",
       "LEARN_MORE_ABOUT_WALLETS": "了解钱包详情",
       "LINE": "线图",
@@ -403,6 +403,7 @@
       "IN_PROGRESS_TEXT": "您存款 {AMOUNT_ELEMENT} 已经提交。这可能需要几分钟时间。",
       "COMPLETED_TITLE": "充值已完成",
       "COMPLETED_TEXT": "您的充值已确认。您的资金现在可用于 dYdX 上的即时交易。即刻开始！",
+      "COMPLETED_TEXT_SHORT": "您的充值已完成。",
       "MOBILE_WALLET_REQUIRED": "请连接您的手机钱包进行存款。"
     },
     "V4_WITHDRAWAL": {
