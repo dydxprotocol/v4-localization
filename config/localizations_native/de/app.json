@@ -403,6 +403,7 @@
       "IN_PROGRESS_TEXT": "Ihre Einzahlung von  {AMOUNT_ELEMENT}wurde übermittelt. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Einzahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!",
+      "COMPLETED_TEXT_SHORT": "Ihre Einzahlung wurde abgeschlossen.",
       "MOBILE_WALLET_REQUIRED": "Bitte verbinden Sie Ihr mobiles Wallet, um Einzahlungen zu tätigen."
     },
     "V4_WITHDRAWAL": {
