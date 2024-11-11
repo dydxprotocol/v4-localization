@@ -1,7 +1,7 @@
 {
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
-      "TITLE": "已获得的奖励",
+      "TITLE": "已获得奖励",
       "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
     },
     "CONDITIONAL_ORDERS_REVAMP": {
@@ -207,7 +207,11 @@
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX 现在支持 Keplr！",
-      "BODY": "您现在可以连接并与 Keplr 钱包一起使用 dYdX！现在试试。"
+      "BODY": "您现在可以连接并与 Keplr 钱包一起使用 dYdX！立即试用。"
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX 现在支持 Phantom！",
+      "BODY": "您现在可以连接并使用 dYdX，与 Phantom 钱包一起！立即试用。"
     }
   }
 }
