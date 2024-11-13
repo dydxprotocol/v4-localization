@@ -132,6 +132,14 @@
       "TITLE": "Liquidation Price",
       "BODY": "If the oracle price of {SYMBOL} drops below the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Liquidation Price",
+      "BODY": "If the oracle price of {SYMBOL} rises above the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Liquidation Price",
+      "BODY": "If the oracle price of {SYMBOL} drops below the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Liquidation Price",
       "BODY": "If the oracle price of the position market crosses the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
