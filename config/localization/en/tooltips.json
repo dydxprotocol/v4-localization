@@ -428,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "The total PnL over time. This includes historical PnL of your vault deposits."
+    },
+    "VAULT_APR": {
+      "BODY": "Vault APR is the annualized return of the vault based on the P&L of the past 30 days."
     }
   }
 }

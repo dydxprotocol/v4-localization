@@ -1713,6 +1713,8 @@
       "YOUR_ALL_TIME_PNL": "Your All-time P&L",
       "VAULT_THIRTY_DAY_APR": "30d APR",
       "APR": "{PERCENT} APR",
+      "EST_APR_PLAIN": "Est. APR",
+      "APR_PLAIN": "APR",
       "VAULT_THIRTY_DAY_PNL": "30d P&L",
       "YOUR_VAULT_BALANCE": "Your Vault Balance",
       "VIEW_VAULT": "View Vault",
