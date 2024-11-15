@@ -8,10 +8,10 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski imza",
-      "BODY": "Bu seçeneği yalnızca anahtarlarınızı oluşturmak için donanım cüzdan imzası \/ eski imza kullandıysanız işaretleyin."
+      "BODY": "Bu seçeneği yalnızca anahtarlarınızı oluşturmak için donanım cüzdan imzası\/eski imza kullandıysanız işaretleyin."
     },
     "REMEMBER_ME": {
-      "TITLE": "Beni hatırla",
+      "TITLE": "Beni Hatırla",
       "BODY": "Yalnızca sahibi olduğunuz güvenli bir cihazı kullanıyorsanız \"Beni Hatırla\" seçeneğini kullanın. Bu tercihi seçmek, genel veya güvenli olmayan bir cihaz kullanıyorsanız anahtarlarınızı ve bilgilerinizi başkalarına ifşa edebilir."
     }
   },
@@ -42,11 +42,11 @@
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Emir",
-      "BODY": "Bu destekli talimatta bir stop emir talimatı yürütmek için geçerli tetikleme fiyatınız."
+      "BODY": "Bu destekli emirde bir Zarar Durdurma gerçekleştirmek için geçerli tetiklenme fiyatınız."
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Kâr Alma",
-      "BODY": "Bu destekli talimatta bir Kâr Alma talimatı yürütmek için geçerli tetikleme fiyatınız."
+      "BODY": "Bu destekli emirde bir Kâr Alma gerçekleştirmek için geçerli tetiklenme fiyatınız."
     },
     "BUYING_POWER": {
       "TITLE": "Satın Alma Gücü",
@@ -66,7 +66,7 @@
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Varsayılan Yürütme",
-      "BODY": "Talimatınız açılış sırasında her türlü çakışan talimatı karşılayacaktır. Talimatınız tam olarak karşılanmadıysa karşılanana kadar, iptal edilene kadar veya süresi sona erene kadar açık kalacaktır."
+      "BODY": "Emriniz açılış sırasında tüm çapraz emirleri karşılayacaktır. Emriniz tam olarak karşılanmadıysa karşılanana, iptal edilene veya süresi sona erene kadar açık kalacaktır."
     },
     "EQUITY": {
       "TITLE": "Net Varlık",
@@ -82,7 +82,7 @@
     },
     "FILL_OR_KILL": {
       "TITLE": "Karşıla Veya İptal Et",
-      "BODY": "Karşıla veya iptal et türündeki talimatlar yürütme akabinde derhal karşılanmalıdır; aksi takdirde otomatik olarak iptal edilecektir."
+      "BODY": "Karşıla veya sonlandır türündeki emirler gerçekleştikten sonra derhal karşılanmalıdır, aksi takdirde otomatik olarak iptal edilecektir."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Ücretsiz Teminat",
@@ -90,7 +90,7 @@
     },
     "GOOD_TIL": {
       "TITLE": "Geçerlilik",
-      "BODY": "Talimatınızın sona ereceği zamana kadar olan süre."
+      "BODY": "Emrinizin sona ereceği zamana kadar olan süre."
     },
     "IMMEDIATE_OR_CANCEL": {
       "TITLE": "Hemen Veya İptal Et",
@@ -106,7 +106,7 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
-      "BODY": "Başlangıç durdurma fiyatı, takipçi yüzdenize göre belirlenir."
+      "BODY": "Başlangıç stop fiyatı, takip eden yüzdenize göre belirlenir."
     },
     "LEVERAGE": {
       "TITLE": "Kaldıraç",
@@ -118,7 +118,7 @@
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit Fiyatı",
-      "BODY": "Bu talimat yalnızca belirtilen limit fiyatı üzerinden veya daha iyisiyle karşılanabilir. Talimatınız yerleştirme sırasında çaprazlanırsa, talimatınız çaprazlanan tüm talimatları en uygun fiyatla karşılayacaktır."
+      "BODY": "Bu emir yalnızca belirtilen limit fiyatından veya daha iyi bir fiyattan karşılanabilir. Talimatınız yerleştirme sırasında çaprazlanırsa, talimatınız çaprazlanan tüm talimatları en uygun fiyatla karşılayacaktır."
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Limit Fiyatı",
@@ -126,19 +126,19 @@
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Kayma",
-      "BODY": "Tetikleme fiyatınız ve limit fiyatınız arasındaki yüzdesel fark."
+      "BODY": "Tetiklenme fiyatınız ve limit fiyatınız arasındaki yüzdesel fark."
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Tasfiye Fiyatı",
       "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
-      "TITLE": "Tasfiye Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "TITLE": "Likiditasyon Fiyatı",
+      "BODY": "Pozisyon piyasasının oracle fiyatı likiditasyon fiyatını aşarsa pozisyonunuz likidite edilecektir. Likiditasyondan sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir likiditasyon ücreti belirlenecektir (likiditasyon esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
-      "BODY": "Borsa tahtasından likidite alan işlemler (örn. piyasa veya çakışan limit talimatları) alıcı talimatları olarak yürütülür. Talimat defterine likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır."
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine likidite ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Devam Marj Oranı",
@@ -146,7 +146,7 @@
     },
     "MAKER_FEE": {
       "TITLE": "Piyasa Yapıcı Komisyonu",
-      "BODY": "Borsa tahtasına likidite ekleyen ve başka bir taraf tarafından karşılanan limit talimatları, satıcı talimatları olarak karşılanır. Satıcı talimatları, alıcı talimatlarından daha düşük bir ücrete sahiptir."
+      "BODY": "Emir defterine likidite ekleyen ve diğer bir tarafın karşıladığı limit emirleri, satıcı emirleri olarak karşılanır. Satıcı emirleri, alıcı emirlerinden daha düşük bir ücrete sahiptir."
     },
     "MARGIN_USAGE": {
       "TITLE": "Marj Kullanımı",
@@ -170,7 +170,7 @@
     },
     "NET_FUNDING": {
       "TITLE": "Net Fonlama",
-      "BODY": "Mevcut pozisyonun ömrü için kazanılan \/ ödenen toplam fonlama. Pozisyonunuzu kapatır veya pozisyonun tarafını değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
+      "BODY": "Mevcut pozisyonun ömrü için kazanılan\/ödenen toplam fonlama. Pozisyonunuzu kapatır veya yönünü değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
     },
     "OPEN_INTEREST": {
       "TITLE": "Açık Faiz",
@@ -210,7 +210,7 @@
     },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
-      "BODY": "Yalnızca yerleştir seçeneği etkin talimatlar, yalnızca satıcı talimatları olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
+      "BODY": "Sadece gönder seçeneği etkin emirler, yalnızca satıcı emirleri olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Yalnızca Yerleştir",
@@ -218,15 +218,15 @@
     },
     "PRICE_IMPACT": {
       "TITLE": "Fiyat Etkisi",
-      "BODY": "Talimatınız için beklenen yürütme fiyatı ile alış veya satış teklifi tarafındaki en iyi talimat fiyatı arasındaki fark. Bu değer daha büyük alım satım boyutları için artacaktır."
+      "BODY": "Emriniz için beklenen gerçekleşme fiyatının, alış veya satış teklifi yönündeki en iyi emir fiyatıyla arasındaki fark. Bu değer daha büyük alım satım hacminde artacaktır."
     },
     "REALIZED_PNL": {
-      "TITLE": "Gerçekleşen Kâr \/ Zarar",
-      "BODY": "Bu pozisyon için kısmî kapatmalar, ücretler ve fonlama yoluyla gerçekleşmiş toplam kâr \/ zarar. Pozisyonunuzu tamamen kapatırsanız veya pozisyon tarafını değiştirirseniz (uzundan kısaya veya tam tersi) sıfırlanır."
+      "TITLE": "Gerçekleşen Kâr\/Zarar",
+      "BODY": "Bu pozisyon için kısmi kapatmalar, ücretler ve fonlama yoluyla gerçekleşmiş toplam kâr\/zarar. Pozisyonunuzu tamamen kapatırsanız veya yönünü değiştirirseniz (uzundan kısaya veya tam tersi) sıfırlanır."
     },
     "REDUCE_ONLY": {
-      "TITLE": "Yalnızca Azalt",
-      "BODY": "Yalnızca Azalt özelliği talimatın pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
+      "TITLE": "Sadece Azalt",
+      "BODY": "Sadece Azalt özelliği emrin pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Yalnızca Azalt",
@@ -262,7 +262,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
-      "BODY": "Talimat defterinden likidite alan işlemler (örn. piyasa veya çakışan limit talimatları) alıcı talimatları olarak yürütülür. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
     },
     "TAKE_PROFIT": {
       "TITLE": "Kâr Alma",
@@ -274,11 +274,11 @@
     },
     "TICK_SIZE": {
       "TITLE": "Minimum Fiyat Büyüklüğü",
-      "BODY": "Puan boyutu, bu piyasadaki minimum fiyat hareketidir."
+      "BODY": "Tick boyutu, bu piyasadaki minimum fiyat hareketidir."
     },
     "TIME_IN_FORCE": {
       "TITLE": "Yürürlükteki Süre",
-      "BODY": "Seçilen yürürlükteki süre tercihi, bir talimatın süresi sona erene veya karşılanana kadar ne kadar süreyle aktif kalacağını belirler."
+      "BODY": "Yürürlükteki süre seçimi, bir emrin süresi sona erene veya emir karşılanana kadar ne kadar süreyle aktif kalacağını belirler."
     },
     "TRAILING_PERCENT": {
       "TITLE": "Takip Eden Yüzdesi",
@@ -307,7 +307,7 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Kullanılamıyor",
-      "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!"
+      "BODY": "Gas ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Gaz Ücretleri",
@@ -333,7 +333,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
-      "BODY": "Bu, fon yatırma ve izin belirleme (set allowance) işlemleri için Ethereum madencilerine ödenen gaz maliyetidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz gerekir."
+      "BODY": "Bu, fon yatırma ve izin belirleme işlemleri için Ethereum madencilerine ödenen gas ücretidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz gerekir."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
@@ -349,7 +349,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
-      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas maliyetlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
     },
     "GAS_FEES": {
       "TITLE": "Gaz Ücretleri",
@@ -369,7 +369,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
-      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
+      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
     }
   },
   "STAKE": {
