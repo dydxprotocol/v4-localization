@@ -430,7 +430,7 @@
       "BODY": "The total PnL over time. This includes historical PnL of your vault deposits."
     },
     "VAULT_APR": {
-      "BODY": "Vault APR is the annualized return of the vault based on the P&L of the past 30 days."
+      "BODY": "Vault APR is the past month's yield annualized. Vault returns depend on P&L and protocol revenue sharing.  This APR is not guaranteed."
     }
   }
 }
