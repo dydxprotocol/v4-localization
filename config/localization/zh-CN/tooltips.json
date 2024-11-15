@@ -34,7 +34,7 @@
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "可用余额",
-      "BODY": "可用于从您的交叉保证金账户中交易或提现的抵押品金额。"
+      "BODY": "可从交叉保证金账户交易或提取的抵押品金额。"
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "基准头寸名义价值",
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "交叉自由抵押品",
-      "BODY": "可用于从您的交叉保证金账户中交易或提取的抵押品数量。"
+      "BODY": "可从交叉保证金账户交易或提取的抵押品金额。"
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "交叉保证金使用",
