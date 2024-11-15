@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Kreuzfreie Sicherheiten",
-      "BODY": "Menge der Sicherheiten, die für den Handel oder die Abhebung von Ihrem Cross-Margin-Konto verfügbar sind."
+      "BODY": "Betrag der Sicherheiten, die für den Handel oder die Abhebung von Ihrem Cross-Margin-Konto verfügbar sind."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Verwendung von Kreuzmargen",
