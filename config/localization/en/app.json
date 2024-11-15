@@ -1715,7 +1715,6 @@
       "APR": "{PERCENT} APR",
       "EST_APR_PLAIN": "Est. APR",
       "APR_PLAN": "APR",
-      "VAULT_APR_DESCRIPTION": "Vault APR is the annualized return of the vault based on the P&L of the past 30 days.",
       "VAULT_THIRTY_DAY_PNL": "30d P&L",
       "YOUR_VAULT_BALANCE": "Your Vault Balance",
       "VIEW_VAULT": "View Vault",
