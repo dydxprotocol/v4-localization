@@ -8,7 +8,7 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
-      "BODY": "Marque esta opção se você usou a assinatura de carteira hardware \/ assinatura legada para gerar suas chaves anteriormente."
+      "BODY": "Marque esta opção se você usou a assinatura de carteira hardware \/ assinatura legada para gerar suas chaves."
     },
     "REMEMBER_ME": {
       "TITLE": "Lembrar-me",
@@ -17,13 +17,13 @@
   },
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
-      "TITLE": "Comissões de Afiliados",
+      "TITLE": "Comissões de afiliados",
       "BODY": "Percentagem de comissão das taxas de taker."
     }
   },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
-      "TITLE": "Desconto nos Hedgies",
+      "TITLE": "Desconto nos hedgies",
       "BODY": "Ter um {NFT} vai aumentar seu nível de desconto de taxa em uma unidade. Ter vários não gera efeito adicional."
     }
   },
@@ -42,11 +42,11 @@
     },
     "BRACKET_ORDER_SL": {
       "TITLE": "Stop Loss",
-      "BODY": "O preço de disparo atual para executar uma ordem Stop Loss em relação a esta ordem bracket."
+      "BODY": "Seu preço de disparo atual para executar uma ordem Stop Loss em relação a esta ordem de suporte."
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Take profit",
-      "BODY": "O preço de disparo atual para executar uma ordem de Take Profit em relação a esta ordem bracket."
+      "BODY": "Seu preço de disparo atual para executar uma ordem de Take Profit em relação a esta ordem bracket."
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
@@ -78,18 +78,18 @@
     },
     "FEE": {
       "TITLE": "Taxa de trading",
-      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers DYDX. Não há taxas de gás para fazer trades na dYdX."
+      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de gás para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Execução imediata",
-      "BODY": "As ordens Fill or Kill devem ser completamente preenchidas após a execução ou elas serão canceladas automaticamente."
+      "TITLE": "Preencher ou encerrar",
+      "BODY": "As ordens de preencher ou encerrar devem ser completamente preenchidas após a execução, ou serão canceladas automaticamente."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Sem garantia",
       "BODY": "O valor máximo que você pode sacar. Quando o valor sem garantia é 0 ou negativo, sua conta está usando a alavancagem máxima."
     },
     "GOOD_TIL": {
-      "TITLE": "Good Til",
+      "TITLE": "Válida até",
       "BODY": "Período até que a sua ordem expire."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -132,13 +132,21 @@
       "TITLE": "Preço de liquidação",
       "BODY": "Se o preço do oráculo de {SYMBOL} cair abaixo do preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Preço de liquidação",
+      "BODY": "Se o preço do oráculo {SYMBOL}subir acima do preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Preço de liquidação",
+      "BODY": "Se o preço do oráculo de {SYMBOL} cair abaixo do preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Preço de liquidação",
       "BODY": "Se o preço de oráculo da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) executam como ordens de taker. As ordens limite que adicionam liquidez ao livro e são preenchidas por outra parte serão preenchidas como ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) são executados como ordens de taker. As ordens limite que adicionam liquidez ao livro e são preenchidas por outra parte serão preenchidas como ordens de maker."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fração da margem de manutenção",
@@ -209,12 +217,12 @@
       "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
     "POST_ONLY": {
-      "TITLE": "Ordem Post-Only",
-      "BODY": "As ordens com post-only habilitadas podem ser feitas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
+      "TITLE": "Ordem somente postagem",
+      "BODY": "As ordens com a opção post-only habilitada podem ser feitas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Ordem Post-Only",
-      "BODY": "A Post-Only só está disponível se o Tempo em vigor estiver definido como Good Til Time."
+      "TITLE": "Ordem somente postagem",
+      "BODY": "A ordem somente postagem somente estará disponível se o Tempo em vigor estiver definido como dentro da validade."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto do preço",
@@ -225,16 +233,16 @@
       "BODY": "Lucro\/perda totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
     },
     "REDUCE_ONLY": {
-      "TITLE": "Reduce-Only",
-      "BODY": "A opção Reduce-Only impede que uma ordem altere o lado de sua posição (longo para curto ou curto para longo). Uma ordem com a configuração Somente Reduzir será redimensionada automaticamente e será cancelada conforme sua posição for alterada."
+      "TITLE": "Somente reduzir",
+      "BODY": "A opção Somente reduzir impede que uma ordem altere o lado de sua posição (long para short, ou short para long). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
-      "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only está disponível somente se o Tempo em vigor estiver definido como IOC."
+      "TITLE": "Somente reduzir",
+      "BODY": "Somente reduzir está disponível somente se o Tempo em vigor estiver definido como IOC."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
-      "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only está disponível somente se a execução estiver definida como IOC."
+      "TITLE": "Somente reduzir",
+      "BODY": "Somente reduzir está disponível somente se a execução estiver definida como IOC."
     },
     "REWARDS_EARNED": {
       "TITLE": "Recompensas recebidas",
@@ -250,7 +258,7 @@
     },
     "STOP_LOSS": {
       "TITLE": "Stop Loss",
-      "BODY": "Protege contra perdas fechando a posição de um trader quando o preço de oráculo ultrapassa o preço de disparo."
+      "BODY": "Protege contra perdas, fechando a posição de um trader quando o preço de oráculo ultrapassa o preço de disparo."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss acima do preço de liquidação",
@@ -262,7 +270,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de Taker",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) executam como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, mercado ou ordens de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take profit",
@@ -420,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
+    },
+    "VAULT_APR": {
+      "BODY": "APR do cofre é o rendimento anualizado do mês anterior. Os retornos do cofre dependem do compartilhamento de receita de P&L e do protocolo.  Esta APR não é garantida."
     }
   }
 }
