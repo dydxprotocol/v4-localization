@@ -1284,6 +1284,7 @@
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "perpetual funding",
       "GASLESS_DEPOSITS_NEW_PROMO": "If your first deposit is $1000 or more, dYdX will pay your deposit gas fees!",
       "GASLESS_DEPOSITS_PROMO": "Enjoy zero gas costs on your deposit of $2000 or more, once every three days.",
+      "GIFTED_FEE_TIER_BONUS": "{AFFILIATE} has gifted you a Fee Tier bonus.",
       "GOVERNANCE_DESCRIPTION": "Participate in governance of the dYdX Chain with $DYDX. Available through Keplr.",
       "HAVE_YOU_EXPORTED": "Have you exported your secret phrase?",
       "HAVE_YOU_EXPORTED_DESCRIPTION": "To vote or stake on dYdX Chain, users must utilize a Cosmos-native wallet.",
@@ -1356,7 +1357,8 @@
       "VIEW_FEES": "View fees",
       "VIEW_FEE_STRUCTURE": "View fee structure",
       "VIEW_FILLS": "View fills",
-      "VIEW_REWARDS": "View rewards"
+      "VIEW_REWARDS": "View rewards",
+      "YOUR_FEE_TIER": "Your current Fee Tier is {TIER}"
     },
     "TRADE": {
       "ADD_MARGIN": "Add Margin",
