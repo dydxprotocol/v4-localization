@@ -12,7 +12,7 @@
     },
     "REMEMBER_ME": {
       "TITLE": "Automatische Anmeldung",
-      "BODY": "Verwenden Sie „Automatische Anmeldung“ nur, wenn Sie ein sicheres Gerät benutzen, das in Ihrem Besitz ist. Benutzen Sie ein öffentliches oder ungesichertes Gerät, können sich Dritte bei Auswahl dieser Option Zugang zu Ihren Keys und Daten verschaffen."
+      "BODY": "Verwenden Sie \"Automatische Anmeldung\" nur, wenn Sie ein sicheres Gerät benutzen, das in Ihrem Besitz ist. Benutzen Sie ein öffentliches oder ungesichertes Gerät, können sich Dritte bei Auswahl dieser Option Zugang zu Ihren Keys und Daten verschaffen."
     }
   },
   "AFFILIATES": {
@@ -30,7 +30,7 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Konto-Hebelwirkung",
-      "BODY": "Hebelwirkung auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
+      "BODY": "Leverage auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Verfügbares Guthaben",
@@ -66,7 +66,7 @@
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Standardausführung",
-      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie so lange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
+      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie solange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
     },
     "EQUITY": {
       "TITLE": "Eigenkapital",
@@ -89,7 +89,7 @@
       "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Hebelwirkung."
     },
     "GOOD_TIL": {
-      "TITLE": "Good-till-canceled",
+      "TITLE": "Good Til",
       "BODY": "Zeit, bis Ihre Order abläuft."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -132,13 +132,21 @@
       "TITLE": "Abwicklungspreis",
       "BODY": "Wenn der Orakelpreis von {SYMBOL} unter den Liquidationspreis fällt, wird Ihre Position gelöscht. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Abwicklungspreis",
+      "BODY": "Wenn der Oracle-Preis von {SYMBOL}über den Abwicklungspreis steigt, wird Ihre Position liquidiert. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Abwicklungspreis",
+      "BODY": "Wenn der Orakelpreis von {SYMBOL} unter den Liquidationspreis fällt, wird Ihre Position gelöscht. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Abwicklungspreis",
       "BODY": "Wenn der Oracle-Preis des Positionsmarktes den Abwicklungspreis überschreitet, wird Ihre Position abgewickelt. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidität",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Maintenance Margin-Bruchwert",
@@ -162,7 +170,7 @@
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Maximale Hebelwirkung",
-      "BODY": "Maximal zulässige Leverage für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
+      "BODY": "Maximal zulässige Hebelwirkung für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Geschätzte Prämien",
@@ -420,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "Der Gesamt-PnL im Laufe der Zeit. Dies umfasst historische PnL Ihrer Einzahlungen in den Tresor."
+    },
+    "VAULT_APR": {
+      "BODY": "Der Vault-APR ist die auf Jahresbasis berechnete Rendite des letzten Monats. Die Vault-Renditen hängen von der Gewinn- und Verlustrechnung und der Protokolleinnahmen ab. Dieser APR ist nicht garantiert."
     }
   }
 }
