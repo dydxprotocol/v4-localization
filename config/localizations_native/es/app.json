@@ -216,7 +216,7 @@
       "ENTER_STOP_PRICE": "Ingresa el precio de stop",
       "LIQUIDATION": "Liquidación",
       "LUNA_IMF_TITLE": "Margen ajustado para LUNA-USD",
-      "LUNA_IMF_TEXT": "Hemos aumentado temporalmente los requisitos de margen inicial en LUNA-USD al 100 % debido a la volatilidad. El margen de mantenimiento sigue siendo 5%.",
+      "LUNA_IMF_TEXT": "Hemos aumentado temporalmente los requisitos de margen inicial en LUNA-USD al 100 % debido a la volatilidad. El margen de mantenimiento sigue siendo 5 %.",
       "NOT_TRIGGERED_STATUS": "No se activó",
       "NOT_TRIGGERED_STATUS_DESC": "Tu orden no ha sido activada.",
       "NOT_SET": "No implementado",

@@ -132,6 +132,14 @@
       "TITLE": "Precio de liquidación",
       "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tasa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Precio de liquidación",
+      "BODY": "Si el precio de referencia {SYMBOL}sube por encima del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tasa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Precio de liquidación",
+      "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tasa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Precio de liquidación",
       "BODY": "Si el precio de oráculo en el mercado de posiciones se cruza con el precio de liquidación, tu posición será liquidada. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tasa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
@@ -420,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "El PNL total a lo largo del tiempo. Esto incluye el PNL histórico de sus depósitos de bóveda."
+    },
+    "VAULT_APR": {
+      "BODY": "La Tasa de Porcentaje Anual de la bóveda es el rendimiento del mes pasado anualizado. Los rendimientos de la bóveda dependen de las pérdidas y ganancias y el reparto de ingresos del protocolo.  Esta Tasa de Porcentaje Anual no está garantizada."
     }
   }
 }
