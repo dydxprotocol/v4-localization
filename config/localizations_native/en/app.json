@@ -328,7 +328,7 @@
       "PROMOTION": "Promotion"
     },
     "CAMERA": {
-      "ENABLE_CAMERA": "Enable Camera Access",
+      "ENABLE_CAMERA": "Continue",
       "ALLOW_ACCESS": "Allow access to camera",
       "ENABLE_CAMERA_TO_SCAN": "Enable camera access to scan QR code"
     },
