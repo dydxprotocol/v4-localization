@@ -11,7 +11,7 @@
       "BODY": "Ne cochez cette option que si vous avez déjà utilisé la signature de portefeuille matériel \/ la signature héritée pour générer vos clés."
     },
     "REMEMBER_ME": {
-      "TITLE": "Se rappeler de moi",
+      "TITLE": "Remember Me",
       "BODY": "N'utilisez « Se rappeler de moi » que si vous utilisez un appareil sécurisé qui vous appartient. La sélection de cette option peut exposer vos clés et vos informations à d'autres si vous êtes sur un appareil public ou non sécurisé."
     }
   },
@@ -82,7 +82,7 @@
     },
     "FILL_OR_KILL": {
       "TITLE": "Exécution ou Suppression",
-      "BODY": "Les ordres Fill or kill doivent être complètement remplis lors de l'exécution ou ils seront automatiquement annulés."
+      "BODY": "Les ordres d'exécution ou de suppression doivent être complètement réalisés lors de l'exécution ou ils seront automatiquement annulés."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Garantie disponible",
@@ -93,7 +93,7 @@
       "BODY": "Temps jusqu'à l'expiration de votre ordre."
     },
     "IMMEDIATE_OR_CANCEL": {
-      "TITLE": "Immédiat ou Annuler",
+      "TITLE": "Immédiat ou Annulation",
       "BODY": "Votre ordre remplira tout ordre à marge croisée au moment de l'ouverture, puis annulera tout montant d'ordre non exécuté."
     },
     "INDEX_PRICE": {
@@ -106,7 +106,7 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Stop initial",
-      "BODY": "Le prix stop initial basé sur votre pourcentage trailing."
+      "BODY": "Le prix stop initial basé sur votre pourcentage de trailing."
     },
     "LEVERAGE": {
       "TITLE": "Effet de levier",
@@ -132,9 +132,17 @@
       "TITLE": "Prix de liquidation",
       "BODY": "Si le prix oracle de  {SYMBOL}est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle {SYMBOL}augmente au-dessus du prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle de  {SYMBOL}est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Prix de liquidation",
-      "BODY": "Si le prix oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+      "BODY": "Si le prix de l'oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidité",
@@ -218,7 +226,7 @@
     },
     "PRICE_IMPACT": {
       "TITLE": "Impact sur le prix",
-      "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Cela augmentera pour les tailles de transactions plus importantes."
+      "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Cela augmentera pour les tailles de trades plus importantes."
     },
     "REALIZED_PNL": {
       "TITLE": "Perte \/ Bénéfice réalisé",
@@ -278,7 +286,7 @@
     },
     "TIME_IN_FORCE": {
       "TITLE": "Time In Force",
-      "BODY": "L'option Temps en vigueur sélectionnée contrôle la durée pendant laquelle un ordre restera actif jusqu'à ce qu'il expire où soit exécuté."
+      "BODY": "L'option Temps en vigueur sélectionnée contrôle la durée pendant laquelle un ordre restera actif jusqu'à ce qu'il expire ou soit exécuté."
     },
     "TRAILING_PERCENT": {
       "TITLE": "Pourcentage de Trailing",
@@ -420,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "Le PNL total dans le temps. Cela inclut l'historique du PNL de vos dépôts dans le coffre-fort."
+    },
+    "VAULT_APR": {
+      "BODY": "Le TAEG du coffre-fort est le rendement du mois dernier annualisé. Les rendements du coffre-fort dépendent du partage des revenus de bénéfice et perte et du protocole de partage des revenus. Ce TAEG n'est pas garanti."
     }
   }
 }
