@@ -307,7 +307,7 @@
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
       "TITLE": "Доступно",
-      "BODY": "Вам доступна отличная возможность. Внесите не менее {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}, чтобы не платить комиссию за газ."
+      "BODY": "Вам доступна отличная возможность! Внесите не менее {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}, чтобы не платить комиссию за газ."
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Комиссия за переход",
