@@ -7,7 +7,7 @@
       "BODY": "Ihre dYdX-Chain-Adresse „“ wurde aus der Signatur der Solana-Adresse {DYDX_ADDRESS}„“ {SOLANA_ADDRESS}erstellt."
     },
     "LEGACY_SIGNING": {
-      "TITLE": "Legacy Signing",
+      "TITLE": "Veraltete Signatur",
       "BODY": "Kreuzen Sie diese Option nur dann an, wenn Sie zuvor Hardware Wallet Signing \/ Legacy Signing zur Erstellung Ihrer Keys verwendet haben."
     },
     "REMEMBER_ME": {
@@ -29,7 +29,7 @@
   },
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
-      "TITLE": "Konto-Hebelwirkung",
+      "TITLE": "Kontobeleihung",
       "BODY": "Leverage auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
     },
     "AVAILABLE_BALANCE": {
@@ -50,14 +50,14 @@
     },
     "BUYING_POWER": {
       "TITLE": "Kaufkraft",
-      "BODY": "Dies stellt Ihre gesamte verfügbare Kaufkraft dar. Ihre Kaufkraft basiert auf der maximalen auf der Börse verfügbaren Hebelwirkung und wird sich nicht auf der Grundlage des von Ihnen ausgewählten Marktes ändern."
+      "BODY": "Dies stellt Ihre gesamte verfügbare Kaufkraft dar. Ihre Kaufkraft basiert auf dem maximalen Hebel, der an der Börse verfügbar ist, und wird sich nicht auf der Grundlage des von Ihnen ausgewählten Marktes ändern."
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Kreuzfreie Sicherheiten",
       "BODY": "Betrag der Sicherheiten, die für den Handel oder die Abhebung von Ihrem Cross-Margin-Konto verfügbar sind."
     },
     "CROSS_MARGIN_USAGE": {
-      "TITLE": "Verwendung von Kreuzmargen",
+      "TITLE": "Verwendung von Cross-Margin",
       "BODY": "Prozentsatz Ihrer gesamten Cross-Marge, der von offenen Positionen in Anspruch genommen wird."
     },
     "CUSTOM_AMOUNT": {
@@ -66,30 +66,30 @@
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Standardausführung",
-      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie solange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
+      "BODY": "Mit Ihrer Order werden alle Crossing Orders zum Zeitpunkt der Eröffnung ausgeführt. Wenn Ihre Order nicht vollständig ausgeführt wurde, bleibt sie so lange offen, bis sie ausgeführt, storniert oder abgelaufen ist."
     },
     "EQUITY": {
       "TITLE": "Eigenkapital",
       "BODY": "Gesamtwert Ihres Kontos."
     },
     "EXPECTED_PRICE": {
-      "TITLE": "Preisvorstellung",
+      "TITLE": "Erwarteter Preis",
       "BODY": "Voraussichtlicher Ausführungspreis für Ihre Order. Dieser Preis ist nur eine Schätzung, da sich das Orderbuch ändern kann, bevor Ihre Order vom Netzwerk bearbeitet wird."
     },
     "FEE": {
       "TITLE": "Handelsgebühr",
-      "BODY": "Das Netzwerk berechnet Handelsgebühren in Höhe von einem Proent Ihres Handelsvolumens. Handelsgebühren fallen für Validatoren und DYDX-Staker an. Für den Handel auf dYdX fallen keine Gasgebühren an."
+      "BODY": "Das Netzwerk erhebt Handelsgebühren in Höhe eines Prozentsatzes Ihres Handelsvolumens. Handelsgebühren fallen für Validatoren und DYDX-Staker an. Für den Handel auf dYdX fallen keine Gasgebühren an."
     },
     "FILL_OR_KILL": {
       "TITLE": "Fill or Kill",
-      "BODY": "Fill-or-Kill Orders müssen im Zuge einer Ausführung vollständig ausgeführt sein, andernfalls werden sie automatisch storniert."
+      "BODY": "Fill-or-Kill-Orders müssen bei Ausführung vollständig ausgeführt werden, andernfalls werden sie automatisch storniert."
     },
     "FREE_COLLATERAL": {
-      "TITLE": "Finanzierung ohne Sicherheit",
+      "TITLE": "Freie Sicherheiten",
       "BODY": "Der maximale Auszahlungsbetrag. Wenn die Finanzierung ohne Sicherheit auf 0 steht oder negativ ist, nutzt ihr Konto ihre maximale Hebelwirkung."
     },
     "GOOD_TIL": {
-      "TITLE": "Good Til",
+      "TITLE": "Gültig bis auf Widerruf",
       "BODY": "Zeit, bis Ihre Order abläuft."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -106,11 +106,11 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Initialer Stop",
-      "BODY": "Der initiale Stop-Preis, basierend auf Ihrem Trailing-Prozentsatz."
+      "BODY": "Initialer Stop-Preis, basierend auf Ihrem Trailing-Prozentsatz."
     },
     "LEVERAGE": {
-      "TITLE": "Hebelwirkung",
-      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+      "TITLE": "Hebel",
+      "BODY": "Die Hebelwirkung ändert das Ausmaß Ihrer Gewinne oder Verluste. Durch Erhöhen Ihres Hebels steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
     },
     "LIMIT_CLOSE": {
       "TITLE": "Limit Close",
@@ -129,35 +129,35 @@
       "BODY": "Die prozentuale Differenz zwischen Ihrem Triggerpreis und dem Limitpreis."
     },
     "LIQUIDATION_PRICE": {
-      "TITLE": "Abwicklungspreis",
-      "BODY": "Wenn der Orakelpreis von {SYMBOL} unter den Liquidationspreis fällt, wird Ihre Position gelöscht. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
+      "TITLE": "Liquidationspreis",
+      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL}fällt, wird Ihre Position liquidiert. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
     },
     "LIQUIDATION_PRICE_SHORT": {
-      "TITLE": "Abwicklungspreis",
+      "TITLE": "Liquidationspreis",
       "BODY": "Wenn der Oracle-Preis von {SYMBOL}über den Abwicklungspreis steigt, wird Ihre Position liquidiert. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
     },
     "LIQUIDATION_PRICE_LONG": {
-      "TITLE": "Abwicklungspreis",
-      "BODY": "Wenn der Orakelpreis von {SYMBOL} unter den Liquidationspreis fällt, wird Ihre Position gelöscht. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
+      "TITLE": "Liquidationspreis",
+      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL}fällt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
-      "TITLE": "Abwicklungspreis",
-      "BODY": "Wenn der Oracle-Preis des Positionsmarktes den Abwicklungspreis überschreitet, wird Ihre Position abgewickelt. Nach der Abwicklung, wird Ihre Position automatisch geschlossen und eine Liquidationsgebühr von mindestens 1 % wird veranschlagt (kann je nach Liquidität zum Zeitpunkt der Abwicklung höher ausfallen)."
+      "TITLE": "Liquidationspreis",
+      "BODY": "Wenn der Oracle-Preis des Positionsmarktes den Abwicklungspreis überschreitet, wird Ihre Position abgewickelt. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidität",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Maintenance Margin-Bruchwert",
-      "BODY": "Der Maintenance Margin-Bruchwert definiert, wann Trader liquidiert werden. Er wird als der Nominalwert der Position eines Traders geteilt durch das Eigenkapital berechnet. Wenn der Margin-Bruchwert eines Traders den Maintenance Margin-Bruchwert überschreitet, wird seine Position automatisch geschlossen (liquidiert) und die Liquidations-Engine wird versuchen, Gelder nach Möglichkeit auf Konten mit positivem Wert zu belassen, nachdem sie die maximale Liquidationsstrafe von 1,5 % bezahlt haben."
+      "BODY": "Der Maintenance Margin-Bruchwert definiert, wann Trader liquidiert werden. Er wird als der Nominalwert der Position eines Traders geteilt durch das Eigenkapital berechnet. Wenn der Margin-Bruchwert eines Traders den Maintenance Margin-Bruchwert überschreitet, wird seine Position automatisch geschlossen (liquidiert), und die Liquidations-Engine wird versuchen, Gelder nach Möglichkeit auf Konten mit positivem Wert zu belassen, nachdem die maximale Liquidationsstrafe von 1,5 % bezahlt wurde."
     },
     "MAKER_FEE": {
       "TITLE": "Maker-Gebühr",
       "BODY": "Limit Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt. Maker Orders haben eine niedrigere Gebühr als Taker Orders."
     },
     "MARGIN_USAGE": {
-      "TITLE": "Marge-Anwendung",
+      "TITLE": "Marge-Nutzung",
       "BODY": "Prozentsatz Ihrer gesamten Marge, der von offenen Positionen verwendet wird."
     },
     "MARGIN_USED": {
@@ -169,8 +169,8 @@
       "BODY": "Maximaler Betrag, der für eine einzelne schnelle Auszahlung zulässig ist."
     },
     "MAXIMUM_LEVERAGE": {
-      "TITLE": "Maximale Hebelwirkung",
-      "BODY": "Maximal zulässige Hebelwirkung für diesen Markt Zur Risikominimierung verringert sich die maximale Hebelwirkung linear mit der Positionsgröße nach einem bestimmten Schwellenwert."
+      "TITLE": "Maximale Leverage",
+      "BODY": "Maximal zulässiger Hebel für diesen Markt. Zur Begrenzung des Risikos verringert sich der maximale Hebel linear mit der Positionsgröße nach Erreichen eines bestimmten Schwellenwerts."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Geschätzte Prämien",
@@ -178,31 +178,31 @@
     },
     "NET_FUNDING": {
       "TITLE": "Nettofinanzierung",
-      "BODY": "Verdiente \/ bezahlte Gesamtfinanzierung für die Laufzeit der aktuellen Position. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Position wechseln (Long zu Short oder umgekehrt)"
+      "BODY": "Verdiente \/ bezahlte Gesamtfinanzierung für die Laufzeit der aktuellen Position. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Seite der Position wechseln (von Long zu Short oder umgekehrt)."
     },
     "OPEN_INTEREST": {
-      "TITLE": "Offener Anteil",
-      "BODY": "Offener Anteil umfasst die Gesamtgröße aller offenen Positionen auf diesem Markt."
+      "TITLE": "Open Interest",
+      "BODY": "Open Interest umfasst die Gesamtgröße aller offenen Positionen auf diesem Markt."
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle-Preis",
-      "BODY": "Die Hebelwirkung und Liquidationen werden auf der Grundlage des Onchain-Orakelpreises bestimmt. Der Oracle-Preis bündelt Kursdaten von mehreren Börsen und schützt Sie somit vor Ereignissen wie starken Kurseinbrüchen."
+      "BODY": "Die Hebelwirkung und Liquidationen werden auf der Grundlage des On-Chain-Orakelpreises bestimmt. Der Oracle-Preis bündelt Kursdaten von mehreren Börsen und schützt Sie somit vor Ereignissen wie starken Kurseinbrüchen."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den Ihre Position erhöht oder verringert wird, wenn die Order ausgeführt sein wird, und nicht der sich ergebende Betrag Ihrer Position."
+      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
-      "TITLE": "Stop-Loss ist ein teilweiser Abschluss",
-      "BODY": "Ihr Stop-Loss ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte sein, weil Sie einen benutzerdefinierten Betrag festlegen oder weil Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
+      "TITLE": "Stop-Loss ist ein teilweises Schließen",
+      "BODY": "Ihr Stop-Loss ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte daran liegen, dass Sie einen benutzerdefinierten Betrag festgelegt haben oder dass Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
-      "TITLE": "Take-Profit ist ein teilweiser Abschluss",
-      "BODY": "Ihr Take-Profit ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte sein, weil Sie einen benutzerdefinierten Betrag festlegen oder weil Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
+      "TITLE": "Take-Profit ist ein teilweises Schließen",
+      "BODY": "Ihr Take-Profit ist nicht so konfiguriert, dass Sie Ihre gesamte Position schließen. Dies könnte daran liegen, dass Sie einen benutzerdefinierten Betrag festgelegt haben oder dass Sie Ihre Positionsgröße nach dem Hinzufügen dieses Auslösers geändert haben."
     },
     "PORTFOLIO_VALUE": {
       "TITLE": "Portfolio-Wert",
@@ -213,28 +213,28 @@
       "BODY": "Der Betrag der Sicherheiten, die die Position absichern."
     },
     "POSITION_LEVERAGE": {
-      "TITLE": "Positionshebelwirkung",
-      "BODY": "Leverage ändert das Ausmaß Ihrer Gewinne oder Verluste. Erhöhen Sie Ihre Hebelwirkung, erhöht sich der Gewinn\/Verlust, den Sie bei einem Trade mit der gleichen Kursbewegung erzielen würden."
+      "TITLE": "Positionshebel",
+      "BODY": "Leverage ändert den Multiplikator Ihrer Gewinne oder Verluste. Durch Erhöhen Ihres Hebels steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
-      "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
+      "BODY": "Orders, bei denen Post-Only aktiviert ist, können nur als Maker-Orders platziert werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Post-Only",
-      "BODY": "Post-Only ist nur verfügbar, wenn Time in Force auf Good Til Time festgelegt ist."
+      "BODY": "Post-Only ist nur verfügbar, wenn die Gültigkeit auf 'Gültig bis zum Zeitpunkt' eingestellt ist."
     },
     "PRICE_IMPACT": {
       "TITLE": "Auswirkung auf den Preis",
-      "BODY": "Der Unterschied zwischen dem erwarteten Ausführungspreis für Ihre Order und der bestmöglichen Order auf der Angebots- bzw. Nachfrageseite. Dies wird sich für größere Tradingumfänge erhöhen."
+      "BODY": "Der Unterschied zwischen dem erwarteten Ausführungspreis für Ihre Order und der besten Order auf der Geld- oder Briefseite. Dies wird sich bei größeren Handelsgrößen erhöhen."
     },
     "REALIZED_PNL": {
       "TITLE": "Realisierter Gewinn \/ Verlust",
-      "BODY": "Gesamter realisierter Gewinn \/ Verlust für diese Position durch partielle Closes, Gebühren und Finanzierung. Wird zurückgesetzt, wenn Sie Ihre Position vollständig schließen oder die Position wechseln (Long zu Short, oder umgekehrt)."
+      "BODY": "Gesamter realisierter Gewinn \/ Verlust für diese Position durch teilweise Schließungen, Gebühren und Finanzierung. Wird zurückgesetzt, wenn Sie Ihre Position vollständig schließen oder die Position wechseln (Long zu Short, oder umgekehrt)."
     },
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only verhindert, dass eine Order die Position wechselt (Long zu Short oder Short zu Long). Eine Order mit eingestelltem Reduce-Only wird automatisch ihre Größe anpassen und sich selbst stornieren, wenn sich Ihre Position ändert."
+      "BODY": "Reduce-Only verhindert, dass eine Order die Position wechselt (Long zu Short oder Short zu Long). Eine Order mit aktiviertem Reduce-Only wird automatisch ihre Größe anpassen und sich selbst stornieren, wenn sich Ihre Position ändert."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Reduce-Only",
@@ -242,7 +242,7 @@
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only ist nur verfügbar, wenn Ausführung auf IOC festgelegt ist."
+      "BODY": "Reduce-Only ist nur verfügbar, wenn die Ausführung auf IOC festgelegt ist."
     },
     "REWARDS_EARNED": {
       "TITLE": "Verdiente Belohnungen",
@@ -254,23 +254,23 @@
     },
     "STEP_SIZE": {
       "TITLE": "Step Size",
-      "BODY": "Step Size ist der kleinste Faktor, der für Orderbeträge auf diesem Markt zulässig ist."
+      "BODY": "Step Size ist der kleinste zulässige Faktor für Orderbeträge auf diesem Markt."
     },
     "STOP_LOSS": {
       "TITLE": "Stop Loss",
-      "BODY": "Schützt vor Verlusten, indem die Position eines Traders geschlossen wird, sobald der Oracle-Preis den Triggerpreis kreuzt."
+      "BODY": "Schützt vor Verlusten, indem die Position eines Traders geschlossen wird, sobald der Oracle-Preis den Triggerpreis überschreitet."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
-      "TITLE": "Stop-Loss Über Dem Liquidationspreis",
+      "TITLE": "Stop-Loss oberhalb des Liquidationspreises",
       "BODY": "Der Stop-Loss-Preis ist über den Liquidationspreis gestiegen. Dies kann aufgrund von Finanzierungsänderungen, aufgrund von Abhebungen von Geldern oder aufgrund sich ändernder Margenanforderungen geschehen."
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
       "TITLE": "Stop-Loss Unter Dem Liquidationspreis",
-      "BODY": "Der Stop-Loss-Preis ist über den Liquidationspreis gestiegen. Dies kann aufgrund von Finanzierungsänderungen, aufgrund von Abhebungen von Geldern oder aufgrund sich ändernder Margenanforderungen geschehen."
+      "BODY": "Der Stop-Loss-Preis ist unter den Liquidationspreis gefallen. Dies kann aufgrund von Finanzierungsänderungen, aufgrund von Abhebungen von Geldern oder aufgrund sich ändernder Margenanforderungen geschehen."
     },
     "TAKER_FEE": {
       "TITLE": "Taker-Gebühr",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Taker Orders haben eine höhere Gebühr als Maker Orders."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market oder Crossing Limit-Orders) werden als Taker Orders ausgeführt. Taker Orders haben eine höhere Gebühr als Maker Orders."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take Profit",
@@ -282,11 +282,11 @@
     },
     "TICK_SIZE": {
       "TITLE": "Notierungssprung",
-      "BODY": "Der Notierungssprung ist die minimale Preisbewegung auf diesem Markt."
+      "BODY": "Die Tickgröße ist die minimale Preisbewegung auf diesem Markt."
     },
     "TIME_IN_FORCE": {
       "TITLE": "Time In Force",
-      "BODY": "Die gewählte Zeit in der Force-Option regelt, wie lange eine Order aktiv bleibt, bis sie entweder abläuft oder ausgeführt wird."
+      "BODY": "Die gewählte Gültigkeitsdauer-Option bestimmt, wie lange eine Order aktiv bleibt, bis sie entweder abläuft oder ausgeführt wird."
     },
     "TRAILING_PERCENT": {
       "TITLE": "Trailing Prozent",
@@ -298,7 +298,7 @@
     },
     "UNREALIZED_PNL": {
       "TITLE": "Nicht realisierter Gewinn \/ Verlust",
-      "BODY": "Gesamter Gewinn\/Verlust, wenn Sie den Rest Ihrer aktuellen Position zum aktuellen Oracle-Preis vollständig schließen sollten. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Position wechseln (Long zu Short oder umgekehrt)"
+      "BODY": "Gesamter Gewinn\/Verlust, wenn Sie den Rest Ihrer aktuellen Position zum aktuellen Oracle-Preis vollständig schließen sollten. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Seite der Position wechseln (von Long zu Short oder umgekehrt)."
     },
     "REWARD_HISTORY": {
       "BODY": "Die Zeit wird in Coordinated Universal Time (UTC) angezeigt"
@@ -327,7 +327,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Einzahlungen mit der niedrigsten Gebühr",
-      "BODY": "USDC-Einzahlungen auf  {LOWEST_FEE_TOKEN_NAMES}haben die niedrigsten Gebühren."
+      "BODY": "USDC-Einzahlungen auf {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Mindesteinzahlungsbetrag",
