@@ -23,7 +23,7 @@
       "ACTIVITIES": "활동",
       "ADD_NEW_WALLET": "새로운 지갑 추가",
       "ALERTS": "경고",
-      "AMOUNT_AND_FILLED": "금액 \/ 체결됨",
+      "AMOUNT_AND_FILLED": "금액 \/ 채워짐",
       "AMOUNT_RATE": "금액 \/ 비율",
       "AUTHENTICATE_WITH_FACE_ID": "Face ID로 인증하기",
       "AUTHENTICATE_WITH_TOUCH_ID": "터치 ID로 인증하기",
@@ -163,11 +163,11 @@
       "SELECT_WALLET_TEXT": "dYdX를 지원하는 지갑을 기반으로 다음 옵션을 발견했습니다.",
       "UNDERSTAND_RISKS_TITLE": "위험을 이해하고 있습니다",
       "USERNAME_REQUIRED": "사용자 이름은 필수입니다",
-      "WELCOME_TEXT": "주머니에서 시작되는 전 세계에서 가장 강력한 공개 거래소를 통해 거래를 시작하세요.",
-      "YOU_AGREE_TO_TERMS_NEXT_PAGE": "다음 단계에서는 {TERMS_LINK}및 을{PRIVACY_POLICY_LINK}(를) 읽고 동의해야 합니다.",
+      "WELCOME_TEXT": "내 손 안에서 시작되는, 전 세계에서 가장 강력한 공개 거래소를 통해 거래를 시작하세요.",
+      "YOU_AGREE_TO_TERMS_NEXT_PAGE": "다음 단계에서는 {TERMS_LINK}및 {PRIVACY_POLICY_LINK}을(를) 읽고 동의해야 합니다.",
       "WALLET_MISMATCH": "지갑 불일치",
       "NETWORK_MISMATCH": "네트워크 불일치",
-      "SWITCH_WALLET": "지갑을 {WALLET_ADDR}(으)로 전환하십시오.",
+      "SWITCH_WALLET": "지갑을 {WALLET_ADDR}(으)로 전환하세요.",
       "WALLET_ACCOUNT_ERROR": "계정을 가져올 수 없음",
       "ENTER_CODE": "확인 코드 입력"
     },
@@ -183,8 +183,8 @@
       "DEPOSIT_AVAILABLE": "귀하가 입금한 금액은 {DOLLAR_AMOUNT}의 가스 수수료 면제 입금 최소 금액을 충족합니다. dYdX에서 해당 입금에 부과하는 가스 수수료를 부담합니다. 한도는 3일마다 초기화됩니다. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "해당 규칙의 적용 대상",
       "MINIMUM_DEPOSIT_MET": "좋아요! 귀하가 입금한 금액은 {GASLESS_DEPOSIT_THRESHOLD}의{SYMBOL} 가스 수수료 면제 입금 최소 금액을 충족합니다. dYdX에서 해당 입금에 부과되는 가스 수수료를 부담합니다. {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "입금액이 가스 수수료 최소 조건 이하입니다. {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}이상을 입금하면 dYdX에서 해당 입금에 부과되는 가스 수수료를 부담합니다. 가스 수수료를 지불하고 입금을 계속 진행할 수도 있습니다. {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_ETH_DEPOSITS_NATIVE": "ETH는 가수 수수료 면제 입금이 불가능합니다. 사용자는 ETH를 1인치 또는 유니스왑에 대해 WETH로 전환할 수 있으며, WETH를 가스 수수료 면제 입금에 사용하거나 가스 수수료를 지불하고 ETH로 직접 입금할 수 있습니다. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "입금액이 가스 수수료 최소 조건 이하입니다. {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} 이상을 입금하면 dYdX에서 해당 입금에 부과되는 가스 수수료를 부담합니다. 가스 수수료를 지불하고 입금을 계속 진행할 수도 있습니다. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_ETH_DEPOSITS_NATIVE": "ETH는 가스 수수료 면제 입금이 불가능합니다. 사용자는 ETH를 1인치 또는 유니스왑에 대해 WETH로 전환할 수 있으며, WETH를 가스 수수료 면제 입금에 사용하거나 가스 수수료를 지불하고 ETH로 직접 입금할 수 있습니다. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "가스 수수료 면제 입금이 불가능합니다. 가스 수수료 면제 입금 한도는 3일마다 초기화됩니다. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "가스 수수료 면제 입금 사용",
       "1_REMAINING": "1회 남음",
@@ -213,7 +213,7 @@
       "CANNOT_PLACE_TRADE": "거래를 배치할 수 없음",
       "CLOSED_STATUS": "종료됨",
       "ENTER_AMOUNT_TO_TRADE": "거래 금액을 입력하세요",
-      "ENTER_STOP_PRICE": "스탑가를 입력하세요",
+      "ENTER_STOP_PRICE": "스톱가를 입력하세요",
       "LIQUIDATION": "청산",
       "LUNA_IMF_TITLE": "LUNA-USD 증거금 조정",
       "LUNA_IMF_TEXT": "변동성으로 인해 LUNA-USD 초기 증거금 요건을 100%로 일시적으로 상향했습니다. 유지 증거금은 동일하게 5%로 유지됩니다.",
@@ -231,7 +231,7 @@
       "ORDER_UNDERCOLLATERALIZED": "해당 주문은 사용자를 담보 비율 이하의 상태로 만들었을 수 있습니다.",
       "PLACE_BUY": "매수 주문",
       "PLACE_SELL": "매도 주문",
-      "PLACE_STOP_ORDER": "스탑 주문 실행",
+      "PLACE_STOP_ORDER": "스톱 주문 실행",
       "PLACE_TAKE_PROFIT_ORDER": "이익 환수 주문 실행",
       "PLACED": "배치됨",
       "PREVIEW": "미리 보기",
@@ -252,10 +252,10 @@
         "SELECT_PREFERENCE": "환경 설정을 설정합니다",
         "MODE_TO_BE_USED": "해당 모드는 모든 거래에서 사용됩니다",
         "CHANGE_SETINGS": "프로필 › 설정에서 이를 변경하세요",
-        "SIMPLE": "간단한",
+        "SIMPLE": "간단",
         "ADVANCED": "고급",
-        "EASIER": "사용하기 쉬운",
-        "POWERFUL": "더욱 강력한",
+        "EASIER": "사용하기 쉬움",
+        "POWERFUL": "더욱 강력",
         "TRADE_BOX": "모드",
         "SELECT_MODE": "모드 선택",
         "SWAP": "스왑",
@@ -272,8 +272,8 @@
       "RISK": "리스크",
       "FROM_TO": "{TOKEN_FROM}~{TOKEN_TO}",
       "CLOSING_POSITION": "{TOKEN_FROM} 포지션",
-      "PLACE_ANOTHER_TRADE": "다른 거래 실행하기",
-      "US_DOLLAR": "미 달러",
+      "PLACE_ANOTHER_TRADE": "다른 거래 실행",
+      "US_DOLLAR": "미국 달러",
       "CONFIRM_TRADE": "거래 확인",
       "CONVERSION_RATE": "환율",
       "SWAP_MARGIN_ERROR_TEXT": "더 높은 레버리지를 활용하려면 프로 모드로 전환하세요.",
@@ -307,20 +307,20 @@
         "CLOSE": "{TOKEN} 포지션 종료",
         "INCREASE": "{TOKEN} 포지션 증가",
         "DECREASE": "{TOKEN} 포지션 감소",
-        "CROSS_SIDE": "{TOKEN} 포지션을 {SIDE}포지션으로 변경"
+        "CROSS_SIDE": "{TOKEN} 포지션을 {SIDE} 포지션으로 변경"
       }
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "닫기 전용 모드",
-      "CLOSE_ONLY_BODY": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 앱에 대한 액세스가 차단되기 전에 자금을 인출하기 위한 시한이 {DATE}까지입니다. 다음 단계를 보려면 웹 인터페이스를 방문하십시오. 오류가 있다고 생각되면 {HELP_LINK} 지원에 문의하십시오.",
+      "CLOSE_ONLY_BODY": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 앱에 대한 액세스가 차단되기 전에 자금을 인출하기 위한 시한이 {DATE}까지입니다. 다음 단계를 보려면 웹 인터페이스를 방문하십시오. 오류가 있다고 생각되면 {HELP_LINK}(으)로 지원팀에 문의하세요.",
       "PERMANENTLY_BLOCKED_TITLE": "영구 정지됨",
-      "PERMANENTLY_BLOCKED_BODY": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK} 지원에 문의하십시오."
+      "PERMANENTLY_BLOCKED_BODY": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK}(으)로 지원팀에 문의하세요."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "계정이 제한되었습니다",
       "COMPLIANCE_REQUIRED": "규정을 준수해야 합니다",
       "RESTRICTIONS_REMOVED": "제한이 해제되었습니다",
-      "RESTRICTIONS_COUNTRY_DESC": "거주 중인 국가와 거래 위치를 보고하시기 바랍니다. 추후에 변경이 불가능합니다.",
+      "RESTRICTIONS_COUNTRY_DESC": "거주 중인 국가와 거래 위치를 보고하시기 바랍니다. 추후 변경이 불가능합니다.",
       "RESTRICTIONS_REMOVED_MESSAGE": "변경 사항이 적용될 때까지 최대 5분까지 소요될 수 있습니다."
     },
     "LEAGUES": {
@@ -328,7 +328,7 @@
       "PROMOTION": "프로모션"
     },
     "CAMERA": {
-      "ENABLE_CAMERA": "카메라 액세스 활성화",
+      "ENABLE_CAMERA": "계속",
       "ALLOW_ACCESS": "카메라 액세스 허용",
       "ENABLE_CAMERA_TO_SCAN": "QR 코드 스캔을 위한 카메라 액세스 활성화"
     },
@@ -359,29 +359,29 @@
     "FIAT_ONRAMP": {
       "NEW": "신규!",
       "SUPPORT_FROM_PROVIDER": "{PROVIDER} 지원",
-      "SUPPORT_MESSAGE": "명목화폐 입금이 필요하십니까? 이메일의 주문 상태를 확인하거나 {PROVIDER}지원 팀에 문의하십시오."
+      "SUPPORT_MESSAGE": "명목화폐 입금이 필요하십니까? 이메일의 주문 상태를 확인하거나 {PROVIDER} 지원팀에 문의하세요."
     },
     "V4": {
       "ALERTS_PLACHOLDER": "거래 및 프로토콜 알림이 여기에 표시됩니다.",
       "INDEXER_ALERT": "인덱서 경고",
       "INDEXER_DOWN": "인덱서는 현재 블록 높이를 얻을 수 없습니다.",
-      "INDEXER_HALTED": "인덱서가 {HALTED_BLOCK}블록에서 중지되었습니다.",
+      "INDEXER_HALTED": "인덱서가 {HALTED_BLOCK} 블록에서 중지되었습니다.",
       "INDEXER_TRAILING": "인덱서가 {TRAILING_BLOCKS}개의 블록만큼 검증기를 추적하고 있으며, 상당한 지연이 예상됩니다.",
       "VALIDATOR_ALERT": "인덱서 경고",
       "VALIDATOR_DOWN": "현재 블록 높이를 얻을 수 없습니다.",
       "VALIDATOR_HALTED": "검증기가 {HALTED_BLOCK}블록에 대해 중단되었습니다.",
       "TRADING_NETWORK": "거래 네트워크",
       "SWITCH_NETWORK": "거래 네트워크 전환",
-      "CALCULATING": "계산 중 ...",
+      "CALCULATING": "계산 중...",
       "NO_HASH": "트랜잭션 해시를 얻을 수 없습니다.",
       "NO_GAS_TITLE": "가스 요금을 충당하기 위한 지갑 잔고 부족",
-      "NO_GAS_BODY": "지갑을 다시 채우기 위해 먼저 dYdX 계정에 소액을 입금하십시오.",
+      "NO_GAS_BODY": "지갑을 다시 채우기 위해 먼저 dYdX 계정에 소액을 입금하세요.",
       "THEME": "테마",
       "NOTIFICATIONS": "알림",
       "DISPLAY_IN_APP_NOTIFICATIONS": "앱 내 알림 표시",
       "DIRECTION_COLOR_PREFERENCE": "색상 설정",
       "DARK": "어두운",
-      "CLASSIC_DARK": "최대로 어두운",
+      "CLASSIC_DARK": "최대로 어둡게",
       "LIGHT": "밝은",
       "SYSTEM": "시스템",
       "GREEN_IS_UP": "녹색 강화",
@@ -397,20 +397,20 @@
       "NETWORK_RECOVERED": "네트워크가 복구되었으며 정상적으로 실행 중입니다."
     },
     "V4_DEPOSIT": {
-      "CHECK_STATUS_TITLE": "입금 상태 확인 ...",
-      "CHECK_STATUS_TEXT": "기다려 주십시오",
+      "CHECK_STATUS_TITLE": "입금 상태 확인 중...",
+      "CHECK_STATUS_TEXT": "기다려 주세요",
       "IN_PROGRESS_TITLE": "입금 처리 중",
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}입금이 확인되었습니다. 이 작업은 몇 분 정도 소요될 수 있습니다.",
       "COMPLETED_TITLE": "입금 완료",
       "COMPLETED_TEXT": "입금이 확인되었습니다. 이제 귀하의 자금은 dYdX에서 바로 거래에 사용할 수 있습니다. 이제 시작하세요!",
       "COMPLETED_TEXT_SHORT": "입금이 완료되었습니다.",
-      "MOBILE_WALLET_REQUIRED": "모바일 지갑을 입금에 연결하십시오."
+      "MOBILE_WALLET_REQUIRED": "모바일 지갑을 입금에 연결하세요."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "출금 상태 확인 중...",
-      "CHECK_STATUS_TEXT": "기다려 주십시오",
+      "CHECK_STATUS_TEXT": "기다려 주세요",
       "IN_PROGRESS_TITLE": "출금 진행 중",
-      "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT}출금이 확인되었습니다. 이 작업은 몇 분 정도 소요될 수 있습니다.",
+      "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT} 출금이 확인되었습니다. 이 작업은 몇 분 정도 소요될 수 있습니다.",
       "COMPLETED_TITLE": "출금 완료",
       "COMPLETED_TEXT": "출금이 완료되었습니다."
     },
@@ -422,14 +422,14 @@
       "SETTINGS_TITLE": "문제 보고서",
       "LOADING_TITLE": "로그 파일 로드 중...",
       "LOADING_COMPLETED_TITLE": "로그 파일이 생성됨",
-      "LOADING_ERROR_TITLE": "로그 파일을 만들지 못했습니다",
+      "LOADING_ERROR_TITLE": "로그 파일 생성 실패",
       "EMAIL_SUBJECT": "문제 보고서",
-      "EMAIL_BODY": "직면한 문제를 설명해 주십시오.",
+      "EMAIL_BODY": "직면한 문제를 설명해 주세요.",
       "CHOOSER_TITLE": "앱 로그 보내기"
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "예측 시장",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "미국 선거에 대한 예측 시장에서 거래하기",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "미국 선거에 대한 예측 시장에서 거래",
       "WITH_PREDICTION_MARKETS": "예측 시장",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "예측 시장은 이벤트가 예측대로 발생하면 $1로 정산됩니다. 그렇지 않으면 $0으로 정산됩니다.",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"이벤트 결과를 활용하여 거래하기",
@@ -451,10 +451,10 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "발동 가격이 청산 가격에 너무 가깝습니다. 해당 주문은 완전히 실현되기 전에 청산될 수 있습니다. {TRIGGER_PRICE_LIMIT} 미만의 발동 가격을 입력하거나 스탑 리밋 주문을 사용하십시오.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "발동 가격이 청산 가격에 너무 가깝습니다. 해당 주문은 완전히 실현되기 전에 청산될 수 있습니다. {TRIGGER_PRICE_LIMIT} 미만의 발동 가격을 입력하거나 스톱 리밋 주문을 사용하세요.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "{SYMBOL}에서만 포지션을 종료하거나 줄일 수 있습니다.",
-      "GEO_LOCATION_RESTRICTED": "무기한은 미국 또는 제한 지역에 거주하거나 위치하거나 설립되었거나 등록 대리인을 두고 있는 사람 또는 회사에 제공되지 않습니다. 자세한 내용은 당사 이용약관에서 확인할 수 있습니다",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "발동 가격이 청산 가격에 너무 가깝습니다. 해당 주문은 완전히 실현되기 전에 청산될 수 있습니다. {TRIGGER_PRICE_LIMIT}을(를) 초과하는 발동 가격을 입력하거나 스탑 리밋 주문을 사용하십시오.",
+      "GEO_LOCATION_RESTRICTED": "무기한은 미국 또는 제한 지역에 거주하거나 위치하거나 설립되었거나 등록 대리인을 두고 있는 사람 또는 회사에 제공되지 않습니다. 자세한 내용은 당사 이용 약관에서 확인할 수 있습니다.",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "발동 가격이 청산 가격에 너무 가깝습니다. 해당 주문은 완전히 실현되기 전에 청산될 수 있습니다. {TRIGGER_PRICE_LIMIT}을(를) 초과하는 발동 가격을 입력하거나 스톱 리밋 주문을 사용하세요.",
       "CONNECT_WALLET_TO_TRADE": "지갑을 연결하여 거래하십시오.",
       "DEPOSIT_TO_TRADE": "거래를 위해 입금합니다."
     }
