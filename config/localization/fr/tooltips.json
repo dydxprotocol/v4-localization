@@ -7,11 +7,11 @@
       "BODY": "Votre adresse dYdX Chain {DYDX_ADDRESS}\"\" a été créée à partir de la signature de l'adresse Solana {SOLANA_ADDRESS}\"\"."
     },
     "LEGACY_SIGNING": {
-      "TITLE": "Legacy Signing",
+      "TITLE": "Règlement de succession",
       "BODY": "Ne cochez cette option que si vous avez déjà utilisé la signature de portefeuille matériel \/ la signature héritée pour générer vos clés."
     },
     "REMEMBER_ME": {
-      "TITLE": "Remember Me",
+      "TITLE": "Se souvenir de moi",
       "BODY": "N'utilisez « Se rappeler de moi » que si vous utilisez un appareil sécurisé qui vous appartient. La sélection de cette option peut exposer vos clés et vos informations à d'autres si vous êtes sur un appareil public ou non sécurisé."
     }
   },
@@ -24,7 +24,7 @@
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Réduction des hedgies",
-      "BODY": "La détention d'un  {NFT}augmente d'une unité votre niveau de réduction des frais. En détenir plusieurs n'aura aucun effet supplémentaire."
+      "BODY": "La détention d'un {NFT} augmente d'une unité votre niveau de réduction des frais. En détenir plusieurs n'aura aucun effet supplémentaire."
     }
   },
   "TRADE": {
@@ -74,15 +74,15 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Prix attendu",
-      "BODY": "Prix d'exécution prévu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre commande ne soit traitée par le réseau."
+      "BODY": "Prix d'exécution attendu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre commande ne soit traitée par le réseau."
     },
     "FEE": {
-      "TITLE": "frais de trading ",
+      "TITLE": "Frais de trading ",
       "BODY": "Les frais de trading sont facturés par le réseau sur la base d'un pourcentage de votre volume de trading. Les frais de trading s'accumulent aux validateurs et aux stakers dYdX. Il n'y a pas de frais de Gaz à trade sur dYdX."
     },
     "FILL_OR_KILL": {
       "TITLE": "Exécution ou Suppression",
-      "BODY": "Les ordres d'exécution ou de suppression doivent être complètement réalisés lors de l'exécution ou ils seront automatiquement annulés."
+      "BODY": "Les ordres Fill or kill doivent être complètement remplis lors de l'exécution ou ils seront automatiquement annulés."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Garantie disponible",
@@ -122,7 +122,7 @@
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Prix à cours limité",
-      "BODY": "En identifiant un prix limite, vous placez un ordre limite de prise de bénéfice et\/ou un ordre limite d'arrêt. Cliquez ici {DOCUMENTATION_LINK}pour plus de détails."
+      "BODY": "En identifiant un prix limite, vous placez un ordre limite de prise de bénéfice et\/ou un ordre de limite d'arrêt. Cliquez ici {DOCUMENTATION_LINK}pour plus de détails."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -134,7 +134,7 @@
     },
     "LIQUIDATION_PRICE_SHORT": {
       "TITLE": "Prix de liquidation",
-      "BODY": "Si le prix oracle {SYMBOL}augmente au-dessus du prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+      "BODY": "Si le prix oracle de {SYMBOL} augmente au-dessus du prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Prix de liquidation",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Prix de liquidation",
-      "BODY": "Si le prix de l'oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
+      "BODY": "Si le prix oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (peut être plus élevé en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidité",
@@ -185,7 +185,7 @@
       "BODY": "L'intérêt ouvert représente la taille totale de toutes les positions ouvertes sur ce marché."
     },
     "ORACLE_PRICE": {
-      "TITLE": "Prix Oracle",
+      "TITLE": "Prix d'oracle",
       "BODY": "L'effet de levier et les liquidations sont déterminés en fonction du prix oracle sur chaîne. Le prix oracle regroupe les données de prix de plusieurs échanges, vous protégeant des événements tels que les crashs éclair. "
     },
     "ORDER_AMOUNT": {
@@ -194,7 +194,7 @@
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Montant de l'ordre",
-      "BODY": "Montant de  {SYMBOL}à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
+      "BODY": "Montant de {SYMBOL} à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "L'arrêt de la perte est une clôture partielle",
@@ -226,11 +226,11 @@
     },
     "PRICE_IMPACT": {
       "TITLE": "Impact sur le prix",
-      "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Cela augmentera pour les tailles de trades plus importantes."
+      "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Cela augmentera pour les tailles de transactions plus importantes."
     },
     "REALIZED_PNL": {
-      "TITLE": "Perte \/ Bénéfice réalisé",
-      "BODY": "Perte \/ Bénéfice total réalisé pour cette position par le biais de clôtures partielles, de frais et de financement. Réinitialise si vous fermez complètement votre position ou changez de côté de position (long à court, ou vice versa)."
+      "TITLE": "Bénéfice \/ Perte réalisé",
+      "BODY": "Bénéfice \/ perte total réalisé pour cette position par le biais de clôtures partielles, de frais et de financement. Réinitialise si vous fermez complètement votre position ou changez de côté de position (long à court, ou vice versa)."
     },
     "REDUCE_ONLY": {
       "TITLE": "Reduce-Only",
@@ -327,7 +327,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Dépôts de frais les plus bas",
-      "BODY": "Les dépôts USDC sur  {LOWEST_FEE_TOKEN_NAMES}ont les frais les plus bas."
+      "BODY": "Les dépôts USDC sur {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Montant du dépôt minimum",
