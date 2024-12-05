@@ -213,7 +213,7 @@
       "CANNOT_PLACE_TRADE": "No se puede colocar operación",
       "CLOSED_STATUS": "Cerrado",
       "ENTER_AMOUNT_TO_TRADE": "Ingresa el monto de la operación",
-      "ENTER_STOP_PRICE": "Ingresa el precio de stop",
+      "ENTER_STOP_PRICE": "Ingresa el precio de detención",
       "LIQUIDATION": "Liquidación",
       "LUNA_IMF_TITLE": "Margen ajustado para LUNA-USD",
       "LUNA_IMF_TEXT": "Hemos aumentado temporalmente los requisitos de margen inicial en LUNA-USD al 100 % debido a la volatilidad. El margen de mantenimiento sigue siendo 5 %.",
@@ -328,7 +328,7 @@
       "PROMOTION": "Promoción"
     },
     "CAMERA": {
-      "ENABLE_CAMERA": "Habilitar acceso a la cámara",
+      "ENABLE_CAMERA": "Continuar",
       "ALLOW_ACCESS": "Permitir acceso a la cámara",
       "ENABLE_CAMERA_TO_SCAN": "Habilitar acceso a la cámara para escanear código QR"
     },
@@ -371,7 +371,7 @@
       "VALIDATOR_DOWN": "No se puede obtener la altura del bloque actual.",
       "VALIDATOR_HALTED": "El validador se ha detenido en el {HALTED_BLOCK} bloque.",
       "TRADING_NETWORK": "Red de trading",
-      "SWITCH_NETWORK": "Cambiar de red de trading",
+      "SWITCH_NETWORK": "Cambiar de red de operaciones",
       "CALCULATING": "Calculando...",
       "NO_HASH": "No se pudo obtener el hash de la transacción.",
       "NO_GAS_TITLE": "El balance de la billetera es insuficiente para cubrir la tarifa de gas",

@@ -1,14 +1,14 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS_FROM_ETHEREUM": {
-      "BODY": "您的 dYdX 地址“{DYDX_ADDRESS}”根据以太坊地址“{EVM_ADDRESS}”的签名创建。"
+      "BODY": "您的 dYdX 链地址“{DYDX_ADDRESS}”根据以太坊地址“{EVM_ADDRESS}”的签名创建。"
     },
     "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "您的 dYdX 链地址“{DYDX_ADDRESS}”是根据 Solana 地址“{SOLANA_ADDRESS}”的签名创建。"
+      "BODY": "您的 dYdX 链地址“{DYDX_ADDRESS}”根据 Solana 地址“{SOLANA_ADDRESS}”的签名创建。"
     },
     "LEGACY_SIGNING": {
-      "TITLE": "传统签名",
-      "BODY": "仅当您之前使用硬件钱包签名\/传统签名生成过密钥，才勾选此选项。"
+      "TITLE": "旧版签名",
+      "BODY": "仅当您之前使用硬件钱包签名\/旧版签名生成过密钥，才勾选此选项。"
     },
     "REMEMBER_ME": {
       "TITLE": "记住我",
@@ -34,7 +34,7 @@
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "可用余额",
-      "BODY": "可从交叉保证金账户交易或提取的抵押品金额。"
+      "BODY": "可从您的交叉保证金账户交易或提取的抵押品金额。"
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "基准头寸名义价值",
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "交叉自由抵押品",
-      "BODY": "可从交叉保证金账户交易或提取的抵押品金额。"
+      "BODY": "可从您的交叉保证金账户交易或提取的抵押品金额。"
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "交叉保证金使用",
@@ -78,11 +78,11 @@
     },
     "FEE": {
       "TITLE": "交易费用",
-      "BODY": "交易费用由网络根据交易量的百分比收取。交易费用将分配给验证人和DYDX质押人。在 dYdX 上交易不会产生 gas 费。"
+      "BODY": "交易费用由网络根据交易量的百分比收取。交易费用将分配给验证人和 DYDX 质押人。在 dYdX 上交易不会产生 gas 费。"
     },
     "FILL_OR_KILL": {
       "TITLE": "全部成交否则取消指令",
-      "BODY": "在执行时，“全部成交否则取消指令订单”必须全部成交，否则它们将被自动取消。"
+      "BODY": "全部成交否则取消订单（Fill or kill orders）必须在执行时全部成交，否则将被自动取消。"
     },
     "FREE_COLLATERAL": {
       "TITLE": "可用质押品",
@@ -90,7 +90,7 @@
     },
     "GOOD_TIL": {
       "TITLE": "有效至",
-      "BODY": "您的订单到期之前的时间。"
+      "BODY": "距您的订单到期时间。"
     },
     "IMMEDIATE_OR_CANCEL": {
       "TITLE": "立即否则取消",
@@ -102,7 +102,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "初始杠杆分数",
-      "BODY": "初始杠杆分数定义了交易者在输入头寸时最初可以使用的杠杆金额。 IMF 按交易者头寸名义价值除以账户净值计算。 如果交易者的杠杆分数超过初始杠杆分数，将不能再增加头寸。"
+      "BODY": "初始杠杆分数定义了交易者在输入头寸时最初可以使用的杠杆金额。 IMF 按交易者头寸名义价值除以账户净值计算。 如果交易者的杠杆分数超过初始杠杆分数，则交易者将不能再被允许增加头寸。"
     },
     "INITIAL_STOP": {
       "TITLE": "初始止损",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "清算价格",
-      "BODY": "如果头寸市场预言机价格超过清算价格，您的头寸会被强制平仓。清算后，您的头寸将被自动平仓，并按至少1%来对清算费用进行估价（可能会更高，具体取决于清算时的流动性）。"
+      "BODY": "如果头寸市场预言机价格超过清算价格，您的头寸会被强制平仓。清算后，您的头寸将被自动平仓，并按至少 1% 来对清算费用进行估价（可能会更高，具体取决于清算时的流动性）。"
     },
     "LIQUIDITY": {
       "TITLE": "挂单\/吃单",
@@ -186,7 +186,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "预言机价格",
-      "BODY": "杠杆和清算根据链上预言机价格确定。预报价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
+      "BODY": "杠杆和清算根据链上预言机价格确定。预言机价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
     },
     "ORDER_AMOUNT": {
       "TITLE": "订单金额",
@@ -282,7 +282,7 @@
     },
     "TICK_SIZE": {
       "TITLE": "最小报价数量",
-      "BODY": "最小报价数量是此市场上的最小价格变动。"
+      "BODY": "最小报价单位是此市场上的最小价格变动。"
     },
     "TIME_IN_FORCE": {
       "TITLE": "有效时间",
@@ -307,7 +307,7 @@
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
       "TITLE": "可用",
-      "BODY": "您符合条件！至少存款{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}才能启用无gas存款。"
+      "BODY": "您符合条件！至少充值{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}才能启用无 gas 存款。"
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "桥接费用",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "快速提现费",
-      "BODY": "快速提现会立即发送，dYdX将覆盖gas成本以替换交易费用。如果要免费提现，请使用正常提现（您自行承担gas成本，并且必须等待Layer 2确认）。"
+      "BODY": "快速提现会立即发送，dYdX将覆盖gas成本以替换交易费用。如果要免费提现，请使用正常提现（您自行承担 gas 成本，并且必须等待 Layer 2 确认）。"
     },
     "GAS_FEES": {
       "TITLE": "Gas 费",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "提现类型",
-      "BODY": "dYdX支持两种从Layer 2提现的类型。快速提现会产生小额费用，但不需要gas，并会立即发送提现请求。正常提现是免费的，但有两个条件，耗时更长，并且用户必须自行承担 gas 费用。"
+      "BODY": "dYdX 支持两种从 Layer 2 提现的类型。快速提现会产生小额费用，但不需要 gas，并会立即发送提现请求。正常提现是免费的，但有两个条件，耗时更长，并且用户必须自行承担 gas 费用。"
     }
   },
   "STAKE": {

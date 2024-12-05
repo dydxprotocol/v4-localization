@@ -2,7 +2,7 @@
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
       "TITLE": "Recompensa ganada",
-      "BODY": "Has ganado una recompensa de {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading."
+      "BODY": "Has ganado una recompensa por {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} operaciones."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "¡Experiencia de orden condicional actualizada!",
@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "¡Gana hasta $200 en 30 minutos!",
-      "BODY": "Haz que tu viaje de trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK} para registrarte u obtener más información!"
+      "BODY": "Haz que tu viaje de operaciones sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK} para registrarte u obtener más información!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posición establecida",
@@ -41,7 +41,7 @@
       "BODY": "¡El margen aislado ahora está activo! Para obtener más información, dirígete a {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "¡Se han distribuido las recompensas de lanzamiento de la temporada {SEASON_NUMBER}!",
+      "TITLE": "¡Se han distribuido {SEASON_NUMBER} las recompensas de lanzamiento de la temporada!",
       "BODY": "Recompensas de la temporada {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
@@ -58,11 +58,11 @@
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Orden activada",
-      "BODY": "Tu orden a {SIDE} {AMOUNT} {MARKET} se ha activado."
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se ha activado."
     },
     "ORDER_CANCEL": {
       "TITLE": "Orden cancelada",
-      "BODY": "Tu orden a {SIDE} {AMOUNT} {MARKET} ha sido cancelada."
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} ha sido cancelada."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Orden cancelada que se completó parcialmente",
@@ -89,8 +89,8 @@
       "BODY": "SOL-USD y todos los mercados aislados ahora están disponibles para operar con un apalancamiento de hasta 20 veces."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "¡Las recompensas y el trading están disponibles en la cadena dYdX!",
-      "BODY": "¡El trading completo está disponible en la cadena dYdX! Esto incluye recompensas de participación, recompensas de trading y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
+      "TITLE": "¡Las recompensas y las operaciones están disponibles en la cadena dYdX!",
+      "BODY": "¡Las operaciones completas están disponibles en la cadena dYdX! Esto incluye recompensas de participación, recompensas de operación y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retiro lento pendiente",
@@ -118,22 +118,22 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Tomar ganancias",
-      "BODY": "No se pudo crear tu activación de take profit en {NEW_VALUE}."
+      "BODY": "No se pudo crear tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se creó tu activación de take profit en {NEW_VALUE}."
+      "BODY": "Se creó tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Stop Loss",
       "BODY": "Se actualizó tu activación de stop loss en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "Stop Loss",
-      "BODY": "No se pudo reemplazar tu activación de stop loss en {OLD_VALUE}."
+      "TITLE": "Detener pérdidas",
+      "BODY": "No se pudo reemplazar tu activación de detener pérdidas en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "La activación de tu stop loss ahora será en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
@@ -149,15 +149,15 @@
       "BODY": "Tu activación de take profit ahora será en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
-      "TITLE": "Stop Loss",
-      "BODY": "Se está eliminando tu activación de take profit en {OLD_VALUE}."
+      "TITLE": "Detener pérdidas",
+      "BODY": "Se está eliminando tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "Stop Loss",
-      "BODY": "No se pudo cancelar tu activación de stop loss en {OLD_VALUE}."
+      "TITLE": "Detener pérdidas",
+      "BODY": "No se pudo cancelar tu activación de detener pérdidas en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "Se eliminó tu activación de stop loss en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
@@ -166,7 +166,7 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Tomar ganancias",
-      "BODY": "No se pudo cancelar tu activación de take profit en {OLD_VALUE}."
+      "BODY": "No se pudo cancelar tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Tomar ganancias",

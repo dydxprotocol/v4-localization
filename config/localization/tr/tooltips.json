@@ -7,7 +7,7 @@
       "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
-      "TITLE": "Eski imza",
+      "TITLE": "Eski İmza",
       "BODY": "Bu seçeneği yalnızca anahtarlarınızı oluşturmak için donanım cüzdan imzası\/eski imza kullandıysanız işaretleyin."
     },
     "REMEMBER_ME": {
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Çapraz Serbest Teminat",
-      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekim işleminde kullanılabilen teminat miktarı."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Çapraz Marjin Kullanımı",
@@ -132,9 +132,17 @@
       "TITLE": "Tasfiye Fiyatı",
       "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Tasfiye Fiyatı",
+      "BODY": "{SYMBOL} oracle fiyatı, tasfiye fiyatının üzerine çıkarsa, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Tasfiye Fiyatı",
+      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+    },
     "LIQUIDATION_PRICE_GENERAL": {
-      "TITLE": "Likiditasyon Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı likiditasyon fiyatını aşarsa pozisyonunuz likidite edilecektir. Likiditasyondan sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir likiditasyon ücreti belirlenecektir (likiditasyon esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "TITLE": "Tasfiye Fiyatı",
+      "BODY": "Pozisyon piyasasının oracle fiyatı likiditasyon fiyatını aşarsa pozisyonunuz likidite edilecektir. Tasfiyeden sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
@@ -186,11 +194,11 @@
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Talimat Miktarı",
-      "BODY": "Satılacak veya satın alınacak {SYMBOL}USD cinsinden miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
+      "BODY": "USD cinsinden satılacak veya satın alınacak {SYMBOL} miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
-      "TITLE": "Kayıp Durdurma Emri, Kısmi bir Kapama",
-      "BODY": "Kayıp durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+      "TITLE": "Zarar Durdurma Emri, Kısmi bir Kapamadır",
+      "BODY": "Zarar durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
       "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
@@ -206,7 +214,7 @@
     },
     "POSITION_LEVERAGE": {
       "TITLE": "Pozisyon Kaldıracı",
-      "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
+      "BODY": "Kaldıraç, kazançlarınızın veya kayıplarınızın katsayısını değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
@@ -226,7 +234,7 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt özelliği emrin pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
+      "BODY": "Sadece Azalt özelliği emrin pozisyon tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Yalnızca Azalt",
@@ -249,16 +257,16 @@
       "BODY": "Adım boyutu, bu piyasadaki talimat miktarları için izin verilen en küçük faktördür."
     },
     "STOP_LOSS": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "Oracle fiyatı tetikleme fiyatını aştığında yatırımcının pozisyonunu kapatarak kayıplara karşı koruma sağlar."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
-      "TITLE": "Tasfiye Fiyatının Üzerinde Kayıp Durdurma",
-      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının üzerine çıktı. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+      "TITLE": "Tasfiye Fiyatının Üzerinde Zarar Durdurma",
+      "BODY": "Zarar durdurma fiyatı, tasfiye fiyatının üzerine çıktı. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
-      "TITLE": "Kayıp Durdurma Tasfiye Fiyatının Altında",
-      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının altına düştü. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+      "TITLE": "Zarar Durdurma, Tasfiye Fiyatının Altında",
+      "BODY": "Zarar durdurma fiyatı, tasfiye fiyatının altına düştü. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
@@ -274,7 +282,7 @@
     },
     "TICK_SIZE": {
       "TITLE": "Minimum Fiyat Büyüklüğü",
-      "BODY": "Tick boyutu, bu piyasadaki minimum fiyat hareketidir."
+      "BODY": "Puan boyutu, bu piyasadaki minimum fiyat hareketidir."
     },
     "TIME_IN_FORCE": {
       "TITLE": "Yürürlükteki Süre",
@@ -286,7 +294,7 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Tetikleme Fiyatı",
-      "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
+      "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızı aştığında, durdurma\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Gerçekleşmemiş Kar \/ Zarar",
@@ -314,7 +322,7 @@
       "BODY": "Gaz ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Gas'sız yatırma işlemleri",
+      "TITLE": "Gassız yatırma işlemleri",
       "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
     },
     "LOWEST_FEE_DEPOSITS": {
@@ -380,7 +388,7 @@
   },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
-      "TITLE": "E-posta adresini doğrulayın",
+      "TITLE": "E-posta adresini doğrula",
       "BODY": "Lütfen size gönderdiğimiz e-postadaki bağlantıyı tıklayın; bu, e-posta adresinin sahibi olduğunuzu doğrulamakta bize yardımcı olacaktır."
     }
   },
@@ -420,6 +428,9 @@
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
+    },
+    "VAULT_APR": {
+      "BODY": "Vault APR, geçmiş ayın yıllıklandırılan verimdir. Kasa geri dönüşleri KZ ve protokol gelir paylaşımına bağlıdır.  Bu APR garanti edilmemektedir."
     }
   }
 }

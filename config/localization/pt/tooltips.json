@@ -78,7 +78,7 @@
     },
     "FEE": {
       "TITLE": "Taxa de trading",
-      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de gás para fazer trades na dYdX."
+      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de \"gas\" para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
       "TITLE": "Preencher ou encerrar",
@@ -102,7 +102,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
-      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor nocional de posição de um trader dividido por capital. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição. "
+      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor nocional de posição de um trader dividido por capital. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop inicial",
@@ -114,7 +114,7 @@
     },
     "LIMIT_CLOSE": {
       "TITLE": "Fechamento limite",
-      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar sua posição."
+      "BODY": "Um fechamento limite pode não acontecer instantaneamente e só será preenchido quando o preço inserido for atingido. Monitore a guia Ordens para verificar seu status."
     },
     "LIMIT_PRICE": {
       "TITLE": "Preço limite",
@@ -230,7 +230,7 @@
     },
     "REALIZED_PNL": {
       "TITLE": "Lucro\/perda realizados",
-      "BODY": "Lucro\/perda totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
+      "BODY": "Lucro \/ perda totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
     },
     "REDUCE_ONLY": {
       "TITLE": "Somente reduzir",
@@ -266,7 +266,7 @@
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
       "TITLE": "Stop Loss abaixo do preço de liquidação",
-      "BODY": "O preço stop-loss caiu abaixo do preço de liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
+      "BODY": "O preço stop-loss caiu abaixo do preço de liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas exigências das margens"
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de Taker",
@@ -315,15 +315,15 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Não disponível",
-      "BODY": "Depósitos sem cobrança de tarifas estão temporariamente indisponíveis. Eles voltarão em breve!"
+      "BODY": "Depósitos sem \"gas\" estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Taxas de \"gas\"",
       "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso {SOURCE_CHAIN}."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Depósitos sem taxas",
-      "BODY": "A dYdX cobrirá suas taxas de gás se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem cobrança de tarifa a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
+      "TITLE": "Depósitos sem \"gas\"",
+      "BODY": "A dYdX cobrirá suas taxas de \"gas\" se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem \"gas\" a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Depósitos de taxa mais baixa",
@@ -341,11 +341,11 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
-      "BODY": "Esse é o custo de gás das transações de depósito e de definição da allowance, pago a mineiros da Ethereum. Você só tem que definir a allowance uma vez por ativo que você depositar."
+      "BODY": "Esse é o custo de \"gas\" das transações de depósito e de definição da allowance, pago a mineiros da Ethereum. Você só tem que definir a allowance uma vez por ativo que você depositar."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
-      "BODY": "Este é o custo de gás da transação de depósito, pago a mineiros da Ethereum."
+      "BODY": "Este é o custo de \"gas\" da transação de depósito, pago a mineiros da Ethereum."
     }
   },
   "TRIGGER_ORDERS": {
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Taxa de saque rápido",
-      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobre os custos de “gás” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Layer 2)."
+      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobre os custos de “gas” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Layer 2)."
     },
     "GAS_FEES": {
       "TITLE": "Taxas de \"gas\"",

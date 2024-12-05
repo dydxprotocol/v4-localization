@@ -6,7 +6,7 @@
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "条件付き注文体験を更新しました！",
-      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ これまで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細を確認する {TWITTER_LINK}。"
+      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ これまで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細はこちらをご覧ください {TWITTER_LINK}。"
     },
     "DELEVERAGED": {
       "TITLE": "レバレッジを解消されたポジション",
@@ -30,15 +30,15 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "シーズン{SEASON_NUMBER}が始まりました！",
-      "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（～{USDC_AMOUNT}USDC）でした！"
+      "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}DYDX（約{USDC_AMOUNT}USDC）でした！"
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "シーズン{SEASON_NUMBER}が終了しました！",
       "BODY": "ローンチインセンティブプログラムにご参加いただきありがとうございます。今後の報酬プログラムに関する最新情報をお見逃しなく！"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "分離されたマージンはライブです",
-      "BODY": "分離されたマージンがライブになりました！ 詳しくは、ヘッド{LEARN_MORE}。"
+      "TITLE": "分離マージンが利用可能です",
+      "BODY": "分離されたマージンがライブになりました！ 詳しくは{LEARN_MORE}をご覧ください。"
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "シーズン{SEASON_NUMBER}ローンチ報酬が配布されました！",
@@ -73,7 +73,7 @@
       "BODY": "{MARKET}の{SIDE}ポジションは清算されました。"
     },
     "POSITION_CLOSED": {
-      "TITLE": "ポジション クローズ",
+      "TITLE": "ポジションがクローズされました",
       "BODY": "{MARKET}のポジションはクローズされました。"
     },
     "DEPOSIT_SUCCESS": {
@@ -89,8 +89,8 @@
       "BODY": "SOL-USDおよびすべての分離されたマーケットは、最大20倍のレバレッジで取引できるようになりました。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "報酬と取引はdYdXチェーン上でライブ！",
-      "BODY": "完全な取引はdYdXチェーン上でライブ！これには、株式報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。{DOS_BLOGPOST}と{TRADING_BLOGPOST}（第三者のリンク）の詳細をご覧ください。"
+      "TITLE": "報酬と取引がdYdXチェーン上で利用可能になりました！",
+      "BODY": "dYdXチェーン上で完全な取引が利用可能です！これには、株式報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。{DOS_BLOGPOST}と{TRADING_BLOGPOST}（第三者のリンク）の詳細をご覧ください。"
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "通常出金は保留中です",
@@ -118,11 +118,11 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "利益を確定する",
-      "BODY": "利益確定のトリガーを {NEW_VALUE} で作成できませんでした。"
+      "BODY": "利益確定のトリガーを{NEW_VALUE}で作成できませんでした。"
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "利益を確定する",
-      "BODY": "利益確定のトリガーを {NEW_VALUE} で作成しました。"
+      "BODY": "利益確定のトリガーを{NEW_VALUE}で作成しました。"
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "ストップロス",
@@ -130,7 +130,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
       "TITLE": "ストップロス",
-      "BODY": "ストップロスのトリガーを {OLD_VALUE} に置き換えることができませんでした。"
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーは置き換えできませんでした。"
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "ストップロス",
@@ -174,7 +174,7 @@
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "もっとサポートが必要ですか？",
-      "BODY": "dYdXの大口トレーダーでいてくれてありがとう！ チームは、より高いレベルのパーソナライズされたサポートと、彼らと直接つながる機会を提供したいと考えています。",
+      "BODY": "dYdXの大口トレーダーの皆様、ありがとうございます！チームは、トレーダーの皆様に対して、より高いレベルのパーソナライズされたサポートと、直接つながる機会を提供したいと考えています。",
       "ACTION": "連絡する →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
@@ -183,23 +183,23 @@
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET}は終了しました",
-      "BODY": "{DATE}に{MARKET}マーケットは最終決済を行いました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "{DATE}に{MARKET}マーケットは最終決済を行いました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済に関する詳細は、{HERE_LINK}をご覧ください。"
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET}マーケットを縮小する進行中の提案",
-      "BODY": "現在、{MARKET}マーケットを縮小する提案が進行中です。パスした場合、{MARKET}マーケットは{DATE}に最終決済に入ります。既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "現在、{MARKET}マーケットを縮小する提案が進行中です。パスした場合、{MARKET}マーケットは{DATE}に最終決済に入ります。既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細は、{HERE_LINK}をご覧ください。"
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}および{MARKET_2}「マーケット」はダウンしました",
-      "BODY": "{DATE}に、{MARKET_1}および{MARKET_2}「マーケット」は最終決済を通過しました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "{DATE}に、{MARKET_1}および{MARKET_2}「マーケット」は最終決済を通過しました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済に関する詳細は、{HERE_LINK}をご覧ください。"
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1}と{MARKET_2}のマーケットを縮小する進行中の提案",
-      "BODY": "現在、{MARKET_1}と{MARKET_2}のマーケットを縮小する提案が進行中です。パスした場合、{MARKET_1}と{MARKET_2}のマーケットは{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "現在、{MARKET_1}と{MARKET_2}のマーケットを縮小する提案が進行中です。パスした場合、{MARKET_1}と{MARKET_2}のマーケットは{DATE}に最終決済に入ります。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細は、{HERE_LINK}をご覧ください。"
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET}のパラメータを更新する進行中の提案",
-      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案{HERE_LINK}に関する詳細情報を見つけることができます。"
+      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。可決された場合、{MARKET}市場は唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。提案に関する詳細は、{HERE_LINK}をご覧ください。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "米国大統領選挙で取引を!",
