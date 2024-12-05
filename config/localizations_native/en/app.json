@@ -160,6 +160,7 @@
       "SCAN_QR_CODE_ERROR": "Code not recognized",
       "SCAN_QR_CODE_SHORT": "Scan QR",
       "SELECT_WALLET": "Select wallet",
+      "SWITCH_TO_WALLET": "Please open your {WALLET} app to continue.",
       "SELECT_WALLET_TEXT": "We found the following options based on wallets which support dYdX.",
       "UNDERSTAND_RISKS_TITLE": "I understand the risks",
       "USERNAME_REQUIRED": "Username is required",
