@@ -192,7 +192,7 @@
     },
     "WITHDRAW_MODAL": {
       "ENTER_WITHDRAW_AMOUNT": "输入提现金额",
-      "WITHDRAW_DESCRIPTION": "您即将开始从下面显示的钱包发起资金的提取。这不需要签名。",
+      "WITHDRAW_DESCRIPTION": "如下所示，您即将开始向钱包提现。这不需要签名。",
       "WITHDRAW_ERROR": "提现错误",
       "WITHDRAW_IRREVERSIBLE": "提取 一旦发起将无法撤回。",
       "WITHDRAW_LIMIT": "提现限额",
@@ -206,7 +206,7 @@
       "BRACKET_ORDER": {
         "SET_TRIGGERS_BUTTON_TITLE": "设置触发价",
         "UPDATE_TRIGGERS_BUTTON_TITLE": "更新触发价",
-        "PARTIAL_COMPLETE_DESC": "您的包围单中的一个或多个订单已失败。请检查订单选项卡，以查看您的有效止盈和止损订单。",
+        "PARTIAL_COMPLETE_DESC": "您的一篮子订单中的一个或多个订单已失败。请检查订单选项卡，以查看您的有效止盈和止损订单。",
         "STOP_LOSS_DESCRIPTION": "防范下行风险",
         "TAKE_PROFIT_DESCRIPTION": "获取利润"
       },
