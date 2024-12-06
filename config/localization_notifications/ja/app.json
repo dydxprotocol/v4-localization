@@ -6,7 +6,7 @@
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "条件付き注文体験を更新しました！",
-      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ これまで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細はこちらをご覧ください {TWITTER_LINK}。"
+      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ これまで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細はこちらをご覧ください。 {TWITTER_LINK}"
     },
     "DELEVERAGED": {
       "TITLE": "レバレッジを解消されたポジション",
@@ -25,7 +25,7 @@
       "BODY": "FOK（Fill-or-Kill）注文は非推奨になりました。 その他の注文タイプはすべて引き続きご利用いただけます。"
     },
     "IN_APP_STAKING_LIVE": {
-      "TITLE": "dydxをステーキングできます！",
+      "TITLE": "DYDXをステーキングできます！",
       "BODY": "USDC報酬を受け取ります。"
     },
     "INCENTIVES_SEASON_BEGUN": {
@@ -65,7 +65,7 @@
       "BODY": "{MARKET}の{SIDE}{AMOUNT}の注文がキャンセルされました。"
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-      "TITLE": "部分的入力で注文をキャンセル",
+      "TITLE": "部分約定で注文はキャンセルされました",
       "BODY": "注文{SIDE}{AMOUNT}{MARKET}は部分{TOTAL_FILLED}的に入力されてキャンセルされました。"
     },
     "LIQUIDATION": {
@@ -78,7 +78,7 @@
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "入金に成功しました",
-      "BODY": "{ASSET}の{AMOUNT}の入金が承認されました。"
+      "BODY": "{AMOUNT}{ASSET}の入金が承認されました。"
     },
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "高速出金に成功しました",
@@ -106,7 +106,7 @@
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
       "TITLE": "ストップロス",
-      "BODY": "ストップロスのトリガーを {NEW_VALUE} で作成できませんでした。"
+      "BODY": "ストップロスのトリガーを{NEW_VALUE}で作成できませんでした。"
     },
     "STOP_LOSS_TRIGGER_CREATED": {
       "TITLE": "ストップロス",
@@ -126,7 +126,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "ストップロス",
-      "BODY": "ストップロスのトリガーを以下で更新しています： {NEW_VALUE}。"
+      "BODY": "ストップロスのトリガーは{NEW_VALUE}に更新されました。"
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
       "TITLE": "ストップロス",
@@ -138,11 +138,11 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "利益を確定する",
-      "BODY": "利益確定のトリガーを以下で更新しています： {NEW_VALUE}。"
+      "BODY": "利益確定のトリガーは{NEW_VALUE}に更新されました。"
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "利益を確定する",
-      "BODY": "利益確定のトリガーを {OLD_VALUE} に置き換えることができませんでした。"
+      "BODY": "{OLD_VALUE}での利益確定のトリガーを置き換えることができませんでした。"
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "利益を確定する",
@@ -154,15 +154,15 @@
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
       "TITLE": "ストップロス",
-      "BODY": "ストップロスの {OLD_VALUE} でのトリガーをキャンセルできませんでした。"
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーをキャンセルできませんでした。"
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "ストップロス",
-      "BODY": "ストップロスの {OLD_VALUE} でのトリガーが削除されました。"
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーが削除されました。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "利益を確定する",
-      "BODY": "利益確定の {OLD_VALUE} でのトリガーを削除しています。"
+      "BODY": "{OLD_VALUE}での利益確定のトリガーを削除しています。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "利益を確定する",
@@ -173,13 +173,13 @@
       "BODY": "利益確定の {OLD_VALUE} でのトリガーが削除されました。"
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "もっとサポートが必要ですか？",
+      "TITLE": "お困りですか？",
       "BODY": "dYdXの大口トレーダーの皆様、ありがとうございます！チームは、トレーダーの皆様に対して、より高いレベルのパーソナライズされたサポートと、直接つながる機会を提供したいと考えています。",
       "ACTION": "連絡する →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "2万ドルプレゼント",
-      "BODY": "dYdXは、累計取引高が200億ドルを突破したことを記念して、Twitterプレゼントキャンペーンを実施しています。2024年8月16日23:59 UTC{HERE_LINK}以降、ランダムな選定方法により100名の当選者が選ばれ、200ドルを獲得できるチャンスがあります。"
+      "BODY": "dYdXは、累計取引高が200億ドルを突破したことを記念して、200ドル獲得のチャンスがあるTwitterプレゼントキャンペーンを実施しています。2024年8月16日23:59 (協定世界時) の後、ランダムな選定方法により100名の当選者が選ばれます。{HERE_LINK}"
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET}は終了しました",
@@ -206,7 +206,7 @@
       "BODY": "{MARKET}は公開開始しました。この市場は、ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、1ドルで落ち着くでしょう。 そうでない場合は、$0.001で決済されます。"
     },
     "KEPLR_SUPPORT": {
-      "TITLE": "dYdXがKeplrに対応しました！",
+      "TITLE": "dYdXはKeplrに対応できるようになりました！",
       "BODY": "KeplrウォレットとdYdXを接続して使用できるようになりました！今すぐお試しください。"
     },
     "PHANTOM_SUPPORT": {
