@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "¡Gana hasta $200 en 30 minutos!",
-      "BODY": "Haz que tu viaje de operaciones sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK} para registrarte u obtener más información!"
+      "BODY": "Haz que tu viaje de trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK} para registrarte u obtener más información!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posición establecida",
@@ -46,7 +46,7 @@
     },
     "OFFSETTING": {
       "TITLE": "Compensación de posición",
-      "BODY": "Tu {SIDE} posición en {MARKET} se usó para compensar una posición desapalancada."
+      "BODY": "Tu posición de {SIDE} en {MARKET} se usó para compensar una posición desapalancada."
     },
     "ORDER_FILL": {
       "TITLE": "Orden completada",
@@ -70,7 +70,7 @@
     },
     "LIQUIDATION": {
       "TITLE": "Posición liquidada",
-      "BODY": "Tu {SIDE} posición en {MARKET} ha sido liquidada."
+      "BODY": "Tu posición de {SIDE} en {MARKET} ha sido liquidada."
     },
     "POSITION_CLOSED": {
       "TITLE": "Posición cerrada",
@@ -90,7 +90,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "¡Las recompensas y las operaciones están disponibles en la cadena dYdX!",
-      "BODY": "¡Las operaciones completas están disponibles en la cadena dYdX! Esto incluye recompensas de participación, recompensas de operación y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
+      "BODY": "¡Las operaciones completas están disponibles en la cadena dYdX! Esto incluye recompensas de participación, recompensas de trading y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retiro lento pendiente",
@@ -101,15 +101,15 @@
       "BODY": "Tu retiro de {AMOUNT} {ASSET} ha sido confirmado."
     },
     "STOP_LOSS_TRIGGER_CREATING": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "Tu activación de stop loss se está creando en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "No se pudo crear tu activación de stop loss en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "Se creó tu activación de stop loss en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
@@ -125,7 +125,7 @@
       "BODY": "Se creó tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Detener pérdidas",
       "BODY": "Se actualizó tu activación de stop loss en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
@@ -179,7 +179,7 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "Regalo de $20K",
-      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está ejecutando un sorteo en Twitter, donde tienes la oportunidad de reclamar $200. Se seleccionarán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC.{HERE_LINK}"
+      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está realizando un sorteo en Twitter, donde tienes la oportunidad de reclamar $200. Se elegirán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "El mercado {MARKET} llegó a su fin",
@@ -187,7 +187,7 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Propuesta en vivo para cerrar el mercado {MARKET}",
-      "BODY": "Actualmente hay una propuesta en vivo para reducir el mercado {MARKET}. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+      "BODY": "Actualmente, hay una propuesta en vivo para reducir el mercado {MARKET}. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Los mercados {MARKET_1} y {MARKET_2} se redujeron",
@@ -195,7 +195,7 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2} ",
-      "BODY": "Actualmente, hay una propuesta en vivo para reducir los mercados {MARKET_1} y {MARKET_2} . Si se aprueba, los mercados {MARKET_1} y {MARKET_2} entrarán en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+      "BODY": "Actualmente, hay una propuesta en vivo para reducir los mercados {MARKET_1} y {MARKET_2}. Si se aprueba, los mercados {MARKET_1} y {MARKET_2} entrarán en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Propuesta en vivo para actualizar los {MARKET} parámetros",
