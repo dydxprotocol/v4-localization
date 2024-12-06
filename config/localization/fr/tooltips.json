@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Commissions d'affiliation",
-      "BODY": "Pourcentage de commission provenant des frais du Taker."
+      "BODY": "Les affiliés gagnent une commission sur les frais de taker payés par les utilisateurs référés. Pour générer une part des frais d'affiliation, les utilisateurs référés doivent avoir un volume mobile de 30 jours inférieur à 50 millions de dollars lorsqu'ils effectuent la transaction."
     }
   },
   "PORTFOLIO": {
@@ -194,7 +194,7 @@
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Montant de l'ordre",
-      "BODY": "Montant de {SYMBOL} à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
+      "BODY": "Montant de {SYMBOL} en dollar à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera rempli, et non du montant de votre position résultante."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "L'arrêt de la perte est une clôture partielle",
@@ -298,7 +298,7 @@
     },
     "UNREALIZED_PNL": {
       "TITLE": "Bénéfice \/ Perte non réalisé",
-      "BODY": "Perte\/bénéfice total si vous deviez fermer complètement le reste de votre position actuelle au prix actuel d'oracle. Réinitialise si vous fermez votre position ou changez de côté de position (longue à courte, ou vice versa)."
+      "BODY": "Perte\/bénéfice total si vous deviez fermer complètement le reste de votre position actuelle au prix actuel d'oracle. Réinitialise si vous fermez votre position ou changez de côté de position (long à court, ou vice versa)."
     },
     "REWARD_HISTORY": {
       "BODY": "L'heure est affichée en temps universel coordonné (UTC)"
@@ -323,7 +323,7 @@
     },
     "GASLESS_DEPOSITS": {
       "TITLE": "Dépôts sans gas",
-      "BODY": "dYdX couvrira vos frais de gaz si vous déposez  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
+      "BODY": "dYdX couvrira vos frais de gaz si vous déposez  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL} ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Dépôts de frais les plus bas",
