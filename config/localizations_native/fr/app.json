@@ -185,7 +185,7 @@
       "MINIMUM_DEPOSIT_MET": "Super ! Votre dépôt répond au minimum de dépôt sans gaz de  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}. dYdX couvrira les frais de gaz pour ce dépôt.{DEPOSIT_SUBJECT_TO_RULES}",
       "MINIMUM_DEPOSIT_UNMET": "Le montant de votre dépôt est inférieur au minimum de dépôt sans gas. Déposez plus de  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}et dYdX paiera les frais de gaz pour ce dépôt. Vous pouvez également continuer avec ce dépôt et payer vos propres frais de gas. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "Les dépôts sans gaz ne sont pas disponibles pour ETH. Vous pouvez convertir votre ETH en WETH sur 1inch ou Uniswap et utiliser les dépôts sans gaz WETH, ou déposer directement des ETH en payant vos propres frais de gaz. {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_DEPOSIT_REACHED_LIMIT": "Le dépôt sans gas n'est pas disponible. Votre limite de dépôt sans gaz est réinitialisée tous les trois jours. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_DEPOSIT_REACHED_LIMIT": "Le dépôt sans gaz n'est pas disponible. Votre limite de dépôt sans gaz est réinitialisée tous les trois jours. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "Utiliser le dépôt sans frais de gaz",
       "1_REMAINING": "1 restant",
       "PROVIDER": "Fournisseur"
@@ -213,7 +213,7 @@
       "CANNOT_PLACE_TRADE": "Impossible de placer une transaction",
       "CLOSED_STATUS": "Fermé",
       "ENTER_AMOUNT_TO_TRADE": "Introduire le montant de la transaction",
-      "ENTER_STOP_PRICE": "Introduire le prix stop",
+      "ENTER_STOP_PRICE": "Introduire le stop price",
       "LIQUIDATION": "Liquidation",
       "LUNA_IMF_TITLE": "Marge ajustée pour LUNA-USD",
       "LUNA_IMF_TEXT": "Nous avons temporairement augmenté les exigences de marge initiale sur LUNA-USD à 100 % en raison de la volatilité. La marge de maintenance reste la même à 5 %.",
