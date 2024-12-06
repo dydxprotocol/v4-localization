@@ -17,13 +17,13 @@
   },
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
-      "TITLE": "Bağlı Kuruluş Komisyonları",
-      "BODY": "Alıcı ücretlerinden komisyon yüzdesi."
+      "TITLE": "Bağlı kuruluş komisyonları",
+      "BODY": "Bağlı ortaklar, önerilen kullanıcılar tarafından ödenen alıcı ücretlerinden komisyon kazanır. Bağlı ortaklık ücret payı oluşturmak için yönlendirilen kullanıcıların işlem yaparken 30 günlük hacmi 50 milyon $ altında yuvarlanma zorunluluğu vardır."
     }
   },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
-      "TITLE": "Hedgie ödülleri indirimi",
+      "TITLE": "Hedge indirimi",
       "BODY": "Bir {NFT} sahibi olmak indirim düzeyinizi bir seviye yukarı çıkaracaktır. Birden fazlasına sahip olmanın ek bir etkisi bulunmamaktadır."
     }
   },
@@ -38,10 +38,10 @@
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu."
     },
     "BRACKET_ORDER_SL": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "Bu destekli emirde bir Zarar Durdurma gerçekleştirmek için geçerli tetiklenme fiyatınız."
     },
     "BRACKET_ORDER_TP": {
@@ -54,7 +54,7 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Çapraz Serbest Teminat",
-      "BODY": "Çapraz marj hesabınızdan alım satım veya çekim işleminde kullanılabilen teminat miktarı."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Çapraz Marjin Kullanımı",
@@ -130,11 +130,11 @@
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_SHORT": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "{SYMBOL} oracle fiyatı, tasfiye fiyatının üzerine çıkarsa, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "{SYMBOL} oracle fiyatı, tasfiye fiyatının üzerine çıkarsa, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Tasfiye Fiyatı",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı likiditasyon fiyatını aşarsa pozisyonunuz likidite edilecektir. Tasfiyeden sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
@@ -214,7 +214,7 @@
     },
     "POSITION_LEVERAGE": {
       "TITLE": "Pozisyon Kaldıracı",
-      "BODY": "Kaldıraç, kazançlarınızın veya kayıplarınızın katsayısını değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
+      "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
     "POST_ONLY": {
       "TITLE": "Yalnızca Yerleştir",
@@ -237,11 +237,11 @@
       "BODY": "Sadece Azalt özelliği emrin pozisyon tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
-      "TITLE": "Yalnızca Azalt",
+      "TITLE": "Sadece Azalt",
       "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
-      "TITLE": "Yalnızca Azalt",
+      "TITLE": "Sadece Azalt",
       "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
     },
     "REWARDS_EARNED": {
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
-      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
+      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gaz ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
     }
   },
   "STAKE": {
@@ -430,7 +430,7 @@
       "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     },
     "VAULT_APR": {
-      "BODY": "Vault APR, geçmiş ayın yıllıklandırılan verimdir. Kasa geri dönüşleri KZ ve protokol gelir paylaşımına bağlıdır.  Bu APR garanti edilmemektedir."
+      "BODY": "Kasa APR, geçmiş ayın verimi yıllıklaştırılır. Kasa geri dönüşleri KZ ve protokol gelir paylaşımına bağlıdır.  Bu APR garanti edilmemektedir."
     }
   }
 }
