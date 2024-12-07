@@ -106,7 +106,7 @@
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte à  n'a pas {NEW_VALUE}pu être créé."
+      "BODY": "Votre déclencheur d'arrêt de perte à  n'a pas {NEW_VALUE} pu être créé."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
       "TITLE": "Stop Loss",
@@ -150,11 +150,11 @@
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "Stop Loss",
-      "BODY": "Le déclenchement de votre stop loss à \n {OLD_VALUE}est supprimé."
+      "BODY": "Le déclenchement de votre stop loss à \n{OLD_VALUE} est supprimé."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Le déclenchement de votre stop loss à{OLD_VALUE} \n n'a pas pu être annulé."
+      "BODY": "Le déclenchement de votre stop loss à \n{OLD_VALUE} n'a pas pu être annulé."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "Stop Loss",
@@ -198,12 +198,12 @@
       "BODY": "Il existe actuellement une proposition en direct pour réduire les marchés {MARKET_1} et {MARKET_2}. En cas de validation, les marchés {MARKET_1} et {MARKET_2} passeront en phase de règlement final le . {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "Proposition en direct pour la mise à jour des {MARKET}paramètres",
+      "TITLE": "Proposition en direct pour la mise à jour des {MARKET} paramètres",
       "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du {MARKET}marché. Si elle est adoptée, le {MARKET}marché aura Coinbase Pro {MARKET}comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Comment trader les élections présidentielles américaines!",
-      "BODY": "{MARKET}est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
+      "BODY": "{MARKET} est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX prend maintenant en charge Keplr !",
