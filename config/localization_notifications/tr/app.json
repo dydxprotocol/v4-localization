@@ -90,7 +90,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Ödüller ve alım satım işlemleri dYdX Zinciri üzerinde yayında!",
-      "BODY": "Tum alım satım işlemleri dYdX Zinciri üzerinde yayında! Buna stake ödülleri, alım satım ödülleri ve Chaos Labs'in 6 aylık lansman teşvik programı da dahil. Daha fazla bilgi için {DOS_BLOGPOST} ve {TRADING_BLOGPOST} (üçüncü taraf bağlantısı)."
+      "BODY": "Tüm alım satım işlemleri dYdX Zinciri üzerinde yayında! Buna stake ödülleri, alım satım ödülleri ve Chaos Labs'in 6 aylık lansman teşvik programı da dahil. Daha fazla bilgi için {DOS_BLOGPOST} ve {TRADING_BLOGPOST} (üçüncü taraf bağlantısı)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Yavaş Çekme Beklemede",
@@ -105,11 +105,11 @@
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturuluyor."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturulamadı."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturuldu."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
@@ -117,7 +117,7 @@
       "BODY": "{NEW_VALUE} için kâr alma tetikleyicisi oluşturuluyor."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Kâr Al",
+      "TITLE": "Kâr Alma",
       "BODY": "{NEW_VALUE} için kâr alma tetikleyicisi oluşturulamadı."
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
@@ -129,7 +129,7 @@
       "BODY": "Zarar durdurma tetikleyiciniz {NEW_VALUE} olarak güncelleniyor."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz değiştirilemedi."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
@@ -157,19 +157,19 @@
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz iptal edilemedi."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
-      "TITLE": "Stop Emir",
+      "TITLE": "Zarar Durdur",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz kaldırıldı."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
-      "TITLE": "Kâr Al",
+      "TITLE": "Kâr Alma",
       "BODY": "{OLD_VALUE} için oluşturulmuş kâr alma tetikleyiciniz kaldırılıyor."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "Kâr Al",
+      "TITLE": "Kâr Alma",
       "BODY": "{OLD_VALUE} için oluşturulmuş kâr alma tetikleyiciniz iptal edilemedi."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
-      "TITLE": "Kâr Al",
+      "TITLE": "Kâr Alma",
       "BODY": "{OLD_VALUE} için oluşturuluş kâr alma tetikleyiciniz kaldırıldı."
     },
     "TOP_100_WALLET_ADDRESSES": {
