@@ -2,11 +2,11 @@
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
       "TITLE": "보상 획득",
-      "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME} 거래 보상을 획득했습니다."
+      "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}의 거래 보상을 획득했습니다."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "새롭게 고친 조건부 주문 경험!",
-      "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용{TWITTER_LINK}을 확인하십시오."
+      "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용: {TWITTER_LINK}을 확인하십시오."
     },
     "DELEVERAGED": {
       "TITLE": "포지션 차감",
@@ -38,7 +38,7 @@
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "격리 마진이 라이브 상태입니다",
-      "BODY": "격리 마진이 현재 라이브입니다! 자세한 내용은 {LEARN_MORE} 여기를 참조하십시오."
+      "BODY": "격리 마진이 현재 라이브입니다! 자세한 내용은 {LEARN_MORE}을(를) 참조하십시오."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "시즌 {SEASON_NUMBER} 출시 보상이 분배되었습니다!",
@@ -49,8 +49,8 @@
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감된 포지션을 상쇄하는 데 사용되었습니다."
     },
     "ORDER_FILL": {
-      "TITLE": "주문이 체결되었습니다",
-      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 $에 {AVERAGE_PRICE}체결되었습니다."
+      "TITLE": "주문 체결",
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 ${AVERAGE_PRICE}에 체결되었습니다."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "주문이 부분적으로 체결되었습니다",
@@ -58,15 +58,15 @@
     },
     "ORDER_TRIGGERED": {
       "TITLE": "주문이 발동되었습니다",
-      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 발동되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 발동되었습니다."
     },
     "ORDER_CANCEL": {
       "TITLE": "주문이 취소되었습니다",
-      "BODY": "{SIDE} {AMOUNT}주{MARKET}문이 취소되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 취소되었습니다."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "부분 채우기로 주문 취소",
-      "BODY": "{SIDE} {AMOUNT} {MARKET} 주문이 부분적으로 {TOTAL_FILLED}만큼 채워져 취소되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET} 주문이 부분적으로 {TOTAL_FILLED} 정도 체결되어 취소되었습니다."
     },
     "LIQUIDATION": {
       "TITLE": "포지션이 청산되었습니다",
@@ -82,7 +82,7 @@
     },
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "빠른 출금이 완료되었습니다",
-      "BODY": "{AMOUNT} {ASSET}의 빠른 인출이 확인되었습니다."
+      "BODY": "{AMOUNT} {ASSET}의 빠른 출금이 확인되었습니다."
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "20배 레버리지로 SOL-USD 거래",
@@ -90,7 +90,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "보상 및 거래가 dYdX 체인에서 실시간으로 제공됩니다!",
-      "BODY": "전체 거래는 dYdX 체인에서 실시간으로 거래됩니다! 여기에는 스테이킹 보상, 거래 보상 및 카오스 랩스의 6개월 출시 인센티브 프로그램이 포함됩니다. 자세한 정보 {DOS_BLOGPOST} 및 {TRADING_BLOGPOST}(타사 링크)를 참조하십시오."
+      "BODY": "전체 거래는 dYdX 체인에서 실시간으로 거래됩니다! 여기에는 스테이킹 보상, 거래 보상 및 카오스 랩스의 6개월 출시 인센티브 프로그램이 포함됩니다. 자세한 정보는 {DOS_BLOGPOST} 및 {TRADING_BLOGPOST}(타사 링크)을(를) 참조하십시오."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "느린 출금이 진행 중입니다",
@@ -98,7 +98,7 @@
     },
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "느린 출금이 완료되었습니다",
-      "BODY": "{AMOUNT} {ASSET} 출금이 확인되었습니다."
+      "BODY": "{AMOUNT} {ASSET}의 출금이 확인되었습니다."
     },
     "STOP_LOSS_TRIGGER_CREATING": {
       "TITLE": "손절매",
@@ -138,11 +138,11 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "이익 환수",
-      "BODY": "이익 실현 트리거가 {NEW_VALUE}(으)로 업데이트되고 있습니다."
+      "BODY": "이익 환수 트리거가 {NEW_VALUE}으로(로) 업데이트되고 있습니다."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "이익 환수",
-      "BODY": "{OLD_VALUE}에서 이익 실현 트리거를 교체할 수 없습니다."
+      "BODY": "{OLD_VALUE}에서 이익 환수 트리거를 교체할 수 없습니다."
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "이익 환수",
@@ -166,11 +166,11 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "이익 환수",
-      "BODY": "{OLD_VALUE}에서 이익 실현 트리거를 취소할 수 없습니다."
+      "BODY": "{OLD_VALUE}에서 이익 환수 트리거를 취소할 수 없습니다."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "이익 환수",
-      "BODY": "{OLD_VALUE}에서 이익 실현 트리거가 제거되었습니다."
+      "BODY": "{OLD_VALUE}에서 이익 환수 트리거가 제거되었습니다."
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "추가적인 도움이 필요하신가요?",
@@ -179,10 +179,10 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "$20,000 증정품",
-      "BODY": "누적 거래량 2000억 달러를 돌파한 것을 기념하여, dYdX는 트위터 경품 행사를 진행하고 있으며, $200를 받을 기회를 드립니다. 2024년 8월 16일 23:59(UTC) 이후 무작위 선택 메커니즘을 기준으로 100명의 당첨자가 {HERE_LINK}선정됩니다."
+      "BODY": "누적 거래량 2000억 달러를 돌파한 것을 기념하여, dYdX는 트위터 경품 행사를 진행하고 있으며, $200를 받을 기회를 드립니다. 2024년 8월 16일 23시 59분(협정 세계시) 이후 무작위 선택 메커니즘을 기준으로 100명의 당첨자가 선정됩니다: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET} 시장이 마감되었습니다.",
+      "TITLE": "{MARKET} 시장이 하락했습니다",
       "BODY": "{DATE}에서 {MARKET} 시장은 최종 정산을 거쳤습니다. 기존 포지션이 마감되었으며 미결 주문이 취소되었습니다. {HERE_LINK} 최종 정산에 대한 자세한 내용을 볼 수 있습니다."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
@@ -195,15 +195,15 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} 및 {MARKET_2} 시장 마감을 위한 라이브 제안",
-      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. 제안에 대한 자세한 내용을 확인할 수 있습니다: {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} 매개변수를 업데이트하는 라이브 제안",
-      "BODY": "{MARKET} 시장의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로{MARKET}를 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로{MARKET}를 유일한 오라클 소스로 사용합니다. 제안에 대한 자세한 내용을 확인할 수 있습니다: {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "미국 대통령 선거를 거래하세요!",
-      "BODY": "{MARKET} 현재 라이브입니다. 이 시장은 도널드 트럼프가 2024년 선거에서 승리하면 1달러로 정산됩니다. 그렇지 않으면 $0.001로 정산됩니다."
+      "BODY": "{MARKET}은(는) 현재 라이브 상태입니다. 이 시장은 도널드 트럼프가 2024년 선거에서 승리하면 1달러로 정산됩니다. 그렇지 않으면 $0.001로 정산됩니다."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX가 이제 Keplr을 지원합니다!",
