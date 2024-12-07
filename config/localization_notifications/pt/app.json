@@ -22,10 +22,10 @@
     },
     "FOK_DEPRECATION": {
       "TITLE": "Ordens FOK descontinuadas",
-      "BODY": "As ordens executar ou preencher (FOK) foram descontinuadas. Todos os outros tipos de ordem continuam disponíveis."
+      "BODY": "As ordens preencher ou encerrar (FOK) foram descontinuadas. Todos os outros tipos de ordem continuam disponíveis."
     },
     "IN_APP_STAKING_LIVE": {
-      "TITLE": "Agora você pode fazer stake DYDX!",
+      "TITLE": "Agora você pode fazer stake em DYDX!",
       "BODY": "Receba recompensas USDC."
     },
     "INCENTIVES_SEASON_BEGUN": {
@@ -50,7 +50,7 @@
     },
     "ORDER_FILL": {
       "TITLE": "Ordem executada",
-      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi preenchida em ${AVERAGE_PRICE}."
+      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi preenchida em US${AVERAGE_PRICE}."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Ordem parcialmente executada",
@@ -66,7 +66,7 @@
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Ordem cancelada com execução parcial",
-      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi cancelada com {TOTAL_FILLED} execução parcial."
+      "BODY": "Sua ordem para {SIDE} {AMOUNT} {MARKET} foi cancelada com {TOTAL_FILLED} de execução parcial."
     },
     "LIQUIDATION": {
       "TITLE": "Posição liquidada",
@@ -89,8 +89,8 @@
       "BODY": "SOL-USD e todos os mercados isolados estão agora disponíveis para trades com alavancagem de até 20x."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "As recompensas e as negociações estão ativas na Cadeia dYdX!",
-      "BODY": "As negociações completas estão ativas na Cadeia dYdX! Isso inclui recompensas de staking, recompensas de trading e o programa de incentivos de lançamento de 6 meses da Chaos Labs. Saiba mais {DOS_BLOGPOST}e {TRADING_BLOGPOST}(link de terceiros)."
+      "TITLE": "As recompensas e o trading estão ativos na cadeia dYdX!",
+      "BODY": "O trading completo está ativo na cadeia dYdX! Isso inclui recompensas de staking, recompensas de trading e o programa de incentivos de lançamento de 6 meses da Chaos Labs. Saiba mais em {DOS_BLOGPOST} e {TRADING_BLOGPOST} (link de terceiros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Saque lento pendente",
@@ -101,15 +101,15 @@
       "BODY": "Seu saque de {AMOUNT} {ASSET} foi confirmado."
     },
     "STOP_LOSS_TRIGGER_CREATING": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "O disparo de stop loss está sendo criado no {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Não foi possível criar seu disparo de stop loss em {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Seu disparo de stop loss em {NEW_VALUE} foi criado."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
@@ -125,15 +125,15 @@
       "BODY": "Seu disparo de take profit em {NEW_VALUE} foi criado."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Seu disparo de stop loss está sendo atualizado para {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Não foi {OLD_VALUE}possível substituir seu disparo de stop loss em ."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Seu disparo de stop loss agora será disparado em {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
@@ -149,15 +149,15 @@
       "BODY": "Seu disparo de take profit agora será disparado em {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Seu disparo de stop loss em {OLD_VALUE} está sendo removido."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "Stop Loss",
-      "BODY": "Não {OLD_VALUE} foi possível cancelar seu disparo de stop loss em ."
+      "TITLE": "Stop loss",
+      "BODY": "Não  foi possível cancelar seu disparo de stop loss em {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
-      "TITLE": "Stop Loss",
+      "TITLE": "Stop loss",
       "BODY": "Seu disparo de stop loss em {OLD_VALUE} foi removido."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
@@ -187,7 +187,7 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Proposta em tempo real para reduzir o {MARKET} mercado",
-      "BODY": "Há atualmente uma proposta em tempo real para reduzir o {MARKET} mercado. Se passado, o {MARKET} mercado entrará na liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+      "BODY": "Há atualmente uma proposta em tempo real para reduzir o mercado {MARKET}. Se passado, o mercado {MARKET} entrará na liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Os mercados {MARKET_1} e {MARKET_2} foram encerrados",
@@ -199,18 +199,18 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposta em tempo real para atualizar parâmetros de {MARKET}",
-      "BODY": "Há atualmente uma proposta em tempo real para atualizar os parâmetros do mercado de .{MARKET} Se aprovada, o mercado {MARKET} terá a Coinbase Pro de {MARKET} como a única fonte de oráculo. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+      "BODY": "Há atualmente uma proposta em tempo real para atualizar os parâmetros do mercado {MARKET}. Se aprovada, o mercado {MARKET} terá o {MARKET} da Coinbase Pro como a única fonte de oráculo. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Faça trades com a eleição presidencial dos EUA!",
       "BODY": "{MARKET} já está disponível. Este mercado será liquidado em US$ 1 se Donald J. Trump vencer a eleição de 2024. Caso contrário, ele será liquidado em US$ 0,001."
     },
     "KEPLR_SUPPORT": {
-      "TITLE": "A dYdX agora suporta o Keplr!",
+      "TITLE": "A dYdX agora é compatível com a Keplr!",
       "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Keplr! Experimente agora."
     },
     "PHANTOM_SUPPORT": {
-      "TITLE": "A dYdX agora é compatível com Phantom!",
+      "TITLE": "A dYdX agora é compatível com a Phantom!",
       "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Phantom! Experimente agora."
     }
   }
