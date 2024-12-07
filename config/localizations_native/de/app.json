@@ -13,7 +13,7 @@
         "24H": "24 Std.",
         "1D": "1 T",
         "7D": "7 T",
-        "30D": "30 T",
+        "30D": "30 d",
         "90D": "90 t",
         "1DAY": "1 T",
         "1WEEK": "1 W",
@@ -23,7 +23,7 @@
       "ACTIVITIES": "Aktivitäten",
       "ADD_NEW_WALLET": "Neue Wallet hinzufügen",
       "ALERTS": "Warnhinweise",
-      "AMOUNT_AND_FILLED": "Betrag \/ Gefüllt",
+      "AMOUNT_AND_FILLED": "Betrag \/ Erfüllt",
       "AMOUNT_RATE": "Betrag \/ Kurs",
       "AUTHENTICATE_WITH_FACE_ID": "Authentifizieren Sie sich per Face-ID",
       "AUTHENTICATE_WITH_TOUCH_ID": "Authentifizieren Sie sich per Touch-ID",
@@ -35,7 +35,7 @@
       "DESTINATION": "Reiseziel",
       "DOCS": "Dokumente",
       "DONT_SHOW_AGAIN": "Mir in Zukunft nicht mehr anzeigen",
-      "EARN": "Sie werden verdienen",
+      "EARN": "Sie werden verdienen können",
       "ERROR": "Fehler",
       "FAILED": "Fehlgeschlagen",
       "FOUNDATION": "Grundlage",
@@ -167,7 +167,7 @@
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "Im nächsten Schritt müssen Sie unsere {TERMS_LINK} und {PRIVACY_POLICY_LINK} durchlesen und ihnen zustimmen.",
       "WALLET_MISMATCH": "Falsche Wallet",
       "NETWORK_MISMATCH": "Falsches Netzwerk",
-      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um.",
+      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf  um {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Kann kein Konto erhalten",
       "ENTER_CODE": "Geben Sie den Bestätigungscode ein"
     },
@@ -244,7 +244,7 @@
       "SUBMITTING_ORDER": "Wird übermittelt",
       "SUBMITTING_ORDER_DESC": "Ihre Order wird übermittelt.",
       "CANCELING_N_ORDERS_FAILED": "{COUNT} Stornierung Auftrag fehlgeschlagen",
-      "CANCELING_ONE_ORDER_FAILED": "{COUNT}Abbruch Auftrag fehlgeschlagen",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} Abbruch Auftrag fehlgeschlagen",
       "CANCELING_ORDER": "Abbrechen",
       "CANCELING_ORDER_DESC": "Ihre Order an {SIDE} {SIZE} {MARKET} wird storniert.",
       "UNREALIZED": "Nicht ausgeführt",
@@ -303,11 +303,11 @@
         "TOP_LOSERS": "Top Verlierer"
       },
       "SWAP_POSITION": {
-        "OPEN": "{TOKEN}-Position öffnen",
+        "OPEN": "Position {TOKEN} öffnen",
         "CLOSE": "Position {TOKEN} schließen",
         "INCREASE": "{TOKEN}-Position erhöhen",
-        "DECREASE": "{TOKEN}-Position reduzieren",
-        "CROSS_SIDE": "{TOKEN}-Position ändern zu {SIDE}"
+        "DECREASE": " {TOKEN}-Position reduzieren",
+        "CROSS_SIDE": "Position {TOKEN} ändern zu {SIDE}"
       }
     },
     "COMPLIANCE": {

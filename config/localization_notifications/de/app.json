@@ -146,7 +146,7 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird jetzt bei {NEW_VALUE} ausgelöst."
+      "BODY": "Ihr Take-Profit-Auslöser wird jetzt bei  ausgelöst {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "Stop Loss",
