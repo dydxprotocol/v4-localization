@@ -3,7 +3,7 @@
     "GENERAL": {
       "TIME_STRINGS": {
         "MINUTES": "Minutos",
-        "1MIN": "1m",
+        "1MIN": "1 m",
         "5MIN": "5 m",
         "15MIN": "15 m",
         "30MIN": "30 m",
@@ -14,7 +14,7 @@
         "1D": "1 d",
         "7D": "7 d",
         "30D": "30 d",
-        "90D": "90 D",
+        "90D": "90 d",
         "1DAY": "1 d",
         "1WEEK": "1 W",
         "1MONTH": "1m"
@@ -28,7 +28,7 @@
       "AUTHENTICATE_WITH_FACE_ID": "Autenticar con reconocimiento facial",
       "AUTHENTICATE_WITH_TOUCH_ID": "Autenticar con identificación táctil",
       "AUTHENTICATE_WITH_BIOMETRICS": "Autenticar con biometría",
-      "AUTHENTICATE_TO_PROCEED": "Autenticar para acceder a tu cuenta de dYdX",
+      "AUTHENTICATE_TO_PROCEED": "Autenticar para acceder a tu cuenta dYdX",
       "CANDLES": "Velas",
       "CONNECT_WALLET_TEXT": "Asegúrate de que la cuenta correcta esté seleccionada en tu billetera.",
       "COUNTRY": "País",
@@ -150,7 +150,7 @@
       "MISSING_COUNTRY_DESC": "Informa tu país de residencia. Esto no se puede cambiar después.",
       "NO_FUTURE_ACCESS_TITLE": "No estoy en ningún territorio restringido",
       "NO_VPN_USE_TITLE": "No estoy usando una VPN",
-      "NOT_A_RESIDENT_TITLE": "No accederé desde los Estados Unidos",
+      "NOT_A_RESIDENT_TITLE": "No accederé desde los Estados Unidos.",
       "OPEN_QR_CODE": "Abrir código QR",
       "OPEN_QR_CODE_DESC": "Muestra el código QR usando la opción en el menú desplegable de la billetera en la aplicación web.",
       "OPEN_QR_CODE_NEXT": "Listo, ¡lo tengo!",
@@ -183,7 +183,7 @@
       "DEPOSIT_AVAILABLE": "Tu depósito cumple con el mínimo de depósito sin gas de {DOLLAR_AMOUNT}. dYdX cubrirá las tarifas de gas para este depósito. Tu límite se reinicia cada tres días. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Sujeto a estas reglas",
       "MINIMUM_DEPOSIT_MET": "¡Bien! Tu depósito cumple con el mínimo de depósito sin gas de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX cubrirá las tarifas de gas para este depósito. {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "El monto de tu depósito está por debajo del mínimo de depósito sin gas. Deposita más de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} y dYdX pagará las tarifas de gas para este depósito. También puedes continuar con este depósito y pagar tus propias tarifas de gas. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "La cantidad a depositar está por debajo del mínimo de depósito sin gas. Deposita más de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} y dYdX pagará las tarifas de gas para este depósito. También puedes continuar con este depósito y pagar tus propias tarifas de gas. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "Los depósitos sin gas no están disponibles para ETH. Puedes convertir tu ETH a WETH en 1 pulgada o Uniswap y usar depósitos sin gas de WETH o depositar directamente ETH pagando tus propios costos de gas. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "No hay disponibilidad de depósito sin gas. Tu límite de depósito sin gas se reinicia cada tres días. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "Usar depósito sin gas",
@@ -191,7 +191,7 @@
       "PROVIDER": "Proveedor"
     },
     "WITHDRAW_MODAL": {
-      "ENTER_WITHDRAW_AMOUNT": "Ingresa el monto del retiro",
+      "ENTER_WITHDRAW_AMOUNT": "Ingresa la cantidad a retirar",
       "WITHDRAW_DESCRIPTION": "Estás a punto de iniciar un retiro de fondos a la billetera que se muestra a continuación. Esto no requerirá de firma.",
       "WITHDRAW_ERROR": "Error de retiro",
       "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible.",
@@ -213,7 +213,7 @@
       "CANNOT_PLACE_TRADE": "No se puede colocar operación",
       "CLOSED_STATUS": "Cerrado",
       "ENTER_AMOUNT_TO_TRADE": "Ingresa el monto de la operación",
-      "ENTER_STOP_PRICE": "Ingresa el precio de detención",
+      "ENTER_STOP_PRICE": "Ingresa el stop price",
       "LIQUIDATION": "Liquidación",
       "LUNA_IMF_TITLE": "Margen ajustado para LUNA-USD",
       "LUNA_IMF_TEXT": "Hemos aumentado temporalmente los requisitos de margen inicial en LUNA-USD al 100 % debido a la volatilidad. El margen de mantenimiento sigue siendo 5 %.",
@@ -226,19 +226,19 @@
       "ORDER_FILLED_DESC": "Tu orden se rellenó con éxito.",
       "ORDER_PENDING_DESC": "Tu orden se ha enviado.",
       "ORDER_PLACED_DESC": "¡Tu orden ha sido colocada!",
-      "ORDER_POST_ONLY_WOULD_CROSS": "Una orden de Post-only cruzaría el libro de órdenes.",
+      "ORDER_POST_ONLY_WOULD_CROSS": "Una orden de Post-Only cruzaría el libro de órdenes.",
       "ORDER_SELF_TRADE": "La orden habría dado como resultado una operación con uno mismo.",
       "ORDER_UNDERCOLLATERALIZED": "Tu orden habría llevado a un estado con colateralización insuficiente para ti.",
       "PLACE_BUY": "Colocar compra",
       "PLACE_SELL": "Colocar venta",
-      "PLACE_STOP_ORDER": "Colocar una orden \"stop\"",
+      "PLACE_STOP_ORDER": "Colocar una stop order",
       "PLACE_TAKE_PROFIT_ORDER": "Colocar una orden \"profit\"",
       "PLACED": "Colocado",
       "PREVIEW": "Vista previa",
       "PREVIEW_TRADE": "Vista previa de la operación",
       "REALIZED": "Realizado",
       "RECEIPT": "Recibo",
-      "REDUCE_ONLY": "Solo reduzca",
+      "REDUCE_ONLY": "Solo reducir",
       "SELECT_EXPIRATION_OPTION": "Seleccionar opción de caducidad",
       "SELECT_EXPIRATION_TIME_UNIT": "Seleccionar unidad de tiempo de caducidad",
       "SUBMITTING_ORDER": "Envío",
@@ -279,7 +279,7 @@
       "SWAP_MARGIN_ERROR_TEXT": "Cambia a modo Pro para acceder a un apalancamiento mayor.",
       "SWAP_INTRO": {
         "TITLE": "Modo de intercambio",
-        "SUBTITLE": "Construimos una forma más fácil de hacer transacciones en dYdX.",
+        "SUBTITLE": "Construimos una forma más fácil de hacer trading en dYdX.",
         "ITEM_1_TITLE": "Interfaz familiar",
         "ITEM_1_SUBTITLE": "Haz operaciones en dYdX a través de una interfaz familiar y simplificada.",
         "ITEM_2_TITLE": "Simple pero potente",
@@ -320,7 +320,7 @@
       "ACCOUNT_RESTRICTED": "Cuenta restringida",
       "COMPLIANCE_REQUIRED": "Se requiere cumplimiento",
       "RESTRICTIONS_REMOVED": "Restricciones eliminadas",
-      "RESTRICTIONS_COUNTRY_DESC": "Informa tu país de residencia y ubicación de operación. Esto no se puede cambiar después.",
+      "RESTRICTIONS_COUNTRY_DESC": "Informa tu país de residencia y ubicación de trading. Esto no se puede cambiar después.",
       "RESTRICTIONS_REMOVED_MESSAGE": "Espera a más tardar cinco minutos para que los cambios sean efectivos."
     },
     "LEAGUES": {
@@ -364,14 +364,14 @@
     "V4": {
       "ALERTS_PLACHOLDER": "Las alertas de trading y protocolo se mostrarán aquí.",
       "INDEXER_ALERT": "Alerta del indexador",
-      "INDEXER_DOWN": "No se puede obtener la altura actual del bloque del Indexador.",
+      "INDEXER_DOWN": "No se puede obtener la altura actual del bloque del indexador.",
       "INDEXER_HALTED": "El indexador se ha detenido en el bloque {HALTED_BLOCK}.",
       "INDEXER_TRAILING": "El indexador está detrás del validador por {TRAILING_BLOCKS} bloques; espera retrasos importantes.",
       "VALIDATOR_ALERT": "Alerta del indexador",
       "VALIDATOR_DOWN": "No se puede obtener la altura del bloque actual.",
       "VALIDATOR_HALTED": "El validador se ha detenido en el {HALTED_BLOCK} bloque.",
       "TRADING_NETWORK": "Red de trading",
-      "SWITCH_NETWORK": "Cambiar de red de operaciones",
+      "SWITCH_NETWORK": "Cambiar de red de trading",
       "CALCULATING": "Calculando...",
       "NO_HASH": "No se pudo obtener el hash de la transacción.",
       "NO_GAS_TITLE": "El balance de la billetera es insuficiente para cubrir la tarifa de gas",
@@ -381,7 +381,7 @@
       "DISPLAY_IN_APP_NOTIFICATIONS": "Mostrar notificaciones en la aplicación",
       "DIRECTION_COLOR_PREFERENCE": "Preferencia de color",
       "DARK": "Oscuro",
-      "CLASSIC_DARK": "Oscuro Clásico",
+      "CLASSIC_DARK": "Oscuro clásico",
       "LIGHT": "Claro",
       "SYSTEM": "Sistema",
       "GREEN_IS_UP": "Verde está arriba",
@@ -397,7 +397,7 @@
       "NETWORK_RECOVERED": "La red se ha restaurado y está funcionando normalmente."
     },
     "V4_DEPOSIT": {
-      "CHECK_STATUS_TITLE": "Comprobando el estado del depósito...",
+      "CHECK_STATUS_TITLE": "Comprobando el estado del depósito…",
       "CHECK_STATUS_TEXT": "Espera",
       "IN_PROGRESS_TITLE": "Depósito en progreso",
       "IN_PROGRESS_TEXT": "Tu depósito de {AMOUNT_ELEMENT} se ha enviado. Esto puede tardar unos minutos.",
@@ -451,17 +451,17 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tu precio de activación está demasiado cerca de tu precio de liquidación; puede que esta orden no se ejecute completamente antes de que seas liquidado. Ingresa un precio de activación por debajo de {TRIGGER_PRICE_LIMIT} o usa una orden stop limitada.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tu trigger price está demasiado cerca de tu precio de liquidación. Puede que esta orden no se ejecute completamente antes de que seas liquidado. Ingresa un precio de activación por debajo de {TRIGGER_PRICE_LIMIT} o usa una orden stop limitada.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Solo puedes cerrar o reducir tu posición en {SYMBOL}.",
       "GEO_LOCATION_RESTRICTED": "Las operaciones de perpetuos no están disponibles para las personas o empresas que sean residentes o estén ubicadas, constituidas o tengan un agente registrado en los Estados Unidos o en un territorio restringido. Se pueden encontrar más detalles en nuestras Condiciones de uso.",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tu precio de activación está demasiado cerca de tu precio de liquidación; puede que esta orden no se ejecute completamente antes de que seas liquidado. Ingresa un precio de activación por encima de {TRIGGER_PRICE_LIMIT} o usa una orden stop limitada.",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tu trigger price está demasiado cerca de tu precio de liquidación. Puede que esta orden no se ejecute completamente antes de que seas liquidado. Ingresa un precio de activación por encima de {TRIGGER_PRICE_LIMIT} o usa una orden stop limitada.",
       "CONNECT_WALLET_TO_TRADE": "Conecta la billetera para hacer trading.",
       "DEPOSIT_TO_TRADE": "Deposita para hacer trading."
     }
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes stop de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una limit order de detención.",
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes stop de mercado en dYdX se llenarán según la liquidez al momento de la activación. Para tener más control, prueba con una stop limit order.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "No está garantizado que las órdenes de mercado de toma de ganancias en dYdX se llenarán según la liquidez al momento de hacer la activación. Para obtener más control, pruebe con una limit order de toma de ganancia."
     }
   }
