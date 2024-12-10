@@ -1857,7 +1857,7 @@
         "VIEW_DEPOSIT_STATUS": "View deposit status",
         "INSTANT": "Instant",
         "STANDARD": "Standard",
-        "HIGHER_FEES": "Higer fees, ${AMOUNT_USD} limit",
+        "HIGHER_FEES": "Higher fees, ${AMOUNT_USD} limit",
         "LOWEST_FEES": "Lowest fees, no limit"
       },
       "TRADE_UDPATES": "Trade Updates",
