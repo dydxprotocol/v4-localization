@@ -160,6 +160,7 @@
       "SCAN_QR_CODE_ERROR": "Código no reconocido",
       "SCAN_QR_CODE_SHORT": "Escanear QR",
       "SELECT_WALLET": "Seleccionar billetera",
+      "SWITCH_TO_WALLET": "Abre tu {WALLET}aplicación para continuar.",
       "SELECT_WALLET_TEXT": "Encontramos las siguientes opciones basadas en billeteras que admiten dYdX.",
       "UNDERSTAND_RISKS_TITLE": "Entiendo los riesgos",
       "USERNAME_REQUIRED": "Se requiere el nombre de usuario",
@@ -364,7 +365,7 @@
     "V4": {
       "ALERTS_PLACHOLDER": "Las alertas de trading y protocolo se mostrarán aquí.",
       "INDEXER_ALERT": "Alerta del indexador",
-      "INDEXER_DOWN": "No se puede obtener la altura actual del bloque del indexador.",
+      "INDEXER_DOWN": "No se puede obtener la altura actual del bloque del Indexador.",
       "INDEXER_HALTED": "El indexador se ha detenido en el bloque {HALTED_BLOCK}.",
       "INDEXER_TRAILING": "El indexador está detrás del validador por {TRAILING_BLOCKS} bloques; espera retrasos importantes.",
       "VALIDATOR_ALERT": "Alerta del indexador",
