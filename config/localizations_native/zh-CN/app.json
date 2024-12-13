@@ -26,7 +26,7 @@
       "AMOUNT_AND_FILLED": "金额\/已成交",
       "AMOUNT_RATE": "金额\/费率",
       "AUTHENTICATE_WITH_FACE_ID": "使用Face ID进行身份验证",
-      "AUTHENTICATE_WITH_TOUCH_ID": "使用Touch ID进行身份验证",
+      "AUTHENTICATE_WITH_TOUCH_ID": "使用 Touch ID 进行身份验证",
       "AUTHENTICATE_WITH_BIOMETRICS": "使用生物识别技术进行身份验证",
       "AUTHENTICATE_TO_PROCEED": "验证身份以访问您的 dYdX 账户",
       "CANDLES": "蜡烛图",
@@ -58,7 +58,7 @@
       "LIQ_ORACLE": "清算\/ 预言机",
       "LOSERS": "亏损者",
       "MANAGE": "管理",
-      "MARKET_CAP_SHORT": "市值",
+      "MARKET_CAP_SHORT": "市场资本",
       "NA": "不适用",
       "NAME": "名称",
       "NETWORK": "网络",
@@ -77,7 +77,7 @@
       "PLACEHOLDER_NO_FILLS_LOG_IN": "您必须登录才能查看交易",
       "PLACEHOLDER_NO_TRADES": "您没有任何交易",
       "PLACEHOLDER_NO_TRADES_LOG_IN": "您必须登录才能查看交易",
-      "PLACEHOLDER_NO_FUNDING": "您没有任何资金付款",
+      "PLACEHOLDER_NO_FUNDING": "您没有任何资金支付",
       "PLACEHOLDER_NO_FUNDING_LOG_IN": "您必须登录才能查看资金付款",
       "PLACEHOLDER_NO_TRANSFERS": "您没有任何转账",
       "PLACEHOLDER_NO_TRANSFERS_LOG_IN": "您必须登录才能查看转账",
@@ -147,7 +147,7 @@
       "EDIT_ACCOUNT_TEXT": "用户名和电邮地址为选填，可以随时在您的个人资料中进行修改或更新。",
       "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "用户名为必填项，而电邮地址为选填项。可以随时在您的个人资料中对其进行修改或更新。",
       "INFO": "dYdX 仅将您的信息用于改进您的产品体验，而不会进行共享。",
-      "MISSING_COUNTRY_DESC": "请报告您的居住国。此后无法进行修改。",
+      "MISSING_COUNTRY_DESC": "请报告您的居住国。此后无法进行更改。",
       "NO_FUTURE_ACCESS_TITLE": "我不在受限地区",
       "NO_VPN_USE_TITLE": "我没有使用VPN",
       "NOT_A_RESIDENT_TITLE": "我将不会从美国进行访问",
@@ -160,10 +160,11 @@
       "SCAN_QR_CODE_ERROR": "无法识别代码",
       "SCAN_QR_CODE_SHORT": "扫描二维码",
       "SELECT_WALLET": "选择钱包",
+      "SWITCH_TO_WALLET": "请打开{WALLET}应用程序以继续。",
       "SELECT_WALLET_TEXT": "我们根据支持 dYdX 的钱包找到了以下选项。",
       "UNDERSTAND_RISKS_TITLE": "我了解风险",
       "USERNAME_REQUIRED": "用户名为必填项",
-      "WELCOME_TEXT": "开始在世界上最强大的开放式交易所进行交易。",
+      "WELCOME_TEXT": "开始在世界上最强大的开放式交易所进行交易，非常便捷。",
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "在下一步中，您必须阅读并同意我们的{TERMS_LINK}和{PRIVACY_POLICY_LINK}。",
       "WALLET_MISMATCH": "钱包不匹配",
       "NETWORK_MISMATCH": "网络不匹配",
@@ -177,16 +178,16 @@
     "DEPOSIT_MODAL": {
       "ENTER_DEPOSIT_AMOUNT": "请输入存款金额",
       "CONFIRM_DEPOSIT": "这会将资金从您的钱包转到智能合约。",
-      "DEPOSIT_GAS_FREE": "这笔存款无需gas费！",
+      "DEPOSIT_GAS_FREE": "这笔存款无需 gas 费！",
       "DEPOSIT_CONNECT": "您将收到一个连接请求。",
       "DEPOSIT_OVERVIEW": "您将收到一个连接请求和两笔交易请求。",
       "DEPOSIT_AVAILABLE": "您的存款符合无 gas 存款最低限额的{DOLLAR_AMOUNT}。dYdX 将支付这笔存款的 gas 费用。您的限额每三天重置一次。{DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "受这些规则约束",
       "MINIMUM_DEPOSIT_MET": "好！您的存款符合 {SYMBOL}无 gas 存款最低限额的{GASLESS_DEPOSIT_THRESHOLD}。dYdX 将支付这笔存款的 gas 费用。{DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "您的存款金额低于无 gas 存款的最低限额。存款超过{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}，dYdX将支付这笔存款的gas费用。您也可以继续进行存入这笔存款，并支付自己的 gas 费。{DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "您的存款金额低于无 gas 存款的最低限额。存款超过{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}，dYdX 将支付这笔存款的 gas 费。您也可以继续进行存入这笔存款，并支付自己的 gas 费。{DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "无 gas 存款不可用于 ETH。您可以在 1inch 或 Uniswap 上将您的 ETH 转换为 WETH，并使用 WETH 无 gas 费存款，或通过支付您自己的 gas 费直接存入 ETH。{DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_DEPOSIT_REACHED_LIMIT": "无 gas 存款不可用。您的无gas存款限额每三天重置一次。{DEPOSIT_SUBJECT_TO_RULES}",
-      "USE_GASLESS_DEPOSIT": "使用无 gas 存款",
+      "GASLESS_DEPOSIT_REACHED_LIMIT": "无 gas 费存款不可用。您的无 gas 费存款限额每三天重置一次。{DEPOSIT_SUBJECT_TO_RULES}",
+      "USE_GASLESS_DEPOSIT": "使用无 gas 费存款",
       "1_REMAINING": "剩余1个",
       "PROVIDER": "提供商"
     },
@@ -194,13 +195,13 @@
       "ENTER_WITHDRAW_AMOUNT": "输入提现金额",
       "WITHDRAW_DESCRIPTION": "如下所示，您即将开始向钱包提现。这不需要签名。",
       "WITHDRAW_ERROR": "提现错误",
-      "WITHDRAW_IRREVERSIBLE": "提取 一旦发起将无法撤回。",
+      "WITHDRAW_IRREVERSIBLE": "提现一旦发起将无法撤回。",
       "WITHDRAW_LIMIT": "提现限额",
       "WITHDRAW_TEXT": "允许 dYdX 将该资产提现到您的钱包中。"
     },
     "PORTFOLIO": {
       "ESTIMATED_REWARDS": "估计的",
-      "EPOCH_ENDS_IN": "纪元时间结束于"
+      "EPOCH_ENDS_IN": "时段结束于"
     },
     "TRADE": {
       "BRACKET_ORDER": {
@@ -216,7 +217,7 @@
       "ENTER_STOP_PRICE": "请输入止损价",
       "LIQUIDATION": "清算",
       "LUNA_IMF_TITLE": "LUNA-USD 调整后的保证金",
-      "LUNA_IMF_TEXT": "由于波动性，我们暂时将 LUNA-USD 的初始保证金要求提高至 100%。维持保证金保持在5%不变。",
+      "LUNA_IMF_TEXT": "由于波动性，我们暂时将 LUNA-USD 的初始保证金要求提高至 100%。维持保证金保持在 5% 不变。",
       "NOT_TRIGGERED_STATUS": "未触发",
       "NOT_TRIGGERED_STATUS_DESC": "您的订单尚未触发。",
       "NOT_SET": "未设置",
@@ -238,7 +239,7 @@
       "PREVIEW_TRADE": "预览交易",
       "REALIZED": "已实现",
       "RECEIPT": "单据",
-      "REDUCE_ONLY": "仅限于削减",
+      "REDUCE_ONLY": "只减仓",
       "SELECT_EXPIRATION_OPTION": "选择到期选项",
       "SELECT_EXPIRATION_TIME_UNIT": "选择到期时间单位",
       "SUBMITTING_ORDER": "提交中",
@@ -246,7 +247,7 @@
       "CANCELING_N_ORDERS_FAILED": "{COUNT} 份订单取消失败",
       "CANCELING_ONE_ORDER_FAILED": "{COUNT} 份订单取消失败",
       "CANCELING_ORDER": "取消中",
-      "CANCELING_ORDER_DESC": "您对{SIDE}{SIZE}{MARKET}的订单正在取消",
+      "CANCELING_ORDER_DESC": "正在取消您对{SIDE}{SIZE}{MARKET}的订单。",
       "UNREALIZED": "未实现",
       "MODE": {
         "SELECT_PREFERENCE": "选择偏好",
@@ -258,7 +259,7 @@
         "POWERFUL": "更强大",
         "TRADE_BOX": "模式",
         "SELECT_MODE": "选择模式",
-        "SWAP": "互换",
+        "SWAP": "交换",
         "SIMPLE_AND_EASIER": "简单易用",
         "PRO": "专业",
         "FULLY_FEATURED": "功能齐全"
@@ -268,7 +269,7 @@
       "HIGH": "高",
       "MEDIUM": "中",
       "LOW": "低",
-      "SWAP": "互换",
+      "SWAP": "交换",
       "RISK": "风险",
       "FROM_TO": "从{TOKEN_FROM}到{TOKEN_TO}",
       "CLOSING_POSITION": "{TOKEN_FROM}当前持仓",
@@ -278,7 +279,7 @@
       "CONVERSION_RATE": "转换率",
       "SWAP_MARGIN_ERROR_TEXT": "切换到专业模式，可以使用更高杠杆。",
       "SWAP_INTRO": {
-        "TITLE": "互换模式",
+        "TITLE": "交换模式",
         "SUBTITLE": "我们在 dYdX 上建立了一种更简单的交易方式",
         "ITEM_1_TITLE": "熟悉的界面",
         "ITEM_1_SUBTITLE": "通过熟悉、简化的界面在 dYdX 上进行交易",
@@ -292,7 +293,7 @@
         "CTA_TITLE": "试试看"
       },
       "SWAP_MODE_REMINDER": {
-        "TITLE": "模式设置为互换",
+        "TITLE": "模式设置为交换",
         "SUBTITLE": "如果您改变主意，可以从以下位置更新交易模式",
         "SUBTITLE_PATH": "个人资料 -> 设置",
         "CTA_TITLE": "明白了"
@@ -312,7 +313,7 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "仅平仓模式",
-      "CLOSE_ONLY_BODY": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖，或从事违反我们使用条款的活动，因此您已被封锁。在您的应用访问权限被阻止之前，您必须在{DATE}之前提取您的资金。 请访问网站界面，查看后续步骤。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
+      "CLOSE_ONLY_BODY": "由于您似乎是违反我们使用条款的司法管辖区的居民或在该司法管辖区交易，或从事违反我们使用条款的活动，因此您已被阻止。在您的应用访问权限被阻止之前，您必须在{DATE}之前提取您的资金。 请访问网站界面，查看后续步骤。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_TITLE": "永久禁用",
       "PERMANENTLY_BLOCKED_BODY": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。"
     },
@@ -320,7 +321,7 @@
       "ACCOUNT_RESTRICTED": "账户受限",
       "COMPLIANCE_REQUIRED": "被要求合规",
       "RESTRICTIONS_REMOVED": "已移除限制",
-      "RESTRICTIONS_COUNTRY_DESC": "请报告您的居住国家和交易地点。此后无法进行修改。",
+      "RESTRICTIONS_COUNTRY_DESC": "请报告您的居住国家和交易地点。此后无法进行更改。",
       "RESTRICTIONS_REMOVED_MESSAGE": "请等待最多五分钟，以使更改生效。"
     },
     "LEAGUES": {
@@ -330,7 +331,7 @@
     "CAMERA": {
       "ENABLE_CAMERA": "继续",
       "ALLOW_ACCESS": "允许访问摄像头",
-      "ENABLE_CAMERA_TO_SCAN": "启用摄像头访问以扫描二维码"
+      "ENABLE_CAMERA_TO_SCAN": "启用摄像头访问权限以扫描二维码"
     },
     "EMAIL_NOTIFICATIONS": {
       "EMAIL_SECTION_HEADER": "电子邮件通知"
@@ -341,7 +342,7 @@
       "PERMIT": "许可证",
       "GO_TO_SETTINGS": "前往设置",
       "PRIMER_TITLE": "打开通知",
-      "PRIMER_MESSAGE": "保持最新的订单和头寸。",
+      "PRIMER_MESSAGE": "获知订单和头寸的最新动态。",
       "ENABLED": "已打开通知",
       "DISABLED": "已禁用通知",
       "DISABLED_BODY": "在设置中打开它们。"
@@ -375,7 +376,7 @@
       "CALCULATING": "计算中...",
       "NO_HASH": "无法获取交易哈希值。",
       "NO_GAS_TITLE": "钱包余额不足以支付 gas 费",
-      "NO_GAS_BODY": "请先向您的 dYdX 账户进行小额存款以储值钱包。",
+      "NO_GAS_BODY": "请先向您的 dYdX 账户进行小额存款以向钱包储值。",
       "THEME": "主题",
       "NOTIFICATIONS": "通知",
       "DISPLAY_IN_APP_NOTIFICATIONS": "显示应用内通知",
@@ -400,7 +401,7 @@
       "CHECK_STATUS_TITLE": "检查充值状态...",
       "CHECK_STATUS_TEXT": "请等待",
       "IN_PROGRESS_TITLE": "正在充值",
-      "IN_PROGRESS_TEXT": "您存款 {AMOUNT_ELEMENT} 已经提交。这可能需要几分钟时间。",
+      "IN_PROGRESS_TEXT": "您的 {AMOUNT_ELEMENT} 充值已提交。这可能需要几分钟时间。",
       "COMPLETED_TITLE": "充值已完成",
       "COMPLETED_TEXT": "您的充值已确认。您的资金现在可用于 dYdX 上的即时交易。即刻开始！",
       "COMPLETED_TEXT_SHORT": "您的充值已完成。",
@@ -415,13 +416,13 @@
       "COMPLETED_TEXT": "您的提现已经完成。"
     },
     "V4_TRANSFEROUT": {
-      "COMPLETED_TITLE": "已提交转账",
+      "COMPLETED_TITLE": "转账已提交",
       "COMPLETED_TEXT": "您已提交 {AMOUNT_ELEMENT} {TOKEN} 转账"
     },
     "ISSUE_REPORT": {
       "SETTINGS_TITLE": "报告问题",
       "LOADING_TITLE": "加载日志文件......",
-      "LOADING_COMPLETED_TITLE": "已创建日志文件",
+      "LOADING_COMPLETED_TITLE": "日志文件已创建",
       "LOADING_ERROR_TITLE": "创建日志文件失败",
       "EMAIL_SUBJECT": "问题报告",
       "EMAIL_BODY": "请描述您面对的问题：",
@@ -431,16 +432,16 @@
       "PREDICTION_MARKETS": "预测市场",
       "LEVERAGE_TRADE_US_ELECTION_SHORT": "利用预测市场杠杆",
       "WITH_PREDICTION_MARKETS": "交易美国大选",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "如果事件按预测发生，预测市场将结算为 $1。 否则将以 $0 结算。",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "如果事件按预测发生，预测市场将结算为 1 美元。 否则将以 $0 结算。",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"杠杆交易事件结果",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"涉及广泛的主题，包括政治、体育、流行文化等。",
-      "SETTLEMENT_OUTCOMES_TITLE": "$0 或 $1 结算",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "如果事件发生，市场将自动结算为 $1。 否则将以 ~$0 结算。 价格相当于结果发生的百分比机会。"
+      "SETTLEMENT_OUTCOMES_TITLE": "0 美元或 1 结算美元",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "如果事件发生，市场将自动结算为 1 美元。否则将以 ~$0 结算。 价格相当于结果发生的百分比机会。"
     }
   },
   "RATE_APP": {
     "YES": "是",
-    "NO": "其实并不是",
+    "NO": "未必",
     "DEFER": "撤销",
     "QUESTION": "您是否喜欢 dYdX？"
   },
