@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Affiliate-Provisionen",
-      "BODY": "Affiliates verdienen Provision auf Taker-Gebühren, die von den empfohlenen Benutzern gezahlt werden. Um einen Affiliate-Gebührenanteil zu generieren, müssen die empfohlenen Benutzer ein rollierendes 30-Tage-Volumen unter 50 Mio. USD haben, wenn sie den Handel durchführen."
+      "BODY": "Affiliates verdienen Provisionen auf Taker-Gebühren, die von empfohlenen Benutzern gezahlt werden. Um einen Affiliate-Gebührenanteil zu generieren, müssen die empfohlenen Benutzer ein rollendes 30-Tage-Volumen unter 50 Mio. USD haben, wenn sie den Handel tätigen."
     }
   },
   "PORTFOLIO": {
@@ -30,7 +30,7 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Kontobeleihung",
-      "BODY": "Leverage auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
+      "BODY": "Hebelwirkung auf Basis all Ihrer im Konto bestehenden offenen Positionen. Da Ihr Konto cross-margined ist, hat jede offene Position ihre eigene Hebelwirkung und beeinflusst gleichzeitig auch Ihre gesamte Konto-Hebelwirkung."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Verfügbares Guthaben",
@@ -106,11 +106,11 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Initialer Stop",
-      "BODY": "Der anfängliche Stop-Preis, basierend auf Ihrem Trailing-Prozentsatz. "
+      "BODY": "Der anfängliche Stop-Preis, basierend auf Ihrem Trailing-Prozentsatz."
     },
     "LEVERAGE": {
       "TITLE": "Hebel",
-      "BODY": "Die Hebelwirkung ändert das Ausmaß Ihrer Gewinne oder Verluste. Durch Erhöhen Ihres Hebels steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
+      "BODY": "Die Hebelwirkung verändert den Multiplikator Ihrer Gewinne oder Verluste. Durch Erhöhen Ihres Hebels steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
     },
     "LIMIT_CLOSE": {
       "TITLE": "Limit Schließung",
@@ -118,7 +118,7 @@
     },
     "LIMIT_PRICE": {
       "TITLE": "Limit-Preis",
-      "BODY": "Diese Order kann nur zum angegebenen Limit-Preis oder besser ausgeführt werden. Wenn sich Ihre Order zum Zeitpunkt der Auftragserteilung überschneidet, wird sie alle Crossing Orders zum günstigsten Preis erfüllen."
+      "BODY": "Diese Order kann nur zum angegebenen Limit-Preis oder besser ausgeführt werden. Wenn sich Ihre Order zum Zeitpunkt der Order-Erteilung überschneidet, wird sie alle Crossing Orders zum günstigsten Preis erfüllen."
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Limit-Preis",
@@ -146,7 +146,7 @@
     },
     "LIQUIDITY": {
       "TITLE": "Liquidität",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market- oder Crossing-Limit-Orders), werden als Taker-Orders ausgeführt. Limit-Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market- oder Crossing-Limit-Orders) werden als Taker Orders ausgeführt. Limit-Orders, die dem Orderbuch mehr Liquidität verschaffen und von einer anderen Partei ausgeführt werden, werden als Maker Orders ausgeführt."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Maintenance Margin-Fraktion",
@@ -190,11 +190,11 @@
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
+      "BODY": "Betrag für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag in USD für den Kauf oder Verkauf. {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
+      "BODY": "Betrag in USD für den Kauf oder Verkauf. .{SYMBOL} Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Stop-Loss ist ein teilweises Schließen",
@@ -218,7 +218,7 @@
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
-      "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
+      "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Order-Erteilung andere Orders überschneidet, wird diese automatisch storniert."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Post-Only",
@@ -250,7 +250,7 @@
     },
     "SPREAD": {
       "TITLE": "Spread",
-      "BODY": "Der Preisunterschied zwischen dem höchsten (dem Preis, für den ein Käufer kaufen will) und  niedrigsten Gebot (der Preis, für den Verkäufer verkaufen will) für einen Vermögenswert."
+      "BODY": "Der Preisunterschied zwischen dem höchsten (dem Preis, für den ein Käufer kaufen will) und niedrigsten Gebot (der Preis, für den Verkäufer verkaufen will) für einen Vermögenswert."
     },
     "STEP_SIZE": {
       "TITLE": "Step Size",
@@ -270,7 +270,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Taker-Gebühr",
-      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z.B. Market- oder Crossing-Limit-Orders), werden als Taker-Orders ausgeführt. Taker Orders haben eine höhere Gebühr als Maker Orders."
+      "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market- oder Crossing-Limit-Orders) werden als Taker Orders ausgeführt. Taker Orders haben eine höhere Gebühr als Maker Orders."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take Profit",
@@ -285,7 +285,7 @@
       "BODY": "Die Tickgröße ist die minimale Preisbewegung auf diesem Markt."
     },
     "TIME_IN_FORCE": {
-      "TITLE": "Time In Force",
+      "TITLE": "Time-In-Force",
       "BODY": "Die gewählte Gültigkeitsdauer-Option bestimmt, wie lange eine Order aktiv bleibt, bis sie entweder abläuft oder ausgeführt wird."
     },
     "TRAILING_PERCENT": {
@@ -335,13 +335,13 @@
     },
     "SWAP": {
       "TITLE": "Tauschen & Einzahlen",
-      "BODY": "Wenn Sie ein Nicht-USDC-Asset einzahlen, wird Ihr Vermögenswert automatisch über die 0x API in USDC konvertiert. Wenn Sie die maximale Slippage festlegen, können Sie die Slippage angeben, die Sie zulassen, bevor die Umwandlung fehlschlägt."
+      "BODY": "Wenn Sie ein Non-USDC Asset einzahlen, wird Ihr Vermögenswert automatisch über die 0x API in USDC konvertiert. Wenn Sie die maximale Slippage festlegen, können Sie die Slippage angeben, die Sie zulassen, bevor die Umwandlung fehlschlägt."
     }
   },
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Netzwerkgebühr",
-      "BODY": "Dies sind die Gaskosten für die Einzahlungs- und Set-Allowance-Transaktionen, die an Ethereum-Miner gezahlt werden. Sie müssen den Freibetrag nur einmal pro eingezahltem Vermögenswert festlegen."
+      "BODY": "Dies sind die Gaskosten der Einzahlungs- und Set-Gutschrift-Transaktionen, die an Ethereum-Miner gezahlt werden. Sie müssen den Freibetrag nur einmal pro eingezahltem Vermögenswert festlegen."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Netzwerkgebühr",
@@ -350,8 +350,8 @@
   },
   "TRIGGER_ORDERS": {
     "UNEQUAL_ORDER_SIZES": {
-      "TITLE": "Ungleiche Bestellgrößen",
-      "BODY": "Ihre Take-Profit- und Stop-Loss-Orders haben verschiedene Ordergrößen. Um die Bestellgröße zu ändern, stornieren Sie bitte die Bestellungen und erstellen Sie sie neu."
+      "TITLE": "Ungleiche Order-Größen",
+      "BODY": "Ihre Take-Profit- und Stop-Loss-Orders haben verschiedene Ordergrößen. Um die Order-Größe zu ändern, stornieren Sie bitte die Orders und erstellen Sie sie neu."
     }
   },
   "WITHDRAW": {
