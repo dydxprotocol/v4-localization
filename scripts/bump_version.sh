@@ -15,7 +15,7 @@ read NEW_VERSION
 
 # If NEW_VERSION is not empty, replace the version in package.json
 if [ -n "$NEW_VERSION" ]; then
-  sed -i '' "s/  \"version\": \"$VERSION\"/  \"version\": \"$NEW_VERSION\"/" package.json
+  sed -i "s/  \"version\": \"$VERSION\"/  \"version\": \"$NEW_VERSION\"/" package.json
   echo "Version bumped to $NEW_VERSION"
   npm i
 fi
