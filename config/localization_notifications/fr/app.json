@@ -6,7 +6,7 @@
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Expérience de commande conditionnée actualisée !",
-      "BODY": "Les commandes conditionnées sur la chaîne dYdX ont été complètement revues ! Elles sont désormais plus fiables, plus intuitives et plus performantes que jamais. Voir plus de détails {TWITTER_LINK}."
+      "BODY": "Les ordres conditionnels sur la chaîne dYdX ont été complètement revus ! Ils sont désormais plus fiables, plus intuitifs et plus performants que jamais. Voir plus de détails {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Position désendettée",
@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Gagnez jusqu'à 200 $ en 30 minutes !",
-      "BODY": "Faites de votre parcours de trading le meilleur possible en participant à une interview d'utilisateur et en partageant les commentaires. Les places sont limitées, alors cliquez {HERE_LINK}pour vous inscrire ou en savoir plus !"
+      "BODY": "Faites de votre parcours de trading le meilleur possible en participant à une interview d'utilisateur et en partageant les commentaires. Les places sont limitées, alors cliquez {HERE_LINK}pour vous inscrire ou en savoir plus !"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position réglée",
@@ -26,11 +26,11 @@
     },
     "IN_APP_STAKING_LIVE": {
       "TITLE": "Vous pouvez maintenant miser sur DYDX !",
-      "BODY": "Recevoir des récompenses USDC."
+      "BODY": "Recevoir des récompenses en USDC."
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "La saison {SEASON_NUMBER} a commencé !",
-      "BODY": "Au cours de la saison {PREV_SEASON_NUMBER}, les récompenses médianes gagnées étaient {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) !"
+      "BODY": "Au cours de la saison {PREV_SEASON_NUMBER}, les récompenses médianes gagnées ont été de {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) !"
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "La saison {SEASON_NUMBER}est terminée !",
@@ -41,7 +41,7 @@
       "BODY": "La marge isolée est maintenant en ligne ! Pour en savoir plus, rendez-vous dans {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "Les récompenses de {SEASON_NUMBER}lancement de la saison ont été distribuées !",
+      "TITLE": "Les récompenses de {SEASON_NUMBER}lancement de la saison ont été distribuées !",
       "BODY": "Récompenses de la saison {SEASON_NUMBER} +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
@@ -58,7 +58,7 @@
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Ordre déclenché",
-      "BODY": "Votre commande à {SIDE} {AMOUNT} {MARKET} a été déclenchée."
+      "BODY": "Votre ordre à {SIDE} {AMOUNT} {MARKET} a été déclenché."
     },
     "ORDER_CANCEL": {
       "TITLE": "Ordre annulé",
@@ -66,7 +66,7 @@
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Commande annulée avec Exécution Partielle",
-      "BODY": "Votre commande à {SIDE} {AMOUNT} {MARKET} été annulée avec {TOTAL_FILLED} une exécution partielle."
+      "BODY": "Votre ordre à    a été annulé avec  une exécution partielle.{SIDE}{AMOUNT}{MARKET}{TOTAL_FILLED}"
     },
     "LIQUIDATION": {
       "TITLE": "Position liquidée",
@@ -74,7 +74,7 @@
     },
     "POSITION_CLOSED": {
       "TITLE": "Position fermée",
-      "BODY": "Votre position sur {MARKET} a été liquidée."
+      "BODY": "Votre position sur {MARKET} a été clôturée."
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Dépôt réussi",
@@ -102,19 +102,19 @@
     },
     "STOP_LOSS_TRIGGER_CREATING": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte est créé à {NEW_VALUE}."
+      "BODY": "Votre déclenchement du stop loss est créé à {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte à  n'a pas {NEW_VALUE} pu être créé."
+      "BODY": "Votre déclenchement du stop loss à {NEW_VALUE} n'a pas pu être créé."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte à {NEW_VALUE} a été créé."
+      "BODY": "Votre déclenchement du stop loss à {NEW_VALUE} a été créé."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
-      "BODY": "Votre déclencheur de prise de profit est créé à {NEW_VALUE}."
+      "BODY": "Votre déclenchement du take profit est créé à {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Take Profit",
@@ -126,7 +126,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte est mis à jour vers {NEW_VALUE}."
+      "BODY": "Votre déclencheur du stop loss est mis à jour vers {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Stop Loss",
@@ -134,11 +134,11 @@
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur d'arrêt de perte se déclenchera maintenant à {NEW_VALUE}."
+      "BODY": "Votre déclencheur du stop loss se déclenchera maintenant à {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "Take Profit",
-      "BODY": "Votre déclencheur de prise de profit est mis à jour vers {NEW_VALUE}."
+      "BODY": "Votre déclenchement de take profit est mis à jour vers {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Take Profit",
@@ -173,12 +173,12 @@
       "BODY": "Votre déclencheur de prise de profit à \n{OLD_VALUE} a été supprimé."
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "Vous voulez plus de soutien ?",
-      "BODY": "Merci d'être un grand trader sur dYdX ! L'équipe aimerait vous offrir un niveau de soutien personnalisé plus élevé et la possibilité de communiquer directement avec eux.",
+      "TITLE": "Vous voulez plus d'aide ?",
+      "BODY": "Merci d'être un grand trader sur dYdX ! L'équipe aimerait vous offrir un niveau de soutien personnalisé plus élevé et la possibilité de communiquer directement avec eux.",
       "ACTION": "Prenez contact →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "Prix de 20 000 $ à gagner",
+      "TITLE": "Prix de 20 000 $ à gagner",
       "BODY": "Afin de célébrer le dépassement de 200 milliards de dollars en volume de trading cumulés, dYdX organise un tirage au sort sur Twitter, où vous pourrez remporter 200 dollars. 100 gagnants seront sélectionnés au hasard après le 16 Août 2024, 23:59 UTC {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
@@ -186,32 +186,32 @@
       "BODY": "Le {DATE}, le marché {MARKET} a fait l'objet d'un règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Proposition en direct pour la fermeture du marché {MARKET}",
-      "BODY": "Il existe actuellement une proposition en direct pour fermer le {MARKET}marché. Si elle est adoptée le marché {MARKET} entrera dans le règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+      "TITLE": "Proposition en direct de liquidation du marché {MARKET}",
+      "BODY": "Il existe actuellement une proposition en direct de liquidation du {MARKET}marché. Si elle est adoptée, le marché {MARKET} entrera en règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "Les marchés {MARKET_1} et {MARKET_2} ont chuté",
+      "TITLE": "Les marchés {MARKET_1} et {MARKET_2} ont été liquidés",
       "BODY": "Le {DATE}, les marchés {MARKET_1} et {MARKET_2} ont été soumis au règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Proposition en direct pour la réduction des marchés {MARKET_1} et {MARKET_2}",
-      "BODY": "Il existe actuellement une proposition en direct pour réduire les marchés {MARKET_1} et {MARKET_2}. En cas de validation, les marchés {MARKET_1} et {MARKET_2} passeront en phase de règlement final le . {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+      "BODY": "Il existe actuellement une proposition en direct de liquidation des marchés {MARKET_1} et {MARKET_2}. En cas de validation, les marchés {MARKET_1} et {MARKET_2} passeront en phase de règlement final le . {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposition en direct pour la mise à jour des {MARKET} paramètres",
       "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du {MARKET}marché. Si elle est adoptée, le {MARKET}marché aura Coinbase Pro {MARKET}comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "Comment trader les élections présidentielles américaines!",
-      "BODY": "{MARKET} est à présent en ligne Ce marché s'établira à 1$ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
+      "TITLE": "Comment miser sur les élections présidentielles américaines !",
+      "BODY": "{MARKET} est à présent en ligne Ce marché se règlera à 1 $ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX prend maintenant en charge Keplr !",
-      "BODY": "Vous pouvez maintenant lier et utiliser dYdX avec votre portefeuille Keplr ! Essayez-le maintenant."
+      "BODY": "Vous pouvez maintenant connecter et utiliser dYdX avec votre portefeuille Keplr ! Essayez-le dès maintenant."
     },
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX prend maintenant en charge Phantom !",
-      "BODY": "Vous pouvez maintenant brancher et utiliser dYdX avec votre portefeuille Phantom ! Essayez-le maintenant."
+      "BODY": "Vous pouvez maintenant brancher et utiliser dYdX avec votre portefeuille Phantom ! Essayez-le dès maintenant."
     }
   }
 }
