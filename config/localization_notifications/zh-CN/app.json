@@ -21,7 +21,7 @@
       "BODY": "{MARKET} 已平仓。 您在{MARKET}上的{SIDE}头寸已完成最终结算。"
     },
     "FOK_DEPRECATION": {
-      "TITLE": "全部成交否则取消(FOK)订单已弃用",
+      "TITLE": "全部成交否则取消 (FOK) 订单已弃用",
       "BODY": "全部成交否则取消 (FOK) 订单已被弃用。 所有其他订单类型继续可用。"
     },
     "IN_APP_STAKING_LIVE": {
@@ -50,7 +50,7 @@
     },
     "ORDER_FILL": {
       "TITLE": "订单已成交",
-      "BODY": "您对{SIDE} {AMOUNT} {MARKET}的订单已按${AVERAGE_PRICE}成交。"
+      "BODY": "您对{SIDE} {AMOUNT} {MARKET}的订单已按{AVERAGE_PRICE}美元成交。"
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "订单已部分成交",
@@ -66,7 +66,7 @@
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "订单已取消，部分成交",
-      "BODY": "您的订单 {SIDE} {AMOUNT} {MARKET} 已取消， {TOTAL_FILLED} 部分成交。"
+      "BODY": "您对 {SIDE} {AMOUNT} {MARKET} 的订单已取消， {TOTAL_FILLED} 部分成交。"
     },
     "LIQUIDATION": {
       "TITLE": "已清算的头寸",
@@ -90,7 +90,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "奖励和交易功能已在 dYdX Chain 上线！",
-      "BODY": "完整交易已在 dYdX Chain 上线！这包括质押奖励、交易奖励以及 Chaos Labs 的为期 6 个月的启动激励计划。了解更多关于{DOS_BLOGPOST}和{TRADING_BLOGPOST}的信息（第三方链接）。"
+      "BODY": "完整交易已在 dYdX Chain 上线！这包括质押奖励、交易奖励以及 Chaos Labs 为期 6 个月的启动激励计划。了解更多关于{DOS_BLOGPOST}和{TRADING_BLOGPOST}的信息（第三方链接）。"
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "待处理的正常提现",
@@ -113,15 +113,15 @@
       "BODY": "已创建您在{NEW_VALUE}的止损触发器。"
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "您的止盈触发器正创建于{NEW_VALUE}。"
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "无法创建您在{NEW_VALUE}的止盈触发器。"
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "已创建您在{NEW_VALUE}的止盈触发器。"
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
@@ -134,19 +134,19 @@
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "止损",
-      "BODY": "您的止损触发器现在将在{NEW_VALUE}被触发。"
+      "BODY": "您的止损触发器将立即在{NEW_VALUE}被触发。"
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "您的止盈触发器正在更新为{NEW_VALUE}。"
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "无法替换您在{OLD_VALUE}的止盈触发器。"
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
-      "TITLE": "获得利润",
-      "BODY": "您的止盈触发器现在将在{NEW_VALUE}被触发。"
+      "TITLE": "止盈",
+      "BODY": "您的止盈触发器将立即在{NEW_VALUE}被触发。"
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "止损",
@@ -161,45 +161,45 @@
       "BODY": "您在{OLD_VALUE}的止损触发器已被移除。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "您在{OLD_VALUE}的止盈触发器正在被移除。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "无法取消您在{OLD_VALUE}的止盈触发器。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
-      "TITLE": "获得利润",
+      "TITLE": "止盈",
       "BODY": "您在{OLD_VALUE}的止盈触发器已被移除。"
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "想要更多支持？",
-      "BODY": "感谢您成为 dYdX 上的大交易者！ 团队希望为您提供更高层次的个人化支持，并有机会直接与他们联系。",
+      "BODY": "感谢您成为 dYdX 上的大交易者！ 团队希望为您提供更高层次的个人化支持，以及直接与他们联系的机会。",
       "ACTION": "联系我们 →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "$20K 赠品",
-      "BODY": "为庆祝累计交易量超过 2000 亿美元，dYdX 将举办 Twitter 赠品活动，您有机会领取 200 美元。2024 年 8 月 16 日 23:59 UTC 之{HERE_LINK}后，将通过随机选择机制选出 100 名获奖者。"
+      "TITLE": "2 万美元赠品",
+      "BODY": "为庆祝累计交易量超过 2000 亿美元，dYdX 将举办 Twitter 赠品活动，您有机会领取 200 美元。2024 年 8 月 16 日 23:59（协调世界时）之后，将通过随机选择机制选出 100 名获奖者{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET}市场结束交易",
-      "BODY": "在 {DATE}，{MARKET} 市场通过最终结算。现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
+      "BODY": "在 {DATE}，{MARKET} 市场通过最终结算。现有头寸已平仓，未平仓订单现已取消。 您可以查找有关最终结算的更多信息{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "逐步结束 {MARKET} 市场的现场提议",
-      "BODY": "目前有一个逐步结束 {MARKET} 市场的现场提议。如果通过，{MARKET}市场将进入最终结算{DATE}。现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+      "BODY": "目前有一个逐步结束 {MARKET} 市场的现场提议。如果通过，{MARKET}市场将进入最终结算{DATE}。现有头寸将平仓，未平仓订单将取消。 您可以查找有关该提议的更多信息{HERE_LINK}。"
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}和{MARKET_2}市场关闭",
-      "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以找到有关最终结算的更多信息{HERE_LINK}。"
+      "BODY": "在 {DATE}，{MARKET_1}和{MARKET_2}市场通过最终结算。 现有头寸已平仓，未平仓订单现已取消。 您可以查找有关最终结算的更多信息{HERE_LINK}。"
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "关闭{MARKET_1}和{MARKET_2}市场的现场提议",
-      "BODY": "目前有关闭{MARKET_1}和{MARKET_2}市场的现场提议。 如果通过，{MARKET_1}和{MARKET_2}市场将于 {DATE} 进入最终结算。 现有头寸将平仓，未平仓订单将取消。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+      "BODY": "目前有逐步关闭{MARKET_1}和{MARKET_2}市场的现场提议。 如果通过，{MARKET_1}和{MARKET_2}市场将于 {DATE} 进入最终结算。 现有头寸将平仓，未平仓订单将取消。 您可以查找有关该提议的更多信息{HERE_LINK}。"
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "更新 {MARKET} 参数的现场提议",
-      "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过， {MARKET} 市场会将 CoinbasePro {MARKET} 作为唯一的预言机来源。 您可以找到有关该提议的更多信息{HERE_LINK}。"
+      "BODY": "目前有一个更新 {MARKET} 市场参数的现场提议。 如果通过，{MARKET} 市场会将 Coinbase Pro {MARKET} 作为唯一的预言机来源。 您可以查找有关该提议的更多信息{HERE_LINK}。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "押注美国总统大选！",
