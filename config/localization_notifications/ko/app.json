@@ -54,7 +54,7 @@
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "주문이 부분적으로 체결되었습니다",
-      "BODY": "{SIDE} {AMOUNT}에{MARKET} 대한 주문 이{FILLED_AMOUNT}({MARKET}가) 완료되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET} 에 대한 주문 {FILLED_AMOUNT} {MARKET} 가 완료되었습니다."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "주문이 발동되었습니다",
@@ -195,11 +195,11 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} 및 {MARKET_2} 시장 마감을 위한 라이브 제안",
-      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. 제안에 대한 자세한 내용을 확인할 수 있습니다: {HERE_LINK}."
+      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} 매개변수를 업데이트하는 라이브 제안",
-      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로{MARKET}를 유일한 오라클 소스로 사용합니다. 제안에 대한 자세한 내용을 확인할 수 있습니다: {HERE_LINK}."
+      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로{MARKET}를 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "미국 대통령 선거를 거래하세요!",
