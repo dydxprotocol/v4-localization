@@ -2379,6 +2379,7 @@
     "AVAILABLE_ON_CHAIN": "Available on {CHAIN}",
     "BALANCE_ON_CHAIN": "Balance on {CHAIN}",
     "BANNER_ALPHA_CONTENT": "dYdX Chain is in Alpha - help secure the network by staking!",
+    "BANNER_CEASE_SUPPORT_WETHDYDX": "Following a governance {VOTE} by the dYdX Community, support for the {SMART_CONTRACT} on the dYdX Chain is expected to be discontinued from June 2025. More information is available here {BLOG_POST}. Users should note and understand that, any ethDYDX holders that do not interact with the wethDYDX Smart Contract prior to the date on which the dYdX Chain ceases to support the wethDYDX Smart Contract (i.e., June 2025) will likely be unable to convert their ethDYDX tokens into dYdX-Chain DYDX tokens in the future (potentially indefinitely).",
     "BEFORE": "Before",
     "CHECK_STATUS": "Check status",
     "CONFIRM_MIGRATION_DISCLAIMER_1": "I understand it may take 24-48 hours until my tokens are available on the dYdX Chain.",
@@ -2432,7 +2433,9 @@
     "SENDING_IN_PROGRESS": "Sending in progress",
     "SENDING_SUCCESSFUL": "Sending successful",
     "STARTED": "Started",
-    "WALLET_SIGNATURE": "wallet signature"
+    "VOTE": "vote",
+    "WALLET_SIGNATURE": "wallet signature",
+    "WETHDYDX_SMART_CONTRACT": "wethDYDX Smart Contract"
   },
   "CHAIN": {
     "V3_MAINNET": "V3 Mainnet",
