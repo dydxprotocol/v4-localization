@@ -23,7 +23,7 @@
       "ACTIVITIES": "Atividades",
       "ADD_NEW_WALLET": "Adicionar nova carteira",
       "ALERTS": "Alertas",
-      "AMOUNT_AND_FILLED": "Valor \/ Executado",
+      "AMOUNT_AND_FILLED": "Valor \/ Preenchido",
       "AMOUNT_RATE": "Valor \/ Taxa",
       "AUTHENTICATE_WITH_FACE_ID": "Autenticar com Face ID",
       "AUTHENTICATE_WITH_TOUCH_ID": "Autenticar com Touch ID",
@@ -33,12 +33,12 @@
       "CONNECT_WALLET_TEXT": "Certifique-se de que a conta correta está selecionada na sua carteira.",
       "COUNTRY": "País",
       "DESTINATION": "Destino",
-      "DOCS": "Doctos.",
+      "DOCS": "Documentos",
       "DONT_SHOW_AGAIN": "Não mostrar isso novamente",
       "EARN": "Você ganhará",
       "ERROR": "Erro",
       "FAILED": "Falha",
-      "FOUNDATION": "Foundation",
+      "FOUNDATION": "Fundação",
       "FULL_CLOSE": "Fechamento completo",
       "FUNDING_EARNED": "Financiamento obtido",
       "FUNDING_PAID": "Financiamento pago",
@@ -52,10 +52,10 @@
       "ISOLATED_POSITIONS_COMING_SOON": "Posições isoladas disponíveis em breve em celular",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Ordens para posições isoladas em breve estarão disponíveis para dispositivos móveis",
       "LAYER_2": "Segunda camada (L2)",
-      "LEADERBOARDS": "Tabelas de Classificação",
+      "LEADERBOARDS": "Tabelas de líderes",
       "LEARN_MORE_ABOUT_WALLETS": "Saiba mais sobre carteiras",
       "LINE": "Linha",
-      "LIQ_ORACLE": "Líq. \/ Oracle",
+      "LIQ_ORACLE": "Líq. \/ Oráculo",
       "LOSERS": "Perdedores",
       "MANAGE": "Gerenciar",
       "MARKET_CAP_SHORT": "Capitalização de mercado",
@@ -95,7 +95,7 @@
       "SERVICE_STATUS_CANCEL_ONLY": "Cancelar apenas",
       "SERVICE_STATUS_OFFLINE": "Off-line",
       "SERVICE_STATUS_ONLINE": "On-line",
-      "SERVICE_STATUS_POST_ONLY": "Publicar apenas",
+      "SERVICE_STATUS_POST_ONLY": "Somente publicar",
       "SHARE_YOUR_RANKING": "Compartilhe sua classificação",
       "SHARE_YOUR_RANKING_TEXT": "Permita que outras pessoas conheçam seu desempenho",
       "SIGN_OUT": "Sair",
@@ -113,7 +113,7 @@
       "TRADE_RESTRICTED": "Trades restritos",
       "TRANSFER_OUT": "Saque eletrônico",
       "TUTORIALS": "Tutoriais",
-      "TYPE_AMOUNT": "Tipo\/Valor",
+      "TYPE_AMOUNT": "Tipo \/ Valor",
       "WALLETS": "Carteiras",
       "WARNING": "Aviso",
       "YOUR_NAME_HERE": "Seu nome aqui",
@@ -137,15 +137,15 @@
     },
     "ONBOARDING": {
       "AFFILIATE_NOTICE": "Os programas de indicação estão sujeitos a alterações a critério da dYdX Trading, Inc.",
-      "AFFILIATE_PROMPT": "Se tiver um link de afiliado, toque nele.",
+      "AFFILIATE_PROMPT": "Se você tiver um link de afiliado, toque nele.",
       "AFFILIATE_REFERRAL_NOT_QUALIFIED": "Apenas novas contas podem receber descontos originados de indicações.",
       "AFFILIATE_TEXT": "convidou você para começar a negociar na plataforma mais avançada e aberta.",
       "CREATE_ACCOUNT_TEXT": "Nome de usuário e e-mail são opcionais e você pode alterá-los a qualquer momento em seu Perfil.",
-      "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "Nome de usuário é obrigatório, mas o e-mail é opcional. Você poderá alterar ou atualizá-los a qualquer momento em seu Perfil.",
+      "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "O nome de usuário é obrigatório, mas o e-mail é opcional. Você poderá alterar ou atualizá-los a qualquer momento em seu Perfil.",
       "CREATE_ACCOUNT_ADDITIONAL": "A dYdX somente usa suas informações para melhorar a experiência com o produto e não para fins de marketing.",
       "EDIT_ACCOUNT": "Editar conta",
       "EDIT_ACCOUNT_TEXT": "Nome de usuário e e-mail são opcionais e você pode alterá-los a qualquer momento em seu Perfil.",
-      "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "Nome de usuário é obrigatório, mas o e-mail é opcional. Você poderá alterar ou atualizá-los a qualquer momento em seu Perfil.",
+      "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "O nome de usuário é obrigatório, mas o e-mail é opcional. Você poderá alterar ou atualizá-los a qualquer momento em seu Perfil.",
       "INFO": "A dYdX somente usa suas informações para melhorar sua experiência com o produto e não para compartilhá-las.",
       "MISSING_COUNTRY_DESC": "Informe seu país de residência. Essa informação não poderá ser alterada posteriormente.",
       "NO_FUTURE_ACCESS_TITLE": "Não estou em um território restrito",
@@ -160,6 +160,7 @@
       "SCAN_QR_CODE_ERROR": "Código não reconhecido",
       "SCAN_QR_CODE_SHORT": "Digitalize o QR",
       "SELECT_WALLET": "Selecione a carteira",
+      "SWITCH_TO_WALLET": "Abra seu aplicativo {WALLET} para continuar.",
       "SELECT_WALLET_TEXT": "Com base nas carteiras compatíveis com a dYdX, encontramos as opções a seguir.",
       "UNDERSTAND_RISKS_TITLE": "Entendo os riscos",
       "USERNAME_REQUIRED": "O nome de usuário é obrigatório",
@@ -180,12 +181,12 @@
       "DEPOSIT_GAS_FREE": "Este depósito não terá cobrança de taxa de “gas”!",
       "DEPOSIT_CONNECT": "Você receberá uma solicitação de conexão.",
       "DEPOSIT_OVERVIEW": "Você receberá uma solicitação de conexão e duas solicitações de transação.",
-      "DEPOSIT_AVAILABLE": "O depósito atende requisito de depósito sem \"gas\" mínimo de {DOLLAR_AMOUNT}. A dYdX cobrirá as taxas de \"gas\" para este depósito. Seu limite é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
+      "DEPOSIT_AVAILABLE": "O depósito atende requisito de depósito sem “gas” mínimo de {DOLLAR_AMOUNT}. A dYdX cobrirá as taxas de “gas” para este depósito. Seu limite é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Sujeito a estas regras",
-      "MINIMUM_DEPOSIT_MET": "Ótimo! Seu depósito atende ao valor mínimo de depósito sem cobrança de tarifa de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. A dYdX cobrirá as taxas de \"gas\" para este depósito. {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "O valor do seu depósito está abaixo do mínimo para depósitos sem cobrança de tarifa. Deposite mais de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} e a dYdX pagará as taxas de \"gas\" para este depósito. Você também pode continuar com esse depósito e pagar suas próprias tarifas de \"gas\". {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_ETH_DEPOSITS_NATIVE": "Os depósitos sem cobrança de tarifas não estão disponíveis para ETH. Você pode converter seus ETH para WETH nas plataformas 1inch ou Uniswap, usando depósitos WETH sem cobrança de tarifa, ou depositar ETH diretamente e pagar suas próprias tarifas de \"gas\". {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_DEPOSIT_REACHED_LIMIT": "Depósito sem \"gas\" não está disponível. Seu limite de depósitos sem \"gas\" é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_MET": "Ótimo! Seu depósito atende ao valor mínimo de depósito sem cobrança de tarifa de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. A dYdX cobrirá as taxas de “gas” para este depósito. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "O valor do seu depósito está abaixo do mínimo para depósitos sem cobrança de tarifa. Deposite mais de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} e a dYdX pagará as taxas de “gas” para este depósito. Você também pode continuar com esse depósito e pagar suas próprias tarifas de “gas”. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_ETH_DEPOSITS_NATIVE": "Os depósitos sem cobrança de tarifa não estão disponíveis para ETH. Você pode converter seus ETH para WETH nas plataformas 1inch ou Uniswap, usando depósitos WETH sem cobrança de tarifa, ou depositar ETH diretamente e pagar suas próprias tarifas de “gas”. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_DEPOSIT_REACHED_LIMIT": "Depósito sem “gas” não está disponível. Seu limite de depósitos sem cobrança de tarifa é redefinido a cada três dias. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "Utilize o depósito sem cobrança de tarifa",
       "1_REMAINING": "Resta 1",
       "PROVIDER": "Provedor"
@@ -200,7 +201,7 @@
     },
     "PORTFOLIO": {
       "ESTIMATED_REWARDS": "Estimado",
-      "EPOCH_ENDS_IN": "Epoch termina em"
+      "EPOCH_ENDS_IN": "O período termina em"
     },
     "TRADE": {
       "BRACKET_ORDER": {
@@ -221,7 +222,7 @@
       "NOT_TRIGGERED_STATUS_DESC": "Sua ordem não foi disparada.",
       "NOT_SET": "Não definido",
       "ORDER_CANCELED_DESC": "Sua ordem foi cancelada.",
-      "ORDER_COULD_NOT_FILL": "Uma ordem FoK (Executar ou Encerrar) ou uma ordem IoC (se parte da ordem não for executada, deve ser cancelada) não pode ser totalmente executada.",
+      "ORDER_COULD_NOT_FILL": "Uma ordem Executar ou encerrar ou uma ordem Imediato ou cancelar não pôde ser totalmente preenchida.",
       "ORDER_FAILED": "Um problema interno fez com que a ordem fosse cancelada.",
       "ORDER_FILLED_DESC": "Sua ordem foi executada com sucesso.",
       "ORDER_PENDING_DESC": "Sua ordem foi enviada.",
@@ -260,7 +261,7 @@
         "SELECT_MODE": "Selecionar modo",
         "SWAP": "Swap",
         "SIMPLE_AND_EASIER": "Simples e fácil de usar",
-        "PRO": "Pro",
+        "PRO": "Profissional",
         "FULLY_FEATURED": "Completo"
       },
       "YOUR_POSITION": "Sua posição em {TOKEN}",
@@ -271,17 +272,17 @@
       "SWAP": "Swap",
       "RISK": "Risco",
       "FROM_TO": "de {TOKEN_FROM} a {TOKEN_TO}",
-      "CLOSING_POSITION": "posição em {TOKEN_FROM}",
+      "CLOSING_POSITION": "Posição em {TOKEN_FROM}",
       "PLACE_ANOTHER_TRADE": "Colocar outro trade",
       "US_DOLLAR": "Dólar dos EUA",
       "CONFIRM_TRADE": "Confirmar trade",
       "CONVERSION_RATE": "Taxa de conversão",
       "SWAP_MARGIN_ERROR_TEXT": "Mudar para o modo Pro para ter acesso a uma maior alavancagem.",
       "SWAP_INTRO": {
-        "TITLE": "Modo Swap",
+        "TITLE": "Modo swap",
         "SUBTITLE": "Criamos uma maneira mais fácil de fazer trades na dYdX",
         "ITEM_1_TITLE": "Interface familiar",
-        "ITEM_1_SUBTITLE": "Negociar na dYdX por meio de uma interface familiar simplificada",
+        "ITEM_1_SUBTITLE": "Negocie na dYdX utilizando uma interface familiar simplificada",
         "ITEM_2_TITLE": "Simples mas poderosa",
         "ITEM_2_SUBTITLE": "Negocie qualquer ativo por qualquer outro, como o Uniswap, mas com alavancagem",
         "CONTINUE": "Experimente"
@@ -311,7 +312,7 @@
       }
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_TITLE": "Modo Somente fechamento",
+      "CLOSE_ONLY_TITLE": "Modo apenas fechamento",
       "CLOSE_ONLY_BODY": "Você foi bloqueado porque parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso, ou se envolveu em atividades que violam nossos termos de uso. Você tem até {DATE} para sacar seus fundos antes que seu acesso ao aplicativo seja bloqueado. Visite a interface da web para ver as próximas etapas. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqueado permanentemente",
       "PERMANENTLY_BLOCKED_BODY": "Como você parece ser residente ou estar negociando em uma jurisdição que viola nossos termos de uso e já teve a oportunidade de corrigir circunstâncias que levaram a restrições na sua conta, você foi permanentemente bloqueado. Se você acredita que houve um erro, entre em contato com o suporte em {HELP_LINK}."
@@ -366,7 +367,7 @@
       "INDEXER_ALERT": "Alerta do indexador",
       "INDEXER_DOWN": "Não foi possível obter a altura do bloco atual do Indexador.",
       "INDEXER_HALTED": "O indexador parou no bloco {HALTED_BLOCK}.",
-      "INDEXER_TRAILING": "O indexador está atrasado em relação ao Validador por {TRAILING_BLOCKS} blocos. Espere por atrasos consideráveis.",
+      "INDEXER_TRAILING": "O indexador está atrasado em relação ao Validador por {TRAILING_BLOCKS} blocos. Aguarde atrasos consideráveis.",
       "VALIDATOR_ALERT": "Alerta do indexador",
       "VALIDATOR_DOWN": "Não foi possível obter a altura do bloco atual.",
       "VALIDATOR_HALTED": "O Validador parou no bloco {HALTED_BLOCK}.",
@@ -374,7 +375,7 @@
       "SWITCH_NETWORK": "Alternar rede de trading",
       "CALCULATING": "Calculando...",
       "NO_HASH": "Não foi possível obter o hash da transação.",
-      "NO_GAS_TITLE": "Saldo insuficiente da carteira para cobrir a taxa de \"gas\"",
+      "NO_GAS_TITLE": "Saldo insuficiente da carteira para cobrir a taxa de “gas”",
       "NO_GAS_BODY": "Primeiro, faça um pequeno depósito em sua conta dYdX para recarregar a carteira.",
       "THEME": "Tema",
       "NOTIFICATIONS": "Notificações",
@@ -384,10 +385,10 @@
       "CLASSIC_DARK": "Escuro clássico",
       "LIGHT": "Claro",
       "SYSTEM": "Sistema",
-      "GREEN_IS_UP": "Verde está em cime",
+      "GREEN_IS_UP": "Verde está em cima",
       "RED_IS_UP": "Vermelho está em cima",
       "SELECT_A_THEME": "Selecione a cor do tema",
-      "DYDX_ADDRESS": "Endereço da cadeia dYdX",
+      "DYDX_ADDRESS": "Endereço da Cadeia dYdX",
       "SOURCE_ADDRESS": "Endereço de origem",
       "DYDX_ADDRESS_COPIED": "O endereço da cadeia dYdX foi copiado para a área de transferência.",
       "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência.",
@@ -397,7 +398,7 @@
       "NETWORK_RECOVERED": "A rede foi restaurada e está funcionando normalmente."
     },
     "V4_DEPOSIT": {
-      "CHECK_STATUS_TITLE": "Verificando o status do depósito ...",
+      "CHECK_STATUS_TITLE": "Verificando o status do depósito...",
       "CHECK_STATUS_TEXT": "Aguarde",
       "IN_PROGRESS_TITLE": "Depósito em andamento",
       "IN_PROGRESS_TEXT": "Seu depósito de {AMOUNT_ELEMENT} foi enviado. Isso pode levar alguns minutos.",
@@ -433,9 +434,9 @@
       "WITH_PREDICTION_MARKETS": "com Mercados de previsão",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Os Mercados de previsão serão liquidados em US$ 1 se o evento ocorrer conforme previsto. Caso contrário, eles serão liquidados em US$ 0.",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Alavancagem dos resultados de eventos de trade",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sobre uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Em uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidação de US$ 0 ou US$ 1",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~$0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~US$ 0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
     }
   },
   "RATE_APP": {
@@ -451,18 +452,18 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo abaixo de {TRIGGER_PRICE_LIMIT} ou use uma ordem de stop limit.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo abaixo de {TRIGGER_PRICE_LIMIT} ou use uma ordem de Stop limit.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Você só pode fechar ou reduzir sua posição em {SYMBOL}.",
       "GEO_LOCATION_RESTRICTED": "Os perpétuos não estão disponíveis para pessoas ou empresas que sejam residentes ou que estejam localizadas, incorporadas ou tenham um agente registrado nos Estados Unidos ou em um território restrito. Mais detalhes podem ser encontrados em nossos Termos de Uso.",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo acima de {TRIGGER_PRICE_LIMIT} ou use uma ordem de stop limit.",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "O preço de disparo está muito próximo do preço de liquidação — esta ordem pode não ser executada totalmente antes de ser liquidada. Digite um preço de disparo acima de {TRIGGER_PRICE_LIMIT} ou use uma ordem de Stop limit.",
       "CONNECT_WALLET_TO_TRADE": "Conecte a carteira ao trade",
-      "DEPOSIT_TO_TRADE": "Deposite no trade"
+      "DEPOSIT_TO_TRADE": "Deposite para fazer trades."
     }
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de stop market na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente uma ordem de stop limit.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de mercado “take profit” na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente uma ordem limite de Take profit (TP)."
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de Stop market na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente usar uma ordem de Stop limite.",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de mercado “Take profit” na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente uma ordem limite de Take profit (TP)."
     }
   }
 }
