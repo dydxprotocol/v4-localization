@@ -49,19 +49,19 @@
       "BODY": "Ihre {SIDE}-Position bei {MARKET} wurde verwendet, um eine entschuldete Position auszugleichen."
     },
     "ORDER_FILL": {
-      "TITLE": "Auftrag ausgeführt",
+      "TITLE": "Order ausgeführt",
       "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "Bestellung teilweise erfüllt",
-      "BODY": "{FILLED_AMOUNT} {MARKET} Ihre Bestellung bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
+      "TITLE": "Order teilweise erfüllt",
+      "BODY": "{FILLED_AMOUNT} {MARKET} Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
     },
     "ORDER_TRIGGERED": {
-      "TITLE": "Auftrag ausgeführt",
-      "BODY": "Ihre Bestellung bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgelöst."
+      "TITLE": "Order ausgeführt",
+      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgelöst."
     },
     "ORDER_CANCEL": {
-      "TITLE": "Bestellung storniert",
+      "TITLE": "Order storniert",
       "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde storniert."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
