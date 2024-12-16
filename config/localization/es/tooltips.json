@@ -8,7 +8,7 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Firma de patrimonio",
-      "BODY": "Solo marca esta opción si anteriormente has utilizado la firma de billetera de hardware\/firma patrimonial para generar tus claves."
+      "BODY": "Solo marque esta opción si anteriormente ha utilizado la firma de billetera de hardware o una firma patrimonial para generar sus claves."
     },
     "REMEMBER_ME": {
       "TITLE": "Recordarme",
@@ -46,7 +46,7 @@
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Tu trigger price actual para ejecutar una toma de ganancia para esta orden de rango."
+      "BODY": "Su trigger price actual para ejecutar una toma de ganancia para esta orden de rango."
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
@@ -66,11 +66,11 @@
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Ejecución predeterminada",
-      "BODY": "Tu orden ocupará cualquier orden de cruce al momento de abrirla. Si tu orden no se completa en su totalidad, permanecerá abierta hasta que se complete, se cancele o caduque."
+      "BODY": "Su orden ocupará cualquier orden de cruce al momento de abrirla. Si tu orden no se completa en su totalidad, permanecerá abierta hasta que se complete, se cancele o caduque."
     },
     "EQUITY": {
       "TITLE": "Equidad",
-      "BODY": "Valor total de tu cuenta."
+      "BODY": "Valor total de su cuenta."
     },
     "EXPECTED_PRICE": {
       "TITLE": "Precio estimado",
@@ -89,7 +89,7 @@
       "BODY": "La cantidad máxima que puedes retirar. Cuando la garantía es 0 o negativa, tu cuenta está utilizando el apalancamiento máximo."
     },
     "GOOD_TIL": {
-      "TITLE": "Buena hasta",
+      "TITLE": "Con validez hasta",
       "BODY": "Tiempo hasta que tu orden caduque."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -106,7 +106,7 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Detención inicial",
-      "BODY": "Precio de detención inicial basado en tu porcentaje final."
+      "BODY": "Precio de detención inicial basado en su porcentaje final."
     },
     "LEVERAGE": {
       "TITLE": "Apalancamiento",
@@ -178,7 +178,7 @@
     },
     "NET_FUNDING": {
       "TITLE": "Financiación neta",
-      "BODY": "Financiación total ganada\/pagada durante el período de vida de la posición actual. Se restablece si cierras tu posición o cambias los lados de la posición (de largo a corto o viceversa)."
+      "BODY": "Financiación total ganada o pagada durante el período de vida de la posición actual. Se restablece si cierras tu posición o cambias los lados de la posición (de largo a corto o viceversa)."
     },
     "OPEN_INTEREST": {
       "TITLE": "Interés abierto",
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
-      "BODY": "Este es el costo de gas de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tienes que establecer una asignación una vez por activo que deposites."
+      "BODY": "Este es el costo de gas de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tiene que establecer una asignación una vez por activo que deposite."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
