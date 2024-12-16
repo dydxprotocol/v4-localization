@@ -2,7 +2,7 @@
   "APP": {
     "GENERAL": {
       "TIME_STRINGS": {
-        "JUST_NOW": "刚才",
+        "JUST_NOW": "刚刚",
         "1_MIN_AGO": "1 分钟前",
         "X_MIN_AGO": "{X} 分钟前",
         "1_HOUR_AGO": "1 小时前",
@@ -59,7 +59,7 @@
       "AI": "人工智能",
       "AI_BIG_DATA": "人工智能和大数据",
       "ALERTS": "警报",
-      "ALL_MARKETS": "交易对",
+      "ALL_MARKETS": "全部市场",
       "ALL": "全部",
       "ALLOWED": "已允许",
       "AMOUNT": "金额",
@@ -112,8 +112,8 @@
       "CREATED_AT": "创建于",
       "CROSS": "交叉",
       "CROSS_FREE_COLLATERAL": "交叉自由抵押品",
-      "CROSS_MARGIN": "交叉杠杆交易",
-      "CROSS_MARGIN_DESCRIPTION": "跨多个头寸使用共享抵押品和风险",
+      "CROSS_MARGIN": "交叉保证金",
+      "CROSS_MARGIN_DESCRIPTION": "跨多个头寸使用共享质押品和风险",
       "CROSS_MARGIN_USAGE": "交叉保证金使用",
       "CURRENT": "当前",
       "CUSTOM": "定制",
@@ -129,7 +129,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "部署者条款和条件",
       "DEPOSIT_FUNDS": "充值资金",
       "DEPOSIT_MORE": "充值更多",
-      "DEPOSIT_WITH_FIAT": "用法定货币存款",
+      "DEPOSIT_WITH_FIAT": "用法定货币充值",
       "DEPOSIT": "充值",
       "DEPTH_CHART_SHORT": "深度",
       "DESTINATION": "目标",
@@ -147,11 +147,11 @@
       "EARNED": "已赚",
       "EDIT": "编辑",
       "EG": "例如",
-      "EMAIL": "邮箱",
+      "EMAIL": "电子邮箱",
       "ENDED": "已结束",
       "ENTERTAINMENT": "娱乐",
       "EQUITY": "账户净值",
-      "EST_APR": "估计 {PERCENTAGE}年利率（APR）",
+      "EST_APR": "估计 {PERCENTAGE}年利率 (APR)",
       "EST_GAS": "估计 Gas",
       "EST_REWARDS": "估计 奖励",
       "ESTIMATED": "估计的",
@@ -159,7 +159,7 @@
       "EXPAND": "展开",
       "FAST_WITHDRAW": "快速提现",
       "FAVORITES": "偏爱",
-      "FEES_30D": "费率（30 天）",
+      "FEES_30D": "费用（30 天）",
       "FEES_PAID": "已支付费用",
       "FEES": "交易费率",
       "FIAT": "法定货币",
@@ -189,19 +189,19 @@
       "HISTORY": "历史记录",
       "INCREASED": "已增加",
       "INCREASING": "正在增加",
-      "INITIAL_MARGIN_FRACTION": "初始杠杆分数",
+      "INITIAL_MARGIN_FRACTION": "初始保证金比例",
       "INITIAL_MARGIN_FRACTION_SHORT": "IMF",
       "INITIALIZING": "初始化",
       "INTRODUCING": "介绍",
       "INSTANT": "立即",
       "ISOLATED": "逐仓",
       "ISOLATED_MARGIN": "逐仓杠杆交易",
-      "ISOLATED_MARGIN_DESCRIPTION": "对每个仓位使用不同的抵押品以隔离风险。",
+      "ISOLATED_MARGIN_DESCRIPTION": "对每个仓位使用不同的质押品以隔离风险。",
       "ISOLATED_MARKET": "孤立市场",
       "KEEP_TRADING": "保持交易",
       "LANGUAGE": "语言",
       "LARGE_CAP": "大盘股",
-      "BIGGEST_MOVERS": "最大的推动者",
+      "BIGGEST_MOVERS": "最大的 Mover",
       "RECENTLY_LISTED": "最近上市",
       "GAINERS": "获利者",
       "LOSERS": "亏损者",
@@ -235,7 +235,7 @@
       "MARKET_NAME": "市场名称",
       "MARKET_SEARCH_DOES_NOT_EXIST_YET": "我们可能尚不支持此资产，或者该资产尚不存在。",
       "MARKET_SEARCH_PLACEHOLDER": "例如，“ETH”或“以太坊”",
-      "MARKET": "交易对",
+      "MARKET": "市场",
       "MARKET_CAP": "市值",
       "MARKETS": "市场",
       "MAX": "最大值",
@@ -288,13 +288,13 @@
       "PROFIT_AND_LOSS_ABSOLUTE_LABEL": "利润\/损失($)",
       "PROFIT_AND_LOSS_ABSOLUTE": "绝对损益表",
       "PROFIT_AND_LOSS_PERCENT_BY": "按利润\/损失(百分比)",
-      "PROFIT_AND_LOSS_PERCENT_LABEL": "利润\/损失(%)",
+      "PROFIT_AND_LOSS_PERCENT_LABEL": "利润\/损失 (%)",
       "PROFIT_AND_LOSS_PERCENT": "相对损益表",
       "PROMOTION": "优惠",
       "QUERY_NOT_FOUND": "未找到“{QUERY}”",
       "QUEUED": "排队中",
       "RANKINGS": "排名",
-      "REAL_WORLD_ASSET_SHORT": "风险加权资产（Risk-weighted assets，RWA）",
+      "REAL_WORLD_ASSET_SHORT": "风险加权资产 (Risk-weighted assets, RWA)",
       "RECEIPT": "收单",
       "RECEIVE": "接收",
       "RECENT_TRADES_SHORT": "交易订单",
@@ -327,7 +327,7 @@
       "SHOW": "显示 {NUMBER}",
       "SHOW_ALL_DETAILS": "显示所有详情",
       "SHOWING": "显示 {ALL_OR_MARKET}",
-      "SHOWING_NUM_OUT_OF_TOTAL": "显示 {START} - 共 {TOTAL} 中的 {END}",
+      "SHOWING_NUM_OUT_OF_TOTAL": "显示 {START} - {END} 共 {TOTAL}",
       "SIDE": "买\/卖",
       "SIGN_OUT": "退出",
       "SIZE": "数量",
@@ -345,7 +345,7 @@
       "STATUS": "状态",
       "STEP_SIZE": "步骤数量",
       "STOP_ORDER_SHORT": "止损",
-      "SWITCH_LEADERBOARD": "转换头板",
+      "SWITCH_LEADERBOARD": "转换排行榜",
       "TAKE_ME_THERE": "前往浏览",
       "TERMS_AND_CONDITIONS": "条款和条件",
       "TICK_SIZE": "最小报价数量",
@@ -382,8 +382,8 @@
       "UNCONFIRMED": "未确认",
       "UNKNOWN_ERROR": "未知错误",
       "UNKNOWN": "未知",
-      "UNSTAKE": "未质押",
-      "UNSTAKED": "未质押",
+      "UNSTAKE": "取消质押",
+      "UNSTAKED": "取消质押",
       "UNSTAKING_FROM": "从{VALIDATOR}起未质押",
       "USERNAME": "用户名",
       "VALUE": "价值",
@@ -415,15 +415,15 @@
         "SECONDARY": "ZRX 是 0x 的原生治理和质押代币，持有者可以对 0x 改进提案（ZEIP）进行投票并影响协议的发展。此外，通过做市商流动性计划，可以质押或委托 ZRX 以获得流动性奖励。"
       },
       "1INCH": {
-        "PRIMARY": "1inch 网络将去中心化的协议联合在一起，其协同作用使DeFi空间中最有利可图、最快和受保护的操作成为可能。",
-        "SECONDARY": "1inch网络的初始协议是一种去中心化交易所(DEX)聚合解决方案，它在多个流动性来源中搜索交易，从而为用户提供比任何单一交易所更好的利率。该协议融合了Pathfinder算法，该算法在以太坊的 50 多个以及币安智能链的20多个流动性来源的不同市场中找到了最佳路径。不到两年的时间，1inch DEX聚合总规模就超过了300亿美元。"
+        "PRIMARY": "1inch 网络将去中心化的协议联合在一起，其协同作用使 DeFi 空间中最盈利、最快和受保护的操作成为可能。",
+        "SECONDARY": "1inch网络的初始协议是一种去中心化交易所(DEX)聚合解决方案，它在多个流动性来源中搜索交易，从而为用户提供比任何单一交易所更好的利率。该协议融合了Pathfinder算法，该算法在以太坊的 50 多个以及币安智能链的 20 多个流动性来源的不同市场中找到了最佳路径。不到两年的时间，1inch DEX 聚合器总规模就超过了 300 亿美元。"
       },
       "AAVE": {
         "PRIMARY": "Aave 是一种开源非托管协议，可供利用存款和借贷资产赚取利息。",
-        "SECONDARY": "Aave 是一种去中心化的非托管流动性市场协议，用户可以作为存款人或借款人参与其中。存款人为市场提供流动性，从而赚取被动收入，而借款人则可以通过超额抵押（永久性）或抵押不足（单一区块流动性）的方式借款。"
+        "SECONDARY": "Aave 是一种去中心化的非托管流动性市场协议，用户可以作为存款人或借款人参与其中。存款人为市场提供流动性，从而赚取被动收入；而借款人则可以通过超额抵押（永久性）或抵押不足（单一区块流动性）的方式借款。"
       },
       "ADA": {
-        "PRIMARY": "Cardano 是一个权益证明的区块链平台——首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
+        "PRIMARY": "Cardano 是一个权益证明的区块链平台：首个基于同行评审研究建立的平台，并通过循证方法得到发展。它结合先进的技术，为去中心化应用、系统和社会提供无可比拟的安全性和可持续性。",
         "SECONDARY": "Cardano 有着一流的工程师团队，其存在是为了将权力从难以理解的结构重新分配给边缘——个人——并成为积极变革和进步的推动力量。"
       },
       "AGIX": {
@@ -443,7 +443,7 @@
         "SECONDARY": "API3 构建的解决方案，以最大程度的安全和最小的延迟弥合链下数据和链上应用程序之间的差距。 API的dAPI是直接从本机链上从第一方预言机聚合而来。"
       },
       "APT": {
-        "PRIMARY": "Aptos 是一个第 1 层区块链，设计成可扩展、安全和易于使用。",
+        "PRIMARY": "Aptos 是一个第 1 层区块链，采用了可扩展、安全和易于使用的设计。",
         "SECONDARY": "Aptos旨在每秒处理大量交易，并使用权益证明共识机制。"
       },
       "ARB": {
@@ -452,7 +452,7 @@
       },
       "AVAX": {
         "PRIMARY": "Avalanche是一个开放源平台，旨在推出高度去中心化的应用、新的金融基本要素和新的可互操作区块链。",
-        "SECONDARY": "基于Avalanche的开发者可以轻松创建功能强大、可靠安全的应用程序和具有复杂规则集的定制区块链网络，或者在现有的私有或公共子网的基础上进一步完善。"
+        "SECONDARY": "基于 Avalanche 的开发者可以轻松创建功能强大、可靠安全的应用程序和具有复杂规则集的定制区块链网络，或者在现有的私有或公共子网的基础上进一步完善。"
       },
       "AXL": {
         "PRIMARY": "AXL 是原生实用工具代币，为 Axelar 生态系统上的安全交叉链通信提供支持。",
@@ -480,7 +480,7 @@
       },
       "CHZ": {
         "PRIMARY": "CHZ 是 Chiliz 体育娱乐生态系统的原生数字代币。",
-        "SECONDARY": "Chiliz 链是吸引团队、球迷和开发人员的体育运动基础设施，用以构建将粉丝和品牌凝聚在一起的 Web3 产品和体验。"
+        "SECONDARY": "Chiliz 链是吸引团队、粉丝和开发人员的体育运动基础设施，用以构建将粉丝和品牌凝聚在一起的 Web3 产品和体验。"
       },
       "CELO": {
         "PRIMARY": "Celo是一个权益证明的区块链，可提供完全的以太坊虚拟机兼容性。",
@@ -488,18 +488,18 @@
       },
       "LINK": {
         "PRIMARY": "Chainlink 将任何区块链上的智能合约与数据提供者、Web API、企业系统、云服务、物联网设备、支付系统和其他区块链连接在一起。",
-        "SECONDARY": "Chainlink 通过在不牺牲区块链技术固有的安全性和可靠性保证的情况下支持访问现实世界中的数据、事件、付款等来扩展智能合约的功能。"
+        "SECONDARY": "Chainlink 在不牺牲区块链技术固有的安全性和可靠性保证的前提下，通过支持访问真实世界中的数据、事件、付款等来扩展智能合约的功能。"
       },
       "COMP": {
         "PRIMARY": "Compound 是为开发者打造的基于算法的自主利率协议，旨在解锁众多开放的金融应用。",
-        "SECONDARY": "资产的供应方（或借贷方）直接与协议互动，赚取（或支付）浮动利率，而不必与同行或交易对手协商到期日、利率或抵押品等条款。"
+        "SECONDARY": "资产的供应方（或借贷方）直接与协议互动，赚取（或支付）浮动利率，而不必与同行或交易对手协商到期日、利率或质押品等条款。"
       },
       "ATOM": {
         "PRIMARY": "Cosmos 是互联应用程序和服务不断扩展的生态系统，是为去中心化的未来而打造。",
-        "SECONDARY": "Cosmos应用程序和服务使用跨链通信(IBC)协议进行连接。这一创新使您能够在完全独立的去中心化区块链中自由交易资产和数据。"
+        "SECONDARY": "Cosmos应用程序和服务使用跨链通信(IBC)协议进行连接。这一创新使您能够在去中心化主权区块链中自由交易资产和数据。"
       },
       "CRV": {
-        "PRIMARY": "Curve 是以太坊上的一个交易所流动性池（例如，Uniswap），其设计目的是为实现极高效的稳定币交易，并为流动性提供者提供低成本的补充性费用收入，而且没有机会成本。",
+        "PRIMARY": "Curve 是以太坊上的一个交易所流动性池（例如，Uniswap），其设计目的是为实现极高效的稳定币交易，并为流动性提供者提供低风险的补充性费用收入，而且没有机会成本。",
         "SECONDARY": "Curve允许用户（以及智能合约，例如1inch、Paraswap、Totle和Dex.ag）在DAI和USDC之间进行交易，采用专门为稳定币设计的低滑点、低费用算法，并赚取费用。"
       },
       "DOGE": {
@@ -507,20 +507,20 @@
         "SECONDARY": "狗狗币是莱特币的一个分支，是一种基于流行的\"Doge\"网络迷因的加密货币，其徽标上有一只柴犬。"
       },
       "DOT": {
-        "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot为互联网带来便利，独立的区块链可在其中通过Polkadot中继链以无需信任的方式交换信息和进行交易。",
+        "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot 为互联网带来便利，独立的区块链可在其中通过 Polkadot中继链以无需信任的方式交换信息和进行交易。",
         "SECONDARY": "Polkadot 使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好的解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
       },
       "DYM": {
         "PRIMARY": "Dymension 是易于部署和闪电般快速的应用程序链（称为 RollApps）的大本营。",
-        "SECONDARY": "Dymension 使用 IBC（区块链间通信协议），将汇总标准化，类似于使用 ERC 将代币标准化。"
+        "SECONDARY": "Dymension 使用 IBC（区块链间通信协议），将 rollups 标准化，类似于使用 ERC 将代币标准化。"
       },
       "ENJ": {
-        "PRIMARY": "Enjin开发了简单的产品来帮助您管理NFT和加密货币，并参与到新的、快速增长的虚拟经济中。",
+        "PRIMARY": "Enjin 开发了简单的产品来帮助您管理 NFT 和加密货币，并参与到新的、快速增长的虚拟经济中。",
         "SECONDARY": "ENJ 被用于注入 NFT 等数字资产。它可以为NFT在游戏、应用程序、市场和钱包中流通时提供支持。铸造的每一项资产都包含ENJ，赋予其真实世界的价值，并且可以通过“熔化”随时收回。"
       },
       "ENS": {
-        "PRIMARY": "ENS是最广泛集成的区块链命名标准。",
-        "SECONDARY": "以太坊名称服务（Ethereum Name Service）是一个基于以太坊区块链的分布式、开放和可扩展的命名系统。"
+        "PRIMARY": "ENS 是最广泛集成的区块链命名标准。",
+        "SECONDARY": "以太坊名称服务 (Ethereum Name Service) 是一个基于以太坊区块链的分布式、开放和可扩展的命名系统。"
       },
       "EOS": {
         "PRIMARY": "EOSIO 是一个高性能的开源区块链平台，旨在支持和运营安全、合规和可预测的数字基础设施。",
@@ -536,19 +536,19 @@
       },
       "FET": {
         "PRIMARY": "FET 是 Fetch.ai 区块链的原生代币。",
-        "SECONDARY": "Fetch.AI 是一个人工智能 (AI) 实验室，旨在构建一个具有加密经济的、开放、无需许可、去中心化的机器学习网络。"
+        "SECONDARY": "Fetch.AI 是一个人工智能 (AI) 实验室，旨在借助加密经济构建开放、无需许可、去中心化的机器学习网络。"
       },
       "FIL": {
-        "PRIMARY": "Filecoin是一个旨在存储人类最重要信息的去中心化存储网络。",
-        "SECONDARY": "Filecoin 网络由大量不同的存储提供者和开发者组成。这创造出强大和可靠的服务，同时加密证据可以确保您的数据随时间推移继续可用而不会发生变化。"
+        "PRIMARY": "Filecoin 是一个旨在存储人类最重要信息的去中心化存储网络。",
+        "SECONDARY": "Filecoin 网络由大量不同的存储提供者和开发者组成。这创造出强大和可靠的服务，同时加密证据可以确保您的数据随时间推移继续可用而且不会发生变化。"
       },
       "FTM": {
-        "PRIMARY": "FTM 是 Fantom 的原生代币，用于平台治理、保护网络和支付交易费用。",
-        "SECONDARY": "Fantom 是一个有向无环图（DAG）智能合约平台，使用自己定制的共识算法为开发人员提供去中心化金融服务。"
+        "PRIMARY": "FTM 是 Fantom 的原生代币，用于平台治理、保护网络安全和支付交易费用。",
+        "SECONDARY": "Fantom 是一个有向无环图 (DAG) 智能合约平台，使用专有的共识算法为开发人员提供去中心化金融服务。"
       },
       "GALA": {
         "PRIMARY": "GALA代币是Gala Games and Entertainment生态系统的数字实用代币。",
-        "SECONDARY": "Gala Games and Entertainment是一家专注于开拓游戏、音乐和电影行业的娱乐公司。 Gala Games and Entertainment 由 Zynga 的联合创始人之一 Eric Schiermeyer 于2019年创立。"
+        "SECONDARY": "Gala Games and Entertainment 是一家专注于开拓游戏、音乐和电影行业的娱乐公司。 Gala Games and Entertainment 由 Zynga 联合创始人之一的 Eric Schiermeyer 于 2019 年创立。"
       },
       "GMT": {
         "PRIMARY": "GMT 是 Find Satoshi Lab (FSL) 生态系统的治理代币，固定供应 60 亿枚代币。",
@@ -576,14 +576,14 @@
       },
       "JUP": {
         "PRIMARY": "Jupiter 是建立在 Solana 之上的领先 DEX 聚合器",
-        "SECONDARY": "Jupiter 正在构建 Solana 的互换基础设施。 Jupiter 旨在为用户和开发人员提供最佳价格、最佳代币选择和最佳用户体验。"
+        "SECONDARY": "Jupiter 正在构建 Solana 的交换基础设施。 Jupiter 旨在为用户和开发人员提供最佳价格、最佳代币选择和最佳用户体验。"
       },
       "JTO": {
-        "PRIMARY": "JTO代币是Jito Network的治理代币。",
+        "PRIMARY": "JTO 代币是 Jito Network 的治理代币。",
         "SECONDARY": "Jito Network 通过其 JitoSOL 流动性质押池以及 MEV 产品系列，成为 Solana 生态系统的重要贡献者。"
       },
       "KAVA": {
-        "PRIMARY": "KAVA是Kava的原生代币，Kava是一个使用Cosmos SDK构建的区块链网络。",
+        "PRIMARY": "KAVA 是 Kava 的原生代币，Kava 是一个使用 Cosmos SDK 构建的区块链网络。",
         "SECONDARY": "Kava 是一个第 1 层区块链，它将Cosmos的速度和互操作性与以太坊的开发能力相结合。"
       },
       "LDO": {
@@ -599,7 +599,7 @@
         "SECONDARY": "MAGIC 代币可用于游戏玩法，参与治理，在 Treasure 市场上买卖NFT，也可以质押。"
       },
       "MANA": {
-        "PRIMARY": "MANA 是一种 ERC-20 代币，必须销毁它才能获得不可替代的 ERC-721 LAND 代币。 MANA代币还可用于支付Decentraland市场上的各种头像、可穿戴设备、名字等。",
+        "PRIMARY": "MANA 是一种 ERC-20 代币，必须销毁它才能获得不可替代的 ERC-721 LAND 代币。 MANA 代币还可用于支付 Decentraland 市场上的各种头像、可穿戴设备、名字等。",
         "SECONDARY": "Decentraland（MANA）是一个去中心化的虚拟世界平台，其软件基于以太坊区块链，用户可在此创建、测试内容并从中获利。 简而言之：用户在 Decentraland 平台上使用 MANA 代币作为 NFT 购买虚拟土地。"
       },
       "MASK": {
@@ -607,19 +607,19 @@
         "SECONDARY": "Mask Network 使流行社交媒体平台的用户能够发送加密货币，与去中心化的应用程序交互并共享加密内容。"
       },
       "MATIC": {
-        "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在以太坊上聚合可扩展的解决方案，支持多链以太坊生态系统。",
+        "PRIMARY": "Polygon是建立和连接兼容以太坊区块链网络的协议和框架。在支持多链以太坊生态系统的以太坊上聚合可扩展的解决方案。",
         "SECONDARY": "Polygon 集合以太坊和主权区块链的优点，成为一个开放、安全、成熟的多链系统，能够充分受益于以太坊的网络效应"
       },
       "MEME": {
-        "PRIMARY": "根据其网站介绍，Memecoin（MEME）实际上是一种模因币。",
-        "SECONDARY": "Memeland 是全球流行的模因平台9 GAG 的 web3 创业工作室。"
+        "PRIMARY": "根据其网站介绍，Memecoin (MEME) 实际上是一种迷因币。",
+        "SECONDARY": "Memeland 是全球流行的迷因平台 9GAG 的 web3 创业工作室。"
       },
       "MINA": {
         "PRIMARY": "MINA 是一种为 Mina 协议提供支持的加密货币，可用于建立新账户、支付交易费用并且可在网络上质押。",
-        "SECONDARY": "Mina协议是第一层区块链，旨在实现轻量化、保护隐私且易于验证。 Mina上的开发人员可以基于零知识证明构建保护隐私的智能合约和去中心化应用程序。"
+        "SECONDARY": "Mina 协议是第一层区块链，旨在实现轻量化、隐私保护和易于验证。 Mina上的开发人员可以基于零知识证明构建保护隐私的智能合约和去中心化应用程序。"
       },
       "MKR": {
-        "PRIMARY": "Maker协议，也称多质押品Dai(MCD)系统，允许用户通过利用“Maker治理”批准的抵押资产来生成Dai。Maker 治理是社区组织和运作的管理 Maker 协议的各个方面的过程。",
+        "PRIMARY": "Maker 协议，也称多质押品 Dai (MCD) 系统，允许用户通过利用“Maker 治理”批准的抵押资产来生成 Dai。Maker 治理是社区组织和运作的流程，用于管理 Maker 协议各个方面。",
         "SECONDARY": "Dai 是一种去中心化的、无偏颇的、有抵押物支持的加密货币，与美元软挂钩。由于其低波动性，Dai能够抵抗恶性通货膨胀，因此可在任何地方为任何人提供经济自由和机会。"
       },
       "NEAR": {
@@ -628,15 +628,15 @@
       },
       "OCEAN": {
         "PRIMARY": "Ocean的数据农场奖励计划使Ocean持有者能够通过锁定Ocean和管理数据来赚钱。",
-        "SECONDARY": "海洋协议利用区块链技术、去中心化网络和加密技术的组合来促进安全和保护隐私的数据共享。"
+        "SECONDARY": "海洋协议 (Ocean Protocol) 利用区块链技术、去中心化网络和加密技术的组合来实现安全、保护隐私的数据共享。"
       },
       "OP": {
         "PRIMARY": "OP主网是一个低成本、闪电般快速的以太坊L2区块链，由Optimism提供支持。",
-        "SECONDARY": "OP是Optimism Collective的治理代币。"
+        "SECONDARY": "OP 是 Optimism Collective 的治理代币。"
       },
       "ORDI": {
         "PRIMARY": "ORDI是Ordinal协议创建的第一个BRC-20代币。",
-        "SECONDARY": "Ordinals 是 satoshis（比特币的最小单位）的编号方案，允许跟踪和转移单个SAT，并允许以NFT和代币的形式在比特币区块链上刻录文本和图片。"
+        "SECONDARY": "Ordinals 是 satoshis（比特币的最小单位）的编号方案，允许跟踪和转移单个 SAT，并允许以 NFT 和代币的形式在比特币区块链上刻录文本和图片。"
       },
       "PEPE": {
         "PRIMARY": "Pepe 是一种迷因币。",
@@ -647,7 +647,7 @@
         "SECONDARY": "Portal 旨在将来自各种区块链网络的游戏和游戏玩家集合在其交叉链代币平台上，建立一个统一的 Web3 游戏生态系统。"
       },
       "PYTH": {
-        "PRIMARY": "PYTH是Pyth网络及其生态系统的治理代币。",
+        "PRIMARY": "PYTH 是 Pyth 网络及其生态系统的治理代币。",
         "SECONDARY": "Pyth 向 40 多个区块链上的金融去中心化应用程序提供实时市场数据，并在加密货币、股票、ETF、外汇对和商品上提供380多个低延迟价格馈送。"
       },
       "RENDER": {
@@ -660,51 +660,51 @@
       },
       "RUNE": {
         "PRIMARY": "Thorchain 是一个去中心化、自主化的交叉链流动性网络。",
-        "SECONDARY": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以保护该网络的经济。"
+        "SECONDARY": "RUNE 是 Thorchain 的资产，助力 Thorchain 生态系统并提供经济激励，以便在经济上保护该网络。"
       },
       "SAND": {
         "PRIMARY": "Sand 是 Sandbox 平台的主要实用代币。",
-        "SECONDARY": "Sandbox团队正在构建一个独特的虚拟世界，在这个世界里，玩家可以使用SAND构建、拥有游戏体验并从中获利。"
+        "SECONDARY": "Sandbox 团队正在构建一个独特的虚拟世界，在这个世界里，玩家可以使用 SAND 构建、拥有游戏体验并从中获利。"
       },
       "SEI": {
         "PRIMARY": "SEI 币是 SEI 网络的治理代币。",
         "SECONDARY": "Sei 是一个通用、开源的第 1 层区块链，专门用于交换数字资产。"
       },
       "SHIB": {
-        "PRIMARY": "柴犬币或SHIB是Shiba生态系统的主要代币，将去中心化、社区主导的货币力量带给全球数百万人。",
-        "SECONDARY": "Shiba Inu开发了一个名为Shibarium的第2层网络，该网络建立在以太坊区块链之上。"
+        "PRIMARY": "柴犬币或 SHIB 是 Shiba 生态系统的主要代币，将去中心化、社区主导的货币力量带给全球数百万人。",
+        "SECONDARY": "Shiba Inu 开发了一个名为 Shibarium 的第 2 层网络，该网络建立在以太坊区块链的顶端。"
       },
       "SOL": {
         "PRIMARY": "Solana是一种快速、安全、能够抵抗审查的区块链，为全球应用提供必要的开放基础设施。",
         "SECONDARY": "Solana是开源项目，执行的是新的、高性能、无需许可的区块链。Solana基金会设在瑞士日内瓦，并维护着开源项目。"
       },
       "STX": {
-        "PRIMARY": "STX是Stacks网络的原生货币。 它用于为比特币的智能合约提供燃料，奖励开放 Stacks 网络上的矿工，并使持有者能够通过Stacking 赚取比特币。",
+        "PRIMARY": "STX是Stacks网络的原生货币。 它用于为比特币的智能合约提供燃料，奖励开放 Stacks 网络上的矿工，并使持有者能够通过 Stacking 赚取比特币。",
         "SECONDARY": "Stacks 是智能合约的比特币层；它使智能合约和去中心化应用能够无需信任地将比特币作为资产使用，并在比特币区块链上进行交易结算。"
       },
       "STRK": {
         "PRIMARY": "Starknet代币将用于支付交易费用，并通过参与治理投票来塑造Starknet协议的长期演进发展。",
-        "SECONDARY": "StarkNet是一个无需许可的去中心化的Validity-Rollup（也称为“ZK-Rollup”）。它依靠最安全、最具可扩展性的密码学证明系统STARK，作为以太坊上的L2网络运行，这使任何 dApp 都能实现无限规模的计算，同时不影响以太坊的可组合性和安全性。"
+        "SECONDARY": "StarkNet 是一个无需许可的去中心化 Validity-Rollup（也称为 “ZK-Rollup”）。它依靠最安全、最具可扩展性的密码学证明系统STARK，作为以太坊上的L2网络运行，这使任何 dApp 都能实现无限规模的计算，同时不影响以太坊的可组合性和安全性。"
       },
       "SUI": {
         "PRIMARY": "Sui是一个创新的、去中心化的第1层区块链，它重新定义了资产所有权。",
-        "SECONDARY": "Sui 使用 Move 简化智能合约开发过程，Move 是一种对用户友好的编程语言，既安全又富有表现力。 SUI币是Sui网络的治理代币。"
+        "SECONDARY": "Sui 使用 Move 简化智能合约开发过程，Move 是一种对用户友好的编程语言，既安全又富有表现力。 SUI 币是 Sui 网络的治理代币。"
       },
       "SUSHI": {
         "PRIMARY": "SushiSwap 是一个自动做市的去中心化交易所，目前在以太坊上运行。",
-        "SECONDARY": "SushiSwap 是社区运行项目，由其代币持有人投票管理。核心产品包括交易所、流动性池、矿场和SushiBar权益质押。"
+        "SECONDARY": "SushiSwap 是社区运行项目，由其代币持有人投票管理。核心产品包括交易所、流动性池、矿场和 SushiBar 权益质押。"
       },
       "SNX": {
         "PRIMARY": "Synthetix是基于以太坊的去中心化合成资产发行协议。",
         "SECONDARY": "Synthetix 允许用户以零滑点捕捉流行加密货币、法币、股票、大宗商品等的价格走势。合成资产或Synth是社区投票投出来的资产，代表不同类型资产的价格。"
       },
       "TIA": {
-        "PRIMARY": "Celestia 是一个模块化数据可用网络，可以根据用户数量安全地进行扩展，任何人都可以轻松启动自己的区块链。",
-        "SECONDARY": "Celestia 支持下一代可扩展的区块链架构 - 模块化区块链。 Celestia 扩展通过分离执行与共识，并引入新的原始数据可用取样来实现。"
+        "PRIMARY": "Celestia 是一个模块化数据可用性网络，可以根据用户数量安全地进行扩展，任何人都可以轻松启动自己的区块链。",
+        "SECONDARY": "Celestia 支持下一代可扩展的区块链架构——模块化区块链。 Celestia 扩展通过分离执行与共识，并引入新的原始数据可用性取样来实现。"
       },
       "TRUMPWIN": {
-        "PRIMARY": "如果唐纳德·J·特朗普 (Donald J. Trump) 赢得 2024 年美国总统大选，该市场最终将稳定在 1 美元。否则，该市场最终将结算为 0.001 美元。 该市场使用 Polymarket 作为其预言来源。",
-        "SECONDARY": "Polymarket 对该市场的解析来源是美联社、福克斯新闻和 NBC。当所有三个消息来源都认定同一个候选人获胜时，这个市场状况就会得到解决。如果所有三个消息来源都没有在就职日期（2025 年 1 月 20 日）之前宣布同一候选人的获胜，那么这个市场将根据谁就职而决定。"
+        "PRIMARY": "如果唐纳德·J·特朗普 (Donald J. Trump) 赢得 2024 年美国总统大选，该市场最终将结算为 1 美元。否则，该市场最终将结算为 0.001 美元。 该市场使用 Polymarket 作为其预言来源。",
+        "SECONDARY": "Polymarket 对该市场的解析来源是美联社、福克斯新闻和 NBC。当所有三个消息来源都认定同一个候选人获胜时，这个市场状况就会得到解析。如果所有三个消息来源都没有在就职日期（2025 年 1 月 20 日）之前宣布同一候选人的获胜，那么这个市场将根据谁就职而解析。"
       },
       "TRX": {
         "PRIMARY": "TRON是一个公共区块链，致力于提供底层基础设施，使开发者能够创建智能合约和去中心化应用程序，自由发布、拥有和存储数据和其他内容。",
@@ -712,15 +712,15 @@
       },
       "UMA": {
         "PRIMARY": "UMA是在以太坊部署和执行合成资产的开源基础设施。",
-        "SECONDARY": "UMA以两种技术形式为以太坊上的“无价”金融合约建立开源基础设施：一是用于创建合成代币的无价金融合约模板，二是用于管理和执行UMA合约的去中心化预报服务。"
+        "SECONDARY": "UMA 以两种技术形式为以太坊上的“无价”金融合约建立开源基础设施：一是用于创建合成代币的无价金融合约模板，二是用于管理和执行 UMA 合约的去中心化预报服务。"
       },
       "UNI": {
         "PRIMARY": "Uniswap是以太坊上自动提供流动性的去中心化协议。",
-        "SECONDARY": "Uniswap是在以太坊交易ERC-20代币的协议。它消除了可信任的中介和不必要的租金提取形式，使交易变得快速、高效。"
+        "SECONDARY": "Uniswap 是在以太坊交易 ERC-20 代币的协议。它消除了可信任的中介和不必要的租金提取形式，使交易变得快速、高效。"
       },
       "WOO": {
-        "PRIMARY": "质押WOO可解锁整个WOO生态系统中的中心化和去中心化交易所产品的独家利益并获得价值。",
-        "SECONDARY": "WOO生态系统产品将交易者、交易所和机构连接起来，以较低成本或零成本获得一流的流动性和交易执行。 "
+        "PRIMARY": "质押 WOO 可在整个 WOO 生态系统的中心化和去中心化交易所产品中解锁独家利益并获得价值。",
+        "SECONDARY": "WOO 生态系统产品将交易者、交易所和机构连接起来，以较低成本或零成本获得一流的流动性和交易执行。 "
       },
       "WLD": {
         "PRIMARY": "Worldcoin 协议旨在成为世界上最大的身份证明和金融公共网络。",
@@ -735,15 +735,15 @@
         "SECONDARY": "与选择性透明的替代品（例如 Zcash）不同，Monero 是唯一一种默认每个用户都是匿名的加密货币。每笔交易的发送者、接收者和金额都通过使用三种重要技术来隐藏：隐形地址、环签名和RingCT。"
       },
       "XRP": {
-        "PRIMARY": "Ripple是一个旨在解决跨境支付问题的网络。",
+        "PRIMARY": "Ripple 是一个旨在解决跨境支付问题的网络。",
         "SECONDARY": "XRP 是一种开源的数字资产，旨在成为金融服务领域应用程序最实用的加密货币。"
       },
       "XTZ": {
         "PRIMARY": "Tezos 是一个用于资产和应用程序的开源平台，可以通过升级自身来进化。",
-        "SECONDARY": "从设计上看, Tezos 具有长期可升级性、开放参与性、协作性和智能合约安全性。Tezos 是一个权益证明的区块链。"
+        "SECONDARY": "从设计上看，Tezos 具有长期可升级性、开放参与性、协作性和智能合约安全性。Tezos 是一个权益证明的区块链。"
       },
       "YFI": {
-        "PRIMARY": "Yearn Finance是去中心化金融(DeFi)中的一套产品，可在以太坊区块链上提供贷款聚合、收益创造和保险。",
+        "PRIMARY": "Yearn Finance 是去中心化金融 (DeFi) 中的一套产品，可在以太坊区块链上提供贷款聚合、收益创造和保险。",
         "SECONDARY": "该协议由各种独立开发人员所维护，并由 YFI 持有者管理。"
       },
       "ZEC": {
@@ -751,18 +751,18 @@
         "SECONDARY": "Zcash 通过屏蔽地址为您提供保密交易和财务隐私的选择。零知识证明实现了在不透露发送方、接收方或交易金额的情况下验证交易。Zcash 中的选择性披露功能允许用户出于合规或审计的目的共享一些交易详情。"
       },
       "ZETA": {
-        "PRIMARY": "ZetaChain 是一个新颖的 L1，内置了与链无关的互操作能力。",
+        "PRIMARY": "ZetaChain 是一个新颖的 L1，内置了链不相关的互操作能力。",
         "SECONDARY": "ZetaChain 是一个公共、去中心化的区块链和智能合约平台，可在任意区块链之间传递消息和转移价值。"
       }
     },
     "AFFILIATES": {
       "AFFILIATE_CHART_EMPTY_STATE": "无可用数据",
-      "AFFILIATE_CONNECT_WALLET": "请连接您的钱包以检查您的排名",
+      "AFFILIATE_CONNECT_WALLET": "请连接您的钱包以查看您的排名",
       "AFFILIATE_EARNINGS": "关联方收益",
       "AFFILIATE_LINK_REQUIREMENT": "关联方链接将以 ${AMOUNT_USD} 交易量激活",
       "AFFILIATE_LINK": "关联方链接",
       "AFFILIATE_PAYOUTS": "关联方支付",
-      "AFFILIATE_PROGRAM_TRADING_REQUIREMENT": "要成为关联方，您需要交易量至少为 $。",
+      "AFFILIATE_PROGRAM_TRADING_REQUIREMENT": "要成为联盟会员，您将需要至少交易 {AMOUNT_USD}$ 的量。",
       "AFFILIATE_TIER": "关联方等级",
       "AFFILIATE_TIERS_CRITERIA": "查看标准",
       "AFFILIATE_TIERS": "关联方等级",
@@ -775,16 +775,16 @@
       "APPLY_NOW": "现在申请",
       "BECOME_A_VIP": "成为 VIP 关联方",
       "BECOME_AN_AFFILIATE": "成为会员",
-      "BENEFITS": "收益",
+      "BENEFITS": "福利",
       "BY_APPLICATION_ONLY": "仅通过应用程序。",
       "COMMISSIONS": "佣金",
       "CONTACT_SUPPORT": "联系支持团队",
-      "CRITERIA_MODAL_VIP_DISCLAIMER": "每推荐一名新交易者，最多可赚取 {REGULAR_VALUE}。如果您想成为 VIP 关联方，以赚取更多收入（最多每名用户每月 {VIP_VALUE}），{APPLY_HERE}。",
+      "CRITERIA_MODAL_VIP_DISCLAIMER": "每推荐一名新交易者，最多可赚取 {REGULAR_VALUE}。如果您想成为 VIP 关联方，以赚取更多收入（每名用户每月最多 {VIP_VALUE}），{APPLY_HERE}。",
       "CURRENT_AFFILIATE_TIER": "当前关联方等级",
       "DYDX_COMMUNITY": "dYdX 社区",
       "EARN_FEES": "赚取费用",
-      "EARN_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "您推荐的每个新交易者每月最高可赚取 ${AMOUNT_PER_MONTH}。 如果您是 VIP 关联方，则最多可赚取 {VIP_AMOUNT_USD}美元！您的推荐可以节省高达 ${AMOUNT_DISCOUNT}的交易费用。 {LEARN_MORE_LINK}",
-      "EARN_FOR_EACH_TRADER": "每个新交易者每月可赚取高达 $。",
+      "EARN_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "您推荐的每个新交易者每月最高可赚取 ${AMOUNT_PER_MONTH}。 如果您是 VIP 关联方，则最多可赚取 {VIP_AMOUNT_USD}美元！您的推荐可以节省高达 {AMOUNT_DISCOUNT} 美元的交易费用。 {LEARN_MORE_LINK}",
+      "EARN_FOR_EACH_TRADER": "每个新交易者每月最多赚取 {AMOUNT_USD} 美元。",
       "EARN_USDC_DISCRIPTION": "利用质押和其他产品来赚取 USDC。",
       "EARN_USDC": "赚取 USDC",
       "FEES_REFERRED": "推荐费用",
@@ -796,7 +796,7 @@
       "PROGRAM_CARD_BODY_VIP": "感谢您成为 {VIP}！ 您现在可以获得更多的奖励。",
       "PROGRAM_CARD_BODY": "如果您是 VIP 关联方，则每月推荐用户可赚取多达{VIP_VALUE}。",
       "PROGRAM_CARD_TITLE_VIP": "您是 VIP 关联方！",
-      "PROGRAM_CARD_TITLE": "作为 VIP 关联方，赚取更多！",
+      "PROGRAM_CARD_TITLE": "以 VIP 关联方的身份赚取更多！",
       "PROGRAM_STATS": "程序统计数据",
       "REFER_FOR_DISCOUNTS_FIRST_ORDER": "首次下单后，最高可获得 {AMOUNT_USD} 费用折扣！",
       "REFER_FOR_DISCOUNTS": "推荐朋友，他们可以获得高达 ${AMOUNT_USD} 的折扣。",
@@ -806,15 +806,15 @@
       "THE_PRO_TRADING_PLATFORM": "DeFi 的专业交易平台",
       "TOTAL_AFFILIATES": "总关联方",
       "TOTAL_EARNINGS": "总收益",
-      "TRADE_ANYTHING_DISCRIPTION": "任何资产，随时随地。 没有看到您正在寻找的内容吗？ 列出市场，成为第一个交易市场的人！",
-      "TRADE_ANYTHING": "交易一切",
-      "TRADE_MORE_VOLUME_REQUIREMENT": "您需要交易更多的交易量。",
+      "TRADE_ANYTHING_DISCRIPTION": "任何资产，随时随地。 没有看到您正在寻找的内容吗？ 列出市场，成为第一个进行交易的人！",
+      "TRADE_ANYTHING": "万物皆可交易",
+      "TRADE_MORE_VOLUME_REQUIREMENT": "您将需要增加交易量。",
       "TRADED": "交易",
       "TRADES_REFERRED": "推荐交易",
       "TWEET_SHARE_AFFILIATES": "在 @dYdX 上节省高达 {AMOUNT_USD}美元的交易费用： ",
       "UNLOCK_AFFILIATE_PROGRAM": "解锁关联计划",
       "USERS_REFERRED": "推荐用户",
-      "VIP_AFFILIATE_EARNINGS": "如果您是 VIP，则每月最多可赚取 $。{AMOUNT_USD}",
+      "VIP_AFFILIATE_EARNINGS": "如果您是VIP，则每月可以赚取高达 {AMOUNT_USD} 美元。",
       "VIP_AFFILIATE": "VIP 关联方",
       "VIP": "VIP",
       "VOLUME_REFERRED": "推荐数量",
@@ -827,7 +827,7 @@
       "YOUVE_TRADED": "您交易了 {AMOUNT_USD}美元"
     },
     "HEADER": {
-      "API_DOCUMENTATION": "API文档",
+      "API_DOCUMENTATION": "API 文档",
       "CHAT": "聊天",
       "COMMUNITY": "社区",
       "COMPATIBILITY": "兼容性",
@@ -849,10 +849,10 @@
       "NOTIFICATIONS": "通知",
       "OFF": "关",
       "ON": "开",
-      "OPEN_IN_ETHERSCAN": "在Etherscan中开仓",
+      "OPEN_IN_ETHERSCAN": "在 Etherscan 中开仓",
       "RELEVANT_LINKS": "相关链接",
       "TERMS_OF_USE": "使用条款",
-      "TESTNET": "测试"
+      "TESTNET": "测试网"
     },
     "WALLETS": {
       "BITKEEP": "BitKeep",
@@ -894,14 +894,14 @@
       "CONFIRM_OWNERSHIP": "确认您是此钱包的所有人",
       "CONNECT_YOUR_WALLET_EXTENDED": "将您的钱包连接到存款资金并开始交易。",
       "CONNECT_YOUR_WALLET_SEARCH": "搜索钱包……",
-      "CONNECT_YOUR_WALLET": "连接钱包",
+      "CONNECT_YOUR_WALLET": "连接您的钱包",
       "CONNECT_YOUR_WALLET_SUBTITLE": "从这些受支持的选项中选择您的钱包。",
       "CONNECTING": "正在连接……",
       "CONNECTING_SUBTITLE": "检查您的钱包是否有连接请求。连接到 dYdX 是免费的，不会影响您的资金。",
       "COULD_NOT_FIND_AFFILIATE": "我们找不到此关联链接，请检查链接。",
       "CREATE_OR_VERIFY_COSMOS_ADDRESS": "创建或验证 Cosmos 地址。",
       "CREDITED_WITH": "您的账户将存入 {AMOUNT_USD} 美元的测试资金。",
-      "DEPOSIT_ALERT_TITLE": "您有来自 {SOURCE_CHAIN}的{PENDING_DEPOSITS} 笔待处理存款。",
+      "DEPOSIT_ALERT_TITLE": "您有来自{SOURCE_CHAIN}的 {PENDING_DEPOSITS} 笔待处理存款。",
       "DEPOSIT_ALERT_SUBTITLE": "检查状态",
       "DEPOSIT_COMPLETE": "您的 {AMOUNT_USD} 充值现已可用。",
       "DEPOSIT_OF": "存款 {AMOUNT_USD}",
@@ -922,7 +922,7 @@
       "GASLESS_ONBOARDING_RULES": "无 gas 入门规则",
       "GENERATE_DYDX_WALLET": "生成您的 dYdX 链钱包",
       "GENERATE_KEYS": "生成 dYdX 密钥",
-      "GENERATE_KEYS_DESCRIPTION": "密钥使您可以访问自己的帐户",
+      "GENERATE_KEYS_DESCRIPTION": "密钥允许您访问自己的账户",
       "GENERATE_KEYS_FOOTER": "生成 dYdX 密钥是免费的，且需要从您的钱包中签名。 您可以随时使用钱包重新创建密钥。",
       "GENERATE_WITH_WALLET": "使用钱包生成",
       "GET_STARTED": "开始",
@@ -932,7 +932,7 @@
       "INITIATED_WITHDRAWAL": "发起提现",
       "INITIATED_TRANSFEROUT": "已发起划转",
       "INVITED_YOU": "已推荐您开始在世界上最强大的开放交易所进行交易。",
-      "JOIN_ME": "和我一起在dYdX上享受所有交易费用{DISCOUNT}的优惠！",
+      "JOIN_ME": "和我一起在 dYdX 上享受所有交易费用{DISCOUNT}的优惠！",
       "KEEP_WINDOW_OPEN": "请保持此窗口处于打开状态，以确保资金到账。",
       "LEDGER_DERIVATION_PATH": "路径",
       "LEGACY_SIGNING": "传统签名",
@@ -940,14 +940,14 @@
       "LINKING_WALLET": "链接钱包",
       "MISSING_KEYS_DESCRIPTION": "欢迎回来！您需要找回一条或多条密钥",
       "NEED_A_WALLET": "需要钱包吗？",
-      "NOBLE_ADDRESS": "Noble地址",
-      "NOBLE_SWEEP": "资金将扫入到您的 dYdX 地址",
+      "NOBLE_ADDRESS": "Noble 地址",
+      "NOBLE_SWEEP": "资金将扫账到您的 dYdX 地址",
       "NOBLE_ACKNOWLEDGEMENT": "我确认此地址仅支持将 Noble USDC 转移到 Noble 链。 我了解将其他资金发送到此地址的风险。",
       "NOBLE_ADDRESS_VALIDATION": "请输入有效的 Noble 地址。",
       "NO_FUTURE_ACCESS": "您以后将无法在美国境内，或受限地区境内访问此网站或在 dYdX 上交易。",
-      "NO_VPN_USE": "您没有且将来也不会在限制性地点使用VPN以掩盖您的实际位置。",
+      "NO_VPN_USE": "您没有且将来也不会在受限地区使用 VPN 以掩盖您的实际位置。",
       "NOT_A_RESIDENT": "您不符合以下条件：美国或受限地区的居民或公司，位于美国或受限地区，在美国或受限地区注册或在美国或受限地区有注册代理人。",
-      "NOT_SUPPORTED_DESCRIPTION": "您的钱包不支持最新签名标准（硬件钱包的常见问题）。点击下方按钮尝试旧版签名方法。",
+      "NOT_SUPPORTED_DESCRIPTION": "您的钱包不支持最新签名标准（硬件钱包的常见问题）。点击下方按钮尝试传统签名方法。",
       "NOT_SUPPORTED": "不支持",
       "ONBOARDING": "入门培训",
       "MINIMUM_AMOUNT_RECEIVED": "最低收到金额",
@@ -962,7 +962,7 @@
       "REGISTER": "注册",
       "REMEMBER_ME": "记住我",
       "SEARCHING_FOR_LEDGER_DESCRIPTION": "确保您的分类账已解锁且以太坊应用程序处于打开状态",
-      "SEARCHING_FOR_LEDGER": "正在搜索分类账……",
+      "SEARCHING_FOR_LEDGER": "正在搜索 Ledger……",
       "SEND_LINK": "发送链接",
       "SELECT_A_LANGUAGE": "选择语言",
       "SELECT_ACCOUNT_DESCRIPTION": "选择在 dYdX 上使用的账户",
@@ -986,7 +986,7 @@
       "TOS_LINE2": "如果您位于美国、加拿大或其他受封锁或限制的地区时，您今后将不会访问本网站或使用我们的产品或服务。",
       "TOS_LINE3": "您现在并无使用 VPN，且将来也不会使用 VPN 来掩盖您在被封锁或限制地点的实际位置。",
       "TOS_LINE4": "根据您居住地和所在地司法管辖区的法律，您可以合法地访问此网站，以及使用我们的产品和服务。",
-      "TOS_LINE5": "您了解与签订永续合约、使用杠杆以及参与区块链和其他web3产品和服务相关的投资和技术风险。",
+      "TOS_LINE5": "您了解与签订永续合约、使用杠杆以及参与区块链和其他 web3 产品和服务相关的投资和技术风险。",
       "TOS_TRANSLATION_DISCLAIMER": "如适用，本通知非英文的翻译版仅出于礼貌提供。如果翻译版和英文版发生冲突，则以英文版为准。",
       "TRANSFEROUT_ALERT_TITLE": "您有正在待划转的 {PENDING_TRANSFERS} {TOKEN}。",
       "TRANSFEROUT_ALERT_SUBTITLE": "检查状态",
@@ -1001,7 +1001,7 @@
       "VALUE_PROP_REWARDS_DESC": "您在平台上的每笔交易均可赚取 $DYDX 的奖励*",
       "VALUE_PROP_TRUSTLESS_DESC": "使用开源、经过审计的智能合约构建",
       "VALUE_PROP_TRUSTLESS": "去信任",
-      "VERIFY_OWNERSHIP": "验证所有",
+      "VERIFY_OWNERSHIP": "验证所有权",
       "VERIFY_WALLET_OWNERSHIP": "验证您拥有此钱包。",
       "VERIFY_WALLET_COMPATIBILITY": "验证钱包兼容性",
       "WANT_TO_LEARN": "想要进一步了解？",
@@ -1021,14 +1021,14 @@
       "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。"
     },
     "SIGN_INTO_MOBILE": {
-      "TITLE_SIGN_INTO_MOBILE": "登录手机",
+      "TITLE_SIGN_INTO_MOBILE": "登录移动设备",
       "TITLE_SCAN_FROM_APP": "从应用程序扫描",
       "TITLE_CONNECTED": "已连接",
       "TITLE_FAILED_TO_CONNECT": "连接失败",
       "DESCRIPTION_ABOUT_TO_TRANSFER": "您即将通过二维码将您的密钥传输到移动应用程序。",
       "DESCRIPTION_NEVER_SHARE": "切勿与任何人共享此码。dYdX永远不会要求您提供。",
       "WAIT_SECONDS": "等待{SECONDS}秒…",
-      "WAIT_SECONDS_SINGULAR": "等待{SECONDS}秒...",
+      "WAIT_SECONDS_SINGULAR": "等待 {SECONDS} 秒...",
       "SYNC_WITH_DESKTOP": "与桌面同步",
       "WHILE_ONBOARDING": "在进入移动应用程序时，选择{SYNC_WITH_DESKTOP}选项。",
       "VERIFICATION_CODE": "验证码：{CODE}",
@@ -1042,7 +1042,7 @@
     "LEGAL": {
       "ACADEMY_LINK_DESCRIPTION": "如果要访问 dYdX 学院，您需要离开 dYdX Trading Inc. 网站，并进入一个由 dYdX 基金会提供但独立于 dYdX Trading Inc. 且与其不构成附属关系的网站。dYdX Trading Inc. 不对该第三方网站上的操作或内容负责。",
       "LEGAL": "法律",
-      "GOVERNANCE_LINK_DESCRIPTION": "如果要参与治理，您需要离开 dYdX Trading Inc. 网站，并进入一个由 dYdX 基金会提供的独立于dYdX Trading Inc.，并与其无关联的网站。dYdX Trading Inc. 不对该第三方网站上的操作和内容负责。",
+      "GOVERNANCE_LINK_DESCRIPTION": "如果要参与治理，您需要离开 dYdX Trading Inc. 网站，并进入一个由 dYdX 基金会提供的独立于 dYdX Trading Inc. 并与其无关联的网站。dYdX Trading Inc. 不对该第三方网站上的操作和内容负责。",
       "LEAVING_WEBSITE": "即将离开网站",
       "LEAVING_WEBSITE_DESCRIPTION": "继续操作将离开我们的网站，并访问一个由第三方提供的、与我们无关的独立网站。",
       "LEAVING_WEBSITE_DISCLAIMER": "我们对第三方网站上的任何行为或内容不承担责任。"
@@ -1075,7 +1075,7 @@
       "NUM_POSITION_PLURAL": "{NUMBER}当前持仓",
       "SLIPPAGE_EXCEEDED": "超过滑点",
       "SLIPPAGE_EXCEEDED_EXPLANATION": "此订单太大，会导致超过滑点。 减小平仓规模或下限价单。",
-      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "您以下交易对的订单太大，会导致超过滑点。 考虑下限价单。"
+      "SLIPPAGE_EXCEEDED_EXPLANATION_MULTI_MARKET": "您以下交易对的订单太大，会导致过度滑点。 考虑下限价单。"
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "确认条款和充值",
@@ -1094,16 +1094,16 @@
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "无 gas 存款暂时不可用。别担心，很快就会恢复！",
       "GASLESS_ETH_DEPOSITS": "无 gas 存款不可用于 ETH。您可以在{1INCH_WETH_LINK}或{UNISWAP_WETH_LINK}将您的ETH转换为WETH并使用WETH无gas存款，或通过支付您自己的gas费用直接存入ETH。",
       "LOWEST_FEE_DEPOSITS": "来自{LOWEST_FEE_TOKENS_TOOLTIP}的 USDC 存款的费用最低。 其他存款可能有额外的第三方费用。",
-      "MAX_SLIPPAGE": "最高滑价",
+      "MAX_SLIPPAGE": "最高滑点",
       "MINIMUM_DEPOSIT_AMOUNT": "最低存款金额",
-      "MINIMUM_DEPOSIT_MET": "好！您的存款符合{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}的无gas存款最低要求。dYdX将支付这笔存款的gas费用。",
+      "MINIMUM_DEPOSIT_MET": "好！您的存款符合{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}的无 gas 存款最低要求。dYdX 将支付这笔存款的 gas 费用。",
       "MINIMUM_DEPOSIT_UNMET": "至少存入{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}，dYdX 将支付这笔存款的 gas 费用！",
       "EXCHANGE_RECEIVED": "接收",
       "SET_ALLOWANCE_EXPLANATION": "首次在 dYdX 上充值时，必须启用{SYMBOL}。您仅须执行此操作一次。",
-      "SETTING_ALLOWANCE_EXPLANATION": "一旦您的启用{SYMBOL}交易确认，您就可以存款。您只需为每个资产执行一次此操作。",
+      "SETTING_ALLOWANCE_EXPLANATION": "您的启用{SYMBOL}交易一经确认，您就可以存款。您只需为每个资产执行一次此操作。",
       "SLIPPAGE": "滑点",
       "SUBJECT_TO_RULES": "受这些规则约束",
-      "SWAP": "互换",
+      "SWAP": "交换",
       "ESTIMATED_TIME": "预计时间",
       "DEPOSIT_ACKNOWLEDGEMENT": "我同意 {TERMS_LINK} 和 {POLICY_LINK}，包括我接受与这些产品和服务相关的风险，并且不会在美国或任何其他受限制的司法管辖区使用这些产品和服务。 {VIEW_MORE_LINK}"
     },
@@ -1123,8 +1123,8 @@
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "要使用所提取的资金并在 dYdX 之外重新使用您的 Magic 钱包，您必须将您的钱包导出到另一个钱包提供商。",
       "SELECT_CHAINS": "选择链",
       "SLOW": "正常提现",
-      "SLOW_WITHDRAW_DESCRIPTION": "正常提现是一个两步过程。此步骤将发起您的提现请求，并将在Layer 2进行处理。一旦资金准备就绪（可能需要{HOURS}小时），您将收到一条将资金提现到钱包的通知。您自行负责承担交易gas费用。",
-      "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提取可能需要{HOURS}小时才能提取。您将自行承担提现交易 gas 费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
+      "SLOW_WITHDRAW_DESCRIPTION": "正常提现是一个两步过程。此步骤将发起您的提现请求，并将在 Layer 2 进行处理。一旦资金准备就绪（可能需要最多{HOURS}小时），您将收到一条将资金提现到钱包的通知。您负责承担提现交易 gas 费用。",
+      "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提现可能需要最多 {HOURS} 小时才能可供提现。您将自行承担提现交易 gas 费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
       "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "所选路线的第三方费用较高。 我确认：\n{WARNING_MESSAGE}",
       "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "我确认知悉以下警告：\n{WARNING_MESSAGE}"
@@ -1145,13 +1145,13 @@
       "UPDATED_INCENTIVES": "更新的激励措施",
 
       "MARKET_LISTINGS_DESCRIPTION": "只需单击一下，即可列出任何市场。数百个可用，更多即将推出。",
-      "MEGAVAULT_DESCRIPTION": "通过提供自动化流动ity 和捕获协议费用，逐步赚取。",
+      "MEGAVAULT_DESCRIPTION": "通过提供自动流动性和获取协议费用来被动赚取收益。",
       "AFFILIATE_PROGRAM": "联盟计划",
       "AFFILIATES_PROGRAM_DESCRIPTION": "将您的网络推荐到 dYdX。交易时赚取终身佣金！",
-      "INCENTIVES_PROGRAM_DESCRIPTION": "第7季的激励计划又回来了！ 交易时立即赚取积分和 DYDX。",
+      "INCENTIVES_PROGRAM_DESCRIPTION": "激励计划的第7季回来了! 交易时立即赚取积分和 DYDX。",
 
-      "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "立即列出 dYdX 上的任何市场。 需要存入 MegaVault 才能提供市场流动liquid。",
-      "MEGAVAULT_EXTENDED_DESCRIPTION": "通过在市场中提供自动化流动ity 来赚取。 MegaVault 赚取交易 PNL 以及协议收入的 50% 份额。",
+      "PERMISIONLESS_MARKET_LISTINGS_DESCRIPTION": "立即列出 dYdX 上的任何市场。 需要向 MegaVault 存款以提供市场流动性。",
+      "MEGAVAULT_EXTENDED_DESCRIPTION": "通过跨市场提供自动化流动性赚取利润。MegaVault 赚取交易 PNL 以及协议收入的 50% 份额。",
       "AFFILIATES_PROGRAM_EXTENDED_DESCRIPTION": "将您的网络推荐到 dYdX。每月推荐一名用户可赚取多达 3,000 美元 。 VIP 计划适用于较大的关联公司。",
       "NEW_TRADING_REWARDS": "新交易奖励",
       "UPDATED_INCENTIVES_DESCRIPTION": "每月赚取 150 万美元的 DYDX 份额，交易时更即时赚取。"
@@ -1167,7 +1167,7 @@
       "GAS_FEE_GREATER_THAN_REWARD_ERROR": "估计的 Gas 费用大于可领取奖励价值。",
       "PREVIEW_STAKE": "预览质押",
       "VALIDATORS_INFO_LINK": "有关验证者的更多信息，请访问 {MINTSCAN_LINK}。",
-      "STAKING_LEGAL_DISCLAIMER": "您正在将您的资产质押到由第三方运营的验证者节点。 本网站的运营商不对第三方提供的此类质押服务负责。 用 {KEPLR_DASHBOARD_LINK} 质押到另一个验证者，或用 {STRIDE_LINK} 流动性质押。",
+      "STAKING_LEGAL_DISCLAIMER": "您正在将您的资产质押到由第三方运营的验证者节点。 本网站的运营商对于第三方提供的此类质押服务概不负责。 用 {KEPLR_DASHBOARD_LINK} 质押到另一个验证者，或用 {STRIDE_LINK} 流动性质押。",
       "STAKING_LEGAL_DISCLAIMER_WITH_DEFAULT": "您正在将您的资产质押到由第三方运营的验证者节点，并且您全权负责选择您的验证者。 本网站的运营商对于第三方提供的质押服务概不负责。您可以质押到 {KEPLR_DASHBOARD_LINK} 此下拉菜单以外的验证者，或 {STRIDE_LINK} 的流动性质押。"
     },
     "UNSTAKE_MODAL": {
@@ -1185,7 +1185,7 @@
     },
     "STAKE_CONFIRMATION_MODAL": {
       "CONFIRM_STAKE": "确认质押",
-      "STAKE_CONFIRMATION_DESCRIPTOR": "确认质押后，您将开始获得 USDC 形式的奖励。切记，取消质押需要 30 天才能完成。"
+      "STAKE_CONFIRMATION_DESCRIPTOR": "确认质押后，您将开始赚取 USDC 形式的奖励。切记，取消质押需要 30 天才能完成。"
     },
     "UNSTAKE_CONFIRMATION_MODAL": {
       "CONFIRM_UNSTAKE": "确认取消质押",
@@ -1196,7 +1196,7 @@
       "GIVE_FEEDBACK": "提供反馈"
     },
     "CANCEL_ORDERS_MODAL": {
-      "CANCEL_ORDERS_CONFIRMATION": "您确定要删除 {ASSET} 的 {OPEN_ORDERS_TEXT} 吗 ({MARKET})？",
+      "CANCEL_ORDERS_CONFIRMATION": "您确定要删除 {ASSET} ({MARKET}) 中的 {OPEN_ORDERS_TEXT} 吗？",
       "ONE_OPEN_ORDER": "1 个未平仓订单",
       "N_OPEN_ORDERS": "{COUNT} 个未平仓订单",
       "OPEN_ORDERS": "未平仓订单"
@@ -1223,14 +1223,14 @@
       "TERMS_OF_USE_DESCRIPTION": "平台使用规则",
       "PRIVACY_POLICY_DESCRIPTION": "我们的数据政策",
       "LEGAL_DESCRIPTION": "我们的法律文件和条款",
-      "GASLESS_DEPOSIT_RULES_DESCRIPTION": "无gas存款的优惠规则",
+      "GASLESS_DEPOSIT_RULES_DESCRIPTION": "无 gas 存款的优惠规则",
       "COMPETITION_TERMS_DESCRIPTION": "交易竞争条款",
       "LEAGUE_RULES_DESCRIPTION": "交易联盟规则",
       "EXCHANGE_METRICS_DESCRIPTION": "关键数据和图表",
-      "EXCHANGE_STATUS_DESCRIPTION": "中断和交易所维护"
+      "EXCHANGE_STATUS_DESCRIPTION": "停业和交易所维护"
     },
     "HELP_MODAL": {
-      "API_DOCUMENTATION_DESCRIPTION": "使用我们的API以编程方式进行交易",
+      "API_DOCUMENTATION_DESCRIPTION": "使用我们的 API 以编程方式进行交易",
       "HELP_CENTER_DESCRIPTION": "浏览教程和帮助文章",
       "JOIN_DISCORD": "加入Discord",
       "JOIN_DISCORD_DESCRIPTION": "与我们的交易人社区聊天",
@@ -1243,16 +1243,16 @@
       "AVG_ENTRY_PRICE": "平均进场价格",
       "CUSTOM_AMOUNT_TOOLTIP": "调整您的自定义金额将适用于止盈和止损订单。",
       "ENTER_TRIGGERS": "输入触发价",
-      "LIMIT_PRICE_TOOLTIP": "通过确定限价，您可以下达止盈限价单和\/或止损限价单。 单击 {DOCUMENTATION_LINK} 了解详情。",
+      "LIMIT_PRICE_TOOLTIP": "通过确定限价，您可以下达止盈限价单和\/或止损限价单。 单击 {DOCUMENTATION_LINK} 了解更多详情。",
       "MULTIPLE_ORDERS_FOUND": "找到多个订单。",
-      "PRICE_TRIGGERS": "触发价",
-      "PRICE_TRIGGERS_DESCRIPTION": "使用触发器，降低损失，保护利润。",
+      "PRICE_TRIGGERS": "价格触发器",
+      "PRICE_TRIGGERS_DESCRIPTION": "使用触发器最大限度降低损失，保护利润。",
       "EXISTING_ORDERS_REPLACED": "编辑后，将替换您的现有订单。",
-      "SL_LIMIT": "SL限制",
-      "SL_PRICE": "SL价格",
+      "SL_LIMIT": "SL 限制",
+      "SL_PRICE": "SL 价格",
       "STOP_LOSS_TOOLTIP": "在预言机价格超过触发价后，通过平仓交易者的头寸来防止损失。",
       "TAKE_PROFIT_TOOLTIP": "允许交易者通过指定平仓敞口头寸的止盈价格，来设定目标并保护头寸利润。",
-      "TP_LIMIT": "TP限制",
+      "TP_LIMIT": "TP 限制",
       "TP_PRICE": "TP 价格",
       "TRIGGERS_INFO_AUTOMATICALLY_CANCELED": "如果基础头寸平仓，将自动取消止盈和止损订单。",
       "TRIGGERS_INFO_CUSTOM_AMOUNT": "配置将适用于止盈和止损订单的自定义金额。"
@@ -1265,18 +1265,18 @@
       "AVAILABLE_TO_MIGRATE": "可用于迁移",
       "AVERAGE_OPEN_INTEREST": "平均未平仓合约",
       "CAN_BE_CLAIMABLE_BY_YOU": "可以由您进行申领",
-      "CLAIM_DATA_DESCRIPTION": "用于计算 DYDX 追溯性奖励的数据。追溯性奖励由dYdX基金会提供。",
+      "CLAIM_DATA_DESCRIPTION": "用于计算 DYDX 追溯性奖励的数据。追溯性奖励由 dYdX 基金会提供。",
       "CLAIM_DATA": "追溯性奖励数据",
       "COMPILING": "正在汇编数据……",
       "COUNTDOWN": "倒计时",
       "CURRENT_EPOCH": "当前时段",
       "CURRENTLY_HELD": "目前持有",
       "DISCOVER_NEW_ASSETS": "发现可在 dYdX 上交易的新资产",
-      "DOWNLOAD_CSV": "下载为.csv",
+      "DOWNLOAD_CSV": "下载为 .csv",
       "EARN_DYDX_FOR_TRADING_DESCRIPTION": "交易奖励由dYdX基金会分配。",
-      "EARN_DYDX_FOR_TRADING": "因交易赚取DYDX",
+      "EARN_DYDX_FOR_TRADING": "为交易赚取 DYDX",
       "EPOCH_NUMBER": "时段{EPOCH_NUMBER}",
-      "ESTIMATED_FOR_THIS_EPOCH": "本时段内的估计",
+      "ESTIMATED_FOR_THIS_EPOCH": "为本时段预估",
       "ESTIMATED_REWARDS": "预估奖励",
       "ESTIMATED_UNLOCKED_REWARDS": "预估解锁奖励",
       "EXCHANGE_MARKET_SHARE": "交易所市场份额",
@@ -1285,25 +1285,25 @@
       "FEE_STRUCTURE": "费用结构",
       "FOR_V4": "对于 v4",
       "FREE_TRADING_TITLE": "免费交易",
-      "FREE_TRADING_DESCRIPTION": "每月前 100,000 美元交易量，可享用免收交易费！",
+      "FREE_TRADING_DESCRIPTION": "每月前 100,000 美元交易量可免除交易费！",
       "FREE_TRADING_TITLE_ASTERISK": "交易{FREE_TRADING_TITLE_ASTERISK_FREE}*",
-      "FREE_TRADING_TITLE_ASTERISK_FREE": "可用",
-      "FREE_TRADING_DESCRIPTION_ASTERISK": "所有人享受每月高达 100,000 美元的免费交易*。",
-      "FREE_TRADING_DISCLAIMER": "*交易和签订永续合约涉及重大资金和其他风险。dYdX 不提供财务建议。“免费交易”是指dYdX去除了与前三十日交易量低于100,000美元的账户下订单相关的费用；其他成本可能仍然适用，包括但不限于{PERPETUAL_FUNDING}、存款和提取资金以及潜在的清算。如需更多信息，请查看dYdX{TERMS_OF_USE}。",
+      "FREE_TRADING_TITLE_ASTERISK_FREE": "免费",
+      "FREE_TRADING_DESCRIPTION_ASTERISK": "所有人可享受每月最高 100,000 美元的免费交易*。",
+      "FREE_TRADING_DISCLAIMER": "*交易和签订永续合约涉及重大资金和其他风险。dYdX 不提供财务建议。“免费交易”是指 dYdX 去除了与前三十日交易量低于 100,000 美元的账户下订单相关的费用；其他成本可能仍然适用，包括但不限于{PERPETUAL_FUNDING}、存款和提取资金以及潜在的清算。如需更多信息，请查看 dYdX{TERMS_OF_USE}。",
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "永续资金",
       "GASLESS_DEPOSITS_NEW_PROMO": "如果您的首笔存款为 1000 美元或更多，dYdX 将支付您的存款 gas 费！",
       "GASLESS_DEPOSITS_PROMO": "您的存款达到 2000 美元或以上更多，即可享受零 gas 费，每三天一次。",
       "GIFTED_FEE_TIER_BONUS": "{AFFILIATE} 已赠予您费用等级奖金。",
-      "GOVERNANCE_DESCRIPTION": "使用 $DYDX 参与 dYdX Chain 的治理。通过 Keplr 提供。",
+      "GOVERNANCE_DESCRIPTION": "使用 $DYDX 参与 dYdX 链的治理。通过 Keplr 提供。",
       "HAVE_YOU_EXPORTED": "您是否已导出密码口令？",
-      "HAVE_YOU_EXPORTED_DESCRIPTION": "要在 dYdX Chain 上投票或质押，用户必须使用 Cosmos 原生钱包。",
+      "HAVE_YOU_EXPORTED_DESCRIPTION": "要在 dYdX 链上投票或质押，用户必须使用 Cosmos 原生钱包。",
       "HOLDING": "持有{NUMBER}",
       "IN_THIS_EPOCH": "本时段内",
       "LAUNCH_INCENTIVES_TITLE": "启动激励 {FOR_V4}",
       "LAUNCH_INCENTIVES_DESCRIPTION": "每一季赚取交易奖励。 在排行榜上查看与其他交易者的比较，还可以查看以前各季的情况。",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "第{SEASON_NUMBER}季即将开始！",
       "LAUNCH_INCENTIVES_SEASON_NUM": "第{SEASON_NUMBER}季",
-      "LAUNCH_INCENTIVES_SEASON_REWARDS": "第 {SEASON_NUMBER} 季奖励",
+      "LAUNCH_INCENTIVES_SEASON_REWARDS": "第{SEASON_NUMBER}季奖励",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "在第{SEASON_NUMBER}季收到了{NUM_POINTS}，该季结束于{PAST_DATE}。",
       "LAUNCH_INCENTIVES_TOTAL_REWARDS": "总奖励",
       "LAUNCH_INCENTIVES_CONCLUDED": "已结束",
@@ -1312,7 +1312,7 @@
       "MAKER_MARKET_SHARE": "挂单市场份额",
       "MARKET_NOW_LIVE": "{SYMBOL}现已上线",
       "MIGRATE_NOW": "立即迁移",
-      "MIGRATE_DESCRIPTION": "将您的 DYDX 从以太坊迁移到 dYdX 链。 这样做您即可进行质押和参与治理。",
+      "MIGRATE_DESCRIPTION": "将您的 DYDX 从以太坊迁移到 dYdX Chain。 这样做您即可进行质押和参与治理。",
       "NAVIGATE_TO_KEPLR": "{STRONG_YES}，导航至 Keplr 控制面板。",
       "NO_TOKENS_TO_MIGRATE": "无需迁移令牌",
       "NONE_HELD": "未持有",
@@ -1329,24 +1329,24 @@
       "READ_ANNOUNCEMENT": "阅读公告",
       "RETROACTIVE_REWARDS": "追溯奖励",
       "REWARDS_MADE_AVAILABLE": "所有奖励均通过{FOUNDATION_LINK}提供。",
-      "REWARDS_NOT_PROVIDED": "奖励不由dYdX Trading Inc.提供。",
+      "REWARDS_NOT_PROVIDED": "奖励不由 dYdX Trading Inc. 提供。",
       "REWARDS_UPDATE": "奖励更新",
       "SEARCH_MARKETS": "搜索市场",
       "STAKING": "质押",
-      "STAKING_DESCRIPTION": "质押您的 $DYDX 帮助确保网络安全，并获得 $USDC 奖励。在 dYdX Chain 上的所有费用都会分配给质押者。通过 Keplr 提供。",
+      "STAKING_DESCRIPTION": "质押您的 $DYDX 帮助确保网络安全，并获得 $USDC 奖励。在 dYdX 链上的所有费用都会分配给质押者。通过 Keplr 提供。",
       "STOP_MARKET_ORDERS": "止损市价单",
-      "STOP_MARKET_ORDERS_DESCRIPTION": "止损市价单和止盈市价单都在此处！快速轻松地设置触发价格，以限制您的损失并锁定利润。",
+      "STOP_MARKET_ORDERS_DESCRIPTION": "止损市价单和止盈市价单都在此处！快速轻松地设置触发器，以限制您的损失并锁定利润。",
       "TARGET_VOLUME": "目标量",
-      "TELEGRAM_INVITE_BANNER": "谢谢您使用 dYdX！ 团队希望为您提供更高等级的个人化支持，并有机会直接与他们联系。 单击{HERE_LINK}加入 dYdX Chain VIP 交易者电报组。",
-      "TESTNET_DEPOSIT_PROMO": "我们的Goerli应用程序现在可免费使用一键式测试网存款功能。",
+      "TELEGRAM_INVITE_BANNER": "谢谢您使用 dYdX！ 团队希望为您提供更高等级的个人化支持，以及直接与他们联系的机会。 单击{HERE_LINK}加入 dYdX 链 VIP 交易者电报组。",
+      "TESTNET_DEPOSIT_PROMO": "我们的 Goerli 应用程序现提供免费的一键式测试网存款功能。",
       "TESTNET_LOWERCASE": "测试网应用程序",
       "TRADES_DESCRIPTION": "所有产生费用的交易活动",
       "TRADES_LABEL": "在最近 24 小时内执行",
       "TRADING_COMPETITION": "交易竞争",
       "TRADING_DATA_DESCRIPTION": "用于计算 DYDX 交易奖励的数据。交易奖励由 dYdX 基金会提供。",
       "TRADING_DATA": "交易奖励数据",
-      "TRADING_FORMULA_DESCRIPTION": "{TRADING_FORMULA}决定了每个时段您可以从所部署的智能合约的{FOUNDATION_LINK}中获得的 DYDX 奖励。",
-      "TRADING_FORMULA_UPDATE_DESCRIPTION": "质押DYDX现在增加了交易获得的代币奖励。",
+      "TRADING_FORMULA_DESCRIPTION": "{TRADING_FORMULA}决定了每个时段您可以从所部署的智能合约{FOUNDATION_LINK}中获得的 DYDX 奖励。",
+      "TRADING_FORMULA_UPDATE_DESCRIPTION": "质押 DYDX 现在增加了从交易赚取的代币奖励。",
       "TRADING_FORMULA_UPDATE": "交易奖励更新",
       "TRADING_FORMULA": "交易奖励公式",
       "TRADING_LEAGUES": "交易联盟",
@@ -1371,7 +1371,7 @@
     },
     "TRADE": {
       "ADD_MARGIN": "添加保证金",
-      "ADD_TRIGGERS": "添加触发价",
+      "ADD_TRIGGERS": "添加触发器",
       "ADD_TP_SL": "添加 TP | SL",
       "ADD_STOP_LOSS": "添加止损",
       "ADD_TAKE_PROFIT": "添加止盈",
@@ -1380,7 +1380,7 @@
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "目标杠杆决定应用于您下一个订单的保证金金额。在下新订单之前，调整目标杠杆不会转移保证金。",
       "AMOUNT_FILLED": "已全部成交",
       "ANNUALIZED": "年化",
-      "ASKS": "报价",
+      "ASKS": "卖价",
       "AVERAGE_CLOSE": "平仓均价",
       "AVERAGE_CLOSE_SHORT": "平仓",
       "AVERAGE_OPEN": "开仓均价",
@@ -1423,27 +1423,27 @@
       "CURRENT_RATE_1H": "当前 1 小时利率",
       "CURRENT_RATE_8H": "当前8小时利率",
       "CURRENTLY_TRADING_GOERLI": "您正在使用测试资金在我们的 Goerli 测试网应用程序上进行交易。在我们的主网应用程序上创建一个账户，开始使用真实资金进行交易",
-      "CURRENTLY_TRADING_ROPSTEN": "您正在使用测试资金在我们的Ropsten测试网应用程序上进行交易。在我们的主网应用程序上创建一个账户，开始使用真实资金进行交易",
+      "CURRENTLY_TRADING_ROPSTEN": "您正在使用测试资金在我们的 Ropsten 测试网应用程序上进行交易。在我们的主网应用程序上创建一个账户，开始使用真实资金进行交易",
       "DELEVERAGED": "去杠杆化",
       "EDIT_MARGIN": "编辑保证金",
       "EDIT_STOP_LOSS": "编辑止损",
-      "EDIT_TAKE_PROFIT": "编辑获利",
+      "EDIT_TAKE_PROFIT": "编辑止盈",
       "EDIT_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "编辑止盈\/止损触发器",
       "ENTER_AMOUNT": "输入金额",
       "ENTER_LIMIT_PRICE": "请输入限价",
       "ENTER_TRIGGER_PRICE": "请输入触发价格",
       "ENTER_TRAILING_PERCENT": "请输入追踪百分比",
-      "ENTER_TIME_IN_FORCE": "输入生效时间",
+      "ENTER_TIME_IN_FORCE": "请输入生效时间",
       "ENTER_GOOD_UNTIL": "输入良好至",
-      "ENTER_EXECUTION": "输入执行",
+      "ENTER_EXECUTION": "请输入执行",
       "ENTRY_PRICE_SHORT": "输入",
       "EXECUTION": "执行",
       "EXPECTED_PRICE": "预期价格",
       "EXPIRED": "已过期",
       "FAILED": "失败",
-      "FEE_AMOUNT": "交易费用",
+      "FEE_AMOUNT": "费用金额",
       "FEE_PERCENT": "费率百分比",
-      "FEE": "交易费率",
+      "FEE": "费用",
       "FILL_OR_KILL": "全部成交否则取消指令",
       "FILLS_EMPTY_STATE": "您没有全部成交。",
       "FINAL_SETTLEMENT": "最终结算",
@@ -1454,7 +1454,7 @@
       "FUNDING_PAYMENTS": "资金支付",
       "FUNDING_RATE_1H_SHORT": "1小时资金费率",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 提供资金",
-      "FUNDING_RATE": "估计1小时资金",
+      "FUNDING_RATE": "估计 1 小时资金",
       "GOOD_TIL_DATE_ABBREVIATED": "有效至",
       "GOOD_TIL_DATE": "有效截止日期",
       "GOOD_TIL_TIME": "有效截止时间",
@@ -1462,15 +1462,15 @@
       "HISTORICAL_FUNDING_RATE": "历史资金利率",
       "IMMEDIATE_OR_CANCEL": "立即执行否则取消",
       "IMMEDIATE_OR_CANCEL_PARTIALLY_FILLED": "立即执行否则取消部分已成交",
-      "INCREMENTAL_INITIAL_MARGIN_FRACTION": "增加初始保证金比例",
-      "INCREMENTAL_POSITION_SIZE": "增加仓位",
+      "INCREMENTAL_INITIAL_MARGIN_FRACTION": "增加的初始保证金比例",
+      "INCREMENTAL_POSITION_SIZE": "增加的仓位",
       "INDEX_PRICE_ABBREVIATED": "预言机",
       "INDEX_PRICE": "预言机价格",
       "INITIAL_STOP": "初始止损",
       "LAUNCH_MARKET_WITH_PLUS": "+ 启动市场",
       "LIMIT_ORDER_DESCRIPTION": "按特定价格（或更好价格）买入或卖出{SYMBOL}并使用高级交易选项微调订单。",
       "LIMIT_ORDER_SHORT": "限价",
-      "LIMIT_CLOSE": "限制 关闭",
+      "LIMIT_CLOSE": "限价平仓",
       "LIMIT_ORDER": "限价订单",
       "LIMIT_PRICE": "限价",
       "LIQUIDATED": "已清算",
@@ -1483,9 +1483,9 @@
       "MANAGE_YOUR_RISK_STOP": "使用止损单管理风险",
       "MARKET_BUY": "市价买入",
       "MARKET_ORDER_DESCRIPTION": "按市场价买入或卖出{SYMBOL}最轻松的方式。",
-      "MARKET_ORDER_SHORT": "交易对",
+      "MARKET_ORDER_SHORT": "市场",
       "MARKET_ORDER": "市价订单",
-      "MARKET_PRICE_SHORT": "交易对",
+      "MARKET_PRICE_SHORT": "市场",
       "MARKET_PROFIT": "止盈市场",
       "MARKET_SELL": "市价卖出",
       "MARK_PRICE": "标记价格",
@@ -1512,7 +1512,7 @@
       "OPEN_STATUS": "开仓",
       "ORACLE_PRICE_ABBREVIATED": "预言机",
       "ORACLE_PRICE": "预言机价格",
-      "ORDER_EXPIRED": "订单已过期",
+      "ORDER_EXPIRED": "过期订单",
       "ORDER_FILLED": "已全部成交",
       "ORDER_LINES": "订单行",
       "ORDER_LINES_TOOLTIP": "显示或隐藏订单行",
@@ -1521,7 +1521,7 @@
       "ORDER_REMOVAL_REASON_FOK_ORDER_COULD_NOT_BE_FULLY_FULLED": "无法完全执行全部成交或全部取消指令订单。",
       "ORDER_REMOVAL_REASON_FINAL_SETTLEMENT": "订单的 ClobPair 已进入最终结算。",
       "ORDER_REMOVAL_REASON_FULLY_FILLED": "订单已完全执行。",
-      "ORDER_REMOVAL_REASON_IMMEDIATE_OR_CANCEL_WOULD_REST_ON_BOOK": "“立即否则取消”订单尚未完全执行。",
+      "ORDER_REMOVAL_REASON_IMMEDIATE_OR_CANCEL_WOULD_REST_ON_BOOK": "“立即成交否则取消指令”订单尚未完全执行。",
       "ORDER_REMOVAL_REASON_INDEXER_EXPIRED": "订单已过期。",
       "ORDER_REMOVAL_REASON_INTERNAL_ERROR": "订单在订单下达期间造成内部错误。",
       "ORDER_REMOVAL_REASON_POST_ONLY_WOULD_CROSS_MAKER_ORDER": "尽管是仅挂单订单，但订单仍将与订单簿上的挂单订单匹配。",
@@ -1531,7 +1531,7 @@
       "ORDER_REMOVAL_REASON_UNDERCOLLATERALIZED": "由于质押不足，订单已被取消。",
       "ORDER_REMOVAL_REASON_UNSPECIFIED": "未指明错误。",
       "ORDER_REMOVAL_REASON_USER_CANCELED": "用户已取消订单。",
-      "ORDER_REMOVAL_REASON_VIOLATES_ISOLATED_SUBACCOUNT_CONSTRAINTS": "订单由于填写会导致子账户违反孤立子账户约束而已被移除。",
+      "ORDER_REMOVAL_REASON_VIOLATES_ISOLATED_SUBACCOUNT_CONSTRAINTS": "由于填写订单会导致子账户违反孤立子账户约束条件而已将订单移除。",
       "ORDER_TYPE": "订单类型",
       "ORDERBOOK": "交易委托账本",
       "ORDERBOOK_ASK_PRICE": "卖价",
@@ -1564,7 +1564,7 @@
       "PLACE_ORDER_FAILED_DESCRIPTION": "您的交易未成功。",
       "PLACING_ORDER_DESCRIPTION": "您的交易目前正在进行中。",
       "PLACING_ORDER_TITLE": "下订单",
-      "POSITION_COLLATERAL": "头寸抵押品",
+      "POSITION_COLLATERAL": "头寸质押品",
       "POSITION_LEVERAGE": "头寸杠杆",
       "POSITION_MARGIN": "头寸保证金",
       "POSITIONS_EMPTY_STATE": "您没有敞口头寸。",
@@ -1582,7 +1582,7 @@
       "RATE_8H": "8 小时利率",
       "REALIZED_PNL": "已实现盈亏",
       "REDUCE_ONLY": "只减仓",
-      "REDUCE_ONLY_RESIZED": "只调整减少的尺寸",
+      "REDUCE_ONLY_RESIZED": "调整只减仓订单大小",
       "RELEASE_TO_EDIT": "释放鼠标以编辑订单",
       "REMOVE_MARGIN": "移除保证金",
       "RETURN_TO_MARKET": "返回市场",
@@ -1591,8 +1591,8 @@
       "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}在 {PRICE}卖出",
       "SELL_SHORT": "卖出 | 做空",
       "SELF_TRADE": "自动交易",
-      "SET_ORDER_SIZE": "设置订单规模",
-      "SET_PRICE_TRIGGERS": "设置触发价",
+      "SET_ORDER_SIZE": "设置订单数量",
+      "SET_PRICE_TRIGGERS": "设置价格触发器",
       "SLIDER": "滑动条",
       "SPOT_VOLUME_24H": "24 小时现货交易量",
       "STOP_LIMIT_DESCRIPTION": "止损限价单像止损市价单一样有助于防止损失，但具有限价单的多功能性和特点。",
@@ -1604,13 +1604,13 @@
       "STOP_PRICE": "触发价格",
       "SUBMITTED": "已提交",
       "SUBMITTING": "提交中",
-      "TAKE_PROFIT_LIMIT_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格时，止盈限价单将转换为传统的限价单。",
-      "TAKE_PROFIT_LIMIT_SHORT": "获利限价",
-      "TAKE_PROFIT_LIMIT": "获利限价",
-      "TAKE_PROFIT": "获得利润",
+      "TAKE_PROFIT_LIMIT_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，止盈限价单将转换为传统的限价单。",
+      "TAKE_PROFIT_LIMIT_SHORT": "止盈限价",
+      "TAKE_PROFIT_LIMIT": "止盈限价",
+      "TAKE_PROFIT": "止盈",
       "TAKE_PROFIT_MARKET": "止盈市场",
-      "TAKE_PROFIT_MARKET_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，通过平仓止盈市价单锁定利润。",
-      "TAKE_PROFIT_MARKET_SHORT": "获得利润",
+      "TAKE_PROFIT_MARKET_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，止盈市价单即通过平仓头寸锁定利润。",
+      "TAKE_PROFIT_MARKET_SHORT": "止盈",
       "TAKER_FEE": "吃单费",
       "TAKER": "吃单",
       "TAP_TO_CLOSE": "点击可平仓",
@@ -1631,7 +1631,7 @@
       "TRIGGER_PRICE_SHORT": "触发器",
       "TRIGGER_PRICE": "触发价格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "触发订单的相关头寸已平仓或翻转。",
-      "TRIGGERS": "触发价格",
+      "TRIGGERS": "触发器",
       "UNDERCOLLATERALIZED": "质押不足",
       "UNOPENED_ISOLATED_POSITIONS": "未开仓孤立头寸",
       "UNREALIZED_PNL": "未实现盈亏",
@@ -1657,7 +1657,7 @@
       "BY_RECENT": "以最近一次",
       "COMPETE_AGAINST": "力争获奖。",
       "DAILY_HEDGIES": "每场每日比赛中排名第一的交易者将获得一个 Hedgie 奖励",
-      "DAILY_SUBHEADER": "立即通过最佳的盈亏表现赢得 Hedgie",
+      "DAILY_SUBHEADER": "立即获得最佳盈亏表现以赢得 Hedgie",
       "DEMOTION": "降级",
       "DIAMOND": "钻石",
       "EARN_AVATAR": "通过有竞争力的交易赚取独一无二的头像",
@@ -1667,11 +1667,11 @@
       "HELD_BY": "持有者",
       "INACTIVE": "非活跃",
       "LAST_SEASON": "上一季",
-      "LAST_SEASON_OUTCOME": "上季节的结果",
+      "LAST_SEASON_OUTCOME": "上一季的结果",
       "LEAGUE_SIZE": "联盟",
       "LEAGUE": "联盟",
       "LEAGUES": "联盟",
-      "LEAGUES_LAUNCH_TITLE": "交易联盟直线！",
+      "LEAGUES_LAUNCH_TITLE": "交易联盟上线！",
       "LEAGUES_LAUNCH_BODY": "攀升排名梯以赚取您的{PRIZE}份额。",
       "LEGENDS": "传奇",
       "LEGENDS_COMPETITION": "传奇大赛",
@@ -1686,13 +1686,13 @@
       "NO_WINNER": "尚未获胜",
       "NOT_ELIGIBLE": "无资格获得 Hedgie",
       "ON_TRACK": "晋级",
-      "PERIOD_LEAGUES": "{PERIOD}联盟",
+      "PERIOD_LEAGUES": "{PERIOD} 联盟",
       "PAST_HEDGIES": "过往的 Hedgie",
-      "PLACE": "{PLACEMENT}下",
+      "PLACE": "{PLACEMENT} 下",
       "PLATINUM": "白金",
-      "PRIOR_SEASON_HEDGIES": "这些是在第{NUM}季分发的Hedgie奖品",
+      "PRIOR_SEASON_HEDGIES": "这些是在第 {NUM} 季分发的 Hedgie 奖品",
       "PRIZE_CASH": "鉴于您在联盟中的出色表现，您获得了现金奖。",
-      "PRIZE_DAILY_HEDGIE": "鉴于您在每日比赛中的出色表现，您获得了海德吉。",
+      "PRIZE_DAILY_HEDGIE": "鉴于您在每日比赛中的出色表现，您获得了 Hedgie。",
       "PRIZE_HEDGIE": "鉴于您的出色表现，您获得了 Hedgie。",
       "PRIZE_LEAGUE_MIXED": "鉴于您在联盟中的出色表现，您获得了海德吉和现金奖。",
       "PROMOTION_TO": "晋级到{PERIOD}",
@@ -1700,7 +1700,7 @@
       "RANK_NUM": "排名{NUM}",
       "REQUIRED_FOR": "{PERIOD}达标要求",
       "REQUIREMENTS": "要求",
-      "SEASON": "季节",
+      "SEASON": "赛季",
       "SEASON_ENDS": "赛季结束",
       "SEASON_NUM": "第{NUMBER}季",
       "SEE_RESULTS": "点击查看您在本赛季末的成绩！",
@@ -1731,9 +1731,9 @@
       "YOUR_ALL_TIME_PNL": "您的历史盈亏记录",
       "VAULT_THIRTY_DAY_APR": "30 天的年利率",
       "APR": "{PERCENT} APR（年利率）",
-      "EST_APR_PLAIN": "估计 年利率（APR）",
-      "APR_PLAIN": "年利率（APR）",
-      "VAULT_THIRTY_DAY_PNL": "30天盈亏",
+      "EST_APR_PLAIN": "估计 年利率 (APR)",
+      "APR_PLAIN": "年利率 (APR)",
+      "VAULT_THIRTY_DAY_PNL": "30 天盈亏",
       "YOUR_VAULT_BALANCE": "您的保险库余额",
       "VIEW_VAULT": "查看保险库",
       "VIEW_MEGAVAULT": "查看 MegaVault",
@@ -1756,17 +1756,17 @@
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "同意 MegaVault 条款",
       "MEGAVAULT_TERMS_TEXT": "单击“{CONFIRM_BUTTON_TEXT}”，即表示您同意。{LINK}",
       "MEGAVAULT_TERMS_LINK_TEXT": "MegaVault 条款",
-      "SLIPPAGE_WARNING": "此提现将导致 {AMOUNT} 滑价。 如果您稍后提现，则可以减少滑点。 如需了解更多信息，请查看 {LINK}。",
+      "SLIPPAGE_WARNING": "此提现将导致 {AMOUNT} 滑点。 如果您稍后提现，则可以减少滑点。 如需了解更多信息，请查看 {LINK}。",
       "EST_SLIPPAGE": "估计滑点",
       "ESTIMATED_SLIPPAGE": "估计滑点",
       "ESTIMATED_AMOUNT_RECEIVED": "估计收到的金额",
       "PROTOCOL_VAULT": "dYdX 协议保险库",
       "LOCKED_BALANCE": "锁定余额",
       "WITHDRAW_TOO_HIGH": "您的提现不能超过保险库余额。",
-      "WITHDRAW_TOO_LOW": "您的提现金额低于$5 的提现下限。 如果您的金库余额低于最低提现门槛，则必须提现整个金库余额。",
+      "WITHDRAW_TOO_LOW": "您的提现金额低于 5 美元的提现下限。 如果您的保险库余额低于提现下限，则必须提现整个保险库余额。",
       "DEPOSIT_TOO_HIGH": "您的充值不能超过可用质押品。",
       "DEPOSIT_TOO_LOW": "您的存款金额低于 5 美元的存款下限。",
-      "ENTER_AMOUNT_TO_DEPOSIT": "输入充值金额",
+      "ENTER_AMOUNT_TO_DEPOSIT": "请输入充值金额",
       "ENTER_AMOUNT_TO_WITHDRAW": "请输入提现金额",
       "AVAILABLE_TO_WITHDRAW": "可用于提现",
       "AMOUNT_TO_WITHDRAW": "要提现的金额",
@@ -1776,21 +1776,21 @@
       "CONFIRM_DEPOSIT_CTA": "确认存款",
       "AMOUNT_TO_DEPOSIT": "充值金额",
       "CROSS_ACCOUNT": "交叉账户",
-      "VAULT_DESCRIPTION": "该保险库在所有 dYdX 市场提供自动挂单\/吃单，并获得一部分交易收入。 金库通过引用账簿双方的报价来寻求市场中立头寸。损益将根据市场状况而变化，并且存在损失部分或全部USDC存款的风险。",
+      "VAULT_DESCRIPTION": "该保险库在所有 dYdX 市场提供自动流动性，并获得一部分费用收入。 金库通过引用账簿双方的报价来寻求市场中立头寸。损益将根据市场状况而变化，并且存在损失部分或全部 USDC 存款的风险。",
       "LEARN_MORE_ABOUT_MEGAVAULT": "了解 MegaVault 的更多信息",
       "VAULT_OPERATOR_DESCRIPTION": "此金库由 [运{OPERATOR_NAME}营者名称] 运营。dYdX 社区选择运营商。",
-      "LEARN_MORE_ABOUT_OPERATOR": "了解更多关于{OPERATOR_NAME}",
+      "LEARN_MORE_ABOUT_OPERATOR": "进一步了解{OPERATOR_NAME}",
       "TVL": "总锁仓价值",
-      "HOLDINGS": "持股"
+      "HOLDINGS": "持有金额"
     },
     "NOTIFICATIONS": {
-      "66_REDUCTION": "降低66%",
+      "66_REDUCTION": "降低 66%",
       "ADJUSTED_IMR": "已调整的保证金",
       "ADJUSTED_IMR_BODY": "由于波动性，我们暂时将{MARKET}的初始保证金要求{ACTION}至{PERCENT}。{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "区块奖励",
       "CANCELING_ALL_ORDERS": "取消所有订单",
       "CHAIN_DISRUPTION_DETECTED": "检测到潜在的链中断",
-      "CHAIN_DISRUPTION_DETECTED_BODY": "有潜在的 dYdX 链中断。请检查状态页面并刷新。 如果发生链中断，交易和转账将暂时停止。您的资金是安全的。",
+      "CHAIN_DISRUPTION_DETECTED_BODY": "有潜在的 dYdX 链中断。请检查状态页面并刷新。 如果发生链中断，交易和转账将暂时禁用。您的资金是安全的。",
       "CLICK_TO_VIEW": "单击查看",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
@@ -1807,9 +1807,9 @@
       "DISABLE_PUSH_NOTIFICATIONS": "禁用推送通知",
       "ENABLE_PUSH_NOTIFICATIONS": "启用推送通知",
       "EPOCH_REWARDS": "时段{EPOCH_NUMBER}奖励",
-      "EPOCH_REWARDS_BODY": "在时段{EPOCH_NUMBER}期间，您获得了{DYDX}$DYDX的奖励！",
+      "EPOCH_REWARDS_BODY": "在时段{EPOCH_NUMBER}期间，您获得了{DYDX} $DYDX 的奖励！",
       "ERROR": "错误",
-      "FAST_WITHDRAW_PENDING_DESCRIPTION": "您{AMOUNT_ELEMENT}的快速提现正在等待Layer 1确认。",
+      "FAST_WITHDRAW_PENDING_DESCRIPTION": "您的快速提现{AMOUNT_ELEMENT}正在等待 Layer 1 确认。",
       "FAST_WITHDRAW_PENDING": "快速提现正等待处理",
       "FAST_WITHDRAW_SUCCESS_DESCRIPTION": "您{AMOUNT_ELEMENT}的快速提现已经得到确认。",
       "FAST_WITHDRAW_SUCCESS": "快速提现成功！",
@@ -1827,7 +1827,7 @@
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "{CURRENT_CONFIRMATIONS}\/14 次确认",
       "PERMANENTLY_BLOCKED": "永久禁止",
       "PERMANENTLY_BLOCKED_DESCRIPTION": "由于您似乎是违反我们使用条款的管辖区居民、或在上述管辖区交易，并且先前获得机会纠正导致您账户受限的情况，因此已您被永久禁止在协议内进行转账、以快速提现的方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。您可以随时从协议提取资金。",
-      "PERMANENTLY_BLOCKED_ELLIPTIC": "基于合规性原因，您被禁止使用 dYdX 协议。",
+      "PERMANENTLY_BLOCKED_ELLIPTIC": "出于合规性原因，您被禁止使用 dYdX 协议。",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "出于合规性原因，您已被禁止使用 dYdX 协议。该帐户处于仅平仓模式。如果您认为有错误，请发送电子邮件至support@dydx.exchange。",
       "RELEASE_UPDATES": "发布更新",
       "REMOVED": "已移除",
@@ -1835,7 +1835,7 @@
       "SLOW_WITHDRAW_AVAILABLE_DESCRIPTION": "您的正常提现请求已被确认。{AMOUNT_ELEMENT}可用于提现。",
       "SLOW_WITHDRAW_AVAILABLE_GAS_ESTIMATE": "预估交易费{GAS_ESTIMATE}。",
       "SLOW_WITHDRAW_AVAILABLE": "正常提现就绪",
-      "SLOW_WITHDRAW_PENDING_DESCRIPTION": "您有{AMOUNT_ELEMENT}待处理的正常提现。当您的资金在Layer 2上确认时，您将收到通知。",
+      "SLOW_WITHDRAW_PENDING_DESCRIPTION": "您有{AMOUNT_ELEMENT}待处理的正常提现。当您的资金在 Layer 2 上确认时，您将收到通知。",
       "SLOW_WITHDRAW_PENDING": "正常提现正等待处理",
       "STATUS_PAGE": "状态页面",
       "SUSPICIOUS_TRADE": "可疑活动",
@@ -1857,7 +1857,7 @@
         "VIEW_DEPOSIT_STATUS": "查看存款状态",
         "INSTANT": "立即",
         "STANDARD": "标准",
-        "HIGHER_FEES": "费用更高，{AMOUNT_USD}美元的限制",
+        "HIGHER_FEES": "费用更高，限制为{AMOUNT_USD}美元",
         "LOWEST_FEES": "最低费用，无限制"
       },
       "TRADE_UDPATES": "交易更新",
@@ -1878,7 +1878,7 @@
       "REQUIRED": "必需",
       "SENT_VERIFICATION": "已发送验证电子邮件。",
       "SETTINGS": "设置",
-      "SETUP": "安装程序",
+      "SETUP": "安装",
       "TRADING_DESCRIPTION": "订单更新和清算更新",
       "UNVERIFIED": "未经验证",
       "VERIFICATION_FAIL": "验证失败",
@@ -1888,7 +1888,7 @@
       "VERIFICATION_SUCCESS_BODY": "您已成功验证您的电子邮件，并将开始接收电子邮件通知。",
       "VERIFIED": "已验证",
       "VERIFY_EMAIL": "验证您的电子邮件",
-      "VERIFY_EMAIL_BODY": "验证您的电子邮件开始接收电子邮件通知。",
+      "VERIFY_EMAIL_BODY": "验证您的电子邮件以开始接收电子邮件通知。",
       "VERIFY_EMAIL_CTA": "验证电子邮件"
     },
     "FORCE_WITHDRAW": {
@@ -1912,23 +1912,23 @@
       "TESTNET_DEPOSITS_BODY": "测试网存款在 Layer 2 进行处理。您无需在钱包中存入任何资金即可继续操作。测试资金将直接发送到您的 dYdX 账户，而不是您的钱包。"
     },
     "LEAGUE_OUTCOME_MODAL": {
-      "DEMOTED_DESC": "您无法做好剪辑以保持在{PERIOD}联盟。",
+      "DEMOTED_DESC": "您无法成功晋级以保留在{PERIOD}联盟。",
       "DEMOTED_SUB_DESC": "使用谨慎，并好运气！",
-      "INACTIVE_DESC": "\n您本周的活动似乎很低，因此您已被标记为非活跃",
+      "INACTIVE_DESC": "\n您本周的活动似乎很少，因此您已被标记为非活跃",
       "PROMOTED_DESC": "您可以在更高联盟获得更大奖励，并将面临更强大的竞争。",
       "PROMOTED_SUB_DESC": "伟大工作！",
-      "YOU_DEMOTED": "您被降了级",
+      "YOU_DEMOTED": "您已被降级",
       "YOU_INACTIVE": "您不活跃",
-      "YOU_PROMOTED": "您被升了级！"
+      "YOU_PROMOTED": "您已被升级！"
     },
     "HEDGIES": {
       "HEDGIES_NFT": "Hedgies NFT"
     },
     "COMPLIANCE_MODAL": {
-      "COMPLIANCE_BODY": "由于您似乎是违反我们使用条款的管辖区居民、或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "由于您似乎是违反我们使用条款的管辖区居民、或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您被永久禁止下达订单（减少您头寸的市价订单除外）。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "如果您希望解除封锁，请确认：(1) 您居住的国家；(2) 您遵守了使用条款。如果您完成确认，并且账户解除了限制，请注意，未来任何违反我们使用条款的行为都会导致立即受限，届时我们将不再解除限制，但您始终可以提现资金。",
-      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "警告：一旦您确认了所在居住国家，您访问本网站的能力将被暂停，直到您不再处于违反我们的使用条款的司法管辖区。 任何从受限制的司法管辖区连接到本网站的进一步尝试都将导致永久禁止。",
+      "COMPLIANCE_BODY": "由于您似乎是违反我们使用条款的管辖区居民、或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您已被禁止下达订单（减少您头寸的市价订单除外）。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_1": "由于您似乎是违反我们使用条款的管辖区居民、或在上述管辖区交易，并且未完成您的居留国和交易地点确认，因此您已被禁止下达订单（减少您头寸的市价订单除外）。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_2": "如果您希望解除封锁，请确认：(1) 您居住的国家；(2) 您遵守了使用条款。如果您完成确认并且账户解除了限制，请知悉未来任何违反我们使用条款的行为都会导致永久禁用此协议，但您始终可以提取资金。",
+      "COMPLIANCE_BODY_FIRST_OFFENSE_3": "警告：一旦您确认了所在居住国家，您访问本网站的能力将被暂停，直到您不再处于违反我们的使用条款的司法管辖区。 任何从受限制的司法管辖区连接到本网站的进一步尝试都将导致永久禁用。",
       "COMPLIANCE_ACKNOWLEDGEMENT": "我已阅读并确认遵守使用条款，包括禁止美国、加拿大或其他受限司法管辖区的个人或实体使用。",
       "COMPLIANCE_REQUEST": "合规请求",
       "CONTINUE": "继续",
@@ -1994,17 +1994,17 @@
       "CLAIM_USDC_AMOUNT": "领取 {USDC_AMOUNT} USDC",
       "CLAIM_STAKING_REWARDS": "领取质押奖励！",
       "EARN_APR": "赚取 {APR_PERCENTAGE} APR",
-      "ESTIMATED_APR_DATA_BASED_ON": "估计年增长率基于来自 {PROTOCOL_STAKING_LINK} 的数据",
+      "ESTIMATED_APR_DATA_BASED_ON": "预估 APR 基于来自 {PROTOCOL_STAKING_LINK} 的数据",
       "LEAVING_WEBSITE_STAKING_GOVERNANCE": "质押、治理和离开网站免责声明",
       "LIQUID_STAKE_ON_STRIDE": "Stride 的流动性质押",
       "LIQUID_STAKING_AND_LEAVING": "流动性质押和离开网站",
-      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "您选择“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Stride Labs, Inc.（“Stride”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联；(b) 此服务由 Stride 直接向您提供，不涉及运营商；(c) 此服务及流动性质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Stride 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Stride 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Stride 之间交易或传输的任一方面承担责任。运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，且您同意在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "您选择下方“{CTA}”，即表示您确认并同意 (a) 您将离开我们的网站并加入由 Stride Labs, Inc.（“Stride”）提供的网站，该网站独立于本网站的主机和运营商（“运营商”）且无关联；(b) 此服务由 Stride 直接向您提供，不涉及运营商；(c) 此服务及流动性质押均在运营商网站之外开展；(d) 凡有价交易或传输，均直接在您与 Stride 之间发生。此服务不适用于位于美国、加拿大或限制区域的人员。 您还同意，Stride 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Stride 之间交易或传输的任一方面承担责任。运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，且您同意在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立调研、尽职调查并聘请专业顾问。",
       "LIQUID_STAKE_W_STRIDE": "Stride 的流动性质押",
       "LIQUID_STAKE_STRIDE_DESCRIPTION": "将您的 {TOKEN_DENOM}  代币质押为 st{TOKEN_DENOM}，您可以将其部署在生态系统中。",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}，导航到 Stride Zone。",
       "PROTOCOL_STAKING": "ProtocolStaking",
       "STAKE_WITH_KEPLR": "Keplr 质押",
-      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "通过选择以下的“{CTA}”，您承认并同意 (a) 您将离开我们的网站并加入由 Chainapsis, Inc. （“Keplr”）提供的网站，该网站乃独立于且不隶属于本网站的主机和运营商（“运营商”）；(b) 此服务由 Keplr 直接向您提供，不涉及运营商；(c) 此服务及任何质押或治理发生在运营商网站之外；(d) 凡有价交易或传输，均直接在您与 Keplr 之间发生。 此服务不适用于位于美国、加拿大或限制区域的人员。您还同意，Keplr 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Keplr 之间交易或传输的任一方面承担责任。 运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，且您同意在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立研究、尽职调查并聘请专业顾问。",
+      "STAKE_WITH_KEPLR_AND_LEAVING_DESCRIPTION": "通过选择以下的“{CTA}”，您承认并同意 (a) 您将离开我们的网站并加入由 Chainapsis, Inc. （“Keplr”）提供的网站，该网站乃独立于且不隶属于本网站的主机和运营商（“运营商”）；(b) 此服务由 Keplr 直接向您提供，不涉及运营商；(c) 此服务及任何质押或治理发生在运营商网站之外；(d) 凡有价交易或传输，均直接在您与 Keplr 之间发生。 此服务不适用于位于美国、加拿大或限制区域的人员。您还同意，Keplr 要求您提供的信息均不会提供给运营商，并且您不会要求运营商对您与 Keplr 之间交易或传输的任一方面承担责任。 运营商网站上的内容均不构成、也不应解释为或当作财务建议、法律建议、税务建议、投资建议或其他性质的建议，且您同意在采取与上述内容有关的财务、税务、法律或投资行动之前，您有责任开展独立调研、尽职调查并聘请专业顾问。",
       "STAKING_AND_LEAVING": "质押和离开网站免责声明",
       "STAKING_PAGE_SUBTITLE": "质押以赚取 APR。取消质押可能需要长达 30 天。",
       "STAKING_REWARDS": "质押奖励",
@@ -2023,15 +2023,15 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领交易奖励？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX 链地址。",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "我如何质押并领取质押奖励？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。根据拥有最少代币且从未削减过的合格质押者，自动从社区中一组信誉良好的验证者中选出一名验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 as 费。查看更多 {HERE_LINK}。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。基于拥有最少质押代币且从未被削减过的合格验证者，自动从社区中一组信誉良好的验证者中选出一名验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 as 费。查看更多 {HERE_LINK}。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX 链地址。了解更多 {HERE_LINK}。",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "如何确定预先配置的一组验证者？",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_ANSWER": "预先配置的一组验证者用于确定要质押的默认验证者。 请参阅此 {DOCUMENT_LINK} 了解更多信息。",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "质押的风险是什么？",
-      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "使用任何 DeFi 协议都会带来风险。 在质押的情况下，重要的是要了解取消质押代币需要 30 天的时间，这意味着存在一段流动性不足的时期，在此期间您将无法转移您的代币，即使在协议或市场波动的情况下也是如此。此外，用户在将资产抵押给验证者之前，应该对验证者进行尽职调查。违反协议规则的验证者可能会受到惩罚，包括削减其质押的代币（即销毁）或禁止其参与，使其无法获得奖励。",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "使用任何 DeFi 协议都会带来风险。 在质押的情况下，重要的是要了解取消质押代币需要 30 天的时间，这意味着存在一段流动性不足的时期，在此期间您将无法转移您的代币，即使在协议或市场波动的情况下也是如此。此外，用户在将资产抵押给验证者之前，应该对验证者进行尽职调查。违反协议规则的验证者可能会受到惩罚，包括削减其质押的代币（即销毁）或通过拘禁禁止其赚取奖励。",
       "FAQ_WHAT_IS_STAKING_QUESTION": "什么是质押？",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 链使用权益证明作为其共识机制。代币持有者可以将其代币质押给验证者，以帮助保护网络并验证交易，作为交换，从协议收集的交易和 Gas 费中赚取 USDC 奖励。所有费用均支付给质押者，减去支付给保险基金和验证者佣金的任何费用。奖励率基于 {HERE_LINK} 的数据。无法保证未来的奖励率，该奖励率可能会根据协议条件而波动。",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 链使用权益证明作为其共识机制。代币持有者可以将其代币质押给验证者，以帮助保护网络安全并验证交易，同时作为交换，从协议收集的交易和 Gas 费中赚取 USDC 奖励。所有费用均支付给质押者，减去支付给保险基金和验证者佣金的任何费用。奖励率基于来自 {HERE_LINK} 的数据。无法保证未来的奖励率，该奖励率可能会根据协议条件而波动。",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "哪些验证者可用于质押？",
@@ -2048,8 +2048,8 @@
       "REWARD_POOL_FOR_MARKET_MAKERS": "做市商的奖励池",
       "REWARD_POOL_FOR_TRADERS": "交易者的奖励池",
       "REWARD_POOL_DESC": "{REWARD_POOL} 基于每个赛季积分的{TOKEN}奖励",
-      "REWARD_POOL_FOR_TRADERS_DESC_2": "在相应季节按交易量计算，赚取的积分等于前五大市场支付的费用（1-1）",
-      "REWARD_POOL_FOR_TRADERS_DESC_3": "对于在相应季节交易量未进入前 5 名的市场，支付的费用可增加 2 倍",
+      "REWARD_POOL_FOR_TRADERS_DESC_2": "在相应赛季按交易量计算，赚取的积分等于前五大市场支付的费用 (1-1)",
+      "REWARD_POOL_FOR_TRADERS_DESC_3": "对于在相应赛季交易量未进入前 5 名的市场，支付的费用可增至 2 倍",
       "SEASON_ID": "第{SEASON_ID}季",
       "TOTAL_POINTS": "总积分",
       "TRADING_REWARD": "交易奖励",
@@ -2057,7 +2057,7 @@
       "TRADING_REWARD_HISTORY": "交易奖励历史",
       "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "您的历史记录将显示在这里。",
       "TRADING_REWARD_TABLE_EMPTY_STATE": "您没有历史记录。",
-      "TRADING_REWARDS_LEGAL_DISCLAIMER": "管理、奖励和质押相关服务由独立于该接口的主办方和运营商（“运营商”）的第三方直接在第三方网站上向您提供，无需运营商参与。您同意您熟悉 {TERMS_OF_USE_LINK} 并了解与这些服务相关的风险，包括可变奖励率、削减和质押固有的其他风险。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。在采取与服务相关的任何行动之前，您全权负责进行独立研究、尽职调查并寻求专业顾问的建议。",
+      "TRADING_REWARDS_LEGAL_DISCLAIMER": "管理、奖励和质押相关服务由独立于该接口的主办方和运营商（“运营商”）的第三方直接在第三方网站上向您提供，无需运营商参与。您同意您熟悉 {TERMS_OF_USE_LINK} 并了解与这些服务相关的风险，包括可变奖励率、削减和质押固有的其他风险。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。在采取与服务相关的任何行动之前，您全权负责进行独立调研、尽职调查并寻求专业顾问的建议。",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "上述第三方产品和服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     },
     "EPOCH_END_MODAL": {
@@ -2066,7 +2066,7 @@
     },
     "ALLOWANCE_ALERT_MODAL": {
       "ALLOWANCE_AFTER": "•一旦您有未设置的限额，您的钱包就可以免受漏洞的影响，并且可以正常使用。",
-      "ALLOWANCE_ALERT_BODY": "由于旧存款合约中存在智能合约漏洞，您的资金很容易受到攻击。",
+      "ALLOWANCE_ALERT_BODY": "由于较旧的存款合约中存在智能合约漏洞，您的资金很容易受到攻击。",
       "ALLOWANCE_ALERT_TITLE": "重要通知",
       "ALLOWANCE_WARNING": "•在取消设置下面列出的所有代币的限额之前，不要向您的钱包发送额外的资金。",
       "FUNDS_RECOVERABLE": "•您的资金是安全的，而且可以被追回。",
@@ -2089,8 +2089,8 @@
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
       "REDUCE_ONLY_SUPPORT": "支持只减仓功能",
-      "REDUCE_ONLY_WILL_DISABLE": "仅减仓仅适用于立即或取消 (IOC) 订单。 更改执行选项将自动禁用只减仓功能。",
-      "REDUCE_ONLY_WILL_ENABLE": "仅减仓仅适用于立即或取消 (IOC) 订单。 如适用，启用只减仓功能时会自动将您的执行方法更改为受支持的选项。"
+      "REDUCE_ONLY_WILL_DISABLE": "仅减仓仅适用于立即成交否则取消指令 (IOC) 订单。 更改执行选项将自动禁用只减仓功能。",
+      "REDUCE_ONLY_WILL_ENABLE": "仅减仓仅适用于立即成交否则取消指令 (IOC) 订单。 如适用，启用只减仓功能时会自动将您的执行方法更改为受支持的选项。"
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "现金",
@@ -2108,17 +2108,17 @@
       "SHARE_TO_TWITTER": "分享到推特",
       "TWEET_MARKET_POSITION": "查看我在 @dYdX 上的{MARKET}头寸！",
       "TWEET_USE_MY_LINK": "使用我的链接加入以获得交易费折扣：{LINK}",
-      "TWEET_JOIN_ME_LINK": "在{LINK}上加我",
+      "TWEET_JOIN_ME_LINK": "在{LINK}上加入我",
       "TWEET_PASTE_IMAGE_AND_DELETE_THIS": "粘贴图像并删除！"
     },
     "DIRECT_TRANSFER_MODAL": {
-      "ADDRESS_FIELD": "無效的錢包地址",
+      "ADDRESS_FIELD": "无效的钱包地址",
       "CONFIRM_TRANSFER": "确认转帐",
       "CONFIRM_TRANSFER_PROMPT": "您正试图将{AMOUNT}转移到以下以太坊地址：",
       "DIRECTLY_TRANSFER": "直接将资金转移到 dYdX 上的另一个帐户中",
       "ENTER_ETH_ADDRESS": "输入钱包地址",
       "ETH_ADDRESS": "以太坊钱包地址",
-      "INVALID_ADDRESS_TITLE": "無效的錢包地址",
+      "INVALID_ADDRESS_TITLE": "无效的钱包地址",
       "INVALID_ADDRESS_BODY": "请输入一个有效的 dYdX 链地址。",
       "PLEASE_CONFIRM_ADDRESS": "请在继续之前确认这是所需的地址。",
       "REQUIRED_FOR_TRANSFERS_TO_CEX": "转账至中心化交易所的必要条件",
@@ -2126,11 +2126,11 @@
     },
     "DEPOSIT_WITH_FIAT": {
       "BANXA_SUPPORT_LINK": "Banxa 支持",
-      "CHECK_ORDER_STATUS": "在寻找法币充值？在电子邮件中检查您的订单状态，或联系{BANXA_SUPPORT_LINK}",
+      "CHECK_ORDER_STATUS": "需要法定货币充值？在电子邮件中检查您的订单状态，或联系{BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "购买 USDC",
       "MODAL_CONFIRMATION": "在 Banxa 上完成订单流程，用法币购买 USDDC，无需支付 gas 费用。在电子邮件中检查您的订单状态，或联系{BANXA_SUPPORT_LINK}",
       "MODAL_CONFIRMATION_TITLE": "在 Banxa 上完成",
-      "MODAL_LEGAL_DISCLAIMER": "点击“购买 USDC”，即表示您承认并同意由 Banxa.com Pty Ltd. （“Banxa”）直接为您提供本服务，且不涉及 dYdX Trading Inc.（“dYdX”）；本服务以及任何购买或出售加密货币以换取价值（包括法币、加密货币和贷款）的行为都发生在 dYdX 网站和协议之外，且任意价值的传输都（包括发送、接收和保管价值）将直接发生在您的以太坊网络地址和 Banxa 之间。本服务不对位于美国的人士提供。您还同意，不会将 Banxa 要求您提供的信息（包括卡号和客户身份审查）提供给 dYdX，且您不会要求dYdX 对您与 Banxa 之间交易或传输的任何方面负责。  如有任何冲突，请以本声明的英文版为准，该声明可在 https:\/\/dydx.exchange\/legal 的 dYdX 使用条款中找到。 ",
+      "MODAL_LEGAL_DISCLAIMER": "点击“购买 USDC”，即表示您承认并同意由 Banxa.com Pty Ltd. （“Banxa”）直接为您提供本服务，且不涉及 dYdX Trading Inc.（“dYdX”）；本服务以及任何购买或出售加密货币以换取价值（包括法币、加密货币和贷款）的行为都发生在 dYdX 网站和协议之外，且任意价值的传输都（包括发送、接收和保管价值）将直接发生在您的以太坊网络地址和 Banxa 之间。本服务不对位于美国的人士提供。您还同意，不会将 Banxa 要求您提供的信息（包括卡号和客户身份审查）提供给 dYdX，且您不会要求 dYdX 对您与 Banxa 之间交易或传输的任何方面负责。  如有任何冲突，请以本声明的英文版为准，该声明可在 https:\/\/dydx.exchange\/legal 的 dYdX 使用条款中找到。 ",
       "MODAL_NEED_HELP": "需要帮助？",
       "MODAL_SUBTITLE": "通过 Banxa 平台来购买 USDC。资金将直接存入您的账户，{NO_GAS_FEES_STYLED}。",
       "NO_GAS_FEES_STYLED": "无需支付 gas 费用",
@@ -2157,7 +2157,7 @@
     },
     "DEPOSIT_PROMO": {
       "DEPOSIT_PROMO_ABOUT_CTA": "获得{PROMO_BONUS_AMOUNT}",
-      "DEPOSIT_PROMO_ABOUT_DESCRIPTION": "在有限的时间内，充值{PROMO_DEPOSIT_AMOUNT}+进行有效性检查，可获得免费的一次性{PROMO_BONUS_AMOUNT}奖励。",
+      "DEPOSIT_PROMO_ABOUT_DESCRIPTION": "在有限的时间内，充值{PROMO_DEPOSIT_AMOUNT}+并进行有效性检查，可获得免费的一次性{PROMO_BONUS_AMOUNT}奖金。",
       "DEPOSIT_PROMO_ABOUT_TITLE": "充值{PROMO_DEPOSIT_AMOUNT}，获得{PROMO_BONUS_AMOUNT}",
       "DEPOSIT_PROMO_DISCLAIMER": "此优惠活动受{PROMOTION_RULES}和{PRIVACY_POLICY}的约束。",
       "DEPOSIT_PROMO_PAUSED": "由于交易量大，目前优惠活动已暂停。请明天再回来查看最新状况。",
@@ -2165,22 +2165,22 @@
       "DEPOSIT_PROMO_STEP_1_DESCRIPTION": "在{PROMO_DEPOSIT_DATE}后充值{PROMO_DEPOSIT_AMOUNT}或更多金额。",
       "DEPOSIT_PROMO_STEP_1_ELIGIBLE_DEPOSIT_AMOUNT_TOTAL": "自优惠活动开始之日起，您总共充值了{ELIGIBLE_DEPOSIT_AMOUNT}。",
       "DEPOSIT_PROMO_STEP_1_ELIGIBLE_DEPOSIT_AMOUNT": "您的充值金额为{ELIGIBLE_DEPOSIT_AMOUNT}。",
-      "DEPOSIT_PROMO_STEP_1_PENDING_DEPOSITS": "您有{PENDING_DEPOSITS}尚未到帐。",
+      "DEPOSIT_PROMO_STEP_1_PENDING_DEPOSITS": "您有{PENDING_DEPOSITS}充值尚未到账。",
       "DEPOSIT_PROMO_STEP_1_TITLE_MAKE_A_DEPOSIT": "进行充值",
       "DEPOSIT_PROMO_STEP_2_CHECK_STATUS": "检查状态",
-      "DEPOSIT_PROMO_STEP_2_DESCRIPTION": "每人可以在一个帐户上申请该优惠。",
+      "DEPOSIT_PROMO_STEP_2_DESCRIPTION": "每人可以在一个账户上申领该优惠。",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_ELIGIBLE": "您有资格获得奖金！",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_NOT_ELIGIBLE": "您没有资格获得奖金。",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_PENDING": "您提交了有效性检查。请稍后再回来查看您的帐户是否符合条件。",
       "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "进行有效性检查",
       "DEPOSIT_PROMO_STEP_2_VERIFY_LIVENESS": "验证有效性",
-      "DEPOSIT_PROMO_STEP_3_BONUS_RECEIVED": "您的{PROMO_BONUS_AMOUNT}奖金已经收到了！",
-      "DEPOSIT_PROMO_STEP_3_DESCRIPTION": "验证上述步骤后，您的帐户将记入贷方。",
+      "DEPOSIT_PROMO_STEP_3_BONUS_RECEIVED": "您的{PROMO_BONUS_AMOUNT}奖金已收取！",
+      "DEPOSIT_PROMO_STEP_3_DESCRIPTION": "验证上述步骤后，您的账户将记入贷方。",
       "DEPOSIT_PROMO_STEP_3_TITLE_RECEIVE_BONUS": "获得{PROMO_BONUS_AMOUNT}奖金",
-      "DEPOSIT_PROMO_STEP_3_VIEW_BONUS_TRANSFER": "查看转账金额"
+      "DEPOSIT_PROMO_STEP_3_VIEW_BONUS_TRANSFER": "查看转账"
     },
     "REWARDS": {
-      "EPOCH_DISTRIBUTION_DESCRIPTION": "{AMOUNT} {SYMBOL}每 28 天分配给 dYdX 上的交易者。您获得的奖励与您支付的费用除以该时段所有交易者支付的总费用成正比。",
+      "EPOCH_DISTRIBUTION_DESCRIPTION": " 每 28 天{AMOUNT} {SYMBOL}分配给 dYdX 上的交易者。您按照所支付的费用除以该时段所有交易者支付的总费用的比例赚取奖励。",
       "EPOCH_ENDS_IN": "时段结束于",
       "HOW_DO_DYDX_REWARDS_WORK": "$DYDX 奖励如何运作？",
       "REWARDS_CLAIMABLE": "在每个时段结束后7天，从{DYDX_FOUNDATION}部署的智能合约通过{DYDX_COMMUNITY}可申领交易奖励。交易奖励以 dYdX 产品提供的数据为基础。",
@@ -2188,10 +2188,10 @@
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
-      "DEPOSIT_ETH_INFO": "此钱包中所有剩余的 ETH 将转换为 USDC 并存入您的交易帐户。",
+      "DEPOSIT_ETH_INFO": "此钱包中所有剩余的 ETH 将转换为 USDC 并存入您的交易账户。",
       "DEPOSIT_FUNDS_SUBTITLE": "您需要资金才能开始交易。",
       "DEPOSIT_NON_UDSC_INFO": "此钱包中的所有{ASSET}将转换为USDC并存入您的交易帐户。",
-      "DEPOSIT_USDC_INFO": "此钱包中的所有 USDC 将存入您的交易帐户。",
+      "DEPOSIT_USDC_INFO": "此钱包中的所有 USDC 将存入您的交易账户。",
       "FIAT_SUBTITLE": "通过信用卡等方式来购买 USDC。 资金将直接存入您的帐户，无需支付 gas 费。",
       "INSUFFICIENT_BALANCE": "余额不足",
       "NETWORK_FEE": "网络费",
@@ -2199,9 +2199,9 @@
       "NETWORK_FEE_INFO": "您的钱包中必须有{ETH_AMOUNT}才够支付网络费。",
       "SEND_TO_WALLET": "存入钱包",
       "SEND_FUNDS": "存入加密货币",
-      "SEND_FUNDS_MODAL_TITLE": "转帐和存款",
-      "SEND_FUNDS_MODAL_SUBTITLE": "将加密货币存入您的钱包和交易帐户",
-      "SEND_FUNDS_SUBTITLE": "将资金发送到此钱包地址并存入您的交易帐户。",
+      "SEND_FUNDS_MODAL_TITLE": "转账和存款",
+      "SEND_FUNDS_MODAL_SUBTITLE": "将加密货币存入您的钱包和交易账户",
+      "SEND_FUNDS_SUBTITLE": "将资金发送到此钱包地址并存入您的交易账户。",
       "SHOW_DEPOSIT_FORM": "显示存款表格"
     },
     "USER_SURVEY": {
@@ -2214,7 +2214,7 @@
       "HIDE_PHRASE": "隐藏密码口令",
       "NEVER_SHARE_PHRASE": "永远不要与任何人分享您的密码口令！",
       "REVEAL_SECRET_PHRASE": "显示密码口令",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "您的密码口令是一组 24 个单词，用于备份和访问您的账户。",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "您的密码口令由 24 个单词组成，用于备份和访问您的账户。",
       "SECRET_PHRASE_RISK": "任何知道您密码口令的人都可以使用您的钱包，从而使您的资产面临风险。",
       "SECRET_PHRASE_RISK_ACK": "我了解风险，且绝不会与任何人分享我的密码口令。",
       "SHOW_PHRASE": "显示密码口令",
@@ -2271,9 +2271,9 @@
       "ADD_MARKET_STEP_1_TITLE": "选择市场",
       "ADD_MARKET_STEP_2_TITLE": "确认详情",
       "ADD_MARKET_STEP_3_TITLE": "提议新市场",
-      "ADD_MARKET_STEP_1_DESCRIPTION": "搜索或从您想要添加的市场列表中选择。 此预先填充的市场列表基于流行的中心化交易所的深度和交易量，并不代表对此类市场的认可。 有关方法的更多详情，请参阅 {HERE}。",
+      "ADD_MARKET_STEP_1_DESCRIPTION": "从您想要添加的市场列表中搜索或选择。 此预先填充的市场列表基于流行的中心化交易所的深度和交易量，并不代表对此类市场的认可。 有关方法的更多详情，请参阅 {HERE}。",
       "ADD_MARKET_STEP_2_DESCRIPTION": "一旦选定市场，其所有参数将自动填充。",
-      "ADD_MARKET_STEP_3_DESCRIPTION": "发送交易，创建添加新市场的提议。 这需要余额{REQUIRED_NUM_TOKENS}解除质押{NATIVE_TOKEN_DENOM}。",
+      "ADD_MARKET_STEP_3_DESCRIPTION": "发送交易，创建添加新市场的提议。 这需要{REQUIRED_NUM_TOKENS}解除质押{NATIVE_TOKEN_DENOM}的余额。",
       "ADD_NEW_MARKET_DETAILS": "通过治理提案向 dYdX Chain 添加新资产。需要 {AMOUNT} 未质押的 DYDX。",
       "AVAILABLE_TO_TRADE_POST_LAUNCH": "启动 {MARKET} 后即可进行交易。",
       "BEGIN_LAUNCH": "开始启动",
@@ -2282,17 +2282,17 @@
       "DEPOSIT_AND_LAUNCH": "存款和启动市场",
       "DEPOSIT_APR": "存款年利率",
       "DEPOSIT_LOCKUP": "存款锁定",
-      "DEPOSIT_LOCKUP_DESCRIPTION": "存款锁定为 {NUM_DAYS} 天，且您的存款将获得估计{APR_PERCENTAGE} 年增长率（基于最后 {PAST_DAYS} 天）。",
+      "DEPOSIT_LOCKUP_DESCRIPTION": "存款锁定为 {NUM_DAYS} 天，且您的存款将赚取预估为{APR_PERCENTAGE}的 APR（基于最后 {PAST_DAYS} 天）。",
       "HIDE_STEPS": "隐藏步骤",
       "IMPACT_NOTIONAL": "影响名义",
       "INSTANT_MARKET_LISTINGS": "即时市场列表",
       "INSTANT_MARKET_LISTINGS_ARE_LIVE": "即时市场列表已上线！",
       "INSTANTLY_LAUNCH": "立即启动 {MARKET}",
-      "INSTANTLY_LAUNCH_BY_DEPOSITING": "存入MegaVault即可立即启动一个市场。",
+      "INSTANTLY_LAUNCH_BY_DEPOSITING": "存入 MegaVault 即可立即启动一个市场。",
       "LAUNCH_A_MARKET": "启动市场",
       "LAUNCH_ANOTHER_MARKET": "启动另一个市场",
       "LAUNCH_MARKET": "启动市场",
-      "LAUNCH_MARKET_AGREEMENT": "单击以下，即表示您同意 (a) 启动市场存在实质性经济损失风险； (b) 您对启动市场的任何损失或责任承担全部责任；(c) 启动市场没有固定或保证收益，任何显示的收益仅供参考，可能出现显著变化；(d) 您已独立做出启动市场的决定，并且未依赖任何其他方（包括本网站的运营商和代码的软件开发人员）的任何建议；并且 (e) 您已自行进行尽职调查和\/或咨询合格的专业人员，就启动市场的合法性、监管合规性、税务待遇、投资和财务适宜性为您提供建议。",
+      "LAUNCH_MARKET_AGREEMENT": "单击以下，即表示您同意 (a) 启动市场存在实质性经济损失风险；(b) 您对启动市场所导致的任何损失或债务承担全部责任；(c) 启动市场没有固定或保证收益，任何显示的收益仅供参考，可能出现较大变化；(d) 您已独立做出启动市场的决定，并且未依赖任何其他方（包括本网站的运营商和代码的软件开发人员）的任何建议；并且 (e) 您已自行进行尽职调查和\/或咨询合格的专业人员，就启动市场的合法性、监管合规性、税务处理、投资和财务适宜性为您提供了建议。",
       "LAUNCH_MARKET_TERMS": "启动市场协议",
       "LAUNCH_MARKETS": "启动市场",
       "LAUNCHING_MARKET_LOADING": "启动市场...",
@@ -2303,8 +2303,8 @@
       "LIST_ANY_MARKET": "只需单击一下，即可列出任何市场。数百个可用，更多即将推出",
       "LISTINGS_DESCRIPTION": "dYdX 上的市场列表完全由社区驱动。此工具将帮助您提交治理提案，以列出新市场。",
       "MARKET_LAUNCH_DETAILS": "选择要启动的市场，并在 MegaVault 中存入 {DEPOSIT_AMOUNT}。 您的存款估计将获得 {APR_PERCENTAGE} 的年增长率（基于最后 {PAST_DAYS} 天）。",
-      "MARKET_LAUNCH_DETAILS_2": "{DEPOSIT_AMOUNT}存入 ，立即在 dYdX 链上推出新市场。 {MEGAVAULT_LINK}。存款已赚取估计的年增{APR_PERCENTAGE}长率（基于最后几{PAST_DAYS}天）。",
-      "MARKET_LAUNCH_DETAILS_3": "选择您想要启动的市场，并向{DEPOSIT_AMOUNT}存入{MEGAVAULT_LINK} ，并持有至少  {PAST_DAYS}天。 存款已赚取估计年利率{APR_PERCENTAGE}。",
+      "MARKET_LAUNCH_DETAILS_2": "{DEPOSIT_AMOUNT}存入 ，立即在 dYdX 链上推出新市场。 {MEGAVAULT_LINK}。存款已赚取预估为{APR_PERCENTAGE}的 APR（基于最后{PAST_DAYS}天）。",
+      "MARKET_LAUNCH_DETAILS_3": "选择您想要启动的市场，并向{MEGAVAULT_LINK}存入{DEPOSIT_AMOUNT}，持续至少{PAST_DAYS}天。 存款已赚取估计年利率{APR_PERCENTAGE}。",
       "MARKET_LAUNCH_DETAILS_4": "{DEPOSIT_AMOUNT}存款{MEGAVAULT_LINK}以立即启动市场。您的存款将被锁定 {NUM_DAYS} 天。预估 MegaVault 存款已赚取 {APR_PERCENTAGE} 年利率。",
       "MARKET_LAUNCHED": "市场已启动！",
       "MARKET_NOW_LIVE_TRADE": "{MARKET} 现已上线，开始交易。",
@@ -2316,7 +2316,7 @@
       "MSG_DELAY_MESSAGE": "消息延迟",
       "MSG_SUBMIT_PROPOSAL": "消息提交提议",
       "NEW_MARKET_PROPOSAL_AGREEMENT": "勾选以下复选框，即表示您承认并理解：(a) 预先填充的市场列表不反映对任何特定资产或市场的认可，也不应被视为投资、法律或任何其他形式的专业建议； (b) 此列表不是任何特定市场的推荐，市场是从使用公共数据的技术角度，根据兼容性和功能评估情况纳入；以及 (c) 鼓励您自行开展研究并咨询合格的法律顾问，以确保遵守任何和所有适用司法管辖区的法律。 此外，您确认并理解，单击“提议新市场”将创建链上治理提案 - 有关链上治理提案的更多信息，请访问这个{DOCUMENTATION_LINK} ，该提案独立且不属于于本网站的主机和运营商。 美国、加拿大和 {TERMS_OF_USE} 中所述的受制裁司法管辖区禁止使用此小组件。",
-      "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "选择资产、确认详情并启动治理提议以向dYdX链添加新市场。 需要{REQUIRED_NUM_TOKENS}解除质押{NATIVE_TOKEN_DENOM}。",
+      "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "选择资产、确认详情并启动治理提议以向 dYdX 链添加新市场。 需要{REQUIRED_NUM_TOKENS}解除质押{NATIVE_TOKEN_DENOM}。",
       "NOT_LAUNCHED": "未启动",
       "OR_MORE": "{NUMBER}或更多",
       "PERMISSIONLESS_LIVE": "无许可市场已上线！",
@@ -2324,7 +2324,7 @@
       "PREVIEW_LAUNCH": "预览启动",
       "PREVIEW_MARKET_PROPOSAL": "预览市场提议",
       "PROPOSAL_DISCLAIMER": "当您提交提议时，{NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} 将从您的钱包中扣除。 除非提议被否决，否则在治理投票结束后，这些代币将返回到您的钱包。",
-      "PROPOSAL_DISCLAIMER_1": "提交提议需要{NUM_TOKENS_REQUIRED}取消质押 {NATIVE_TOKEN_DENOM}。 您的 {NATIVE_TOKEN_DENOM} 将在提议持续期间锁定。 单击 {HERE} 了解详情。",
+      "PROPOSAL_DISCLAIMER_1": "提交提议需要{NUM_TOKENS_REQUIRED}取消质押 {NATIVE_TOKEN_DENOM}。 您的 {NATIVE_TOKEN_DENOM} 将在提议持续期间锁定。 单击 {HERE} 了解更多详情。",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "您的提议已成功提交链上。",
       "PROPOSE_NEW_MARKET": "提议新市场",
       "READY_FOR_LAUNCH": "准备发射",
@@ -2335,32 +2335,32 @@
       "SHOW_STEPS": "显示步骤",
       "STEPS_TO_CREATE": "创建新市场的步骤",
       "SUBMITTED_PROPOSAL": "提交提议！",
-      "SUGGEST_NEW_MARKET": "提议设立新市场",
+      "SUGGEST_NEW_MARKET": "提议一个新市场",
       "TIME_UNTIL_LIVE": "距上线时间",
       "TRADE_INSTANTLY": "立即交易",
       "VIEW_PROPOSAL": "查看提议"
     },
     "COMPLIANCE": {
-      "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
-      "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们的使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您的账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
+      "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
+      "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
       "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。"
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "二元结算",
-      "BINARY_SETTLEMENT_DESC": "如果事件发生，市场将自动结算为 $1。 否则，它将以 0 美元结算。 价格相当于结果发生的百分比机会。",
+      "BINARY_SETTLEMENT_DESC": "如果事件发生，市场将自动结算为 $1。 否则，它将以 0 美元结算。 价格相当于结果发生的概率。",
       "LEVERAGE_TRADE_EVENTS": "杠杆交易事件结果",
       "LEVERAGE_TRADE_EVENTS_CONTINUATION": "涉及广泛的主题，包括政治、体育、流行文化等。",
       "LEVERAGE_TRADE_US_ELECTION": "杠杆交易美国大选的结果",
       "PREDICTION_MARKET_CONCLUDED": "{MARKET} 已结束",
       "PREDICTION_MARKET_CONCLUDED_DESC": "{MARKET}预测市场已得出结论并结算。",
-      "PREDICTION_MARKET_DESC": "如果事件按预测发生，预测市场将结算为 $1。 否则，它们将以 0 美元结算。",
+      "PREDICTION_MARKET_DESC": "如果事件按预测发生，预测市场将结算为 1 美元。 否则，它们将以 0 美元结算。",
       "PREDICTION_MARKETS": "预测市场",
       "PREDICTION_MARKET_DISCLAIMER": "预测市场波动风险较高，可能导致去杠杆化。 阅读有关预测市场的更多信息 {HERE}",
-      "PREDICTION_MARKET_WIN": "您已正确预测 {MARKET} 结果！",
+      "PREDICTION_MARKET_WIN": "您已正确预测 {MARKET} 的结果！",
       "PREDICTION_MARKET_LOSS": "您错误地预测了{MARKET}结果。",
       "TRADE_US_PRESIDENTIAL_ELECTION": "交易美国总统选举",
-      "TRUMPWIN_DESC": "这是一个预测市场，如果唐纳德·J·特朗普赢得 2024 年美国总统大选，则将以 $1 结算。 否则，它将以 $0. {LEARN_MORE} 或者 {DISMISS} 结算。"
+      "TRUMPWIN_DESC": "这是一个预测市场，如果唐纳德·J·特朗普赢得 2024 年美国总统大选，则将以 $1 结算。 否则，它将以 0 美元{LEARN_MORE}或{DISMISS}结算。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2377,7 +2377,7 @@
     "CONFIRM_MIGRATION": "确认迁移",
     "DYDX_CHAIN_SETTLEMENT": "dYdX 链结算",
     "EMPTY_PENDING_MIGRATIONS_ALL": "目前没有待处理迁移。",
-    "EMPTY_PENDING_MIGRATIONS_MINE": "目前您 dYdX 链地址没有待处理迁移。",
+    "EMPTY_PENDING_MIGRATIONS_MINE": "目前您的 dYdX 链地址没有待处理迁移。",
     "EMPTY_PENDING_MIGRATIONS_SEARCH": "目前没有地址匹配 {SEARCH_STRING} 的待处理迁移。",
     "ENTER_ADDRESS": "输入 dYdX 链地址",
     "ESTIMATED_TIME_LEFT": "预计剩余时间",
@@ -2391,9 +2391,9 @@
     "LATEST_BLOCK_HEIGHT": "最新区块高度",
     "HOW_TO_STAKE": "如何质押？",
     "MIGRATION_BLOCKED_MESSAGE": "由于您似乎是违反我们使用条款的司法管辖区的居民、或在违反我们使用条款的司法管辖区使用本用户界面，或您从事了违反我们使用条款的活动，您已被阻止，且此交易无法完成。",
-    "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "由于目的地址似乎是违反我们使用条款的司法管辖区的居民，或在面违反我们使用条款的司法管辖区使用本用户界，或从事违反我们使用条款的活动，该目的地址已被阻止，且此交易无法完成。",
+    "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "由于目的地址似乎是违反我们使用条款的司法管辖区的居民、或在违反我们使用条款的司法管辖区使用本用户界面，或从事违反我们使用条款的活动，该目的地址已被阻止，且此交易无法完成。",
     "MIGRATION_FAILED": "迁移失败",
-    "MIGRATION_FAQ_DYDX_CHAIN_PORTAL_ANSWER": "dYdX 社区选择将基于以太坊的 DYDX 迁移到 dYdX 链（投票 {HERE}）。此门户要求基于以太坊的 DYDX 持有人与以太坊智能合约互动，将其 DYDX 代币从以太坊迁移到 dYdX 链。",
+    "MIGRATION_FAQ_DYDX_CHAIN_PORTAL_ANSWER": "dYdX 社区选择将基于以太坊的 DYDX 迁移到 dYdX 链（投票 {HERE}）。此门户协助基于以太坊的 DYDX 持有人与以太坊智能合约互动，将其 DYDX 代币从以太坊迁移到 dYdX Chain。",
     "MIGRATION_FAQ_DYDX_CHAIN_PORTAL": "什么是 dYdX 链门户？",
     "MIGRATION_FAQ_GAS_FEES_ANSWER": "是，与门户互动的持有人将不得不在以太坊上支付 gas 费用。用户不必在 dYdX 链上支付 Gas 费用。",
     "MIGRATION_FAQ_GAS_FEES": "我是否需要支付 Gas 费用？",
@@ -2405,13 +2405,13 @@
     "MIGRATION_FAQ_WHAT_ADDRESS": "我可以将 dYdX 链 DYDX 发送到哪个地址？",
     "MIGRATION_FAQ_WHAT_TOKENS_ANSWER": "成功与门户交互的持有人将在以太坊上收到 wethDYDX，并在 dYdX 链上收到 DYDX。",
     "MIGRATION_FAQ_WHAT_TOKENS": "我将收到哪些代币？",
-    "MIGRATION_FAQ_WRAPPED_TOKENS_ANSWER": "wethDYDX 将 1:1 铸造给成功将基于以太坊的 DYDX 发送到智能合约的任何用户。 wethDYDX 与基于以太坊的 DYDX 具有相同的 v3 治理权限，并且可转移。 wethDYDX 无法桥接到 v4。",
-    "MIGRATION_FAQ_WRAPPED_TOKENS": "什么是包裹式以太坊 DYDX 代币（“wethDYDX”）？",
+    "MIGRATION_FAQ_WRAPPED_TOKENS_ANSWER": "wethDYDX 将 1:1 铸造给成功将基于以太坊的 DYDX 发送到智能合约的任何用户。wethDYDX 与基于以太坊的 DYDX 具有相同的 v3 治理权限，并且可转移。wethDYDX 无法桥接到 v4。",
+    "MIGRATION_FAQ_WRAPPED_TOKENS": "什么是包裹式以太坊 DYDX 代币 (“wethDYDX”)？",
     "MIGRATION_HELP": "迁移帮助",
     "NEW_MIGRATION": "新迁移",
     "NOT_STARTED": "未开始",
-    "PENDING_MIGRATIONS_DESCRIPTION_I": "此表格列出从以太坊到 dYdX 链的所有正进行的代币迁移。表格会定期刷新或在手动页面重新加载时刷新。新条目将在相应的以太坊交易完成后几分钟出现，这通常需要大约 25 分钟。",
-    "PENDING_MIGRATIONS_DESCRIPTION_II": "列出待处理迁移后，您可以跟踪将要转移代币的 dYdX 链块。请注意，由于 dYdX 链块时间波动可能会发生变化，所示的预计时间仅为近似值。",
+    "PENDING_MIGRATIONS_DESCRIPTION_I": "此表格列出从以太坊到 dYdX 链的所有正进行的代币迁移。表格会定期刷新或在手动重新加载页面时刷新。新条目将在相应的以太坊交易完成后几分钟出现，这通常需要大约 25 分钟。",
+    "PENDING_MIGRATIONS_DESCRIPTION_II": "列出待处理迁移后，您可以跟踪将要转移代币的 dYdX 链块。请注意，所示的预计时间仅为近似值，以为该值会随 dYdX 链块时间波动而发生变化。",
     "PENDING_MIGRATIONS_DESCRIPTION_III": "迁移得到解决后，将在下一次自动更新期间或手动刷新页面时从此表格中删除。",
     "PENDING_MIGRATIONS": "待处理迁移",
     "PREVIEW_MIGRATION": "预览迁移",
@@ -2442,27 +2442,27 @@
   },
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "钱包余额不足以支付交易费用；请存入额外资金。",
-    "BROADCAST_ERROR_CLOB_2000": "无法完全执行““全部成交或取消”订单。",
+    "BROADCAST_ERROR_CLOB_2000": "无法完全执行“全部成交否则取消”订单。",
     "BROADCAST_ERROR_CLOB_2001": "仅减仓订单无法增加头寸数量。",
-    "BROADCAST_ERROR_CLOB_2002": "仅减仓订单无法改变头寸方向。",
+    "BROADCAST_ERROR_CLOB_2002": "仅减仓订单无法改变头寸。",
     "BROADCAST_ERROR_CLOB_2003": "仅挂单订单将跨一个或多个挂单者订单。",
-    "BROADCAST_ERROR_CLOB_2005": "订单将违反孤立子账户约束。",
+    "BROADCAST_ERROR_CLOB_2005": "订单会违反孤立子账户约束条件。",
     "BROADCAST_ERROR_CLOB_3000": "无效订单标志。",
     "BROADCAST_ERROR_CLOB_3001": "订单 goodTilBlockTime 无效。",
     "BROADCAST_ERROR_CLOB_3002": "状态订单无法要求立即执行。",
-    "BROADCAST_ERROR_CLOB_3003": "区块时间大于消息的 GoodTilBlock 时间。请刷新页面再重试。",
+    "BROADCAST_ERROR_CLOB_3003": "区块时间大于消息的 GoodTilBlockTime。请刷新页面再重试。",
     "BROADCAST_ERROR_CLOB_3004": "消息的 GoodTilBlockTime 比 StatefulOrderTimeWindow 更久。请刷新页面再重试。",
     "BROADCAST_ERROR_CLOB_3005": "现有的状态订单比新的订单具有更高或相同的优先级。",
     "BROADCAST_ERROR_CLOB_3006": "状态订单不存在。",
     "BROADCAST_ERROR_CLOB_3007": "状态订单质押检查失败。订单大小可能太大，请使用较小的订单重试。",
     "BROADCAST_ERROR_CLOB_3008": "状态订单先前已取消，因此无法发出。",
-    "BROADCAST_ERROR_CLOB_3009": "状态订单先前已撤销，因此无法发出。",
+    "BROADCAST_ERROR_CLOB_3009": "状态订单先前已移除，因此无法发出。",
     "BROADCAST_ERROR_CLOB_10001": "由于净值等级限制，子账户无法开立更多订单。{EQUITY_TIER_LEARN_MORE}",
-    "BROADCAST_ERROR_2000": "无法完全执行““全部成交或取消”订单。",
+    "BROADCAST_ERROR_2000": "无法完全执行“全部成交否则取消”订单。",
     "BROADCAST_ERROR_2001": "仅减仓订单无法增加头寸数量。",
-    "BROADCAST_ERROR_2002": "仅减仓订单无法改变头寸方向。",
+    "BROADCAST_ERROR_2002": "仅减仓订单无法改变头寸。",
     "BROADCAST_ERROR_2003": "仅挂单订单将跨一个或多个挂单者订单。",
-    "BROADCAST_ERROR_2005": "订单将违反孤立子账户约束。",
+    "BROADCAST_ERROR_2005": "订单会违反孤立子账户约束条件。",
     "BROADCAST_ERROR_3000": "无效订单标志。",
     "BROADCAST_ERROR_3001": "订单 goodTilBlockTime 无效。",
     "BROADCAST_ERROR_3002": "状态订单无法要求立即执行。",
@@ -2472,7 +2472,7 @@
     "BROADCAST_ERROR_3006": "状态订单不存在。",
     "BROADCAST_ERROR_3007": "状态订单质押检查失败。",
     "BROADCAST_ERROR_3008": "状态订单先前已取消，因此无法发出。",
-    "BROADCAST_ERROR_3009": "状态订单先前已撤销，因此无法发出。",
+    "BROADCAST_ERROR_3009": "状态订单先前已移除，因此无法发出。",
     "BROADCAST_ERROR_10001": "由于净值等级限制，子账户无法开立更多订单。{EQUITY_TIER_LEARN_MORE}",
     "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "成交此单将会使您的账户低于担保门槛。 请尝试较小金额。",
     "GENERAL": {
@@ -2485,15 +2485,15 @@
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "订单金额必须是{STEP_SIZE}的倍数。",
       "BRACKET_ORDER_FAILED_TO_PLACE": "您的括号单中的一个或多个订单已失败。请检查订单选项卡，以查看您的有效止盈和止损订单。",
-      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "您的止损触发价必须高于市价单的预期价格：${EXPECTED_PRICE}。",
-      "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "您的止损触发价太接近清算价 - 在被清算之前，止损单可能无法完全执行。请输入高于${TRIGGER_PRICE_LIMIT}的触发价。",
+      "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "您的止损触发价必须高于市价单的预期价格：{EXPECTED_PRICE}美元。",
+      "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "您的止损触发价太接近清算价 — 在被清算之前，止损单可能无法完全执行。请输入高于${TRIGGER_PRICE_LIMIT}的触发价。",
       "BRACKET_ORDER_STOP_LOSS_BELOW_EXPECTED_PRICE": "您的止损触发价必须低于市价单的预期价格：${EXPECTED_PRICE}。",
-      "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "您的止损触发价太接近清算价 - 在被清算之前，止损单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}美元的触发价。",
-      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_EXPECTED_PRICE": "您的止盈触发价必须高于市价单的预期价格：${EXPECTED_PRICE}。",
+      "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "您的止损触发价太接近清算价 — 在被清算之前，止损单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}美元的触发价。",
+      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_EXPECTED_PRICE": "您的止盈触发价必须高于市价单的预期价格：{EXPECTED_PRICE}美元。",
       "BRACKET_ORDER_TAKE_PROFIT_ABOVE_LIQUIDATION_PRICE": "您的止盈触发价太接近清算价 - 在被清算之前，止盈单可能无法完全执行。请输入高于${TRIGGER_PRICE_LIMIT}的触发价。",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "您的止盈触发价必须低于市价单的预期价格：${EXPECTED_PRICE}。",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "您的止盈触发价太接近清算价 - 在被清算之前，止盈单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}美元的触发价。",
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
       "INVALID_LARGE_POSITION_LEVERAGE": "此交易将导致您的头寸杠杆无效。为限制风险，较大头寸的最大杠杆率较低。",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "此交易将导致您的账户使用超过100%的保证金。",
       "INVALID_NEW_POSITION_LEVERAGE": "此交易将导致您的头寸杠杆无效。",
@@ -2504,7 +2504,7 @@
       "MARKET_ORDER_ERROR_INDEX_PRICE_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}预言机价格下滑。如果您仍然打算下该订单，请使用限价单。",
       "MARKET_ORDER_ERROR_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格影响。如果您仍然打算下该订单，请使用限价单。",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}预言机价格下滑。",
-      "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格影响。",
+      "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格差。",
       "MARKET_ORDER_NOT_ENOUGH_LIQUIDITY": "没有足够的流动性来全部成交此市价订单，请尝试较小的订单金额。",
       "MARKET_ORDER_ONE_SIDED_LIQUIDITY": "由于订单簿单边流动性，因此不建议使用此市价订单。 请改为下限价订单。",
       "MARKET_ORDER_PRICE_IMPACT_AT_MAX_LEVERAGE": "此订单具有非零价格差，有可能使您的头寸超过最大杠杆。请尝试较小的订单金额。",
@@ -2515,22 +2515,22 @@
       "ORDER_SIZE_BELOW_MIN_SIZE": "您的订单数量低于最小订单数量{MIN_SIZE} {SYMBOL}",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "鉴于您当前的未结订单，此订单可能会导致您头寸的杠杆无效。请关闭在此订单之前可以全部成交的部分或全部订单，或减小订单数量。",
       "ORDER_WOULD_FLIP_POSITION": "此订单将翻转或增加您的头寸。请取消勾选“只减仓”或“减少您的订单数量”。",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
       "TAKER_FEE_INVALID": "您的费率可能已变更。请刷新应用，然后重试。",
       "TARGET_LEVERAGE_NEGATIVE": "您的目标杠杆不能为负。请输入一个正数。",
       "TARGET_LEVERAGE_TOO_HIGH": "您的目标杠杆太高。 请降低您的目标杠杆。",
-      "TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的触发价格必须超过当前预言机价格：{INDEX_PRICE}。",
+      "TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的触发价格必须高于当前预言机价格：{INDEX_PRICE}。",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "您的触发价格必须低于当前预言机价格：{INDEX_PRICE}。",
-      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请更新您的触发价或使用止损限价单。",
+      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请更新您的触发价或使用止损限价单。",
       "USER_MAX_ORDERS": "此订单将使您超过每个市场每边 20 个未结订单的最大限制。",
       "USER_MAX_ORDERS_FOR_EQUITY_TIER": "此订单将使您超过{LIMIT}个未平仓订单的净值级别限制",
-      "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "此订单将超过您的股权等级的未平仓订单的限额 {LIMIT}。 下一个股权等级为 {EQUITY}。",
-      "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "此订单将超过未平仓订单的限额 {LIMIT}。",
+      "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "此订单将超过您的股权等级的未平仓订单的限额 {LIMIT}。 下一个净值等级为 {EQUITY}。",
+      "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "此订单将使您超过未平仓订单的限额 {LIMIT}。",
       "WOULD_NOT_REDUCE": "如果订单成交，您的头寸不会减少。",
-      "WOULD_NOT_REDUCE_UNCHECK": "您的仓位不会因为此订单而减少。如果您想下单，请取消勾选“只减仓”。",
+      "WOULD_NOT_REDUCE_UNCHECK": "您的头寸不会因为此订单而减少。如果您想下单，请取消勾选“只减仓”。",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "有效期超过最大 90 天。",
       "POSITION_LEVERAGE_OVER_MAX": "由此产生的头寸杠杆将超过该市场的最大杠杆。\n",
-      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "您的订单低于孤立保证金订单的最低抵押品要求。 孤立的保证金订单至少需要 {MIN_VALUE} 抵押品。"
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "您的订单低于孤立保证金订单的最低质押品要求。 孤立保证金订单需要至少 {MIN_VALUE} 质押品。"
     },
     "TRADE_BOX_TITLE": {
       "AMOUNT_INPUT_STEP_SIZE": "步骤数量",
@@ -2550,9 +2550,9 @@
       "NO_EQUITY_DEPOSIT_FIRST": "先存款",
       "ORDER_BELOW_COLLATERALIZATION": "担保门槛",
       "ORDER_CROSSES_OWN_ORDER": "交叉订单",
-      "ORDER_SIZE_BELOW_MIN_SIZE": "低于最小规模",
+      "ORDER_SIZE_BELOW_MIN_SIZE": "低于最小数量",
       "ORDER_WITH_CURRENT_ORDERS_INVALID": "无效的杠杆",
-      "TAKER_FEE_INVALID": "吃单费更改",
+      "TAKER_FEE_INVALID": "吃单费已更改",
       "GEO_LOCATION_RESTRICTED": "位置受限",
       "STOP_MUST_ABOVE_INDEX_PRICE": "无效的止损价",
       "STOP_MUST_BELOW_INDEX_PRICE": "无效的止损价",
@@ -2562,30 +2562,30 @@
       "MISSING_LIMIT_PRICE": "请输入限价",
       "MISSING_STOP_PRICE": "请输入止损价",
       "MISSING_TRIGGER_PRICE": "请输入触发价格",
-      "MISSING_TRAILING_PERCENTAGE": "请输入追踪的百分比",
+      "MISSING_TRAILING_PERCENTAGE": "请输入追踪百分比",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "止损市价",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "止盈市场",
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "流动性风险",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "流动性风险",
-      "ORDER_WOULD_FLIP_POSITION": "仅限于削减",
-      "WOULD_NOT_REDUCE_UNCHECK": "仅限于削减",
+      "ORDER_WOULD_FLIP_POSITION": "只减仓",
+      "WOULD_NOT_REDUCE_UNCHECK": "只减仓",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "无效限价",
       "LIMIT_MUST_BELOW_TRIGGER_PRICE": "无效限价",
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "限价",
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_LOWER": "限价",
       "BRACKET_ORDER_STOP_LOSS_BELOW_EXPECTED_PRICE": "止损",
       "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "止损",
-      "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "获得利润",
-      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_EXPECTED_PRICE": "获得利润",
+      "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "止盈",
+      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_EXPECTED_PRICE": "止盈",
       "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "止损",
       "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "止损",
-      "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "获得利润",
-      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_LIQUIDATION_PRICE": "获得利润",
+      "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "止盈",
+      "BRACKET_ORDER_TAKE_PROFIT_ABOVE_LIQUIDATION_PRICE": "止盈",
       "CONNECT_WALLET_TO_TRADE": "连接钱包",
       "DEPOSIT_TO_TRADE": "充值",
-      "USER_MAX_ORDERS": "太多未平仓订单",
+      "USER_MAX_ORDERS": "过多未平仓订单",
       "INVALID_GOOD_TIL": "有效期无效",
-      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "低于最小规模"
+      "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "低于最小数量"
     },
     "TRADING_VIEW": {
       "ORDER_MODIFICATION_ERROR_LIMIT_PRICE_CROSS": "不允许拖动限价订单超过当前价格",
@@ -2596,23 +2596,23 @@
       "ORDER_MODIFICATION_ERROR_TP_PRICE_LOWER": "止盈价格必须低于当前价格。"
     },
     "TRIGGERS_FORM": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价。",
       "LOSS_COLON": "损失：",
       "PRICE_MUST_POSITIVE": "所有输入价格都必须为正值。 请调整您的输入价格。",
       "PROFIT_COLON": "利润：",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价。",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价。",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "您的止损限价必须高于触发价格，此订单才会在触发时成交。请调整您的限价。",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "您的止损限价必须低于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
       "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的止损触发价格必须超过当前预言机价格：{INDEX_PRICE}。",
       "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "您的止损触发价格必须低于当前预言机价格：{INDEX_PRICE}。",
       "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "您的止盈限价必须高于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
       "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "您的止盈限价必须低于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
-      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的止盈触发价格必须超过当前预言机价格：{INDEX_PRICE}。",
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "您的止盈触发价格必须高于当前预言机价格：{INDEX_PRICE}。",
       "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "您的止盈触发价格必须低于当前预言机价格：{INDEX_PRICE}。"
     },
     "TRIGGERS_FORM_TITLE": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "流动性风险",
-      "PRICE_MUST_POSITIVE": "无效的价格输入",
+      "PRICE_MUST_POSITIVE": "输入的价格无效",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "流动性风险",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "无效的止损限价",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "无效的止损限价",
@@ -2626,11 +2626,11 @@
     "API_STATUS": {
       "INDEXER_ALERT": "Indexer 警告",
       "INDEXER_DOWN": "无法获得 Indexer 当前区块高度。",
-      "INDEXER_HALTED": "Indexer 已在区块{HALTED_BLOCK}高度上停止。",
+      "INDEXER_HALTED": "Indexer 已在区块{HALTED_BLOCK}上停止。",
       "INDEXER_TRAILING": "Indexer 落后于 Validator {TRAILING_BLOCKS}区块，预计会出现重大延误。",
       "VALIDATOR_ALERT": "Validator 警告",
       "VALIDATOR_DOWN": "无法获得当前区块高度。",
-      "VALIDATOR_HALTED": "Validator已在区块{HALTED_BLOCK}高度上停止。",
+      "VALIDATOR_HALTED": "Validator 已在区块{HALTED_BLOCK}上停止。",
       "UNKNOWN_API_ERROR": "未知 API 错误"
     },
     "ONBOARDING": {
@@ -2638,32 +2638,32 @@
       "WALLET_RESTRICTED_ERROR_MESSAGE": "由于此地址似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区进行交易违反我们的使用条款，或从事违反我们的使用条款的活动，因此，此地址已被阻止。",
       "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_DESTINATION_ERROR_MESSAGE": "由于目的地址似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，目的地址已被阻止，此交易无法完成。",
       "WALLET_RESTRICTED_WITHDRAWAL_TRANSFER_ORIGINATION_ERROR_MESSAGE": "由于起始地址似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，起始地址已被阻止，此交易无法完成。",
-      "REGION_NOT_PERMITTED_TITLE": "限制",
-      "REGION_NOT_PERMITTED_SUBTITLE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在司法管辖区交易违反我们的使用条款，或从事违反我们使用条款的活动，您已被阻止。您可以随时从协议提取资金。",
-      "BANNED_USER": "由于您似乎是违反我们使用条款的管辖区的居民、或从上述管辖区交易，因此您已被永久禁止在协议内进行转账，以快速提现的方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。您可以随时从协议提取资金。",
+      "REGION_NOT_PERMITTED_TITLE": "被限制",
+      "REGION_NOT_PERMITTED_SUBTITLE": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，或从事违反我们使用条款的活动，您已被阻止。您可以随时从协议提取资金。",
+      "BANNED_USER": "由于您似乎是违反我们使用条款的司法管辖区的居民、或从上述管辖区交易，因此您已被永久禁止在协议内进行转账，以快速提现的方式从协议中移出资金，以及下减少头寸的订单（市价单除外）。您可以随时从协议提取资金。",
       "COULD_NOT_CONNECT": "无法连接至 {WALLET}",
-      "MAX_CCTP_TRANSFER_LIMIT_EXCEEDED": "请试试把金额减少。当前 CCTP 最大转账限额为 {MAX_CCTP_TRANSFER_AMOUNT}。",
+      "MAX_CCTP_TRANSFER_LIMIT_EXCEEDED": "请尝试减少金额。当前 CCTP 最大转账限额为 {MAX_CCTP_TRANSFER_AMOUNT}。",
       "INDETERMINISTIC_SIGNING": "您的钱包不支持确定签名。请切换到其他钱包提供商。",
       "INVALID_EMAIL": "请输入有效的邮箱地址。",
       "INVALID_USERNAME": "用户名必须以字母开头，长度不能超过 24 个字符，并且只能包含字母、数字和下划线。",
-      "KEY_RECOVERY_FAILED": "密钥回收失败。在启用“旧签名”的情况下重试。",
+      "KEY_RECOVERY_FAILED": "密钥找回失败。在启用“旧签名”的情况下重试。",
       "LEDGER_U2F_REQUIRED": "Ledger连接需要U2F浏览器支持。请确保您当前的浏览器支持此功能。",
-      "PRICE_IMPACT_TOO_HIGH": "没有足够的流动资金来满足要求的金额，由此产生的滑点超过我们的安全限额。",
+      "PRICE_IMPACT_TOO_HIGH": "没有足够的流动性来满足要求的金额，由此产生的滑点超过我们的安全限额。",
       "USERNAME_TAKEN": "此用户名已有人在用。",
       "WALLET_NO_TRANSACTIONS": "此钱包没有资金，也没有交易记录。请向您的钱包存入资金，以继续使用。"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "您的账户不同步。请重新连接您的钱包，然后再试。",
       "DEPOSIT_MORE_THAN_BALANCE": "您的充值不能超过钱包可用余额。",
-      "DEPOSIT_WRONG_NETWORK_PRODUCTION": "您的钱包网络不正确。请确保将它设定到“以太坊主网”。",
-      "DEPOSIT_WRONG_NETWORK_STAGING": "您的钱包网络不正确。请确保将它设置为 Goerli 测试网络。",
+      "DEPOSIT_WRONG_NETWORK_PRODUCTION": "您的钱包网络不正确。请确保将它设置为‘以太坊主网’。",
+      "DEPOSIT_WRONG_NETWORK_STAGING": "您的钱包网络不正确。请确保将它设置为‘Goerli 测试网络’。",
       "MUST_SPECIFY_ASSET": "请选择要存入的资产。",
       "MUST_SPECIFY_CHAIN": "请选择存款的来源链。"
     },
     "WITHDRAW_MODAL": {
-      "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "流动性不足以处理此次快速提现。请尝试较小金额。",
+      "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "流动性不足，无法处理此次快速提现。请尝试较小金额。",
       "MAX_FAST_WITHDRAW_AMOUNT": "请输入小于{MAX_FAST_WITHDRAW_AMOUNT}的提现金额。",
-      "MIN_SLOW_WITHDRAW_AMOUNT": "正常提现金额必须大于或等于 10 ，或您的整个账户余额。",
+      "MIN_SLOW_WITHDRAW_AMOUNT": "正常提现金额必须大于或等于 10，或者是您的整个账户余额。",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "您的账户受到限制。您必须先平仓所有头寸才能提现。",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "您的提现不能超过可用质押品。输入金额时，请确保您考虑过快速提现费用。",
       "WITHDRAW_MORE_THAN_FREE": "您的提现不能超过您的可用质押品。",
@@ -2674,14 +2674,14 @@
     "TRANSFER_MODAL": {
       "AMOUNT_MINIMUM_ERROR": "金额必须大于 {NUMBER} {TOKEN}",
       "TRANSFER_INVALID_DYDX_ADDRESS": "无效的 dYdX 链地址。",
-      "TRANSFER_INVALID_ETH_ADDRESS": "我们无法找到与此钱包地址关联的帐户。",
+      "TRANSFER_INVALID_ETH_ADDRESS": "我们无法找到与此钱包地址关联的账户。",
       "TRANSFER_MORE_THAN_FREE": "您的转帐金额不得超过可用质押品的金额。",
       "TRANSFER_TO_YOURSELF": "您无法直接转帐到自己的钱包地址。",
       "TRANSFER_INSUFFICIENT_GAS": "链钱包中的 {TOKEN} 余额 ({BALANCE} {TOKEN}) 可能不够支付交易费用。 请存入额外资金。",
-      "TRANSFER_WITHOUT_MEMO": "在没有他们提供的备忘录的情况下，转移到中心化交易所，可能会导致资金损失。"
+      "TRANSFER_WITHOUT_MEMO": "如果不具备他们提供的备忘录，转移到中心化交易所可能会导致资金损失。"
     },
     "ADJUST_ISOLATED_MARGIN": {
-      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "转移此抵押品将使您超过市场的最大杠杆。 请输入较低的金额。",
+      "ISOLATED_MARGIN_ADJUSTMENT_MORE_THAN_FREE": "转移此质押品将使您超过市场的最大杠杆。 请输入较低的金额。",
       "ISOLATED_MARGIN_ADJUSTMENT_INVALID_AMOUNT": "请输入有效金额。"
     },
     "NEW_MARKET_WIDGET": {
@@ -2691,26 +2691,26 @@
   },
   "WARNINGS": {
     "ACCOUNT_FUND_MANAGEMENT": {
-      "WITHDRAWAL_LIMIT_OVER": "请输入较小的金额。目前 dYdX Chain 的最大提现限额为 {USDC_LIMIT}。",
-      "WITHDRAWAL_LIMIT_OVER_TITLE": "请输入一个较小的金额",
-      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "目前 dYdX Chain 的最大提现限额为 {USDC_LIMIT}。",
+      "WITHDRAWAL_LIMIT_OVER": "请输入较小的金额。目前 dYdX 链的最大提现限额为 {USDC_LIMIT}。",
+      "WITHDRAWAL_LIMIT_OVER_TITLE": "请输入较小的金额",
+      "WITHDRAWAL_LIMIT_OVER_DESCRIPTION": "目前 dYdX 链的最大提现限额为 {USDC_LIMIT}。",
       "WITHDRAWAL_LIMIT_OVER_ACTION": "修改金额",
       "WITHDRAWAL_PAUSED_TITLE": "暂停提现",
-      "WITHDRAWAL_PAUSED_DESCRIPTION": "请在 {SECONDS} 内重试。",
+      "WITHDRAWAL_PAUSED_DESCRIPTION": "请在 {SECONDS} 秒后重试。",
       "WITHDRAWAL_PAUSED_ACTION": "暂停提现",
       "TRANSFERS_PAUSED_TITLE": "暂停转账",
-      "TRANSFERS_PAUSED_DESCRIPTION": "请在 {SECONDS} 内重试。",
+      "TRANSFERS_PAUSED_DESCRIPTION": "请在 {SECONDS} 秒后重试。",
       "TRANSFERS_PAUSED_ACTION": "暂停转账"
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "在找回密钥时，始终切记检查并确认您访问的网站是 https:\/\/trade.dydx.exchange。"
     },
     "TRADE_BOX": {
-      "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "本订单滑价低 - 我们建议{LIMIT_PRICE}美元或更高的限价，来提高本订单的成交几率。您的订单会在触发时以尽可能最好的价格执行。",
-      "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_LOWER": "本订单滑价低 - 我们建议以{LIMIT_PRICE}美元或更低的限价，来提高本订单的成交几率。您的订单会在触发时以尽可能最好的价格执行。",
+      "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "本订单滑点低 — 我们建议{LIMIT_PRICE}美元或更高的限价，以提高本订单的成交几率。您的订单会在触发时以尽可能最有利的价格执行。",
+      "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_LOWER": "本订单滑价低 - 我们建议以{LIMIT_PRICE}美元或更低的限价，来提高本订单的成交几率。您的订单会在触发时以尽可能最有利的价格执行。",
       "MARKET_ORDER_CLOSE_TO_MAX_LEVERAGE": "此订单会让您的头寸接近允许的最大杠杆。如果执行时滑价超出预期价格，则您的订单可能会失败。",
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}预言机价格下滑。",
-      "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格影响。",
+      "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "鉴于当前的流动性，此市价单将导致{SLIPPAGE}的订单簿价格差。",
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET}目前为仅平仓模式。无法创建新头寸。",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX上的止损市价单不能保证根据触发时的流动性来成交。要想获得更多的控制权，可以尝试使用止损限价单。",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX 上的止盈市价单不能保证根据触发时的流动性来成交。要想获得更多的控制权，可以尝试使用止盈限价单。",
