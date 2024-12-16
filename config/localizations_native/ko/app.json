@@ -66,7 +66,7 @@
       "NICE": "좋아요!",
       "NOT_NOW": "나중에",
       "NO_RESULTS": "결과 없음",
-      "OF": "{ITEM1}\/{ITEM2}",
+      "OF": "{ITEM1} \/ {ITEM2}",
       "OK": "OK",
       "PAY_GAS_WITH": "다음으로 가스 지불",
       "PLACEHOLDER_NO_POSITIONS": "미결 포지션이 없습니다",
@@ -160,6 +160,7 @@
       "SCAN_QR_CODE_ERROR": "코드가 인식되지 않았습니다",
       "SCAN_QR_CODE_SHORT": "QR 스캔하기",
       "SELECT_WALLET": "지갑 선택",
+      "SWITCH_TO_WALLET": "계속하려면 {WALLET} 앱을 열어 주십시오.",
       "SELECT_WALLET_TEXT": "dYdX를 지원하는 지갑을 기반으로 다음 옵션을 발견했습니다.",
       "UNDERSTAND_RISKS_TITLE": "위험을 이해하고 있습니다",
       "USERNAME_REQUIRED": "사용자 이름은 필수입니다",
@@ -462,7 +463,7 @@
   "WARNINGS": {
     "TRADE_BOX": {
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX의 스탑 마켓 주문은 발동 시점의 유동성에 따라 체결되지 않을 수 있습니다. 더 나은 통제력을 위해 스탑 리밋 주문을 사용해 보시기 바랍니다.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX의 이익 환수 시장가 주문은 발동 시점의 유동성에 따라 체결되지 않을 수 있습니다. 더 나은 통제력을 위해 이익 환수 지정가 주문을 사용해 보시기 바랍니다."
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX의 이익 환수 시장가 주문은 발동 시점의 유동성에 따라 체결되지 않을 수 있습니다. 더 나은 통제력을 위해 이익 환수 지정가 주문을 사용해 보시기 바랍니다. "
     }
   }
 }
