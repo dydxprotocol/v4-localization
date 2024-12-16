@@ -78,7 +78,7 @@
       "PLACEHOLDER_NO_TRADES": "取引はありません",
       "PLACEHOLDER_NO_TRADES_LOG_IN": "取引を表示するには、サインインする必要があります",
       "PLACEHOLDER_NO_FUNDING": "ファンディングの支払いは発生していません",
-      "PLACEHOLDER_NO_FUNDING_LOG_IN": "資金支払いを表示するには、サインインが必要です",
+      "PLACEHOLDER_NO_FUNDING_LOG_IN": "ファンディングの支払いを表示するには、サインインが必要です",
       "PLACEHOLDER_NO_TRANSFERS": "資金の移動はありません",
       "PLACEHOLDER_NO_TRANSFERS_LOG_IN": "送金を表示するにはサインインが必要です",
       "PRICE_AND_TRIGGER": "価格\/トリガー",
@@ -160,6 +160,7 @@
       "SCAN_QR_CODE_ERROR": "コードが認識されていません",
       "SCAN_QR_CODE_SHORT": "QRコードをスキャン",
       "SELECT_WALLET": "ウォレットを選択する",
+      "SWITCH_TO_WALLET": "{WALLET}アプリを開いて続けてください。",
       "SELECT_WALLET_TEXT": "dYdX対応のウォレットに基づく以下のオプションが見つかりました。",
       "UNDERSTAND_RISKS_TITLE": "私はリスクについて理解しています。",
       "USERNAME_REQUIRED": "ユーザー名は必須です",
@@ -192,7 +193,7 @@
     },
     "WITHDRAW_MODAL": {
       "ENTER_WITHDRAW_AMOUNT": "出金額を入力します",
-      "WITHDRAW_DESCRIPTION": "以下のウォレットへの資金の引き上げを開始します。これには署名は必要ありません。",
+      "WITHDRAW_DESCRIPTION": "以下のウォレットへの資金の引き上げを開始します。こちらに署名は必要ありません。",
       "WITHDRAW_ERROR": "出金エラー",
       "WITHDRAW_IRREVERSIBLE": "いったん出金を開始するとキャンセルできません。",
       "WITHDRAW_LIMIT": "出金制限",
@@ -461,8 +462,8 @@
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの成行注文のストップオーダーは、トリガー時点における流動性に依存して行われるものではありません。指値注文のストップオーダーを行うと、取引をもっとコントロールすることができます。",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの利益確定成行注文は、トリガー時点における流動性に依存して行われるものではありません。利益確定指値注文を行うと、取引をもっとコントロールすることができます。"
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの成行注文のストップオーダーは、トリガー時点における流動性に依存して行われるものではありません。指値注文のストップオーダーを行うと、取引をさらにコントロールすることができます。",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdXの利益確定成行注文は、トリガー時点における流動性に依存して行われるものではありません。利益確定指値注文を行うと、取引をさらにコントロールすることができます。"
     }
   }
 }
