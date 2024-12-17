@@ -7,7 +7,7 @@
       "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
-      "TITLE": "Eski İmza",
+      "TITLE": "Eski imza",
       "BODY": "Bu seçeneği yalnızca anahtarlarınızı oluşturmak için donanım cüzdan imzası\/eski imza kullandıysanız işaretleyin."
     },
     "REMEMBER_ME": {
@@ -17,31 +17,31 @@
   },
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
-      "TITLE": "Bağlı kuruluş komisyonları",
-      "BODY": "Bağlı ortaklar, önerilen kullanıcılar tarafından ödenen alıcı ücretlerinden komisyon kazanır. Bağlı ortaklık ücret paylaşımı oluşturmak için, söz konusu kullanıcıların alım satım yaparken 30 günlük hacmi 50 milyon $'ın altına düşürmeleri gerekir."
+      "TITLE": "Bağlı Kuruluş Komisyonları",
+      "BODY": "Alıcı ücretlerinden komisyon yüzdesi."
     }
   },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
-      "TITLE": "Hedge indirimi",
+      "TITLE": "Hedgie ödülleri indirimi",
       "BODY": "Bir {NFT} sahibi olmak indirim düzeyinizi bir seviye yukarı çıkaracaktır. Birden fazlasına sahip olmanın ek bir etkisi bulunmamaktadır."
     }
   },
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Hesap Kaldıracı",
-      "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjinli olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
+      "BODY": "Tüm açık pozisyonlarınıza göre hesabınızın kaldıraç oranı. Hesabınız çapraz marjlı olduğu için her açık pozisyonun kendi kaldıraçları vardır; ancak aynı zamanda genel hesap kaldıracınızı da etkiler."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Kullanılabilir Bakiye",
-      "BODY": "Çapraz marjin hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Temel Pozisyon Fiktif Değeri",
-      "BODY": "Marjin gereksinimlerinin artırılmadığı maksimum pozisyon boyutu."
+      "BODY": "Marj gereksinimlerinin artırılmadığı maksimum pozisyon boyutu"
     },
     "BRACKET_ORDER_SL": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "Bu destekli emirde bir Zarar Durdurma gerçekleştirmek için geçerli tetiklenme fiyatınız."
     },
     "BRACKET_ORDER_TP": {
@@ -54,11 +54,11 @@
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Çapraz Serbest Teminat",
-      "BODY": "Çapraz marjin hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
+      "BODY": "Çapraz marj hesabınızdan alım satım veya çekme işleminde kullanılabilen teminat miktarı."
     },
     "CROSS_MARGIN_USAGE": {
       "TITLE": "Çapraz Marjin Kullanımı",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjininizin yüzdesi."
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Özel Miktar",
@@ -101,8 +101,8 @@
       "BODY": "Durdurma talimatları, oracle fiyatına göre tetiklenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
     },
     "INITIAL_MARGIN_FRACTION": {
-      "TITLE": "Başlangıç Marjin Oranı",
-      "BODY": "Başlangıç Marjin Oranı (BMO), bir yatırımcının bir pozisyona girerken başlangıçta kullanabileceği kaldıraç miktarını tanımlar. BMO, bir yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marjin oranı başlangıç marjin oranını aşıyorsa, yatırımcının artık pozisyonunu artırmasına izin verilmez."
+      "TITLE": "Başlangıç Marj Oranı",
+      "BODY": "Başlangıç Marj Oranı (BMO), bir yatırımcının bir pozisyona girerken başlangıçta kullanabileceği kaldıraç miktarını tanımlar. BMO, bir yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marj oranı başlangıç marj oranını aşıyorsa, yatırımcının artık pozisyonunu artırmasına izin verilmez."
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
@@ -130,39 +130,39 @@
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_SHORT": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "{SYMBOL} oracle fiyatı, tasfiye fiyatının üzerine çıkarsa, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "Oracle fiyatı {SYMBOL} tasfiye fiyatının üzerine çıkarsa, pozisyonunuz tasfiye edilecektir. Likiditasyondan sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir likiditasyon ücreti belirlenecektir (likiditasyon esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "{SYMBOL} için oracle fiyatı tasfiye fiyatının altına düşerse, pozisyonunuz tasfiye edilecektir. Tasfiye akabinde, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
-      "TITLE": "Tasfiye Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "TITLE": "Likiditasyon Fiyatı",
+      "BODY": "Pozisyon piyasasının oracle fiyatı likiditasyon fiyatını aşarsa pozisyonunuz likidite edilecektir. Likiditasyondan sonra pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir likiditasyon ücreti belirlenecektir (likiditasyon esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
       "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine likidite ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Devam Marjin Oranı",
-      "BODY": "Yatırımcıların pozisyonları tasfiye edildiğinde Devam Marjin Oranı tanımlanır. Yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marjin oranı devam marjin oranını aşıyorsa, pozisyonu otomatik olarak kapatılacak (tasfiye edilecek) ve tasfiye motoru, %1,5'lik Maksimum Tasfiye Cezasını ödedikten sonra mümkünse fonları pozitif değerli hesaplarda bırakmaya çalışacaktır."
+      "TITLE": "Devam Marj Oranı",
+      "BODY": "Yatırımcıların pozisyonları tasfiye edildiğinde Devam Marj Oranı tanımlanır. Yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marj oranı devam marj oranını aşıyorsa, pozisyonu otomatik olarak kapatılacak (tasfiye edilecek) ve tasfiye motoru, %1,5'lik Maksimum Tasfiye Cezasını ödedikten sonra mümkünse fonları pozitif değerli hesaplarda bırakmaya çalışacaktır."
     },
     "MAKER_FEE": {
       "TITLE": "Piyasa Yapıcı Komisyonu",
       "BODY": "Emir defterine likidite ekleyen ve diğer bir tarafın karşıladığı limit emirleri, satıcı emirleri olarak karşılanır. Satıcı emirleri, alıcı emirlerinden daha düşük bir ücrete sahiptir."
     },
     "MARGIN_USAGE": {
-      "TITLE": "Marjin Kullanımı",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam marjin oranınızın yüzdesi."
+      "TITLE": "Marj Kullanımı",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam marj oranınızın yüzdesi."
     },
     "MARGIN_USED": {
-      "TITLE": "Kullanılan Marjin",
-      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjininizin yüzdesi."
+      "TITLE": "Kullanılan Marj",
+      "BODY": "Açık pozisyonlar tarafından kullanılan toplam çapraz marjınızın yüzdesi."
     },
     "MAX_WITHDRAW": {
       "TITLE": "Maksimum Hızlı Çekme Miktarı",
@@ -194,11 +194,11 @@
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Talimat Miktarı",
-      "BODY": "USD cinsinden satılacak veya satın alınacak {SYMBOL} miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
+      "BODY": "Satılacak veya satın alınacak {SYMBOL}USD cinsinden miktarı. Bu miktar, pozisyonunuzun talimat karşılandığında artacağı veya azalacağı miktardır, sonuçta ortaya çıkacak pozisyon miktarınız değildir."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
-      "TITLE": "Zarar Durdurma Emri, Kısmi bir Kapamadır",
-      "BODY": "Zarar durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+      "TITLE": "Kayıp Durdurma Emri, Kısmi bir Kapama",
+      "BODY": "Kayıp durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
       "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
@@ -234,14 +234,14 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt özelliği emrin pozisyon tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
+      "BODY": "Sadece Azalt özelliği emrin pozisyonun tarafının değiştirilmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
-      "TITLE": "Sadece Azalt",
+      "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
-      "TITLE": "Sadece Azalt",
+      "TITLE": "Yalnızca Azalt",
       "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
     },
     "REWARDS_EARNED": {
@@ -257,16 +257,16 @@
       "BODY": "Adım boyutu, bu piyasadaki talimat miktarları için izin verilen en küçük faktördür."
     },
     "STOP_LOSS": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "Oracle fiyatı tetikleme fiyatını aştığında yatırımcının pozisyonunu kapatarak kayıplara karşı koruma sağlar."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
-      "TITLE": "Tasfiye Fiyatının Üzerinde Zarar Durdurma",
-      "BODY": "Zarar durdurma fiyatı, tasfiye fiyatının üzerine çıktı. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+      "TITLE": "Tasfiye Fiyatının Üzerinde Kayıp Durdurma",
+      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının üzerine çıktı. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
-      "TITLE": "Zarar Durdurma, Tasfiye Fiyatının Altında",
-      "BODY": "Zarar durdurma fiyatı, tasfiye fiyatının altına düştü. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
+      "TITLE": "Kayıp Durdurma Tasfiye Fiyatının Altında",
+      "BODY": "Kayıp durdurma fiyatı, tasfiye fiyatının altına düştü. Bunun nedeni fonlama değişiklikleri, fon (varlık) çekme veya değişen marjin gereklilikleri olabilir."
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
@@ -278,11 +278,11 @@
     },
     "TARGET_LEVERAGE": {
       "TITLE": "Hedef Kaldıraç",
-      "BODY": "Hedef Kaldıraç {TARGET_LEVERAGE}× olarak ayarlanmıştır, bu da bir sonraki talimatınız için kullanılacak marjin miktarını belirler."
+      "BODY": "Hedef Kaldıraç {TARGET_LEVERAGE}× olarak ayarlanmıştır, bu da bir sonraki talimatınız için kullanılacak marj miktarını belirler."
     },
     "TICK_SIZE": {
       "TITLE": "Minimum Fiyat Büyüklüğü",
-      "BODY": "Puan boyutu, bu piyasadaki minimum fiyat hareketidir."
+      "BODY": "Tick boyutu, bu piyasadaki minimum fiyat hareketidir."
     },
     "TIME_IN_FORCE": {
       "TITLE": "Yürürlükteki Süre",
@@ -294,11 +294,11 @@
     },
     "TRIGGER_PRICE": {
       "TITLE": "Tetikleme Fiyatı",
-      "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızı aştığında, durdurma\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
+      "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızı aştığında, stop\/kâr alma emriniz ya bir limit talimatına dönüştürülür, ya da bir piyasa talimatı olarak yürütülür."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Gerçekleşmemiş Kar \/ Zarar",
-      "BODY": "Mevcut pozisyonunuzun geri kalanını mevcut oracle fiyatından tamamen kapatmanız durumunda elde edeceğiniz toplam kar \/ zarar. Pozisyonunuzu kapatır veya yönünü değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
+      "BODY": "Mevcut pozisyonunuzun geri kalanını mevcut oracle fiyatından tamamen kapatmanız durumunda elde edeceğiniz toplam kar \/ zarar. Pozisyonunuzu kapatır veya pozisyonun tarafını değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
     },
     "REWARD_HISTORY": {
       "BODY": "Saat, Koordineli Evrensel Saat (UTC) zaman dilimi içinde gösterilir"
@@ -315,14 +315,14 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Kullanılamıyor",
-      "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
+      "BODY": "Gas ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Gaz Ücretleri",
       "BODY": "Gaz ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Gazsız yatırma işlemleri",
+      "TITLE": "Gas'sız yatırma işlemleri",
       "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
     },
     "LOWEST_FEE_DEPOSITS": {
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
-      "BODY": "Bu, fon yatırma ve izin belirleme işlemleri için Ethereum madencilerine ödenen gaz ücretidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz gerekir."
+      "BODY": "Bu, fon yatırma ve izin belirleme işlemleri için Ethereum madencilerine ödenen gas ücretidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz gerekir."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
-      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gaz ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gaz maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
     },
     "GAS_FEES": {
       "TITLE": "Gaz Ücretleri",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
-      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gaz ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gaz ücretlerini ödemesi gerekir."
+      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
     }
   },
   "STAKE": {
@@ -388,7 +388,7 @@
   },
   "EMAIL_NOTIFICATIONS": {
     "VERIFY_EMAIL": {
-      "TITLE": "E-posta adresini doğrula",
+      "TITLE": "E-posta adresini doğrulayın",
       "BODY": "Lütfen size gönderdiğimiz e-postadaki bağlantıyı tıklayın; bu, e-posta adresinin sahibi olduğunuzu doğrulamakta bize yardımcı olacaktır."
     }
   },
@@ -406,7 +406,7 @@
   },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
-      "TITLE": "Referans Fiyat",
+      "TITLE": "Referans Fiyatı",
       "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
     },
     "SELF_REPORTED_CMC": {
@@ -418,7 +418,7 @@
       "BODY": "Çekme sırasında alınacak tahmini miktar, yani çekme tutarı eksi tahmini kayma tutarıdır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
     },
     "ESTIMATED_SLIPPAGE": {
-      "BODY": "Çekme sırasında tahmini kayma tutarı. Kayma, çekme tutarını karşılamak üzere marjini serbest bırakmak için kasanın mevcut pozisyonları güncelleme ihtiyacından kaynaklanır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
+      "BODY": "Çekme sırasında tahmini kayma tutarı. Kayma, çekme tutarını karşılamak üzere marjı serbest bırakmak için kasanın mevcut pozisyonları güncelleme ihtiyacından kaynaklanır. Bu tutar, mevcut koşullara dayalı bir tahmindir. Gerçek tutar, yürütme süresindeki gerçek koşullara bağlı olarak farklılık gösterebilir."
     },
     "AVAILABLE_TO_WITHDRAW": {
       "BODY": "Çekebileceğiniz tutar, kasa bakiyenizden yeni piyasa listeleri için kilitlenmiş herhangi bir tutar çıkarıldığında kalan tutardır."
@@ -430,7 +430,7 @@
       "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     },
     "VAULT_APR": {
-      "BODY": "Kasa APR'si, geçen ayın yıllık olarak belirlenen getirisidir. Kasa geri dönerleri K&L ve protokol gelir paylaşımına bağlıdır.  Bu APR garanti edilmemektedir."
+      "BODY": "Vault APR, geçmiş ayın yıllıklandırılmış verimidir. Kasa geri dönüşleri KZ ve protokol gelir paylaşımına bağlıdır.  Bu APR garanti edilmemektedir."
     }
   }
 }
