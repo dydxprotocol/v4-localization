@@ -6,14 +6,14 @@
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Yenilenmiş koşullu talimat deneyimi!",
-      "BODY": "dYdX Zinciri üzerinde koşullu talimatlar tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, sezgisel ve yüksek performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
+      "BODY": "dYdX Zinciri üzerinde koşullu talimatlar tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, içgüdüsel ve performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Pozisyon Kaldıraçsızlaştırıldı",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
     },
     "DISCOVERY_PROGRAM": {
-      "TITLE": "30 Dakika içinde 200$'a kadar kazanın!",
+      "TITLE": "30 Dakika içinde 200 $'a kadar kazanın!",
       "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Kontenjan sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} üzerine tıklayın!"
     },
     "FINAL_SETTLEMENT": {
@@ -29,7 +29,7 @@
       "BODY": "USDC ödüllerini alın."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "{SEASON_NUMBER}. sezon başladı!",
+      "TITLE": "{SEASON_NUMBER} sezonu başladı!",
       "BODY": ".{PREV_SEASON_NUMBER} sezonunda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
     "INCENTIVES_SEASON_ENDED": {
@@ -37,15 +37,15 @@
       "BODY": "Lansman teşvikleri programına katıldığınız için teşekkür ederiz. Gelecekteki ödül programlarındaki güncellemeler için bizden ayrılmayın!"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "İzole Marjin aktif",
+      "TITLE": "İzole Marj aktif",
       "BODY": "İzole Marj şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "{SEASON_NUMBER} sezonu lansman ödülleri dağıtıldı!",
-      "BODY": "{SEASON_NUMBER}. sezon ödülleri +{DYDX_AMOUNT} DYDX"
+      "BODY": "{SEASON_NUMBER} sezonu ödülleri +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
-      "TITLE": "Posizyon Denkleştirme",
+      "TITLE": "Posizyonda Denkleştirme",
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz, kaldıraçsızlaştırılmış bir pozisyonu dengelemek için kullanıldı."
     },
     "ORDER_FILL": {
@@ -54,7 +54,7 @@
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Talimat Kısmen Karşılandı",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınızın {FILLED_AMOUNT} {MARKET} kadarı karşılandı."
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınızın {FILLED_AMOUNT} {MARKET} miktarı karşılandı."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Talimat Tetiklendi",
@@ -66,7 +66,7 @@
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Talimat Kısmen Karşılandı ve İptal Edildi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {TOTAL_FILLED} kısmen karşılandıktan sonra iptal edildi."
+      "BODY": "{AMOUNT} {MARKET}için t{SIDE}alimatınız ad{TOTAL_FILLED}edi kısmen karşılandıktan sonra iptal edildi."
     },
     "LIQUIDATION": {
       "TITLE": "Pozisyon Tasfiye Edildi",
@@ -90,7 +90,7 @@
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Ödüller ve alım satım işlemleri dYdX Zinciri üzerinde yayında!",
-      "BODY": "Tüm alım satım işlemleri dYdX Zinciri üzerinde yayında! Buna stake ödülleri, alım satım ödülleri ve Chaos Labs'in 6 aylık lansman teşvik programı da dahil. Daha fazla bilgi için {DOS_BLOGPOST} ve {TRADING_BLOGPOST} (üçüncü taraf bağlantısı)."
+      "BODY": "Tum alım satım işlemleri dYdX Zinciri üzerinde yayında! Buna stake ödülleri, alım satım ödülleri ve Chaos Labs'in 6 aylık lansman teşvik programı da dahil. Daha fazla bilgi için {DOS_BLOGPOST} ve {TRADING_BLOGPOST} (üçüncü taraf bağlantısı)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Yavaş Çekme Beklemede",
@@ -101,15 +101,15 @@
       "BODY": "{AMOUNT} {ASSET} çekme işleminiz onaylandı."
     },
     "STOP_LOSS_TRIGGER_CREATING": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturuluyor."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturulamadı."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{NEW_VALUE} için zarar durdurma tetikleyicisi oluşturuldu."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
@@ -125,15 +125,15 @@
       "BODY": "{NEW_VALUE} için kâr alma tetikleyicisi oluşturuldu."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "Zarar durdurma tetikleyiciniz {NEW_VALUE} olarak güncelleniyor."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz değiştirilemedi."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "Zarar durdurma tetikleyiciniz artık {NEW_VALUE} değerinde tetiklenecek."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
@@ -149,15 +149,15 @@
       "BODY": "Kâr alma tetikleyiciniz artık {NEW_VALUE} değerinde tetiklenecek."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz kaldırılıyor."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz iptal edilemedi."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
-      "TITLE": "Zarar Durdur",
+      "TITLE": "Stop Emir",
       "BODY": "{OLD_VALUE} için oluşturulmuş zarar durdurma tetikleyiciniz kaldırıldı."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
@@ -178,32 +178,32 @@
       "ACTION": "İletişime geçin →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "20.000$ değerinde hediye",
+      "TITLE": "20.000 $ değerinde hediye",
       "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 17 Ağustos 2024, 02.59'dan (TSİ) sonra rastgele bir seçim mekanizmasına göre seçilecektir {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} piyasası kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET} piyasası nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "On {DATE}, {MARKET} piyasa nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
-      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {MARKET} piyasası {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {MARKET} piyasası {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için canlı teklif",
-      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} parametrelerini güncellemek için canlı teklif",
-      "BODY": "Şu an {MARKET} piyasanın parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasası tek oracle kaynağı olarak Coinbase Pro {MARKET} sahibi olacaktır. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu an {MARKET} piyasanın parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasası tek oracle kaynağı olarak Coinbase Pro {MARKET} sahibi olacaktır. Teklif hakkında daha fazla bilgi edinebilirsiniz: {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi üzerine alım satım yapın!",
-      "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $'dan bağlanacak. Aksi takdirde 0,001$ olarak bağlanacak."
+      "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $ olarak bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX artık Keplr'ı destekliyor!",
