@@ -8,7 +8,7 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Firma de patrimonio",
-      "BODY": "Solo marque esta opción si anteriormente ha utilizado la firma de billetera de hardware o una firma patrimonial para generar sus claves."
+      "BODY": "Solamente marcá esta opción si anteriormente utilizaste la firma de billetera de hardware o una firma de patrimonio para generar tus claves."
     },
     "REMEMBER_ME": {
       "TITLE": "Recordarme",
@@ -29,8 +29,8 @@
   },
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
-      "TITLE": "Apalancamiento de la cuenta",
-      "BODY": "Apalancamiento de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio apalancamiento y también afecta el apalancamiento general de tu cuenta."
+      "TITLE": "Impulso de la cuenta",
+      "BODY": "Impulso de tu cuenta en función de todas tus posiciones abiertas. Debido a que tu cuenta tiene un margen cruzado, cada posición abierta tiene su propio impulso y también afecta el impulso general de tu cuenta."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Saldo disponible",
@@ -41,16 +41,16 @@
       "BODY": "El tamaño de la posición máxima en la que los requisitos de margen no se aumentan."
     },
     "BRACKET_ORDER_SL": {
-      "TITLE": "Stop Loss",
-      "BODY": "Tu trigger price actual para ejecutar una detención de pérdida para esta orden de rango."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Tu precio activador actual para ejecutar una detención de pérdida para esta orden de rango."
     },
     "BRACKET_ORDER_TP": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Su trigger price actual para ejecutar una toma de ganancia para esta orden de rango."
+      "BODY": "Tu precio activador actual para ejecutar una toma de ganancia para esta orden de rango."
     },
     "BUYING_POWER": {
       "TITLE": "Poder de compra",
-      "BODY": "Esto representa tu poder de compra total disponible. Tu poder de compra se basa en el apalancamiento máximo disponible en el intercambio y no cambiará en función del mercado que hayas seleccionado."
+      "BODY": "Esto representa tu poder de compra total disponible. Tu poder de compra se basa en el impulso máximo disponible en el intercambio y no cambiará en función del mercado que hayas seleccionado."
     },
     "CROSS_FREE_COLLATERAL": {
       "TITLE": "Garantía sin cruce",
@@ -62,11 +62,11 @@
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Cantidad personalizada",
-      "BODY": "El ajuste de tu cantidad personalizada se aplicará a las órdenes de Take Profit como a las de Stop Loss."
+      "BODY": "El ajuste de tu cantidad personalizada se aplicará a las órdenes de Toma de Ganancias como a las de Detención de Pérdidas."
     },
     "DEFAULT_EXECUTION": {
       "TITLE": "Ejecución predeterminada",
-      "BODY": "Su orden ocupará cualquier orden de cruce al momento de abrirla. Si tu orden no se completa en su totalidad, permanecerá abierta hasta que se complete, se cancele o caduque."
+      "BODY": "Tu orden ocupará cualquier orden de cruce al momento de apertura. Si tu orden no se completa en su totalidad, permanecerá abierta hasta que se complete, se cancele o caduque."
     },
     "EQUITY": {
       "TITLE": "Equidad",
@@ -77,16 +77,16 @@
       "BODY": "Precio estimado de ejecución para tu orden. Este precio es solo una estimación, ya que el libro de órdenes puede cambiar antes de que la red procese tu orden."
     },
     "FEE": {
-      "TITLE": "Tarifa de trading",
-      "BODY": "Las tarifas de trading las cobra la red en función de un porcentaje de tu volumen de operaciones. Las tarifas de trading se devengan a los validadores y a los participantes de DYDX. No se cobran tarifas de gas para operar en dYdX."
+      "TITLE": "Tarifa de operación",
+      "BODY": "La red cobra las tarifas de operación en función de un porcentaje de tu volumen de operaciones. Las tarifas de operación se devengan a los validadores y a los participantes de DYDX. No se cobran tarifas de gasolina para operar en dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Fill Or Kill",
-      "BODY": "Las órdenes de Fill or Kill deben completarse totalmente tras la ejecución o serán canceladas automáticamente."
+      "TITLE": "Completar o morir",
+      "BODY": "Las órdenes de Completar o morir deben completarse totalmente luego de la ejecución o se cancelarán de forma automática."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Sin garantía",
-      "BODY": "La cantidad máxima que puedes retirar. Cuando la garantía es 0 o negativa, tu cuenta está utilizando el apalancamiento máximo."
+      "BODY": "La cantidad máxima que puedes retirar. Si la garantía es 0 o negativa, tu cuenta está utilizando el impulso máximo."
     },
     "GOOD_TIL": {
       "TITLE": "Con validez hasta",
@@ -98,7 +98,7 @@
     },
     "INDEX_PRICE": {
       "TITLE": "Precio de oráculo",
-      "BODY": "Las órdenes de stop se activan en función del precio de oráculo. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
+      "BODY": "Las órdenes de detención se activan en función del precio de oráculo. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen inicial",
@@ -106,14 +106,14 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Detención inicial",
-      "BODY": "Precio de detención inicial basado en su porcentaje final."
+      "BODY": "Precio de detención inicial con base en tu porcentaje final."
     },
     "LEVERAGE": {
-      "TITLE": "Apalancamiento",
-      "BODY": "El apalancamiento cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu apalancamiento aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
+      "TITLE": "Impulso",
+      "BODY": "El impulso cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu impulso aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
     },
     "LIMIT_CLOSE": {
-      "TITLE": "Orden limitada al cierre",
+      "TITLE": "Límite al cierre",
       "BODY": "Es posible que una orden limitada al cierre no ocurra instantáneamente y solo se completará una vez que se alcance el precio ingresado. Supervisa la pestaña Órdenes para comprobar su estado."
     },
     "LIMIT_PRICE": {
@@ -122,31 +122,31 @@
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Precio límite",
-      "BODY": "Al identificar un precio límite, estás colocando una limit order con toma de ganancias o una limit order stop. Haz clic {DOCUMENTATION_LINK} para obtener más detalles."
+      "BODY": "Al identificar un precio límite, estás colocando una orden limitada con toma de ganancias o una orden de detención limitada. Haz clic {DOCUMENTATION_LINK} para obtener más detalles."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Deslizamiento",
-      "BODY": "Diferencia de porcentaje entre el trigger price y el precio límite."
+      "BODY": "Diferencia de porcentaje entre el activador de precio y el precio límite."
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Precio de liquidación",
-      "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+      "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1% (puede ser mayor según la liquidez en el momento de la liquidación)."
     },
     "LIQUIDATION_PRICE_SHORT": {
       "TITLE": "Precio de liquidación",
-      "BODY": "Si el precio de oráculo de {SYMBOL} sube por encima del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+      "BODY": "Si el precio de oráculo de {SYMBOL} sube por encima del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1% (puede ser mayor según la liquidez en el momento de la liquidación)."
     },
     "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Precio de liquidación",
-      "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+      "BODY": "Si el precio de oráculo de {SYMBOL} cae por debajo del precio de liquidación, tu posición se liquidará. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1% (puede ser mayor según la liquidez en el momento de la liquidación)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Precio de liquidación",
-      "BODY": "Si el precio de oráculo en el mercado de posiciones se cruza con el precio de liquidación, se liquidará tu posición. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1 % (puede ser mayor según la liquidez en el momento de la liquidación)."
+      "BODY": "Si el precio de oráculo en el mercado de posiciones se cruza con el precio de liquidación, se liquidará tu posición. En el momento de la liquidación, tu posición se cerrará automáticamente y se aplicará una tarifa de liquidación de mínimo el 1% (puede ser mayor según la liquidez en el momento de la liquidación)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
-      "BODY": "Las operaciones que extraen liquidez del libro de órdenes (p. ej., órdenes limitadas de cruce o de mercado) se ejecutan como órdenes de taker. Las órdenes de límite que suman liquidez al libro de órdenes y se ejecutan a través de terceros se ejecutarán como órdenes de maker."
+      "BODY": "Las operaciones que extraen liquidez del libro de órdenes (p. ej., órdenes limitadas de cruce o de mercado) se ejecutan como órdenes de toma. Las órdenes de límite que suman liquidez al libro de órdenes y se ejecutan a través de terceros se ejecutarán como órdenes de creador."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen de mantenimiento",
@@ -154,7 +154,7 @@
     },
     "MAKER_FEE": {
       "TITLE": "Tasa de creador",
-      "BODY": "Las órdenes de límite que suman liquidez al libro de órdenes y son ejecutadas por una tercera parte se ejecutarán como órdenes de creador. Las órdenes de maker tienen una tarifa más baja que las órdenes de taker."
+      "BODY": "Las órdenes de límite que suman liquidez al libro de órdenes y de ejecución a cargo de una tercera parte se ejecutarán como órdenes de creador. Las órdenes de creación tienen una tarifa más baja que las órdenes de toma."
     },
     "MARGIN_USAGE": {
       "TITLE": "Uso del margen",
@@ -169,8 +169,8 @@
       "BODY": "La cantidad máxima permitida para un retiro rápido único."
     },
     "MAXIMUM_LEVERAGE": {
-      "TITLE": "Apalancamiento máximo",
-      "BODY": "Apalancamiento máximo permitido para este mercado. Para limitar el riesgo, el apalancamiento máximo disminuye linealmente con el tamaño de la posición después de que se alcanza cierto umbral."
+      "TITLE": "Impulso máximo",
+      "BODY": "Impulso máximo permitido para este mercado. Para limitar el riesgo, el apalancamiento máximo disminuye linealmente con el tamaño de la posición después de que se alcanza cierto umbral."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Recompensas estimadas",
@@ -186,7 +186,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Precio de oráculo",
-      "BODY": "El apalancamiento y las liquidaciones se determinan en función del precio de oráculo en cadena. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
+      "BODY": "El impulso y las liquidaciones se determinan en función del precio de oráculo en cadena. El precio de oráculo agrega datos de precios de múltiples intercambios, protegiéndote de eventos como caídas repentinas."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Cantidad de la orden",
@@ -213,28 +213,28 @@
       "BODY": "La cantidad de garantía que respalda la posición."
     },
     "POSITION_LEVERAGE": {
-      "TITLE": "Apalancamiento de posición",
-      "BODY": "El apalancamiento cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu apalancamiento aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
+      "TITLE": "Impulso de posición",
+      "BODY": "El impulso cambia el multiplicador de tus ganancias o pérdidas. Aumentar tu impulso aumenta cuánto ganarías\/perderías en una operación con el mismo movimiento de precios."
     },
     "POST_ONLY": {
-      "TITLE": "Post-Only",
-      "BODY": "Las órdenes con Post-Only habilitado únicamente se pueden realizar como órdenes de maker. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
+      "TITLE": "Sólo publicación",
+      "BODY": "Las órdenes habilitadas como sólo publicación únicamente se pueden realizar como órdenes de creador. Si la orden se cruza con otras órdenes en el momento de la colocación, se cancelará automáticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Post-Only",
-      "BODY": "Post-Only únicamente está disponible si el Tiempo en vigor está establecido en Válido hasta."
+      "TITLE": "Sólo publicación",
+      "BODY": "Sólo publicación está disponible únicamente si el Tiempo en vigor está establecido en Válido hasta."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto del precio",
-      "BODY": "La diferencia entre el precio de ejecución previsto para tu orden y la mejor orden en el lado de la oferta o la demanda. Esto aumentará para volúmenes de operación más altos."
+      "BODY": "La diferencia entre el precio de ejecución previsto para tu orden y la mejor orden del lado de la oferta o la demanda. Esto aumentará a volúmenes de operación más altos."
     },
     "REALIZED_PNL": {
       "TITLE": "Beneficio\/pérdida realizada",
-      "BODY": "Ganancia\/pérdida total realizada para esta posición a través de cierres parciales, tasas y financiamiento. Se restablece si cierras completamente tu posición o cambias de lugar en la posición (largo a corto, o viceversa)."
+      "BODY": "Ganancia\/pérdida total realizada para esta posición a través de cierres parciales, tasas y financiamiento. Se restablece si cerrás completamente tu posición o cambiás de lugar en la posición (largo a corto, o viceversa)."
     },
     "REDUCE_ONLY": {
       "TITLE": "Solo reducir",
-      "BODY": "Solo reducir evita que una orden cambie el lado de tu posición (largo a corto o corto a largo). Una orden con Solo reducir se redimensionará y se cancelará automáticamente a medida que cambie tu posición. "
+      "BODY": "Solo reducir evita que una orden cambie el lado de tu posición (largo a corto o corto a largo). Una orden con Solo reducir se redimensionará y se cancelará automáticamente a medida que cambie tu posición."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Solo reducir",
@@ -249,7 +249,7 @@
       "BODY": "Gana recompensas cuando operas en dYdX."
     },
     "SPREAD": {
-      "TITLE": "Spread",
+      "TITLE": "Extensión",
       "BODY": "La diferencia de precio entre la oferta más alta (el precio por el que un comprador está dispuesto a comprar) y la oferta más baja (el precio por el que un vendedor está dispuesto a vender) un activo."
     },
     "STEP_SIZE": {
@@ -257,28 +257,28 @@
       "BODY": "El tamaño del paso es el factor más pequeño permitido para las cantidades de orden en este mercado."
     },
     "STOP_LOSS": {
-      "TITLE": "Stop Loss",
-      "BODY": "Protege contra las pérdidas cerrando la posición de un trader una vez que el precio de oráculo cruza el trigger price."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Protege contra las pérdidas cerrando la posición de un operador una vez que el precio de oráculo cruza el precio activador."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
       "TITLE": "Detención de pérdidas por encima del precio de liquidación",
-      "BODY": "El precio de stop loss subió por encima del precio de liquidación. Esto puede ocurrir por cambios en la financiación, por retiros de fondos o por cambios en los requisitos de margen."
+      "BODY": "El precio de detención de pérdida subió por encima del precio de liquidación. Esto puede ocurrir por cambios en la financiación, por retiros de fondos o por cambios en los requisitos de margen."
     },
     "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
-      "TITLE": "Stop loss por debajo del precio de liquidación",
+      "TITLE": "Detención de pérdida por debajo del precio de liquidación",
       "BODY": "El precio de detención de pérdidas cayó por debajo del precio de liquidación. Esto puede ocurrir por cambios en la financiación, por retiros de fondos o por cambios en los requisitos de margen."
     },
     "TAKER_FEE": {
-      "TITLE": "Tarifa del taker ",
-      "BODY": "Las operaciones que extraen liquidez del libro de órdenes (p. ej., órdenes limitadas de cruce o de mercado) se ejecutan como órdenes de taker. Las órdenes de tomador tienen una tasa más alta que las órdenes de creador."
+      "TITLE": "Tarifa de toma ",
+      "BODY": "Las operaciones que extraen liquidez del libro de órdenes (p. ej., órdenes limitadas de cruce o de mercado) se ejecutan como órdenes de toma. Las órdenes de tomador tienen una tasa más alta que las órdenes de creador."
     },
     "TAKE_PROFIT": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Permite a los traders establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias."
+      "BODY": "Permite a los operadores establecer objetivos y protege las ganancias en las posiciones al especificar un precio al cual cerrar una posición abierta para obtener ganancias."
     },
     "TARGET_LEVERAGE": {
-      "TITLE": "Apalancamiento objetivo",
-      "BODY": "El apalancamiento objetivo se establece en {TARGET_LEVERAGE}×, que determina la cantidad de margen utilizado para tu próxima orden."
+      "TITLE": "Impulso objetivo",
+      "BODY": "El impulso objetivo se establece en {TARGET_LEVERAGE}×, lo cual determina la cantidad de margen utilizado para tu próxima orden."
     },
     "TICK_SIZE": {
       "TITLE": "Variación mínima",
@@ -289,16 +289,16 @@
       "BODY": "La opción de tiempo vigente seleccionada controla cuánto tiempo permanecerá activa una orden hasta que caduque o se complete."
     },
     "TRAILING_PERCENT": {
-      "TITLE": "Porcentaje de trailing",
-      "BODY": "El porcentaje de trailing establece el porcentaje en que tu precio de detención “seguirá” al precio de oráculo. Siempre que el precio de oráculo se mueva a favor de tu posición, el precio de stop de tu orden se actualizará de acuerdo con tu porcentaje de trailing especificado."
+      "TITLE": "Porcentaje residual",
+      "BODY": "El porcentaje residual establece el porcentaje en que tu precio de detención “seguirá” al precio de oráculo. Siempre que el precio de oráculo se mueva a favor de tu posición, el precio de detención de tu orden se actualizará de acuerdo con tu porcentaje residual especificado."
     },
     "TRIGGER_PRICE": {
-      "TITLE": "Trigger price",
-      "BODY": "Cuando el precio de oráculo de este mercado se cruza con tu trigger price, tu orden de detención o toma de ganancias se convertirá en una limit order o se ejecutará como una orden de mercado."
+      "TITLE": "Precio activador",
+      "BODY": "Cuando el precio de oráculo de este mercado se cruza con tu precio activador, tu orden de detención o toma de ganancias se convertirá en una orden limitada o se ejecutará como una orden de mercado."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Ganancia\/pérdida no realizado",
-      "BODY": "La ganancia\/pérdida total si cerraras por completo el resto de tu posición actual al precio de oráculo actual. Se restablece si cierras tu posición o cambias los lados de la posición (de largo a corto o viceversa)."
+      "BODY": "La ganancia\/pérdida total si cerraras por completo el resto de tu posición actual al precio de oráculo actual.  Se restablece si cierras tu posición o cambias los lados de la posición (de largo a corto o viceversa)."
     },
     "REWARD_HISTORY": {
       "BODY": "La hora se muestra en Hora Universal Coordinada (UTC)"
@@ -307,7 +307,7 @@
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
       "TITLE": "Disponible",
-      "BODY": "¡Eres elegible! Deposita al menos {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} para permitir el depósito sin gas."
+      "BODY": "¡Eres elegible! Deposita al menos {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} para permitir el depósito sin gasolina."
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Tarifas de puente",
@@ -315,53 +315,53 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "No disponible",
-      "BODY": "Los depósitos sin gas no están disponibles. No te preocupes, ¡volverán pronto!"
+      "BODY": "Los depósitos sin gasolina no están disponibles. No te preocupes, ¡volverán pronto!"
     },
     "GAS_FEES_DEPOSIT": {
-      "TITLE": "Tarifas de gas",
-      "BODY": "Las tarifas de gas son tarifas de transacción en la cadena fuente, en este caso {SOURCE_CHAIN}."
+      "TITLE": "Tarifas de gasolina",
+      "BODY": "Las tarifas de gasolina son tarifas de transacción en la cadena fuente, en este caso {SOURCE_CHAIN}."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Depósitos sin gas",
-      "BODY": "dYdX cubrirá tus tarifas de gas si depositas {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} o más. Eres elegible para un depósito sin gas cada tres días. Los depósitos sin gas están sujetos a ciertas reglas."
+      "TITLE": "Depósitos sin gasolina",
+      "BODY": "dYdX cubrirá tus tarifas de gasolina si depositas {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} o más. Eres elegible para un depósito sin gasolina cada tres días. Los depósitos sin gasolina están sujetos a ciertas reglas."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Depósitos de tarifa más baja",
       "BODY": "Los depósitos USDC en {LOWEST_FEE_TOKEN_NAMES} tienen las tarifas más bajas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
-      "TITLE": "Cantidad a depositar mínima",
-      "BODY": "Incluye cualquier \"slippage\" (deslizamiento) que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
+      "TITLE": "Cantidad de depósito mínimo",
+      "BODY": "Incluye cualquier deslizamiento que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
     },
     "SWAP": {
       "TITLE": "Intercambiar y depositar",
-      "BODY": "Al depositar un activo que no sea USDC, el activo se convertirá automáticamente a USDC a través de la API 0x. Establecer un máximo slippage te permite especificar el slippage que permitirás antes de que la conversión falle."
+      "BODY": "Al depositar un activo que no sea USDC, el activo se convertirá automáticamente a USDC a través de la API 0x. Establecer un máximo deslizamiento te permite especificar el deslizamiento que vas a permitir antes de que falle la conversión."
     }
   },
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
-      "BODY": "Este es el costo de gas de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tiene que establecer una asignación una vez por activo que deposite."
+      "BODY": "Este es el costo de gasolina de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tiene que establecer una asignación una vez por activo que deposite."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
-      "BODY": "Este es el costo de gas de la transacción del depósito, que se paga a mineros de Ethereum."
+      "BODY": "Este es el costo de gasolina de la transacción del depósito, que se paga a mineros de Ethereum."
     }
   },
   "TRIGGER_ORDERS": {
     "UNEQUAL_ORDER_SIZES": {
       "TITLE": "Tamaños de orden desiguales",
-      "BODY": "Tus órdenes de toma de ganancias y de stop loss tienen diferentes tamaños de orden. Para realizar ediciones en el tamaño de la orden, cancela y vuelve a hacer las órdenes."
+      "BODY": "Tus órdenes de toma de ganancias y de detención de pérdidas tienen diferentes tamaños de orden. Para realizar ediciones en el tamaño de la orden, cancela y vuelve a hacer las órdenes."
     }
   },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Tarifa de retiro rápido",
-      "BODY": "Los retiros rápidos se envían de inmediato y dYdX cubrirá los costos del gas a cambio de una tasa. Para retiros sin cargo, usa un retiro lento (pagarás tus propios costos de gas y tendrás que esperar la confirmación de la etapa 2)."
+      "BODY": "Los retiros rápidos se envían de inmediato y dYdX cubrirá los costos del gasolina a cambio de una tasa. Para retiros sin cargo, usa un retiro lento (pagarás tus propios costos de gasolina y tendrás que esperar la confirmación de la etapa 2)."
     },
     "GAS_FEES": {
-      "TITLE": "Tarifas de gas",
-      "BODY": "Las tarifas de gas son tarifas de transacción en la cadena fuente, en este caso dYdX."
+      "TITLE": "Tarifas de gasolina",
+      "BODY": "Las tarifas de gasolina son tarifas de transacción en la cadena fuente, en este caso dYdX."
     },
     "LOWEST_FEE_WITHDRAWALS": {
       "TITLE": "Retiros de la tarifa más baja",
@@ -373,11 +373,11 @@
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Cantidad mínima recibida",
-      "BODY": "Incluye cualquier \"slippage\" (deslizamiento) que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
+      "BODY": "Incluye cualquier deslizamiento que pueda ocurrir debido a cambios de liquidez mientras el puente está en progreso."
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Tipos de retiro",
-      "BODY": "dYdX permite dos tipos de retiros de la etapa 2. Los retiros rápidos implican una pequeña tarifa, pero no requieren gas y son enviados de inmediato. Los retiros lentos son gratuitos, pero requieren dos pasos, toman mucho más tiempo y el usuario tendrá que pagar sus propias tasas de gas."
+      "BODY": "dYdX permite dos tipos de retiros de la etapa 2. Los retiros rápidos implican una pequeña tarifa, pero no requieren gasolina y se envían de inmediato. Los retiros lentos son gratuitos, pero requieren dos pasos, toman mucho más tiempo y el usuario tendrá que pagar sus propias tasas de gasolina."
     }
   },
   "STAKE": {
@@ -415,10 +415,10 @@
   },
   "VAULT": {
     "ESTIMATED_AMOUNT_RECEIVED": {
-      "BODY": "La cantidad estimada a recibir al retirar, que es la cantidad de retiro menos la cantidad de slippage estimada. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
+      "BODY": "La cantidad estimada a recibir al retirar, que es la cantidad de retiro menos la cantidad de deslizamiento estimada. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
     },
     "ESTIMATED_SLIPPAGE": {
-      "BODY": "La cantidad estimada de slippage al momento de retirar. El slippage proviene de la necesidad de la bóveda de actualizar las posiciones actuales para liberar margen para cumplir con la cantidad a retirar. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
+      "BODY": "La cantidad estimada de deslizamiento al momento de retirar. El deslizamiento proviene de la necesidad de la bóveda de actualizar las posiciones actuales para liberar margen para cumplir con la cantidad a retirar. Esta cantidad es una estimación basada en las condiciones actuales. La cantidad real puede ser diferente, según las condiciones reales en el momento de la ejecución."
     },
     "AVAILABLE_TO_WITHDRAW": {
       "BODY": "La cantidad que puede retirar, que es tu balance de bóveda menos cualquier cantidad que esté bloqueada para nuevos listados en el mercado."
@@ -430,7 +430,7 @@
       "BODY": "El PNL total a lo largo del tiempo. Esto incluye el PNL histórico de sus depósitos de bóveda."
     },
     "VAULT_APR": {
-      "BODY": "La APR de la bóveda es el rendimiento del mes pasado anualizado. Los rendimientos de la bóveda dependen de las pérdidas y ganancias y el reparto de ingresos del protocolo.  Esta APR no está garantizada."
+      "BODY": "Est. La Tasa Anual Equivalente (TAE) es el rendimiento del mes pasado anualizado. Los rendimientos reales dependen de las ganancias futuras inciertas (participación en los ingresos del protocolo y pérdidas y ganancias) y no están garantizados. {LEARN_MORE}"
     }
   }
 }
