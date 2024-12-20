@@ -160,7 +160,7 @@
       "SCAN_QR_CODE_ERROR": "Код не распознан",
       "SCAN_QR_CODE_SHORT": "Сканировать QR-код",
       "SELECT_WALLET": "Выбрать кошелек",
-      "SWITCH_TO_WALLET": "Откройте свое {WALLET}приложение, чтобы продолжить.",
+      "SWITCH_TO_WALLET": "Откройте приложение, чтобы продолжить{WALLET}.",
       "SELECT_WALLET_TEXT": "Мы нашли следующие опции на основе кошельков, которые поддерживают dYdX.",
       "UNDERSTAND_RISKS_TITLE": "Я осознаю риски",
       "USERNAME_REQUIRED": "Требуется имя пользователя",
