@@ -86,7 +86,7 @@
       "PRICE_TYPE": "Preis \/ Art",
       "PROFIT_AND_LOSS": "G&V",
       "PROFIT_AND_LOSS_30D": "30T G&V",
-      "PROFIT_AND_LOSS_WITH_DURATION": "{PERIOD} G&V für",
+      "PROFIT_AND_LOSS_WITH_DURATION": "{PERIOD} G&V",
       "READY": "bereit",
       "RECEIVE": "Erhalten",
       "RECENT": "Kürzlich",
@@ -160,7 +160,7 @@
       "SCAN_QR_CODE_ERROR": "Code nicht erkannt",
       "SCAN_QR_CODE_SHORT": "QR scannen",
       "SELECT_WALLET": "Wallet auswählen",
-      "SWITCH_TO_WALLET": "Bitte öffnen Sie Ihre {WALLET}App, um fortzufahren.",
+      "SWITCH_TO_WALLET": "Bitte öffnen Sie Ihre {WALLET} App, um fortzufahren.",
       "SELECT_WALLET_TEXT": "Wir haben die folgenden Wallet-Optionen gefunden, die dYdX unterstützen.",
       "UNDERSTAND_RISKS_TITLE": "Die Risiken sind mir bekannt",
       "USERNAME_REQUIRED": "Benutzername ist erforderlich",
@@ -168,7 +168,7 @@
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "Im nächsten Schritt müssen Sie unsere {TERMS_LINK} und {PRIVACY_POLICY_LINK} durchlesen und ihnen zustimmen.",
       "WALLET_MISMATCH": "Falsche Wallet",
       "NETWORK_MISMATCH": "Falsches Netzwerk",
-      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf  um {WALLET_ADDR}",
+      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um",
       "WALLET_ACCOUNT_ERROR": "Kann kein Konto erhalten",
       "ENTER_CODE": "Geben Sie den Bestätigungscode ein"
     },
@@ -183,7 +183,7 @@
       "DEPOSIT_OVERVIEW": "Sie werden eine Verbindungsanfrage und zwei Transaktionsanfragen erhalten.",
       "DEPOSIT_AVAILABLE": "Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {DOLLAR_AMOUNT}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. Ihr Limit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Gemäß diesen Regeln",
-      "MINIMUM_DEPOSIT_MET": "Sehr schön! Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung.{DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_MET": "Sehr schön! Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. {DEPOSIT_SUBJECT_TO_RULES}",
       "MINIMUM_DEPOSIT_UNMET": "Ihr Einzahlungsbetrag liegt unterhalb des gasfreien Einzahlungsminimums. Wenn Sie mehr als {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen, zahlt dYdX die Gas-Kosten für diese Einzahlung. Sie können auch mit dieser Einzahlung fortfahren und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf 1inch oder Uniswap in WETH umtauschen und gasfreie WETH-Einzahlungen vornehmen oder direkt ETH einzahlen und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "Gasfreie Einzahlung ist nicht verfügbar. Ihr gasfreies Einzahlungslimit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
@@ -244,7 +244,7 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Einheit der Verfallszeit auswählen.",
       "SUBMITTING_ORDER": "Wird übermittelt",
       "SUBMITTING_ORDER_DESC": "Ihre Order wird übermittelt.",
-      "CANCELING_N_ORDERS_FAILED": "{COUNT} Stornierung Order fehlgeschlagen",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} Stornierung Auftrag fehlgeschlagen",
       "CANCELING_ONE_ORDER_FAILED": "{COUNT} Abbruch der Order fehlgeschlagen",
       "CANCELING_ORDER": "Abbrechen",
       "CANCELING_ORDER_DESC": "Ihre Order an {SIDE} {SIZE} {MARKET} wird storniert.",
@@ -306,8 +306,8 @@
       "SWAP_POSITION": {
         "OPEN": "Position {TOKEN} öffnen",
         "CLOSE": "Position {TOKEN} schließen",
-        "INCREASE": "{TOKEN}-Position erhöhen",
-        "DECREASE": " {TOKEN}-Position reduzieren",
+        "INCREASE": "Position {TOKEN} erhöhen",
+        "DECREASE": "Position {TOKEN} reduzieren",
         "CROSS_SIDE": "Position {TOKEN} ändern zu {SIDE}"
       }
     },
@@ -359,14 +359,14 @@
     },
     "FIAT_ONRAMP": {
       "NEW": "Neu!",
-      "SUPPORT_FROM_PROVIDER": "{PROVIDER} Support von",
+      "SUPPORT_FROM_PROVIDER": "Support von {PROVIDER}",
       "SUPPORT_MESSAGE": "Sie suchen eine Einzahlung in Fiat?  Überprüfen Sie den Orderstatus in Ihrer E-Mail oder wenden Sie sich an den Support von {PROVIDER}."
     },
     "V4": {
       "ALERTS_PLACHOLDER": "Handels- und Protokollwarnungen werden hier angezeigt.",
       "INDEXER_ALERT": "Indexer-Alarm",
       "INDEXER_DOWN": "Die aktuelle Blockhöhe des Indexers kann nicht abgerufen werden.",
-      "INDEXER_HALTED": "Der Indexer hat bei Block {HALTED_BLOCK}angehalten.",
+      "INDEXER_HALTED": "Der Indexer hat bei Block {HALTED_BLOCK} angehalten.",
       "INDEXER_TRAILING": "Der Indexer hinkt dem Validator um {TRAILING_BLOCKS} Blöcke hinterher, es ist mit erheblichen Verzögerungen zu rechnen.",
       "VALIDATOR_ALERT": "Indexer-Alarm",
       "VALIDATOR_DOWN": "Die aktuelle Blockhöhe kann nicht abgerufen werden.",
@@ -401,7 +401,7 @@
       "CHECK_STATUS_TITLE": "Einzahlungsstatus prüfen ...",
       "CHECK_STATUS_TEXT": "Bitte warten",
       "IN_PROGRESS_TITLE": "Einzahlung ist in Bearbeitung",
-      "IN_PROGRESS_TEXT": "Ihre Einzahlung von  {AMOUNT_ELEMENT}wurde übermittelt. Dies kann einige Minuten dauern.",
+      "IN_PROGRESS_TEXT": "Ihre Einzahlung von {AMOUNT_ELEMENT} wurde übermittelt. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Einzahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!",
       "COMPLETED_TEXT_SHORT": "Ihre Einzahlung wurde abgeschlossen.",
@@ -411,13 +411,13 @@
       "CHECK_STATUS_TITLE": "Auszahlungsstatus prüfen ...",
       "CHECK_STATUS_TEXT": "Bitte warten",
       "IN_PROGRESS_TITLE": "Auszahlung läuft",
-      "IN_PROGRESS_TEXT": "Ihre Auszahlung von {AMOUNT_ELEMENT}wurde vorgenommen. Dies kann einige Minuten dauern.",
+      "IN_PROGRESS_TEXT": "Ihre Auszahlung von {AMOUNT_ELEMENT} wurde vorgenommen. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Auszahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Auszahlung wurde abgeschlossen."
     },
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer übermittelt",
-      "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
+      "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT} {TOKEN} wurde übermittelt"
     },
     "ISSUE_REPORT": {
       "SETTINGS_TITLE": "Problem melden",

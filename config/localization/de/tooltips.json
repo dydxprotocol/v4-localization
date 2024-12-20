@@ -4,7 +4,7 @@
       "BODY": "Ihre dYdX-Chain-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Ethereum-Adresse „{EVM_ADDRESS}“ erstellt."
     },
     "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "Ihre dYdX-Chain-Adresse „“ wurde aus der Signatur der Solana-Adresse {DYDX_ADDRESS}„“ {SOLANA_ADDRESS}erstellt."
+      "BODY": "Ihre dYdX-Chain-Adresse „{DYDX_ADDRESS}“ wurde aus der Signatur der Solana-Adresse „{SOLANA_ADDRESS}“ erstellt."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy-Signatur",
@@ -18,13 +18,13 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Affiliate-Provisionen",
-      "BODY": "Affiliates verdienen Provisionen auf Taker-Gebühren, die von empfohlenen Benutzern gezahlt werden. Um einen Affiliate-Gebührenanteil zu generieren, müssen die empfohlenen Benutzer ein rollendes 30-Tage-Volumen unter 50 Mio. USD haben, wenn sie den Handel tätigen."
+      "BODY": "Affiliates verdienen Provisionen auf Taker-Gebühren, die von empfohlenen Benutzern gezahlt werden. Um einen Affiliate-Gebührenanteil zu generieren, müssen die empfohlenen Benutzer ein rollendes 30-Tage-Volumen von unter 50 Mio. USD haben, wenn sie den Handel tätigen."
     }
   },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Hedgies-Rabatt",
-      "BODY": "Wenn Sie einen halten,{NFT} wird Ihre Gebührennachlass-Stufe um eine Stufe erhöht. Halten Sie mehrere, wird dies allerdings keinen zusätzlichen Effekt haben."
+      "BODY": "Wenn Sie einen {NFT} halten, wird Ihre Gebührennachlass-Stufe um eine Stufe erhöht. Halten Sie mehrere, wird dies allerdings keinen zusätzlichen Effekt haben."
     }
   },
   "TRADE": {
@@ -122,7 +122,7 @@
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Limit-Preis",
-      "BODY": "Durch die Bestimmung eines Limitpreises platzieren Sie eine Take-Profit-Limit-Order und\/oder eine Stop-Limit-Order. Klicken Sie hier für {DOCUMENTATION_LINK}weitere Details."
+      "BODY": "Durch die Bestimmung eines Limitpreises platzieren Sie eine Take-Profit-Limit-Order und\/oder eine Stop-Limit-Order. Klicken Sie auf {DOCUMENTATION_LINK} für weitere Details."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -130,15 +130,15 @@
     },
     "LIQUIDATION_PRICE": {
       "TITLE": "Liquidationspreis",
-      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL}fällt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
+      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL} fällt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
     },
     "LIQUIDATION_PRICE_SHORT": {
       "TITLE": "Liquidationspreis",
-      "BODY": "Wenn der Oracle-Preis von {SYMBOL}über den Abwicklungspreis steigt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
+      "BODY": "Wenn der Oracle-Preis von {SYMBOL} über den Abwicklungspreis steigt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
     },
     "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Liquidationspreis",
-      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL}fällt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
+      "BODY": "Wenn der Orakelpreis unter den Liquidationspreis {SYMBOL} fällt, wird Ihre Position liquidiert. Nach der Liquidation wird Ihre Position automatisch geschlossen, und eine Liquidationsgebühr von mindestens 1 % wird erhoben (kann je nach Liquidität zum Zeitpunkt der Liquidation höher ausfallen)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Liquidationspreis",
@@ -178,7 +178,7 @@
     },
     "NET_FUNDING": {
       "TITLE": "Nettofinanzierung",
-      "BODY": "Verdiente \/ bezahlte Gesamtfinanzierung für die Laufzeit der aktuellen Position. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Position wechseln (Long zu Short oder umgekehrt)."
+      "BODY": "Verdiente \/ bezahlte Gesamtfinanzierung für die Laufzeit der aktuellen Position. Wird zurückgesetzt, wenn Sie Ihre Position schließen oder die Seite der Position wechseln (von Long zu Short oder umgekehrt)."
     },
     "OPEN_INTEREST": {
       "TITLE": "Offen Zinsen",
@@ -190,11 +190,11 @@
     },
     "ORDER_AMOUNT": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag für den Kauf oder Verkauf von .{SYMBOL} Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
+      "BODY": "Betrag für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "ORDER_AMOUNT_USD": {
       "TITLE": "Orderbetrag",
-      "BODY": "Betrag in USD für den Kauf oder Verkauf. .{SYMBOL} Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
+      "BODY": "Betrag in USD für den Kauf oder Verkauf von {SYMBOL}. Dies ist der Betrag, um den sich Ihre Position erhöht oder verringert, wenn die Order ausgeführt wird, und nicht der endgültige Betrag Ihrer Position."
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Stop-Loss ist ein teilweises Schließen",
@@ -218,7 +218,7 @@
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
-      "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Order-Erteilung andere Orders überschneidet, wird diese automatisch storniert."
+      "BODY": "Orders, die Post-Only aktiviert haben, können nur als Maker Orders gesetzt werden. Wenn die Order zum Zeitpunkt der Auftragserteilung andere Orders überschneidet, wird diese automatisch storniert."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Post-Only",
@@ -307,7 +307,7 @@
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
       "TITLE": "Verfügbar",
-      "BODY": "Sie sind berechtigt! Zahlen Sie mindestens ein,{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}um eine gebührenfreie Einzahlung zu ermöglichen."
+      "BODY": "Sie sind berechtigt! Zahlen Sie mindestens {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ein, um eine gebührenfreie Einzahlung zu ermöglichen."
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Brückengebühren",
@@ -319,7 +319,7 @@
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Gasgebühren",
-      "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall{SOURCE_CHAIN}."
+      "BODY": "Gasgebühren sind Transaktionsgebühren auf der Quellkette, in diesem Fall {SOURCE_CHAIN}."
     },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasfreie Einzahlungen.",
@@ -327,7 +327,7 @@
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Einzahlungen mit der niedrigsten Gebühr",
-      "BODY": "USDC-Einzahlungen auf [Plattformname] {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
+      "BODY": "USDC-Einzahlungen auf {LOWEST_FEE_TOKEN_NAMES} haben die niedrigsten Gebühren."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Mindesteinzahlungsbetrag",
@@ -350,7 +350,7 @@
   },
   "TRIGGER_ORDERS": {
     "UNEQUAL_ORDER_SIZES": {
-      "TITLE": "Ungleiche Order-Größen",
+      "TITLE": "Ungleiche Bestellgrößen",
       "BODY": "Ihre Take-Profit- und Stop-Loss-Orders haben verschiedene Ordergrößen. Um die Order-Größe zu ändern, stornieren Sie bitte die Orders und erstellen Sie sie neu."
     }
   },
@@ -430,7 +430,7 @@
       "BODY": "Der Gesamt-PnL im Laufe der Zeit. Dies umfasst historische PnL Ihrer Einzahlungen in den Tresor."
     },
     "VAULT_APR": {
-      "BODY": "Der Vault-APR ist die auf Jahresbasis berechnete Rendite des letzten Monats. Die Vault-Renditen hängen von der Gewinn- und Verlustrechnung sowie der Umsatzbeteiligung des Protokolls ab. Dieser APR ist nicht garantiert."
+      "BODY": "Est. Der APR ist die Rendite des letzten Monats auf Jahresbasis. Die tatsächlichen Renditen hängen von unsicheren zukünftigen Erträgen ab (Protokollumsatzbeteiligung und P&L) und sind nicht garantiert. {LEARN_MORE}"
     }
   }
 }
