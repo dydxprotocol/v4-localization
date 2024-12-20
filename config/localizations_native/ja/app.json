@@ -40,7 +40,7 @@
       "FAILED": "失敗しました",
       "FOUNDATION": "財団",
       "FULL_CLOSE": "フルクローズ",
-      "FUNDING_EARNED": "受取済みファンディング",
+      "FUNDING_EARNED": "獲得済みファンディング",
       "FUNDING_PAID": "支払済みファンディング",
       "GAINERS": "値上がり",
       "GO": "進む",
@@ -70,7 +70,7 @@
       "OK": "OK",
       "PAY_GAS_WITH": "ガス代（手数料）支払い方法",
       "PLACEHOLDER_NO_POSITIONS": "オープンポジションはありません",
-      "PLACEHOLDER_NO_POSITIONS_LOG_IN": "ポジションを表示するには、サインインする必要があります。",
+      "PLACEHOLDER_NO_POSITIONS_LOG_IN": "ポジションを表示するには、サインインする必要があります",
       "PLACEHOLDER_NO_ORDERS": "オープンオーダーはありません",
       "PLACEHOLDER_NO_ORDERS_LOG_IN": "注文を表示するには、サインインする必要があります",
       "PLACEHOLDER_NO_FILLS": "取引はありません",
@@ -96,13 +96,13 @@
       "SERVICE_STATUS_OFFLINE": "オフライン",
       "SERVICE_STATUS_ONLINE": "オンライン",
       "SERVICE_STATUS_POST_ONLY": "ポストのみ",
-      "SHARE_YOUR_RANKING": "ランキングをシェアする",
-      "SHARE_YOUR_RANKING_TEXT": "他の人に活動をシェアする",
+      "SHARE_YOUR_RANKING": "ランキングをシェア",
+      "SHARE_YOUR_RANKING_TEXT": "他の人と活動をシェア",
       "SIGN_OUT": "サインアウト",
       "SIGN_OUT_WARNING": "サインアウトしてウォレットを削除しますか？",
       "SOURCE": "ソース",
-      "START": "「開始」をタップしてサインイン",
-      "START_SEARCH": "上記の検索を開始する",
+      "START": "「開始」をタップしてサインインする",
+      "START_SEARCH": "上記の検索を開始",
       "STATUS_FILL": "ステータス\/約定",
       "SYNC_WITH_DESKTOP": "デスクトップとの同期",
       "SWIPE_UP_TO_TRADE": "スワイプアップして取引",
@@ -143,7 +143,7 @@
       "CREATE_ACCOUNT_TEXT": "ユーザー名およびメールアドレスは任意であり、プロフィールでいつでも変更または更新することができます。",
       "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "ユーザー名は必須であり、メールアドレスは任意です。これらはプロフィールからいつでも変更または更新することができます。",
       "CREATE_ACCOUNT_ADDITIONAL": "お客様の情報はdYdXによって、商品体験の改善のみを目的として使用され、マーケティング目的には使用されません。",
-      "EDIT_ACCOUNT": "口座情報を編集する",
+      "EDIT_ACCOUNT": "口座情報を編集",
       "EDIT_ACCOUNT_TEXT": "ユーザー名およびメールアドレスは任意であり、プロフィールでいつでも変更または更新することができます。",
       "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "ユーザー名は必須であり、メールアドレスは任意です。これらはプロフィールからいつでも変更または更新することができます。",
       "INFO": "お客様の情報はdYdXによって、商品体験の改善のみを目的として使用され、その他の法人等と共有されることはありません。",
@@ -155,16 +155,16 @@
       "OPEN_QR_CODE_DESC": "ウェブアプリのウォレットのドロップダウンメニューのオプションを使用し、QRコードを表示します。",
       "OPEN_QR_CODE_NEXT": "はい、わかりました。",
       "PERMITTED_TO_USE_TITLE": "私は法的に取引を許可されています。",
-      "SCAN_QR_CODE": "QRコードをスキャンする",
+      "SCAN_QR_CODE": "QRコードをスキャン",
       "SCAN_QR_CODE_DESC": "ウェブアプリのウォレットのドロップダウンメニューのオプションからQRコードをスキャンする。",
       "SCAN_QR_CODE_ERROR": "コードが認識されていません",
       "SCAN_QR_CODE_SHORT": "QRコードをスキャン",
-      "SELECT_WALLET": "ウォレットを選択する",
+      "SELECT_WALLET": "ウォレットを選択",
       "SWITCH_TO_WALLET": "{WALLET}アプリを開いて続けてください。",
       "SELECT_WALLET_TEXT": "dYdX対応のウォレットに基づく以下のオプションが見つかりました。",
       "UNDERSTAND_RISKS_TITLE": "私はリスクについて理解しています。",
       "USERNAME_REQUIRED": "ユーザー名は必須です",
-      "WELCOME_TEXT": "スマートフォンで、世界最強かつかつオープンな取引所で取引を開始する。",
+      "WELCOME_TEXT": "自己資金により、世界最強かつかつオープンな取引所で取引を開始する。",
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "次のステップでは、当社の{TERMS_LINK}および{PRIVACY_POLICY_LINK}をお読みいただき、同意していただく必要があります。",
       "WALLET_MISMATCH": "ウォレットの不一致",
       "NETWORK_MISMATCH": "ネットワークの不一致",
@@ -187,17 +187,17 @@
       "MINIMUM_DEPOSIT_UNMET": "お客様の入金額はガスレス入金の最小限度額を下回っています。入金額が{GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}を上回る場合、dYdXはこの入金時のガス代を負担いたします。この入金を継続し、ご自身でガス代を負担することもできます。{DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "ガスレス入金はETHには利用できません。1inchまたはUniswapでETHをWETHに変換し、WETHのガスレス入金を使用するか、またはご自身でガス代を負担してETHを直接入金することもできます。{DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "ガスレス入金は利用できません。ガスレス入金の制限は3日ごとにリセットされます。{DEPOSIT_SUBJECT_TO_RULES}",
-      "USE_GASLESS_DEPOSIT": "ガスレス入金を使用する",
+      "USE_GASLESS_DEPOSIT": "ガスレス入金を使用",
       "1_REMAINING": "残存1",
       "PROVIDER": "プロバイダー"
     },
     "WITHDRAW_MODAL": {
-      "ENTER_WITHDRAW_AMOUNT": "出金額を入力します",
+      "ENTER_WITHDRAW_AMOUNT": "出金額を入力",
       "WITHDRAW_DESCRIPTION": "以下のウォレットへの資金の引き上げを開始します。こちらに署名は必要ありません。",
       "WITHDRAW_ERROR": "出金エラー",
       "WITHDRAW_IRREVERSIBLE": "いったん出金を開始するとキャンセルできません。",
       "WITHDRAW_LIMIT": "出金制限",
-      "WITHDRAW_TEXT": "dYdXがこの資金をウォレットに引き出すことを許可します"
+      "WITHDRAW_TEXT": "dYdXがこの資金をウォレットに引き出すことを許可"
     },
     "PORTFOLIO": {
       "ESTIMATED_REWARDS": "推定",
@@ -205,19 +205,19 @@
     },
     "TRADE": {
       "BRACKET_ORDER": {
-        "SET_TRIGGERS_BUTTON_TITLE": "トリガーを設定する",
+        "SET_TRIGGERS_BUTTON_TITLE": "トリガーを設定",
         "UPDATE_TRIGGERS_BUTTON_TITLE": "トリガーの更新",
-        "PARTIAL_COMPLETE_DESC": "ブラケット注文のうち、1つ以上の注文が失敗しました。[オーダー]タブをチェックして、アクティブなテイクプロフィットとストップロスのオーダーを確認してください。",
-        "STOP_LOSS_DESCRIPTION": "ダウンサイドリスクを防ぎます",
-        "TAKE_PROFIT_DESCRIPTION": "利益をキャプチャします"
+        "PARTIAL_COMPLETE_DESC": "ブラケット注文のうち、1つ以上の注文が失敗しました。「オーダー」タブをチェックして、アクティブなテイクプロフィットとストップロスのオーダーを確認してください。",
+        "STOP_LOSS_DESCRIPTION": "ダウンサイドリスクを防止",
+        "TAKE_PROFIT_DESCRIPTION": "利益をキャプチャ"
       },
       "CANNOT_PLACE_TRADE": "取引の注文ができません",
       "CLOSED_STATUS": "クローズ済",
-      "ENTER_AMOUNT_TO_TRADE": "取引額を入力します",
-      "ENTER_STOP_PRICE": "逆指値を入力します",
+      "ENTER_AMOUNT_TO_TRADE": "取引額を入力",
+      "ENTER_STOP_PRICE": "逆指値を入力",
       "LIQUIDATION": "清算",
       "LUNA_IMF_TITLE": "LUNA-USDの調整済み証拠金",
-      "LUNA_IMF_TEXT": "当社はボラティリティに基づいて、LUNA-USDの当初証拠金要件を一時的に100％に引き上げました。維持証拠金は5％のままです。",
+      "LUNA_IMF_TEXT": "当社はボラティリティーに基づいて、LUNA-USDの当初証拠金要件を一時的に100％に引き上げました。維持証拠金は5％のままです。",
       "NOT_TRIGGERED_STATUS": "トリガーされていません",
       "NOT_TRIGGERED_STATUS_DESC": "注文はトリガーされていません。",
       "NOT_SET": "設定されていません",
@@ -232,7 +232,7 @@
       "ORDER_UNDERCOLLATERALIZED": "注文により担保不足が発生したことになります。",
       "PLACE_BUY": "購入",
       "PLACE_SELL": "売却",
-      "PLACE_STOP_ORDER": "逆指値注文（ストップオーダー）　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+      "PLACE_STOP_ORDER": "逆指値注文（ストップオーダー）　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
       "PLACE_TAKE_PROFIT_ORDER": "利益確定注文",
       "PLACED": "注文済み",
       "PREVIEW": "プレビュー",
@@ -240,8 +240,8 @@
       "REALIZED": "実現済み",
       "RECEIPT": "領収書",
       "REDUCE_ONLY": "リデュースオンリー",
-      "SELECT_EXPIRATION_OPTION": "満期設定オプションを選択する",
-      "SELECT_EXPIRATION_TIME_UNIT": "有効期限を選択します",
+      "SELECT_EXPIRATION_OPTION": "満期設定オプションを選択",
+      "SELECT_EXPIRATION_TIME_UNIT": "満期時間単位を選択",
       "SUBMITTING_ORDER": "送信中",
       "SUBMITTING_ORDER_DESC": "注文が送信されています。",
       "CANCELING_N_ORDERS_FAILED": "{COUNT}件の注文のキャンセルに失敗しました",
@@ -252,7 +252,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "設定を選択",
         "MODE_TO_BE_USED": "このモードはすべての取引で使用されます",
-        "CHANGE_SETINGS": "「プロフィール › 設定」から変更します",
+        "CHANGE_SETINGS": "「プロフィール」›「設定」から変更",
         "SIMPLE": "シンプル",
         "ADVANCED": "アドバンスト",
         "EASIER": "もっと簡単に",
@@ -288,14 +288,14 @@
         "CONTINUE": "試してみる"
       },
       "SWAP_INTRO_CARD": {
-        "TITLE": "スワップモードのご紹介！",
+        "TITLE": "スワップモードの紹介！",
         "SUBTITLE": "シンプルながらもパワフルなUniswapのようなインターフェースを使って取引",
         "CTA_TITLE": "試してみる"
       },
       "SWAP_MODE_REMINDER": {
         "TITLE": "モードがスワップに設定されています",
         "SUBTITLE": "取引モードを変更する場合は、",
-        "SUBTITLE_PATH": "プロフィール -> 設定から変更できます",
+        "SUBTITLE_PATH": "「プロフィール」->「設定」から変更できます",
         "CTA_TITLE": "了解する"
       },
       "SWAP_MARKET": {
@@ -308,14 +308,14 @@
         "CLOSE": "{TOKEN}のポジションをクローズする",
         "INCREASE": "{TOKEN}ポジションを増やす",
         "DECREASE": "{TOKEN}ポジションを減らす",
-        "CROSS_SIDE": "{TOKEN}のポジションを{SIDE}に変更する"
+        "CROSS_SIDE": "{TOKEN}のポジションを{SIDE}に変更"
       }
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "クローズオンリーモード",
-      "CLOSE_ONLY_BODY": "お客様は、当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされている、あるいは当社の利用規約に違反する行為を行っているためブロックされています。アプリへのアクセスがブロックされる前に、{DATE}まで資金を引き出すことができます。 次のステップを確認するには、Webインターフェイスをご覧ください。 エラーが発生していると思われる場合は、サポートまでご連絡ください{HELP_LINK}。",
+      "CLOSE_ONLY_BODY": "お客様は、当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされている、あるいは当社の利用規約に違反する行為を行っているためブロックされています。アプリへのアクセスがブロックされる前に、{DATE}まで資金を引き出すことができます。 次のステップを確認するには、Webインターフェースをご覧ください。 エラーが発生していると思われる場合は、{HELP_LINK}のサポートまでご連絡ください。",
       "PERMANENTLY_BLOCKED_TITLE": "恒久的にブロックされています",
-      "PERMANENTLY_BLOCKED_BODY": "お客様は当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられているため、永久にブロックされています。エラーが発生していると思われる場合は、サポートまでご連絡ください{HELP_LINK}。"
+      "PERMANENTLY_BLOCKED_BODY": "お客様は当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられているため、永久にブロックされています。エラーが発生していると思われる場合は、{HELP_LINK}のサポートまでご連絡ください。"
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "口座が制限されています",
@@ -330,8 +330,8 @@
     },
     "CAMERA": {
       "ENABLE_CAMERA": "続行",
-      "ALLOW_ACCESS": "カメラへのアクセスを許可する",
-      "ENABLE_CAMERA_TO_SCAN": "カメラアクセスを有効にしてQRコードをスキャンする"
+      "ALLOW_ACCESS": "カメラへのアクセスを許可",
+      "ENABLE_CAMERA_TO_SCAN": "カメラアクセスを有効にしてQRコードをスキャン"
     },
     "EMAIL_NOTIFICATIONS": {
       "EMAIL_SECTION_HEADER": "メール通知"
@@ -340,7 +340,7 @@
       "PUSH_SECTION_HEADER": "プッシュ通知",
       "UPDATE_SETTINGS_MESSAGE": "アプリの設定通知を更新してください。",
       "PERMIT": "許可する",
-      "GO_TO_SETTINGS": "設定に移動する",
+      "GO_TO_SETTINGS": "「設定」に移動する",
       "PRIMER_TITLE": "通知をオンにする",
       "PRIMER_MESSAGE": "注文とポジションの最新情報を入手しましょう。",
       "ENABLED": "通知がオンになりました",
@@ -358,24 +358,24 @@
       "REQUIRED_FOR_CEX": "集中型取引所に必要"
     },
     "FIAT_ONRAMP": {
-      "NEW": "New！",
+      "NEW": "新規！",
       "SUPPORT_FROM_PROVIDER": "{PROVIDER}サポート",
       "SUPPORT_MESSAGE": "フィアット入金をお探しですか？メール内の注文状況を確認されるか、{PROVIDER}のサポートにお問い合わせください。"
     },
     "V4": {
       "ALERTS_PLACHOLDER": "取引とプロトコルアラートはこちらに表示されます。",
       "INDEXER_ALERT": "インデクサーに関する警告",
-      "INDEXER_DOWN": "インデックスの現在のブロックの高さを取得することができません。",
+      "INDEXER_DOWN": "インデクサーの現在のブロックの高さを取得することができません。",
       "INDEXER_HALTED": "インデクサーがブロック{HALTED_BLOCK}で停止しました。",
       "INDEXER_TRAILING": "インデクサーはバリデータを{TRAILING_BLOCKS}ブロック単位で追跡しています。大幅な遅延が予想されます。",
       "VALIDATOR_ALERT": "インデクサーに関する警告",
       "VALIDATOR_DOWN": "現在のブロックの高さを取得することができません。",
       "VALIDATOR_HALTED": "バリデータがブロック{HALTED_BLOCK}で停止しました。",
       "TRADING_NETWORK": "取引ネットワーク",
-      "SWITCH_NETWORK": "取引ネットワークを切り替える",
+      "SWITCH_NETWORK": "取引ネットワークを切り替え",
       "CALCULATING": "計算中...",
       "NO_HASH": "トランザクションハッシュを取得できません。",
-      "NO_GAS_TITLE": "ガス料金を支払うのに十分なウォレット残高がありません",
+      "NO_GAS_TITLE": "ガス代を支払うのに十分なウォレット残高がありません",
       "NO_GAS_BODY": "ウォレットに補充するには、まずdYdXアカウントに少額入金してください。",
       "THEME": "テーマ",
       "NOTIFICATIONS": "通知",
@@ -429,20 +429,20 @@
       "CHOOSER_TITLE": "アプリログを送信"
     },
     "PREDICTION_MARKET": {
-      "PREDICTION_MARKETS": "予測市場",
+      "PREDICTION_MARKETS": "予測「マーケット」",
       "LEVERAGE_TRADE_US_ELECTION_SHORT": "米国の選挙におけるレバレッジ取引を活用",
-      "WITH_PREDICTION_MARKETS": "予測市場で",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測「マーケット」は、予測されたとおりイベントが発生した場合、1ドルで落ち着きます。 そうでない場合は、0ドルで決済されます。",
+      "WITH_PREDICTION_MARKETS": "予測「マーケット」で",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測「マーケット」は、予測されたとおりイベントが発生した場合、1ドルで決済されます。 そうでない場合は、0ドルで決済されます。",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"レバレッジ取引イベントの結果",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
       "SETTLEMENT_OUTCOMES_TITLE": "$0または$1決済",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "イベントが発生した場合、市場は自動的に1ドルで決済されます。 そうでなければ、~$0で落ち着きます。 価格は、結果が発生する可能性の割合に相当します。"
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "イベントが発生した場合、「マーケット」は自動的に$1で決済されます。そうでなければ、約$0で落ち着きます。 価格は、結果が発生する可能性の割合に相当します。"
     }
   },
   "RATE_APP": {
     "YES": "あり",
     "NO": "違います",
-    "DEFER": "取下げる",
+    "DEFER": "取り下げる",
     "QUESTION": "dYdXを楽しんでますか？"
   },
   "FORCED_UPDATE": {
