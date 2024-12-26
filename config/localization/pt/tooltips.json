@@ -78,7 +78,7 @@
     },
     "FEE": {
       "TITLE": "Taxa de trading",
-      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de “gas” para fazer trades na dYdX."
+      "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de \"gas\" para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
       "TITLE": "Preencher ou encerrar",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Preço de liquidação",
-      "BODY": "Se o preço de oráculo da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+      "BODY": "Se o preço de oracle da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
@@ -230,7 +230,7 @@
     },
     "REALIZED_PNL": {
       "TITLE": "Lucro\/perda realizados",
-      "BODY": "Lucro\/perda totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
+      "BODY": "Lucros\/perdas totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
     },
     "REDUCE_ONLY": {
       "TITLE": "Somente reduzir",
@@ -315,14 +315,14 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Não disponível",
-      "BODY": "Depósitos sem “gas” estão temporariamente indisponíveis. Eles voltarão em breve!"
+      "BODY": "Depósitos sem \"gas\" estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Taxas de “gas”",
       "BODY": "As taxas de “gas” são taxas de transação na cadeia de origem, neste caso {SOURCE_CHAIN}."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Depósitos sem “gas”",
+      "TITLE": "Depósitos sem \"gas\"",
       "BODY": "A dYdX cobrirá suas taxas de “gas” se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem cobrança de tarifa a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
     },
     "LOWEST_FEE_DEPOSITS": {
@@ -335,7 +335,7 @@
     },
     "SWAP": {
       "TITLE": "Swap e depósito",
-      "BODY": "Ao depositar um ativo não baseado USDC, seu ativo é convertido automaticamente para USDC através da API 0x. Definir a slippage máxima permite que você especifique a slippage que será permitida antes da conversão falhar."
+      "BODY": "Ao depositar um ativo não baseado em USDC, seu ativo é convertido automaticamente para USDC por meio da API 0x. Definir a slippage máxima permite que você especifique a slippage que será permitida antes da conversão falhar."
     }
   },
   "TRANSFER_AND_DEPOSIT": {
@@ -345,7 +345,7 @@
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
-      "BODY": "Este é o custo de “gas” da transação de depósito, pago a mineradores da Ethereum."
+      "BODY": "Este é o custo de \"gas\" da transação de depósito, pago a mineradores da Ethereum."
     }
   },
   "TRIGGER_ORDERS": {
@@ -361,7 +361,7 @@
     },
     "GAS_FEES": {
       "TITLE": "Taxas de “gas”",
-      "BODY": "As taxas de “gas” são taxas de transação na cadeia de origem, neste caso dYdX."
+      "BODY": "As taxas de \"gas\" são taxas de transação na cadeia de origem, neste caso dYdX."
     },
     "LOWEST_FEE_WITHDRAWALS": {
       "TITLE": "Saques de taxa mais baixa",
@@ -430,7 +430,7 @@
       "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
     },
     "VAULT_APR": {
-      "BODY": "APR do cofre é o rendimento anualizado do mês anterior. Os retornos do cofre dependem do compartilhamento de receita de P&L e do protocolo.  Esta APR não é garantida."
+      "BODY": "Est. de APR é o retorno anualizado do mês anterior. Os retornos reais dependem de rendimentos futuros incertos (compartilhamento de receita do protocolo, além de lucros e perdas) e não são garantidos. {LEARN_MORE}"
     }
   }
 }
