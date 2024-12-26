@@ -2,7 +2,7 @@
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
       "TITLE": "Verdiente Prämie",
-      "BODY": "Sie haben eine {BLOCK_REWARD_AMOUNT}{TOKEN_NAME} Handelsprämie verdient."
+      "BODY": "Sie haben {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} Handelsprämie verdient."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Aktualisiertes bedingtes Order-Erlebnis!",
@@ -10,15 +10,15 @@
     },
     "DELEVERAGED": {
       "TITLE": "Position entschuldet",
-      "BODY": "Ihre {SIDE} Position {MARKET} wurde verringert."
+      "BODY": "Ihre {SIDE} Position bei {MARKET} wurde verringert."
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
-      "BODY": "Gestalten Sie Ihre Trading Journey bestmöglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback bereitstellen. Die Plätze sind begrenzt. Klicken Sie hier, {HERE_LINK} um sich zu registrieren bzw. mehr zu erfahren!"
+      "BODY": "Gestalten Sie Ihre Trading Journey bestmöglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback bereitstellen. Die Plätze sind begrenzt. Klicken Sie {HERE_LINK}, um sich zu registrieren bzw. mehr zu erfahren!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position abgewickelt",
-      "BODY": "{MARKET} ist geschlossen. Ihre {SIDE} Position auf {MARKET} hat die Endabrechnung erreicht."
+      "BODY": "{MARKET} ist geschlossen. Ihre {SIDE} Position bei {MARKET} hat die Endabrechnung erreicht."
     },
     "FOK_DEPRECATION": {
       "TITLE": "FOK-Orders veraltet",
@@ -30,7 +30,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "Die Saison {SEASON_NUMBER} hat begonnen!",
-      "BODY": "In der Saison {PREV_SEASON_NUMBER}, wurden die durchschnittlichen Belohnungen {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) erzielt!"
+      "BODY": "In der Saison {PREV_SEASON_NUMBER} wurden durchschnittlich {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) an Belohnungen erzielt!"
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "Die Saison {SEASON_NUMBER} ist beendet!",
@@ -41,8 +41,8 @@
       "BODY": "Isolierte Marge ist jetzt live! Um mehr zu erfahren, gehen Sie zu {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "Die Prämien zum {SEASON_NUMBER}Saisonstart wurden verteilt!",
-      "BODY": "{SEASON_NUMBER}Saisonprämien +{DYDX_AMOUNT} DYDX"
+      "TITLE": "Die Prämien zum Start der Saison {SEASON_NUMBER} wurden verteilt!",
+      "BODY": "Saisonprämien {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Positionsverrechnung",
@@ -54,7 +54,7 @@
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Order teilweise erfüllt",
-      "BODY": "{FILLED_AMOUNT} {MARKET} Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
+      "BODY": "{FILLED_AMOUNT} {MARKET} Ihrer Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Order ausgeführt",
@@ -62,11 +62,11 @@
     },
     "ORDER_CANCEL": {
       "TITLE": "Order storniert",
-      "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde storniert."
+      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde storniert."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Order mit Partial Fill storniert",
-      "BODY": "Ihre Order an {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise erfüllt."
+      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise erfüllt."
     },
     "LIQUIDATION": {
       "TITLE": "Position aufgelöst",
@@ -102,7 +102,7 @@
     },
     "STOP_LOSS_TRIGGER_CREATING": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser wird bei erstellt {NEW_VALUE}."
+      "BODY": "Ihr Stop-Loss-Auslöser wird bei {NEW_VALUE} erstellt."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
       "TITLE": "Stop Loss",
@@ -110,11 +110,11 @@
     },
     "STOP_LOSS_TRIGGER_CREATED": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei  {NEW_VALUE}wurde erstellt."
+      "BODY": "Ihr Stop-Loss-Auslöser bei {NEW_VALUE} wurde erstellt."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird unter {NEW_VALUE}erstellt."
+      "BODY": "Ihr Take-Profit-Auslöser wird unter {NEW_VALUE} erstellt."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Take Profit",
@@ -122,7 +122,7 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei  {NEW_VALUE}wurde erstellt."
+      "BODY": "Ihr Take-Profit-Auslöser bei {NEW_VALUE} wurde erstellt."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Stop Loss",
@@ -158,7 +158,7 @@
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei  {OLD_VALUE}wurde entfernt."
+      "BODY": "Ihr Stop-Loss-Auslöser bei {OLD_VALUE} wurde entfernt."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "Take Profit",
@@ -170,7 +170,7 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wurde entfernt."
+      "BODY": "Ihr Take-Profit-Auslöser bei {OLD_VALUE} wurde entfernt."
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "Wünschen Sie mehr Unterstützung?",
@@ -179,27 +179,27 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20 K USD Giveaway",
-      "BODY": "Zur Feier des Überschreitens des kumulativen Handelsvolumens von 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen.100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt{HERE_LINK}."
+      "BODY": "Zur Feier des Überschreitens des kumulativen Handelsvolumens von 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen.100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} Marktabschwächung",
       "BODY": "Am {DATE} hat sich der {MARKET} Markt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Ababschwächung des {MARKET} Marktes",
-      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen {MARKET}wird, wird der Markt in die En{DATE}dabrechnung am [Datum] eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zur Abschwächung des {MARKET} Marktes",
+      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen wird, wird der {MARKET} Markt am [{DATE}] in die Endabrechnung eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET_1} und {MARKET_2} Märkte rückläufig",
+      "TITLE": "Märkte {MARKET_1} und {MARKET_2} rückläufig",
       "BODY": "Am {DATE} durchliefen die Märkte {MARKET_1} und {MARKET_2} die Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Abschwächung von {MARKET_1} und {MARKET_2} den Märkten",
+      "TITLE": "Live-Vorschlag zur Abschwächung der Märkte {MARKET_1} und {MARKET_2}.",
       "BODY": "Derzeit gibt es einen Live-Vorschlag, um die {MARKET_1} und die {MARKET_2} Märkte abzubauen. Wenn sie bestanden haben, treten die {MARKET_1} und die {MARKET_2} Märkte in die Endabrechnung am ein {DATE}. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "Live-Vorschlag zur Aktualisierung  von {MARKET} Parametern",
-      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der {MARKET}Marktparameter. Wenn bestanden wird, wird der  {MARKET}Markt Coinbase Pro  {MARKET}als einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zur Aktualisierung von {MARKET} Parametern",
+      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der Parameter des Marktes {MARKET}. Wenn dieser realisiert wird, wird der Markt {MARKET} Coinbase Pro {MARKET} als einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Handeln Sie mit dem Ergebnis der US-Präsidentschaftswahl!",
