@@ -9,12 +9,12 @@
       "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용: {TWITTER_LINK}을 확인하십시오."
     },
     "DELEVERAGED": {
-      "TITLE": "포지션 차감",
+      "TITLE": "포지션 차감됨",
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감되었습니다."
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30분 안에 최대 200달러를 벌어보세요!",
-      "BODY": "사용자 인터뷰에 참여하고 피드백을 공유하여 최고의 거래 경험을 누려보세요. 스팟은 {HERE_LINK}제한되어 있으므로 클릭하여 가입하거나 자세히 알아보세요!"
+      "BODY": "사용자 인터뷰에 참여하고 피드백을 공유하여 최고의 거래 경험을 누려보세요. 스팟은 제한되어 있으므로 {HERE_LINK}을(를) 클릭하여 가입하거나 자세히 알아보세요!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "포지션 정산됨",
@@ -49,12 +49,12 @@
       "BODY": "{MARKET}의 {SIDE} 포지션이 차감된 포지션을 상쇄하는 데 사용되었습니다."
     },
     "ORDER_FILL": {
-      "TITLE": "주문 체결",
+      "TITLE": "주문 체결됨",
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 ${AVERAGE_PRICE}에 체결되었습니다."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "주문이 부분적으로 체결되었습니다",
-      "BODY": "{SIDE} {AMOUNT} {MARKET} 에 대한 주문 {FILLED_AMOUNT} {MARKET} 가 완료되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET} 에 대한 주문의 {FILLED_AMOUNT} {MARKET}이(가) 완료되었습니다."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "주문이 발동되었습니다",
@@ -65,7 +65,7 @@
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 취소되었습니다."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-      "TITLE": "부분 채우기로 주문 취소",
+      "TITLE": "부분 체결로 주문이 취소됨",
       "BODY": "{SIDE} {AMOUNT} {MARKET} 주문이 부분적으로 {TOTAL_FILLED} 정도 체결되어 취소되었습니다."
     },
     "LIQUIDATION": {
@@ -74,7 +74,7 @@
     },
     "POSITION_CLOSED": {
       "TITLE": "포지션이 종료되었습니다",
-      "BODY": "{MARKET} 포지션이 닫혔습니다."
+      "BODY": "{MARKET} 포지션이 종료되었습니다."
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "입금이 완료되었습니다",
@@ -94,7 +94,7 @@
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "느린 출금이 진행 중입니다",
-      "BODY": "귀하의 {AMOUNT}출{ASSET}금은 12시간 이내에 준비될 예정입니다."
+      "BODY": "귀하의 {AMOUNT} {ASSET}의 출금은 12시간 이내에 준비될 예정입니다."
     },
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "느린 출금이 완료되었습니다",
@@ -199,7 +199,7 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} 매개변수를 업데이트하는 라이브 제안",
-      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로{MARKET}를 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로 {MARKET}을(를) 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "미국 대통령 선거를 거래하세요!",
