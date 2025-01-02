@@ -26,7 +26,7 @@ Each of them contains a list of language folders, such as
 /fr (French)
 /ja (Japanese)
 /ko (Korean)
-/pt (Portugal)
+/pt (Portuguese)
 /ru (Russian)
 /tr (Turkey)
 /zh-CN (Simplified Chinese)
@@ -57,7 +57,7 @@ Parameters are quite flexible - you can even insert react components (as long as
 
 # Work with Github
 
-The "main" branch cannot be written directly. You must create a separate branch, make the changes there, commit and push the branch, and then create a PR (Push request) to "main"
+The "main" branch cannot be written directly. You must create a separate branch, make the changes there, commit and push the branch, and then create a PR (Pull request) to "main"
 
 For your branch, recommend to use "/changes/{language-code}-{date}" as the branch name.
 

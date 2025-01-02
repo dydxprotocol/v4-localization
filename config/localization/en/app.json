@@ -1513,6 +1513,8 @@
       "OFFSETTING": "Offsetting",
       "OHLC_VIA_MID_PRICE": "OHLC (via mid-price)",
       "OPEN_INTEREST": "Open Interest",
+      "OPEN_ORDERS_HEADER": "Open Orders",
+      "ORDER_HISTORY_HEADER": "Order History",
       "OPEN_POSITIONS": "Open Positions",
       "OPEN_STATUS": "Open",
       "ORACLE_PRICE_ABBREVIATED": "Oracle",
