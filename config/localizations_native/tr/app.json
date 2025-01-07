@@ -53,7 +53,7 @@
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "İzole pozisyonlar için talimatlar yakında mobil cihazlara geliyor",
       "LAYER_2": "Katman 2",
       "LEADERBOARDS": "Lider Tabloları",
-      "LEARN_MORE_ABOUT_WALLETS": "Cüzdanlar hakkında daha fazla bilgi ",
+      "LEARN_MORE_ABOUT_WALLETS": "Cüzdanlar hakkında daha fazla bilgi",
       "LINE": "Hat",
       "LIQ_ORACLE": "Tsf. \/ Oracle",
       "LOSERS": "Kaybedenler",
@@ -272,7 +272,7 @@
       "SWAP": "Takas",
       "RISK": "Risk",
       "FROM_TO": "{TOKEN_FROM} token'ından {TOKEN_TO} token'ına",
-      "CLOSING_POSITION": "{TOKEN_FROM} Pozisyonu",
+      "CLOSING_POSITION": "{TOKEN_FROM} pozisyonu",
       "PLACE_ANOTHER_TRADE": "Başka bir alım satım yapın",
       "US_DOLLAR": "ABD Doları",
       "CONFIRM_TRADE": "Alım satımı onaylayın",
@@ -334,7 +334,7 @@
       "ENABLE_CAMERA_TO_SCAN": "QR kodunu taramak için kamera erişimini etkinleştirin"
     },
     "EMAIL_NOTIFICATIONS": {
-      "EMAIL_SECTION_HEADER": "E-posta bildirimleri"
+      "EMAIL_SECTION_HEADER": "E-posta Bildirimleri"
     },
     "PUSH_NOTIFICATIONS": {
       "PUSH_SECTION_HEADER": "Anlık Bildirimler",
@@ -367,7 +367,7 @@
       "INDEXER_ALERT": "Endeksleyici Uyarısı",
       "INDEXER_DOWN": "Endeksleyici (Indexer) mevcut blok yüksekliği alınamadı.",
       "INDEXER_HALTED": "Endeksleyici {HALTED_BLOCK} bloğu üzerinde durdu.",
-      "INDEXER_TRAILING": "Endeksleyici  {TRAILING_BLOCKS} blokları ile Doğrulayıcıyı takip ediyor, büyük miktarda gecikme olmasını bekleyebilirsiniz.",
+      "INDEXER_TRAILING": "Endeksleyici {TRAILING_BLOCKS}  blokları ile Doğrulayıcıyı takip ediyor, büyük miktarda gecikme olmasını bekleyebilirsiniz.",
       "VALIDATOR_ALERT": "Endeksleyici Uyarısı",
       "VALIDATOR_DOWN": "Mevcut blok yüksekliği alınamadı.",
       "VALIDATOR_HALTED": "Doğrulayıcı {HALTED_BLOCK} bloğu üzerinde durdu.",
