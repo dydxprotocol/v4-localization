@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30 Dakika içinde 200$'a kadar kazanın!",
-      "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hale getirin. Kontenjan sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} üzerine tıklayın!"
+      "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak alım satım yolculuğunuzu en iyi hale getirin. Kontenjan sınırlıdır, hemen kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} üzerine tıklayın!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Pozisyon Bağlandı",
@@ -29,8 +29,8 @@
       "BODY": "USDC ödüllerini alın."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "{SEASON_NUMBER}. sezon başladı!",
-      "BODY": ".{PREV_SEASON_NUMBER} sezonunda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
+      "TITLE": ". sezon {SEASON_NUMBER}başladı!",
+      "BODY": "{DYDX_AMOUNT}. sezonunda, kazanılan ortalama ödül {PREV_SEASON_NUMBER} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "{SEASON_NUMBER} sezonu sona erdi!",
@@ -38,7 +38,7 @@
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "İzole Marjin aktif",
-      "BODY": "İzole Marj şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
+      "BODY": "İzole Marjin şimdi aktif! Daha fazla bilgi edinmek için {LEARN_MORE} sayfasına gidin."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "{SEASON_NUMBER} sezonu lansman ödülleri dağıtıldı!",
@@ -50,23 +50,23 @@
     },
     "ORDER_FILL": {
       "TITLE": "Talimat Karşılandı",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {AVERAGE_PRICE}$ ile karşılandı."
+      "BODY": "  için  {SIDE}{AMOUNT}{MARKET}talimatınız $ ile {AVERAGE_PRICE}karşılandı."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Talimat Kısmen Karşılandı",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınızın {FILLED_AMOUNT} {MARKET} kadarı karşılandı."
+      "BODY": "{FILLED_AMOUNT} {MARKET} için {SIDE} talimatınızın {AMOUNT} {MARKET} kadarı karşılandı."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Talimat Tetiklendi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız tetiklendi."
+      "BODY": "  için  {SIDE}{AMOUNT}{MARKET}talimatınız tetiklendi."
     },
     "ORDER_CANCEL": {
       "TITLE": "Talimat İptal Edildi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız iptal edildi."
+      "BODY": "  için  {SIDE}{AMOUNT}{MARKET}talimatınız iptal edildi."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Talimat Kısmen Karşılandı ve İptal Edildi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {TOTAL_FILLED} kısmen karşılandıktan sonra iptal edildi."
+      "BODY": "{SIDE} {AMOUNT} için {MARKET} talimatınız {TOTAL_FILLED} kısmen karşılandıktan sonra iptal edildi."
     },
     "LIQUIDATION": {
       "TITLE": "Pozisyon Tasfiye Edildi",
@@ -179,7 +179,7 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20.000$ değerinde hediye",
-      "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 17 Ağustos 2024, 02.59'dan (TSİ) sonra rastgele bir seçim mekanizmasına göre seçilecektir {HERE_LINK}."
+      "BODY": "Kümülatif işlem hacminin 200 milyar doları aşmasını kutlamak için dYdX, 200 dolar talep etme fırsatına sahip olduğunuz ödüllü bir Twitter etkinliği düzenliyor. Kazanan 100 kişi, 16 Ağustos 2024, 23:59'dan (UTC) sonra rastgele bir seçim mekanizmasına göre seçilecektir {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} piyasası kapatıldı",
@@ -187,7 +187,7 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
-      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {MARKET} piyasası {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {DATE} piyasası {MARKET} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kapatıldı",
