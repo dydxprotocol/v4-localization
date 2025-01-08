@@ -5,8 +5,8 @@
       "BODY": "Alım satım ödülü olarak {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} kazandınız."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
-      "TITLE": "Yenilenmiş koşullu talimat deneyimi!",
-      "BODY": "dYdX Zinciri üzerinde koşullu talimatlar tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, sezgisel ve yüksek performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
+      "TITLE": "Yenilenmiş koşullu emir deneyimi!",
+      "BODY": "dYdX Zinciri üzerinde koşullu emirler tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, sezgisel ve yüksek performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Pozisyon Kaldıraçsızlaştırıldı",
@@ -29,11 +29,11 @@
       "BODY": "USDC ödüllerini alın."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "{SEASON_NUMBER}. sezon başladı!",
-      "BODY": ".{PREV_SEASON_NUMBER} sezonunda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
+      "TITLE": ". sezon {SEASON_NUMBER}başladı!",
+      "BODY": "{DYDX_AMOUNT}. sezonda, kazanılan ortalama ödül {USDC_AMOUNT} DYDX (~{PREV_SEASON_NUMBER} USDC) olarak gerçekleşti!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "{SEASON_NUMBER} sezonu sona erdi!",
+      "TITLE": ". sezon {SEASON_NUMBER}sona erdi!",
       "BODY": "Lansman teşvikleri programına katıldığınız için teşekkür ederiz. Gelecekteki ödül programlarındaki güncellemeler için bizden ayrılmayın!"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -49,24 +49,24 @@
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz, kaldıraçsızlaştırılmış bir pozisyonu dengelemek için kullanıldı."
     },
     "ORDER_FILL": {
-      "TITLE": "Talimat Karşılandı",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {AVERAGE_PRICE}$ ile karşılandı."
+      "TITLE": "Emir Karşılandı",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} emriniz {AVERAGE_PRICE}$ ile karşılandı."
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "Talimat Kısmen Karşılandı",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınızın {FILLED_AMOUNT} {MARKET} kadarı karşılandı."
+      "TITLE": "Emir Kısmen Karşılandı",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} emrinizin {FILLED_AMOUNT} {MARKET} kadarı karşılandı."
     },
     "ORDER_TRIGGERED": {
-      "TITLE": "Talimat Tetiklendi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız tetiklendi."
+      "TITLE": "Emir Tetiklendi",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} emriniz tetiklendi."
     },
     "ORDER_CANCEL": {
-      "TITLE": "Talimat İptal Edildi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız iptal edildi."
+      "TITLE": "Emir İptal Edildi",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} emriniz iptal edildi."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-      "TITLE": "Talimat Kısmen Karşılandı ve İptal Edildi",
-      "BODY": "{AMOUNT} {MARKET} için {SIDE} talimatınız {TOTAL_FILLED} kısmen karşılandıktan sonra iptal edildi."
+      "TITLE": "Emir Kısmen Karşılandı ve İptal Edildi",
+      "BODY": "{AMOUNT} {MARKET} için {SIDE} emriniz {TOTAL_FILLED} kısmen karşılandıktan sonra iptal edildi."
     },
     "LIQUIDATION": {
       "TITLE": "Pozisyon Tasfiye Edildi",
@@ -183,23 +183,23 @@
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} piyasası kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET} piyasası nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "{DATE} tarihinde, {MARKET} piyasası nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık emirler iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET} piyasasını kapatmak için canlı teklif",
-      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {MARKET} piyasası {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu anda {MARKET} piyasasını kapatmak için canlı bir teklif var. Eğer geçerse, {DATE} piyasası {MARKET} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık emirler iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasaları kapatıldı",
-      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık talimatlar iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "{DATE} tarihinde, {MARKET_1} ve {MARKET_2} piyasaları nihai bağlamadan geçti. Mevcut pozisyonlar kapatıldı ve açık emirler iptal edildi. Nihai bağlama hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için canlı teklif",
-      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık talimatlar iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "{MARKET_1} ve {MARKET_2} piyasalarının kapatılması için şu anda canlı bir teklif bulunuyor. Teklif geçtiği takdirde, {MARKET_1} ve {MARKET_2} piyasaları {DATE} tarihinde nihai bağlamaya girecektir. Mevcut pozisyonlar kapatılacak ve açık emirler iptal edilecektir. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} parametrelerini güncellemek için canlı teklif",
-      "BODY": "Şu an {MARKET} piyasanın parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasası tek oracle kaynağı olarak Coinbase Pro {MARKET} sahibi olacaktır. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu an {MARKET} piyasasının parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasasının tek oracle kaynağı Coinbase Pro {MARKET} olacaktır. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi üzerine alım satım yapın!",
