@@ -30,10 +30,10 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "{SEASON_NUMBER}. sezon başladı!",
-      "BODY": ".{PREV_SEASON_NUMBER} sezonunda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
+      "BODY": ".{PREV_SEASON_NUMBER} sezonda, kazanılan ortalama ödül {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) olarak gerçekleşti!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "{SEASON_NUMBER} sezonu sona erdi!",
+      "TITLE": "{SEASON_NUMBER}. sezon sona erdi!",
       "BODY": "Lansman teşvikleri programına katıldığınız için teşekkür ederiz. Gelecekteki ödül programlarındaki güncellemeler için bizden ayrılmayın!"
     },
     "ISOLATED_MARGIN_LIVE": {
@@ -199,7 +199,7 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} parametrelerini güncellemek için canlı teklif",
-      "BODY": "Şu an {MARKET} piyasanın parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasası tek oracle kaynağı olarak Coinbase Pro {MARKET} sahibi olacaktır. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
+      "BODY": "Şu an {MARKET} piyasasının parametrelerini güncellemek için canlı bir teklif bulunmaktadır. Geçerse, {MARKET} piyasasının tek oracle kaynağı Coinbase Pro {MARKET} olacaktır. Teklif hakkında daha fazla bilgiyi şu bağlantıdan edinebilirsiniz: {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi üzerine alım satım yapın!",
