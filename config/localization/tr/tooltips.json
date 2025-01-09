@@ -1,10 +1,10 @@
 {
   "GENERAL": {
     "DYDX_ADDRESS_FROM_ETHEREUM": {
-      "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
+      "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz, \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
     },
     "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
+      "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz, \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski İmza",
@@ -23,7 +23,7 @@
   },
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
-      "TITLE": "Hedge indirimi",
+      "TITLE": "Hedgie ödülleri indirimi",
       "BODY": "Bir {NFT} sahibi olmak indirim düzeyinizi bir seviye yukarı çıkaracaktır. Birden fazlasına sahip olmanın ek bir etkisi bulunmamaktadır."
     }
   },
@@ -106,7 +106,7 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Başlangıç Durdurma",
-      "BODY": "Başlangıç stop fiyatı, takip eden yüzdenize göre belirlenir."
+      "BODY": "Başlangıç durdurma fiyatı, takip eden yüzdenize göre belirlenir."
     },
     "LEVERAGE": {
       "TITLE": "Kaldıraç",
@@ -122,7 +122,7 @@
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Limit Fiyatı",
-      "BODY": "Bir limit fiyatı belirleyerek, bir Kâr Alma Limit Talimatı ve\/veya bir Durdurma Limit Talimatı vermiş olursunuz. Daha fazla bilgi için {DOCUMENTATION_LINK} tıklayın."
+      "BODY": "Bir limit fiyatı belirleyerek, bir Kâr Alma Limit Talimatı ve\/veya bir Durdurma Limit Talimatı vermiş olursunuz. Daha fazla bilgi için {DOCUMENTATION_LINK} üzerine tıklayın."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Kayma",
@@ -145,8 +145,8 @@
       "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
-      "TITLE": "Tasfiye",
-      "BODY": "Emir defterinden tasfiye alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine tasfiye ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
+      "TITLE": "Likidite",
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine likidite ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Devam Marjin Oranı",
@@ -270,7 +270,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
-      "BODY": "Emir defterinden tasfiye alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
     },
     "TAKE_PROFIT": {
       "TITLE": "Kâr Alma",
