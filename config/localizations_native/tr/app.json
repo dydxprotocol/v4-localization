@@ -53,7 +53,7 @@
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "İzole pozisyonlar için talimatlar yakında mobil cihazlara geliyor",
       "LAYER_2": "Katman 2",
       "LEADERBOARDS": "Lider Tabloları",
-      "LEARN_MORE_ABOUT_WALLETS": "Cüzdanlar hakkında daha fazla bilgi ",
+      "LEARN_MORE_ABOUT_WALLETS": "Cüzdanlar hakkında daha fazla bilgi",
       "LINE": "Hat",
       "LIQ_ORACLE": "Tsf. \/ Oracle",
       "LOSERS": "Kaybedenler",
@@ -252,7 +252,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "Tercih Seçin",
         "MODE_TO_BE_USED": "Tüm alım satım için bu mod kullanılacaktır",
-        "CHANGE_SETINGS": "Profil üzerinden bunu değiştirebilirsiniz › Ayarlar ",
+        "CHANGE_SETINGS": "Profil › Ayarlar üzerinden bunu değiştirebilirsiniz",
         "SIMPLE": "Basit",
         "ADVANCED": "Gelişmiş",
         "EASIER": "Kullanımı daha kolay",
@@ -374,7 +374,7 @@
       "TRADING_NETWORK": "Trading (Alım-Satım) Ağı",
       "SWITCH_NETWORK": "Trading Ağını Değiştir",
       "CALCULATING": "Hesaplanıyor ...",
-      "NO_HASH": "İşlem hash'i alınamıyor.",
+      "NO_HASH": "İşlem hash değeri alınamıyor.",
       "NO_GAS_TITLE": "Gaz ücretini karşılamak için yetersiz cüzdan bakiyesi",
       "NO_GAS_BODY": "Lütfen cüzdanınızı doldurmak için önce dYdX hesabınıza küçük bir miktar para yatırın.",
       "THEME": "Tema",
@@ -412,7 +412,7 @@
       "CHECK_STATUS_TEXT": "Lütfen bekleyin",
       "IN_PROGRESS_TITLE": "Çekme işlemi devam ediyor",
       "IN_PROGRESS_TEXT": "{AMOUNT_ELEMENT} tutarında çekme talebiniz gönderildi. Bu işlem birkaç dakika sürebilir.",
-      "COMPLETED_TITLE": "Çekme tamamlandı",
+      "COMPLETED_TITLE": "Çekme işlemi tamamlandı",
       "COMPLETED_TEXT": "Çekme işleminiz tamamlandı."
     },
     "V4_TRANSFEROUT": {
@@ -434,9 +434,9 @@
       "WITH_PREDICTION_MARKETS": "Tahmin Piyasaları ile gerçekleştirin",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Etkinlik, tahmin edilen şekilde gerçekleşirse Tahmin Piyasaları 1 $ olarak bağlanacak. Aksi takdirde 0 $ olarak bağlanacaklar.",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Kaldıraçlı Alım Satım Etkinliği Sonuçları",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Politika, spor, popüler kültür ve daha fazlası dahil olmak üzere çok çeşitli konularda",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Politika, spor, popüler kültür ve daha fazlası dahil olmak üzere çok çeşitli konularda.",
       "SETTLEMENT_OUTCOMES_TITLE": "0 $ veya 1 $ Uzlaşma",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde yaklaşık 0 $ seviyesinde bağlanacak. Fiyat, sonucun oluşma olasılığı yüzdesine eşittir."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde yaklaşık 0 $ seviyesinde bağlanacak. Fiyat, sonucun oluşma olasılığı yüzdesine denktir."
     }
   },
   "RATE_APP": {
