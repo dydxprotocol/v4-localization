@@ -716,7 +716,7 @@
         "SECONDARY": "UMA, Ethereum üzerinde \"fiyatsız\" finansal sözleşmeler için açık kaynaklı bir altyapı oluşturur, bunun için iki teknolojiyi temel alır: Sentetik token'lar oluşturmak için kullanılan fiyatsız finansal sözleşme taslakları ve UMA üzerinde sözleşme yönetmek ve uygulamak için kullanılan merkezsizleştirilmiş bir oracle hizmeti."
       },
       "UNI": {
-        "PRIMARY": "Uniswap, Ethereum üzerinde otomatik likidite temini için kullanılan merkezsizleştirilmiş bir protokoldür.",
+        "PRIMARY": "Uniswap, Ethereum üzerinde otomatik likidite temini için kullanılan merkeziyetsiz bir protokoldür.",
         "SECONDARY": "Uniswap, Ethereum üzerinde ERC-20 token'larının el değiştirmesi için kullanılan bir protokoldür. Güven tabanlı aracıları ve gereksiz rant çıkarma biçimlerini ortadan kaldırarak hızlı ve verimli bir tradinge olanak tanır."
       },
       "WOO": {
@@ -1336,7 +1336,7 @@
       "STAKING": "Staking",
       "STAKING_DESCRIPTION": "Ağın güvenliğine yardımcı olmak ve $USDC kazanmak için $DYDX'inizi stake edin. dYdX Zinciri üzerindeki tüm ücretler stake edenlere gider. Keplr aracılığıyla kullanılabilir.",
       "STOP_MARKET_ORDERS": "Piyasa durdurma emirleri",
-      "STOP_MARKET_ORDERS_DESCRIPTION": "Piyasa durdurma ve kâr alma piyasa emirleri burada! Kayıplarınızı sınırlandırmak ve kârınızı sabitlemek için hızla ve kolayca tetiklenme değerleri belirleyin.",
+      "STOP_MARKET_ORDERS_DESCRIPTION": "Durdurma piyasa ve kâr alma piyasa emirleri burada! Kayıplarınızı sınırlandırmak ve kârınızı sabitlemek için hızla ve kolayca tetiklenme değerleri belirleyin.",
       "TARGET_VOLUME": "Hedef Hacim",
       "TELEGRAM_INVITE_BANNER": "dYdX kullandığınız için teşekkür ederiz! Ekip size daha yüksek düzeyde kişiselleştirilmiş destek ve doğrudan bunlara bağlanma fırsatı sunmak istiyor. dYdX Zinciri VIP Yatırımcılar Telegram grubuna katılmak için {HERE_LINK} bağlantısına tıklayın.",
       "TESTNET_DEPOSIT_PROMO": "Goerli uygulamamız üzerinde ücretsiz, tek tıkla testnet yatırma işlemleri artık kullanılabilir.",
@@ -1423,7 +1423,7 @@
       "CURRENT_FUNDING_RATE": "Mevcut Fonlama Oranı",
       "CURRENT_RATE_1H": "Mevcut 1 Saatlik Oran",
       "CURRENT_RATE_8H": "Mevcut 8 Saatlik Oran",
-      "CURRENTLY_TRADING_GOERLI": "Goerli testnet uygulamamız üzerinde test fonlarıyla alım satım yapıyorsunuz. Gerçek fonlarla alım satım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
+      "CURRENTLY_TRADING_GOERLI": "Goerli testnet uygulamamız üzerinde test fonlarıyla alım satım yapıyorsunuz. Gerçek fonlarla yatırım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
       "CURRENTLY_TRADING_ROPSTEN": "Ropsten testnet uygulamamız üzerinde test fonlarıyla alım satım yapıyorsunuz. Gerçek fonlarla alım satım yapmaya başlamak için mainnet uygulamamız üzerinde bir hesap oluşturun",
       "DELEVERAGED": "Kaldıraçsızlaştırılmış",
       "EDIT_MARGIN": "Marjı düzenle",
@@ -1509,6 +1509,8 @@
       "OFFSETTING": "Denkleştirme",
       "OHLC_VIA_MID_PRICE": "OHLC (orta fiyat üzerinden)",
       "OPEN_INTEREST": "Açık Faiz",
+      "OPEN_ORDERS_HEADER": "Açık Emirler",
+      "ORDER_HISTORY_HEADER": "Emir Geçmişi",
       "OPEN_POSITIONS": "Açık Pozisyonlar",
       "OPEN_STATUS": "Açık",
       "ORACLE_PRICE_ABBREVIATED": "Oracle",
@@ -1662,7 +1664,7 @@
       "DEMOTION": "Kümeden düşme",
       "DIAMOND": "Elmas",
       "EARN_AVATAR": "Rekabetçi alım satımlar yaparak özel bir avatar kazanın",
-      "EMPTY_LADDER_STATE": "Yakında geliyor!",
+      "EMPTY_LADDER_STATE": "Yakında sizinle!",
       "GIVEN_TO": "En iyi Göreceli KZ sahibi yatırımcıya verilir",
       "GOLD": "Altın",
       "HELD_BY": "Sahibi",
@@ -1833,8 +1835,8 @@
       "OUT_OF_FOURTEEN_CONFIRMATIONS": "14 onaydan {CURRENT_CONFIRMATIONS} adedi",
       "PERMANENTLY_BLOCKED": "Kalıcı olarak engellendi",
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Kullanım şartlarımızı ihlal eden bir bölgede ikamet ettiğiniz veya böyle bir bölgeden yatırım işlemi yaptığınız ve daha önce hesabınızda kısıtlamalara yol açan durumları düzeltmek için size fırsat tanındığı tespit edilmiştir. Hesabınızla protokol içinde aktarım yapmanız, protokol dışına fon çıkarmak için hızlı çekme işlemi yapmanız ve pozisyonlarınızı azaltan piyasa emirleri dışında emir vermeniz kalıcı olarak engellenmiştir. Fonlarınızı protokolden istediğiniz zaman çekebilirsiniz.",
-      "PERMANENTLY_BLOCKED_ELLIPTIC": "Uyumlulukla ilgili nedenlerle dYdX protokolünü kullanımınız engellendi.",
-      "PERMANENTLY_BLOCKED_COMPLIANCE": "Uyumlulukla ilgili nedenlerle dYdX protokolünü kullanımınız engellenmiştir. Bu hesap sadece kapanış modundadır. Bir hata olduğunu düşünüyorsanız, lütfen support@dydx.exchange adresine bir e-posta gönderin.",
+      "PERMANENTLY_BLOCKED_ELLIPTIC": "Uygunluk nedenleriyle dYdX protokolünü kullanımınız engellendi.",
+      "PERMANENTLY_BLOCKED_COMPLIANCE": "Uygunluk gereğince dYdX protokolünü kullanımınız engellenmiştir. Bu hesap sadece kapanış modundadır. Bir hata olduğunu düşünüyorsanız, lütfen support@dydx.exchange adresine bir e-posta gönderin.",
       "RELEASE_UPDATES": "Sürüm Güncellemeleri",
       "REMOVED": "Kaldırıldı",
       "REMOVING": "Kaldırılıyor",
@@ -2379,6 +2381,7 @@
     "AVAILABLE_ON_CHAIN": "{CHAIN} üzerinde kullanılabilir",
     "BALANCE_ON_CHAIN": "{CHAIN} üzerindeki bakiye",
     "BANNER_ALPHA_CONTENT": "dYdX Zinciri Alpha sürümünde - stake yaparak ağın güvenliğine yardımcı olun!",
+    "BANNER_CEASE_SUPPORT_WETHDYDX": "dYdX Topluluğu tarafından yönetilmesinin ardından, dYdX Zinciri üzerindeki desteğin Haziran 2025 {SMART_CONTRACT}tarihinden itibaren sona ermesi beklenmektedir. {VOTE}Daha fazla bilgiyi burada bulabilirsiniz{BLOG_POST}. Kullanıcılar wethDYDX Akıllı Sözleşmesi ile etkileşime girmeyen herhangi bir ethDYDX sahiplerinin, dYdX Zincirinin wethDYDX Akıllı Sözleşmesini desteklemeye son verdiği tarihten (yani Haziran 2025) gelecekte büyük olasılıkla ethDYDX token'larını dYdX-Zinciri DYDX token'larına dönüştüremeyeceğini (potansiyel olarak süresiz biçimde) dikkate almalı ve kavramalıdır.",
     "BEFORE": "Önce",
     "CHECK_STATUS": "Durumu kontrol edin",
     "CONFIRM_MIGRATION_DISCLAIMER_1": "Token'larımın dYdX Zinciri üzerinde kullanılabilir hale gelmesinin 24-48 saat sürebileceğini anladım.",
@@ -2432,7 +2435,9 @@
     "SENDING_IN_PROGRESS": "Gönderme işlemi devam ediyor",
     "SENDING_SUCCESSFUL": "Gönderme başarılı",
     "STARTED": "Başlatıldı",
-    "WALLET_SIGNATURE": "cüzdan imzası"
+    "VOTE": "oy",
+    "WALLET_SIGNATURE": "cüzdan imzası",
+    "WETHDYDX_SMART_CONTRACT": "wethDYDX Akıllı Sözleşme"
   },
   "CHAIN": {
     "V3_MAINNET": "V3 Mainnet",
@@ -2721,7 +2726,7 @@
       "MARKET_ORDER_WARNING_INDEX_PRICE_SLIPPAGE": "Bu piyasa talimatı, mevcut likiditeye göre düzeyinde {SLIPPAGE} oracle fiyat kayması ile sonuçlanacaktır.",
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "Bu piyasa emri mevcut likiditede emir defteri fiyatı için {SLIPPAGE} etkisi ile sonuçlanır.",
       "MARKET_STATUS_CLOSE_ONLY": "{MARKET} şu anda sadece kapanış modundadır. Yeni pozisyon oluşturulamaz.",
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Piyasa Durdurma Emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Limit Durdurma Emri kullanmayı deneyin.",
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Piyasa Durdurma Emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Durdurma Limit Emri kullanmayı deneyin.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit Emri kullanmayı deneyin.",
       "UNABLE_TO_CHANGE_MARGIN_MODE": "{MARKET} için marjin modu değiştirilemiyor."
     },

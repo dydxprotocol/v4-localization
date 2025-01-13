@@ -98,7 +98,7 @@
     },
     "INDEX_PRICE": {
       "TITLE": "Oracle Fiyatı",
-      "BODY": "Durdurma talimatları, oracle fiyatına göre tetiklenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
+      "BODY": "Durdurma talimatları, oracle fiyatına göre tetiklenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirerek sizi ani çökmeler gibi olaylardan korur."
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Başlangıç Marjin Oranı",
@@ -145,12 +145,12 @@
       "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
-      "TITLE": "Tasfiye",
-      "BODY": "Emir defterinden tasfiye alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine tasfiye ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
+      "TITLE": "Likidite",
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Emir defterine likidite ekleyen ve başka bir tarafça karşılanan limit emirleri, satıcı emirleri olarak karşılanır."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
-      "TITLE": "Devam Marjin Oranı",
-      "BODY": "Yatırımcıların pozisyonları tasfiye edildiğinde Devam Marjin Oranı tanımlanır. Yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marjin oranı devam marjin oranını aşıyorsa, pozisyonu otomatik olarak kapatılacak (tasfiye edilecek) ve tasfiye motoru, %1,5'lik Maksimum Tasfiye Cezasını ödedikten sonra mümkünse fonları pozitif değerli hesaplarda bırakmaya çalışacaktır."
+      "TITLE": "Bakım Marj Oranı",
+      "BODY": "Yatırımcıların pozisyonları tasfiye edildiğinde Bakım Marj Oranı tanımlanır. Yatırımcının pozisyon kavramsal değerinin net varlığa bölünmesiyle hesaplanır. Bir yatırımcının marj oranı bakım marj oranını aşıyorsa, pozisyonu otomatik olarak kapatılacak (tasfiye edilecek) ve tasfiye motoru, %1,5'lik Maksimum Tasfiye Cezasını ödedikten sonra mümkünse fonları pozitif değerli hesaplarda bırakmaya çalışacaktır."
     },
     "MAKER_FEE": {
       "TITLE": "Piyasa Yapıcı Komisyonu",
@@ -186,7 +186,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle Fiyatı",
-      "BODY": "Kaldıraç ve tasfiyeler, zincir içi oracle fiyatına göre belirlenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirirek sizi ani çökmeler gibi olaylardan korur."
+      "BODY": "Kaldıraç ve tasfiyeler, zincir içi oracle fiyatına göre belirlenir. Oracle fiyatı, birden fazla borsadan alınan fiyat verilerini birleştirerek sizi ani çökmeler gibi olaylardan korur."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Talimat Miktarı",
@@ -198,11 +198,11 @@
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Zarar Durdurma Emri, Kısmi bir Kapamadır",
-      "BODY": "Zarar durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+      "BODY": "Zarar durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmamıştır. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
-      "TITLE": "Kâr Al Emri, Kısmi bir Kapama",
-      "BODY": "Kâr al emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmadı. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
+      "TITLE": "Kâr Al Emri, Kısmi bir Kapamadır",
+      "BODY": "Kâr al emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmamıştır. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyon boyutunuzu değiştirmeniz olabilir."
     },
     "PORTFOLIO_VALUE": {
       "TITLE": "Portföy Değeri",
@@ -217,12 +217,12 @@
       "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, aynı fiyat hareketiyle bir alım satım işleminde ne kadar kazanacağınızı \/ kaybedeceğinizi değiştirir."
     },
     "POST_ONLY": {
-      "TITLE": "Yalnızca Yerleştir",
+      "TITLE": "Sadece Gönder",
       "BODY": "Sadece gönder seçeneği etkin emirler, yalnızca satıcı emirleri olarak verilebilir. Talimat, yerleştirme sırasında diğer talimatlarla çakışırsa otomatik olarak iptal edilir."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Yalnızca Yerleştir",
-      "BODY": "Yalnızca Yerleştir seçeneği, Yürürlükteki Süre ancak Geçerlilik Süresi olarak ayarlandığında kullanılabilir."
+      "TITLE": "Sadece Gönder",
+      "BODY": "Sadece Gönder seçeneği, Yürürlükteki Süre ancak Geçerlilik Süresi olarak ayarlandığında kullanılabilir."
     },
     "PRICE_IMPACT": {
       "TITLE": "Fiyat Etkisi",
@@ -234,15 +234,15 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt özelliği, bir emrin pozisyonunuzun tarafını değiştirmesine (uzundan kısaya veya kısadan uzuna) engel olur. Yalnızca Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
+      "BODY": "Sadece Azalt özelliği, bir emrin pozisyonunuzun tarafını değiştirmesine (uzundan kısaya veya kısadan uzuna) engel olur. Sadece Azalt ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Yalnızca Azalt seçeneği, Yürürlükteki Süre ancak Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
+      "BODY": "Sadece Azalt seçeneği, Yürürlükteki Süre ancak Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak belirlendiyse kullanılabilir."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Yalnızca Azaltma seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
+      "BODY": "Sadece Azalt seçeneği Yürütme ancak IOC olarak belirlendiyse kullanılabilir."
     },
     "REWARDS_EARNED": {
       "TITLE": "Kazanılan Ödüller",
@@ -270,7 +270,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Piyasa Alıcı Ücreti",
-      "BODY": "Emir defterinden tasfiye alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
+      "BODY": "Emir defterinden likidite alan işlemler (ör. piyasa veya çapraz limit emirleri) alıcı emirleri olarak gerçekleştirilir. Alıcı talimatları, satıcı talimatlarından daha yüksek bir ücrete sahiptir."
     },
     "TAKE_PROFIT": {
       "TITLE": "Kâr Alma",
@@ -306,7 +306,7 @@
   },
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
-      "TITLE": "Mevcut",
+      "TITLE": "Kullanılabilir",
       "BODY": "Uygunsunuz! Gazsız yatırma işlemini etkinleştirmek için en az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} yatırın."
     },
     "BRIDGE_FEES_DEPOSIT": {
@@ -323,7 +323,7 @@
     },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gazsız yatırma işlemleri",
-      "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir, bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
+      "BODY": " {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir, bir adet gazsız fon yatırma için uygunsunuz. Gazsız fon yatırmalar kurallara tabidir."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "En Düşük Ücretli Yatırma İşlemleri",
@@ -407,7 +407,7 @@
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Referans Fiyat",
-      "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10'un aynı kuvvetlerine yuvarlanmalıdır)."
+      "BODY": "Referans Fiyat, piyasa fiyatının 30 günlük ortalamasıdır ve dYdX Zinciri üzerinde piyasa parametrelerini otomatik olarak hesaplamak için bir girdi olarak kullanılır. Referans Fiyat, yaklaşık olarak piyasanın mevcut fiyatı ile aynı olmalıdır (yani 10 ve katlarına yuvarlanmalıdır)."
     },
     "SELF_REPORTED_CMC": {
       "BODY": "Bu değer CoinMarketCap üzerinde kendi kendine bildirilir"
