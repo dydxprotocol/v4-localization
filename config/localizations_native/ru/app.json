@@ -81,12 +81,12 @@
       "PLACEHOLDER_NO_FUNDING_LOG_IN": "Чтобы просмотреть финансирующие платежи, необходимо выполнить вход",
       "PLACEHOLDER_NO_TRANSFERS": "У вас нет переводов",
       "PLACEHOLDER_NO_TRANSFERS_LOG_IN": "Чтобы просмотреть переводы, необходимо выполнить вход",
-      "PRICE_AND_TRIGGER": "Цена\/триггер",
-      "PRICE_FEE": "Цена\/комиссия",
+      "PRICE_AND_TRIGGER": "Цена \/ триггер",
+      "PRICE_FEE": "Цена \/ комиссия",
       "PRICE_TYPE": "Цена \/ тип",
-      "PROFIT_AND_LOSS": "P&L",
-      "PROFIT_AND_LOSS_30D": "P&L за 30 д",
-      "PROFIT_AND_LOSS_WITH_DURATION": "P&L за {PERIOD}",
+      "PROFIT_AND_LOSS": "Прибыли и убытки",
+      "PROFIT_AND_LOSS_30D": "Прибыли и убытки за 30 д",
+      "PROFIT_AND_LOSS_WITH_DURATION": "Прибыли и убытки за {PERIOD}",
       "READY": "готово",
       "RECEIVE": "Получить",
       "RECENT": "Последние",
@@ -95,7 +95,7 @@
       "SERVICE_STATUS_CANCEL_ONLY": "Только отмена",
       "SERVICE_STATUS_OFFLINE": "Вне сети",
       "SERVICE_STATUS_ONLINE": "В сети",
-      "SERVICE_STATUS_POST_ONLY": "Пост-онли",
+      "SERVICE_STATUS_POST_ONLY": "Пассивный режим",
       "SHARE_YOUR_RANKING": "Поделиться рейтингом",
       "SHARE_YOUR_RANKING_TEXT": "Расскажите о своих достижениях",
       "SIGN_OUT": "Выйти",
@@ -244,8 +244,8 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Выберите единицу времени для истечения срока действия",
       "SUBMITTING_ORDER": "Отправка",
       "SUBMITTING_ORDER_DESC": "Ваш ордер отправляется на проверку.",
-      "CANCELING_N_ORDERS_FAILED": "Не удалось отменить {COUNT} орд.",
-      "CANCELING_ONE_ORDER_FAILED": "Не удалось отменить {COUNT} ордер",
+      "CANCELING_N_ORDERS_FAILED": "Не удалось отменить {COUNT} ордер.",
+      "CANCELING_ONE_ORDER_FAILED": "Не удалось отменить {COUNT} орд.",
       "CANCELING_ORDER": "Выполняется отмена",
       "CANCELING_ORDER_DESC": "Ваш ордер {SIDE} {SIZE} {MARKET} отменен.",
       "UNREALIZED": "Не реализовано",
@@ -360,7 +360,7 @@
     "FIAT_ONRAMP": {
       "NEW": "Новинка!",
       "SUPPORT_FROM_PROVIDER": "Поддержка {PROVIDER}",
-      "SUPPORT_MESSAGE": "Ищете внесенные фиатные средства? Проверьте статус ордера в электронной почте и свяжитесь с поддержкой {PROVIDER}."
+      "SUPPORT_MESSAGE": "Ищете внесенные фиатные средства?  Проверьте статус ордера в электронной почте и свяжитесь с поддержкой {PROVIDER}."
     },
     "V4": {
       "ALERTS_PLACHOLDER": "Здесь будут отображаться предупреждения о торговле и протоколах.",
@@ -385,8 +385,8 @@
       "CLASSIC_DARK": "Классическая темная",
       "LIGHT": "Светлая",
       "SYSTEM": "Системная",
-      "GREEN_IS_UP": "Зеленый — вверх",
-      "RED_IS_UP": "Красный — вверх",
+      "GREEN_IS_UP": "Зеленый — рост",
+      "RED_IS_UP": "Красный — рост",
       "SELECT_A_THEME": "Выберите цветовую тему",
       "DYDX_ADDRESS": "Адрес dYdX Chain",
       "SOURCE_ADDRESS": "Исходный адрес",
@@ -436,7 +436,7 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Торговля с кредитным плечом по результатам событий",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"По широкому кругу тем, включая политику, спорт, поп-культуру и многое другое.",
       "SETTLEMENT_OUTCOMES_TITLE": "Расчет на сумму 0 или 1 долл. США",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Рынок автоматически стабилизируется на уровне 1 долл. США, если произойдет событие. В противном случае он стабилизируется на уровне ~0 долл. США. Цена эквивалентна процентной вероятности результата."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Рынок автоматически стабилизируется на уровне 1 долл. США, если произойдет определенное событие. В противном случае он стабилизируется на уровне ~0 долл. США. Цена эквивалентна процентной вероятности результата."
     }
   },
   "RATE_APP": {
