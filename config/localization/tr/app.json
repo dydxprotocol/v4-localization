@@ -48,7 +48,7 @@
       "ACADEMY": "Akademi",
       "ACCOUNT_LEVERAGE": "Hesap Kaldıracı",
       "ACCOUNT": "Hesap",
-      "ACKNOWLEDGEMENT": "Kabul",
+      "ACKNOWLEDGEMENT": "Onay",
       "ACTION": "Eylem",
       "ACTIONS": "Eylemler",
       "ACTIVE": "Aktif",
@@ -152,7 +152,7 @@
       "ENTERTAINMENT": "Eğlence",
       "EQUITY": "Net Varlık",
       "EST_APR": "Tahmini {PERCENTAGE} APR",
-      "EST_GAS": "Tahmini Gaz",
+      "EST_GAS": "Tahmini Gas",
       "EST_REWARDS": "Tahmini Ödüller",
       "ESTIMATED": "Tahmin Edilen",
       "EXPAND_SECTION": "Bölümü genişlet",
@@ -167,13 +167,13 @@
       "FILLS": "Karşılamalar",
       "FREE_COLLATERAL": "Ücretsiz Teminat",
       "FREE": "Ücretsiz",
-      "FROM_TO": "{FROM} token'ından {TO} token'ına",
+      "FROM_TO": "{FROM} token'inden {TO} token'ine",
       "FOREX": "Forex",
       "FUNDING_RATE_CHART_SHORT": "Fonlama",
       "GAIN": "Kazanç",
       "GAMING": "Oyun",
-      "GAS_FEE": "Gaz ücreti",
-      "GASLESS_DEPOSITS": "Gazsız yatırma işlemleri",
+      "GAS_FEE": "Gas ücreti",
+      "GASLESS_DEPOSITS": "Gas Ücretsiz Yatırma İşlemleri",
       "GENERAL": "Genel",
       "GET_DYDX_ON_PHONE": "dYdX'i telefonunuza indirin",
       "GO_BACK": "Geri git",
@@ -349,7 +349,7 @@
       "SWITCH_LEADERBOARD": "Lider tablosunu değiştir",
       "TAKE_ME_THERE": "Beni oraya götür",
       "TERMS_AND_CONDITIONS": "Şartlar ve Koşullar",
-      "TICK_SIZE": "Minimum Fiyat Büyüklüğü",
+      "TICK_SIZE": "Puan Boyutu",
       "TICKER": "Ticker",
       "TIER": "Seviye",
       "TIME": "Zaman",
@@ -369,7 +369,7 @@
       "TRADING_FEE_REDUCTION": "Alım satım ücret indirimi",
       "TRADING_REWARDS": "Alım Satım Ödülleri",
       "TRADING_REWARDS_SUMMARY": "Alım Satım Ödülleri Özeti",
-      "TRADING": "Trading",
+      "TRADING": "Alım Satım",
       "TRADING_ACCOUNT": "Alım Satım Hesabı",
       "TRADING_ACCOUNT_BALANCE": "Alım Satım Hesabı Bakiyesi",
       "TRAILING_STOP_SHORT": "Takipçi",
@@ -412,8 +412,8 @@
     },
     "__ASSETS": {
       "ZRX": {
-        "PRIMARY": "0x, kullanıcıların ERC20 token'ları ve diğer varlıklarla kolayca işlem yapmalarını sağlayan profesyonel dereceli bir likidite hızlandırıcı protokolüdür. 0x, yatırımcıların esnek ve gaz açısından verimli bir deneyim elde etmesi için benzersiz bir hibrit zincir dışı aktarım ve zincir içi bağlama mimarisi kullanır.",
-        "SECONDARY": "ZRX, sahiplerine 0x Geliştirme Önerileri (ZEIP'ler) üzerinde oy kullanma hakkı ve protokolün gelişimine etki etme imkanı sunan, 0x'in yerel yönetişim ve staking token'ıdır. Ek olarak, ZRX piyasa yapıcı likidite programı aracılığıyla likidite ödülü kazanmak için stake edilebilir veya delege edilebilir."
+        "PRIMARY": "0x, kullanıcıların ERC20 token'leri ve diğer varlıklarla kolayca işlem yapmalarını sağlayan profesyonel dereceli bir likidite hızlandırıcı protokolüdür. 0x, yatırımcıların esnek ve gas açısından verimli bir deneyim elde etmesi için benzersiz bir hibrit zincir dışı aktarım ve zincir içi bağlama mimarisi kullanır.",
+        "SECONDARY": "ZRX, sahiplerine 0x Geliştirme Önerileri (ZEIP'ler) üzerinde oy kullanma hakkı ve protokolün gelişimine etki etme imkanı sunan, 0x'in yerel yönetişim ve staking token'idir. Ek olarak, ZRX piyasa yapıcı likidite programı aracılığıyla likidite ödülü kazanmak için stake edilebilir veya delege edilebilir."
       },
       "1INCH": {
         "PRIMARY": "1inch Network, sinerjileri DeFi alanındaki en kazançlı, hızlı ve korunaklı işlemlere olanak sağlayan merkezsizleştirilmiş protokolleri birleştirir.",
@@ -421,7 +421,7 @@
       },
       "AAVE": {
         "PRIMARY": "Aave, yatırma işlemlerinden kazanç sağlamak ve varlık borç almak için kullanılan açık kaynaklı ve gözetimsiz bir protokoldür.",
-        "SECONDARY": "Aave, kullanıcıların fon yatırıcı veya borç alan olarak katılabileceği merkezsizleştirilmiş ve gözetimsiz bir likidite piyasa protokolüdür. Fon yatırıcılar pasif bir gelir kazanmak için piyasalara likidite sağlarken, borç alanlar aşırı teminatlı (sürekli olarak) veya teminatlı (tek blok likidite) şekilde borç alabilir."
+        "SECONDARY": "Aave, kullanıcıların fon yatıran veya borç alan olarak katılabileceği merkezsizleştirilmiş ve gözetimsiz bir likidite piyasa protokolüdür. Fon yatıranlar pasif bir gelir kazanmak için piyasalara likidite sağlarken, borç alanlar aşırı teminatlı (sürekli olarak) veya teminatlı (tek blok likidite) şekilde borç alabilir."
       },
       "ADA": {
         "PRIMARY": "Cardano, hisse kanıtı temelli bir blok zinciri platformudur: Emsal denetimli araştırmalar üzerine kurulan ve kanıta dayalı metotlar yoluyla geliştirilen ilk örnektir. Merkezsizleştirilmiş uygulamalara, sistemlere ve topluluklara benzersiz güvenlik ve sürdürülebilirlik sağlamak için öncü teknolojileri bir araya getirir.",
@@ -448,7 +448,7 @@
         "SECONDARY": "Aptos, saniyede çok sayıda işlemi işleyebilmek üzere tasarlanmıştır ve hisse kanıtı konsensüs mekanizmasını kullanır."
       },
       "ARB": {
-        "PRIMARY": "ARB, Arbitrum ağının yönetişim token'ıdır.",
+        "PRIMARY": "ARB, Arbitrum ağının yönetişim token'idir.",
         "SECONDARY": "Arbitrum, Ethereum'a dayanan endüstri lideri kanıtlama teknolojisiyle desteklenen yüksek verimli, düşük maliyetli akıllı sözleşmelere sahip ortamlar sağlayan bir ölçeklendirme çözümüdür."
       },
       "AVAX": {
@@ -456,7 +456,7 @@
         "SECONDARY": "Avalanche üzerinde çalışan geliştiriciler kolaylıkla güçlü, güvenilir ve güvenli uygulamalar ile karmaşık kural kümeli blok zincir ağları oluşturabilirler, veya mevcut özel ve genel alt ağlar üzerine kurabilirler."
       },
       "AXL": {
-        "PRIMARY": "AXL, Axelar ekosistemi üzerinde zincirler arası iletişimi güvenli hale getiren yerel hizmet token'ıdır.",
+        "PRIMARY": "AXL, Axelar ekosistemi üzerinde zincirler arası iletişimi güvenli hale getiren yerel hizmet token'idir.",
         "SECONDARY": "Axelar bir birlikte çalışabilirlik çözümüdür ve merkezsizleştirilmiş uygulamalar arasında kesintisiz ve güvenli zincirler arası iletişim için gereken altyapıyı sağlar."
       },
       "BCH": {
@@ -464,12 +464,12 @@
         "SECONDARY": "Bitcoin Cash, banka transferleri ve kredi kartı ödemeleri gibi geleneksel ödeme sistemlerine göre daha fazla gizlilik ve anonimlik sunar çünkü bir Bitcoin adresini kimin kontrol ettiğini bilmek normalde imkansızdır. Bitcoin Cash, nasıl kullanıldığına bağlı olarak çeşitli gizlilik seviyeleri sunar. Gizlilik amacıyla BCH kullanmadan önce bu konuya hakim olmanız önemlidir."
       },
       "BTC": {
-        "PRIMARY": "Bitcoin aracılara ihtiyaç duymadan, eşler arası bitcoin ağı üzerinden, merkezi bir bankaya veya tek bir yöneticiye ihtiyaç duymadan gönderilebilen, merkezsizleştirilmiş dijital bir para birimidir.",
+        "PRIMARY": "Bitcoin aracılara ihtiyaç duymadan, eşler arası Bitcoin ağı üzerinden, merkezi bir bankaya veya tek bir yöneticiye ihtiyaç duymadan gönderilebilen, merkezsizleştirilmiş dijital bir para birimidir.",
         "SECONDARY": "İşlemler kriptografi yoluyla düğümlerin oluşturduğu bir ağ tarafından doğrulanır ve blok zincir adı verilen ortak dağıtık bir deftere kaydedilir. Bitcoin'ler, madencilik (mining) olarak bilinen bir işlemin ödülü olarak oluşturulur. Diğer para birimleriyle, ürünlerle ve hizmetlerle takas edilebilir."
       },
       "BLUR": {
         "PRIMARY": "BLUR bir NFT pazaryeridir.",
-        "SECONDARY": "BLUR token, BLUR protokolünün yönetişim token'ıdır."
+        "SECONDARY": "BLUR token, BLUR protokolünün yönetişim token'idir."
       },
       "BONK": {
         "PRIMARY": "BONK, Solana üzerinde insanlar tarafından insanlar için üretilmiş ilk köpek temalı kripto paradır.",
@@ -480,7 +480,7 @@
         "SECONDARY": "Binance, Binance Chain'i de içeren merkezsiz, blok zincir tabanlı ağlardan oluşan benzersiz bir ekosistemdir."
       },
       "CHZ": {
-        "PRIMARY": "CHZ, Chiliz spor ve eğlence ekosistemi için yerel dijital token'dır.",
+        "PRIMARY": "CHZ, Chiliz spor ve eğlence ekosistemi için yerel dijital token'dir.",
         "SECONDARY": "Chiliz Chain, taraftarları ve markaları bir araya getiren web3 ürünleri ve deneyimleri oluşturmak için takımları, taraftarları ve geliştiricileri çeken bir spor altyapısıdır."
       },
       "CELO": {
@@ -513,7 +513,7 @@
       },
       "DYM": {
         "PRIMARY": "Dymension, RollApps adı verilen kolayca devreye alınabilir ve yıldırım hızında uygulanabilir appchainler'in merkezidir.",
-        "SECONDARY": "Dymension, token'ların ERC ile standartlaştırılmasına benzer şekilde IBC (Blok Zincirler Arası İletişim Protokolü) ile rollup'ları standartlaştırır."
+        "SECONDARY": "Dymension, token'lerin ERC ile standartlaştırılmasına benzer şekilde IBC (Blok Zincirler Arası İletişim Protokolü) ile rollup'ları standartlaştırır."
       },
       "ENJ": {
         "PRIMARY": "Enjin, NFT'leriniz ile kripto paralarınızı yönetmenize ve yeni, hızla büyüyen sanal ekonomiye dahil olmanıza yardımcı olmak için basit ürünler geliştirdi.",
@@ -536,7 +536,7 @@
         "SECONDARY": "Ethereum, 2014 yılında kurulan merkezsizleştirilmiş bir blok zinciri platformudur. Ethereum, tek bir kişi tarafından sahip olunmayan ya da yönetilmeyen, açık kaynaklı bir projedir. Bu da isteyen herkesin her yerde yazılımı indirebileceği ve ağ ile etkileşime girebileceği anlamına gelir. Ethereum, geliştiricilere merkezsizleştirilmiş uygulamalar için altyapıların temel bir parçası olan 'akıllı sözleşmeler' geliştirme ve yönetme olanağı tanır."
       },
       "FET": {
-        "PRIMARY": "FET, Fetch.ai blok zincirinin yerel token'ıdır.",
+        "PRIMARY": "FET, Fetch.ai blok zincirinin yerel token'idir.",
         "SECONDARY": "Fetch.AI, kripto ekonomisine sahip açık, izin gerektirmeyen, merkezsizleştirilmiş bir makine öğrenimi ağı inşa eden bir yapay zeka (AI) laboratuvarıdır."
       },
       "FIL": {
@@ -548,15 +548,15 @@
         "SECONDARY": "Fantom, kendi konsensüs algoritmasını kullanan geliştiricilere merkezsizleştirilmiş finans hizmetleri sunan yönlendirilmiş bir akrilik grafik (DAG) akıllı sözleşme platformudur."
       },
       "GALA": {
-        "PRIMARY": "GALA token, Gala Games and Entertainment ekosisteminin dijital hizmet token'ıdır.",
+        "PRIMARY": "GALA token, Gala Games and Entertainment ekosisteminin dijital hizmet token'idir.",
         "SECONDARY": "Gala Games and Entertainment, oyun, müzik ve film endüstrilerinde öncülük etmeye odaklanmış bir eğlence şirketidir. Gala Games and Entertainment, 2019 yılında Zynga'nın kurucu ortaklarından Eric Schiermeyer tarafından kuruldu."
       },
       "GMT": {
-        "PRIMARY": "GMT, 6 milyar token'lık sabit arzıyla Find Satoshi Lab (FSL) ekosisteminin yönetişim token'ıdır.",
+        "PRIMARY": "GMT, 6 milyar token'lik sabit arzıyla Find Satoshi Lab (FSL) ekosisteminin yönetişim token'ıdır.",
         "SECONDARY": "FSL ekosistemi, oyunlarla hareketi teşvik eden ve kullanıcıları aktif ve sağlıklı bir hayat sürdürdükleri için ödüllendiren bir Web3 yaşam tarzı uygulaması olan STEPN'i içerir."
       },
       "GRT": {
-        "PRIMARY": "GRT, Graph Network'e güç veren hizmet token'ıdır.",
+        "PRIMARY": "GRT, Graph Network'e güç veren hizmet token'idir.",
         "SECONDARY": "The Graph, blok zinciri verilerini endekslemek ve sorgulamak için merkezsizleştirilmiş bir protokoldür. The Graph, doğrudan sorgulanması zor olan verileri sorgulamayı mümkün kılar."
       },
       "HBAR": {
@@ -568,11 +568,11 @@
         "SECONDARY": "DFINITY Vakfı kâr amacı gütmeyen bir kuruluş olup, akıllı sözleşmeler barındırmak için tasarlanmış bir halka açık blok zincir ağı olan Internet Computer'ı geliştirmektedir."
       },
       "IMX": {
-        "PRIMARY": "IMX, Immutable protokollerinin yerel hizmet ve yönetişim token'ıdır.",
+        "PRIMARY": "IMX, Immutable protokollerinin yerel hizmet ve yönetişim token'idir.",
         "SECONDARY": "The Immutable Group, Ethereum üzerinde web3 oyunları oluşturmak ve ölçeklendirmek için bir geliştirici platformu olan Immutable Platform ve Gods Unchained ve Guild of Guardians gibi yapımlarla web3 oyun geliştirme ve yayıncılığı alanında lider olan Immutable Games'ten oluşmaktadır."
       },
       "INJ": {
-        "PRIMARY": "INJ, Injective blok zinciri ağının yerel token'ıdır.",
+        "PRIMARY": "INJ, Injective blok zinciri ağının yerel token'idir.",
         "SECONDARY": "Injective, finans için inşa edilmiş bir blok zinciridir. Merkezsiz spot ve türev borsaları, tahmin piyasaları, borç verme protokolleri ve daha fazlası dahil olmak üzere yeni nesil DeFi hizmetlerine güç veren açık, birlikte çalışabilir bir birinci katman blok zinciridir."
       },
       "JUP": {
@@ -580,28 +580,28 @@
         "SECONDARY": "Jupiter, Solana'nın takas altyapısını inşa ediyor. Jupiter, kullanıcılar ve geliştiriciler için en iyi fiyatı, en iyi token seçimini ve en iyi kullanıcı deneyimini sunmayı hedefliyor."
       },
       "JTO": {
-        "PRIMARY": "JTO token, Jito Network için yönetişim token'ıdır.",
+        "PRIMARY": "JTO token, Jito Network için yönetişim token'idir.",
         "SECONDARY": "Jito Network, JitoSOL likit staking havuzu ve MEV ürün koleksiyonu aracılığıyla Solana ekosistemine önemli katkılarda bulunmaktadır."
       },
       "KAVA": {
-        "PRIMARY": "KAVA, Cosmos SDK ile inşa edilmiş bir blok zinciri ağı olan Kava'nın yerel token'ıdır.",
+        "PRIMARY": "KAVA, Cosmos SDK ile inşa edilmiş bir blok zinciri ağı olan Kava'nın yerel token'idir.",
         "SECONDARY": "Kava, Cosmos'un hızını ve birlikte çalışabilirliğini Ethereum'un geliştirici gücü ile birleştiren bir Katman-1 blok zinciridir."
       },
       "LDO": {
-        "PRIMARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 token'ıdır.",
+        "PRIMARY": "LDO, Lido DAO'nun yönetişim sürecine katılabilmesini sağlayan bir ERC20 token'idir.",
         "SECONDARY": "Lido, Ethereum, Solana, ve Polygon blok zinciri ağlarında konuşlandırılan ve çalışan açık kaynaklı peer-to-system yazılım araçlarından oluşan bir ailenin adıdır."
       },
       "LTC": {
         "PRIMARY": "Litecoin, dünyadaki herkese anında ve neredeyse sıfır maliyetli ödemeler sağlayan eşler arası bir İnternet para birimidir.",
-        "SECONDARY": "Litecoin, tamamen merkezsizleştirilmiş, açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir trading aracıdır."
+        "SECONDARY": "Litecoin, tamamen merkezsizleştirilmiş, açık kaynaklı, küresel bir ödeme ağıdır. Litecoin, önde gelen matematik tabanlı para birimlerinden daha hızlı işlem onay süreleri ve daha iyi depolama verimliliği sunar. Litecoin sahip olduğu önemli endüstri desteği, hacmi ve likidite ile Bitcoin'e tamamlayıcı niteliğinde kanıtlanmış bir alım satım aracıdır."
       },
       "MAGIC": {
-        "PRIMARY": "MAGIC, Arbitrum üzerinde inşa edilmiş, merkezsizleştirilmiş bir oyun ekosistemi olan Treasure'un hizmet token'ıdır.",
-        "SECONDARY": "MAGIC token'ları oyun içinde yönetişime katılmak, Treasure mağazasında NFT satın almak ve satmak için kullanılır ve ayrıca stake edilebilir."
+        "PRIMARY": "MAGIC, Arbitrum üzerinde inşa edilmiş, merkezsizleştirilmiş bir oyun ekosistemi olan Treasure'un hizmet token'idir.",
+        "SECONDARY": "MAGIC token'leri oyun içinde yönetişime katılmak, Treasure mağazasında NFT satın almak ve satmak için kullanılır ve ayrıca stake edilebilir."
       },
       "MANA": {
-        "PRIMARY": "MANA, takaslanamaz ERC-721 LAND token'ları elde etmek için yakılması gereken bir ERC-20 token'ıdır. MANA token'ları, Decentraland piyasasında bir dizi avatar, giyilebilir ürün, ad ve daha fazlasının ücretini ödemek için de kullanılabilir.",
-        "SECONDARY": "Decentraland (MANA), kullanıcıların içerik oluşturduğu, test ettiği ve içerikten para kazandığı Ethereum blok zincirini temel alan yazılıma sahip merkezsizleştirilmiş bir sanal dünya platformudur. Kısacası: Kullanıcılar Decentraland platformunda MANA token'ları ile sanal arsaları NFT olarak satın alırlar."
+        "PRIMARY": "MANA, takaslanamaz ERC-721 LAND token'leri elde etmek için yakılması gereken bir ERC-20 token'idir. MANA token'leri, Decentraland piyasasında bir dizi avatar, giyilebilir ürün, ad ve daha fazlasının ücretini ödemek için de kullanılabilir.",
+        "SECONDARY": "Decentraland (MANA), kullanıcıların içerik oluşturduğu, test ettiği ve içerikten para kazandığı Ethereum blok zincirini temel alan yazılıma sahip merkezsizleştirilmiş bir sanal dünya platformudur. Kısacası: Kullanıcılar Decentraland platformunda MANA token'leri ile sanal arsaları NFT olarak satın alırlar."
       },
       "MASK": {
         "PRIMARY": "MASK token sahipleri, MaskDAO adlı merkezsizleştirilmiş bir otonom organizasyon aracılığıyla ekosistem girişimlerinde oy kullanabilirler.",
@@ -633,10 +633,10 @@
       },
       "OP": {
         "PRIMARY": "OP Mainnet, Optimism tarafından desteklenen düşük maliyetli ve yıldırım hızında bir Ethereum L2 blok zinciridir.",
-        "SECONDARY": "OP Optimism Collective'in yönetişim token'ıdır."
+        "SECONDARY": "OP Optimism Collective'in yönetişim token'idir."
       },
       "ORDI": {
-        "PRIMARY": "ORDI, Ordinal Protocol tarafından oluşturulan ilk BRC-20 token'ıdır.",
+        "PRIMARY": "ORDI, Ordinal Protocol tarafından oluşturulan ilk BRC-20 token'idir.",
         "SECONDARY": "Ordinal'ler, satoshi'ler (en küçük bitcoin birimi) için tekil sat'ları izlemeye ve aktarmaya olanak tanıyan ve Bitcoin blok zincirinde NFT ve token şeklinde metin ve resimlerin yazılmasını sağlayan bir numaralandırma düzenidir."
       },
       "PEPE": {
@@ -648,15 +648,15 @@
         "SECONDARY": "Portal, çeşitli blok zinciri ağlarından gelen oyunları ve oyuncuları, zincirler arası token platformunda birleştirerek birleşik bir Web3 oyun ekosistemi oluşturmayı hedefliyor."
       },
       "PYTH": {
-        "PRIMARY": "PYTH, Pyth Network ve ekosistemi için yönetişim token'ıdır.",
+        "PRIMARY": "PYTH, Pyth Network ve ekosistemi için yönetişim token'idir.",
         "SECONDARY": "Pyth, 40'tan fazla blok zincirinde finansal dApp'lere gerçek zamanlı piyasa verileri sunar ve kripto para birimleri, hisse senetleri, ETF'ler, döviz çiftleri ve emtialarda 380'den fazla düşük gecikmeli fiyat akışı sağlar."
       },
       "RENDER": {
-        "PRIMARY": "RENDER, Render Ağı'ndaki sanatçılar tarafından GPU işlem gücü sağlayıcılarından (node operatörleri) gelen (GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'ıdır",
+        "PRIMARY": "RENDER, Render Ağı'ndaki sanatçılar tarafından GPU işlem gücü sağlayıcılarından (node operatörleri) gelen (GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'idir",
         "SECONDARY": "Render Network, GPU işlem gücüne ihtiyaç duyan sanatçıları ve stüdyoları, GPU kapasitelerini kiralamak isteyen madencilik ortaklarıyla buluşturmayı amaçlayan, Ethereum blok zincirinin üzerine inşa edilmiş dağıtık bir GPU işleme ağıdır."
       },
       "RNDR": {
-        "PRIMARY": "RNDR, Render Network'teki sanatçılar tarafından GPU sağlayıcılarından (node operatörleri) GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'ıdır",
+        "PRIMARY": "RNDR, Render Network'teki sanatçılar tarafından GPU sağlayıcılarından (node operatörleri) GPU işlem gücü karşılığında kullanılan bir ERC-20 hizmet token'idir",
         "SECONDARY": "Render Network, GPU işlem gücüne ihtiyaç duyan sanatçıları ve stüdyoları, GPU kapasitelerini kiralamak isteyen madencilik ortaklarıyla buluşturmayı amaçlayan, Ethereum blok zincirinin üzerine inşa edilmiş dağıtık bir GPU işleme ağıdır."
       },
       "RUNE": {
@@ -664,15 +664,15 @@
         "SECONDARY": "RUNE, THORChain ekosistemini destekleyen ve ağı ekonomik olarak güvence altına almak için gerekli ekonomik teşvikleri sağlayan varlıktır."
       },
       "SAND": {
-        "PRIMARY": "SAND, Sandbox platformunun ana hizmet token'ıdır.",
+        "PRIMARY": "SAND, Sandbox platformunun ana hizmet token'idir.",
         "SECONDARY": "Sandbox ekibi, oyuncuların SAND kullanarak oyun deneyimlerini inşa edebilecekleri, sahip olabilecekleri ve paraya dönüştürebilecekleri benzersiz bir sanal dünya inşa ediyor."
       },
       "SEI": {
-        "PRIMARY": "SEI, SEI ağının yönetişim token'ıdır.",
-        "SECONDARY": "Sei, dijital varlıkların değişimi için uzmanlaşmış genel amaca yönelik, ve açık kaynaklı bir Katman 1 blok zinciridir."
+        "PRIMARY": "SEI, SEI ağının yönetişim token'idir.",
+        "SECONDARY": "Sei, dijital varlıkların değişimi için uzmanlaşmış genel amaca yönelik ve açık kaynaklı bir Katman 1 blok zinciridir."
       },
       "SHIB": {
-        "PRIMARY": "Shiba Inu veya SHIB, Shiba ekosisteminin temel token'ıdır, dünya genelinde milyonlarca kişiye merkezsizleştirilmiş, topluluk tarafından yönetilen bir para biriminin gücünü sunar.",
+        "PRIMARY": "Shiba Inu veya SHIB, Shiba ekosisteminin temel token'idir, dünya genelinde milyonlarca kişiye merkezsizleştirilmiş, topluluk tarafından yönetilen bir para biriminin gücünü sunar.",
         "SECONDARY": "Shiba Inu, Ethereum blok zincirinin üzerine inşa edilen Shibarium adında bir katman 2 ağı geliştirmiştir."
       },
       "SOL": {
@@ -680,7 +680,7 @@
         "SECONDARY": "Solana; yeni, yüksek performanslı ve izin gerektirmeyen bir blok zinciri uygulaması yapan açık kaynaklı bir projedir. Solana Vakfı, İsviçre'nin Cenevre kentinde bulunur ve açık kaynaklı projeyi yönetir."
       },
       "STX": {
-        "PRIMARY": "STX, Stacks ağının yerel para birimidir. Bitcoin için akıllı sözleşmeleri beslemek, açık Stacks ağındaki madencileri ödüllendirmek için kullanılır ve sahiplerinin Stacking yaparak bitcoin kazanmalarını sağlar.",
+        "PRIMARY": "STX, Stacks ağının yerel para birimidir. Bitcoin için akıllı sözleşmeleri beslemek, açık Stacks ağındaki madencileri ödüllendirmek için kullanılır ve sahiplerinin Stacking yaparak Bitcoin kazanmalarını sağlar.",
         "SECONDARY": "Stacks, akıllı sözleşmeler için bir Bitcoin katmanıdır; akıllı sözleşmelerin ve merkezsizleştirilmiş uygulamaların Bitcoin'i bir varlık olarak güvenle kullanmasını ve Bitcoin blok zincirindeki işlemleri gerçekleştirmesini sağlar."
       },
       "STRK": {
@@ -689,7 +689,7 @@
       },
       "SUI": {
         "PRIMARY": "Sui, varlık sahipliğini yeniden tanımlayan yenilikçi, merkezsizleştirilmiş bir Katman 1 blok zinciridir.",
-        "SECONDARY": "Sui, akıllı sözleşme geliştirme sürecini hem güvenli hem de açık, aynı zamanda kullanıcı dostu bir programlama dili olan Move ile basitleştirir. SUI, Sui ağının yönetişim token'ıdır."
+        "SECONDARY": "Sui, akıllı sözleşme geliştirme sürecini hem güvenli hem de açık, aynı zamanda kullanıcı dostu bir programlama dili olan Move ile basitleştirir. SUI, Sui ağının yönetişim token'idir."
       },
       "SUSHI": {
         "PRIMARY": "SushiSwap, şu anda Ethereum üzerinde çalışmakta olan merkeziyetsiz otomatik piyasa yapma borsasıdır.",
@@ -779,13 +779,13 @@
       "BENEFITS": "Avantajlar",
       "BY_APPLICATION_ONLY": "Sadece başvuru ile.",
       "COMMISSIONS": "Komisyonlar",
-      "CONTACT_SUPPORT": "Destek ile İletişime Geçin",
+      "CONTACT_SUPPORT": "Destek ile iletişime geçin",
       "CRITERIA_MODAL_VIP_DISCLAIMER": "Referans gösterilen her yeni yatırımcı için {REGULAR_VALUE} tutarına kadar kazanın. Daha fazla kazanmak için VIP Bağlı Kuruluş olmak istiyorsanız (aylık kullanıcı başına {VIP_VALUE} tutarına kadar) {APPLY_HERE}.",
       "CURRENT_AFFILIATE_TIER": "Mevcut Bağlı Kuruluş Seviyesi",
       "DYDX_COMMUNITY": "dYdX Topluluğu",
       "EARN_FEES": "Ücret kazanın",
-      "EARN_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Referans olduğunuz her yeni yatırımcı için aylık ${AMOUNT_PER_MONTH} miktarına kadar kazanın. Eğer bir VIP Bağlı Kuruluş iseniz, ${VIP_AMOUNT_USD} miktarına kadar kazanabilirsiniz! Referans olduklarınız işlem ücretlerinde ${AMOUNT_DISCOUNT} miktarına kadar tasarruf edebilir. {LEARN_MORE_LINK}",
-      "EARN_FOR_EACH_TRADER": "Her yeni yatırımcı için aylık ${AMOUNT_USD} miktarına kadar kazanın.",
+      "EARN_FOR_EACH_TRADER_REFER_FOR_DISCOUNTS": "Referans olduğunuz her yeni yatırımcı için aylık ${AMOUNT_PER_MONTH} tutarına kadar kazanın. Eğer bir VIP Bağlı Kuruluş iseniz, ${VIP_AMOUNT_USD} tutarına kadar kazanabilirsiniz! Referans olduklarınız işlem ücretlerinde ${AMOUNT_DISCOUNT} tutarına kadar tasarruf edebilir. {LEARN_MORE_LINK}",
+      "EARN_FOR_EACH_TRADER": "Her yeni yatırımcı için aylık ${AMOUNT_USD} tutarına kadar kazanın.",
       "EARN_USDC_DISCRIPTION": "USDC kazanmak için stake etme ve diğer ürünlerden yararlanın.",
       "EARN_USDC": "USDC kazanın",
       "FEES_REFERRED": "Referans Olunan Ücretler",
@@ -800,8 +800,8 @@
       "PROGRAM_CARD_TITLE": "VIP Bağlı Kuruluş Olarak Daha Fazla Kazanın!",
       "PROGRAM_STATS": "Program İstatistikleri",
       "REFER_FOR_DISCOUNTS_FIRST_ORDER": "İlk emrinizi verdikten sonra {AMOUNT_USD} tutarına ulaşan ücret indirimi alın!",
-      "REFER_FOR_DISCOUNTS": "Bir arkadaşınıza referans olursanız arkadaşınız ${AMOUNT_USD} miktarına kadar indirim alabilir.",
-      "REFEREE_BENEFITS": "Referans olduğunuz kişi ücretlerden {AMOUNT_USD} $ miktarına kadar tasarruf edecektir.",
+      "REFER_FOR_DISCOUNTS": "Bir arkadaşınıza referans olursanız arkadaşınız ${AMOUNT_USD} tutarına kadar indirim alabilir.",
+      "REFEREE_BENEFITS": "Referans olduğunuz kişi ücretlerden ${AMOUNT_USD} tutarına kadar tasarruf edecektir.",
       "REMAINING": "kalan",
       "SHARE_AFFILIATE_BANNER_TITLE": "Bağlı kuruluş bağlantınızın kilidini açmak için ${AMOUNT} üzerinde işlem yapın",
       "THE_PRO_TRADING_PLATFORM": "DeFi için Pro Alım Satım Platformu",
@@ -811,11 +811,11 @@
       "TRADE_ANYTHING": "Her şeyle işlem yapabilirsiniz",
       "TRADE_MORE_VOLUME_REQUIREMENT": "Daha fazla hacimle işlem yapmanız gerekecektir.",
       "TRADED": "işlem gören",
-      "TRADES_REFERRED": "Referans Olunan Alımlar",
-      "TWEET_SHARE_AFFILIATES": "@dYdX üzerinde işlem ücretlerinde ${AMOUNT_USD} miktarına kadar tasarruf edin: ",
-      "UNLOCK_AFFILIATE_PROGRAM": "Bağlı ortaklık programının kilidini aç",
+      "TRADES_REFERRED": "Referans Olunan İşlemler",
+      "TWEET_SHARE_AFFILIATES": "@dYdX üzerinde işlem ücretlerinde ${AMOUNT_USD} tutarına kadar tasarruf edin: ",
+      "UNLOCK_AFFILIATE_PROGRAM": "Bağlı ortaklık programının kilidini açın",
       "USERS_REFERRED": "Referans Olunan Kullanıcılar",
-      "VIP_AFFILIATE_EARNINGS": "VIP iseniz, aylık ${AMOUNT_USD} miktarına kadar kazanabilirsiniz.",
+      "VIP_AFFILIATE_EARNINGS": "VIP iseniz, aylık ${AMOUNT_USD} tutarına kadar kazanabilirsiniz.",
       "VIP_AFFILIATE": "VIP Bağlı Kuruluş",
       "VIP": "VIP",
       "VOLUME_REFERRED": "Referans Olunan Hacim",
@@ -920,7 +920,7 @@
       "FINISH_ONBOARDING_DESCRIPTION": "dYdX üzerinde alım satıma başlamak için katılım akışını tamamlayın",
       "FREE_SIGNING": "İmzalama {FREE} ve bir işlem göndermez.",
       "FUND_YOUR_SUBACCOUNT": "IBC transferiniz alındıktan sonra dYdX alt hesap bakiyenizi fonlayın.",
-      "GASLESS_ONBOARDING_RULES": "Gazsız Yatırma İşlemi Kuralları",
+      "GASLESS_ONBOARDING_RULES": "Gas Ücreti Olmadan Yatırma İşlemi Kuralları",
       "GENERATE_DYDX_WALLET": "dYdX Zincir cüzdanınızı oluşturun",
       "GENERATE_KEYS": "dYdX anahtarları oluşturun",
       "GENERATE_KEYS_DESCRIPTION": "Anahtarlar hesabınıza erişebilmenizi sağlar",
@@ -982,13 +982,13 @@
       "SITE_OPERATED_BY_LONG": "Bu site, yazılımın Amerika Birleşik Devleri'nde veya diğer kısıtlı yargı bölgelerinde bulunan kişiler tarafından kullanılmasını yasaklayan {TERMS_OF_USE} hükümlerine tabi olarak, üçüncü taraf dYdX Trading Inc.'in sağladığı açık kaynaklı belirli yazılımlar kullanılarak {DEPLOYER_TERMS_AND_CONDITIONS} hükümlerine uygun şekilde {NAME_OF_DEPLOYER} tarafından işletilmektedir. dYdX blok zinciri, bağımsız doğrulayıcılardan oluşan bir topluluk tarafından desteklenmektedir. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Dünyanın en güçlü açık borsası üzerinde yatırım yapmaya başlayın.",
       "SWITCH_NETWORK": "Ağı değiştir",
-      "TOS_TITLE": "Ürün ve hizmetlerimizden herhangi birini kullanarak, {TERMS_LINK} ve {PRIVACY_POLICY_LINK} koşullarını kabul etmiş olursunuz. Bu şartları kabul, beyan ve garanti etmektesiniz:",
+      "TOS_TITLE": "Ürün ve hizmetlerimizden herhangi birini kullanarak {TERMS_LINK} ve {PRIVACY_POLICY_LINK} koşullarını kabul etmiş olursunuz. Bu şartları kabul, beyan ve garanti etmektesiniz:",
       "TOS_LINE1": "Amerika Birleşik Devletleri, Kanada veya yasaklı ya da engellenmiş diğer bir konumda ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi olan bir firma ya da kişi değilsiniz.",
       "TOS_LINE2": "Gelecekte Amerika Birleşik Devletleri, Kanada veya diğer yasaklanmış veya engellenmiş konumlarda bulunurken bu siteye erişmeyecek veya ürünlerimizi veya hizmetlerimizi kullanmayacaksınız.",
       "TOS_LINE3": "Fiziksel konumunuzu yasaklı veya engellenmiş bir konumdan başka bir yerde göstermek için VPN kullanmıyorsunuz ve gelecekte kullanmayacaksınız.",
       "TOS_LINE4": "İkamet ettiğiniz ve fiziksel olarak bulunduğunuz bölgenin yasaları uyarınca ürün ve hizmetlerimizi kullanmanıza hukuken izin verilmektedir.",
       "TOS_LINE5": "Sürekli sözleşmelere girme, kaldıraç kullanma ve blok zinciri ve diğer web3 ürün ve hizmetleriyle etkileşim kurma ile ilgili yatırım ve teknoloji risklerini anlamaktasınız.",
-      "TOS_TRANSLATION_DISCLAIMER": "Uygun olduğu takdirde, bu bildirimin İngilizce dışındaki dillere çevrilmiş versiyonu size nezaketen verilecektir. Çevrilmiş versiyon ve İngilizce versiyon arasında bir çelişki olması durumunda, İngilizce versiyon geçerli olacaktır.",
+      "TOS_TRANSLATION_DISCLAIMER": "Uygun olduğu takdirde, bu bildirimin İngilizce dışındaki dillere çevrilmiş versiyonu size yalnızca bilgilendirme amacıyla sunulur. Çevrilmiş versiyon ve İngilizce versiyon arasında bir çelişki olması durumunda, İngilizce versiyon geçerli olacaktır.",
       "TRANSFEROUT_ALERT_TITLE": "Bekleyen {PENDING_TRANSFERS} {TOKEN} transferiniz bulunuyor.",
       "TRANSFEROUT_ALERT_SUBTITLE": "Durumu kontrol edin",
       "TRANSFERS_PAUSED": "Transferler geçici olarak duraklatıldı",
@@ -1002,10 +1002,10 @@
       "VALUE_PROP_REWARDS_DESC": "Platformda yaptığınız her bir alım satım için $DYDX ödülleri kazanın*",
       "VALUE_PROP_TRUSTLESS_DESC": "Açık kaynakla inşa edilmiş, denetlenmiş akıllı sözleşmeler",
       "VALUE_PROP_TRUSTLESS": "Güven gerektirmez",
-      "VERIFY_OWNERSHIP": "Sahipliği doğrula",
+      "VERIFY_OWNERSHIP": "Sahipliği doğrulayın",
       "VERIFY_WALLET_OWNERSHIP": "Bu cüzdanın sahibi olduğunuzu doğrulayın.",
       "VERIFY_WALLET_COMPATIBILITY": "Cüzdan uyumluluğunu doğrulayın",
-      "WANT_TO_LEARN": "Daha fazla bilgi edinmek ister misiniz?",
+      "WANT_TO_LEARN": "Daha fazla bilgi edinmek mi istiyorsunuz?",
       "WELCOME_DYDX": "dYdX'e hoş geldiniz",
       "WELCOME": "Hoş geldiniz",
       "WITHDRAWAL_ALERT_TITLE": "{DESTINATION_CHAIN} hedefine aktarılacak {PENDING_WITHDRAWALS} adet bekleyen çekme işleminiz var.",
@@ -1090,15 +1090,15 @@
       "FREE_GAS": "Ücretsiz!",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "{NUM_DEPOSITS} adet gazsız yatırma işleminiz bulunuyor.",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "{NUM_DEPOSITS} adet gazsız yatırma işleminiz bulunuyor.",
-      "GASLESS_DEPOSITS_RESET": "Gazsız yatırma limitiniz üç günde bir sıfırlanır.",
+      "GASLESS_DEPOSITS_RESET": "Gas ücreti ödemeden yatırma limitiniz üç günde bir sıfırlanır.",
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gas ücreti ödemeden yatırma işlemleri bu kurallara tabidir",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gas ücreti ödemeden yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!",
-      "GASLESS_ETH_DEPOSITS": "ETH için gazsız yatırma işlemleri kullanım dışı. {1INCH_WETH_LINK} veya {UNISWAP_WETH_LINK} üzerinde ETH miktarınızı WETH'e çevirebilir ve WETH gazsız yatırma işlemini kullanabilir; ya da kendi gaz ücretlerinizi ödeyerek doğrudan ETH yatırabilirsiniz.",
+      "GASLESS_ETH_DEPOSITS": "ETH için gas ücreti ödemeden yatırma işlemleri kullanım dışı. {1INCH_WETH_LINK} veya {UNISWAP_WETH_LINK} üzerinde ETH miktarınızı WETH'e çevirebilir ve WETH gas ücreti ödemeden yatırma işlemini kullanabilir; ya da kendi gas ücretlerinizi ödeyerek doğrudan ETH yatırabilirsiniz.",
       "LOWEST_FEE_DEPOSITS": "{LOWEST_FEE_TOKENS_TOOLTIP} üzerinden yapılan USDC yatırma işlemleri en düşük ücretlere sahiptir. Diğer yatırma işlemlerinde ek üçüncü taraf ücretleri olabilir.",
       "MAX_SLIPPAGE": "Azami Kayma",
       "MINIMUM_DEPOSIT_AMOUNT": "Minimum Yatırma Miktarı",
-      "MINIMUM_DEPOSIT_MET": "Harika! Yatırma işleminiz minimum {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} değerini karşılamaktadır. dYdX bu yatırma için gaz ücretlerini üstlenecektir.",
-      "MINIMUM_DEPOSIT_UNMET": "En az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} değeri kadar yatırırsanız dYdX bu yatırma işlemi için gaz ücretlerini üstlenecektir!",
+      "MINIMUM_DEPOSIT_MET": "Harika! Yatırma işleminiz minimum {GASLESS_DEPOSIT_THRESHOLD} değerini karşılamaktadır{SYMBOL}. dYdX bu yatırma için gas ücretlerini üstlenecektir.",
+      "MINIMUM_DEPOSIT_UNMET": "En az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} değeri kadar yatırırsanız dYdX bu yatırma işlemi için gas ücretlerini üstlenecektir!",
       "EXCHANGE_RECEIVED": "Teslim Al",
       "SET_ALLOWANCE_EXPLANATION": "dYdX üzerinde ilk yatırma işleminizde {SYMBOL} birimini etkinleştirmeniz gerekir. Bunu sadece bir kez yapmanız gerekecektir.",
       "SETTING_ALLOWANCE_EXPLANATION": "{SYMBOL} etkinleştirme işleminiz onaylandıktan sonra yatırma işlemi gerçekleştirebileceksiniz. Bunu her varlık için sadece bir kez yapmanız gerekir.",
@@ -1124,8 +1124,8 @@
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "Çekilen fonlara erişmek ve Magic cüzdanınızı dYdX dışında tekrar kullanmak için cüzdanınızı başka bir cüzdan sağlayıcısına aktarmalısınız.",
       "SELECT_CHAINS": "zincirleri seçin",
       "SLOW": "Yavaş",
-      "SLOW_WITHDRAW_DESCRIPTION": "Yavaş çekme iki adımlı bir işlemdir. Bu adım, çekme talebinizi başlatır ve Katman 2 üzerinde işlenir. Fonlarınız hazır olduktan sonra ({HOURS} saate kadar sürebilir), onları cüzdanınıza çekmek için bir bildirim alacaksınız. Çekme işleminin gaz ücretlerinden siz sorumlu olursunuz.",
-      "SLOW_WITHDRAW_CONFIRMATION": "Bu {STYLED_SLOW} çekme işlemi, çekme için kullanılabilir hale gelene dek {HOURS} saate kadar sürebilir. Çekme işleminin gaz ücretlerinden siz sorumlu olacaksınız. Fonlarınıza daha erken ihtiyacınız varsa, {STYLED_FAST} çekme işlemini deneyin.",
+      "SLOW_WITHDRAW_DESCRIPTION": "Yavaş çekme iki adımlı bir işlemdir. Bu adım, çekme talebinizi başlatır ve Katman 2 üzerinde işlenir. Fonlarınız hazır olduktan sonra ({HOURS} saate kadar sürebilir), onları cüzdanınıza çekmek için bir bildirim alacaksınız. Çekme işleminin gas ücretlerinden siz sorumlu olursunuz.",
+      "SLOW_WITHDRAW_CONFIRMATION": "Bu {STYLED_SLOW} çekme işlemi, çekme için kullanılabilir hale gelene dek {HOURS} saate kadar sürebilir. Çekme işleminin gas ücretlerinden siz sorumlu olacaksınız. Fonlarınıza daha erken ihtiyacınız varsa, {STYLED_FAST} çekme işlemini deneyin.",
       "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Seçilen rotadan alınan yüksek üçüncü taraf ücretleri. Aşağıdakileri onaylıyorum:\n{WARNING_MESSAGE}",
       "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Aşağıdaki uyarıyı gördüğümü onaylıyorum:\n{WARNING_MESSAGE}"
@@ -1165,7 +1165,7 @@
       "ENTER_AMOUNT_TO_STAKE": "Stake edilecek miktarı girin",
       "KEPLR_DASHBOARD": "Keplr Kontrol Paneli",
       "STAKED_BALANCE": "Stake Edilen Bakiye",
-      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Tahmini gaz ücretleri, talep edilebilir ödül değerinden daha yüksek.",
+      "GAS_FEE_GREATER_THAN_REWARD_ERROR": "Tahmini gas ücretleri, talep edilebilir ödül değerinden daha yüksek.",
       "PREVIEW_STAKE": "Staking'i Önizle",
       "VALIDATORS_INFO_LINK": "Doğrulayıcılar hakkında daha fazla bilgi için lütfen {MINTSCAN_LINK} bağlantısını ziyaret edin: ",
       "STAKING_LEGAL_DISCLAIMER": "Varlıklarınızı üçüncü taraflarca işletilen bir doğrulayıcı düğüme stake ediyorsunuz. Bu sitenin operatörü, üçüncü taraflarca sağlanan bu tür stake etme hizmetlerinden sorumlu değildir. {KEPLR_DASHBOARD_LINK} ile başka bir doğrulayıcıya stake edin ya da {STRIDE_LINK} ile likit stake edin.",
@@ -1292,8 +1292,8 @@
       "FREE_TRADING_DESCRIPTION_ASTERISK": "Herkes için ayda 100.000 $'a kadar ücretsiz işlem*.",
       "FREE_TRADING_DISCLAIMER": "*Sürekli varlık sözleşmeler ile alım satım ve işlem yapmak önemli finansal ve diğer çeşitli riskleri içerir. dYdX finansal tavsiye sunmamaktadır. \"Ücretsiz İşlem\", dYdX'in önceki otuz günde 100.000 $'dan daha az işlem hacmine sahip hesaplar için emir verme ile ilişkin ücretlerin kaldırıldığı anlamına gelir. {PERPETUAL_FUNDING}, fon yatırma ve çekme ve potansiyel tasfiye de dahil olmak üzere fakat bunlarla sınırlı olmamak kaydıyla başka ücretler de geçerli olabilir. Ek bilgi için lütfen dYdX {TERMS_OF_USE} metnini inceleyin.",
       "FREE_TRADING_DISCLAIMER_PERPETUAL_FUNDING": "sürekli varlık fonlaması",
-      "GASLESS_DEPOSITS_NEW_PROMO": "İlk yatırma işleminiz 1000 $ veya daha fazla ise dYdX yatırma gaz ücretlerinizi ödeyecektir!",
-      "GASLESS_DEPOSITS_PROMO": "Üç günde bir, 2000 $ veya daha fazla yatırma işleminiz için sıfır gaz ücretinin keyfini çıkarın.",
+      "GASLESS_DEPOSITS_NEW_PROMO": "İlk yatırma işleminiz 1000 $ veya daha fazla ise dYdX yatırma gas ücretlerinizi ödeyecektir!",
+      "GASLESS_DEPOSITS_PROMO": "Üç günde bir, 2000 $ veya daha fazla yatırma işleminiz için sıfır gas ücretinin keyfini çıkarın.",
       "GIFTED_FEE_TIER_BONUS": "{AFFILIATE} size bir Ücret Seviyesi bonusu hediye etti.",
       "GOVERNANCE_DESCRIPTION": "dYdX Zincirinin yönetişimine $DYDX ile katılın. Keplr aracılığıyla kullanılabilir.",
       "HAVE_YOU_EXPORTED": "Gizli ifadenizi dışa aktardınız mı?",
@@ -1303,7 +1303,7 @@
       "LAUNCH_INCENTIVES_TITLE": "{FOR_V4} Lansman Teşvikleri",
       "LAUNCH_INCENTIVES_DESCRIPTION": "Her sezon alım satım ödülleri kazanın. Lider tablosunda diğer yatırımcılarla olan karşılaştırmanızı ve geçmiş sezonları nasıl görüntüleyeceğinizi inceleyin. ",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "{SEASON_NUMBER}. sezon yakında başlıyor!",
-      "LAUNCH_INCENTIVES_SEASON_NUM": ". sezon{SEASON_NUMBER}",
+      "LAUNCH_INCENTIVES_SEASON_NUM": "{SEASON_NUMBER}. sezon",
       "LAUNCH_INCENTIVES_SEASON_REWARDS": "{SEASON_NUMBER}. sezon ödülleri",
       "LAUNCH_INCENTIVES_SEASON_SUMMARY": "{PAST_DATE} puan, {NUM_POINTS} tarihinde sona eren {SEASON_NUMBER}. Sezon sırasında kazanıldı.",
       "LAUNCH_INCENTIVES_TOTAL_REWARDS": "Ödüller Toplamı",
@@ -1374,8 +1374,8 @@
       "ADD_MARGIN": "Marjin Ekle",
       "ADD_TRIGGERS": "Tetik(ler) ekle",
       "ADD_TP_SL": "TP | SL ekle",
-      "ADD_STOP_LOSS": "Stop emri ekle",
-      "ADD_TAKE_PROFIT": "Kâr alma ekle",
+      "ADD_STOP_LOSS": "Durdurma emri ekle",
+      "ADD_TAKE_PROFIT": "Kâr alma emri ekle",
       "ADJUST_ISOLATED_MARGIN": "İzole Marjini Ayarla",
       "ADJUST_TARGET_LEVERAGE": "Hedef Kaldıracı Ayarla",
       "ADJUST_TARGET_LEVERAGE_DESCRIPTION": "Hedef kaldıraç, bir sonraki talimatınıza uygulanan marjin miktarını belirler. Yeni bir emir verilene kadar hedef kaldıracın ayarlanması marjini aktarmaz.",
@@ -1400,7 +1400,7 @@
       "BUYS_SELLS_TOGGLE": "Alımlar\/Satımlar",
       "BUYS_SELLS_TOGGLE_TOOLTIP": "Geçmiş alım ve satımları göster",
       "CANCEL_ALL": "Tümünü İptal Et",
-      "CANCEL_ORDER": "Emir iptal et",
+      "CANCEL_ORDER": "Emri iptal et",
       "CANCEL_ORDERS_COUNT": "{COUNT} emri iptal et",
       "CANCELING_ALL_ORDERS": "Tüm emirler iptal ediliyor",
       "CANCELING_ALL_ORDERS_IN_MARKET": "{MARKET_ID} piyasasındaki tüm emirler iptal ediliyor",
@@ -1479,8 +1479,8 @@
       "LIQUIDATION_PRICE_SHORT": "Tsf. Fiyat",
       "LIQUIDATION_PRICE": "Tasfiye Fiyatı",
       "LIQUIDITY": "Likidite",
-      "MAKER_FEE": "Piyasa Yapıcı Komisyonu",
-      "MAKER": "Piyasa Yapıcı",
+      "MAKER_FEE": "Satıcı Komisyonu",
+      "MAKER": "Satıcı",
       "MANAGE_YOUR_RISK_STOP": "Riskinizi durdurma emri ile yönetin",
       "MARKET_BUY": "piyasa alış",
       "MARKET_ORDER_DESCRIPTION": "{SYMBOL} birimini piyasa fiyatından alıp satmanın en kolay yolu.",
@@ -1498,8 +1498,8 @@
       "MODIFY_PRICE": "Fiyatı değiştir",
       "MODIFY_SIZE_FIELD": "Miktarı değiştir",
       "MODIFY_TARGET_LEVERAGE": "Hedef kaldıracı değiştir",
-      "MODIFY_TRAILING_PERCENT": "Takip eden % değiştirin",
-      "MODIFY_TRIGGER_PRICE": "Tetikleme fiyatını değiştirin",
+      "MODIFY_TRAILING_PERCENT": "Takipçi yüzdesini değiştir",
+      "MODIFY_TRIGGER_PRICE": "Tetikleme fiyatını değiştir",
       "MULTIPLE_ARROW": "Çoklu →",
       "NET_FUNDING": "Net Fonlama",
       "NEXT": "Sonraki",
@@ -1508,7 +1508,7 @@
       "NOTIONAL_VALUE": "Kavram Değeri",
       "OFFSETTING": "Denkleştirme",
       "OHLC_VIA_MID_PRICE": "OHLC (orta fiyat üzerinden)",
-      "OPEN_INTEREST": "Açık Faiz",
+      "OPEN_INTEREST": "Açık Pozisyon",
       "OPEN_ORDERS_HEADER": "Açık Emirler",
       "ORDER_HISTORY_HEADER": "Emir Geçmişi",
       "OPEN_POSITIONS": "Açık Pozisyonlar",
@@ -1535,8 +1535,8 @@
       "ORDER_REMOVAL_REASON_UNSPECIFIED": "Belirtilmemiş hata.",
       "ORDER_REMOVAL_REASON_USER_CANCELED": "Talimat bir kullanıcı tarafından iptal edildi.",
       "ORDER_REMOVAL_REASON_VIOLATES_ISOLATED_SUBACCOUNT_CONSTRAINTS": "Talimat, karşılanması durumunda söz konusu alt hesabın tekil alt hesap kısıtlarını ihlal etmesine neden olacağı için kaldırıldı.",
-      "ORDER_TYPE": "Teklif türü",
-      "ORDERBOOK": "Borsa tahtası",
+      "ORDER_TYPE": "Emir türü",
+      "ORDERBOOK": "Emir tahtası",
       "ORDERBOOK_ASK_PRICE": "Satış Teklif Fiyatı",
       "ORDERBOOK_BID_PRICE": "Alış Teklif Fiyatı",
       "ORDERBOOK_MID_MARKET_PRICE": "Orta Piyasa Fiyatı",
@@ -1552,11 +1552,11 @@
       "PAYMENT": "Ödeme",
       "PAYMENTS": "Ödemeler",
       "PENDING": "Beklemede",
-      "PERCENT_TRAIL": "{PERCENT}% Takipçi",
+      "PERCENT_TRAIL": "%{PERCENT} Takipçi",
       "PLACE_LIMIT_ORDER": "Limit Emri Ver",
       "PLACE_MARKET_ORDER": "Piyasa Emri Ver",
-      "PLACE_STOP_LIMIT_ORDER": "Stop Limit Emri Ver",
-      "PLACE_STOP_MARKET_ORDER": "Stop Piyasa Emri Ver",
+      "PLACE_STOP_LIMIT_ORDER": "Limit Durdurma Emri Ver",
+      "PLACE_STOP_MARKET_ORDER": "Piyasa Durdurma Emri Ver",
       "PLACE_TAKE_PROFIT_LIMIT_ORDER": "Kâr Alma Limit Emri Ver",
       "PLACE_TAKE_PROFIT_MARKET_ORDER": "Piyasa Kâr Alma Emri Ver",
       "PLACE_TRAILING_STOP_ORDER": "Takipçi Durdurma Emri Ver",
@@ -1573,7 +1573,7 @@
       "POSITIONS_EMPTY_STATE": "Açık pozisyonunuz bulunmuyor.",
       "POSITIONS": "Pozisyonlar",
       "POST_ONLY": "Yalnızca Yerleştir",
-      "POST_ONLY_WOULD_CROSS": "Post-only çaprazlanır",
+      "POST_ONLY_WOULD_CROSS": "Yalnızca yerleştir, çaprazlamaya neden olur",
       "PREVIEW_ORDER": "{ORDER} önizleme",
       "PREVIEW_ORDER_DESCRIPTION": "Doğru görünüyorsa aşağıdaki Onayla tuşuna basın.",
       "PREVIEW_ORDER_TITLE": "Talimatı önizle",
@@ -1599,7 +1599,7 @@
       "SLIDER": "Kaydırma Çubuğu",
       "SPOT_VOLUME_24H": "24 Saatlik Spot Hacmi",
       "STOP_LIMIT_DESCRIPTION": "Bir durdurma limit emri, durdurma piyasa emirleri gibi kayıplara karşı korunmaya yardımcı olur; ancak limit emirlerinin çok yönlülüğünden ve özelliklerinden faydalanmaya olanak tanır.",
-      "STOP_LIMIT": "Durdurma Limit",
+      "STOP_LIMIT": "Limit Durdurma",
       "STOP_LOSS": "Zarar Durdurma",
       "STOP_MARKET": "Piyasa Durdurma",
       "STOP_MARKET_DESCRIPTION": "Bir piyasa durdurma emri, oracle fiyatı veya son işlem fiyatı tetiklenme fiyatınızı aştıktan sonra pozisyonunuzu kapatarak kayıpları sınırlandırmak için kullanılabilir.",
@@ -1608,10 +1608,10 @@
       "SUBMITTED": "Gönderildi",
       "SUBMITTING": "Gönderiliyor",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Bir kâr alma limit emri, oracle fiyatı veya en son gerçekleşen alım satım fiyatı tetiklenme fiyatınızı aştığında normal bir limit emrine dönüşür.",
-      "TAKE_PROFIT_LIMIT_SHORT": "Kâr Alma Limiti",
-      "TAKE_PROFIT_LIMIT": "Kâr Alma Limiti",
+      "TAKE_PROFIT_LIMIT_SHORT": "Limit Kâr Alma",
+      "TAKE_PROFIT_LIMIT": "Limit Kâr Alma",
       "TAKE_PROFIT": "Kâr Alma",
-      "TAKE_PROFIT_MARKET": "Kâr Alma Piyasa",
+      "TAKE_PROFIT_MARKET": "Piyasa Kâr Alma",
       "TAKE_PROFIT_MARKET_DESCRIPTION": "Kâr alma piyasa talimatları, oracle fiyatı veya en son gerçekleşen alım satım fiyatı tetikleme fiyatınızı aştıktan sonra pozisyonunuzu kapatarak kârınızı sabitler.",
       "TAKE_PROFIT_MARKET_SHORT": "Kâr Alma",
       "TAKER_FEE": "Alıcı Ücreti",
@@ -1629,7 +1629,7 @@
       "TRAIL": "Takipçi",
       "TRAILING_PERCENT": "Takipçi Yüzdesi",
       "TRAILING_STOP_DESCRIPTION": "Belirli takip eden yüzdesi için kaybedebileceğiniz yüzdelik miktarı sınırlamak için bir takip eden zarar durdurma emri belirleyin.",
-      "TRAILING_STOP": "Takip Eden Zarar Durdurma",
+      "TRAILING_STOP": "Takipçi Durdurma",
       "TRANSFERS_EMPTY_STATE": "Aktarma geçmişiniz bulunmamaktadır.",
       "TRIGGER_PRICE_SHORT": "Tetikleme",
       "TRIGGER_PRICE": "Tetikleme Fiyatı",
@@ -1640,7 +1640,7 @@
       "UNREALIZED_PNL": "Gerçekleşmemiş KZ",
       "UNTRIGGERED": "Tetiklenmemiş",
       "UP_TO_X": "{LEVERAGE} kata kadar",
-      "UPDATE_TRIGGERS": "Tetiği\/tetikleri güncelleyin",
+      "UPDATE_TRIGGERS": "Tetik(ler)i güncelleyin",
       "USER_CANCELED": "Kullanıcı iptal etti",
       "VOLUME_24H": "24 Saatlik Hacim",
       "VOLUME": "Hacim",
@@ -1705,7 +1705,7 @@
       "REQUIREMENTS": "Gereksinimler",
       "SEASON": "Sezon",
       "SEASON_ENDS": "Sezon bitişi",
-      "SEASON_NUM": ". sezon{NUMBER}",
+      "SEASON_NUM": "{NUMBER}. sezon",
       "SEE_RESULTS": "Sezon sonu sonuçlarınızı görmek için tıklayın!",
       "SILVER": "Gümüş",
       "THIS_SEASON": "Bu sezon",
@@ -1713,7 +1713,7 @@
       "TO_RANGE": "için",
       "TO_STAY_IN": "{PERIOD} periyodunda kalmak için",
       "TODAYS_HEDGIE": "Bugünün Günlük yarışmasını kazanana verilecek Hedgie ödülü",
-      "TOP": "Zirvedeki {PERCENT}%",
+      "TOP": "Zirvedeki %{PERCENT}",
       "VIEWING_LEAGUE": "{LEAGUE} ligi görüntüleniyor",
       "WILL_ARRIVE": "dYdX hesabınıza kısa bir süre içinde ulaşacaktır.",
       "WILL_ARRIVE_SHORTLY": "Kısa bir süre içinde ulaşacak ve mevcut dYdX bakiyenize eklenecektir.",
@@ -1731,8 +1731,8 @@
       "APR": "{PERCENT} APR",
       "APR_PLAIN": "APR",
       "AVAILABLE_TO_WITHDRAW": "Çekilebilir",
-      "CONFIRM_DEPOSIT_CTA": "Yatırma işlemini onayla",
-      "CONFIRM_WITHDRAW_CTA": "Çekme Onayla",
+      "CONFIRM_DEPOSIT_CTA": "Yatırma İşlemini Onayla",
+      "CONFIRM_WITHDRAW_CTA": "Çekme İşlemini Onayla",
       "CROSS_ACCOUNT": "Çapraz Hesap",
       "DEPOSIT_TOO_HIGH": "Ücretsiz teminatınızdan daha fazlasını ekleyemezsiniz.",
       "DEPOSIT_TOO_LOW": "Eklenecek miktar minimum 5 $ eşiğinin altındadır.",
@@ -1825,7 +1825,7 @@
       "LEGAL_UPDATES_DESCRIPTION": "Lütfen güncellenmiş {TOU} ve {PRIVACY_POLICY} metinlerimize göz atın.",
       "MAGIC_OAUTH_REDIRECT_FAILED": "Giriş başarısız",
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Magic ile oturum açma sırasında bir hata oluştu. Lütfen tekrar deneyin.",
-      "MAINTENANCE_MARGIN_ADJUSTMENTS": "Devam marjin gereksinimi {PERCENT}% oranında {ACTION}",
+      "MAINTENANCE_MARGIN_ADJUSTMENTS": "Devam marjin gereksinimi %{PERCENT} oranında {ACTION}",
       "NOTIFICATIONS_EMPTY_STATE": "Bildiriminiz bulunmuyor.",
       "ORDERBOOK_LAGGING": "Emir defteri gecikmesi",
       "ORDER_STATUS": "Emir Durumu",
@@ -1912,7 +1912,7 @@
       "STEP_4_WAIT": "4. Fonların çekilebilir olmasını bekleyin",
       "STEP_5_WITHDRAW": "5. Fonları çekin",
       "USER_UNREGISTERED": "Çekişi zorlamak için dYdX'in akıllı sözleşmesine kayıtlı bir STARK Anahtarına (STARK Key) sahip olmanız gerekir.",
-      "VIEW_TRANSACTION": "İşlemi Görüntüleyin",
+      "VIEW_TRANSACTION": "İşlemi Görüntüle",
       "WITHDRAW_AMOUNT": "{AMOUNT} çekme"
     },
     "TEST_FUNDS_MODAL": {
@@ -2008,7 +2008,7 @@
       "LIQUID_STAKING_AND_LEAVING": "Likit stake yapılıyor ve web sitesinden çıkılıyor",
       "LIQUID_STAKING_AND_LEAVING_DESCRIPTION": "Aşağıda \"{CTA}\" seçeneğini belirleyerek, (a) web sitemizden ayrılacağınızı ve Stride Labs, Inc. (\"Stride\") tarafından sunulan ve bu web sitesinin ev sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan bir web sitesine giriş yapacağınızı; (b) bu hizmetin size doğrudan Stride tarafından sağlandığını ve Operatör ile bağlantısı olmadığını; (c) bu hizmetin ve herhangi bir likit stake işleminin Operatörün web sitesinin dışında gerçekleştiğini; ve (d) herhangi bir işlem veya değer aktarımının doğrudan siz ve Stride arasında gerçekleşeceğini onaylar ve kabul edersiniz. Bu hizmet ABD, Kanada veya hizmetin kısıtlandığı bölgelerde bulunan kişiler tarafından kullanılamaz. Ayrıca, Stride tarafından sizden talep edilen herhangi bir bilginin Operatöre sağlanmadığını ve Operatörü sizinle Stride arasındaki herhangi bir işlem veya aktarımın herhangi bir yönünden sorumlu tutmayacağınızı kabul edersiniz. Operatörün web sitesinde yer alan hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye niteliğinde değildir ve herhangi bir mali, vergisel, hukuki veya yatırım eyleminde bulunmadan önce yukarıda belirtilen hususlardan herhangi biriyle ilgili olarak bağımsız araştırma yapmaktan, durum tespiti yapmaktan ve profesyonel bir danışman ile çalışmaktan kendinizin sorumlu olduğunu kabul edersiniz.",
       "LIQUID_STAKE_W_STRIDE": "Stride ile Likit Stake",
-      "LIQUID_STAKE_STRIDE_DESCRIPTION": "{TOKEN_DENOM} tokenlarınızı ekosistemde dağıtabileceğiniz st{TOKEN_DENOM} için stake edin.",
+      "LIQUID_STAKE_STRIDE_DESCRIPTION": "{TOKEN_DENOM} tokenlerinizi ekosistemde dağıtabileceğiniz {TOKEN_DENOM} için stake edin.",
       "NAVIGATE_TO_STRIDE": "{STRONG_YES}, Stride Zone'a gitmek istiyorum.",
       "PROTOCOL_STAKING": "ProtocolStaking",
       "STAKE_WITH_KEPLR": "Keplr ile Stake",
@@ -2031,15 +2031,15 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Alım satım ödüllerimi nasıl alabilirim?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Her blokta, alım satım ödülleri otomatik olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Nasıl stake ederim ve stake ödüllerini talep ederim?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Stake etmek için \"Stake\" butonuna tıklayın ve stake etmek istediğiniz token miktarını girin. Toplulukta iyi durumda olan doğrulayıcılar arasından bir tanesi, en az token stake eden ve hiç slash edilmemiş olan uygun doğrulayıcı kriteriyle otomatik olarak seçilecektir. Staking ödüllerini talep etmek için, USDC ödülleri mevcut olduğunda \"Talep Et\" butonuna tıklayın. Talep edilen USDC ödülleri hesabınıza yatırılacaktır, böylece anında işlem yapabilirsiniz! USDC ödüllerini talep etmek için bir gaz ücreti olduğunu unutmayın. Daha fazlasını görün: {HERE_LINK}.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Stake etmek için \"Stake\" butonuna tıklayın ve stake etmek istediğiniz token miktarını girin. Toplulukta iyi durumda olan doğrulayıcılar arasından bir tanesi, en az token stake eden ve hiç slash edilmemiş olan uygun doğrulayıcı kriteriyle otomatik olarak seçilecektir. Staking ödüllerini talep etmek için, USDC ödülleri mevcut olduğunda \"Talep Et\" butonuna tıklayın. Talep edilen USDC ödülleri hesabınıza yatırılacaktır, böylece anında işlem yapabilirsiniz! USDC ödüllerini talep etmek için bir gas ücreti olduğunu unutmayın. Daha fazlasını görün: {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Alım satım ödülleri nasıl çalışır?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Her karşılamadan hemen sonra, alım satım ödülleri, yatırımcı tarafından ödenen ücret miktarına bağlı olarak doğrudan yatırımcının dYdX Zinciri adresine gönderilir. Daha fazla bilgi edinin: {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Önceden yapılandırılmış doğrulayıcı kümesi nasıl belirlenir?",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_ANSWER": "Önceden yapılandırılmış doğrulayıcı kümesi, stake edilecek varsayılan doğrulayıcıyı belirlemek için kullanılır. Daha fazla bilgi için lütfen bu {DOCUMENT_LINK} belgesine göz atın: ",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "Stake etmenin riskleri nelerdir?",
-      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "Herhangi bir DeFi protokolünün kullanımı, risklerle birlikte gelir. Staking söz konusu olduğunda, token'ları staking'den çıkarmanın 30 gün sürdüğünü bilmek önemlidir; bu, protokol veya piyasa oynaklığı durumunda bile token'larınızı transfer edemeyeceğiniz bir likidite eksikliği dönemi olduğu anlamına gelir. Ayrıca, kullanıcılar varlıklarını bir doğrulayıcı ile stake etmeden önce doğrulayıcılar hakkında kendi durum tespitlerini yapmalıdır. Protokol kurallarını ihlal eden doğrulayıcılar, kendilerine stake edilen token'ların slash edilmesiyle (yani yakılmasıyla) veya ödül kazanmalarını engelleyecek şekilde nezarete alınmaları yoluyla cezalandırılabilir.",
+      "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "Herhangi bir DeFi protokolünün kullanımı, risklerle birlikte gelir. Staking söz konusu olduğunda, token'leri staking'den çıkarmanın 30 gün sürdüğünü bilmek önemlidir; bu, protokol veya piyasa oynaklığı durumunda bile token'lerinizi transfer edemeyeceğiniz bir likidite eksikliği dönemi olduğu anlamına gelir. Ayrıca, kullanıcılar varlıklarını bir doğrulayıcı ile stake etmeden önce doğrulayıcılar hakkında kendi durum tespitlerini yapmalıdır. Protokol kurallarını ihlal eden doğrulayıcılar, kendilerine stake edilen token'lerin slash edilmesiyle (yani yakılmasıyla) veya ödül kazanmalarını engelleyecek şekilde nezarete alınmaları yoluyla cezalandırılabilir.",
       "FAQ_WHAT_IS_STAKING_QUESTION": "Staking nedir?",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX Zinciri, konsensüs mekanizması için Proof-of-Stake kullanır. Token sahipleri, ağın güvenliğini sağlamaya ve işlemleri doğrulamaya yardımcı olmak için token'larını doğrulayıcılara stake edebilir ve bunun karşılığında protokolün topladığı alım satım ve gaz ücretlerinden USDC ödülleri kazanabilir. Tüm ücretler, sigorta fonuna gönderilen ücretler ve doğrulayıcı komisyonları düşüldükten sonra stake edenlere ödenir. Ödül oranları, {HERE_LINK} verilerine dayanmaktadır. Protokol koşullarına bağlı olarak dalgalanabilecek olan gelecekteki ödül oranlarının garantisi yoktur.",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX Zinciri, konsensüs mekanizması için Proof-of-Stake kullanır. Token sahipleri, ağın güvenliğini sağlamaya ve işlemleri doğrulamaya yardımcı olmak için token'lerini doğrulayıcılara stake edebilir ve bunun karşılığında protokolün topladığı alım satım ve gas ücretlerinden USDC ödülleri kazanabilir. Tüm ücretler, sigorta fonuna gönderilen ücretler ve doğrulayıcı komisyonları düşüldükten sonra stake edenlere ödenir. Ödül oranları, {HERE_LINK} verilerine dayanmaktadır. Protokol koşullarına bağlı olarak dalgalanabilecek olan gelecekteki ödül oranlarının garantisi yoktur.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Alım satım ödüllerini kimler alabilir?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tüm yatırımcılar alım satım ödülleri için uygundur.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Hangi doğrulayıcılar stake etmek için kullanılabilir?",
@@ -2058,7 +2058,7 @@
       "REWARD_POOL_DESC": "Her sezon için puanlara göre {TOKEN} cinsinden {REWARD_POOL} ödülü",
       "REWARD_POOL_FOR_TRADERS_DESC_2": "İlgili sezonda ilk 5 piyasada hacim olarak ödenen ücretlere (1-1) eşit kazanılan puanlar",
       "REWARD_POOL_FOR_TRADERS_DESC_3": "İlgili sezondaki hacme göre ilk 5 sırada olmayan piyasalarda ödenen ücretlerde 2 kat artış",
-      "SEASON_ID": ". sezon{SEASON_ID}",
+      "SEASON_ID": "{SEASON_ID}. sezon",
       "TOTAL_POINTS": "Toplam Puan",
       "TRADING_REWARD": "Alım Satım Ödülü",
       "TRADING_REWARD_CHART_EMPTY_STATE": "Ödülünüz bulunmuyor.",
@@ -2087,8 +2087,8 @@
       "GET_AFFILIATE_LINK": "Bağlı ortak bağlantınızı edinin",
       "PLANNED_MAINTENANCE": "Planlanmış bakım",
       "PLANNED_MAINTENANCE_080322_BODY": "dYdX 3 Ağustos 2022 tarihinde planlanmış bir bakımdan geçecektir",
-      "REDUCE_ONLY_LIVE": "Yalnızca Azalt özelliği etkin",
-      "REDUCE_ONLY_LIVE_BODY": "Yalnızca Azalt özelliği artık tüm emir türleri için kullanıma açık! Yalnızca Azaltmayı etkinleştirebilmek için yürütme IOC olmalıdır.",
+      "REDUCE_ONLY_LIVE": "Sadece Azalt özelliği etkin",
+      "REDUCE_ONLY_LIVE_BODY": "Sadece Azalt özelliği artık tüm emir türleri için kullanıma açık! Sadece Azaltmayı etkinleştirebilmek için yürütme IOC olmalıdır.",
       "REFER_AND_EARN": "Referans olun ve kazanın",
       "SET_UP_REFERRALS_BODY": "Diğer yatırımcılara referans olun ve alım satım ücretlerinden {COMMISSION} değerine kadar gelir kazanın!",
       "SET_UP_REFERRALS_PARAM": "%40 komisyon",
@@ -2096,16 +2096,16 @@
       "TESTNET_GOERLI_MIGRATION_BODY": "Staging Testnet, Goerli Test Ağına taşınmıştır. Geliştiriciler staging ortamında operasyona devam etmek için istemcilerini güncellemek zorunda olacaklardır."
     },
     "REDUCE_ONLY_SUPPORT_MODAL": {
-      "REDUCE_ONLY_SUPPORT": "Yalnızca Azalt özelliği için destek",
-      "REDUCE_ONLY_WILL_DISABLE": "Yalnızca Azaltma işlemleri, sadece Hemen Veya İptal (IOC) talimatları için kullanılabilir. Emir yürütme seçeneğini değiştirmek, Yalnızca Azalt özelliğini otomatik olarak devre dışı bırakacaktır.",
-      "REDUCE_ONLY_WILL_ENABLE": "Yalnızca Azaltma işlemleri, sadece Hemen Veya İptal (IOC) talimatları için kullanılabilir. Uygun olduğu durumlarda, Yalnızca Azalt özelliğini etkinleştirmek emir yürütme yönteminizi desteklenen bir seçenek ile otomatik olarak değiştirecektir."
+      "REDUCE_ONLY_SUPPORT": "Sadece Azalt özelliği için destek",
+      "REDUCE_ONLY_WILL_DISABLE": "Sadece Azaltma işlemleri, sadece Hemen Veya İptal (IOC) talimatları için kullanılabilir. Emir yürütme seçeneğini değiştirmek, Sadece Azalt özelliğini otomatik olarak devre dışı bırakacaktır.",
+      "REDUCE_ONLY_WILL_ENABLE": "Sadece Azaltma işlemleri, sadece Hemen Veya İptal (IOC) talimatları için kullanılabilir. Uygun olduğu durumlarda, Sadece Azalt özelliğini etkinleştirmek emir yürütme yönteminizi desteklenen bir seçenek ile otomatik olarak değiştirecektir."
     },
     "SHARE_ACTIVITY_MODAL": {
       "CASH": "Nakit",
       "COPY": "Kopyala ve Paylaş",
       "DOWNLOAD": "İndir",
       "ENTRY": "Girdi",
-      "I_WON": "Kazandım",
+      "I_WON": "Kazancım",
       "IN": ":",
       "INDEX": "Oracle",
       "LEVERAGE": "Kaldıraç",
@@ -2136,12 +2136,12 @@
       "BANXA_SUPPORT_LINK": "Banxa destek",
       "CHECK_ORDER_STATUS": "Bir fiat mevduat mı arıyorsunuz? Emir durumunuzu e-postanızda kontrol edin veya {BANXA_SUPPORT_LINK} ile iletişime geçin",
       "MODAL_BUY_CTA": "USDC satın alma",
-      "MODAL_CONFIRMATION": "Gaz ücreti ödemeden fiat para ile USDC satın almak için Banxa'dan emir verin. Emir durumunuzu e-postanızda kontrol edin veya {BANXA_SUPPORT_LINK} ile iletişime geçin",
+      "MODAL_CONFIRMATION": "Gas ücreti ödemeden fiat para ile USDC satın almak için Banxa'dan emir verin. Emir durumunuzu e-postanızda kontrol edin veya {BANXA_SUPPORT_LINK} ile iletişime geçin",
       "MODAL_CONFIRMATION_TITLE": "Banxa'daki işlemlerinizi bitirin",
       "MODAL_LEGAL_DISCLAIMER": "\"USDC Satın Al\" seçeneğine tıklayarak bu hizmetin size doğrudan Banxa.com Pty Ltd. (\"Banxa\") tarafından sağlandığını ve dYdX Trading Inc.'in (\"dYdX\") bu süreçte yer almadığını; bu hizmetin ve bir değer (ör. fiat para, kripto para, kredi vb.) karşılığında kripto para satın almanın ancak siz dYdX web sitesinden ve protokolden ayrıldıktan sonra gerçekleşeceğini ve bir değer iletiminin (gönderim, alım ve emanet değeri dahil) doğrudan Ethereum ağ adresiniz ve Banxa arasında gerçekleşeceğini teyit ve kabul edersiniz. Bu hizmet Amerika Birleşik Devletleri'nde yerleşik herhangi bir kişiye sağlanmaz. Ayrıca, Banxa'nın sizden talep ettiği bilgilerin (kart numarası ve KYC dâhil) dYdX'e verilmediğini ve siz ile Banxa arasındaki bir işlemle veya iletimle ilgili bir hususta dYdX'i sorumlu tutmayacağınızı kabul edersiniz. Bir uyuşmazlık durumunda, bu beyanın İngilizce sürümü geçerli olacaktır. Bu beyan https:\/\/dydx.exchange\/legal adresindeki dYdX Kullanım Koşulları'nda bulunabilir.",
       "MODAL_NEED_HELP": "Yardıma mı ihtiyacınız var?",
       "MODAL_SUBTITLE": "Banxa aracılığıyla USDC satın alın. Fonlar, doğrudan hesabınıza yatırılacaktır ve {NO_GAS_FEES_STYLED}.",
-      "NO_GAS_FEES_STYLED": "hiçbir gaz ücreti gerekmeden",
+      "NO_GAS_FEES_STYLED": "hiçbir gas ücreti gerekmeden",
       "PROMO_COPY": "Kredi kartıyla, banka havalesiyle ve daha fazlasıyla USDC satın alın. Fonlarınız doğrudan banka hesabınıza {NO_GAS_FEES_STYLED} yatırılacaktır.",
       "PROMO_CTA": "Şimdi satın alın"
     },
@@ -2289,7 +2289,7 @@
       "CONFIRM_LAUNCH_DETAILS": "Lansman Detaylarını Onayla",
       "CONFIRM_NEW_MARKET_PROPOSAL": "Yeni piyasa önerisini onaylayın",
       "DEPOSIT_AND_LAUNCH": "Yatırma ve Piyasa Başlatma",
-      "DEPOSIT_APR": "Yatırmada APR(YBF)",
+      "DEPOSIT_APR": "Yatırmada APR",
       "DEPOSIT_LOCKUP": "Yatırma Kilitleme",
       "DEPOSIT_LOCKUP_DESCRIPTION": "Eklenen fonlar {NUM_DAYS} günlük bir kilitleme süresi vardır. Fonlarınız tahmini {APR_PERCENTAGE} APR kazanacaktır (son {PAST_DAYS} güne göre).",
       "HIDE_STEPS": "Adımları gizle",
@@ -2333,8 +2333,8 @@
       "POPULATED_DETAILS": "Doldurulan ayrıntılar",
       "PREVIEW_LAUNCH": "Lansmanı Önizleyin",
       "PREVIEW_MARKET_PROPOSAL": "Piyasa teklifini önizleyin",
-      "PROPOSAL_DISCLAIMER": "Bir teklif gönderdiğinizde, cüzdanınızdan {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} düşülecektir. Yönetişim oylaması sonuçlandıktan sonra, teklifin veto edilmesi durumu dışında, bu token'lar cüzdanınıza iade edilecektir.",
-      "PROPOSAL_DISCLAIMER_1": "Bir teklif göndermek için {NUM_TOKENS_REQUIRED} adet stake edilmemiş {NATIVE_TOKEN_DENOM} gereklidir. Teklifin süresi boyunca {NATIVE_TOKEN_DENOM} token'ınız kilitlenecektir. Daha fazla bilgi için {HERE} üzerine tıklayın.",
+      "PROPOSAL_DISCLAIMER": "Bir teklif gönderdiğinizde, cüzdanınızdan {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} düşülecektir. Yönetişim oylaması sonuçlandıktan sonra, teklifin veto edilmesi durumu dışında, bu token'ler cüzdanınıza iade edilecektir.",
+      "PROPOSAL_DISCLAIMER_1": "Bir teklif göndermek için {NUM_TOKENS_REQUIRED} adet stake edilmemiş {NATIVE_TOKEN_DENOM} gereklidir. Teklifin süresi boyunca {NATIVE_TOKEN_DENOM} token'iniz kilitlenecektir. Daha fazla bilgi için {HERE} üzerine tıklayın.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Teklifiniz zincir üzerinde başarıyla gönderildi.",
       "PROPOSE_NEW_MARKET": "Yeni piyasa önerin",
       "READY_FOR_LAUNCH": "Lansman için Hazır",
@@ -2381,11 +2381,11 @@
     "AVAILABLE_ON_CHAIN": "{CHAIN} üzerinde kullanılabilir",
     "BALANCE_ON_CHAIN": "{CHAIN} üzerindeki bakiye",
     "BANNER_ALPHA_CONTENT": "dYdX Zinciri Alpha sürümünde - stake yaparak ağın güvenliğine yardımcı olun!",
-    "BANNER_CEASE_SUPPORT_WETHDYDX": "dYdX Topluluğu tarafından yapılan yönetişim {VOTE} ardından, dYdX Zinciri üzerindeki {SMART_CONTRACT} desteğinin Haziran 2025 tarihinden itibaren durdurulması beklenmektedir. Daha fazla bilgiyi burada bulabilirsiniz {BLOG_POST}. Kullanıcılar, dYdX zincirinin wethDYDX Akıllı Sözleşmesini desteklemeyi bırakacağı tarihten önce (yani Haziran 2025) wethDYDX Akıllı Sözleşmesi ile etkileşime girmeyen ethDYDX sahiplerinin, ethDYDX token'larını gelecekte (muhtemelen süresiz olarak) dYdX zincirinde DYDX token'larına dönüştüremeyeceğini unutmamalı ve anlamalıdır.",
+    "BANNER_CEASE_SUPPORT_WETHDYDX": "dYdX Topluluğu tarafından yapılan yönetişim {VOTE} ardından, dYdX Zinciri üzerindeki {SMART_CONTRACT} desteğinin Haziran 2025 tarihinden itibaren durdurulması beklenmektedir. Daha fazla bilgiyi burada bulabilirsiniz {BLOG_POST}. Kullanıcılar, dYdX zincirinin wethDYDX Akıllı Sözleşmesini desteklemeyi bırakacağı tarihten önce (yani Haziran 2025) wethDYDX Akıllı Sözleşmesi ile etkileşime girmeyen ethDYDX sahiplerinin, ethDYDX token'lerini gelecekte (muhtemelen süresiz olarak) dYdX zincirinde DYDX token'lerine dönüştüremeyeceğini unutmamalı ve anlamalıdır.",
     "BEFORE": "Önce",
     "CHECK_STATUS": "Durumu kontrol edin",
-    "CONFIRM_MIGRATION_DISCLAIMER_1": "Token'larımın dYdX Zinciri üzerinde kullanılabilir hale gelmesinin 24-48 saat sürebileceğini anladım.",
-    "CONFIRM_MIGRATION_DISCLAIMER_2": "ethDYDX token'larımın wethDYDX Akıllı Sözleşmesinde kalıcı olarak kilitleneceğini ve geri alınamayacağını anladım.",
+    "CONFIRM_MIGRATION_DISCLAIMER_1": "Token'lerimin dYdX Zinciri üzerinde kullanılabilir hale gelmesinin 24-48 saat sürebileceğini anladım.",
+    "CONFIRM_MIGRATION_DISCLAIMER_2": "ethDYDX token'lerimin wethDYDX Akıllı Sözleşmesinde kalıcı olarak kilitleneceğini ve geri alınamayacağını anladım.",
     "CONFIRM_MIGRATION": "Geçişi onayla",
     "DYDX_CHAIN_SETTLEMENT": "dYdX Zincir bağlama",
     "EMPTY_PENDING_MIGRATIONS_ALL": "Şu anda bekleyen bir geçiş yok.",
@@ -2405,25 +2405,25 @@
     "MIGRATION_BLOCKED_MESSAGE": "Kullanım şartlarımızı ihlal eden bir hukuki bölgede ikamet ettiğiniz veya bu kullanıcı arabirimini bu bölgeden kullandığınız için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğunuz için engellendiniz ve bu işlem gerçekleştirilemedi.",
     "MIGRATION_BLOCKED_MESSAGE_DESTINATION": "Hedef adresi, kullanım şartlarımızı ihlal eden bir yargı bölgesinde ikamet ettiği veya bu kullanıcı arabirimini bu bölgeden kullandığı için veya kullanım şartlarımızı ihlal eden bir faaliyette bulunduğu için, hedef adresi engellendi ve bu işlem gerçekleştirilemedi.",
     "MIGRATION_FAILED": "Geçiş başarısız",
-    "MIGRATION_FAQ_DYDX_CHAIN_PORTAL_ANSWER": "dYdX Topluluğu, Ethereum tabanlı DYDX'in dYdX Zinciri'ne geçirilmesi yönünde o kullandı (oy verme {HERE}). Bu portal, Ethereum tabanlı DYDX sahiplerinin, DYDX tokenlarını Ethereum'dan dYdX Zinciri'ne geçirmek için Ethereum akıllı sözleşmesini kullanmalarına olanak tanır.",
+    "MIGRATION_FAQ_DYDX_CHAIN_PORTAL_ANSWER": "dYdX Topluluğu, Ethereum tabanlı DYDX'in dYdX Zinciri'ne geçirilmesi yönünde o kullandı (oy verme {HERE}). Bu portal, Ethereum tabanlı DYDX sahiplerinin, DYDX token'lerini Ethereum'dan dYdX Zinciri'ne geçirmek için Ethereum akıllı sözleşmesini kullanmalarına olanak tanır.",
     "MIGRATION_FAQ_DYDX_CHAIN_PORTAL": "dYdX Zincir Portalı nedir?",
-    "MIGRATION_FAQ_GAS_FEES_ANSWER": "Evet, portalla etkileşime giren token sahipleri, Ethereum üzerinde gaz ücretleri ödemek zorundalar. Kullanıcılar, dYdX Zinciri üzerinde gaz ücretleri ödemek zorunda kalmayacak.",
-    "MIGRATION_FAQ_GAS_FEES": "Gaz ücretlerini ödemek zorunda mıyım?",
+    "MIGRATION_FAQ_GAS_FEES_ANSWER": "Evet, portalla etkileşime giren token sahipleri, Ethereum üzerinde gas ücretleri ödemek zorundalar. Kullanıcılar, dYdX Zinciri üzerinde gas ücretleri ödemek zorunda kalmayacak.",
+    "MIGRATION_FAQ_GAS_FEES": "Gas ücretlerini ödemek zorunda mıyım?",
     "MIGRATION_FAQ_HOW_LONG_ANSWER": "Ethereum tabanlı DYDX, Ethereum akıllı sözleşmesine başarıyla gönderildikten sonra, kullanıcı hemen wethDYDX alacaktır. dYdX Zinciri doğrulayıcıları, Ethereum işlemini sonuçlandırıldıktan sonra (bu da yaklaşık 20 dakika sürer) onaylayacaktır. dYdX Zincir doğrulayıcıları Ethereum işlemini onayladıktan sonra, dYdX Zinciri DYDX bağlanması 86400 blok boyunca gecikecektir; bu da yaklaşık 38,5 saate karşılık gelir. 86400 blok gecikmesinden sonra, dYdX Zincir doğrulayıcıları dYdX Zincir adresine belirtilen DYDX miktarını gönderecektir.",
     "MIGRATION_FAQ_HOW_LONG": "Geçiş ne kadar sürer?",
     "MIGRATION_FAQ_HOW_TO_TRACK_ANSWER": "Ethereum işleminiz kesinleştirildikten sonra (ki bu da yaklaşık 20 dakika sürer), bekleyen dYdX Zincir geçişinizi Bekleyen Geçişler sekmesinde izleyebilirsiniz. Bir dYdX Zincir adresini yapıştırarak tabloda filtreleme yapabilir ve bu adresin bekleyen tüm geçişlerini görebilirsiniz. Bekleyen geçiş dYdX Zincir Adresine bağlandıktan sonra, bu geçiş artık tabloda gösterilmeyecektir.",
     "MIGRATION_FAQ_HOW_TO_TRACK": "Geçiş işlemimin durumunu nasıl izleyebilirim?",
-    "MIGRATION_FAQ_WHAT_ADDRESS_ANSWER": "Kullanıcılar portalı kullanarak, dYdX Zinciri DYDX token'larını herhangi bir dYdX Zincir adresine gönderebilirler. Kullanıcılar token'ları doğrudan, kendi Ethereum adreslerinin imzasından otomatik olarak oluşturulan dYdX Zincir adreslerine gönderebilirler.",
+    "MIGRATION_FAQ_WHAT_ADDRESS_ANSWER": "Kullanıcılar portalı kullanarak, dYdX Zinciri DYDX token'lerini herhangi bir dYdX Zincir adresine gönderebilirler. Kullanıcılar token'leri doğrudan, kendi Ethereum adreslerinin imzasından otomatik olarak oluşturulan dYdX Zincir adreslerine gönderebilirler.",
     "MIGRATION_FAQ_WHAT_ADDRESS": "dYdX Zinciri DYDX'ini hangi adrese gönderebilirim?",
     "MIGRATION_FAQ_WHAT_TOKENS_ANSWER": "Portalı başarıyla kullanan token sahipleri, Ethereum üzerinde wethDYDX ve dYdX Zinciri üzerinde DYDX teslim alabilirler.",
-    "MIGRATION_FAQ_WHAT_TOKENS": "Hangi token'ları alacağım?",
+    "MIGRATION_FAQ_WHAT_TOKENS": "Hangi token'leri alacağım?",
     "MIGRATION_FAQ_WRAPPED_TOKENS_ANSWER": "wethDYDX, Ethereum tabanlı DYDX'i akıllı sözleşmeye başarıyla gönderen tüm kullanıcılara 1:1 oranında mint edilir. wethDYDX, Ethereum tabanlı DYDX ile aynı v3 yönetişim haklarına sahiptir ve başkasına devredilebilir. wethDYDX, v4'e köprülenemez.",
-    "MIGRATION_FAQ_WRAPPED_TOKENS": "Sarılı (wrapped) Ethereum DYDX token'ı (\"wethDYDX\") nedir?",
+    "MIGRATION_FAQ_WRAPPED_TOKENS": "Sarılı (wrapped) Ethereum DYDX token'i (\"wethDYDX\") nedir?",
     "MIGRATION_HELP": "Geçiş yardımı",
     "NEW_MIGRATION": "Yeni geçiş",
     "NOT_STARTED": "Başlatılmadı",
     "PENDING_MIGRATIONS_DESCRIPTION_I": "Bu tabloda devam eden tüm Ethereum'dan dYdX Zinciri'ne token geçişleri sıralanır. Tablo belirli aralıklarla veya bir sayfa manuel olarak yeniden yüklendiğinde yenilenir. Yeni girişler, ilgili Ethereum işlemlerinin kesinleştirilmesinden birkaç dakika sonra görünecektir; kesinleştirme de genellikle yaklaşık 25 dakika sürer.",
-    "PENDING_MIGRATIONS_DESCRIPTION_II": "Bekleyen bir geçiş listeye alındıktan sonra, token'ların aktarılacağı dYdX Zinciri bloğunu buradan görebilirsiniz. Lütfen gösterilen tahmini sürenin yalnızca bir tahmin olduğunu unutmayın; bu süre, dYdX Zinciri blok süresi dalgalanmalarına bağlı olarak değişebilir.",
+    "PENDING_MIGRATIONS_DESCRIPTION_II": "Bekleyen bir geçiş listeye alındıktan sonra, token'lerin aktarılacağı dYdX Zinciri bloğunu buradan görebilirsiniz. Lütfen gösterilen tahmini sürenin yalnızca bir tahmin olduğunu unutmayın; bu süre, dYdX Zinciri blok süresi dalgalanmalarına bağlı olarak değişebilir.",
     "PENDING_MIGRATIONS_DESCRIPTION_III": "Geçiş bağlandıktan sonra, bir sonraki otomatik güncelleme sırasında veya sayfa manuel olarak yenilendiğinde bu tablodan çıkarılır.",
     "PENDING_MIGRATIONS": "Bekleyen Geçişler",
     "PREVIEW_MIGRATION": "Geçişi önizle",
@@ -2479,7 +2479,7 @@
     "BROADCAST_ERROR_2005": "Talimat, tekil alt hesap kısıtlarını ihlal edecektir.",
     "BROADCAST_ERROR_3000": "Geçersiz talimat işaretleri.",
     "BROADCAST_ERROR_3001": "Geçersiz talimat goodTilBlockTime.",
-    "BROADCAST_ERROR_3002": "Durum denetlemeli emirler derhal yürütme gerektiremez",
+    "BROADCAST_ERROR_3002": "Durum denetlemeli emirler derhal yürütme gerektiremez.",
     "BROADCAST_ERROR_3003": "Blok süresi mesajın GoodTilBlockTime süresinden daha büyük.",
     "BROADCAST_ERROR_3004": "Mesajın GoodTilBlockTime süresi StatefulOrderTimeWindow süresinden daha ileride.",
     "BROADCAST_ERROR_3005": "Mevcut durum denetlemeli emir yeni emirden daha yüksek veya eşit önceliğe sahiptir.",
@@ -2500,14 +2500,14 @@
       "AMOUNT_INPUT_STEP_SIZE": "Emir miktarı {STEP_SIZE} adım boyutunun bir katı olmalıdır.",
       "BRACKET_ORDER_FAILED_TO_PLACE": "Destekli emriniz içindeki emirlerden biri veya daha fazlası başarısız oldu. Lütfen aktif kâr alma ve zarar durdurma emirlerinizi gözden geçirmek için Emirler sekmesini kontrol edin.",
       "BRACKET_ORDER_STOP_LOSS_ABOVE_EXPECTED_PRICE": "Zarar durdurma tetikleme emir fiyatınız, piyasa emrinin beklenen fiyatı olan ${EXPECTED_PRICE} üzerinde olmalıdır.",
-      "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "Stop loss (zarar durdurma) tetikleme fiyatınız tasfiye fiyatınıza çok yakın - stop loss emri, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin.",
+      "BRACKET_ORDER_STOP_LOSS_ABOVE_LIQUIDATION_PRICE": "Zarar durdurma tetikleme fiyatınız tasfiye fiyatınıza çok yakın - zarar durdurma emri, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin.",
       "BRACKET_ORDER_STOP_LOSS_BELOW_EXPECTED_PRICE": "Zarar durdurma tetikleme fiyatınız piyasa emrinin beklenen fiyatı olan ${EXPECTED_PRICE} altında olmalıdır.",
-      "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "Stop loss (zarar durdurma) tetikleme fiyatınız tasfiye fiyatınıza çok yakın - stop loss emri, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin.",
+      "BRACKET_ORDER_STOP_LOSS_BELOW_LIQUIDATION_PRICE": "Zarar durdurma tetikleme fiyatınız tasfiye fiyatınıza çok yakın - zarar durdurma emri, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin.",
       "BRACKET_ORDER_TAKE_PROFIT_ABOVE_EXPECTED_PRICE": "Kâr alma tetikleme fiyatınız piyasa emrinin beklenen fiyatı olan ${EXPECTED_PRICE} üzerinde olmalıdır.",
       "BRACKET_ORDER_TAKE_PROFIT_ABOVE_LIQUIDATION_PRICE": "Kâr alma fiyatınız tasfiye fiyatınıza çok yakın; kâr alma emriniz tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin.",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_EXPECTED_PRICE": "Kâr alma tetikleme fiyatınız piyasa emrinin beklenen fiyatı olan ${EXPECTED_PRICE} altında olmalıdır.",
       "BRACKET_ORDER_TAKE_PROFIT_BELOW_LIQUIDATION_PRICE": "Kâr alma fiyatınız tasfiye fiyatınıza çok yakın; kâr alma emriniz tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin.",
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin veya bir Durdurma Limiti emri kullanın.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen ${TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin veya bir Limit Durdurma emri kullanın.",
       "INVALID_LARGE_POSITION_LEVERAGE": "Bu alım satım işlemi pozisyonunuz üzerinde geçersiz bir kaldıraçla sonuçlanacaktır. Riski sınırlamak için, daha büyük pozisyonların daha düşük maksimum kaldıraç oranları vardır.",
       "INVALID_NEW_ACCOUNT_MARGIN_USAGE": "Bu işlem, hesabınızda %100 marjin kullanımı ile sonuçlanır.",
       "INVALID_NEW_POSITION_LEVERAGE": "Bu işlem, pozisyonunuz üzerinde geçersiz bir kaldıraç oluşturacaktır.",
@@ -2535,13 +2535,13 @@
       "TARGET_LEVERAGE_TOO_HIGH": "Hedef kaldıracınız çok yüksek. Lütfen hedef kaldıracınızı azaltın.",
       "TRIGGER_MUST_ABOVE_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının üstünde olmalıdır: {INDEX_PRICE}.",
       "TRIGGER_MUST_BELOW_INDEX_PRICE": "Tetikleme fiyatınız mevcut oracle fiyatının altında olmalıdır: {INDEX_PRICE}.",
-      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen tetikleme fiyatınızı güncelleyin veya bir Durdurma Limiti emri kullanın.",
+      "TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen tetikleme fiyatınızı güncelleyin veya bir Limit Durdurma emri kullanın.",
       "USER_MAX_ORDERS": "Bu talimat, her bir taraf için piyasa başına maksimum 20 açık talimat limitinin üzerine çıkaracaktır.",
       "USER_MAX_ORDERS_FOR_EQUITY_TIER": "Bu emir sizi net varlık seviyesi için {LIMIT} açık emir limitinin üzerine çıkaracaktır",
       "USER_MAX_ORDERS_FOR_CURRENT_EQUITY_TIER": "Bu talimat sizi varlık seviyeniz için geçerli {LIMIT} açık talimat limitinin üzerine çıkaracaktır. Bir sonraki varlık seviyesi {EQUITY} düzeyindedir.",
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "Bu talimat sizi {LIMIT} düzeyindeki açık talimat limitinin üzerine çıkaracaktır.",
       "WOULD_NOT_REDUCE": "Emir karşılanırsa pozisyonunuz azalmayacaktır.",
-      "WOULD_NOT_REDUCE_UNCHECK": "Pozisyonunuz bu emriniz ile azaltılmayacaktır. Emrinizi vermek istiyorsanız lütfen Yalnızca Azalt işaretini kaldırın.",
+      "WOULD_NOT_REDUCE_UNCHECK": "Pozisyonunuz bu emriniz ile azaltılmayacaktır. Emrinizi vermek istiyorsanız lütfen Sadece Azalt işaretini kaldırın.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "Geçerlilik süresi maksimum 90 günü aşıyor.",
       "POSITION_LEVERAGE_OVER_MAX": "Oluşacak pozisyon kaldıracı, bu piyasa için maksimum kaldıracın üzerinde olacaktır.",
       "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "Emriniz, izole marjin emirleri için gerekli olan minimum teminatın altındadır. İzole marjin emirleri en az {MIN_VALUE} teminat gerektirir."
@@ -2578,11 +2578,11 @@
       "MISSING_TRIGGER_PRICE": "Tetikleme fiyatını girin",
       "MISSING_TRAILING_PERCENTAGE": "Takipçi yüzdesini girin",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Piyasa Durdurma",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Kâr Alma Piyasa",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Piyasa Kâr Alma",
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tasfiye Riski",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tasfiye Riski",
-      "ORDER_WOULD_FLIP_POSITION": "Yalnızca azalt",
-      "WOULD_NOT_REDUCE_UNCHECK": "Yalnızca azalt",
+      "ORDER_WOULD_FLIP_POSITION": "Sadece azalt",
+      "WOULD_NOT_REDUCE_UNCHECK": "Sadece azalt",
       "LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Geçersiz limit fiyatı",
       "LIMIT_MUST_BELOW_TRIGGER_PRICE": "Geçersiz limit fiyatı",
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Limit fiyatı",
@@ -2738,7 +2738,7 @@
       "MARKET_ORDER_WARNING_ORDERBOOK_SLIPPAGE": "Çok fazla kayma",
       "MARKET_STATUS_CLOSE_ONLY": "Sadece kapat",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Piyasa Durdurma",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Kâr Alma Piyasa"
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Piyasa Kâr Alma"
     }
   }
 }
