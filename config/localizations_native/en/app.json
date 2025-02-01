@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOS App Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "Isolated positions coming soon to mobile",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders for isolated positions coming soon to mobile",
+      "LAUNCH_ON_WEB": "Launch on web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Leaderboards",
       "LEARN_MORE_ABOUT_WALLETS": "Learn more about wallets",
@@ -444,6 +445,10 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"On a wide range of topics, including politics, sports, pop culture, and more.",
       "SETTLEMENT_OUTCOMES_TITLE": "$0 or $1 Settlement",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Requires a deposit {DEPOSIT_AMOUNT} into MegaVault",
+        "LAUNCH_MARKET_LINE2": "Your deposit will earn an estimated {APR} APR"
     }
   },
   "RATE_APP": {
