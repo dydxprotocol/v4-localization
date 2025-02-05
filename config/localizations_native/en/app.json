@@ -448,7 +448,11 @@
     },
     "VAULT":  {
         "LAUNCH_MARKET_LINE1": "Requires a deposit {DEPOSIT_AMOUNT} into MegaVault",
-        "LAUNCH_MARKET_LINE2": "Your deposit will earn an estimated {APR} APR"
+        "LAUNCH_MARKET_LINE2": "MegaVault has an estimated {APR} APR"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "This is the maximum amount of exposure you can get with your deposit. It is not the amount you can deposit or withdraw. Your buying power can change rapidly and may be positive even when you are making losses.",
+        "RISK_TOOLTIP": "This is the percentage of your deposit held as margin by your open positions. This can change rapidly when the market price changes."
     }
   },
   "RATE_APP": {
