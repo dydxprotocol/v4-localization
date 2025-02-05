@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOS App Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "Isolated positions coming soon to mobile",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders for isolated positions coming soon to mobile",
+      "LAUNCH_ON_WEB": "Launch on web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Leaderboards",
       "LEARN_MORE_ABOUT_WALLETS": "Learn more about wallets",
@@ -252,13 +253,13 @@
       "MODE": {
         "SELECT_PREFERENCE": "Select Preference",
         "MODE_TO_BE_USED": "This mode will be used for all trades",
-        "CHANGE_SETINGS": "Change this from Profile › Settings",
+        "CHANGE_SETINGS": "Change this from Settings",
         "SIMPLE": "Default",
         "ADVANCED": "Advanced",
         "EASIER": "Easier to use",
         "POWERFUL": "More powerful",
         "TRADE_BOX": "Mode",
-        "SELECT_MODE": "Select Mode",
+        "SELECT_MODE": "Select mode",
         "SWAP": "Swap",
         "SIMPLE_AND_EASIER": "Focused yet powerful",
         "PRO": "Pro",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"On a wide range of topics, including politics, sports, pop culture, and more.",
       "SETTLEMENT_OUTCOMES_TITLE": "$0 or $1 Settlement",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Requires a deposit {DEPOSIT_AMOUNT} into MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault has an estimated {APR} APR"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "This is the maximum amount of exposure you can get with your deposit. It is not the amount you can deposit or withdraw. Your buying power can change rapidly and may be positive even when you are making losses.",
+        "RISK_TOOLTIP": "This is the percentage of your deposit held as margin by your open positions. This can change rapidly when the market price changes."
     }
   },
   "RATE_APP": {
