@@ -1126,6 +1126,7 @@
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Subject to these rules",
       "SWAP": "Swap",
+      "TO_DEPOSIT_FROM_COINBASE": "To deposit from Coinbase, send {ASSET} on {NETWORK} to the address shown below.",
       "ESTIMATED_TIME": "Estimated Time",
       "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Your funds are now available for trading.",
@@ -2759,8 +2760,7 @@
     },
     "ONBOARDING": {
       "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys.",
-      "NOBLE_CHAIN_ONLY": "          This address is only for Noble USDC transfers to the Noble Chain. Sending any funds from
-          other blockchains will result in a loss of those funds."
+      "NOBLE_CHAIN_ONLY": "This address is only for Noble USDC transfers to the Noble Chain. Sending any funds from other blockchains will result in a loss of those funds."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "The slippage on this order is low - we recommend a limit price of ${LIMIT_PRICE} or higher to improve your odds of filling this order. Your order will execute at the best possible price when it triggers.",
