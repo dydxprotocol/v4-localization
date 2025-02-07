@@ -253,24 +253,31 @@
         "SELECT_PREFERENCE": "Tercih Seçin",
         "MODE_TO_BE_USED": "Tüm alım satımlar için bu mod kullanılacaktır",
         "CHANGE_SETINGS": "Profil › Ayarlar üzerinden bunu değiştirebilirsiniz",
-        "SIMPLE": "Basit",
+        "SIMPLE": "Varsayılan",
         "ADVANCED": "Gelişmiş",
         "EASIER": "Kullanımı daha kolay",
         "POWERFUL": "Daha güçlü",
         "TRADE_BOX": "Mod",
         "SELECT_MODE": "Mod Seçin",
         "SWAP": "Takas",
-        "SIMPLE_AND_EASIER": "Basit ve kullanımı kolay",
+        "SIMPLE_AND_EASIER": "Odaklanmış ama güçlü",
         "PRO": "Pro",
-        "FULLY_FEATURED": "Tam özellikli"
+        "FULLY_FEATURED": "Tam özellikli",
+        "SWITCH_TO_PRO": "Pro sürüme geç"
       },
       "YOUR_POSITION": "{TOKEN} Pozisyonunuz",
       "MARGIN_RISK": "Marjin Riski",
       "HIGH": "Yüksek",
+      "HIGH_RISK": "Yüksek Risk",
       "MEDIUM": "Orta",
+      "MEDIUM_RISK": "Orta Risk",
       "LOW": "Düşük",
+      "LOW_RISK": "Düşük Risk",
       "SWAP": "Takas",
       "RISK": "Risk",
+      "SLIDE_TO_BUY": "Uzun için kaydır",
+      "SLIDE_TO_SELL": "Kısa için kaydır",
+      "SLIDE_TO_CLOSE": "Kapatmak için kaydır",
       "FROM_TO": "{TOKEN_FROM} token'inden {TOKEN_TO} token'ine",
       "CLOSING_POSITION": "{TOKEN_FROM} pozisyonu",
       "PLACE_ANOTHER_TRADE": "Başka bir alım satım emri verin",
@@ -462,8 +469,8 @@
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Durdurma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Durdurma Limit emri kullanmayı deneyin.",
-      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Kâr Alma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Kâr Alma Limit emri kullanmayı deneyin."
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Durdurma Piyasa emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Limit Durdurma emri kullanmayı deneyin.",
+      "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "dYdX üzerindeki Piyasa Kâr Alma emirlerinin, tetikleme sırasındaki likiditeye bağlı olarak karşılanması garanti edilememektedir. Daha fazla kontrol sağlamak için bir Limit Kâr Alma emri kullanmayı deneyin."
     }
   }
 }
