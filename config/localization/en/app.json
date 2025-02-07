@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "Deposit more",
       "DEPOSIT_WITH_FIAT": "Deposit with fiat",
       "DEPOSIT": "Deposit",
+      "DEPOSIT_WITH": "Deposit with {TARGET}",
       "DEPTH_CHART_SHORT": "Depth",
       "DESTINATION": "Destination",
       "DETAILED_VIEW": "Detailed view",
@@ -208,7 +209,6 @@
       "BIGGEST_MOVERS": "Biggest Movers",
       "RECENTLY_LISTED": "Recently Listed",
       "GAINERS": "Gainers",
-      "LEARN_MORE": "Learn more",
       "LOSERS": "Losers",
       "EARNED_BY_STAKERS": "Earned by Stakers",
       "ADD_NEW_MARKET": "Add new market",
@@ -315,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% off",
       "REMOVING": "Removing",
       "RESULTS": "Results",
+      "RETRY": "Retry",
       "REVIEW": "Review",
       "REWARDS": "Rewards",
       "REWARDED": "Rewarded",
@@ -914,8 +915,10 @@
       "CREDITED_WITH": "Your account will be credited with ${AMOUNT_USD} in test funds.",
       "DEPOSIT_ALERT_TITLE": "You have {PENDING_DEPOSITS} pending deposit from {SOURCE_CHAIN}.",
       "DEPOSIT_ALERT_SUBTITLE": "Check status",
+      "DEPOSIT_AVAILABLE": "Your deposit of {AMOUNT_USD} is now available.",
       "DEPOSIT_COMPLETE": "Your deposit of {AMOUNT_USD} is now available.",
       "DEPOSIT_OF": "Deposit of {AMOUNT_USD}",
+      "DEPOSIT_PENDING": "Your deposit of {AMOUNT_USD} is pending.",
       "DEPOSIT_STATUS": "Your deposit of {AMOUNT_USD} will be available in approximately {ESTIMATED_DURATION}.",
       "DEPOSIT_STATUS_SHORTLY": "Your deposit of {AMOUNT_USD} will be available shortly.",
       "DEPOSIT_TO_DESTINATION": "Deposit to {DESTINATION_CHAIN}",
@@ -949,6 +952,7 @@
       "LEGACY_SIGNING": "Legacy signing",
       "LINK_WALLET": "Link wallet",
       "LINKING_WALLET": "Linking wallet",
+      "MINIMUM_DEPOSIT": "Min. deposit is {MIN_DEPOSIT_USDC}",
       "MISSING_KEYS_DESCRIPTION": "Welcome back! One or more of your keys needs to be recovered",
       "NEED_A_WALLET": "Need a wallet?",
       "NOBLE_ADDRESS": "Noble Address",
@@ -987,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Sign in with email or social",
       "SIGN_IN_WITH_EMAIL": "Sign in with email",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "A simple way to sign in, powered by {MAGIC}",
+      "SKIP_FAST_ROUTE_DESC": "$$ fee, ${LIMIT_AMOUNT} limit",
+      "SKIP_SLOW_ROUTE_DESC": "$ fee, no limit",
       "SKIP_FOR_NOW": "Skip for now",
       "SITE_OPERATED_BY_SHORT": "This site is operated by {NAME_OF_DEPLOYER}, utilizing software open sourced by dYdX Trading Inc. {LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "This site is operated by {NAME_OF_DEPLOYER} subject to {DEPLOYER_TERMS_AND_CONDITIONS}, utilizing certain software open sourced by third party dYdX Trading Inc. subject to its {TERMS_OF_USE}, which prohibit use of the software by persons based in the United States or other restricted jurisdictions. The dYdX blockchain is powered by a community of independent validators. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Start trading on the world's most powerful open exchange.",
       "SWITCH_NETWORK": "Switch network",
+      "SWITCH_NETWORKS": "Switch networks",
       "TOS_TITLE": "By using any of our products and services, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}. You hereby agree, represent and warrant that:",
       "TOS_LINE1": "You are not a person or company who is a resident of, or is located, incorporated or has a registered agent in, the United States, Canada, or other blocked or restricted location.",
       "TOS_LINE2": "You will not in the future access this site, or use our products or services, while located within the United States, Canada, or other blocked or restricted location.",
@@ -1022,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "Check status",
       "WITHDRAW_COMPLETE": "Your withdrawal of {AMOUNT_USD} is now available.",
       "WITHDRAW_OF": "Withdraw of {AMOUNT_USD}",
+      "WITHDRAW_PENDING": "Your withdrawal of {AMOUNT_USD} is pending.",
       "WITHDRAW_STATUS": "Your withdrawal of {AMOUNT_USD} will be available in approximately {ESTIMATED_DURATION}.",
       "WITHDRAW_STATUS_SHORTLY": "Your withdrawal of {AMOUNT_USD} will be available shortly.",
       "WITHDRAWALS_PAUSED": "Withdrawals temporarily paused",
@@ -1090,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Acknowledge terms and deposit",
+      "APPROVE_USDC": "Approve USDC",
       "BRIDGE_FEE": "Bridge Fee",
+      "DEPOSIT_VIA_COINBASE": "Deposit via Coinbase",
       "ENABLE_FOR_THIS_DEPOSIT": "Enable for this deposit",
       "ENABLE_SYMBOL_ON_DYDX": "Enable {SYMBOL} on dYdX",
       "ENABLE_SYMBOL": "Enable {SYMBOL}",
@@ -1104,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gasless deposits are subject to these rules",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!",
       "GASLESS_ETH_DEPOSITS": "Gasless deposits are not available for ETH. You can convert your ETH to WETH on {1INCH_WETH_LINK} or {UNISWAP_WETH_LINK} and use WETH gasless deposits, or directly deposit ETH by paying your own gas costs.",
+      "HELD": "held",
       "LOWEST_FEE_DEPOSITS": "USDC deposits from {LOWEST_FEE_TOKENS_TOOLTIP} have the lowest fees. Other deposits may have additional third-party fees.",
       "MAX_SLIPPAGE": "Max Slippage",
       "MINIMUM_DEPOSIT_AMOUNT": "Minimum Deposit Amount",
@@ -1116,7 +1127,11 @@
       "SUBJECT_TO_RULES": "Subject to these rules",
       "SWAP": "Swap",
       "ESTIMATED_TIME": "Estimated Time",
-      "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Your funds are now available for trading.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "Your funds will be available soon, and you may safely close this window.",
+      "YOU_MAY_CLOSE_WINDOW": "You may safely close this window.",
+      "YOUR_DEPOSIT": "Your deposit"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Enable withdraw",
@@ -1138,7 +1153,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "This {STYLED_SLOW} withdraw may take up to {HOURS} hours before it is available to withdraw. You will be responsible for the withdraw transaction gas fees. If you need your funds sooner, try a {STYLED_FAST} withdraw.",
       "WITHDRAW_IRREVERSIBLE": "Initiating a withdraw is irreversible.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "High third party fees from chosen route. I acknowledge:\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "I acknowledge the following warning:\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "I acknowledge the following warning:\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "Your funds have been withdrawn.",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "Your funds will be withdrawn shortly. You may safely close this window.",
+      "YOUR_WITHDRAWAL": "Your withdrawal"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "About wallets",
@@ -2685,13 +2703,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "Your wallet network is incorrect. Please make sure it’s set to 'Ethereum Mainnet'.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "Your wallet network is incorrect. Please make sure it’s set to 'Goerli Test Network'.",
       "MUST_SPECIFY_ASSET": "Please select an asset to deposit.",
-      "MUST_SPECIFY_CHAIN": "Please select a source chain to deposit from."
+      "MUST_SPECIFY_CHAIN": "Please select a source chain to deposit from.",
+      "YOUR_DEPOSIT_FAILED": "Your deposit has failed. Please try again."
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "There is not enough liquidity to process this fast withdraw. Please try a smaller amount.",
       "MAX_FAST_WITHDRAW_AMOUNT": "Please enter a withdraw amount less than {MAX_FAST_WITHDRAW_AMOUNT}.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Slow withdraw amount must be greater than or equal to 10, or your entire account balance.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Your account is restricted. You must close all your positions before you can withdraw.",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "Your withdrawal request failed. Please try again.",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "Your withdrawal request would leave your account undercollateralized. Please try a smaller amount.",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "You cannot withdraw more than your free collateral. Make sure you account for the fast withdraw fee when entering an amount.",
       "WITHDRAW_MORE_THAN_FREE": "You cannot withdraw more than your free collateral.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Please enter a destination address.",
@@ -2714,6 +2735,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "Launching a market requires a minimum of {USDC_AMOUNT} USDC of cross free collateral",
       "NOT_ENOUGH_BALANCE": "You need at least {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} to add a market."
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "Please change your wallet network and try again.",
+      "ERROR_WITH_APPROVAL": "There was an error with your approval.",
+      "INSUFFICIENT_GAS_BALANCE": "Insufficient gas balance. Please add gas funds and try again.",
+      "USER_REJECTED": "User rejected request.",
+      "YOUR_APPROVAL_FAILED": "Your approval has failed. Please try again."
     }
   },
   "WARNINGS": {
@@ -2730,7 +2758,9 @@
       "TRANSFERS_PAUSED_ACTION": "Transfers paused"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys."
+      "ALWAYS_VERIFY_URL": "Always check and verify you are on https://trade.dydx.exchange when recovering your keys.",
+      "NOBLE_CHAIN_ONLY": "          This address is only for Noble USDC transfers to the Noble Chain. Sending any funds from
+          other blockchains will result in a loss of those funds."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "The slippage on this order is low - we recommend a limit price of ${LIMIT_PRICE} or higher to improve your odds of filling this order. Your order will execute at the best possible price when it triggers.",
