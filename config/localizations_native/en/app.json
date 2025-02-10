@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "Requires a deposit {DEPOSIT_AMOUNT} into MegaVault",
+        "LAUNCH_MARKET_LINE1": "Requires {DEPOSIT_AMOUNT} added to MegaVault",
         "LAUNCH_MARKET_LINE2": "MegaVault has an estimated {APR} APR"
     },
     "SIMPLE_UI": {
