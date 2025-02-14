@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "Zahlen Sie mehr ein",
       "DEPOSIT_WITH_FIAT": "Mit Fiat einzahlen",
       "DEPOSIT": "Einzahlung",
+      "DEPOSIT_WITH": "Einzahlung bei {TARGET}",
       "DEPTH_CHART_SHORT": "Tiefe",
       "DESTINATION": "Reiseziel",
       "DETAILED_VIEW": "Detaillierte Ansicht",
@@ -158,6 +159,7 @@
       "EST_GAS": "Est. Gas",
       "EST_REWARDS": "Est. Prämien",
       "ESTIMATED": "Geschätzt",
+      "ESTIMATED_COST": "Geschätzte Kosten",
       "EXPAND_SECTION": "Abschnitt erweitern",
       "EXPAND": "Erweitern",
       "FAST_WITHDRAW": "Schnelle Auszahlung",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "Keine Ergebnisse",
       "HIGHLIGHTS": "Highlights",
       "LAUNCHABLE": "Startbar",
+      "LAUNCHABLE_DETAILS": "Dieser Markt ist startfähig",
       "LAYER_1": "Schicht 1",
       "LAYER_2": "Layer 2",
       "LEARN_MORE": "Mehr erfahren",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% Abzug",
       "REMOVING": "Entfernen",
       "RESULTS": "Ergebnisse",
+      "RETRY": "Erneut versuchen",
       "REVIEW": "Überprüfung",
       "REWARDS": "Prämien",
       "REWARDED": "Mit einem Reward belohnt",
@@ -911,8 +915,10 @@
       "CREDITED_WITH": "Ihrem Konto werden ${AMOUNT_USD} Testgelder gutgeschrieben.",
       "DEPOSIT_ALERT_TITLE": "Sie haben {PENDING_DEPOSITS} ausstehende Einzahlung von {SOURCE_CHAIN}.",
       "DEPOSIT_ALERT_SUBTITLE": "Status prüfen",
+      "DEPOSIT_AVAILABLE": "Ihre Einzahlung von {AMOUNT_USD} ist jetzt verfügbar.",
       "DEPOSIT_COMPLETE": "Ihre Einzahlung von {AMOUNT_USD} ist jetzt verfügbar.",
       "DEPOSIT_OF": "Einzahlung von {AMOUNT_USD}",
+      "DEPOSIT_PENDING": "Ihre Einzahlung steht {AMOUNT_USD} noch aus.",
       "DEPOSIT_STATUS": "Ihre Einzahlung von {AMOUNT_USD} wird in ungefähr verfügbar sein {ESTIMATED_DURATION}.",
       "DEPOSIT_STATUS_SHORTLY": "Ihre Einzahlung von {AMOUNT_USD}wird in Kürze verfügbar sein.",
       "DEPOSIT_TO_DESTINATION": "Einzahlung auf {DESTINATION_CHAIN}",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "Legacy Signing",
       "LINK_WALLET": "Wallet verbinden",
       "LINKING_WALLET": "Wallet verknüpfen",
+      "MINIMUM_DEPOSIT": "Mindesteinzahlung beträgt {MIN_DEPOSIT_USDC}",
       "MISSING_KEYS_DESCRIPTION": "Willkommen zurück! Mindestens einer Ihrer Schlüssel muss wiederhergestellt werden",
       "NEED_A_WALLET": "Brauchen Sie eine Wallet?",
       "NOBLE_ADDRESS": "Noble Adresse",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Mit E-Mail oder sozialen Netzwerken anmelden",
       "SIGN_IN_WITH_EMAIL": "Mit E-Mail anmelden",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Eine einfache Möglichkeit, sich anzumelden, unterstützt durch {MAGIC}",
-      "SKIP_FOR_NOW": "Für jetzt überspringen",
+      "SKIP_FAST_ROUTE_DESC": "$$-Gebühr, ${LIMIT_AMOUNT}-Limit",
+      "SKIP_SLOW_ROUTE_DESC": "Gebühr in $, kein Limit",
+      "SKIP_FOR_NOW": "Vorerst überspringen",
       "SITE_OPERATED_BY_SHORT": "Diese Website wird betrieben von {NAME_OF_DEPLOYER}, unter Verwendung von Open-Source-Software von dYdX Trading Inc. {LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "Diese Website wird von unter {NAME_OF_DEPLOYER} der Verwendung bestimmter Software {DEPLOYER_TERMS_AND_CONDITIONS} betrieben, die von dYdX Trading Inc. von Drittanbietern gemäß {TERMS_OF_USE} deren Open Source betrieben , die die Verwendung der Software durch Personen mit Sitz in den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten verbieten. Die dYdX-Blockchain wird von einer Gemeinschaft unabhängiger Validierer betrieben. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Beginnen Sie mit dem Handel an der mächtigsten und offenen Börse der Welt.",
       "SWITCH_NETWORK": "Netzwerk wechseln",
+      "SWITCH_NETWORKS": "Netzwerke wechseln",
       "TOS_TITLE": "Durch die Nutzung unserer Produkte und Dienstleistungen stimmen Sie den {TERMS_LINK} und zu{PRIVACY_POLICY_LINK}. Sie stimmen hiermit zu, versichern und garantieren, dass:",
       "TOS_LINE1": "Sie sind keine Person oder Gesellschaft, die in den Vereinigten Staaten, Kanada oder an einem anderen gesperrten oder eingeschränkten Ort ansässig ist oder sich dort befindet, eingetragen ist oder einen eingetragenen Vertreter hat.",
       "TOS_LINE2": "Sie werden in Zukunft nicht auf diese Website zugreifen oder unsere Produkte oder Dienstleistungen nutzen, während Sie sich in den Vereinigten Staaten, Kanada oder an einem anderen gesperrten oder eingeschränkten Ort befinden.",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "Status prüfen",
       "WITHDRAW_COMPLETE": "Ihre Auszahlung von {AMOUNT_USD} ist jetzt verfügbar.",
       "WITHDRAW_OF": "Auszahlung von {AMOUNT_USD}",
+      "WITHDRAW_PENDING": "Ihre Abhebung von {AMOUNT_USD} steht noch aus.",
       "WITHDRAW_STATUS": "Ihre Auszahlung von {AMOUNT_USD}wird in ungefähr verfügbar {ESTIMATED_DURATION}sein.",
       "WITHDRAW_STATUS_SHORTLY": "Ihre Auszahlung von {AMOUNT_USD} wird in Kürze verfügbar sein.",
       "WITHDRAWALS_PAUSED": "Auszahlungen vorübergehend pausiert",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Bedingungen und Einzahlung bestätigen",
+      "APPROVE_USDC": "USDC genehmigen",
       "BRIDGE_FEE": "Brückengebühr",
+      "DEPOSIT_VIA_COINBASE": "Einzahlung über Coinbase",
       "ENABLE_FOR_THIS_DEPOSIT": "Aktivieren Sie diese Einzahlung",
       "ENABLE_SYMBOL_ON_DYDX": "Aktivieren Sie {SYMBOL} auf dYdX",
       "ENABLE_SYMBOL": "Aktivieren {SYMBOL}",
@@ -1100,7 +1113,8 @@
       "GASLESS_DEPOSITS_RESET": "Ihr Gasless-Einzahlungslimit wird alle drei Tage zurückgesetzt.",
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gasfreie Einzahlungen unterliegen diesen Regeln",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gasless-Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!",
-      "GASLESS_ETH_DEPOSITS": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf {1INCH_WETH_LINK}oder i{UNISWAP_WETH_LINK}n WETH umwandeln und gasfreie WETH-Einzahlungen verwenden oder ETH direkt einzahlen, indem Sie Ihre eigenen Gas-Kosten bezahlen.",
+      "GASLESS_ETH_DEPOSITS": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf {1INCH_WETH_LINK} oder {UNISWAP_WETH_LINK} in WETH umwandeln und gasfreie WETH-Einzahlungen verwenden oder ETH direkt einzahlen, indem Sie Ihre eigenen Gas-Kosten bezahlen.",
+      "HELD": "gehalten",
       "LOWEST_FEE_DEPOSITS": "USDC-Einzahlungen von {LOWEST_FEE_TOKENS_TOOLTIP} haben die niedrigsten Gebühren. Andere Einzahlungen können zusätzliche Gebühren von Drittanbietern enthalten.",
       "MAX_SLIPPAGE": "Maximale Slippage",
       "MINIMUM_DEPOSIT_AMOUNT": "Mindesteinzahlungsbetrag",
@@ -1112,8 +1126,13 @@
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Vorbehaltlich dieser Regeln",
       "SWAP": "Swap",
+      "TO_DEPOSIT_FROM_COINBASE": "Um von Coinbase einzuzahlen, senden Sie Ihre Zahlung {ASSET}im {NETWORK} an die unten angegebene Adresse.",
       "ESTIMATED_TIME": "Geschätzte Zeit",
-      "DEPOSIT_ACKNOWLEDGEMENT": "Ich stimme den {TERMS_LINK}und zu, {POLICY_LINK}einschließlich, dass ich die mit diesen Produkten und Dienstleistungen verbundenen Risiken akzeptiere und sie nicht aus den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten verwenden werde. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "Ich stimme den {TERMS_LINK}und zu, {POLICY_LINK}einschließlich, dass ich die mit diesen Produkten und Dienstleistungen verbundenen Risiken akzeptiere und sie nicht aus den Vereinigten Staaten oder anderen eingeschränkten Gerichtsbarkeiten verwenden werde. {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Ihr Geld steht nun fürs Trading zur Verfügung.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "Ihr Geld wird bald verfügbar sein und Sie können dieses Fenster gefahrlos schließen.",
+      "YOU_MAY_CLOSE_WINDOW": "Sie können dieses Fenster gefahrlos schließen.",
+      "YOUR_DEPOSIT": "Ihre Einzahlung "
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Aktivieren Sie Ihre Abhebung",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "Bei dieser {STYLED_SLOW}Auszahlung kann es bis zu S{HOURS}tunden dauern, bevor sie verfügbar ist. Sie sind für die Gasless-Gebühren der Abhebungstransaktionen verantwortlich. Wenn Sie Ihr Geld früher benötigen, versuchen Sie es mit einer {STYLED_FAST} Auszahlung.",
       "WITHDRAW_IRREVERSIBLE": "Die Einleitung eines Rückzugs ist unumkehrbar.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Hohe Gebühren von Drittanbietern für die gewählte Route. Ich bestätige die Kenntnisnahme von Folgendem:\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Ich bestätige die Kenntnisnahme der folgenden Warnung:\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Ich bestätige die Kenntnisnahme der folgenden Warnung:\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "Ihr Geld wurde abgehoben.",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "Ihr Geld wird in Kürze abgehoben. Sie können dieses Fenster gefahrlos schließen.",
+      "YOUR_WITHDRAWAL": "Ihre Abhebung"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "Über Wallets",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "Durch die Bestimmung eines Limitpreises platzieren Sie eine Take-Profit-Limit-Order und\/oder eine Stop-Limit-Order. Klicken Sie {DOCUMENTATION_LINK}für weitere Details.",
       "MULTIPLE_ORDERS_FOUND": "Mehrere Orders gefunden.",
       "PRICE_TRIGGERS": "Preisauslöser",
-      "PRICE_TRIGGERS_DESCRIPTION": "Minimieren Sie Verluste und sichern Sie Gewinne mit Auslösern.",
+      "PRICE_TRIGGERS_DESCRIPTION": "Minimieren Sie Verluste und sichern Sie Gewinne.",
       "EXISTING_ORDERS_REPLACED": "Nach der Bearbeitung wird Ihre vorhandene Bestellung ersetzt.",
       "SL_LIMIT": "SL-Grenze",
       "SL_PRICE": "SL Preis",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "Ihr Wallet-Netzwerk ist falsch. Bitte stellen Sie sicher, dass es auf „Ethereum Mainnet“ eingestellt ist.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "Ihr Wallet-Netzwerk ist falsch. Bitte vergewissern Sie sich, dass es auf 'Goerli Test Network' eingestellt ist.",
       "MUST_SPECIFY_ASSET": "Bitte wählen Sie ein Asset aus, das Sie einzahlen möchten.",
-      "MUST_SPECIFY_CHAIN": "Bitte wählen Sie eine Quellkette aus, von der aus Sie einzahlen möchten."
+      "MUST_SPECIFY_CHAIN": "Bitte wählen Sie eine Quellkette aus, von der aus Sie einzahlen möchten.",
+      "YOUR_DEPOSIT_FAILED": "Ihre Einzahlung ist fehlgeschlagen. Bitte versuchen Sie es noch einmal."
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "Es ist nicht genug Liquidität vorhanden, um diese schnelle Auszahlung zu verarbeiten. Bitte versuchen Sie es mit einem kleineren Betrag.",
       "MAX_FAST_WITHDRAW_AMOUNT": "Geben Sie bitte einen Auszahlungsbetrag von weniger als {MAX_FAST_WITHDRAW_AMOUNT}ein.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Der Betrag für langsame Auszahlungen muss größer oder gleich 10 oder Ihr gesamter Kontostand sein.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Ihr Konto ist eingeschränkt. Sie müssen alle Ihre Positionen schließen, bevor Sie abheben können.",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "Ihre Auszahlungsanfrage ist fehlgeschlagen. Bitte versuchen Sie es noch einmal.",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "Ihre Auszahlungsanfrage würde Ihr Konto unterbesichert lassen. Bitte versuchen Sie es mit einem kleineren Betrag.",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Sie können nicht mehr als Ihre kostenlosen Sicherheiten abheben. Stellen Sie sicher, dass Sie die Gebühr für schnelle Auszahlungen einberechnen, wenn Sie einen Betrag eingeben.",
       "WITHDRAW_MORE_THAN_FREE": "Sie können nicht mehr als Ihre freien Sicherheiten abheben.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Bitte geben Sie eine Zieladresse ein.",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "Die Markteinführung erfordert ein Minimum an {USDC_AMOUNT} USDC als freie Sicherheit.",
       "NOT_ENOUGH_BALANCE": "Sie müssen {NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}mindestens einen Markt hinzufügen."
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "Bitte verbinden Sie Ihr Wallet noch einmal und versuchen Sie es erneut.",
+      "ERROR_WITH_APPROVAL": "Bei Ihrer Genehmigung ist ein Fehler aufgetreten.",
+      "INSUFFICIENT_GAS_BALANCE": "Unzureichende Gasbilanz. Fügen Sie Gasguthaben hinzu und versuchen Sie es erneut.",
+      "USER_REJECTED": "Benutzer hat die Anfrage abgelehnt.",
+      "YOUR_APPROVAL_FAILED": "Ihre Genehmigung ist fehlgeschlagen. Bitte versuchen Sie es noch einmal."
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "Transfers pausiert"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "Überprüfen Sie immer und überzeugen sich, ob Sie sich auf https:\/\/trade.dydx.exchange befinden, wenn Sie Ihre Keys wiederherstellen."
+      "ALWAYS_VERIFY_URL": "Überprüfen und verifizieren Sie immer, dass Sie sich auf https:\/\/trade.dydx.exchange befinden, wenn Sie Ihre Schlüssel wiederherstellen.",
+      "NOBLE_CHAIN_ONLY": "Diese Adresse ist nur für Noble USDC-Überweisungen an die Noble Chain bestimmt. Der Versand von Geld aus anderen Blockchains führt zum Verlust dieser Gelder."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Die Slippage bei dieser Order ist gering; wir empfehlen einen Limitpreis von USD{LIMIT_PRICE} oder höher, um die Chancen zur Ausführung dieser Order zu verbessern. Ihre Order wird zum bestmöglichen Preis ausgeführt, wenn sie auslöst.",
