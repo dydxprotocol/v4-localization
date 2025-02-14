@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "Depositar más",
       "DEPOSIT_WITH_FIAT": "Depositar con monedas fiduciarias",
       "DEPOSIT": "Depositar",
+      "DEPOSIT_WITH": "Depositar con {TARGET}",
       "DEPTH_CHART_SHORT": "Profundidad",
       "DESTINATION": "Destino",
       "DETAILED_VIEW": "Vista detallada",
@@ -158,6 +159,7 @@
       "EST_GAS": "Est. Gasolina",
       "EST_REWARDS": "Est. Recompensas",
       "ESTIMATED": "Estimado",
+      "ESTIMATED_COST": "Costo estimado",
       "EXPAND_SECTION": "Ampliar la sección",
       "EXPAND": "Ampliar",
       "FAST_WITHDRAW": "Retiro rápido",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "Sin resultados",
       "HIGHLIGHTS": "Destacados",
       "LAUNCHABLE": "Lanzable",
+      "LAUNCHABLE_DETAILS": "Este mercado es lanzable",
       "LAYER_1": "Capa 1",
       "LAYER_2": "Capa 2",
       "LEARN_MORE": "Más información",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% de descuento",
       "REMOVING": "Eliminando",
       "RESULTS": "Resultados",
+      "RETRY": "Reintenta",
       "REVIEW": "Revisar",
       "REWARDS": "Recompensas",
       "REWARDED": "Recompensado",
@@ -911,8 +915,10 @@
       "CREDITED_WITH": "Tu cuenta se acreditará con ${AMOUNT_USD} en fondos de prueba.",
       "DEPOSIT_ALERT_TITLE": "Tienes {PENDING_DEPOSITS} depósito pendiente de {SOURCE_CHAIN}.",
       "DEPOSIT_ALERT_SUBTITLE": "Consulta el estado",
+      "DEPOSIT_AVAILABLE": "Tu depósito de {AMOUNT_USD} ya está disponible.",
       "DEPOSIT_COMPLETE": "Tu depósito de {AMOUNT_USD} ya está disponible.",
       "DEPOSIT_OF": "Depósito de {AMOUNT_USD}",
+      "DEPOSIT_PENDING": "Tu depósito {AMOUNT_USD} está pendiente.",
       "DEPOSIT_STATUS": "Tu depósito de {AMOUNT_USD} estará disponible en aproximadamente {ESTIMATED_DURATION}.",
       "DEPOSIT_STATUS_SHORTLY": "Tu depósito de {AMOUNT_USD} estará disponible a la brevedad.",
       "DEPOSIT_TO_DESTINATION": "Depositar en {DESTINATION_CHAIN}",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "Firma de patrimonio",
       "LINK_WALLET": "Vincular billetera",
       "LINKING_WALLET": "Vinculando billetera",
+      "MINIMUM_DEPOSIT": "El depósito mínimo es {MIN_DEPOSIT_USDC}",
       "MISSING_KEYS_DESCRIPTION": "¡Bienvenido de nuevo! Una o más de sus claves necesita ser recuperada",
       "NEED_A_WALLET": "¿Necesitas una billetera?",
       "NOBLE_ADDRESS": "Dirección Noble",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Iniciar sesión con correo electrónico o red social",
       "SIGN_IN_WITH_EMAIL": "Iniciar sesión con correo electrónico",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Una forma sencilla de iniciar sesión, impulsada por {MAGIC}",
+      "SKIP_FAST_ROUTE_DESC": "Tarifa de $$, {LIMIT_AMOUNT} límite de $",
+      "SKIP_SLOW_ROUTE_DESC": "Tarifa en $, sin límite",
       "SKIP_FOR_NOW": "Omitir por ahora",
       "SITE_OPERATED_BY_SHORT": "Este sitio es operado por {NAME_OF_DEPLOYER}, utilizando software de código abierto de dYdX Trading Inc. {LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "Este sitio es operado por {NAME_OF_DEPLOYER} sujeto a {DEPLOYER_TERMS_AND_CONDITIONS}, utilizando cierto software de código abierto de dYdX Trading Inc. de terceros sujeto a sus {TERMS_OF_USE}, que prohíben el uso del software por personas con sede en los Estados Unidos u otras jurisdicciones restringidas. La blockchain de dYdX está impulsada por una comunidad de validadores independientes. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Empiece a operar con el intercambio abierto más poderoso del mundo.",
       "SWITCH_NETWORK": "Cambiar de red",
+      "SWITCH_NETWORKS": "Cambiar de redes",
       "TOS_TITLE": "Al utilizar cualquiera de nuestros productos y servicios, aceptas {TERMS_LINK} y {PRIVACY_POLICY_LINK}. Por el presente, estás de acuerdo, representas y te comprometes a:",
       "TOS_LINE1": "No eres una persona o empresa que resida o esté ubicada, constituida o tenga un agente registrado en Estados Unidos, Canadá u otro lugar bloqueado o restringido.",
       "TOS_LINE2": "En el futuro no accederás a este sitio, ni usarás nuestros productos o servicios mientras te encuentres dentro de los Estados Unidos, Canadá u otra ubicación bloqueada o restringida.",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "Consulta el estado",
       "WITHDRAW_COMPLETE": "Tu retiro de {AMOUNT_USD} ya está disponible.",
       "WITHDRAW_OF": "Retiro de {AMOUNT_USD}",
+      "WITHDRAW_PENDING": "El retiro de tu cuenta {AMOUNT_USD} está pendiente.",
       "WITHDRAW_STATUS": "Tu retiro de {AMOUNT_USD} estará disponible en aproximadamente {ESTIMATED_DURATION}.",
       "WITHDRAW_STATUS_SHORTLY": "Tu retiro de {AMOUNT_USD} estará disponible a la brevedad.",
       "WITHDRAWALS_PAUSED": "Retiros temporalmente pausados",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Reconocer términos y depositar",
+      "APPROVE_USDC": "Aprobar el USDC",
       "BRIDGE_FEE": "Tarifa de puente",
+      "DEPOSIT_VIA_COINBASE": "Depósito a través de Coinbase",
       "ENABLE_FOR_THIS_DEPOSIT": "Habilitar para este depósito",
       "ENABLE_SYMBOL_ON_DYDX": "Habilitar {SYMBOL} en dYdX",
       "ENABLE_SYMBOL": "Habilitar {SYMBOL}",
@@ -1101,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Los depósitos sin gas están sujetos a estas reglas.",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Los depósitos sin gas no están disponibles. No se preocupe, ¡volverán pronto!",
       "GASLESS_ETH_DEPOSITS": "Los depósitos sin gas no están disponibles para ETH. Puedes convertir tu ETH a WETH en {1INCH_WETH_LINK} o {UNISWAP_WETH_LINK} y usar depósitos sin gas WETH, o depositar directamente ETH pagando tus propios costos de gas.",
+      "HELD": "ejecutado",
       "LOWEST_FEE_DEPOSITS": "Los depósitos de USDC de {LOWEST_FEE_TOKENS_TOOLTIP} tienen las tarifas más bajas. Otros depósitos pueden tener tarifas de terceros adicionales.",
       "MAX_SLIPPAGE": "Slippage máximo",
       "MINIMUM_DEPOSIT_AMOUNT": "Monto de Depósito mínimo",
@@ -1112,8 +1126,13 @@
       "SLIPPAGE": "Slippage",
       "SUBJECT_TO_RULES": "Sujeto a estas reglas",
       "SWAP": "Intercambiar",
+      "TO_DEPOSIT_FROM_COINBASE": "Para depositar desde Coinbase, envíelo {ASSET} a {NETWORK} la dirección que aparece a continuación.",
       "ESTIMATED_TIME": "Tiempo estimado",
-      "DEPOSIT_ACKNOWLEDGEMENT": "Acepto {TERMS_LINK} y {POLICY_LINK}, incluido que acepto los riesgos asociados con estos productos y servicios y no los usaré desde los Estados Unidos ni desde ninguna otra jurisdicción restringida. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "Acepto {TERMS_LINK} y {POLICY_LINK}, incluido que acepto los riesgos asociados con estos productos y servicios y no los usaré desde los Estados Unidos ni desde ninguna otra jurisdicción restringida. {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Sus fondos ya están disponibles para operar.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "Sus fondos estarán disponibles pronto y puede cerrar esta ventana con seguridad.",
+      "YOU_MAY_CLOSE_WINDOW": "Puede cerrar esta ventana con seguridad.",
+      "YOUR_DEPOSIT": "Tu depósito"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Habilitar retiros",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "Este retiro {STYLED_SLOW} puede tardar hasta {HOURS} horas en estar disponible para retirar. Serás responsable de las cuotas de transacción de retiro por gas. Si necesitas tus fondos antes, prueba un {STYLED_FAST} retiro.",
       "WITHDRAW_IRREVERSIBLE": "Iniciar un retiro es irreversible.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Tarifas altas de terceros en la ruta seleccionada. Acepto:\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Acepto la siguiente advertencia:\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Acepto la siguiente advertencia:\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "Tus fondos han sido retirados.",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "Tus fondos serán retirados en breve. Puede cerrar esta ventana con seguridad.",
+      "YOUR_WITHDRAWAL": "Tu retiro"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "Acerca de las billeteras",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "Al identificar un precio límite, estás colocando una Take Profit Limit Order (con toma de ganancias) y\/o una Stop Limit Order (con precio mínimo). Haz clic en {DOCUMENTATION_LINK} para obtener más detalles.",
       "MULTIPLE_ORDERS_FOUND": "Múltiples órdenes encontradas.",
       "PRICE_TRIGGERS": "Gatillos de precio",
-      "PRICE_TRIGGERS_DESCRIPTION": "Minimiza las pérdidas y asegura las ganancias con gatillos",
+      "PRICE_TRIGGERS_DESCRIPTION": "Minimiza las pérdidas y asegura las ganancias.",
       "EXISTING_ORDERS_REPLACED": "Tras la edición, tu orden existente será reemplazada.",
       "SL_LIMIT": "Límite de SL",
       "SL_PRICE": "Precio SL",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "La red de tu billetera no es correcta. Asegúrese de que esté configurada en \"Ethereum Mainnet\".",
       "DEPOSIT_WRONG_NETWORK_STAGING": "La red de tu billetera no es correcta. Asegúrate de que esté configurada en \"Goerli Test Network\".",
       "MUST_SPECIFY_ASSET": "Selecciona un activo para depositar.",
-      "MUST_SPECIFY_CHAIN": "Selecciona una cadena de origen desde la cual depositar."
+      "MUST_SPECIFY_CHAIN": "Selecciona una cadena de origen desde la cual depositar.",
+      "YOUR_DEPOSIT_FAILED": "Tu depósito ha fallado. Inténtalo de nuevo."
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "No hay suficiente liquidez para procesar este retiro rápido. Intenta con una cantidad menor.",
       "MAX_FAST_WITHDRAW_AMOUNT": "Ingresa una cantidad de retiro menor a {MAX_FAST_WITHDRAW_AMOUNT}.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "El monto del retiro lento debe ser mayor o igual a 10, o el saldo total de tu cuenta.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Su cuenta está restringida. Debes cerrar todas tus posiciones antes de poder hacer un retiro.",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "Tu solicitud de retiro ha fallado. Inténtalo de nuevo.",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "Tu solicitud de retiro dejaría tu cuenta sin garantías. Intenta con una cantidad menor.",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "No puedes retirar más que la garantía gratuita. Asegúrate de tener en cuenta la tasa de retiro rápido al ingresar un monto.",
       "WITHDRAW_MORE_THAN_FREE": "No puedes retirar más que tu garantía gratuita.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Ingresa una dirección de destino.",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "Lanzar un mercado requiere un mínimo de {USDC_AMOUNT}USDC de colateral cruzado libre.",
       "NOT_ENOUGH_BALANCE": "Necesitas al menos {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} para agregar un mercado."
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "Cambia la red de tu billetera e inténtalo de nuevo.",
+      "ERROR_WITH_APPROVAL": "Hubo un error con tu aprobación.",
+      "INSUFFICIENT_GAS_BALANCE": "Balance de gas insuficiente. Añade fondos de gas e inténtalo de nuevo.",
+      "USER_REJECTED": "El usuario rechazó la solicitud.",
+      "YOUR_APPROVAL_FAILED": "Tu aprobación ha fallado. Inténtalo de nuevo."
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "Transferencias pausadas"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "Siempre comprueba y verifica que te encuentras en https:\/\/trade.dydx.exchange al recuperar tus claves."
+      "ALWAYS_VERIFY_URL": "Siempre comprueba y verifica que te encuentras en https:\/\/trade.dydx.exchange al recuperar tus claves.",
+      "NOBLE_CHAIN_ONLY": "Esta dirección es solo para transferencias USDC de Noble a Noble Chain. El envío de fondos desde otras cadenas de bloques dará lugar a la pérdida de esos fondos."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "El \"slippage\" (diferencia entre el precio esperado versus el ejecutado) de esta orden es bajo: Para mejorar tus probabilidades de completar esta orden, recomendamos un precio de límite de ${LIMIT_PRICE} o superior. Tu orden se ejecutará al mejor precio posible cuando se active.",
