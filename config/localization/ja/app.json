@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "さらに入金する",
       "DEPOSIT_WITH_FIAT": "フィアット（法定通貨）で入金する",
       "DEPOSIT": "入金",
+      "DEPOSIT_WITH": "{TARGET}で入金する",
       "DEPTH_CHART_SHORT": "デプス（Depth）",
       "DESTINATION": "出金先",
       "DETAILED_VIEW": "詳細表示",
@@ -158,6 +159,7 @@
       "EST_GAS": "推定ガス",
       "EST_REWARDS": "推定報酬",
       "ESTIMATED": "推定",
+      "ESTIMATED_COST": "推定コスト",
       "EXPAND_SECTION": "セクションを表示",
       "EXPAND": "展開",
       "FAST_WITHDRAW": "高速出金",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "結果なし",
       "HIGHLIGHTS": "ハイライト",
       "LAUNCHABLE": "ローンチ可能",
+      "LAUNCHABLE_DETAILS": "このマーケットはローンチ可能です",
       "LAYER_1": "レイヤー1",
       "LAYER_2": "レイヤー2",
       "LEARN_MORE": "詳しくはこちら",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}%割引",
       "REMOVING": "削除",
       "RESULTS": "結果",
+      "RETRY": "再試行",
       "REVIEW": "レビュー",
       "REWARDS": "報酬",
       "REWARDED": "報酬を獲得済み",
@@ -911,9 +915,11 @@
       "CREDITED_WITH": "お客様の口座にテスト資金として、${AMOUNT_USD}が入金されます。",
       "DEPOSIT_ALERT_TITLE": "{SOURCE_CHAIN}から{PENDING_DEPOSITS}の入金が保留中です。",
       "DEPOSIT_ALERT_SUBTITLE": "ステータスを確認する",
+      "DEPOSIT_AVAILABLE": "あなたの{AMOUNT_USD}の入金が利用可能になりました。",
       "DEPOSIT_COMPLETE": "あなたの{AMOUNT_USD}の入金が利用可能になりました。",
       "DEPOSIT_OF": "{AMOUNT_USD}の入金",
-      "DEPOSIT_STATUS": "お客様の{AMOUNT_USD}のデポジットは、約{ESTIMATED_DURATION}で利用可能になります。",
+      "DEPOSIT_PENDING": "{AMOUNT_USD}の入金が保留中です。",
+      "DEPOSIT_STATUS": "お客様の{AMOUNT_USD}の入金は、約{ESTIMATED_DURATION}で利用可能になります。",
       "DEPOSIT_STATUS_SHORTLY": "{AMOUNT_USD}の入金はまもなく利用可能になります。",
       "DEPOSIT_TO_DESTINATION": "{DESTINATION_CHAIN}に入金",
       "DEPOSIT_TO_DYDX": "dYdXに入金",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "レガシー署名",
       "LINK_WALLET": "リンクウォレット",
       "LINKING_WALLET": "ウォレットをリンクさせる",
+      "MINIMUM_DEPOSIT": "最低入金額は{MIN_DEPOSIT_USDC}です",
       "MISSING_KEYS_DESCRIPTION": "おかえりなさい！1つ以上のキーを回復する必要があります",
       "NEED_A_WALLET": "ウォレットが必要ですか？",
       "NOBLE_ADDRESS": "Nobleアドレス",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Eメールまたはソーシャルでサインイン",
       "SIGN_IN_WITH_EMAIL": "メールアドレスでサインインする",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC}によるシンプルなサインイン方法です",
+      "SKIP_FAST_ROUTE_DESC": "$$の手数料、${LIMIT_AMOUNT}の上限額",
+      "SKIP_SLOW_ROUTE_DESC": "$の手数料、制限なし",
       "SKIP_FOR_NOW": "スキップする",
       "SITE_OPERATED_BY_SHORT": "このサイトは{NAME_OF_DEPLOYER}によって、dYdX Trading Inc.のオープンソースソフトウェアを利用して運営されています。{LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "本サイトはデプロイヤーである{NAME_OF_DEPLOYER}によって運営されており、第三者であるdYdX Trading Inc.によってオープンソース化された特定のソフトウェアを利用しています。また、規約は{DEPLOYER_TERMS_AND_CONDITIONS}に従うものとします。ただし、米国または他の制限された管轄区域に拠点を置く者によるソフトウェアの使用を禁止する同社の{TERMS_OF_USE}に従うものとします。dYdXブロックチェーンは、独立したバリデータのコミュニティによって運営されています。{LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "世界で最もパワフルなオープンエクスチェンジで取引を開始します。",
       "SWITCH_NETWORK": "ネットワークを切り替える",
+      "SWITCH_NETWORKS": "ネットワークを切り替える",
       "TOS_TITLE": "当社の製品やサービスを使用することにより、お客様は、{TERMS_LINK}および{PRIVACY_POLICY_LINK}に同意したものとみなされます。以下の事項について同意し、表明し、保証します。",
       "TOS_LINE1": "米国、カナダ、ブロックまたは制限を受けている地域に居住している自然人、またはそうした地域に拠点を置いて法人化されているか、登録代理人を置いている企業ではありません。",
       "TOS_LINE2": "今後、米国、カナダ、他のブロックまたは制限された場所にいる間は、本サイトにアクセスしたり、当社の製品やサービスを使用したりすることはできません。",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "ステータスを確認する",
       "WITHDRAW_COMPLETE": "{AMOUNT_USD}の出金が可能になりました。",
       "WITHDRAW_OF": "{AMOUNT_USD}の出金",
+      "WITHDRAW_PENDING": "{AMOUNT_USD}の出金は保留中です。",
       "WITHDRAW_STATUS": "{AMOUNT_USD}の出金は、約{ESTIMATED_DURATION}で可能になります。",
       "WITHDRAW_STATUS_SHORTLY": "{AMOUNT_USD}の出金はまもなく可能になります。",
       "WITHDRAWALS_PAUSED": "一時的に停止した出金",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "規約を承認して入金してください",
+      "APPROVE_USDC": "USDCを承認",
       "BRIDGE_FEE": "ブリッジ料金",
+      "DEPOSIT_VIA_COINBASE": "Coinbase経由で入金",
       "ENABLE_FOR_THIS_DEPOSIT": "この入金を有効にする",
       "ENABLE_SYMBOL_ON_DYDX": "dYdXでの{SYMBOL}を有効化",
       "ENABLE_SYMBOL": "{SYMBOL}の有効化",
@@ -1101,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "ガスレス入金はこれらのルールに基づいて行われます。",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "ガスレス入金は現在、一時的に利用できません。心配しないでください。すぐに利用を再開できる予定です。",
       "GASLESS_ETH_DEPOSITS": "ETHではガスレス入金は利用できません。ETHを{1INCH_WETH_LINK}または{UNISWAP_WETH_LINK}でWETHに変換し、WETHガスレス入金を利用するか、またはガス代を負担して直接ETHを入金することもできます。",
+      "HELD": "保有中",
       "LOWEST_FEE_DEPOSITS": "{LOWEST_FEE_TOKENS_TOOLTIP}からのUSDC入金は最も手数料が低いです。 その他の入金には、追加の第三者手数料がかかる場合があります。",
       "MAX_SLIPPAGE": "許容スリッページ",
       "MINIMUM_DEPOSIT_AMOUNT": "最低入金額",
@@ -1112,8 +1126,13 @@
       "SLIPPAGE": "スリッページ",
       "SUBJECT_TO_RULES": "これらのルールの適用対象です",
       "SWAP": "スワップ",
+      "TO_DEPOSIT_FROM_COINBASE": "Coinbaseから入金するには、以下のアドレスに{NETWORK}で{ASSET}を送金してください。",
       "ESTIMATED_TIME": "予想時間",
-      "DEPOSIT_ACKNOWLEDGEMENT": "私は、これらの製品およびサービスに関連するリスクを受け入れ、米国またはその他の制限のある国や地域からこれらを利用しないことを含め、{TERMS_LINK}および{POLICY_LINK}に同意します。{VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "私は、これらの製品およびサービスに関連するリスクを受け入れ、米国またはその他の制限のある国や地域からこれらを利用しないことを含め、{TERMS_LINK}および{POLICY_LINK}に同意します。{VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "お客様の資金が取引に使用できるようになりました。",
+      "YOUR_FUNDS_AVAILABLE_SOON": "まもなく資金が利用可能になります。その後はこのウィンドウを閉じていただいて大丈夫です。",
+      "YOU_MAY_CLOSE_WINDOW": "このウィンドウを閉じていただいて大丈夫です。",
+      "YOUR_DEPOSIT": "お客様の入金"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "出金を有効にする",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "この{STYLED_SLOW}を出金するには、出金が可能になるまで最大{HOURS}時間かかる場合があります。出金するトランザクションのガス代はお客様の負担となります。いち早く資金が必要な場合は、{STYLED_FAST}出金をお試しください。",
       "WITHDRAW_IRREVERSIBLE": "いったん出金を開始するとキャンセルできません。",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "選択したルートの高い第三者料金。同意します：\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "以下の警告に同意します：\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "以下の警告に同意します：\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "資金が引き出されました。",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "資金はまもなく引き出されます。このウィンドウを閉じていただいて大丈夫です。",
+      "YOUR_WITHDRAWAL": "お客様の出金"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "ウォレット情報",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "指値を特定することで、利益確定指値注文および\/または逆指値注文を行うことになります。 詳細については、{DOCUMENTATION_LINK}をクリックしてください。",
       "MULTIPLE_ORDERS_FOUND": "複数の注文が見つかりました。",
       "PRICE_TRIGGERS": "価格トリガー",
-      "PRICE_TRIGGERS_DESCRIPTION": "トリガーで損失を最小限に抑え、利益を確保します。",
+      "PRICE_TRIGGERS_DESCRIPTION": "損失を最小限に抑え、利益を確保する。",
       "EXISTING_ORDERS_REPLACED": "編集すると、既存の注文が置き換えられます。",
       "SL_LIMIT": "SLリミット",
       "SL_PRICE": "SL価格",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "ウォレットネットワークが正しくありません。「イーサリアム・メインネット」に設定されていることを確認してください。",
       "DEPOSIT_WRONG_NETWORK_STAGING": "ウォレットネットワークが正しくありません。「Goerli Test Network」に設定されていることを確認してください。",
       "MUST_SPECIFY_ASSET": "入金する資産を選択してください。",
-      "MUST_SPECIFY_CHAIN": "入金元のソースチェーンを選択してください。"
+      "MUST_SPECIFY_CHAIN": "入金元のソースチェーンを選択してください。",
+      "YOUR_DEPOSIT_FAILED": "入金に失敗しました。もう一度お試しください。"
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "この高速出金を処理するのに十分な流動性がありません。金額を引き下げてお試しください。",
       "MAX_FAST_WITHDRAW_AMOUNT": "出金額には、{MAX_FAST_WITHDRAW_AMOUNT}未満の金額を入力してください。",
       "MIN_SLOW_WITHDRAW_AMOUNT": "通常出金額は10以上か、お客様の口座残高全額でなければなりません。",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "お客様の口座は取引が制限されています。出金する前にすべてのポジションをクローズする必要があります。",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "出金リクエストに失敗しました。もう一度お試しください。",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "出金リクエストを行うと、口座が担保不足になります。金額を引き下げてお試しください。",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "担保不要額を超えて出金することはできません。金額入力時には、お客様が高速出金手数料を負担することをお忘れにならないようお願いします。",
       "WITHDRAW_MORE_THAN_FREE": "担保不要額を超えて出金することはできません。",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "宛先アドレスを入力してください。",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "マーケットをローンチするには、最低{USDC_AMOUNT}USDCのクロスフリー担保が必要です",
       "NOT_ENOUGH_BALANCE": "マーケットを追加するには少なくとも{NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}が必要です。"
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "ウォレットネットワークを変更して、もう一度お試しください。",
+      "ERROR_WITH_APPROVAL": "承認にエラーが発生しました。",
+      "INSUFFICIENT_GAS_BALANCE": "Gas残高が足りません。Gas資金を追加して、再度お試しください。",
+      "USER_REJECTED": "ユーザーがリクエストを拒否しました。",
+      "YOUR_APPROVAL_FAILED": "承認に失敗しました。もう一度お試しください。"
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "転送は一時停止されています"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "キーを再作成する場合は、 https:\/\/trade.dydx.exchange にアクセスしていることを常に確認、検証してください。"
+      "ALWAYS_VERIFY_URL": "キーを再作成する場合は、 https:\/\/trade.dydx.exchange にアクセスしていることを常に確認、検証してください。",
+      "NOBLE_CHAIN_ONLY": "このアドレスは、Noble ChainへのNoble USDC送金専用です。他のブロックチェーンからの送金は、資金が失われる原因となります。"
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "この注文のスリッページは低い状態です。${LIMIT_PRICE}以上の指値で約定の確率を高めることを推奨します。注文がトリガーされると、可能な限り最善の価格で実行されます。",
