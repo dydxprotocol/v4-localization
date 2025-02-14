@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "Aplicación en Beta para iOS",
       "ISOLATED_POSITIONS_COMING_SOON": "Posiciones aisladas disponibles proximamente para móviles",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Órdenes para posiciones aisladas disponibles proximamente para móviles",
+      "LAUNCH_ON_WEB": "Lanzamiento en la web",
       "LAYER_2": "Capa 2",
       "LEADERBOARDS": "Marcadores",
       "LEARN_MORE_ABOUT_WALLETS": "Más información sobre billeteras",
@@ -252,7 +253,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "Selecciona tu preferencia",
         "MODE_TO_BE_USED": "Este modo se utilizará para todas las operaciones",
-        "CHANGE_SETINGS": "Cambia esto desde Perfil › Configuración",
+        "CHANGE_SETINGS": "Cambiar esto desde Configuración",
         "SIMPLE": "Predeterminado",
         "ADVANCED": "Avanzado",
         "EASIER": "Más fácil de usar",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"En una amplia gama de temas, incluidos política, deportes, cultura pop y más.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidación de $0 o $1",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "El mercado se liquidará automáticamente en $1 si el evento ocurre. De lo contrario, se liquidará en ~$0. El precio es equivalente al porcentaje de probabilidad que ocurra el resultado."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Requiere un depósito {DEPOSIT_AMOUNT} en MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault tiene una {APR}APR estimada"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Esta es la cantidad máxima de exposición que puedes obtener con tu depósito. No es la cantidad que puedes depositar o retirar. Tu poder adquisitivo puede cambiar rápidamente y puede ser positivo incluso cuando estés sufriendo pérdidas.",
+        "RISK_TOOLTIP": "Este es el porcentaje de tu depósito que tus posiciones abiertas conservan como margen. Esto puede cambiar rápidamente cuando cambia el precio de mercado."
     }
   },
   "RATE_APP": {
