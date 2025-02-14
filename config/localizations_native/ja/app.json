@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOSアプリベータ",
       "ISOLATED_POSITIONS_COMING_SOON": "分離ポジションが間もなくモバイルに登場",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "分離ポジションの注文（近日モバイルで対応可能）",
+      "LAUNCH_ON_WEB": "ウェブでローンチ",
       "LAYER_2": "レイヤー2",
       "LEADERBOARDS": "リーダーボード",
       "LEARN_MORE_ABOUT_WALLETS": "ウォレットの詳細についてはこちらをご覧ください",
@@ -252,7 +253,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "設定を選択",
         "MODE_TO_BE_USED": "このモードはすべての取引で使用されます",
-        "CHANGE_SETINGS": "「プロフィール」›「設定」から変更",
+        "CHANGE_SETINGS": "設定から変更する",
         "SIMPLE": "デフォルト",
         "ADVANCED": "アドバンスト",
         "EASIER": "もっと簡単に",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
       "SETTLEMENT_OUTCOMES_TITLE": "$0または$1決済",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "イベントが発生した場合、「マーケット」は自動的に$1で決済されます。そうでなければ、約$0で落ち着きます。 価格は、結果が発生する可能性の割合に相当します。"
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "MegaVaultに{DEPOSIT_AMOUNT}の入金が必要です",
+        "LAUNCH_MARKET_LINE2": "MegaVaultの推定年利は、{APR}です"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "これは、入金で受け取ることができる最大エクスポージャー額です。この金額は入金または出金できる金額ではありません。お客様の購買力は急速に変動する可能性があり、損失を出している場合でもプラスになることがあります。",
+        "RISK_TOOLTIP": "これは、お客様のオープンポジションによって証拠金として保有されている入金額の割合です。市場価格が変動すると、これも急速に変化することがあります。"
     }
   },
   "RATE_APP": {
