@@ -51,7 +51,8 @@
       "IOS_APP_BETA": "App iOS Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "Posições isoladas disponíveis em breve em celular",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Ordens para posições isoladas em breve estarão disponíveis para dispositivos móveis",
-      "LAYER_2": "Segunda camada (L2)",
+      "LAUNCH_ON_WEB": "Lançamento na web",
+      "LAYER_2": "Camada 2",
       "LEADERBOARDS": "Tabelas de líderes",
       "LEARN_MORE_ABOUT_WALLETS": "Saiba mais sobre carteiras",
       "LINE": "Linha",
@@ -252,7 +253,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "Selecionar preferência",
         "MODE_TO_BE_USED": "Este modo será usado para todos os trades",
-        "CHANGE_SETINGS": "Altere isso em Perfil › Configurações",
+        "CHANGE_SETINGS": "Alterar isto em Configurações",
         "SIMPLE": "Padrão",
         "ADVANCED": "Avançado",
         "EASIER": "Mais fácil de usar",
@@ -443,7 +444,15 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Alavancagem dos resultados de eventos de trade",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Em uma ampla gama de tópicos, incluindo política, esportes, cultura pop e muito mais.",
       "SETTLEMENT_OUTCOMES_TITLE": "Liquidação de US$ 0 ou US$ 1",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~US$ 0. O preço é equivalente à porcentagem da chance de o resultado ocorrer."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~US$ 0. O preço é equivalente à porcentagem de chance de o resultado ocorrer."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Requer um depósito {DEPOSIT_AMOUNT} no MegaVault",
+        "LAUNCH_MARKET_LINE2": "O MegaVault tem um {APR}APR estimada"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Este é o valor máximo de exposição que você pode obter com seu depósito. Não é o valor que você pode depositar ou sacar. Seu poder de compra pode mudar rapidamente e pode ser positivo mesmo quando você está tendo perdas.",
+        "RISK_TOOLTIP": "Esta é a percentagem do seu depósito mantida como margem pelas suas posições abertas. Isso pode mudar rapidamente quando o preço de mercado muda."
     }
   },
   "RATE_APP": {
