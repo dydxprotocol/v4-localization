@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "充值更多",
       "DEPOSIT_WITH_FIAT": "用法定货币充值",
       "DEPOSIT": "充值",
+      "DEPOSIT_WITH": "存款至 {TARGET}",
       "DEPTH_CHART_SHORT": "深度",
       "DESTINATION": "目标",
       "DETAILED_VIEW": "详细视图",
@@ -158,6 +159,7 @@
       "EST_GAS": "估计 Gas",
       "EST_REWARDS": "估计 奖励",
       "ESTIMATED": "估计的",
+      "ESTIMATED_COST": "预估成本",
       "EXPAND_SECTION": "展开部分",
       "EXPAND": "展开",
       "FAST_WITHDRAW": "快速提现",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "没有结果",
       "HIGHLIGHTS": "亮点",
       "LAUNCHABLE": "可启动",
+      "LAUNCHABLE_DETAILS": "该市场可推出",
       "LAYER_1": "第 1 层",
       "LAYER_2": "第 2 层",
       "LEARN_MORE": "了解更多",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "减价{DISCOUNT}%",
       "REMOVING": "删除",
       "RESULTS": "结果",
+      "RETRY": "重试",
       "REVIEW": "审核",
       "REWARDS": "奖励",
       "REWARDED": "已获奖励",
@@ -911,8 +915,10 @@
       "CREDITED_WITH": "您的账户将存入 {AMOUNT_USD} 美元的测试资金。",
       "DEPOSIT_ALERT_TITLE": "您有来自{SOURCE_CHAIN}的 {PENDING_DEPOSITS} 笔待处理存款。",
       "DEPOSIT_ALERT_SUBTITLE": "检查状态",
+      "DEPOSIT_AVAILABLE": "您的 {AMOUNT_USD} 充值现已可用。",
       "DEPOSIT_COMPLETE": "您的 {AMOUNT_USD} 充值现已可用。",
       "DEPOSIT_OF": "存款 {AMOUNT_USD}",
+      "DEPOSIT_PENDING": "您的充值{AMOUNT_USD}正在等待处理。",
       "DEPOSIT_STATUS": "您的 {AMOUNT_USD} 充值将在之后的大约{ESTIMATED_DURATION}可用。",
       "DEPOSIT_STATUS_SHORTLY": "您的{AMOUNT_USD}充值将很快可用。",
       "DEPOSIT_TO_DESTINATION": "存款至 {DESTINATION_CHAIN}",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "旧版签名",
       "LINK_WALLET": "链接钱包",
       "LINKING_WALLET": "链接钱包",
+      "MINIMUM_DEPOSIT": "最低存款为 {MIN_DEPOSIT_USDC}",
       "MISSING_KEYS_DESCRIPTION": "欢迎回来！您需要找回一条或多条密钥",
       "NEED_A_WALLET": "需要钱包吗？",
       "NOBLE_ADDRESS": "Noble 地址",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "以电子邮件或社交账号登录",
       "SIGN_IN_WITH_EMAIL": "通过邮箱登陆",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "一种简单的登录方式，由{MAGIC}提供支持",
+      "SKIP_FAST_ROUTE_DESC": "$$ 费用，${LIMIT_AMOUNT}限制",
+      "SKIP_SLOW_ROUTE_DESC": "$ 费用，无限制",
       "SKIP_FOR_NOW": "现在跳过",
       "SITE_OPERATED_BY_SHORT": "本网站由 {NAME_OF_DEPLOYER} 运营，使用由 dYdX Trading Inc. 开源软件。 {LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "本网站由 {NAME_OF_DEPLOYER} 运营，受 {DEPLOYER_TERMS_AND_CONDITIONS} 约束，使用由第三方 dYdX Trading Inc. 开源的某些受 {TERMS_OF_USE} 约束的软件，该条款禁止位于美国或其他受限制司法管辖区的人员使用该软件。 dYdX 区块链由独立验证者社区提供支持。 {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "开始在世界上最强大的开放交易所上交易。",
       "SWITCH_NETWORK": "切换网络",
+      "SWITCH_NETWORKS": "切换网络",
       "TOS_TITLE": "使用我们的任何产品和服务，即表示您同意﻿{TERMS_LINK}和{PRIVACY_POLICY_LINK}。您特此同意、声明并保证：",
       "TOS_LINE1": "您不是美国、加拿大或其他被封锁或受限地区的居民或公司，或者位于上述地区，或者在上述地区有注册的代理人。",
       "TOS_LINE2": "如果您位于美国、加拿大或其他受封锁或限制的地区时，您今后将不会访问本网站或使用我们的产品或服务。",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "检查状态",
       "WITHDRAW_COMPLETE": "您的 {AMOUNT_USD} 提现现已可用。",
       "WITHDRAW_OF": "提现 {AMOUNT_USD}",
+      "WITHDRAW_PENDING": "您的提现{AMOUNT_USD}正在等待处理。",
       "WITHDRAW_STATUS": "您的 {AMOUNT_USD} 提现将在大约 {ESTIMATED_DURATION} 后到账.",
       "WITHDRAW_STATUS_SHORTLY": "您的 {AMOUNT_USD} 提现将很快到账。",
       "WITHDRAWALS_PAUSED": "提现暂时中止",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "确认条款和充值",
+      "APPROVE_USDC": "批准 USDC",
       "BRIDGE_FEE": "桥接费",
+      "DEPOSIT_VIA_COINBASE": "通过 Coinbase 存款",
       "ENABLE_FOR_THIS_DEPOSIT": "对此存款启用",
       "ENABLE_SYMBOL_ON_DYDX": "在 dYdX 上启用{SYMBOL}",
       "ENABLE_SYMBOL": "启用{SYMBOL}",
@@ -1101,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "无gas存款受这些规则约束",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "无gas存款暂时不可用。别担心，很快就会恢复！",
       "GASLESS_ETH_DEPOSITS": "无 gas 存款不可用于 ETH。您可以在{1INCH_WETH_LINK}或{UNISWAP_WETH_LINK}将您的ETH转换为WETH并使用WETH无gas存款，或通过支付您自己的gas费用直接存入ETH。",
+      "HELD": "已举行",
       "LOWEST_FEE_DEPOSITS": "来自{LOWEST_FEE_TOKENS_TOOLTIP}的 USDC 存款的费用最低。 其他存款可能有额外的第三方费用。",
       "MAX_SLIPPAGE": "最高滑点",
       "MINIMUM_DEPOSIT_AMOUNT": "最低存款金额",
@@ -1111,9 +1125,14 @@
       "SETTING_ALLOWANCE_EXPLANATION": "您的启用{SYMBOL}交易一经确认，您就可以存款。您只需为每个资产执行一次此操作。",
       "SLIPPAGE": "滑点",
       "SUBJECT_TO_RULES": "须遵守这些规则",
-      "SWAP": "交换",
+      "SWAP": "互换",
+      "TO_DEPOSIT_FROM_COINBASE": "要从 Coinbase 存款，请将{ASSET}从{NETWORK}发送至下面显示的地址。",
       "ESTIMATED_TIME": "预计时间",
-      "DEPOSIT_ACKNOWLEDGEMENT": "我同意 {TERMS_LINK} 和 {POLICY_LINK}，包括我接受与这些产品和服务相关的风险，并且不会在美国或任何其他受限制的司法管辖区使用这些产品和服务。 {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "我同意 {TERMS_LINK} 和 {POLICY_LINK}，包括我接受与这些产品和服务相关的风险，并且不会在美国或任何其他受限制的司法管辖区使用这些产品和服务。 {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "您的资金现在可用于交易。",
+      "YOUR_FUNDS_AVAILABLE_SOON": "您的资金很快将可用，您可以安全地关闭此窗口。",
+      "YOU_MAY_CLOSE_WINDOW": "您可以安全地关闭此窗口。",
+      "YOUR_DEPOSIT": "您的存款"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "启用提现功能",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提现可能需要最多 {HOURS} 小时才能可供提现。您将自行承担提现交易 gas 费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
       "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "所选路线的第三方费用较高。 我确认：\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "我确认知悉以下警告：\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "我确认知悉以下警告：\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "您的资金已被提取。",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "您的资金很快将被提取。 您可以安全地关闭此窗口。",
+      "YOUR_WITHDRAWAL": "您的提现"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "关于钱包",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "通过确定限价，您可以下达止盈限价单和\/或止损限价单。 单击 {DOCUMENTATION_LINK} 了解更多详情。",
       "MULTIPLE_ORDERS_FOUND": "找到多个订单。",
       "PRICE_TRIGGERS": "价格触发器",
-      "PRICE_TRIGGERS_DESCRIPTION": "使用触发器最大限度降低损失，保护利润。",
+      "PRICE_TRIGGERS_DESCRIPTION": "最大限度降低损失，保护利润。",
       "EXISTING_ORDERS_REPLACED": "编辑后，将替换您的现有订单。",
       "SL_LIMIT": "SL 限制",
       "SL_PRICE": "SL 价格",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "您的钱包网络不正确。请确保将它设置为‘以太坊主网’。",
       "DEPOSIT_WRONG_NETWORK_STAGING": "您的钱包网络不正确。请确保将它设置为‘Goerli 测试网络’。",
       "MUST_SPECIFY_ASSET": "请选择要存入的资产。",
-      "MUST_SPECIFY_CHAIN": "请选择存款的来源链。"
+      "MUST_SPECIFY_CHAIN": "请选择存款的来源链。",
+      "YOUR_DEPOSIT_FAILED": "您的充值失败。 请重试。"
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "流动性不足，无法处理此次快速提现。请尝试较小金额。",
       "MAX_FAST_WITHDRAW_AMOUNT": "请输入小于{MAX_FAST_WITHDRAW_AMOUNT}的提现金额。",
       "MIN_SLOW_WITHDRAW_AMOUNT": "正常提现金额必须大于或等于 10，或者是您的整个账户余额。",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "您的账户受到限制。您必须先平仓所有头寸才能提现。",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "您的提现请求失败。 请重试。",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "您的提现请求会使您的账户质押不足。 请尝试较小金额。",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "您的提现不能超过可用质押品。输入金额时，请确保您考虑过快速提现费用。",
       "WITHDRAW_MORE_THAN_FREE": "您的提现不能超过您的可用质押品。",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "请输入目标地址。",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "推出市场需要至少 {USDC_AMOUNT}USDC 的跨自由抵押品",
       "NOT_ENOUGH_BALANCE": "您需要至少 {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} 才能添加市场。"
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "请更改您的钱包网络，然后重试。",
+      "ERROR_WITH_APPROVAL": "您的审批出错。",
+      "INSUFFICIENT_GAS_BALANCE": "Gas 余额不足。 请添加 gas 资金，然后重试。",
+      "USER_REJECTED": "用户拒绝了请求。",
+      "YOUR_APPROVAL_FAILED": "您的批准失败。 请重试。"
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "暂停转账"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "在找回密钥时，始终切记检查并确认您访问的网站是 https:\/\/trade.dydx.exchange。"
+      "ALWAYS_VERIFY_URL": "在找回密钥时，始终切记检查并确认您访问的网站是 https:\/\/trade.dydx.exchange。",
+      "NOBLE_CHAIN_ONLY": "此地址仅支持将 Noble USDC 转移到 Noble 链。 从其他区块链发送任何资金都将导致这些资金的损失。"
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "本订单滑点低 — 我们建议{LIMIT_PRICE}美元或更高的限价，以提高本订单的成交几率。您的订单会在触发时以尽可能最有利的价格执行。",
