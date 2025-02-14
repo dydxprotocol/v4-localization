@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "Daha fazla yatırın",
       "DEPOSIT_WITH_FIAT": "Fiat para ile yatırın",
       "DEPOSIT": "Yatırma",
+      "DEPOSIT_WITH": "{TARGET} ile fon yatırma",
       "DEPTH_CHART_SHORT": "Derinlik",
       "DESTINATION": "Gönderileceği Yer",
       "DETAILED_VIEW": "Ayrıntılı görünüm",
@@ -158,6 +159,7 @@
       "EST_GAS": "Tahmini Gas",
       "EST_REWARDS": "Tahmini Ödüller",
       "ESTIMATED": "Tahmin Edilen",
+      "ESTIMATED_COST": "Tahmini Maliyet",
       "EXPAND_SECTION": "Bölümü genişlet",
       "EXPAND": "Genişlet",
       "FAST_WITHDRAW": "Hızlı Çekim",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "Sonuç yok",
       "HIGHLIGHTS": "Öne Çıkanlar",
       "LAUNCHABLE": "Kullanıma sunulabilir",
+      "LAUNCHABLE_DETAILS": "Bu piyasa başlatılabilir",
       "LAYER_1": "Katman 1",
       "LAYER_2": "Katman 2",
       "LEARN_MORE": "Daha fazla bilgi",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% indirim",
       "REMOVING": "Kaldırılıyor",
       "RESULTS": "Sonuçlar",
+      "RETRY": "Yeniden dene",
       "REVIEW": "Gözden geçir",
       "REWARDS": "Ödüller",
       "REWARDED": "Verilen ödüller",
@@ -911,8 +915,10 @@
       "CREDITED_WITH": "Hesabınıza test fonlarından ${AMOUNT_USD} yatırılacaktır.",
       "DEPOSIT_ALERT_TITLE": "{PENDING_DEPOSITS} kaynağından gelen {SOURCE_CHAIN} bekleyen yatırma işleminiz var.",
       "DEPOSIT_ALERT_SUBTITLE": "Durumu kontrol edin",
+      "DEPOSIT_AVAILABLE": "Yatırılan miktar olan {AMOUNT_USD} şu anda kullanıma hazır.",
       "DEPOSIT_COMPLETE": "Yatırılan miktar olan {AMOUNT_USD} şu anda kullanıma hazır.",
       "DEPOSIT_OF": "{AMOUNT_USD} tutarında yatırma",
+      "DEPOSIT_PENDING": "{AMOUNT_USD} tutarındaki depozitonuz bekleniyor.",
       "DEPOSIT_STATUS": "{AMOUNT_USD} tutarındaki yatırılan miktar yaklaşık olarak {ESTIMATED_DURATION} içerisinde kullanılabilir olacaktır.",
       "DEPOSIT_STATUS_SHORTLY": "{AMOUNT_USD} tutarındaki yatırılan miktar kısa bir süre içinde kullanılabilir olacaktır.",
       "DEPOSIT_TO_DESTINATION": "{DESTINATION_CHAIN} üzerine fon yatırma",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "Eski imzalar",
       "LINK_WALLET": "Cüzdanı bağlayın",
       "LINKING_WALLET": "Cüzdan bağlama",
+      "MINIMUM_DEPOSIT": "Min. yatırılacak miktar {MIN_DEPOSIT_USDC}",
       "MISSING_KEYS_DESCRIPTION": "Yeniden hoş geldiniz! Anahtarlarınızdan birinin veya daha fazlasının kurtarılması gerekiyor",
       "NEED_A_WALLET": "Cüzdana ihtiyacınız mı var?",
       "NOBLE_ADDRESS": "Noble Adresi",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "E-posta veya sosyal medya hesabınızla giriş yapın",
       "SIGN_IN_WITH_EMAIL": "E-posta ile giriş yapın",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC} tarafından sağlanan, giriş yapmanın basit bir yolu",
+      "SKIP_FAST_ROUTE_DESC": "$$  ücret, ${LIMIT_AMOUNT} limit",
+      "SKIP_SLOW_ROUTE_DESC": "$ ücret, limit yok",
       "SKIP_FOR_NOW": "Şimdilik atla",
       "SITE_OPERATED_BY_SHORT": "Bu site, dYdX Trading Inc. {NAME_OF_DEPLOYER} tarafından sağlanan açık kaynaklı yazılım kullanılarak {LEARN_MORE_LINK} tarafından işletilmektedir.",
       "SITE_OPERATED_BY_LONG": "Bu site, yazılımın Amerika Birleşik Devleri'nde veya diğer kısıtlı yargı bölgelerinde bulunan kişiler tarafından kullanılmasını yasaklayan {TERMS_OF_USE} hükümlerine tabi olarak, üçüncü taraf dYdX Trading Inc.'in sağladığı açık kaynaklı belirli yazılımlar kullanılarak {DEPLOYER_TERMS_AND_CONDITIONS} hükümlerine uygun şekilde {NAME_OF_DEPLOYER} tarafından işletilmektedir. dYdX blok zinciri, bağımsız doğrulayıcılardan oluşan bir topluluk tarafından desteklenmektedir. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "Dünyanın en güçlü açık borsası üzerinde yatırım yapmaya başlayın.",
       "SWITCH_NETWORK": "Ağı değiştir",
+      "SWITCH_NETWORKS": "Ağları değiştir",
       "TOS_TITLE": "Ürün ve hizmetlerimizden herhangi birini kullanarak {TERMS_LINK} ve {PRIVACY_POLICY_LINK} koşullarını kabul etmiş olursunuz. Bu şartları kabul, beyan ve garanti etmektesiniz:",
       "TOS_LINE1": "Amerika Birleşik Devletleri, Kanada veya yasaklı ya da engellenmiş diğer bir konumda ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi olan bir firma ya da kişi değilsiniz.",
       "TOS_LINE2": "Gelecekte Amerika Birleşik Devletleri, Kanada veya diğer yasaklanmış veya engellenmiş konumlarda bulunurken bu siteye erişmeyecek veya ürünlerimizi veya hizmetlerimizi kullanmayacaksınız.",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "Durumu kontrol edin",
       "WITHDRAW_COMPLETE": "{AMOUNT_USD} tutarındaki çekme işleminiz artık kullanıma hazır.",
       "WITHDRAW_OF": "{AMOUNT_USD} tutarında çekim",
+      "WITHDRAW_PENDING": "{AMOUNT_USD} tutarındaki çekim işleminiz bekleniyor.",
       "WITHDRAW_STATUS": "{AMOUNT_USD} tutarındaki çekme işleminiz yaklaşık olarak {ESTIMATED_DURATION} içinde mevcut olacaktır.",
       "WITHDRAW_STATUS_SHORTLY": "{AMOUNT_USD} tutarındaki çekme işleminiz kısa bir süre içinde kullanılabilir olacaktır.",
       "WITHDRAWALS_PAUSED": "Çekme işlemleri geçici olarak duraklatıldı",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "Şartları kabul edin ve yatırma işlemini gerçekleştirin",
+      "APPROVE_USDC": "USDC'yi onaylayın",
       "BRIDGE_FEE": "Köprü Ücreti",
+      "DEPOSIT_VIA_COINBASE": "Coinbase aracılığıyla fon yatırma",
       "ENABLE_FOR_THIS_DEPOSIT": "Bu yatırma işlemi için etkinleştirin",
       "ENABLE_SYMBOL_ON_DYDX": "dYdX üzerinde {SYMBOL} birimini etkinleştirin",
       "ENABLE_SYMBOL": "{SYMBOL} birimini etkinleştir",
@@ -1101,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gas ücreti ödemeden yatırma işlemleri bu kurallara tabidir",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gas ücreti ödemeden yatırma işlemleri geçici olarak kullanım dışı. Merak etmeyin, yakında geri gelecek!",
       "GASLESS_ETH_DEPOSITS": "ETH için gas ücreti ödemeden yatırma işlemleri kullanım dışı. {1INCH_WETH_LINK} veya {UNISWAP_WETH_LINK} üzerinde ETH miktarınızı WETH'e çevirebilir ve WETH gas ücreti ödemeden yatırma işlemini kullanabilir; ya da kendi gas ücretlerinizi ödeyerek doğrudan ETH yatırabilirsiniz.",
+      "HELD": "tutulan",
       "LOWEST_FEE_DEPOSITS": "{LOWEST_FEE_TOKENS_TOOLTIP} üzerinden yapılan USDC yatırma işlemleri en düşük ücretlere sahiptir. Diğer yatırma işlemlerinde ek üçüncü taraf ücretleri olabilir.",
       "MAX_SLIPPAGE": "Azami Kayma",
       "MINIMUM_DEPOSIT_AMOUNT": "Minimum Yatırma Miktarı",
@@ -1112,8 +1126,13 @@
       "SLIPPAGE": "Kayma",
       "SUBJECT_TO_RULES": "Şu kurallara tabidir",
       "SWAP": "Takas",
+      "TO_DEPOSIT_FROM_COINBASE": "Coinbase'ten para yatırmak için {NETWORK}  aşağıda gösterilen adrese {ASSET} iletin.",
       "ESTIMATED_TIME": "Tahmini Süre",
-      "DEPOSIT_ACKNOWLEDGEMENT": "Bu ürün ve hizmetlerle ilgili riskleri kabul ettiğim ve bunlara Amerika Birleşik Devletleri'nden veya kısıtlanmış başka bir yargı alanından erişmeyeceğim de dahil olmak üzere {TERMS_LINK} ve {POLICY_LINK} koşullarını kabul ediyorum. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "Bu ürün ve hizmetlerle ilgili riskleri kabul ettiğim ve bunlara Amerika Birleşik Devletleri'nden veya kısıtlanmış başka bir yargı alanından erişmeyeceğim de dahil olmak üzere {TERMS_LINK} ve {POLICY_LINK} koşullarını kabul ediyorum. {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Fonlarınız artık alım satım için kullanılabilir.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "Fonlarınız yakında kullanılabilir olacak ve bu pencereyi güvenle kapatabilirsiniz.",
+      "YOU_MAY_CLOSE_WINDOW": "Bu pencereyi güvenle kapatabilirsiniz.",
+      "YOUR_DEPOSIT": "Yatırdığınız para"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Çekme işlemini etkinleştirin",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "Bu {STYLED_SLOW} çekme işlemi, çekme için kullanılabilir hale gelene dek {HOURS} saate kadar sürebilir. Çekme işleminin gas ücretlerinden siz sorumlu olacaksınız. Fonlarınıza daha erken ihtiyacınız varsa, {STYLED_FAST} çekme işlemini deneyin.",
       "WITHDRAW_IRREVERSIBLE": "Bir çekme işlemini başlatma emri geri alınamaz.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "Seçilen rotadan alınan yüksek üçüncü taraf ücretleri. Aşağıdakileri onaylıyorum:\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Aşağıdaki uyarıyı gördüğümü onaylıyorum:\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "Aşağıdaki uyarıyı gördüğümü onaylıyorum:\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "Fonlarınız çekildi.",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "Fonlarınız kısa bir süre içinde çekilecektir. Bu pencereyi güvenle kapatabilirsiniz.",
+      "YOUR_WITHDRAWAL": "Çekme işleminiz"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "Cüzdanlar hakkında",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "Bir limit fiyatı belirleyerek, bir Kâr Alma Limit Emri ve\/veya bir Stop Limit Emri vermiş olursunuz. Daha fazla bilgi için {DOCUMENTATION_LINK} üzerine tıklayın.",
       "MULTIPLE_ORDERS_FOUND": "Birden fazla emir bulundu.",
       "PRICE_TRIGGERS": "Fiyat tetikleme değerleri",
-      "PRICE_TRIGGERS_DESCRIPTION": "Tetikleri kullanarak kayıpları en aza indirin ve kârı güvence altına alın.",
+      "PRICE_TRIGGERS_DESCRIPTION": "Kayıpları en aza indirin ve kârı güvence altına alın.",
       "EXISTING_ORDERS_REPLACED": "Düzenleme işleminden sonra mevcut talimatınız değiştirilecektir.",
       "SL_LIMIT": "Zarar Durdurma Limiti",
       "SL_PRICE": "Zarar Durdurma Fiyatı",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "Cüzdan ağınız yanlış. Lütfen \"Ethereum Mainnet\" olarak ayarlandığından emin olun.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "Cüzdan ağınız yanlış. Lütfen \"Goerli Test Ağı\" olarak ayarlandığından emin olun.",
       "MUST_SPECIFY_ASSET": "Lütfen yatırmak için bir varlık seçin.",
-      "MUST_SPECIFY_CHAIN": "Lütfen yatıracağınız varlıklar için bir kaynak zincir seçin."
+      "MUST_SPECIFY_CHAIN": "Lütfen yatıracağınız varlıklar için bir kaynak zincir seçin.",
+      "YOUR_DEPOSIT_FAILED": "Yatırma işleminiz başarısız oldu. Lütfen tekrar deneyin."
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "Bu hızlı çekme işlemiyle devam etmek için yeterli likidite bulunmuyor. Lütfen daha küçük bir miktar deneyin.",
       "MAX_FAST_WITHDRAW_AMOUNT": "Lütfen {MAX_FAST_WITHDRAW_AMOUNT} değerinin altında bir çekme miktarı girin.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "Yavaş çekme miktarı 10 veya daha yüksek ya da tüm hesap bakiyeniz olarak belirlenmelidir.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "Hesabınız kısıtlanmıştır. Çekme işlemi yapabilmek için tüm pozisyonlarınızı kapatmanız gerekiyor.",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "Çekme talebiniz başarısız oldu. Lütfen tekrar deneyin.",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "Çekme talebiniz hesabınızı yetersiz teminat seviyesi içinde bırakacaktır. Lütfen daha küçük bir miktar deneyin.",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "Ücretsiz teminatınızdan daha fazlasını çekemezsiniz. Bir miktar girerken hızlı çekme ücretini hesaba kattığınızdan emin olun.",
       "WITHDRAW_MORE_THAN_FREE": "Ücretsiz teminatınızdan daha fazlasını çekemezsiniz.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "Lütfen bir hedef adresi girin.",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "Bir piyasa başlatmak, minimum {USDC_AMOUNT} USDC serbest çapraz teminat gerektirir",
       "NOT_ENOUGH_BALANCE": "Bir piyasa eklemeniz için en az {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM} tutarına ihtiyacınız vardır."
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "Lütfen cüzdan ağınızı değiştirin ve tekrar deneyin.",
+      "ERROR_WITH_APPROVAL": "Onayınızla ilgili bir hata oluştu.",
+      "INSUFFICIENT_GAS_BALANCE": "Yetersiz gaz bakiyesi. Lütfen gaz fonları ekleyin ve tekrar deneyin.",
+      "USER_REJECTED": "Kullanıcı talebi reddetti.",
+      "YOUR_APPROVAL_FAILED": "Onayınız başarısız oldu. Lütfen tekrar deneyin."
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "Transferler duraklatıldı"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "Anahtarlarınızı kurtarırken daima https:\/\/trade.dydx.exchange üzerinde olduğunuzu kontrol edin ve doğrulayın."
+      "ALWAYS_VERIFY_URL": "Anahtarlarınızı kurtarırken daima https:\/\/trade.dydx.exchange üzerinde olduğunuzu kontrol edin ve doğrulayın.",
+      "NOBLE_CHAIN_ONLY": "Bu adres yalnızca Noble Zinciri üzerine Noble USDC transferleri içindir. Diğer blok zincirlerden herhangi bir fon göndermek, bu fonların kaybına neden olacaktır."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "Bu emirde kayma düşük; emrinizi karşılama ihtimalinizi artırmak için ${LIMIT_PRICE} veya daha yüksek bir limit fiyatını öneriyoruz. Emriniz tetiklendiğinde mümkün olan en iyi fiyatla yürütülecektir.",
