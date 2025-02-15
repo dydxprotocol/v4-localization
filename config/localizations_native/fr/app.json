@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "Bêta de l'application iOS",
       "ISOLATED_POSITIONS_COMING_SOON": "Les positions isolées bientôt sur mobile",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Les ordres pour les positions isolées bientôt disponibles sur mobile",
+      "LAUNCH_ON_WEB": "Lancement sur le web",
       "LAYER_2": "Couche 2",
       "LEADERBOARDS": "Classements",
       "LEARN_MORE_ABOUT_WALLETS": "En savoir plus sur les portefeuilles",
@@ -252,7 +253,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "Sélectionner la préférence",
         "MODE_TO_BE_USED": "Ce mode sera utilisé pour tous les trades",
-        "CHANGE_SETINGS": "Modifier depuis Profil › Paramètres",
+        "CHANGE_SETINGS": "Modifiez cela depuis Paramètres",
         "SIMPLE": "Par défaut",
         "ADVANCED": "Avancé",
         "EASIER": "Plus facile à utiliser",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sur un large éventail de sujets, y compris la politique, le sport, la culture pop et plus encore.",
       "SETTLEMENT_OUTCOMES_TITLE": "Règlement de 0 $ ou 1 $",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Le marché s'établira automatiquement à 1 $ si l'événement se produit. Sinon, il s'établira à ~ 0 $. Le prix est équivalent au pourcentage de chance que l'évènement se produise."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Nécessite un dépôt {DEPOSIT_AMOUNT} dans MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault a un TAEG estimé {APR}"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Il s'agit du montant maximal d'exposition que vous pouvez obtenir avec votre dépôt. Ce n'est pas le montant que vous pouvez déposer ou retirer. Votre pouvoir d’achat peut changer rapidement et peut être positif même lorsque vous êtes en perte.",
+        "RISK_TOOLTIP": "Il s'agit du pourcentage de votre dépôt conservé en marge par vos positions ouvertes. Cela peut changer rapidement lorsque le prix du marché change."
     }
   },
   "RATE_APP": {
