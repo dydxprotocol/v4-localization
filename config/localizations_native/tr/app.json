@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOS Uygulaması - Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "İzole pozisyonlar yakında mobil cihazlara geliyor",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "İzole pozisyonlar için talimatlar yakında mobil cihazlara geliyor",
+      "LAUNCH_ON_WEB": "Web üzerinde başlatın",
       "LAYER_2": "Katman 2",
       "LEADERBOARDS": "Lider Tabloları",
       "LEARN_MORE_ABOUT_WALLETS": "Cüzdanlar hakkında daha fazla bilgi",
@@ -252,13 +253,13 @@
       "MODE": {
         "SELECT_PREFERENCE": "Tercih Seçin",
         "MODE_TO_BE_USED": "Tüm alım satımlar için bu mod kullanılacaktır",
-        "CHANGE_SETINGS": "Profil › Ayarlar üzerinden bunu değiştirebilirsiniz",
+        "CHANGE_SETINGS": "Bunu Ayarlar üzerinden değiştirebilirsiniz",
         "SIMPLE": "Varsayılan",
         "ADVANCED": "Gelişmiş",
         "EASIER": "Kullanımı daha kolay",
         "POWERFUL": "Daha güçlü",
         "TRADE_BOX": "Mod",
-        "SELECT_MODE": "Mod Seçin",
+        "SELECT_MODE": "Mod seçin",
         "SWAP": "Takas",
         "SIMPLE_AND_EASIER": "Odaklanmış ama güçlü",
         "PRO": "Pro",
@@ -443,7 +444,15 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Kaldıraçlı Alım Satım Etkinliği Sonuçları",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Politika, spor, popüler kültür ve daha fazlası dahil olmak üzere çok çeşitli konularda.",
       "SETTLEMENT_OUTCOMES_TITLE": "0 $ veya 1 $ Bağlama",
-      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde yaklaşık 0 $ seviyesinde bağlanacak. Fiyat, sonucun oluşma olasılığı yüzdesine denktir."
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde yaklaşık 0 $ seviyesinde bağlanacak. Fiyat, sonucun gerçekleşme olasılığı yüzdesine eşittir."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "MegaVault'a {DEPOSIT_AMOUNT} fon yatırılmasını gerektirir",
+        "LAUNCH_MARKET_LINE2": "MegaVault tahmini {APR} APR'ye sahiptir"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Bu, yatırma işleminizle alabileceğiniz maksimum maruz kalma miktarıdır. Yatırabileceğiniz veya çekebileceğiniz miktar değildir. Satın alma gücünüz hızla değişebilir ve kayıp ettiğinizde bile pozitif olabilir.",
+        "RISK_TOOLTIP": "Bu değer, açık pozisyonlarınız tarafından marj olarak tutulan yatırma işleminizin yüzdesidir. Bu değer, piyasa fiyatı değiştiğinde hızla değişebilir."
     }
   },
   "RATE_APP": {
