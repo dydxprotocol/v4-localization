@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOS 앱 베타",
       "ISOLATED_POSITIONS_COMING_SOON": "격리 포지션 기능을 곧 모바일로 이용할 수 있습니다",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "격리 포지션 주문을 곧 모바일로 이용할 수 있습니다",
+      "LAUNCH_ON_WEB": "웹에서 출시",
       "LAYER_2": "레이어 2",
       "LEADERBOARDS": "순위표",
       "LEARN_MORE_ABOUT_WALLETS": "지갑에 대해 자세히 알아보기",
@@ -252,7 +253,7 @@
       "MODE": {
         "SELECT_PREFERENCE": "환경 설정을 설정합니다",
         "MODE_TO_BE_USED": "해당 모드는 모든 거래에서 사용됩니다",
-        "CHANGE_SETINGS": "프로필 › 설정에서 이를 변경하세요",
+        "CHANGE_SETINGS": "설정에서 변경하세요",
         "SIMPLE": "기본값",
         "ADVANCED": "고급",
         "EASIER": "사용하기 쉬움",
@@ -260,7 +261,7 @@
         "TRADE_BOX": "모드",
         "SELECT_MODE": "모드 선택",
         "SWAP": "스왑",
-        "SIMPLE_AND_EASIER": "Focused yet powerful",
+        "SIMPLE_AND_EASIER": "집중적이면서도 강력한 성능",
         "PRO": "프로",
         "FULLY_FEATURED": "기능 완비",
         "SWITCH_TO_PRO": "프로로 전환"
@@ -275,9 +276,9 @@
       "LOW_RISK": "리스크 낮음",
       "SWAP": "스왑",
       "RISK": "리스크",
-      "SLIDE_TO_BUY": "Slide to long",
-      "SLIDE_TO_SELL": "Slide to short",
-      "SLIDE_TO_CLOSE": "Slide to close",
+      "SLIDE_TO_BUY": "슬라이드하여 롱 체결",
+      "SLIDE_TO_SELL": "슬라이드하여 숏 체결",
+      "SLIDE_TO_CLOSE": "슬라이드하여 마감",
       "FROM_TO": "{TOKEN_FROM}~{TOKEN_TO}",
       "CLOSING_POSITION": "{TOKEN_FROM} 포지션",
       "PLACE_ANOTHER_TRADE": "다른 거래 실행",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"정치, 스포츠, 팝 문화 등 다양한 주제에 대해",
       "SETTLEMENT_OUTCOMES_TITLE": "$0 또는 $1 정산",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "이벤트가 발생하면 시장은 자동으로 $1로 정산됩니다. 그렇지 않으면 ~$0으로 정산됩니다. 가격은 결과가 발생할 확률에 지배됩니다."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "MegaVault에 {DEPOSIT_AMOUNT}을(를) 입금해야 합니다",
+        "LAUNCH_MARKET_LINE2": "MegaVault의 예상 {APR} APR"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "이는 입금으로 얻을 수 있는 최대 노출 금액입니다. 이는 입금하거나 출금할 수 있는 금액이 아닙니다. 구매력은 빠르게 변할 수 있으며 손실을 입고 있을 때에도 긍정적일 수 있습니다.",
+        "RISK_TOOLTIP": "이는 오픈 포지션에서 마진으로 보유한 입금 금액의 비율입니다. 이는 시장 가격이 변동할 때 급격히 변할 수 있습니다."
     }
   },
   "RATE_APP": {

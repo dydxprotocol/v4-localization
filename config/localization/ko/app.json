@@ -10,7 +10,7 @@
         "1_DAY_AGO": "1일 전",
         "X_DAY_AGO": "{X}일 전",
         "_24H": "24시간",
-        "_24H_VOLUME": "24h vol.",
+        "_24H_VOLUME": "24시간 거래량",
         "_30D": "30일",
         "ALL_TIME": "모든 시간",
         "DAILY": "일일",
@@ -134,6 +134,7 @@
       "DEPOSIT_MORE": "추가 입금",
       "DEPOSIT_WITH_FIAT": "명목 화폐로 입금",
       "DEPOSIT": "입금",
+      "DEPOSIT_WITH": "{TARGET}(으)로 입금",
       "DEPTH_CHART_SHORT": "깊이",
       "DESTINATION": "대상",
       "DETAILED_VIEW": "상세 보기",
@@ -158,6 +159,7 @@
       "EST_GAS": "예상 가스",
       "EST_REWARDS": "예상 보상",
       "ESTIMATED": "예상됨",
+      "ESTIMATED_COST": "예상 비용",
       "EXPAND_SECTION": "섹션 확장",
       "EXPAND": "확대",
       "FAST_WITHDRAW": "빠른 인출",
@@ -215,6 +217,7 @@
       "NO_RESULTS": "결과 없음",
       "HIGHLIGHTS": "하이라이트",
       "LAUNCHABLE": "시작 가능",
+      "LAUNCHABLE_DETAILS": "이 시장에 출시할 수 있습니다",
       "LAYER_1": "레이어 1",
       "LAYER_2": "레이어 2",
       "LEARN_MORE": "자세히 보기",
@@ -261,9 +264,9 @@
       "NEW": "신규",
       "NFT": "NFT",
       "NO": "아니요",
-      "NO_FUNDS": "You have no funds on dYdX.",
-      "NO_POSITION": "No Position",
-      "NO_MARKET": "No market matching your search",
+      "NO_FUNDS": "dYdX에 자금이 없습니다.",
+      "NO_POSITION": "포지션이 없습니다",
+      "NO_MARKET": "검색과 일치하는 시장이 없습니다",
       "NONE": "없음",
       "NOT_ALLOWED": "허용되지 않음",
       "ON_CHAIN": "{CHAIN}에",
@@ -312,6 +315,7 @@
       "REFERRER_PERCENT_OFF": "{DISCOUNT}% 하락",
       "REMOVING": "제거 중",
       "RESULTS": "결과",
+      "RETRY": "다시 시도",
       "REVIEW": "검토",
       "REWARDS": "보상",
       "REWARDED": "보상됨",
@@ -415,7 +419,7 @@
       "YES": "예",
       "YOU": "귀하",
       "YOUR_ACCOUNT": "귀하의 계정",
-      "YOUR_POSITIONS": "Your positions"
+      "YOUR_POSITIONS": "내 포지션"
     },
     "__ASSETS": {
       "ZRX": {
@@ -911,8 +915,10 @@
       "CREDITED_WITH": "귀하의 계정은 테스트 자금에서 ${AMOUNT_USD}으로(로) 적립됩니다.",
       "DEPOSIT_ALERT_TITLE": "{SOURCE_CHAIN}에서 보류 중인 {PENDING_DEPOSITS} 입금이 있습니다.",
       "DEPOSIT_ALERT_SUBTITLE": "상태 확인",
+      "DEPOSIT_AVAILABLE": "이제 {AMOUNT_USD} 입금을 사용할 수 있습니다.",
       "DEPOSIT_COMPLETE": "이제 {AMOUNT_USD} 입금을 사용할 수 있습니다.",
       "DEPOSIT_OF": "{AMOUNT_USD} 입금",
+      "DEPOSIT_PENDING": "{AMOUNT_USD} 입금이 보류 중입니다.",
       "DEPOSIT_STATUS": "{AMOUNT_USD} 입금은 약 {ESTIMATED_DURATION}에 제공됩니다.",
       "DEPOSIT_STATUS_SHORTLY": "귀하의 {AMOUNT_USD}의 입금은 곧 제공됩니다.",
       "DEPOSIT_TO_DESTINATION": "{DESTINATION_CHAIN}에 입금",
@@ -946,6 +952,7 @@
       "LEGACY_SIGNING": "레거시 서명",
       "LINK_WALLET": "지갑 연결",
       "LINKING_WALLET": "지갑 연결 중",
+      "MINIMUM_DEPOSIT": "최소 입금 금액은 {MIN_DEPOSIT_USDC}입니다",
       "MISSING_KEYS_DESCRIPTION": "다시 오신 것을 환영합니다! 하나 이상의 키를 복구해야 됩니다",
       "NEED_A_WALLET": "지갑이 필요하십니까?",
       "NOBLE_ADDRESS": "Noble 주소",
@@ -984,11 +991,14 @@
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "이메일 또는 소셜 계정으로 로그인하기",
       "SIGN_IN_WITH_EMAIL": "이메일로 로그인하기",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC}에서 제공하는 간단한 로그인 방법",
+      "SKIP_FAST_ROUTE_DESC": "$$ 수수료, ${LIMIT_AMOUNT} 한도",
+      "SKIP_SLOW_ROUTE_DESC": "$ 수수료, 제한 없음",
       "SKIP_FOR_NOW": "다음에 하기",
       "SITE_OPERATED_BY_SHORT": "이 사이트는 dYdX Trading Inc.에서 제공하는 소프트웨어 오픈 소스를 활용하며 {NAME_OF_DEPLOYER}에 의해 운영됩니다: {LEARN_MORE_LINK}.",
       "SITE_OPERATED_BY_LONG": "이 사이트는 {NAME_OF_DEPLOYER}에 따라 운영되며, {DEPLOYER_TERMS_AND_CONDITIONS}의 적용을 받습니다. {TERMS_OF_USE}에 따라 타사 dYdX Trading Inc.에서 오픈 소싱한 특정 소프트웨어를 활용하며, 이는 미국 또는 기타 제한된 관할권에 있는 개인이 소프트웨어를 사용하는 것을 금지합니다. dYdX 블록체인은 독립적인 검증자 커뮤니티에서 지원합니다. {LEARN_MORE_LINK}",
       "START_TRADING_BLURB": "세계에서 가장 강력한 공개 거래소에서 거래를 시작하세요.",
       "SWITCH_NETWORK": "네트워크 전환",
+      "SWITCH_NETWORKS": "네트워크 전환",
       "TOS_TITLE": "당사의 제품 및 서비스를 사용하는 것은 {TERMS_LINK} 및 {PRIVACY_POLICY_LINK}에 동의하는 것입니다. 귀하는 다음 내용에 대해 동의, 대변 및 보증합니다:",
       "TOS_LINE1": "귀하는 미국, 캐나다 또는 기타 차단된 지역이나 제한 지역에 거주하거나 위치하거나 설립되었거나 등록 대리인을 두고 있는 사람 또는 회사가 아닙니다.",
       "TOS_LINE2": "귀하는 미국, 캐나다 또는 기타 차단되거나 제한된 위치에 있는 동안 향후에 이 사이트에 액세스하거나 당사의 제품 또는 서비스를 사용할 수 없습니다.",
@@ -1019,6 +1029,7 @@
       "WITHDRAWAL_ALERT_SUBTITLE": "상태 확인",
       "WITHDRAW_COMPLETE": "이제 귀하의 {AMOUNT_USD} 인출이 가능합니다.",
       "WITHDRAW_OF": "{AMOUNT_USD} 인출",
+      "WITHDRAW_PENDING": "{AMOUNT_USD} 출금이 보류 중입니다.",
       "WITHDRAW_STATUS": "귀하의 {AMOUNT_USD} 인출은 대략 {ESTIMATED_DURATION}에서 가능합니다.",
       "WITHDRAW_STATUS_SHORTLY": "귀하의 {AMOUNT_USD} 인출은 곧 제공됩니다.",
       "WITHDRAWALS_PAUSED": "인출이 일시적으로 중지됨",
@@ -1087,7 +1098,9 @@
     },
     "DEPOSIT_MODAL": {
       "ACKNOWLEDGE_TERMS_AND_DEPOSIT": "약관 및 입금 확인",
+      "APPROVE_USDC": "USDC 승인",
       "BRIDGE_FEE": "브릿지 수수료",
+      "DEPOSIT_VIA_COINBASE": "Coinbase로 입금",
       "ENABLE_FOR_THIS_DEPOSIT": "이 입금 활성화",
       "ENABLE_SYMBOL_ON_DYDX": "dYdX에서 {SYMBOL} 활성화",
       "ENABLE_SYMBOL": "{SYMBOL} 활성화",
@@ -1101,6 +1114,7 @@
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "가스 수수료 면제 입금에는 다음 규칙이 적용됩니다",
       "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "가스 수수료 면제 입금이 일시적으로 불가능합니다. 걱정 마세요, 곧 복구될 예정입니다!",
       "GASLESS_ETH_DEPOSITS": "ETH는 가수 수수료 면제 입금이 불가능합니다. {1INCH_WETH_LINK} 또는 {UNISWAP_WETH_LINK}에서 ETH를 WETH로 전환하여 WETH 가스 수수료 면제 입금을 하거나 직접 가스 수수료를 지불하여 ETH를 변환할 수 있습니다.",
+      "HELD": "보유됨",
       "LOWEST_FEE_DEPOSITS": "{LOWEST_FEE_TOKENS_TOOLTIP}의 USDC 예금이 수수료가 가장 낮습니다. 다른 예금에는 추가 제3자 수수료가 있을 수 있습니다.",
       "MAX_SLIPPAGE": "최대 슬리피지(Max Slippage)",
       "MINIMUM_DEPOSIT_AMOUNT": "최소 입금 금액",
@@ -1112,8 +1126,13 @@
       "SLIPPAGE": "슬리피지",
       "SUBJECT_TO_RULES": "해당 규칙의 적용 대상",
       "SWAP": "스왑",
+      "TO_DEPOSIT_FROM_COINBASE": "Coinbase에서 입금하려면 {NETWORK}에서 {ASSET}을(를) 아래 표시된 주소로 전송하세요.",
       "ESTIMATED_TIME": "예상 시간",
-      "DEPOSIT_ACKNOWLEDGEMENT": "본인은 이러한 제품 및 서비스와 관련된 위험을 수락하며 미국 또는 기타 제한된 관할권의 위험을 사용하지 않을 것임을 포함하여 {TERMS_LINK} 및 {POLICY_LINK}에 동의합니다. {VIEW_MORE_LINK}"
+      "DEPOSIT_ACKNOWLEDGEMENT": "본인은 이러한 제품 및 서비스와 관련된 위험을 수락하며 미국 또는 기타 제한된 관할권의 위험을 사용하지 않을 것임을 포함하여 {TERMS_LINK} 및 {POLICY_LINK}에 동의합니다. {VIEW_MORE_LINK}",
+      "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "이제 귀하의 자금을 거래에 사용할 수 있습니다.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "귀하의 자금을 곧 사용할 수 있으므로 이 창을 안심하고 닫으셔도 됩니다.",
+      "YOU_MAY_CLOSE_WINDOW": "이 창을 안전하게 닫으셔도 됩니다.",
+      "YOUR_DEPOSIT": "입금"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "인출 활성화",
@@ -1135,7 +1154,10 @@
       "SLOW_WITHDRAW_CONFIRMATION": "{STYLED_SLOW}에 해당 인출은 가능하기까 최대 {HOURS}시간이 소요됩니다. 인출 거래 가스 수수료는 본인이 부담해야 합니다. 자금이 더 빨리 필요하다면 {STYLED_FAST} 인출을 시도하세요.",
       "WITHDRAW_IRREVERSIBLE": "인출을 시작하면 되돌릴 수 없습니다.",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "선택한 경로의 타사 수수료가 높습니다. 본인은 다음을 인정합니다:\n{WARNING_MESSAGE}",
-      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "본인은 다음의 주의 사항을 인지했습니다:\n{WARNING_MESSAGE}"
+      "ACKNOWLEDGE_WARNING_MESSAGE_FALLBACK": "본인은 다음의 주의 사항을 인지했습니다:\n{WARNING_MESSAGE}",
+      "YOUR_FUNDS_WITHDRAWN": "귀하의 자금이 인출되었습니다.",
+      "YOUR_FUNDS_WITHDRAWN_SHORTLY": "귀하의 자금이 곧 인출됩니다. 이 창을 안전하게 닫으셔도 됩니다.",
+      "YOUR_WITHDRAWAL": "출금"
     },
     "ONBOARDING_MODAL": {
       "ABOUT_WALLETS": "지갑 정보",
@@ -1254,7 +1276,7 @@
       "LIMIT_PRICE_TOOLTIP": "지정가 가격을 식별하면 이익 환수 지정가 주문 및\/또는 손절매 지정가 주문을 하게 됩니다. 자세한 내용을 보려면 {DOCUMENTATION_LINK}을(를) 클릭하세요.",
       "MULTIPLE_ORDERS_FOUND": "여러 개의 주문을 찾았습니다.",
       "PRICE_TRIGGERS": "가격 트리거",
-      "PRICE_TRIGGERS_DESCRIPTION": "트리거로 손실을 최소화하고 이익을 확보하세요.",
+      "PRICE_TRIGGERS_DESCRIPTION": "손실을 최소화하고 수익을 보장하세요.",
       "EXISTING_ORDERS_REPLACED": "편집하면 기존 주문이 교체됩니다.",
       "SL_LIMIT": "SL 제한",
       "SL_PRICE": "SL 가격",
@@ -1402,7 +1424,7 @@
       "BRACKET_ORDER_LONG_TAKE_PROFIT_DESCRIPTION": "{ASSET}이(가) 주어진 금액까지 증가하면 이익을 얻기 위해 {ACTION}을(를) 발동합니다.",
       "BRACKET_ORDER_SHORT_STOP_LOSS_DESCRIPTION": "{ASSET}이(가) 주어진 금액까지 증가하면 손실을 방지하기 위해 {ACTION}을(를) 발동합니다.",
       "BRACKET_ORDER_SHORT_TAKE_PROFIT_DESCRIPTION": "{ASSET}이(가) 고정 가격까지 하락하면 이익을 얻기 위해 {ACTION}을(를) 발동합니다.",
-      "BUY_AMOUNT_ASSET": "Buy  ",
+      "BUY_AMOUNT_ASSET": "{AMOUNT} {ASSET} 매수",
       "BUY_LONG": "구매 | 롱",
       "BUY_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}에서 구매함 {PRICE}",
       "BUYS_SELLS_TOGGLE": "매수\/매도",
@@ -1599,7 +1621,7 @@
       "RETURN_TO_MARKET": "시장으로 돌아가기",
       "RISK_REWARD": "위험-보상",
       "SELECT_MARKET": "시장 선택",
-      "SELL_AMOUNT_ASSET": "Sell  ",
+      "SELL_AMOUNT_ASSET": "{AMOUNT} {ASSET} 매도",
       "SELL_MARK_TOOLTIP": "{ASSET_SIZE}{ASSET}을(를) {PRICE}에 판매함",
       "SELL_SHORT": "판매 | 숏",
       "SELF_TRADE": "자체 거래",
@@ -1616,7 +1638,7 @@
       "STOP_PRICE": "스탑 가격",
       "SUBMITTED": "제출됨",
       "SUBMITTING": "제출",
-      "SUCCESS": "Success",
+      "SUCCESS": "성공",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "수익 실현 지정가 주문은 오라클 가격 또는 마지막 거래 가격이 트리거 가격을 넘어설 때마다 전통적인 지정가 주문으로 변환됩니다.",
       "TAKE_PROFIT_LIMIT_SHORT": "이익 환수 지정가",
       "TAKE_PROFIT_LIMIT": "이익 환수 지정가",
@@ -2682,13 +2704,16 @@
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "지갑 네트워크가 잘못되었습니다. '이더리움 메인넷'으로 설정되어 있는지 확인하세요.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "지갑 네트워크가 잘못되었습니다. '고얼리 테스트 네트워크'로 설정되어 있는지 확인하세요.",
       "MUST_SPECIFY_ASSET": "입금할 자산을 선택하세요.",
-      "MUST_SPECIFY_CHAIN": "입금할 소스 체인을 선택하세요."
+      "MUST_SPECIFY_CHAIN": "입금할 소스 체인을 선택하세요.",
+      "YOUR_DEPOSIT_FAILED": "입금에 실패했습니다. 다시 시도하세요."
     },
     "WITHDRAW_MODAL": {
       "FAST_WITHDRAW_NOT_ENOUGH_LIQUIDITY": "이 빠른 인출을 처리하기에 충분한 유동성이 없습니다. 더 적은 금액을 시도하세요.",
       "MAX_FAST_WITHDRAW_AMOUNT": "{MAX_FAST_WITHDRAW_AMOUNT} 미만의 인출 금액을 입력하세요.",
       "MIN_SLOW_WITHDRAW_AMOUNT": "느린 인출 금액은 10이상이거나 전체 계정 잔액이어야 합니다.",
       "RESTRICTED_OPEN_POSITIONS_WITHDRAW": "귀하의 계정이 제한되었습니다. 인출을 진행하려면 모든 포지션을 종료해야 합니다.",
+      "WITHDRAWAL_FAILED_TRY_AGAIN": "인출 요청에 실패했습니다. 다시 시도하세요.",
+      "WITHDRAWAL_UNDERCOLLATERALIZED": "인출 요청으로 인해 계정의 담보 수준이 낮아질 수 있습니다. 더 적은 금액을 시도하세요.",
       "WITHDRAW_MORE_THAN_FREE_DUE_TO_FEE": "무료 담보보다 더 큰 금액을 출금할 수 없습니다. 금액을 입력할 때 빠른 출금 수수료를 감안해야 합니다.",
       "WITHDRAW_MORE_THAN_FREE": "무료 담보보다 더 큰 금액을 출금할 수 없습니다.",
       "WITHDRAW_MUST_SPECIFY_ADDRESS": "대상 주소를 입력하세요.",
@@ -2711,6 +2736,13 @@
     "NEW_MARKET_WIDGET": {
       "LAUNCHING_MARKET_REQUIRES_USDC": "시장을 출시하려면 최소 {USDC_AMOUNT}USDC의 무담보가 필요합니다.",
       "NOT_ENOUGH_BALANCE": "시장을 추가하려면 최소한 {NUM_TOKENS_REQUIRED} {NATIVE_TOKEN_DENOM}이(가) 필요합니다."
+    },
+    "WALLET_SPECIFIC": {
+      "CHAIN_MISMATCH": "지갑 네트워크를 변경하고 다시 시도하세요.",
+      "ERROR_WITH_APPROVAL": "귀하의 승인 시 오류가 발생했습니다.",
+      "INSUFFICIENT_GAS_BALANCE": "가스 잔액이 부족합니다. 가스 자금을 추가하고 다시 시도하세요.",
+      "USER_REJECTED": "사용자가 요청을 거부했습니다.",
+      "YOUR_APPROVAL_FAILED": "승인에 실패했습니다. 다시 시도하세요."
     }
   },
   "WARNINGS": {
@@ -2727,7 +2759,8 @@
       "TRANSFERS_PAUSED_ACTION": "일시 중지된 송금"
     },
     "ONBOARDING": {
-      "ALWAYS_VERIFY_URL": "키를 복구할 때 항상 https:\/\/trade.dydx.exchange에 있는지 확인하세요."
+      "ALWAYS_VERIFY_URL": "키를 복구할 때 항상 https:\/\/trade.dydx.exchange에 있는지 확인하세요.",
+      "NOBLE_CHAIN_ONLY": "이 주소는 Noble USDC를 Noble Chain으로 전송하기 위해서만 사용됩니다. 다른 블록체인에서 자금을 전송하면 해당 자금이 손실될 수 있습니다."
     },
     "TRADE_BOX": {
       "LIMIT_PRICE_TRIGGER_PRICE_SLIPPAGE_HIGHER": "해당 주문에 대한 슬리피지가 낮습니다. 해당 주문의 실행 확률을 향상하기 위해 ${LIMIT_PRICE}의 지정가 또는 더 높은 가격을 권장합니다. 귀하의 주문은 발동 시에 가능한 최상의 가격으로 실행될 예정입니다.",
