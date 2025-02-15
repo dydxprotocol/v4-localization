@@ -51,6 +51,7 @@
       "IOS_APP_BETA": "iOS App Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "Einzelne Positionen bald auch auf Mobilgeräten verfügbar",
       "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders für einzelne Positionen sind bald auf Mobilgeräten verfügbar.",
+      "LAUNCH_ON_WEB": "Start im Web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Ranglisten (Leaderboards)",
       "LEARN_MORE_ABOUT_WALLETS": "Mehr über Wallets",
@@ -252,13 +253,13 @@
       "MODE": {
         "SELECT_PREFERENCE": "Einstellung auswählen",
         "MODE_TO_BE_USED": "Dieser Modus gilt für alle Trades",
-        "CHANGE_SETINGS": "Ändern Sie dies in Ihrem Profil › Einstellungen",
+        "CHANGE_SETINGS": "Ändern Sie dies in den Einstellungen",
         "SIMPLE": "Standard",
         "ADVANCED": "Fortgeschritten",
         "EASIER": "Benutzerfreundlicher",
         "POWERFUL": "Leistungsfähiger",
         "TRADE_BOX": "Modus",
-        "SELECT_MODE": "Auswahlmodus",
+        "SELECT_MODE": "Modus auswählen",
         "SWAP": "Swap",
         "SIMPLE_AND_EASIER": "Fokussiert und doch leistungsfähig",
         "PRO": "Pro",
@@ -444,6 +445,14 @@
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
       "SETTLEMENT_OUTCOMES_TITLE": "0 $ oder 1 $ Abrechnung",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei ~$0 abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Erfordert eine Einzahlung {DEPOSIT_AMOUNT} bei MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault hat einen geschätzten {APR} Jahreszins"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Dies ist der maximale Betrag, den Sie mit Ihrer Einzahlung erhalten können. Es ist nicht der Betrag, den Sie einzahlen oder abheben können. Ihre Kaufkraft kann sich schnell ändern und kann sogar dann positiv sein, wenn Sie Verluste machen.",
+        "RISK_TOOLTIP": "Dies ist der Prozentsatz Ihrer Einzahlung, der als Marge durch Ihre offenen Positionen gehalten wird. Dies kann sich schnell ändern, wenn sich der Marktpreis ändert."
     }
   },
   "RATE_APP": {
