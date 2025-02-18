@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -600,6 +600,7 @@ export const APP_STRING_KEYS = {
     ORDER_VALUE: 'APP.GENERAL.ORDER_VALUE',
     OTHER: 'APP.GENERAL.OTHER',
     OTHER_DETAILS: 'APP.GENERAL.OTHER_DETAILS',
+    OUR_TERMS_AND_CONDITIONS: 'APP.GENERAL.OUR_TERMS_AND_CONDITIONS',
     OVERVIEW: 'APP.GENERAL.OVERVIEW',
     PASTE: 'APP.GENERAL.PASTE',
     PENDING: 'APP.GENERAL.PENDING',
