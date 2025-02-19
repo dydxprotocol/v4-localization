@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
+// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -1689,6 +1689,7 @@ export const APP_STRING_KEYS = {
     FUNDING_RATE: 'APP.TRADE.FUNDING_RATE',
     FUNDING_RATE_1H_SHORT: 'APP.TRADE.FUNDING_RATE_1H_SHORT',
     FUNDING_RATE_DURATION_SHORT: 'APP.TRADE.FUNDING_RATE_DURATION_SHORT',
+    FUNDING_RATE_SHORT: 'APP.TRADE.FUNDING_RATE_SHORT',
     GOOD_TIL: 'APP.TRADE.GOOD_TIL',
     GOOD_TIL_DATE: 'APP.TRADE.GOOD_TIL_DATE',
     GOOD_TIL_DATE_ABBREVIATED: 'APP.TRADE.GOOD_TIL_DATE_ABBREVIATED',
