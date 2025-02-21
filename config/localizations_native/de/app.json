@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei ~$0 abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "Erfordert eine Einzahlung {DEPOSIT_AMOUNT} bei MegaVault",
+        "LAUNCH_MARKET_LINE1": "Erfordert das Hinzufügen von {DEPOSIT_AMOUNT} zum MegaVault",
         "LAUNCH_MARKET_LINE2": "MegaVault hat einen geschätzten {APR} Jahreszins"
     },
     "SIMPLE_UI": {
