@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "O mercado será liquidado automaticamente em US$ 1 se o evento ocorrer. Caso contrário, ele será liquidado em ~US$ 0. O preço é equivalente à porcentagem de chance de o resultado ocorrer."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "Requer um depósito {DEPOSIT_AMOUNT} no MegaVault",
+        "LAUNCH_MARKET_LINE1": "Requer {DEPOSIT_AMOUNT} adicionado ao MegaVault",
         "LAUNCH_MARKET_LINE2": "O MegaVault tem um {APR}APR estimada"
     },
     "SIMPLE_UI": {
