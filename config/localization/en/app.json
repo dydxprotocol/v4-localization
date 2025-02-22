@@ -277,6 +277,7 @@
       "ORDER_VALUE": "Order Value",
       "OTHER_DETAILS": "Other details",
       "OTHER": "Other",
+      "OTHER_TOKENS": "Other tokens",
       "OUR_TERMS_AND_CONDITIONS": "Terms of Use",
       "OVERVIEW": "Overview",
       "PASTE": "Paste",
@@ -330,6 +331,7 @@
       "SELECT": "Select {SELECTION}",
       "SELECT_ASSET": "Select an asset",
       "SELECT_CHAIN": "Select a chain",
+      "SELECT_TOKEN": "Select token",
       "SELL": "Sell",
       "SEND": "Send",
       "SHARE": "Share",
@@ -420,7 +422,8 @@
       "YES": "Yes",
       "YOU": "You",
       "YOUR_ACCOUNT": "Your account",
-      "YOUR_POSITIONS": "Your positions"
+      "YOUR_POSITIONS": "Your positions",
+      "YOUR_TOKENS": "Your tokens"
     },
     "__ASSETS": {
       "ZRX": {
