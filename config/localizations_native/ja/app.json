@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "イベントが発生した場合、「マーケット」は自動的に$1で決済されます。そうでなければ、約$0で落ち着きます。 価格は、結果が発生する可能性の割合に相当します。"
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "MegaVaultに{DEPOSIT_AMOUNT}の入金が必要です",
+        "LAUNCH_MARKET_LINE1": "MegaVaultに{DEPOSIT_AMOUNT}の追加が必要です",
         "LAUNCH_MARKET_LINE2": "MegaVaultの推定年利は、{APR}です"
     },
     "SIMPLE_UI": {
