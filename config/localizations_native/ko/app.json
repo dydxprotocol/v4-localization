@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "이벤트가 발생하면 시장은 자동으로 $1로 정산됩니다. 그렇지 않으면 ~$0으로 정산됩니다. 가격은 결과가 발생할 확률에 지배됩니다."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "MegaVault에 {DEPOSIT_AMOUNT}을(를) 입금해야 합니다",
+        "LAUNCH_MARKET_LINE1": "MegaVault에 {DEPOSIT_AMOUNT} 추가해야 함",
         "LAUNCH_MARKET_LINE2": "MegaVault의 예상 {APR} APR"
     },
     "SIMPLE_UI": {
