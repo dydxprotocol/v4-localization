@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Etkinlik gerçekleşirse piyasa otomatik olarak 1 $ olarak bağlanacak. Aksi takdirde yaklaşık 0 $ seviyesinde bağlanacak. Fiyat, sonucun gerçekleşme olasılığı yüzdesine eşittir."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "MegaVault'a {DEPOSIT_AMOUNT} fon yatırılmasını gerektirir",
+        "LAUNCH_MARKET_LINE1": "MegaVault'a {DEPOSIT_AMOUNT} eklenmesini gerektirir",
         "LAUNCH_MARKET_LINE2": "MegaVault tahmini {APR} APR'ye sahiptir"
     },
     "SIMPLE_UI": {
