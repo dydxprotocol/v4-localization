@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "如果事件发生，市场将自动结算为 1 美元。否则将以约 0 美元结算。 价格相当于结果发生的概率。"
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "需要充值{DEPOSIT_AMOUNT}到 MegaVault",
+        "LAUNCH_MARKET_LINE1": "添加到 MegaVault {DEPOSIT_AMOUNT}的要求",
         "LAUNCH_MARKET_LINE2": "MegaVault 拥有预估{APR}年利率"
     },
     "SIMPLE_UI": {
