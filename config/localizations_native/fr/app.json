@@ -447,7 +447,7 @@
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Le marché s'établira automatiquement à 1 $ si l'événement se produit. Sinon, il s'établira à ~ 0 $. Le prix est équivalent au pourcentage de chance que l'évènement se produise."
     },
     "VAULT":  {
-        "LAUNCH_MARKET_LINE1": "Nécessite un dépôt {DEPOSIT_AMOUNT} dans MegaVault",
+        "LAUNCH_MARKET_LINE1": "Nécessite {DEPOSIT_AMOUNT} ajouté à MegaVault",
         "LAUNCH_MARKET_LINE2": "MegaVault a un TAEG estimé {APR}"
     },
     "SIMPLE_UI": {
