@@ -1,6 +1,6 @@
 // !! GENERATED FILE - DO NOT EDIT
 
-// Generated from ./config/localization/en/app.json using scripts/codegen_localization_app.swift
+// Generated from ../config/localization/en/app.json using codegen_localization_app.swift
 
 export const APP_STRING_KEYS = {
 
@@ -471,6 +471,7 @@ export const APP_STRING_KEYS = {
     DOCUMENT: 'APP.GENERAL.DOCUMENT',
     DONE: 'APP.GENERAL.DONE',
     DONT_SHOW_ME_AGAIN: 'APP.GENERAL.DONT_SHOW_ME_AGAIN',
+    DOWNLOAD_IOS_APP: 'APP.GENERAL.DOWNLOAD_IOS_APP',
     DOWNLOAD_MOBILE_APP: 'APP.GENERAL.DOWNLOAD_MOBILE_APP',
     DYDX_CHAIN: 'APP.GENERAL.DYDX_CHAIN',
     DYDX_CHAIN_ADDRESS: 'APP.GENERAL.DYDX_CHAIN_ADDRESS',

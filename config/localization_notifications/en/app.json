@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX now supports Phantom!",
       "BODY": "You can now connect and use dYdX with your Phantom wallet! Try it now."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "New Simplified Experience on iOS",
+      "BODY": "A new simplified experience is available now for mobile traders. Toggle from pro to simplified now on iOS."
     }
   }
 }
