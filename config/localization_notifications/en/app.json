@@ -171,7 +171,7 @@
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger at {OLD_VALUE} has been removed."
-    },
+    },    
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "Want more support?",
       "BODY": "Thank you for being a large trader on dYdX! The team would like to offer you a higher level of personalized support and the opportunity to connect directly with them.",
@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX now supports Phantom!",
       "BODY": "You can now connect and use dYdX with your Phantom wallet! Try it now."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "New Simplified Experience on iOS",
+      "BODY": "A new simplified experience is available now for mobile traders. Toggle from pro to simplified now on iOS."
     }
   }
 }
