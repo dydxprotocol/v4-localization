@@ -277,6 +277,8 @@
       "ORDER_VALUE": "注文価値",
       "OTHER_DETAILS": "その他の詳細",
       "OTHER": "その他",
+      "OTHER_TOKENS": "その他のトークン",
+      "OUR_TERMS_AND_CONDITIONS": "利用規約",
       "OVERVIEW": "概要",
       "PASTE": "ペースト",
       "PENDING_REWARDS": "保留中の報酬",
@@ -329,6 +331,7 @@
       "SELECT": "{SELECTION}を選択",
       "SELECT_ASSET": "資産を選択",
       "SELECT_CHAIN": "チェーンを選択",
+      "SELECT_TOKEN": "トークンを選択",
       "SELL": "売り",
       "SEND": "送信",
       "SHARE": "シェア",
@@ -419,7 +422,8 @@
       "YES": "あり",
       "YOU": "お客様",
       "YOUR_ACCOUNT": "お客様の口座",
-      "YOUR_POSITIONS": "お客様のポジション"
+      "YOUR_POSITIONS": "お客様のポジション",
+      "YOUR_TOKENS": "お客様のトークン"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "1時間ファンディング",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION}ファンディング",
       "FUNDING_RATE": "1時間ファンディング見積額",
+      "FUNDING_RATE_SHORT": "ファンディングレート",
       "GOOD_TIL_DATE_ABBREVIATED": "有効期限",
       "GOOD_TIL_DATE": "有効期限日",
       "GOOD_TIL_TIME": "指定時間まで有効",
