@@ -277,7 +277,9 @@
       "ORDER_VALUE": "Valor de orden",
       "OTHER_DETAILS": "Otros detalles",
       "OTHER": "Otro",
-      "OVERVIEW": "Visión general",
+      "OTHER_TOKENS": "Otros tokens",
+      "OUR_TERMS_AND_CONDITIONS": "Términos de Uso",
+      "OVERVIEW": "Resumen General",
       "PASTE": "Pegar",
       "PENDING_REWARDS": "Recompensas Pendientes",
       "PENDING": "Pendiente",
@@ -329,6 +331,7 @@
       "SELECT": "Seleccionar {SELECTION}",
       "SELECT_ASSET": "Seleccionar un activo",
       "SELECT_CHAIN": "Seleccionar una cadena",
+      "SELECT_TOKEN": "Seleccionar token",
       "SELL": "Vender",
       "SEND": "Enviar",
       "SHARE": "Compartir",
@@ -419,7 +422,8 @@
       "YES": "Sí",
       "YOU": "Tú",
       "YOUR_ACCOUNT": "Tu cuenta",
-      "YOUR_POSITIONS": "Tus posiciones"
+      "YOUR_POSITIONS": "Tus posiciones",
+      "YOUR_TOKENS": "Sus tokens"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,7 +1490,8 @@
       "FUNDING_RATE_1H_SHORT": "Financiación de 1 hora",
       "FUNDING_RATE_DURATION_SHORT": "Financiamiento {DURATION}",
       "FUNDING_RATE": "Financiación estimada de 1 hora",
-      "GOOD_TIL_DATE_ABBREVIATED": "Good Til",
+      "FUNDING_RATE_SHORT": "Tasa de financiación",
+      "GOOD_TIL_DATE_ABBREVIATED": "Con validez hasta",
       "GOOD_TIL_DATE": "Fecha de Good Til",
       "GOOD_TIL_TIME": "Hora de Good Til",
       "GOOD_TIL": "Good Til",
