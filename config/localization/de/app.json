@@ -277,6 +277,8 @@
       "ORDER_VALUE": "Order-Wert",
       "OTHER_DETAILS": "Weitere Details",
       "OTHER": "Andere",
+      "OTHER_TOKENS": "Andere Token",
+      "OUR_TERMS_AND_CONDITIONS": "Nutzungsbedingungen",
       "OVERVIEW": "Übersicht",
       "PASTE": "Einfügen",
       "PENDING_REWARDS": "Ausstehende Rewards",
@@ -329,6 +331,7 @@
       "SELECT": "Auswählen {SELECTION}",
       "SELECT_ASSET": "Wählen Sie ein Asset aus",
       "SELECT_CHAIN": "Wählen Sie eine Kette",
+      "SELECT_TOKEN": "Token auswählen",
       "SELL": "Verkaufen",
       "SEND": "Senden",
       "SHARE": "Teilen",
@@ -419,7 +422,8 @@
       "YES": "Ja",
       "YOU": "Sie",
       "YOUR_ACCOUNT": "Ihr Konto",
-      "YOUR_POSITIONS": "Ihre Positionen"
+      "YOUR_POSITIONS": "Ihre Positionen",
+      "YOUR_TOKENS": "Ihre Token"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,7 +1490,8 @@
       "FUNDING_RATE_1H_SHORT": "1h Finanzierung",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} Finanzierung",
       "FUNDING_RATE": "Geschätzte 1h Finanzierung",
-      "GOOD_TIL_DATE_ABBREVIATED": "Good Til",
+      "FUNDING_RATE_SHORT": "Finanzierungsrate",
+      "GOOD_TIL_DATE_ABBREVIATED": "Gültig bis",
       "GOOD_TIL_DATE": "Gut bis Datum",
       "GOOD_TIL_TIME": "Gut bis Zeit",
       "GOOD_TIL": "Good Til",
