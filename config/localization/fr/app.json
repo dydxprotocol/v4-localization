@@ -277,6 +277,8 @@
       "ORDER_VALUE": "Valeur de l'ordre",
       "OTHER_DETAILS": "Autres détails",
       "OTHER": "Autre",
+      "OTHER_TOKENS": "Autres chèques cadeaux",
+      "OUR_TERMS_AND_CONDITIONS": "Conditions d'utilisation",
       "OVERVIEW": "Aperçu",
       "PASTE": "Coller",
       "PENDING_REWARDS": "Récompenses en attente",
@@ -329,6 +331,7 @@
       "SELECT": "Sélectionner {SELECTION}",
       "SELECT_ASSET": "Sélectionner un actif",
       "SELECT_CHAIN": "Sélectionnez une chaîne",
+      "SELECT_TOKEN": "Sélectionner le chèque cadeau",
       "SELL": "Vendre",
       "SEND": "Envoyer",
       "SHARE": "Partager",
@@ -419,7 +422,8 @@
       "YES": "Oui",
       "YOU": "Vous",
       "YOUR_ACCOUNT": "Votre compte",
-      "YOUR_POSITIONS": "Vos positions"
+      "YOUR_POSITIONS": "Vos positions",
+      "YOUR_TOKENS": "Vos chèques cadeaux"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "Financement 1 h",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} Financement",
       "FUNDING_RATE": "Financement estimé de 1h",
+      "FUNDING_RATE_SHORT": "Taux de financement",
       "GOOD_TIL_DATE_ABBREVIATED": "Good Til",
       "GOOD_TIL_DATE": "Good Til Date",
       "GOOD_TIL_TIME": "Good Til Time",
