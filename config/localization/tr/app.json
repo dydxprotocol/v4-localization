@@ -277,6 +277,8 @@
       "ORDER_VALUE": "Emir Değeri",
       "OTHER_DETAILS": "Diğer ayrıntılar",
       "OTHER": "Diğer",
+      "OTHER_TOKENS": "Diğer token'lar",
+      "OUR_TERMS_AND_CONDITIONS": "Kullanım Şartları",
       "OVERVIEW": "Genel bakış",
       "PASTE": "Yapıştır",
       "PENDING_REWARDS": "Bekleyen Ödüller",
@@ -329,6 +331,7 @@
       "SELECT": "{SELECTION} seçin",
       "SELECT_ASSET": "Bir varlık seçin",
       "SELECT_CHAIN": "Bir zincir seçin",
+      "SELECT_TOKEN": "Token seçin",
       "SELL": "Sat",
       "SEND": "Gönder",
       "SHARE": "Paylaş",
@@ -419,7 +422,8 @@
       "YES": "Evet",
       "YOU": "Siz",
       "YOUR_ACCOUNT": "Hesabınız",
-      "YOUR_POSITIONS": "Pozisyonlarınız"
+      "YOUR_POSITIONS": "Pozisyonlarınız",
+      "YOUR_TOKENS": "Token'larınız"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "1 Saatlik Fonlama",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} Fonlama",
       "FUNDING_RATE": "Tahmini 1 Saatlik Fonlama",
+      "FUNDING_RATE_SHORT": "Fonlama Oranı",
       "GOOD_TIL_DATE_ABBREVIATED": "Geçerlilik",
       "GOOD_TIL_DATE": "Geçerlilik Tarihi",
       "GOOD_TIL_TIME": "Geçerlilik Zamanı",
