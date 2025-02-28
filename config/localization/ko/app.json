@@ -277,6 +277,8 @@
       "ORDER_VALUE": "주문 값",
       "OTHER_DETAILS": "기타 세부 사항",
       "OTHER": "기타",
+      "OTHER_TOKENS": "기타 토큰",
+      "OUR_TERMS_AND_CONDITIONS": "이용약관",
       "OVERVIEW": "개요",
       "PASTE": "붙여넣기",
       "PENDING_REWARDS": "보류 중인 보상",
@@ -329,6 +331,7 @@
       "SELECT": "{SELECTION} 선택",
       "SELECT_ASSET": "자산 선택",
       "SELECT_CHAIN": "체인 선택",
+      "SELECT_TOKEN": "토큰 선택",
       "SELL": "매도",
       "SEND": "전송",
       "SHARE": "공유",
@@ -419,7 +422,8 @@
       "YES": "예",
       "YOU": "귀하",
       "YOUR_ACCOUNT": "귀하의 계정",
-      "YOUR_POSITIONS": "내 포지션"
+      "YOUR_POSITIONS": "내 포지션",
+      "YOUR_TOKENS": "귀하의 토큰"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "1시간 펀딩",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 펀딩",
       "FUNDING_RATE": "예상 1시간 펀딩",
+      "FUNDING_RATE_SHORT": "펀딩 비율",
       "GOOD_TIL_DATE_ABBREVIATED": "유효 주문(Good Til)",
       "GOOD_TIL_DATE": "유효 주문 날짜",
       "GOOD_TIL_TIME": "지정일 전 유효 주문",
