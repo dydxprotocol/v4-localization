@@ -277,6 +277,8 @@
       "ORDER_VALUE": "订单价值",
       "OTHER_DETAILS": "其他详情",
       "OTHER": "其他",
+      "OTHER_TOKENS": "其他代币",
+      "OUR_TERMS_AND_CONDITIONS": "使用条款",
       "OVERVIEW": "概述",
       "PASTE": "粘贴",
       "PENDING_REWARDS": "待处理奖励",
@@ -329,6 +331,7 @@
       "SELECT": "选择 {SELECTION}",
       "SELECT_ASSET": "选择资产",
       "SELECT_CHAIN": "选择一条链",
+      "SELECT_TOKEN": "选择代币",
       "SELL": "卖出",
       "SEND": "发送",
       "SHARE": "共享",
@@ -419,7 +422,8 @@
       "YES": "是",
       "YOU": "您",
       "YOUR_ACCOUNT": "您的账户",
-      "YOUR_POSITIONS": "你的仓位"
+      "YOUR_POSITIONS": "你的仓位",
+      "YOUR_TOKENS": "您的代币"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "1小时资金费率",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 提供资金",
       "FUNDING_RATE": "估计 1 小时资金",
+      "FUNDING_RATE_SHORT": "资金费率",
       "GOOD_TIL_DATE_ABBREVIATED": "有效至",
       "GOOD_TIL_DATE": "有效截止日期",
       "GOOD_TIL_TIME": "有效截止时间",
