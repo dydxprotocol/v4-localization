@@ -277,6 +277,8 @@
       "ORDER_VALUE": "Стоимость ордера",
       "OTHER_DETAILS": "Другие сведения",
       "OTHER": "Другое",
+      "OTHER_TOKENS": "Другие токены",
+      "OUR_TERMS_AND_CONDITIONS": "Пользовательское соглашение",
       "OVERVIEW": "Обзор",
       "PASTE": "Вставить",
       "PENDING_REWARDS": "Награды, ожидающие получения",
@@ -329,6 +331,7 @@
       "SELECT": "Выберите {SELECTION}",
       "SELECT_ASSET": "Выберите актив",
       "SELECT_CHAIN": "Выберите цепочку",
+      "SELECT_TOKEN": "Выберите токен",
       "SELL": "Продать",
       "SEND": "Отправить",
       "SHARE": "Поделиться",
@@ -419,7 +422,8 @@
       "YES": "Да",
       "YOU": "Вы",
       "YOUR_ACCOUNT": "Ваш счет",
-      "YOUR_POSITIONS": "Ваши позиции"
+      "YOUR_POSITIONS": "Ваши позиции",
+      "YOUR_TOKENS": "Ваши токены"
     },
     "__ASSETS": {
       "ZRX": {
@@ -1486,6 +1490,7 @@
       "FUNDING_RATE_1H_SHORT": "Финансирование за 1 ч",
       "FUNDING_RATE_DURATION_SHORT": "Финансирование за {DURATION}",
       "FUNDING_RATE": "Предполагаемое финансирование за 1 ч",
+      "FUNDING_RATE_SHORT": "Ставка финансирования",
       "GOOD_TIL_DATE_ABBREVIATED": "Действительно до",
       "GOOD_TIL_DATE": "Действительно до даты",
       "GOOD_TIL_TIME": "Действительно до даты",
