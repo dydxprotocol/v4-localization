@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "To complete dYdX onboarding, set your wallet network to 'Ethereum Mainnet'.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
-      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}.",
+      "YOUR_DEPOSIT": "Your deposit"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Sign into mobile",
