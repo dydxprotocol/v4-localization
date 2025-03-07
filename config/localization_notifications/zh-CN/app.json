@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX 现在支持 Phantom！",
       "BODY": "您现在可以通过 Phantom 钱包连接并使用 dYdX！立即试用。"
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "iOS 上全新的简化体验",
+      "BODY": "现在，移动交易者可以使用新的简化体验。 立即在 iOS 上从专业切换到简化。"
     }
   }
 }
