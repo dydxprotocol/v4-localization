@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "A dYdX agora é compatível com a Phantom!",
       "BODY": "Agora você pode se conectar e usar a dYdX com sua carteira Phantom! Experimente agora."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "Nova experiência simplificada no iOS",
+      "BODY": "Uma nova experiência simplificada está disponível agora para traders móveis. Alterne do profissional para o simplificado agora no iOS."
     }
   }
 }
