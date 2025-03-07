@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "New Simplified Experience on iOS",
       "BODY": "A new simplified experience is available now for mobile traders. Toggle from pro to simplified now on iOS."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Upgrading markets to cross margin",
+      "BODY": "A governance proposal to upgrade {MARKETS} from isolated to cross margin is currently in progress, which may impact open positions in these markets and increase the risk of liquidation. Traders are strongly advised to exercise caution and consider closing their positions if necessary."
     }
   }
 }
