@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX prend maintenant en charge Phantom !",
       "BODY": "Vous pouvez maintenant vous connecter et utiliser dYdX avec votre portefeuille Phantom ! Essayez-le dès maintenant."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "Nouvelle expérience simplifiée sur iOS",
+      "BODY": "Une nouvelle expérience simplifiée est maintenant disponible pour les traders mobiles. Passez de pro à simplifié maintenant sur iOS."
     }
   }
 }
