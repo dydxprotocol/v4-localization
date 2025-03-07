@@ -1845,7 +1845,7 @@
       "COMPLIANCE_ALERT": "Compliance alert",
       "COMPLIANCE_WARNING": "Compliance Warning",
       "CONNECTION_ISSUE_DETECTED": "Connection issue detected",
-      "CONNECTION_ISSUE_DETECTED_BODY": "We're having trouble connecting to our services right now. This could be due to our system status or your internet connection. Please check the status page and refresh. Your funds are safe.",
+      "CONNECTION_ISSUE_DETECTED_BODY": "We're having trouble connecting to our services right now. This could be due to the status of our system or your internet connection. Please check the status page and refresh. Your funds are safe.",
       "CREATED": "Created",
       "CREATING": "Creating",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Your deposit of {AMOUNT_ELEMENT} will be available after 14 confirmations.",
