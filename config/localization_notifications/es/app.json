@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "¡dYdX ahora es compatible con Phantom!",
       "BODY": "¡Ahora puedes conectar y usar dYdX con tu billetera Phantom! Pruébalo ahora."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "Nueva experiencia simplificada en iOS",
+      "BODY": "Una nueva experiencia simplificada ya está disponible para los comerciantes móviles. Cambie de profesional a simplificado ahora en iOS."
     }
   }
 }
