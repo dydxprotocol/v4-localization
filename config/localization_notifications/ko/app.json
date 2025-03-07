@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX가 이제 Phantom을 지원합니다!",
       "BODY": "이제 암호화폐 지갑에 dYdX를 연결하고 사용할 수 있습니다! 지금 시도해보세요."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "새롭고 간편한 iOS 환경",
+      "BODY": "이제 모바일 거래자를 위해 새롭고 간소화된 경험을 사용할 수 있습니다. iOS에서 프로에서 지금 단순화로 전환하세요."
     }
   }
 }
