@@ -212,6 +212,10 @@
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX artık Phantom'u destekliyor!",
       "BODY": "Artık Phantom cüzdanınızla dYdX'i bağlayabilir ve kullanabilirsiniz! Şimdi deneyin."
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "iOS'ta Yeni Basitleştirilmiş Deneyim",
+      "BODY": "Mobil yatırımcılar için yeni basitleştirilmiş deneyim artık kullanıma sunuldu. iOS'ta profesyonellikten basitleştirilmiş sürüme hemen geçiş yapın."
     }
   }
 }
