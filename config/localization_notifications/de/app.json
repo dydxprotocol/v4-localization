@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Neues, vereinfachtes Erlebnis auf iOS",
       "BODY": "Eine neue, vereinfachte Benutzererfahrung steht jetzt für mobile Händler zur Verfügung. Wechseln Sie jetzt von Pro zu Vereinfacht auf iOS."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Upgrade der Märkte zur Überschreitung der Marge",
+      "BODY": "Derzeit wird ein Governance-Vorschlag zur Umstellung von {MARKETS} von isoliert auf Kreuzmarge erarbeitet, was sich auf offene Positionen in diesen Märkten auswirken und das Liquidationsrisiko erhöhen kann. Händlern wird dringend empfohlen, Vorsicht walten zu lassen und ihre Positionen gegebenenfalls zu schließen."
     }
   }
 }
