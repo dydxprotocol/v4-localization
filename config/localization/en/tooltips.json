@@ -302,9 +302,6 @@
     },
     "REWARD_HISTORY": {
       "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
-    },
-    "RISK": {
-      "BODY": "This is the percentage of your deposit held as margin by your open positions. This can change rapidly when the market price changes."
     }
   },
   "DEPOSIT": {
