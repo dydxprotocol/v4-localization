@@ -432,5 +432,13 @@
     "VAULT_APR": {
       "BODY": "Est. APR is the past month’s returns annualized. Actual returns depend on uncertain future earnings (protocol revenue sharing and P&L), and are not guaranteed. {LEARN_MORE}"
     }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "This is the maximum amount of exposure you can get with your deposit. It is not the amount you can deposit or withdraw. Your buying power can change rapidly and may be positive even when you are making losses."
+    },
+    "RISK": {
+      "BODY": "This is the percentage of your deposit held as margin by your open positions. This can change rapidly when the market price changes."
+    }
   }
 }
