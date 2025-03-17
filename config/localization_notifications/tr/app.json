@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "iOS'ta Yeni Basitleştirilmiş Deneyim",
       "BODY": "Mobil yatırımcılar için yeni basitleştirilmiş deneyim artık kullanıma sunuldu. iOS'ta profesyonellikten basitleştirilmiş sürüme hemen geçiş yapın."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Çapraz marjin için piyasaları yükseltme",
+      "BODY": "İzole marjından çapraz marjına yükseltme yönünde bir yönetişim önerisi şu anda devam yürütülmektedir ve bu, piyasalardaki açık pozisyonları etkileyebilir ve tasfiye riskini artırabilir{MARKETS}. Yatırımcıların dikkatli olmaları ve gerektiğinde pozisyonlarını kapatmayı düşünmeleri kesinlikle tavsiye edilir."
     }
   }
 }
