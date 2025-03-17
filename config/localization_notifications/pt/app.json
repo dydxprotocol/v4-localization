@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Nova experiência simplificada no iOS",
       "BODY": "Uma nova experiência simplificada está disponível agora para traders móveis. Alterne do profissional para o simplificado agora no iOS."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Atualizando mercados para cruzar a margem",
+      "BODY": "Uma proposta de governança para atualizar {MARKETS}da margem isolada para a margem cruzada está em andamento, o que pode impactar posições abertas nesses mercados e aumentar o risco de liquidação. Os traders são fortemente aconselhados a terem cautela e considerar fechar suas posições, se necessário."
     }
   }
 }
