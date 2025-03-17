@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Nouvelle expérience simplifiée sur iOS",
       "BODY": "Une nouvelle expérience simplifiée est maintenant disponible pour les traders mobiles. Passez de pro à simplifié maintenant sur iOS."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Mise à niveau des marchés pour la marge croisée",
+      "BODY": "Une proposition de gouvernance visant à faire passer {MARKETS} d'une marge isolée à une marge croisée est actuellement en cours, ce qui peut avoir un impact sur les positions ouvertes sur ces marchés et augmenter le risque de liquidation. Il est fortement conseillé aux traders de faire preuve de prudence et d'envisager de fermer leurs positions si nécessaire."
     }
   }
 }
