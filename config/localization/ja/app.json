@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "dYdXのオンボーディングを完了するためには、ウォレットネットワークを「Ethereum Mainnet」に設定してください。",
       "WRONG_NETWORK_EXPLANATION_STAGING": "dYdXのオンボーディングを完了するためには、ウォレットネットワークを「Goerli Test Network」に設定してください。",
       "WRONG_NETWORK": "ネットワーク不正",
-      "YOU_AGREE_TO_TERMS": "dYdXで取引することで、{TERMS_LINK}と{PRIVACY_POLICY_LINK}に同意したことになります。"
+      "YOU_AGREE_TO_TERMS": "dYdXで取引することで、{TERMS_LINK}と{PRIVACY_POLICY_LINK}に同意したことになります。",
+      "YOUR_DEPOSIT": "お客様の入金"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "モバイルにサインインする",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}はクローズオンリーモードに設定され、{MARKET}のクローズ価格が固定されました。オープンになっている{MARKET}ポジションを速やかにクローズしてください。問題が生じた場合、ヘルプチャットをご利用いただけます。",
       "COMPLIANCE_ALERT": "コンプライアンスに関する警告",
       "COMPLIANCE_WARNING": "コンプライアンス警告",
+      "CONNECTION_ISSUE_DETECTED": "接続の問題が検出されました",
+      "CONNECTION_ISSUE_DETECTED_BODY": "現在、当社サービスへの接続問題が発生しています。 これはシステム状態またはインターネット接続が原因の可能性があります。 ステータスページを確認して更新してください。 資金は安全です。",
       "CREATED": "作成済み",
       "CREATING": "作成中",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "お客様の{AMOUNT_ELEMENT}の入金は、14の承認後に入金できるようになります。",
