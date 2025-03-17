@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Para concluir a integração da dYdX, defina a rede de sua carteira como “Ethereum Mainnet”.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "Para concluir a integração da dYdX, defina a rede de sua carteira como “Goerli Test Network”.",
       "WRONG_NETWORK": "Rede incorreta",
-      "YOU_AGREE_TO_TERMS": "Ao negociar na dYdX, você concorda com {TERMS_LINK} e {PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "Ao negociar na dYdX, você concorda com {TERMS_LINK} e {PRIVACY_POLICY_LINK}.",
+      "YOUR_DEPOSIT": "O seu depósito"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Acesse pelo celular",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} está definido no modo apenas fechamento e agora o preço de fechamento de {MARKET} está fixo. Feche sua posição aberta em {MARKET} assim que possível. Estamos aqui para ajudar via chat se houver problemas.",
       "COMPLIANCE_ALERT": "Alerta de conformidade",
       "COMPLIANCE_WARNING": "Aviso de conformidade",
+      "CONNECTION_ISSUE_DETECTED": "Problema de conexão detectado",
+      "CONNECTION_ISSUE_DETECTED_BODY": "Estamos tendo problemas de conexão com os nossos serviços no momento. Isso pode ser devido ao status do nosso sistema ou à sua conexão com a internet. Verifique a página de status e atualize. Seus fundos estão seguros.",
       "CREATED": "Criado",
       "CREATING": "Criando",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Seu depósito de {AMOUNT_ELEMENT} ficará disponível após 14 confirmações.",
