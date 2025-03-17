@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Um das dYdX-Onboarding abzuschließen, stellen Sie Ihr Wallet-Netzwerk auf „Ethereum Mainnet“ ein.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "Um das Onboarding von dYdX abzuschließen, stellen Sie Ihr Wallet-Netzwerk auf 'Goerli Test Network' ein.",
       "WRONG_NETWORK": "Falsches Netzwerk",
-      "YOU_AGREE_TO_TERMS": "Durch das Traden auf dYdX stimmen Sie den {TERMS_LINK} und zu{PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "Durch das Traden auf dYdX stimmen Sie den {TERMS_LINK} und zu{PRIVACY_POLICY_LINK}.",
+      "YOUR_DEPOSIT": "Ihre Einzahlung "
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Melden Sie sich auf dem Handy an",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} ist auf den Modus „Nur Schließen“ eingestellt und der Schlusskurs von {MARKET} ist jetzt festgelegt. Schließen Sie bitte Ihre offene {MARKET}-Position, sobald Sie dazu in der Lage sind. Wir sind hier, um Ihnen über den Hilfe-Chat zu helfen, wenn Sie auf Probleme stoßen.",
       "COMPLIANCE_ALERT": "Compliance-Warnung",
       "COMPLIANCE_WARNING": "Compliance-Warnung",
+      "CONNECTION_ISSUE_DETECTED": "Verbindungsproblem erkannt",
+      "CONNECTION_ISSUE_DETECTED_BODY": "Wir haben derzeit Probleme mit der Verbindung zu unseren Diensten. Dies kann am Status unseres Systems oder Ihrer Internetverbindung liegen. Bitte überprüfen Sie die Statusseite und aktualisieren Sie. Ihre Gelder sind sicher.",
       "CREATED": "Erstellt",
       "CREATING": "Erstellen",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Ihre Einzahlung von {AMOUNT_ELEMENT}wird nach 14 Bestätigungen verfügbar sein.",
