@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "要完成dYdX入门培训，请将您的钱包网络设置为“以太坊主网”。",
       "WRONG_NETWORK_EXPLANATION_STAGING": "要完成dYdX入门培训，请将您的钱包网络设置为“Goerli 测试网络”。",
       "WRONG_NETWORK": "网络错误",
-      "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。"
+      "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。",
+      "YOUR_DEPOSIT": "您的存款"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "登录移动设备",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
       "COMPLIANCE_ALERT": "合规警告",
       "COMPLIANCE_WARNING": "合规警告",
+      "CONNECTION_ISSUE_DETECTED": "检测到连接问题",
+      "CONNECTION_ISSUE_DETECTED_BODY": "我们在连接到我们的服务时遇到困难。这可能是由于我们的系统状态或您的互联网连接所致。 请检查状态页面并刷新。 您的资金是安全的。",
       "CREATED": "已创建",
       "CREATING": "创建",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "您的{AMOUNT_ELEMENT}充值将在 14 次确认后可用。",
