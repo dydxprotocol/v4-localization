@@ -216,6 +216,10 @@
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Nueva experiencia simplificada en iOS",
       "BODY": "Una nueva experiencia simplificada ya está disponible para los comerciantes móviles. Cambie de profesional a simplificado ahora en iOS."
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "Actualización de los mercados para uso de margen cruzado",
+      "BODY": "Actualmente está en curso una propuesta de gobernanza para actualizar {MARKETS}del margen aislado al margen cruzado, lo que puede afectar las posiciones abiertas en estos mercados y aumentar el riesgo de liquidación. Se recomienda enfáticamente a los comerciantes que tengan precaución y consideren cerrar sus posiciones si es necesario."
     }
   }
 }

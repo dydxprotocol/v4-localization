@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "Para completar la integración en dYdX, configura tu red de billetera a \"Ethereum Mainnet\".",
       "WRONG_NETWORK_EXPLANATION_STAGING": "Para completar la incorporación a dYdX, configura la red de tu billetera como 'Goerli Test Network'.",
       "WRONG_NETWORK": "Red incorrecta",
-      "YOU_AGREE_TO_TERMS": "Al realizar operaciones en dYdX, aceptas {TERMS_LINK} y  {PRIVACY_POLICY_LINK}."
+      "YOU_AGREE_TO_TERMS": "Al realizar operaciones en dYdX, aceptas {TERMS_LINK} y  {PRIVACY_POLICY_LINK}.",
+      "YOUR_DEPOSIT": "Tu depósito"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Iniciar sesión en móvil",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET} está configurado para cerrar solo el modo y el precio de cierre de {MARKET} ahora es fijo. Cierra tu posición abierta {MARKET} tan pronto como puedas. Estamos aquí para ayudarte por chat en caso de que surja algún inconveniente.",
       "COMPLIANCE_ALERT": "Alerta de cumplimiento",
       "COMPLIANCE_WARNING": "Advertencia de cumplimiento",
+      "CONNECTION_ISSUE_DETECTED": "Problema de conexión detectado",
+      "CONNECTION_ISSUE_DETECTED_BODY": "Estamos teniendo problemas para conectarnos a nuestros servicios en este momento. Esto podría deberse al estado de nuestro sistema o a tu conexión a Internet. Consulta la página de estado y actualiza. Tus fondos están seguros.",
       "CREATED": "Se creó",
       "CREATING": "Creando",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "Tu depósito de {AMOUNT_ELEMENT} estará disponible después de 14 confirmaciones.",
