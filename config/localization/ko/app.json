@@ -1043,7 +1043,8 @@
       "WRONG_NETWORK_EXPLANATION_PRODUCTION": "dYdX 온보딩을 완료하려면 지갑 네트워크를 '이더리움 메인넷'으로 설정하세요.",
       "WRONG_NETWORK_EXPLANATION_STAGING": "dYdX 온보딩을 완료하려면 지갑 네트워크를 'Goerli 테스트 네트워크'로 설정하세요.",
       "WRONG_NETWORK": "잘못된 네트워크",
-      "YOU_AGREE_TO_TERMS": "dYdX에서 거래함으로써 귀하는 {TERMS_LINK} 및 {PRIVACY_POLICY_LINK}에 동의합니다."
+      "YOU_AGREE_TO_TERMS": "dYdX에서 거래함으로써 귀하는 {TERMS_LINK} 및 {PRIVACY_POLICY_LINK}에 동의합니다.",
+      "YOUR_DEPOSIT": "입금"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "모바일로 로그인하세요",
@@ -1843,6 +1844,8 @@
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}은(는) 청산 가격 전용 모드로 설정되었으며, {MARKET}의 청산 가격은 현재 고정되었습니다. 열려 있는 {MARKET} 포지션을 가능한 한 빨리 종료하세요. 문제가 발생할 경우, 채팅 상담을 통해 도움을 받으실 수 있습니다.",
       "COMPLIANCE_ALERT": "규정 준수 경고",
       "COMPLIANCE_WARNING": "규정 준수 경고",
+      "CONNECTION_ISSUE_DETECTED": "연결 문제가 감지됨",
+      "CONNECTION_ISSUE_DETECTED_BODY": "현재 당사 서비스에 연결하는 데 문제가 있습니다. 이는 당사 시스템의 상태 또는 사용자의 인터넷 연결 상태 때문일 수 있습니다. 상태 페이지를 확인하고 새로 고침하세요. 여러분의 자금은 안전합니다.",
       "CREATED": "생성됨",
       "CREATING": "생성 중",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "14회의 승인 이후 {AMOUNT_ELEMENT} 입금이 가능합니다.",
