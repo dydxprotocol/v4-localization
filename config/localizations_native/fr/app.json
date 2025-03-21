@@ -357,7 +357,7 @@
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Consultez mon profil sur @dYdX !",
-      "TWEET_PNL": "Consultez mon P&L sur @dYdX !",
+      "TWEET_PNL": "Consultez mon P&L sur @dYdX !",
       "TWEET_PRIZE": "Consultez ma récompense de la ligue sur @dYdX !"
     },
     "DIRECT_TRANSFER_MODAL": {
@@ -384,7 +384,7 @@
       "CALCULATING": "En cours de calcul…",
       "NO_HASH": "Impossible d'obtenir le hachage de la transaction.",
       "NO_GAS_TITLE": "Solde du portefeuille insuffisant pour couvrir les frais de gaz",
-      "NO_GAS_BODY": "Veuillez d'abord effectuer un petit dépôt sur votre compte dYdX pour recharger votre portefeuille",
+      "NO_GAS_BODY": "Veuillez d'abord effectuer un petit dépôt sur votre compte dYdX pour recharger votre portefeuille.",
       "THEME": "Thème",
       "NOTIFICATIONS": "Notifications",
       "DISPLAY_IN_APP_NOTIFICATIONS": "Afficher les notifications intégrées à l'application",
