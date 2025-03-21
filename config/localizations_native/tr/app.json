@@ -3,10 +3,10 @@
     "GENERAL": {
       "TIME_STRINGS": {
         "MINUTES": "Dakika",
-        "1MIN": "1 d",
-        "5MIN": "5 d",
-        "15MIN": "15 d",
-        "30MIN": "30 d",
+        "1MIN": "1 dk",
+        "5MIN": "5 dk",
+        "15MIN": "15 dk",
+        "30MIN": "30 dk",
         "1H": "1 sa",
         "4H": "4 sa",
         "8H": "8 sa",
