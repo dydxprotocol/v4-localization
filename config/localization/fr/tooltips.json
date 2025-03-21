@@ -7,7 +7,7 @@
       "BODY": "Votre adresse dYdX Chain « {DYDX_ADDRESS} » a été créée à partir de la signature de l'adresse Solana « {SOLANA_ADDRESS} »."
     },
     "LEGACY_SIGNING": {
-      "TITLE": "Legacy Signing",
+      "TITLE": "Legacy signature",
       "BODY": "Ne cochez cette option que si vous avez déjà utilisé la signature de portefeuille matériel ou la signature patrimoniale pour générer vos clés."
     },
     "REMEMBER_ME": {
@@ -24,7 +24,7 @@
   "PORTFOLIO": {
     "HOLDING_HEDGIES": {
       "TITLE": "Réduction des hedgies",
-      "BODY": "La détention d'un  augmente d'une unité votre niveau de réduction des frais.{NFT} En détenir plusieurs n'aura aucun effet supplémentaire."
+      "BODY": "La détention d'un {NFT} augmente d'une unité votre niveau de réduction des frais. En détenir plusieurs n'aura aucun effet supplémentaire."
     }
   },
   "TRADE": {
@@ -150,7 +150,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge de maintenance",
-      "BODY": "La fraction de marge de maintenance définit le moment où les traders sont liquidés. Elle est calculée comme la valeur notionnelle de la position d'un trader divisée par le capital. Si la fraction de marge d'un trader dépasse la fraction de marge de maintien, sa position sera automatiquement clôturée (liquidée) et le moteur de liquidation tentera de laisser les fonds sur des comptes de valeur positive dans la mesure du possible après avoir payé la pénalité de liquidation maximale de 1,5 %."
+      "BODY": "La fraction de marge de maintenance définit le moment où les traders sont liquidés. Elle est calculée comme la valeur notionnelle de la position d'un trader divisée par le capital. Si la fraction de marge d'un trader dépasse la fraction de marge de maintien, sa position sera automatiquement clôturée (liquidée) et le moteur de liquidation tentera de laisser les fonds sur des comptes de valeur positive dans la mesure du possible après avoir payé la pénalité de liquidation maximale de 1,5 %."
     },
     "MAKER_FEE": {
       "TITLE": "Frais Maker",
