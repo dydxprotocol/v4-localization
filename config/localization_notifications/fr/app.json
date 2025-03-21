@@ -158,7 +158,7 @@
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "Stop Loss",
-      "BODY": "Votre déclencheur de Stop Loss à \n{OLD_VALUE}a été supprimé."
+      "BODY": "Votre déclencheur de Stop Loss à \n{OLD_VALUE} a été supprimé."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "Take Profit",
@@ -199,11 +199,11 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposition en direct pour la mise à jour des paramètres de {MARKET}",
-      "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du marché {MARKET}. Si elle est adoptée, le marché {MARKET} aura Coinbase Pro {MARKET}comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+      "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du marché {MARKET}. Si elle est adoptée, le marché {MARKET} aura Coinbase Pro {MARKET} comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Tradez à l'occasion des élections présidentielles américaines !",
-      "BODY": "{MARKET} est à présent en ligne Ce marché s'établira à 1 $ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001$."
+      "BODY": "{MARKET} est à présent en ligne Ce marché s'établira à 1 $ si Donald J. Trump remporte l'élection 2024. Autrement, il s'établira à 0.001 $."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX prend maintenant en charge Keplr !",
