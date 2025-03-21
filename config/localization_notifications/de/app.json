@@ -14,7 +14,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
-      "BODY": "Gestalten Sie Ihre Trading Journey bestmöglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback bereitstellen. Die Plätze sind begrenzt. Klicken Sie {HERE_LINK}, um sich zu registrieren bzw. mehr zu erfahren!"
+      "BODY": "Gestalten Sie Ihre Handelreise bestmöglich, indem Sie an einem Benutzerinterview teilnehmen und Feedback bereitstellen. Die Plätze sind begrenzt. Klicken Sie {HERE_LINK}, um sich zu registrieren bzw. mehr zu erfahren!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position abgewickelt",
@@ -26,23 +26,23 @@
     },
     "IN_APP_STAKING_LIVE": {
       "TITLE": "Sie können jetzt DYDX staken!",
-      "BODY": "Erhalten Sie USDC-Belohnungen."
+      "BODY": "Erhalten Sie USDC-Prämien."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Die Saison {SEASON_NUMBER} hat begonnen!",
-      "BODY": "In der Saison {PREV_SEASON_NUMBER} wurden durchschnittlich {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) an Belohnungen erzielt!"
+      "TITLE": "Saison {SEASON_NUMBER} hat begonnen!",
+      "BODY": "In Saison {PREV_SEASON_NUMBER} wurden durchschnittlich {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC) an Prämien erzielt!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "Die Saison {SEASON_NUMBER} ist beendet!",
-      "BODY": "Vielen Dank für die Teilnahme am Anreizprogramm zum Start. Bleiben Sie gespannt auf Updates zu zukünftigen Prämienprogrammen!"
+      "TITLE": "Saison {SEASON_NUMBER} ist beendet!",
+      "BODY": "Vielen Dank für die Teilnahme am Prämienprogramm zum Start. Bleiben Sie dran für Updates zu zukünftigen Prämienprogrammen!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "Isolierte Marge ist live",
       "BODY": "Isolierte Marge ist jetzt live! Um mehr zu erfahren, gehen Sie zu {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "Die Prämien zum Start der Saison {SEASON_NUMBER} wurden verteilt!",
-      "BODY": "Saisonprämien {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
+      "TITLE": "Die Prämien zum Start von Saison {SEASON_NUMBER} wurden verteilt!",
+      "BODY": "Saison{SEASON_NUMBER}-Prämien  + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Positionsverrechnung",
@@ -50,26 +50,26 @@
     },
     "ORDER_FILL": {
       "TITLE": "Order ausgeführt",
-      "BODY": "Ihre Order betreffend {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
+      "BODY": "Ihre Order an {SIDE} {AMOUNT} {MARKET} wurde zu {AVERAGE_PRICE} USD ausgeführt."
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "Order teilweise erfüllt",
-      "BODY": "{FILLED_AMOUNT} {MARKET} Ihrer Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
+      "TITLE": "Order teilweise ausgeführt",
+      "BODY": "{FILLED_AMOUNT} {MARKET} Ihrer Order zu {SIDE} {AMOUNT} {MARKET} wurde ausgeführt."
     },
     "ORDER_TRIGGERED": {
-      "TITLE": "Order ausgeführt",
-      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde ausgelöst."
+      "TITLE": "Order ausgelöst",
+      "BODY": "Ihre Order zu {SIDE} {AMOUNT} {MARKET} wurde ausgelöst."
     },
     "ORDER_CANCEL": {
       "TITLE": "Order storniert",
-      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde storniert."
+      "BODY": "Ihre Order zu {SIDE} {AMOUNT} {MARKET} wurde storniert."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Order mit Partial Fill storniert",
-      "BODY": "Ihre Order bezüglich {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise erfüllt."
+      "BODY": "Ihre Order zu {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise ausgeführt."
     },
     "LIQUIDATION": {
-      "TITLE": "Position aufgelöst",
+      "TITLE": "Position liquidiert",
       "BODY": "Ihre {SIDE} Position auf {MARKET} wurde liquidiert."
     },
     "POSITION_CLOSED": {
@@ -82,15 +82,15 @@
     },
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "Schnell-Auszahlung erfolgreich",
-      "BODY": "Ihre schnelle Auszahlung von {AMOUNT} {ASSET} wurde bestätigt."
+      "BODY": "Ihre Schnellauszahlung von {AMOUNT} {ASSET} wurde bestätigt."
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "Handeln Sie SOL-USD mit 20-facher Hebelwirkung",
       "BODY": "SOL-USD und alle Isolated Markets können jetzt mit einer bis zu 20-fachen Hebelwirkung gehandelt werden."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "Prämien und Handel sind live auf dYdX Chain!",
-      "BODY": "Der vollständige Handel ist live auf dYdX Chain! Dazu gehören Staking-Prämien, Handelsprämien und das 6-monatige Start-Incentives-Programm von Chaos Labs. Erfahren Sie mehr {DOS_BLOGPOST} und {TRADING_BLOGPOST} [Link zu Drittanbietern]."
+      "TITLE": "Prämien und Trading sind live auf dYdX Chain!",
+      "BODY": "Der vollständige Handel ist live auf dYdX Chain! Dazu gehören Staking-Prämien, Handelsprämien und das 6-monatige Startprämien-Programm von Chaos Labs. Erfahren Sie mehr {DOS_BLOGPOST} und {TRADING_BLOGPOST} [Link zu Drittanbietern]."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Verzögerte Auszahlung ausstehend",
@@ -102,19 +102,19 @@
     },
     "STOP_LOSS_TRIGGER_CREATING": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser wird bei {NEW_VALUE} erstellt."
+      "BODY": "Ihr Stop-Loss-Trigger wird bei {NEW_VALUE} erstellt."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {NEW_VALUE} konnte nicht erstellt werden."
+      "BODY": "Ihr Stop-Loss-Trigger bei {NEW_VALUE} konnte nicht erstellt werden."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {NEW_VALUE} wurde erstellt."
+      "BODY": "Ihr Stop-Loss-Trigger bei {NEW_VALUE} wurde erstellt."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird unter {NEW_VALUE} erstellt."
+      "BODY": "Ihr Take-Profit-Auslöser wird bei {NEW_VALUE} erstellt."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Take Profit",
@@ -126,31 +126,31 @@
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser wird aktualisiert auf {NEW_VALUE}."
+      "BODY": "Ihr Stop-Loss-Trigger wird auf {NEW_VALUE} aktualisiert."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {OLD_VALUE} konnte nicht ersetzt werden."
+      "BODY": "Ihr Stop-Loss-Trigger konnte nicht bei {OLD_VALUE} ersetzt werden."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser wird jetzt bei {NEW_VALUE} ausgelöst."
+      "BODY": "Ihr Stop-Loss-Trigger wird jetzt bei {NEW_VALUE} ausgelöst."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird aktualisiert auf {NEW_VALUE}."
+      "BODY": "Ihr Take-Profit-Trigger wird auf {NEW_VALUE} aktualisiert."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}konnte nicht ersetzt werden."
+      "BODY": "Ihr Take-Profit-Trigger bei  {OLD_VALUE}konnte nicht ersetzt werden."
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird jetzt bei  ausgelöst {NEW_VALUE}."
+      "BODY": "Ihr Take-Profit-Trigger wird jetzt bei {NEW_VALUE} ausgelöst."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {OLD_VALUE} wird entfernt."
+      "BODY": "Ihr Stop-Loss-Trigger bei {OLD_VALUE} wird entfernt."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Stop Loss",
