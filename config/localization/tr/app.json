@@ -2,7 +2,7 @@
   "APP": {
     "GENERAL": {
       "TIME_STRINGS": {
-        "JUST_NOW": "Şimdi",
+        "JUST_NOW": "Şimd",
         "1_MIN_AGO": "1 dakika önce",
         "X_MIN_AGO": "{X} dakika önce",
         "1_HOUR_AGO": "1 saat önce",
@@ -906,6 +906,7 @@
       "API_KEYS_NOT_FOUND": "API Anahtarı bulunamadı",
       "APPEARS_OUTSIDE_ACCESS": "dYdX'e Amerika Birleşik Devletleri dışından veya yasaklı bir bölgeden erişmek istediğiniz belirlendi. Bu şartları kabul, beyan ve garanti etmektesiniz:",
       "BRIDGING_TOKENS": "Token köprüleme",
+      "CHAIN_GAS_FEES": "{CHAIN} gaz ücretleri",
       "CHECK_WALLET_FOR_REQUEST": "Talep için cüzdanı kontrol edin...",
       "COMING_SOON": "Yakında geliyor!",
       "COMPLETE_ONBOARDING": "Katılım sürecini tamamla",
@@ -1025,6 +1026,7 @@
       "VALUE_PROP_REWARDS_DESC": "Platformda yaptığınız her bir alım satım için $DYDX ödülleri kazanın*",
       "VALUE_PROP_TRUSTLESS_DESC": "Açık kaynakla inşa edilmiş, denetlenmiş akıllı sözleşmeler",
       "VALUE_PROP_TRUSTLESS": "Güven gerektirmez",
+      "VIEW_TRANSACTIONS_SHORT": "İşlem(ler)i görüntüle",
       "VERIFY_OWNERSHIP": "Sahipliği doğrulayın",
       "VERIFY_WALLET_OWNERSHIP": "Bu cüzdanın sahibi olduğunuzu doğrulayın.",
       "VERIFY_WALLET_COMPATIBILITY": "Cüzdan uyumluluğunu doğrulayın",
@@ -1845,7 +1847,7 @@
       "COMPLIANCE_ALERT": "Uyumluluk uyarısı",
       "COMPLIANCE_WARNING": "Uyumluluk İkazı",
       "CONNECTION_ISSUE_DETECTED": "Bağlantı sorunu tespit edildi",
-      "CONNECTION_ISSUE_DETECTED_BODY": "Şu anda hizmetlerimize bağlanmakta sorun yaşıyoruz. Bunun nedeni, sistemimizin durumu veya internet bağlantınızın durumu olabilir. Lütfen durum sayfasını kontrol edin ve yenileyin. Fonlarınız güvende.",
+      "CONNECTION_ISSUE_DETECTED_BODY": "Şu anda hizmetlerimize bağlanmakta sorun yaşıyoruz. Bu durum, sistemimizin durumu veya internet bağlantınızın durumuna bağlı olabilir. Lütfen durum sayfasını kontrol edin ve yenileyin. Fonlarınız güvende.",
       "CREATED": "Oluşturuldu",
       "CREATING": "Oluşturuluyor",
       "DEPOSIT_IN_PROGRESS_DESCRIPTION": "{AMOUNT_ELEMENT} yatırma işleminiz 14 onaydan sonra kullanıma sunulacaktır.",
