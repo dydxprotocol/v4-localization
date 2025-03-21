@@ -5,8 +5,8 @@
       "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}의 거래 보상을 획득했습니다."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
-      "TITLE": "새롭게 고친 조건부 주문 경험!",
-      "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용: {TWITTER_LINK}을 확인하십시오."
+      "TITLE": "새롭게 갱신된 조건 주문 경험!",
+      "BODY": "dYdX 체인의 조건 주문이 완전히 개선되었습니다! 이제 그 어느 때보다 안정적이고 직관적이며 성능이 향상되었습니다. 자세한 내용은 {TWITTER_LINK}을(를) 확인하십시오."
     },
     "DELEVERAGED": {
       "TITLE": "포지션 차감됨",
@@ -21,7 +21,7 @@
       "BODY": "{MARKET}이(가) 마감되었습니다. {MARKET}의 {SIDE} 포지션이 최종 정산되었습니다."
     },
     "FOK_DEPRECATION": {
-      "TITLE": "사용하지 않는 FOK 주문",
+      "TITLE": "사용되지 않는 FOK 주문",
       "BODY": "Fill-or-Kill(FOK) 주문이 더 이상 사용되지 않습니다. 다른 모든 주문 유형은 계속 사용할 수 있습니다."
     },
     "IN_APP_STAKING_LIVE": {
@@ -38,7 +38,7 @@
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "격리 마진이 라이브 상태입니다",
-      "BODY": "격리 마진이 현재 라이브입니다! 자세한 내용은 {LEARN_MORE}을(를) 참조하십시오."
+      "BODY": "격리 마진이 현재 라이브 상태입니다! 자세한 내용은 {LEARN_MORE}을(를) 참조하십시오."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "시즌 {SEASON_NUMBER} 출시 보상이 분배되었습니다!",
@@ -53,35 +53,35 @@
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 ${AVERAGE_PRICE}에 체결되었습니다."
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "주문이 부분적으로 체결되었습니다",
-      "BODY": "{SIDE} {AMOUNT} {MARKET} 에 대한 주문의 {FILLED_AMOUNT} {MARKET}이(가) 완료되었습니다."
+      "TITLE": "주문이 부분적으로 체결됨",
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문의 {FILLED_AMOUNT} {MARKET}이(가) 완료되었습니다."
     },
     "ORDER_TRIGGERED": {
-      "TITLE": "주문이 발동되었습니다",
+      "TITLE": "주문 발동됨",
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 발동되었습니다."
     },
     "ORDER_CANCEL": {
-      "TITLE": "주문이 취소되었습니다",
+      "TITLE": "주문 취소됨",
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 취소되었습니다."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "부분 체결로 주문이 취소됨",
-      "BODY": "{SIDE} {AMOUNT} {MARKET} 주문이 부분적으로 {TOTAL_FILLED} 정도 체결되어 취소되었습니다."
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 부분적으로 {TOTAL_FILLED} 정도 체결되어 취소되었습니다."
     },
     "LIQUIDATION": {
-      "TITLE": "포지션이 청산되었습니다",
-      "BODY": "{SIDE} {MARKET}포지션이 청산되었습니다."
+      "TITLE": "포지션이 청산됨",
+      "BODY": "{MARKET}의 {SIDE} 포지션이 청산되었습니다."
     },
     "POSITION_CLOSED": {
-      "TITLE": "포지션이 종료되었습니다",
+      "TITLE": "포지션 종료됨",
       "BODY": "{MARKET} 포지션이 종료되었습니다."
     },
     "DEPOSIT_SUCCESS": {
-      "TITLE": "입금이 완료되었습니다",
-      "BODY": "{AMOUNT} {ASSET} 입금이 확인되었습니다."
+      "TITLE": "입금 완료됨",
+      "BODY": "{AMOUNT} {ASSET}의 입금이 확인되었습니다."
     },
     "FAST_WITHDRAW_SUCCESS": {
-      "TITLE": "빠른 출금이 완료되었습니다",
+      "TITLE": "빠른 출금이 완료됨",
       "BODY": "{AMOUNT} {ASSET}의 빠른 출금이 확인되었습니다."
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
@@ -162,11 +162,11 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "이익 환수",
-      "BODY": "{OLD_VALUE}에서 이익 실현 트리거가 제거되고 있습니다."
+      "BODY": "{OLD_VALUE}에서의 이익 환수 트리거가 제거됩니다."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "이익 환수",
-      "BODY": "{OLD_VALUE}에서 이익 환수 트리거를 취소할 수 없습니다."
+      "BODY": "{OLD_VALUE}에서의 이익 환수 트리거를 취소할 수 없습니다."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "이익 환수",
@@ -195,11 +195,11 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} 및 {MARKET_2} 시장 마감을 위한 라이브 제안",
-      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 대기 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} 매개변수를 업데이트하는 라이브 제안",
-      "BODY": "{MARKET} 마켓의 매개 변수를 업데이트하는 현재 라이브 제안이 있습니다. 통과된 경우 {MARKET} 시장은 코인베이스 프로 {MARKET}을(를) 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "현재 {MARKET} 마켓의 매개 변수를 업데이트하는 라이브 제안이 있습니다. 통과된 경우, {MARKET} 시장은 코인베이스 프로 {MARKET}을(를) 유일한 오라클 소스로 사용합니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "미국 대통령 선거를 거래하세요!",
@@ -218,8 +218,8 @@
       "BODY": "이제 모바일 거래자를 위해 새롭고 간소화된 경험을 사용할 수 있습니다. iOS에서 프로에서 지금 단순화로 전환하세요."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
-      "TITLE": "교차 마진을 위해 시장 업그레이드",
-      "BODY": "격리된 마진에서 교차 마진으로 업그레이드하려는 거버넌스 제안이 현재 진행 중이며, 이는 이러한 시장에서 열린 포지션에 영향을 미치고 청산 위험을 증가시킬 {MARKETS}수 있습니다. 거래자는 주의를 기울이고 필요한 경우 포지션을 청산할 것을 강력히 권장합니다."
+      "TITLE": "교차 마진으로 시장 업그레이드",
+      "BODY": "격리된 마진에서 교차 마진으로 {MARKETS}을(를) 업그레이드하려는 거버넌스 제안이 현재 진행 중이며, 이는 이러한 시장에서 열린 포지션에 영향을 미치고 청산 위험을 증가시킬 수 있습니다. 거래자는 주의를 기울이고 필요한 경우 포지션을 청산할 것을 강력히 권장합니다."
     }
   }
 }
