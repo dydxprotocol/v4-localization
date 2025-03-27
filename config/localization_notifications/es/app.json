@@ -122,7 +122,7 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se creó tu activación de tomar ganancias en {NEW_VALUE}."
+      "BODY": "Se creó tu activación de toma de ganancias en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Detener pérdidas",
@@ -130,7 +130,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Detener pérdidas",
-      "BODY": "No se pudo reemplazar tu activación de detener pérdidas en {OLD_VALUE}."
+      "BODY": "No se pudo reemplazar tu activación de detención de pérdidas en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "Detener pérdidas",
@@ -150,11 +150,11 @@
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "Detener pérdidas",
-      "BODY": "Se está eliminando tu activación de tomar ganancias en {OLD_VALUE}."
+      "BODY": "Se está eliminando tu activación de toma de ganancias en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Detener pérdidas",
-      "BODY": "No se pudo cancelar tu activación de detener pérdidas en {OLD_VALUE}."
+      "BODY": "No se pudo cancelar tu activación de detención de pérdidas en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "Detener pérdidas",
@@ -166,52 +166,52 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Tomar ganancias",
-      "BODY": "No se pudo cancelar tu activación de tomar ganancias en {OLD_VALUE}."
+      "BODY": "No se pudo cancelar tu activación de toma de ganancias en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Tomar ganancias",
       "BODY": "Se eliminó tu activación de toma de ganancias en {OLD_VALUE}."
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "¿Necesitas más asistencia?",
-      "BODY": "¡Gracias por ser un gran comerciante en dYdX! Al equipo le gustaría ofrecerte un mayor nivel de asistencia personalizada y la oportunidad de conectarte directamente con ellos.",
-      "ACTION": "Ponte en contacto →"
+      "TITLE": "¿Necesitás más ayuda?",
+      "BODY": "¡Gracias por ser un gran comerciante en dYdX! Al equipo le gustaría ofrecerte un mayor nivel de ayuda personalizada y la oportunidad de conectarte directamente con ellos.",
+      "ACTION": "Ponete en contacto →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "Regalo de $20K",
-      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está realizando un sorteo en Twitter, donde tienes la oportunidad de reclamar $200. Se elegirán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
+      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está realizando un sorteo en Twitter, donde tenés la oportunidad de reclamar $200. Se elegirán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
-      "TITLE": "El mercado {MARKET} llegó a su fin",
-      "BODY": "El {DATE}, el mercado {MARKET} pasó por la liquidación final. Las posiciones existentes se han cerrado y las órdenes abiertas ahora se han cancelado. Puedes encontrar más información sobre la liquidación final {HERE_LINK}."
+      "TITLE": "El mercado {MARKET} cerró",
+      "BODY": "El {DATE}, el mercado {MARKET} pasó por la liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Propuesta en vivo para cerrar el {MARKET} mercado",
-      "BODY": "Actualmente, hay una propuesta en vivo para reducir el {MARKET} mercado. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+      "BODY": "Actualmente, hay una propuesta en vivo para cerrar el {MARKET} mercado. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "Los mercados {MARKET_1} y {MARKET_2} se redujeron",
-      "BODY": "El {DATE}, los mercados {MARKET_1} y {MARKET_2} pasaron por una liquidación final. Las posiciones existentes se han cerrado y las órdenes abiertas ahora se han cancelado. Puedes encontrar más información sobre la liquidación final {HERE_LINK}."
+      "TITLE": "Los mercados {MARKET_1} y {MARKET_2} cerraron",
+      "BODY": "El {DATE}, los mercados {MARKET_1} y {MARKET_2} pasaron por una liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2} ",
-      "BODY": "Actualmente, hay una propuesta en vivo para reducir los mercados {MARKET_1} y {MARKET_2}. Si se aprueba, los mercados {MARKET_1} y {MARKET_2} entrarán en una liquidación final el {DATE}. Las posiciones existentes se cerrarán y las órdenes abiertas se cancelarán. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+      "TITLE": "Propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2}",
+      "BODY": "Actualmente, hay una propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2}. Si se aprueba, los mercados {MARKET_1} y {MARKET_2} entrarán en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "Propuesta en vivo para actualizar los {MARKET} parámetros",
-      "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros del {MARKET} mercado. Si se aprueba, el mercado {MARKET} tendrá Coinbase Pro {MARKET} como la única fuente de oráculo. Puedes encontrar más información sobre la propuesta {HERE_LINK}."
+      "TITLE": "Propuesta en vivo para actualizar los parametros de {MARKET}",
+      "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros del mercado {MARKET}. Si se aprueba, el mercado {MARKET} tendrá Coinbase Pro {MARKET} como la única fuente de oráculo. Podés encontrar más información sobre la propuesta {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "¡Opera en las elecciones presidenciales de Estados Unidos!",
-      "BODY": "{MARKET} ahora está en vivo. Este mercado se liquidará en $1 si Donald J. Trump gana la elección de 2024. De lo contrario, se liquidará en $ 0,001."
+      "BODY": "{MARKET} ahora está en vivo. Este mercado se liquidará en $1 si Donald J. Trump gana la elección de 2024. De lo contrario, se liquidará en $0,001."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "¡dYdX ahora es compatible con Keplr!",
-      "BODY": "¡Ahora puedes conectar y usar dYdX con tu billetera Keplr! Pruébalo ahora."
+      "BODY": "¡Ahora podés conectar y usar dYdX con tu billetera Keplr! Probalo ahora."
     },
     "PHANTOM_SUPPORT": {
       "TITLE": "¡dYdX ahora es compatible con Phantom!",
-      "BODY": "¡Ahora puedes conectar y usar dYdX con tu billetera Phantom! Pruébalo ahora."
+      "BODY": "¡Ahora podés conectar y usar dYdX con tu billetera Phantom! Probalo ahora."
     },
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Nueva experiencia simplificada en iOS",
