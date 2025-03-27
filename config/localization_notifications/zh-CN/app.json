@@ -182,7 +182,7 @@
       "BODY": "为庆祝累计交易量超过 2000 亿美元，dYdX 将举办 Twitter 赠品活动，您有机会领取 200 美元。2024 年 8 月 16 日 23:59（协调世界时）之后，将随机选出 100 名获奖者{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET}市场已清算",
+      "TITLE": " {MARKET}市场已清算",
       "BODY": "在 {DATE}，{MARKET} 市场已完成最终结算。现有头寸已平仓，未平仓订单现已取消。 有关最终结算的更多信息请查阅{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
@@ -198,7 +198,7 @@
       "BODY": "目前有一项关于清算{MARKET_1}和{MARKET_2}市场的实时提案。如果通过，{MARKET_1}和{MARKET_2}市场将于 {DATE} 进入最终结算。 现有头寸将平仓，未平仓订单将取消。 有关该提议的更多信息请查阅{HERE_LINK}。"
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "更新 {MARKET} 参数的实时提案",
+      "TITLE": " 更新 {MARKET} 参数的实时提案",
       "BODY": "目前有一项更新 {MARKET} 市场参数的实时提案。 如果通过，{MARKET} 市场会将 Coinbase Pro {MARKET} 作为唯一的预言机来源。 有关该提议的更多信息请查阅{HERE_LINK}。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
