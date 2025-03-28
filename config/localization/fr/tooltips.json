@@ -432,5 +432,13 @@
     "VAULT_APR": {
       "BODY": "Est. Le TAEG désigne les rendements du mois dernier annualisés. Les rendements réels dépendent des gains futurs incertains (partage des revenus du protocole et pertes et profits) et ne sont pas garantis. {LEARN_MORE}"
     }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Il s'agit du montant maximal d'exposition que vous pouvez obtenir avec votre dépôt. Ce n'est pas le montant que vous pouvez déposer ou retirer. Votre pouvoir d’achat peut changer rapidement et peut être positif même lorsque vous êtes en perte."
+    },
+    "RISK": {
+      "BODY": "Il s'agit du pourcentage de votre dépôt conservé en marge par vos positions ouvertes. Cela peut changer rapidement lorsque le prix du marché change."
+    }
   }
 }
