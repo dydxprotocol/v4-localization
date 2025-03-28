@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiye üzerine, pozisyonunuz otomatik olarak kapatılacak ve en az %1 oranında bir tasfiye ücreti tahakkuk ettirilecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
@@ -315,7 +315,7 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Kullanılamaz",
-      "BODY": "Gas ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
+      "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Gas Ücretleri",
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
-      "BODY": "Bu, fon yatırma ve izin belirleme işlemleri için Ethereum madencilerine ödenen gas ücretidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz yeterlidir."
+      "BODY": "Bu, fon yatırma ve izin belirleme işlemleri için Ethereum madencilerine ödenen gaz ücretidir. İzni yatırdığınız her bir varlık için yalnızca bir kez belirlemeniz yeterlidir."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
-      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gas ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gaz ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
     },
     "GAS_FEES": {
       "TITLE": "Gas Ücretleri",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
-      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gas ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
+      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gaz ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
     }
   },
   "STAKE": {
@@ -431,6 +431,14 @@
     },
     "VAULT_APR": {
       "BODY": "Tahmini APR, geçen ayın getirilerinin yıllık olarak belirlenen değerdir. Gerçek getiriler gelecekteki belirsiz kazançlara (protokol gelir paylaşımı ve KZ - Kâr ve Zarar olarak belirlen) bağlıdır ve garanti edilmez. {LEARN_MORE}"
+    }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Bu, yatırma işleminizle alabileceğiniz maksimum maruz kalma miktarıdır. Yatırabileceğiniz veya çekebileceğiniz miktar değildir. Satın alma gücünüz hızla değişebilir ve kayıp ettiğinizde bile pozitif olabilir."
+    },
+    "RISK": {
+      "BODY": "Bu değer, açık pozisyonlarınız tarafından marj olarak tutulan yatırma işleminizin yüzdesidir. Bu değer, piyasa fiyatı değiştiğinde hızla değişebilir."
     }
   }
 }
