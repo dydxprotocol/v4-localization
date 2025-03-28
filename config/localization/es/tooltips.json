@@ -12,7 +12,7 @@
     },
     "REMEMBER_ME": {
       "TITLE": "Recordarme",
-      "BODY": "Solo utiliza \"Recordarme\" si estás usando un dispositivo seguro de tu propiedad. Seleccionar esta opción puede exponer tus claves e información a otros si estás en un dispositivo público o no seguro."
+      "BODY": "Solo utilizá \"Recordarme\" si estás utilizando un dispositivo seguro de tu propiedad. Seleccionar esta opción puede exponer tus claves e información a otros si estás en un dispositivo público o no seguro."
     }
   },
   "AFFILIATES": {
@@ -229,7 +229,7 @@
       "BODY": "La diferencia entre el precio de ejecución previsto para tu orden y la mejor orden del lado de la oferta o la demanda. Esto aumentará a volúmenes de operación más altos."
     },
     "REALIZED_PNL": {
-      "TITLE": "Beneficio\/pérdida realizada",
+      "TITLE": "Ganancia\/pérdida realizada",
       "BODY": "Ganancia\/pérdida total realizada para esta posición a través de cierres parciales, tasas y financiamiento. Se restablece si cerrás completamente tu posición o cambiás de lugar en la posición (largo a corto, o viceversa)."
     },
     "REDUCE_ONLY": {
@@ -286,7 +286,7 @@
     },
     "TIME_IN_FORCE": {
       "TITLE": "Tiempo en vigor",
-      "BODY": "La opción de tiempo en vigor seleccionada controla cuánto tiempo permanecerá activa una orden hasta que caduque o se complete."
+      "BODY": "La opción de tiempo vigente seleccionada controla cuánto tiempo permanecerá activa una orden hasta que se venza o se complete."
     },
     "TRAILING_PERCENT": {
       "TITLE": "Porcentaje residual",
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
-      "BODY": "Este es el costo de gas de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tenés que establecer una asignación una vez por cada activo que deposite."
+      "BODY": "Este es el costo de gas de las transacciones de depósitos y asignaciones establecidas, pagadas a mineros de Ethereum. Solo tenes que establecer una asignación una vez por activo que deposite."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Tarifa de red",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Tarifa de retiro rápido",
-      "BODY": "Los retiros rápidos se envían de inmediato y dYdX cubrirá los costos de gas a cambio de una tarifa. Para retiros sin cargo, usa un retiro lento (vas a pagar tus propios costos de gasolina y a tener que esperar la confirmación de la etapa 2)."
+      "BODY": "Los retiros rápidos se envían de inmediato y dYdX va a cubrir los costos del gas a cambio de una tarifa. Para retiros sin cargo, usa un retiro lento (vas a pagar tus propios costos de gasolina y a tener que esperar la confirmación de la etapa 2)."
     },
     "GAS_FEES": {
       "TITLE": "Tarifas de gas",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Tipos de retiro",
-      "BODY": "dYdX permite dos tipos de retiros de la etapa 2. Los retiros rápidos implican una pequeña tarifa, pero no requieren gas y se envían de inmediato. Los retiros lentos son gratuitos, pero requieren dos pasos, llevan mucho más tiempo y el usuario tendrá que pagar sus propias tasas de gas."
+      "BODY": "dYdX permite dos tipos de retiro de la etapa 2. Los retiros rápidos implican una pequeña tarifa, pero no requieren gas y se envían de inmediato. Los retiros lentos son gratuitos, pero requieren dos pasos, llevan mucho más tiempo y el usuario tendrá que pagar sus propias tasas de gas."
     }
   },
   "STAKE": {
@@ -431,6 +431,14 @@
     },
     "VAULT_APR": {
       "BODY": "Est. La Tasa Anual Equivalente (TAE) es el rendimiento del mes pasado anualizado. Los rendimientos reales dependen de las ganancias futuras inciertas (participación en los ingresos del protocolo y pérdidas y ganancias) y no están garantizados. {LEARN_MORE}"
+    }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Esta es la cantidad máxima de exposición que podés obtener con tu depósito. No es la cantidad que podés depositar o retirar. Tu poder adquisitivo puede cambiar rápidamente y puede ser positivo incluso cuando estés sufriendo pérdidas."
+    },
+    "RISK": {
+      "BODY": "Este es el porcentaje de tu depósito que tus posiciones abiertas conservan como margen. Esto puede cambiar rápidamente cuando cambia el precio de mercado."
     }
   }
 }
