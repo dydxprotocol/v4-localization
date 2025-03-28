@@ -432,5 +432,13 @@
     "VAULT_APR": {
       "BODY": "Gesch. Der APR ist die Rendite des letzten Monats auf Jahresbasis. Die tatsächlichen Renditen hängen von unsicheren zukünftigen Erträgen ab (Protokollumsatzbeteiligung und P&L) und sind nicht garantiert. {LEARN_MORE}"
     }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Dies ist der maximale Betrag, den Sie mit Ihrer Einzahlung erhalten können. Es ist nicht der Betrag, den Sie einzahlen oder abheben können. Ihre Kaufkraft kann sich schnell ändern und kann sogar dann positiv sein, wenn Sie Verluste machen."
+    },
+    "RISK": {
+      "BODY": "Dies ist der Prozentsatz Ihrer Einzahlung, der als Marge durch Ihre offenen Positionen gehalten wird. Dies kann sich schnell ändern, wenn sich der Marktpreis ändert."
+    }
   }
 }
