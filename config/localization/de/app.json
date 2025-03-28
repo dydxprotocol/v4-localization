@@ -67,7 +67,7 @@
       "AMOUNT_TO_ADD": "Zu hinzufügender Betrag",
       "AMOUNT_TO_REMOVE": "Zu entfernender Betrag",
       "ANONYMOUS": "Anonym",
-      "ARE_UNCHANGED": "unverändert",
+      "ARE_UNCHANGED": "sind unverändert",
       "ARE_YOU_SURE": "Sind Sie sicher?",
       "ASSET_BALANCE": "{ASSET} Guthaben",
       "ASSET": "Vermögenswerte",
@@ -156,9 +156,9 @@
       "ENDED": "Beendet",
       "ENTERTAINMENT": "Unterhaltung",
       "EQUITY": "Eigenkapital",
-      "EST_APR": "Ca. {PERCENTAGE} APR",
-      "EST_GAS": "Ca. Gas",
-      "EST_REWARDS": "Ca. Prämien",
+      "EST_APR": "Est. {PERCENTAGE} APR",
+      "EST_GAS": "Est. Gas",
+      "EST_REWARDS": "Est. Prämien",
       "ESTIMATED": "Geschätzt",
       "ESTIMATED_COST": "Geschätzte Kosten",
       "EXPAND_SECTION": "Abschnitt erweitern",
@@ -192,6 +192,7 @@
       "HIDE_DETAILS": "Details ausblenden",
       "HIDE_SECTION": "Abschnitt ausblenden",
       "HIDE": "Ausblenden",
+      "HIGH_RISK": "Hohes Risiko",
       "HISTORY": "Verlauf",
       "INCREASED": "erhöht",
       "INCREASING": "Zunehmend",
@@ -207,7 +208,7 @@
       "KEEP_TRADING": "Weiter traden",
       "LANGUAGE": "Sprache",
       "LARGE_CAP": "Large-Cap",
-      "BIGGEST_MOVERS": "Gewinner & Verlierer",
+      "BIGGEST_MOVERS": "Die größten Umsteller",
       "RECENTLY_LISTED": "Kürzlich gelistet",
       "GAINERS": "Gewinner",
       "LOSERS": "Verlierer",
@@ -219,8 +220,8 @@
       "HIGHLIGHTS": "Highlights",
       "LAUNCHABLE": "Startbar",
       "LAUNCHABLE_DETAILS": "Dieser Markt ist startfähig",
-      "LAYER_1": "Layer 1",
-      "LAYER_2": "Layer 1",
+      "LAYER_1": "Schicht 1",
+      "LAYER_2": "Layer 2",
       "LEARN_MORE": "Mehr erfahren",
       "LEARN_MORE_ARROW": "Mehr erfahren →",
       "LEARN": "Lernen",
@@ -230,7 +231,8 @@
       "LONG_POSITION_SHORT": "Lang",
       "LONG_TAIL": "Long-Tail-Modell",
       "LOSS": "Verlust",
-      "MAINTENANCE_MARGIN_FRACTION": "Maintenance Margin-Bruchwert",
+      "LOW_RISK": "Geringes Risiko",
+      "MAINTENANCE_MARGIN_FRACTION": "Erhaltungsmarge-Fraktion",
       "MAINTENANCE_MARGIN_FRACTION_SHORT": "MMF",
       "MAKE_ONE_TRADE": "1 Trade machen",
       "MANAGE_FUNDS": "Mittel verwalten",
@@ -240,7 +242,7 @@
       "MARGIN_USAGE": "Margin-Anwendung",
       "MARGIN_USED": "Verwendete Marge",
       "MARKET_NAME": "Marktname",
-      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Anlage möglicherweise noch nicht, oder es existiert noch nicht.",
+      "MARKET_SEARCH_DOES_NOT_EXIST_YET": "Wir unterstützten dieses Asset möglicherweise noch nicht, oder es existiert noch nicht.",
       "MARKET_SEARCH_PLACEHOLDER": "z.B. „ETH“ oder „Ethereum“",
       "MARKET": "Markt",
       "MARKET_CAP": "Marktkapitalisierung",
@@ -249,7 +251,8 @@
       "MAX_BUYING_POWER": "Max. Kaufkraft",
       "MAX_WITHDRAW": "Max. Auszahlung",
       "MAXIMUM_LEVERAGE": "Maximale Leverage",
-      "MAXIMUM_REWARDS": "Geschätzte Prämien",
+      "MAXIMUM_REWARDS": "Geschätzte Belohnungen",
+      "MEDIUM_RISK": "Mittleres Risiko",
       "MEME": "Meme",
       "MEMO": "Memo",
       "MENU": "Menü",
@@ -286,7 +289,7 @@
       "PENDING": "Ausstehend",
       "PERPETUALS_UNAVAILABLE_IN_US": "Perpetuals sind nicht für Personen oder Unternehmen verfügbar, die ansässig sind oder in den USA oder einem eingeschränkten Gebiet einen registrierten Agenten besitzen. Weitere Details finden Sie in unseren {TERMS_OF_USE_LINK}.",
       "PERPETUALS": "Perpetuals",
-      "PNL": "G&V",
+      "PNL": "P&L",
       "POSITION": "Position",
       "POWERED_BY": "Powered By",
       "POWERED_BY_ALL_CAPS": "POWERED BY",
@@ -346,19 +349,19 @@
       "SIDE": "Seite",
       "SIGN_OUT": "Abmelden",
       "SIZE": "Größe",
-      "SLOW_WITHDRAW": "Langsame Auszahlung",
+      "SLOW_WITHDRAW": "Langsamer Rückzug",
       "SORT_BY": "Sortieren nach",
       "SOURCE": "Quelle",
       "SOURCE_ADDRESS": "Quelladresse",
       "STAKE": "Staken",
-      "STAKED": "Staked",
+      "STAKED": "Stacked",
       "STAKE_FOR_REWARDS": "Einsatz für Prämien",
       "STAKE_NOW": "Jetzt staken",
       "START_TRADING": "Mit dem Traden beginnen",
       "STARTED_FROM_DATE": "Gestartet {FROM_DATE}",
       "STATISTICS": "Statistiken",
       "STATUS": "Status",
-      "STEP_SIZE": "Schrittgröße",
+      "STEP_SIZE": "Schrittweite",
       "STOP_ORDER_SHORT": "Stop",
       "SUPPORTED_TOKENS": "Unterstützte Token",
       "SWITCH_LEADERBOARD": "Leaderboard wechseln",
@@ -434,11 +437,11 @@
       },
       "1INCH": {
         "PRIMARY": "Das 1-Zoll-Netzwerk vereint dezentralisierte Protokolle, deren Synergie die lukrativsten, schnellsten und geschütztesten Operationen im DeFi-Raum ermöglicht.",
-        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren überstieg der 1inch-DEX-Aggregator das Gesamtvolumen von 30 Mrd. USD."
+        "SECONDARY": "Das ursprüngliche Protokoll des 1-Zoll-Netzwerks ist eine DEX-Aggregatorlösung, die Geschäfte über mehrere Liquiditätsquellen hinweg durchsucht und den Benutzern bessere Kurse bietet als jede einzelne Börse. Dieses Protokoll enthält den Pathfinder-Algorithmus, der die besten Pfade zwischen verschiedenen Märkten über mehr als 50 Liquiditätsquellen auf Ethereum und über 20 Liquiditätsquellen auf Binance Smart Chain findet. In weniger als zwei Jahren hat der 1inch DEX-Aggregator ein Gesamtvolumen von 30 Mrd. USD überschritten."
       },
       "AAVE": {
-        "PRIMARY": "Aave ist ein Open-Source-Protokoll ohne Verwahrung, um Zinsen auf Einlagen zu verdienen und Vermögenswerte zu leihen.",
-        "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Verwahrung, an dem Benutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
+        "PRIMARY": "Aave ist ein quelloffenes und nicht verpfändetes Protokoll zur Verzinsung von Einlagen und zum Ausleihen von Vermögenswerten.",
+        "SECONDARY": "Aave ist ein dezentralisiertes Liquiditätsmarktprotokoll ohne Depotfunktion, an dem Nutzer als Einleger oder Kreditnehmer teilnehmen können. Einleger stellen dem Markt Liquidität zur Verfügung, um ein passives Einkommen zu erzielen, während Kreditnehmer in der Lage sind, überbesicherte (dauerhaft) oder unterbesicherte (Ein-Block-Liquidität) Kredite aufzunehmen."
       },
       "ADA": {
         "PRIMARY": "Cardano ist eine Proof-of-Stake-Blockchain-Plattform: die erste, die auf Peer-Review-Forschung basiert und durch evidenzbasierte Methoden entwickelt wurde. Sie kombiniert wegweisende Technologien, um dezentralisierte Anwendungen, Systemen und Gesellschaften beispiellose Sicherheit und Nachhaltigkeit zu bieten.",
@@ -450,7 +453,7 @@
       },
       "ALGO": {
         "PRIMARY": "Algorand beseitigt die technischen Barrieren, die jahrelang die Mainstream-Blockchain-Akzeptanz untergraben haben: Dezentralisierung, Skalierung und Sicherheit.",
-        "SECONDARY": "Algorand verwendet einen genehmigungsfreien, reinen Proof-of-Stake-Konsensmechanismus, der eine vollständige Teilnahme, Schutz und Geschwindigkeit innerhalb eines wirklich dezentralisierten Netzwerks gewährleistet. Darüber hinaus ist Algorand die erste Blockchain, die neben einem Durchsatz von bis zu 1.000 Transaktionen pro Sekunde eine sofortige Transaktionsendgültigkeit bietet."
+        "SECONDARY": "Algorand verwendet einen zulassungsfreien, reinen Proof-of-Stake-Konsensmechanismus, der volle Beteiligung, Schutz und Geschwindigkeit in einem wirklich dezentralen Netzwerk gewährleistet. Darüber hinaus ist Algorand die erste Blockchain, die neben einem Durchsatz von bis zu 1.000 Transaktionen pro Sekunde eine sofortige Transaktionsendgültigkeit bietet."
       },
       "APE": {
         "PRIMARY": "ApeCoin ist das Governance-Token des Ökosystems, mit dem ApeCoin-Inhaber an ApeCoin-DAO teilnehmen können.",
@@ -477,8 +480,8 @@
         "SECONDARY": "Axelar ist eine Interoperabilitätslösung und bietet die Infrastruktur, die für eine nahtlose und sichere Crosschain-Kommunikation zwischen dezentralisierten Anwendungen erforderlich ist."
       },
       "BCH": {
-        "PRIMARY": "Mit Bitcoin Cash können Sie Geld an jeden überall auf der Welt senden, 24 Stunden am Tag, 365 Tage im Jahr. Wie das Internet selbst ist auch das Netzwerk immer aktiv.",
-        "SECONDARY": "Bitcoin Cash bietet mehr Privatsphäre und Anonymität als herkömmliche Zahlungssysteme wie Banküberweisungen und Kreditkartenzahlungen, da es normalerweise unmöglich ist, zu wissen, wer eine Bitcoin-Adresse manövriert. Bitcoin Cash bietet verschiedene Datenschutzstufen, je nachdem, wie es verwendet wird. Es ist wichtig, sich gründlich zu informieren, bevor Sie BCH für Datenschutzzwecke verwenden."
+        "PRIMARY": "Mit Bitcoin Cash können Sie Geld an jeden überall auf der Welt senden, 24 Stunden am Tag, 365 Tage im Jahr. Wie das Internet selbst ist auch das Netz ständig in Betrieb.",
+        "SECONDARY": "Bitcoin Cash bietet mehr Privatsphäre und Anonymität als herkömmliche Zahlungssysteme wie Banküberweisungen und Kreditkartenzahlungen, da es normalerweise unmöglich ist, herauszufinden, wer eine Bitcoin-Adresse kontrolliert. Bitcoin Cash bietet verschiedene Datenschutzstufen, je nachdem, wie es verwendet wird. Es ist wichtig, dass Sie sich gründlich informieren, bevor Sie BCH für Datenschutzzwecke verwenden."
       },
       "BTC": {
         "PRIMARY": "Bitcoin ist eine dezentralisierte digitale Währung ohne Zentralbank oder einzelnen Administrator, die ohne Zwischenhändler von Benutzer zu Benutzer im Peer-to-Peer-Bitcoin-Netzwerk gesendet werden kann.",
@@ -502,23 +505,23 @@
       },
       "CELO": {
         "PRIMARY": "Celo ist eine Proof-of-Stake-Blockchain, die volle EVM-Kompatibilität bietet.",
-        "SECONDARY": "CELO bietet Benutzern auch Zugang zu nativen und nicht nativen Stablecoins, einem ultraleichten mobilen Client und Gas, das in mehreren Währungen zahlbar ist."
+        "SECONDARY": "CELO bietet seinen Nutzern außerdem Zugang zu nativen und nicht-nativen Stablecoins, einen ultraleichten mobilen Client und Gas, das in mehreren Währungen zahlbar ist."
       },
       "LINK": {
         "PRIMARY": "Chainlink verbindet intelligente Verträge auf jeder Blockchain mit Datenanbietern, Web-APIs, Unternehmenssystemen, Cloud-Diensten, IoT-Geräten, Zahlungssystemen und anderen Blockchains.",
-        "SECONDARY": "Chainlink erweitert die Möglichkeiten von intelligenten Verträgen, indem es den Zugriff auf reale Daten, Ereignisse, Zahlungen und mehr ermöglicht, ohne die Sicherheits- und Zuverlässigkeitsgarantien der Blockchain-Technologie zu opfern."
+        "SECONDARY": "Chainlink erweitert die Möglichkeiten von Smart Contracts, indem es den Zugang zu realen Daten, Ereignissen, Zahlungen und mehr ermöglicht, ohne die der Blockchain-Technologie innewohnenden Sicherheits- und Zuverlässigkeitsgarantien zu opfern."
       },
       "COMP": {
         "PRIMARY": "Compound ist ein algorithmisches, autonomes Zinsprotokoll, das für Entwickler entwickelt wurde, um ein Universum offener Finanzanwendungen zu erschließen.",
         "SECONDARY": "Lieferanten (und Kreditnehmer) eines Vermögenswerts interagieren direkt mit dem Protokoll und verdienen (und zahlen) einen variablen Zinssatz, ohne Bedingungen wie Laufzeit, Zinssatz oder Sicherheiten mit einem Gegenüber oder einer Gegenpartei aushandeln zu müssen."
       },
       "ATOM": {
-        "PRIMARY": "Cosmos ist ein ständig wachsendes Ökosystem aus miteinander verbundenen Anwendungen und Diensten, das für eine dezentralisierte Zukunft entwickelt wurde.",
-        "SECONDARY": "Cosmos-Apps und -Dienste verbinden sich über IBC, das Inter-Blockchain-Kommunikationsprotokoll. Diese Innovation ermöglicht Ihnen den freien Austausch von Vermögenswerten und Daten über souveräne, dezentrale Blockchains hinweg."
+        "PRIMARY": "Cosmos ist ein sich ständig erweiterndes Ökosystem von miteinander verbundenen Anwendungen und Diensten, das für eine dezentralisierte Zukunft entwickelt wurde.",
+        "SECONDARY": "Cosmos-Anwendungen und -Dienste verbinden sich über IBC, das Inter-Blockchain-Kommunikationsprotokoll. Diese Innovation ermöglicht Ihnen den freien Austausch von Vermögenswerten und Daten über souveräne, dezentrale Blockchains hinweg."
       },
       "CRV": {
         "PRIMARY": "Curve ist ein Börsen-Liquiditätspool auf Ethereum (wie Uniswap), der für einen äußerst effizienten Stablecoin-Handel und risikoarme, zusätzliche Gebühreneinnahmen für Liquiditätsanbieter ohne Opportunitätskosten konzipiert ist.",
-        "SECONDARY": "Curve ermöglicht Benutzern (und intelligenten Verträgen wie 1inch, Paraswap, Totle und Dex.ag) den Handel zwischen DAI und USDC mit einem maßgeschneiderten Algorithmus mit geringem Schlupf und niedrigen Gebühren, der speziell für Stablecoins entwickelt wurde, und um Gebühren zu verdienen."
+        "SECONDARY": "Curve ermöglicht Nutzern (und Smart Contracts wie 1inch, Paraswap, Totle und Dex.ag) den Handel zwischen DAI und USDC mit einem maßgeschneiderten Algorithmus mit geringem Schlupf und niedrigen Gebühren, der speziell für Stablecoins entwickelt wurde und Gebühren verdient."
       },
       "DOGE": {
         "PRIMARY": "Dogecoin ist eine Open-Source-Peer-to-Peer-Digitalwährung.",
@@ -534,7 +537,7 @@
       },
       "ENJ": {
         "PRIMARY": "Enjin hat einfache Produkte entwickelt, die Ihnen helfen, Ihre NFTs und Kryptowährungen zu verwalten – und sich an der neuen, schnell wachsenden virtuellen Wirtschaft zu beteiligen.",
-        "SECONDARY": "ENJ wird verwendet, um digitale Vermögenswerte wie NFTs zu infundieren. Es treibt NFTs an, wenn sie sich über Spiele, Apps, Marktplätze und Wallets bewegen. Jeder geprägte Vermögenswert enthält ENJ, was ihm einen realen Wert verleiht, der jederzeit durch „Schmelzen“ abgerufen werden kann."
+        "SECONDARY": "ENJ wird verwendet, um digitale Vermögenswerte wie NFTs zu infundieren. Es unterstützt NFTs, die sich über Spiele, Apps, Marktplätze und Geldbörsen bewegen. Jeder geprägte Vermögenswert enthält ENJ, was ihm einen realen Wert verleiht, der jederzeit durch „Schmelzen“ abgerufen werden kann."
       },
       "ENS": {
         "PRIMARY": "ENS ist der am weitesten integrierte Blockchain-Benennungsstandard.",
@@ -545,11 +548,11 @@
         "SECONDARY": "Eine Open-Source-Plattform für Blockchain-Innovation und -Leistung – Unternehmen und Entwickler auf der ganzen Welt nutzen EOSIO, um sichere, transparente und deterministische digitale Infrastrukturen zu schaffen."
       },
       "ETC": {
-        "PRIMARY": "Ethereum Classic ist eine Hard Fork von Ethereum, die im Juli 2016 eingeführt wurde. Es fungiert als intelligentes Vertragsnetzwerk mit der Fähigkeit, dezentrale Anwendungen zu hosten und zu unterstützen.",
-        "SECONDARY": "ETC wurde mit dem Ziel ins Leben gerufen, ein primäres Wertversprechen von Blockchain-Smart-Vertrags-Plattformen zu bewahren: „Code ist Gesetz“. Die Hard Fork war das Ergebnis der Überzeugung, dass die Mehrheit der Blockchain-Protokolle, einschließlich Ethereum, von diesem Kernprinzip abgewichen sind."
+        "PRIMARY": "Ethereum Classic ist eine harte Abspaltung von Ethereum, die im Juli 2016 eingeführt wurde. Es fungiert als Smart-Contract-Netzwerk mit der Fähigkeit, dezentralisierte Anwendungen zu hosten und zu unterstützen.",
+        "SECONDARY": "ETC wurde mit dem Ziel ins Leben gerufen, ein primäres Wertversprechen von Blockchain-Smart-Contract-Plattformen zu bewahren: „Code ist Gesetz“. Die Hard Fork war das Ergebnis der Überzeugung, dass die Mehrheit der Blockchain-Protokolle, einschließlich Ethereum, von diesem Kernprinzip abgewichen sind."
       },
       "ETH": {
-        "PRIMARY": "Ethereum ist eine globale Open-Source-Plattform für dezentrale Anwendungen.",
+        "PRIMARY": "Ethereum ist eine globale Open-Source-Plattform für dezentralisierte Anwendungen.",
         "SECONDARY": "Ethereum ist eine dezentrale Blockchain-Plattform, die 2014 gegründet wurde. Ethereum ist ein Open-Source-Projekt, das keiner einzelnen Person gehört oder von ihr betrieben wird. Das bedeutet, dass jeder überall die Software herunterladen und mit dem Netzwerk interagieren kann. Ethereum ermöglicht es Entwicklern, „intelligente Verträge“ zu erstellen und zu betreiben, ein Kernstück der Infrastruktur für jede dezentrale Anwendung."
       },
       "FET": {
@@ -610,7 +613,7 @@
       },
       "LTC": {
         "PRIMARY": "Litecoin ist eine Peer-to-Peer-Internetwährung, die sofortige Zahlungen nahezu ohne Kosten an jeden auf der Welt ermöglicht.",
-        "SECONDARY": "Litecoin ist ein globales Open-Source-Zahlungsnetzwerk, das vollständig dezentralisiert ist. Litecoin bietet schnellere Transaktionsbestätigungszeiten und eine verbesserte Speichereffizienz als die führende mathematikbasierte Währung. Mit erheblicher Branchenunterstützung, Handelsvolumen und Liquidität ist Litecoin ein bewährtes Handelsmedium, das Bitcoin ergänzt."
+        "SECONDARY": "Litecoin ist ein globales Open-Source-Zahlungsnetzwerk, das vollständig dezentralisiert ist. Litecoin zeichnet sich durch schnellere Transaktionsbestätigungszeiten und eine bessere Speichereffizienz als die führende mathematisch basierte Währung aus. Mit erheblicher Branchenunterstützung, Handelsvolumen und Liquidität ist Litecoin ein bewährtes Handelsmedium, das Bitcoin ergänzt."
       },
       "MAGIC": {
         "PRIMARY": "MAGIC ist das Dienstprogramm-Token von Treasure, einem dezentralisierten Spiel-Ökosystem, das auf Arbitrum basiert.",
@@ -710,7 +713,7 @@
       },
       "SUSHI": {
         "PRIMARY": "SushiSwap ist eine automatisierte dezentralisierte Börse, die derzeit auf Ethereum betrieben wird.",
-        "SECONDARY": "SushiSwap ist ein von der Community betriebenes Projekt, das durch die Abstimmung seiner Token-Inhaber geregelt wird. Zu den Kernprodukten gehören Exchange, Liquidity Pools, Farmen und SushiBar Staking."
+        "SECONDARY": "SushiSwap ist ein von der Community betriebenes Projekt, das durch die Abstimmung seiner Token-Inhaber geregelt wird. Zu den Kernprodukten gehören Exchange, Liquiditätspools, Farmen und SushiBar Staking."
       },
       "SNX": {
         "PRIMARY": "Synthetix ist ein dezentralisiertes Emissionsprotokoll für synthetische Vermögenswerte, das auf Ethereum aufbaut.",
@@ -729,11 +732,11 @@
         "SECONDARY": "TRON stützt sich auf einen Delegated Proof-of-Stake (DPoS)-Mechanismus, bei dem 27 Super Representatives im 6-Stunden-Takt rotieren, um Blöcke und Transaktionen zu validieren."
       },
       "UMA": {
-        "PRIMARY": "UMA ist eine Open-Source-Infrastruktur zur Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
+        "PRIMARY": "UMA ist eine Open-Source-Infrastruktur für die Bereitstellung und Durchsetzung synthetischer Vermögenswerte auf Ethereum.",
         "SECONDARY": "UMA baut eine Open-Source-Infrastruktur für „von unschätzbarem Wert“ Finanzverträge auf Ethereum in Form von zwei Technologien auf: unbezahlbare Finanzvertragsvorlagen, die zur Erstellung synthetischer Token verwendet werden, und einen dezentralisierten Orakeldienst, der zur Verwaltung und Durchsetzung von Verträgen auf UMA verwendet wird."
       },
       "UNI": {
-        "PRIMARY": "Uniswap ist ein dezentralisiertes Protokoll für die automatisierte Bereitstellung von Liquidität auf Ethereum.",
+        "PRIMARY": "Uniswap ist ein dezentrales Protokoll für die automatisierte Bereitstellung von Liquidität auf Ethereum.",
         "SECONDARY": "Uniswap ist ein Protokoll zum Austausch von ERC-20-Token auf Ethereum. Es eliminiert vertrauenswürdige Vermittler und unnötige Formen der Mietabschöpfung und ermöglicht einen schnellen und effizienten Handel."
       },
       "WOO": {
@@ -853,7 +856,7 @@
       "COPY_ADDRESS": "Adresse kopieren",
       "DISCONNECT": "Trennen",
       "DOCUMENTATION": "Dokumentation",
-      "EXCHANGE_METRICS": "Metriken",
+      "EXCHANGE_METRICS": "Messgrößen",
       "EXCHANGE_STATUS": "Status",
       "FEEDBACK": "Feedback",
       "GASLESS_DEPOSIT_RULES": "Gasfreie Einlagen",
@@ -956,11 +959,11 @@
       "JOIN_ME": "Begleiten Sie mich auf dYdX, um einen {DISCOUNT}auf alle Trading-Kosten zu erhalten!",
       "KEEP_WINDOW_OPEN": "Bitte lassen Sie dieses Fenster geöffnet, um sicherzustellen, dass die Gelder ankommen.",
       "LEDGER_DERIVATION_PATH": "Pfad",
-      "LEGACY_SIGNING": "Legacy Signing",
+      "LEGACY_SIGNING": "Unterzeichnung des Vermächtnisses",
       "LINK_WALLET": "Wallet verbinden",
       "LINKING_WALLET": "Wallet verknüpfen",
       "MINIMUM_DEPOSIT": "Mindesteinzahlung beträgt {MIN_DEPOSIT_USDC}",
-      "MISSING_KEYS_DESCRIPTION": "Willkommen zurück! Mindestens einer Ihrer Schlüssel muss wiederhergestellt werden",
+      "MISSING_KEYS_DESCRIPTION": "Willkommen zurück! Einer oder mehrere Ihrer Schlüssel müssen wiederhergestellt werden",
       "NEED_A_WALLET": "Brauchen Sie eine Wallet?",
       "NOBLE_ADDRESS": "Noble Adresse",
       "NOBLE_SWEEP": "Die Gelder werden an Ihre dYdX-Adresse überwiesen",
@@ -969,7 +972,7 @@
       "NO_FUTURE_ACCESS": "Sie werden in Zukunft nicht auf diese Website zugreifen oder auf dYdX handeln, während Sie sich in den Vereinigten Staaten oder an einem eingeschränkten Ort befinden.",
       "NO_VPN_USE": "Sie verwenden kein VPN und werden es auch in Zukunft nicht verwenden, um Ihren physischen Standort vor einem eingeschränkten Standort zu verbergen.",
       "NOT_A_RESIDENT": "Sie sind keine Person oder Gesellschaft, die in den Vereinigten Staaten oder an einem eingeschränkten Ort ansässig ist oder sich dort befindet, eingetragen ist oder einen eingetragenen Vertreter hat.",
-      "NOT_SUPPORTED_DESCRIPTION": "Ihr Wallet unterstützt nicht den neuesten Signaturstandard (häufiges Problem bei Hardware-Wallets). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
+      "NOT_SUPPORTED_DESCRIPTION": "Ihre Brieftasche unterstützt nicht den neuesten Signierstandard (ein häufiges Problem bei Hardware-Brieftaschen). Probieren Sie eine ältere Signiermethode mit der Schaltfläche unten aus.",
       "NOT_SUPPORTED": "Nicht unterstützt",
       "ONBOARDING": "Onboarding",
       "MINIMUM_AMOUNT_RECEIVED": "Erhaltener Mindestbetrag",
@@ -982,9 +985,9 @@
       "RECOVER_KEYS": "Wiederherstellen der Schlüssel",
       "REFERRAL_DISCOUNT": "{DISCOUNT} Ermäßigung",
       "REGISTER": "Registrieren",
-      "REMEMBER_ME": "Automatische Anmeldung",
+      "REMEMBER_ME": "Erinnern Sie sich an mich",
       "SEARCHING_FOR_LEDGER_DESCRIPTION": "Stellen Sie sicher, dass Ihr Hauptbuch bei geöffneter Ethereum-App entsperrt ist",
-      "SEARCHING_FOR_LEDGER": "Ledger suchen ....",
+      "SEARCHING_FOR_LEDGER": "Auf der Suche nach Ledger...",
       "SEND_LINK": "Link senden",
       "SELECT_A_LANGUAGE": "Wählen Sie eine Sprache",
       "SELECT_ACCOUNT_DESCRIPTION": "Wählen Sie das Konto aus, das mit dYdX verwendet werden soll",
@@ -1017,9 +1020,9 @@
       "TRANSFEROUT_ALERT_SUBTITLE": "Status prüfen",
       "TRANSFERS_PAUSED": "Transfers vorübergehend pausiert",
       "TRY_AGAIN": "Versuchen Sie es noch einmal",
-      "TWO_SIGNATURE_REQUESTS": "Sie erhalten zwei Unterschriftsanfragen. Die Signierung ist kostenlos und nicht mit einer Transkation verbunden.",
+      "TWO_SIGNATURE_REQUESTS": "Sie erhalten zwei Signaturanfragen. Die Unterzeichnung ist kostenlos und führt nicht zu einer Transaktion.",
       "UNDERSTAND_RISKS": "Sie verstehen die Risiken, die mit dem Abschluss unbefristeter Verträge und der Nutzung von Hebelwirkung verbunden sind.",
-      "VALUE_PROP_ADVANCED_DESC": "Handeln Sie mit Hebelwirkung und verwalten Sie Risiken mit fortschrittlichen Tools",
+      "VALUE_PROP_ADVANCED_DESC": "Handel mit Hebelwirkung und Risikomanagement mit fortschrittlichen Tools",
       "VALUE_PROP_ADVANCED": "Fortgeschritten",
       "VALUE_PROP_LIQUID_DESC": "Weltklasse-Liquidität bei den beliebtesten Paaren",
       "VALUE_PROP_LIQUID": "Liquidität",
@@ -1050,9 +1053,9 @@
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Melden Sie sich auf dem Handy an",
-      "TITLE_SCAN_FROM_APP": "Von der App scannen",
+      "TITLE_SCAN_FROM_APP": "Scannen aus der App",
       "TITLE_CONNECTED": "Verbunden",
-      "TITLE_FAILED_TO_CONNECT": "Verbindung nicht möglich",
+      "TITLE_FAILED_TO_CONNECT": "Verbindung fehlgeschlagen",
       "DESCRIPTION_ABOUT_TO_TRANSFER": "Sie sind dabei, Ihre Schlüssel per QR-Code auf die mobile App zu übertragen.",
       "DESCRIPTION_NEVER_SHARE": "Teilen Sie diesen Code niemals mit jemandem. dYdX wird Sie niemals danach fragen.",
       "WAIT_SECONDS": "Warten Sie {SECONDS} Sekunden...",
@@ -1121,7 +1124,7 @@
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "Sie können {NUM_DEPOSITS}gasfreie Einzahlung vornehmen.",
       "GASLESS_DEPOSITS_RESET": "Ihr Gasless-Einzahlungslimit wird alle drei Tage zurückgesetzt.",
       "GASLESS_DEPOSITS_SUBJECT_TO_RULES": "Gasfreie Einzahlungen unterliegen diesen Regeln",
-      "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gasless-Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!",
+      "GASLESS_DEPOSITS_TEMPORARILY_DISABLED": "Gaslose Einlagen sind vorübergehend nicht verfügbar. Keine Sorge, sie sind bald wieder da!",
       "GASLESS_ETH_DEPOSITS": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf {1INCH_WETH_LINK} oder {UNISWAP_WETH_LINK} in WETH umwandeln und gasfreie WETH-Einzahlungen verwenden oder ETH direkt einzahlen, indem Sie Ihre eigenen Gas-Kosten bezahlen.",
       "HELD": "gehalten",
       "LOWEST_FEE_DEPOSITS": "USDC-Einzahlungen von {LOWEST_FEE_TOKENS_TOOLTIP} haben die niedrigsten Gebühren. Andere Einzahlungen können zusätzliche Gebühren von Drittanbietern enthalten.",
@@ -1145,7 +1148,7 @@
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Aktivieren Sie Ihre Abhebung",
-      "ENABLE_WITHDRAW_BODY": "Sie müssen langsame Auszahlungen aktivieren, um fortzufahren. Sie können jederzeit schnelle Auszahlungen verwenden.",
+      "ENABLE_WITHDRAW_BODY": "Sie müssen langsame Abhebungen zulassen, um fortfahren zu können. Sie können jederzeit Schnellabhebungen vornehmen.",
       "ENABLE_WITHDRAW_TITLE": "Aktivieren Sie langsame Auszahlungen",
       "EXPECTED_AMOUNT_RECEIVED": "Erwarteter erhaltener Betrag",
       "FAST": "Schnell",
@@ -1250,32 +1253,32 @@
       "MAGIC_EXPORT_PRIVATE_KEY_DESCRIPTION": "Um Magic Wallet außerhalb von dYdX zu verwenden, müssen Sie Ihr Wallet zu einem anderen Wallet-Anbieter exportieren.",
       "POP_UP_NOTIFICATIONS": "Pop-up-Benachrichtigungen",
       "PREFERENCES": "Einstellungen",
-      "ORDERBOOK_ANIMATIONS": "Orderbook-Animationen",
+      "ORDERBOOK_ANIMATIONS": "Orderbuch Animationen",
       "PROFILE_SHARE_USERNAME": "Meinen Benutzernamen anzeigen",
-      "PROFILE_SHARE_ADDRESS": "Meine Wallet-Adresse anzeigen",
+      "PROFILE_SHARE_ADDRESS": "Meine Brieftaschenadresse anzeigen",
       "SAVE_ORDER_AMOUNT": "Orderbetrag speichern",
       "TAKE_PROFIT_STOP_LOSS": "Take-Profit \/ Stop-Loss"
     },
     "MORE_LINKS_MODAL": {
       "DOCUMENTATION_DESCRIPTION": "Traden Sie mit unserer API",
-      "COMMUNITY_DESCRIPTION": "Chatten Sie mit anderen Tradern",
+      "COMMUNITY_DESCRIPTION": "Chatten Sie mit anderen Händlern",
       "TERMS_OF_USE_DESCRIPTION": "Regeln für die Nutzung der Plattform",
       "PRIVACY_POLICY_DESCRIPTION": "Unsere Datenrichtlinien",
       "LEGAL_DESCRIPTION": "Unsere Rechtsdokumente und Bedingungen",
-      "GASLESS_DEPOSIT_RULES_DESCRIPTION": "Regeln für die Promo von Gasless-Einlagen",
-      "COMPETITION_TERMS_DESCRIPTION": "Bedingungen der Trading-Competitions",
+      "GASLESS_DEPOSIT_RULES_DESCRIPTION": "Promo-Regeln für gaslose Einlagen",
+      "COMPETITION_TERMS_DESCRIPTION": "Handel mit Wettbewerbsbedingungen",
       "LEAGUE_RULES_DESCRIPTION": "Regeln der Handelsliga",
       "EXCHANGE_METRICS_DESCRIPTION": "Schlüsseldaten und Diagramme",
-      "EXCHANGE_STATUS_DESCRIPTION": "Ausfälle und Handels-Wartung"
+      "EXCHANGE_STATUS_DESCRIPTION": "Ausfälle und Wartung der Börse"
     },
     "HELP_MODAL": {
       "API_DOCUMENTATION_DESCRIPTION": "Handeln Sie programmatisch mit unserer API",
       "HELP_CENTER_DESCRIPTION": "Entdecken Sie Tutorials und Hilfsartikel",
-      "JOIN_DISCORD": "Am Discord teilnehmen",
+      "JOIN_DISCORD": "Discord beitreten",
       "JOIN_DISCORD_DESCRIPTION": "Chatten Sie mit unserer Trader-Community",
       "LIVE_CHAT": "Live-Chat",
       "LIVE_CHAT_DESCRIPTION": "Holen Sie sich Live-Support und Hilfe",
-      "PROVIDE_FEEDBACK": "Geben Sie uns Ihr Feedback",
+      "PROVIDE_FEEDBACK": "Feedback geben",
       "PROVIDE_FEEDBACK_DESCRIPTION": "Produkt-Feedback und Anfragen"
     },
     "TRIGGERS_MODAL": {
@@ -1316,11 +1319,11 @@
       "EARN_DYDX_FOR_TRADING": "Verdienen Sie DYDX für den Handel",
       "EPOCH_NUMBER": "Epoche {EPOCH_NUMBER}",
       "ESTIMATED_FOR_THIS_EPOCH": "geschätzt für diese Epoche",
-      "ESTIMATED_REWARDS": "Geschätzte Prämien",
+      "ESTIMATED_REWARDS": "Geschätzte Belohnungen",
       "ESTIMATED_UNLOCKED_REWARDS": "Geschätzte freigeschaltete Prämien",
       "EXCHANGE_MARKET_SHARE": "Börsenmarktanteil",
       "EXPORT": "Export",
-      "FEE_DISCOUNT": "Gebührenermäßigung",
+      "FEE_DISCOUNT": "Gebührenrabatt",
       "FEE_STRUCTURE": "Gebührenstruktur",
       "FOR_V4": "für v4",
       "FREE_TRADING_TITLE": "Traden Sie kostenlos",
@@ -1338,8 +1341,8 @@
       "HAVE_YOU_EXPORTED_DESCRIPTION": "Um auf dYdX Chain abzustimmen oder zu staken, müssen Benutzer eine Cosmos-native Wallet verwenden.",
       "HOLDING": "Holding {NUMBER}",
       "IN_THIS_EPOCH": "in dieser Epoche",
-      "LAUNCH_INCENTIVES_TITLE": "Launch Incentives {FOR_V4}",
-      "LAUNCH_INCENTIVES_DESCRIPTION": "Verdiene in jeder Saison Trading-Prämien, indem du am Marktgeschehen teilnimmst. Vergleiche deine Leistung mit anderen Tradern, indem du dir das Leaderboard ansiehst.",
+      "LAUNCH_INCENTIVES_TITLE": "Start-Incentives {FOR_V4}",
+      "LAUNCH_INCENTIVES_DESCRIPTION": "Verdienen Sie jede Saison Trading-Prämien. indem du am Marktgeschehen teilnimmst. Vergleiche deine Leistung mit anderen Tradern, indem du dir das Leaderboard ansiehst.",
       "LAUNCH_INCENTIVES_SEASON_BEGINS_SOON": "Die Saison {SEASON_NUMBER}beginnt bald!",
       "LAUNCH_INCENTIVES_SEASON_NUM": "Saison {SEASON_NUMBER}",
       "LAUNCH_INCENTIVES_SEASON_REWARDS": "Saison {SEASON_NUMBER} Belohnungen",
@@ -1382,17 +1385,17 @@
       "TRADES_DESCRIPTION": "Alle gebührenerzeugenden Handelsaktivitäten",
       "TRADES_LABEL": "in den letzten 24h ausgeführt",
       "TRADING_COMPETITION": "Trading-Wettbewerb",
-      "TRADING_DATA_DESCRIPTION": "Daten, die zur Berechnung der Handelsprämien von DYDX verwendet werden. Handelsprämien werden von der dYdX Foundation bereitgestellt.",
+      "TRADING_DATA_DESCRIPTION": "Daten, die zur Berechnung der Trading Rewards von DYDX verwendet werden. Handelsprämien werden von der dYdX Foundation bereitgestellt.",
       "TRADING_DATA": "Daten zu Handelsprämien",
       "TRADING_FORMULA_DESCRIPTION": "Die {TRADING_FORMULA}bestimmt die DYDX-Rewards, die in jeder Epoche aus den jeweiligen Smart {FOUNDATION_LINK}Contracts für Sie verfügbar sind.",
       "TRADING_FORMULA_UPDATE_DESCRIPTION": "Das Abstecken von DYDX erhöht jetzt die durch den Handel verdienten Token-Belohnungen.",
       "TRADING_FORMULA_UPDATE": "Aktualisierung der Handelsprämien",
-      "TRADING_FORMULA": "Handelsprämienformel",
+      "TRADING_FORMULA": "Formel für Handelsbelohnungen",
       "TRADING_LEAGUES": "Ligen handeln",
       "TRADING_LEAGUES_DESCRIPTION": "Handelsligen sind jetzt live! Steigen Sie in der Rangliste auf und verdienen Sie sich Ihren Anteil am {PRIZE}.",
       "TRADING_LEAGUES_PRIZE": "$100K wöchentlicher Preispool",
       "TRADING_VOLUME_LABEL": "in den letzten 24h ausgetauscht",
-      "TRADING_VOLUME": "Handelsvolumen",
+      "TRADING_VOLUME": "Tradingvolumen",
       "TRAILING_VOLUME": "Trailing Volume",
       "TRANSACTION": "Transaktion",
       "TRANSFERS_DESCRIPTION": "Bewegungen in und aus Ihrem Konto",
@@ -1462,7 +1465,7 @@
       "CURRENT_FUNDING_RATE": "Aktueller Finanzierungssatz",
       "CURRENT_RATE_1H": "Aktuelle 1h Rate",
       "CURRENT_RATE_8H": "Aktuelle 8h Rate",
-      "CURRENTLY_TRADING_GOERLI": "Sie handeln auf unserer Goerli Testnet App mit Testfonds. Erstellen Sie ein Konto in unserer Mainnet-App, um mit echtem Geld zu handeln",
+      "CURRENTLY_TRADING_GOERLI": "Sie handeln auf unserer Goerli Testnet App mit Testgeldern. Erstellen Sie ein Konto in unserer Mainnet-App, um mit echtem Geld zu handeln",
       "CURRENTLY_TRADING_ROPSTEN": "Sie handeln auf unserer Ropsten Testnet-App mit Testgeldern. Erstellen Sie ein Konto in unserer Mainnet-App, um mit echtem Geld zu handeln",
       "DELEVERAGED": "Entschuldet",
       "EDIT_MARGIN": "Marge bearbeiten",
@@ -1481,7 +1484,7 @@
       "EXPECTED_PRICE": "Preisvorstellung",
       "EXPIRED": "Abgelaufen",
       "FAILED": "Fehlgeschlagen",
-      "FEE_AMOUNT": "Gebührenbetrag",
+      "FEE_AMOUNT": "Gebühr Betrag",
       "FEE_PERCENT": "Gebühr in Prozent",
       "FEE": "Gebühr",
       "FILL_OR_KILL": "Fill or Kill",
@@ -1502,7 +1505,7 @@
       "GOOD_TIL": "Good Til",
       "HISTORICAL_FUNDING_RATE": "Historischer Finanzierungssatz",
       "IMMEDIATE_OR_CANCEL": "Sofortausführung oder Stornierung",
-      "IMMEDIATE_OR_CANCEL_PARTIALLY_FILLED": "Sofort oder teilweise ausgeführtes Stornieren",
+      "IMMEDIATE_OR_CANCEL_PARTIALLY_FILLED": "Sofort oder teilweise gefüllt stornieren",
       "INCREMENTAL_INITIAL_MARGIN_FRACTION": "Inkrementell anfänglicher Margin-Anteil",
       "INCREMENTAL_POSITION_SIZE": "Inkrementelle Positionsgröße",
       "INDEX_PRICE_ABBREVIATED": "Oracle",
@@ -1521,11 +1524,11 @@
       "LIQUIDITY": "Liquidität",
       "MAKER_FEE": "Maker-Gebühr",
       "MAKER": "Maker",
-      "MANAGE_YOUR_RISK_STOP": "Verwalten Sie Ihr Risiko mit einer Stop-Order",
+      "MANAGE_YOUR_RISK_STOP": "Beherrschen Sie Ihr Risiko mit einer Stop-Order",
       "MARKET_BUY": "Markt kaufen",
       "MARKET_ORDER_DESCRIPTION": "Der einfachste Weg, {SYMBOL}zum Marktpreis zu kaufen oder zu verkaufen.",
       "MARKET_ORDER_SHORT": "Markt",
-      "MARKET_ORDER": "Markt-Order",
+      "MARKET_ORDER": "Marktauftrag",
       "MARKET_PRICE_SHORT": "Markt",
       "MARKET_PROFIT": "Take Profit Market",
       "MARKET_SELL": "Markt verkaufen",
@@ -1665,14 +1668,14 @@
       "TOTAL_COST": "Gesamtkosten",
       "TOTAL_SIZE": "Gesamtgröße",
       "TOTAL": "Total",
-      "TRADES_24H": "24-Stunden-Handel",
+      "TRADES_24H": "24h-Gewerbe",
       "TRADES_EMPTY_STATE": "Sie haben keine Handelshistorie.",
       "TRADES": "Trades",
       "TRAIL": "Trail",
       "TRAILING_PERCENT": "Trailing Prozent",
       "TRAILING_STOP_DESCRIPTION": "Setzen Sie einen Trailing-Stop, um den Prozentsatz, den Sie verlieren können, auf Ihren angegebenen Trailing-Prozentsatz zu begrenzen.",
       "TRAILING_STOP": "Nachlaufender Prozentsatz",
-      "TRANSFERS_EMPTY_STATE": "Wallet verbinden und erste Überweisung durchführen",
+      "TRANSFERS_EMPTY_STATE": "Sie haben keinen Transferverlauf.",
       "TRIGGER_PRICE_SHORT": "Trigger",
       "TRIGGER_PRICE": "Trigger-Preis",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "Die zugehörige Position der Trigger-Order wurde geschlossen oder gespickt.",
@@ -1705,7 +1708,7 @@
       "DAILY_SUBHEADER": "Holen Sie sich noch heute die Top-P&L, um einen Hedgie zu gewinnen",
       "DEMOTION": "Zurückstufung",
       "DIAMOND": "Diamant",
-      "EARN_AVATAR": "Verdienen Sie sich einen einzigartigen Avatar, indem Sie wettbewerbsfähig handeln",
+      "EARN_AVATAR": "Verdienen Sie sich einen einzigartigen Avatar, indem Sie wettbewerbsorientiert handeln",
       "EMPTY_LADDER_STATE": "Demnächst!",
       "GIVEN_TO": "Verschenkt an den Händler mit dem höchsten relativen P&L",
       "GOLD": "Gold",
@@ -1724,12 +1727,12 @@
       "LEGENDS_DEG_SUBHEADER": "Universitätsstudenten konkurrieren um Preise und Angeberrechte.",
       "LEGENDS_SUBHEADER": "Krypto-Influencer konkurrieren um Geldpreise und Prahlereirechte.",
       "LEGENDS_EDUDAO_TESTNET_ONLY": "Der EduDAO-Handelswettbewerb ist nur auf Testnet verfügbar.",
-      "LEGENDS_EDUDAO_VIEW_LEADERBOARD": "Bestenliste anzeigen",
+      "LEGENDS_EDUDAO_VIEW_LEADERBOARD": "Bestenliste ansehen",
       "MIN_BALANCE": "Min. Guthaben",
       "MIN_EQUITY": "Min. Eigenkapital",
       "NO_CHANGE": "Keine Änderung",
       "NO_WINNER": "Noch kein Gewinner",
-      "NOT_ELIGIBLE": "Nicht für eine Hedgie berechtigt",
+      "NOT_ELIGIBLE": "Nicht förderfähig für eine Hedgie",
       "ON_TRACK": "Auf Kurs für",
       "PERIOD_LEAGUES": "{PERIOD} Liga",
       "PAST_HEDGIES": "Vergangene Hedgies",
@@ -1758,7 +1761,7 @@
       "TOP": "Top {PERCENT}%",
       "VIEWING_LEAGUE": "Ansicht: {LEAGUE}",
       "WILL_ARRIVE": "wird in Kürze in Ihrem dYdX-Konto eintreffen.",
-      "WILL_ARRIVE_SHORTLY": "Es wird in Kürze eintreffen und Ihrem aktuellen dYdX-Guthaben hinzugefügt.",
+      "WILL_ARRIVE_SHORTLY": "Es wird in Kürze eintreffen und Ihrem aktuellen dYdX-Guthaben gutgeschrieben werden.",
       "WILL_COST_GAS": "Für die Geltendmachung fallen Gasgebühren an.",
       "YOU_WON": "Sie haben gewonnen!",
       "YOUR_LEAGUE": "Ihre Liga",
@@ -1868,7 +1871,7 @@
       "LEGAL_UPDATES": "Rechtliche Aktualisierungen",
       "LEGAL_UPDATES_DESCRIPTION": "Sehen Sie sich bitte unsere aktualisierten {TOU} und {PRIVACY_POLICY}an.",
       "MAGIC_OAUTH_REDIRECT_FAILED": "Die Anmeldung ist fehlgeschlagen",
-      "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Während Ihrer Anmeldung bei Magic ist ein Fehler aufgetreten. Bitte versuchen Sie es noch einmal.",
+      "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Bei Ihrer Anmeldung bei Magic ist ein Fehler aufgetreten. Bitte versuchen Sie es noch einmal.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "Maintenance-Margin-Anforderungen {ACTION} bei {PERCENT}%.",
       "NOTIFICATIONS_EMPTY_STATE": "Sie haben keine Benachrichtigungen.",
       "ORDERBOOK_LAGGING": "Verzögerung des Orderbuchs",
@@ -1946,7 +1949,7 @@
     "FORCE_WITHDRAW": {
       "ALERT_FORCE_WITHDRAW_REQUESTED": "Erzwungener Rücktritt angefordert.",
       "ALERT_FUNDS_WITHDRAWN": "Gelder erfolgreich abgebucht.",
-      "AUTHENTICATE": "Authentifizieren",
+      "AUTHENTICATE": "Authentifizieren Sie",
       "DESCRIPTION_WAIT": "Ihr Geld wird mittels Auszahlung verfügbar sein, sobald der nächste Ebenen-2-Block abgebaut ist. Dies kann bis zu 12 Stunden dauern.",
       "FORCE_WITHDRAW": "Zwangsabhebung",
       "REQUEST_FORCE_WITHDRAW": "Antrag auf Widerruf",
@@ -2224,7 +2227,7 @@
       "DEPOSIT_PROMO_STEP_2_LIVENESS_ELIGIBLE": "Sie sind für den Bonus berechtigt!",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_NOT_ELIGIBLE": "Sie sind nicht für den Bonus berechtigt.",
       "DEPOSIT_PROMO_STEP_2_LIVENESS_PENDING": "Sie haben einen Lebenderkennungs-Check eingereicht. Schauen Sie nach einer Weile noch einmal nach, ob Ihr Konto nur berechtigt ist.",
-      "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "Führen Sie einen Lebenderkennungs-Check durch",
+      "DEPOSIT_PROMO_STEP_2_TITLE_LIVENESS_CHECK": "Durchführen einer Aktivitätsprüfung",
       "DEPOSIT_PROMO_STEP_2_VERIFY_LIVENESS": "Verifizieren Sie sich durch Lebenderkennung",
       "DEPOSIT_PROMO_STEP_3_BONUS_RECEIVED": "Ihr {PROMO_BONUS_AMOUNT}Bonus von ist eingegangen.",
       "DEPOSIT_PROMO_STEP_3_DESCRIPTION": "Ihr Konto wird akredditiert, sobald die oben genannten Schritte verifiziert sind.",
@@ -2250,7 +2253,7 @@
       "NETWORK_FEE_ETH_INFO": "Sie müssen mindestens {ETH_AMOUNT} in Ihrem Wallet haben, um die Netzwerkgebühr zu decken.",
       "NETWORK_FEE_INFO": "Sie müssen {ETH_AMOUNT} in Ihrem Wallet haben, um die Netzwerkgebühr zu decken.",
       "SEND_TO_WALLET": "Einzahlung in das Wallet",
-      "SEND_FUNDS": "Einzahlung von Krypto hinterlegen",
+      "SEND_FUNDS": "Krypto einzahlen",
       "SEND_FUNDS_MODAL_TITLE": "Überweisung und Einzahlung",
       "SEND_FUNDS_MODAL_SUBTITLE": "Einzahlung von Krypto in Ihr Wallet und auf Ihr Handelskonto",
       "SEND_FUNDS_SUBTITLE": "Senden Sie Geld an diese Wallet-Adresse und zahlen Sie es auf Ihr Handelskonto ein.",
@@ -2279,7 +2282,7 @@
       "TAP_TO_REVEAL": "Tippen Sie, um es anzuzeigen"
     },
     "EQUITY_TIERS": {
-      "EQUITY_TIERS": "Eigenkapitalstufen",
+      "EQUITY_TIERS": "Aktienstufen",
       "NET_COLLATERAL": "Nettosicherheiten",
       "LONG_TERM_OR_CONDITIONAL_ORDERS": "Langfristige oder bedingte Orders",
       "EQUITY_TIERS_DESCRIPTION": "Begrenzung der zulässigen Anzahl offener Orders eines Unterkontos",
@@ -2298,7 +2301,7 @@
       "DISPLAY_SETTINGS": "Anzeigeeinstellungen",
       "DARK": "Dunkel",
       "CLASSIC_DARK": "Classic Dark",
-      "LIGHT": "Licht",
+      "LIGHT": "Hell",
       "SYSTEM": "System",
       "GREEN_IS_UP": "Grün ist oben",
       "RED_IS_UP": "Rot ist oben",
@@ -2323,10 +2326,10 @@
       "ADD_FUNDS_AND_LAUNCH": "Geld hinzufügen & starten",
       "ADD_MARKET_STEP_1_TITLE": "Markt auswählen",
       "ADD_MARKET_STEP_2_TITLE": "Details bestätigen",
-      "ADD_MARKET_STEP_3_TITLE": "Neuen Markt hinzufügen",
-      "ADD_MARKET_STEP_1_DESCRIPTION": "Suche dir die Märkte aus, die gelistet werden sollen. Dafür steht dir eine vorgefertigte Liste zur Verfügung, die auf Tiefe und Volumen an beliebten, zentral gehandelten Börsen basiert. Diese Liste spiegelt jedoch keine Billigung solcher Märkte wider. Weitere Informationen zur Methodik finden Sie {HERE}.",
-      "ADD_MARKET_STEP_2_DESCRIPTION": "Sobald ein Markt ausgewählt ist, werden alle Parameter automatisch gefüllt.",
-      "ADD_MARKET_STEP_3_DESCRIPTION": "Im letzten Schritt muss eine Transaktion gesendet werden, um einen Vorschlag für das Hinzufügen eines neuen Marktes zu erstellen. Dafür benötigst du ein Guthaben von mindestens {REQUIRED_NUM_TOKENS}{NATIVE_TOKEN_DENOM}.",
+      "ADD_MARKET_STEP_3_TITLE": "Neuen Markt vorschlagen",
+      "ADD_MARKET_STEP_1_DESCRIPTION": "Suchen Sie oder wählen Sie aus einer Liste von Märkten, die Sie hinzufügen möchten. Dafür steht dir eine vorgefertigte Liste zur Verfügung, die auf Tiefe und Volumen an beliebten, zentral gehandelten Börsen basiert. Diese Liste spiegelt jedoch keine Billigung solcher Märkte wider. Weitere Informationen zur Methodik finden Sie {HERE}.",
+      "ADD_MARKET_STEP_2_DESCRIPTION": "Sobald ein Markt ausgewählt ist, werden alle seine Parameter automatisch gefüllt.",
+      "ADD_MARKET_STEP_3_DESCRIPTION": "Senden Sie eine Transaktion, die einen Vorschlag für das Hinzufügen des neuen Marktes erstellt. Dafür benötigst du ein Guthaben von mindestens {REQUIRED_NUM_TOKENS}{NATIVE_TOKEN_DENOM}.",
       "ADD_NEW_MARKET_DETAILS": "Fügen Sie ein neues Asset zu dYdX Chain über einen Governance-Vorschlag hinzu. Erfordert {AMOUNT} unstaked DYDX.",
       "AVAILABLE_TO_TRADE_POST_LAUNCH": "Sobald Sie starten {MARKET}, wird es für den Handel verfügbar sein.",
       "BEGIN_LAUNCH": "Start",
@@ -2352,9 +2355,9 @@
       "LEARN_MORE_MARKET_LAUNCH": "Weitere Informationen über die Markteinführung",
       "LIQUIDITY_TIER": "Liquiditätsstufe",
       "LIQUIDITY_TIER_IS": "Die Liquiditätsstufe ist {TIER}",
-      "LIST_A_NEW_MARKET": "Neuen Markt hinzufügen",
+      "LIST_A_NEW_MARKET": "Neuen Markt vorschlagen",
       "LIST_ANY_MARKET": "Listen Sie jeden Markt mit nur einem Klick auf. Hunderte verfügbar, weitere sind unterwegs",
-      "LISTINGS_DESCRIPTION": "Als engagiertes Mitglied der dYdX-Community kannst du aktiv zur Weiterentwicklung der dYdX Chain beitragen, indem du einen Governance-Vorschlag einreichst. Mit diesen drei einfachen Schritten kannst du einen neuen Markt auf dYdX listen und handeln lassen.",
+      "LISTINGS_DESCRIPTION": "Angebote auf dYdX sind vollständig von der Community gesteuert. Dieses Tool hilft Ihnen dabei, einen Governance-Vorschlag einzureichen, um einen neuen Markt zu listen.",
       "LOCKUP_PERIOD": "Sperrzeitraum",
       "MARKET_LAUNCH_DETAILS": "Wählen Sie den Markt aus, den Sie starten möchten, und fügen Sie ihn zu {DEPOSIT_AMOUNT}MegaVault hinzu. Ihre Gelder verdienen einen geschätzten {APR_PERCENTAGE} APR (basierend auf den letzten {PAST_DAYS} Tagen).",
       "MARKET_LAUNCH_DETAILS_2": "Starten Sie sofort einen neuen Markt auf der dYdX Chain, indem Sie {DEPOSIT_AMOUNT}zu {MEGAVAULT_LINK} hinzufügen. Hinzugefügte Gelder haben einen geschätzten {APR_PERCENTAGE} APR verdient (basierend auf den letzten{PAST_DAYS} Tagen).",
@@ -2380,7 +2383,7 @@
       "PROPOSAL_DISCLAIMER": "Wenn Sie einen Vorschlag einreichen, {NUM_TOKENS_REQUIRED}{NATIVE_TOKEN_DENOM}wird dieser von Ihrer Wallet abgezogen. Nach Abschluss der Governance-Abstimmung werden diese Token an Ihr Wallet zurückgegeben, es sei denn, der Vorschlag wird mit einem Veto abgeschlossen.",
       "PROPOSAL_DISCLAIMER_1": "Die Einreichung eines Vorschlags erfordert eine {NUM_TOKENS_REQUIRED} ungesicherte {NATIVE_TOKEN_DENOM}. Ihr {NATIVE_TOKEN_DENOM} wird für die Dauer des Vorschlags gesperrt. Klicken Sie {HERE}für weitere Details.",
       "PROPOSAL_SUBMISSION_SUCCESSFUL": "Ihr Vorschlag wurde erfolgreich onchain übermittelt.",
-      "PROPOSE_NEW_MARKET": "Neuen Markt hinzufügen",
+      "PROPOSE_NEW_MARKET": "Neuen Markt vorschlagen",
       "READY_FOR_LAUNCH": "Bereit zum Start",
       "REFERENCE_PRICE": "Referenzpreis",
       "REQUIRED_AMOUNT_TO_ADD": "Zum Hinzufügen erforderlicher Betrag",
@@ -2390,7 +2393,7 @@
       "SHOW_STEPS": "Schritte anzeigen",
       "STEPS_TO_CREATE": "Schritte zur Schaffung eines neuen Marktes",
       "SUBMITTED_PROPOSAL": "Eingereichter Vorschlag!",
-      "SUGGEST_NEW_MARKET": "Neuen Markt hinzufügen",
+      "SUGGEST_NEW_MARKET": "Neuen Markt vorschlagen",
       "TIME_UNTIL_LIVE": "Zeit bis zur Live-Schaltung",
       "TRADE_INSTANTLY": "Sofortiger Handel",
       "VIEW_PROPOSAL": "Vorschlag anzeigen"
