@@ -218,7 +218,7 @@
     },
     "POST_ONLY": {
       "TITLE": "Ordem Somente publicar",
-      "BODY": "As ordens com a opção Somente publicar habilitada podem ser feitas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
+      "BODY": "Ordens com a opção post-only podem ser colocadas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
       "TITLE": "Ordem Somente publicar",
@@ -230,11 +230,11 @@
     },
     "REALIZED_PNL": {
       "TITLE": "Lucro\/perda realizados",
-      "BODY": "Lucros\/perdas totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
+      "BODY": "Lucros\/perdas totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short e vice-versa)."
     },
     "REDUCE_ONLY": {
-      "TITLE": "Somente reduzir",
-      "BODY": "A opção Apenas redução impede que uma ordem altere o lado de sua posição (long para short, ou short para long). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
+      "TITLE": "Apenas reduzir",
+      "BODY": "A opção apenas reduzir impede que uma ordem altere o tipo de sua posição (long para short e vice-versa). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Somente reduzir",
@@ -270,7 +270,7 @@
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de taker",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) executam como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take profit",
@@ -315,7 +315,7 @@
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Não disponível",
-      "BODY": "Depósitos sem \"gas\" estão temporariamente indisponíveis. Eles voltarão em breve!"
+      "BODY": "Depósitos sem tarifas estão temporariamente indisponíveis. Eles voltarão em breve!"
     },
     "GAS_FEES_DEPOSIT": {
       "TITLE": "Taxas de “gas”",
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
-      "BODY": "Este é o custo de “gas” das transações de depósito e de definição de permissão, pago a mineradores da Ethereum. Você só precisa definir a permissão uma vez por ativo que você depositar."
+      "BODY": "Este é o custo de gás das transações de depósito e de definição de permissão, pago a mineradores da Ethereum. Você só precisa definir a permissão uma vez por ativo que você depositar."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Taxa de saque rápido",
-      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobrirá os custos de “gas” em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Camada 2)."
+      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobrirá os custos de gás em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Camada 2)."
     },
     "GAS_FEES": {
       "TITLE": "Taxas de “gas”",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Tipos de saque",
-      "BODY": "A dYdX oferece suporte a dois tipos de saques da Camada 2. Os saques rápidos têm uma taxa pequena, mas não exigem “gas” e são enviados imediatamente. Já os saques lentos são gratuitos, mas possuem duas etapas, pois levam muito mais tempo e o usuário terá de pagar suas próprias taxas de gás."
+      "BODY": "A dYdX oferece suporte a dois tipos de saques da Camada 2. Os saques rápidos têm uma taxa pequena, mas não exigem gás e são enviados imediatamente. Já os saques lentos são gratuitos, mas possuem duas etapas, pois levam muito mais tempo e o usuário terá de pagar suas próprias taxas de gás."
     }
   },
   "STAKE": {
@@ -431,6 +431,14 @@
     },
     "VAULT_APR": {
       "BODY": "Est. de APR é o retorno anualizado do mês anterior. Os retornos reais dependem de rendimentos futuros incertos (compartilhamento de receita do protocolo, além de lucros e perdas) e não são garantidos. {LEARN_MORE}"
+    }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Este é o valor máximo de exposição que você pode obter com seu depósito. Não é o valor que você pode depositar ou sacar. Seu poder de compra pode mudar rapidamente e pode ser positivo mesmo quando você está tendo perdas."
+    },
+    "RISK": {
+      "BODY": "Esta é a percentagem do seu depósito mantida como margem pelas suas posições abertas. Isso pode mudar rapidamente quando o preço de mercado muda."
     }
   }
 }
