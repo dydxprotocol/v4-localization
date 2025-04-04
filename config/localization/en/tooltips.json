@@ -430,7 +430,10 @@
       "BODY": "The total PnL over time. This includes historical PnL of your vault deposits."
     },
     "VAULT_APR": {
-      "BODY": "Est. APR is the past month’s returns annualized. Actual returns depend on uncertain future earnings (protocol revenue sharing and P&L), and are not guaranteed. {LEARN_MORE}"
+      "BODY": "Est. APR is the past month returns annualized. Actual returns depend on uncertain future earnings (protocol revenue sharing and P&L), and are not guaranteed. {LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "Est. APR is the past 90 day returns annualized. Actual returns depend on uncertain future earnings (protocol revenue sharing and P&L), and are not guaranteed. {LEARN_MORE}"
     }
   },
   "SIMPLE_UI": {
