@@ -2116,16 +2116,16 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "These third-party products and services are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in the U.S., Canada or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
     },
     "REWARDS_SURGE_APRIL_2025": {
-      "HEADLINE": "dYdX Surge: Compete for $2M",
-      "BODY": "Up to $2.2M in rewards are distributed to dYdX traders every month. Make your move, click the Leaderboard to learn more.",
-      "HOW_IT_WORKS": "How It Works",
-      "HOW_IT_WORKS_1": "To participate, simply make a trade on dYdX.",
-      "HOW_IT_WORKS_2": "Your trading activity earns you points, which determine your rank on the leaderboard.",
-      "HOW_IT_WORKS_3": "Rewards are distributed at the end of each season.",
-      "HOW_TO_EARN": "How To Earn More Points",
-      "HOW_TO_EARN_1": "General (50%) - Based on trading fees paid by takers, rewarding capital-efficient strategies.",
-      "HOW_TO_EARN_2": "Retail (25%) - For taker trades made through the dYdX web and mobile interfaces.",
-      "HOW_TO_EARN_3": "Activation (25%) - Designed to incentivize new features, DYDX staking, liquidity in key markets, and re-engagement of past users."
+      "SURGE_HEADLINE": "dYdX Surge: Compete for $2M",
+      "SURGE_BODY": "Up to $2.2M in rewards are distributed to dYdX traders every month. Make your move, click the Leaderboard to learn more.",
+      "SURGE_HOW_IT_WORKS": "How It Works",
+      "SURGE_HOW_IT_WORKS_1": "To participate, simply make a trade on dYdX.",
+      "SURGE_HOW_IT_WORKS_2": "Your trading activity earns you points, which determine your rank on the leaderboard.",
+      "SURGE_HOW_IT_WORKS_3": "Rewards are distributed at the end of each season.",
+      "SURGE_HOW_TO_EARN": "How To Earn More Points",
+      "SURGE_HOW_TO_EARN_1": "General (50%) - Based on trading fees paid by takers, rewarding capital-efficient strategies.",
+      "SURGE_HOW_TO_EARN_2": "Retail (25%) - For taker trades made through the dYdX web and mobile interfaces.",
+      "SURGE_HOW_TO_EARN_3": "Activation (25%) - Designed to incentivize new features, DYDX staking, liquidity in key markets, and re-engagement of past users."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
