@@ -2673,6 +2673,7 @@
       "LOSS_COLON": "Loss:",
       "PRICE_MUST_POSITIVE": "All input prices must be positive. Please adjust your input prices.",
       "PROFIT_COLON": "Profit:",
+      "TRIGGERS_EQUITY_TIER_ERROR": "Can't place order due to equity tier limit. The current subaccount has {CURRENT_EQUITY} in equity and thus can only have up to {MAX_ORDERS} open orders. Bring equity up to {NEXT_TIER_EQUITY} in this subaccount to increase the limit.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price above {TRIGGER_PRICE_LIMIT}.",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Your stop loss limit price must be above your trigger price for this order to fill when it triggers. Please adjust your limit price.",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Your stop loss limit price must be below your trigger price for this order to fill when it triggers. Please adjust your limit price.",
