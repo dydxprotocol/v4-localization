@@ -2115,6 +2115,18 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Governance, rewards, and staking related services are provided to you directly by third parties, who are independent from and unaffiliated with the host and operator of this interface (the “Operator”), on third-party sites, without involvement of the Operator. You agree that you are familiar with the {TERMS_OF_USE_LINK} and understand the risks associated with these services, including variable reward rates, slashing and other risks inherent in staking. Nothing on this website constitutes, nor should be construed or relied upon as, financial advice, legal advice, tax advice, investment advice or advice of any other nature. You are solely responsible for conducting independent research, due diligence and seeking advice from a professional advisor prior to taking any action related to the services.",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "These third-party products and services are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in the U.S., Canada or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}."
     },
+    "REWARDS_SURGE_APRIL_2025": {
+      "HEADLINE": "dYdX Surge: Compete for $2M",
+      "BODY": "Up to $2.2M in rewards are distributed to dYdX traders every month. Make your move, click the Leaderboard to learn more.",
+      "HOW_IT_WORKS": "How It Works",
+      "HOW_IT_WORKS_1": "To participate, simply make a trade on dYdX.",
+      "HOW_IT_WORKS_2": "Your trading activity earns you points, which determine your rank on the leaderboard.",
+      "HOW_IT_WORKS_3": "Rewards are distributed at the end of each season.",
+      "HOW_TO_EARN": "How To Earn More Points",
+      "HOW_TO_EARN_1": "General (50%) - Based on trading fees paid by takers, rewarding capital-efficient strategies.",
+      "HOW_TO_EARN_2": "Retail (25%) - For taker trades made through the dYdX web and mobile interfaces.",
+      "HOW_TO_EARN_3": "Activation (25%) - Designed to incentivize new features, DYDX staking, liquidity in key markets, and re-engagement of past users."
+    },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
       "YOU_EARNED": "You earned rewards!"
