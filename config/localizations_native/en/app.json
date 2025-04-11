@@ -466,6 +466,17 @@
     "TEXT": "This version is no longer supported. Please update to the latest version.",
     "ACTION": "Update App"
   },
+  "SURVEY": {
+    "SIMPLE_TO_PRO": {
+      "TITLE": "What do you think of the simplified trading experience? (select all that applies)",
+      "OPTION_1": "Prefer the familiarity of pro mode",
+      "OPTION_2": "Need more order types",
+      "OPTION_3": "Need more info when placing trades",
+      "ADDITIONAL_FEEDBACK": "What improvements would you suggest?"
+    },
+    "DO_NOT_SHOW": "Do not show again",
+    "SUBMIT": "Submit"
+  },
   "ERRORS": {
     "TRADE_BOX": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Your trigger price is too close to your liquidation price - this order may not execute fully before you get liquidated. Please enter a trigger price below {TRIGGER_PRICE_LIMIT} or use a Stop Limit order.",
