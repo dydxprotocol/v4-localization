@@ -2515,6 +2515,7 @@
   },
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "Wallet balance is insufficient to cover the transaction fees; please deposit additional funds.",
+    "BROADCAST_ERROR_SDK_32": "Operation could not be processed because submitted timestamp nonce was not within the selected node's valid time range. Please refresh the page and try again.",
     "BROADCAST_ERROR_CLOB_2000": "Fill Or Kill order could not be fully filled.",
     "BROADCAST_ERROR_CLOB_2001": "Reduce-only orders cannot increase the position size.",
     "BROADCAST_ERROR_CLOB_2002": "Reduce-only orders cannot change the position side.",
@@ -2553,6 +2554,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Rate limited reached for this IP address. Please try again later.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Something went wrong. Please try again later.",
+      "NETWORKING_ERROR": "Error connecting to the network. Please check your internet connection, refresh the page, and try again.",
       "TIMESTAMP_DISCREPANCY": "For security purposes, we verify timestamps when authenticating your account. Please make sure your system clock is synced correctly and refresh the app."
     },
     "TRADE_BOX": {
