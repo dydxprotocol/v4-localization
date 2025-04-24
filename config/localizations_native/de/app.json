@@ -11,13 +11,13 @@
         "4H": "4 Std.",
         "8H": "8 Std.",
         "24H": "24 Std.",
-        "1D": "1 T.",
-        "7D": "7 T.",
-        "30D": "30 T.",
-        "90D": "90 T.",
-        "1DAY": "1 T.",
-        "1WEEK": "1 W.",
-        "1MONTH": "1 M."
+        "1D": "1 Tag",
+        "7D": "7 Tage",
+        "30D": "30 Tage",
+        "90D": "90 Tage",
+        "1DAY": "1 Tag",
+        "1WEEK": "1 Woche",
+        "1MONTH": "1 Min"
       },
       "ABOUT": "Über uns",
       "ACTIVITIES": "Aktivitäten",
@@ -29,19 +29,19 @@
       "AUTHENTICATE_WITH_TOUCH_ID": "Authentifizieren Sie sich per Touch-ID",
       "AUTHENTICATE_WITH_BIOMETRICS": "Authentifizieren Sie sich per Biometrie",
       "AUTHENTICATE_TO_PROCEED": "Authentifizieren Sie sich, um auf Ihr dYdX-Konto zuzugreifen",
-      "CANDLES": "Candles",
+      "CANDLES": "Kerzen",
       "CONNECT_WALLET_TEXT": "Stellen Sie sicher, dass das richtige Konto in Ihrer Wallet ausgewählt ist.",
       "COUNTRY": "Land",
       "DESTINATION": "Reiseziel",
       "DOCS": "Dokumente",
       "DONT_SHOW_AGAIN": "In Zukunft nicht mehr anzeigen",
-      "EARN": "Sie werden verdienen",
+      "EARN": "Das werden Sie verdienen:",
       "ERROR": "Fehler",
       "FAILED": "Fehlgeschlagen",
       "FOUNDATION": "Grundlage",
       "FULL_CLOSE": "Vollständige Ausführung",
       "FUNDING_EARNED": "Verdientes Kapital",
-      "FUNDING_PAID": "Bezahltes Kapital",
+      "FUNDING_PAID": "Gezahltes Kapital",
       "GAINERS": "Gewinner",
       "GO": "Weiter",
       "INDEX_ENTRY": "Index \/ Einstieg",
@@ -50,8 +50,8 @@
       "INSTALLED": "Installiert",
       "IOS_APP_BETA": "iOS App Beta",
       "ISOLATED_POSITIONS_COMING_SOON": "Isolierte Positionen bald auch auf Mobilgeräten verfügbar",
-      "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders für isolierte Positionen sind bald auf Mobilgeräten verfügbar.",
-      "LAUNCH_ON_WEB": "Start über Web",
+      "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders für isolierte Positionen bald auf Mobilgeräten verfügbar.",
+      "LAUNCH_ON_WEB": "Start im Web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Ranglisten",
       "LEARN_MORE_ABOUT_WALLETS": "Mehr über Wallets",
@@ -59,7 +59,7 @@
       "LIQ_ORACLE": "Liq. \/ Oracle",
       "LOSERS": "Verlierer",
       "MANAGE": "Verwalten",
-      "MARKET_CAP_SHORT": "M. Kap",
+      "MARKET_CAP_SHORT": "M. Cap",
       "NA": "nicht anwendbar",
       "NAME": "Name",
       "NETWORK": "Netzwerk",
@@ -69,7 +69,7 @@
       "NO_RESULTS": "Keine Ergebnisse",
       "OF": "{ITEM1} von {ITEM2}",
       "OK": "OK",
-      "PAY_GAS_WITH": "Gas Bezahlen Mit",
+      "PAY_GAS_WITH": "Gas bezahlen mit",
       "PLACEHOLDER_NO_POSITIONS": "Sie haben keine offenen Positionen",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "Sie müssen sich anmelden, um Ihre Positionen anzuzeigen",
       "PLACEHOLDER_NO_ORDERS": "Sie haben keine offenen Orders",
@@ -145,7 +145,7 @@
       "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mail-Adresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
       "CREATE_ACCOUNT_ADDITIONAL": "Ihre Informationen werden von dYdX ausschließlich zur Verbesserung des Produkterlebnisses verwendet, nicht zu Marketingzwecken.",
       "EDIT_ACCOUNT": "Konto bearbeiten",
-      "EDIT_ACCOUNT_TEXT": "Benutzername und E-Mail sind optional, und können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
+      "EDIT_ACCOUNT_TEXT": "Benutzername und E-Mail sind optional und können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
       "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mail-Adresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
       "INFO": "Ihre Informationen werden von dYdX ausschließlich zur Verbesserung Ihres Produkterlebnisses verwendet und nicht weitergegeben.",
       "MISSING_COUNTRY_DESC": "Bitte geben Sie Ihr Wohnsitzland an. Dies kann später nicht geändert werden.",
@@ -154,17 +154,17 @@
       "NOT_A_RESIDENT_TITLE": "Ich werde nicht von den USA aus zugreifen",
       "OPEN_QR_CODE": "QR-Code öffnen",
       "OPEN_QR_CODE_DESC": "Zeigen Sie den QR-Code an, indem Sie die Option im Wallet-Menü der Web-App auswählen.",
-      "OPEN_QR_CODE_NEXT": "Okay, verstanden!",
+      "OPEN_QR_CODE_NEXT": "OK, verstanden!",
       "PERMITTED_TO_USE_TITLE": "Ich bin gesetzlich berechtigt, zu traden",
       "SCAN_QR_CODE": "QR-Code scannen",
       "SCAN_QR_CODE_DESC": "Scannen Sie den QR-Code in der Auswahl des Wallet-Menüs der Web-App.",
       "SCAN_QR_CODE_ERROR": "Code nicht erkannt",
       "SCAN_QR_CODE_SHORT": "QR scannen",
       "SELECT_WALLET": "Wallet auswählen",
-      "SWITCH_TO_WALLET": "Bitte öffnen Sie Ihre {WALLET} App, um fortzufahren.",
+      "SWITCH_TO_WALLET": "Öffnen Sie Ihre {WALLET}-App, um fortzufahren.",
       "SELECT_WALLET_TEXT": "Wir haben die folgenden Wallet-Optionen gefunden, die dYdX unterstützen.",
       "UNDERSTAND_RISKS_TITLE": "Die Risiken sind mir bekannt",
-      "USERNAME_REQUIRED": "Benutzername ist erforderlich",
+      "USERNAME_REQUIRED": "Benutzername erforderlich",
       "WELCOME_TEXT": "Beginnen Sie auf der weltweit leistungsfähigsten offenen Börse mit dem Trading - Sie haben es in der Hand.",
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "Im nächsten Schritt müssen Sie unsere {TERMS_LINK} und {PRIVACY_POLICY_LINK} durchlesen und ihnen zustimmen.",
       "WALLET_MISMATCH": "Falsche Wallet",
@@ -185,16 +185,16 @@
       "DEPOSIT_AVAILABLE": "Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {DOLLAR_AMOUNT}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. Ihr Limit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Gemäß diesen Regeln",
       "MINIMUM_DEPOSIT_MET": "Sehr schön! Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "Ihr Einzahlungsbetrag liegt unterhalb des gasfreien Einzahlungsminimums. Wenn Sie mehr als {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen, zahlt dYdX die Gas-Kosten für diese Einzahlung. Sie können auch mit dieser Einzahlung fortfahren und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_ETH_DEPOSITS_NATIVE": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf 1inch oder Uniswap in WETH umtauschen und gasfreie WETH-Einzahlungen vornehmen oder direkt ETH einzahlen und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_DEPOSIT_REACHED_LIMIT": "Gasfreie Einzahlung ist nicht verfügbar. Ihr gasfreies Einzahlungslimit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "Ihr Einzahlungsbetrag liegt unterhalb des gasfreien Einzahlungsminimums. Wenn Sie mehr als {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen, zahlt dYdX die Gas-Kosten für diese Einzahlung. Sie können auch mit dieser Einzahlung fortfahren und Ihre Gas-Kosten selbst bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_ETH_DEPOSITS_NATIVE": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf 1inch oder Uniswap in WETH umtauschen und gasfreie WETH-Einzahlungen vornehmen oder direkt ETH einzahlen und Ihre Gas-Kosten selbst bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_DEPOSIT_REACHED_LIMIT": "Gasfreie Einzahlung nicht verfügbar. Ihr gasfreies Einzahlungslimit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "Gasfreie Einzahlung nutzen",
       "1_REMAINING": "1 verbleibend",
       "PROVIDER": "Anbieter"
     },
     "WITHDRAW_MODAL": {
       "ENTER_WITHDRAW_AMOUNT": "Geben Sie den Auszahlungsbetrag ein",
-      "WITHDRAW_DESCRIPTION": "Sie sind dabei, eine Kapitalauszahlung zu der unten angezeigten Wallet zu veranlassen. Eine Unterschrift ist nicht erforderlich.",
+      "WITHDRAW_DESCRIPTION": "Sie sind dabei, eine Kapitalauszahlung für die unten angezeigte Wallet zu veranlassen. Eine Unterschrift ist nicht erforderlich.",
       "WITHDRAW_ERROR": "Auszahlungsfehler",
       "WITHDRAW_IRREVERSIBLE": "Wenn Sie eine Auszahlung veranlassen, kann diese nicht mehr rückgängig gemacht werden.",
       "WITHDRAW_LIMIT": "Auszahlungslimit",
@@ -309,7 +309,7 @@
       "SWAP_MARKET": {
         "POPULAR": "Beliebt",
         "TOP_GAINERS": "Top Gewinner",
-        "TOP_LOSERS": "Top Verlierer"
+        "TOP_LOSERS": "Top-Verlustbringer"
       },
       "SWAP_POSITION": {
         "OPEN": "{TOKEN} Position eröffnen",
@@ -321,9 +321,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Close-only Modus",
-      "CLOSE_ONLY_BODY": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE} zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf die App gesperrt ist. Bitte besuchen Sie die Weboberfläche, um die nächsten Schritte einzusehen. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
+      "CLOSE_ONLY_BODY": "Da Sie Ihren Wohnsitz offenbar in einem Rechtsgebiet haben oder von einem Rechtsgebiet aus traden, das gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE} Zeit zum Abheben Ihrer Mittel, bevor Ihr Zugriff auf die App gesperrt ist. Bitte besuchen Sie die Website, um die nächsten Schritte einzusehen. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Permanent blockiert",
-      "PERMANENTLY_BLOCKED_BODY": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
+      "PERMANENTLY_BLOCKED_BODY": "Da Sie in einem Rechtsgebiet ansässig zu sein scheinen oder von einem Rechtsgebiet aus traden, das gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit eingeräumt wurde, die Umstände zu beheben, die zu Einschränkungen Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Konto eingeschränkt",
@@ -349,16 +349,16 @@
       "UPDATE_SETTINGS_MESSAGE": "Bitte aktualisieren Sie die Benachrichtigungen in Ihren App-Einstellungen.",
       "PERMIT": "Erlauben",
       "GO_TO_SETTINGS": "Gehen Sie zu Einstellungen",
-      "PRIMER_TITLE": "Benachrichtigungen aktivieren",
+      "PRIMER_TITLE": "Aktivieren Sie Benachrichtigungen ",
       "PRIMER_MESSAGE": "Bleiben Sie über Ihre Orders und Positionen auf dem Laufenden.",
       "ENABLED": "Benachrichtigungen aktiviert",
       "DISABLED": "Benachrichtigungen deaktiviert",
-      "DISABLED_BODY": "Schalten Sie sie in den Einstellungen ein."
+      "DISABLED_BODY": "Schalten Sie diese in den Einstellungen ein."
     },
     "SHARE_ACTIVITY_MODAL": {
-      "TWEET_PROFILE": "Schauen Sie sich mein Profil auf @dYdX an!",
-      "TWEET_PNL": "Schauen Sie sich meine G&V-Performance auf @dYdX an!",
-      "TWEET_PRIZE": "Schauen Sie sich meinen League Prize auf @dYdX an!"
+      "TWEET_PROFILE": "Schauen Sie sich \"Mein Profil\" auf @dYdX an!",
+      "TWEET_PNL": "Schauen Sie sich \"meine G&V-Performance\" auf @dYdX an!",
+      "TWEET_PRIZE": "Schauen Sie sich \"Meinen Ligapreis\" auf @dYdX an!"
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Wallet Adresse eingeben",
@@ -368,24 +368,24 @@
     "FIAT_ONRAMP": {
       "NEW": "Neu!",
       "SUPPORT_FROM_PROVIDER": "{PROVIDER} Support",
-      "SUPPORT_MESSAGE": "Sie suchen Fiat-Einzahlung? Überprüfen Sie den Orderstatus in Ihrer E-Mail oder wenden Sie sich an den {PROVIDER} Support."
+      "SUPPORT_MESSAGE": "Sie brauchen eine Fiat-Einzahlung? Überprüfen Sie den Orderstatus in Ihrer E-Mail oder wenden Sie sich an den {PROVIDER} Support."
     },
     "V4": {
       "ALERTS_PLACHOLDER": "Handels- und Protokollwarnungen werden hier angezeigt.",
       "INDEXER_ALERT": "Indexer-Alarm",
       "INDEXER_DOWN": "Die aktuelle Blockhöhe des Indexers kann nicht abgerufen werden.",
-      "INDEXER_HALTED": "Der Indexer hat bei Block {HALTED_BLOCK} angehalten.",
+      "INDEXER_HALTED": "Der Indexer hat bei Block {HALTED_BLOCK}angehalten.",
       "INDEXER_TRAILING": "Der Indexer hinkt dem Validator um {TRAILING_BLOCKS} Blöcke hinterher, es ist mit erheblichen Verzögerungen zu rechnen.",
       "VALIDATOR_ALERT": "Indexer-Alarm",
       "VALIDATOR_DOWN": "Die aktuelle Blockhöhe kann nicht abgerufen werden.",
       "VALIDATOR_HALTED": "Der Validator hat bei Block {HALTED_BLOCK} angehalten.",
-      "TRADING_NETWORK": "Handelsnetzwerk",
-      "SWITCH_NETWORK": "Handelsnetzwerk umschalten",
+      "TRADING_NETWORK": "Trading-Netzwerk",
+      "SWITCH_NETWORK": "Trading-Netzwerk umschalten",
       "CALCULATING": "Berechnung ...",
       "NO_HASH": "Transaktions-Hash kann nicht abgerufen werden.",
       "NO_GAS_TITLE": "Unzureichendes Wallet-Guthaben zur Deckung der Gasgebühr",
-      "NO_GAS_BODY": "Bitte nehmen Sie zuerst eine kleine Einzahlung auf Ihr dYdX-Konto vor, um Ihr Wallet aufzufüllen.",
-      "THEME": "Thema",
+      "NO_GAS_BODY": "Bitte nehmen Sie zuerst eine kleine Einzahlung auf Ihr dYdX-Konto vor, um Ihre Wallet aufzufüllen.",
+      "THEME": "Theme",
       "NOTIFICATIONS": "Benachrichtigungen",
       "DISPLAY_IN_APP_NOTIFICATIONS": "In-App-Benachrichtigungen anzeigen",
       "DIRECTION_COLOR_PREFERENCE": "Farbpräferenz",
@@ -398,7 +398,7 @@
       "SELECT_A_THEME": "Farbdesign auswählen",
       "DYDX_ADDRESS": "dYdX-Chain-Adresse",
       "SOURCE_ADDRESS": "Quelladresse",
-      "DYDX_ADDRESS_COPIED": "Die dYdX-Kettenadresse wird in die Zwischenablage kopiert.",
+      "DYDX_ADDRESS_COPIED": "Die dYdX-Chain-Adresse wird in die Zwischenablage kopiert.",
       "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert.",
       "SYSTEM_STATUS": "Systemstatus",
       "DELETE_ALERT": "Diese Warnung löschen",
@@ -413,7 +413,7 @@
       "COMPLETED_TITLE": "Einzahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!",
       "COMPLETED_TEXT_SHORT": "Ihre Einzahlung wurde abgeschlossen.",
-      "MOBILE_WALLET_REQUIRED": "Bitte verbinden Sie Ihr mobiles Wallet, um Einzahlungen zu tätigen."
+      "MOBILE_WALLET_REQUIRED": "Bitte verbinden Sie Ihre mobile Wallet, um Einzahlungen zu tätigen."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Auszahlungsstatus prüfen ...",
@@ -429,17 +429,17 @@
     },
     "ISSUE_REPORT": {
       "SETTINGS_TITLE": "Problem melden",
-      "LOADING_TITLE": "Logdateien werden geladen...",
+      "LOADING_TITLE": "Protokolldateien werden geladen ...",
       "LOADING_COMPLETED_TITLE": "Protokolldatei erstellt",
-      "LOADING_ERROR_TITLE": "Logdatei konnte nicht erstellt werden",
+      "LOADING_ERROR_TITLE": "Protokolldatei konnte nicht erstellt werden",
       "EMAIL_SUBJECT": "Problembericht",
       "EMAIL_BODY": "Bitte beschreiben Sie das Problem, mit dem Sie konfrontiert sind:",
       "CHOOSER_TITLE": "App-Protokoll senden"
     },
     "PREDICTION_MARKET": {
-      "PREDICTION_MARKETS": "Vorhersagemärkte",
+      "PREDICTION_MARKETS": "Prognosemärkte",
       "LEVERAGE_TRADE_US_ELECTION_SHORT": "Hebelwirkung auf die US-Wahl",
-      "WITH_PREDICTION_MARKETS": "mit Vorhersagemärkten",
+      "WITH_PREDICTION_MARKETS": "mit Prognosemärkten",
       "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls werden sie bei 0 USD abgerechnet.",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Hebelwirkung auf die Resultate von Ereignissen",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
@@ -466,12 +466,23 @@
     "TEXT": "Diese Version wird nicht mehr unterstützt. Bitte aktualisieren Sie auf die neueste Version.",
     "ACTION": "App aktualisieren"
   },
+  "SURVEY": {
+    "SIMPLE_TO_PRO": {
+      "TITLE": "Was halten Sie von dem vereinfachten Handelserlebnis? (Wählen Sie alle zutreffenden Optionen aus)",
+      "OPTION_1": "Bevorzugen Sie die Vertrautheit des Profi-Modus",
+      "OPTION_2": "Sie benötigen mehr Ordertypen",
+      "OPTION_3": "Brauchen Sie mehr Informationen, wenn Sie Trades platzieren",
+      "ADDITIONAL_FEEDBACK": "Welche Verbesserungen würden Sie vorschlagen?"
+    },
+    "DO_NOT_SHOW": "Nicht mehr anzeigen",
+    "SUBMIT": "Senden"
+  },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis unter {TRIGGER_PRICE_LIMIT} USD ein oder verwenden Sie eine Stop-Limit-Order.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor sie für Sie abgewickelt ist. Geben Sie bitte einen Auslösepreis unter {TRIGGER_PRICE_LIMIT} USD ein oder verwenden Sie eine Stop-Limit-Order.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Sie können Ihre Position nur in {SYMBOL} schließen oder reduzieren.",
-      "GEO_LOCATION_RESTRICTED": "Perpetuals sind nicht für Personen oder Unternehmen verfügbar, die ansässig sind oder in den USA oder einem eingeschränkten Gebiet einen registrierten Agenten besitzen. Weitere Details finden Sie in unseren Nutzungsbedingungen.",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor Sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis über {TRIGGER_PRICE_LIMIT} ein oder verwenden Sie eine Stop-Limit-Order.",
+      "GEO_LOCATION_RESTRICTED": "Perpetuals sind nicht für Personen oder Unternehmen verfügbar, die in den USA oder einem eingeschränkten Gebiet ansässig sind oder dort einen registrierten Agenten haben. Weitere Details finden Sie in unseren Nutzungsbedingungen.",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Ihr Trigger-Preis liegt zu nahe an Ihrem Abwicklungspreis – es kann sein, dass diese Order nicht vollständig ausgeführt wird, bevor sie für Sie abgewickelt wurde. Geben Sie bitte einen Auslösepreis über {TRIGGER_PRICE_LIMIT} ein oder verwenden Sie eine Stop-Limit-Order.",
       "CONNECT_WALLET_TO_TRADE": "Wallet zum Handeln verbinden.",
       "DEPOSIT_TO_TRADE": "Einzahlung zum Traden."
     }
