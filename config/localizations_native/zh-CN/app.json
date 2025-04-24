@@ -97,11 +97,11 @@
       "SERVICE_STATUS_OFFLINE": "离线",
       "SERVICE_STATUS_ONLINE": "在线",
       "SERVICE_STATUS_POST_ONLY": "仅挂单",
-      "SHARE_YOUR_RANKING": "共享您的排名",
+      "SHARE_YOUR_RANKING": "分享您的排名",
       "SHARE_YOUR_RANKING_TEXT": "让其他人了解您的表现",
-      "SIGN_OUT": "退出",
+      "SIGN_OUT": "登出",
       "SIGN_OUT_WARNING": "您确定要退出并移除钱包？",
-      "SOURCE": "源",
+      "SOURCE": "来源",
       "START": "点按“开始”以进行登录",
       "START_SEARCH": "在上方开始搜索",
       "STATUS_FILL": "状态\/成交",
@@ -255,7 +255,7 @@
         "MODE_TO_BE_USED": "此模式适用于所有类型的交易",
         "CHANGE_SETINGS": "在设置中更改此模式",
         "SIMPLE": "默认",
-        "ADVANCED": "高级",
+        "ADVANCED": "进阶\n",
         "EASIER": "更易于使用",
         "POWERFUL": "更强大",
         "TRADE_BOX": "模式",
@@ -466,9 +466,20 @@
     "TEXT": "此版本不再受支持。 请更新到最新版本。",
     "ACTION": "更新应用程序"
   },
+  "SURVEY": {
+    "SIMPLE_TO_PRO": {
+      "TITLE": "您对简化交易体验有何看法？（选择所有适用项）",
+      "OPTION_1": "更喜欢熟悉的专业模式",
+      "OPTION_2": "需要更多订单类型",
+      "OPTION_3": "交易时需要更多信息",
+      "ADDITIONAL_FEEDBACK": "您有何改进建议？"
+    },
+    "DO_NOT_SHOW": "不再显示",
+    "SUBMIT": "提交"
+  },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "您只能平仓或减少您在{SYMBOL}中的头寸。",
       "GEO_LOCATION_RESTRICTED": "永续合约不向符合以下条件的居民或公司提供：美国或受限区域的居民或公司、位于美国或受限区域、在美国或受限区域成立或在美国或受限区域有注册代理人。可参阅我们的《使用条款》了解更多详情。",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",

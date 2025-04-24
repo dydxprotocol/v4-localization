@@ -56,7 +56,7 @@
       "ADD": "添加 →",
       "ADDING": "添加",
       "ADDRESS": "地址",
-      "ADVANCED": "高级",
+      "ADVANCED": "进阶\n",
       "AI": "人工智能",
       "AI_BIG_DATA": "人工智能和大数据",
       "ALERTS": "警报",
@@ -144,7 +144,7 @@
       "DISMISS": "撤销",
       "DOCUMENT": "文档",
       "DONE": "已完成",
-      "DONT_SHOW_ME_AGAIN": "不要再给我看这个",
+      "DONT_SHOW_ME_AGAIN": "不要再显示这个信息\n",
       "DOWNLOAD_IOS_APP": "下载 iOS 应用程序",
       "DOWNLOAD_MOBILE_APP": "下载移动应用程序",
       "DYDX_CHAIN_ADDRESS": "dYdX 链地址",
@@ -351,7 +351,7 @@
       "SIZE": "数量",
       "SLOW_WITHDRAW": "正常提现",
       "SORT_BY": "排序依据",
-      "SOURCE": "源",
+      "SOURCE": "来源",
       "SOURCE_ADDRESS": "源地址",
       "STAKE": "权益质押",
       "STAKED": "已质押",
@@ -472,7 +472,7 @@
         "SECONDARY": "Arbitrum 是一套扩展解决方案，为高吞吐量、低成本智能合约的环境提供，并得到了植根于以太坊的行业领先的验证技术支持。"
       },
       "AVAX": {
-        "PRIMARY": "Avalanche是一个开放源平台，旨在推出高度去中心化的应用、新的金融基本要素和新的可互操作区块链。",
+        "PRIMARY": "Avalanche是一个开放源平台，旨在推出高度去中心化的应用、新的金融基本要素和新地可互操作区块链。",
         "SECONDARY": "基于 Avalanche 的开发者可以轻松创建功能强大、可靠安全的应用程序和具有复杂规则集的定制区块链网络，或者在现有的私有或公共子网的基础上进一步完善。"
       },
       "AXL": {
@@ -529,7 +529,7 @@
       },
       "DOT": {
         "PRIMARY": "Polkadot旨在连接私链和联盟链、公共网络和无许可网络以及预言机和尚未创造的未来技术。Polkadot 为互联网带来便利，独立的区块链可在其中通过 Polkadot中继链以无需信任的方式交换信息和进行交易。",
-        "SECONDARY": "Polkadot 使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好的解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
+        "SECONDARY": "Polkadot 使创建和连接去中心化应用、服务和机构变得前所未有地容易。通过让创新者能够打造更好地解决方案，我们努力使社会摆脱对支离破碎的网络的依赖，在这个网络中，大型机构不会辜负我们的信任。"
       },
       "DYM": {
         "PRIMARY": "Dymension 是易于部署和闪电般快速的应用程序链（称为 RollApps）的大本营。",
@@ -696,7 +696,7 @@
         "SECONDARY": "Shiba Inu 开发了一个名为 Shibarium 的第 2 层网络，该网络建立在以太坊区块链的顶端。"
       },
       "SOL": {
-        "PRIMARY": "Solana是一种快速、安全、能够抵抗审查的区块链，为全球应用提供必要的开放基础设施。",
+        "PRIMARY": "Solana是一种快速、安全、能够抵抗审查的区块链，为全球应用提供必要地开放基础设施。",
         "SECONDARY": "Solana是一个开源项目，实现了一个新的、无需许可的高性能区块链。Solana基金会设在瑞士日内瓦，并维护着开源项目。"
       },
       "STX": {
@@ -809,7 +809,7 @@
       "EARN_USDC_DISCRIPTION": "利用质押和其他产品来赚取 USDC。",
       "EARN_USDC": "赚取 USDC",
       "FEES_REFERRED": "推荐费用",
-      "HAS_REFERRED_YOU": "已推荐您开始在世界上最强大的开放交易所进行交易。",
+      "HAS_REFERRED_YOU": "已推荐您开始在世界上最强大地开放交易所进行交易。",
       "INVITE_FRIENDS": "邀请朋友",
       "LIGHTNING_FAST_DISCRIPTION": "DeFi 中最顺畅、最强大的体验。",
       "LIGHTNING_FAST": "快如闪电，具有深层流动性",
@@ -910,6 +910,7 @@
       "APPEARS_OUTSIDE_ACCESS": "看来您正从美国境外或受限地区访问 dYdX。您特此同意、声明并保证：",
       "BRIDGING_TOKENS": "桥接代币",
       "CHAIN_GAS_FEES": "{CHAIN} Gas 费",
+      "CHAIN_GAS_FEES_SHORT": "{CHAIN} gas",
       "CHECK_WALLET_FOR_REQUEST": "检查钱包中的请求...",
       "COMING_SOON": "即将推出！",
       "COMPLETE_ONBOARDING": "完成入门培训",
@@ -941,6 +942,7 @@
       "ESTIMATED_TIME": "预计时间",
       "EXCHANGES": "交易所",
       "FINISH_ONBOARDING_DESCRIPTION": "完成入门流程以在 dYdX 上开始交易",
+      "FREE_AND_INSTANT": "免费且极速",
       "FREE_SIGNING": "签名{FREE}，而且不会发送交易。",
       "FUND_YOUR_SUBACCOUNT": "收到 IBC 转账后，为 dYdX 子账户余额注入资金。",
       "GASLESS_ONBOARDING_RULES": "无 gas 入门规则",
@@ -955,7 +957,7 @@
       "INITIATED_DEPOSIT": " 发起存款",
       "INITIATED_WITHDRAWAL": "发起提现",
       "INITIATED_TRANSFEROUT": "已发起划转",
-      "INVITED_YOU": "已推荐您开始在世界上最强大的开放交易所进行交易。",
+      "INVITED_YOU": "已推荐您开始在世界上最强大地开放交易所进行交易。",
       "JOIN_ME": "和我一起在 dYdX 上享受所有交易费用{DISCOUNT}的优惠！",
       "KEEP_WINDOW_OPEN": "请保持此窗口处于打开状态，以确保资金到账。",
       "LEDGER_DERIVATION_PATH": "路径",
@@ -1002,11 +1004,13 @@
       "SIGN_IN_WITH_EMAIL": "通过邮箱登陆",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "一种简单的登录方式，由{MAGIC}提供支持",
       "SKIP_FAST_ROUTE_DESC": "$$ 费用，${LIMIT_AMOUNT}限制",
+      "SKIP_FAST_ROUTE_DESC_1": "费用${FEE}，限额${LIMIT_AMOUNT}",
       "SKIP_SLOW_ROUTE_DESC": "$ 费用，无限制",
+      "SKIP_SLOW_ROUTE_DESC_1": "费用低，无限额",
       "SKIP_FOR_NOW": "现在跳过",
       "SITE_OPERATED_BY_SHORT": "本网站由 {NAME_OF_DEPLOYER} 运营，使用由 dYdX Trading Inc. 开源软件。 {LEARN_MORE_LINK}",
       "SITE_OPERATED_BY_LONG": "本网站由 {NAME_OF_DEPLOYER} 运营，受 {DEPLOYER_TERMS_AND_CONDITIONS} 约束，使用由第三方 dYdX Trading Inc. 开源的某些受 {TERMS_OF_USE} 约束的软件，该条款禁止位于美国或其他受限制司法管辖区的人员使用该软件。 dYdX 区块链由独立验证者社区提供支持。 {LEARN_MORE_LINK}",
-      "START_TRADING_BLURB": "开始在世界上最强大的开放交易所上交易。",
+      "START_TRADING_BLURB": "开始在世界上最强大地开放交易所上交易。",
       "SWITCH_NETWORK": "切换网络",
       "SWITCH_NETWORKS": "切换网络",
       "TOS_TITLE": "使用我们的任何产品和服务，即表示您同意﻿{TERMS_LINK}和{PRIVACY_POLICY_LINK}。您特此同意、声明并保证：",
@@ -1023,7 +1027,7 @@
       "TWO_SIGNATURE_REQUESTS": "您将收到两项签名请求。签名是免费的，而且不会发送交易。",
       "UNDERSTAND_RISKS": "您知晓签订永续合约和使用杠杆所涉及的风险。",
       "VALUE_PROP_ADVANCED_DESC": "进行杠杆交易并使用高级工具管理风险",
-      "VALUE_PROP_ADVANCED": "高级",
+      "VALUE_PROP_ADVANCED": "进阶\n",
       "VALUE_PROP_LIQUID_DESC": "最受欢迎的货币对具有世界级流动性",
       "VALUE_PROP_LIQUID": "流动性",
       "VALUE_PROP_REWARDS_DESC": "您在平台上的每笔交易均可赚取 $DYDX 的奖励*",
@@ -1162,7 +1166,7 @@
       "MAGIC_LINK_WITHDRAW_DESCRIPTION": "要使用所提取的资金并在 dYdX 之外重新使用您的 Magic 钱包，您必须将您的钱包导出到另一个钱包提供商。",
       "SELECT_CHAINS": "选择链",
       "SLOW": "正常提现",
-      "SLOW_WITHDRAW_DESCRIPTION": "正常提现是一个两步过程。此步骤将发起您的提现请求，并将在 Layer 2 进行处理。一旦资金准备就绪（可能需要最多{HOURS}小时），您将收到一条将资金提现到钱包的通知。您负责承担提现交易 gas 费用。",
+      "SLOW_WITHDRAW_DESCRIPTION": "正常提现是一个两不过程。此步骤将发起您的提现请求，并将在 Layer 2 进行处理。一旦资金准备就绪（可能需要最多{HOURS}小时），您将收到一条将资金提现到钱包的通知。您负责承担提现交易 gas 费用。",
       "SLOW_WITHDRAW_CONFIRMATION": "此{STYLED_SLOW}提现可能需要最多 {HOURS} 小时才能可供提现。您将自行承担提现交易 gas 费用。如果您需要更快获得资金，请尝试{STYLED_FAST}提现。",
       "WITHDRAW_IRREVERSIBLE": "提现一旦发起无法撤回。",
       "ACKNOWLEDGE_WARNING_MESSAGE_HIGH_FEES": "所选路线的第三方费用较高。 我确认：\n{WARNING_MESSAGE}",
@@ -1493,7 +1497,7 @@
       "FULL_CLOSE": "完全关闭",
       "FUNDING_PAID": "已支付资金",
       "FUNDING_PAYMENTS_EMPTY_STATE": "您没有资金支付记录。",
-      "FUNDING_PAYMENTS_SHORT": "资金费",
+      "FUNDING_PAYMENTS_SHORT": "资金费率",
       "FUNDING_PAYMENTS": "资金支付",
       "FUNDING_RATE_1H_SHORT": " 1小时资金费率",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 提供资金",
@@ -1559,7 +1563,7 @@
       "ORACLE_PRICE_ABBREVIATED": "预言机",
       "ORACLE_PRICE": "预言机价格",
       "ORDER_EXPIRED": "订单已过期",
-      "ORDER_FILLED": "历史成交",
+      "ORDER_FILLED": "已全部成交",
       "ORDER_LINES": "订单行",
       "ORDER_LINES_TOOLTIP": "显示或隐藏订单行",
       "ORDER_REMOVAL_REASON_EQUITY_TIER": "子账户不满足净值等级要求。",
@@ -2115,6 +2119,18 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "管理、奖励和质押相关服务由独立于该接口的主办方和运营商（“运营商”）的第三方直接在第三方网站上向您提供，无需运营商参与。您同意您熟悉 {TERMS_OF_USE_LINK} 并了解与这些服务相关的风险，包括可变奖励率、削减和质押固有的其他风险。本网站上的任何内容均不构成、也不应被解释为或依赖其作为财务建议、法律建议、税务建议、投资建议或任何其他性质的建议。在采取与服务相关的任何行动之前，您全权负责进行独立调研、尽职调查并寻求专业顾问的建议。",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "上述第三方产品和服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     },
+    "REWARDS_SURGE_APRIL_2025": {
+      "SURGE_HEADLINE": "dYdX Surge：瓜分200万美元奖励",
+      "SURGE_BODY": "每月向 dYdX 交易者分发多达 220 万美元的奖励。 行动起来吧，点击排行榜了解详情。",
+      "SURGE_HOW_IT_WORKS": "运作方式",
+      "SURGE_HOW_IT_WORKS_1": "若要参与，只需在dYdX上进行交易即可。",
+      "SURGE_HOW_IT_WORKS_2": "进行交易活动即可赢得积分，积分决定您在排行榜上的排名。",
+      "SURGE_HOW_IT_WORKS_3": "每个季度结束时发放奖励。",
+      "SURGE_HOW_TO_EARN": "如何获得更多积分",
+      "SURGE_HOW_TO_EARN_1": "一般(50%)—根据吃单所支付的交易费计算，奖励资本效率高的交易策略。",
+      "SURGE_HOW_TO_EARN_2": "零售(25%)—针对通过dYdX网络和移动界面完成的吃单交易。",
+      "SURGE_HOW_TO_EARN_3": "激活(25%)—旨在鼓励使用新功能、参与DYDX质押、提高关键市场的流动性以及老用户重新参与。"
+    },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX 的奖励！在治理仪表板上申领您的奖励。",
       "YOU_EARNED": "您赚取到奖励！"
@@ -2170,7 +2186,7 @@
       "ADDRESS_FIELD": "无效的钱包地址",
       "CONFIRM_TRANSFER": "确认转帐",
       "CONFIRM_TRANSFER_PROMPT": "您正试图将{AMOUNT}转移到以下以太坊地址：",
-      "DIRECTLY_TRANSFER": "直接将资金转移到 dYdX 上的另一个帐户中",
+      "DIRECTLY_TRANSFER": "直接将资金转移到 dYdX 上的另一个账户中",
       "ENTER_ETH_ADDRESS": "输入钱包地址",
       "ETH_ADDRESS": "以太坊钱包地址",
       "INVALID_ADDRESS_TITLE": "无效的钱包地址",
@@ -2245,7 +2261,7 @@
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
       "DEPOSIT_ETH_INFO": "此钱包中所有剩余的 ETH 将转换为 USDC 并存入您的交易账户。",
       "DEPOSIT_FUNDS_SUBTITLE": "您需要资金才能开始交易。",
-      "DEPOSIT_NON_UDSC_INFO": "此钱包中的所有{ASSET}将转换为USDC并存入您的交易帐户。",
+      "DEPOSIT_NON_UDSC_INFO": "此钱包中的所有{ASSET}将转换为USDC并存入您的交易账户。",
       "DEPOSIT_USDC_INFO": "此钱包中的所有 USDC 将存入您的交易账户。",
       "FIAT_SUBTITLE": "通过信用卡等方式购买USDC。资金将直接存入您的账户，无需支付gas费。",
       "INSUFFICIENT_BALANCE": "余额不足",
@@ -2462,7 +2478,7 @@
     "MIGRATION_FAQ_HOW_TO_TRACK": "如何跟踪我的迁移状态？",
     "MIGRATION_FAQ_WHAT_ADDRESS_ANSWER": "与门户交互的用户可以将 dYdX 链 DYDX 代币发送到任何 dYdX 链地址。用户可以直接将代币发送到根据以太坊地址签名自动创建的其 dYdX 链地址。",
     "MIGRATION_FAQ_WHAT_ADDRESS": "我可以将 dYdX 链 DYDX 发送到哪个地址？",
-    "MIGRATION_FAQ_WHAT_TOKENS_ANSWER": "成功与门户交互的持有人将在以太坊上收到 wethDYDX，并在 dYdX 链上收到 DYDX。",
+    "MIGRATION_FAQ_WHAT_TOKENS_ANSWER": "成功与门户交互地持有人将在以太坊上收到 wethDYDX，并在 dYdX 链上收到 DYDX。",
     "MIGRATION_FAQ_WHAT_TOKENS": "我将收到哪些代币？",
     "MIGRATION_FAQ_WRAPPED_TOKENS_ANSWER": "wethDYDX 将 1:1 铸造给成功将基于以太坊的 DYDX 发送到智能合约的任何用户。wethDYDX 与基于以太坊的 DYDX 具有相同的 v3 治理权限，并且可转移。wethDYDX 无法桥接到 v4。",
     "MIGRATION_FAQ_WRAPPED_TOKENS": "什么是包裹式以太坊 DYDX 代币 (“wethDYDX”)？",
@@ -2503,6 +2519,7 @@
   },
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "钱包余额不足以支付交易费用；请存入额外资金。",
+    "BROADCAST_ERROR_SDK_32": "操作无法处理，因为提交的时间戳随机数不在所选节点的有效时间范围内。请刷新页面再重试。",
     "BROADCAST_ERROR_CLOB_2000": "无法完全执行“全部成交否则取消”订单。",
     "BROADCAST_ERROR_CLOB_2001": "仅减仓订单无法增加头寸数量。",
     "BROADCAST_ERROR_CLOB_2002": "仅减仓订单无法改变头寸。",
@@ -2541,6 +2558,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "此 IP 地址已达到的费率上限。 请稍后重试。",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "出现问题：{ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "出现问题。请稍后重试。",
+      "NETWORKING_ERROR": "连接到网络时出错。请检查您的互联网连接，刷新页面，然后重试。",
       "TIMESTAMP_DISCREPANCY": "出于安全考虑，我们在验证您的账户时会验证时间戳。请确保您的系统时钟正确同步并刷新应用程序。"
     },
     "TRADE_BOX": {
@@ -2661,6 +2679,7 @@
       "LOSS_COLON": "损失：",
       "PRICE_MUST_POSITIVE": "所有输入价格都必须为正值。 请调整您的输入价格。",
       "PROFIT_COLON": "利润：",
+      "TRIGGERS_EQUITY_TIER_ERROR": "由于净值等级限制，无法下单。当前子账户净值为{CURRENT_EQUITY}，因此最多只能有{MAX_ORDERS}个未平仓订单。将此子账户中的净值增加至{NEXT_TIER_EQUITY}，以提高限额。",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价。",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "您的止损限价必须高于触发价格，此订单才会在触发时成交。请调整您的限价。",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "您的止损限价必须低于您的触发价格，此订单才能在触发时成交。 请调整您的限价。",
