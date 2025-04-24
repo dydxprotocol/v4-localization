@@ -2,46 +2,46 @@
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
       "TITLE": "Recompensa ganada",
-      "BODY": "Has ganado una recompensa por {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} operaciones."
+      "BODY": "Ganaste una recompensa de trading de {BLOCK_REWARD_AMOUNT} {TOKEN_NAME}."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "¡Experiencia de orden condicional actualizada!",
-      "BODY": "¡Las órdenes condicionales en la cadena dYdX se han renovado por completo! Ahora es más confiable, intuitivo y eficiente que nunca. Consulta más detalles {TWITTER_LINK}."
+      "BODY": "¡Las órdenes condicionales en la cadena dYdX se renovaron por completo! Ahora es más confiable, intuitivo y eficiente que nunca. Consultá más detalles {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Posición desapalancada",
-      "BODY": "Tu {SIDE} posición en {MARKET} ha sido desapalancada."
+      "BODY": "Tu posición {SIDE} en {MARKET} fue desapalancada."
     },
     "DISCOVERY_PROGRAM": {
-      "TITLE": "¡Gana hasta $200 en 30 minutos!",
-      "BODY": "Haz que tu viaje de operación sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que haz clic {HERE_LINK} para registrarte u obtener más información!"
+      "TITLE": "¡Ganá hasta $200 en 30 minutos!",
+      "BODY": "Hacé que tu camino en el trading sea lo mejor posible participando en una entrevista de usuario y compartiendo comentarios. ¡Los lugares son limitados, así que hacé clic {HERE_LINK} para registrarte u obtener más información!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Posición establecida",
-      "BODY": "{MARKET} ha cerrado. Tu {SIDE} posición en {MARKET} ha llegado a su liquidación final."
+      "BODY": "{MARKET} cerró. Tu posición {SIDE} en {MARKET} llegó a su liquidación final."
     },
     "FOK_DEPRECATION": {
-      "TITLE": "Órdenes COM obsoletas",
-      "BODY": "Las órdenes de completar o morir (FOK) han quedado obsoletas. Todos los demás tipos de orden siguen estando disponibles."
+      "TITLE": "Órdenes FOK obsoletas",
+      "BODY": "Las órdenes de completar o eliminar (FOK, por sus siglas en inglés) quedaron obsoletas. Todos los demás tipos de órdenes siguen estando disponibles."
     },
     "IN_APP_STAKING_LIVE": {
-      "TITLE": "¡Ahora puedes invertir en DYDX!",
-      "BODY": "Recibe recompensas de USDC."
+      "TITLE": "¡Ahora, podés invertir en DYDX!",
+      "BODY": "Recibí recompensas de USDC."
     },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "¡La temporada {SEASON_NUMBER} ha comenzado!",
-      "BODY": "¡En {PREV_SEASON_NUMBER} de temporada, la mediana de las recompensas ganadas fue de {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
+      "TITLE": "¡La temporada {SEASON_NUMBER} ya empezó!",
+      "BODY": "¡En la temporada {PREV_SEASON_NUMBER}, la mediana de las recompensas ganadas fue de {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
     },
     "INCENTIVES_SEASON_ENDED": {
-      "TITLE": "¡La temporada {SEASON_NUMBER} ha terminado!",
-      "BODY": "Gracias por participar en el programa de incentivos de lanzamiento. ¡Mantente atento a las actualizaciones sobre futuros programas de recompensas!"
+      "TITLE": "¡La temporada {SEASON_NUMBER} terminó!",
+      "BODY": "Gracias por participar en el programa de incentivos de lanzamiento. ¡Mantenete atento a las actualizaciones sobre futuros programas de recompensas!"
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "El margen aislado está activo",
-      "BODY": "¡El margen aislado ahora está activo! Para obtener más información, dirígete a {LEARN_MORE}."
+      "BODY": "¡El margen aislado ahora está activo! Para obtener más información, dirigite a {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "¡Se han distribuido {SEASON_NUMBER} las recompensas de lanzamiento de la temporada!",
+      "TITLE": "¡Se distribuyeron las recompensas de lanzamiento de la temporada {SEASON_NUMBER}!",
       "BODY": "Recompensas de la temporada {SEASON_NUMBER} + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
@@ -50,71 +50,71 @@
     },
     "ORDER_FILL": {
       "TITLE": "Orden completada",
-      "BODY": "Tu orden a {SIDE} {AMOUNT} {MARKET} se ha completado en ${AVERAGE_PRICE}."
+      "BODY": "Tu orden a {SIDE} {AMOUNT} {MARKET} se completó en ${AVERAGE_PRICE}."
     },
     "ORDER_PARTIAL_FILL": {
       "TITLE": "Orden parcialmente completada",
-      "BODY": "{FILLED_AMOUNT} {MARKET} de tu orden a {SIDE} {AMOUNT} {MARKET} se ha completado."
+      "BODY": "{FILLED_AMOUNT} {MARKET} de tu orden a {SIDE} {AMOUNT} {MARKET} se completó."
     },
     "ORDER_TRIGGERED": {
       "TITLE": "Orden activada",
-      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se ha activado."
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se activó."
     },
     "ORDER_CANCEL": {
       "TITLE": "Orden cancelada",
-      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} ha sido cancelada."
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} fue cancelada."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
       "TITLE": "Orden cancelada que se completó parcialmente",
-      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se ha cancelado {TOTAL_FILLED} parcialmente completa."
+      "BODY": "Tu orden de {SIDE} {AMOUNT} {MARKET} se canceló con {TOTAL_FILLED} parcialmente completa."
     },
     "LIQUIDATION": {
       "TITLE": "Posición liquidada",
-      "BODY": "Tu posición de {SIDE} en {MARKET} ha sido liquidada."
+      "BODY": "Tu posición de {SIDE} en {MARKET} fue liquidada."
     },
     "POSITION_CLOSED": {
       "TITLE": "Posición cerrada",
-      "BODY": "Tu posición en {MARKET} ha sido cerrada."
+      "BODY": "Tu posición en {MARKET} fue cerrada."
     },
     "DEPOSIT_SUCCESS": {
-      "TITLE": "Depósito exitoso",
-      "BODY": "Tu depósito de {AMOUNT} {ASSET} ha sido confirmado."
+      "TITLE": "Depósito realizado correctamente",
+      "BODY": "Tu depósito de {AMOUNT} {ASSET} se confirmó."
     },
     "FAST_WITHDRAW_SUCCESS": {
-      "TITLE": "Retiro rápido exitoso",
-      "BODY": "Tu retiro rápido de {AMOUNT} {ASSET} ha sido confirmado."
+      "TITLE": "Retiro rápido realizado correctamente",
+      "BODY": "Tu retiro rápido de {AMOUNT} {ASSET} se confirmó."
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
-      "TITLE": "Opera con SOL-USD con 20 veces de apalancamiento",
-      "BODY": "SOL-USD y todos los mercados aislados ahora están disponibles para operar con un apalancamiento de hasta 20 veces."
+      "TITLE": "Opera con SOL-USD con 20 veces el apalancamiento",
+      "BODY": "SOL-USD y todos los mercados aislados ahora están disponibles para operar con un apalancamiento hasta 20 veces mayor."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "¡Las recompensas y las operaciones están disponibles en la cadena dYdX!",
-      "BODY": "¡Las operaciones completas están disponibles en la cadena dYdX! Esto incluye recompensas de participación, recompensas de operaciones y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtén más información {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
+      "TITLE": "¡Las recompensas y las operaciones están activas en la cadena dYdX!",
+      "BODY": "¡Todo el trading está activo en la cadena dYdX! Esto incluye recompensas de participación, recompensas de operaciones y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtené más información en {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retiro lento pendiente",
-      "BODY": "Tu retiro de {AMOUNT} {ASSET} estará listo en 12 horas."
+      "BODY": "Tu retiro de {AMOUNT} {ASSET} va a estar listo en 12 horas."
     },
     "SLOW_WITHDRAWAL_SUCCESS": {
-      "TITLE": "Retiro lento exitoso",
-      "BODY": "Tu retiro de {AMOUNT} {ASSET} ha sido confirmado."
+      "TITLE": "Retiro lento realizado correctamente",
+      "BODY": "Tu retiro de {AMOUNT} {ASSET} se confirmó."
     },
     "STOP_LOSS_TRIGGER_CREATING": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "Tu activación de detención de pérdidas se está creando en {NEW_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Tu activación de detención de pérdida se está creando en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATING_ERROR": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "No se pudo crear tu activación de detención de pérdidas en {NEW_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo crear tu activación de detención de pérdida en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_CREATED": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "Se creó tu activación de detención de pérdidas en {NEW_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se creó tu activación de detención de pérdida en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se está creando tu activación de toma de ganancias en {NEW_VALUE}."
+      "BODY": "Se está creando tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Tomar ganancias",
@@ -122,43 +122,43 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se creó tu activación de toma de ganancias en {NEW_VALUE}."
+      "BODY": "Se creó tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "Se actualizó tu activación de detención de pérdidas en {NEW_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se actualizó tu activación de detención de pérdida en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
-      "TITLE": "Detener pérdidas",
+      "TITLE": "Detención de pérdida",
       "BODY": "No se pudo reemplazar tu activación de detención de pérdidas en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "La activación de tu detención de pérdidas ahora será en {NEW_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "La activación de tu detención de pérdidas ahora se va a activar en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se está actualizando tu activación de toma de ganancias en {NEW_VALUE}."
+      "BODY": "Se está actualizando tu activación de tomar ganancias en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Tomar ganancias",
-      "BODY": "No se pudo reemplazar tu activación de toma de ganancias en {OLD_VALUE}."
+      "BODY": "No se pudo reemplazar tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Tu activación de toma de ganancias ahora será en {NEW_VALUE}."
+      "BODY": "Tu activación de toma de ganancias ahora se va a activar en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "Se está eliminando tu activación de toma de ganancias en {OLD_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se está eliminando tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "No se pudo cancelar tu activación de detención de pérdidas en {OLD_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "No se pudo cancelar tu activación de detención de pérdida en {OLD_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
-      "TITLE": "Detener pérdidas",
-      "BODY": "Se eliminó tu activación de detención de pérdidas en {OLD_VALUE}."
+      "TITLE": "Detención de pérdida",
+      "BODY": "Se eliminó tu activación de detención de pérdida en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "Tomar ganancias",
@@ -179,31 +179,31 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "Regalo de $20K",
-      "BODY": "Para celebrar la superación de 200B en el volumen de trading acumulado, dYdX está realizando un sorteo en Twitter, donde tenés la oportunidad de reclamar $200. Se elegirán 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
+      "BODY": "Para celebrar la superación de los 200,000 millones en el volumen de trading acumulado, dYdX está realizando un sorteo en Twitter, donde tenés la oportunidad de reclamar $200. Se van a elegir 100 ganadores en función de un mecanismo de selección aleatoria después del 16 de agosto de 2024 a las 23:59 UTC {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "El mercado {MARKET} cerró",
-      "BODY": "El {DATE}, el mercado {MARKET} pasó por la liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final {HERE_LINK}."
+      "BODY": "El {DATE}, el mercado {MARKET} pasó por la liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final en {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Propuesta en vivo para cerrar el {MARKET} mercado",
-      "BODY": "Actualmente, hay una propuesta en vivo para cerrar el {MARKET} mercado. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta {HERE_LINK}."
+      "TITLE": "Propuesta en vivo para cerrar el mercado {MARKET}",
+      "BODY": "Actualmente, hay una propuesta en vivo para cerrar el mercado {MARKET}. Si se aprueba, el mercado {MARKET} entrará en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta en {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Los mercados {MARKET_1} y {MARKET_2} cerraron",
-      "BODY": "El {DATE}, los mercados {MARKET_1} y {MARKET_2} pasaron por una liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final {HERE_LINK}."
+      "BODY": "El {DATE}, los mercados {MARKET_1} y {MARKET_2} pasaron por una liquidación final. Las posiciones existentes se cerraron y las órdenes abiertas ahora se cancelaron. Podés encontrar más información sobre la liquidación final en {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2}",
-      "BODY": "Actualmente, hay una propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2}. Si se aprueba, los mercados {MARKET_1} y {MARKET_2} entrarán en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta {HERE_LINK}."
+      "BODY": "Actualmente, hay una propuesta en vivo para cerrar los mercados {MARKET_1} y {MARKET_2}. Si se aprueba, los mercados {MARKET_1} y {MARKET_2} van a entrar en una liquidación final el {DATE}. Las posiciones existentes se van a cerrar y las órdenes abiertas se van a cancelar. Podés encontrar más información sobre la propuesta en {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Propuesta en vivo para actualizar los parametros de {MARKET}",
-      "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros del mercado {MARKET}. Si se aprueba, el mercado {MARKET} tendrá Coinbase Pro {MARKET} como la única fuente de oráculo. Podés encontrar más información sobre la propuesta {HERE_LINK}."
+      "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros del mercado {MARKET}. Si se aprueba, el mercado {MARKET} va a tener Coinbase Pro {MARKET} como la única fuente de oráculo. Podés encontrar más información sobre la propuesta en {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "¡Opera en las elecciones presidenciales de Estados Unidos!",
-      "BODY": "{MARKET} ahora está en vivo. Este mercado se liquidará en $1 si Donald J. Trump gana la elección de 2024. De lo contrario, se liquidará en $0,001."
+      "TITLE": "¡Operá en las elecciones presidenciales de Estados Unidos!",
+      "BODY": "{MARKET} ahora está en vivo. Este mercado se va a liquidar en $1 si Donald J. Trump gana la elección de 2024. De lo contrario, se va a liquidar en $0,001."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "¡dYdX ahora es compatible con Keplr!",
@@ -215,11 +215,11 @@
     },
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Nueva experiencia simplificada en iOS",
-      "BODY": "Una nueva experiencia simplificada ya está disponible para los comerciantes móviles. Cambie de profesional a simplificado ahora en iOS."
+      "BODY": "Ya está disponible una nueva experiencia simplificada para los comerciantes móviles. Cambiá de profesional a simplificado ahora en iOS."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
       "TITLE": "Actualización de los mercados para uso de margen cruzado",
-      "BODY": "Actualmente está en curso una propuesta de gobernanza para actualizar {MARKETS}del margen aislado al margen cruzado, lo que puede afectar las posiciones abiertas en estos mercados y aumentar el riesgo de liquidación. Se recomienda enfáticamente a los comerciantes que tengan precaución y consideren cerrar sus posiciones si es necesario."
+      "BODY": "Actualmente está en curso una propuesta de gobernanza para actualizar {MARKETS} del margen aislado al margen cruzado, lo que puede afectar las posiciones abiertas en estos mercados y aumentar el riesgo de liquidación. Se recomienda enfáticamente a los comerciantes que tengan precaución y consideren cerrar sus posiciones si es necesario."
     }
   }
 }
