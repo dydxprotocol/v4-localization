@@ -8,17 +8,17 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Assinatura legada",
-      "BODY": "Marque esta opção apenas se você usou a assinatura com carteira de hardware\/assinatura legada para gerar suas chaves."
+      "BODY": "Marque esta opção apenas se você já usou a assinatura com carteira de hardware\/assinatura legada para gerar suas chaves."
     },
     "REMEMBER_ME": {
       "TITLE": "Lembrar-me",
-      "BODY": "Use “Lembrar-me” se estiver usando um dispositivo seguro de sua propriedade. Selecionar esta opção pode expor suas chaves e informações a outros se você estiver em um dispositivo público ou não seguro."
+      "BODY": "Use “Lembrar-me” apenas se estiver usando um dispositivo seguro de sua propriedade. Selecionar esta opção pode expor suas chaves e informações a terceiros se você estiver em um dispositivo público ou não seguro."
     }
   },
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Comissões de afiliados",
-      "BODY": "Os afiliados ganham comissão sobre as taxas de taker pagas pelos usuários indicados. Para gerar participação de taxas de afiliado, os usuários indicados devem ter um volume de 30 dias abaixo de US$ 50 milhões quando fizerem o trade."
+      "BODY": "Os afiliados ganham comissão sobre as taxas taker pagas pelos usuários indicados. Para gerar participação de taxas de afiliado, os usuários indicados devem ter um volume contínuo de 30 dias abaixo de US$ 50 milhões quando fizerem o trade."
     }
   },
   "PORTFOLIO": {
@@ -81,15 +81,15 @@
       "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de \"gas\" para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Preencher ou encerrar",
-      "BODY": "As ordens de preencher ou encerrar devem ser completamente preenchidas após a execução, ou serão canceladas automaticamente."
+      "TITLE": "Execução imediata",
+      "BODY": "As ordens de execução imediata devem ser completamente preenchidas após a execução, ou serão canceladas automaticamente."
     },
     "FREE_COLLATERAL": {
-      "TITLE": "Sem garantia",
+      "TITLE": "Garantia gratuita",
       "BODY": "O valor máximo que você pode sacar. Quando o valor sem garantia é 0 ou negativo, sua conta está usando a alavancagem máxima."
     },
     "GOOD_TIL": {
-      "TITLE": "Válida até",
+      "TITLE": "Válido até",
       "BODY": "Tempo até sua ordem expirar."
     },
     "IMMEDIATE_OR_CANCEL": {
@@ -102,7 +102,7 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fração de margem inicial",
-      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor referencial de posição de um trader dividido por equity. Se a fração de margem exceder a fração de margem inicial do trader, ele não terá mais permissão para aumentar sua posição."
+      "BODY": "A fração de margem inicial define o valor de alavancagem que um trader pode usar inicialmente, ao entrar em uma posição. IMF é calculado como um valor referencial de posição de um trader dividido pelo patrimônio. Se a fração de margem exceder a fração de margem inicial de um trader, ele não terá mais permissão para aumentar sua posição."
     },
     "INITIAL_STOP": {
       "TITLE": "Stop inicial",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Preço de liquidação",
-      "BODY": "Se o preço de oracle da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
+      "BODY": "Se o preço de oráculo da posição de mercado cruzar o preço de liquidação, sua posição será liquidada. Após a liquidação, sua posição será fechada automaticamente e uma taxa de liquidação de pelo menos 1% será avaliada (pode ser mais alta, dependendo da liquidez no momento da liquidação)."
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
@@ -150,7 +150,7 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fração da margem de manutenção",
-      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como o valor referencial de posição de um trader dividido por equity. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pagado a penalidade de liquidação máxima de 1,5%."
+      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como o valor referencial de posição de um trader dividido pelo patrimônio. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pagado a penalidade de liquidação máxima de 1,5%."
     },
     "MAKER_FEE": {
       "TITLE": "Taxa de maker",
@@ -186,7 +186,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Preço do oráculo",
-      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo on-chain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas no valor de ativos (flash crashes)."
+      "BODY": "A alavancagem e as liquidações são determinadas com base no preço do oráculo onchain. O preço do oráculo agrega os dados de preço de várias exchanges, protegendo você de eventos como quedas repentinas no valor de ativos (flash crashes)."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Valor da ordem",
@@ -198,10 +198,10 @@
     },
     "PARTIAL_CLOSE_STOP_LOSS": {
       "TITLE": "Uma Stop loss é um fechamento parcial.",
-      "BODY": "A Stop Loss não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
+      "BODY": "Sua Stop Loss não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
-      "TITLE": "Take Profit é um fechamento parcial.",
+      "TITLE": "Take profit é um fechamento parcial.",
       "BODY": "Sua ordem de Take profit não está configurada para fechar toda a sua posição. Isso pode ocorrer porque você definiu um valor personalizado ou porque alterou o tamanho da posição após acrescentar esse disparo."
     },
     "PORTFOLIO_VALUE": {
@@ -217,12 +217,12 @@
       "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
     "POST_ONLY": {
-      "TITLE": "Ordem Somente publicar",
+      "TITLE": "Ordem Post-Only",
       "BODY": "Ordens com a opção post-only podem ser colocadas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Ordem Somente publicar",
-      "BODY": "A ordem Somente publicar somente estará disponível se o Tempo em vigor estiver definido como Good Til Time."
+      "TITLE": "Ordem Post-Only",
+      "BODY": "A ordem Post-Only somente estará disponível se o Tempo em vigor estiver definido como Good Til Time."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto do preço",
@@ -230,18 +230,18 @@
     },
     "REALIZED_PNL": {
       "TITLE": "Lucro\/perda realizados",
-      "BODY": "Lucros\/perdas totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short e vice-versa)."
+      "BODY": "Lucros\/perdas totais realizados para esta posição por meio de fechamentos parciais, taxas e financiamento. É redefinido se você fechar totalmente sua posição ou alterar o tipo de posição (long para short ou vice-versa)."
     },
     "REDUCE_ONLY": {
-      "TITLE": "Apenas reduzir",
-      "BODY": "A opção apenas reduzir impede que uma ordem altere o tipo de sua posição (long para short e vice-versa). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
+      "TITLE": "Apenas redução",
+      "BODY": "A opção de apenas reduzir impede que uma ordem altere o tipo de sua posição (long para short ou vice-versa). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
-      "TITLE": "Somente reduzir",
+      "TITLE": "Apenas redução",
       "BODY": "Somente reduzir está disponível somente se o Tempo em vigor estiver definido como IOC."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
-      "TITLE": "Somente reduzir",
+      "TITLE": "Apenas redução",
       "BODY": "Somente reduzir está disponível somente se a execução estiver definida como IOC."
     },
     "REWARDS_EARNED": {
@@ -250,7 +250,7 @@
     },
     "SPREAD": {
       "TITLE": "Spread",
-      "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a vender) de um ativo."
+      "BODY": "A diferença de preço entre a oferta mais elevada (ou seja, o preço pelo qual um comprador está disposto a comprar) e o menor preço de venda (o preço pelo qual o vendedor está disposto a fazer a venda) de um ativo."
     },
     "STEP_SIZE": {
       "TITLE": "Intervalo de aumento\/redução",
@@ -270,15 +270,15 @@
     },
     "TAKER_FEE": {
       "TITLE": "Taxa de taker",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) executam como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take profit",
       "BODY": "Permite que os traders definam metas e protejam os lucros nas posições especificando um preço para fechamento de uma posição aberta para lucro."
     },
     "TARGET_LEVERAGE": {
-      "TITLE": "Alavancagem alvo",
-      "BODY": "A alavancagem alvo definida como {TARGET_LEVERAGE}×, que determina o valor de margem usado para sua próxima ordem."
+      "TITLE": "Alavancagem-alvo",
+      "BODY": "A alavancagem-alvo definida como {TARGET_LEVERAGE}×, que determina o valor de margem usado para sua próxima ordem."
     },
     "TICK_SIZE": {
       "TITLE": "Valor de tick",
@@ -322,7 +322,7 @@
       "BODY": "As taxas de “gas” são taxas de transação na cadeia de origem, neste caso {SOURCE_CHAIN}."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Depósitos sem \"gas\"",
+      "TITLE": "Depósitos sem taxas",
       "BODY": "A dYdX cobrirá suas taxas de “gas” se você depositar {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou mais. Você é elegível para um depósito sem cobrança de tarifa a cada três dias. Os depósitos sem cobrança de tarifa estão sujeitos às regras."
     },
     "LOWEST_FEE_DEPOSITS": {
@@ -369,7 +369,7 @@
     },
     "BRIDGE_FEES": {
       "TITLE": "Taxas de bridge",
-      "BODY": "As taxas de  Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este saque."
+      "BODY": "As taxas de Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este saque."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Valor mínimo recebido",
@@ -394,7 +394,7 @@
   },
   "TOKEN_MIGRATION": {
     "DYDX_CHAIN_SETTLEMENT": {
-      "TITLE": "Liquidação na Cadeia dYdX",
+      "TITLE": "Liquidação na cadeia dYdX",
       "BODY": "Para garantir a segurança do protocolo, os validadores da cadeia dYdX adiam a liquidação da cadeia dYdX DYDX."
     }
   },
@@ -430,7 +430,10 @@
       "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
     },
     "VAULT_APR": {
-      "BODY": "Est. de APR é o retorno anualizado do mês anterior. Os retornos reais dependem de rendimentos futuros incertos (compartilhamento de receita do protocolo, além de lucros e perdas) e não são garantidos. {LEARN_MORE}"
+      "BODY": "Est. de O APR é o retorno do mês anterior anualizado. Os retornos reais dependem de rendimentos futuros incertos (compartilhamento de receita do protocolo, além de lucros e perdas) e não são garantidos. {LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "Est. de O APR é o retorno dos últimos 90 dias anualizado. Os retornos reais dependem de rendimentos futuros incertos (compartilhamento de receita do protocolo, além de lucros e perdas) e não são garantidos. {LEARN_MORE}"
     }
   },
   "SIMPLE_UI": {
