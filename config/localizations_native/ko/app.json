@@ -96,7 +96,7 @@
       "SERVICE_STATUS_CANCEL_ONLY": "취소만 가능",
       "SERVICE_STATUS_OFFLINE": "오프라인",
       "SERVICE_STATUS_ONLINE": "온라인",
-      "SERVICE_STATUS_POST_ONLY": "포스트 온리",
+      "SERVICE_STATUS_POST_ONLY": "게시 전용",
       "SHARE_YOUR_RANKING": "순위 공유하기",
       "SHARE_YOUR_RANKING_TEXT": "다른 트레이더에게 자신의 거래 현황을 알려주세요",
       "SIGN_OUT": "로그아웃",
@@ -315,8 +315,8 @@
         "OPEN": "{TOKEN} 포지션 열기",
         "CLOSE": "{TOKEN} 포지션 종료",
         "INCREASE": "{TOKEN} 포지션 증가",
-        "DECREASE": "{TOKEN} 포지션 감소",
-        "CROSS_SIDE": "{TOKEN} 포지션을 {SIDE} 포지션으로 변경"
+        "DECREASE": "{TOKEN}포지션 감소",
+        "CROSS_SIDE": "{TOKEN}포지션을 {SIDE} 포지션으로 변경"
       }
     },
     "COMPLIANCE": {
@@ -465,6 +465,17 @@
     "TITLE": "업데이트",
     "TEXT": "해당 버전은 더 이상 지원되지 않습니다. 최신 버전으로 업데이트하십시오.",
     "ACTION": "앱 업데이트"
+  },
+  "SURVEY": {
+    "SIMPLE_TO_PRO": {
+      "TITLE": "간소화된 거래 경험에 대해 어떻게 생각하십니까? (해당하는 것을 모두 선택하세요)",
+      "OPTION_1": "익숙한 프로 모드 선호 ",
+      "OPTION_2": "더 많은 주문 유형 필요",
+      "OPTION_3": "거래 시 추가 정보 필요 ",
+      "ADDITIONAL_FEEDBACK": "어떤 개선 사항을 제안하시겠습니까?"
+    },
+    "DO_NOT_SHOW": "다시 표시하지 않기",
+    "SUBMIT": "제출"
   },
   "ERRORS": {
     "TRADE_BOX": {
