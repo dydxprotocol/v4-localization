@@ -10,19 +10,19 @@
     },
     "DELEVERAGED": {
       "TITLE": "포지션 차감됨",
-      "BODY": "{MARKET}의 {SIDE} 포지션이 차감되었습니다."
+      "BODY": "{MARKET}의 {SIDE} 포지션이 디레버리징되었습니다. "
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30분 안에 최대 200달러를 벌어보세요!",
       "BODY": "사용자 인터뷰에 참여하고 피드백을 공유하여 최고의 거래 경험을 누려보세요. 스팟은 제한되어 있으므로 {HERE_LINK}을(를) 클릭하여 가입하거나 자세히 알아보세요!"
     },
     "FINAL_SETTLEMENT": {
-      "TITLE": "포지션 정산됨",
-      "BODY": "{MARKET}이(가) 마감되었습니다. {MARKET}의 {SIDE} 포지션이 최종 정산되었습니다."
+      "TITLE": "포지션 설정됨 ",
+      "BODY": "{MARKET}이(가) 마감되었습니다. 귀하의 {SIDE} 포지션이 {MARKET} 최종 확정되었습니다."
     },
     "FOK_DEPRECATION": {
-      "TITLE": "사용되지 않는 FOK 주문",
-      "BODY": "Fill-or-Kill(FOK) 주문이 더 이상 사용되지 않습니다. 다른 모든 주문 유형은 계속 사용할 수 있습니다."
+      "TITLE": "FOK 주문 사용 중단 ",
+      "BODY": "Fill-or-Kill(FOK) 주문이 중단되었습니다. 다른 모든 주문 유형은 계속 사용할 수 있습니다."
     },
     "IN_APP_STAKING_LIVE": {
       "TITLE": "이제 DYDX를 스테이킹할 수 있습니다!",
@@ -37,28 +37,28 @@
       "BODY": "출시 인센티브 프로그램에 참여해 주셔서 감사합니다. 향후 보상 프로그램에 대한 업데이트를 계속 지켜보세요!"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "격리 마진이 라이브 상태입니다",
-      "BODY": "격리 마진이 현재 라이브 상태입니다! 자세한 내용은 {LEARN_MORE}을(를) 참조하십시오."
+      "TITLE": "격리 마진이 출시되었습니다 ",
+      "BODY": "격리 마진이 현재 출시되었습니다! 자세한 내용은 {LEARN_MORE}을(를) 참조하십시오."
     },
     "REWARDS_DISTRIBUTED": {
-      "TITLE": "시즌 {SEASON_NUMBER} 출시 보상이 분배되었습니다!",
+      "TITLE": "시즌 {SEASON_NUMBER} 출시 보상이 배포되었습니다!",
       "BODY": "시즌 {SEASON_NUMBER} 보상 + {DYDX_AMOUNT}DYDX"
     },
     "OFFSETTING": {
       "TITLE": "포지션 오프셋",
-      "BODY": "{MARKET}의 {SIDE} 포지션이 차감된 포지션을 상쇄하는 데 사용되었습니다."
+      "BODY": "귀하의 {SIDE} 포지션은 {MARKET} 디레버리징된 포지션을 상쇄하는 데 사용되었습니다. "
     },
     "ORDER_FILL": {
-      "TITLE": "주문 체결됨",
+      "TITLE": "주문 처리됨 ",
       "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 ${AVERAGE_PRICE}에 체결되었습니다."
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "주문이 부분적으로 체결됨",
-      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문의 {FILLED_AMOUNT} {MARKET}이(가) 완료되었습니다."
+      "TITLE": "주문이 부분적으로 처리됨 ",
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 {FILLED_AMOUNT} {MARKET} 완료되었습니다."
     },
     "ORDER_TRIGGERED": {
-      "TITLE": "주문 발동됨",
-      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 발동되었습니다."
+      "TITLE": "주문 실행됨    ",
+      "BODY": "{SIDE} {AMOUNT} {MARKET}에 대한 주문이 실행되었습니다. "
     },
     "ORDER_CANCEL": {
       "TITLE": "주문 취소됨",
@@ -93,7 +93,7 @@
       "BODY": "전체 거래는 dYdX 체인에서 실시간으로 거래됩니다! 여기에는 스테이킹 보상, 거래 보상 및 카오스 랩스의 6개월 출시 인센티브 프로그램이 포함됩니다. 자세한 정보는 {DOS_BLOGPOST} 및 {TRADING_BLOGPOST}(타사 링크)을(를) 참조하십시오."
     },
     "SLOW_WITHDRAWAL_PENDING": {
-      "TITLE": "느린 출금이 진행 중입니다",
+      "TITLE": "느린 출금이 보류 중입니다",
       "BODY": "귀하의 {AMOUNT} {ASSET}의 출금은 12시간 이내에 준비될 예정입니다."
     },
     "SLOW_WITHDRAWAL_SUCCESS": {
@@ -178,15 +178,15 @@
       "ACTION": "연락하기 →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "$20,000 증정품",
-      "BODY": "누적 거래량 2000억 달러를 돌파한 것을 기념하여, dYdX는 트위터 경품 행사를 진행하고 있으며, $200를 받을 기회를 드립니다. 2024년 8월 16일 23시 59분(협정 세계시) 이후 무작위 선택 메커니즘을 기준으로 100명의 당첨자가 선정됩니다: {HERE_LINK}."
+      "TITLE": "20,000 달러 증정품",
+      "BODY": "누적 거래량 2000억 달러를 돌파한 것을 기념하여, dYdX는 트위터 경품 행사를 진행하고 있으며, $200를 받을 기회를 드립니다. 2024년 8월 16일 23시 59분(협정 세계시) 이후 무작위 선택 메커니즘에 따라 100명의 당첨자가 선정됩니다: {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} 시장이 하락했습니다",
       "BODY": "{DATE}에서 {MARKET} 시장은 최종 정산을 거쳤습니다. 기존 포지션이 마감되었으며 미결 주문이 취소되었습니다. {HERE_LINK} 최종 정산에 대한 자세한 내용을 볼 수 있습니다."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "{MARKET} 시장을 종료하기 위한 라이브 제안",
+      "TITLE": "{MARKET} 시장 종료를 위한 라이브 제안 ",
       "BODY": "현재 {MARKET} 시장을 종료하기 위한 라이브 제안이 있습니다. 제안이 통과되면 {MARKET} 시장은 {DATE} 최종 정산에 들어갑니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "TWO_MARKET_WIND_DOWN": {
@@ -195,7 +195,7 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1} 및 {MARKET_2} 시장 마감을 위한 라이브 제안",
-      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 대기 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
+      "BODY": "{MARKET_1} 및 {MARKET_2} 시장을 마감하기 위한 라이브 제안이 현재 있습니다. 통과된 경우 {MARKET_1} 및 {MARKET_2} 시장이 {DATE}에 최종 정산을 입력합니다. 기존 포지션이 마감되고 미결 주문이 취소됩니다. {HERE_LINK} 제안에 대한 자세한 내용을 확인할 수 있습니다."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET} 매개변수를 업데이트하는 라이브 제안",
@@ -203,7 +203,7 @@
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "미국 대통령 선거를 거래하세요!",
-      "BODY": "{MARKET}은(는) 현재 라이브 상태입니다. 이 시장은 도널드 트럼프가 2024년 선거에서 승리하면 1달러로 정산됩니다. 그렇지 않으면 $0.001로 정산됩니다."
+      "BODY": "{MARKET}은(는) 현재 라이브 상태입니다. 이 시장은 도널드 트럼프가 2024년 선거에서 승리하면 1달러로 안정화됩니다.  그렇지 않으면 $0.001로 정산됩니다."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX가 이제 Keplr을 지원합니다!",
@@ -215,11 +215,11 @@
     },
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "새롭고 간편한 iOS 환경",
-      "BODY": "이제 모바일 거래자를 위해 새롭고 간소화된 경험을 사용할 수 있습니다. iOS에서 프로에서 지금 단순화로 전환하세요."
+      "BODY": "이제 모바일 거래자를 위해 새롭고 간소화된 경험을 사용할 수 있습니다. iOS에서 프로에서 지금 간소화로 전환하세요."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
       "TITLE": "교차 마진으로 시장 업그레이드",
-      "BODY": "격리된 마진에서 교차 마진으로 {MARKETS}을(를) 업그레이드하려는 거버넌스 제안이 현재 진행 중이며, 이는 이러한 시장에서 열린 포지션에 영향을 미치고 청산 위험을 증가시킬 수 있습니다. 거래자는 주의를 기울이고 필요한 경우 포지션을 청산할 것을 강력히 권장합니다."
+      "BODY": "격리된 마진에서 교차 마진으로 {MARKETS}을(를) 업그레이드하려는 거버넌스 제안이 현재 진행 중이며, 이는 해당 시장의 미결제 포지션에 영향을 미치고 청산 위험을 증가시킬 수 있습니다. 트레이더는 주의를 기울이고 필요한 경우 포지션을 청산할 것을 강력히 권장합니다."
     }
   }
 }
