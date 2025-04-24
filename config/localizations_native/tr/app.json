@@ -466,9 +466,20 @@
     "TEXT": "Bu versiyon artık desteklenmiyor. Lütfen en son versiyona güncelleyin.",
     "ACTION": "Uygulamayı Güncelle"
   },
+  "SURVEY": {
+    "SIMPLE_TO_PRO": {
+      "TITLE": "Basitleştirilmiş alım satım deneyimi hakkında ne düşünüyorsunuz? (geçerli olan seçeneklerin tümünü işaretleyin)",
+      "OPTION_1": "Pro modunun tanıdık özelliklerini tercih ediyorum",
+      "OPTION_2": "Daha fazla emir türüne ihtiyacım var",
+      "OPTION_3": "Alım satım yaparken daha fazla bilgiye ihtiyacım var",
+      "ADDITIONAL_FEEDBACK": "Ne gibi iyileştirmeler önerirsiniz?"
+    },
+    "DO_NOT_SHOW": "Bir daha gösterme",
+    "SUBMIT": "Gönder"
+  },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu emir tasfiyeniz gerçekleşmeden önce tamamen yerine getirilmeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin veya bir Durdurma Limit emri kullanın.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın - bu emir, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} altında bir tetikleme fiyatı girin veya bir Durdurma Limit emri kullanın.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "{SYMBOL} üzerindeki pozisyonunuzu yalnızca kapatabilir veya azaltabilirsiniz.",
       "GEO_LOCATION_RESTRICTED": "Sürekli Varlıklar Amerika Birleşik Devletleri veya başka bir kısıtlı bölgede ikamet eden, fiziksel olarak orada bulunan, orada kurulmuş olan veya kayıtlı bir temsilcisi bulunan firma veya kişilerin kullanımına açık değildir. Daha fazla ayrıntı Kullanım Şartları metnimizde bulunabilir.",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu emir tasfiyeniz gerçekleşmeden önce tamamen yerine getirilmeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin veya bir Durdurma Limit emri kullanın.",

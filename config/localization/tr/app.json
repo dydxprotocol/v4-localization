@@ -910,6 +910,7 @@
       "APPEARS_OUTSIDE_ACCESS": "dYdX'e Amerika Birleşik Devletleri dışından veya yasaklı bir bölgeden erişmek istediğiniz belirlendi. Bu şartları kabul, beyan ve garanti etmektesiniz:",
       "BRIDGING_TOKENS": "Token köprüleme",
       "CHAIN_GAS_FEES": "{CHAIN} gaz ücretleri",
+      "CHAIN_GAS_FEES_SHORT": "{CHAIN} gaz",
       "CHECK_WALLET_FOR_REQUEST": "Talep için cüzdanı kontrol edin...",
       "COMING_SOON": "Yakında geliyor!",
       "COMPLETE_ONBOARDING": "Katılım sürecini tamamla",
@@ -941,6 +942,7 @@
       "ESTIMATED_TIME": "Tahmini süre",
       "EXCHANGES": "Borsalar",
       "FINISH_ONBOARDING_DESCRIPTION": "dYdX üzerinde alım satıma başlamak için katılım akışını tamamlayın",
+      "FREE_AND_INSTANT": "Ücretsiz ve Anında",
       "FREE_SIGNING": "İmzalama {FREE} ve bir işlem göndermez.",
       "FUND_YOUR_SUBACCOUNT": "IBC transferiniz alındıktan sonra dYdX alt hesap bakiyenizi fonlayın.",
       "GASLESS_ONBOARDING_RULES": "Gas Ücreti Olmadan Yatırma İşlemi Kuralları",
@@ -1002,7 +1004,9 @@
       "SIGN_IN_WITH_EMAIL": "E-posta ile giriş yapın",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC} tarafından sağlanan, giriş yapmanın basit bir yolu",
       "SKIP_FAST_ROUTE_DESC": "$$  ücret, ${LIMIT_AMOUNT} limit",
+      "SKIP_FAST_ROUTE_DESC_1": "${FEE} ücret, ${LIMIT_AMOUNT} limit",
       "SKIP_SLOW_ROUTE_DESC": "$ ücret, limit yok",
+      "SKIP_SLOW_ROUTE_DESC_1": "Düşük ücretler, limit yok",
       "SKIP_FOR_NOW": "Şimdilik atla",
       "SITE_OPERATED_BY_SHORT": "Bu site, dYdX Trading Inc. {NAME_OF_DEPLOYER} tarafından sağlanan açık kaynaklı yazılım kullanılarak {LEARN_MORE_LINK} tarafından işletilmektedir.",
       "SITE_OPERATED_BY_LONG": "Bu site, yazılımın Amerika Birleşik Devleri'nde veya diğer kısıtlı yargı bölgelerinde bulunan kişiler tarafından kullanılmasını yasaklayan {TERMS_OF_USE} hükümlerine tabi olarak, üçüncü taraf dYdX Trading Inc.'in sağladığı açık kaynaklı belirli yazılımlar kullanılarak {DEPLOYER_TERMS_AND_CONDITIONS} hükümlerine uygun şekilde {NAME_OF_DEPLOYER} tarafından işletilmektedir. dYdX blok zinciri, bağımsız doğrulayıcılardan oluşan bir topluluk tarafından desteklenmektedir. {LEARN_MORE_LINK}",
@@ -2115,6 +2119,18 @@
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Yönetişim, ödüller ve stake etme ile ilgili hizmetler, bu arayüzün sahibi ve operatöründen (\"Operatör\") bağımsız ve bunlarla bağlantısı olmayan üçüncü taraflarca, Operatörün müdahalesi olmaksızın üçüncü taraf sitelerinde doğrudan size sağlanır. {TERMS_OF_USE_LINK} koşullarını bildiğinizi ve değişken ödül oranları, slashing ve stake etmeye özgü diğer riskler dahil olmak üzere bu hizmetlerle ilişkili riskleri anladığınızı kabul edersiniz. Bu web sitesindeki hiçbir şey finansal tavsiye, hukuki tavsiye, vergi tavsiyesi, yatırım tavsiyesi veya başka herhangi bir tavsiye olarak yorumlanmamalı veya bunlara güvenilmemelidir. Hizmetlerle ilgili herhangi bir işlem yapmadan önce bağımsız araştırma yapmak, durum tespiti yapmak ve profesyonel bir danışmandan tavsiye almaktan yalnızca siz sorumlusunuz.",
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "Bu üçüncü taraf hizmetleri; ABD, Kanada veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir."
     },
+    "REWARDS_SURGE_APRIL_2025": {
+      "SURGE_HEADLINE": "dYdX Atağı: 2 Milyon Dolar için Yarışın",
+      "SURGE_BODY": "Her ay dYdX yatırımcılarına 2,2 Milyon dolara kadar ödül dağıtılmaktadır. Harekete geçin ve daha fazla bilgi edinmek için Lider Tablosuna tıklayın.",
+      "SURGE_HOW_IT_WORKS": "Nasıl Çalışır?",
+      "SURGE_HOW_IT_WORKS_1": "Katılmak için dYdX üzerinde bir alım satım yapmanız yeterlidir.",
+      "SURGE_HOW_IT_WORKS_2": "Alım satım faaliyetiniz size puanlar kazandırıp liderlik tablosundaki sıralamanızı belirler.",
+      "SURGE_HOW_IT_WORKS_3": "Ödüller her sezonun sonunda dağıtılır.",
+      "SURGE_HOW_TO_EARN": "Daha Fazla Puan Kazanma",
+      "SURGE_HOW_TO_EARN_1": "Genel (%50) - Alıcılar tarafından ödenen alım satım ücretlerine dayanarak sermaye açısından verimli stratejileri ödüllendirir.",
+      "SURGE_HOW_TO_EARN_2": "Bireysel (%25) - dYdX web ve mobil arayüzleri aracılığıyla yapılan alıcı işlemleri için.",
+      "SURGE_HOW_TO_EARN_3": "Etkinleştirme (%25) - Yeni özellikleri, DYDX yatırmayı, kilit piyasalarda likiditeyi ve geçmiş kullanıcıların yeniden etkileşimini teşvik etmek için tasarlanmıştır."
+    },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "{AMOUNT}. Dönem boyunca {EPOCH_NUMBER} $DYDX ödülü kazandınız! Ödüllerinizi yönetişim panelinde talep edin.",
       "YOU_EARNED": "Ödül kazandınız!"
@@ -2503,6 +2519,7 @@
   },
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "Cüzdan bakiyesi, işlem ücretlerini karşılamak için yetersiz; lütfen daha fazla fon yatırın.",
+    "BROADCAST_ERROR_SDK_32": "Gönderilen zaman damgası nonce değeri, seçilen düğümün geçerli zaman aralığı içinde olmadığı için işlem işlenemedi. Lütfen sayfayı yenileyin ve tekrar deneyin.",
     "BROADCAST_ERROR_CLOB_2000": "Karşıla veya İptal Et emri tam olarak karşılanamadı.",
     "BROADCAST_ERROR_CLOB_2001": "Sadece azaltma emirleri pozisyon boyutunu artıramaz.",
     "BROADCAST_ERROR_CLOB_2002": "Sadece azaltma emirleri pozisyon tarafını değiştiremez.",
@@ -2541,6 +2558,7 @@
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Bu IP adresi için hız limitine ulaşıldı. Lütfen daha sonra tekrar deneyin.",
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Bir şey ters gitti: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
+      "NETWORKING_ERROR": "Ağa bağlanırken hata oluştu. Lütfen internet bağlantınızı kontrol edin, sayfayı yenileyin ve tekrar deneyin.",
       "TIMESTAMP_DISCREPANCY": "Güvenlik nedeniyle, hesabınızın kimlik doğrulamasını yaparken zaman damgalarını doğruluyoruz. Lütfen sistem saatinizin doğru bir şekilde senkronize edildiğinden emin olun ve uygulamayı yenileyin."
     },
     "TRADE_BOX": {
@@ -2661,7 +2679,8 @@
       "LOSS_COLON": "Zarar:",
       "PRICE_MUST_POSITIVE": "Tüm giriş fiyatları pozitif olmalıdır. Lütfen giriş fiyatlarınızı ayarlayın.",
       "PROFIT_COLON": "Kâr:",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın; bu talimat tasfiyeniz gerçekleşmeden önce tamamen yürütülemeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin.",
+      "TRIGGERS_EQUITY_TIER_ERROR": "Öz varlık seviyesi limiti nedeniyle emir verilemiyor. Mevcut alt hesapta {CURRENT_EQUITY} net varlık olduğundan en fazla {MAX_ORDERS} açık emre sahip olabilir. Limiti artırmak için bu alt hesapta varlığı {NEXT_TIER_EQUITY} seviyesine yükseltin.",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE_NO_LIMIT": "Tetikleme fiyatınız tasfiye fiyatınıza çok yakın - bu emir, tasfiyenizin gerçekleşmesinden önce tam olarak yerine getirilmeyebilir. Lütfen {TRIGGER_PRICE_LIMIT} üzerinde bir tetikleme fiyatı girin.",
       "STOP_LOSS_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Zarar durdurma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın üstünde olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
       "STOP_LOSS_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Zarar durdurma limit fiyatınız, bu emrin gerçekleştirilebilmesi için tetiklenme fiyatınızın altında olmalıdır. Lütfen limit fiyatınızı ayarlayın.",
       "STOP_LOSS_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Zarar durdurma tetikleme fiyatınız, mevcut oracle fiyatından yüksek olmalıdır: {INDEX_PRICE}.",
