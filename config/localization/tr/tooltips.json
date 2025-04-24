@@ -4,7 +4,7 @@
       "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{EVM_ADDRESS}\" Ethereum adresinin imzasından oluşturulmuştur."
     },
     "DYDX_ADDRESS_FROM_SOLANA": {
-      "BODY": "dYdX Zinciri adresiniz \"{DYDX_ADDRESS}\" \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
+      "BODY": "\"{DYDX_ADDRESS}\" dYdX Zinciri adresiniz \"{SOLANA_ADDRESS}\" Solana adresinin imzasından oluşturulmuştur."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Eski İmza",
@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Bağlı kuruluş komisyonları",
-      "BODY": "Bağlı ortaklar, önerilen kullanıcılar tarafından ödenen alıcı ücretlerinden komisyon kazanır. Bağlı ortak ücret payı oluşturmak için önerilen kullanıcılar alım satım işlemi yaparken 30 günlük hacmi 50 milyon $'ın altına düşürmelidir."
+      "BODY": "Bağlı kuruluşlar, önerilen kullanıcılar tarafından ödenen alıcı ücretlerinden komisyon kazanır. Bağlı kuruluş ücret payı oluşturmak için önerilen kullanıcılar alım satım işlemi yaparken 30 günlük hacmi 50 milyon $'ın altına düşürmelidir."
     }
   },
   "PORTFOLIO": {
@@ -78,11 +78,11 @@
     },
     "FEE": {
       "TITLE": "Alım Satım Ücreti",
-      "BODY": "Alım satım ücretleri, alım satım hacminizin bir yüzdesine göre ağ tarafından tahsil edilir. Alım satım ücretleri doğrulayıcılara ve DYDX stake edenlere tahakkuk eder. dYdX üzerinde işlem yapmak için gas ücreti yoktur."
+      "BODY": "Alım satım ücretleri, alım satım hacminizin bir yüzdesine göre ağ tarafından tahsil edilir. Alım satım ücretleri doğrulayıcılara ve DYDX stake edenlere tahakkuk eder. dYdX üzerinde işlem yapmak için gaz ücreti yoktur."
     },
     "FILL_OR_KILL": {
       "TITLE": "Karşıla Veya İptal Et",
-      "BODY": "Karşıla veya sonlandır türündeki emirler gerçekleştikten sonra derhal karşılanmalıdır, aksi takdirde otomatik olarak iptal edilecektir."
+      "BODY": "Karşıla veya iptal et türündeki emirler gerçekleştikten sonra derhal karşılanmalıdır, aksi takdirde otomatik olarak iptal edilecektir."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Ücretsiz Teminat",
@@ -142,7 +142,7 @@
     },
     "LIQUIDATION_PRICE_GENERAL": {
       "TITLE": "Tasfiye Fiyatı",
-      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiye üzerine, pozisyonunuz otomatik olarak kapatılacak ve en az %1 oranında bir tasfiye ücreti tahakkuk ettirilecektir (tasfiye sırasındaki likiditenize bağlı olarak daha yüksek olabilir)."
+      "BODY": "Pozisyon piyasasının oracle fiyatı tasfiye fiyatını aşarsa pozisyonunuz tasfiye edilecektir. Tasfiyeden sonra, pozisyonunuz otomatik olarak kapatılacak ve en az %1'lik bir tasfiye ücreti belirlenecektir (tasfiye esnasındaki likiditenize bağlı olarak daha yüksek olabilir)."
     },
     "LIQUIDITY": {
       "TITLE": "Likidite",
@@ -174,7 +174,7 @@
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Tahmin Edilen Ödüller",
-      "BODY": "dYdX üzerinde alım satım yaparken ödüller kazanın. Gerçek ödüller değişebilir."
+      "BODY": "dYdX üzerinde alım satım yaparken ödül kazanın. Gerçek ödüller değişebilir."
     },
     "NET_FUNDING": {
       "TITLE": "Net Fonlama",
@@ -201,8 +201,8 @@
       "BODY": "Zarar durdurma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmaz. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyonunuzun büyüklüğünü değiştirmeniz olabilir."
     },
     "PARTIAL_CLOSE_TAKE_PROFIT": {
-      "TITLE": "Kâr Alma Emri, Kısmi bir Kapamadır",
-      "BODY": "Kâr alma emriniz, tüm pozisyonunuzu kapatacak şekilde yapılandırılmaz. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyonunuzun büyüklüğünü değiştirmeniz olabilir."
+      "TITLE": "Kâr Alma, Kısmi bir Kapamadır",
+      "BODY": "Kâr alma, tüm pozisyonunuzu kapatacak şekilde yapılandırılmaz. Bunun nedeni, özel bir miktar belirlemeniz veya bu tetikleyiciyi ekledikten sonra pozisyonunuzun büyüklüğünü değiştirmeniz olabilir."
     },
     "PORTFOLIO_VALUE": {
       "TITLE": "Portföy Değeri",
@@ -217,11 +217,11 @@
       "BODY": "Kaldıraç, kazançlarınız veya kayıplarınız üzerindeki çarpanı değiştirir. Kaldıracınızı artırmak, bir alım satım işleminde aynı fiyat hareketiyle kazanacağınız veya kaybedeceğiniz miktarı artırır."
     },
     "POST_ONLY": {
-      "TITLE": "Post-Only (sadece yerleştir)",
+      "TITLE": "Sadece Yerleştir",
       "BODY": "Sadece yerleştir seçeneği etkin emirler, yalnızca satıcı emirleri olarak verilebilir. Eğer bu emir, emrin verildiği anda diğer emirlerle çakışırsa, emir otomatik olarak iptal edilir."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Post-Only (sadece yerleştir)",
+      "TITLE": "Sadece Yerleştir",
       "BODY": "Sadece Yerleştir seçeneği; Yürürlükteki Süre yalnızca Geçerlilik Süresi olarak ayarlanırsa kullanılabilir."
     },
     "PRICE_IMPACT": {
@@ -234,22 +234,22 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt özelliği, bir emrin pozisyonunuzun tarafını değiştirmesine (uzundan kısaya veya kısadan uzuna) engel olur. Sadece Azalt [Reduce-Only] ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
+      "BODY": "Sadece Azalt özelliği, bir emrin pozisyonunuzun tarafını değiştirmesine (uzundan kısaya veya kısadan uzuna) engel olur. Sadece Azalt ayarlı bir emir, pozisyonunuz değiştikçe otomatik olarak yeniden boyutlanacak ve iptal olacaktır."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt seçeneği yalnızca Yürürlükteki Süre Hemen veya İptal Et (Immediate-or-Cancel - IOC) olarak ayarlanırsa kullanılabilir."
+      "BODY": "Sadece Azalt seçeneği yalnızca Yürürlükteki Süre Hemen veya İptal Et olarak ayarlanırsa kullanılabilir."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Sadece Azalt",
-      "BODY": "Sadece Azalt seçeneği yalnızca Yürütme (Execution) biçimi Hemen veya İptal Et (Immediate-or-Cancel) olarak belirlendiyse kullanılabilir."
+      "BODY": "Sadece Azalt seçeneği yalnızca Yürütme biçimi Hemen veya İptal Et olarak belirlendiyse kullanılabilir."
     },
     "REWARDS_EARNED": {
       "TITLE": "Kazanılan Ödüller",
       "BODY": "dYdX üzerinde işlem yaptığınızda ödül kazanın."
     },
     "SPREAD": {
-      "TITLE": "Alış-Satış Farkı (Spread)",
+      "TITLE": "Alış-Satış Farkı",
       "BODY": "Bir varlık için verilen en yüksek alış (bir alıcının satın almak için ödemek istediği fiyat) ve en düşük satış (bir satıcının satış yapmak istediği fiyat) fiyatları arasındaki farktır."
     },
     "STEP_SIZE": {
@@ -257,7 +257,7 @@
       "BODY": "Adım büyüklüğü, bu piyasadaki emir miktarları için izin verilen en küçük faktördür."
     },
     "STOP_LOSS": {
-      "TITLE": "Zararı Durdurma",
+      "TITLE": "Zarar Durdurma",
       "BODY": "Oracle fiyatı tetikleme fiyatıyla çakıştığında yatırımcının pozisyonunu kapatarak zararlara karşı koruma sağlar."
     },
     "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
@@ -297,8 +297,8 @@
       "BODY": "Bu piyasanın oracle fiyatı tetikleme fiyatınızla çakıştığında, durdurma\/kâr alma emriniz ya bir limit emrine dönüştürülür, ya da bir piyasa emri olarak gerçekleştirilir."
     },
     "UNREALIZED_PNL": {
-      "TITLE": "Gerçekleşmemiş Kar \/ Zarar",
-      "BODY": "Mevcut pozisyonunuzun geri kalanını mevcut oracle fiyatından tamamen kapatacak olursanız ortaya çıkacak toplam kar veya zarar. Pozisyonunuzu kapatır veya yönünü değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
+      "TITLE": "Gerçekleşmemiş Kâr \/ Zarar",
+      "BODY": "Mevcut pozisyonunuzun geri kalanını mevcut oracle fiyatından tamamen kapatacak olursanız ortaya çıkacak toplam kâr veya zarar. Pozisyonunuzu kapatır veya yönünü değiştirirseniz sıfırlanır (uzundan kısaya veya tam tersi)."
     },
     "REWARD_HISTORY": {
       "BODY": "Zaman, Koordineli Evrensel Saat (UTC) zaman dilimi içinde gösterilir"
@@ -307,7 +307,7 @@
   "DEPOSIT": {
     "AVAILABLE_GASLESS_DEPOSITS": {
       "TITLE": "Kullanılabilir",
-      "BODY": "Uygunsunuz! Gas ücreti olmadan yatırma işlemini etkinleştirmek için en az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} yatırın."
+      "BODY": "Uygunsunuz! Gaz ücreti olmadan yatırma işlemini etkinleştirmek için en az {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} yatırın."
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Köprü Ücretleri",
@@ -318,12 +318,12 @@
       "BODY": "Gaz ücretsiz yatırma işlemleri geçici olarak yapılamıyor. Merak etmeyin, yakında geri gelecek!"
     },
     "GAS_FEES_DEPOSIT": {
-      "TITLE": "Gas Ücretleri",
-      "BODY": "Gas ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
+      "TITLE": "Gaz Ücretleri",
+      "BODY": "Gaz ücretleri, bu örnekte {SOURCE_CHAIN} olan kaynak zincirdeki işlem ücretleridir."
     },
     "GASLESS_DEPOSITS": {
-      "TITLE": "Gas Ücretsiz Yatırma İşlemleri",
-      "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gas ücretlerinizi karşılayacaktır. Her üç günde bir, bir adet gas ücretsiz fon yatırma hakkınız olur. Gas ücretsiz fon yatırma kurallara tabidir."
+      "TITLE": "Gaz Ücretsiz Yatırma İşlemleri",
+      "BODY": "{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} veya daha fazla yatırırsanız dYdX gaz ücretlerinizi karşılayacaktır. Her üç günde bir, bir adet gaz ücretsiz fon yatırma hakkınız olur. Gaz ücretsiz fon yatırma kurallara tabidir."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "En Düşük Ücretli Yatırma İşlemleri",
@@ -345,7 +345,7 @@
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Ağ Ücreti",
-      "BODY": "Bu, fon yatırma işlemi için Ethereum madencilerine ödenen gas maliyetidir."
+      "BODY": "Bu, fon yatırma işlemi için Ethereum madencilerine ödenen gaz maliyetidir."
     }
   },
   "TRIGGER_ORDERS": {
@@ -357,11 +357,11 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Hızlı Çekme Ücreti",
-      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gaz ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gas maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
+      "BODY": "Hızlı çekme işlemleri anında gönderilir ve dYdX bir ücret karşılığında gaz ücretlerini karşılar. Ücretsiz çekim için lütfen yavaş çekme işlemini kullanın (kendi gaz maliyetinizi ödemeniz ve Katman 2 onayını beklemeniz gerekir)."
     },
     "GAS_FEES": {
-      "TITLE": "Gas Ücretleri",
-      "BODY": "Gas ücretleri, bu örnekte dYdX olan kaynak zincirdeki işlem ücretleridir."
+      "TITLE": "Gaz Ücretleri",
+      "BODY": "Gaz ücretleri, bu örnekte dYdX olan kaynak zincirdeki işlem ücretleridir."
     },
     "LOWEST_FEE_WITHDRAWALS": {
       "TITLE": "En Düşük Ücretli Çekme İşlemleri",
@@ -377,7 +377,7 @@
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Çekme İşlem Türleri",
-      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gaz ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gas ücretlerini ödemesi gerekir."
+      "BODY": "dYdX, Katman 2'de iki tür çekme işlemini destekler. Hızlı çekme işlemleri küçük bir ücret gerektirir fakat gaz ücreti gerektirmez ve anında gönderilir. Yavaş çekme işlemleri ücretsizdir ancak iki adım gerektirir, çok daha uzun sürer ve kullanıcıların kendi gaz ücretlerini ödemesi gerekir."
     }
   },
   "STAKE": {
@@ -430,7 +430,10 @@
       "BODY": "Zaman içindeki toplam KZ. Bu, kasa yatırma işlemlerinizin geçmiş KZ'sini içerir."
     },
     "VAULT_APR": {
-      "BODY": "Tahmini APR, geçen ayın getirilerinin yıllık olarak belirlenen değerdir. Gerçek getiriler gelecekteki belirsiz kazançlara (protokol gelir paylaşımı ve KZ - Kâr ve Zarar olarak belirlen) bağlıdır ve garanti edilmez. {LEARN_MORE}"
+      "BODY": "Tahmini APR, geçen ayın getirilerinin yıllık olarak hesaplandığı değerdir. Gerçek getiriler gelecekteki belirsiz kazançlara (protokol gelir paylaşımı ve KZ - Kâr ve Zarar olarak belirlen) bağlıdır ve garanti edilmez. {LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "Tahmini APR, son 90 günün getirilerinin yıllık olarak hesaplanmasıyla belirlenen değerdir. Gerçek getiriler gelecekteki belirsiz kazançlara (protokol gelir paylaşımı ve KZ - Kâr ve Zarar olarak belirlen) bağlıdır ve garanti edilmez. {LEARN_MORE}"
     }
   },
   "SIMPLE_UI": {
