@@ -162,7 +162,7 @@
     },
     "MARGIN_USED": {
       "TITLE": "Verwendete Marge",
-      "BODY": "Prozentsatz Ihrer gesamten Cross-Margin, der von offenen Positionen in Anspruch genommen wird."
+      "BODY": "Prozentsatz Ihrer gesamten Cross-Marge, der von offenen Positionen in Anspruch genommen wird."
     },
     "MAX_WITHDRAW": {
       "TITLE": "Maximal schnelle Auszahlung",
@@ -214,7 +214,7 @@
     },
     "POSITION_LEVERAGE": {
       "TITLE": "Positionshebel",
-      "BODY": "Die Hebelwirkung verändert den Multiplikator Ihrer Gewinne oder Verluste. Durch Erhöhen Ihrer Hebelwirkung steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
+      "BODY": "Die Hebelwirkung verändert den Multiplikator Ihrer Gewinne oder Verluste. Durch Erhöhen Ihres Hebels steigt der Gewinn\/Verlust, den Sie bei einer gleichen Kursbewegung erzielen würden."
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
@@ -273,7 +273,7 @@
       "BODY": "Trades, die dem Orderbuch Liquidität entziehen (z. B. Market- oder Crossing-Limit-Orders) werden als Taker Orders ausgeführt. Taker-Orders haben eine höhere Gebühr als Maker Orders."
     },
     "TAKE_PROFIT": {
-      "TITLE": "Take-Profit",
+      "TITLE": "Take Profit",
       "BODY": "Ermöglicht es Tradern, Ziele zu setzen und schützt Gewinne auf Positionen, indem sie einen Preis angeben, zu dem eine offene Position mit Gewinn geschlossen werden soll."
     },
     "TARGET_LEVERAGE": {
@@ -430,7 +430,10 @@
       "BODY": "Der Gesamt-P&L im Laufe der Zeit. Dies umfasst historische P&L Ihrer Einzahlungen in den Tresor."
     },
     "VAULT_APR": {
-      "BODY": "Gesch. Der APR ist die Rendite des letzten Monats auf Jahresbasis. Die tatsächlichen Renditen hängen von unsicheren zukünftigen Erträgen ab (Protokollumsatzbeteiligung und P&L) und sind nicht garantiert. {LEARN_MORE}"
+      "BODY": "Gesch. APR (Jahresrendite) ist die Rendite des letzten Monats auf Jahresbasis. Die tatsächlichen Renditen hängen von unsicheren zukünftigen Erträgen ab (Protokollumsatzbeteiligung und P&L) und sind nicht garantiert. {LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "Gesch. APR (Jahresrendite) ist die Rendite der letzten 90 Tage auf Jahresbasis. Die tatsächlichen Renditen hängen von unsicheren zukünftigen Erträgen ab (Protokollumsatzbeteiligung und P&L) und sind nicht garantiert. {LEARN_MORE}"
     }
   },
   "SIMPLE_UI": {

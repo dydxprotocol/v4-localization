@@ -179,35 +179,35 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "20 K USD Giveaway",
-      "BODY": "Zur Feier des Überschreitens des kumulativen Handelsvolumens von 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen.100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt {HERE_LINK}."
+      "BODY": "Anlässlich eines kumulativen Handelsvolumens von jetzt über 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen. 100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} Marktabschwächung",
-      "BODY": "Am {DATE} hat sich der {MARKET} Markt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+      "BODY": "Am {DATE}hat sich der M{MARKET}arkt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Abschwächung des {MARKET} Marktes",
-      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen wird, wird der {MARKET} Markt am [{DATE}] in die Endabrechnung eintreten. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zur Abschwächung des {MARKET}Marktes",
+      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen wird, wird für den {MARKET}Markt am []{DATE} die Endabrechnung ausgelöst. Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "Märkte {MARKET_1} und {MARKET_2} rückläufig",
-      "BODY": "Am {DATE} durchliefen die Märkte {MARKET_1} und {MARKET_2} die Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders wurden nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+      "TITLE": "Märkte {MARKET_1}und r{MARKET_2}ückläufig",
+      "BODY": "Am {DATE}erfolgte für die Märkte u{MARKET_1}nd di{MARKET_2}e Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Abschwächung der Märkte {MARKET_1} und {MARKET_2}.",
-      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die {MARKET_1} und die {MARKET_2} Märkte abzubauen. Wenn sie bestanden haben, treten die {MARKET_1} und die {MARKET_2} Märkte in die Endabrechnung am ein {DATE}. Bestehende Positionen werden geschlossen und offene Orders werden storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zum Abbau der Märkte {MARKET_1}und .{MARKET_2}",
+      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die {MARKET_1}und die M{MARKET_2}ärkte abzubauen. Wenn sie bestanden haben, erfolgt für die {MARKET_1}und die M{MARKET_2}ärkte die Endabrechnung am . {DATE}Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
-      "TITLE": "Live-Vorschlag zur Aktualisierung von {MARKET} Parametern",
-      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der Parameter des Marktes {MARKET}. Wenn dieser realisiert wird, wird der Markt {MARKET} Coinbase Pro {MARKET} als einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zur Aktualisierung von {MARKET}Parametern",
+      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der Parameter des {MARKET}Marktes. Wenn dieser realisiert wird, wird der {MARKET}Markt Coinbase Pro a{MARKET}ls einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "Handeln Sie mit dem Ergebnis der US-Präsidentschaftswahl!",
+      "TITLE": "Traden Sie mit dem Ergebnis der US-Präsidentschaftswahl!",
       "BODY": "{MARKET} ist jetzt live. Dieser Markt wird sich bei 1 USD einpendeln, wenn Donald J. Trump die Wahl 2024 gewinnt. Andernfalls wird er sich bei 0,001 USD einpendeln."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX unterstützt jetzt auch Keplr!",
-      "BODY": "Sie können jetzt dYdX mit Ihrem Keplr-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
+      "BODY": "Sie können jetzt dYdX mit Ihrer Keplr-Wallet verbinden und verwenden! Probieren Sie es jetzt aus."
     },
     "PHANTOM_SUPPORT": {
       "TITLE": "dYdX unterstützt jetzt Phantom!",
@@ -215,11 +215,11 @@
     },
     "SIMPLE_IOS_RELEASE": {
       "TITLE": "Neues, vereinfachtes Erlebnis auf iOS",
-      "BODY": "Eine neue, vereinfachte Benutzererfahrung steht jetzt für mobile Händler zur Verfügung. Wechseln Sie jetzt von Pro zu Vereinfacht auf iOS."
+      "BODY": "Eine neue, vereinfachte Benutzererfahrung steht jetzt für mobile Trader zur Verfügung. Wechseln Sie jetzt von Pro zu Simplified auf iOS."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
       "TITLE": "Upgrade der Märkte zur Überschreitung der Marge",
-      "BODY": "Derzeit wird ein Governance-Vorschlag zur Umstellung von {MARKETS} von isoliert auf Kreuzmarge erarbeitet, was sich auf offene Positionen in diesen Märkten auswirken und das Liquidationsrisiko erhöhen kann. Händlern wird dringend empfohlen, Vorsicht walten zu lassen und ihre Positionen gegebenenfalls zu schließen."
+      "BODY": "Derzeit wird ein Governance-Vorschlag zur Umstellung von {MARKETS}von isoliert auf Kreuzmarge erarbeitet, was sich auf offene Positionen in diesen Märkten auswirken und das Liquidationsrisiko erhöhen kann. Tradern wird dringend empfohlen, Vorsicht walten zu lassen und ihre Positionen gegebenenfalls zu schließen."
     }
   }
 }
