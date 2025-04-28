@@ -4,6 +4,10 @@
       "TITLE": "Reward Earned",
       "BODY": "You have earned {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading reward."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Cancel old triggers",
+      "BODY": "You have orphaned trigger orders from positions that no longer exist."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Refreshed conditional order experience!",
       "BODY": "Conditional orders on dYdX Chain have been completely revamped! Now more reliable, intuitive, and performant than ever. Check out more details {TWITTER_LINK}."
@@ -87,6 +91,14 @@
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "Trade SOL-USD with 20x Leverage",
       "BODY": "SOL-USD and all Isolated Markets are now available to trade with up to 20x leverage."
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "Low on Gas?",
+      "BODY": "We recommend your wallet balance remain between ${MIN_RANGE} - ${MAX_RANGE} to pay for gas fees on dYdX chain."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Reclaim funds",
+      "BODY": "You have {FUNDS_TO_RECLAIM} of funds that were previously held as collateral that can now be reclaimed."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Rewards and trading are live on dYdX Chain!",
