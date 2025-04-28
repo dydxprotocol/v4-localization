@@ -314,6 +314,7 @@
       "RECEIVE": "Receive",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Recent",
+      "RECLAIM_FUNDS": "Reclaim funds",
       "RECOMMENDED": "Recommended",
       "RECONNECT_WALLET": "Reconnect wallet",
       "REFERRAL_CODE": "Referral Code",
@@ -374,6 +375,7 @@
       "TIMESTAMP_ERROR": "Timestamp error",
       "FROM": "from {FROM}",
       "TO": "to {TO}",
+      "TOP_UP_BALANCE": "Top up balance",
       "TOTAL_BALANCE": "Total balance",
       "TOTAL_FEES": "Total Fees",
       "TOTAL_VALUE": "Total Value",
@@ -1451,6 +1453,7 @@
       "CANCELING_ALL_ORDERS": "Canceling all orders",
       "CANCELING_ALL_ORDERS_IN_MARKET": "Canceling all orders in {MARKET_ID}",
       "CANCELING_ORDERS_COUNT": "Canceling {COUNT} orders...",
+      "CANCEL_EXTRA_ORDERS": "Cancel extra orders",
       "CANCEL_ORDERS": "Cancel orders",
       "CANCEL_REASON": "Cancel Reason",
       "CANCELED_ON_CHAIN": "Canceled on chain",
@@ -2435,6 +2438,14 @@
       "PREDICTION_MARKET_LOSS": "You have incorrectly predicted the outcome of {MARKET}.",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Trade the U.S. Presidential Election",
       "TRUMPWIN_DESC": "This is a Prediction Market and will settle at $1 if Donald J. Trump wins the 2024 U.S. Presidential Election. Otherwise, it will settle at $0. {LEARN_MORE} or {DISMISS}."
+    },
+    "WITHDRAW_TO_WALLET_MODAL": {
+      "BELOW_RECOMMENDED_GAS_BALANCE": "Below recommended amount",
+      "INSUFFICIENT_FREE_COLLATERAL": "Insufficient free collateral",
+      "NO_AMOUNT_ENTERED": "No amount entered",
+      "SUFFICIENT_GAS_BALANCE": "Sufficient for gas",
+      "WITHDRAW_TO_WALLET": "Withdraw to wallet",
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "We recommend your wallet balance remain between ${MIN_RANGE} - ${MAX_RANGE} to pay for gas fees on dYdX chain."
     }
   },
   "TOKEN_MIGRATION": {
