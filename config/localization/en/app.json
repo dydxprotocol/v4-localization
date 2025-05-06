@@ -1249,7 +1249,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "Are you sure you want to cancel {OPEN_ORDERS_TEXT} in {ASSET} ({MARKET})?",
       "ONE_OPEN_ORDER": "1 open order",
       "N_OPEN_ORDERS": "{COUNT} open orders",
-      "OPEN_ORDERS": "Open orders"
+      "NO_CANCELABLE_ORDERS": "You have no open orders that need to be canceled.",
+      "OPEN_ORDERS": "Open orders",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "You have {NUM_ORDERS} open trigger order(s) across {NUM_MARKETS} market(s) with no associated position."
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "Cancel all orders",
@@ -2454,6 +2456,10 @@
       "SUFFICIENT_GAS_BALANCE": "Sufficient for gas",
       "WITHDRAW_TO_WALLET": "Withdraw to wallet",
       "WITHDRAW_TO_WALLET_RECOMMENDATION": "We recommend your wallet balance remain between ${MIN_RANGE} - ${MAX_RANGE} to pay for gas fees on dYdX chain."
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "There are no funds available for you to reclaim at this time.",
+      "RECLAIM_FUNDS_SIGNING": "Upon reclaiming, you will be prompted to sign {NUM_TRANSACTIONS} transaction(s) to return the funds previously used as collateral for isolated margin trading."
     }
   },
   "TOKEN_MIGRATION": {
