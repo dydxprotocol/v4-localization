@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "Network Mismatch",
       "SWITCH_WALLET": "Please switch your wallet to {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Unable to obtain account",
-      "ENTER_CODE": "Enter the verification code"
+      "ENTER_CODE": "Enter the verification code",
+      "LOGIN_SIGNUP": "Log in or sign up",
+      "LOGIN_SIGNUP_TEXT": "Sign in with socials or connect your wallet to get started",
+      "LOGIN_SIGNUP_TEXT_2": "Connect your wallet or sign in with socials to get started"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Create Profile"

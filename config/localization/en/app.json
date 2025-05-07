@@ -1006,6 +1006,8 @@
       "SIGN_MESSAGE": "Sign message",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Sign in with email or social",
       "SIGN_IN_WITH_EMAIL": "Sign in with email",
+      "SIGN_IN_WITH": "Sign in with",
+      "SIGN_IN_WITH_PROVIDER": "Sign in with {PROVIDER}",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "A simple way to sign in, powered by {MAGIC}",
       "SKIP_FAST_ROUTE_DESC": "$$ fee, ${LIMIT_AMOUNT} limit",
       "SKIP_FAST_ROUTE_DESC_1": "${FEE} fee, ${LIMIT_AMOUNT} limit",
@@ -1057,7 +1059,15 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "To complete dYdX onboarding, set your wallet network to 'Goerli Test Network'.",
       "WRONG_NETWORK": "Wrong network",
       "YOU_AGREE_TO_TERMS": "By trading on dYdX, you agree to the {TERMS_LINK} and {PRIVACY_POLICY_LINK}.",
-      "YOUR_DEPOSIT": "Your deposit"
+      "YOUR_DEPOSIT": "Your deposit",
+      "POPULAR": "Popular",
+      "RECOMMEND_SOLANA": "Recommended for Solana",
+      "ENTER_OTP_CODE": "Enter confirmation code",
+      "CHECK_EMAIL_FOR_OTP_CODE": "Please check {EMAIL} for a message with your login code.",
+      "DID_NOT_GET_EMAIL": "Didn’t get an email?",
+      "RESEND_CODE": "Resend code",
+      "INVALID_CODE": "Invalid code",
+      "CODE_SENT": "Code sent"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Sign into mobile",
