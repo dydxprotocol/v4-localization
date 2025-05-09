@@ -4,6 +4,10 @@
       "TITLE": "獲得した報酬",
       "BODY": "取引報酬の{BLOCK_REWARD_AMOUNT} {TOKEN_NAME}を獲得しました。"
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "古いトリガーをキャンセル",
+      "BODY": "存在しないポジションのトリガー注文が残っています。"
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "条件付き注文の新しい体験！",
       "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ 今まで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細は{TWITTER_LINK}をご覧ください。"
@@ -14,7 +18,7 @@
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30分で最大200ドルを獲得できます！",
-      "BODY": "ユーザーインタビューに参加してフィードバックを共有することにより、最高の取引体験を実現しましょう。 定員には限りがありますので、登録するか詳細を確認するには{HERE_LINK}をクリックしてください！"
+      "BODY": "ユーザーインタビューに参加してフィードバックを共有することにより、最高の取引体験を実現しましょう。 定員には限りがありますので、今すぐ{HERE_LINK}をクリックしてご登録あるいは詳細をご確認ください！"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "ポジションが決済されました",
@@ -26,7 +30,7 @@
     },
     "IN_APP_STAKING_LIVE": {
       "TITLE": "dYdXをステーキングできるようになりました！",
-      "BODY": "USDC報酬を受け取ります。"
+      "BODY": "USDC報酬を受け取りましょう。"
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "シーズン{SEASON_NUMBER}が始まりました！",
@@ -34,11 +38,11 @@
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "シーズン{SEASON_NUMBER}が終了しました！",
-      "BODY": "ローンチインセンティブプログラムにご参加いただきましてありがとうございます。 今後の報酬プログラムに関する最新情報をお見逃しなく！"
+      "BODY": "ローンチ・インセンティブプログラムにご参加いただきましてありがとうございます。今後の報酬プログラムに関する最新情報をお見逃しなく！"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "分離マージンが利用できます",
-      "BODY": "分離マージンが利用できるようになりました！ 詳細については、{LEARN_MORE}をご覧ください。"
+      "TITLE": "分離マージンが利用可能です",
+      "BODY": "分離マージンが利用できるようになりました！詳細は、{LEARN_MORE}をご覧ください。"
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "シーズン{SEASON_NUMBER}ローンチ報酬が配布されました！",
@@ -49,12 +53,12 @@
       "BODY": "{MARKET}の{SIDE}ポジションは、レバレッジ解消ポジションをオフセットするために使用されました。"
     },
     "ORDER_FILL": {
-      "TITLE": "注文が執行しました",
-      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文が${AVERAGE_PRICE}で執行されました。"
+      "TITLE": "注文が約定されました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文が${AVERAGE_PRICE}で約定されました。"
     },
     "ORDER_PARTIAL_FILL": {
-      "TITLE": "注文は一部執行しました",
-      "BODY": "{SIDE}{AMOUNT}{MARKET}のご注文で、{FILLED_AMOUNT}{MARKET}は執行されました。"
+      "TITLE": "注文は一部約定されました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}へのご注文の{FILLED_AMOUNT}{MARKET}は約定されました。"
     },
     "ORDER_TRIGGERED": {
       "TITLE": "注文がトリガーされました",
@@ -65,8 +69,8 @@
       "BODY": "{SIDE}{AMOUNT}{MARKET}の注文がキャンセルされました。"
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-      "TITLE": "部分完了で注文はキャンセルされました",
-      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文は{TOTAL_FILLED}が部分的に執行された状態でキャンセルされました。"
+      "TITLE": "一部約定で注文はキャンセルされました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文は{TOTAL_FILLED}が部分的に約定された状態でキャンセルされました。"
     },
     "LIQUIDATION": {
       "TITLE": "ポジションが清算されました",
@@ -82,15 +86,23 @@
     },
     "FAST_WITHDRAW_SUCCESS": {
       "TITLE": "高速出金が正常に処理されました",
-      "BODY": "{AMOUNT}{ASSET}の迅速出金が承認されました。"
+      "BODY": "{AMOUNT}{ASSET}の高速出金が承認されました。"
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "20倍のレバレッジでSOL-USDを取引",
-      "BODY": "SOL-USDおよびすべての分離されたマーケットは、最大20倍のレバレッジで取引できるようになりました。"
+      "BODY": "SOL-USDおよびすべての分離マーケットは、最大20倍のレバレッジで取引できるようになりました。"
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "ガス代が不足していますか？",
+      "BODY": "dYdXチェーンのガス代を支払うには、ウォレット残高は${MIN_RANGE}〜${MAX_RANGE}の間に維持することを推奨します。"
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "資金の回収",
+      "BODY": "以前担保として保有されていた{FUNDS_TO_RECLAIM}の資金を回収できるようになりました。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "報酬および取引はdYdXチェーン上利用可能になりました！",
-      "BODY": "dYdXチェーン上フル取引が利用できます！ これには、ステーキング報酬、取引報酬、Chaos Labsによる6ヶ月のローンチインセンティブプログラムが含まれます。{DOS_BLOGPOST}および{TRADING_BLOGPOST}（サードパーティ社のリンク）の詳細をご覧ください。"
+      "TITLE": "報酬および取引はdYdXチェーン上で利用可能です！",
+      "BODY": "フル取引はdYdXチェーン上で利用可能です！これには、ステーキング報酬、取引報酬、Chaos Labsによる6ヶ月のローンチ・インセンティブプログラムが含まれます。{DOS_BLOGPOST}および{TRADING_BLOGPOST}（サードパーティ社のリンク）で詳細をご覧ください。"
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "通常出金は保留中です",
@@ -162,7 +174,7 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "利益確定",
-      "BODY": "{OLD_VALUE}での利益確定のトリガーは削除しています。"
+      "BODY": "{OLD_VALUE}での利益確定のトリガーが削除されています。"
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "利益確定",
@@ -173,13 +185,13 @@
       "BODY": "{OLD_VALUE}での利益確定のトリガーは削除されました。"
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "さらにサポートが必要ですか？",
-      "BODY": "dYdXの大口トレーダーになっていただき、ありがとうございます！チームは、より高度な個別サポートと、直接連絡を取る機会を提供できるよう努めています。",
-      "ACTION": "連絡する →"
+      "TITLE": "お困りですか？",
+      "BODY": "dYdXの大口トレーダーの皆様、ありがとうございます！当社では、より高度にパーソナライズされたサポートと、当社チームと直接つながる機会をトレーダーの皆様に提供できるよう努めています。",
+      "ACTION": "お問い合わせ →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "総額2万ドルをプレゼント！",
-      "BODY": "dYdXは、累計取引高が2000億ドルを突破したことを記念して、200ドルを獲得できるチャンスがある、X（旧Twitter）のプレゼントキャンペーンを実施しています。2024年8月16日23:59（協定世界時）以降、ランダムに選ばれた100名の当選者が選出されます{HERE_LINK}。"
+      "BODY": "dYdXは、累計取引高が2000億ドルを突破したことを記念して、200ドル獲得のチャンスがあるX（旧Twitter）のプレゼントキャンペーンを実施しています。2024年8月16日23:59（協定世界時）以降、ランダムな選出方法により100名の当選者が選ばれます{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET}マーケットは終了しました",
@@ -187,7 +199,7 @@
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET}マーケットを縮小する進行中の提案",
-      "BODY": "現在、マーケットを縮小する進行中の提案があります。{MARKET} 承認されれば、{MARKET}マーケットには最終決済を行います。{DATE} 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+      "BODY": "現在、{MARKET}マーケットを縮小する進行中の提案があります。 承認された場合、{MARKET}マーケットは{DATE}に最終決済を行います。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "{MARKET_1}および{MARKET_2}マーケットは縮小されました",
@@ -195,15 +207,15 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "{MARKET_1}および{MARKET_2}マーケットを縮小する進行中の提案",
-      "BODY": "現在、{MARKET_1}および{MARKET_2}マーケットを縮小する提案が進行中です。 承認されれば、{MARKET_1}および{MARKET_2}マーケットは{DATE}には最終決済を行います。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+      "BODY": "現在、{MARKET_1}および{MARKET_2}マーケットを縮小する提案が進行中です。 承認された場合、{MARKET_1}および{MARKET_2}マーケットは{DATE}に最終決済を行います。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "{MARKET}パラメータを更新する進行中の提案",
-      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。 決定した場合、{MARKET}マーケットは唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。 承認された場合、{MARKET}マーケットは唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "米国大統領選挙の取引をしましょう！",
-      "BODY": "{MARKET}は利用できるようになりました。 ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、このマーケットは1ドルで決済されます。 そうでない場合、0.001ドルで決済されます。"
+      "TITLE": "米国大統領選挙で取引を！",
+      "BODY": "{MARKET}が利用可能になりました。 ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、このマーケットは1ドルで決済されます。 そうでない場合、0.001ドルで決済されます。"
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdXはKeplrに対応するようになりました！",
