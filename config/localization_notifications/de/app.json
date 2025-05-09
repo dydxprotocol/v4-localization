@@ -4,13 +4,17 @@
       "TITLE": "Verdiente Prämie",
       "BODY": "Sie haben {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} Handelsprämie verdient."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Alte Trigger löschen",
+      "BODY": "Sie haben verwaiste Trigger-Orders von Positionen, die nicht mehr existieren."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Aktualisiertes bedingtes Order-Erlebnis!",
       "BODY": "Bedingte Orders auf dYdX Chain wurden vollständig überarbeitet! Jetzt zuverlässiger, intuitiver und leistungsfähiger als je zuvor. Sehen Sie sich weitere Details an {TWITTER_LINK}."
     },
     "DELEVERAGED": {
       "TITLE": "Position entschuldet",
-      "BODY": "Ihre {SIDE} Position bei {MARKET} wurde verringert."
+      "BODY": "Ihre {SIDE} Position bei {MARKET} wurde entschuldet."
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "Verdienen Sie in 30 Minuten bis zu 200 USD!",
@@ -22,7 +26,7 @@
     },
     "FOK_DEPRECATION": {
       "TITLE": "FOK-Orders veraltet",
-      "BODY": "Fill-or-Kill-Orders (FOK) wurden nicht mehr unterstützt. Alle anderen Ordertypen sind weiterhin verfügbar."
+      "BODY": "Fill-or-Kill-Orders (FOK) sind nicht mehr verfügbar. Alle anderen Ordertypen sind weiterhin verfügbar."
     },
     "IN_APP_STAKING_LIVE": {
       "TITLE": "Sie können jetzt DYDX staken!",
@@ -37,8 +41,8 @@
       "BODY": "Vielen Dank für die Teilnahme am Prämienprogramm zum Start. Bleiben Sie dran für Updates zu zukünftigen Prämienprogrammen!"
     },
     "ISOLATED_MARGIN_LIVE": {
-      "TITLE": "Isolierte Marge ist live",
-      "BODY": "Isolierte Marge ist jetzt live! Um mehr zu erfahren, gehen Sie zu {LEARN_MORE}."
+      "TITLE": "Isolated Margin ist live",
+      "BODY": "Isolated Margin ist jetzt live! Um mehr zu erfahren, gehen Sie zu {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "Die Prämien zum Start von Saison {SEASON_NUMBER} wurden verteilt!",
@@ -65,12 +69,12 @@
       "BODY": "Ihre Order zu {SIDE} {AMOUNT} {MARKET} wurde storniert."
     },
     "ORDER_CANCEL_WITH_PARTIAL_FILL": {
-      "TITLE": "Order mit Partial Fill storniert",
+      "TITLE": "Order mit teilweiser Ausführung storniert",
       "BODY": "Ihre Order zu {SIDE} {AMOUNT} {MARKET} wurde storniert und {TOTAL_FILLED} teilweise ausgeführt."
     },
     "LIQUIDATION": {
       "TITLE": "Position liquidiert",
-      "BODY": "Ihre {SIDE} Position auf {MARKET} wurde liquidiert."
+      "BODY": "Ihre {SIDE} Position bei {MARKET} wurde liquidiert."
     },
     "POSITION_CLOSED": {
       "TITLE": "Position geschlossen",
@@ -81,16 +85,24 @@
       "BODY": "Ihre Einzahlung von {AMOUNT} {ASSET} wurde bestätigt."
     },
     "FAST_WITHDRAW_SUCCESS": {
-      "TITLE": "Schnell-Auszahlung erfolgreich",
+      "TITLE": "Schnellauszahlung erfolgreich",
       "BODY": "Ihre Schnellauszahlung von {AMOUNT} {ASSET} wurde bestätigt."
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "Handeln Sie SOL-USD mit 20-facher Hebelwirkung",
       "BODY": "SOL-USD und alle Isolated Markets können jetzt mit einer bis zu 20-fachen Hebelwirkung gehandelt werden."
     },
+    "LOW_ON_GAS": {
+      "TITLE": "Wenig Gas?",
+      "BODY": "Wir empfehlen, dass Ihr Wallet-Guthaben zwischen {MIN_RANGE} $ – {MAX_RANGE} $ bleibt, um Gasgebühren auf der dYdX-Blockchain zu bezahlen."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Mittel zurückfordern",
+      "BODY": "Sie haben {FUNDS_TO_RECLAIM} an Mitteln, die zuvor als Sicherheiten gehalten wurden und jetzt zurückgefordert werden können."
+    },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Prämien und Trading sind live auf dYdX Chain!",
-      "BODY": "Der vollständige Handel ist live auf dYdX Chain! Dazu gehören Staking-Prämien, Handelsprämien und das 6-monatige Startprämien-Programm von Chaos Labs. Erfahren Sie mehr {DOS_BLOGPOST} und {TRADING_BLOGPOST} [Link zu Drittanbietern]."
+      "BODY": "Vollumfängliches Trading ist live auf dYdX Chain! Dazu gehören Staking-Prämien, Handelsprämien und das 6-monatige Startprämien-Programm von Chaos Labs. Erfahren Sie mehr {DOS_BLOGPOST} und {TRADING_BLOGPOST} (Link zu Drittanbietern)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Verzögerte Auszahlung ausstehend",
@@ -114,15 +126,15 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser wird bei {NEW_VALUE} erstellt."
+      "BODY": "Ihr Take-Profit-Trigger wird bei {NEW_VALUE} erstellt."
     },
     "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei {NEW_VALUE} konnte nicht erstellt werden."
+      "BODY": "Ihr Take-Profit-Trigger bei {NEW_VALUE} konnte nicht erstellt werden."
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei {NEW_VALUE} wurde erstellt."
+      "BODY": "Ihr Take-Profit-Trigger bei {NEW_VALUE} wurde erstellt."
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "Stop Loss",
@@ -154,55 +166,55 @@
     },
     "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {OLD_VALUE} konnte nicht storniert werden."
+      "BODY": "Ihr Stop-Loss-Trigger bei {OLD_VALUE} konnte nicht storniert werden."
     },
     "STOP_LOSS_TRIGGER_REMOVED": {
       "TITLE": "Stop Loss",
-      "BODY": "Ihr Stop-Loss-Auslöser bei {OLD_VALUE} wurde entfernt."
+      "BODY": "Ihr Stop-Loss-Trigger bei {OLD_VALUE} wurde entfernt."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei  {OLD_VALUE}wird entfernt."
+      "BODY": "Ihr Take-Profit-Trigger bei  {OLD_VALUE}wird entfernt."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei {OLD_VALUE} konnte nicht storniert werden."
+      "BODY": "Ihr Take-Profit-Trigger bei {OLD_VALUE} konnte nicht storniert werden."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Take Profit",
-      "BODY": "Ihr Take-Profit-Auslöser bei {OLD_VALUE} wurde entfernt."
+      "BODY": "Ihr Take-Profit-Trigger bei {OLD_VALUE} wurde entfernt."
     },
     "TOP_100_WALLET_ADDRESSES": {
-      "TITLE": "Wünschen Sie mehr Unterstützung?",
-      "BODY": "Vielen Dank, dass Sie ein starker Trader auf dYdX sind! Das Team möchte Ihnen ein höheres Maß an persönlicher Unterstützung bereitstellen sowie die Möglichkeit bieten, sich direkt mit ihm in Verbindung zu setzen.",
+      "TITLE": "Benötigen Sie mehr Unterstützung?",
+      "BODY": "Vielen Dank, dass Sie ein führender Trader auf dYdX sind! Das Team möchte Ihnen ein höheres Maß an persönlicher Unterstützung bereitstellen sowie die Möglichkeit bieten, sich direkt mit ihm in Verbindung zu setzen.",
       "ACTION": "Kontakt aufnehmen →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
-      "TITLE": "20 K USD Giveaway",
-      "BODY": "Anlässlich eines kumulativen Handelsvolumens von jetzt über 200 Milliarden Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 Dollar zu gewinnen. 100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt {HERE_LINK}."
+      "TITLE": "20.000 USD Giveaway",
+      "BODY": "Anlässlich eines kumulativen Handelsvolumens von jetzt über 200 Milliarden US-Dollar veranstaltet dYdX ein Twitter-Gewinnspiel, bei dem Sie die Möglichkeit haben, 200 USD zu gewinnen. 100 Gewinner werden nach dem Zufallsprinzip nach dem 16. August 2024, 23:59 UTC ausgewählt {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET} Marktabschwächung",
-      "BODY": "Am {DATE}hat sich der M{MARKET}arkt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+      "BODY": "Am {DATE}hat sich der {MARKET} Markt endgültig beruhigt. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie unter {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zur Abschwächung des {MARKET}Marktes",
-      "BODY": "Es liegt derzeit ein Live-Vorschlag zur Abschwächung des {MARKET} Marktes vor. Wenn der Vorschlag angenommen wird, wird für den {MARKET}Markt am []{DATE} die Endabrechnung ausgelöst. Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zum Herunterfahren des {MARKET} Marktes",
+      "BODY": "Es liegt derzeit ein Live-Vorschlag zum Herunterfahren des {MARKET} Marktes vor. Wenn der Vorschlag angenommen wird, wird für den {MARKET} Markt am {DATE} die Endabrechnung ausgelöst. Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie unter {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "Märkte {MARKET_1}und r{MARKET_2}ückläufig",
-      "BODY": "Am {DATE}erfolgte für die Märkte u{MARKET_1}nd di{MARKET_2}e Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie {HERE_LINK}."
+      "TITLE": "{MARKET_1}und {MARKET_2} Märkte heruntergefahren",
+      "BODY": "Am {DATE}erfolgte für die Märkte u{MARKET_1}nd di{MARKET_2}e Endabrechnung. Bestehende Positionen wurden geschlossen und offene Orders nun storniert. Weitere Informationen zur Endabrechnung finden Sie unter {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Live-Vorschlag zum Abbau der Märkte {MARKET_1}und .{MARKET_2}",
-      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die {MARKET_1}und die M{MARKET_2}ärkte abzubauen. Wenn sie bestanden haben, erfolgt für die {MARKET_1}und die M{MARKET_2}ärkte die Endabrechnung am . {DATE}Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "TITLE": "Live-Vorschlag zum Herunterfahren der {MARKET_1}und {MARKET_2} Märkte.",
+      "BODY": "Derzeit gibt es einen Live-Vorschlag, um die {MARKET_1}und die M{MARKET_2}ärkte abzubauen. Wenn sie bestanden haben, erfolgt für die {MARKET_1}und die M{MARKET_2}ärkte die Endabrechnung am . {DATE}Bestehende Positionen werden geschlossen und offene Orders storniert. Weitere Informationen zum Vorschlag finden Sie unter {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Live-Vorschlag zur Aktualisierung von {MARKET}Parametern",
-      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der Parameter des {MARKET}Marktes. Wenn dieser realisiert wird, wird der {MARKET}Markt Coinbase Pro a{MARKET}ls einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie {HERE_LINK}."
+      "BODY": "Es gibt derzeit einen Live-Vorschlag zur Aktualisierung der Parameter des {MARKET}Marktes. Wenn dieser realisiert wird, wird der {MARKET}Markt Coinbase Pro a{MARKET}ls einzige Oracle-Quelle haben. Weitere Informationen zum Vorschlag finden Sie unter {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
-      "TITLE": "Traden Sie mit dem Ergebnis der US-Präsidentschaftswahl!",
+      "TITLE": "Traden Sie das Ergebnis der US-Präsidentschaftswahl!",
       "BODY": "{MARKET} ist jetzt live. Dieser Markt wird sich bei 1 USD einpendeln, wenn Donald J. Trump die Wahl 2024 gewinnt. Andernfalls wird er sich bei 0,001 USD einpendeln."
     },
     "KEPLR_SUPPORT": {
@@ -218,8 +230,8 @@
       "BODY": "Eine neue, vereinfachte Benutzererfahrung steht jetzt für mobile Trader zur Verfügung. Wechseln Sie jetzt von Pro zu Simplified auf iOS."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
-      "TITLE": "Upgrade der Märkte zur Überschreitung der Marge",
-      "BODY": "Derzeit wird ein Governance-Vorschlag zur Umstellung von {MARKETS}von isoliert auf Kreuzmarge erarbeitet, was sich auf offene Positionen in diesen Märkten auswirken und das Liquidationsrisiko erhöhen kann. Tradern wird dringend empfohlen, Vorsicht walten zu lassen und ihre Positionen gegebenenfalls zu schließen."
+      "TITLE": "Märkte werden auf Cross-Margin aktualisiert",
+      "BODY": "Derzeit wird ein Governance-Vorschlag zur Aktualisierung von {MARKETS} von Isolated auf Cross-Margin erarbeitet, was sich auf offene Positionen in diesen Märkten auswirken und das Liquidationsrisiko erhöhen kann. Tradern wird dringend empfohlen, Vorsicht walten zu lassen und ihre Positionen gegebenenfalls zu schließen."
     }
   }
 }
