@@ -1,8 +1,12 @@
 {
   "NOTIFICATIONS": {
     "BLOCK_REWARD": {
-      "TITLE": "보상 획득",
+      "TITLE": "획득한 보상 ",
       "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}의 거래 보상을 획득했습니다."
+    },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "이전 트리거 취소",
+      "BODY": "더 이상 존재하지 않는 포지션에서 생성된 트리거 주문이 남아 있습니다."
     },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "새롭게 갱신된 조건 주문 경험!",
@@ -87,6 +91,14 @@
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "20배 레버리지로 SOL-USD 거래",
       "BODY": "SOL-USD 및 모든 독립 시장은 이제 최대 20배 레버리지로 거래할 수 있습니다."
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "가스 수수료가 부족한가요?",
+      "BODY": "dYdX 체인에서 가스 수수료를 지불하기 위해 지갑 잔액을 ${MIN_RANGE} ~ ${MAX_RANGE} 사이로 유지하는 것을 권장합니다."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "자금 회수",
+      "BODY": "이전에 담보로 보유했던 {FUNDS_TO_RECLAIM}의 자금을 이제 회수할 수 있습니다."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "보상 및 거래가 dYdX 체인에서 실시간으로 제공됩니다!",
@@ -214,7 +226,7 @@
       "BODY": "이제 암호화폐 지갑에 dYdX를 연결하고 사용할 수 있습니다! 지금 시도해보세요."
     },
     "SIMPLE_IOS_RELEASE": {
-      "TITLE": "새롭고 간편한 iOS 환경",
+      "TITLE": "새롭고 간편한 iOS 경험 ",
       "BODY": "이제 모바일 거래자를 위해 새롭고 간소화된 경험을 사용할 수 있습니다. iOS에서 프로에서 지금 간소화로 전환하세요."
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {

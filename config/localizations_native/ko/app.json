@@ -60,6 +60,7 @@
       "LOSERS": "패자",
       "MANAGE": "관리",
       "MARKET_CAP_SHORT": "시가총액",
+      "MARKETS_FOUND": "{COUNT} 시장(등) 발견 ",
       "NA": "해당 없음",
       "NAME": "이름",
       "NETWORK": "네트워크",
@@ -399,6 +400,7 @@
       "DYDX_ADDRESS": "dYdX 체인 주소",
       "SOURCE_ADDRESS": "소스 주소",
       "DYDX_ADDRESS_COPIED": "dYdX 체인 주소가 클립보드에 복사되었습니다.",
+      "SOURCE_ADDRESS_COPIED": "소스 주소가 클립보드에 복사되었습니다.",
       "DYDX_MNEMONIC_COPIED": "비밀 문구가 클립보드에 복사되었습니다.",
       "SYSTEM_STATUS": "시스템 상태",
       "DELETE_ALERT": "이 경고 삭제",
@@ -451,8 +453,8 @@
         "LAUNCH_MARKET_LINE2": "MegaVault의 예상 {APR} APR"
     },
     "SIMPLE_UI": {
-        "BUYING_POWER_TOOLTIP": "이는 입금으로 얻을 수 있는 최대 노출 금액입니다. 이는 입금하거나 출금할 수 있는 금액이 아닙니다. 구매력은 빠르게 변할 수 있으며 손실을 입고 있을 때에도 긍정적일 수 있습니다.",
-        "RISK_TOOLTIP": "이는 오픈 포지션에서 마진으로 보유한 입금 금액의 비율입니다. 이는 시장 가격이 변동할 때 급격히 변할 수 있습니다."
+        "BUYING_POWER_TOOLTIP": "이는 입금으로 얻을 수 있는 최대 노출 금액입니다. 이는 입금하거나 출금할 수 있는 금액이 아닙니다. 구매력은 빠르게 변할 수 있으며 손실이 발생하더라도 긍정적인 영향을 미칠 수 있습니다. ",
+        "RISK_TOOLTIP": "이는 오픈 포지션에서 증거금으로 보유한 예탁금의 비율입니다. 이는 시장 가격이 변동할 때 급격히 변할 수 있습니다."
     }
   },
   "RATE_APP": {
