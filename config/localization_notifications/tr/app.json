@@ -4,6 +4,10 @@
       "TITLE": "Kazanılan Ödül",
       "BODY": "Alım satım ödülü olarak {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} kazandınız."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Eski tetikleyicileri iptal edin",
+      "BODY": "Artık mevcut olmayan pozisyonlardan kalan tetikleme emirleriniz var."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Yenilenmiş koşullu emir deneyimi!",
       "BODY": "dYdX Zinciri üzerinde koşullu emirler tümüyle yenilendi! Artık hiç olmadığı kadar güvenilir, sezgisel ve yüksek performanslı. Daha fazla ayrıntıya göz atın {TWITTER_LINK}."
@@ -13,7 +17,7 @@
       "BODY": "{MARKET} üzerindeki {SIDE} pozisyonunuz kaldıraçsızlaştırıldı."
     },
     "DISCOVERY_PROGRAM": {
-      "TITLE": "30 Dakika içinde 200 $'a varan ödül kazanın!",
+      "TITLE": "30 Dakika içinde $200'e varan ödül kazanın!",
       "BODY": "Bir kullanıcı görüşmesine katılarak ve geri bildirim paylaşarak işlem yolculuğunuzu olabildiğince iyi hâle getirin. Kontenjan sınırlıdır, bu nedenle kaydolmak veya daha fazla bilgi edinmek için {HERE_LINK} bağlantısına tıklayın!"
     },
     "FINAL_SETTLEMENT": {
@@ -87,6 +91,14 @@
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "20 kat Kaldıraç ile SOL-USD alım satımı",
       "BODY": "SOL-USD ve tüm İzole Piyasalar artık 20 kata kadar kaldıraçla işlem yapmaya uygundur."
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "Gaz miktarı düşük mü?",
+      "BODY": "dYdX zinciri üzerinde gaz ücretlerini ödemek için cüzdan bakiyenizin ${MIN_RANGE} - ${MAX_RANGE} arasında kalmasını öneririz."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Fonları geri al",
+      "BODY": "Daha önce teminat olarak tutulan ve artık geri alınabilecek {FUNDS_TO_RECLAIM} tutarında varlığınız bulunuyor."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Ödüller ve alım satım işlemleri dYdX Zinciri üzerinde yayında!",
@@ -203,7 +215,7 @@
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "ABD başkanlık seçimi üzerine alım satım yapın!",
-      "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa 1 $'dan bağlanacak. Aksi takdirde 0,001 $ olarak bağlanacak."
+      "BODY": "{MARKET} şimdi kullanıma açık. Bu piyasa, Donald J. Trump 2024 seçimini kazanırsa $1'dan bağlanacak. Aksi takdirde $0,001 olarak bağlanacak."
     },
     "KEPLR_SUPPORT": {
       "TITLE": "dYdX artık Keplr'ı destekliyor!",
