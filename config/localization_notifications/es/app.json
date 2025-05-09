@@ -4,6 +4,10 @@
       "TITLE": "Recompensa ganada",
       "BODY": "Ganaste una recompensa de trading de {BLOCK_REWARD_AMOUNT} {TOKEN_NAME}."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Cancelar activadores antiguos",
+      "BODY": "Tienes órdenes de activación huérfanas de posiciones que ya no existen."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "¡Experiencia de orden condicional actualizada!",
       "BODY": "¡Las órdenes condicionales en la cadena dYdX se renovaron por completo! Ahora es más confiable, intuitivo y eficiente que nunca. Consultá más detalles {TWITTER_LINK}."
@@ -88,9 +92,17 @@
       "TITLE": "Opera con SOL-USD con 20 veces el apalancamiento",
       "BODY": "SOL-USD y todos los mercados aislados ahora están disponibles para operar con un apalancamiento hasta 20 veces mayor."
     },
+    "LOW_ON_GAS": {
+      "TITLE": "¿Poco gas?",
+      "BODY": "Recomendamos que el balance de tu billetera permanezca entre ${MIN_RANGE} - ${MAX_RANGE} para pagar las tarifas de gas en la cadena dYdX."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Recuperar fondos",
+      "BODY": "Tienes {FUNDS_TO_RECLAIM} fondos que anteriormente se mantuvieron como garantía y ahora se pueden recuperar."
+    },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
-      "TITLE": "¡Las recompensas y las operaciones están activas en la cadena dYdX!",
-      "BODY": "¡Todo el trading está activo en la cadena dYdX! Esto incluye recompensas de participación, recompensas de operaciones y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtené más información en {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
+      "TITLE": "¡Las recompensas y el trading están activas en la cadena dYdX!",
+      "BODY": "¡Todo el trading está activo en la cadena dYdX! Esto incluye recompensas de participación, recompensas de trading y el programa de incentivos de lanzamiento de 6 meses de Chaos Labs. Obtené más información en {DOS_BLOGPOST} y {TRADING_BLOGPOST} (enlace de terceros)."
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "Retiro lento pendiente",
@@ -134,7 +146,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "Detención de pérdida",
-      "BODY": "La activación de tu detención de pérdidas ahora se va a activar en {NEW_VALUE}."
+      "BODY": "La activación de tu detención de pérdida ahora se va a activar en {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "Tomar ganancias",
@@ -146,7 +158,7 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Tu activación de toma de ganancias ahora se va a activar en {NEW_VALUE}."
+      "BODY": "Tu activación de tomar ganancias ahora se va a activar en {NEW_VALUE}."
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "Detención de pérdida",
@@ -162,15 +174,15 @@
     },
     "TAKE_PROFIT_TRIGGER_REMOVING": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se está eliminando tu activación de toma de ganancias en {OLD_VALUE}."
+      "BODY": "Se está eliminando tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
       "TITLE": "Tomar ganancias",
-      "BODY": "No se pudo cancelar tu activación de toma de ganancias en {OLD_VALUE}."
+      "BODY": "No se pudo cancelar tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_REMOVED": {
       "TITLE": "Tomar ganancias",
-      "BODY": "Se eliminó tu activación de toma de ganancias en {OLD_VALUE}."
+      "BODY": "Se eliminó tu activación de tomar ganancias en {OLD_VALUE}."
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "¿Necesitás más ayuda?",
@@ -199,7 +211,7 @@
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Propuesta en vivo para actualizar los parametros de {MARKET}",
-      "BODY": "Actualmente hay una propuesta en vivo para actualizar los parámetros del mercado {MARKET}. Si se aprueba, el mercado {MARKET} va a tener Coinbase Pro {MARKET} como la única fuente de oráculo. Podés encontrar más información sobre la propuesta en {HERE_LINK}."
+      "BODY": "Actualmente, hay una propuesta en vivo para actualizar los parámetros del mercado {MARKET}. Si se aprueba, el mercado {MARKET} va a tener Coinbase Pro {MARKET} como la única fuente de oráculo. Podés encontrar más información sobre la propuesta en {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "¡Operá en las elecciones presidenciales de Estados Unidos!",

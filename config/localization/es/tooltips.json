@@ -8,7 +8,7 @@
     },
     "LEGACY_SIGNING": {
       "TITLE": "Firma de patrimonio",
-      "BODY": "Solamente marcá esta opción si anteriormente usaste la firma de billetera de hardware o una firma de patrimonio para generar tus claves."
+      "BODY": "Solo marcá esta opción si anteriormente usaste la firma de billetera de hardware o una firma de patrimonio para generar tus claves."
     },
     "REMEMBER_ME": {
       "TITLE": "Recordarme",
@@ -77,8 +77,8 @@
       "BODY": "Precio estimado de ejecución para tu orden. Este precio es solo una estimación, ya que el libro de órdenes puede cambiar antes de que la red procese tu orden."
     },
     "FEE": {
-      "TITLE": "Tarifa de operación",
-      "BODY": "La red cobra las tarifas de operación en función de un porcentaje de tu volumen de operaciones. Las tarifas de operación se devengan a los validadores y a los participantes de DYDX. No se cobran tarifas de gas para operar en dYdX."
+      "TITLE": "Tarifa de trading",
+      "BODY": "La red cobra las tarifas de trading en función de un porcentaje de tu volumen de trading. Las tarifas de trading se devengan a los validadores y a los participantes de dYdX. No se cobran tarifas de gas para operar en dYdX."
     },
     "FILL_OR_KILL": {
       "TITLE": "Fill or Kill",
@@ -94,7 +94,7 @@
     },
     "IMMEDIATE_OR_CANCEL": {
       "TITLE": "De inmediato o cancelar",
-      "BODY": "Tu orden va a completar cualquier orden cruzada en el momento de la apertura y luego va a cancelar cualquier monto del orden sin completar."
+      "BODY": "Tu orden va a completar cualquier orden cruzada en el momento de la apertura y luego va a cancelar cualquier monto de la orden sin completar."
     },
     "INDEX_PRICE": {
       "TITLE": "Precio de Oracle",
@@ -102,11 +102,11 @@
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen inicial",
-      "BODY": "La fracción de margen inicial define la cantidad de apalancamiento que un comerciante puede usar inicialmente cuando ingresa una posición. El IMF se calcula como el valor nocional de la posición de un comerciante dividido por el capital. Si la fracción de margen de un comerciante excede la fracción de margen inicial, el comerciante no va a poder aumentar su posición."
+      "BODY": "La fracción del margen inicial define la cantidad de apalancamiento que un comerciante puede usar inicialmente cuando ingresa una posición. La fracción del margen inicial (IMF, por sus siglas en inglés) se calcula como el valor nocional de la posición de un comerciante dividido por el capital. Si la fracción del margen de un comerciante excede la fracción de margen inicial, el comerciante no va a poder aumentar su posición."
     },
     "INITIAL_STOP": {
       "TITLE": "Detención inicial",
-      "BODY": "Precio de detención inicial con base en tu porcentaje final."
+      "BODY": "Stop price inicial con base en tu porcentaje final."
     },
     "LEVERAGE": {
       "TITLE": "Apalancamiento",
@@ -150,10 +150,10 @@
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fracción del margen de mantenimiento",
-      "BODY": "La fracción de margen de mantenimiento define cuándo se liquidan los comerciantes. Se calcula como el valor nocional de la posición de un comerciante dividido por la equidad. Si la fracción de margen de un comerciante supera la fracción de margen de mantenimiento, su posición se va a cerrar (liquidar) automáticamente y el motor de liquidación va a intentar dejar fondos en cuentas de valor positivo, cuando sea posible, después de que se haya pagado la penalización máxima de liquidación del 1,5 %."
+      "BODY": "La fracción del margen de mantenimiento define cuándo se liquidan los comerciantes. Se calcula como el valor nocional de la posición de un comerciante dividido por la equidad. Si la fracción del margen de un comerciante supera la fracción del margen de mantenimiento, su posición se va a cerrar (liquidar) automáticamente y el motor de liquidación va a intentar dejar fondos en cuentas de valor positivo, cuando sea posible, después de que se haya pagado la penalización máxima de liquidación del 1,5 %."
     },
     "MAKER_FEE": {
-      "TITLE": "Tasa de maker",
+      "TITLE": "Tarifa de maker",
       "BODY": "Las órdenes de límite que suman liquidez al libro de órdenes y de ejecución a cargo de una tercera parte se van a ejecutar como órdenes de maker. Las órdenes de maker tienen una tarifa más baja que las órdenes de taker."
     },
     "MARGIN_USAGE": {
