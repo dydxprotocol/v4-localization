@@ -4,6 +4,10 @@
       "TITLE": "Recompensa recebida",
       "BODY": "Você ganhou {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} como recompensa de trading."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Cancelar disparos antigos",
+      "BODY": "Você tem ordens de disparos órfãs de posições que não existem mais."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Experiência de ordem condicional atualizada!",
       "BODY": "As ordens condicionais na Cadeia dYdX foram completamente renovadas! Agora mais confiável, intuitiva e com mais desempenho do que nunca. Confira mais detalhes em {TWITTER_LINK}."
@@ -25,7 +29,7 @@
       "BODY": "As ordens preencher ou encerrar (FOK) foram descontinuadas. Todos os outros tipos de ordem continuam disponíveis."
     },
     "IN_APP_STAKING_LIVE": {
-      "TITLE": "Agora você pode fazer staking de DYDX!",
+      "TITLE": "Agora você pode fazer stake de DYDX!",
       "BODY": "Receba recompensas em USDC."
     },
     "INCENTIVES_SEASON_BEGUN": {
@@ -38,7 +42,7 @@
     },
     "ISOLATED_MARGIN_LIVE": {
       "TITLE": "A margem isolada está ativa",
-      "BODY": "A margem isolada está ativa! Para saber mais, consulte {LEARN_MORE}."
+      "BODY": "A margem isolada está ativa agora! Para saber mais, consulte {LEARN_MORE}."
     },
     "REWARDS_DISTRIBUTED": {
       "TITLE": "As recompensas de lançamento da temporada {SEASON_NUMBER} foram distribuídas!",
@@ -87,6 +91,14 @@
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "Faça trades SOL-USD com alavancagem de 20x",
       "BODY": "SOL-USD e todos os mercados isolados estão agora disponíveis para trades com alavancagem de até 20x."
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "Está com pouco gas?",
+      "BODY": "Recomendamos que o saldo da carteira permaneça entre US${MIN_RANGE} e US${MAX_RANGE} para pagar taxas de gas na cadeia dYdX."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Reivindicar fundos",
+      "BODY": "Você tem {FUNDS_TO_RECLAIM} fundos que foram mantidos anteriormente como garantia que agora podem ser resgatados."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "As recompensas e o trading estão ativos na Cadeia dYdX!",
@@ -138,7 +150,7 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "Take profit",
-      "BODY": "Seu disparo de Stop loss está sendo atualizado para {NEW_VALUE}."
+      "BODY": "Seu disparo de Take profit está sendo atualizado para {NEW_VALUE}."
     },
     "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
       "TITLE": "Take profit",
@@ -174,20 +186,20 @@
     },
     "TOP_100_WALLET_ADDRESSES": {
       "TITLE": "Quer mais suporte?",
-      "BODY": "Obrigado por ser um grande trader na dYdX! A equipe gostaria de oferecer a você um nível mais alto de suporte personalizado e a oportunidade de se conectar diretamente com eles.",
+      "BODY": "Obrigado por ser um grande trader na dYdX! A equipe gostaria de oferecer a você um nível mais alto de suporte personalizado e a oportunidade de uma conexão direta.",
       "ACTION": "Entre em contato →"
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "Sorteio de US$ 20 mil",
-      "BODY": "Para comemorar a ultrapassagem de 200 bilhões em volume de trading cumulativo, a dYdX está realizando um sorteio no Twitter, em que você tem a oportunidade de reivindicar US$ 200. Serão sorteados 100 vencedores com base em um mecanismo de seleção aleatória após 16 de agosto de 2024, 23h59 UTC {HERE_LINK}."
+      "BODY": "Para comemorar a ultrapassagem de 200 bilhões em volume de trading cumulativo, a dYdX está realizando um sorteio no Twitter, em que você tem a oportunidade de reivindicar US$ 200. Serão sorteados 100 vencedores com base em um mecanismo de seleção aleatória em 16 de agosto de 2024, 23h59 UTC {HERE_LINK}."
     },
     "MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET} mercado foi encerrado",
+      "TITLE": "mercado {MARKET} encerrado",
       "BODY": "Em {DATE}, o mercado {MARKET} passou pela liquidação final. As posições existentes foram fechadas e as ordens abertas foram canceladas. Você pode encontrar mais informações sobre a liquidação final {HERE_LINK}."
     },
     "MARKET_WIND_DOWN_PROPOSAL": {
-      "TITLE": "Proposta em tempo real para reduzir o {MARKET} mercado",
-      "BODY": "Há atualmente uma proposta em tempo real para reduzir o mercado {MARKET}. Se passado, o mercado {MARKET} entrará na liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+      "TITLE": "Proposta em tempo real para reduzir o mercado {MARKET}",
+      "BODY": "Há atualmente uma proposta em tempo real para reduzir o mercado {MARKET}. Se aprovada, o mercado {MARKET} entrará na liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
       "TITLE": "Os mercados {MARKET_1} e {MARKET_2} foram encerrados",
@@ -195,7 +207,7 @@
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Proposta ativa para encerrar os mercados {MARKET_1} e {MARKET_2}",
-      "BODY": "Há atualmente uma proposta em tempo real para reduzir os mercados {MARKET_1} e {MARKET_2}. Se ela for aprovada, os mercados {MARKET_1} e {MARKET_2} entrarão em liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
+      "BODY": "Há atualmente uma proposta em tempo real para reduzir os mercados {MARKET_1} e {MARKET_2}. Se aprovada, os mercados {MARKET_1} e {MARKET_2} entrarão em liquidação final em {DATE}. As posições existentes serão fechadas e as ordens abertas serão canceladas. Você pode encontrar mais informações sobre a proposta {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposta em tempo real para atualizar parâmetros de {MARKET}",

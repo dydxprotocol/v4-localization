@@ -60,6 +60,7 @@
       "LOSERS": "Perdedores",
       "MANAGE": "Gerenciar",
       "MARKET_CAP_SHORT": "Cap. de mercado",
+      "MARKETS_FOUND": "{COUNT} mercado(s) encontrado(s)",
       "NA": "n\/a",
       "NAME": "Nome",
       "NETWORK": "Rede",
@@ -399,6 +400,7 @@
       "DYDX_ADDRESS": "Endereço da Cadeia dYdX",
       "SOURCE_ADDRESS": "Endereço de origem",
       "DYDX_ADDRESS_COPIED": "O endereço da cadeia dYdX foi copiado para a área de transferência.",
+      "SOURCE_ADDRESS_COPIED": "O endereço de origem foi copiado para a área de transferência.",
       "DYDX_MNEMONIC_COPIED": "A frase secreta foi copiada para a área de transferência.",
       "SYSTEM_STATUS": "Status do sistema",
       "DELETE_ALERT": "Excluir este alerta",
@@ -489,7 +491,7 @@
   },
   "WARNINGS": {
     "TRADE_BOX": {
-      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de Stop market na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente usar uma ordem de Stop limite.",
+      "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de Stop market na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente usar uma ordem limite de Stop.",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Não garantimos que as ordens de mercado Take profit na dYdX serão executadas dependendo da liquidez no momento de disparo. Para ter mais controle, tente uma ordem limite de Take profit."
     }
   }
