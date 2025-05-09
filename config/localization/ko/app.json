@@ -51,6 +51,7 @@
       "ACCOUNT": "계정",
       "ACKNOWLEDGEMENT": "확인",
       "ACTION": "작업",
+      "ACTION_REQUIRED": "조치 필요",
       "ACTIONS": "작업",
       "ACTIVE": "활성",
       "ADD": "추가 →",
@@ -64,6 +65,7 @@
       "ALL": "전체",
       "ALLOWED": "허용됨",
       "AMOUNT": "금액",
+      "AMOUNT_CLOSE": "청산 금액",
       "AMOUNT_TO_ADD": "추가할 금액",
       "AMOUNT_TO_REMOVE": "제거할 금액",
       "ANONYMOUS": "익명",
@@ -314,6 +316,7 @@
       "RECEIVE": "수신",
       "RECENT_TRADES_SHORT": "거래",
       "RECENT": "현재",
+      "RECLAIM_FUNDS": "자금 회수",
       "RECOMMENDED": "권장됨",
       "RECONNECT_WALLET": "지갑 재연결",
       "REFERRAL_CODE": "추천 코드",
@@ -345,7 +348,7 @@
       "SHOW": "{NUMBER} 보기",
       "SHOW_ALL_DETAILS": "모든 세부 사항 보이기",
       "SHOWING": "{ALL_OR_MARKET} 표시 중",
-      "SHOWING_NUM_OUT_OF_TOTAL": "{START} 보기 - {TOTAL} 중 {END}",
+      "SHOWING_NUM_OUT_OF_TOTAL": "{TOTAL} 중 {END} {START} 표시 중  ",
       "SIDE": "측면",
       "SIGN_OUT": "로그아웃",
       "SIZE": "규모",
@@ -374,6 +377,7 @@
       "TIMESTAMP_ERROR": "타임스탬프 오류",
       "FROM": "{FROM}~",
       "TO": "to {TO}",
+      "TOP_UP_BALANCE": "잔액을 보충하세요",
       "TOTAL_BALANCE": "총 잔액",
       "TOTAL_FEES": "총 수수료",
       "TOTAL_VALUE": "총 값",
@@ -427,7 +431,7 @@
       "YES": "예",
       "YOU": "귀하",
       "YOUR_ACCOUNT": "귀하의 계정",
-      "YOUR_POSITIONS": "내 포지션",
+      "YOUR_POSITIONS": "귀하의 포지션",
       "YOUR_TOKENS": "귀하의 토큰"
     },
     "__ASSETS": {
@@ -492,7 +496,7 @@
         "SECONDARY": "BLUR 토큰은 BLUR 프로토콜의 거버넌스 토큰입니다."
       },
       "BONK": {
-        "PRIMARY": "BONK는 사람들을 위한 Solana의 첫 번째 개 테마 코인입니다.",
+        "PRIMARY": "BONK는 사람들에 의한, 사람들을 위한 Solana의 첫 번째 개 테마 코인입니다. ",
         "SECONDARY": "이 팀의 주요 목표는 Solana 기반 탈중앙화 거래소(DEX)에 유동성을 다시 가져오는 것입니다."
       },
       "BNB": {
@@ -705,7 +709,7 @@
       },
       "STRK": {
         "PRIMARY": "Starknet 토큰은 거래 수수료를 지불하고 거버넌스 투표에 참여하여 Starknet 프로토콜의 장기적인 발전을 형성하는 데 사용됩니다.",
-        "SECONDARY": "StarkNet은 권한이 없는 탈중앙화 유효성 롤업('ZK-롤업'이라고도 함)입니다. 이더리움을 통해 L2 네트워크로 작동하며, 가장 안전하고 확장성이 뛰어난 암호화 증명 시스템인 STARK에 대한 StarkNet의 신뢰 덕분에 이더리움의 컴포먼티와 보안을 손상시키지 않으면서 모든 dApp이 계산을 위해 무제한 확장을 달성할 수 있도록 합니다."
+        "SECONDARY": "StarkNet은 권한이 없는 탈중앙화 유효성 롤업('ZK-롤업'이라고도 함)입니다.  StarkNet은 이더리움을 통해 L2 네트워크로 작동하며, 가장 안전하고 확장성이 뛰어난 암호화 증명 시스템인 STARK를 기반으로 이더리움의 구성성과 보안을 손상시키지 않으면서 모든 dApp이 연산 규모를 무제한으로 확장할 수 있도록 지원합니다. "
       },
       "SUI": {
         "PRIMARY": "Sui는 자산 소유권을 재정의하는 혁신적이고 분산화된 레이어 1 블록 체인입니다.",
@@ -716,12 +720,12 @@
         "SECONDARY": "스시스왑은 토큰 보유자의 투표에 의해 제어되는 커뮤니티 운영 프로젝트입니다. 핵심 제품에는 교환, 유동성 풀, 농장 및 스시바 스테이킹이 포함됩니다."
       },
       "SNX": {
-        "PRIMARY": "신세틱스는 이더리움에 기반하여 개발된 탈중앙화 합성 자산 발행 프로토콜입니다.",
-        "SECONDARY": "신세틱스를 통해 사용자는 인기 있는 암호화폐, 명목화폐, 주식, 상품 등의 가격 움직임을 슬리피지 없이 포착할 수 있습니다. 합성 자산(또는 신스)은 다양한 유형의 자산 가격을 대표하는 커뮤니티의 투표에 의해 존재 여부가 결정되는 자산입니다."
+        "PRIMARY": "Synthetix는 이더리움에 기반하여 개발된 탈중앙화 합성 자산 발행 프로토콜입니다.",
+        "SECONDARY": "Synthetix를 통해 사용자는 인기 있는 암호화폐, 명목화폐, 주식, 상품 등의 가격 움직임을 슬리피지 없이 포착할 수 있습니다. 합성 자산(또는 신스)은 다양한 유형의 자산 가격을 대표하는 커뮤니티의 투표에 의해 존재 여부가 결정되는 자산입니다."
       },
       "TIA": {
-        "PRIMARY": "셀레스티아는 사용자 수에 따라 안전하게 확장되는 모듈식 데이터 가용성 네트워크로, 누구나 자신의 블록체인을 쉽게 시작할 수 있게 해 줍니다.",
-        "SECONDARY": "셀레스티아는 차세대 확장 가능한 블록체인 아키텍처인 모듈식 블록체인을 지원합니다. 셀레스티아는 합의에서 실행을 분리하고 새로운 기본 데이터 가용성 샘플링을 도입하여 확장됩니다."
+        "PRIMARY": "Celestia는 사용자 수에 따라 안전하게 확장되는 모듈식 데이터 가용성 네트워크로, 누구나 자신의 블록체인을 쉽게 시작할 수 있게 해 줍니다.",
+        "SECONDARY": "셀레스티아는 차세대 확장 가능한 블록체인 아키텍처인 모듈식 블록체인을 지원합니다. Celestia는 합의에서 실행을 분리하고 새로운 기본 데이터 가용성 샘플링을 도입하여 확장됩니다."
       },
       "TRUMPWIN": {
         "PRIMARY": "이 시장은 도널드 트럼프가 2024년 미 대선에서 승리할 경우 1달러로 최종 정산합니다. 그렇지 않으면 이 시장은 $0.001로 최종 정산됩니다. 이 시장은 오라클 소스로 폴리마켓을 사용합니다.",
@@ -756,24 +760,24 @@
         "SECONDARY": "선택적으로 투명한 다른 암호화폐(예: 지캐시)와 달리 모네로는 모든 사용자가 익명인 유일한 암호화폐입니다. 3가지 중요한 기술인 스텔스 주소, 링 서명 및 RingCT를 사용하여 모든 거래의 발신자, 수신자 및 금액을 감춥니다."
       },
       "XRP": {
-        "PRIMARY": "Ripple은 국외 결제를 처리하도록 설계된 네트워크입니다.",
+        "PRIMARY": "리플은 국외 결제를 처리하도록 설계된 네트워크입니다. ",
         "SECONDARY": "XRP는 금융 서비스 공간 전반에 걸친 애플리케이션에 가장 실용적인 암호화폐로 구축된 오픈 소스 디지털 자산입니다."
       },
       "XTZ": {
-        "PRIMARY": "Tezos는 자체 업그레이드를 통해 진화할 수 있는 자산 및 애플리케이션을 위한 오픈 소스 플랫폼입니다.",
-        "SECONDARY": "Tezos는 설계를 통해 장기 업그레이드 가능성, 열린 참여, 협업 및 스마트 계약 안전을 수용합니다. Tezos는 지분 증명 블록체인입니다."
+        "PRIMARY": "테조스는 자체 업그레이드를 통해 진화할 수 있는 자산 및 애플리케이션을 위한 오픈 소스 플랫폼입니다. ",
+        "SECONDARY": "테조스는 설계를 통해 장기 업그레이드 가능성, 열린 참여, 협업 및 스마트 계약 안전을 수용합니다. 테조스는 지분 증명 블록체인입니다. "
       },
       "YFI": {
         "PRIMARY": "Yearn Finance는 이더리움 블록체인 기반으로 대출 집계, 수익 생성 및 보험을 제공하는 DeFi(탈중앙화 금융) 제품군입니다.",
         "SECONDARY": "본 프로토콜은 다양한 독립 개발자가 관리하며 YFI 소유자가 통제합니다."
       },
       "ZEC": {
-        "PRIMARY": "Zcash는 빠르고 비밀이 보장되며 수수료가 저렴한 디지털 화폐입니다. ",
-        "SECONDARY": "Zcash에는 보안 주소를 통해 기밀 거래 및 금융 프라이버시를 보장받을 수 있는 옵션이 있습니다. 영지식 증명을 사용하면 발신자, 수신자 또는 거래 금액을 공개하지 않고 거래를 확인할 수 있습니다. 사용자는 규정 준수 또는 감사를 위해 Zcash 내의 선택적 공개 기능을 통해 일부 거래 세부 정보를 공유할 수 있습니다."
+        "PRIMARY": "지캐시는 빠르고 비밀이 보장되며 수수료가 저렴한 디지털 화폐입니다. ",
+        "SECONDARY": "지캐시에는 보안 주소를 통해 기밀 거래 및 금융 프라이버시를 보장받을 수 있는 옵션이 있습니다. 영지식 증명을 사용하면 발신자, 수신자 또는 거래 금액을 공개하지 않고 거래를 확인할 수 있습니다. 사용자는 규정 준수 또는 감사를 위해 지캐시 내의 선택적 공개 기능을 통해 일부 거래 세부 정보를 공유할 수 있습니다. "
       },
       "ZETA": {
-        "PRIMARY": "ZetaChain은 체인에 구애받지 않는 상호 운용성이 내장된 새로운 L1입니다.",
-        "SECONDARY": "ZetaChain은 모든 블록 체인 간에 메시지 패싱 및 가치 전송을 가능하게하는 퍼블릭, 탈중앙화 블록 체인 및 스마트 계약 플랫폼입니다."
+        "PRIMARY": "제타체인은 체인에 구애받지 않는 상호 운용성이 내장된 새로운 L1입니다. ",
+        "SECONDARY": "제타체인은 모든 블록 체인 간에 메시지 패싱 및 가치 전송을 가능하게하는 퍼블릭, 탈중앙화 블록 체인 및 스마트 계약 플랫폼입니다."
       }
     },
     "AFFILIATES": {
@@ -791,7 +795,7 @@
       "AFFILIATES_PROGRAM": "제휴 프로그램",
       "AFFILIATES": "계열사",
       "ALL_REWARDS_DYDX_COMMUNITY": "*모든 보상은 {DYDX_COMMUNITY_LINK}을(를) 통해 제공됩니다.",
-      "ALL_TIME_RANK": "최고 순위",
+      "ALL_TIME_RANK": "역대 순위 ",
       "APPLY_HERE": "여기에 적용",
       "APPLY_NOW": "지금 지원",
       "BECOME_A_VIP": "VIP 제휴사 되기",
@@ -840,9 +844,9 @@
       "VIP": "VIP",
       "VOLUME_REFERRED": "참조된 볼륨",
       "WANT_TO_VIEW_EARNINGS": "수입을 보고 싶으신가요? {LINK}",
-      "YOUR_FRIEND": "내 친구",
-      "YOUR_RANK": "내 순위",
-      "YOUR_STATS": "내 통계",
+      "YOUR_FRIEND": "귀하의 친구 ",
+      "YOUR_RANK": "귀하의 순위 ",
+      "YOUR_STATS": "귀하의 통계 ",
       "YOUR_TIER": "귀하는 {TIER} 등급에 속합니다",
       "YOURE_A_VIP": "귀하는 {VIP}입니다",
       "YOUVE_TRADED": "${AMOUNT_USD}을(를) 거래했습니다."
@@ -1323,7 +1327,7 @@
       "EARN_DYDX_FOR_TRADING": "거래하여 DYDX 획득",
       "EPOCH_NUMBER": "{EPOCH_NUMBER} 에폭",
       "ESTIMATED_FOR_THIS_EPOCH": "이번 에폭으로 추정됨",
-      "ESTIMATED_REWARDS": "보상 예상치",
+      "ESTIMATED_REWARDS": "추정 리워드",
       "ESTIMATED_UNLOCKED_REWARDS": "잠금이 해제되는 보상 예상",
       "EXCHANGE_MARKET_SHARE": "교환 시장 점유율",
       "EXPORT": "내보내기",
@@ -1451,6 +1455,7 @@
       "CANCELING_ALL_ORDERS": "모든 주문 취소 중",
       "CANCELING_ALL_ORDERS_IN_MARKET": "{MARKET_ID}건의 모든 주문 취소",
       "CANCELING_ORDERS_COUNT": "{COUNT}의 주문 취소 중...",
+      "CANCEL_EXTRA_ORDERS": "추가 주문 취소",
       "CANCEL_ORDERS": "주문 취소",
       "CANCEL_REASON": "취소 이유",
       "CANCELED_ON_CHAIN": "온체인 취소됨",
@@ -1713,7 +1718,7 @@
       "DEMOTION": "강등",
       "DIAMOND": "다이아몬드",
       "EARN_AVATAR": "경쟁력 있는 거래를 통해 나만의 아바타를 획득하세요",
-      "EMPTY_LADDER_STATE": "곧 공개됩니다!",
+      "EMPTY_LADDER_STATE": "출시 예정입니다!",
       "GIVEN_TO": "최상위 상대 손익을 가진 트레이더에게 증정",
       "GOLD": "골드",
       "HELD_BY": "보유자:",
@@ -1845,6 +1850,8 @@
       "ADJUSTED_IMR": "증거금 조정",
       "ADJUSTED_IMR_BODY": "변동성으로 인해 초기 증거금 요건을 {MARKET}에서 {PERCENT}(으)로 일시적으로 {ACTION}했습니다. {ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "블록 보상",
+      "CANCEL_OLD_TRIGGERS": "이전 트리거 취소",
+      "CANCEL_OLD_TRIGGERS_BODY": "더 이상 존재하지 않는 포지션에서 생성된 트리거 주문이 남아 있습니다.",
       "CANCELING_ALL_ORDERS": "모든 주문 취소 중",
       "CHAIN_DISRUPTION_DETECTED": "잠재적인 체인 중단 감지됨",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX 체인이 중단될 가능성이 있습니다. 상태 페이지를 확인하고 새로 고침하세요. 체인이 중단되면 거래 및 전송을 일시적으로 이용할 수 없습니다. 여러분의 자금은 안전합니다.",
@@ -1874,6 +1881,7 @@
       "FAST_WITHDRAW_SUCCESS": "빠른 인출에 성공했습니다!",
       "LEGAL_UPDATES": "법률 업데이트",
       "LEGAL_UPDATES_DESCRIPTION": "{TOU} 및 {PRIVACY_POLICY}에 대한 업데이트 사항을 확인하세요.",
+      "LOW_ON_GAS": "가스 수수료가 부족한가요?",
       "MAGIC_OAUTH_REDIRECT_FAILED": "로그인 실패",
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Magic으로 로그인 중 오류가 발생했습니다. 다시 시도하세요.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "유지 마진율 요건 {ACTION}은(는) {PERCENT}%입니다.",
@@ -1888,6 +1896,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "귀하는 당사 이용 약관을 위반하는 관할권의 거주자 또는 해당 관할권에서 거래 중인 것으로 보이며 사전에 계정의 제한으로 이어진 상황을 바로잡을 기회가 주어졌기 때문에 프로토콜 내에서의 전송 수행, 프로토콜로부터 자금을 빼내기 위한 빠른 인출 수행 및 포지션을 줄이는 시장 주문 이외의 주문 배치를 영구적으로 이용할 수 없습니다. 언제든지 해당 프로토콜에서 자금을 인출할 수 있습니다.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "규정 준수 관련 이유로 귀하의 dYdX 프로토콜 사용이 차단되었습니다.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "규정 준수 관련 이유로 귀하의 dYdX 프로토콜 사용이 차단되었습니다. 이 계정은 청산 전용 모드입니다. 오류가 있었다고 생각되시면 support@dydx.exchange에 이메일로 문의하세요.",
+      "RECLAIM_FUNDS": "자금 회수",
+      "RECLAIM_FUNDS_DESCRIPTION": "이전에 담보로 보유한 ${RECLAIM_AMOUNT}의 자금을 이제 회수할 수 있습니다.",
       "RELEASE_UPDATES": "릴리스 업데이트",
       "REMOVED": "제거됨",
       "REMOVING": "제거 중",
@@ -2389,7 +2399,7 @@
       "MSG_DELAY_MESSAGE": "Msg 메시지 지연",
       "MSG_SUBMIT_PROPOSAL": "Msg 제안 제출",
       "NEW_MARKET_PROPOSAL_AGREEMENT": "아래 상자를 선택하면 다음 사항을 인지하고 이해하는 것입니다. (a) 시장의 사전 작성 목록이 특정 자산 또는 시장의 보증을 반영하지 않으며, 투자, 법률 또는 기타 형태의 전문적인 조언으로 의존해서는 안 됩니다. (b) 이 목록은 특정 시장의 권장 사항이 아니며, 시장은 공개 데이터를 사용하는 기술적 관점에서 호환성 및 기능 집단을 기반으로 포함됩니다. (c) 자체 조사를 수행하고 모든 해당 관할권의 법률을 준수하도록 자격이 있는 법률 자문과 상담하는 것이 좋습니다. 또한 '새 시장 제안'을 클릭하면 온체인 거버넌스 제안을 생성한다는 것을 인지하고 이해합니다. 온체인 거버넌스 제안에 대한 자세한 내용은 {DOCUMENTATION_LINK}에서 찾을 수 있습니다. 이는 이 웹 사이트의 호스트 및 운영자와 독립적이며 관련이 없습니다. {TERMS_OF_USE}에 설명된 대로 미국, 캐나다 및 인가된 관할권에서는 이 위젯을 사용하는 것이 금지됩니다.",
-      "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "자산을 선택하고 세부 정보를 확인하며 거버넌스 제안을 실행하여 dYdX Chain에 새로운 시장을 추가하세요. {NATIVE_TOKEN_DENOM}개의 스테이킹되지 않은 {REQUIRED_NUM_TOKENS} 필요.",
+      "NEW_MARKET_REWARDS_ENTRY_DESCRIPTION": "자산을 선택하고 세부 정보를 확인하며 거버넌스 제안을 실행하여 dYdX Chain에 새로운 시장을 추가하세요. {REQUIRED_NUM_TOKENS} 스테이킹되지 않은 {NATIVE_TOKEN_DENOM} 필요.",
       "NOT_LAUNCHED": "미출시",
       "OR_MORE": "{NUMBER} 이상",
       "PERMISSIONLESS_LIVE": "허가가 필요 없는 시장이 활성화되었습니다!",
@@ -2418,7 +2428,8 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 {DATE}까지 자금을 인출할 수 있습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다.",
-      "BLOCKED_BANNER_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. 오류로 의심될 경우, {HELP_LINK}에서 지원을 요청하세요."
+      "BLOCKED_BANNER_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. 오류로 의심될 경우, {HELP_LINK}에서 지원을 요청하세요.",
+      "BLOCKED_BANNER_MESSAGE_SHORT": "미국 거주자 및 기타 제한된 개인은 거래할 수 없습니다. 오류가 있다고 생각되면 {CONTACT_SUPPORT_LINK}에 문의해주세요."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "바이너리 정산",
@@ -2435,6 +2446,14 @@
       "PREDICTION_MARKET_LOSS": "{MARKET}의 결과를 잘못 예측했습니다.",
       "TRADE_US_PRESIDENTIAL_ELECTION": "미국 대통령 선거 결과 예측 거래",
       "TRUMPWIN_DESC": "이는 예측 시장으로, 도널드 트럼프가 2024년 미국 대통령 선거에서 승리하면 1달러로 정산됩니다. 그렇지 않으면 0달러로 정산됩니다. {LEARN_MORE} 또는 {DISMISS}."
+    },
+    "WITHDRAW_TO_WALLET_MODAL": {
+      "BELOW_RECOMMENDED_GAS_BALANCE": "권장 금액 미만",
+      "INSUFFICIENT_FREE_COLLATERAL": "가용 담보금이 충분하지 않습니다",
+      "NO_AMOUNT_ENTERED": "입력된 금액이 없습니다",
+      "SUFFICIENT_GAS_BALANCE": "가스 수수료를 지불하기에 충분합니다",
+      "WITHDRAW_TO_WALLET": "지갑으로 인출",
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "dYdX 체인의 가스 수수료를 지불하기 위해 지갑 잔액을 ${MIN_RANGE} ~ ${MAX_RANGE} 사이로 유지하는 것이 좋습니다."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2505,54 +2524,55 @@
   "CHAIN": {
     "V3_MAINNET": "V3 메인넷",
     "V3_GOERLI": "V3 스테이징",
-    "V4_DEVNET": "V4 데브 1",
-    "V4_DEVNET_2": "V4 데브 2",
-    "V4_DEVNET_3": "V4 데브 3",
-    "V4_DEVNET_4": "V4 데브 4",
-    "V4_DEVNET_5": "V4 데브 5",
+    "V4_DEVNET": "V4 Dev 1",
+    "V4_DEVNET_2": "V4 Dev 2",
+    "V4_DEVNET_3": "V4 Dev 3",
+    "V4_DEVNET_4": "V4 Dev 4",
+    "V4_DEVNET_5": "V4 Dev 5",
     "V4_STAGING": "V4 스테이징",
     "V4_TESTNET": "V4 테스트넷 3",
     "V4_TESTNET_DSRV": "V4 테스트넷 3(DSRV)",
     "V4_TESTNET_DYDX": "V4 테스트넷 3(dYdX)",
-    "V4_TESTNET_NODEFLEET": "V4 테스트넷 3(노드플리트)",
+    "V4_TESTNET_NODEFLEET": "V4 테스트넷 3(노드플릿) ",
     "V4_TESTNET_IMPERATOR": "V4 테스트넷 3(임퍼레이터)"
   },
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "지갑 잔액이 거래 수수료를 충당하기에 충분하지 않습니다. 추가 자금을 입금하세요.",
     "BROADCAST_ERROR_SDK_32": "제출된 타임스타임프 논스가 선택한 노드의 유효한 시간 범위 범위에 들어지지 않아 작업을 처리할 수 없습니다. 페이지를 새로 고친 후 다시 시도하세요.",
-    "BROADCAST_ERROR_CLOB_2000": "채우기 또는 삭제 주문이 완전히 채워지지 않았습니다.",
-    "BROADCAST_ERROR_CLOB_2001": "감소 전용 주문은 포지션 크기를 늘릴 수 없습니다.",
-    "BROADCAST_ERROR_CLOB_2002": "감소 전용 주문은 포지션 측면을 변경할 수 없습니다.",
-    "BROADCAST_ERROR_CLOB_2003": "포스트 온리 주문은 하나 이상의 메이커 주문을 교차하는 것입니다.",
+    "BROADCAST_ERROR_CLOB_2000": "전량충족조건 주문이 완전히 채워지지 않았습니다.",
+    "BROADCAST_ERROR_CLOB_2001": "리듀스-온리 주문은 포지션 크기를 늘릴 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_2002": "리듀스-온리 주문은 포지션 측면을 변경할 수 없습니다. ",
+    "BROADCAST_ERROR_CLOB_2003": "포스트-온리 주문은 하나 이상의 메이커 주문을 교차하는 것입니다.",
     "BROADCAST_ERROR_CLOB_2005": "주문이 격리된 하위 계정 제약 조건을 위반합니다.",
     "BROADCAST_ERROR_CLOB_3000": "잘못된 주문 플래그.",
     "BROADCAST_ERROR_CLOB_3001": "잘못된 주문 goodTilBlockTime.",
     "BROADCAST_ERROR_CLOB_3002": "연결 상태를 추적할 수 있는 주문은 즉시 실행을 요청할 수 없습니다.",
     "BROADCAST_ERROR_CLOB_3003": "블록 시간이 메시지의 GoodTilBlockTime보다 큽니다. 페이지를 새로 고친 후 다시 시도하세요.",
     "BROADCAST_ERROR_CLOB_3004": "메시지의 GoodTilBlockTime은 향후 StatefulOrderTimeWindow보다 멀리 떨어져 있습니다. 페이지를 새로 고친 후 다시 시도하세요.",
-    "BROADCAST_ERROR_CLOB_3005": "기존 상태 추적 주문은 새로운 주문보다 우선 순위가 높거나 같습니다.",
-    "BROADCAST_ERROR_CLOB_3006": "상태 추적 주문이 존재하지 않습니다.",
-    "BROADCAST_ERROR_CLOB_3007": "상태 추적 주문 자료화 검사 실패. 주문 크기가 너무 클 수 있습니다. 작은 주문으로 다시 시도하세요.",
-    "BROADCAST_ERROR_CLOB_3008": "상태 추적 주문은 이전에 취소되었으므로 배치할 수 없습니다.",
-    "BROADCAST_ERROR_CLOB_3009": "상태 추적 주문은 이전에 제거되었으므로 배치할 수 없습니다.",
+    "BROADCAST_ERROR_CLOB_3005": "기존 스테이트풀 오더는 새로운 주문보다 우선 순위가 높거나 같습니다. ",
+    "BROADCAST_ERROR_CLOB_3006": "스테이트풀 오더가 존재하지 않습니다.  ",
+    "BROADCAST_ERROR_CLOB_3007": "스테이트풀 오더 자료화 검사 실패.  주문 크기가 너무 클 수 있습니다. 작은 주문으로 다시 시도하세요.",
+    "BROADCAST_ERROR_CLOB_3008": "스테이트풀 오더는 이전에 취소되었으므로 배치할 수 없습니다. ",
+    "BROADCAST_ERROR_CLOB_3009": "스테이트풀 오더는 이전에 제거되었으므로 배치할 수 없습니다. ",
     "BROADCAST_ERROR_CLOB_10001": "하위 계정은 계층 제한으로 인해 추가 주문을 열 수 없습니다. {EQUITY_TIER_LEARN_MORE}",
-    "BROADCAST_ERROR_2000": "채우기 또는 삭제 주문이 완전히 채워지지 않았습니다.",
-    "BROADCAST_ERROR_2001": "감소 전용 주문은 포지션 크기를 늘릴 수 없습니다.",
-    "BROADCAST_ERROR_2002": "감소 전용 주문은 포지션 측면을 변경할 수 없습니다.",
-    "BROADCAST_ERROR_2003": "포스트 온리 주문은 하나 이상의 메이커 주문을 교차하는 것입니다.",
+    "BROADCAST_ERROR_2000": "전량충족조건 주문이 완전히 채워지지 않았습니다.",
+    "BROADCAST_ERROR_2001": "리듀스-온리 주문은 포지션 크기를 늘릴 수 없습니다.",
+    "BROADCAST_ERROR_2002": "리듀스-온리 주문은 포지션 측면을 변경할 수 없습니다. ",
+    "BROADCAST_ERROR_2003": "포스트-온리 주문은 하나 이상의 메이커 주문을 교차하는 것입니다.",
     "BROADCAST_ERROR_2005": "주문이 격리된 하위 계정 제약 조건을 위반합니다.",
     "BROADCAST_ERROR_3000": "잘못된 주문 플래그.",
     "BROADCAST_ERROR_3001": "잘못된 주문 goodTilBlockTime.",
     "BROADCAST_ERROR_3002": "연결 상태를 추적할 수 있는 주문은 즉시 실행을 요청할 수 없습니다.",
     "BROADCAST_ERROR_3003": "블록 시간이 메시지의 GoodTilBlockTime보다 큽니다.",
     "BROADCAST_ERROR_3004": "메시지의 GoodTilBlockTime은 향후 StatefulOrderTimeWindow보다 멀리 떨어져 있습니다.",
-    "BROADCAST_ERROR_3005": "기존 상태 추적 주문은 새로운 주문보다 우선 순위가 높거나 같습니다.",
-    "BROADCAST_ERROR_3006": "상태 추적 주문이 존재하지 않습니다.",
-    "BROADCAST_ERROR_3007": "상태 추적 주문 자료화 검사 실패.",
-    "BROADCAST_ERROR_3008": "상태 추적 주문은 이전에 취소되었으므로 배치할 수 없습니다.",
-    "BROADCAST_ERROR_3009": "상태 추적 주문은 이전에 제거되었으므로 배치할 수 없습니다.",
+    "BROADCAST_ERROR_3005": "기존 스테이트풀 오더는 새로운 주문보다 우선 순위가 높거나 같습니다. ",
+    "BROADCAST_ERROR_3006": "스테이트풀 오더가 존재하지 않습니다.  ",
+    "BROADCAST_ERROR_3007": " 자료화 검사 실패.",
+    "BROADCAST_ERROR_3008": "스테이트풀 오더는 이전에 취소되었으므로 배치할 수 없습니다. ",
+    "BROADCAST_ERROR_3009": "스테이트풀 오더는 이전에 제거되었으므로 배치할 수 없습니다. ",
     "BROADCAST_ERROR_10001": "하위 계정은 계층 제한으로 인해 추가 주문을 열 수 없습니다. {EQUITY_TIER_LEARN_MORE}",
     "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "그러면 계정이 담보 임계값 아래로 설정됩니다. 더 적은 금액을 시도하세요.",
+    "QUERY_ERROR_SUBACCOUNTS_STILLUNDERCOLLATERALIZED": "귀하의 계정에 이 작업을 위한 자금이 충분하지 않습니다. 더 적은 금액을 시도하세요.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "요율 한도 도달",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "이 IP 주소의 요율 제한에 도달했습니다. 나중에 다시 시도하세요.",
@@ -2726,17 +2746,17 @@
       "INDETERMINISTIC_SIGNING": "지갑이 결정적 서명을 지원하지 않습니다. 다른 지갑 공급자로 전환하세요.",
       "INVALID_EMAIL": "유효한 이메일 주소를 입력하세요.",
       "INVALID_USERNAME": "사용자 이름의 첫 글자는 문자로 시작해야 하고 24자를 초과할 수 없으며 문자, 숫자, 밑줄 문자만 사용할 수 있습니다.",
-      "KEY_RECOVERY_FAILED": "키 복구에 실패했습니다. '구버전 서명' 기능을 활성화한 뒤 다시 시도하세요.",
+      "KEY_RECOVERY_FAILED": "키 복구에 실패했습니다. '레거시 서명' 기능을 활성화한 뒤 다시 시도하세요. ",
       "LEDGER_U2F_REQUIRED": "Ledger 연결 시에는 U2F 브라우저 지원이 필요합니다. 현재 브라우저에서 이 기능이 지원되는지 확인하세요.",
       "PRICE_IMPACT_TOO_HIGH": "요청한 금액에 대한 유동성이 충분하지 않으며, 결과적으로 슬리피지가 저희 안전 한도를 초과합니다.",
       "USERNAME_TAKEN": "이미 사용 중인 사용자 이름입니다.",
       "WALLET_NO_TRANSACTIONS": "이 지갑에는 자금 및 이전 거래 내역이 없습니다. 가입 절차를 계속하려면 지갑에 자금을 입금하세요."
     },
     "DEPOSIT_MODAL": {
-      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "계정이 동기화되지 않습니다. 지갑을 재연결한 뒤 다시 시도하세요.",
+      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "계정이 동기화되지 않습니다. 지갑을 다시 연결하고 다시 시도하세요.",
       "DEPOSIT_MORE_THAN_BALANCE": "사용 가능한 지갑 잔액을 초과하는 금액을 입금할 수 없습니다.",
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "지갑 네트워크가 잘못되었습니다. 'Ethereum Mainnet'으로 설정되어 있는지 확인하세요.",
-      "DEPOSIT_WRONG_NETWORK_STAGING": "지갑 네트워크가 잘못되었습니다. '고얼리 테스트 네트워크'로 설정되어 있는지 확인하세요.",
+      "DEPOSIT_WRONG_NETWORK_STAGING": "지갑 네트워크가 잘못되었습니다. 'Goerli Test Network''로 설정되어 있는지 확인하세요.",
       "MUST_SPECIFY_ASSET": "입금할 자산을 선택하세요.",
       "MUST_SPECIFY_CHAIN": "입금할 소스 체인을 선택하세요.",
       "YOUR_DEPOSIT_FAILED": "입금에 실패했습니다. 다시 시도하세요."
