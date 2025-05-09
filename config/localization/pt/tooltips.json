@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Comissões de afiliados",
-      "BODY": "Os afiliados ganham comissão sobre as taxas taker pagas pelos usuários indicados. Para gerar participação de taxas de afiliado, os usuários indicados devem ter um volume contínuo de 30 dias abaixo de US$ 50 milhões quando fizerem o trade."
+      "BODY": "Os afiliados ganham comissão sobre as taxas Taker pagas pelos usuários indicados. Para gerar participação de taxas de afiliado, os usuários indicados devem ter um volume contínuo de 30 dias abaixo de US$ 50 milhões quando fizerem o trade."
     }
   },
   "PORTFOLIO": {
@@ -30,7 +30,7 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Alavancagem de conta",
-      "BODY": "Alavanque sua conta com base em todas as suas posições abertas. Como sua conta é de margem cruzada, cada posição aberta tem sua própria alavancagem, o que também afeta a alavancagem geral da sua conta."
+      "BODY": "Alavancagem da sua conta baseada em todas as suas posições abertas. Como sua conta é de margem cruzada, cada posição aberta tem sua própria alavancagem, o que também afeta a alavancagem geral da sua conta."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Saldo disponível",
@@ -74,15 +74,15 @@
     },
     "EXPECTED_PRICE": {
       "TITLE": "Preço esperado",
-      "BODY": "Preço esperado da execução para sua ordem. Este preço é apenas uma estimativa, já que o livro de ordens pode mudar antes que sua ordem seja processada pela rede."
+      "BODY": "Preço esperado da execução para sua ordem. Este preço é apenas uma estimativa, já que o livro de registro de pedidos pode mudar antes que sua ordem seja processada pela rede."
     },
     "FEE": {
       "TITLE": "Taxa de trading",
       "BODY": "As taxas de trading são cobradas pela rede com base em uma porcentagem do seu volume de trading. As taxas de trading são acrescidas em validadores e stakers da dYdX. Não há taxas de \"gas\" para fazer trades na dYdX."
     },
     "FILL_OR_KILL": {
-      "TITLE": "Execução imediata",
-      "BODY": "As ordens de execução imediata devem ser completamente preenchidas após a execução, ou serão canceladas automaticamente."
+      "TITLE": "Preencher ou encerrar",
+      "BODY": "As ordens Preencher ou encerrar devem ser completamente preenchidas após a execução, ou serão canceladas automaticamente."
     },
     "FREE_COLLATERAL": {
       "TITLE": "Garantia gratuita",
@@ -122,7 +122,7 @@
     },
     "LIMIT_PRICE_LEARN_MORE": {
       "TITLE": "Preço limite",
-      "BODY": "Ao identificar um preço limite, você está realizando uma ordem limite de Take profit e\/ou Stop. Clique em {DOCUMENTATION_LINK} para mais detalhes."
+      "BODY": "Ao identificar um preço limite, você está realizando uma ordem limite de Take profit e\/ou de Stop. Clique em {DOCUMENTATION_LINK} para mais detalhes."
     },
     "LIMIT_PRICE_SLIPPAGE": {
       "TITLE": "Slippage",
@@ -146,15 +146,15 @@
     },
     "LIQUIDITY": {
       "TITLE": "Liquidez",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de taker. As ordens limite que adicionam liquidez ao livro e são preenchidas por outra parte serão preenchidas como ordens de maker."
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de Taker. As ordens limite que adicionam liquidez ao livro e são preenchidas por outra parte serão preenchidas como ordens de maker."
     },
     "MAINTENANCE_MARGIN_FRACTION": {
       "TITLE": "Fração da margem de manutenção",
-      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como o valor referencial de posição de um trader dividido pelo patrimônio. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, depois de ter pagado a penalidade de liquidação máxima de 1,5%."
+      "BODY": "A fração da margem de manutenção define quando os traders são liquidados. Ela é calculada como o valor referencial de posição de um trader dividido pelo patrimônio. Se a fração de margem de um trader exceder a fração da margem de manutenção, sua posição será fechada automaticamente (liquidada) e um mecanismo de liquidação tentará deixar fundos em contas de valor positivo, quando possível, após ter pagado a penalidade de liquidação máxima de 1,5%."
     },
     "MAKER_FEE": {
       "TITLE": "Taxa de maker",
-      "BODY": "As ordens limite que adicionam liquidez ao livro e são executadas por outra parte serão executadas como ordens de maker. As ordens de maker têm uma taxa mais baixa do que as ordens de taker."
+      "BODY": "As ordens limite que adicionam liquidez ao livro e são executadas por outra parte serão executadas como ordens de maker. As ordens de maker têm uma taxa mais baixa do que as ordens de Taker."
     },
     "MARGIN_USAGE": {
       "TITLE": "Uso de margem",
@@ -217,12 +217,12 @@
       "BODY": "A alavancagem altera o multiplicador nos seus ganhos ou perdas. Aumentar sua alavancagem aumenta o quanto você ganharia \/ perderia em um trade com o mesmo movimento de preço."
     },
     "POST_ONLY": {
-      "TITLE": "Ordem Post-Only",
-      "BODY": "Ordens com a opção post-only podem ser colocadas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
+      "TITLE": "Somente postagem",
+      "BODY": "Ordens com a opção Somente postagem podem ser colocadas apenas como ordens de maker. Se a ordem cruzar outras ordens no momento da colocação, ela será cancelada automaticamente."
     },
     "POST_ONLY_TIMEINFORCE_GTT": {
-      "TITLE": "Ordem Post-Only",
-      "BODY": "A ordem Post-Only somente estará disponível se o Tempo em vigor estiver definido como Good Til Time."
+      "TITLE": "Somente postagem",
+      "BODY": "A ordem Somente postagem estará disponível apenas se o Tempo em vigor estiver definido como Válido até."
     },
     "PRICE_IMPACT": {
       "TITLE": "Impacto do preço",
@@ -234,15 +234,15 @@
     },
     "REDUCE_ONLY": {
       "TITLE": "Apenas redução",
-      "BODY": "A opção de apenas reduzir impede que uma ordem altere o tipo de sua posição (long para short ou vice-versa). Uma ordem com a configuração Somente reduzir será redimensionada automaticamente e cancelada conforme sua posição for alterada."
+      "BODY": "A opção de Apenas redução impede que uma ordem altere o tipo de sua posição (long para short ou vice-versa). Uma ordem com a configuração Apenas redução será redimensionada automaticamente e cancelada conforme sua posição for alterada."
     },
     "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Apenas redução",
-      "BODY": "Somente reduzir está disponível somente se o Tempo em vigor estiver definido como IOC."
+      "BODY": "Apenas redução está disponível somente se o Tempo em vigor estiver definido como IOC."
     },
     "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Apenas redução",
-      "BODY": "Somente reduzir está disponível somente se a execução estiver definida como IOC."
+      "BODY": "Apenas redução está disponível somente se a execução estiver definida como IOC."
     },
     "REWARDS_EARNED": {
       "TITLE": "Recompensas recebidas",
@@ -269,8 +269,8 @@
       "BODY": "O preço stop-loss caiu abaixo do preço de liquidação. Isso pode ocorrer devido a alterações de financiamento decorrentes de retiradas de fundos ou de mudanças nas margens exigidas."
     },
     "TAKER_FEE": {
-      "TITLE": "Taxa de taker",
-      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de taker. As ordens de taker têm uma taxa mais alta do que as ordens de maker."
+      "TITLE": "Taxa de Taker",
+      "BODY": "Trades que tiram a liquidez do livro (por exemplo, ordens de mercado ou de limite cruzado) são executados como ordens de Taker. As ordens de Taker têm uma taxa mais alta do que as ordens de maker."
     },
     "TAKE_PROFIT": {
       "TITLE": "Take profit",
@@ -286,7 +286,7 @@
     },
     "TIME_IN_FORCE": {
       "TITLE": "Tempo em vigor",
-      "BODY": "O tempo em vigor selecionado controla por quanto tempo uma ordem permanecerá ativa até que ela expire ou seja executada."
+      "BODY": "O tempo em vigor selecionado controla por quanto tempo uma ordem permanecerá ativa até que ela expire ou que seja executada."
     },
     "TRAILING_PERCENT": {
       "TITLE": "Porcentagem de trailing",
@@ -311,7 +311,7 @@
     },
     "BRIDGE_FEES_DEPOSIT": {
       "TITLE": "Taxas de bridge",
-      "BODY": "As taxas de Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este depósito."
+      "BODY": "As taxas de bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este depósito."
     },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Não disponível",
@@ -331,7 +331,7 @@
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Valor mínimo do depósito",
-      "BODY": "Incluindo qualquer slippage que possa ocorrer devido a mudanças de liquidez enquanto a ponte está em andamento"
+      "BODY": "Incluindo qualquer slippage que possa ocorrer devido a mudanças de liquidez enquanto a bridge está em andamento"
     },
     "SWAP": {
       "TITLE": "Swap e depósito",
@@ -341,7 +341,7 @@
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
-      "BODY": "Este é o custo de gás das transações de depósito e de definição de permissão, pago a mineradores da Ethereum. Você só precisa definir a permissão uma vez por ativo que você depositar."
+      "BODY": "Este é o custo de \"gas\" das transações de depósito e de definição de permissão, pago a mineradores da Ethereum. Você só precisa definir a permissão uma vez por ativo que você depositar."
     },
     "DEPOSIT_NETWORK_FEE": {
       "TITLE": "Taxa de rede",
@@ -357,7 +357,7 @@
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Taxa de saque rápido",
-      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobrirá os custos de gás em troca de uma taxa. Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Camada 2)."
+      "BODY": "Os saques rápidos são enviados imediatamente e a dYdX cobrirá os custos de \"gas\" em troca de uma \"taxa\". Para saques sem taxas, use um saque lento (você paga seus próprios custos de “gas” e terá de esperar pela confirmação da Camada 2)."
     },
     "GAS_FEES": {
       "TITLE": "Taxas de “gas”",
@@ -369,15 +369,15 @@
     },
     "BRIDGE_FEES": {
       "TITLE": "Taxas de bridge",
-      "BODY": "As taxas de Bridge são pagas a outros protocolos para concluir a ponte, a transferência e a troca necessárias para este saque."
+      "BODY": "As taxas de bridge são pagas a outros protocolos para concluir a cobertura, a transferência e a troca necessárias para este saque."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Valor mínimo recebido",
-      "BODY": "Incluindo qualquer slippage que possa ocorrer devido a mudanças de liquidez enquanto a ponte está em andamento"
+      "BODY": "Incluindo qualquer slippage que possa ocorrer devido a mudanças de liquidez enquanto a bridge está em andamento"
     },
     "WITHDRAW_TYPES": {
       "TITLE": "Tipos de saque",
-      "BODY": "A dYdX oferece suporte a dois tipos de saques da Camada 2. Os saques rápidos têm uma taxa pequena, mas não exigem gás e são enviados imediatamente. Já os saques lentos são gratuitos, mas possuem duas etapas, pois levam muito mais tempo e o usuário terá de pagar suas próprias taxas de gás."
+      "BODY": "A dYdX oferece suporte a dois tipos de saques da Camada 2. Os saques rápidos têm uma taxa pequena, mas não exigem gás e são enviados imediatamente. Já os saques lentos são gratuitos, mas possuem duas etapas, pois levam muito mais tempo e o usuário terá de pagar suas próprias taxas de \"gas\"."
     }
   },
   "STAKE": {
@@ -395,7 +395,7 @@
   "TOKEN_MIGRATION": {
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "Liquidação na cadeia dYdX",
-      "BODY": "Para garantir a segurança do protocolo, os validadores da cadeia dYdX adiam a liquidação da cadeia dYdX DYDX."
+      "BODY": "Para garantir a segurança do protocolo, os validadores da cadeia dYdX adiam a liquidação da dYdX da cadeia DYDX."
     }
   },
   "TRADE_CHART": {
@@ -424,7 +424,7 @@
       "BODY": "O valor que você pode sacar, que é o saldo do seu cofre menos qualquer valor bloqueado para novas listagens de mercado."
     },
     "YOUR_VAULT_BALANCE": {
-      "BODY": "O valor atual de seus depósitos. Isso é calculado com base no capital e nas posições atuais do cofre."
+      "BODY": "O valor atual de seus depósitos. Isso é calculado com base no patrimônio e nas posições atuais do cofre."
     },
     "YOUR_ALL_TIME_PNL": {
       "BODY": "O PNL total ao longo do tempo. Isso inclui o PNL histórico de seus depósitos no cofre."
