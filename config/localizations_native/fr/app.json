@@ -60,6 +60,7 @@
       "LOSERS": "Perdants",
       "MANAGE": "Gérer",
       "MARKET_CAP_SHORT": "Capitalisation boursière",
+      "MARKETS_FOUND": "{COUNT} marché(s) trouvé(s)",
       "NA": "n\/a",
       "NAME": "Nom",
       "NETWORK": "Réseau",
@@ -399,6 +400,7 @@
       "DYDX_ADDRESS": "Adresse de la chaîne dYdX",
       "SOURCE_ADDRESS": "Adresse source",
       "DYDX_ADDRESS_COPIED": "L'adresse de la chaîne dYdX est copiée dans le presse-papier.",
+      "SOURCE_ADDRESS_COPIED": "L'adresse source est copiée dans le presse-papiers.",
       "DYDX_MNEMONIC_COPIED": "La phrase secrète a été copiée dans le presse-papiers.",
       "SYSTEM_STATUS": "État du système",
       "DELETE_ALERT": "Supprimer cette alerte",
@@ -451,7 +453,7 @@
         "LAUNCH_MARKET_LINE2": "MegaVault a un TAEG estimé {APR}"
     },
     "SIMPLE_UI": {
-        "BUYING_POWER_TOOLTIP": "Il s'agit du montant maximal d'exposition que vous pouvez obtenir avec votre dépôt. Ce n'est pas le montant que vous pouvez déposer ou retirer. Votre pouvoir d’achat peut changer rapidement et peut être positif même lorsque vous êtes en perte.",
+        "BUYING_POWER_TOOLTIP": "Il s'agit du montant maximal d'exposition que vous pouvez obtenir avec votre dépôt. Ce n'est pas le montant que vous pouvez déposer ou retirer. Votre pouvoir d’achat peut changer rapidement et peut être positif même lorsque vous réalisez des pertes.",
         "RISK_TOOLTIP": "Il s'agit du pourcentage de votre dépôt conservé en marge par vos positions ouvertes. Cela peut changer rapidement lorsque le prix du marché change."
     }
   },

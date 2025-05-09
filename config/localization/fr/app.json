@@ -51,6 +51,7 @@
       "ACCOUNT": "Compte",
       "ACKNOWLEDGEMENT": "Remerciement",
       "ACTION": "Action",
+      "ACTION_REQUIRED": "Action requise",
       "ACTIONS": "Actions",
       "ACTIVE": "Actif",
       "ADD": "Ajouter →",
@@ -64,6 +65,7 @@
       "ALL": "Tout",
       "ALLOWED": "Autorisé",
       "AMOUNT": "Montant",
+      "AMOUNT_CLOSE": "Montant de fermeture",
       "AMOUNT_TO_ADD": "Montant à ajouter",
       "AMOUNT_TO_REMOVE": "Montant à supprimer",
       "ANONYMOUS": "Anonyme",
@@ -314,6 +316,7 @@
       "RECEIVE": "Recevoir",
       "RECENT_TRADES_SHORT": "Trades",
       "RECENT": "Récent",
+      "RECLAIM_FUNDS": "Récupérer des fonds",
       "RECOMMENDED": "Recommandé",
       "RECONNECT_WALLET": "Reconnecter le portefeuille",
       "REFERRAL_CODE": "Code de référence",
@@ -374,6 +377,7 @@
       "TIMESTAMP_ERROR": "Erreur d'horodatage",
       "FROM": "de {FROM}",
       "TO": "à {TO}",
+      "TOP_UP_BALANCE": "Approvisionner le solde",
       "TOTAL_BALANCE": "Solde total",
       "TOTAL_FEES": "Frais totaux",
       "TOTAL_VALUE": "Valeur totale",
@@ -1451,6 +1455,7 @@
       "CANCELING_ALL_ORDERS": "Annuler tous les ordres",
       "CANCELING_ALL_ORDERS_IN_MARKET": "Annuler tous les ordres dans {MARKET_ID}",
       "CANCELING_ORDERS_COUNT": "Annulation de tous les {COUNT} ordres...",
+      "CANCEL_EXTRA_ORDERS": "Annuler les ordres supplémentaires",
       "CANCEL_ORDERS": "Annuler les ordres",
       "CANCEL_REASON": "Motif de l'annulation",
       "CANCELED_ON_CHAIN": "Annulé sur la chaîne",
@@ -1845,6 +1850,8 @@
       "ADJUSTED_IMR": "Marge ajustée",
       "ADJUSTED_IMR_BODY": "Nous avons temporairement {ACTION} les exigences de marge initiale sur {MARKET} à {PERCENT} en raison de la volatilité.{ADDITIONAL_NOTE}",
       "BLOCK_REWARD": "Récompense en bloc",
+      "CANCEL_OLD_TRIGGERS": "Annuler les anciens déclencheurs",
+      "CANCEL_OLD_TRIGGERS_BODY": "Vous avez des ordres de déclenchement orphelins à partir d'une position qui n'existe plus.",
       "CANCELING_ALL_ORDERS": "Annuler tous les ordres",
       "CHAIN_DISRUPTION_DETECTED": "Perturbation potentielle de la chaîne détectée",
       "CHAIN_DISRUPTION_DETECTED_BODY": "Il existe une perturbation potentielle de la chaîne dYdX. Veuillez vérifier la page d'état et actualiser. En cas de perturbation de la chaîne, le trading et les transferts sont temporairement désactivés. Vos fonds sont en sécurité.",
@@ -1874,6 +1881,7 @@
       "FAST_WITHDRAW_SUCCESS": "Retrait rapide réussi !",
       "LEGAL_UPDATES": "Mises à jour légales",
       "LEGAL_UPDATES_DESCRIPTION": "Veuillez consulter notre {TOU} et {PRIVACY_POLICY} actualisés.",
+      "LOW_ON_GAS": "À court de gaz ?",
       "MAGIC_OAUTH_REDIRECT_FAILED": "La connexion a échoué",
       "MAGIC_OAUTH_REDIRECT_FAILED_BODY": "Une erreur s'est produite lors de votre connexion avec Magic. Veuillez réessayer.",
       "MAINTENANCE_MARGIN_ADJUSTMENTS": "Exigences de marge de maintenance {ACTION} à {PERCENT} %.",
@@ -1888,6 +1896,8 @@
       "PERMANENTLY_BLOCKED_DESCRIPTION": "Étant donné que vous semblez résider ou trader dans une juridiction qui enfreint nos conditions d'utilisation et que vous avez déjà eu la possibilité de remédier aux circonstances ayant entraîné des restrictions sur votre compte, vous avez été définitivement bloqué et ne pouvez plus effectuer de transferts au sein du protocole, de retraits rapides pour retirer des fonds du protocole ni passer des ordres autres que des ordres au marché qui réduisent vos positions. Vous pouvez retirer vos fonds du protocole à tout moment.",
       "PERMANENTLY_BLOCKED_ELLIPTIC": "Pour des raisons de conformité, vous ne pouvez plus utiliser le protocole dYdX.",
       "PERMANENTLY_BLOCKED_COMPLIANCE": "Pour des raisons de conformité, vous ne pouvez plus utiliser le protocole dYdX. Ce compte est en mode fermeture uniquement. Si vous pensez qu'il s'agit d'une erreur, veuillez envoyer un e-mail à support@dydx.exchange.",
+      "RECLAIM_FUNDS": "Récupérer des fonds",
+      "RECLAIM_FUNDS_DESCRIPTION": "Vous avez {RECLAIM_AMOUNT} $ de fonds, précédemment détenus en collatéral, qui peuvent maintenant être récupérés.",
       "RELEASE_UPDATES": "Publier des mises à jour",
       "REMOVED": "Supprimé",
       "REMOVING": "Supprimer",
@@ -2418,7 +2428,8 @@
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu'à {DATE} pour retirer vos fonds avant que votre accès au frontend ne soit bloqué. Si vous pensez qu'une erreur s'est produite, veuillez contacter le service d'assistance sur {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux problèmes qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez contacter le service d'assistance sur {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Les perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, consultez nos {TERMS_OF_USE_LINK}.",
-      "BLOCKED_BANNER_MESSAGE": "Les perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus d'informations, consultez nos {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre service d'assistance sur {HELP_LINK}"
+      "BLOCKED_BANNER_MESSAGE": "Les perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus d'informations, consultez nos {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre service d'assistance sur {HELP_LINK}",
+      "BLOCKED_BANNER_MESSAGE_SHORT": "Les résidents américains et autres personnes soumises à des restrictions ont interdiction de trader. Si vous pensez qu'il s'agit d'une erreur, {CONTACT_SUPPORT_LINK}."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Règlement binaire",
@@ -2435,6 +2446,14 @@
       "PREDICTION_MARKET_LOSS": "Vous avez prédit de manière incorrecte le résultat de {MARKET}.",
       "TRADE_US_PRESIDENTIAL_ELECTION": "Tradez à l'occasion de l'élection présidentielle américaine",
       "TRUMPWIN_DESC": "Il s'agit du marché de prédiction qui s'établira à 1 $ si Donald J. Trump remporte l'élection américaine présidentielle de 2024. Sinon, il s'établira à 0 $. {LEARN_MORE} ou à {DISMISS}."
+    },
+    "WITHDRAW_TO_WALLET_MODAL": {
+      "BELOW_RECOMMENDED_GAS_BALANCE": "Inférieur au montant recommandé",
+      "INSUFFICIENT_FREE_COLLATERAL": "Collatéral disponible insuffisant",
+      "NO_AMOUNT_ENTERED": "Aucun montant saisi",
+      "SUFFICIENT_GAS_BALANCE": "Suffisant pour le gaz",
+      "WITHDRAW_TO_WALLET": "Récupérer sur le portefeuille",
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "Nous vous recommandons de maintenir le solde de votre portefeuille entre {MIN_RANGE} $ et {MAX_RANGE} $ pour payer les frais de gaz sur la chaîne dYdX."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2553,6 +2572,7 @@
     "BROADCAST_ERROR_3009": "L'ordre dynamique a été précédemment supprimé et ne peut donc pas être placé.",
     "BROADCAST_ERROR_10001": "Le sous-compte ne peut pas ouvrir d'autres ordres en raison de la limite de niveau de fonds propres. {EQUITY_TIER_LEARN_MORE}",
     "QUERY_ERROR_SUBACCOUNTS_NEWLYUNDERCOLLATERALIZED": "Cela placerait votre compte en dessous du seuil de collatéralisation. Veuillez essayer un montant inférieur.",
+    "QUERY_ERROR_SUBACCOUNTS_STILLUNDERCOLLATERALIZED": "Les fonds sur votre compte sont insuffisants pour effectuer cette opération. Veuillez essayer un montant inférieur.",
     "GENERAL": {
       "RATE_LIMIT_REACHED_ERROR_TITLE": "Limite de taux atteinte",
       "RATE_LIMIT_REACHED_ERROR_MESSAGE": "Taux limité atteint pour cette adresse IP. Veuillez réessayer plus tard.",

@@ -53,7 +53,7 @@
       "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximum disponible sur la bourse, et ne changera pas en fonction du marché que vous avez sélectionné."
     },
     "CROSS_FREE_COLLATERAL": {
-      "TITLE": "Collatéral gratuit croisé",
+      "TITLE": "Collatéral Gratuit Croisé",
       "BODY": "Montant du collatéral disponible pour trader ou retirer de votre compte de marge croisée."
     },
     "CROSS_MARGIN_USAGE": {
@@ -98,7 +98,7 @@
     },
     "INDEX_PRICE": {
       "TITLE": "Prix oracle",
-      "BODY": "Les ordres stop sont déclenchés en fonction du prix de l'oracle. Le prix oracle regroupe les données sur les prix de plusieurs bourses, vous protégeant des événements tels que les crashs éclair."
+      "BODY": "Les ordres Stop sont déclenchés en fonction du prix oracle. Le prix oracle regroupe les données sur les prix de plusieurs bourses, vous protégeant des événements tels que les crashs éclair."
     },
     "INITIAL_MARGIN_FRACTION": {
       "TITLE": "Fraction de marge initiale",
@@ -323,7 +323,7 @@
     },
     "GASLESS_DEPOSITS": {
       "TITLE": "Dépôts sans gaz",
-      "BODY": "dYdX couvrira vos frais de gaz si vous déposez de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
+      "BODY": "dYdX couvrira vos frais de gaz si vous déposez {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
     },
     "LOWEST_FEE_DEPOSITS": {
       "TITLE": "Dépôts de frais les plus bas",
@@ -395,7 +395,7 @@
   "TOKEN_MIGRATION": {
     "DYDX_CHAIN_SETTLEMENT": {
       "TITLE": "Règlement de la chaîne dYdX",
-      "BODY": "Pour assurer la sécurité du protocole, les validateurs de la chaîne dYdX retardent le règlement de la chaîne dYdX DYDX."
+      "BODY": "Pour assurer la sécurité du protocole, les validateurs de la chaîne dYdX retardent le règlement de la chaîne dYdX dYdX"
     }
   },
   "TRADE_CHART": {

@@ -4,6 +4,10 @@
       "TITLE": "Récompense gagnée",
       "BODY": "Vous avez gagné {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} récompenses de trading."
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "Annuler les anciens déclencheurs",
+      "BODY": "Vous avez des ordres de déclenchement orphelins à partir de positions qui n'existent plus."
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "Une nouvelle expérience pour les ordres conditionnels !",
       "BODY": "Les ordres conditionnels sur la chaîne dYdX ont été complètement reconditionnés ! Ils sont désormais plus fiables, plus intuitifs et plus performants que jamais. Pour voir plus de détails, cliquez sur {TWITTER_LINK}."
@@ -87,6 +91,14 @@
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "Trader SOL-USD avec un effet de levier 20x",
       "BODY": "SOL-USD et tous les marchés isolés sont maintenant disponibles pour le trading avec un effet de levier allant jusqu'à 20x."
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "À court de gaz ?",
+      "BODY": "Nous vous recommandons de maintenir votre solde de portefeuille entre {MIN_RANGE} $ et {MAX_RANGE} $ pour payer les frais de gaz sur la chaîne dYdX."
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "Récupérer des fonds",
+      "BODY": "Vous avez {FUNDS_TO_RECLAIM} de fonds, précédemment détenus en collatéral, et que vous pouvez maintenant récupérer."
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Les récompenses et le trading sont en ligne sur la chaîne dYdX !",
