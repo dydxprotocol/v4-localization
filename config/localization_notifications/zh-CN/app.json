@@ -4,6 +4,10 @@
       "TITLE": "已获得奖励",
       "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
     },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "取消旧触发价格",
+      "BODY": "您有来自不存在仓位的孤儿触发订单。"
+    },
     "CONDITIONAL_ORDERS_REVAMP": {
       "TITLE": "刷新后的条件单体验！",
       "BODY": "dYdX链上的有条件订单已完全修改！现在比以往更可靠、直观且高效。查看更多详情 {TWITTER_LINK}。"
@@ -30,7 +34,7 @@
     },
     "INCENTIVES_SEASON_BEGUN": {
       "TITLE": "第{SEASON_NUMBER}季已开始！",
-      "BODY": "在第{PREV_SEASON_NUMBER}季中，获得的奖励中位数为{DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
+      "BODY": " 在第{PREV_SEASON_NUMBER}季中，获得的奖励中位数为{DYDX_AMOUNT}DYDX (~\n{USDC_AMOUNT}USDC)！"
     },
     "INCENTIVES_SEASON_ENDED": {
       "TITLE": "第{SEASON_NUMBER}季已结束！",
@@ -74,7 +78,7 @@
     },
     "POSITION_CLOSED": {
       "TITLE": "头寸已平仓",
-      "BODY": "您在{MARKET}中的头寸已被平仓。"
+      "BODY": " 您在{MARKET}中的头寸已被平仓。"
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "存款成功",
@@ -86,7 +90,15 @@
     },
     "LIQUIDITY_TIER_UPDATE_SOL_USD": {
       "TITLE": "以20倍杠杆交易SOL-USD",
-      "BODY": "SOL-USD和所有独立市场现在都可使用最高20倍的杠杆进行交易。"
+      "BODY": "SOL-USD和所有逐仓市场现在都可使用最高20倍的杠杆进行交易。"
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "Gas 不足？",
+      "BODY": "我们建议您将钱包余额保持在 {MIN_RANGE} 美元至 {MAX_RANGE} 美元之间，以便支付 dYdX 链的 Gas 费。"
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "收回资金",
+      "BODY": "您先前有 {FUNDS_TO_RECLAIM} 资金作为质押品持有，现在可以收回了。"
     },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "奖励和交易功能已在dYdX链上线！",
@@ -94,7 +106,7 @@
     },
     "SLOW_WITHDRAWAL_PENDING": {
       "TITLE": "待处理的正常提现",
-      "BODY": "您的{AMOUNT} {ASSET}提现将在12小时内完成。"
+      "BODY": "您的{AMOUNT} {ASSET}提现将在12小时内处理完成。"
     },
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "正常提现成功",
@@ -122,7 +134,7 @@
     },
     "TAKE_PROFIT_TRIGGER_CREATED": {
       "TITLE": "止盈",
-      "BODY": "已创建止盈触发点{NEW_VALUE}。"
+      "BODY": " 已创建止盈触发点{NEW_VALUE}。"
     },
     "STOP_LOSS_TRIGGER_UPDATING": {
       "TITLE": "止损",
@@ -134,7 +146,7 @@
     },
     "STOP_LOSS_TRIGGER_UPDATED": {
       "TITLE": "止损",
-      "BODY": "您的止损触发点将在{NEW_VALUE}被触发。"
+      "BODY": "您的止损触发点现设置为{NEW_VALUE}"
     },
     "TAKE_PROFIT_TRIGGER_UPDATING": {
       "TITLE": "止盈",
@@ -146,7 +158,7 @@
     },
     "TAKE_PROFIT_TRIGGER_UPDATED": {
       "TITLE": "止盈",
-      "BODY": "您的止盈触发点将在{NEW_VALUE}被触发。"
+      "BODY": "您的止盈触发点现设置为{NEW_VALUE}。"
     },
     "STOP_LOSS_TRIGGER_REMOVING": {
       "TITLE": "止损",
@@ -179,7 +191,7 @@
     },
     "TWITTER_DYDX_200B_GIVEAWAY": {
       "TITLE": "2万美元赠品",
-      "BODY": "为庆祝累计交易量超过2000亿美元，dYdX将举办Twitter赠品活动，您有机会领取200美元。2024年8月16日23:59（协调世界时）之后，将随机选出100名获奖者{HERE_LINK}。"
+      "BODY": "为庆祝累计交易量超过2000亿美元，dYdX正在举办Twitter赠品活动，您有机会领取200美元。2024年8月16日23:59（协调世界时）之后，将随机选出100名获奖者{HERE_LINK}。"
     },
     "MARKET_WIND_DOWN": {
       "TITLE": "{MARKET}市场已清算",
@@ -219,7 +231,7 @@
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
       "TITLE": "升级市场，以交叉保证金",
-      "BODY": "一项从逐仓保证金升级到{MARKETS}交叉保证金的治理提案目前正在进行中，这可能会对这些市场的未平仓头寸造成影响，且可增加清算风险。 强烈建议交易者谨慎行事，并在必要时考虑平仓。"
+      "BODY": "一项从逐仓保证金升级到{MARKETS}全仓保证金的治理提案目前正在进行中，这可能会对这些市场的未平仓头寸造成影响，且可增加清算风险。 强烈建议交易者谨慎行事，并在必要时考虑平仓。"
     }
   }
 }
