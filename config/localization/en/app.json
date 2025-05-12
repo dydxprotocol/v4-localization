@@ -2555,6 +2555,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "Wallet balance is insufficient to cover the transaction fees; please deposit additional funds.",
     "BROADCAST_ERROR_SDK_32": "Operation could not be processed because submitted timestamp nonce was not within the selected node's valid time range. Please refresh the page and try again.",
+    "BROADCAST_ERROR_CLOB_10": "Order was already expired when submitted. This could be due to network latency. Please try again.",
     "BROADCAST_ERROR_CLOB_2000": "Fill Or Kill order could not be fully filled.",
     "BROADCAST_ERROR_CLOB_2001": "Reduce-only orders cannot increase the position size.",
     "BROADCAST_ERROR_CLOB_2002": "Reduce-only orders cannot change the position side.",
@@ -2595,7 +2596,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Something went wrong: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Something went wrong. Please try again later.",
       "NETWORKING_ERROR": "Error connecting to the network. Please check your internet connection, refresh the page, and try again.",
-      "TIMESTAMP_DISCREPANCY": "For security purposes, we verify timestamps when authenticating your account. Please make sure your system clock is synced correctly and refresh the app."
+      "VALIDATOR_RESPONSE_500": "Error connecting to the network. Please try again.",
+      "TIMESTAMP_DISCREPANCY": "For security purposes, we verify timestamps when authenticating your account. Please make sure your system clock is synced correctly and refresh the app.",
+      "FAILED_COMMIT_CONFIRMATION": "Failed to confirm chain transaction. You may want to refresh to get the latest state.",
+      "NO_ORDERS_TO_CANCEL": "Couldn't find open order(s) to cancel.",
+      "NO_POSITIONS_TO_CLOSE": "Couldn't find open positions to close.",
+      "UNKNOWN_VALIDATOR_HEIGHT": "Can't submit order because chain height is unknown. Please try again.",
+      "NO_LOCAL_WALLET": "Can't submit order because local wallet state is unknown. Please try again."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Order amount must be a factor of {STEP_SIZE}.",
@@ -2813,6 +2820,7 @@
       "ERROR_WITH_APPROVAL": "There was an error with your approval.",
       "INSUFFICIENT_GAS_BALANCE": "Insufficient gas balance. Please add gas funds and try again.",
       "USER_REJECTED": "User rejected request.",
+      "WALLET_CONTEXT_INVALIDATED": "Error communicating with wallet extension. Refresh or restart browser and try again.",
       "YOUR_APPROVAL_FAILED": "Your approval has failed. Please try again."
     }
   },
