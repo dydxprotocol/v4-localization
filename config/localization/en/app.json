@@ -1721,7 +1721,6 @@
     "LEAGUES": {
       "ACTIVE": "Active",
       "AND": "and",
-      "DOUBLE_REWARDS": "2x Rewards",
       "BROWSE_LEAGUES": "Browse Leagues",
       "BRONZE": "Bronze",
       "BY_RECENT": "by most recent",
@@ -1730,6 +1729,7 @@
       "DAILY_SUBHEADER": "Get the top P&L today to win a Hedgie",
       "DEMOTION": "Demotion",
       "DIAMOND": "Diamond",
+      "DOUBLE_REWARDS": "2x Rewards",
       "EARN_AVATAR": "Earn a unique avatar by trading competitively",
       "EMPTY_LADDER_STATE": "Coming soon!",
       "GIVEN_TO": "Given away to the trader with the top Relative P&L",
