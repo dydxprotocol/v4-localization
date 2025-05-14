@@ -124,6 +124,10 @@
       "TITLE": "Stop Loss",
       "BODY": "Your stop loss trigger at {NEW_VALUE} has been created."
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2: Introducing 2x rewards",
+      "BODY": "Season 2 will have boosted points for trading in hot markets! AIXBT, KAITO, SUI, XRP markets to kick off with 2x rewards!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger is being created at {NEW_VALUE}."
