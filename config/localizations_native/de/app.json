@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "Falsches Netzwerk",
       "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um",
       "WALLET_ACCOUNT_ERROR": "Kann kein Konto erhalten",
-      "ENTER_CODE": "Geben Sie den Bestätigungscode ein"
+      "ENTER_CODE": "Geben Sie den Bestätigungscode ein",
+      "LOGIN_SIGNUP": "Anmelden oder registrieren",
+      "LOGIN_SIGNUP_TEXT": "Melden Sie sich mit sozialen Netzwerken an oder verbinden Sie Ihre Wallet, um loszulegen",
+      "LOGIN_SIGNUP_TEXT_2": "Verbinden Sie Ihre Wallet oder melden Sie sich mit sozialen Netzwerken an, um loszulegen"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil erstellen"
