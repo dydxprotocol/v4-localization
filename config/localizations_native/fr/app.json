@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "Discordance de réseau",
       "SWITCH_WALLET": "Veuillez basculer votre portefeuille sur {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Impossible d'obtenir un compte",
-      "ENTER_CODE": "Saisir le code de vérification"
+      "ENTER_CODE": "Saisir le code de vérification",
+      "LOGIN_SIGNUP": "Connectez-vous ou inscrivez-vous",
+      "LOGIN_SIGNUP_TEXT": "Connectez-vous avec les réseaux sociaux ou connectez votre portefeuille pour commencer",
+      "LOGIN_SIGNUP_TEXT_2": "Connectez votre portefeuille ou connectez-vous avec les réseaux sociaux pour commencer"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Créer un profil"
