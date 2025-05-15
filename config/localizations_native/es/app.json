@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "La red no coincide",
       "SWITCH_WALLET": "Por favor cambiá tu billetera a {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "No se puede obtener la cuenta.",
-      "ENTER_CODE": "Ingresa el código de verificación"
+      "ENTER_CODE": "Ingresa el código de verificación",
+      "LOGIN_SIGNUP": "Iniciar sesión o registrarse",
+      "LOGIN_SIGNUP_TEXT": "Iniciar sesión con redes sociales o conectar tu billetera para empezar",
+      "LOGIN_SIGNUP_TEXT_2": "Conectá tu billetera o iniciá sesión con redes sociales para empezar"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Crear perfil"
