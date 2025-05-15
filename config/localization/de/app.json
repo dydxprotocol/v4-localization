@@ -1006,6 +1006,8 @@
       "SIGN_MESSAGE": "Nachricht unterschreiben",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Mit E-Mail oder sozialen Netzwerken anmelden",
       "SIGN_IN_WITH_EMAIL": "Mit E-Mail anmelden",
+      "SIGN_IN_WITH": "Anmelden mit",
+      "SIGN_IN_WITH_PROVIDER": "Anmelden mit {PROVIDER}",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Eine einfache Möglichkeit, sich anzumelden, unterstützt durch {MAGIC}",
       "SKIP_FAST_ROUTE_DESC": "$$-Gebühr, ${LIMIT_AMOUNT}-Limit",
       "SKIP_FAST_ROUTE_DESC_1": "${FEE} Gebühr, ${LIMIT_AMOUNT} Limit",
@@ -1057,10 +1059,18 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "Um das Onboarding von dYdX abzuschließen, stellen Sie Ihr Wallet-Netzwerk auf 'Goerli Test Network' ein.",
       "WRONG_NETWORK": "Falsches Netzwerk",
       "YOU_AGREE_TO_TERMS": "Durch das Traden auf dYdX stimmen Sie den {TERMS_LINK} und zu{PRIVACY_POLICY_LINK}.",
-      "YOUR_DEPOSIT": "Ihre Einzahlung "
+      "YOUR_DEPOSIT": "Ihre Einzahlung ",
+      "POPULAR": "Beliebt",
+      "RECOMMEND_SOLANA": "Empfohlen für Solana",
+      "ENTER_OTP_CODE": "Bestätigungscode eingeben",
+      "CHECK_EMAIL_FOR_OTP_CODE": "Bitte suchen Sie in {EMAIL} nach einer Nachricht mit Ihrem Anmeldecode.",
+      "DID_NOT_GET_EMAIL": "Sie haben keine E-Mail erhalten?",
+      "RESEND_CODE": "Code erneut senden",
+      "INVALID_CODE": "Ungültiger Code",
+      "CODE_SENT": "Code gesendet"
     },
     "SIGN_INTO_MOBILE": {
-      "TITLE_SIGN_INTO_MOBILE": "Melden Sie sich auf dem Handy an",
+      "TITLE_SIGN_INTO_MOBILE": "Anmeldung bei Mobile",
       "TITLE_SCAN_FROM_APP": "Scannen aus der App",
       "TITLE_CONNECTED": "Verbunden",
       "TITLE_FAILED_TO_CONNECT": "Verbindung fehlgeschlagen",
@@ -1249,7 +1259,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "Sind Sie sicher, dass Sie {OPEN_ORDERS_TEXT}in {ASSET} ({MARKET}) abbrechen wollen?",
       "ONE_OPEN_ORDER": "1 offene Order",
       "N_OPEN_ORDERS": "{COUNT} offene Orders",
-      "OPEN_ORDERS": "Offene Orders"
+      "NO_CANCELABLE_ORDERS": "Sie haben keine offenen Bestellungen, die storniert werden müssen.",
+      "OPEN_ORDERS": "Offene Orders",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "Sie haben {NUM_ORDERS} offene Trigger-Bestellung(en) in {NUM_MARKETS} verschiedenen Märkten ohne zugehörige Position."
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "Alle Orders stornieren",
@@ -2453,7 +2465,11 @@
       "NO_AMOUNT_ENTERED": "Kein Betrag eingegeben",
       "SUFFICIENT_GAS_BALANCE": "Ausreichend für Gas",
       "WITHDRAW_TO_WALLET": "Auszahlung an Wallet",
-      "WITHDRAW_TO_WALLET_RECOMMENDATION": "Wir empfehlen, dass Ihr Wallet-Guthaben zwischen {MIN_RANGE} $ – {MAX_RANGE} $ bleibt, um Gasgebühren auf dYdX Chain zu bezahlen."
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "Wir empfehlen, dass Ihr Wallet-Guthaben zwischen {MIN_RANGE} $ – {MAX_RANGE} $ bleibt, um Gasgebühren auf der dYdX-Blockchain zu bezahlen."
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "Es stehen keine Mittel zur Verfügung, die Sie beanspruchen können.",
+      "RECLAIM_FUNDS_SIGNING": "Nach der Rückforderung werden Sie aufgefordert, {NUM_TRANSACTIONS} Vorgang\/Vorgänge zu unterzeichnen, um die zuvor als Sicherheiten für den isolierten Margin-Handel verwendeten Mittel zurückzugeben."
     }
   },
   "TOKEN_MIGRATION": {
