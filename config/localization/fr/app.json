@@ -1006,6 +1006,8 @@
       "SIGN_MESSAGE": "Signer un message",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Connectez-vous avec votre adresse e-mail ou votre compte de réseau social",
       "SIGN_IN_WITH_EMAIL": "Connectez-vous avec un e-mail",
+      "SIGN_IN_WITH": "Connectez-vous avec",
+      "SIGN_IN_WITH_PROVIDER": "Connectez-vous avec {PROVIDER}",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Une façon simple de s'identifier, alimentée par {MAGIC}",
       "SKIP_FAST_ROUTE_DESC": "Frais $$, limite {LIMIT_AMOUNT} $",
       "SKIP_FAST_ROUTE_DESC_1": "Frais {FEE} $, limite {LIMIT_AMOUNT} $",
@@ -1057,7 +1059,15 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "Pour terminer l'intégration de dYdX, définissez votre réseau de portefeuille sur « Goerli Test Network ».",
       "WRONG_NETWORK": "Réseau incorrect",
       "YOU_AGREE_TO_TERMS": "En négociant sur dYdX, vous acceptez les conditions et la {TERMS_LINK}{PRIVACY_POLICY_LINK}.",
-      "YOUR_DEPOSIT": "Votre dépôt"
+      "YOUR_DEPOSIT": "Votre dépôt",
+      "POPULAR": "Populaire",
+      "RECOMMEND_SOLANA": "Recommandé pour Solana",
+      "ENTER_OTP_CODE": "Saisir le code de confirmation",
+      "CHECK_EMAIL_FOR_OTP_CODE": "Veuillez vérifier {EMAIL} si vous avez reçu un message avec votre code de connexion.",
+      "DID_NOT_GET_EMAIL": "Vous n'avez pas reçu d'e-mail ?",
+      "RESEND_CODE": "Renvoyer le code",
+      "INVALID_CODE": "Code non valide",
+      "CODE_SENT": "Code envoyé"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Connectez-vous sur votre mobile",
@@ -1249,7 +1259,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "Êtes-vous sûr de vouloir annuler {OPEN_ORDERS_TEXT} en {ASSET} ({MARKET}) ?",
       "ONE_OPEN_ORDER": "1 ordre ouvert",
       "N_OPEN_ORDERS": "{COUNT} ordres ouverts",
-      "OPEN_ORDERS": "Ordres ouverts"
+      "NO_CANCELABLE_ORDERS": "Vous n'avez pas d'ordres ouverts à annuler.",
+      "OPEN_ORDERS": "Ordres ouverts",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "Vous avez {NUM_ORDERS} ou plusieurs ordres ouverts de déclenchement sur {NUM_MARKETS} marché(s) sans position associée."
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "Annuler tous les ordres",
@@ -2454,6 +2466,10 @@
       "SUFFICIENT_GAS_BALANCE": "Suffisant pour le gaz",
       "WITHDRAW_TO_WALLET": "Récupérer sur le portefeuille",
       "WITHDRAW_TO_WALLET_RECOMMENDATION": "Nous vous recommandons de maintenir le solde de votre portefeuille entre {MIN_RANGE} $ et {MAX_RANGE} $ pour payer les frais de gaz sur la chaîne dYdX."
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "Il n'y a pas de fonds disponibles à récupérer pour le moment.",
+      "RECLAIM_FUNDS_SIGNING": "Lors de la récupération, vous serez invité(e) à signer {NUM_TRANSACTIONS} transaction(s) pour restituer les fonds précédemment utilisés comme collatéral pour le prix du marché isolé."
     }
   },
   "TOKEN_MIGRATION": {
