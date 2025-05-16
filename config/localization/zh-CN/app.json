@@ -1006,6 +1006,8 @@
       "SIGN_MESSAGE": "签署消息",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "以电子邮件或社交账号登录",
       "SIGN_IN_WITH_EMAIL": "通过邮箱登陆",
+      "SIGN_IN_WITH": "通过...登录",
+      "SIGN_IN_WITH_PROVIDER": "通过{PROVIDER}登录",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "一种简单的登录方式，由{MAGIC}提供支持",
       "SKIP_FAST_ROUTE_DESC": "$$ 费用，${LIMIT_AMOUNT}限制",
       "SKIP_FAST_ROUTE_DESC_1": "费用${FEE}，限额${LIMIT_AMOUNT}",
@@ -1057,7 +1059,15 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "要完成dYdX入门培训，请将您的钱包网络设置为“Goerli 测试网络”。",
       "WRONG_NETWORK": "网络错误",
       "YOU_AGREE_TO_TERMS": "在dYdX上交易，即表示您同意 {TERMS_LINK} 和 {PRIVACY_POLICY_LINK}。",
-      "YOUR_DEPOSIT": "您的充值"
+      "YOUR_DEPOSIT": "您的充值",
+      "POPULAR": "受欢迎的",
+      "RECOMMEND_SOLANA": "为 Solana 推荐",
+      "ENTER_OTP_CODE": "输入确认码",
+      "CHECK_EMAIL_FOR_OTP_CODE": "请检查{EMAIL}，获取包含登录代码的信息。",
+      "DID_NOT_GET_EMAIL": "没有收到电子邮件？",
+      "RESEND_CODE": "重新发送代码",
+      "INVALID_CODE": "无效代码",
+      "CODE_SENT": "验证码已发送"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "登录移动设备",
@@ -1249,7 +1259,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "您确定要删除 {ASSET} ({MARKET}) 中的 {OPEN_ORDERS_TEXT} 吗？",
       "ONE_OPEN_ORDER": "1 个未平仓订单",
       "N_OPEN_ORDERS": "{COUNT} 个未平仓订单",
-      "OPEN_ORDERS": "未平仓订单"
+      "NO_CANCELABLE_ORDERS": "您没有需要取消的未平仓订单。",
+      "OPEN_ORDERS": "未平仓订单",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "您在{NUM_MARKETS}个市场中有{NUM_ORDERS}笔未平仓触发订单，但没有关联仓位。"
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "取消所有订单",
@@ -2454,6 +2466,10 @@
       "SUFFICIENT_GAS_BALANCE": "Gas 充足",
       "WITHDRAW_TO_WALLET": "提现至钱包",
       "WITHDRAW_TO_WALLET_RECOMMENDATION": "我们建议您将钱包余额保持在 {MIN_RANGE} 美元至 {MAX_RANGE} 美元之间，以便支付 dYdX 链的 Gas 费。"
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "目前没有资金可供您收回。",
+      "RECLAIM_FUNDS_SIGNING": "收回后，系统将提示您签署{NUM_TRANSACTIONS}笔交易，以退还先前作为逐仓杠杆交易质押品使用的资金。"
     }
   },
   "TOKEN_MIGRATION": {
