@@ -1710,6 +1710,7 @@
       "TRAILING_STOP_DESCRIPTION": "Set a trailing stop to limit the percent you can lose to your specified trailing percent.",
       "TRAILING_STOP": "Trailing Stop",
       "TRANSFERS_EMPTY_STATE": "You have no transfer history.",
+      "TRIGGER_DIALOG_DESCRIPTION": "Minimize losses and secure profits",
       "TRIGGER_PRICE_SHORT": "Trigger",
       "TRIGGER_PRICE": "Trigger Price",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "The trigger order's associated position has been closed or flipped.",
