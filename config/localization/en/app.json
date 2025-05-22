@@ -1068,7 +1068,15 @@
       "DID_NOT_GET_EMAIL": "Didn’t get an email?",
       "RESEND_CODE": "Resend code",
       "INVALID_CODE": "Invalid code",
-      "CODE_SENT": "Code sent"
+      "CODE_SENT": "Code sent",
+      "DEPOSIT_FROM_CEX": "Deposit from CEX",
+      "COPY_NOBLE": "Copy Noble address",
+      "YOUR_NOBLE_ADDRESS": "Your Noble Address",
+      "CASH_WITH": "Cash with {VENDER}",
+      "DEBIT": "Debit",
+      "PAY_WITH": "Pay with",
+      "CRYPTO": "Crypto",
+      "OTHER_CRYPTO": "Other crypto"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Sign into mobile",
@@ -1158,6 +1166,7 @@
       "SUBJECT_TO_RULES": "Subject to these rules",
       "SWAP": "Swap",
       "TO_DEPOSIT_FROM_COINBASE": "To deposit from Coinbase, send {ASSET} on {NETWORK} to the address shown below.",
+      "TO_DEPOSIT_FROM_CEX": "To deposit from a centralized exchange, send {ASSET} on {NETWORK} to the address shown below.",
       "ESTIMATED_TIME": "Estimated Time",
       "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Your funds are now available for trading.",
