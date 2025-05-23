@@ -124,6 +124,10 @@
       "TITLE": "Detención de pérdida",
       "BODY": "Se creó tu activación de detención de pérdida en {NEW_VALUE}."
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2: Introducción de recompensas dobles",
+      "BODY": "La Temporada 2 tendrá puntos mejorados para trading en mercados en auge Los mercados de AIXBT, KAITO, SUI y XRP ¡comenzarán con recompensas dobles!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Tomar ganancias",
       "BODY": "Se está creando tu activación de tomar ganancias en {NEW_VALUE}."
