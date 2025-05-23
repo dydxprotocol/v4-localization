@@ -222,6 +222,7 @@
       "HIGHLIGHTS": "Destacados",
       "LAUNCHABLE": "Disponible para lanzar",
       "LAUNCHABLE_DETAILS": "Este mercado está disponible para lanzar",
+      "LAUNCH_ON_DESKTOP": "Iniciar en escritorio",
       "LAYER_1": "Capa 1",
       "LAYER_2": "Capa 2",
       "LEARN_MORE": "Más información",
@@ -1501,6 +1502,7 @@
       "ENTER_GOOD_UNTIL": "Ingresar la fecha de caducidad",
       "ENTER_EXECUTION": "Ingresar la ejecución",
       "ENTRY_PRICE_SHORT": "Entrada",
+      "ERROR_SUBMITTING": "Error al enviar",
       "EXECUTION": "Ejecución",
       "EXPECTED_PRICE": "Precio estimado",
       "EXPIRED": "Vencido",
@@ -1672,6 +1674,7 @@
       "STOP_PRICE": "Precio de stop",
       "SUBMITTED": "Enviado",
       "SUBMITTING": "Envío",
+      "SUBMITTING_ORDER": "Envío de orden",
       "SUCCESS": "Exitoso",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Una orden de límite de toma de ganancias se convierte en una orden límite tradicional cada vez que el precio de oráculo o el precio de la última operación se cruza con tu precio de activación.",
       "TAKE_PROFIT_LIMIT_SHORT": "Toma de ganancias limitadas",
@@ -1689,6 +1692,7 @@
       "TOTAL_COST": "Costo total",
       "TOTAL_SIZE": "Volumen total",
       "TOTAL": "Total",
+      "TRADE_CONFIRMED": "Comercio confirmado",
       "TRADES_24H": "Operaciones de 24 horas",
       "TRADES_EMPTY_STATE": "No hay historial de operación.",
       "TRADES": "Operaciones",
@@ -1729,6 +1733,7 @@
       "DAILY_SUBHEADER": "Obtén el P&L máximo hoy para ganar un Hedgie",
       "DEMOTION": "Descenso",
       "DIAMOND": "Diamante",
+      "DOUBLE_REWARDS": "Recompensas dobles",
       "EARN_AVATAR": "Gana un avatar único al realizar operaciones de manera competitiva",
       "EMPTY_LADDER_STATE": "¡Muy pronto!",
       "GIVEN_TO": "Regalado al comerciante con la P&G relativa más alta",
@@ -2362,6 +2367,7 @@
       "ADD_A_MARKET": "Agregar un mercado",
       "ADD_DETAILS_TO_LAUNCH_MARKET": "Agregar detalles para proponer un nuevo mercado",
       "ADD_FUNDS_AND_LAUNCH": "Agregar fondos y lanzar",
+      "ADD_FUNDS_TO_LAUNCH": "Agregar {DEPOSIT_AMOUNT}a MegaVault para lanzar el mercado",
       "ADD_MARKET_STEP_1_TITLE": "Selecciona el mercado",
       "ADD_MARKET_STEP_2_TITLE": "Confirmar detalles",
       "ADD_MARKET_STEP_3_TITLE": "Proponer un nuevo mercado",
@@ -2434,6 +2440,7 @@
       "SUGGEST_NEW_MARKET": "Sugiere un nuevo mercado",
       "TIME_UNTIL_LIVE": "Tiempo hasta el vivo",
       "TRADE_INSTANTLY": "Opera al Instante",
+      "YOUR_FUNDS_WILL_EARN_EST": "Tus fondos ganarán un estimado de {APR_PERCENTAGE}",
       "VIEW_PROPOSAL": "Ver propuesta"
     },
     "COMPLIANCE": {
@@ -2555,6 +2562,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "El saldo de la billetera es insuficiente para cubrir las tarifas de transacción; deposita fondos adicionales.",
     "BROADCAST_ERROR_SDK_32": "La operación no se pudo procesar porque la marca de tiempo enviada no estaba dentro del rango de tiempo válido del nodo seleccionado. Actualiza la página e inténtalo nuevamente.",
+    "BROADCAST_ERROR_CLOB_10": "La orden ya estaba vencida cuando se envió. Esto podría deberse a la latencia de la red. Intentalo de nuevo.",
     "BROADCAST_ERROR_CLOB_2000": "La orden Fill or Kill no se pudo completar con éxito",
     "BROADCAST_ERROR_CLOB_2001": "Las órdenes de solo reducción no pueden aumentar el tamaño de la posición",
     "BROADCAST_ERROR_CLOB_2002": "Las órdenes de solo reducción no pueden cambiar el lado de la posición",
@@ -2595,7 +2603,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Algo salió mal: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Algo salió mal. Intentalo de nuevo más tarde.",
       "NETWORKING_ERROR": "Error al conectarse a la red. Verifica tu conexión a internet, actualiza la página e inténtalo de nuevo.",
-      "TIMESTAMP_DISCREPANCY": "Para fines de seguridad, verificamos las marcas de tiempo al autenticar tu cuenta. Asegúrate de que el reloj de tu sistema esté sincronizado correctamente y actualiza la aplicación."
+      "VALIDATOR_RESPONSE_500": "Error al conectarse a la red. Intentalo de nuevo.",
+      "TIMESTAMP_DISCREPANCY": "Para fines de seguridad, verificamos las marcas de tiempo al autenticar tu cuenta. Asegurate de que el reloj de tu sistema esté sincronizado correctamente y actualizá la aplicación.",
+      "FAILED_COMMIT_CONFIRMATION": "No se pudo confirmar la transacción de la cadena. Es posible que debas actualizar para obtener el último estado.",
+      "NO_ORDERS_TO_CANCEL": "No se pudo encontrar órdenes abiertas para cancelar.",
+      "NO_POSITIONS_TO_CLOSE": "No se pudieron encontrar posiciones abiertas para cerrar.",
+      "UNKNOWN_VALIDATOR_HEIGHT": "No se puede enviar la orden porque la altura de la cadena es desconocida. Intentalo de nuevo.",
+      "NO_LOCAL_WALLET": "No se puede enviar la orden porque el estado de la billetera local es desconocido. Intentalo de nuevo."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "La cantidad de la orden debe ser un factor de {STEP_SIZE}.",
@@ -2813,6 +2827,7 @@
       "ERROR_WITH_APPROVAL": "Hubo un error con tu aprobación.",
       "INSUFFICIENT_GAS_BALANCE": "Balance de gas insuficiente. Añade fondos de gas e inténtalo de nuevo.",
       "USER_REJECTED": "El usuario rechazó la solicitud.",
+      "WALLET_CONTEXT_INVALIDATED": "Error al comunicarse con la extensión de la billetera Actualizar o reiniciar el navegador e intentarlo de nuevo.",
       "YOUR_APPROVAL_FAILED": "Tu aprobación ha fallado. Inténtalo de nuevo."
     }
   },
