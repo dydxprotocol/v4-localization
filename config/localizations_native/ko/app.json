@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "네트워크 불일치",
       "SWITCH_WALLET": "지갑을 {WALLET_ADDR}(으)로 전환하세요",
       "WALLET_ACCOUNT_ERROR": "계정을 가져올 수 없음",
-      "ENTER_CODE": "확인 코드 입력"
+      "ENTER_CODE": "확인 코드 입력",
+      "LOGIN_SIGNUP": "로그인 또는 가입",
+      "LOGIN_SIGNUP_TEXT": "소셜 미디어에 로그인하거나 지갑을 연결하여 시작하십시오",
+      "LOGIN_SIGNUP_TEXT_2": "지갑을 연결하거나 소셜 미디어에 로그인하여 시작하십시오"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "프로필 생성"
