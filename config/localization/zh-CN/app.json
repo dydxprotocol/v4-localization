@@ -222,6 +222,7 @@
       "HIGHLIGHTS": "亮点",
       "LAUNCHABLE": "可启动",
       "LAUNCHABLE_DETAILS": "该市场可",
+      "LAUNCH_ON_DESKTOP": "在桌面上启动",
       "LAYER_1": "第 1 层",
       "LAYER_2": "第 2 层",
       "LEARN_MORE": "了解更多",
@@ -1501,6 +1502,7 @@
       "ENTER_GOOD_UNTIL": "输入良好至",
       "ENTER_EXECUTION": "请输入执行",
       "ENTRY_PRICE_SHORT": "输入",
+      "ERROR_SUBMITTING": "提交错误",
       "EXECUTION": "执行",
       "EXPECTED_PRICE": "预期价格",
       "EXPIRED": "已过期",
@@ -1672,6 +1674,7 @@
       "STOP_PRICE": "触发价格",
       "SUBMITTED": "已提交",
       "SUBMITTING": "提交中",
+      "SUBMITTING_ORDER": "提交订单",
       "SUCCESS": "成功",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，止盈限价单将转换为传统的限价单。",
       "TAKE_PROFIT_LIMIT_SHORT": "止盈限价",
@@ -1689,6 +1692,7 @@
       "TOTAL_COST": "总成本",
       "TOTAL_SIZE": "总数量",
       "TOTAL": "合计",
+      "TRADE_CONFIRMED": "交易确认",
       "TRADES_24H": "24小时交易数",
       "TRADES_EMPTY_STATE": "您没有交易历史记录。",
       "TRADES": "交易订单",
@@ -1729,6 +1733,7 @@
       "DAILY_SUBHEADER": "立即获得最佳盈亏表现以赢得 Hedgie",
       "DEMOTION": "降级",
       "DIAMOND": "钻石",
+      "DOUBLE_REWARDS": "2 倍奖励",
       "EARN_AVATAR": "通过有竞争力的交易赢得独一无二的头像",
       "EMPTY_LADDER_STATE": "即将推出！",
       "GIVEN_TO": "授予相对盈亏表现最佳的交易者",
@@ -2362,6 +2367,7 @@
       "ADD_A_MARKET": "添加市场",
       "ADD_DETAILS_TO_LAUNCH_MARKET": "添加详情以提议新市场",
       "ADD_FUNDS_AND_LAUNCH": "添加资金并启动",
+      "ADD_FUNDS_TO_LAUNCH": "添加{DEPOSIT_AMOUNT}到 MegaVault 以启动市场",
       "ADD_MARKET_STEP_1_TITLE": "选择市场",
       "ADD_MARKET_STEP_2_TITLE": "确认详情",
       "ADD_MARKET_STEP_3_TITLE": "提议新市场",
@@ -2434,6 +2440,7 @@
       "SUGGEST_NEW_MARKET": "提议一个新市场",
       "TIME_UNTIL_LIVE": "距上线时间",
       "TRADE_INSTANTLY": "立即交易",
+      "YOUR_FUNDS_WILL_EARN_EST": "您的资金预计将获得{APR_PERCENTAGE}收益",
       "VIEW_PROPOSAL": "查看提议"
     },
     "COMPLIANCE": {
@@ -2555,6 +2562,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "钱包余额不足以支付交易费用；请存入额外资金。",
     "BROADCAST_ERROR_SDK_32": "操作无法处理，因为提交的时间戳随机数不在所选节点的有效时间范围内。请刷新页面再重试。",
+    "BROADCAST_ERROR_CLOB_10": "订单在提交时已过期。这可能是由于网络延迟造成的。 请重试。",
     "BROADCAST_ERROR_CLOB_2000": "无法完全执行“全部成交否则取消”订单。",
     "BROADCAST_ERROR_CLOB_2001": "仅减仓订单无法增加头寸数量。",
     "BROADCAST_ERROR_CLOB_2002": "仅减仓订单无法改变头寸。",
@@ -2595,7 +2603,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "出现问题：{ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "出现问题。请稍后重试。",
       "NETWORKING_ERROR": "连接到网络时出错。请检查您的互联网连接，刷新页面，然后重试。",
-      "TIMESTAMP_DISCREPANCY": "出于安全考虑，我们在验证您的账户时会验证时间戳。请确保您的系统时钟正确同步并刷新应用程序。"
+      "VALIDATOR_RESPONSE_500": "连接到网络时出错。请重试。",
+      "TIMESTAMP_DISCREPANCY": "出于安全考虑，我们在验证您的账户时会验证时间戳。请确保您的系统时钟正确同步并刷新应用程序。",
+      "FAILED_COMMIT_CONFIRMATION": "链上交易确认失败。 您可能需要刷新以获取最新状态。",
+      "NO_ORDERS_TO_CANCEL": "无法找到要取消的待执行订单。",
+      "NO_POSITIONS_TO_CLOSE": "无法找到可平仓的敞口头寸。",
+      "UNKNOWN_VALIDATOR_HEIGHT": "无法提交订单，因为区块高度未知。 请重试。",
+      "NO_LOCAL_WALLET": "无法提交订单，因为本地钱包状态未知。 请重试。"
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "订单金额必须是{STEP_SIZE}的倍数。",
@@ -2813,6 +2827,7 @@
       "ERROR_WITH_APPROVAL": "您的审批出错。",
       "INSUFFICIENT_GAS_BALANCE": "Gas 余额不足。 请添加 gas 资金，然后重试。",
       "USER_REJECTED": "用户拒绝了请求。",
+      "WALLET_CONTEXT_INVALIDATED": "与钱包插件通信时出错。刷新或重新启动浏览器，然后重试。",
       "YOUR_APPROVAL_FAILED": "您的批准失败。 请重试。"
     }
   },
