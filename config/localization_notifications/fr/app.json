@@ -124,6 +124,10 @@
       "TITLE": "Stop Loss",
       "BODY": "Votre déclencheur de Stop Loss à {NEW_VALUE} a été créé."
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2 : introduisant des récompenses 2x",
+      "BODY": "La saison 2 aura des points renforcés pour le trading sur les marchés en vogue ! Les marchés AIXBT, KAITO, SUI, XRP vont démarrer avec 2x récompenses !"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Votre déclencheur de Take Profit est créé à {NEW_VALUE}."
