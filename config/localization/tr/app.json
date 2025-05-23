@@ -222,6 +222,7 @@
       "HIGHLIGHTS": "Öne Çıkanlar",
       "LAUNCHABLE": "Kullanıma sunulabilir",
       "LAUNCHABLE_DETAILS": "Bu piyasa başlatılabilir",
+      "LAUNCH_ON_DESKTOP": "Masaüstünde başlat",
       "LAYER_1": "Katman 1",
       "LAYER_2": "Katman 2",
       "LEARN_MORE": "Daha fazla bilgi",
@@ -1006,6 +1007,8 @@
       "SIGN_MESSAGE": "İletiyi imzala",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "E-posta veya sosyal medya hesabınızla giriş yapın",
       "SIGN_IN_WITH_EMAIL": "E-posta ile giriş yapın",
+      "SIGN_IN_WITH": "ile giriş yapın",
+      "SIGN_IN_WITH_PROVIDER": "{PROVIDER} ile giriş yapın",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC} tarafından sağlanan, giriş yapmanın basit bir yolu",
       "SKIP_FAST_ROUTE_DESC": "$$ ücret, ${LIMIT_AMOUNT} limit",
       "SKIP_FAST_ROUTE_DESC_1": "${FEE} ücret, ${LIMIT_AMOUNT} limit",
@@ -1057,7 +1060,15 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "dYdX'e katılım işlemini tamamlamak için cüzdan ağınızı \"Goerli Test Ağı\" olarak ayarlayın.",
       "WRONG_NETWORK": "Yanlış ağ",
       "YOU_AGREE_TO_TERMS": "dYdX üzerinde yatırım yaparak, {TERMS_LINK} ve {PRIVACY_POLICY_LINK} koşullarını kabul etmiş olursunuz.",
-      "YOUR_DEPOSIT": "Yatırdığınız para"
+      "YOUR_DEPOSIT": "Yatırdığınız para",
+      "POPULAR": "Popüler",
+      "RECOMMEND_SOLANA": "Solana için Önerildi",
+      "ENTER_OTP_CODE": "Onay kodunu girin",
+      "CHECK_EMAIL_FOR_OTP_CODE": "Lütfen giriş kodunuzu içeren bir mesajın gelip gelmediğini {EMAIL} üzerinden kontrol edin.",
+      "DID_NOT_GET_EMAIL": "Bir e-posta almadınız mı?",
+      "RESEND_CODE": "Kodu yeniden gönder",
+      "INVALID_CODE": "Geçersiz kod",
+      "CODE_SENT": "Kod gönderildi"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Mobil cihaza giriş yap",
@@ -1249,7 +1260,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "{ASSET} cinsinden {OPEN_ORDERS_TEXT} ({MARKET}) iptal etmek istediğinizden emin misiniz?",
       "ONE_OPEN_ORDER": "1 açık talimat",
       "N_OPEN_ORDERS": "{COUNT} açık talimat",
-      "OPEN_ORDERS": "Açık talimatlar"
+      "NO_CANCELABLE_ORDERS": "İptal edilmesi gereken açık emriniz bulunmuyor.",
+      "OPEN_ORDERS": "Açık talimatlar",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "{NUM_MARKETS} adet markette, ilişkili pozisyon bulunmayan {NUM_ORDERS} adet açık tetiklenme emriniz var."
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "Tüm emirleri iptal et",
@@ -1489,6 +1502,7 @@
       "ENTER_GOOD_UNTIL": "Geçerlilik tarihini girin",
       "ENTER_EXECUTION": "Yürütmeyi girin",
       "ENTRY_PRICE_SHORT": "Girdi",
+      "ERROR_SUBMITTING": "Gönderme Hatası",
       "EXECUTION": "Yürütme",
       "EXPECTED_PRICE": "Beklenen Fiyat",
       "EXPIRED": "Vadesi Dolan",
@@ -1660,6 +1674,7 @@
       "STOP_PRICE": "Durdurma Fiyatı",
       "SUBMITTED": "Gönderildi",
       "SUBMITTING": "Gönderiliyor",
+      "SUBMITTING_ORDER": "Emir Gönderiliyor",
       "SUCCESS": "Başarı",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Bir kâr alma limit emri, oracle fiyatı veya en son gerçekleşen alım satım fiyatı tetiklenme fiyatınızı aştığında normal bir limit emrine dönüşür.",
       "TAKE_PROFIT_LIMIT_SHORT": "Limit Kâr Alma",
@@ -1677,6 +1692,7 @@
       "TOTAL_COST": "Toplam Maliyet",
       "TOTAL_SIZE": "Toplam Büyüklük",
       "TOTAL": "Toplam",
+      "TRADE_CONFIRMED": "Alım Satım Onaylandı",
       "TRADES_24H": "24 Saatlik İşlemler",
       "TRADES_EMPTY_STATE": "İşlem geçmişiniz bulunmamaktadır.",
       "TRADES": "İşlemler",
@@ -1717,6 +1733,7 @@
       "DAILY_SUBHEADER": "Bir Hedgie ödülü kazanmak için bugünün KZ zirvesine çıkın",
       "DEMOTION": "Kümeden düşme",
       "DIAMOND": "Elmas",
+      "DOUBLE_REWARDS": "2x Ödül",
       "EARN_AVATAR": "Rekabetçi alım satımlar yaparak özel bir avatar kazanın",
       "EMPTY_LADDER_STATE": "Yakında sizinle!",
       "GIVEN_TO": "En iyi Göreceli KZ sahibi yatırımcıya verilir",
@@ -2350,6 +2367,7 @@
       "ADD_A_MARKET": "Bir piyasa ekle",
       "ADD_DETAILS_TO_LAUNCH_MARKET": "Yeni bir piyasa önermek için ayrıntıları ekleyin",
       "ADD_FUNDS_AND_LAUNCH": "Fon ekle ve Başlat",
+      "ADD_FUNDS_TO_LAUNCH": "MegaVault'a {DEPOSIT_AMOUNT} ekleyerek piyasayı başlatın",
       "ADD_MARKET_STEP_1_TITLE": "Piyasa seçin",
       "ADD_MARKET_STEP_2_TITLE": "Ayrıntıları onayla",
       "ADD_MARKET_STEP_3_TITLE": "Yeni piyasa önerin",
@@ -2422,6 +2440,7 @@
       "SUGGEST_NEW_MARKET": "Yeni bir piyasa önerin",
       "TIME_UNTIL_LIVE": "Canlıya Geçmeye Kalan Süre",
       "TRADE_INSTANTLY": "Anında Alım Satım Yapın",
+      "YOUR_FUNDS_WILL_EARN_EST": "Fonlarınız tahmini olarak {APR_PERCENTAGE} kazanç sağlayacaktır",
       "VIEW_PROPOSAL": "Teklifi görüntüleyin"
     },
     "COMPLIANCE": {
@@ -2453,7 +2472,11 @@
       "NO_AMOUNT_ENTERED": "Miktar girilmedi",
       "SUFFICIENT_GAS_BALANCE": "Gaz için yeterli",
       "WITHDRAW_TO_WALLET": "Cüzdana çek",
-      "WITHDRAW_TO_WALLET_RECOMMENDATION": "dYdX zinciri üzerinde işlem ücretlerini ödemek için cüzdan bakiyenizin{MIN_RANGE} $ -{MAX_RANGE} $ arasında kalmasını öneririz."
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "dYdX zinciri üzerinde gaz ücretlerini ödemek için cüzdan bakiyenizin ${MIN_RANGE} - ${MAX_RANGE} arasında kalmasını öneririz."
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "Şu anda geri alabileceğiniz fon bulunmuyor.",
+      "RECLAIM_FUNDS_SIGNING": "Geri talep ettiğinizde, daha önce izole kaldıraçlı işlemlerde teminat olarak kullanılan fonların iadesine yönelik olarak {NUM_TRANSACTIONS} adet işlem için imzanız istenecektir."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2539,6 +2562,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "Cüzdan bakiyesi, işlem ücretlerini karşılamak için yetersiz; lütfen daha fazla fon yatırın.",
     "BROADCAST_ERROR_SDK_32": "Gönderilen zaman damgası nonce değeri, seçilen düğümün geçerli zaman aralığı içinde olmadığı için işlem işlenemedi. Lütfen sayfayı yenileyin ve tekrar deneyin.",
+    "BROADCAST_ERROR_CLOB_10": "Emir gönderildiğinde süresi zaten dolmuştu. Bu, ağ gecikmesinden kaynaklanıyor olabilir. Lütfen tekrar deneyin.",
     "BROADCAST_ERROR_CLOB_2000": "Karşıla veya İptal Et emri tam olarak karşılanamadı.",
     "BROADCAST_ERROR_CLOB_2001": "Sadece azaltma emirleri pozisyon boyutunu artıramaz.",
     "BROADCAST_ERROR_CLOB_2002": "Sadece azaltma emirleri pozisyon tarafını değiştiremez.",
@@ -2579,7 +2603,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Bir şey ters gitti: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
       "NETWORKING_ERROR": "Ağa bağlanırken hata oluştu. Lütfen internet bağlantınızı kontrol edin, sayfayı yenileyin ve tekrar deneyin.",
-      "TIMESTAMP_DISCREPANCY": "Güvenlik nedeniyle, hesabınızın kimlik doğrulamasını yaparken zaman damgalarını doğruluyoruz. Lütfen sistem saatinizin doğru bir şekilde senkronize edildiğinden emin olun ve uygulamayı yenileyin."
+      "VALIDATOR_RESPONSE_500": "Ağa bağlanırken hata oluştu. Lütfen tekrar deneyin.",
+      "TIMESTAMP_DISCREPANCY": "Güvenlik nedeniyle, hesabınızın kimlik doğrulamasını yaparken zaman damgalarını doğruluyoruz. Lütfen sistem saatinizin doğru bir şekilde senkronize edildiğinden emin olun ve uygulamayı yenileyin.",
+      "FAILED_COMMIT_CONFIRMATION": "Zincir işlemi onaylanamadı. Güncel durumu görmek için yenilemek isteyebilirsiniz.",
+      "NO_ORDERS_TO_CANCEL": "İptal edilecek açık emir bulunamadı.",
+      "NO_POSITIONS_TO_CLOSE": "Kapatılacak açık pozisyon bulunamadı.",
+      "UNKNOWN_VALIDATOR_HEIGHT": "Zincir yüksekliği bilinmediği için emir gönderilemiyor. Lütfen tekrar deneyin.",
+      "NO_LOCAL_WALLET": "Yerel cüzdan durumu bilinmediği için emir gönderilemiyor. Lütfen tekrar deneyin."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Emir miktarı {STEP_SIZE} adım boyutunun bir katı olmalıdır.",
@@ -2797,6 +2827,7 @@
       "ERROR_WITH_APPROVAL": "Onayınızla ilgili bir hata oluştu.",
       "INSUFFICIENT_GAS_BALANCE": "Yetersiz gaz bakiyesi. Lütfen gaz fonları ekleyin ve tekrar deneyin.",
       "USER_REJECTED": "Kullanıcı talebi reddetti.",
+      "WALLET_CONTEXT_INVALIDATED": "Cüzdan uzantısı ile iletişim kurarken hata oluştu. Tarayıcıyı yenileyin veya yeniden başlatın ve tekrar deneyin.",
       "YOUR_APPROVAL_FAILED": "Onayınız başarısız oldu. Lütfen tekrar deneyin."
     }
   },
