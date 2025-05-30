@@ -403,6 +403,7 @@
       "DYDX_ADDRESS": "dYdX-Chain-Adresse",
       "SOURCE_ADDRESS": "Quelladresse",
       "DYDX_ADDRESS_COPIED": "Die dYdX-Chain-Adresse wird in die Zwischenablage kopiert.",
+      "NOBLE_ADDRESS_COPIED": "Die noble Adresse wird in die Zwischenablage kopiert.",
       "SOURCE_ADDRESS_COPIED": "Die Quelladresse wird in die Zwischenablage kopiert.",
       "DYDX_MNEMONIC_COPIED": "Geheime Phrase wird in die Zwischenablage kopiert.",
       "SYSTEM_STATUS": "Systemstatus",
