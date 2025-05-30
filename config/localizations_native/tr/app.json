@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "Ağ Uyumsuzluğu",
       "SWITCH_WALLET": "Lütfen cüzdanınızı {WALLET_ADDR} ile değiştirin",
       "WALLET_ACCOUNT_ERROR": "Hesap alınamadı",
-      "ENTER_CODE": "Doğrulama kodunu girin"
+      "ENTER_CODE": "Doğrulama kodunu girin",
+      "LOGIN_SIGNUP": "Giriş yapın veya kaydolun",
+      "LOGIN_SIGNUP_TEXT": "Başlamak için sosyal medya hesaplarıyla giriş yapın veya cüzdanınızı bağlayın",
+      "LOGIN_SIGNUP_TEXT_2": "Başlamak için cüzdanınızı bağlayın veya sosyal medya hesaplarıyla giriş yapın"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil Oluşturun"
@@ -400,6 +403,7 @@
       "DYDX_ADDRESS": "dYdX Zincir adresi",
       "SOURCE_ADDRESS": "Kaynak adresi",
       "DYDX_ADDRESS_COPIED": "dYdX Zincir adresi panoya kopyalandı.",
+      "NOBLE_ADDRESS_COPIED": "Noble adresi panoya kopyalandı.",
       "SOURCE_ADDRESS_COPIED": "Kaynak adres panoya kopyalandı.",
       "DYDX_MNEMONIC_COPIED": "Gizli ifade panoya kopyalandı.",
       "SYSTEM_STATUS": "Sistem Durumu",
