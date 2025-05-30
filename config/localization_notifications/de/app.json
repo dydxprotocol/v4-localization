@@ -124,6 +124,10 @@
       "TITLE": "Stop Loss",
       "BODY": "Ihr Stop-Loss-Trigger bei {NEW_VALUE} wurde erstellt."
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Anstieg S2: Einführung von 2-fachen Prämien",
+      "BODY": "Staffel 2 bietet erhöhte Punkte für den Handel in angesagten Märkten! Die Märkte AIXBT, KAITO, SUI, XRP starten mit 2-fachen Prämien!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Ihr Take-Profit-Trigger wird bei {NEW_VALUE} erstellt."
