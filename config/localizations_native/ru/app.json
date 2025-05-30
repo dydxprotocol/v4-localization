@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "Несоответствие сети",
       "SWITCH_WALLET": "Переключите кошелек на {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Не удалось получить счёт",
-      "ENTER_CODE": "Введите код проверки"
+      "ENTER_CODE": "Введите код проверки",
+      "LOGIN_SIGNUP": "Войти или зарегистрироваться",
+      "LOGIN_SIGNUP_TEXT": "Войдите с помощью социальных сетей или подключите кошелек, чтобы начать.",
+      "LOGIN_SIGNUP_TEXT_2": "Подключите кошелек или войдите с помощью социальных сетей, чтобы начать."
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Создать профиль"
@@ -400,6 +403,7 @@
       "DYDX_ADDRESS": "Адрес dYdX Chain",
       "SOURCE_ADDRESS": "Исходный адрес",
       "DYDX_ADDRESS_COPIED": "Адрес dYdX Chain скопирован в буфер обмена.",
+      "NOBLE_ADDRESS_COPIED": "Адрес Noble копируется в буфер обмена.",
       "SOURCE_ADDRESS_COPIED": "Исходный адрес копируется в буфер обмена.",
       "DYDX_MNEMONIC_COPIED": "Секретная фраза скопирована в буфер обмена.",
       "SYSTEM_STATUS": "Состояние системы",
