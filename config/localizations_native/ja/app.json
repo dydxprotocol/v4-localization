@@ -172,7 +172,10 @@
       "NETWORK_MISMATCH": "ネットワークの不一致",
       "SWITCH_WALLET": "ウォレットを{WALLET_ADDR}に切り替えてください",
       "WALLET_ACCOUNT_ERROR": "口座を取得できません",
-      "ENTER_CODE": "検証コードを入力"
+      "ENTER_CODE": "検証コードを入力",
+      "LOGIN_SIGNUP": "ログインまたは登録",
+      "LOGIN_SIGNUP_TEXT": "ソーシャルでサインインするか、ウォレットを接続して開始",
+      "LOGIN_SIGNUP_TEXT_2": "ウォレットを接続するか、ソーシャルでサインインして開始"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "プロフィールを作成"
@@ -400,6 +403,7 @@
       "DYDX_ADDRESS": "dYdXチェーンアドレス",
       "SOURCE_ADDRESS": "ソースアドレス",
       "DYDX_ADDRESS_COPIED": "dYdXチェーンアドレスがクリップボードにコピーされます。",
+      "NOBLE_ADDRESS_COPIED": "Nobleアドレスがクリップボードにコピーされます。",
       "SOURCE_ADDRESS_COPIED": "ソースアドレスがクリップボードにコピーされます。",
       "DYDX_MNEMONIC_COPIED": "シークレットフレーズがクリップボードにコピーされます。",
       "SYSTEM_STATUS": "システムステータス",

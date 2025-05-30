@@ -222,6 +222,7 @@
       "HIGHLIGHTS": "ハイライト",
       "LAUNCHABLE": "ローンチ可能",
       "LAUNCHABLE_DETAILS": "このマーケットはローンチ可能です",
+      "LAUNCH_ON_DESKTOP": "デスクトップで起動",
       "LAYER_1": "レイヤー1",
       "LAYER_2": "レイヤー2",
       "LEARN_MORE": "詳しくはこちら",
@@ -1006,6 +1007,8 @@
       "SIGN_MESSAGE": "メッセージに署名する",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Eメールまたはソーシャルでサインイン",
       "SIGN_IN_WITH_EMAIL": "メールアドレスでサインインする",
+      "SIGN_IN_WITH": "サインインの方法",
+      "SIGN_IN_WITH_PROVIDER": "{PROVIDER}でサインイン",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "{MAGIC}によるシンプルなサインイン方法です",
       "SKIP_FAST_ROUTE_DESC": "$$の手数料、${LIMIT_AMOUNT}の上限額",
       "SKIP_FAST_ROUTE_DESC_1": "${FEE}手数料、${LIMIT_AMOUNT}指値",
@@ -1057,7 +1060,23 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "dYdXのオンボーディングを完了するためには、ウォレットネットワークを「Goerli Test Network」に設定してください。",
       "WRONG_NETWORK": "ネットワーク不正",
       "YOU_AGREE_TO_TERMS": "dYdXで取引することで、{TERMS_LINK}と{PRIVACY_POLICY_LINK}に同意したことになります。",
-      "YOUR_DEPOSIT": "お客様の入金"
+      "YOUR_DEPOSIT": "お客様の入金",
+      "POPULAR": "人気",
+      "RECOMMEND_SOLANA": "Solanaにおすすめ",
+      "ENTER_OTP_CODE": "確認コードを入力",
+      "CHECK_EMAIL_FOR_OTP_CODE": "ログインコードのメッセージが届いているか、{EMAIL}を確認してください。",
+      "DID_NOT_GET_EMAIL": "メールが届きませんでしたか？",
+      "RESEND_CODE": "コードを再送信",
+      "INVALID_CODE": "無効なコード",
+      "CODE_SENT": "コードが送信されました",
+      "DEPOSIT_FROM_CEX": "CEXからの入金",
+      "COPY_NOBLE": "Nobleアドレスをコピー",
+      "YOUR_NOBLE_ADDRESS": "Nobleアドレス",
+      "CASH_WITH": "{VENDER}に現金で支払う",
+      "DEBIT": "デビット",
+      "PAY_WITH": "支払い手段：",
+      "CRYPTO": "暗号通貨",
+      "OTHER_CRYPTO": "その他の暗号資産"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "モバイルにサインインする",
@@ -1147,6 +1166,7 @@
       "SUBJECT_TO_RULES": "これらのルールの適用対象です",
       "SWAP": "スワップ",
       "TO_DEPOSIT_FROM_COINBASE": "Coinbaseから入金するには、以下のアドレスに{NETWORK}で{ASSET}を送金してください。",
+      "TO_DEPOSIT_FROM_CEX": "集中型取引所から入金するには、以下のアドレスに{NETWORK}で{ASSET}を送信してください。",
       "ESTIMATED_TIME": "予想時間",
       "DEPOSIT_ACKNOWLEDGEMENT": "私は、これらの製品およびサービスに関連するリスクを受け入れ、米国またはその他の制限のある国や地域からこれらを利用しないことを含め、{TERMS_LINK}および{POLICY_LINK}に同意します。{VIEW_MORE_LINK}",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "お客様の資金が取引に使用できるようになりました。",
@@ -1249,7 +1269,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "本当に{OPEN_ORDERS_TEXT}を{ASSET}（{MARKET}）でキャンセルしますか？",
       "ONE_OPEN_ORDER": "1件のオープンオーダー",
       "N_OPEN_ORDERS": "{COUNT}件のオープンオーダー",
-      "OPEN_ORDERS": "オープンオーダー"
+      "NO_CANCELABLE_ORDERS": "キャンセルが必要なオープンオーダーはありません。",
+      "OPEN_ORDERS": "オープンオーダー",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "ポジションが{NUM_MARKETS}マーケット全体で関連付けられていないオープンなトリガー注文が{NUM_ORDERS}件あります。"
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "すべての注文をキャンセル",
@@ -1489,6 +1511,7 @@
       "ENTER_GOOD_UNTIL": "有効期限を入力する",
       "ENTER_EXECUTION": "執行を入力",
       "ENTRY_PRICE_SHORT": "エントリー",
+      "ERROR_SUBMITTING": "送信エラーが発生しました",
       "EXECUTION": "執行",
       "EXPECTED_PRICE": "予想価格",
       "EXPIRED": "期限切れ",
@@ -1660,6 +1683,7 @@
       "STOP_PRICE": "逆指値",
       "SUBMITTED": "提出済み",
       "SUBMITTING": "送信中",
+      "SUBMITTING_ORDER": "注文を送信しています",
       "SUCCESS": "成功しました",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "利益確定指値注文は、オラクル価格または最新の取引価格がトリガー価格を上回った場合、通常の指値注文に変更されます。",
       "TAKE_PROFIT_LIMIT_SHORT": "利益確定指値",
@@ -1677,6 +1701,7 @@
       "TOTAL_COST": "合計コスト",
       "TOTAL_SIZE": "合計サイズ",
       "TOTAL": "合計",
+      "TRADE_CONFIRMED": "取引が確認されました",
       "TRADES_24H": "24時間の取引数",
       "TRADES_EMPTY_STATE": "取引履歴はありません。",
       "TRADES": "取引",
@@ -1685,6 +1710,7 @@
       "TRAILING_STOP_DESCRIPTION": "（市場変動に応じて自動修正される）トレーリング逆指値を設定し、生じうる損失を指定したトレーリング割合に限定します。",
       "TRAILING_STOP": "トレーリングストップ",
       "TRANSFERS_EMPTY_STATE": "送金履歴はありません。",
+      "TRIGGER_DIALOG_DESCRIPTION": "損失を最小限に抑え、利益を確保",
       "TRIGGER_PRICE_SHORT": "トリガー",
       "TRIGGER_PRICE": "トリガー価格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "トリガー注文の関連ポジションがクローズまたは反転されました。",
@@ -1717,6 +1743,7 @@
       "DAILY_SUBHEADER": "今すぐトップP&Lを達成し、ヘッジを獲得する",
       "DEMOTION": "降格",
       "DIAMOND": "ダイヤモンド",
+      "DOUBLE_REWARDS": "ポイント2倍の特典",
       "EARN_AVATAR": "競争力の高い取引でユニークなアバターを獲得",
       "EMPTY_LADDER_STATE": "近日公開！",
       "GIVEN_TO": "トップ相対P&Lのトレーダーに付与されます。",
@@ -2350,6 +2377,7 @@
       "ADD_A_MARKET": "マーケットを追加する",
       "ADD_DETAILS_TO_LAUNCH_MARKET": "新しいマーケットを提案するために詳細を追加する",
       "ADD_FUNDS_AND_LAUNCH": "資金の追加とローンチ",
+      "ADD_FUNDS_TO_LAUNCH": "MegaVaultに{DEPOSIT_AMOUNT}を追加してマーケットをローンチする",
       "ADD_MARKET_STEP_1_TITLE": "マーケットを選択する",
       "ADD_MARKET_STEP_2_TITLE": "詳細を確認する",
       "ADD_MARKET_STEP_3_TITLE": "新しいマーケットを提案する",
@@ -2422,6 +2450,7 @@
       "SUGGEST_NEW_MARKET": "新しいマーケットを提案する",
       "TIME_UNTIL_LIVE": "公開までの時間",
       "TRADE_INSTANTLY": "即座に取引",
+      "YOUR_FUNDS_WILL_EARN_EST": "お客様の資金は、推定{APR_PERCENTAGE}を獲得します",
       "VIEW_PROPOSAL": "提案の表示"
     },
     "COMPLIANCE": {
@@ -2453,7 +2482,11 @@
       "NO_AMOUNT_ENTERED": "金額が入力されていません",
       "SUFFICIENT_GAS_BALANCE": "ガス代は足りている",
       "WITHDRAW_TO_WALLET": "ウォレットに出金する",
-      "WITHDRAW_TO_WALLET_RECOMMENDATION": "dYdXチェーンのGas（ガス）代を支払うには、ウォレット残高を${MIN_RANGE}-${MAX_RANGE}間に維持することを推奨します。"
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "dYdXチェーンのガス代を支払うには、ウォレット残高は${MIN_RANGE}〜${MAX_RANGE}の間に維持することを推奨します。"
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "現時点で回収できる資金はありません。",
+      "RECLAIM_FUNDS_SIGNING": "再請求すると、信用取引の担保として以前に使用されていた資金を返却するため、{NUM_TRANSACTIONS}トランザクションに署名する必要があります。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2539,6 +2572,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "ウォレット残高は、トランザクション手数料をカバーするには不十分です。追加の資金を入金してください。",
     "BROADCAST_ERROR_SDK_32": "送信されたタイムスタンプ・ナンス（「タイムスタンプ・ナンス」とは一度しか使われないランダムな値と、時刻情報を組み合わせた識別情報）が選択されたノードの有効な時間範囲内になかったため、操作を処理できませんでした。 ページを更新して、もう一度お試しください。",
+    "BROADCAST_ERROR_CLOB_10": "注文の有効期限が送信時にすでに切れていました。 これはネットワーク遅延が原因の可能性があります。 もう一度お試しください。",
     "BROADCAST_ERROR_CLOB_2000": "Fill or Kill（FOK）注文で全数量が約定できませんでした。",
     "BROADCAST_ERROR_CLOB_2001": "リデュースオンリー注文では、ポジションサイズを増やすことはできません。",
     "BROADCAST_ERROR_CLOB_2002": "リデュースオンリー注文では、ポジションサイドを変更することはできません。",
@@ -2579,7 +2613,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "問題が発生しました：{ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "問題が発生しました。後ほどやり直してください。",
       "NETWORKING_ERROR": "ネットワーク接続エラーが発生しました。 インターネット接続を確認し、ページを更新してから、再度お試しください。",
-      "TIMESTAMP_DISCREPANCY": "セキュリティ上の理由により、口座認証の際にタイムスタンプを検証します。システムクロックが正しく同期されていることを確認し、アプリを更新してください。"
+      "VALIDATOR_RESPONSE_500": "ネットワーク接続エラーが発生しました。 もう一度お試しください。",
+      "TIMESTAMP_DISCREPANCY": "セキュリティ上の理由により、口座認証の際にタイムスタンプを検証します。システムクロックが正しく同期されていることを確認し、アプリを更新してください。",
+      "FAILED_COMMIT_CONFIRMATION": "チェーントランザクションの確認に失敗しました。 最新の状態を取得するには更新することをお勧めします。",
+      "NO_ORDERS_TO_CANCEL": "キャンセルするオープンオーダーが見つかりませんでした。",
+      "NO_POSITIONS_TO_CLOSE": "クローズするオープンポジションが見つかりませんでした。",
+      "UNKNOWN_VALIDATOR_HEIGHT": "チェーンの高さが不明なため、注文を提出できません。 もう一度お試しください。",
+      "NO_LOCAL_WALLET": "ローカルウォレットの状態が不明なため注文を提出できません。 もう一度お試しください。"
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "注文金額は、{STEP_SIZE}の因数でなければなりません。",
@@ -2797,6 +2837,7 @@
       "ERROR_WITH_APPROVAL": "承認にエラーが発生しました。",
       "INSUFFICIENT_GAS_BALANCE": "Gas残高が足りません。Gas資金を追加して、再度お試しください。",
       "USER_REJECTED": "ユーザーがリクエストを拒否しました。",
+      "WALLET_CONTEXT_INVALIDATED": "ウォレット拡張機能との通信エラーが発生しました。 ブラウザを更新または再起動して、もう一度お試しください。",
       "YOUR_APPROVAL_FAILED": "承認に失敗しました。もう一度お試しください。"
     }
   },
