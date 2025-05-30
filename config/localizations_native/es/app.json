@@ -403,6 +403,7 @@
       "DYDX_ADDRESS": "Dirección de la cadena dYdX",
       "SOURCE_ADDRESS": "Dirección de origen",
       "DYDX_ADDRESS_COPIED": "La dirección de la cadena dYdX se copió en el portapapeles.",
+      "NOBLE_ADDRESS_COPIED": "La dirección de Noble se copió en el portapapeles.",
       "SOURCE_ADDRESS_COPIED": "La dirección de origen se copió en el portapapeles.",
       "DYDX_MNEMONIC_COPIED": "La frase secreta se copió en el portapapeles.",
       "SYSTEM_STATUS": "Estado del sistema",
