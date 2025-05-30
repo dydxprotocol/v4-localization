@@ -403,6 +403,7 @@
       "DYDX_ADDRESS": "Adresse de la chaîne dYdX",
       "SOURCE_ADDRESS": "Adresse source",
       "DYDX_ADDRESS_COPIED": "L'adresse de la chaîne dYdX est copiée dans le presse-papier.",
+      "NOBLE_ADDRESS_COPIED": "L'adresse Noble est copiée dans le presse-papiers.",
       "SOURCE_ADDRESS_COPIED": "L'adresse source est copiée dans le presse-papiers.",
       "DYDX_MNEMONIC_COPIED": "La phrase secrète a été copiée dans le presse-papiers.",
       "SYSTEM_STATUS": "État du système",
