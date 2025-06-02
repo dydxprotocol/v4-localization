@@ -222,6 +222,7 @@
       "HIGHLIGHTS": "Destaques",
       "LAUNCHABLE": "Lançável",
       "LAUNCHABLE_DETAILS": "Este mercado pode ser lançado",
+      "LAUNCH_ON_DESKTOP": "Lançar no computador",
       "LAYER_1": "Camada 1",
       "LAYER_2": "Camada 2",
       "LEARN_MORE": "Saiba mais",
@@ -1006,6 +1007,8 @@
       "SIGN_MESSAGE": "Assinar mensagem",
       "SIGN_IN_WITH_EMAIL_OR_SOCIAL": "Fazer login com e-mail ou conta de rede social",
       "SIGN_IN_WITH_EMAIL": "Fazer login com e-mail",
+      "SIGN_IN_WITH": "Fazer login com",
+      "SIGN_IN_WITH_PROVIDER": "Fazer login com {PROVIDER}",
       "SIGN_IN_WITH_EMAIL_SUBTITLE": "Uma maneira simples de entrar, criada por {MAGIC}",
       "SKIP_FAST_ROUTE_DESC": "$$ taxa, US$ {LIMIT_AMOUNT} limite",
       "SKIP_FAST_ROUTE_DESC_1": "US$ {FEE} taxa, US$ {LIMIT_AMOUNT} limite",
@@ -1057,7 +1060,23 @@
       "WRONG_NETWORK_EXPLANATION_STAGING": "Para concluir a integração da dYdX, defina a rede de sua carteira como “Goerli Test Network”.",
       "WRONG_NETWORK": "Rede incorreta",
       "YOU_AGREE_TO_TERMS": "Ao fazer trading na dYdX, você concorda com {TERMS_LINK} e {PRIVACY_POLICY_LINK}.",
-      "YOUR_DEPOSIT": "Seu depósito"
+      "YOUR_DEPOSIT": "Seu depósito",
+      "POPULAR": "Popular",
+      "RECOMMEND_SOLANA": "Recomendado para Solana",
+      "ENTER_OTP_CODE": "Digite o código de confirmação",
+      "CHECK_EMAIL_FOR_OTP_CODE": "Verifique se há uma mensagem em {EMAIL} com seu código de login.",
+      "DID_NOT_GET_EMAIL": "Não recebeu um e-mail?",
+      "RESEND_CODE": "Reenviar o código",
+      "INVALID_CODE": "Código inválido",
+      "CODE_SENT": "Código enviado",
+      "DEPOSIT_FROM_CEX": "Depósito de uma CEX",
+      "COPY_NOBLE": "Copiar endereço Noble",
+      "YOUR_NOBLE_ADDRESS": "Seu endereço Noble",
+      "CASH_WITH": "Dinheiro com {VENDER}...",
+      "DEBIT": "Débito",
+      "PAY_WITH": "Pagar com",
+      "CRYPTO": "Cripto",
+      "OTHER_CRYPTO": "Outras criptomoedas"
     },
     "SIGN_INTO_MOBILE": {
       "TITLE_SIGN_INTO_MOBILE": "Acesse pelo celular",
@@ -1147,6 +1166,7 @@
       "SUBJECT_TO_RULES": "Sujeito a estas regras",
       "SWAP": "Swap",
       "TO_DEPOSIT_FROM_COINBASE": "Para depositar usando a coinbase, envie {ASSET} para {NETWORK} no endereço mostrado abaixo.",
+      "TO_DEPOSIT_FROM_CEX": "Para depositar de uma exchange centralizada, envie {ASSET} para {NETWORK} no endereço mostrado abaixo.",
       "ESTIMATED_TIME": "Tempo estimado",
       "DEPOSIT_ACKNOWLEDGEMENT": "Concordo com os {TERMS_LINK} e a {POLICY_LINK}, e aceito os riscos associados a esses produtos e serviços, e não os usarei nos Estados Unidos ou em qualquer outra jurisdição restrita. {VIEW_MORE_LINK}",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Os seus fundos estão agora disponíveis para trading.",
@@ -1249,7 +1269,9 @@
       "CANCEL_ORDERS_CONFIRMATION": "Tem certeza de que quer cancelar {OPEN_ORDERS_TEXT} em {ASSET} ({MARKET})?",
       "ONE_OPEN_ORDER": "1 ordem aberta",
       "N_OPEN_ORDERS": "{COUNT} ordens abertas",
-      "OPEN_ORDERS": "Ordens abertas"
+      "NO_CANCELABLE_ORDERS": "Você não tem ordens abertas que precisem ser canceladas.",
+      "OPEN_ORDERS": "Ordens abertas",
+      "YOUR_OPEN_TRIGGER_ORDERS_NO_POSITION": "Você tem {NUM_ORDERS} ordem(s) de disparo aberta(s) em {NUM_MARKETS}mercado(s) sem posição associada."
     },
     "CANCEL_ALL_ORDERS_MODAL": {
       "CANCEL_ALL_ORDERS": "Cancelar todas as ordens",
@@ -1489,6 +1511,7 @@
       "ENTER_GOOD_UNTIL": "Digite válida até",
       "ENTER_EXECUTION": "Digite a execução",
       "ENTRY_PRICE_SHORT": "Entrada",
+      "ERROR_SUBMITTING": "Erro ao enviar",
       "EXECUTION": "Execução",
       "EXPECTED_PRICE": "Preço esperado",
       "EXPIRED": "Expirado",
@@ -1660,6 +1683,7 @@
       "STOP_PRICE": "Interromper preço",
       "SUBMITTED": "Enviado",
       "SUBMITTING": "Enviando",
+      "SUBMITTING_ORDER": "Envio de ordem",
       "SUCCESS": "Sucesso",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Uma ordem limite de take profit é convertida numa ordem limite tradicional sempre que o preço do oráculo ou o último preço de trade cruzar seu preço de disparo.",
       "TAKE_PROFIT_LIMIT_SHORT": "Limite take profit",
@@ -1677,6 +1701,7 @@
       "TOTAL_COST": "Custo total",
       "TOTAL_SIZE": "Tamanho total",
       "TOTAL": "Total",
+      "TRADE_CONFIRMED": "Trade confirmado",
       "TRADES_24H": "Trades em 24h",
       "TRADES_EMPTY_STATE": "Você não tem histórico de trade.",
       "TRADES": "Trades",
@@ -1685,6 +1710,7 @@
       "TRAILING_STOP_DESCRIPTION": "Defina um trailing stop para limitar o percentual que você pode perder do seu percentual de trailing especificado.",
       "TRAILING_STOP": "Trailing stop",
       "TRANSFERS_EMPTY_STATE": "Você não tem histórico de transferências.",
+      "TRIGGER_DIALOG_DESCRIPTION": "Minimize perdas e garanta lucros",
       "TRIGGER_PRICE_SHORT": "Disparo",
       "TRIGGER_PRICE": "Preço de disparo",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "A posição associada à ordem de disparo foi fechada ou revertida.",
@@ -1717,6 +1743,7 @@
       "DAILY_SUBHEADER": "Obtenha o melhor L&P do dia para ganhar um Hedgie",
       "DEMOTION": "Rebaixamento",
       "DIAMOND": "Diamante",
+      "DOUBLE_REWARDS": "2x Recompensas",
       "EARN_AVATAR": "Ganhe um avatar exclusivo ao fazer trading de forma competitiva",
       "EMPTY_LADDER_STATE": "Em breve!",
       "GIVEN_TO": "Concedido ao trader com o melhor L&P Relativo",
@@ -2350,6 +2377,7 @@
       "ADD_A_MARKET": "Adicionar um mercado",
       "ADD_DETAILS_TO_LAUNCH_MARKET": "Adicione detalhes para propor um novo mercado",
       "ADD_FUNDS_AND_LAUNCH": "Adicionar fundos e lançar",
+      "ADD_FUNDS_TO_LAUNCH": "Adicione {DEPOSIT_AMOUNT}ao MegaVault para lançar o mercado financeiro",
       "ADD_MARKET_STEP_1_TITLE": "Selecionar mercado",
       "ADD_MARKET_STEP_2_TITLE": "Confirmar detalhes",
       "ADD_MARKET_STEP_3_TITLE": "Propor novo mercado",
@@ -2422,6 +2450,7 @@
       "SUGGEST_NEW_MARKET": "Sugerir um novo mercado",
       "TIME_UNTIL_LIVE": "Período até a ativação",
       "TRADE_INSTANTLY": "Faça trades instantaneamente",
+      "YOUR_FUNDS_WILL_EARN_EST": "Seus fundos ganharão um estimado {APR_PERCENTAGE}",
       "VIEW_PROPOSAL": "Ver proposta"
     },
     "COMPLIANCE": {
@@ -2453,7 +2482,11 @@
       "NO_AMOUNT_ENTERED": "Nenhum valor inserido",
       "SUFFICIENT_GAS_BALANCE": "Quantidade suficiente de gas",
       "WITHDRAW_TO_WALLET": "Saque para a carteira",
-      "WITHDRAW_TO_WALLET_RECOMMENDATION": "Recomendamos que o saldo da carteira permaneça entre US${MIN_RANGE} e US${MAX_RANGE} para pagar taxas de gas na rede dYdX."
+      "WITHDRAW_TO_WALLET_RECOMMENDATION": "Recomendamos que o saldo da carteira permaneça entre US${MIN_RANGE} e US${MAX_RANGE} para pagar taxas de gas na cadeia dYdX."
+    },
+    "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
+      "NO_FUNDS_TO_RECLAIM": "Não há fundos disponíveis para você resgatar no momento.",
+      "RECLAIM_FUNDS_SIGNING": "Ao resgatar, você será solicitado a assinar {NUM_TRANSACTIONS} transação(ões) para devolver os fundos usados anteriormente como garantia para o trade de margem."
     }
   },
   "TOKEN_MIGRATION": {
@@ -2539,6 +2572,7 @@
   "ERRORS": {
     "BROADCAST_ERROR_SDK_5": "O saldo da carteira é insuficiente para cobrir as taxas de transação; deposite fundos adicionais.",
     "BROADCAST_ERROR_SDK_32": "A operação não pôde ser processada porque o carimbo de data\/hora enviado não estava dentro do intervalo de tempo válido do nó selecionado. Atualize a página e tente novamente.",
+    "BROADCAST_ERROR_CLOB_10": "A ordem já estava expirada quando enviada. Isso pode ser devido à latência da rede. Tente novamente.",
     "BROADCAST_ERROR_CLOB_2000": "A ordem Preencher ou encerrar não pôde ser totalmente preenchida.",
     "BROADCAST_ERROR_CLOB_2001": "Ordens de Somente reduzir não podem aumentar o tamanho da posição.",
     "BROADCAST_ERROR_CLOB_2002": "Ordens de Somente reduzir não podem alterar o lado da posição.",
@@ -2579,7 +2613,13 @@
       "SOMETHING_WENT_WRONG_WITH_MESSAGE": "Algo deu errado: {ERROR_MESSAGE}",
       "SOMETHING_WENT_WRONG": "Algo deu errado. Tente novamente mais tarde.",
       "NETWORKING_ERROR": "Erro ao conectar à rede. Verifique sua conexão com a internet, atualize a página e tente novamente.",
-      "TIMESTAMP_DISCREPANCY": "Como medida de segurança, verificamos os carimbos de data\/hora ao autenticar sua conta. Certifique-se de que o relógio do sistema esteja sincronizado corretamente e atualize o aplicativo."
+      "VALIDATOR_RESPONSE_500": "Erro ao conectar à rede. Tente novamente.",
+      "TIMESTAMP_DISCREPANCY": "Como medida de segurança, verificamos os carimbos de data\/hora ao autenticar sua conta. Certifique-se de que o relógio do sistema esteja sincronizado corretamente e atualize o aplicativo.",
+      "FAILED_COMMIT_CONFIRMATION": "Falha ao confirmar a transação da blockchain Você pode atualizar para obter o estado mais recente.",
+      "NO_ORDERS_TO_CANCEL": "Não foi possível encontrar ordem(s) aberta(s) para cancelar.",
+      "NO_POSITIONS_TO_CLOSE": "Não foi possível encontrar posições abertas para fechar.",
+      "UNKNOWN_VALIDATOR_HEIGHT": "Não é possível enviar a ordem porque a altura da cadeia é desconhecida. Tente novamente.",
+      "NO_LOCAL_WALLET": "Não é possível enviar a ordem porque o estado da carteira local é desconhecido. Tente novamente."
     },
     "TRADE_BOX": {
       "AMOUNT_INPUT_STEP_SIZE": "Valor da ordem deve ser um fator de {STEP_SIZE}.",
@@ -2797,6 +2837,7 @@
       "ERROR_WITH_APPROVAL": "Ocorreu um erro com sua aprovação.",
       "INSUFFICIENT_GAS_BALANCE": "Saldo de \"gas\" insuficiente. Adicione fundos de \"gas\" e tente novamente.",
       "USER_REJECTED": "O usuário rejeitou o pedido.",
+      "WALLET_CONTEXT_INVALIDATED": "Erro ao se comunicar com a extensão da carteira. Atualize ou reinicie o navegador e tente novamente.",
       "YOUR_APPROVAL_FAILED": "Sua aprovação falhou. Tente novamente."
     }
   },
