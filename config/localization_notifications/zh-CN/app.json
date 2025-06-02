@@ -124,6 +124,10 @@
       "TITLE": "止损",
       "BODY": "已创建止损触发点{NEW_VALUE}。"
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2: 推出 2 倍奖励",
+      "BODY": "第 2 季将对热门市场的交易提供积分加成！ AIXBT、KAITO、SUI、XRP 市场将以 2 倍奖励启动！"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "止盈",
       "BODY": "正在创建止盈触发点{NEW_VALUE}。"
