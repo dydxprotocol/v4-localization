@@ -128,6 +128,18 @@
       "TITLE": "Surge S2: Introducing 2x rewards",
       "BODY": "Season 2 will have boosted points for trading in hot markets! AIXBT, KAITO, SUI, XRP markets to kick off with 2x rewards!"
     },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER}: Compete for $2M",
+      "BODY": "Season {SEASON_NUMBER} will have boosted points for trading in hot markets! {MARKETS_LIST} markets to kick off with 2x rewards!"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER}: You earned {DYDX_REWARDS} dYdX",
+      "BODY": "Surge S{SEASON_NUMBER} Leaderboard rewards are now being distributed, check your dYdX balance to see your rewards!"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER}: {DAYS_LEFT} days left",
+      "BODY": "Up to $2M+ in rewards are distributed to dYdX traders every month. {DAYS_LEFT} days left to climb the leaderboard!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Your take profit trigger is being created at {NEW_VALUE}."
