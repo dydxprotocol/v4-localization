@@ -403,6 +403,7 @@
       "DYDX_ADDRESS": "dYdX 链地址",
       "SOURCE_ADDRESS": "源地址",
       "DYDX_ADDRESS_COPIED": "dYdX 链地址已复制到剪贴板。",
+      "NOBLE_ADDRESS_COPIED": "Noble 地址复制到剪贴板。",
       "SOURCE_ADDRESS_COPIED": "源地址已复制到剪贴板。",
       "DYDX_MNEMONIC_COPIED": "密码口令复制到剪贴板。",
       "SYSTEM_STATUS": "系统状态",
