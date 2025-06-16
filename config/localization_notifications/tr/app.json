@@ -128,6 +128,18 @@
       "TITLE": "Surge S2: 2 kat ödüllerle tanışın",
       "BODY": "2. Sezonda, sıcak piyasalarda işlem yapmak için puanlar artırılacak! AIXBT, KAITO, SUI, XRP piyasaları 2 kat ödülle başlıyor!"
     },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER}: 2 Milyon Dolar için Yarışın",
+      "BODY": "{SEASON_NUMBER}. Sezonda, hareketli piyasalarda işlem yapmak için puanlar artırılacak! {MARKETS_LIST}2 kat ödülle başlayacak piyasalar!"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER}: {DYDX_REWARDS} dYdX kazandınız",
+      "BODY": "Surge S{SEASON_NUMBER} Lider Tablosu ödülleri dağıtılıyor, ödüllerinizi görmek için dYdX bakiyenizi kontrol edin!"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER}: {DAYS_LEFT} gün kaldı",
+      "BODY": "Her ay dYdX yatırımcılarına 2 Milyon doları aşan tutarlara varan ödüller dağıtılıyor. Lider tablosunda üst sıralara tırmanmak için {DAYS_LEFT} gün kaldı!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Kâr Alma",
       "BODY": "{NEW_VALUE} için kâr alma tetikleyicisi oluşturuluyor."
