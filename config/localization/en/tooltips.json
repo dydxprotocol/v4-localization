@@ -114,6 +114,10 @@
     },
     "LIMIT_CLOSE": {
       "TITLE": "Limit Close",
+      "BODY": "A limit close may not happen instantly, and will only be filled once the entered price is hit. Monitor the Orders tab to check its status."
+    },
+    "IOC_LIMIT_CLOSE": {
+      "TITLE": "Limit Close",
       "BODY": "A limit close will execute immediately or cancel the order. The limit price should be used to customize the amount of slippage tolerated for a close position order. If you would like to close a position when a price is reached, set take profit or stop loss orders instead."
     },
     "LIMIT_PRICE": {
