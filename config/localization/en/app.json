@@ -1152,6 +1152,8 @@
       "EXCHANGE_RATE": "Exchange Rate",
       "EXPECTED_DEPOSIT_AMOUNT": "Expected Deposit Amount",
       "FREE_GAS": "Free!",
+      "FREE_INSTANT_DEPOSIT_MAX": "Deposit less than ${MAX_AMOUNT} for free instant deposits.",
+      "FREE_INSTANT_DEPOSIT_MIN": "Deposit ${MIN_AMOUNT}+ for free instant deposits.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "You have {NUM_DEPOSITS} gasless deposits available.",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "You have {NUM_DEPOSITS} gasless deposit available.",
       "GASLESS_DEPOSITS_RESET": "Your gasless deposit limit resets every three days.",
