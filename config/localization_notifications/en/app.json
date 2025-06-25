@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "Booster Program Now Live",
+      "BODY": "Affiliates can now participate in a new 4-week Booster Program offering weekly rewards based on new user referrals. Check your eligibility and see how it works {HERE_LINK}."
+    },
     "BLOCK_REWARD": {
       "TITLE": "Reward Earned",
       "BODY": "You have earned {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading reward."

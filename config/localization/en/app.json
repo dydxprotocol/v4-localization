@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_BODY": "Earn up to ${WEEKLY_AMOUNT} per week. Find out more {HERE_LINK}.",
+      "AFFILIATE_BOOSTER_LIVE": "Affiliate Booster Program is live - weekly rewards for eligible affiliates.",
       "AFFILIATE_CHART_EMPTY_STATE": "There is no data available",
       "AFFILIATE_CONNECT_WALLET": "Please connect your wallet to check your rankings",
       "AFFILIATE_EARNINGS": "Affiliate Earnings",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "Take advantage of staking and other products to earn USDC.",
       "EARN_USDC": "Earn USDC",
       "FEES_REFERRED": "Fees Referred",
+      "GET_YOUR_AFFILIATE_LINK": "Get your affiliate link",
       "HAS_REFERRED_YOU": "has referred you to start trading on the world's most powerful open exchange.",
       "INVITE_FRIENDS": "Invite Friends",
       "LIGHTNING_FAST_DISCRIPTION": "The most seamless and powerful experience in DeFi.",
