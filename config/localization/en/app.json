@@ -782,7 +782,7 @@
       }
     },
     "AFFILIATES": {
-      "AFFILIATE_BOOSTER_BODY": "Earn up to ${WEEKLY_AMOUNT} per week. Find out more {HERE_LINK}.",
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "Earn up to ${WEEKLY_AMOUNT} per week. Find out more {HERE_LINK}.",
       "AFFILIATE_BOOSTER_LIVE": "Affiliate Booster Program is live - weekly rewards for eligible affiliates.",
       "AFFILIATE_CHART_EMPTY_STATE": "There is no data available",
       "AFFILIATE_CONNECT_WALLET": "Please connect your wallet to check your rankings",
