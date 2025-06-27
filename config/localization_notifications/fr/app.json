@@ -128,6 +128,18 @@
       "TITLE": "Surge S2 : introduisant des récompenses 2x",
       "BODY": "La saison 2 aura des points renforcés pour le trading sur les marchés en vogue ! Les marchés AIXBT, KAITO, SUI, XRP vont démarrer avec 2x récompenses !"
     },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER} : concourez pour 2 millions de dollars",
+      "BODY": "La saison {SEASON_NUMBER} aura des points renforcés pour le trading sur les marchés en vogue ! {MARKETS_LIST} vont démarrer avec deux fois plus de récompenses !"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER} : vous avez gagné {DYDX_REWARDS} dYdX",
+      "BODY": "Les récompenses du tableau de classement Surge S{SEASON_NUMBER} sont maintenant distribuées, vérifiez votre solde dYdX pour voir vos récompenses !"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER} : {DAYS_LEFT} jours restants",
+      "BODY": "Jusqu'à 2 millions de dollars et plus de récompenses sont distribués chaque mois aux traders dYdX. {DAYS_LEFT} Il reste quelques jours pour gravir le classement !"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Votre déclencheur de Take Profit est créé à {NEW_VALUE}."
