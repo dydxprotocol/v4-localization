@@ -128,6 +128,18 @@
       "TITLE": "Anstieg S2: Einführung von 2-fachen Prämien",
       "BODY": "Staffel 2 bietet erhöhte Punkte für den Handel in angesagten Märkten! Die Märkte AIXBT, KAITO, SUI, XRP starten mit 2-fachen Prämien!"
     },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Anstieg S{SEASON_NUMBER}: Wetteifern um 2 Mio. USD",
+      "BODY": "Saison {SEASON_NUMBER}bietet erhöhte Punkte für den Handel in hippen Märkten!  {MARKETS_LIST}Märkte zum Start mit 2-fachen Prämien!"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Anstieg S{SEASON_NUMBER}: Sie haben dYdX {DYDX_REWARDS}verdient",
+      "BODY": "Die Prämien für Surge S{SEASON_NUMBER} Leaderboard werden jetzt verteilt. Überprüfen Sie Ihr dYdX-Guthaben, um Ihre Prämien zu sehen!"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Anstieg S{SEASON_NUMBER}: {DAYS_LEFT}verbleibende Tage",
+      "BODY": "Prämien von bis zu 2 Mio. USD werden jeden Monat an dYdX-Händler verteilt. {DAYS_LEFT} Tage verbleiben, um die Rangliste zu erklimmen!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
       "BODY": "Ihr Take-Profit-Trigger wird bei {NEW_VALUE} erstellt."
