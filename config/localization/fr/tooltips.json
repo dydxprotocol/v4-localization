@@ -116,6 +116,10 @@
       "TITLE": "Fermeture limitée",
       "BODY": "Une fermeture limitée peut ne pas se produire instantanément et ne sera exécutée qu'une fois que le prix saisi est atteint. Surveillez l'onglet Ordres pour vérifier sa progression."
     },
+    "IOC_LIMIT_CLOSE": {
+      "TITLE": "Fermeture limitée",
+      "BODY": "Une clôture limite s'exécutera immédiatement ou annulera l'ordre. Le prix limite doit être utilisé pour personnaliser le montant de slippage toléré pour un ordre de clôture de position. Si vous souhaitez clôturer une position lorsqu'un prix est atteint, définissez plutôt des ordres Take Profit ou Stop Loss."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Prix limite",
       "BODY": "Cet ordre ne peut être exécuté qu'au prix limite spécifié ou mieux. Si votre ordre croise au moment du placement, votre ordre exécutera tout ordre de croisement au prix le plus favorable."
