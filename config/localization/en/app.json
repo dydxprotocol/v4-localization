@@ -1539,6 +1539,7 @@
       "FUNDING_PAYMENTS_EMPTY_STATE": "You have no past funding payments.",
       "FUNDING_PAYMENTS_SHORT": "Funding",
       "FUNDING_PAYMENTS": "Funding Payments",
+      "FUNDING_PAYMENTS_DESCRIPTION": "List of the funding payments received",
       "FUNDING_RATE_1H_SHORT": "1h Funding",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} Funding",
       "FUNDING_RATE": "Estimated 1h Funding",
