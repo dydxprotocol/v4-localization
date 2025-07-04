@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "1週間で最大${WEEKLY_AMOUNT}を獲得できます。詳細は{HERE_LINK}からご覧ください。",
+      "AFFILIATE_BOOSTER_LIVE": "アフィリエイトブースタープログラムが開始されました。対象のアフィリエイトは毎週報酬を獲得できます。",
       "AFFILIATE_CHART_EMPTY_STATE": "利用可能なデータはありません",
       "AFFILIATE_CONNECT_WALLET": "ランキングを確認するには、ウォレットを接続してください",
       "AFFILIATE_EARNINGS": "アフィリエイト収益",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "ステーキングやその他のプロダクトを活用して、USDCを獲得しましょう。",
       "EARN_USDC": "USDCを獲得",
       "FEES_REFERRED": "紹介料",
+      "GET_YOUR_AFFILIATE_LINK": "アフィリエイトリンクを入手する",
       "HAS_REFERRED_YOU": "世界で最もパワフルなオープンエクスチェンジで取引を開始することを推奨しています。",
       "INVITE_FRIENDS": "お友達を招待",
       "LIGHTNING_FAST_DISCRIPTION": "DeFiで最もシームレスでパワフルなエクスペリエンス。",
@@ -1152,6 +1155,8 @@
       "EXCHANGE_RATE": "為替レート",
       "EXPECTED_DEPOSIT_AMOUNT": "予想入金額",
       "FREE_GAS": "無料！",
+      "FREE_INSTANT_DEPOSIT_MAX": "${MAX_AMOUNT}未満の入金は、手数料なしで即時反映されます。",
+      "FREE_INSTANT_DEPOSIT_MIN": "${MIN_AMOUNT}以上の入金は、手数料なしで即時反映されます。",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "{NUM_DEPOSITS}件のガスレス入金が可能です。",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "{NUM_DEPOSITS}件のガスレス入金が可能です。",
       "GASLESS_DEPOSITS_RESET": "ガスレス入金の上限は3日ごとにリセットされます。",
