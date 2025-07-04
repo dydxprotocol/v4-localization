@@ -124,6 +124,22 @@
       "TITLE": "ストップロス",
       "BODY": "{NEW_VALUE}でのストップロスのトリガーが作成されました。"
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2：2倍の報酬の導入",
+      "BODY": "シーズン2では、ホットなマーケットで取引に使えるポイントがアップします！AIXBT、KAITO、SUI、XRPマーケットは2倍の報酬でスタート！"
+    },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER}：200万ドルを目指して競争",
+      "BODY": "シーズン{SEASON_NUMBER}ではホットなマーケットで取引に使えるポイントがアップします！ {MARKETS_LIST} マーケットは2倍の報酬でスタート！"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER}：{DYDX_REWARDS}dYdXを獲得しました",
+      "BODY": "Surge S{SEASON_NUMBER}リーダーボードの報酬が配布されるようになりました。dYdX残高をチェックして報酬を確認してください！"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER}：{DAYS_LEFT}残り日数",
+      "BODY": "最大200万ドル以上の報酬が毎月dYdXトレーダーに分配されます。リーダーボードを上げられるのはあと{DAYS_LEFT}日です！"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "利益確定",
       "BODY": "利益確定のトリガーは{NEW_VALUE}で作成されています。"

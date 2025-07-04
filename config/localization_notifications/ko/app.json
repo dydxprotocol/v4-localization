@@ -124,6 +124,22 @@
       "TITLE": "손절매",
       "BODY": "{NEW_VALUE}에서 손절매 트리거가 생성되었습니다."
     },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "서지 S2 (Surge S2): 2배 보상 도입",
+      "BODY": "시즌 2에서는 인기 있는 시장에서 거래하기 위해 포인트가 부스트되었습니다! AIXBT, KAITO, SUI, XRP 시장이 2배의 보상으로 시작됩니다!"
+    },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "서지 S{SEASON_NUMBER}: 2백만 달러를 두고 경쟁",
+      "BODY": "{SEASON_NUMBER} 시즌에서는 인기 있는 시장에서 거래하기 위해 포인트가 부스트되었습니다! {MARKETS_LIST} 2배의 보상과 함께 시장이 시작됩니다!"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "서지 S{SEASON_NUMBER}: {DYDX_REWARDS}　dYdX를 획득했습니다",
+      "BODY": "현재 Surge S{SEASON_NUMBER} 순위표가 보상으로 배포되고 있습니다. dYdX 잔액을 확인하여 보상을 확인하세요!"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "서지 S{SEASON_NUMBER}: {DAYS_LEFT}일　남음",
+      "BODY": "매달 dYdX 거래자에게 최대 $2M+의 보상이 지급됩니다. 순위표를 올라가기 위해 {DAYS_LEFT}일 남았습니다!"
+    },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "이익 환수",
       "BODY": "이익 실현 트리거가 {NEW_VALUE}에 생성되고 있습니다."

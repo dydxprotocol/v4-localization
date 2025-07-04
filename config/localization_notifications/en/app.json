@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "Booster Program Now Live",
+      "BODY": "Affiliates can now participate in a new 4-week Booster Program offering weekly rewards based on new user referrals. Check your eligibility and see how it works {HERE_LINK}."
+    },
     "BLOCK_REWARD": {
       "TITLE": "Reward Earned",
       "BODY": "You have earned {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading reward."
@@ -127,6 +131,18 @@
     "SURGE_S2_BOOSTED_MARKETS": {
       "TITLE": "Surge S2: Introducing 2x rewards",
       "BODY": "Season 2 will have boosted points for trading in hot markets! AIXBT, KAITO, SUI, XRP markets to kick off with 2x rewards!"
+    },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER}: Compete for $2M",
+      "BODY": "Season {SEASON_NUMBER} will have boosted points for trading in hot markets! {MARKETS_LIST} markets to kick off with 2x rewards!"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER}: You earned {DYDX_REWARDS} dYdX",
+      "BODY": "Surge S{SEASON_NUMBER} Leaderboard rewards are now being distributed, check your dYdX balance to see your rewards!"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER}: {DAYS_LEFT} days left",
+      "BODY": "Up to $2M+ in rewards are distributed to dYdX traders every month. {DAYS_LEFT} days left to climb the leaderboard!"
     },
     "TAKE_PROFIT_TRIGGER_CREATING": {
       "TITLE": "Take Profit",
