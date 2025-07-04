@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "Booster计划现已上线",
+      "BODY": "现在，关联会员可以参与一个为期4周的新“Booster计划”，该计划根据新用户推荐提供每周奖励。检查您的资格并了解其运作方式{HERE_LINK}。"
+    },
     "BLOCK_REWARD": {
       "TITLE": "已获得奖励",
       "BODY": "您已获得 {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} 交易奖励。"
