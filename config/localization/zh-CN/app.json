@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "每周最多可赚取{WEEKLY_AMOUNT}美元。了解更多{HERE_LINK}。",
+      "AFFILIATE_BOOSTER_LIVE": "关联会员助力计划已启动，每周为符合条件的关联会员提供奖励。",
       "AFFILIATE_CHART_EMPTY_STATE": "无可用数据",
       "AFFILIATE_CONNECT_WALLET": "请连接您的钱包以查看您的排名",
       "AFFILIATE_EARNINGS": "关联会员收益",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "利用质押和其他产品来赚取 USDC。",
       "EARN_USDC": "赚取 USDC",
       "FEES_REFERRED": "推荐费用",
+      "GET_YOUR_AFFILIATE_LINK": "获取您的关联链接",
       "HAS_REFERRED_YOU": "已推荐您开始在世界上最强大地开放交易所进行交易。",
       "INVITE_FRIENDS": "邀请朋友",
       "LIGHTNING_FAST_DISCRIPTION": "DeFi 中最顺畅、最强大的体验。",
@@ -1152,6 +1155,8 @@
       "EXCHANGE_RATE": "汇率",
       "EXPECTED_DEPOSIT_AMOUNT": "预期充值金额",
       "FREE_GAS": "免费！",
+      "FREE_INSTANT_DEPOSIT_MAX": "存入低于{MAX_AMOUNT}美元即可享受免费即时充值。",
+      "FREE_INSTANT_DEPOSIT_MIN": "存入超过{MIN_AMOUNT}美元即可享受免费即时充值。",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "您有{NUM_DEPOSITS}无gas充值可用。",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "您有{NUM_DEPOSITS}无 gas 充值可用。",
       "GASLESS_DEPOSITS_RESET": "您的无 gas 充值限额每三天重置。",
