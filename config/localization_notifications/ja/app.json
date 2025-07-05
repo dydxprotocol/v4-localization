@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "ブースタープログラムが現在利用可能です",
+      "BODY": "アフィリエイトは、新しいユーザー紹介に基づいた報酬が毎週もらえる4週間のブースタープログラムに参加できるようになりました適格要件を満たしているか、またどのように利用するかはこちらからをご覧ください{HERE_LINK}。"
+    },
     "BLOCK_REWARD": {
       "TITLE": "獲得した報酬",
       "BODY": "取引報酬の{BLOCK_REWARD_AMOUNT} {TOKEN_NAME}を獲得しました。"
