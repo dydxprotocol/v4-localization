@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "지금 부스터 프로그램에 참여하세요",
+      "BODY": "제휴사는 이제 신규 사용자 추천을 기반으로 매주 보상을 받을 수 있는 4주간의 부스터 프로그램에 참여할 수 있습니다. 프로그램 자격 요건과 작동 방식을 알아보세요{HERE_LINK}."
+    },
     "BLOCK_REWARD": {
       "TITLE": "획득한 보상 ",
       "BODY": "{BLOCK_REWARD_AMOUNT}{TOKEN_NAME}의 거래 보상을 획득했습니다."
