@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "Зарабатывайте до {WEEKLY_AMOUNT} USD в неделю. Узнайте больше ({HERE_LINK}).",
+      "AFFILIATE_BOOSTER_LIVE": "Программа поддержки партнеров уже доступна — еженедельные награды для соответствующих требованиям партнеров.",
       "AFFILIATE_CHART_EMPTY_STATE": "Данные отсутствуют",
       "AFFILIATE_CONNECT_WALLET": "Подключите свой кошелек, чтобы проверить рейтинг",
       "AFFILIATE_EARNINGS": "Партнерский доход",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "Воспользуйтесь преимуществами стейкинга и других продуктов, чтобы заработать USDC.",
       "EARN_USDC": "Заработать USDC",
       "FEES_REFERRED": "Реферативные комиссии",
+      "GET_YOUR_AFFILIATE_LINK": "Получите свою партнерскую ссылку",
       "HAS_REFERRED_YOU": "приглашает вас для торговли на самой функциональной открытой бирже в мире.",
       "INVITE_FRIENDS": "Пригласить друзей",
       "LIGHTNING_FAST_DISCRIPTION": "Самый простой и мощный опыт в мире DeFi.",
@@ -1152,6 +1155,8 @@
       "EXCHANGE_RATE": "Обменный курс",
       "EXPECTED_DEPOSIT_AMOUNT": "Ожидаемая сумма депозита",
       "FREE_GAS": "Бесплатно!",
+      "FREE_INSTANT_DEPOSIT_MAX": "Пополните счет на сумму менее {MAX_AMOUNT} USD для бесплатного и мгновенного внесения средств.",
+      "FREE_INSTANT_DEPOSIT_MIN": "Пополните счет на сумму от {MIN_AMOUNT} USD для бесплатного и мгновенного внесения средств.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "Вам доступно несколько попыток внесения средств без комиссии за газ: {NUM_DEPOSITS}.",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "Вам доступна {NUM_DEPOSITS} попытка внесения средств без комиссии за газ.",
       "GASLESS_DEPOSITS_RESET": "Лимит на количество попыток внесения средств без комиссии за газ сбрасывается каждые три дня.",
