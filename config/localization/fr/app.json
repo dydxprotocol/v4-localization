@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "Gagnez jusqu'à {WEEKLY_AMOUNT} $ par semaine. Apprenez-en davantage {HERE_LINK}.",
+      "AFFILIATE_BOOSTER_LIVE": "Le programme Booster des affiliés est disponible ; des récompenses hebdomadaires attendent les affiliés éligibles.",
       "AFFILIATE_CHART_EMPTY_STATE": "Aucune donnée disponible",
       "AFFILIATE_CONNECT_WALLET": "Veuillez connecter votre portefeuille pour vérifier votre classement",
       "AFFILIATE_EARNINGS": "Gains d'affiliation",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "Profitez du staking et d'autres produits pour gagner des USDC.",
       "EARN_USDC": "Gagnez des USDC",
       "FEES_REFERRED": "Frais référés",
+      "GET_YOUR_AFFILIATE_LINK": "Obtenez votre lien d'affiliation",
       "HAS_REFERRED_YOU": "vous a référé pour commencer à trader sur la plateforme d'échange la plus puissante au monde.",
       "INVITE_FRIENDS": "Inviter des amis",
       "LIGHTNING_FAST_DISCRIPTION": "L'expérience la plus transparente et la plus puissante de DeFi.",
@@ -1152,6 +1155,8 @@
       "EXCHANGE_RATE": "Taux de change",
       "EXPECTED_DEPOSIT_AMOUNT": "Montant du dépôt attendu",
       "FREE_GAS": "Gratuit !",
+      "FREE_INSTANT_DEPOSIT_MAX": "Déposez moins de {MAX_AMOUNT} $ pour des dépôts instantanés gratuits.",
+      "FREE_INSTANT_DEPOSIT_MIN": "Déposez {MIN_AMOUNT} $ ou plus pour des dépôts instantanés gratuits.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "Vous avez {NUM_DEPOSITS} dépôts sans gaz disponibles.",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "Vous avez {NUM_DEPOSITS} dépôt sans gaz disponible.",
       "GASLESS_DEPOSITS_RESET": "Votre limite de dépôt sans gaz est réinitialisée tous les trois jours.",

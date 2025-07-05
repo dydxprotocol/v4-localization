@@ -1,5 +1,9 @@
 {
   "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "Le programme Booster est désormais disponible",
+      "BODY": "Les affiliés peuvent maintenant participer à un nouveau programme Booster de quatre semaines offrant des récompenses hebdomadaires en fonction des nouveaux utilisateurs parrainés. Vérifiez votre éligibilité et découvrez comment fonctionne le programme {HERE_LINK}."
+    },
     "BLOCK_REWARD": {
       "TITLE": "Récompense gagnée",
       "BODY": "Vous avez gagné {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} récompenses de trading."
