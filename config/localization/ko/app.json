@@ -782,6 +782,8 @@
       }
     },
     "AFFILIATES": {
+      "AFFILIATE_BOOSTER_PRIMARY_BODY": "주당 최대 {WEEKLY_AMOUNT}달러의 수익을 올리세요. {HERE_LINK}에서 자세히 알아보세요.",
+      "AFFILIATE_BOOSTER_LIVE": "현재 진행중인 제휴 부스터 프로그램은 적격 제휴사에 매주 보상을 제공합니다.",
       "AFFILIATE_CHART_EMPTY_STATE": "사용 가능한 데이터가 없습니다",
       "AFFILIATE_CONNECT_WALLET": "지갑을 연결하여 순위를 확인하세요",
       "AFFILIATE_EARNINGS": "제휴 수익",
@@ -814,6 +816,7 @@
       "EARN_USDC_DISCRIPTION": "스테이킹 및 기타 제품을 활용하여 USDC를 획득하세요.",
       "EARN_USDC": "USDC 적립",
       "FEES_REFERRED": "참조된 수수료",
+      "GET_YOUR_AFFILIATE_LINK": "제휴 링크를 받으세요",
       "HAS_REFERRED_YOU": "귀하를 세계에서 가장 강력한 공개 거래소에서 거래하도록 추천했습니다.",
       "INVITE_FRIENDS": "친구 초대",
       "LIGHTNING_FAST_DISCRIPTION": "DeFi에서 가장 원활하고 강력한 경험.",
@@ -1152,6 +1155,8 @@
       "EXCHANGE_RATE": "거래소 비율",
       "EXPECTED_DEPOSIT_AMOUNT": "예상 입금 금액",
       "FREE_GAS": "무료!",
+      "FREE_INSTANT_DEPOSIT_MAX": "{MAX_AMOUNT}달러 미만 입금 시, 즉시 무료 입금 혜택을 제공합니다.",
+      "FREE_INSTANT_DEPOSIT_MIN": "{MIN_AMOUNT}달러 이상 입금하고, 즉시 무료 입금 혜택을 누려보세요.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "{NUM_DEPOSITS}의 가스 수수료 면제 입금을 할 수 있습니다.",
       "GASLESS_DEPOSITS_DESCRIPTION_SINGULAR": "{NUM_DEPOSITS}의 가스 수수료 면제 입금을 할 수 있습니다.",
       "GASLESS_DEPOSITS_RESET": "가스 수수료 면제 입금 한도는 3일마다 초기화됩니다.",
