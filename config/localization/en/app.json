@@ -2431,6 +2431,7 @@
       "MARKET_LAUNCH_DETAILS_3": "Select the market you'd like to launch and add {DEPOSIT_AMOUNT} into {MEGAVAULT_LINK} for at least {PAST_DAYS} days. Added funds have earned an estimated {APR_PERCENTAGE} APR.",
       "MARKET_LAUNCH_DETAILS_4": "Add {DEPOSIT_AMOUNT} into {MEGAVAULT_LINK} to instantly launch a market. Your funds will be locked for an estimated {NUM_DAYS} days. MegaVault has an estimated {APR_PERCENTAGE} APR.",
       "MARKET_LAUNCHED": "Market Launched!",
+      "MARKET_LIVE": "{MARKET} is now live with up to {LEVERAGE}x leverage",
       "MARKET_NOW_LIVE_TRADE": "{MARKET} is now live, start trading.",
       "MARKET_TO_LAUNCH": "Market to Launch",
       "MESSAGE_DETAILS": "Message details",
@@ -2464,7 +2465,8 @@
       "TIME_UNTIL_LIVE": "Time Until Live",
       "TRADE_INSTANTLY": "Trade Instantly",
       "YOUR_FUNDS_WILL_EARN_EST": "Your funds will earn an estimated {APR_PERCENTAGE}",
-      "VIEW_PROPOSAL": "View proposal"
+      "VIEW_PROPOSAL": "View proposal",
+      "VIEW_MARKET": "View market"
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
