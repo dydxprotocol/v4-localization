@@ -84,6 +84,10 @@
       "TITLE": "Position Closed",
       "BODY": "Your position on {MARKET} has been closed."
     },
+    "PUMP_COMPETITION": {
+      "TITLE": "$10K in Rewards for PUMP Traders",
+      "BODY": "Live on dYdX with up to 5x leverage. Limited-time rewards."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Deposit Succeeded",
       "BODY": "Your deposit of {AMOUNT} {ASSET} has been confirmed."
