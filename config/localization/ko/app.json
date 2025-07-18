@@ -1539,6 +1539,7 @@
       "FUNDING_PAYMENTS_EMPTY_STATE": "과거 펀딩 지불 내역이 없습니다.",
       "FUNDING_PAYMENTS_SHORT": "펀딩",
       "FUNDING_PAYMENTS": "펀딩 지불",
+      "FUNDING_PAYMENTS_DESCRIPTION": "받은 펀딩 지불 목록",
       "FUNDING_RATE_1H_SHORT": "1시간 펀딩",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 펀딩",
       "FUNDING_RATE": "예상 1시간 펀딩",
