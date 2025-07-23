@@ -1539,6 +1539,7 @@
       "FUNDING_PAYMENTS_EMPTY_STATE": "您没有资金支付记录。",
       "FUNDING_PAYMENTS_SHORT": "资金费率",
       "FUNDING_PAYMENTS": "资金支付",
+      "FUNDING_PAYMENTS_DESCRIPTION": "收到的资金支付列表",
       "FUNDING_RATE_1H_SHORT": " 1小时资金费率",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} 提供资金",
       "FUNDING_RATE": "预估 1 小时资金费率",
@@ -1737,7 +1738,7 @@
       "VOLUME_24H": "24 小时交易量",
       "VOLUME": "交易量",
       "WANT_TO_AVOID_LIQUIDATION": "想避免强平？",
-      "YOUR_MARKET_POSITION": "您的位{MARKET}置",
+      "YOUR_MARKET_POSITION": "您的{MARKET}位置",
       "YOUR_POSITION_WAS_LIQUIDATED": "您的头寸已清算。"
     },
     "TRADING_VIEW": {
@@ -1895,7 +1896,7 @@
       "CHAIN_DISRUPTION_DETECTED": "检测到潜在的链中断",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX 链可能出现中断。请检查状态页面并刷新。 如果发生链中断，交易和转账将暂时禁用。您的资金是安全的。",
       "CLICK_TO_VIEW": "单击查看",
-      "CLOSE_MARKET_POSITIONS": "平{MARKET}仓",
+      "CLOSE_MARKET_POSITIONS": "平仓{MARKET}",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快平仓您的未平{MARKET}仓。 如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
       "COMPLIANCE_ALERT": "合规警告",
       "COMPLIANCE_WARNING": "合规警告",
