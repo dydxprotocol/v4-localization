@@ -598,7 +598,7 @@
       },
       "INJ": {
         "PRIMARY": "INJ est le jeton natif du réseau de la blockchain Injective.",
-        "SECONDARY": "Injective est une blockchain conçue pour la finance. Il s'agit d'une blockchain ouverte et interopérable de couche une qui alimente les applications DeFi de nouvelle génération, y compris les échanges décentralisés au comptant et de produits dérivés, les marchés de prédiction, les protocoles de prêt et bien plus encore."
+        "SECONDARY": "Injective est une blockchain conçue pour la finance. Il s'agit d'une blockchain ouverte et interopérable de couche un qui alimente les applications DeFi de nouvelle génération, y compris les échanges décentralisés au comptant et de produits dérivés, les marchés de prédiction, les protocoles de prêt et bien plus encore."
       },
       "JUP": {
         "PRIMARY": "Jupiter est un agrégateur principal DEX basé sur Solana",
@@ -1166,7 +1166,7 @@
       "HELD": "conservé",
       "LOWEST_FEE_DEPOSITS": "Les dépôts USDC de {LOWEST_FEE_TOKENS_TOOLTIP} ont les frais les plus bas. D'autres dépôts peuvent avoir des frais supplémentaires de tiers.",
       "MAX_SLIPPAGE": "Effet de slippage maximum",
-      "MINIMUM_DEPOSIT_AMOUNT": "Montant du dépôt minimum",
+      "MINIMUM_DEPOSIT_AMOUNT": "Montant du dépôt minimum et",
       "MINIMUM_DEPOSIT_MET": "Super ! Votre dépôt répond au minimum de dépôt sans gaz de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX couvrira les frais de gaz pour ce dépôt.",
       "MINIMUM_DEPOSIT_UNMET": "Déposez au moins {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} et dYdX paiera les frais de gaz pour ce dépôt !",
       "ONLY_SEND_ON_NOBLE": "Envoyez des fonds uniquement en utilisant Noble Network",
@@ -1539,6 +1539,7 @@
       "FUNDING_PAYMENTS_EMPTY_STATE": "Vous n'avez aucun versement de financement antérieur.",
       "FUNDING_PAYMENTS_SHORT": "Financement",
       "FUNDING_PAYMENTS": "Versements de financement",
+      "FUNDING_PAYMENTS_DESCRIPTION": "Liste des paiements de financement reçus",
       "FUNDING_RATE_1H_SHORT": "Financement 1 h",
       "FUNDING_RATE_DURATION_SHORT": "{DURATION} Financement",
       "FUNDING_RATE": "Financement estimé de 1 h",
@@ -1832,7 +1833,7 @@
       "ENTER_AMOUNT_TO_DEPOSIT": "Entrez le montant à ajouter",
       "ENTER_AMOUNT_TO_WITHDRAW": "Entrez le montant à supprimer",
       "EST_APR_PLAIN": "Est. TAEG",
-      "EST_SLIPPAGE": "Slippage estimé   «",
+      "EST_SLIPPAGE": "Slippage estimé",
       "ESTIMATED_AMOUNT_RECEIVED": "Montant estimé reçu  $",
       "ESTIMATED_SLIPPAGE": "Slippage estimé  «",
       "HOLDINGS": "Détentions",
@@ -2772,8 +2773,8 @@
       "STOP_LOSS_TRIGGER_MUST_BELOW_INDEX_PRICE": "Prix de déclenchement du stop loss non valide",
       "TAKE_PROFIT_LIMIT_MUST_ABOVE_TRIGGER_PRICE": "Prix limite Take Profit non valide",
       "TAKE_PROFIT_LIMIT_MUST_BELOW_TRIGGER_PRICE": "Prix limite Take Profit non valide",
-      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Prix de déclenchement du Take Profit non valide sur",
-      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Prix de déclenchement du Take Profit non valide sur"
+      "TAKE_PROFIT_TRIGGER_MUST_ABOVE_INDEX_PRICE": "Prix de déclenchement du Take Profit non valide",
+      "TAKE_PROFIT_TRIGGER_MUST_BELOW_INDEX_PRICE": "Prix de déclenchement du Take Profit non valide"
     },
     "API_STATUS": {
       "INDEXER_ALERT": "Alerte de l'indexeur",
