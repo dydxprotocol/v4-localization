@@ -1182,8 +1182,8 @@
       "DEPOSIT_ACKNOWLEDGEMENT": "I agree to the {TERMS_LINK} and {POLICY_LINK}, including that I accept the risks associated with these products and services and will not use them from the United States or any other restricted jurisdiction. {VIEW_MORE_LINK}",
       "QR_DEPOSIT": "QR Deposit",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Your funds are now available for trading.",
-      "YOUR_FUNDS_AVAILABLE_SOON": "Your funds will be available soon, and you may safely close this window.",
-      "YOU_MAY_CLOSE_WINDOW": "You may safely close this window.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "Your funds will be available soon, and you may safely close this popup. Please leave this browser window open until the funds land in your account.",
+      "YOU_MAY_CLOSE_WINDOW": "It may take up to 25min for your deposit to arrive in your account. You may safely close this popup. Please leave this browser window open until the funds land in your account.",
       "YOUR_DEPOSIT": "Your deposit"
     },
     "WITHDRAW_MODAL": {
