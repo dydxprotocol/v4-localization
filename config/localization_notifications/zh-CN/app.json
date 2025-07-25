@@ -26,7 +26,7 @@
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "头寸已结算",
-      "BODY": "{MARKET}已平仓。您的{SIDE}头寸{MARKET}已达到最终结算。"
+      "BODY": "{MARKET}已平仓。您在{SIDE}上的{MARKET}头寸已达到最终结算。"
     },
     "FOK_DEPRECATION": {
       "TITLE": "全部成交否则取消(FOK)订单已弃用",
@@ -77,12 +77,16 @@
       "BODY": "您的{SIDE} {AMOUNT} {MARKET}订单已取消，{TOTAL_FILLED}部分成交。"
     },
     "LIQUIDATION": {
-      "TITLE": "头寸已清算",
-      "BODY": "您的{MARKET}仓位{SIDE}已清算。"
+      "TITLE": "头寸清算",
+      "BODY": "您在{MARKET}上的{SIDE}头寸已清算。"
     },
     "POSITION_CLOSED": {
       "TITLE": "平仓",
       "BODY": "您的仓位{MARKET}已平仓。"
+    },
+    "PUMP_COMPETITION": {
+      "TITLE": "PUMP交易者可获得$10K奖励",
+      "BODY": "已在dYdX上线，最高可达5倍杠杆。限时奖励。"
     },
     "DEPOSIT_SUCCESS": {
       "TITLE": "存款成功",
