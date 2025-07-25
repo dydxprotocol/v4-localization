@@ -30,7 +30,7 @@
   "TRADE": {
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Effet de levier du compte",
-      "BODY": "Effet de levier de votre compte en fonction de toutes vos positions ouvertes. Parce que votre compte est à marge croisée, chaque position ouverte a son propre effet de levier tout en affectant également l'effet de levier global de votre compte."
+      "BODY": "Effet de levier de votre compte sur la base de toutes vos positions ouvertes. Parce que votre compte est à marge croisée, chaque position ouverte a son propre effet de levier tout en affectant également l'effet de levier global de votre compte."
     },
     "AVAILABLE_BALANCE": {
       "TITLE": "Solde disponible",
@@ -50,10 +50,10 @@
     },
     "BUYING_POWER": {
       "TITLE": "Pouvoir d'achat",
-      "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximal disponible sur la bourse, et ne changera pas en fonction du marché que vous avez sélectionné."
+      "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximal disponible sur l'échange et ne changera pas en fonction du marché que vous avez sélectionné."
     },
     "CROSS_FREE_COLLATERAL": {
-      "TITLE": "Collatéral gratuit croisé",
+      "TITLE": "Collatéral gratuit croisé  $",
       "BODY": "Montant de collatéral disponible pour trader ou retirer de votre compte de marge croisée."
     },
     "CROSS_MARGIN_USAGE": {
@@ -73,7 +73,7 @@
       "BODY": "Valeur totale de votre compte."
     },
     "EXPECTED_PRICE": {
-      "TITLE": "Prix attendu  « Prix",
+      "TITLE": "Prix attendu",
       "BODY": "Prix d'exécution attendu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre ordre ne soit traité par le réseau."
     },
     "FEE": {
@@ -85,7 +85,7 @@
       "BODY": "Les ordres Fill or Kill doivent être complètement remplis lors de l'exécution ou ils seront automatiquement annulés."
     },
     "FREE_COLLATERAL": {
-      "TITLE": "Collatéral gratuit  « Coll",
+      "TITLE": "Collatéral gratuit",
       "BODY": "Le montant maximum que vous pouvez retirer. Lorsque le collatéral disponible est égal à 0 ou est négatif, votre compte utilise un effet de levier maximum."
     },
     "GOOD_TIL": {
@@ -106,11 +106,11 @@
     },
     "INITIAL_STOP": {
       "TITLE": "Stop initial",
-      "BODY": "Prix stop initial basé sur votre pourcentage de trailing."
+      "BODY": "Prix stop price initial basé sur votre pourcentage de trailing."
     },
     "LEVERAGE": {
       "TITLE": "Effet de levier",
-      "BODY": "L'effet de levier change le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
+      "BODY": "L'effet de levier change le multiplicateur de vos gains ou pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
     },
     "LIMIT_CLOSE": {
       "TITLE": "Fermer avec limite",
@@ -133,19 +133,19 @@
       "BODY": "Différence en pourcentage entre votre prix de déclenchement et le prix limite."
     },
     "LIQUIDATION_PRICE": {
-      "TITLE": "Prix de liquidation des prix",
+      "TITLE": "Prix de liquidation",
       "BODY": "Si le prix oracle de {SYMBOL} est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDATION_PRICE_SHORT": {
-      "TITLE": "Prix de liquidation des prix",
+      "TITLE": "Prix de liquidation",
       "BODY": "Si le prix oracle de {SYMBOL} augmente au-dessus du prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDATION_PRICE_LONG": {
-      "TITLE": "Prix de liquidation des prix",
+      "TITLE": "Prix de liquidation",
       "BODY": "Si le prix oracle de {SYMBOL} est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDATION_PRICE_GENERAL": {
-      "TITLE": "Prix de liquidation des prix",
+      "TITLE": "Prix de liquidation",
       "BODY": "Si le prix oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
     },
     "LIQUIDITY": {
@@ -157,7 +157,7 @@
       "BODY": "La fraction de marge de maintenance définit le moment où les traders sont liquidés. Elle est calculée comme la valeur notionnelle de la position d'un trader divisée par le capital. Si la fraction de marge d'un trader dépasse la fraction de marge de maintien, sa position sera automatiquement clôturée (liquidée) et le moteur de liquidation tentera de laisser les fonds sur des comptes de valeur positive dans la mesure du possible après avoir payé la pénalité de liquidation maximale de 1,5 %."
     },
     "MAKER_FEE": {
-      "TITLE": "Frais du Maker",
+      "TITLE": "Frais Maker",
       "BODY": "Les ordres à cours limité qui ajoutent de la liquidité au carnet et qui sont exécutés par une autre partie seront exécutés en tant qu'ordres Maker. Les ordres Maker ont des frais inférieurs à ceux des ordres Taker."
     },
     "MARGIN_USAGE": {
@@ -174,7 +174,7 @@
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Effet de levier maximum",
-      "BODY": "Effet de levier maximum autorisé pour ce marché. Pour limiter le risque, l'effet de levier maximal diminue de manière linéaire avec la taille de la position après un certain seuil."
+      "BODY": "Effet de levier maximum autorisé pour ce marché. Pour limiter le risque, l'effet de levier maximal diminue linéairement avec la taille de la position après un certain seuil."
     },
     "MAXIMUM_REWARDS": {
       "TITLE": "Récompenses estimées",
@@ -218,7 +218,7 @@
     },
     "POSITION_LEVERAGE": {
       "TITLE": "Effet de levier de la position",
-      "BODY": "L'effet de levier change le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
+      "BODY": "L'effet de levier change le multiplicateur de vos gains ou pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
@@ -273,7 +273,7 @@
       "BODY": "Le prix Stop-Loss est tombé en dessous du prix de liquidation. Cela peut se produire en raison de changements de financement, du retrait de fonds ou de l'évolution des exigences de marge."
     },
     "TAKER_FEE": {
-      "TITLE": "Frais Taker  $",
+      "TITLE": "Frais Taker",
       "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
     },
     "TAKE_PROFIT": {
@@ -294,11 +294,11 @@
     },
     "TRAILING_PERCENT": {
       "TITLE": "Pourcentage de Trailing",
-      "BODY": "Le pourcentage de Trailing définit le pourcentage de votre prix stop qui « suivra » le prix de l'oracle. Chaque fois que le prix oracle évolue en faveur de votre position, le stop price de votre ordre sera mis à jour en fonction de votre pourcentage de trailing indiqué."
+      "BODY": "Le pourcentage de trailing définit le pourcentage de votre prix stop qui « suivra » le prix de l'oracle. Chaque fois que le prix oracle évolue en faveur de votre position, le stop price de votre ordre sera mis à jour en fonction de votre pourcentage de trailing indiqué."
     },
     "TRIGGER_PRICE": {
       "TITLE": "Prix de déclenchement",
-      "BODY": "Lorsque le prix de l'oracle de ce marché croise votre prix de déclenchement, votre ordre Stop\/Take Profit sera soit converti en ordre de limite soit exécuté en tant qu'ordre de marché."
+      "BODY": "Lorsque le prix de déclenchement de ce marché croise votre prix de déclenchement, votre ordre Stop\/Take Profit sera soit converti en ordre de limite soit exécuté en tant qu'ordre de marché."
     },
     "UNREALIZED_PNL": {
       "TITLE": "Perte\/Bénéfice non réalisé",
@@ -334,7 +334,7 @@
       "BODY": "Les dépôts USDC sur {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
-      "TITLE": "Montant du dépôt minimum et",
+      "TITLE": "Montant du dépôt minimum",
       "BODY": "Y compris tout slippage pouvant survenir en raison de changements de liquidités pendant la durée du bridge"
     },
     "SWAP": {
@@ -344,11 +344,11 @@
   },
   "TRANSFER_AND_DEPOSIT": {
     "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
-      "TITLE": "Frais du réseau  $",
+      "TITLE": "Frais du réseau",
       "BODY": "Il s'agit du coût de gaz des transactions de dépôt et de définition des allocations, payé aux mineurs d'Ethereum. Vous devez définir une allocation une seule fois par actif que vous déposez."
     },
     "DEPOSIT_NETWORK_FEE": {
-      "TITLE": "Frais du réseau  $",
+      "TITLE": "Frais du réseau",
       "BODY": "Il s'agit du coût de gaz de la transaction de dépôt, payé aux mineurs d'Ethereum."
     }
   },
@@ -360,7 +360,7 @@
   },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
-      "TITLE": "Frais de retrait rapide  $",
+      "TITLE": "Frais de retrait rapide",
       "BODY": "Les retraits rapides sont envoyés immédiatement et dYdX couvrira les frais de gaz en échange de frais. Pour les retraits sans frais, veuillez utiliser un retrait lent (vous payez vos propres frais de gaz et devrez attendre la confirmation de la couche 2)."
     },
     "GAS_FEES": {
@@ -376,7 +376,7 @@
       "BODY": "Les frais de transaction sont payés à d'autres protocoles dans le cadre d'un ordre afin de compléter, de transférer et d'échanger le bridging requis pour ce retrait."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
-      "TITLE": "Montant minimum reçu  $",
+      "TITLE": "Montant minimum reçu",
       "BODY": "Y compris tout slippage pouvant survenir en raison de changements de liquidités pendant la durée du bridge"
     },
     "WITHDRAW_TYPES": {

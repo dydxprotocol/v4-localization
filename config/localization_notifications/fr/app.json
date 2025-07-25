@@ -84,6 +84,10 @@
       "TITLE": "Position fermée",
       "BODY": "Votre position sur {MARKET} a été fermée."
     },
+    "PUMP_COMPETITION": {
+      "TITLE": "10 000 $ de récompenses pour les traders de PUMP",
+      "BODY": "En direct sur dYdX avec un effet de levier allant jusqu'à 5x. Récompenses limitées dans le temps."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Dépôt réussi",
       "BODY": "Votre dépôt de {AMOUNT} {ASSET} a été confirmé."
@@ -134,7 +138,7 @@
     },
     "SURGE_BOOSTED_MARKETS": {
       "TITLE": "Surge S{SEASON_NUMBER} : concourez pour 2 millions de dollars",
-      "BODY": "La saison {SEASON_NUMBER}aura des points de trading renforcés sur les marchés en vogue ! {MARKETS_LIST} Les marchés commencent avec des récompenses multipliées par 2 !"
+      "BODY": "La saison {SEASON_NUMBER}aura des points renforcés pour le trading sur les marchés en vogue ! {MARKETS_LIST} Les marchés commencent avec des récompenses multipliées par 2 !"
     },
     "SURGE_PAYOUT": {
       "TITLE": "Surge S{SEASON_NUMBER} : vous avez gagné {DYDX_REWARDS} dYdX",
@@ -222,16 +226,16 @@
       "BODY": "Il existe actuellement une proposition en direct de liquidation du marché {MARKET}. Si elle est adoptée, le marché {MARKET} entrera en règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN": {
-      "TITLE": "{MARKET_1} et les marchés ont diminué {MARKET_2} $",
+      "TITLE": "{MARKET_1} et {MARKET_2}les marchés ont diminué",
       "BODY": "Le {DATE}, les {MARKET_1}marchés et {MARKET_2}ont fait l'objet d'un règlement final. Les positions existantes ont été clôturées et les ordres ouverts ont maintenant été annulés. Vous trouverez plus d'informations sur le règlement final {HERE_LINK}."
     },
     "TWO_MARKET_WIND_DOWN_PROPOSAL": {
       "TITLE": "Proposition en direct pour la liquidation {MARKET_1}et les {MARKET_2}marchés",
-      "BODY": "Il existe actuellement une proposition en direct pour réduire les marchés {MARKET_1}et  {MARKET_2}. Si elles sont adoptées, les {MARKET_2}marchés {MARKET_1}et entreront en règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+      "BODY": "Il existe actuellement une proposition en direct pour réduire les marchés {MARKET_1}et  {MARKET_2}. Si ils sont adoptés, les {MARKET_2}marchés {MARKET_1}et entreront en règlement final le {DATE}. Les positions existantes seront clôturées et les ordres ouverts seront annulés. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "MARKET_PARAM_UPDATE": {
       "TITLE": "Proposition en direct pour la mise à jour des paramètres de {MARKET}",
-      "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du marché {MARKET}. Si elle est adoptée, le marché aura Coinbase Pro {MARKET} comme seule source d'oracle. {MARKET}Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
+      "BODY": "Une proposition est actuellement en cours pour mettre à jour les paramètres du marché {MARKET}. Si elle est adoptée, le {MARKET}marché aura Coinbase Pro  {MARKET}comme seule source d'oracle. Vous trouverez plus d'informations sur la proposition {HERE_LINK}."
     },
     "TRUMPWIN_MARKET_LAUNCH": {
       "TITLE": "Trade l'élection présidentielle américaine !",
@@ -251,7 +255,7 @@
     },
     "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
       "TITLE": "Mise à niveau des marchés pour croiser la marge",
-      "BODY": "Une proposition de gouvernance visant à passer {MARKETS}de la marge isolée à la marge croisée est actuellement en cours, ce qui peut avoir un impact sur les positions ouvertes sur ces marchés et augmenter le risque de liquidation. Il est fortement conseillé aux traders de faire preuve de prudence et d'envisager de fermer leurs positions si nécessaire."
+      "BODY": "Une proposition de gouvernance pour passer {MARKETS}de la marge isolée à la marge croisée est actuellement en cours, ce qui peut avoir un impact sur les positions ouvertes sur ces marchés et augmenter le risque de liquidation. Il est fortement conseillé aux traders de faire preuve de prudence et d'envisager de fermer leurs positions si nécessaire."
     }
   }
 }
