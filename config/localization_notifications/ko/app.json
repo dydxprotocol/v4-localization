@@ -84,6 +84,10 @@
       "TITLE": "포지션 종료됨",
       "BODY": "{MARKET} 포지션이 종료되었습니다."
     },
+    "PUMP_COMPETITION": {
+      "TITLE": "PUMP 트레이더에게 1만 달러 상당의 보상",
+      "BODY": "dYdX에서 최대 5배 레버리지로 진행합니다. 한정 기간 보상."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "입금 완료됨",
       "BODY": "{AMOUNT} {ASSET}의 입금이 확인되었습니다."
