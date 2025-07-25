@@ -2431,6 +2431,7 @@
       "MARKET_LAUNCH_DETAILS_3": "출시하고 최소 {PAST_DAYS}일 동안 {MEGAVAULT_LINK}에 {DEPOSIT_AMOUNT}을(를) 추가할 시장을 선택하세요. 추가된 자금은 예상 {APR_PERCENTAGE}APR을 획득했습니다.",
       "MARKET_LAUNCH_DETAILS_4": "{MEGAVAULT_LINK}에 {DEPOSIT_AMOUNT}을(를) 추가하여 즉시 시장을 시작하세요. 자금은 예상 {NUM_DAYS}일 동안 잠깁니다. MegaVault의 예상 {APR_PERCENTAGE}APR이 있습니다.",
       "MARKET_LAUNCHED": "마켓 출시!",
+      "MARKET_LIVE": "{MARKET}은(는) 현재 최대 {LEVERAGE}배 레버리지로 진행됩니다",
       "MARKET_NOW_LIVE_TRADE": "{MARKET} 시장이 현재 라이브입니다. 거래를 시작하세요.",
       "MARKET_TO_LAUNCH": "출시 시장",
       "MESSAGE_DETAILS": "메시지 세부 정보",
@@ -2464,7 +2465,8 @@
       "TIME_UNTIL_LIVE": "라이브까지 남은 시간",
       "TRADE_INSTANTLY": "즉시 거래",
       "YOUR_FUNDS_WILL_EARN_EST": "귀하의 자금 예상 수익은 {APR_PERCENTAGE}입니다",
-      "VIEW_PROPOSAL": "제안 보기"
+      "VIEW_PROPOSAL": "제안 보기",
+      "VIEW_MARKET": "시장 보기"
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 {DATE}까지 자금을 인출할 수 있습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
