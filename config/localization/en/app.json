@@ -853,7 +853,12 @@
       "YOUR_STATS": "Your Stats",
       "YOUR_TIER": "You're in tier {TIER}",
       "YOURE_A_VIP": "You're a {VIP}",
-      "YOUVE_TRADED": "You've traded ${AMOUNT_USD}"
+      "YOUVE_TRADED": "You've traded ${AMOUNT_USD}",
+      "REFERRAL_CODE_UPDATE_WARNING": "Updating your referral URL means your old link will be unusable.",
+      "REFERRAL_CODE_TAKEN_ERROR": "This code is taken, try another one.",
+      "REFERRAL_CODE_MIN_LENGTH_ERROR": "Code must be at least {MIN_CHARACTERS} characters",
+      "REFERRAL_CODE_MAX_LENGTH_ERROR": "Code must be {MAX_CHARACTERS} characters or less",
+      "REFERRAL_CODE_INVALID_CHARACTERS_ERROR": "Code can only contain letters and numbers"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API Documentation",
