@@ -140,7 +140,7 @@
       "TITLE": "Surge S{SEASON_NUMBER}: Compete for $2M",
       "BODY": "Season {SEASON_NUMBER} will have boosted points for trading in hot markets! {MARKETS_LIST} markets to kick off with 2x rewards!"
     },
-    "SURGE_NO_BOOSTED_MARKETS": {
+    "SURGE_BASIC_SEASON": {
       "TITLE": "Surge S{SEASON_NUMBER}: Compete for ${AMONUT_MILLIONS}M",
       "BODY": "Season {SEASON_NUMBER} will distribute ${AMOUNT_MILLIONS}M to traders based on their position on the leaderboard. Trade more to win more!"
     },
