@@ -1821,6 +1821,18 @@
       "YOUR_LEAGUE": "Your League",
       "YOURE_IN": "You're in {LEAGUE}"
     },
+    "TURNKEY_ONBOARD": {
+      "SIGN_IN_TITLE": "Sign in",
+      "SIGN_IN_DESCRIPTION": "To get started, sign in with your social accounts, email or connect your wallet.",
+      "SIGN_IN_PASSKEY": "Sign in with Passkey",
+      "SIGN_IN_WALLET": "Sign in with Wallet",
+      "SIGN_IN_DESKTOP": "Sign in with Desktop",
+      "SUBMIT": "Submit",
+      "EMAIL_PLACEHOLDER": "Enter your email",
+      "CHECK_EMAIL_TITLE": "Check your Email",
+      "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
+      "RESEND": "Resend"
+    },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Acknowledge High Slippage",
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "Agree to MegaVault Terms",
