@@ -853,7 +853,12 @@
       "YOUR_STATS": "귀하의 통계 ",
       "YOUR_TIER": "귀하는 {TIER} 등급에 속합니다",
       "YOURE_A_VIP": "귀하는 {VIP}입니다",
-      "YOUVE_TRADED": "${AMOUNT_USD}을(를) 거래했습니다."
+      "YOUVE_TRADED": "${AMOUNT_USD}을(를) 거래했습니다.",
+      "REFERRAL_CODE_UPDATE_WARNING": "추천 URL을 업데이트하면 이전 링크를 사용할 수 없게 됩니다.",
+      "REFERRAL_CODE_TAKEN_ERROR": "이 코드가 사용되었습니다. 다른 코드로 시도하세요.",
+      "REFERRAL_CODE_MIN_LENGTH_ERROR": "코드는 최소한 {MIN_CHARACTERS}자 이상이어야 합니다",
+      "REFERRAL_CODE_MAX_LENGTH_ERROR": "코드는 {MAX_CHARACTERS}자 이하여야 합니다",
+      "REFERRAL_CODE_INVALID_CHARACTERS_ERROR": "코드에는 문자와 숫자만 사용할 수 있습니다"
     },
     "HEADER": {
       "API_DOCUMENTATION": "API 문서",
@@ -1182,8 +1187,8 @@
       "DEPOSIT_ACKNOWLEDGEMENT": "본인은 이러한 제품 및 서비스와 관련된 위험을 수락하며 미국 또는 기타 제한된 관할권의 위험을 사용하지 않을 것임을 포함하여 {TERMS_LINK} 및 {POLICY_LINK}에 동의합니다. {VIEW_MORE_LINK}",
       "QR_DEPOSIT": "QR 입금",
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "이제 귀하의 자금을 거래에 사용할 수 있습니다.",
-      "YOUR_FUNDS_AVAILABLE_SOON": "귀하의 자금을 곧 사용할 수 있으므로 이 창을 안심하고 닫으셔도 됩니다.",
-      "YOU_MAY_CLOSE_WINDOW": "이 창을 안전하게 닫으셔도 됩니다.",
+      "YOUR_FUNDS_AVAILABLE_SOON": "귀하의 자금은 곧 제공될 예정이며, 이 팝업을 안전하게 종료할 수 있습니다. 자금이 귀하의 계정에 입금될 때까지 이 브라우저 창을 열어 두세요.",
+      "YOU_MAY_CLOSE_WINDOW": "입금이 계정에 도착하는 데 최대 25분이 걸릴 수 있습니다. 이 팝업을 안전하게 종료하세요. 자금이 귀하의 계정에 입금될 때까지 이 브라우저 창을 열어 두세요.",
       "YOUR_DEPOSIT": "입금"
     },
     "WITHDRAW_MODAL": {
