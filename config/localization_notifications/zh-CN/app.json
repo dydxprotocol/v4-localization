@@ -17,8 +17,8 @@
       "BODY": "dYdX链上的有条件订单已完全修改！现在比以往更可靠、直观且高效。查看更多详情 {TWITTER_LINK}。"
     },
     "DELEVERAGED": {
-      "TITLE": "持仓去杠杆",
-      "BODY": "您在{SIDE}上的{MARKET}头寸已去杠杆化。"
+      "TITLE": "头寸去杠杆化",
+      "BODY": "您在{MARKET}中的{SIDE}头寸已去杠杆化。"
     },
     "DISCOVERY_PROGRAM": {
       "TITLE": "30分钟内最高可赚200美元！",
@@ -26,7 +26,7 @@
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "头寸已结算",
-      "BODY": "{MARKET}已平仓。您在{SIDE}上的{MARKET}头寸已达到最终结算。"
+      "BODY": "{MARKET}已平仓。您在{MARKET}上的{SIDE}头寸已完成最终结算。"
     },
     "FOK_DEPRECATION": {
       "TITLE": "全部成交否则取消(FOK)订单已弃用",
@@ -53,8 +53,8 @@
       "BODY": "第{SEASON_NUMBER}季奖励 + {DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
-      "TITLE": "持仓抵消",
-      "BODY": "您在{MARKET}上的{SIDE}持仓用于抵消去杠杆化持仓。"
+      "TITLE": "头寸抵消",
+      "BODY": "您在{MARKET}上的{SIDE}头寸已用于抵消去杠杆化头寸。"
     },
     "ORDER_FILL": {
       "TITLE": "订单已成交",
@@ -77,12 +77,12 @@
       "BODY": "您的{SIDE} {AMOUNT} {MARKET}订单已取消，{TOTAL_FILLED}部分成交。"
     },
     "LIQUIDATION": {
-      "TITLE": "头寸清算",
-      "BODY": "您在{MARKET}上的{SIDE}头寸已清算。"
+      "TITLE": "头寸已清算",
+      "BODY": "您在{MARKET}中的{SIDE}头寸已被清算。"
     },
     "POSITION_CLOSED": {
-      "TITLE": "平仓",
-      "BODY": "您的仓位{MARKET}已平仓。"
+      "TITLE": "头寸已平仓",
+      "BODY": " 您在{MARKET}中的头寸已被平仓。"
     },
     "PUMP_COMPETITION": {
       "TITLE": "PUMP交易者可获得$10K奖励",
