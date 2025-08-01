@@ -28,7 +28,7 @@
       "AUTHENTICATE_WITH_FACE_ID": "Face IDでの認証",
       "AUTHENTICATE_WITH_TOUCH_ID": "Touch IDでの認証",
       "AUTHENTICATE_WITH_BIOMETRICS": "生体認証",
-      "AUTHENTICATE_TO_PROCEED": "dYdXアカウントにアクセスするには認証を行います",
+      "AUTHENTICATE_TO_PROCEED": "認証してdYdXアカウントにアクセス",
       "CANDLES": "ローソク足",
       "CONNECT_WALLET_TEXT": "ウォレットで正しい口座が選択されていることを確認してください。",
       "COUNTRY": "国",
@@ -70,7 +70,7 @@
       "NO_RESULTS": "結果なし",
       "OF": "{ITEM2}の{ITEM1}",
       "OK": "OK",
-      "PAY_GAS_WITH": "Gas（ガス）を支払う",
+      "PAY_GAS_WITH": "ガス代の支払い方法",
       "PLACEHOLDER_NO_POSITIONS": "オープンポジションはありません",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "ポジションを表示するには、サインインする必要があります",
       "PLACEHOLDER_NO_ORDERS": "オープンオーダーはありません",
@@ -138,7 +138,7 @@
       "TURKISH": "トルコ語"
     },
     "ONBOARDING": {
-      "AFFILIATE_NOTICE": "紹介プログラムはdYdX Trading, Inc.の裁量で変更されることがあります。",
+      "AFFILIATE_NOTICE": "紹介プログラムは、dYdX Trading, Incの判断により変更される場合があります。",
       "AFFILIATE_PROMPT": "アフィリエイトリンクをお持ちの場合は、タップしてください。",
       "AFFILIATE_REFERRAL_NOT_QUALIFIED": "紹介による割引が適用されるのは、新しい口座のみです。",
       "AFFILIATE_TEXT": "最先端のオープンプラットフォームでの取引に招待されています。",
@@ -183,26 +183,26 @@
     "DEPOSIT_MODAL": {
       "ENTER_DEPOSIT_AMOUNT": "入金額を入力",
       "CONFIRM_DEPOSIT": "これにより、ウォレットからスマートコントラクトに資金を移動します。",
-      "DEPOSIT_GAS_FREE": "この入金はGas（ガス）フリーです！",
+      "DEPOSIT_GAS_FREE": "これはガスレス入金です。",
       "DEPOSIT_CONNECT": "接続リクエストが送られます。",
       "DEPOSIT_OVERVIEW": "接続リクエストおよび2つのトランザクションリクエストを受け取ります。",
-      "DEPOSIT_AVAILABLE": "お客様の入金は、ガスレス最低入金基準の最低限度を満たしています{DOLLAR_AMOUNT}。この入金時のGas（ガス）手数料はdYdXが負担します。 お客様の限度額は3日ごとにリセットされます。{DEPOSIT_SUBJECT_TO_RULES}",
+      "DEPOSIT_AVAILABLE": "お客様の入金は、ガスレス入金額の最小限度額である{DOLLAR_AMOUNT}をクリアしています。dYdXはこの入金時のガス代を負担いたします。お客様の限度額は3日ごとにリセットされます。{DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "これらのルールの適用対象です",
-      "MINIMUM_DEPOSIT_MET": "すばらしい！お客様の入金は、ガスレス最低入金基準の最低限度を満たしています{GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}。この入金時のGas（ガス）手数料はdYdXが負担します。 {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "お客様の入金額はガスレス入金の最小限度額を下回っています。{GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}以上の入金は、dYdXではこの入金時のGas（ガス）手数料を負担します。 この入金を継続し、Gas（ガス）手数料を自己負担することもできます。 {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_ETH_DEPOSITS_NATIVE": "ガスレス入金はETHには利用できません。ETHを1inchまたはUniswapでWETHに変換し、WETHガスレス入金を使用するか、またはGas（ガス）コストを負担することでETHを直接入金できます。 {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_MET": "すばらしい！お客様の入金は、ガスレス入金額の最小限度額である{GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}をクリアしています。dYdXはこの入金時のガス代を負担いたします。{DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "お客様の入金額はガスレス入金の最小限度額を下回っています。入金額が{GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}を上回る場合、dYdXはこの入金時のガス代を負担いたします。この入金を継続し、ご自身でガス代を負担することもできます。{DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_ETH_DEPOSITS_NATIVE": "ガスレス入金はETHには利用できません。1inchまたはUniswapでETHをWETHに変換し、WETHのガスレス入金を使用するか、またはご自身でガス代を負担してETHを直接入金することもできます。{DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "ガスレス入金は利用できません。ガスレス入金の制限は3日ごとにリセットされます。{DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "ガスレス入金を使用",
       "1_REMAINING": "残存1",
       "PROVIDER": "プロバイダー"
     },
     "WITHDRAW_MODAL": {
-      "ENTER_WITHDRAW_AMOUNT": "出金金額を入力する",
+      "ENTER_WITHDRAW_AMOUNT": "出金額を入力",
       "WITHDRAW_DESCRIPTION": "以下のウォレットへの資金の引き上げを開始します。こちらに署名は必要ありません。",
       "WITHDRAW_ERROR": "出金エラー",
-      "WITHDRAW_IRREVERSIBLE": "出金の開始は取り消しできません。",
+      "WITHDRAW_IRREVERSIBLE": "いったん出金を開始するとキャンセルできません。",
       "WITHDRAW_LIMIT": "出金制限",
-      "WITHDRAW_TEXT": "dYdXがこの資産をウォレットに出金することを許可します。"
+      "WITHDRAW_TEXT": "dYdXがこの資金をウォレットに引き出すことを許可"
     },
     "PORTFOLIO": {
       "ESTIMATED_REWARDS": "推定",
@@ -218,8 +218,8 @@
       },
       "CANNOT_PLACE_TRADE": "取引の注文ができません",
       "CLOSED_STATUS": "クローズ済",
-      "ENTER_AMOUNT_TO_TRADE": "取引金額を入力する",
-      "ENTER_STOP_PRICE": "逆指値を入力する",
+      "ENTER_AMOUNT_TO_TRADE": "取引額を入力",
+      "ENTER_STOP_PRICE": "逆指値を入力",
       "LIQUIDATION": "清算",
       "LUNA_IMF_TITLE": "LUNA-USDの調整済み証拠金",
       "LUNA_IMF_TEXT": "当社はボラティリティーに基づいて、LUNA-USDの当初証拠金要件を一時的に100％に引き上げました。維持証拠金は5％のままです。",
@@ -232,7 +232,7 @@
       "ORDER_FILLED_DESC": "注文は正常に約定されました。",
       "ORDER_PENDING_DESC": "注文が送信されました。",
       "ORDER_PLACED_DESC": "注文が完了しました！",
-      "ORDER_POST_ONLY_WOULD_CROSS": "Post-only注文はオーダーブックを横断します。",
+      "ORDER_POST_ONLY_WOULD_CROSS": "ポストオンリー注文はオーダーブックをクロスします。",
       "ORDER_SELF_TRADE": "注文により自己取引が生じたことになります。",
       "ORDER_UNDERCOLLATERALIZED": "注文により担保不足が発生したことになります。",
       "PLACE_BUY": "購入",
@@ -282,7 +282,7 @@
       "RISK": "リスク",
       "SLIDE_TO_BUY": "ロングにスライド",
       "SLIDE_TO_SELL": "ショートにスライド",
-      "SLIDE_TO_CLOSE": "スライドしてクローズ",
+      "SLIDE_TO_CLOSE": "クローズにスライドする",
       "FROM_TO": "{TOKEN_FROM}から{TOKEN_TO}へ",
       "CLOSING_POSITION": "{TOKEN_FROM}ポジション",
       "PLACE_ANOTHER_TRADE": "他の取引をおこなう",
@@ -325,9 +325,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "クローズオンリーモード",
-      "CLOSE_ONLY_BODY": "お客様は、当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされている、あるいは当社の利用規約に違反する行為を行っているためブロックされています。アプリへのアクセスがブロックされる前に資金を出金するには、{DATE}までかかります。 次のステップを確認するには、Webインターフェースをご覧ください。 エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。",
+      "CLOSE_ONLY_BODY": "お客様は、当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされている、あるいは当社の利用規約に違反する行為を行っているためブロックされています。{DATE}まで資金を引き出すことができますが、それ以降はアプリへのアクセスがブロックされます。次のステップを確認するには、Webインターフェースをご覧ください。 エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。",
       "PERMANENTLY_BLOCKED_TITLE": "恒久的にブロックされています",
-      "PERMANENTLY_BLOCKED_BODY": "お客様は当社の利用規約に抵触する国や地域の居住者であるか、そうした国や地域で取引を行っているとみなされており、また以前は口座制限につながった状況を是正する機会が与えられていたため、永久にブロックされています。 エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。"
+      "PERMANENTLY_BLOCKED_BODY": "お客様は当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、以前にアカウント制限につながった状況を是正する機会が与えられているため、永久にブロックされています。エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。"
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "口座が制限されています",
@@ -379,16 +379,16 @@
       "INDEXER_ALERT": "インデクサーに関する警告",
       "INDEXER_DOWN": "インデクサーの現在のブロックの高さを取得することができません。",
       "INDEXER_HALTED": "インデクサーがブロック{HALTED_BLOCK}で停止しました。",
-      "INDEXER_TRAILING": "インデクサーは{TRAILING_BLOCKS}バリデータをブロック単位で追跡しています。大きな遅延が予想されます。",
+      "INDEXER_TRAILING": "インデクサーはバリデータを{TRAILING_BLOCKS}ブロック単位で追跡しています。大幅な遅延が予想されます。",
       "VALIDATOR_ALERT": "インデクサーに関する警告",
       "VALIDATOR_DOWN": "現在のブロックの高さを取得することができません。",
-      "VALIDATOR_HALTED": "バリデータはブロック{HALTED_BLOCK}で停止しました。",
+      "VALIDATOR_HALTED": "バリデータがブロック{HALTED_BLOCK}で停止しました。",
       "TRADING_NETWORK": "取引ネットワーク",
       "SWITCH_NETWORK": "取引ネットワークを切り替える",
       "CALCULATING": "計算中...",
       "NO_HASH": "トランザクションハッシュを取得できません。",
-      "NO_GAS_TITLE": "ウォレット残高がガス代をカバーするには不十分です",
-      "NO_GAS_BODY": "ウォレットを補充するには、まずdYdX口座に少額の入金を行ってください。",
+      "NO_GAS_TITLE": "ガス代を支払うのに十分なウォレット残高がありません",
+      "NO_GAS_BODY": "ウォレットに補充するには、まずdYdXアカウントに少額入金してください。",
       "THEME": "テーマ",
       "NOTIFICATIONS": "通知",
       "DISPLAY_IN_APP_NOTIFICATIONS": "アプリ内通知を表示",
@@ -443,10 +443,10 @@
       "CHOOSER_TITLE": "アプリログを送信"
     },
     "PREDICTION_MARKET": {
-      "PREDICTION_MARKETS": "予測「マーケット」",
+      "PREDICTION_MARKETS": "予測市場",
       "LEVERAGE_TRADE_US_ELECTION_SHORT": "米国の選挙におけるレバレッジ取引を活用",
-      "WITH_PREDICTION_MARKETS": "予測「マーケット」で",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測「マーケット」は、予測されたとおりイベントが発生した場合、1ドルで決済されます。 そうでない場合は、0ドルで決済されます。",
+      "WITH_PREDICTION_MARKETS": "予測市場で",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "予測市場は、予測されたとおりイベントが発生した場合、1ドルで決済されます。 そうでない場合は、0ドルで決済されます。",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"レバレッジ取引イベントの結果",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"政治、スポーツ、ポップカルチャーなど、幅広いトピックについて。",
       "SETTLEMENT_OUTCOMES_TITLE": "$0または$1決済",
@@ -454,10 +454,10 @@
     },
     "VAULT":  {
         "LAUNCH_MARKET_LINE1": "MegaVaultに{DEPOSIT_AMOUNT}の追加が必要です",
-        "LAUNCH_MARKET_LINE2": "MegaVaultの推定{APR}年利"
+        "LAUNCH_MARKET_LINE2": "MegaVaultの推定年利は、{APR}です"
     },
     "SIMPLE_UI": {
-        "BUYING_POWER_TOOLTIP": "これは、入金で受け取ることができる最大エクスポージャー金額です。この金額は入金または出金できる金額ではありません。 お客様の購買力は急速に変動する可能性があり、損失を出している場合でもプラスになることがあります。",
+        "BUYING_POWER_TOOLTIP": "これは、入金で受け取ることができる最大エクスポージャー金額です。この金額は入金または出金できる金額ではありません。お客様の購買力は急速に変動する可能性があり、損失を出している場合でもプラスになることがあります。",
         "RISK_TOOLTIP": "これは、お客様のオープンポジションによって証拠金として保有されている入金額の割合です。市場価格が変動すると、これも急速に変化することがあります。"
     }
   },
@@ -485,10 +485,10 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。 ${TRIGGER_PRICE_LIMIT}以下のトリガー価格を入力するか、逆指値注文を使用してください。",
-      "MARKET_ORDER_CLOSE_POSITION_ONLY": "ポジションをクローズまたは減らすことは、{SYMBOL}でのみ可能です。",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}以下のトリガー価格を入力するか、逆指値注文を使用してください。",
+      "MARKET_ORDER_CLOSE_POSITION_ONLY": "{SYMBOL}ポジションをクローズ、または減らすことのみ可能です。",
       "GEO_LOCATION_RESTRICTED": "パーペチュアルは、米国または制限を受けている地域に居住している自然人、またはそうした地域に拠点を置いて法人化しているか、登録代理人を置いている企業は利用できません。 詳細は利用規約をご参照ください。",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。 ${TRIGGER_PRICE_LIMIT}以上のトリガー価格を入力するか、逆指値注文を使用してください。",
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "トリガー価格が清算価格に近すぎます。この注文は清算前に完全に執行されない可能性があります。${TRIGGER_PRICE_LIMIT}以上のトリガー価格を入力するか、逆指値注文を使用してください。",
       "CONNECT_WALLET_TO_TRADE": "ウォレットを取引に接続します。",
       "DEPOSIT_TO_TRADE": "入金して取引します。"
     }
