@@ -270,7 +270,7 @@
         "FULLY_FEATURED": "功能齐全",
         "SWITCH_TO_PRO": "切换成专业版"
       },
-      "YOUR_POSITION": "您的{TOKEN}持仓",
+      "YOUR_POSITION": "您的{TOKEN}头寸",
       "MARGIN_RISK": "保证金风险",
       "HIGH": "高",
       "HIGH_RISK": "高风险",
@@ -284,7 +284,7 @@
       "SLIDE_TO_SELL": "换位短仓",
       "SLIDE_TO_CLOSE": "换位平仓",
       "FROM_TO": "从{TOKEN_FROM}到{TOKEN_TO}",
-      "CLOSING_POSITION": "{TOKEN_FROM} 位置",
+      "CLOSING_POSITION": "{TOKEN_FROM}当前持仓",
       "PLACE_ANOTHER_TRADE": "进行另一笔交易",
       "US_DOLLAR": "美元",
       "CONFIRM_TRADE": "确认交易",
@@ -316,11 +316,11 @@
         "TOP_LOSERS": "最大输家"
       },
       "SWAP_POSITION": {
-        "OPEN": "开仓{TOKEN}",
-        "CLOSE": "平仓{TOKEN}",
-        "INCREASE": "增加{TOKEN}仓位",
-        "DECREASE": "减少仓{TOKEN}位",
-        "CROSS_SIDE": "将仓位更改为 {TOKEN}{SIDE}"
+        "OPEN": "敞口{TOKEN}头寸",
+        "CLOSE": "平仓{TOKEN}头寸",
+        "INCREASE": "增加{TOKEN}头寸",
+        "DECREASE": "减少{TOKEN}头寸",
+        "CROSS_SIDE": "将头寸{TOKEN}更改为{SIDE}"
       }
     },
     "COMPLIANCE": {
@@ -486,7 +486,7 @@
   "ERRORS": {
     "TRADE_BOX": {
       "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 — 在被清算之前，此订单可能无法完全执行。请输入低于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
-      "MARKET_ORDER_CLOSE_POSITION_ONLY": "您只能在{SYMBOL}中平仓或减少您的头寸。",
+      "MARKET_ORDER_CLOSE_POSITION_ONLY": "您只能平仓或减少您在{SYMBOL}中的头寸。",
       "GEO_LOCATION_RESTRICTED": "永续合约不向符合以下条件的居民或公司提供：美国或受限区域的居民或公司、位于美国或受限区域、在美国或受限区域成立或在美国或受限区域有注册代理人。可参阅我们的《使用条款》了解更多详情。",
       "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "您的触发价太接近清算价 - 在被清算之前，此订单可能无法完全执行。请输入高于{TRIGGER_PRICE_LIMIT}的触发价或使用止损限价单。",
       "CONNECT_WALLET_TO_TRADE": "连接钱包以进行交易。",
