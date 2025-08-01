@@ -39,7 +39,7 @@
       "ERROR": "Erreur",
       "FAILED": "Échec",
       "FOUNDATION": "Fondation",
-      "FULL_CLOSE": "Fermer complètement",
+      "FULL_CLOSE": "Clôture totale",
       "FUNDING_EARNED": "Financement obtenu",
       "FUNDING_PAID": "Financement versé",
       "GAINERS": "Gagnantes",
@@ -70,7 +70,7 @@
       "NO_RESULTS": "Pas de résultats",
       "OF": "{ITEM1} sur {ITEM2}",
       "OK": "OK",
-      "PAY_GAS_WITH": "Payer le Gaz avec",
+      "PAY_GAS_WITH": "Payer le gaz avec",
       "PLACEHOLDER_NO_POSITIONS": "Vous n'avez pas de positions ouvertes",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "Vous devez vous connecter pour voir les positions",
       "PLACEHOLDER_NO_ORDERS": "Vous n'avez pas d'ordres ouverts",
@@ -138,10 +138,10 @@
       "TURKISH": "Turc"
     },
     "ONBOARDING": {
-      "AFFILIATE_NOTICE": "Les programmes de parrainage sont sujets à des changements à la discrétion de dYdX Trading, Inc.",
+      "AFFILIATE_NOTICE": "Les programmes de parrainage peuvent être modifiés à la discrétion de dYdX Trading, Inc.",
       "AFFILIATE_PROMPT": "Si vous avez un lien d'affiliation, veuillez appuyer dessus.",
       "AFFILIATE_REFERRAL_NOT_QUALIFIED": "Seuls les nouveaux comptes peuvent bénéficier d'une remise grâce aux parrainages.",
-      "AFFILIATE_TEXT": "vous a invité à commencer à trader sur la plateforme la plus avancée et ouverte.",
+      "AFFILIATE_TEXT": "vous a invité à commencer à trader sur la plateforme la plus avancée et la plus ouverte.",
       "CREATE_ACCOUNT_TEXT": "Le nom d'utilisateur et l'adresse e-mail sont facultatifs et peuvent être modifiés ou mis à jour à tout moment dans votre profil.",
       "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "Le nom d'utilisateur est requis et l'e-mail est facultatif. Ils peuvent être modifiés ou mis à jour à tout moment dans votre Profil.",
       "CREATE_ACCOUNT_ADDITIONAL": "Vos données sont utilisées par dYdX uniquement pour améliorer l'expérience du produit, et non à des fins de marketing.",
@@ -154,11 +154,11 @@
       "NO_VPN_USE_TITLE": "Je n'utilise pas de VPN",
       "NOT_A_RESIDENT_TITLE": "Je n'y accéderai pas depuis les États-Unis",
       "OPEN_QR_CODE": "Ouvrir le code QR",
-      "OPEN_QR_CODE_DESC": "Affichez le code QR en utilisant l'option dans la liste déroulante du portefeuille sur l'application Web.",
+      "OPEN_QR_CODE_DESC": "Affichez le code QR en utilisant l'option dans le portefeuille déroulant sur l'application Web.",
       "OPEN_QR_CODE_NEXT": "D'accord, j'ai compris !",
       "PERMITTED_TO_USE_TITLE": "Je suis légalement autorisé à trader",
       "SCAN_QR_CODE": "Scanner le code QR",
-      "SCAN_QR_CODE_DESC": "Scannez le code QR à partir de l'option dans la liste déroulante du portefeuille sur l'application Web.",
+      "SCAN_QR_CODE_DESC": "Scannez le code QR à partir de l'option dans le portefeuille déroulant sur l'application Web.",
       "SCAN_QR_CODE_ERROR": "Code non reconnu",
       "SCAN_QR_CODE_SHORT": "Scanner le QR",
       "SELECT_WALLET": "Sélectionnez le portefeuille",
@@ -166,7 +166,7 @@
       "SELECT_WALLET_TEXT": "Nous avons trouvé les options suivantes basées sur des portefeuilles prenant en charge dYdX.",
       "UNDERSTAND_RISKS_TITLE": "Je comprends les risques",
       "USERNAME_REQUIRED": "Le nom d'utilisateur est requis",
-      "WELCOME_TEXT": "Commencez à trader sur l'échange ouvert le plus puissant au monde depuis votre poche.",
+      "WELCOME_TEXT": "Commencez à trader de votre poche sur la plateforme d'échange la plus puissante au monde.",
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "À l'étape suivante, vous devez lire et accepter notre {TERMS_LINK} et notre {PRIVACY_POLICY_LINK}.",
       "WALLET_MISMATCH": "Discordance de portefeuille",
       "NETWORK_MISMATCH": "Discordance de réseau",
@@ -183,26 +183,26 @@
     "DEPOSIT_MODAL": {
       "ENTER_DEPOSIT_AMOUNT": "Introduire le montant du dépôt",
       "CONFIRM_DEPOSIT": "Cette action transférera les fonds de votre portefeuille vers des contrats intelligents.",
-      "DEPOSIT_GAS_FREE": "Ce dépôt est sans gaz !",
+      "DEPOSIT_GAS_FREE": "Ce dépôt est exempt de frais de gaz !",
       "DEPOSIT_CONNECT": "Vous recevrez une demande de connexion.",
       "DEPOSIT_OVERVIEW": "Vous recevrez une demande de connexion et deux demandes de transaction.",
-      "DEPOSIT_AVAILABLE": "Votre dépôt répond au minimum de dépôt sans gaz de {DOLLAR_AMOUNT}. dYdX couvrira les frais de gaz pour ce dépôt. Votre limite est réinitialisée tous les trois jours. {DEPOSIT_SUBJECT_TO_RULES}",
+      "DEPOSIT_AVAILABLE": "Votre dépôt répond au minimum de dépôt sans gaz de {DOLLAR_AMOUNT}. dYdX couvrira les frais de gaz correspondant à ce dépôt. Votre limite est réinitialisée tous les trois jours. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Sous réserve de ces règles",
-      "MINIMUM_DEPOSIT_MET": "Super ! Votre dépôt répond au minimum de dépôt sans gaz de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX couvrira les frais de gaz pour ce dépôt. {DEPOSIT_SUBJECT_TO_RULES}",
-      "MINIMUM_DEPOSIT_UNMET": "Le montant de votre dépôt est inférieur au minimum de dépôt sans gaz. Déposez plus de {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}et dYdX paiera les frais de gaz pour ce dépôt. Vous pouvez également continuer avec ce dépôt et payer vos propres frais de gaz. {DEPOSIT_SUBJECT_TO_RULES}",
-      "GASLESS_ETH_DEPOSITS_NATIVE": "Les dépôts sans gaz ne sont pas disponibles pour ETH. Vous pouvez convertir votre ETH en WETH sur 1inch ou Uniswap et utiliser des dépôts sans gaz WETH, ou déposer directement des ETH en payant vos propres coûts de gaz. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_MET": "Super ! Votre dépôt répond au minimum de dépôt sans gaz de {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX couvrira les frais de gaz correspondant à ce dépôt. {DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_UNMET": "Le montant de votre dépôt est inférieur au montant minimum de dépôt sans gaz. Déposez un montant supérieur à {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} et dYdX prendra en charge les frais de gaz correspondant à ce dépôt. Vous pouvez également continuer avec ce dépôt et payer les frais de gaz. {DEPOSIT_SUBJECT_TO_RULES}",
+      "GASLESS_ETH_DEPOSITS_NATIVE": "Les dépôts sans gaz ne sont pas disponibles pour ETH. Vous pouvez convertir votre ETH en WETH sur 1inch ou Uniswap et utiliser les dépôts sans gaz WETH, ou déposer directement des ETH en payant les frais de gaz. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "Le dépôt sans gaz n'est pas disponible. Votre limite de dépôt sans gaz est réinitialisée tous les trois jours. {DEPOSIT_SUBJECT_TO_RULES}",
       "USE_GASLESS_DEPOSIT": "Utiliser le dépôt sans frais de gaz",
       "1_REMAINING": "1 restant",
       "PROVIDER": "Fournisseur"
     },
     "WITHDRAW_MODAL": {
-      "ENTER_WITHDRAW_AMOUNT": "Entrez le montant de retrait",
+      "ENTER_WITHDRAW_AMOUNT": "Introduire le montant de retrait",
       "WITHDRAW_DESCRIPTION": "Vous êtes sur le point d'initier un retrait de fonds vers le portefeuille indiqué ci-dessous. Cette opération ne nécessite pas de signature.",
       "WITHDRAW_ERROR": "Erreur de retrait",
-      "WITHDRAW_IRREVERSIBLE": "Initier un retrait est irréversible.",
+      "WITHDRAW_IRREVERSIBLE": "Le lancement d'un retrait est irréversible.",
       "WITHDRAW_LIMIT": "Limite de retrait",
-      "WITHDRAW_TEXT": "Autorisez dYdX à retirer cet actif dans votre portefeuille."
+      "WITHDRAW_TEXT": "Autoriser dYdX à retirer cet actif de votre portefeuille."
     },
     "PORTFOLIO": {
       "ESTIMATED_REWARDS": "Estimé",
@@ -219,7 +219,7 @@
       "CANNOT_PLACE_TRADE": "Impossible de placer un trade",
       "CLOSED_STATUS": "Clôturé",
       "ENTER_AMOUNT_TO_TRADE": "Introduire le montant du trade",
-      "ENTER_STOP_PRICE": "Entrez le prix stop",
+      "ENTER_STOP_PRICE": "Introduire le stop price",
       "LIQUIDATION": "Liquidation",
       "LUNA_IMF_TITLE": "Marge ajustée pour LUNA-USD",
       "LUNA_IMF_TEXT": "Nous avons temporairement augmenté les exigences de marge initiale sur LUNA-USD à 100 % en raison de la volatilité. La marge de maintenance reste la même à 5 %.",
@@ -233,7 +233,7 @@
       "ORDER_PENDING_DESC": "Votre ordre a été soumis.",
       "ORDER_PLACED_DESC": "Votre ordre a été placé !",
       "ORDER_POST_ONLY_WOULD_CROSS": "Un ordre Post-Only ne figurerait pas dans le carnet d'ordres.",
-      "ORDER_SELF_TRADE": "L'ordre aurait entraîné un trade automatique.",
+      "ORDER_SELF_TRADE": "L'ordre aurait abouti à un self trade.",
       "ORDER_UNDERCOLLATERALIZED": "Votre ordre vous aurait conduit à un état de sous-garantie.",
       "PLACE_BUY": "Placer l'achat",
       "PLACE_SELL": "Placer la vente",
@@ -245,12 +245,12 @@
       "REALIZED": "Réalisé",
       "RECEIPT": "Reçu",
       "REDUCE_ONLY": "Réduire uniquement",
-      "SELECT_EXPIRATION_OPTION": "Sélectionnez l'option d'expiration",
-      "SELECT_EXPIRATION_TIME_UNIT": "Sélectionnez l'unité de temps d'expiration",
+      "SELECT_EXPIRATION_OPTION": "Sélectionner l'option d'expiration",
+      "SELECT_EXPIRATION_TIME_UNIT": "Sélectionner l'unité de temps de l'expiration",
       "SUBMITTING_ORDER": "Soumettre",
       "SUBMITTING_ORDER_DESC": "Votre ordre est en cours de soumission.",
-      "CANCELING_N_ORDERS_FAILED": "{COUNT} les annulations de l'ordre ont échoué",
-      "CANCELING_ONE_ORDER_FAILED": "{COUNT} L'annulation de l'ordre a échoué",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} annulations d'ordres ont échoué",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} annulation d'ordre a échoué",
       "CANCELING_ORDER": "Annulation",
       "CANCELING_ORDER_DESC": "Votre ordre à {SIDE} {SIZE} {MARKET} est en cours d'annulation.",
       "UNREALIZED": "Non réalisé",
@@ -292,16 +292,16 @@
       "SWAP_MARGIN_ERROR_TEXT": "Passez au mode Pro pour accéder à un effet de levier plus important.",
       "SWAP_INTRO": {
         "TITLE": "Mode Échanger",
-        "SUBTITLE": "Nous avons construit un moyen plus facile de trader sur dYdX",
+        "SUBTITLE": "Nous avons mis en place un moyen plus facile de trader sur dYdX",
         "ITEM_1_TITLE": "Interface familière",
-        "ITEM_1_SUBTITLE": "Trade sur dYdX grâce à une interface familière et simplifiée",
+        "ITEM_1_SUBTITLE": "Tradez sur dYdX grâce à une interface familière et simplifiée",
         "ITEM_2_TITLE": "Simple mais puissante",
         "ITEM_2_SUBTITLE": "Tradez n'importe quel actif contre n'importe quel autre, comme Uniswap, mais avec un effet de levier",
         "CONTINUE": "Essayez"
       },
       "SWAP_INTRO_CARD": {
         "TITLE": "Présentation du mode Échanger !",
-        "SUBTITLE": "Tradez grâce à une interface simplifiée mais puissante, semblable à celle d'Uniswap.",
+        "SUBTITLE": "Tradez grâce à une interface simplifiée, mais puissante, semblable à celle d'Uniswap.",
         "CTA_TITLE": "Essayez"
       },
       "SWAP_MODE_REMINDER": {
@@ -317,7 +317,7 @@
       },
       "SWAP_POSITION": {
         "OPEN": "Ouvrir la position {TOKEN}",
-        "CLOSE": "Fermer {TOKEN} la position",
+        "CLOSE": "Fermer la position {TOKEN}",
         "INCREASE": "Augmenter la position {TOKEN}",
         "DECREASE": "Diminuer la position {TOKEN}",
         "CROSS_SIDE": "Changer la position {TOKEN} à {SIDE}"
@@ -325,9 +325,9 @@
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_TITLE": "Mode Close-only",
-      "CLOSE_ONLY_BODY": "Parce que vous semblez être un résident d'une juridiction qui viole nos conditions d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos conditions d'utilisation, vous avez été bloqué. Vous avez jusqu'à {DATE} pour retirer vos fonds avant que votre accès à l'application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance sur {HELP_LINK}.",
+      "CLOSE_ONLY_BODY": "Vous avez été bloqué car il semble que vous êtes résident ou que vous réalisez des trades dans une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation. Vous avez jusqu’au {DATE} pour retirer vos fonds avant que votre accès à l’application ne soit bloqué. Veuillez visiter l'interface Web pour voir les étapes suivantes. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance sur {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_TITLE": "Bloqué définitivement",
-      "PERMANENTLY_BLOCKED_BODY": "Étant donné que vous semblez être un résident ou trader à partir d'une juridiction qui viole nos conditions d'utilisation et que vous avez déjà eu la possibilité de remédier aux circonstances qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de manière permanente. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance sur {HELP_LINK}."
+      "PERMANENTLY_BLOCKED_BODY": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des trades à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux problèmes qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le service d'assistance sur {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Compte restreint",
@@ -444,10 +444,10 @@
     },
     "PREDICTION_MARKET": {
       "PREDICTION_MARKETS": "Marchés de prédiction",
-      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Réalisez un trade avec effet de levier sur l'élection américaine",
-      "WITH_PREDICTION_MARKETS": "avec les marchés de prédiction avec",
-      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Les marchés de prédiction s'établiront à 1 $ si l'événement se produit comme prévu. Sinon, ils s'établiront à 0 $.",
-      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Effectuez un trade avec effet de levier sur les résultats de certains événements",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Tradez avec effet de levier sur l'élection américaine",
+      "WITH_PREDICTION_MARKETS": "avec les marchés de prédiction",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Les marchés de prédiction s'établiront à 1 $ si l'événement se produit comme prévu. Sinon, ils s'établiront à 0 $.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Tradez avec effet de levier sur les résultats des événements",
       "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Sur un large éventail de sujets, y compris la politique, le sport, la culture pop et plus encore.",
       "SETTLEMENT_OUTCOMES_TITLE": "Règlement de 0 $ ou 1 $",
       "SETTLEMENT_OUTCOMES_DESCRIPTION": "Le marché s'établira automatiquement à 1 $ si l'événement se produit. Sinon, il s'établira à ~ 0 $. Le prix est équivalent au pourcentage de chance que l'évènement se produise."
@@ -476,7 +476,7 @@
     "SIMPLE_TO_PRO": {
       "TITLE": "Que pensez-vous de l'expérience de trading simplifiée ? (sélectionnez tout ce qui s'applique)",
       "OPTION_1": "Préférez la familiarité du mode pro",
-      "OPTION_2": "Besoin de plus de types d'ordres",
+      "OPTION_2": "Besoin de plus de types d'ordre",
       "OPTION_3": "Besoin de plus d'informations lors du placement de trades",
       "ADDITIONAL_FEEDBACK": "Quelles améliorations suggéreriez-vous ?"
     },
@@ -485,12 +485,12 @@
   },
   "ERRORS": {
     "TRADE_BOX": {
-      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation - cet ordre peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez saisir un prix de déclenchement ci-dessous {TRIGGER_PRICE_LIMIT} ou utilisez un ordre Stop Limit.",
+      "BUY_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation : il est possible que cet ordre ne s'exécute pas complètement avant que vous ne soyez liquidé. Veuillez saisir un Prix de déclenchement inférieur à {TRIGGER_PRICE_LIMIT} ou utilisez un ordre Stop Limit.",
       "MARKET_ORDER_CLOSE_POSITION_ONLY": "Vous pouvez uniquement fermer ou réduire votre position dans {SYMBOL}.",
       "GEO_LOCATION_RESTRICTED": "Les contrats perpétuels ne sont pas disponibles pour les personnes ou les entreprises qui résident, où sont situées, constituées en société ou ont un agent enregistré aux États-Unis ou dans un territoire restreint. Plus de détails peuvent être trouvés dans nos conditions d'utilisation.",
-      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation - cet ordre peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez saisir un prix de déclenchement supérieur {TRIGGER_PRICE_LIMIT}ou utiliser un ordre Stop Limit.",
-      "CONNECT_WALLET_TO_TRADE": "Connectez le portefeuille pour trader.",
-      "DEPOSIT_TO_TRADE": "Déposez pour trader."
+      "SELL_TRIGGER_TOO_CLOSE_TO_LIQUIDATION_PRICE": "Votre prix de déclenchement est trop proche de votre prix de liquidation - cet ordre peut ne pas s'exécuter complètement avant que vous ne soyez liquidé. Veuillez saisir un Prix de déclenchement supérieur à {TRIGGER_PRICE_LIMIT} ou utilisez un ordre Stop Limit.",
+      "CONNECT_WALLET_TO_TRADE": "Connecter le portefeuille pour trader.",
+      "DEPOSIT_TO_TRADE": "Dépôt pour trader."
     }
   },
   "WARNINGS": {
