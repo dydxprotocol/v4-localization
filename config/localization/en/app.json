@@ -429,6 +429,7 @@
       "WEBSITE": "Website",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Withdraw",
+      "WITHDRAW_SLIPPAGE_WARNING": "You are paying ${DOLLAR_AMOUNT} ({PERCENT_AMOUNT}%) in fees and/or slippage on this withdrawal. Choosing a different target chain or withdrawal amount or waiting several minutes may result in lower fees.",
       "YES": "Yes",
       "YOU": "You",
       "YOUR_ACCOUNT": "Your account",
