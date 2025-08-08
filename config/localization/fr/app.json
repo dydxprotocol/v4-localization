@@ -1821,6 +1821,18 @@
       "YOUR_LEAGUE": "Votre Ligue",
       "YOURE_IN": "Vous êtes dans {LEAGUE}"
     },
+    "TURNKEY_ONBOARD": {
+      "SIGN_IN_TITLE": "Connectez-vous",
+      "SIGN_IN_DESCRIPTION": "Pour commencer, connectez-vous avec vos réseaux sociaux, votre e-mail ou reliez votre portefeuille.",
+      "SIGN_IN_PASSKEY": "Connectez-vous avec Passkey",
+      "SIGN_IN_WALLET": "Connectez-vous avec votre portefeuille",
+      "SIGN_IN_DESKTOP": "Connectez-vous avec votre ordinateur de bureau",
+      "SUBMIT": "Soumettre",
+      "EMAIL_PLACEHOLDER": "Entrez votre adresse e-mail",
+      "CHECK_EMAIL_TITLE": "Vérifiez votre adresse e-mail",
+      "CHECK_EMAIL_DESCRIPTION": "Ouvrez le lien magique dans votre e-mail pour terminer votre connexion",
+      "RESEND": "Renvoyer"
+    },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Accepter le slippage élevé",
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "Accepter les conditions d'utilisation de MegaVault",
@@ -2172,19 +2184,19 @@
       "TRADING_REWARD_TABLE_DISCONNECTED_STATE": "Votre historique apparaîtra ici.",
       "TRADING_REWARD_TABLE_EMPTY_STATE": "Vous n'avez pas d'historique.",
       "TRADING_REWARDS_LEGAL_DISCLAIMER": "Les services liés à la gouvernance, aux récompenses et aux enjeux vous sont fournis directement par des tiers, qui sont indépendants et non affiliés à l'hôte et à l'opérateur de cette interface (l'\"Opérateur\"), sur des sites tiers, sans l'implication de l'Opérateur. Vous reconnaissez avoir pris connaissance des {TERMS_OF_USE_LINK} et vous comprenez les risques associés à ces services, y compris les taux de récompense variables, le slashing et les autres risques inhérents au staking. Aucun élément de ce site Web ne constitue un conseil financier, un conseil juridique, un conseil fiscal, un conseil en investissement ou un conseil de toute autre nature, ni ne doit être interprété ou invoqué comme tel. Il est de votre seule responsabilité d'effectuer des recherches indépendantes, de faire preuve de diligence raisonnable et de demander l'avis d'un conseiller professionnel avant d'entreprendre toute action liée aux services.",
-      "TRADING_REWARDS_UNAVAILABLE_IN_US": "Ces produits et services de tiers ne sont pas disponibles pour les personnes qui résident, sont situées ou constituées aux États-Unis, au Canada ou dans un territoire soumis à des restrictions, ou qui ont un agent enregistré dans ces pays. Pour plus de détails, voir notre {TERMS_OF_USE_LINK}."
+      "TRADING_REWARDS_UNAVAILABLE_IN_US": "Ces produits et services de tiers ne sont pas disponibles pour les personnes qui résident, sont situées ou constituées aux États-Unis, au Canada ou dans un territoire soumis à des restrictions, ou qui ont un agent enregistré dans ces pays. Pour plus de détails, consultez nos {TERMS_OF_USE_LINK}."
     },
     "REWARDS_SURGE_APRIL_2025": {
-      "SURGE_HEADLINE": "Montée en puissance de dYdX : concourir pour 2 millions de dollars",
-      "SURGE_BODY": "Jusqu'à 2,2 millions de dollars en récompenses sont distribués chaque mois aux traders de la plateforme dYdX. Faites votre choix, cliquez sur le tableau des leaders pour en savoir plus.",
+      "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
+      "SURGE_BODY": "Jusqu'à 3 millions de dollars de récompenses sont distribués chaque mois aux traders de dYdX. Faites votre choix, cliquez sur le tableau des leaders pour en savoir plus.",
       "SURGE_HOW_IT_WORKS": "Comment cela fonctionne ?",
       "SURGE_HOW_IT_WORKS_1": "Pour participer, il suffit d'effectuer un trade sur dYdX.",
       "SURGE_HOW_IT_WORKS_2": "Votre activité de trading vous rapporte des points, ce qui détermine votre rang dans le tableau des leaders.",
       "SURGE_HOW_IT_WORKS_3": "Les récompenses sont distribuées à la fin de chaque saison.",
       "SURGE_HOW_TO_EARN": "Comment gagner plus de points",
-      "SURGE_HOW_TO_EARN_1": "Général (50 %) - Basé sur les frais de trading payés par les takers, récompensant les stratégies efficaces en capital.",
+      "SURGE_HOW_TO_EARN_1": "Général (75 % ) - Basé sur les frais de trading payés par les takers, récompensant les stratégies efficaces en capital.",
       "SURGE_HOW_TO_EARN_2": "Vente au détail (25 %) - Pour les trades effectués par les takers via les interfaces web et mobiles de dYdX.",
-      "SURGE_HOW_TO_EARN_3": "Activation (25 %) - Destiné à promouvoir les nouvelles fonctionnalités, le staking DYDX, la liquidité sur les marchés clés et le réengagement des anciens utilisateurs."
+      "SURGE_HOW_TO_EARN_3": "Activation (0 %) - Conçu pour encourager les nouvelles fonctionnalités, le staking de dYdX, la liquidité sur les marchés clés et le réengagement des anciens utilisateurs."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "Vous avez gagné {AMOUNT} de récompenses $DYDX pendant l'Epoch {EPOCH_NUMBER} ! Réclamez vos récompenses sur le tableau de bord de gouvernance.",

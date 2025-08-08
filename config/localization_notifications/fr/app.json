@@ -140,6 +140,10 @@
       "TITLE": "Surge S{SEASON_NUMBER} : concourez pour 2 millions de dollars",
       "BODY": "La saison {SEASON_NUMBER} aura des points renforcés pour le trading sur les marchés en vogue ! {MARKETS_LIST} vont démarrer avec deux fois plus de récompenses !"
     },
+    "SURGE_BASIC_SEASON": {
+      "TITLE": "Surge S{SEASON_NUMBER} : concourez pour {AMOUNT_MILLIONS} millions de dollars",
+      "BODY": "La saison {SEASON_NUMBER} distribuera {AMOUNT_MILLIONS} millions de dollars aux traders en fonction de leur position dans le classement. Trade plus pour gagner plus !"
+    },
     "SURGE_PAYOUT": {
       "TITLE": "Surge S{SEASON_NUMBER} : vous avez gagné {DYDX_REWARDS} dYdX",
       "BODY": "Les récompenses du tableau de classement Surge S{SEASON_NUMBER} sont maintenant distribuées, vérifiez votre solde dYdX pour voir vos récompenses !"
