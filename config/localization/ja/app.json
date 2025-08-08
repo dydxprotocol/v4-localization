@@ -1821,6 +1821,18 @@
       "YOUR_LEAGUE": "あなたのリーグ",
       "YOURE_IN": "あなたは{LEAGUE}に参加しています"
     },
+    "TURNKEY_ONBOARD": {
+      "SIGN_IN_TITLE": "サインイン",
+      "SIGN_IN_DESCRIPTION": "開始するには、ソーシャルアカウントでサインインするか、メールでログインするか、ウォレットを接続してください。",
+      "SIGN_IN_PASSKEY": "パスキーでサインイン",
+      "SIGN_IN_WALLET": "ウォレットでサインイン",
+      "SIGN_IN_DESKTOP": "デスクトップでサインインする",
+      "SUBMIT": "送信",
+      "EMAIL_PLACEHOLDER": "メールアドレスを入力してください",
+      "CHECK_EMAIL_TITLE": "メールを確認してください",
+      "CHECK_EMAIL_DESCRIPTION": "メール内のマジックリンクを開いて、サインインを完了します",
+      "RESEND": "再送信"
+    },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "高スリッページを承認する",
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "MegaVault利用規約に同意",
@@ -2175,16 +2187,16 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "これらの第三者による製品およびサービスは、米国、カナダ、あるいは制限地域に居住している、拠点を置いている、法人化している、または登録代理人を置いているユーザーは利用できません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。"
     },
     "REWARDS_SURGE_APRIL_2025": {
-      "SURGE_HEADLINE": "dYdXサージ：$200万を目指して競争",
-      "SURGE_BODY": "毎月最大$220万の報酬がdYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
+      "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
+      "SURGE_BODY": "最大300万ドルの報酬が毎月dYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
       "SURGE_HOW_IT_WORKS": "使い方",
       "SURGE_HOW_IT_WORKS_1": "参加するには、dYdXで取引を行うだけです。",
       "SURGE_HOW_IT_WORKS_2": "取引活動によりポイントが獲得され、リーダーボードでのランクが決定されます。",
       "SURGE_HOW_IT_WORKS_3": "報酬は各シーズン終了時に分配されます。",
       "SURGE_HOW_TO_EARN": "ポイントをさらに獲得する方法",
-      "SURGE_HOW_TO_EARN_1": "一般５０％- 受取人が支払う取引手数料に基づいており、資本効率の高い戦略に報酬をもたらします。",
+      "SURGE_HOW_TO_EARN_1": "一般（75%）- 受取人が支払う取引手数料に基づいており、資本効率の高い戦略に報酬をもたらします。",
       "SURGE_HOW_TO_EARN_2": "小売業２５％- dYdXのウェブおよびモバイルインターフェイスを介して行われるテイカー取引です。",
-      "SURGE_HOW_TO_EARN_3": "アクティベーション２５％- 新機能、DYDXステーキング、主要マーケットにおける流動性、および過去のユーザーの再エンゲージメントをインセンティブにするように設計されています。"
+      "SURGE_HOW_TO_EARN_3": "アクティベーション（0％）- 新機能、DYDXステーキング、主要マーケットにおける流動性、および過去のユーザーの再エンゲージメントをインセンティブにするように設計されています。"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "エポック{EPOCH_NUMBER}中に{AMOUNT}$DYDX報酬を獲得しました！ガバナンスダッシュボードで報酬を請求する。",
