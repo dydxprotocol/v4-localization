@@ -1821,6 +1821,18 @@
       "YOUR_LEAGUE": "리그",
       "YOURE_IN": "귀하는 {LEAGUE}에 속합니다"
     },
+    "TURNKEY_ONBOARD": {
+      "SIGN_IN_TITLE": "로그인",
+      "SIGN_IN_DESCRIPTION": "시작하려면 소셜 계정으로 로그인하거나 이메일로 로그인하거나 지갑을 연결하세요.",
+      "SIGN_IN_PASSKEY": "패스키로 로그인",
+      "SIGN_IN_WALLET": "지갑으로 로그인",
+      "SIGN_IN_DESKTOP": "데스크톱으로 로그인",
+      "SUBMIT": "제출",
+      "EMAIL_PLACEHOLDER": "이메일을 입력하세요",
+      "CHECK_EMAIL_TITLE": "이메일을 확인하세요.",
+      "CHECK_EMAIL_DESCRIPTION": "이메일에서 매직 링크를 열어 로그인을 완료하세요",
+      "RESEND": "재전송"
+    },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "높은 슬리피지 확인",
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "MegaVault 약관 동의",
@@ -2175,16 +2187,16 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "이러한 타사 서비스 및 제품은 미국, 캐나다 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다."
     },
     "REWARDS_SURGE_APRIL_2025": {
-      "SURGE_HEADLINE": "dYdX 서지: 2백만 달러를 두고 경쟁",
-      "SURGE_BODY": "매달 dYdX 거래자에게 최대 $2.2M(220만 달러)의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
+      "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
+      "SURGE_BODY": "매달 dYdX 트레이더에게 최대 3백만 달러의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
       "SURGE_HOW_IT_WORKS": "작동 원리",
       "SURGE_HOW_IT_WORKS_1": "참여하려면 dYdX에서 거래하면 됩니다. ",
       "SURGE_HOW_IT_WORKS_2": "귀하의 거래 활동은 포인트를 획득하고, 이는 순위표에서 귀하의 순위를 결정합니다.",
       "SURGE_HOW_IT_WORKS_3": "보상은 각 거래시즌이 끝날 때 배포됩니다.",
       "SURGE_HOW_TO_EARN": "더 포인트를 획득하는 방법을 해보세요.",
-      "SURGE_HOW_TO_EARN_1": "일반(50%) - 테이커가 지불한 거래 수수료를 기준으로, 자본 효율이 높은 전략에 보상을 지급합니다. ",
+      "SURGE_HOW_TO_EARN_1": "일반(75%) - 테이커가 지불한 거래 수수료를 기준으로, 자본 효율이 높은 전략에 보상합니다.",
       "SURGE_HOW_TO_EARN_2": "소매(25%) - dYdX 웹 및 모바일 인터페이스를 통해 이루어진 테이커 거래에 사용됩니다.",
-      "SURGE_HOW_TO_EARN_3": "활성화(25%) - 새로운 기능, DYDX 스테이킹, 주요 시장의 유동성 및 이전 사용자의 재참여를 장려하기 위해 설계되었습니다. "
+      "SURGE_HOW_TO_EARN_3": "활성화(0%) - 새로운 기능, DYDX 스테이킹, 주요 시장의 유동성 및 이전 사용자의 재참여를 장려하기 위해 설계되었습니다."
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "에폭 {EPOCH_NUMBER} 동안 {AMOUNT} $DYDX의 보상을 받았습니다! 거버넌스 대시보드에서 보상을 청구하세요.",
