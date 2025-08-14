@@ -140,6 +140,10 @@
       "TITLE": "Surge S{SEASON_NUMBER}：角逐 200 万美元奖励",
       "BODY": "第{SEASON_NUMBER}季将对热门市场的交易提供积分加成！{MARKETS_LIST}市场将以 2 倍奖励启动！"
     },
+    "SURGE_BASIC_SEASON": {
+      "TITLE": "Surge S{SEASON_NUMBER}：争夺百万{AMOUNT_MILLIONS}美元",
+      "BODY": "Season{SEASON_NUMBER}将根据交易者在排行榜上的仓位向其分配${AMOUNT_MILLIONS}M。交易更多，赢得更多！"
+    },
     "SURGE_PAYOUT": {
       "TITLE": "Surge S{SEASON_NUMBER}：您获得了 {DYDX_REWARDS} dYdX 奖励",
       "BODY": "Surge S{SEASON_NUMBER} 排行榜奖励现已开始发放，请查看 dYdX 余额了解奖励发放进度！"
