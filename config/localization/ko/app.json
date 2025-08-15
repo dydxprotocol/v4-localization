@@ -429,6 +429,7 @@
       "WEBSITE": "웹사이트",
       "WHITEPAPER": "백서",
       "WITHDRAW": "출금",
+      "WITHDRAW_SLIPPAGE_WARNING": "이 인출에 대해 ${DOLLAR_AMOUNT}({PERCENT_AMOUNT}%)의 수수료 및\/또는 슬리피지를 지불합니다. 다른 대상 체인 또는 인출 금액을 선택하거나 몇 분을 기다리면 수수료가 낮아질 수 있습니다.",
       "YES": "예",
       "YOU": "귀하",
       "YOUR_ACCOUNT": "귀하의 계정",
