@@ -429,6 +429,7 @@
       "WEBSITE": "Site Web",
       "WHITEPAPER": "Livre blanc",
       "WITHDRAW": "Retrait",
+      "WITHDRAW_SLIPPAGE_WARNING": "Vous payez  ${DOLLAR_AMOUNT} ({PERCENT_AMOUNT} %) de frais et\/ou de slippage lors de ce retrait. Le choix d'une chaîne cible ou d'un montant de retrait différent ou l'attente de plusieurs minutes peut entraîner des frais moins élevés.",
       "YES": "Oui",
       "YOU": "Vous",
       "YOUR_ACCOUNT": "Votre compte",
