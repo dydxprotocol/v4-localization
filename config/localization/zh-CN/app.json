@@ -429,6 +429,7 @@
       "WEBSITE": "网站",
       "WHITEPAPER": "白皮书",
       "WITHDRAW": "提现",
+      "WITHDRAW_SLIPPAGE_WARNING": "您在此次提现时将支付 {DOLLAR_AMOUNT} 美元 ({PERCENT_AMOUNT}%) 的费用和\/或滑点。选择其他目标链或提现金额或等待几分钟可能会降低费用。",
       "YES": "是",
       "YOU": "您",
       "YOUR_ACCOUNT": "您的账户",
