@@ -2442,6 +2442,8 @@
       "LIQUIDITY_TIER_IS": "Liquidity tier is {TIER}",
       "LIST_A_NEW_MARKET": "List a new market",
       "LIST_ANY_MARKET": "List any market with just a click. Hundreds available, more on the way",
+      "SURGE_BANNER_TITLE": "dYdX Surge: $3M Rewards Up for Grabs.",
+      "SURGE_BANNER_END_DATE": "Ends August 31",
       "LISTINGS_DESCRIPTION": "Listings on dYdX are completely community-driven. This tool will help you submit a governance proposal to list a new market.",
       "LOCKUP_PERIOD": "Lockup Period",
       "MARKET_LAUNCH_DETAILS": "Select the market you'd like to launch and add {DEPOSIT_AMOUNT} into MegaVault. Your funds will earn an estimated {APR_PERCENTAGE} APR (based on the last {PAST_DAYS} days).",
@@ -2912,9 +2914,6 @@
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market"
     },
-    "SURGE_BANNER": {
-      "TITLE": "dYdX Surge: $3M Rewards Up for Grabs.",
-      "END_DATE": "Ends August 31"
-    }
+
   }
 }
