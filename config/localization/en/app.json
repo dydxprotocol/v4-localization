@@ -1734,6 +1734,7 @@
       "TRIGGER_PRICE": "Trigger Price",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "The trigger order's associated position has been closed or flipped.",
       "TRIGGERS": "Triggers",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Undercollateralized",
       "UNOPENED_ISOLATED_POSITIONS": "Unopened Isolated Positions",
       "UNREALIZED_PNL": "Unrealized P&L",
