@@ -175,7 +175,10 @@
       "ENTER_CODE": "Enter the verification code",
       "LOGIN_SIGNUP": "Log in or sign up",
       "LOGIN_SIGNUP_TEXT": "Sign in with socials or connect your wallet to get started",
-      "LOGIN_SIGNUP_TEXT_2": "Connect your wallet or sign in with socials to get started"
+      "LOGIN_SIGNUP_TEXT_2": "Connect your wallet or sign in with socials to get started",
+      "DEPOSIT_DESC": "Deposit funds from supported chains",
+      "WITHDRAWAL_DESC": "Withdraw funds to supported chains",
+      "TRANSFEROUT_DESC": "Send funds to any dYdX address"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Create Profile"
