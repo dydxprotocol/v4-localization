@@ -429,6 +429,7 @@
       "WEBSITE": "Website",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Withdraw",
+      "WITHDRAW_SLIPPAGE_WARNING": "You are paying ${DOLLAR_AMOUNT} ({PERCENT_AMOUNT}%) in fees and/or slippage on this withdrawal. Choosing a different target chain or withdrawal amount or waiting several minutes may result in lower fees.",
       "YES": "Yes",
       "YOU": "You",
       "YOUR_ACCOUNT": "Your account",
@@ -1736,6 +1737,7 @@
       "TRIGGER_PRICE": "Trigger Price",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "The trigger order's associated position has been closed or flipped.",
       "TRIGGERS": "Triggers",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Undercollateralized",
       "UNOPENED_ISOLATED_POSITIONS": "Unopened Isolated Positions",
       "UNREALIZED_PNL": "Unrealized P&L",
@@ -2532,6 +2534,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "There are no funds available for you to reclaim at this time.",
       "RECLAIM_FUNDS_SIGNING": "Upon reclaiming, you will be prompted to sign {NUM_TRANSACTIONS} transaction(s) to return the funds previously used as collateral for isolated margin trading."
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdX Surge: $3M Rewards Up for Grabs.",
+      "END_DATE": "Ends August 31"
     }
   },
   "TOKEN_MIGRATION": {

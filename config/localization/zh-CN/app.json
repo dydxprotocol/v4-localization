@@ -429,6 +429,7 @@
       "WEBSITE": "网站",
       "WHITEPAPER": "白皮书",
       "WITHDRAW": "提现",
+      "WITHDRAW_SLIPPAGE_WARNING": "您在此次提现时将支付 {DOLLAR_AMOUNT} 美元 ({PERCENT_AMOUNT}%) 的费用和\/或滑点。选择其他目标链或提现金额或等待几分钟可能会降低费用。",
       "YES": "是",
       "YOU": "您",
       "YOUR_ACCOUNT": "您的账户",
@@ -1821,6 +1822,18 @@
       "YOUR_LEAGUE": "您的联盟",
       "YOURE_IN": "您在{LEAGUE}"
     },
+    "TURNKEY_ONBOARD": {
+      "SIGN_IN_TITLE": "登录",
+      "SIGN_IN_DESCRIPTION": "要开始，请使用您的社交账户登录、电子邮件登录或连接您的钱包。",
+      "SIGN_IN_PASSKEY": "使用Passkey登录",
+      "SIGN_IN_WALLET": "使用钱包登录",
+      "SIGN_IN_DESKTOP": "使用桌面登录",
+      "SUBMIT": "提交",
+      "EMAIL_PLACEHOLDER": "输入您的电子邮箱",
+      "CHECK_EMAIL_TITLE": "检查您的电子邮箱",
+      "CHECK_EMAIL_DESCRIPTION": "打开电子邮箱中的魔术链接，以完成登录。",
+      "RESEND": "重新发送"
+    },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "确认大额滑点",
       "ACKNOWLEDGE_MEGAVAULT_TERMS": "同意 MegaVault 条款",
@@ -2175,16 +2188,16 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "上述第三方产品和服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     },
     "REWARDS_SURGE_APRIL_2025": {
-      "SURGE_HEADLINE": "dYdX Surge：瓜分200万美元奖励",
-      "SURGE_BODY": "每月向 dYdX 交易者分发多达 220 万美元的奖励。 行动起来吧，点击排行榜了解详情。",
+      "SURGE_HEADLINE": "dYdX Surge：争夺300万美元",
+      "SURGE_BODY": "每月向dYdX交易者分发高达300万美元的奖励。 行动起来吧，点击排行榜了解详情。",
       "SURGE_HOW_IT_WORKS": "运作方式",
       "SURGE_HOW_IT_WORKS_1": "若要参与，只需在dYdX上进行交易即可。",
       "SURGE_HOW_IT_WORKS_2": "进行交易活动即可赢得积分，积分决定您在排行榜上的排名。",
       "SURGE_HOW_IT_WORKS_3": "每个季度结束时发放奖励。",
       "SURGE_HOW_TO_EARN": "如何获得更多积分",
-      "SURGE_HOW_TO_EARN_1": "一般(50%)—根据吃单所支付的交易费计算，奖励资本效率高的交易策略。",
+      "SURGE_HOW_TO_EARN_1": "一般(75%)—根据吃单所支付的交易费计算，奖励资本效率高的交易策略。",
       "SURGE_HOW_TO_EARN_2": "零售(25%)—针对通过dYdX网络和移动界面完成的吃单交易。",
-      "SURGE_HOW_TO_EARN_3": "激活(25%)—旨在鼓励使用新功能、参与DYDX质押、提高关键市场的流动性以及老用户重新参与。"
+      "SURGE_HOW_TO_EARN_3": "激活（0%）—旨在激励新功能、DYDX质押、关键市场流动性以及过去用户的重新参与。"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX 的奖励！在治理仪表板上申领您的奖励。",

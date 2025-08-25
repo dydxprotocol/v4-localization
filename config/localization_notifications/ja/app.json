@@ -140,6 +140,10 @@
       "TITLE": "Surge S{SEASON_NUMBER}：200万ドルを目指して競争",
       "BODY": "シーズン{SEASON_NUMBER}ではホットなマーケットで取引に使えるポイントがアップします！ {MARKETS_LIST} マーケットは2倍の報酬でスタート！"
     },
+    "SURGE_BASIC_SEASON": {
+      "TITLE": "Surge S{SEASON_NUMBER}：${AMOUNT_MILLIONS}Mを目指して競争",
+      "BODY": "シーズン{SEASON_NUMBER}では、リーダーボードにおけるポジションに基づいて${AMOUNT_MILLIONS}Mを配布します。 より多くの取引で獲得しましょう！"
+    },
     "SURGE_PAYOUT": {
       "TITLE": "Surge S{SEASON_NUMBER}：{DYDX_REWARDS}dYdXを獲得しました",
       "BODY": "Surge S{SEASON_NUMBER}リーダーボードの報酬が配布されるようになりました。dYdX残高をチェックして報酬を確認してください！"
