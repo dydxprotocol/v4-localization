@@ -429,6 +429,7 @@
       "WEBSITE": "ウェブサイト",
       "WHITEPAPER": "ホワイトペーパー",
       "WITHDRAW": "出金する",
+      "WITHDRAW_SLIPPAGE_WARNING": "この出金では、手数料およびスリッページで${DOLLAR_AMOUNT}（{PERCENT_AMOUNT}％）を支払っています。 異なるターゲットチェーンまたは出金金額を選択した場合、または数分待つと、手数料が低くなる場合があります。",
       "YES": "あり",
       "YOU": "お客様",
       "YOUR_ACCOUNT": "お客様の口座",
