@@ -1161,6 +1161,7 @@
       "EXCHANGE_RATE": "Exchange Rate",
       "EXPECTED_DEPOSIT_AMOUNT": "Expected Deposit Amount",
       "FREE_GAS": "Free!",
+      "FREE_ABOVE": "Free above {AMOUNT}",
       "FREE_INSTANT_DEPOSIT_MAX": "Deposit less than ${MAX_AMOUNT} for free instant deposits.",
       "FREE_INSTANT_DEPOSIT_MIN": "Deposit ${MIN_AMOUNT}+ for free instant deposits.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "You have {NUM_DEPOSITS} gasless deposits available.",
@@ -1190,7 +1191,9 @@
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Your funds are now available for trading.",
       "YOUR_FUNDS_AVAILABLE_SOON": "Your funds will be available soon, and you may safely close this popup. Please leave this browser window open until the funds land in your account.",
       "YOU_MAY_CLOSE_WINDOW": "It may take up to 25min for your deposit to arrive in your account. You may safely close this popup. Please leave this browser window open until the funds land in your account.",
-      "YOUR_DEPOSIT": "Your deposit"
+      "YOUR_DEPOSIT": "Your deposit",
+      "TURNKEY_DEPOSIT_WARNING": "Only deposit {TOKENS} on {NETWORK} networks.",
+      "TURNKEY_DEPOSIT_SUBTITLE": "on {NETWORK} Network"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Enable withdraw",
@@ -1833,7 +1836,17 @@
       "EMAIL_PLACEHOLDER": "Enter your email",
       "CHECK_EMAIL_TITLE": "Check your Email",
       "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
-      "RESEND": "Resend"
+      "RESEND": "Resend",
+      "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait"
+    },
+    "TURNKEY_ACCOUNT": {
+      "EMAIL_DESC": "This email was used to generate your on-chain wallet. You will need access for account recovery.",
+      "GOOGLE_DESC": "This Google account was used to generate your on-chain wallet. You will need access for account recovery.",
+      "APPLE_DESC": "This Apple account was used to generate your on-chain wallet. You will need access for account recovery.",
+      "EXPORT_DESC": "Your seed phrase is used to secure your wallets. View the seed phrase for your source & trading wallets below.",
+      "EXPORT_SOURCE_WALLET": "Export source wallet",
+      "EXPORT_DYDX_WALLET": "Export dYdX wallet"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Acknowledge High Slippage",
@@ -2354,7 +2367,7 @@
       "HIDE_PHRASE": "Hide phrase",
       "NEVER_SHARE_PHRASE": "Never share your phrase with anyone!",
       "REVEAL_SECRET_PHRASE": "Reveal secret phrase",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "Your secret phrase is a set of 24 words used to backup and access your account.",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "Your secret phrase is a set of 12 or 24 words used to backup and access your account.",
       "SECRET_PHRASE_RISK": "Anyone with your secret phrase has access to your wallet, putting your assets at risk.",
       "SECRET_PHRASE_RISK_ACK": "I understand the risks and I will never share my secret phrase with anyone.",
       "SHOW_PHRASE": "Show phrase",
