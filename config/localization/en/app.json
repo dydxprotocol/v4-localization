@@ -2213,6 +2213,10 @@
       "SURGE_HOW_TO_EARN_2": "Retail (25%) - For taker trades made through the dYdX web and mobile interfaces.",
       "SURGE_HOW_TO_EARN_3": "Activation (0%) - Designed to incentivize new features, DYDX staking, liquidity in key markets, and re-engagement of past users."
     },
+    "REWARDS_SURGE": {
+      "SURGE_HEADLINE_SEP_2025": "Surge: $1M in rewards + 50% fee rebate",
+      "SURGE_BODY_SEP_2025": "Earn 50% of your fees back in DYDX and compete for your share of $1m through dYdX Surge! Rewards are paid out at the end of the month."
+    },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
       "YOU_EARNED": "You earned rewards!"
