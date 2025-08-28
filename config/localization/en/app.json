@@ -1839,7 +1839,10 @@
       "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
       "RESEND": "Resend",
       "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
-      "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait"
+      "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait",
+      "WELCOME_TO_DYDX": "Welcome to dYdX",
+      "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
+      "DEPOSIT_AND_TRADE": "Deposit and start trading"
     },
     "TURNKEY_ACCOUNT": {
       "EMAIL_DESC": "This email was used to generate your on-chain wallet. You will need access for account recovery.",
