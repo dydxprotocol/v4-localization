@@ -1840,7 +1840,7 @@
       "RESEND": "Resend",
       "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
       "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait",
-      "WELCOME": "Welcome to dYdX",
+      "WELCOME_TO_DYDX": "Welcome to dYdX",
       "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
       "DEPOSIT_AND_TRADE": "Deposit and start trading"
     },
