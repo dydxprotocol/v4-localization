@@ -2542,10 +2542,6 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "There are no funds available for you to reclaim at this time.",
       "RECLAIM_FUNDS_SIGNING": "Upon reclaiming, you will be prompted to sign {NUM_TRANSACTIONS} transaction(s) to return the funds previously used as collateral for isolated margin trading."
-    },
-    "SURGE_BANNER": {
-      "TITLE": "dYdX Surge: $3M Rewards Up for Grabs.",
-      "END_DATE": "Ends August 31"
     }
   },
   "TOKEN_MIGRATION": {
