@@ -1734,6 +1734,7 @@
       "TRIGGER_PRICE": "트리거 가격",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "트리거 주문의 연계 해제된 포지션이 마감되었거나 뒤집혔습니다.",
       "TRIGGERS": "트리거",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "미담보 ",
       "UNOPENED_ISOLATED_POSITIONS": "개설되지 않은 격리된 포지션",
       "UNREALIZED_PNL": "미실현 손익",
@@ -2520,6 +2521,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "현재 회수할 자금이 없습니다.",
       "RECLAIM_FUNDS_SIGNING": "회수하면 이전에 격리된 마진 거래를 위한 담보로 사용된 자금을 반환하기 위해 {NUM_TRANSACTIONS}건의 거래에 서명하라는 메시지를 받습니다."
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdX 서지: 3백만 달러의 보상이 걸려 있습니다.",
+      "END_DATE": "8월 31일 종료"
     }
   },
   "TOKEN_MIGRATION": {
