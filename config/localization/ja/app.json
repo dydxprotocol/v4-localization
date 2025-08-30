@@ -1734,6 +1734,7 @@
       "TRIGGER_PRICE": "トリガー価格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "トリガー注文の関連ポジションがクローズまたは反転されました。",
       "TRIGGERS": "トリガー",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "担保不足",
       "UNOPENED_ISOLATED_POSITIONS": "開かれていない分離ポジション",
       "UNREALIZED_PNL": "未実現損益",
@@ -2520,6 +2521,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "現時点で回収できる資金はありません。",
       "RECLAIM_FUNDS_SIGNING": "再請求すると、信用取引の担保として以前に使用されていた資金を返却するため、{NUM_TRANSACTIONS}トランザクションに署名する必要があります。"
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdXサージ：300万ドルの報酬が獲得可能です。",
+      "END_DATE": "8月31日で終了"
     }
   },
   "TOKEN_MIGRATION": {
