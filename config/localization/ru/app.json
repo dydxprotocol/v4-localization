@@ -1734,6 +1734,7 @@
       "TRIGGER_PRICE": "Триггерная цена",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "Связанная с триггерным ордером позиция была закрыта или перевернута.",
       "TRIGGERS": "Триггеры",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Недостаточное обеспечение",
       "UNOPENED_ISOLATED_POSITIONS": "Неоткрытые изолированные позиции",
       "UNREALIZED_PNL": "Нереализированные прибыли и убытки",
@@ -2520,6 +2521,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "На данный момент нет средств для возврата.",
       "RECLAIM_FUNDS_SIGNING": "При возврате вам будет предложено подписать транзакции ({NUM_TRANSACTIONS}) для возврата средств, ранее использованных в качестве залогового обеспечения для маржинальной торговли."
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdX Surge: награда 3 млн долл. США.",
+      "END_DATE": "Заканчивается 31 августа"
     }
   },
   "TOKEN_MIGRATION": {

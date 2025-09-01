@@ -1734,6 +1734,7 @@
       "TRIGGER_PRICE": "Prix de déclenchement",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "La position associée de l'ordre de déclenchement a été clôturée ou inversée.",
       "TRIGGERS": "Déclencheurs",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Sous garantie",
       "UNOPENED_ISOLATED_POSITIONS": "Positions isolées non ouvertes",
       "UNREALIZED_PNL": "Pertes et profits non réalisés",
@@ -2520,6 +2521,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "Il n'y a pas de fonds disponibles à récupérer pour le moment.",
       "RECLAIM_FUNDS_SIGNING": "Lors de la récupération, vous serez invité(e) à signer {NUM_TRANSACTIONS} transaction(s) pour restituer les fonds précédemment utilisés comme collatéral pour le prix du marché isolé."
+    },
+    "SURGE_BANNER": {
+      "TITLE": "Essor de dYdX : 3 millions de dollars de récompenses à gagner.",
+      "END_DATE": "Se termine le 31 août"
     }
   },
   "TOKEN_MIGRATION": {
