@@ -180,6 +180,10 @@
       "TITLE": "Récompenses estimées",
       "BODY": "Gagnez des récompenses en tradant sur dYdX. La nature des récompenses est variable."
     },
+    "MAXIMUM_REWARDS_SEPT_2025": {
+      "TITLE": "Récompenses DYDX",
+      "BODY": "Gagnez 50 % de vos frais en DYDX et concourez pour votre part {REWARD_AMOUNT}via dYdX Surge ! Les récompenses sont versées à la fin du mois"
+    },
     "NET_FUNDING": {
       "TITLE": "Financement net",
       "BODY": "Financement total gagné\/payé pour la durée de vie de la position actuelle. Se réinitialise si vous fermez votre position ou changez de côté de position (long à court, ou vice versa)."
