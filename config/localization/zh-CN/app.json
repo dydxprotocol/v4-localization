@@ -1161,6 +1161,7 @@
       "EXCHANGE_RATE": "汇率",
       "EXPECTED_DEPOSIT_AMOUNT": "预期充值金额",
       "FREE_GAS": "免费！",
+      "FREE_ABOVE": "达到{AMOUNT}以上即免费",
       "FREE_INSTANT_DEPOSIT_MAX": "存入低于{MAX_AMOUNT}美元即可享受免费即时充值。",
       "FREE_INSTANT_DEPOSIT_MIN": "存入超过{MIN_AMOUNT}美元即可享受免费即时充值。",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "您有{NUM_DEPOSITS}无gas充值可用。",
@@ -1190,7 +1191,9 @@
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "您的资金现在可用于交易。",
       "YOUR_FUNDS_AVAILABLE_SOON": "您的资金即将可用，您可以安全地关闭此弹出窗口。 请保持此浏览器窗口打开，直到资金进入您的账户。",
       "YOU_MAY_CLOSE_WINDOW": "您的充值可能需要25分钟才能到达您的账户。 您可以安全地关闭此弹出窗口。 请保持此浏览器窗口打开，直到资金进入您的账户。",
-      "YOUR_DEPOSIT": "您的充值"
+      "YOUR_DEPOSIT": "您的充值",
+      "TURNKEY_DEPOSIT_WARNING": "仅在{NETWORK}网络上充值{TOKENS}。",
+      "TURNKEY_DEPOSIT_SUBTITLE": "在{NETWORK}网络上"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "启用提现功能",
@@ -1368,6 +1371,7 @@
       "EPOCH_NUMBER": "时段{EPOCH_NUMBER}",
       "ESTIMATED_FOR_THIS_EPOCH": "为本时段预估",
       "ESTIMATED_REWARDS": "预估奖励",
+      "ESTIMATED_MONTHLY_REBATE": "预估每月回扣",
       "ESTIMATED_UNLOCKED_REWARDS": "预估解锁奖励",
       "EXCHANGE_MARKET_SHARE": "交易所市场份额",
       "EXPORT": "导出",
@@ -1833,7 +1837,20 @@
       "EMAIL_PLACEHOLDER": "输入您的电子邮箱",
       "CHECK_EMAIL_TITLE": "检查您的电子邮箱",
       "CHECK_EMAIL_DESCRIPTION": "打开电子邮箱中的魔术链接，以完成登录。",
-      "RESEND": "重新发送"
+      "RESEND": "重新发送",
+      "CONTINUE_SIGN_IN_TITLE": "继续登录",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "请等待",
+      "WELCOME_TO_DYDX": "欢迎来到 dYdX",
+      "USER_SIGNED_IN_BELOW": "您已使用以下账户登录",
+      "DEPOSIT_AND_TRADE": "充值并开始交易"
+    },
+    "TURNKEY_ACCOUNT": {
+      "EMAIL_DESC": "此电子邮件用于生成您的链上钱包。您需要访问权限才能恢复账户。",
+      "GOOGLE_DESC": "此Google账户用于生成您的链上钱包。 您需要访问权限才能恢复账户。",
+      "APPLE_DESC": "此Apple账户用于生成您的链上钱包。您需要访问权限才能恢复账户。",
+      "EXPORT_DESC": "您的助记词用于保护您的钱包。请在下方查看您的来源钱包和交易钱包的助记词。",
+      "EXPORT_SOURCE_WALLET": "导出来源钱包",
+      "EXPORT_DYDX_WALLET": "导出dYdX钱包"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "确认大额滑点",
@@ -2189,7 +2206,11 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "上述第三方产品和服务不适用于居住在美国、加拿大或受限制地区的任何人、居住在美国、加拿大或受限制地区的人士或在这些地区注册的人士。如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 "
     },
     "REWARDS_SURGE_APRIL_2025": {
+      "SURGE": "激增",
+      "SURGE_COUNTDOWN": "S{SURGE_SEASON} 倒计时",
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
+      "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还",
+      "SURGE_BODY_SEP_2025": "每月月底向dYdX交易者分发高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
       "SURGE_BODY": "每月向dYdX交易者分发高达300万美元的奖励。 行动起来吧，点击排行榜了解详情。",
       "SURGE_HOW_IT_WORKS": "运作方式",
       "SURGE_HOW_IT_WORKS_1": "若要参与，只需在dYdX上进行交易即可。",
@@ -2354,7 +2375,7 @@
       "HIDE_PHRASE": "隐藏助记词",
       "NEVER_SHARE_PHRASE": "永远不要与任何人分享您的助记词！",
       "REVEAL_SECRET_PHRASE": "显示助记词",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "您的助记词由 24 个单词组成，用于备份和访问您的账户。",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "您的助记词由12或24个单词组成，用于备份和访问您的账户。",
       "SECRET_PHRASE_RISK": "任何知道您助记词的人都可以使用您的钱包，从而使您的资产面临风险。",
       "SECRET_PHRASE_RISK_ACK": "我了解风险，且绝不会与任何人分享我的助记词。",
       "SHOW_PHRASE": "显示助记词",
