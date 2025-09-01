@@ -175,7 +175,10 @@
       "ENTER_CODE": "확인 코드 입력",
       "LOGIN_SIGNUP": "로그인 또는 가입",
       "LOGIN_SIGNUP_TEXT": "소셜 미디어에 로그인하거나 지갑을 연결하여 시작하십시오",
-      "LOGIN_SIGNUP_TEXT_2": "지갑을 연결하거나 소셜 미디어에 로그인하여 시작하십시오"
+      "LOGIN_SIGNUP_TEXT_2": "지갑을 연결하거나 소셜 미디어에 로그인하여 시작하십시오",
+      "DEPOSIT_DESC": "지원되는 체인에서 자금을 입금하세요",
+      "WITHDRAWAL_DESC": "지원되는 체인으로 자금을 인출하세요",
+      "TRANSFEROUT_DESC": "dYdX 주소로 자금 전송"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "프로필 생성"
