@@ -175,7 +175,10 @@
       "ENTER_CODE": "输入验证码",
       "LOGIN_SIGNUP": "登录或注册",
       "LOGIN_SIGNUP_TEXT": "使用社交媒体登录或连接您的钱包以开始",
-      "LOGIN_SIGNUP_TEXT_2": "使用社交媒体登录或连接您的钱包以开始"
+      "LOGIN_SIGNUP_TEXT_2": "使用社交媒体登录或连接您的钱包以开始",
+      "DEPOSIT_DESC": "从支持的链中存入资金",
+      "WITHDRAWAL_DESC": "将资金提取至支持的链",
+      "TRANSFEROUT_DESC": "将资金发送到任何dYdX地址"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "创建个人资料"

@@ -180,6 +180,10 @@
       "TITLE": "预估奖励",
       "BODY": "一边在dYdX上交易，一边赚取奖励。实际奖励可能有所不同。"
     },
+    "MAXIMUM_REWARDS_SEPT_2025": {
+      "TITLE": "DYDX奖励",
+      "BODY": "在DYDX赚取50%的费用返还，并通过dYdX Surge争夺您的份额{REWARD_AMOUNT}！当月末支付奖励"
+    },
     "NET_FUNDING": {
       "TITLE": "净资金",
       "BODY": "当前头寸存续期间赚取或支付的资金总额。如果将头寸平仓或更改头寸方向（多头转为空头，或反之），则重置。"
