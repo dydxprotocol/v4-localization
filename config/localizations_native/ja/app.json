@@ -175,7 +175,10 @@
       "ENTER_CODE": "検証コードを入力",
       "LOGIN_SIGNUP": "ログインまたは登録",
       "LOGIN_SIGNUP_TEXT": "ソーシャルでサインインするか、ウォレットを接続して開始",
-      "LOGIN_SIGNUP_TEXT_2": "ウォレットを接続するか、ソーシャルでサインインして開始"
+      "LOGIN_SIGNUP_TEXT_2": "ウォレットを接続するか、ソーシャルでサインインして開始",
+      "DEPOSIT_DESC": "サポートされているチェーンから資金を入金する",
+      "WITHDRAWAL_DESC": "サポートされているチェーンに資金を出金する",
+      "TRANSFEROUT_DESC": "dYdXアドレスに資金を送金する"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "プロフィールを作成"
