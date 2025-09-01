@@ -2543,9 +2543,10 @@
       "NO_FUNDS_TO_RECLAIM": "There are no funds available for you to reclaim at this time.",
       "RECLAIM_FUNDS_SIGNING": "Upon reclaiming, you will be prompted to sign {NUM_TRANSACTIONS} transaction(s) to return the funds previously used as collateral for isolated margin trading."
     },
-    "SURGE_BANNER": {
-      "TITLE": "dYdX Surge: $3M Rewards Up for Grabs.",
-      "END_DATE": "Ends August 31"
+    "REBATE_BANNER": {
+      "REBATE_BANNER_TITLE": "This September: Get 50% of Trading Fees Back",
+      "REBATE_BANNER_SUBTITLE": "Paid out in October",
+      "REBATE_BANNER_CTA": "Get Rebate"
     }
   },
   "TOKEN_MIGRATION": {
