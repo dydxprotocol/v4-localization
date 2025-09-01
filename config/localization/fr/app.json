@@ -1161,6 +1161,7 @@
       "EXCHANGE_RATE": "Taux de change",
       "EXPECTED_DEPOSIT_AMOUNT": "Montant du dépôt attendu",
       "FREE_GAS": "Gratuit !",
+      "FREE_ABOVE": "Gratuit au-dessus de [contexte manquant]{AMOUNT}",
       "FREE_INSTANT_DEPOSIT_MAX": "Déposez moins de {MAX_AMOUNT} $ pour des dépôts instantanés gratuits.",
       "FREE_INSTANT_DEPOSIT_MIN": "Déposez {MIN_AMOUNT} $ ou plus pour des dépôts instantanés gratuits.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "Vous avez {NUM_DEPOSITS} dépôts sans gaz disponibles.",
@@ -1190,7 +1191,9 @@
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "Vos fonds sont maintenant disponibles pour le trading.",
       "YOUR_FUNDS_AVAILABLE_SOON": "Vos fonds seront bientôt disponibles et vous pourrez fermer cette fenêtre contextuelle en toute sécurité. Veuillez laisser cette fenêtre du navigateur ouverte jusqu'à ce que les fonds arrivent sur votre compte.",
       "YOU_MAY_CLOSE_WINDOW": "L'arrivée de votre dépôt sur votre compte peut prendre jusqu'à 25 minutes. Vous pouvez fermer cette fenêtre popup en toute sécurité. Veuillez laisser cette fenêtre du navigateur ouverte jusqu'à ce que les fonds arrivent sur votre compte.",
-      "YOUR_DEPOSIT": "Votre dépôt"
+      "YOUR_DEPOSIT": "Votre dépôt",
+      "TURNKEY_DEPOSIT_WARNING": "Dépôt uniquement {TOKENS}sur {NETWORK}les réseaux.",
+      "TURNKEY_DEPOSIT_SUBTITLE": "sur {NETWORK} le réseau"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "Activer le retrait",
@@ -1368,6 +1371,7 @@
       "EPOCH_NUMBER": "Epoch {EPOCH_NUMBER}",
       "ESTIMATED_FOR_THIS_EPOCH": "estimé pour cet epoch",
       "ESTIMATED_REWARDS": "Récompenses estimées",
+      "ESTIMATED_MONTHLY_REBATE": "Remboursement mensuel estimé",
       "ESTIMATED_UNLOCKED_REWARDS": "récompenses débloquées estimées",
       "EXCHANGE_MARKET_SHARE": "part du marché des échanges",
       "EXPORT": "Exportation",
@@ -1833,7 +1837,20 @@
       "EMAIL_PLACEHOLDER": "Entrez votre adresse e-mail",
       "CHECK_EMAIL_TITLE": "Vérifiez votre adresse e-mail",
       "CHECK_EMAIL_DESCRIPTION": "Ouvrez le lien magique dans votre e-mail pour terminer votre connexion",
-      "RESEND": "Renvoyer"
+      "RESEND": "Renvoyer",
+      "CONTINUE_SIGN_IN_TITLE": "Continuez à vous connecter",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "Veuillez patienter",
+      "WELCOME_TO_DYDX": "Bienvenue sur dYdX",
+      "USER_SIGNED_IN_BELOW": "Vous êtes maintenant connecté avec le compte ci-dessous",
+      "DEPOSIT_AND_TRADE": "Déposer et commencer à trading"
+    },
+    "TURNKEY_ACCOUNT": {
+      "EMAIL_DESC": "Cet e-mail a été utilisé pour générer votre portefeuille blockchain. Vous aurez besoin d'un accès pour la récupération du compte.",
+      "GOOGLE_DESC": "Ce compte Google a été utilisé pour générer votre portefeuille blockchain. Vous aurez besoin d'un accès pour la récupération du compte.",
+      "APPLE_DESC": "Ce compte Apple a été utilisé pour générer votre portefeuille blockchain. Vous aurez besoin d'un accès pour la récupération du compte.",
+      "EXPORT_DESC": "Votre phrase de départ sert à sécuriser vos portefeuilles. Consultez la phrase secrète pour vos portefeuilles source et de trading ci-dessous.",
+      "EXPORT_SOURCE_WALLET": "Exporter le portefeuille source",
+      "EXPORT_DYDX_WALLET": "Exporter le portefeuille dYdX"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Accepter le slippage élevé",
@@ -2189,7 +2206,11 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "Ces produits et services de tiers ne sont pas disponibles pour les personnes qui résident, sont situées ou constituées aux États-Unis, au Canada ou dans un territoire soumis à des restrictions, ou qui ont un agent enregistré dans ces pays. Pour plus de détails, consultez nos {TERMS_OF_USE_LINK}."
     },
     "REWARDS_SURGE_APRIL_2025": {
+      "SURGE": "Montée",
+      "SURGE_COUNTDOWN": "Compte à rebours S{SURGE_SEASON}",
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
+      "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT}en récompenses + {REBATE_PERCENT}remise de frais.",
+      "SURGE_BODY_SEP_2025": "Jusqu'à {REWARD_AMOUNT} en récompenses et un remboursement de frais de {REBATE_PERCENT} sont distribués aux traders de dYdX à la fin de chaque mois.",
       "SURGE_BODY": "Jusqu'à 3 millions de dollars de récompenses sont distribués chaque mois aux traders de dYdX. Faites votre choix, cliquez sur le tableau des leaders pour en savoir plus.",
       "SURGE_HOW_IT_WORKS": "Comment cela fonctionne ?",
       "SURGE_HOW_IT_WORKS_1": "Pour participer, il suffit d'effectuer un trade sur dYdX.",
@@ -2354,7 +2375,7 @@
       "HIDE_PHRASE": "Masquer une phrase",
       "NEVER_SHARE_PHRASE": "Ne divulguez jamais votre phrase à personne !",
       "REVEAL_SECRET_PHRASE": "Révélez une phrase secrète",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "Votre phrase secrète est un ensemble de 24 mots utilisés pour sauvegarder votre compte et pour y accéder.",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "Votre phrase secrète est un ensemble de 12 ou 24 mots utilisés pour sauvegarder et accéder à votre compte.",
       "SECRET_PHRASE_RISK": "Toute personne en possession de votre phrase secrète a accès à votre portefeuille, mettant vos actifs en danger.",
       "SECRET_PHRASE_RISK_ACK": "Je comprends les risques et je ne partagerai jamais ma phrase secrète avec qui que ce soit.",
       "SHOW_PHRASE": "Afficher une phrase",
