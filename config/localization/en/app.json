@@ -2547,6 +2547,12 @@
       "REBATE_BANNER_TITLE": "This September: Get 50% of Trading Fees Back",
       "REBATE_BANNER_SUBTITLE": "Paid out in October",
       "REBATE_BANNER_CTA": "Get Rebate"
+    },
+    "FREE_DEPOSIT_BANNER": {
+      "FREE_DEPOSIT_BANNER_TITLE_FREE": "Free",
+      "FREE_DEPOSIT_BANNER_TITLE_AND": "& Instant Deposits",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "For amounts of $100 or more",
+      "FREE_DEPOSIT_BANNER_CTA": "Free Deposit"
     }
   },
   "TOKEN_MIGRATION": {
