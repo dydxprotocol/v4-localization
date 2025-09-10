@@ -1161,6 +1161,7 @@
       "EXCHANGE_RATE": "為替レート",
       "EXPECTED_DEPOSIT_AMOUNT": "予想入金額",
       "FREE_GAS": "無料！",
+      "FREE_ABOVE": "上の内容は無料です{AMOUNT}",
       "FREE_INSTANT_DEPOSIT_MAX": "${MAX_AMOUNT}未満の入金は、手数料なしで即時反映されます。",
       "FREE_INSTANT_DEPOSIT_MIN": "${MIN_AMOUNT}以上の入金は、手数料なしで即時反映されます。",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "{NUM_DEPOSITS}件のガスレス入金が可能です。",
@@ -1190,7 +1191,9 @@
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "お客様の資金が取引に使用できるようになりました。",
       "YOUR_FUNDS_AVAILABLE_SOON": "資金はまもなく利用できるようになりますので、このポップアップをクローズしても構いません。 資金が口座に到達するまで、このブラウザウィンドウを開いたままにしてください。",
       "YOU_MAY_CLOSE_WINDOW": "口座が入金されるまで最大25分かかることがあります。 このポップアップはクローズしても構いません。 資金が口座に到達するまで、このブラウザウィンドウを開いたままにしてください。",
-      "YOUR_DEPOSIT": "お客様の入金"
+      "YOUR_DEPOSIT": "お客様の入金",
+      "TURNKEY_DEPOSIT_WARNING": "{NETWORK}ネットワークでのみ入金{TOKENS}できます。",
+      "TURNKEY_DEPOSIT_SUBTITLE": "{NETWORK}ネットワーク上"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "出金を有効にする",
@@ -1368,6 +1371,7 @@
       "EPOCH_NUMBER": "エポック{EPOCH_NUMBER}",
       "ESTIMATED_FOR_THIS_EPOCH": "このエポックにおける見積額",
       "ESTIMATED_REWARDS": "推定報酬",
+      "ESTIMATED_MONTHLY_REBATE": "毎月のリベートの推定値",
       "ESTIMATED_UNLOCKED_REWARDS": "ロック解除された報酬（推定）",
       "EXCHANGE_MARKET_SHARE": "為替市場シェア",
       "EXPORT": "エクスポート",
@@ -1734,6 +1738,7 @@
       "TRIGGER_PRICE": "トリガー価格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "トリガー注文の関連ポジションがクローズまたは反転されました。",
       "TRIGGERS": "トリガー",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "担保不足",
       "UNOPENED_ISOLATED_POSITIONS": "開かれていない分離ポジション",
       "UNREALIZED_PNL": "未実現損益",
@@ -1832,7 +1837,20 @@
       "EMAIL_PLACEHOLDER": "メールアドレスを入力してください",
       "CHECK_EMAIL_TITLE": "メールを確認してください",
       "CHECK_EMAIL_DESCRIPTION": "メール内のマジックリンクを開いて、サインインを完了します",
-      "RESEND": "再送信"
+      "RESEND": "再送信",
+      "CONTINUE_SIGN_IN_TITLE": "サインインを続ける",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "お待ちください",
+      "WELCOME_TO_DYDX": "dYdXへようこそ",
+      "USER_SIGNED_IN_BELOW": "以下のアカウントでサインインされました",
+      "DEPOSIT_AND_TRADE": "入金して金融取引を開始する"
+    },
+    "TURNKEY_ACCOUNT": {
+      "EMAIL_DESC": "このメールは、オンチェーンウォレットの作成に使用されました。 アカウントの回復にはアクセスが必要です。",
+      "GOOGLE_DESC": "このGoogle口座は、オンチェーンウォレットの作成に使用されました。 アカウントの回復にはアクセスが必要です。",
+      "APPLE_DESC": "このApple口座は、オンチェーンウォレットの作成に使用されました。アカウントの回復にはアクセスが必要です。",
+      "EXPORT_DESC": "シードフレーズはウォレットを保護するために使用されます。 以下に送金用および取引用ウォレットのシードフレーズを表示しています。",
+      "EXPORT_SOURCE_WALLET": "送金用ウォレットをエクスポートする",
+      "EXPORT_DYDX_WALLET": "dYdXウォレットをエクスポートする"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "高スリッページを承認する",
@@ -2188,7 +2206,11 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "これらの第三者による製品およびサービスは、米国、カナダ、あるいは制限地域に居住している、拠点を置いている、法人化している、または登録代理人を置いているユーザーは利用できません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。"
     },
     "REWARDS_SURGE_APRIL_2025": {
+      "SURGE": "サージ",
+      "SURGE_COUNTDOWN": "S{SURGE_SEASON}カウントダウン",
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
+      "SURGE_HEADLINE_SEP_2025": " 報酬{REWARD_AMOUNT} + {REBATE_PERCENT}手数料リベート",
+      "SURGE_BODY_SEP_2025": "最大{REWARD_AMOUNT}での報酬および{REBATE_PERCENT}手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
       "SURGE_BODY": "最大300万ドルの報酬が毎月dYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
       "SURGE_HOW_IT_WORKS": "使い方",
       "SURGE_HOW_IT_WORKS_1": "参加するには、dYdXで取引を行うだけです。",
@@ -2353,7 +2375,7 @@
       "HIDE_PHRASE": "フレーズを非表示",
       "NEVER_SHARE_PHRASE": "フレーズを誰にも共有しないでください！",
       "REVEAL_SECRET_PHRASE": "シークレットフレーズを表示",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "シークレットフレーズとは、口座のバックアップおよびアクセスに使用される24個の単語のセットです。",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "シークレットフレーズは、アカウントのバックアップやアクセスに使用される12語または24語のセットです。",
       "SECRET_PHRASE_RISK": "シークレットフレーズを持つ人は誰でもウォレットにアクセスでき、お客様の資産を危険にさらします。",
       "SECRET_PHRASE_RISK_ACK": "リスクを理解し、シークレットフレーズを誰にも共有することはありません。",
       "SHOW_PHRASE": "フレーズを表示",
@@ -2520,6 +2542,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "現時点で回収できる資金はありません。",
       "RECLAIM_FUNDS_SIGNING": "再請求すると、信用取引の担保として以前に使用されていた資金を返却するため、{NUM_TRANSACTIONS}トランザクションに署名する必要があります。"
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdXサージ：300万ドルの報酬が獲得可能です。",
+      "END_DATE": "8月31日で終了"
     }
   },
   "TOKEN_MIGRATION": {

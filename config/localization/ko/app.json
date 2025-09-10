@@ -1161,6 +1161,7 @@
       "EXCHANGE_RATE": "거래소 비율",
       "EXPECTED_DEPOSIT_AMOUNT": "예상 입금 금액",
       "FREE_GAS": "무료!",
+      "FREE_ABOVE": "{AMOUNT} 이상 무료",
       "FREE_INSTANT_DEPOSIT_MAX": "{MAX_AMOUNT}달러 미만 입금 시, 즉시 무료 입금 혜택을 제공합니다.",
       "FREE_INSTANT_DEPOSIT_MIN": "{MIN_AMOUNT}달러 이상 입금하고, 즉시 무료 입금 혜택을 누려보세요.",
       "GASLESS_DEPOSITS_DESCRIPTION_PLURAL": "{NUM_DEPOSITS}의 가스 수수료 면제 입금을 할 수 있습니다.",
@@ -1190,7 +1191,9 @@
       "YOUR_FUNDS_AVAILABLE_FOR_TRADING": "이제 귀하의 자금을 거래에 사용할 수 있습니다.",
       "YOUR_FUNDS_AVAILABLE_SOON": "귀하의 자금은 곧 제공될 예정이며, 이 팝업을 안전하게 종료할 수 있습니다. 자금이 귀하의 계정에 입금될 때까지 이 브라우저 창을 열어 두세요.",
       "YOU_MAY_CLOSE_WINDOW": "입금이 계정에 도착하는 데 최대 25분이 걸릴 수 있습니다. 이 팝업을 안전하게 종료하세요. 자금이 귀하의 계정에 입금될 때까지 이 브라우저 창을 열어 두세요.",
-      "YOUR_DEPOSIT": "입금"
+      "YOUR_DEPOSIT": "입금",
+      "TURNKEY_DEPOSIT_WARNING": "{NETWORK} 네트워크에서 {TOKENS}만 입금하세요.",
+      "TURNKEY_DEPOSIT_SUBTITLE": "{NETWORK}네트워크에서"
     },
     "WITHDRAW_MODAL": {
       "ENABLE_WITHDRAW": "인출 활성화",
@@ -1368,6 +1371,7 @@
       "EPOCH_NUMBER": "{EPOCH_NUMBER} 에폭",
       "ESTIMATED_FOR_THIS_EPOCH": "이번 에폭으로 추정됨",
       "ESTIMATED_REWARDS": "추정 리워드",
+      "ESTIMATED_MONTHLY_REBATE": "예상 월별 리베이트",
       "ESTIMATED_UNLOCKED_REWARDS": "잠금이 해제되는 보상 예상",
       "EXCHANGE_MARKET_SHARE": "교환 시장 점유율",
       "EXPORT": "내보내기",
@@ -1734,6 +1738,7 @@
       "TRIGGER_PRICE": "트리거 가격",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "트리거 주문의 연계 해제된 포지션이 마감되었거나 뒤집혔습니다.",
       "TRIGGERS": "트리거",
+      "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "미담보 ",
       "UNOPENED_ISOLATED_POSITIONS": "개설되지 않은 격리된 포지션",
       "UNREALIZED_PNL": "미실현 손익",
@@ -1832,7 +1837,20 @@
       "EMAIL_PLACEHOLDER": "이메일을 입력하세요",
       "CHECK_EMAIL_TITLE": "이메일을 확인하세요.",
       "CHECK_EMAIL_DESCRIPTION": "이메일에서 매직 링크를 열어 로그인을 완료하세요",
-      "RESEND": "재전송"
+      "RESEND": "재전송",
+      "CONTINUE_SIGN_IN_TITLE": "로그인을 계속 진행하세요.",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "기다려 주세요",
+      "WELCOME_TO_DYDX": "dYdX에 오신 것을 환영합니다",
+      "USER_SIGNED_IN_BELOW": "현재 아래 계정으로 서명했습니다",
+      "DEPOSIT_AND_TRADE": "입금하고 거래를 시작하세요."
+    },
+    "TURNKEY_ACCOUNT": {
+      "EMAIL_DESC": "이 이메일은 온체인 지갑을 생성하는 데 사용되었습니다. 계정 복구를 위해 액세스가 필요합니다.",
+      "GOOGLE_DESC": "이 Google 계정은 온체인 지갑을 생성하는 데 사용되었습니다. 계정 복구를 위해 액세스가 필요합니다.",
+      "APPLE_DESC": "이 Apple 계정은 온체인 지갑을 생성하는 데 사용되었습니다. 계정 복구를 위해 액세스가 필요합니다.",
+      "EXPORT_DESC": "귀하의 시드 문구는 지갑을 보호하는 데 사용됩니다. 아래에서 소스 및 거래 지갑의 시드 문구를 확인하세요.",
+      "EXPORT_SOURCE_WALLET": "소스 지갑 내보내기",
+      "EXPORT_DYDX_WALLET": "dYdX 지갑 내보내기"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "높은 슬리피지 확인",
@@ -2188,7 +2206,11 @@
       "TRADING_REWARDS_UNAVAILABLE_IN_US": "이러한 타사 서비스 및 제품은 미국, 캐나다 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다."
     },
     "REWARDS_SURGE_APRIL_2025": {
+      "SURGE": "서지",
+      "SURGE_COUNTDOWN": "S{SURGE_SEASON} 카운트다운",
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
+      "SURGE_HEADLINE_SEP_2025": "{REBATE_PERCENT} 보상 + {REWARD_AMOUNT} 수수료 리베이트",
+      "SURGE_BODY_SEP_2025": "매달 말에 dYdX 트레이더에게 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 배포됩니다{REWARD_AMOUNT}.",
       "SURGE_BODY": "매달 dYdX 트레이더에게 최대 3백만 달러의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
       "SURGE_HOW_IT_WORKS": "작동 원리",
       "SURGE_HOW_IT_WORKS_1": "참여하려면 dYdX에서 거래하면 됩니다. ",
@@ -2353,7 +2375,7 @@
       "HIDE_PHRASE": "문구 숨기기",
       "NEVER_SHARE_PHRASE": "문구를 누구와도 공유하지 마세요!",
       "REVEAL_SECRET_PHRASE": "비밀 문구 공개",
-      "REVEAL_SECRET_PHRASE_DESCRIPTION": "비밀 문구는 백업 및 액세스에 사용되는 24개의 단어 집합입니다.",
+      "REVEAL_SECRET_PHRASE_DESCRIPTION": "비밀 문구는 백업 및 계정에 액세스하는 데 사용되는 12개 또는 24개 단어 집합입니다.",
       "SECRET_PHRASE_RISK": "비밀 문구를 아는 사람은 누구나 지갑에 액세스할 수 있으므로, 자산을 위험에 빠뜨릴 수 있습니다.",
       "SECRET_PHRASE_RISK_ACK": "본인은 이러한 위험을 이해하며, 누구와도 비밀 문구를 공유하지 않겠습니다.",
       "SHOW_PHRASE": "문구 표시",
@@ -2520,6 +2542,10 @@
     "RECLAIM_CHILD_SUBACCOUNT_FUNDS_MODAL": {
       "NO_FUNDS_TO_RECLAIM": "현재 회수할 자금이 없습니다.",
       "RECLAIM_FUNDS_SIGNING": "회수하면 이전에 격리된 마진 거래를 위한 담보로 사용된 자금을 반환하기 위해 {NUM_TRANSACTIONS}건의 거래에 서명하라는 메시지를 받습니다."
+    },
+    "SURGE_BANNER": {
+      "TITLE": "dYdX 서지: 3백만 달러의 보상이 걸려 있습니다.",
+      "END_DATE": "8월 31일 종료"
     }
   },
   "TOKEN_MIGRATION": {

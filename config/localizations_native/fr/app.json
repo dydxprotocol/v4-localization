@@ -175,7 +175,10 @@
       "ENTER_CODE": "Saisir le code de vérification",
       "LOGIN_SIGNUP": "Connectez-vous ou inscrivez-vous",
       "LOGIN_SIGNUP_TEXT": "Connectez-vous avec les réseaux sociaux ou connectez votre portefeuille pour commencer",
-      "LOGIN_SIGNUP_TEXT_2": "Connectez votre portefeuille ou connectez-vous avec les réseaux sociaux pour commencer"
+      "LOGIN_SIGNUP_TEXT_2": "Connectez votre portefeuille ou connectez-vous avec les réseaux sociaux pour commencer",
+      "DEPOSIT_DESC": "Déposez des fonds provenant des chaînes prises en charge",
+      "WITHDRAWAL_DESC": "Retirer les fonds vers les chaînes prises en charge",
+      "TRANSFEROUT_DESC": "Envoyez des fonds à n'importe quelle adresse dYdX"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Créer un profil"
