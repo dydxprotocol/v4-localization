@@ -2543,9 +2543,10 @@
       "NO_FUNDS_TO_RECLAIM": "現時点で回収できる資金はありません。",
       "RECLAIM_FUNDS_SIGNING": "再請求すると、信用取引の担保として以前に使用されていた資金を返却するため、{NUM_TRANSACTIONS}トランザクションに署名する必要があります。"
     },
-    "SURGE_BANNER": {
-      "TITLE": "dYdXサージ：300万ドルの報酬が獲得可能です。",
-      "END_DATE": "8月31日で終了"
+    "REBATE_BANNER": {
+      "REBATE_BANNER_TITLE": "今年9月：取引手数料の50％を還元",
+      "REBATE_BANNER_SUBTITLE": "10月に支払われます",
+      "REBATE_BANNER_CTA": "リベートを獲得する"
     }
   },
   "TOKEN_MIGRATION": {
