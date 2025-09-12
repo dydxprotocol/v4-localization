@@ -2549,6 +2549,8 @@
     },
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "This September: Get 50% of Trading Fees Back",
+      "REBATE_BANNER_TITLE_SURGE": "dYdX Surge:",
+      "REBATE_BANNER_TITLE_FEES": "Get 50% of Trading Fees Back",
       "REBATE_BANNER_SUBTITLE": "Paid out in October",
       "REBATE_BANNER_CTA": "Get Rebate"
     },
