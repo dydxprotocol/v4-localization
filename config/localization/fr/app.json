@@ -2543,9 +2543,10 @@
       "NO_FUNDS_TO_RECLAIM": "Il n'y a pas de fonds disponibles à récupérer pour le moment.",
       "RECLAIM_FUNDS_SIGNING": "Lors de la récupération, vous serez invité(e) à signer {NUM_TRANSACTIONS} transaction(s) pour restituer les fonds précédemment utilisés comme collatéral pour le prix du marché isolé."
     },
-    "SURGE_BANNER": {
-      "TITLE": "Essor de dYdX : 3 millions de dollars de récompenses à gagner.",
-      "END_DATE": "Se termine le 31 août"
+    "REBATE_BANNER": {
+      "REBATE_BANNER_TITLE": "En septembre : récupérez 50 % des frais de trading",
+      "REBATE_BANNER_SUBTITLE": "Payé en octobre",
+      "REBATE_BANNER_CTA": "Obtenir une remise"
     }
   },
   "TOKEN_MIGRATION": {
