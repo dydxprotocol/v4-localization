@@ -2543,9 +2543,10 @@
       "NO_FUNDS_TO_RECLAIM": "目前没有资金可供您收回。",
       "RECLAIM_FUNDS_SIGNING": "收回后，系统将提示您签署{NUM_TRANSACTIONS}笔交易，以退还先前作为逐仓杠杆交易质押品使用的资金。"
     },
-    "SURGE_BANNER": {
-      "TITLE": "dYdX Surge：奖励高达300万美元。",
-      "END_DATE": "8月31日结束"
+    "REBATE_BANNER": {
+      "REBATE_BANNER_TITLE": "今年9月：获得50%的交易费返还",
+      "REBATE_BANNER_SUBTITLE": "在10月支付",
+      "REBATE_BANNER_CTA": "获得返还"
     }
   },
   "TOKEN_MIGRATION": {
