@@ -1757,6 +1757,23 @@
       "DRAFT_LIMIT_SELL": "Draft Limit Sell at {PRICE}",
       "DRAFT_LIMIT_BUY": "Draft Limit Buy at {PRICE}"
     },
+    "TRADING_KEYS": {
+      "API_WALLETS_DESCRIPTION": "API wallets perform actions on behalf of your account without withdrawal permissions. You must still use your account's public address for info requests.",
+      "YOUR_DYDX_ADDRESS": "Your dYdX Address",
+      "GENERATE_NEW_API_KEY": "Generate New API Key",
+      "AUTHORIZE_API_WALLET_DESCRIPTION": "Authorize this API wallet to trade on your behalf. Before authorizing, remember to save your private key somewhere safe.",
+      "PRIVATE_KEY_NO_LONGER_ACCESSIBLE": "It will no longer be accessible once authorized.",
+      "API_WALLET_ADDRESS": "API Wallet Address",
+      "PRIVATE_KEY": "Private Key",
+      "API_KEY_AUTHORIZATION_ACKNOWLEDGMENT": "I understand that I will no longer have access to the private key once authorized. I also understand that whoever has access to this key will be able to place trades using the full margin of my account.",
+      "AUTHORIZE_API_KEY": "Authorize API Key",
+      "CONFIRM_DELETE_TRADING_KEY": "Are you sure you want to delete trading key {ADDRESS}? This key will no longer be authorized to trade on your behalf.",
+      "REMOVE": "Remove",
+      "API_TRADING_KEYS": "API Trading Keys",
+      "NEW_API_TRADING_KEY": "New API Trading Key",
+      "REMOVE_API_TRADING_KEY": "Remove API Trading Key",
+      "NO_API_TRADING_KEYS_FOUND": "No API trading keys found."
+    },
     "LEAGUES": {
       "ACTIVE": "Active",
       "AND": "and",
