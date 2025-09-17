@@ -300,6 +300,7 @@
       "PRICE_CHART_SHORT": "Price",
       "PRICE": "Price",
       "PRIVACY": "Privacy",
+      "PRIVATE": "Private",
       "PRIZE": "Prize",
       "PROFILE": "Profile",
       "PROFIT_AND_LOSS_ABSOLUTE_BY": "By Profit / Loss",
@@ -1697,6 +1698,7 @@
       "SET_ORDER_SIZE": "Set order size",
       "SET_PRICE_TRIGGERS": "Set price triggers",
       "SLIDER": "Slider",
+      "SPOT": "Spot",
       "SPOT_VOLUME_24H": "24h Spot Volume",
       "STOP_LIMIT_DESCRIPTION": "A stop limit order helps protect against losses like stop market orders, but with the versatility and features of a limit order.",
       "STOP_LIMIT": "Stop Limit",
@@ -1846,32 +1848,47 @@
       "YOURE_IN": "You're in {LEAGUE}"
     },
     "TURNKEY_ONBOARD": {
-      "SIGN_IN_TITLE": "Sign in",
+      "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}, USDC accepted",
+      "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
+      "CHECK_EMAIL_TITLE": "Check your Email",
+      "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait",
+      "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
+      "DEPOSIT_AND_TRADE": "Deposit and start trading",
+      "DEPOSIT_NETWORK_WARNING": "This address can only receive {ASSETS} on the {NETWORK} Network. ${MIN_DEPOSIT} Minimum (${MIN_INSTANT_DEPOSIT} for instant), ${MAX_DEPOSIT} Maximum deposit",
+      "EMAIL_LOGIN_SUCCESS": "You are now logged in with your email account.",
+      "EMAIL_PLACEHOLDER": "Enter your email",
+      "ERROR_LOGGING_IN": "Error logging in",
+      "ERROR_WHILE_LOGGING_IN": "An error occurred while logging in. Please try again.",
+      "LOGGED_IN": "Logged in",
+      "LOGGED_IN_WITH": "Logged in with {EMAIL}",
+      "LOGGING_IN": "Logging in...",
+      "PLEASE_WAIT_LOGIN": "Please wait while we log you in...",
+      "RESEND": "Resend",
       "SIGN_IN_DESCRIPTION": "To get started, sign in with your social accounts, email or connect your wallet.",
-      "SIGN_IN_PASSKEY": "Sign in with Passkey",
-      "SIGN_IN_WALLET": "Sign in with Wallet",
       "SIGN_IN_DESKTOP": "Sign in with Desktop",
-      "SIGN_IN_GOOGLE": "Sign in with Google",
       "SIGN_IN_APPLE": "Sign in with Apple",
       "SIGN_IN_EMAIL": "Sign in with Email",
+      "SIGN_IN_GOOGLE": "Sign in with Google",
+      "SIGN_IN_PASSKEY": "Sign in with Passkey",
+      "SIGN_IN_TITLE": "Sign in",
+      "SIGN_IN_WALLET": "Sign in with Wallet",
       "SUBMIT": "Submit",
-      "EMAIL_PLACEHOLDER": "Enter your email",
-      "CHECK_EMAIL_TITLE": "Check your Email",
-      "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
-      "RESEND": "Resend",
-      "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
-      "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait",
-      "WELCOME_TO_DYDX": "Welcome to dYdX",
       "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
-      "DEPOSIT_AND_TRADE": "Deposit and start trading"
+      "WELCOME_TO_DYDX": "Welcome to dYdX"
     },
     "TURNKEY_ACCOUNT": {
-      "EMAIL_DESC": "This email was used to generate your on-chain wallet. You will need access for account recovery.",
-      "GOOGLE_DESC": "This Google account was used to generate your on-chain wallet. You will need access for account recovery.",
+      "ACCOUNT_MANAGEMENT": "Account Management",
       "APPLE_DESC": "This Apple account was used to generate your on-chain wallet. You will need access for account recovery.",
+      "EMAIL_DESC": "This email was used to generate your on-chain wallet. You will need access for account recovery.",
       "EXPORT_DESC": "Your seed phrase is used to secure your wallets. View the seed phrase for your source & trading wallets below.",
+      "EXPORT_DYDX_WALLET": "Export dYdX wallet",
       "EXPORT_SOURCE_WALLET": "Export source wallet",
-      "EXPORT_DYDX_WALLET": "Export dYdX wallet"
+      "EXPORT_PHRASE_DESC": "Your Turnkey seed phrase is used for your deposits & withdrawals. Your dYdX seed phrase secures your perpetuals account on dYdX chain. Make sure to keep both safe and secure.",
+      "GOOGLE_DESC": "This Google account was used to generate your on-chain wallet. You will need access for account recovery.",
+      "RECOVERY_PHRASE_WARNING": "Your recovery key can grant anyone access to your funds. Save it in a secure, private location.",
+      "REVEAL_DYDX_PHRASE": "Reveal dYdX Phrase",
+      "REVEAL_TURNKEY_PHRASE": "Reveal Turnkey Phrase",
+      "SECRET_RECOVERY_PHRASE": "Secret Recovery Phrase"
     },
     "VAULTS": {
       "ACKNOWLEDGE_HIGH_SLIPPAGE": "Acknowledge High Slippage",
@@ -2928,6 +2945,9 @@
       "USER_REJECTED": "User rejected request.",
       "WALLET_CONTEXT_INVALIDATED": "Error communicating with wallet extension. Refresh or restart browser and try again.",
       "YOUR_APPROVAL_FAILED": "Your approval has failed. Please try again."
+    },
+    "TURNKEY": {
+      "TURNKEY_SESSION_EXPIRED": "Session expired. Please reauthenticate to reveal your phrase."
     }
   },
   "WARNINGS": {
