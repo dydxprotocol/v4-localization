@@ -1850,6 +1850,7 @@
       "YOURE_IN": "You're in {LEAGUE}"
     },
     "TURNKEY_ONBOARD": {
+      "ACCEPTS_ONLY_USDC": "USDC accepted",
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}, USDC accepted",
       "CHECK_EMAIL_DESCRIPTION": "Open the magic link in your email to complete your sign in",
       "CHECK_EMAIL_TITLE": "Check your Email",
