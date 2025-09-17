@@ -428,6 +428,7 @@
       "WALLET_BALANCE": "Wallet Balance",
       "WALLET": "Wallet",
       "WEBSITE": "Website",
+      "WELCOME_BACK": "Welcome back",
       "WHITEPAPER": "Whitepaper",
       "WITHDRAW": "Withdraw",
       "WITHDRAW_SLIPPAGE_WARNING": "You are paying ${DOLLAR_AMOUNT} ({PERCENT_AMOUNT}%) in fees and/or slippage on this withdrawal. Choosing a different target chain or withdrawal amount or waiting several minutes may result in lower fees.",
@@ -906,6 +907,7 @@
       "PHANTOM": "Phantom",
       "PHANTOM_SOL": "Phantom (Solana)",
       "PHANTOM_EVM": "Phantom (EVM)",
+      "PRIVY": "Privy",
       "RAINBOW_WALLET": "Rainbow",
       "TOKEN_POCKET": "TokenPocket",
       "TRUST_WALLET": "Trust",
@@ -1872,6 +1874,7 @@
       "SIGN_IN_PASSKEY": "Sign in with Passkey",
       "SIGN_IN_TITLE": "Sign in",
       "SIGN_IN_WALLET": "Sign in with Wallet",
+      "SIGN_IN_WITH_WALLET": "Sign in with Wallet",
       "SUBMIT": "Submit",
       "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
       "WELCOME_TO_DYDX": "Welcome to dYdX"
@@ -1886,6 +1889,7 @@
       "EXPORT_PHRASE_DESC": "Your Turnkey seed phrase is used for your deposits & withdrawals. Your dYdX seed phrase secures your perpetuals account on dYdX chain. Make sure to keep both safe and secure.",
       "GOOGLE_DESC": "This Google account was used to generate your on-chain wallet. You will need access for account recovery.",
       "RECOVERY_PHRASE_WARNING": "Your recovery key can grant anyone access to your funds. Save it in a secure, private location.",
+      "REAUTHENTICATE": "Reauthenticate",
       "REVEAL_DYDX_PHRASE": "Reveal dYdX Phrase",
       "REVEAL_TURNKEY_PHRASE": "Reveal Turnkey Phrase",
       "SECRET_RECOVERY_PHRASE": "Secret Recovery Phrase"
