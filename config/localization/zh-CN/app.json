@@ -1029,6 +1029,7 @@
       "START_TRADING_BLURB": "开始在世界上最强大地开放交易所上交易。",
       "SWITCH_NETWORK": "切换网络",
       "SWITCH_NETWORKS": "切换网络",
+      "TOS_SHORT": "注册即表示您同意{TERMS_LINK}和{PRIVACY_POLICY_LINK}。",
       "TOS_TITLE": "使用我们的任何产品和服务，即表示您同意﻿{TERMS_LINK}和{PRIVACY_POLICY_LINK}。您特此同意、声明并保证：",
       "TOS_LINE1": "您不是美国、加拿大或其他被封锁或受限地区的居民或公司，或者位于上述地区，或者在上述地区有注册的代理人。",
       "TOS_LINE2": "如果您位于美国、加拿大或其他受封锁或限制的地区时，您今后将不会访问本网站或使用我们的产品或服务。",
@@ -1833,6 +1834,9 @@
       "SIGN_IN_PASSKEY": "使用Passkey登录",
       "SIGN_IN_WALLET": "使用钱包登录",
       "SIGN_IN_DESKTOP": "使用桌面登录",
+      "SIGN_IN_GOOGLE": "使用 Google 登录",
+      "SIGN_IN_APPLE": "使用 Apple 登录",
+      "SIGN_IN_EMAIL": "使用电子邮件登录",
       "SUBMIT": "提交",
       "EMAIL_PLACEHOLDER": "输入您的电子邮箱",
       "CHECK_EMAIL_TITLE": "检查您的电子邮箱",
@@ -2545,8 +2549,16 @@
     },
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "今年9月：获得50%的交易费返还",
+      "REBATE_BANNER_TITLE_SURGE": "dYdX Surge：",
+      "REBATE_BANNER_TITLE_FEES": "获得50%的交易费返还",
       "REBATE_BANNER_SUBTITLE": "在10月支付",
       "REBATE_BANNER_CTA": "获得返还"
+    },
+    "FREE_DEPOSIT_BANNER": {
+      "FREE_DEPOSIT_BANNER_TITLE_FREE": "可用",
+      "FREE_DEPOSIT_BANNER_TITLE_AND": "即时充值",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "对于100美元或以上的金额",
+      "FREE_DEPOSIT_BANNER_CTA": "免费充值"
     }
   },
   "TOKEN_MIGRATION": {
