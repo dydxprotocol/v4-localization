@@ -1029,6 +1029,7 @@
       "START_TRADING_BLURB": "Commencez à trader sur la plateforme d'échange la plus puissante au monde.",
       "SWITCH_NETWORK": "Changer de réseau",
       "SWITCH_NETWORKS": "Changer les réseaux",
+      "TOS_SHORT": "En vous inscrivant, vous acceptez les {TERMS_LINK} et {PRIVACY_POLICY_LINK}.",
       "TOS_TITLE": "En utilisant l'un de nos produits et services, vous acceptez les {TERMS_LINK} et la {PRIVACY_POLICY_LINK}. Par la présente, vous acceptez, déclarez et garantissez que :",
       "TOS_LINE1": "Vous n'êtes pas une personne ou une entreprise résidente, située, constituée ou ayant un agent enregistré aux États-Unis, au Canada ou dans un pays soumis à des restrictions.",
       "TOS_LINE2": "À l'avenir, vous n'accéderez pas à ce site ou à nos produits ou services si vous vous trouvez aux États-Unis, au Canada ou dans un autre endroit bloqué ou restreint.",
@@ -1833,6 +1834,9 @@
       "SIGN_IN_PASSKEY": "Connectez-vous avec Passkey",
       "SIGN_IN_WALLET": "Connectez-vous avec votre portefeuille",
       "SIGN_IN_DESKTOP": "Connectez-vous avec votre ordinateur de bureau",
+      "SIGN_IN_GOOGLE": "Connectez-vous avec Google",
+      "SIGN_IN_APPLE": "Connectez-vous avec Apple",
+      "SIGN_IN_EMAIL": "Connectez-vous avec votre e-mail",
       "SUBMIT": "Soumettre",
       "EMAIL_PLACEHOLDER": "Entrez votre adresse e-mail",
       "CHECK_EMAIL_TITLE": "Vérifiez votre adresse e-mail",
@@ -2545,8 +2549,16 @@
     },
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "En septembre : récupérez 50 % des frais de trading",
+      "REBATE_BANNER_TITLE_SURGE": "Augmentation de dYdX :",
+      "REBATE_BANNER_TITLE_FEES": "Récupérez 50 % des frais de trading",
       "REBATE_BANNER_SUBTITLE": "Payé en octobre",
       "REBATE_BANNER_CTA": "Obtenir une remise"
+    },
+    "FREE_DEPOSIT_BANNER": {
+      "FREE_DEPOSIT_BANNER_TITLE_FREE": "Disponible",
+      "FREE_DEPOSIT_BANNER_TITLE_AND": "et Dépôts instantanés",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 100 $ ou plus",
+      "FREE_DEPOSIT_BANNER_CTA": "Dépôt gratuit"
     }
   },
   "TOKEN_MIGRATION": {
