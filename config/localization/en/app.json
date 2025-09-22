@@ -1865,12 +1865,14 @@
       "LOGGED_IN": "Logged in",
       "LOGGED_IN_WITH": "Logged in with {EMAIL}",
       "LOGGING_IN": "Logging in...",
+      "OPEN_SENT_MAGIC_LINK": "Open the Magic link sent to {EMAIL} to complete your sign in",
       "PLEASE_WAIT_LOGIN": "Please wait while we log you in...",
       "RESEND": "Resend",
       "SIGN_IN_DESCRIPTION": "To get started, sign in with your social accounts, email or connect your wallet.",
       "SIGN_IN_DESKTOP": "Sign in with Desktop",
       "SIGN_IN_APPLE": "Sign in with Apple",
       "SIGN_IN_EMAIL": "Sign in with Email",
+      "SIGN_IN_EMAIL_RESENT": "Email resent to {EMAIL}",
       "SIGN_IN_GOOGLE": "Sign in with Google",
       "SIGN_IN_PASSKEY": "Sign in with Passkey",
       "SIGN_IN_TITLE": "Sign in",
@@ -1878,6 +1880,7 @@
       "SIGN_IN_WITH_WALLET": "Sign in with Wallet",
       "SUBMIT": "Submit",
       "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
+      "WAIT_TO_RESEND_MAGIC_LINK": "Wait {SECONDS_LEFT} seconds to resend...",
       "WELCOME_TO_DYDX": "Welcome to dYdX"
     },
     "TURNKEY_ACCOUNT": {
