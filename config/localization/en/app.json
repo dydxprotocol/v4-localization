@@ -856,6 +856,7 @@
       "YOUR_STATS": "Your Stats",
       "YOUR_TIER": "You're in tier {TIER}",
       "YOURE_A_VIP": "You're a {VIP}",
+      "YOURE_INVITED": "You're Invited",
       "YOUVE_TRADED": "You've traded ${AMOUNT_USD}",
       "REFERRAL_CODE_UPDATE_WARNING": "Updating your referral URL means your old link will be unusable.",
       "REFERRAL_CODE_TAKEN_ERROR": "This code is taken, try another one.",
@@ -1465,6 +1466,7 @@
       "VIEW_FEE_STRUCTURE": "View fee structure",
       "VIEW_FILLS": "View fills",
       "VIEW_REWARDS": "View rewards",
+      "VIP_TELEGRAM_BODY": "Private Telegram Group for VIP traders. Enjoy white glove service, special incentives and competitions",
       "YOUR_FEE_TIER": "Your current Fee Tier is {TIER}"
     },
     "TRADE": {
