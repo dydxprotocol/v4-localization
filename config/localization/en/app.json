@@ -2914,6 +2914,10 @@
       "USERNAME_TAKEN": "This username has already been taken.",
       "WALLET_NO_TRANSACTIONS": "This wallet has no funds and no previous transactions. Please deposit funds in your wallet to continue onboarding."
     },
+    "TURNKEY_ONBOARDING": {
+      "INVALID_TURNKEY_EMAIL_LINK": "Your email link has expired or you are using a different device/browser than the one used to sign in. Please try again.",
+      "USER_ALREADY_HAS_TURNKEY": "This email is already associated with a dYdX account. Proceed by signing in using the email input field."
+    },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Your account is out of sync. Please reconnect your wallet and try again.",
       "DEPOSIT_MORE_THAN_BALANCE": "You cannot deposit more than your available wallet balance.",
