@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "deployer Terms and Conditions",
       "DEPOSIT_FUNDS": "Deposit funds",
       "DEPOSIT_MORE": "Deposit more",
-      "DEPOSIT_WITH_FIAT": "Deposit with fiat",
+      "DEPOSIT_WITH_FIAT": "Deposit with Fiat",
       "DEPOSIT": "Deposit",
       "DEPOSIT_WITH": "Deposit with {TARGET}",
       "DEPTH_CHART_SHORT": "Depth",
@@ -2340,6 +2340,9 @@
       "SELECT_ADDRESS": "Enter or select address"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "Continue to {PROVIDER}",
+      "MOONPAY_SUPPORT": "Apple Pay and more",
+      "MINIMUM_DEPOSIT": "{MIN} Min",
       "BANXA_SUPPORT_LINK": "Banxa support",
       "CHECK_ORDER_STATUS": "Looking for a fiat deposit? Check your order status in your email or contact {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Buy USDC",
