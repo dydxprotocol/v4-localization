@@ -2342,7 +2342,7 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "Continue to {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay and more",
-      "MINIMUM_DEPOSIT": "{MIN} Min",
+      "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Min",
       "BANXA_SUPPORT_LINK": "Banxa support",
       "CHECK_ORDER_STATUS": "Looking for a fiat deposit? Check your order status in your email or contact {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Buy USDC",
