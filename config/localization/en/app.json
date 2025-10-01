@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "dYdX Surge: Compete for $3M",
       "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT} in rewards + {REBATE_PERCENT} fee rebate",
       "SURGE_BODY_SEP_2025": "Up to {REWARD_AMOUNT} in rewards and a {REBATE_PERCENT} fee rebate are distributed to dYdX traders at the end of every month.",
+      "SURGE_EST_AMOUNT_TOOLTIP": "Estimated sum of leaderboard rewards + trading fee rebates",
       "SURGE_BODY": "Up to $3M in rewards are distributed to dYdX traders every month. Make your move, click the Leaderboard to learn more.",
       "SURGE_HOW_IT_WORKS": "How It Works",
       "SURGE_HOW_IT_WORKS_1": "To participate, simply make a trade on dYdX.",
