@@ -856,6 +856,7 @@
       "YOUR_STATS": "您的统计数据",
       "YOUR_TIER": "您处于等级 {TIER}",
       "YOURE_A_VIP": "您是 {VIP}",
+      "YOURE_INVITED": "您已受到邀请",
       "YOUVE_TRADED": "您交易了 {AMOUNT_USD}美元",
       "REFERRAL_CODE_UPDATE_WARNING": "更新您的推荐URL意味着您的旧链接将不可用。",
       "REFERRAL_CODE_TAKEN_ERROR": "此代码已被占用，请尝试其他代码。",
@@ -1465,6 +1466,7 @@
       "VIEW_FEE_STRUCTURE": "查看费结构",
       "VIEW_FILLS": "查看填写内容",
       "VIEW_REWARDS": "查看奖励",
+      "VIP_TELEGRAM_BODY": "面向VIP交易者的私人Telegram组。 享受白手套服务、特别奖励和比赛",
       "YOUR_FEE_TIER": "您当前的费用等级为 {TIER}"
     },
     "TRADE": {
@@ -1865,12 +1867,14 @@
       "LOGGED_IN": "已登录",
       "LOGGED_IN_WITH": "已使用 {EMAIL} 登录",
       "LOGGING_IN": "正在登录...",
+      "OPEN_SENT_MAGIC_LINK": "打开发送到 的 Magic 链接，{EMAIL}以完成登录。",
       "PLEASE_WAIT_LOGIN": "正在登录，请稍候...",
       "RESEND": "重新发送",
       "SIGN_IN_DESCRIPTION": "要开始，请使用您的社交账户登录、电子邮件登录或连接您的钱包。",
       "SIGN_IN_DESKTOP": "使用桌面登录",
       "SIGN_IN_APPLE": "使用 Apple 登录",
       "SIGN_IN_EMAIL": "使用电子邮件登录",
+      "SIGN_IN_EMAIL_RESENT": "电子邮件重新发送到 {EMAIL}",
       "SIGN_IN_GOOGLE": "使用 Google 登录",
       "SIGN_IN_PASSKEY": "使用Passkey登录",
       "SIGN_IN_TITLE": "登录",
@@ -1878,6 +1882,7 @@
       "SIGN_IN_WITH_WALLET": "使用钱包登录",
       "SUBMIT": "提交",
       "USER_SIGNED_IN_BELOW": "您已使用以下账户登录",
+      "WAIT_TO_RESEND_MAGIC_LINK": "等待{SECONDS_LEFT}秒钟重新发送...",
       "WELCOME_TO_DYDX": "欢迎来到 dYdX"
     },
     "TURNKEY_ACCOUNT": {
@@ -2224,6 +2229,12 @@
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "哪些验证者可用于质押？",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "本网站根据预配置集合中的最低佣金和质押权重选择初始默认验证者，但您可自由选择其他验证者。本网站允许您质押到活跃且未受禁止的验证者集合中的任何验证者，您也可通过其他门户（如 {KEPLR_LINK}）质押到本网站未显示的验证者。 有关用于初始默认选择的预先配置集的更多信息，请参阅此 {DOCUMENT_LINK}。",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_QUESTION": "谁有资格获得Surge奖励？",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_ANSWER": "所有dYdX交易者都有资格获得交易奖励。 无需注册。",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_QUESTION": "Surge奖励如何运作？",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_ANSWER": "交易赚取积分。 当月结束时，会计算积分，并将奖金池的一部分分配给每个交易者。",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_QUESTION": "如何申领交易奖励？",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_ANSWER": "无需申请。 DYDX在下个月的前两周内分发。",
       "FOR_TRADING": "交易 {PERIOD}",
       "FOR_V4": "{SUBJECT} 用于 v4",
       "INCENTIVE_PROGRAM": "激励计划",
@@ -2596,7 +2607,7 @@
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "可用",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "即时充值",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "对于20美元或以上的金额",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "对于100美元或以上的金额",
       "FREE_DEPOSIT_BANNER_CTA": "免费充值"
     }
   },
@@ -2902,6 +2913,10 @@
       "PRICE_IMPACT_TOO_HIGH": "没有足够的流动性来满足要求的金额，由此产生的滑点超过我们的安全限额。",
       "USERNAME_TAKEN": "此用户名已有人在用。",
       "WALLET_NO_TRANSACTIONS": "此钱包没有资金，也没有交易记录。请向您的钱包存入资金，以继续使用。"
+    },
+    "TURNKEY_ONBOARDING": {
+      "INVALID_TURNKEY_EMAIL_LINK": "您的电子邮件链接已过期，或者您使用的设备\/浏览器与登录时使用的设备\/浏览器不同。 请重试。",
+      "USER_ALREADY_HAS_TURNKEY": "该电子邮件已与 dYdX 账户关联。 使用电子邮件输入字段登录以继续。"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "您的账户不同步。请重新连接您的钱包，然后再试。",
