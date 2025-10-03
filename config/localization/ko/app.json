@@ -856,6 +856,7 @@
       "YOUR_STATS": "귀하의 통계 ",
       "YOUR_TIER": "귀하는 {TIER} 등급에 속합니다",
       "YOURE_A_VIP": "귀하는 {VIP}입니다",
+      "YOURE_INVITED": "초대합니다",
       "YOUVE_TRADED": "${AMOUNT_USD}을(를) 거래했습니다.",
       "REFERRAL_CODE_UPDATE_WARNING": "추천 URL을 업데이트하면 이전 링크를 사용할 수 없게 됩니다.",
       "REFERRAL_CODE_TAKEN_ERROR": "이 코드가 사용되었습니다. 다른 코드로 시도하세요.",
@@ -1465,6 +1466,7 @@
       "VIEW_FEE_STRUCTURE": "수수료 구조 보기",
       "VIEW_FILLS": "체결 내역 보기",
       "VIEW_REWARDS": "보상 확인",
+      "VIP_TELEGRAM_BODY": "VIP 트레이더를 위한 개인 텔레그램 그룹. 화이트 글러브 서비스, 특별 인센티브 및 대회를 즐겨보세요.",
       "YOUR_FEE_TIER": "현재 수수료 등급은 {TIER}입니다"
     },
     "TRADE": {
@@ -1865,12 +1867,14 @@
       "LOGGED_IN": "로그인됨",
       "LOGGED_IN_WITH": "{EMAIL}(으)로 로그인했습니다",
       "LOGGING_IN": "로그인 중...",
+      "OPEN_SENT_MAGIC_LINK": "로그인을 완료하려면 {EMAIL} 이메일 주소로 전송된 매직 링크를 여세요.",
       "PLEASE_WAIT_LOGIN": "로그인 중입니다. 잠시만 기다려 주세요...",
       "RESEND": "재전송",
       "SIGN_IN_DESCRIPTION": "시작하려면 소셜 계정으로 로그인하거나 이메일로 로그인하거나 지갑을 연결하세요.",
       "SIGN_IN_DESKTOP": "데스크톱으로 로그인",
       "SIGN_IN_APPLE": "Apple으로 로그인하세요",
       "SIGN_IN_EMAIL": "이메일로 로그인하세요",
+      "SIGN_IN_EMAIL_RESENT": "이메일이 {EMAIL}에 재전송되었습니다. ",
       "SIGN_IN_GOOGLE": "Google으로 로그인하세요",
       "SIGN_IN_PASSKEY": "패스키로 로그인",
       "SIGN_IN_TITLE": "로그인",
@@ -1878,6 +1882,7 @@
       "SIGN_IN_WITH_WALLET": "지갑으로 로그인",
       "SUBMIT": "제출",
       "USER_SIGNED_IN_BELOW": "현재 아래 계정으로 서명했습니다",
+      "WAIT_TO_RESEND_MAGIC_LINK": "{SECONDS_LEFT}초 후 재전송하세요...",
       "WELCOME_TO_DYDX": "dYdX에 오신 것을 환영합니다"
     },
     "TURNKEY_ACCOUNT": {
@@ -2224,6 +2229,12 @@
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "모든 트레이더는 거래 보상을 받을 수 있습니다.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "스테이킹에 사용할 수 있는 검증자는 무엇인가요?",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "이 사이트는 최저 수수료를 기준으로 초기 기본 검증자를 선택하고 사전 구성된 세트를 스테이킹합니다. 그러나 대안을 선택할 수 있습니다. 이 사이트를 통해 귀하는 감옥에 갇히지 않은 활성 세트의 검증자에 스테이킹할 수 있으며, {KEPLR_LINK} 사이트와 같은 대체 포털을 사용하여 이 사이트에 표시되지 않은 검증자에 스테이킹할 수 있습니다. 초기 기본 선택에 사용되는 사전 구성된 세트에 대한 자세한 내용은 {DOCUMENT_LINK} 페이지를 참조하세요.",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_QUESTION": "서지 보상을 받을 수 있는 자격은 무엇인가요?",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_ANSWER": "모든 dYdX 트레이더는 거래 보상을 받을 수 있습니다. 가입이 필요하지 않습니다.",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_QUESTION": "서지 보상은 어떻게 작동하나요?",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_ANSWER": "거래는 포인트를 획득합니다. 월말에 포인트가 계산되며, 각 트레이더에게 상금 풀의 몫이 분배됩니다.",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_QUESTION": "거래 보상을 어떻게 청구할 수 있나요?",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_ANSWER": "청구할 필요가 없습니다. DYDX는 다음 달의 첫 2주 이내에 배포됩니다.",
       "FOR_TRADING": "거래용 {PERIOD}",
       "FOR_V4": "v4용 {SUBJECT}",
       "INCENTIVE_PROGRAM": "인센티브 프로그램",
@@ -2596,7 +2607,7 @@
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "무료",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "및 즉시 입금",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "20달러 이상의 금액에 대해",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "100달러 이상의 금액에 대해",
       "FREE_DEPOSIT_BANNER_CTA": "무료 입금"
     }
   },
@@ -2902,6 +2913,10 @@
       "PRICE_IMPACT_TOO_HIGH": "요청한 금액에 대한 유동성이 충분하지 않으며, 결과적으로 슬리피지가 저희 안전 한도를 초과합니다.",
       "USERNAME_TAKEN": "이미 사용 중인 사용자 이름입니다.",
       "WALLET_NO_TRANSACTIONS": "이 지갑에는 자금 및 이전 거래 내역이 없습니다. 가입 절차를 계속하려면 지갑에 자금을 입금하세요."
+    },
+    "TURNKEY_ONBOARDING": {
+      "INVALID_TURNKEY_EMAIL_LINK": "이메일 링크가 만료되었거나 로그인에 사용된 장치\/브라우저와 다른 장치\/브라우저를 사용하고 있습니다. 다시 시도하세요.",
+      "USER_ALREADY_HAS_TURNKEY": "이 이메일은 이미 dYdX 계정과 연결되어 있습니다. 이메일 입력 필드를 사용하여 로그인하여 진행하세요."
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "계정이 동기화되지 않습니다. 지갑을 다시 연결하고 다시 시도하세요.",
