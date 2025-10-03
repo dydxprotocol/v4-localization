@@ -856,6 +856,7 @@
       "YOUR_STATS": "Vos statistiques",
       "YOUR_TIER": "Vous êtes dans le niveau {TIER}",
       "YOURE_A_VIP": "Vous êtes un(e) {VIP}",
+      "YOURE_INVITED": "Vous êtes invité",
       "YOUVE_TRADED": "Vous avez tradé {AMOUNT_USD} $",
       "REFERRAL_CODE_UPDATE_WARNING": "La mise à jour de votre URL de référence signifie que votre ancien lien sera inutilisable.",
       "REFERRAL_CODE_TAKEN_ERROR": "Ce code est pris, essayez-en un autre.",
@@ -1465,6 +1466,7 @@
       "VIEW_FEE_STRUCTURE": "Afficher la structure des frais",
       "VIEW_FILLS": "Afficher les transactions",
       "VIEW_REWARDS": "Afficher les récompenses",
+      "VIP_TELEGRAM_BODY": "Groupe Telegram privé pour les traders VIP. Profitez d'un service haut de gamme, d'incitations spéciales et de compétitions.",
       "YOUR_FEE_TIER": "Votre niveau de frais actuel est {TIER}"
     },
     "TRADE": {
@@ -1865,12 +1867,14 @@
       "LOGGED_IN": "Connecté",
       "LOGGED_IN_WITH": "Connecté avec {EMAIL}",
       "LOGGING_IN": "Connexion en cours...",
+      "OPEN_SENT_MAGIC_LINK": "Ouvrez le lien Magic envoyé à {EMAIL} pour terminer votre connexion",
       "PLEASE_WAIT_LOGIN": "Veuillez patienter pendant que nous vous connectons...",
       "RESEND": "Renvoyer",
       "SIGN_IN_DESCRIPTION": "Pour commencer, connectez-vous avec vos réseaux sociaux, votre e-mail ou reliez votre portefeuille.",
       "SIGN_IN_DESKTOP": "Connectez-vous avec votre ordinateur de bureau",
       "SIGN_IN_APPLE": "Connectez-vous avec Apple",
       "SIGN_IN_EMAIL": "Connectez-vous avec votre e-mail",
+      "SIGN_IN_EMAIL_RESENT": "Envoyer un e-mail à {EMAIL}",
       "SIGN_IN_GOOGLE": "Connectez-vous avec Google",
       "SIGN_IN_PASSKEY": "Connectez-vous avec Passkey",
       "SIGN_IN_TITLE": "Connectez-vous",
@@ -1878,6 +1882,7 @@
       "SIGN_IN_WITH_WALLET": "Connectez-vous avec votre portefeuille",
       "SUBMIT": "Soumettre",
       "USER_SIGNED_IN_BELOW": "Vous êtes maintenant connecté avec le compte ci-dessous",
+      "WAIT_TO_RESEND_MAGIC_LINK": "Attendez {SECONDS_LEFT} quelques secondes pour réenvoyer...",
       "WELCOME_TO_DYDX": "Bienvenue sur dYdX"
     },
     "TURNKEY_ACCOUNT": {
@@ -2224,6 +2229,12 @@
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tous les traders peuvent prétendre à des récompenses de trading.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Quels validateurs sont disponibles pour le staking ?",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "Le site choisit un validateur initial par défaut basé sur la commission et le poids des enjeux les plus bas parmi un ensemble préconfiguré, mais vous êtes libre de faire un autre choix. Ce site vous permet de staker sur n'importe quel validateur de l'ensemble actif qui n'est pas bloqué, et vous pouvez staker sur n'importe quel validateur qui n'apparaît pas sur ce site en utilisant un portail alternatif tel que {KEPLR_LINK}. Veuillez vous référer à ce {DOCUMENT_LINK} pour plus d'informations sur l'ensemble prédéfini utilisé pour la sélection par défaut initiale.",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_QUESTION": "Qui est éligible pour les récompenses Surge ?",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_ANSWER": "Tous les traders dYdX sont éligibles à des récompenses de trading. Aucune inscription requise.",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_QUESTION": "Comment fonctionnent les récompenses Surge ?",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_ANSWER": "Les trades gagnent des points. À la fin du mois, les points sont comptabilisés et une part de la cagnotte est distribuée à chaque trader.",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_QUESTION": "Comment puis-je réclamer mes récompenses de trading ?",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_ANSWER": "Aucune réclamation requise. Les dYdX sont distribués dans les deux premières semaines du mois suivant.",
       "FOR_TRADING": "Pour le trading {PERIOD}",
       "FOR_V4": "{SUBJECT} pour v4",
       "INCENTIVE_PROGRAM": "Programme d'incitation",
@@ -2596,7 +2607,7 @@
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "Disponible",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "et Dépôts instantanés",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 20 $ ou plus",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 100 $ ou plus",
       "FREE_DEPOSIT_BANNER_CTA": "Dépôt gratuit"
     }
   },
@@ -2902,6 +2913,10 @@
       "PRICE_IMPACT_TOO_HIGH": "Il n'y a pas assez de liquidités pour le montant demandé, le slippage qui en résulte dépasse notre limite de sécurité.",
       "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris.",
       "WALLET_NO_TRANSACTIONS": "Ce portefeuille n'a pas de fonds et aucune transaction précédente. Veuillez déposer des fonds dans votre portefeuille pour continuer l'intégration."
+    },
+    "TURNKEY_ONBOARDING": {
+      "INVALID_TURNKEY_EMAIL_LINK": "Votre lien e-mail a expiré ou vous utilisez un appareil\/navigateur différent de celui utilisé pour vous connecter. Veuillez réessayer.",
+      "USER_ALREADY_HAS_TURNKEY": "Cet e-mail est déjà associé à un compte dYdX. Connectez-vous en utilisant le champ de saisie de l'e-mail."
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Votre compte n'est pas synchronisé. Veuillez reconnecter votre portefeuille et réessayer.",
