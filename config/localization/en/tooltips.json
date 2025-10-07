@@ -182,7 +182,7 @@
     },
     "MAXIMUM_REWARDS_SEPT_2025": {
       "TITLE": "DYDX Rewards",
-      "BODY": "Earn 100% of your fees back in DYDX and compete for your share of {REWARD_AMOUNT} through dYdX Surge! Rewards are paid out at the end of the month"
+      "BODY": "Earn {REWARD_PERCENT}% of your fees back in DYDX and compete for your share of {REWARD_AMOUNT} through dYdX Surge! Rewards are paid out at the end of the month"
     },
     "NET_FUNDING": {
       "TITLE": "Net Funding",
