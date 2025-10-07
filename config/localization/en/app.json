@@ -1882,6 +1882,7 @@
       "SIGN_IN_WITH_WALLET": "Sign in with Wallet",
       "SUBMIT": "Submit",
       "USER_SIGNED_IN_BELOW": "You are now signed with the account below",
+      "VIEW_MORE_WALLETS": "View more wallets",
       "WAIT_TO_RESEND_MAGIC_LINK": "Wait {SECONDS_LEFT} seconds to resend...",
       "WELCOME_TO_DYDX": "Welcome to dYdX"
     },
