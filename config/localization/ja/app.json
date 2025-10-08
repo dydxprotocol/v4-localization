@@ -856,6 +856,7 @@
       "YOUR_STATS": "統計データ",
       "YOUR_TIER": "あなたは{TIER}クラスです。",
       "YOURE_A_VIP": "あなたは{VIP}です",
+      "YOURE_INVITED": "あなたをご招待します",
       "YOUVE_TRADED": "${AMOUNT_USD}を取引しました",
       "REFERRAL_CODE_UPDATE_WARNING": "紹介URLを更新すると、古いリンクが利用できなくなります。",
       "REFERRAL_CODE_TAKEN_ERROR": "このコードは既に使用されています。別のコードをお試しください。",
@@ -1465,6 +1466,7 @@
       "VIEW_FEE_STRUCTURE": "手数料体系の表示",
       "VIEW_FILLS": "執行を表示",
       "VIEW_REWARDS": "報酬の表示",
+      "VIP_TELEGRAM_BODY": "VIPトレーダー向けの専用Telegramグループ。最高のサービス、特典、コンペティションをお楽しみください",
       "YOUR_FEE_TIER": "現在の手数料ティアは{TIER}"
     },
     "TRADE": {
@@ -1865,12 +1867,14 @@
       "LOGGED_IN": "ログインしました",
       "LOGGED_IN_WITH": "{EMAIL}でログインしています ",
       "LOGGING_IN": "ログイン中...",
+      "OPEN_SENT_MAGIC_LINK": "{EMAIL}に送信されるマジックリンクを開いて、サインインを完了します",
       "PLEASE_WAIT_LOGIN": "ログイン処理中です。少々お待ちください。",
       "RESEND": "再送信",
       "SIGN_IN_DESCRIPTION": "開始するには、ソーシャルアカウントでサインインするか、メールでログインするか、ウォレットを接続してください。",
       "SIGN_IN_DESKTOP": "デスクトップでサインインする",
       "SIGN_IN_APPLE": "Appleでサインイン",
       "SIGN_IN_EMAIL": "メールでサインイン",
+      "SIGN_IN_EMAIL_RESENT": "メールはに再送信されます {EMAIL}",
       "SIGN_IN_GOOGLE": "Googleでサインイン",
       "SIGN_IN_PASSKEY": "パスキーでサインイン",
       "SIGN_IN_TITLE": "サインイン",
@@ -1878,6 +1882,7 @@
       "SIGN_IN_WITH_WALLET": "ウォレットでサインイン",
       "SUBMIT": "送信",
       "USER_SIGNED_IN_BELOW": "以下のアカウントでサインインされました",
+      "WAIT_TO_RESEND_MAGIC_LINK": "再送信するには{SECONDS_LEFT}数秒お待ちください...",
       "WELCOME_TO_DYDX": "dYdXへようこそ"
     },
     "TURNKEY_ACCOUNT": {
@@ -2224,6 +2229,12 @@
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "すべてのトレーダーは、取引報酬を受け取る資格があります。",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "ステーキングにはどのバリデータが使用できますか？",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_ANSWER": "サイトは、事前設定されたセットのうち、最低手数料とステーキングエイトに基づいて、初期デフォルトのバリデータを選択しますが、代替の選択を自由に行えます。 このサイトでは、ジェイルされていないアクティブセットのバリデータにステーキングできます。また、次のような代替ポータルを使用して、このサイトに表示されていないバリデータにステーキングできます{KEPLR_LINK}。初期デフォルト選択に使用される事前設定されたセットの詳細については、こちらの{DOCUMENT_LINK}を参照してください。",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_QUESTION": "どのような人がSurge（サージ）報酬の対象になるのですか？",
+      "FAQ_WHO_IS_ELIGIBLE_FOR_SURGE_REWARDS_ANSWER": "すべてのdYdXトレーダーは、取引報酬の対象となります。 サインアップは不要です。",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_QUESTION": "Surge（サージ）の報酬の仕組みは？",
+      "FAQ_HOW_DO_SURGE_REWARDS_WORK_ANSWER": "取引はポイントを獲得します。 月末にポイントが集計され、賞金プールの一部が各トレーダーに分配されます。",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_QUESTION": "取引報酬を請求するにはどうすればよいですか？",
+      "FAQ_HOW_DO_I_CLAIM_MY_SURGE_REWARDS_ANSWER": "請求は不要です。 dYdXは、翌月の最初の2週間以内に分配されます。",
       "FOR_TRADING": "取引のため{PERIOD}",
       "FOR_V4": "v4用{SUBJECT}",
       "INCENTIVE_PROGRAM": "インセンティブプログラム",
@@ -2596,7 +2607,7 @@
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "フリー",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "& 即時入金",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "20ドル以上の金額の場合",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "100ドル以上の金額の場合",
       "FREE_DEPOSIT_BANNER_CTA": "無料入金"
     }
   },
@@ -2902,6 +2913,10 @@
       "PRICE_IMPACT_TOO_HIGH": "要求された金額に十分な流動性がなく、その結果により生じるスリッページは当社の安全限度額を超えています。",
       "USERNAME_TAKEN": "このユーザー名はすでに使用されています。",
       "WALLET_NO_TRANSACTIONS": "このウォレットには資金や過去のトランザクションがありません。ウォレットに資金を入金してオンボーディングを続けてください。"
+    },
+    "TURNKEY_ONBOARDING": {
+      "INVALID_TURNKEY_EMAIL_LINK": "メールリンクの有効期限が切れているか、サインインに使用したものとは異なるデバイスまたはブラウザを使用しています。もう一度お試しください。",
+      "USER_ALREADY_HAS_TURNKEY": "このメールは、すでにdYdXアカウントに関連付けられています。メール入力フィールドを使用してサインインして進みます。"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "口座が同期されていません。ウォレットを再接続し、もう一度お試しください。",
