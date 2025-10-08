@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "Your Noble Address",
       "CASH_WITH": "Cash with {VENDER}",
       "DEBIT": "Debit",
+      "CREDIT_CARD": "Credit Card",
       "PAY_WITH": "Pay with",
       "CRYPTO": "Crypto",
       "OTHER_CRYPTO": "Other crypto"
@@ -2345,6 +2346,7 @@
       "CONTINUE_TO": "Continue to {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay and more",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Min",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} is an independent from the operator of this app",
       "BANXA_SUPPORT_LINK": "Banxa support",
       "CHECK_ORDER_STATUS": "Looking for a fiat deposit? Check your order status in your email or contact {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Buy USDC",
