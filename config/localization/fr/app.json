@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "Conditions générales d'utilisation du déploiement",
       "DEPOSIT_FUNDS": "Dépôt de fonds",
       "DEPOSIT_MORE": "Déposer davantage",
-      "DEPOSIT_WITH_FIAT": "Dépôt en fiat",
+      "DEPOSIT_WITH_FIAT": "Dépôt avec Fiat",
       "DEPOSIT": "Dépôt",
       "DEPOSIT_WITH": "Dépôt avec {TARGET}",
       "DEPTH_CHART_SHORT": "Profondeur",
@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
       "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT}en récompenses + {REBATE_PERCENT}remise de frais.",
       "SURGE_BODY_SEP_2025": "Jusqu'à {REWARD_AMOUNT} en récompenses et un remboursement de frais de {REBATE_PERCENT} sont distribués aux traders de dYdX à la fin de chaque mois.",
+      "SURGE_EST_AMOUNT_TOOLTIP": "Somme estimée des récompenses du classement + remises pour les frais de trading",
       "SURGE_BODY": "Jusqu'à 3 millions de dollars de récompenses sont distribués chaque mois aux traders de dYdX. Faites votre choix, cliquez sur le tableau des leaders pour en savoir plus.",
       "SURGE_HOW_IT_WORKS": "Comment cela fonctionne ?",
       "SURGE_HOW_IT_WORKS_1": "Pour participer, il suffit d'effectuer un trade sur dYdX.",
@@ -2340,6 +2341,9 @@
       "SELECT_ADDRESS": "Entrez ou sélectionnez l'adresse"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "Continuer à {PROVIDER}",
+      "MOONPAY_SUPPORT": "Apple Pay et plus",
+      "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Min",
       "BANXA_SUPPORT_LINK": "Assistance Banxa",
       "CHECK_ORDER_STATUS": "Vous cherchez à faire un dépôt en fiat ? Vérifiez le statut de votre ordre dans votre courriel ou contactez {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Achetez des USDC",
@@ -2600,14 +2604,14 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "En septembre : récupérez 50 % des frais de trading",
       "REBATE_BANNER_TITLE_SURGE": "Augmentation de dYdX :",
-      "REBATE_BANNER_TITLE_FEES": "Récupérez 50 % des frais de trading",
-      "REBATE_BANNER_SUBTITLE": "Payé en octobre",
+      "REBATE_BANNER_TITLE_FEES": "Pool de récompenses de 1 million de dollars + remboursement de 100 % des frais, disponibles dès maintenant",
+      "REBATE_BANNER_SUBTITLE": "Front-end uniquement",
       "REBATE_BANNER_CTA": "Obtenir une remise"
     },
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "Disponible",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "et Dépôts instantanés",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 100 $ ou plus",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 20 $ ou plus",
       "FREE_DEPOSIT_BANNER_CTA": "Dépôt gratuit"
     }
   },
