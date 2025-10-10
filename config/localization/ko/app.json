@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "배포자 이용 약관",
       "DEPOSIT_FUNDS": "펀드 입금",
       "DEPOSIT_MORE": "추가 입금",
-      "DEPOSIT_WITH_FIAT": "명목 화폐로 입금",
+      "DEPOSIT_WITH_FIAT": "법정화폐로 입금",
       "DEPOSIT": "입금",
       "DEPOSIT_WITH": "{TARGET}(으)로 입금",
       "DEPTH_CHART_SHORT": "깊이",
@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
       "SURGE_HEADLINE_SEP_2025": "{REBATE_PERCENT} 보상 + {REWARD_AMOUNT} 수수료 리베이트",
       "SURGE_BODY_SEP_2025": "매달 말에 dYdX 트레이더에게 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 배포됩니다{REWARD_AMOUNT}.",
+      "SURGE_EST_AMOUNT_TOOLTIP": "리더보드 보상 + 거래 수수료 리베이트의 예상 합계",
       "SURGE_BODY": "매달 dYdX 트레이더에게 최대 3백만 달러의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
       "SURGE_HOW_IT_WORKS": "작동 원리",
       "SURGE_HOW_IT_WORKS_1": "참여하려면 dYdX에서 거래하면 됩니다. ",
@@ -2340,6 +2341,9 @@
       "SELECT_ADDRESS": "주소 입력 또는 선택"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "{PROVIDER}(으)로 계속",
+      "MOONPAY_SUPPORT": "Apple Pay 등",
+      "MINIMUM_MOONPAY_DEPOSIT": "최소 {MIN}",
       "BANXA_SUPPORT_LINK": "Banxa 지원",
       "CHECK_ORDER_STATUS": "명목화폐 입금이 필요하십니까? 이메일의 주문 상태를 확인하거나 {BANXA_SUPPORT_LINK}을(를) 통해 문의하세요.",
       "MODAL_BUY_CTA": "USDC 구매",
@@ -2600,14 +2604,14 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "이번 9월: 거래 수수료의 50%를 환급받으세요",
       "REBATE_BANNER_TITLE_SURGE": "dYdX 서지:",
-      "REBATE_BANNER_TITLE_FEES": "거래 수수료의 50%를 환급받으세요",
-      "REBATE_BANNER_SUBTITLE": "10월에 지급 예정",
+      "REBATE_BANNER_TITLE_FEES": "100만 달러 보상 풀 + 100% 수수료 리베이트 지금 시작",
+      "REBATE_BANNER_SUBTITLE": "프론트엔드 전용",
       "REBATE_BANNER_CTA": "리베이트 받기"
     },
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "무료",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "및 즉시 입금",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "100달러 이상의 금액에 대해",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "20달러 이상의 금액에 대해",
       "FREE_DEPOSIT_BANNER_CTA": "무료 입금"
     }
   },
