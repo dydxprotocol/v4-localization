@@ -2345,6 +2345,7 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "Continue to {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay and more",
+      "MOONPAY_SUPPORT_ANDROID": "Debit and more",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Min",
       "CONTINUE_TO_DISCLAIMER": "{PROVIDER} is an independent from the operator of this app",
       "BANXA_SUPPORT_LINK": "Banxa support",
