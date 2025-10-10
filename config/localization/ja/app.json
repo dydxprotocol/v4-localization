@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "デプロイヤー利用規約",
       "DEPOSIT_FUNDS": "資金を入金",
       "DEPOSIT_MORE": "さらに入金する",
-      "DEPOSIT_WITH_FIAT": "フィアット（法定通貨）で入金する",
+      "DEPOSIT_WITH_FIAT": "フィアットで入金",
       "DEPOSIT": "入金",
       "DEPOSIT_WITH": "{TARGET}で入金する",
       "DEPTH_CHART_SHORT": "デプス（Depth）",
@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
       "SURGE_HEADLINE_SEP_2025": " 報酬{REWARD_AMOUNT} + {REBATE_PERCENT}手数料リベート",
       "SURGE_BODY_SEP_2025": "最大{REWARD_AMOUNT}での報酬および{REBATE_PERCENT}手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
+      "SURGE_EST_AMOUNT_TOOLTIP": "リーダーボード報酬 + 取引手数料リベートの推定合計",
       "SURGE_BODY": "最大300万ドルの報酬が毎月dYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
       "SURGE_HOW_IT_WORKS": "使い方",
       "SURGE_HOW_IT_WORKS_1": "参加するには、dYdXで取引を行うだけです。",
@@ -2340,6 +2341,9 @@
       "SELECT_ADDRESS": "アドレスを入力または選択する"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "に続く {PROVIDER}",
+      "MOONPAY_SUPPORT": "Apple Payなど",
+      "MINIMUM_MOONPAY_DEPOSIT": "{MIN} 最低単位",
       "BANXA_SUPPORT_LINK": "Banxaサポート",
       "CHECK_ORDER_STATUS": "フィアット入金をお探しですか？メール内の注文状況を確認されるか、{BANXA_SUPPORT_LINK}にお問い合わせください",
       "MODAL_BUY_CTA": "USDCを購入する",
@@ -2600,14 +2604,14 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "今年9月：取引手数料の50％を還元",
       "REBATE_BANNER_TITLE_SURGE": "dYdXサージ：",
-      "REBATE_BANNER_TITLE_FEES": "取引手数料の50％を還元",
-      "REBATE_BANNER_SUBTITLE": "10月に支払われます",
+      "REBATE_BANNER_TITLE_FEES": "100万ドルのリワードプール + 100％の手数料リベートが現在利用可能",
+      "REBATE_BANNER_SUBTITLE": "フロントエンドのみ",
       "REBATE_BANNER_CTA": "リベートを獲得する"
     },
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "フリー",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "& 即時入金",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "100ドル以上の金額の場合",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "20ドル以上の金額の場合",
       "FREE_DEPOSIT_BANNER_CTA": "無料入金"
     }
   },
