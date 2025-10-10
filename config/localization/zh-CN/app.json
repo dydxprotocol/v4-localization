@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "部署者条款和条件",
       "DEPOSIT_FUNDS": "充值资金",
       "DEPOSIT_MORE": "充值更多",
-      "DEPOSIT_WITH_FIAT": "用法定货币充值",
+      "DEPOSIT_WITH_FIAT": "使用法币充值",
       "DEPOSIT": "充值",
       "DEPOSIT_WITH": "充值至 {TARGET}",
       "DEPTH_CHART_SHORT": "深度",
@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
       "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还",
       "SURGE_BODY_SEP_2025": "每月月底向dYdX交易者分发高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
+      "SURGE_EST_AMOUNT_TOOLTIP": "排行榜奖励和交易费返还的估计金额",
       "SURGE_BODY": "每月向dYdX交易者分发高达300万美元的奖励。 行动起来吧，点击排行榜了解详情。",
       "SURGE_HOW_IT_WORKS": "运作方式",
       "SURGE_HOW_IT_WORKS_1": "若要参与，只需在dYdX上进行交易即可。",
@@ -2340,6 +2341,9 @@
       "SELECT_ADDRESS": "输入或选择地址"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "继续到 {PROVIDER}",
+      "MOONPAY_SUPPORT": "Apple Pay等",
+      "MINIMUM_MOONPAY_DEPOSIT": "{MIN} 最小值",
       "BANXA_SUPPORT_LINK": "Banxa支持",
       "CHECK_ORDER_STATUS": "需要法定货币充值？在电子邮件中检查您的订单状态，或联系{BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "购买 USDC",
@@ -2600,14 +2604,14 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "今年9月：获得50%的交易费返还",
       "REBATE_BANNER_TITLE_SURGE": "dYdX Surge：",
-      "REBATE_BANNER_TITLE_FEES": "获得50%的交易费返还",
-      "REBATE_BANNER_SUBTITLE": "在10月支付",
+      "REBATE_BANNER_TITLE_FEES": "100万美元奖励池 + 100% 的费用返还现已上线",
+      "REBATE_BANNER_SUBTITLE": "仅前端",
       "REBATE_BANNER_CTA": "获得返还"
     },
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "可用",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "即时充值",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "对于100美元或以上的金额",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "对于20美元或以上的金额",
       "FREE_DEPOSIT_BANNER_CTA": "免费充值"
     }
   },

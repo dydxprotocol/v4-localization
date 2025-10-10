@@ -134,7 +134,7 @@
       "DEPLOYER_TERMS_AND_CONDITIONS": "Пользовательское соглашение для деплойера",
       "DEPOSIT_FUNDS": "Внести средства",
       "DEPOSIT_MORE": "Внести больше",
-      "DEPOSIT_WITH_FIAT": "Внести фиат",
+      "DEPOSIT_WITH_FIAT": "Внесите средства фиатной валютой",
       "DEPOSIT": "Внести",
       "DEPOSIT_WITH": "Внести средства с помощью {TARGET}",
       "DEPTH_CHART_SHORT": "Глубина",
@@ -2265,6 +2265,7 @@
       "SURGE_HEADLINE": "dYdX Surge: боритесь за 3 млн долл. США",
       "SURGE_HEADLINE_SEP_2025": "{REWARD_AMOUNT} в наградах + скидка {REBATE_PERCENT} на комиссионные сборы",
       "SURGE_BODY_SEP_2025": "В конце каждого месяца между трейдерами dYdX распределяются награды до {REWARD_AMOUNT} и скидки на комиссионные сборы {REBATE_PERCENT}.",
+      "SURGE_EST_AMOUNT_TOOLTIP": "Предполагаемая сумма наград в таблице лидеров + возвраты комиссионных сборов за торговлю",
       "SURGE_BODY": "Ежемесячно среди трейдеров dYdX распределяются награды на сумму до 3 млн долл. США. Сделайте свой ход, нажмите на рейтинг лидеров, чтобы узнать больше.",
       "SURGE_HOW_IT_WORKS": "Как это работает",
       "SURGE_HOW_IT_WORKS_1": "Чтобы принять участие, просто совершите сделку на dYdX.",
@@ -2340,6 +2341,9 @@
       "SELECT_ADDRESS": "Введите или выберите адрес"
     },
     "DEPOSIT_WITH_FIAT": {
+      "CONTINUE_TO": "Продолжить до {PROVIDER}",
+      "MOONPAY_SUPPORT": "Apple Pay и многое другое",
+      "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Мин",
       "BANXA_SUPPORT_LINK": "Поддержка Banxa",
       "CHECK_ORDER_STATUS": "Ищете внесенные фиатные средства? Проверьте статус ордера в электронной почте и свяжитесь с {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Купить USDC",
@@ -2600,14 +2604,14 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "В этом сентябре: получите обратно 50% торговых комиссий",
       "REBATE_BANNER_TITLE_SURGE": "dYdX Surge:",
-      "REBATE_BANNER_TITLE_FEES": "Получите обратно 50% торговых комиссий",
-      "REBATE_BANNER_SUBTITLE": "Выплачено в октябре",
+      "REBATE_BANNER_TITLE_FEES": "Пул наград в размере 1 млн долл. США + возвраты комиссионных сборов в размере 100% доступны сейчас",
+      "REBATE_BANNER_SUBTITLE": "Только пользовательский интерфейс",
       "REBATE_BANNER_CTA": "Получите возмещение"
     },
     "FREE_DEPOSIT_BANNER": {
       "FREE_DEPOSIT_BANNER_TITLE_FREE": "Бесплатно",
       "FREE_DEPOSIT_BANNER_TITLE_AND": "& Мгновенные депозиты",
-      "FREE_DEPOSIT_BANNER_SUBTITLE": "Для сумм от 100 долл. США или более",
+      "FREE_DEPOSIT_BANNER_SUBTITLE": "Для сумм от 20 долл. США или более",
       "FREE_DEPOSIT_BANNER_CTA": "Бесплатный депозит"
     }
   },
