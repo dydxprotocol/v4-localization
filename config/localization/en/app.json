@@ -1588,6 +1588,7 @@
       "MAKER": "Maker",
       "MANAGE_YOUR_RISK_STOP": "Manage your risk with a stop order",
       "MARKET_BUY": "market buy",
+      "MARKET_DISCLAIMER": "Trading perpetual contracts involves significant risk, including the potential for sudden and total loss of your investment and margin due to high leverage and market volatility, and may not be suitable for all users. Prices may be influenced by funding rates and liquidity and you may be subject to automatic liquidations without notice.",
       "MARKET_ORDER_DESCRIPTION": "The easiest way to buy or sell {SYMBOL} at market price.",
       "MARKET_ORDER_SHORT": "Market",
       "MARKET_ORDER": "Market Order",
