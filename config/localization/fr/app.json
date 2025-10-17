@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "Votre adresse Noble",
       "CASH_WITH": "Espèces avec {VENDER}",
       "DEBIT": "Débit",
+      "CREDIT_CARD": "Carte de crédit",
       "PAY_WITH": "Payer avec",
       "CRYPTO": "Crypto",
       "OTHER_CRYPTO": "Autre crypto"
@@ -1882,6 +1883,7 @@
       "SIGN_IN_WITH_WALLET": "Connectez-vous avec votre portefeuille",
       "SUBMIT": "Soumettre",
       "USER_SIGNED_IN_BELOW": "Vous êtes maintenant connecté avec le compte ci-dessous",
+      "VIEW_MORE_WALLETS": "Afficher plus de portefeuilles",
       "WAIT_TO_RESEND_MAGIC_LINK": "Attendez {SECONDS_LEFT} quelques secondes pour réenvoyer...",
       "WELCOME_TO_DYDX": "Bienvenue sur dYdX"
     },
@@ -2343,7 +2345,9 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "Continuer à {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay et plus",
+      "MOONPAY_SUPPORT_ANDROID": "Débit et plus",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Min",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} est indépendant de l'opérateur de cette application",
       "BANXA_SUPPORT_LINK": "Assistance Banxa",
       "CHECK_ORDER_STATUS": "Vous cherchez à faire un dépôt en fiat ? Vérifiez le statut de votre ordre dans votre courriel ou contactez {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Achetez des USDC",

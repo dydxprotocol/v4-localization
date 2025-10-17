@@ -182,7 +182,7 @@
     },
     "MAXIMUM_REWARDS_SEPT_2025": {
       "TITLE": "Récompenses DYDX",
-      "BODY": "Gagnez 50 % de vos frais en DYDX et concourez pour votre part {REWARD_AMOUNT}via dYdX Surge ! Les récompenses sont versées à la fin du mois"
+      "BODY": "Gagnez {REWARD_PERCENT}% de vos frais en dYdX et concourez pour votre part {REWARD_AMOUNT}via dYdX Surge ! Les récompenses sont versées à la fin du mois"
     },
     "NET_FUNDING": {
       "TITLE": "Financement net",
