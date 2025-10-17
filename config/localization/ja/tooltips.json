@@ -182,7 +182,7 @@
     },
     "MAXIMUM_REWARDS_SEPT_2025": {
       "TITLE": "DYDXリワード",
-      "BODY": "DYDXで取引手数料の50％を還元。dYdX Surge{REWARD_AMOUNT}で競争して報酬の一部を獲得しましょう。報酬は月末に支払われます"
+      "BODY": "DYDXで取引手数料の{REWARD_PERCENT}％を還元。dYdX Surgeで競争して{REWARD_AMOUNT}の一部を獲得しましょう。報酬は月末に支払われます"
     },
     "NET_FUNDING": {
       "TITLE": "ネット資金",
