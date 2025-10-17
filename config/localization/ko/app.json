@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "Noble 주소",
       "CASH_WITH": " {VENDER}를 통한 현금 결제",
       "DEBIT": "직불카드 결제",
+      "CREDIT_CARD": "신용카드",
       "PAY_WITH": "결제 수단",
       "CRYPTO": "암호화폐",
       "OTHER_CRYPTO": "기타 암호화폐"
@@ -1882,6 +1883,7 @@
       "SIGN_IN_WITH_WALLET": "지갑으로 로그인",
       "SUBMIT": "제출",
       "USER_SIGNED_IN_BELOW": "현재 아래 계정으로 서명했습니다",
+      "VIEW_MORE_WALLETS": "더 많은 지갑 보기",
       "WAIT_TO_RESEND_MAGIC_LINK": "{SECONDS_LEFT}초 후 재전송하세요...",
       "WELCOME_TO_DYDX": "dYdX에 오신 것을 환영합니다"
     },
@@ -2343,7 +2345,9 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "{PROVIDER}(으)로 계속",
       "MOONPAY_SUPPORT": "Apple Pay 등",
+      "MOONPAY_SUPPORT_ANDROID": "직불 등",
       "MINIMUM_MOONPAY_DEPOSIT": "최소 {MIN}",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} 은(는) 이 앱의 운영자와 독립적인",
       "BANXA_SUPPORT_LINK": "Banxa 지원",
       "CHECK_ORDER_STATUS": "명목화폐 입금이 필요하십니까? 이메일의 주문 상태를 확인하거나 {BANXA_SUPPORT_LINK}을(를) 통해 문의하세요.",
       "MODAL_BUY_CTA": "USDC 구매",
