@@ -182,7 +182,7 @@
     },
     "MAXIMUM_REWARDS_SEPT_2025": {
       "TITLE": "DYDX 보상",
-      "BODY": "DYDX에서 수수료의 50%를 환급받고 dYdX Surge를 통해 {REWARD_AMOUNT}의 몫을 놓고 경쟁하세요! 보상은 월말에 지급됩니다."
+      "BODY": "DYDX에서 수수료의 {REWARD_PERCENT}%를 환급받고 dYdX Surge를 통해 {REWARD_AMOUNT}의 몫을 놓고 경쟁하세요! 보상은 월말에 지급됩니다."
     },
     "NET_FUNDING": {
       "TITLE": "펀딩 순이익",
