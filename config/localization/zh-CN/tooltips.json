@@ -182,7 +182,7 @@
     },
     "MAXIMUM_REWARDS_SEPT_2025": {
       "TITLE": "DYDX奖励",
-      "BODY": "在DYDX赚取50%的费用返还，并通过dYdX Surge争夺您的份额{REWARD_AMOUNT}！当月末支付奖励"
+      "BODY": "在 DYDX 赚取 {REWARD_PERCENT}% 的费用返还，并通过 dYdX Surge 争夺您的份额{REWARD_AMOUNT}！当月末支付奖励"
     },
     "NET_FUNDING": {
       "TITLE": "净资金",
