@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "您的Noble 地址",
       "CASH_WITH": "现金付款{VENDER}",
       "DEBIT": "账方",
+      "CREDIT_CARD": "信用卡",
       "PAY_WITH": "付款",
       "CRYPTO": "加密货币",
       "OTHER_CRYPTO": "其他加密货币"
@@ -1882,6 +1883,7 @@
       "SIGN_IN_WITH_WALLET": "使用钱包登录",
       "SUBMIT": "提交",
       "USER_SIGNED_IN_BELOW": "您已使用以下账户登录",
+      "VIEW_MORE_WALLETS": "查看更多钱包",
       "WAIT_TO_RESEND_MAGIC_LINK": "等待{SECONDS_LEFT}秒钟重新发送...",
       "WELCOME_TO_DYDX": "欢迎来到 dYdX"
     },
@@ -2343,7 +2345,9 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "继续到 {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay等",
+      "MOONPAY_SUPPORT_ANDROID": "借记及更多",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} 最小值",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} 独立于该应用程序的运营商",
       "BANXA_SUPPORT_LINK": "Banxa支持",
       "CHECK_ORDER_STATUS": "需要法定货币充值？在电子邮件中检查您的订单状态，或联系{BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "购买 USDC",
