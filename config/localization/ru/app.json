@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "Ваш адрес Noble",
       "CASH_WITH": "Наличные с {VENDER}",
       "DEBIT": "Дебет",
+      "CREDIT_CARD": "Кредитная карта",
       "PAY_WITH": "Оплатить с помощью",
       "CRYPTO": "Криптовалюта",
       "OTHER_CRYPTO": "Другая криптовалюта"
@@ -1882,6 +1883,7 @@
       "SIGN_IN_WITH_WALLET": "Войди с помощью кошелька",
       "SUBMIT": "Отправить",
       "USER_SIGNED_IN_BELOW": "Теперь вы зарегистрированы с аккаунтом, указанный ниже",
+      "VIEW_MORE_WALLETS": "Посмотреть больше кошельков",
       "WAIT_TO_RESEND_MAGIC_LINK": "Подождите {SECONDS_LEFT} секунд для повторной отправки...",
       "WELCOME_TO_DYDX": "Добро пожаловать на биржу dYdX"
     },
@@ -2343,7 +2345,9 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "Продолжить до {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Pay и многое другое",
+      "MOONPAY_SUPPORT_ANDROID": "Дебет и многое другое",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} Мин",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} не зависит от оператора этого приложения",
       "BANXA_SUPPORT_LINK": "Поддержка Banxa",
       "CHECK_ORDER_STATUS": "Ищете внесенные фиатные средства? Проверьте статус ордера в электронной почте и свяжитесь с {BANXA_SUPPORT_LINK}",
       "MODAL_BUY_CTA": "Купить USDC",
