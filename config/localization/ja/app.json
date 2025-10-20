@@ -1091,6 +1091,7 @@
       "YOUR_NOBLE_ADDRESS": "Nobleアドレス",
       "CASH_WITH": "{VENDER}に現金で支払う",
       "DEBIT": "デビット",
+      "CREDIT_CARD": "クレジットカード",
       "PAY_WITH": "支払い手段：",
       "CRYPTO": "暗号通貨",
       "OTHER_CRYPTO": "その他の暗号資産"
@@ -1882,6 +1883,7 @@
       "SIGN_IN_WITH_WALLET": "ウォレットでサインイン",
       "SUBMIT": "送信",
       "USER_SIGNED_IN_BELOW": "以下のアカウントでサインインされました",
+      "VIEW_MORE_WALLETS": "ウォレットをもっと見る",
       "WAIT_TO_RESEND_MAGIC_LINK": "再送信するには{SECONDS_LEFT}数秒お待ちください...",
       "WELCOME_TO_DYDX": "dYdXへようこそ"
     },
@@ -2343,7 +2345,9 @@
     "DEPOSIT_WITH_FIAT": {
       "CONTINUE_TO": "に続く {PROVIDER}",
       "MOONPAY_SUPPORT": "Apple Payなど",
+      "MOONPAY_SUPPORT_ANDROID": "デビットおよびその他",
       "MINIMUM_MOONPAY_DEPOSIT": "{MIN} 最低単位",
+      "CONTINUE_TO_DISCLAIMER": "{PROVIDER} は、このアプリの運営者から独立しています",
       "BANXA_SUPPORT_LINK": "Banxaサポート",
       "CHECK_ORDER_STATUS": "フィアット入金をお探しですか？メール内の注文状況を確認されるか、{BANXA_SUPPORT_LINK}にお問い合わせください",
       "MODAL_BUY_CTA": "USDCを購入する",
