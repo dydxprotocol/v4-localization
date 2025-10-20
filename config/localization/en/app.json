@@ -2576,7 +2576,7 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}.",
       "BLOCKED_BANNER_MESSAGE": "Perpetuals are not available to any persons who are residents of, are located or incorporated in, or have a registered agent in a blocked country or a restricted territory. More details can be found in our {TERMS_OF_USE_LINK}. If you think this is an error, please contact support in the {HELP_LINK}.",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "United States residents and other restricted persons are prohibited from trading. {CONTACT_SUPPORT_LINK} if you think this is an error."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "You are accessing this interface from a restricted jurisdiction. We do not allow access from certain jurisdictions including locations subject to sanctions restrictions and other jurisdictions where our interface is ineligible for use. {CONTACT_SUPPORT_LINK} if you think this is an error."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Binary Settlement",

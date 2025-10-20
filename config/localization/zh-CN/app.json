@@ -2575,7 +2575,7 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
       "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "禁止美国居民和其他受限制人士进行交易。如果您认为有错误，请 {CONTACT_SUPPORT_LINK}。"
+      "BLOCKED_BANNER_MESSAGE_SHORT": "您正在从受限司法管辖区访问此界面。我们不允许从某些司法管辖区访问，包括受制裁限制的地区以及我们的界面不符合使用条件的其他司法管辖区。如果您认为这是错误，请{CONTACT_SUPPORT_LINK}。"
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "二元结算",
