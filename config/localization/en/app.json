@@ -2571,6 +2571,13 @@
       "VIEW_PROPOSAL": "View proposal",
       "VIEW_MARKET": "View market"
     },
+    "LEVERAGE": {
+      "SET_MARKET_LEVERAGE": "Set Market Leverage",
+      "EDIT_LEVERAGE": "Edit leverage",
+      "INVALID_LEVERAGE_VALUE": "Invalid leverage value",
+      "SETTING_HIGHER_LEVERAGE_WARNING": "Setting a higher leverage could increase liquidation risk.",
+      "MINIMUM_LEVERAGE_ERROR": "Minimum leverage for this position is {minLeverage}×. Insufficient margin available to decrease leverage further. Add more margin to decrease leverage."
+    },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
