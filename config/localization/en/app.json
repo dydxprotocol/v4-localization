@@ -2574,9 +2574,7 @@
     "LEVERAGE": {
       "SET_MARKET_LEVERAGE": "Set Market Leverage",
       "EDIT_LEVERAGE": "Edit leverage",
-      "INVALID_LEVERAGE_VALUE": "Invalid leverage value",
-      "SETTING_HIGHER_LEVERAGE_WARNING": "Setting a higher leverage could increase liquidation risk.",
-      "MINIMUM_LEVERAGE_ERROR": "Minimum leverage for this position is {minLeverage}×. Insufficient margin available to decrease leverage further. Add more margin to decrease leverage."
+      "INVALID_LEVERAGE_VALUE": "Invalid leverage value"
     },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the frontend is blocked. If you believe there has been an error, please contact support at {HELP_LINK}.",
@@ -2987,6 +2985,9 @@
     },
     "TURNKEY": {
       "TURNKEY_SESSION_EXPIRED": "Session expired. Please reauthenticate to reveal your phrase."
+    },
+    "EDIT_LEVERAGE": {
+      "MINIMUM_LEVERAGE_ERROR": "Minimum leverage for this position is {minLeverage}×. Insufficient margin available to decrease leverage further. Add more margin to decrease leverage."
     }
   },
   "WARNINGS": {
@@ -3026,6 +3027,9 @@
       "MARKET_STATUS_CLOSE_ONLY": "Close only",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Take Profit Market"
+    },
+    "LEVERAGE": {
+      "SETTING_HIGHER_LEVERAGE_WARNING": "Setting a higher leverage could increase liquidation risk."
     }
   }
 }
