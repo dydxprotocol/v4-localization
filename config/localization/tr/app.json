@@ -2461,7 +2461,7 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Kullanım şartlarımızı ihlal eden bir ülkede bulunduğunuz veya o ülkeden işlem yaptığınız ve daha önce size hesabınız üzerinde kısıtlamalara yol açan durumları ortadan kaldırma fırsatı sunulduğu için kalıcı olarak engellendiniz. Bir hata olduğunu düşünüyorsanız lütfen {HELP_LINK} üzerinden destek ile iletişime geçin.",
       "BLOCKED_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla ayrıntı {TERMS_OF_USE_LINK} adresimizde bulunabilir.",
       "BLOCKED_BANNER_MESSAGE": "Sürekli varlıklar, engellenmiş bir ülkede veya kısıtlı bir bölgede yaşayan, bulunan, çalışan veya kayıtlı bir temsilcisi olan kişiler tarafından kullanılamaz. Daha fazla bilgiyi {TERMS_OF_USE_LINK} metnimizden edinebilirsiniz. Burada bir hata olduğunu düşünüyorsanız, lütfen {HELP_LINK} adresinden destek birimimiz ile irtibata geçin.",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "Bu arayüze kısıtlı bir yargı bölgesinden erişiyorsunuz. Yaptırım kısıtlamalarına tabi konumlar ve arayüzümüzün kullanım için uygun olmadığı diğer yargı bölgeleri dahil olmak üzere belirli yargı bölgelerinden erişime izin vermiyoruz. Bunun bir hata olduğunu düşünüyorsanız {CONTACT_SUPPORT_LINK} ile iletişime geçin."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "Amerika Birleşik Devletleri'nde ikamet edenlerin ve diğer kısıtlama altındaki kişilerin alım satım yapması yasaklanmıştır.  Bunun bir hata olduğunu düşünüyorsanız {CONTACT_SUPPORT_LINK}."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "İkili Uzlaşma",
