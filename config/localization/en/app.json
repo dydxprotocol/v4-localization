@@ -2618,6 +2618,9 @@
       "FREE_DEPOSIT_BANNER_TITLE_AND": "& Instant Deposits",
       "FREE_DEPOSIT_BANNER_SUBTITLE": "For amounts of $20 or more",
       "FREE_DEPOSIT_BANNER_CTA": "Free Deposit"
+    },
+    "WORLD_SERIES_BANNER": {
+      "WORLD_SERIES_BANNER_TITLE": "The 2025 World Series, Now Tradable on dYdX!"
     }
   },
   "TOKEN_MIGRATION": {
