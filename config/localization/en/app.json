@@ -2987,7 +2987,7 @@
       "TURNKEY_SESSION_EXPIRED": "Session expired. Please reauthenticate to reveal your phrase."
     },
     "EDIT_LEVERAGE": {
-      "MINIMUM_LEVERAGE_ERROR": "Minimum leverage for this position is {minLeverage}×. Insufficient margin available to decrease leverage further. Add more margin to decrease leverage."
+      "MINIMUM_LEVERAGE_ERROR": "Minimum leverage for this position is {MIN_LEVERAGE}×. Insufficient margin available to decrease leverage further. Add more margin to decrease leverage."
     }
   },
   "WARNINGS": {
