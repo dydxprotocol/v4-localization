@@ -1588,6 +1588,7 @@
       "MAKER": "Maker",
       "MANAGE_YOUR_RISK_STOP": "Gérez votre risque avec un ordre stop",
       "MARKET_BUY": "achat sur le marché",
+      "MARKET_DISCLAIMER": "Le trading de contrats perpétuels comporte un risque important, y compris le risque de perte soudaine et totale de votre investissement et de votre marge en raison de l'effet de levier élevé et de la volatilité du marché, et peut ne pas convenir à tous les utilisateurs. Les prix peuvent être influencés par les taux de financement et la liquidité et vous pouvez être soumis à des liquidations automatiques sans préavis.",
       "MARKET_ORDER_DESCRIPTION": "La façon la plus simple d'acheter ou de vendre des {SYMBOL} au prix du marché.",
       "MARKET_ORDER_SHORT": "Marché",
       "MARKET_ORDER": "Ordre au marché",
