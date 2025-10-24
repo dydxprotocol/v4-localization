@@ -352,6 +352,7 @@
       "SHOWING": "Showing {ALL_OR_MARKET}",
       "SHOWING_NUM_OUT_OF_TOTAL": "Showing {START} - {END} out of {TOTAL}",
       "SIDE": "Side",
+      "SIGN_IN_TO_VIEW": "Sign in to view",
       "SIGN_OUT": "Sign out",
       "SIZE": "Size",
       "SLOW_WITHDRAW": "Slow Withdraw",
