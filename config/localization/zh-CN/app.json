@@ -1588,6 +1588,7 @@
       "MAKER": "挂单",
       "MANAGE_YOUR_RISK_STOP": "使用止损单管理风险",
       "MARKET_BUY": "市价买入",
+      "MARKET_DISCLAIMER": "交易永续合约涉及重大风险，包括由于高杠杆和市场波动而导致您的投资和保证金突然全部损失的可能性，并且可能不适合所有用户。 价格可能受资金费率和流动性的影响，您可能会在不另行通知的情况下自动清算。",
       "MARKET_ORDER_DESCRIPTION": "按市场价买入或卖出{SYMBOL}最轻松的方式。",
       "MARKET_ORDER_SHORT": "市场",
       "MARKET_ORDER": "市价订单",
