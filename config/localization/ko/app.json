@@ -2576,7 +2576,7 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다.",
       "BLOCKED_BANNER_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. 오류로 의심될 경우, {HELP_LINK}에서 지원을 요청하세요.",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "미국 거주자 및 기타 제한된 개인은 거래할 수 없습니다. 오류가 있다고 생각되면 {CONTACT_SUPPORT_LINK}에 문의해주세요."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "제한된 지역에서 이 인터페이스에 액세스하고 있습니다. 제재 또는 기타 법적 제한이 적용되는 관할권을 포함한 특정 관할권에서의 액세스는 허용되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}를 참조하세요. 오류라고 생각되면 지원팀에 문의하세요."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "바이너리 정산",

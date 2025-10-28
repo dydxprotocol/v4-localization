@@ -2461,7 +2461,7 @@
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Debido a que pareces ser residente o comerciar desde una jurisdicción que infringe nuestros términos de uso y previamente se te dio la oportunidad de corregir las circunstancias que llevaron a restricciones en tu cuenta, se te bloqueó permanentemente. Si crees que se produjo un error, ponte en contacto con soporte al {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}.",
       "BLOCKED_BANNER_MESSAGE": "Los perpetuos no están disponibles para ninguna persona que sea residente de, esté ubicada o constituida en, o tenga un agente registrado en un país bloqueado o un territorio restringido. Puedes encontrar más detalles en {TERMS_OF_USE_LINK}. Si crees que esto es un error, ponte en contacto con asistencia en {HELP_LINK}.",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "Los residentes de los Estados Unidos y otras personas restringidas tienen prohibido hacer trading. {CONTACT_SUPPORT_LINK}Si crees que esto es un error, contáctanos."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "Está accediendo a esta interfaz desde una región restringida. No se permite el acceso desde ciertas jurisdicciones, incluidas aquellas sujetas a sanciones u otras restricciones legales. Para obtener más información, consulte nuestros {TERMS_OF_USE_LINK}. Si cree que esto es un error, póngase en contacto con el soporte."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Liquidación binaria",
