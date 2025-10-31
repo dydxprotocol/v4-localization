@@ -2571,12 +2571,17 @@
       "VIEW_PROPOSAL": "查看提议",
       "VIEW_MARKET": "查看市场"
     },
+    "LEVERAGE": {
+      "SET_MARKET_LEVERAGE": "设置市场杠杆",
+      "EDIT_LEVERAGE": "编辑杠杆",
+      "INVALID_LEVERAGE_VALUE": "无效的杠杆值"
+    },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
       "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "您正在从受限地区访问此界面。不允许从某些司法管辖区访问，包括受制裁或其他法律限制的司法管辖区。有关更多信息，请参阅我们的{TERMS_OF_USE_LINK}。如果您认为这是错误，请联系支持人员。"
+      "BLOCKED_BANNER_MESSAGE_SHORT": "禁止美国居民和其他受限制人士进行交易。如果您认为有错误，请 {CONTACT_SUPPORT_LINK}。"
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "二元结算",
@@ -2618,6 +2623,9 @@
       "FREE_DEPOSIT_BANNER_TITLE_AND": "即时充值",
       "FREE_DEPOSIT_BANNER_SUBTITLE": "对于20美元或以上的金额",
       "FREE_DEPOSIT_BANNER_CTA": "免费充值"
+    },
+    "WORLD_SERIES_BANNER": {
+      "WORLD_SERIES_BANNER_TITLE": "2025 年世界系列赛，现已在 dYdX 上交易！"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2977,6 +2985,9 @@
     },
     "TURNKEY": {
       "TURNKEY_SESSION_EXPIRED": "会话已过期。 请重新验证以显示您的短语。"
+    },
+    "EDIT_LEVERAGE": {
+      "MINIMUM_LEVERAGE_ERROR": "该仓位的最低杠杆为 {MIN_LEVERAGE}倍。 可用保证金不足，无法进一步降低杠杆。 添加更多保证金以降低杠杆。"
     }
   },
   "WARNINGS": {
@@ -3016,6 +3027,9 @@
       "MARKET_STATUS_CLOSE_ONLY": "仅平仓",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "止损市价单",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "止盈市场"
+    },
+    "LEVERAGE": {
+      "SETTING_HIGHER_LEVERAGE_WARNING": "设置较高的杠杆可能会增加清算风险。"
     }
   }
 }
