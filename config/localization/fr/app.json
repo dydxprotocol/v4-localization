@@ -2571,12 +2571,17 @@
       "VIEW_PROPOSAL": "Afficher la proposition",
       "VIEW_MARKET": "Afficher le marché"
     },
+    "LEVERAGE": {
+      "SET_MARKET_LEVERAGE": "Définir l'effet de levier du marché",
+      "EDIT_LEVERAGE": "Modifier l'effet de levier",
+      "INVALID_LEVERAGE_VALUE": "Valeur de l'effet de levier non valide"
+    },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "Parce que vous semblez être un résident d'une juridiction qui viole nos termes d'utilisation ou que vous vous êtes engagé dans une activité qui viole nos termes d'utilisation, vous avez été bloqué. Vous avez jusqu'à {DATE} pour retirer vos fonds avant que votre accès au frontend ne soit bloqué. Si vous pensez qu'une erreur s'est produite, veuillez contacter le service d'assistance sur {HELP_LINK}.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "Étant donné que vous semblez résider dans une juridiction qui enfreint nos conditions d'utilisation, ou que vous effectuez des transactions à partir d'une telle juridiction, et que vous avez déjà eu l'occasion de remédier aux problèmes qui ont entraîné des restrictions sur votre compte, vous avez été bloqué de façon permanente. Si vous pensez qu'une erreur s'est produite, veuillez contacter le service d'assistance sur {HELP_LINK}.",
       "BLOCKED_MESSAGE": "Les perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus de détails, consultez nos {TERMS_OF_USE_LINK}.",
       "BLOCKED_BANNER_MESSAGE": "Les perpétuels ne sont pas accessibles aux personnes qui résident, sont situées ou constituées dans un pays bloqué ou un territoire restreint, ou qui ont un agent enregistré dans un tel pays. Pour plus d'informations, consultez nos {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre service d'assistance sur {HELP_LINK}",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "Vous accédez à cette interface depuis une région restreinte. L'accès depuis certaines juridictions, y compris celles soumises à des sanctions ou à d'autres restrictions légales, n'est pas autorisé. Pour plus d'informations, consultez nos {TERMS_OF_USE_LINK}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "Les résidents américains et autres personnes soumises à des restrictions ont interdiction de trader. Si vous pensez qu'il s'agit d'une erreur, {CONTACT_SUPPORT_LINK}."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "Règlement binaire",
@@ -2618,6 +2623,9 @@
       "FREE_DEPOSIT_BANNER_TITLE_AND": "et Dépôts instantanés",
       "FREE_DEPOSIT_BANNER_SUBTITLE": "Pour les montants de 20 $ ou plus",
       "FREE_DEPOSIT_BANNER_CTA": "Dépôt gratuit"
+    },
+    "WORLD_SERIES_BANNER": {
+      "WORLD_SERIES_BANNER_TITLE": "La série mondiale 2025, maintenant négociable sur dYdX !"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2977,6 +2985,9 @@
     },
     "TURNKEY": {
       "TURNKEY_SESSION_EXPIRED": "Session expirée. Veuillez vous authentifier à nouveau pour révéler votre phrase."
+    },
+    "EDIT_LEVERAGE": {
+      "MINIMUM_LEVERAGE_ERROR": "L'effet de levier minimum pour cette position est de {MIN_LEVERAGE}×. Marge disponible insuffisante pour réduire davantage l'effet de levier. Ajoutez plus de marge pour réduire l'effet de levier."
     }
   },
   "WARNINGS": {
@@ -3016,6 +3027,9 @@
       "MARKET_STATUS_CLOSE_ONLY": "Fermer uniquement",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "Stop Market",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "Marché Take Profit"
+    },
+    "LEVERAGE": {
+      "SETTING_HIGHER_LEVERAGE_WARNING": "La définition d'un effet de levier plus élevé pourrait augmenter le risque de liquidation."
     }
   }
 }
