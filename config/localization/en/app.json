@@ -1522,6 +1522,7 @@
       "CLEAN_UP": "Clean up",
       "CLOSE_ORDER": "Close order",
       "CLOSE_POSITION": "Close position",
+      "CLOSED_PNL": "Closed PNL",
       "CONFIRM_LEVERAGE": "Confirm leverage",
       "CONFIRM_ORDER": "Confirm {ORDER}",
       "CONFIRMED_DESCRIPTION": "Your trade has been placed.",
