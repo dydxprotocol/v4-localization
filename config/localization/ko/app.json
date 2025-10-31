@@ -2571,12 +2571,17 @@
       "VIEW_PROPOSAL": "제안 보기",
       "VIEW_MARKET": "시장 보기"
     },
+    "LEVERAGE": {
+      "SET_MARKET_LEVERAGE": "시장 레버리지 설정",
+      "EDIT_LEVERAGE": "레버리지 편집",
+      "INVALID_LEVERAGE_VALUE": "잘못된 레버리지 값"
+    },
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 {DATE}까지 자금을 인출할 수 있습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다.",
       "BLOCKED_BANNER_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. 오류로 의심될 경우, {HELP_LINK}에서 지원을 요청하세요.",
-      "BLOCKED_BANNER_MESSAGE_SHORT": "제한된 지역에서 이 인터페이스에 액세스하고 있습니다. 제재 또는 기타 법적 제한이 적용되는 관할권을 포함한 특정 관할권에서의 액세스는 허용되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}를 참조하세요. 오류라고 생각되면 지원팀에 문의하세요."
+      "BLOCKED_BANNER_MESSAGE_SHORT": "미국 거주자 및 기타 제한된 개인은 거래할 수 없습니다. 오류가 있다고 생각되면 {CONTACT_SUPPORT_LINK}에 문의해주세요."
     },
     "PREDICTION_MARKET": {
       "BINARY_SETTLEMENT": "바이너리 정산",
@@ -2618,6 +2623,9 @@
       "FREE_DEPOSIT_BANNER_TITLE_AND": "및 즉시 입금",
       "FREE_DEPOSIT_BANNER_SUBTITLE": "20달러 이상의 금액에 대해",
       "FREE_DEPOSIT_BANNER_CTA": "무료 입금"
+    },
+    "WORLD_SERIES_BANNER": {
+      "WORLD_SERIES_BANNER_TITLE": "2025 월드 시리즈, 이제 dYdX에서 거래 가능!"
     }
   },
   "TOKEN_MIGRATION": {
@@ -2977,6 +2985,9 @@
     },
     "TURNKEY": {
       "TURNKEY_SESSION_EXPIRED": "세션이 만료되었습니다. 재인증을 통해 문구를 표시하세요."
+    },
+    "EDIT_LEVERAGE": {
+      "MINIMUM_LEVERAGE_ERROR": "이 포지션에 대한 최소 레버리지는 {MIN_LEVERAGE}×입니다. 레버리지를 더 낮추기 위해 사용할 수 있는 마진이 충분하지 않습니다. 마진을 추가하여 레버리지를 줄이세요."
     }
   },
   "WARNINGS": {
@@ -3016,6 +3027,9 @@
       "MARKET_STATUS_CLOSE_ONLY": "종료 전용",
       "STOP_MARKET_ORDER_MAY_NOT_EXECUTE": "손절매",
       "TAKE_PROFIT_MARKET_ORDER_MAY_NOT_EXECUTE": "이익 환수 시장가 주문"
+    },
+    "LEVERAGE": {
+      "SETTING_HIGHER_LEVERAGE_WARNING": "더 높은 레버리지를 설정하면 청산 위험이 증가할 수 있습니다."
     }
   }
 }
