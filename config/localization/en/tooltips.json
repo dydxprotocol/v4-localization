@@ -168,6 +168,10 @@
       "TITLE": "Margin Used",
       "BODY": "Percentage of your total cross margin used by open positions."
     },
+    "MARKET_FEE_DISCOUNT": {
+      "TITLE": "Market Fee Discount",
+      "BODY": "Enjoy a fee discount for {SYMBOL}. Get {DISCOUNT_PERCENT}% off trading fees on this market."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Maximum Fast Withdraw",
       "BODY": "Maximum amount allowed for a single fast withdraw."
