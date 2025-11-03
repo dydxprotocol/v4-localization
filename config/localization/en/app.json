@@ -2488,7 +2488,20 @@
       "ADDITIONAL_CONDITION": "Additional Condition",
       "AND_EXCHANGE_MARKET_SHARE": "and exchange market share",
       "AND_MAKER_MARKET_SHARE": "and maker market share",
-      "TRADING_VOLUME": "Trading Volume"
+      "TRADING_VOLUME": "Trading Volume",
+      "YOUR_MAKER_FEE": "Your Maker Fee",
+      "YOUR_TAKER_FEE": "Your Taker Fee"
+    },
+    "STAKING_TIERS": {
+      "STAKE_MORE": "Stake more",
+      "STAKED_DYDX": "Staked dYdX",
+      "STAKING_FEE_DISCOUNT": "Staking Fee Discount",
+      "STAKING_TIERS": "Staking Tiers",
+      "STAKING_TIER": "Staking Tier"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "Fee Discount",
+      "FEE_FREE": "Fee Free"
     },
     "THEME": {
       "THEME": "Theme",
