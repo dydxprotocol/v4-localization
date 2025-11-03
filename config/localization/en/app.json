@@ -2438,7 +2438,10 @@
       "EPOCH_ENDS_IN": "Epoch ends in",
       "HOW_DO_DYDX_REWARDS_WORK": "How do $DYDX rewards work?",
       "REWARDS_CLAIMABLE": "Trading rewards are claimable 7 days after the end of each epoch via {DYDX_COMMUNITY} from smart contracts deployed by the {DYDX_FOUNDATION}. Trading rewards are based on data provided by the dYdX product.",
-      "YOU_WILL_EARN": "You will earn"
+      "YOU_WILL_EARN": "You will earn",
+      "PRICE_IMPACT_HELPER_TEXT": "Warning: due to the liquidity of this pair pool, you are not receiving the full amount of USDC. Lower you amount or try another route instead",
+      "NO_AVAILABLE_ROUTES": "No available routes",
+      "HIGH_PRICE_IMPACT": "High price impact"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Deposit all {ASSET}",
