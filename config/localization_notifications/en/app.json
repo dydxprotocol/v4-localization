@@ -88,6 +88,14 @@
       "TITLE": "$10K in Rewards for PUMP Traders",
       "BODY": "Live on dYdX with up to 5x leverage. Limited-time rewards."
     },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "Deposit Detected",
+      "BODY": "Your deposit will arrive in ~30 seconds."
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "Deposit Confirmed",
+      "BODY": "{AMOUNT} {ASSET} has been deposited."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Deposit Succeeded",
       "BODY": "Your deposit of {AMOUNT} {ASSET} has been confirmed."
