@@ -182,7 +182,7 @@
     },
     "MAX_SLIPPAGE": {
       "TITLE": "Max Slippage",
-      "BODY": "The maximum amount of slippage you are willing to tolerate when executing your order. This is the maximum amount of difference between the expected execution price and the best order on the bid or ask side."
+      "BODY": "Maximum percentage loss your order input amount could result in due to lack of liquidity. "
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Maximum Leverage",
