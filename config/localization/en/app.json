@@ -2487,16 +2487,21 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "Equity tier limit defines the set of equity tiers to limit how many open orders a subaccount is allowed to have."
     },
     "FEE_TIERS": {
+      "FEE_TIER": "Fee Tier",
+      "FEE_TIER_N": "Fee Tier {TIER}",
       "FEE_TIERS": "Fee Tiers",
       "ADDITIONAL_CONDITION": "Additional Condition",
       "AND_EXCHANGE_MARKET_SHARE": "and exchange market share",
       "AND_MAKER_MARKET_SHARE": "and maker market share",
+      "PERCENT_OFF_FEES": "{PERCENT} off fees",
       "TRADING_VOLUME": "Trading Volume",
       "YOUR_MAKER_FEE": "Your Maker Fee",
       "YOUR_TAKER_FEE": "Your Taker Fee"
     },
     "STAKING_TIERS": {
+      "LEVEL_N": "Level {LEVEL}",
       "STAKE_MORE": "Stake more",
+      "STAKE_REQUIREMENTS": "Stake Requirements",
       "STAKED_DYDX": "Staked dYdX",
       "STAKING_FEE_DISCOUNT": "Staking Fee Discount",
       "STAKING_TIERS": "Staking Tiers",
