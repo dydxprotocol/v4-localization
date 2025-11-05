@@ -160,6 +160,10 @@
       "TITLE": "Maker Fee",
       "BODY": "Limit orders that add liquidity to the book and are filled by another party will be filled as maker orders. Maker orders have a lower fee than taker orders."
     },
+    "MAKER_FEE_DISCOUNT": {
+      "TITLE": "Maker Fee Discount",
+      "BODY": "The fee rate you pay per maker order with staking fee discounts applied"
+    },
     "MARGIN_USAGE": {
       "TITLE": "Margin Usage",
       "BODY": "Percentage of your total margin used by open positions."
@@ -283,6 +287,10 @@
     "TAKER_FEE": {
       "TITLE": "Taker Fee",
       "BODY": "Trades that take liquidity from the book (e.g. market or crossing limit orders) execute as taker orders. Taker orders have a higher fee than maker orders."
+    },
+    "TAKER_FEE_DISCOUNT": {
+      "TITLE": "Taker Fee Discount",
+      "BODY": "The fee rate you pay per taker order with staking fee discounts applied"
     },
     "TAKE_PROFIT": {
       "TITLE": "Take Profit",
