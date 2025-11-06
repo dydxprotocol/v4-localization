@@ -1891,6 +1891,7 @@
       "LOGGED_IN_WITH": "Logged in with {EMAIL}",
       "LOGGING_IN": "Logging in...",
       "OPEN_SENT_MAGIC_LINK": "Open the Magic link sent to {EMAIL} to complete your sign in",
+      "PASSKEY_DESCRIPTION": "Passkeys are a secure alternative to passwords",
       "PLEASE_WAIT_LOGIN": "Please wait while we log you in...",
       "REGISTER_PASSKEY": "Register Passkey",
       "RESEND": "Resend",
