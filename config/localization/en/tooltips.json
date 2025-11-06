@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Affiliate commissions",
-      "BODY": "Affiliates earn commission on taker fees paid by referred users. To generate affiliate fee share, referred users must have rolling 30-day volume below $50M when they make the trade."
+      "BODY": "Affiliates earn commission on taker fees paid by referred users. You will be credited $10k max per referred user on a 30 day rolling window and $1M attributed volume per user on a 30 day rolling window."
     }
   },
   "PORTFOLIO": {
