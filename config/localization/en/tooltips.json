@@ -180,6 +180,10 @@
       "TITLE": "Maximum Fast Withdraw",
       "BODY": "Maximum amount allowed for a single fast withdraw."
     },
+    "MAX_SLIPPAGE": {
+      "TITLE": "Max Slippage",
+      "BODY": "Maximum percentage loss your order input amount could result in due to lack of liquidity. "
+    },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Maximum Leverage",
       "BODY": "Maximum allowed leverage for this market. To limit risk, maximum leverage decreases linearly with position size after a certain threshold."
@@ -243,6 +247,10 @@
     "PRICE_IMPACT": {
       "TITLE": "Price Impact",
       "BODY": "The difference between the expected execution price for your order and the best order on the bid or ask side. This will increase for larger trade sizes."
+    },
+    "PRICE_IMPACT_WARNING": {
+      "TITLE": "Price Impact Warning",
+      "BODY": "Warning: due to the liquidity of this pair pool, you are not receiving the full amount of USDC. Lower you amount or try another route instead"
     },
     "REALIZED_PNL": {
       "TITLE": "Realized Profit / Loss",
