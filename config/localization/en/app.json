@@ -2515,7 +2515,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "Fee Discount",
-      "FEE_FREE": "Fee Free"
+      "FEE_FREE": "Fee Free",
+      "NO_FEES": "No Fees"
     },
     "THEME": {
       "THEME": "Theme",
