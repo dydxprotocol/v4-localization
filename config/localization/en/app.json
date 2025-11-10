@@ -2680,6 +2680,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "The 2025 World Series, Now Tradable on dYdX!"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "No Fee",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "November on SOL & BTC Markets",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "Trade Bitcoin and Solana now"
     }
   },
   "TOKEN_MIGRATION": {
