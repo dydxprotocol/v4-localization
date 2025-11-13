@@ -1737,6 +1737,8 @@
       "SUBMITTING": "Submitting",
       "SUBMITTING_ORDER": "Submitting Order",
       "SUCCESS": "Success",
+      "SWAP_ERROR": "There was an error with your swap",
+      "SWAP_SUCCESS": "Your swap was successful. Transaction hash: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "A take profit limit order converts to a traditional limit order whenever the oracle price or last trade price crosses your trigger price.",
       "TAKE_PROFIT_LIMIT_SHORT": "Take Profit Limit",
       "TAKE_PROFIT_LIMIT": "Take Profit Limit",
@@ -1768,6 +1770,7 @@
       "TRIGGER_PRICE": "Trigger Price",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "The trigger order's associated position has been closed or flipped.",
       "TRIGGERS": "Triggers",
+      "TRANSACTION_HASH": "Transaction hash {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Undercollateralized",
       "UNOPENED_ISOLATED_POSITIONS": "Unopened Isolated Positions",
@@ -2439,7 +2442,9 @@
       "EPOCH_ENDS_IN": "Epoch ends in",
       "HOW_DO_DYDX_REWARDS_WORK": "How do $DYDX rewards work?",
       "REWARDS_CLAIMABLE": "Trading rewards are claimable 7 days after the end of each epoch via {DYDX_COMMUNITY} from smart contracts deployed by the {DYDX_FOUNDATION}. Trading rewards are based on data provided by the dYdX product.",
-      "YOU_WILL_EARN": "You will earn"
+      "YOU_WILL_EARN": "You will earn",
+      "NO_AVAILABLE_ROUTES": "No available routes",
+      "HIGH_PRICE_IMPACT": "High price impact"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Deposit all {ASSET}",
@@ -2511,7 +2516,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "Fee Discount",
-      "FEE_FREE": "Fee Free"
+      "FEE_FREE": "Fee Free",
+      "NO_FEES": "No Fees"
     },
     "THEME": {
       "THEME": "Theme",
@@ -2675,6 +2681,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "The 2025 World Series, Now Tradable on dYdX!"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "No Fee",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "November on SOL & BTC Markets",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "Trade Bitcoin and Solana now"
     }
   },
   "TOKEN_MIGRATION": {
