@@ -196,6 +196,7 @@
       "HIDE": "Masquer",
       "HIGH_RISK": "Risque élevé",
       "HISTORY": "Historique",
+      "INCENTIVES": "Incitatifs",
       "INCREASED": "augmenté",
       "INCREASING": "Croissant",
       "INITIAL_MARGIN_FRACTION": "Fraction de marge initiale",
@@ -790,7 +791,7 @@
       "AFFILIATE_BOOSTER_PRIMARY_BODY": "Gagnez jusqu'à {WEEKLY_AMOUNT} $ par semaine. Apprenez-en davantage {HERE_LINK}.",
       "AFFILIATE_BOOSTER_LIVE": "Le programme Booster des affiliés est disponible ; des récompenses hebdomadaires attendent les affiliés éligibles.",
       "AFFILIATE_CHART_EMPTY_STATE": "Aucune donnée disponible",
-      "AFFILIATE_CONNECT_WALLET": "Veuillez connecter votre portefeuille pour vérifier votre classement",
+      "AFFILIATE_CONNECT_WALLET": "Veuillez connecter votre portefeuille pour vérifier les données des affiliés.",
       "AFFILIATE_EARNINGS": "Gains d'affiliation",
       "AFFILIATE_LINK_REQUIREMENT": "Le lien d'affiliation s'activera à un volume de {AMOUNT_USD} $",
       "AFFILIATE_LINK": "Lien d'affiliation",
@@ -827,6 +828,7 @@
       "LIGHTNING_FAST_DISCRIPTION": "L'expérience la plus transparente et la plus puissante de DeFi.",
       "LIGHTNING_FAST": "Rapide comme l'éclair avec une liquidité importante",
       "LOAD_MORE": "Voir plus",
+      "MY_REFERRAL_STATS": "Mes statistiques de parrainage",
       "PROGRAM_CARD_BODY_VIP": "Merci d'être un {VIP} ! Vous gagnez à présent encore plus de récompenses.",
       "PROGRAM_CARD_BODY": "Si vous êtes un affilié VIP, vous pouvez gagner jusqu'à {VIP_VALUE} par utilisateur référé par mois.",
       "PROGRAM_CARD_TITLE_VIP": "Vous êtes un affilié VIP !",
@@ -1455,6 +1457,9 @@
       "TRADING_LEAGUES": "Ligues de trading",
       "TRADING_LEAGUES_DESCRIPTION": "Les ligues de trading sont maintenant en direct ! Grimpez dans les classements et gagnez votre part de {PRIZE}.",
       "TRADING_LEAGUES_PRIZE": "Cagnotte hebdomadaire de 100 000 $",
+      "TRADING_LEAGUES_BANNER_TITLE": "Les ligues de trading sont de retour !",
+      "TRADING_LEAGUES_BANNER_SUBTITLE": "250 000 $ de récompenses hebdomadaires. Trade pour entrer.",
+      "TRADING_LEAGUES_BANNER_CTA": "Vérifier le classement",
       "TRADING_VOLUME_LABEL": "échangé dans les dernières 24 h",
       "TRADING_VOLUME": "Volume de trading",
       "TRAILING_VOLUME": "Volume de trailing",
@@ -1732,6 +1737,8 @@
       "SUBMITTING": "Soumettre",
       "SUBMITTING_ORDER": "Soumettre l'ordre",
       "SUCCESS": "Réussite",
+      "SWAP_ERROR": "Une erreur est survenue avec votre swap",
+      "SWAP_SUCCESS": "Votre échange a réussi. Hachage de la transaction : {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Un ordre de limite Take Profit se transforme en un ordre de limite traditionnel chaque fois que le prix d'oracle ou le dernier prix du trade croise votre prix de déclenchement.",
       "TAKE_PROFIT_LIMIT_SHORT": "Limite Take Profit",
       "TAKE_PROFIT_LIMIT": "Limite Take Profit",
@@ -1763,6 +1770,7 @@
       "TRIGGER_PRICE": "Prix de déclenchement",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "La position associée de l'ordre de déclenchement a été clôturée ou inversée.",
       "TRIGGERS": "Déclencheurs",
+      "TRANSACTION_HASH": "Hachage de la transaction {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Sous garantie",
       "UNOPENED_ISOLATED_POSITIONS": "Positions isolées non ouvertes",
@@ -1874,6 +1882,7 @@
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}, USDC accepté",
       "CHECK_EMAIL_DESCRIPTION": "Ouvrez le lien magique dans votre e-mail pour terminer votre connexion",
       "CHECK_EMAIL_TITLE": "Vérifiez votre adresse e-mail",
+      "CONTINUE_PASSKEY": "Continuer avec la clé de passe",
       "CONTINUE_SIGN_IN_DESCRIPTION": "Veuillez patienter",
       "CONTINUE_SIGN_IN_TITLE": "Continuez à vous connecter",
       "DEPOSIT_AND_TRADE": "Déposer et commencer à trading",
@@ -1887,6 +1896,7 @@
       "LOGGING_IN": "Connexion en cours...",
       "OPEN_SENT_MAGIC_LINK": "Ouvrez le lien Magic envoyé à {EMAIL} pour terminer votre connexion",
       "PLEASE_WAIT_LOGIN": "Veuillez patienter pendant que nous vous connectons...",
+      "REGISTER_PASSKEY": "Enregistrer la clé de passe",
       "RESEND": "Renvoyer",
       "SIGN_IN_DESCRIPTION": "Pour commencer, connectez-vous avec vos réseaux sociaux, votre e-mail ou reliez votre portefeuille.",
       "SIGN_IN_DESKTOP": "Connectez-vous avec votre ordinateur de bureau",
@@ -2431,7 +2441,9 @@
       "EPOCH_ENDS_IN": "La période se termine dans",
       "HOW_DO_DYDX_REWARDS_WORK": "Comment les récompenses $DYDX fonctionnent-elles ?",
       "REWARDS_CLAIMABLE": "Les récompenses de trading sont réclamables 7 jours après la fin de chaque période via {DYDX_COMMUNITY} à partir des contrats intelligents déployés par le {DYDX_FOUNDATION}. Les récompenses de trading sont basées sur les données fournies par le produit dYdX.",
-      "YOU_WILL_EARN": "Vous gagnerez"
+      "YOU_WILL_EARN": "Vous gagnerez",
+      "NO_AVAILABLE_ROUTES": "Aucun itinéraire disponible",
+      "HIGH_PRICE_IMPACT": "Impact du prix élevé"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Déposer tout le {ASSET}",
@@ -2481,11 +2493,29 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "La limite des niveaux de capital définit l'ensemble des niveaux de capital pour limiter le nombre d'ordres ouverts qu'un sous-compte est autorisé à avoir."
     },
     "FEE_TIERS": {
+      "FEE_TIER": "Niveau de frais",
+      "FEE_TIER_N": "Niveau de frais {TIER}",
       "FEE_TIERS": "Niveau de frais",
       "ADDITIONAL_CONDITION": "Condition supplémentaire",
       "AND_EXCHANGE_MARKET_SHARE": "et part de marché de la bourse",
       "AND_MAKER_MARKET_SHARE": "et part de marché des Makers",
-      "TRADING_VOLUME": "Volume de trading"
+      "PERCENT_OFF_FEES": "{PERCENT} de déduction de frais",
+      "TRADING_VOLUME": "Volume de trading",
+      "YOUR_MAKER_FEE": "Vos frais de Maker",
+      "YOUR_TAKER_FEE": "Vos frais de Taker"
+    },
+    "STAKING_TIERS": {
+      "LEVEL_N": "Niveau {LEVEL}",
+      "STAKE_MORE": "Misez plus",
+      "STAKE_REQUIREMENTS": "Exigences de staking",
+      "STAKED_DYDX": "dYdX staké",
+      "STAKING_FEE_DISCOUNT": "Déduction des frais de staking",
+      "STAKING_TIERS": "Niveaux de staking",
+      "STAKING_TIER": "Niveau de staking"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "Remise sur les frais",
+      "FEE_FREE": "Frais gratuits"
     },
     "THEME": {
       "THEME": "Thème",
