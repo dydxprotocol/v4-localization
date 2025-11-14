@@ -2446,7 +2446,7 @@
       "SWAP_SUCCESS": "Swap success",
       "SWAP_ERROR": "There was an error with your swap",
       "SWAP_PENDING": "Swapping",
-      "SWAP_PENDING_DESCRIPTION": "Swapping {INPUT_TOKEN} to {OUTPUT_TOKEN}",
+      "SWAP_PENDING_DESCRIPTION": "Swapping {INPUT_LABEL} to {OUTPUT_LABEL}",
       "SWAP_SUCCESS_DESCRIPTION": "Swapped {INPUT_LABEL} into {OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
