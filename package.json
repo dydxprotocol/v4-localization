@@ -1,6 +1,6 @@
 {
   "name": "@dydxprotocol/v4-localization",
-  "version": "1.1.357",
+  "version": "1.1.358",
   "description": "v4 localization",
   "main": "index.ts",
   "scripts": {
