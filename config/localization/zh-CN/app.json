@@ -196,6 +196,7 @@
       "HIDE": "隐藏",
       "HIGH_RISK": "高风险",
       "HISTORY": "历史记录",
+      "INCENTIVES": "动机",
       "INCREASED": "已增加",
       "INCREASING": "正在增加",
       "INITIAL_MARGIN_FRACTION": "初始保证金比例",
@@ -790,7 +791,7 @@
       "AFFILIATE_BOOSTER_PRIMARY_BODY": "每周最多可赚取{WEEKLY_AMOUNT}美元。了解更多{HERE_LINK}。",
       "AFFILIATE_BOOSTER_LIVE": "关联会员助力计划已启动，每周为符合条件的关联会员提供奖励。",
       "AFFILIATE_CHART_EMPTY_STATE": "无可用数据",
-      "AFFILIATE_CONNECT_WALLET": "请连接您的钱包以查看您的排名",
+      "AFFILIATE_CONNECT_WALLET": "请连接您的钱包以查看关联会员数据。",
       "AFFILIATE_EARNINGS": "关联会员收益",
       "AFFILIATE_LINK_REQUIREMENT": "关联链接将在达到 ${AMOUNT_USD} 交易量时激活",
       "AFFILIATE_LINK": "关联会员链接",
@@ -827,6 +828,7 @@
       "LIGHTNING_FAST_DISCRIPTION": "DeFi 中最顺畅、最强大的体验。",
       "LIGHTNING_FAST": "快如闪电，具有深层流动性",
       "LOAD_MORE": "加载更多",
+      "MY_REFERRAL_STATS": "我的推荐统计数据",
       "PROGRAM_CARD_BODY_VIP": "感谢您成为 {VIP}！ 您现在可以获得更多的奖励。",
       "PROGRAM_CARD_BODY": "如果您是 VIP 关联会员，则每月推荐用户可赚取多达{VIP_VALUE}。",
       "PROGRAM_CARD_TITLE_VIP": "您是 VIP 关联会员！",
@@ -1455,6 +1457,9 @@
       "TRADING_LEAGUES": "交易联盟",
       "TRADING_LEAGUES_DESCRIPTION": "交易联盟现在现已上线！攀升排名并赚取您的{PRIZE}份额。",
       "TRADING_LEAGUES_PRIZE": "每周 10 万美元的奖池",
+      "TRADING_LEAGUES_BANNER_TITLE": "交易联盟回来了！",
+      "TRADING_LEAGUES_BANNER_SUBTITLE": "每周奖励可达 25 万美元。 交易即可参与。",
+      "TRADING_LEAGUES_BANNER_CTA": "查看排名",
       "TRADING_VOLUME_LABEL": "过去24小时内交易",
       "TRADING_VOLUME": "交易量",
       "TRAILING_VOLUME": "追踪交易量",
@@ -1732,6 +1737,8 @@
       "SUBMITTING": "提交中",
       "SUBMITTING_ORDER": "提交订单",
       "SUCCESS": "成功",
+      "SWAP_ERROR": "您的互换出错",
+      "SWAP_SUCCESS": "您的互换成功。 交易哈希值： {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，止盈限价单将转换为传统的限价单。",
       "TAKE_PROFIT_LIMIT_SHORT": "止盈限价",
       "TAKE_PROFIT_LIMIT": "止盈限价",
@@ -1763,6 +1770,7 @@
       "TRIGGER_PRICE": "触发价格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "触发订单的相关头寸已平仓或翻转。",
       "TRIGGERS": "触发器",
+      "TRANSACTION_HASH": "交易哈希值 {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "质押不足",
       "UNOPENED_ISOLATED_POSITIONS": "未开仓孤立头寸",
@@ -1874,6 +1882,7 @@
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}，USDC 已接受",
       "CHECK_EMAIL_DESCRIPTION": "打开电子邮箱中的魔术链接，以完成登录。",
       "CHECK_EMAIL_TITLE": "检查您的电子邮箱",
+      "CONTINUE_PASSKEY": "继续使用 Passkey",
       "CONTINUE_SIGN_IN_DESCRIPTION": "请等待",
       "CONTINUE_SIGN_IN_TITLE": "继续登录",
       "DEPOSIT_AND_TRADE": "充值并开始交易",
@@ -1887,6 +1896,7 @@
       "LOGGING_IN": "正在登录...",
       "OPEN_SENT_MAGIC_LINK": "打开发送到 的 Magic 链接，{EMAIL}以完成登录。",
       "PLEASE_WAIT_LOGIN": "正在登录，请稍候...",
+      "REGISTER_PASSKEY": "注册 Passkey",
       "RESEND": "重新发送",
       "SIGN_IN_DESCRIPTION": "要开始，请使用您的社交账户登录、电子邮件登录或连接您的钱包。",
       "SIGN_IN_DESKTOP": "使用桌面登录",
@@ -2431,7 +2441,9 @@
       "EPOCH_ENDS_IN": "时段结束于",
       "HOW_DO_DYDX_REWARDS_WORK": "$DYDX 奖励如何运作？",
       "REWARDS_CLAIMABLE": "在每个周期结束后7天，从{DYDX_FOUNDATION}部署的智能合约通过{DYDX_COMMUNITY}可申领交易奖励。交易奖励以 dYdX 产品提供的数据为基础。",
-      "YOU_WILL_EARN": "您将赚取"
+      "YOU_WILL_EARN": "您将赚取",
+      "NO_AVAILABLE_ROUTES": "没有可用路由",
+      "HIGH_PRICE_IMPACT": "高价格差"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
@@ -2481,11 +2493,29 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "权益等级限制定义了一组权益等级，以限制子账户允许拥有的未结订单数量。"
     },
     "FEE_TIERS": {
+      "FEE_TIER": "费用等级",
+      "FEE_TIER_N": "费用等级 {TIER}",
       "FEE_TIERS": "费用等级",
       "ADDITIONAL_CONDITION": "附加条件",
       "AND_EXCHANGE_MARKET_SHARE": "和交易所市场份额",
       "AND_MAKER_MARKET_SHARE": "和挂单市场份额",
-      "TRADING_VOLUME": "交易量"
+      "PERCENT_OFF_FEES": "{PERCENT}减免费用",
+      "TRADING_VOLUME": "交易量",
+      "YOUR_MAKER_FEE": "您的挂单费",
+      "YOUR_TAKER_FEE": "您的吃单费"
+    },
+    "STAKING_TIERS": {
+      "LEVEL_N": "等级 {LEVEL}",
+      "STAKE_MORE": "质押更多",
+      "STAKE_REQUIREMENTS": "质押要求",
+      "STAKED_DYDX": "已质押 dYdX",
+      "STAKING_FEE_DISCOUNT": "质押费用折扣",
+      "STAKING_TIERS": "质押等级",
+      "STAKING_TIER": "质押等级"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "费率折扣",
+      "FEE_FREE": "免费"
     },
     "THEME": {
       "THEME": "主题",
