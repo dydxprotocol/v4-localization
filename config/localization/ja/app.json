@@ -196,6 +196,7 @@
       "HIDE": "非表示",
       "HIGH_RISK": "高リスク",
       "HISTORY": "履歴",
+      "INCENTIVES": "インセンティブ",
       "INCREASED": "増加",
       "INCREASING": "増加中",
       "INITIAL_MARGIN_FRACTION": "当初保証金比率",
@@ -790,7 +791,7 @@
       "AFFILIATE_BOOSTER_PRIMARY_BODY": "1週間で最大${WEEKLY_AMOUNT}を獲得できます。詳細は{HERE_LINK}からご覧ください。",
       "AFFILIATE_BOOSTER_LIVE": "アフィリエイトブースタープログラムが開始されました。対象のアフィリエイトは毎週報酬を獲得できます。",
       "AFFILIATE_CHART_EMPTY_STATE": "利用可能なデータはありません",
-      "AFFILIATE_CONNECT_WALLET": "ランキングを確認するには、ウォレットを接続してください",
+      "AFFILIATE_CONNECT_WALLET": "ウォレットを接続してアフィリエイトデータを確認してください。",
       "AFFILIATE_EARNINGS": "アフィリエイト収益",
       "AFFILIATE_LINK_REQUIREMENT": "アフィリエイトリンクは、ボリュームが{AMOUNT_USD}ドルに達するとアクティブになります",
       "AFFILIATE_LINK": "アフィリエイトリンク",
@@ -827,6 +828,7 @@
       "LIGHTNING_FAST_DISCRIPTION": "DeFiで最もシームレスでパワフルなエクスペリエンス。",
       "LIGHTNING_FAST": "驚異的なスピードと豊富な流動性",
       "LOAD_MORE": "さらに読み込む",
+      "MY_REFERRAL_STATS": "紹介の統計情報",
       "PROGRAM_CARD_BODY_VIP": "{VIP}でいてくださりありがとうございます！さらに報酬を獲得できるようになりました。",
       "PROGRAM_CARD_BODY": "VIPアフィリエイトであれば、紹介したユーザー1人あたり月に最大{VIP_VALUE}を獲得できます。",
       "PROGRAM_CARD_TITLE_VIP": "あなたはVIPアフィリエイトです！",
@@ -1455,6 +1457,9 @@
       "TRADING_LEAGUES": "取引リーグ",
       "TRADING_LEAGUES_DESCRIPTION": "取引リーグが公開中です！ランキングを上げて、{PRIZE}を獲得しましょう。",
       "TRADING_LEAGUES_PRIZE": "毎週10万ドルの賞金プール",
+      "TRADING_LEAGUES_BANNER_TITLE": "取引リーグが復活しました！",
+      "TRADING_LEAGUES_BANNER_SUBTITLE": "毎週25万ドルの報酬。 取引して入力。",
+      "TRADING_LEAGUES_BANNER_CTA": "ランキングを確認する",
       "TRADING_VOLUME_LABEL": "直近24時間以内の取引",
       "TRADING_VOLUME": "取引量",
       "TRAILING_VOLUME": "トレーリング出来高",
@@ -1732,6 +1737,8 @@
       "SUBMITTING": "送信中",
       "SUBMITTING_ORDER": "注文を送信しています",
       "SUCCESS": "成功しました",
+      "SWAP_ERROR": "スワップにエラーが発生しました",
+      "SWAP_SUCCESS": "スワップが正常に処理されました。 トランザクションハッシュ： {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "利益確定指値注文は、オラクル価格または最新の取引価格がトリガー価格を上回った場合、通常の指値注文に変更されます。",
       "TAKE_PROFIT_LIMIT_SHORT": "利益確定指値",
       "TAKE_PROFIT_LIMIT": "利益確定指値",
@@ -1763,6 +1770,7 @@
       "TRIGGER_PRICE": "トリガー価格",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "トリガー注文の関連ポジションがクローズまたは反転されました。",
       "TRIGGERS": "トリガー",
+      "TRANSACTION_HASH": "トランザクションハッシュ {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "担保不足",
       "UNOPENED_ISOLATED_POSITIONS": "開かれていない分離ポジション",
@@ -1874,6 +1882,7 @@
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}、USDCが承認されました",
       "CHECK_EMAIL_DESCRIPTION": "メール内のマジックリンクを開いて、サインインを完了します",
       "CHECK_EMAIL_TITLE": "メールを確認してください",
+      "CONTINUE_PASSKEY": "パスキーで続ける",
       "CONTINUE_SIGN_IN_DESCRIPTION": "お待ちください",
       "CONTINUE_SIGN_IN_TITLE": "サインインを続ける",
       "DEPOSIT_AND_TRADE": "入金して金融取引を開始する",
@@ -1887,6 +1896,7 @@
       "LOGGING_IN": "ログイン中...",
       "OPEN_SENT_MAGIC_LINK": "{EMAIL}に送信されるマジックリンクを開いて、サインインを完了します",
       "PLEASE_WAIT_LOGIN": "ログイン処理中です。少々お待ちください。",
+      "REGISTER_PASSKEY": "パスキーを登録する",
       "RESEND": "再送信",
       "SIGN_IN_DESCRIPTION": "開始するには、ソーシャルアカウントでサインインするか、メールでログインするか、ウォレットを接続してください。",
       "SIGN_IN_DESKTOP": "デスクトップでサインインする",
@@ -2431,7 +2441,9 @@
       "EPOCH_ENDS_IN": "エポックは終了しました",
       "HOW_DO_DYDX_REWARDS_WORK": "$DYDX報酬のしくみとは？",
       "REWARDS_CLAIMABLE": "トレードの報酬は、{DYDX_FOUNDATION}がデプロイしたスマートコントラクトの{DYDX_COMMUNITY}経由で、各エポック期間の終了から7日後に請求できるようになります。トレード報酬はdYdX製品から提供されるデータに基づきます。",
-      "YOU_WILL_EARN": "獲得予定"
+      "YOU_WILL_EARN": "獲得予定",
+      "NO_AVAILABLE_ROUTES": "利用可能なルートはありません",
+      "HIGH_PRICE_IMPACT": "高い価格インパクト"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "すべての{ASSET}を入金",
@@ -2481,11 +2493,29 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "エクイティティアリミットは、サブアカウントが許可されるオープンオーダーの数を制限するために、エクイティティアのセットを定義します。"
     },
     "FEE_TIERS": {
+      "FEE_TIER": "手数料ティア",
+      "FEE_TIER_N": "手数料ティア {TIER}",
       "FEE_TIERS": "手数料ティア",
       "ADDITIONAL_CONDITION": "追加条件",
       "AND_EXCHANGE_MARKET_SHARE": "および取引市場シェア",
       "AND_MAKER_MARKET_SHARE": "およびメーカー市場シェア",
-      "TRADING_VOLUME": "取引量"
+      "PERCENT_OFF_FEES": "{PERCENT}割引手数料",
+      "TRADING_VOLUME": "取引量",
+      "YOUR_MAKER_FEE": "メーカー手数料",
+      "YOUR_TAKER_FEE": "テイカー手数料"
+    },
+    "STAKING_TIERS": {
+      "LEVEL_N": "レベル {LEVEL}",
+      "STAKE_MORE": "もっとステーキング",
+      "STAKE_REQUIREMENTS": "ステーキング要件",
+      "STAKED_DYDX": "ステーキングされたdYdX",
+      "STAKING_FEE_DISCOUNT": "ステーキング手数料の割引",
+      "STAKING_TIERS": "ステーキングティア",
+      "STAKING_TIER": "ステーキングティア"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "手数料割引",
+      "FEE_FREE": "手数料無料"
     },
     "THEME": {
       "THEME": "テーマ",
