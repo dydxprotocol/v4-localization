@@ -88,6 +88,14 @@
       "TITLE": "10 000 $ de récompenses pour les traders de PUMP",
       "BODY": "En direct sur dYdX avec un effet de levier allant jusqu'à 5x. Récompenses limitées dans le temps."
     },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "Dépôt détecté",
+      "BODY": "Votre dépôt arrivera dans environ 30 secondes."
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "Dépôt confirmé",
+      "BODY": "{AMOUNT} {ASSET} a été déposé."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "Dépôt réussi",
       "BODY": "Votre dépôt de {AMOUNT} {ASSET} a été confirmé."

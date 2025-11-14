@@ -88,6 +88,14 @@
       "TITLE": "PUMPトレーダーに報酬1万ドルをご提供いたします",
       "BODY": "最大5倍のレバレッジでdYdXが、ご利用可能です。期間限定の報酬。"
     },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "入金が検出されました",
+      "BODY": "入金は、~30秒未満で処理されます。"
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "入金が確認されました",
+      "BODY": "{AMOUNT} {ASSET} が入金されました。"
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "入金に成功しました",
       "BODY": "{AMOUNT}{ASSET}の入金が承認されました。"

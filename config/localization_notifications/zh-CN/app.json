@@ -88,6 +88,14 @@
       "TITLE": "PUMP交易者可获得$10K奖励",
       "BODY": "已在dYdX上线，最高可达5倍杠杆。限时奖励。"
     },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "检测到充值",
+      "BODY": "您的充值将在约30秒后到达。"
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "充值确认",
+      "BODY": "{AMOUNT} {ASSET} 已充值。"
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "存款成功",
       "BODY": "您的{AMOUNT} {ASSET}存款已确认。"

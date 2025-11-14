@@ -18,7 +18,7 @@
   "AFFILIATES": {
     "AFFILIATE_COMMISSIONS": {
       "TITLE": "Commissions d'affiliation",
-      "BODY": "Les affiliés gagnent une commission sur les frais de Taker payés par les utilisateurs référés. Pour générer une part des frais d'affiliation, les utilisateurs référés doivent avoir un volume à 30 jours glissants inférieur à 50 millions de dollars lorsqu'ils effectuent le trade."
+      "BODY": "Les affiliés gagnent une commission sur les frais de Taker payés par les utilisateurs référés. Vous serez crédité de 10 000 dollars maximum par utilisateur référé sur une période de 30 jours et de 1 million de dollars de volume attribué par utilisateur sur une période de 30 jours."
     }
   },
   "PORTFOLIO": {
@@ -160,6 +160,10 @@
       "TITLE": "Frais Maker",
       "BODY": "Les ordres à cours limité qui ajoutent de la liquidité au carnet et qui sont exécutés par une autre partie seront exécutés en tant qu'ordres Maker. Les ordres Maker ont des frais inférieurs à ceux des ordres Taker."
     },
+    "MAKER_FEE_DISCOUNT": {
+      "TITLE": "Réduction des frais du Maker",
+      "BODY": "Le taux de frais que vous payez par ordre Maker avec les réductions de frais de staking appliquées"
+    },
     "MARGIN_USAGE": {
       "TITLE": "Utilisation de la marge",
       "BODY": "Pourcentage de votre marge totale utilisée par les positions ouvertes."
@@ -168,9 +172,17 @@
       "TITLE": "Marge utilisée",
       "BODY": "Pourcentage de votre marge croisée totale utilisée par les positions ouvertes."
     },
+    "MARKET_FEE_DISCOUNT": {
+      "TITLE": "Réduction sur les frais de marché",
+      "BODY": "Profitez d'une remise sur les frais pour {SYMBOL}. Obtenez {DISCOUNT_PERCENT}% de réduction sur les frais de trading sur ce marché."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Retrait rapide maximum",
       "BODY": "Le montant maximum autorisé pour un retrait rapide unique."
+    },
+    "MAX_SLIPPAGE": {
+      "TITLE": "Effet de slippage maximum",
+      "BODY": "Perte en pourcentage maximale que le montant de votre ordre entré pourrait entraîner en raison d'un manque de liquidités. "
     },
     "MAXIMUM_LEVERAGE": {
       "TITLE": "Effet de levier maximum",
@@ -236,6 +248,10 @@
       "TITLE": "Impact sur le prix",
       "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Elle augmentera pour les tailles de transactions plus importantes."
     },
+    "PRICE_IMPACT_WARNING": {
+      "TITLE": "Avertissement d'impact du prix",
+      "BODY": "Avertissement : en raison de la liquidité de ce pool de paires, vous ne recevez pas le montant total d'USDC. Diminuez votre montant ou essayez un autre itinéraire"
+    },
     "REALIZED_PNL": {
       "TITLE": "Bénéfice ou Perte réalisé",
       "BODY": "Bénéfice ou perte total réalisé pour cette position par le biais de clôtures partielles, de frais et de financement. Réinitialise si vous fermez complètement votre position ou changez de côté de position (long à court, ou vice versa)."
@@ -279,6 +295,10 @@
     "TAKER_FEE": {
       "TITLE": "Frais Taker",
       "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
+    },
+    "TAKER_FEE_DISCOUNT": {
+      "TITLE": "Réduction des frais Taker",
+      "BODY": "Le taux de frais que vous payez par ordre Taker avec les réductions de frais de staking appliquées"
     },
     "TAKE_PROFIT": {
       "TITLE": "Take Profit",

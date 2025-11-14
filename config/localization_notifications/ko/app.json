@@ -88,6 +88,14 @@
       "TITLE": "PUMP 트레이더에게 1만 달러 상당의 보상",
       "BODY": "dYdX에서 최대 5배 레버리지로 진행합니다. 한정 기간 보상."
     },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "입금이 감지됨",
+      "BODY": "입금은 최대 30초 후에 도착합니다."
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "입금 확인됨",
+      "BODY": "{AMOUNT} {ASSET} 이(가) 입금되었습니다."
+    },
     "DEPOSIT_SUCCESS": {
       "TITLE": "입금 완료됨",
       "BODY": "{AMOUNT} {ASSET}의 입금이 확인되었습니다."
