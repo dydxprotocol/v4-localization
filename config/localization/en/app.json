@@ -1737,8 +1737,6 @@
       "SUBMITTING": "Submitting",
       "SUBMITTING_ORDER": "Submitting Order",
       "SUCCESS": "Success",
-      "SWAP_ERROR": "There was an error with your swap",
-      "SWAP_SUCCESS": "Your swap was successful. Transaction hash: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "A take profit limit order converts to a traditional limit order whenever the oracle price or last trade price crosses your trigger price.",
       "TAKE_PROFIT_LIMIT_SHORT": "Take Profit Limit",
       "TAKE_PROFIT_LIMIT": "Take Profit Limit",
@@ -2444,7 +2442,12 @@
       "REWARDS_CLAIMABLE": "Trading rewards are claimable 7 days after the end of each epoch via {DYDX_COMMUNITY} from smart contracts deployed by the {DYDX_FOUNDATION}. Trading rewards are based on data provided by the dYdX product.",
       "YOU_WILL_EARN": "You will earn",
       "NO_AVAILABLE_ROUTES": "No available routes",
-      "HIGH_PRICE_IMPACT": "High price impact"
+      "HIGH_PRICE_IMPACT": "High price impact",
+      "SWAP_SUCCESS": "Swap success",
+      "SWAP_ERROR": "There was an error with your swap",
+      "SWAP_PENDING": "Swapping",
+      "SWAP_PENDING_DESCRIPTION": "Swapping {INPUT_LABEL} to {OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "Swapped {INPUT_LABEL} into {OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Deposit all {ASSET}",
