@@ -196,6 +196,7 @@
       "HIDE": "숨기기",
       "HIGH_RISK": "리스크 높음",
       "HISTORY": "내역",
+      "INCENTIVES": "인센티브",
       "INCREASED": "증가",
       "INCREASING": "증가 중",
       "INITIAL_MARGIN_FRACTION": "초기 마진율",
@@ -790,7 +791,7 @@
       "AFFILIATE_BOOSTER_PRIMARY_BODY": "주당 최대 {WEEKLY_AMOUNT}달러의 수익을 올리세요. {HERE_LINK}에서 자세히 알아보세요.",
       "AFFILIATE_BOOSTER_LIVE": "현재 진행중인 제휴 부스터 프로그램은 적격 제휴사에 매주 보상을 제공합니다.",
       "AFFILIATE_CHART_EMPTY_STATE": "사용 가능한 데이터가 없습니다",
-      "AFFILIATE_CONNECT_WALLET": "지갑을 연결하여 순위를 확인하세요",
+      "AFFILIATE_CONNECT_WALLET": "지갑을 연결하여 제휴 데이터를 확인하세요.",
       "AFFILIATE_EARNINGS": "제휴 수익",
       "AFFILIATE_LINK_REQUIREMENT": "제휴 링크가 ${AMOUNT_USD}의 볼륨에서 활성화됩니다",
       "AFFILIATE_LINK": "제휴 링크",
@@ -827,6 +828,7 @@
       "LIGHTNING_FAST_DISCRIPTION": "DeFi에서 가장 원활하고 강력한 경험.",
       "LIGHTNING_FAST": "깊은 유동성으로 빠르게",
       "LOAD_MORE": "더 불러오기",
+      "MY_REFERRAL_STATS": "내 추천 통계",
       "PROGRAM_CARD_BODY_VIP": "{VIP}이(가) 되어 주셔서 감사합니다! 이제 더 많은 보상을 받게 됩니다.",
       "PROGRAM_CARD_BODY": "VIP 계열사인 경우 매월 추천 사용자당 최대 {VIP_VALUE}의 금액을 벌 수 있습니다.",
       "PROGRAM_CARD_TITLE_VIP": "귀하는 VIP 제휴사입니다!",
@@ -1455,6 +1457,9 @@
       "TRADING_LEAGUES": "거래 리그",
       "TRADING_LEAGUES_DESCRIPTION": "지금 트레이딩 리그가 진행되고 있습니다! 리그 순위를 올리고 {PRIZE}의 지분을 받으세요.",
       "TRADING_LEAGUES_PRIZE": "10만 달러 주간 상금 풀",
+      "TRADING_LEAGUES_BANNER_TITLE": "거래 리그가 돌아왔습니다!",
+      "TRADING_LEAGUES_BANNER_SUBTITLE": "주간 보상으로 25만 달러를 받을 수 있습니다. 거래하여 입력하세요.",
+      "TRADING_LEAGUES_BANNER_CTA": "순위 확인",
       "TRADING_VOLUME_LABEL": "지난 24시간 이내에 거래",
       "TRADING_VOLUME": "트레이딩 양",
       "TRAILING_VOLUME": "트레일링 양",
@@ -1732,6 +1737,8 @@
       "SUBMITTING": "제출",
       "SUBMITTING_ORDER": "주문 제출 중",
       "SUCCESS": "성공",
+      "SWAP_ERROR": "스왑 오류가 발생했습니다.",
+      "SWAP_SUCCESS": "스왑이 성공했습니다. 거래 해시: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "수익 실현 지정가 주문은 오라클 가격 또는 마지막 거래 가격이 트리거 가격을 넘어설 때마다 전통적인 지정가 주문으로 변환됩니다.",
       "TAKE_PROFIT_LIMIT_SHORT": "이익 환수 지정가",
       "TAKE_PROFIT_LIMIT": "이익 환수 지정가",
@@ -1763,6 +1770,7 @@
       "TRIGGER_PRICE": "트리거 가격",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "트리거 주문의 연계 해제된 포지션이 마감되었거나 뒤집혔습니다.",
       "TRIGGERS": "트리거",
+      "TRANSACTION_HASH": "거래 해시 {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "미담보 ",
       "UNOPENED_ISOLATED_POSITIONS": "개설되지 않은 격리된 포지션",
@@ -1874,6 +1882,7 @@
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}, USDC 승인됨",
       "CHECK_EMAIL_DESCRIPTION": "이메일에서 매직 링크를 열어 로그인을 완료하세요",
       "CHECK_EMAIL_TITLE": "이메일을 확인하세요.",
+      "CONTINUE_PASSKEY": "패스키로 계속",
       "CONTINUE_SIGN_IN_DESCRIPTION": "기다려 주세요",
       "CONTINUE_SIGN_IN_TITLE": "로그인을 계속 진행하세요.",
       "DEPOSIT_AND_TRADE": "입금하고 거래를 시작하세요.",
@@ -1887,6 +1896,7 @@
       "LOGGING_IN": "로그인 중...",
       "OPEN_SENT_MAGIC_LINK": "로그인을 완료하려면 {EMAIL} 이메일 주소로 전송된 매직 링크를 여세요.",
       "PLEASE_WAIT_LOGIN": "로그인 중입니다. 잠시만 기다려 주세요...",
+      "REGISTER_PASSKEY": "패스키 등록",
       "RESEND": "재전송",
       "SIGN_IN_DESCRIPTION": "시작하려면 소셜 계정으로 로그인하거나 이메일로 로그인하거나 지갑을 연결하세요.",
       "SIGN_IN_DESKTOP": "데스크톱으로 로그인",
@@ -2431,7 +2441,9 @@
       "EPOCH_ENDS_IN": "에폭이 종료됩니다",
       "HOW_DO_DYDX_REWARDS_WORK": "$DYDX 보상은 어떻게 진행됩니까?",
       "REWARDS_CLAIMABLE": "거래 보상은 {DYDX_FOUNDATION}에 의해 배포된 스마트 계약에서 {DYDX_COMMUNITY}을(를) 통해 각 에폭 종료 후 7일 동안 청구할 수 있습니다. 거래 보상은 dYdX 제품에서 제공하는 데이터를 기반으로 합니다.",
-      "YOU_WILL_EARN": "을(를 획득하게 됩니다"
+      "YOU_WILL_EARN": "을(를 획득하게 됩니다",
+      "NO_AVAILABLE_ROUTES": "사용 가능한 경로 없음",
+      "HIGH_PRICE_IMPACT": "높은 가격 충격"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "모든 {ASSET} 입금",
@@ -2481,11 +2493,29 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "자본 등급 한도는 하위 계정에 허용된 미결 주문 수를 제한하는 자본 등급 집합을 정의합니다."
     },
     "FEE_TIERS": {
+      "FEE_TIER": "수수료 등급",
+      "FEE_TIER_N": "수수료 등급 {TIER}",
       "FEE_TIERS": "수수료 등급",
       "ADDITIONAL_CONDITION": "추가 조건",
       "AND_EXCHANGE_MARKET_SHARE": "및 교환 시장 점유율",
       "AND_MAKER_MARKET_SHARE": "제조사 시장 점유율",
-      "TRADING_VOLUME": "트레이딩 양"
+      "PERCENT_OFF_FEES": "{PERCENT} 수수료 면제",
+      "TRADING_VOLUME": "트레이딩 양",
+      "YOUR_MAKER_FEE": "메이커 수수료",
+      "YOUR_TAKER_FEE": "테이커 수수료"
+    },
+    "STAKING_TIERS": {
+      "LEVEL_N": "레벨 {LEVEL}",
+      "STAKE_MORE": "더 많이 스테이킹하세요",
+      "STAKE_REQUIREMENTS": "스테이킹 요구 사항",
+      "STAKED_DYDX": "스테이킹된 dYdX",
+      "STAKING_FEE_DISCOUNT": "스테이킹 수수료 할인",
+      "STAKING_TIERS": "스테이킹 계층",
+      "STAKING_TIER": "스테이킹 계층"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "수수료 할인",
+      "FEE_FREE": "수수료 무료"
     },
     "THEME": {
       "THEME": "테마",
