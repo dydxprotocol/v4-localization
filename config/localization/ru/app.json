@@ -196,6 +196,7 @@
       "HIDE": "Скрыть",
       "HIGH_RISK": "Высокий риск",
       "HISTORY": "История",
+      "INCENTIVES": "Стимулы",
       "INCREASED": "повышено",
       "INCREASING": "Повышение",
       "INITIAL_MARGIN_FRACTION": "Доля начальной маржи",
@@ -790,7 +791,7 @@
       "AFFILIATE_BOOSTER_PRIMARY_BODY": "Зарабатывайте до {WEEKLY_AMOUNT} USD в неделю. Узнайте больше ({HERE_LINK}).",
       "AFFILIATE_BOOSTER_LIVE": "Программа поддержки партнеров уже доступна — еженедельные награды для соответствующих требованиям партнеров.",
       "AFFILIATE_CHART_EMPTY_STATE": "Данные отсутствуют",
-      "AFFILIATE_CONNECT_WALLET": "Подключите свой кошелек, чтобы проверить рейтинг",
+      "AFFILIATE_CONNECT_WALLET": "Подключите кошелек, чтобы проверить партнерские данные.",
       "AFFILIATE_EARNINGS": "Партнерский доход",
       "AFFILIATE_LINK_REQUIREMENT": "Партнерская ссылка будет активирована на уровне объема {AMOUNT_USD} долл. США",
       "AFFILIATE_LINK": "Партнерская ссылка",
@@ -827,6 +828,7 @@
       "LIGHTNING_FAST_DISCRIPTION": "Самый простой и мощный опыт в мире DeFi.",
       "LIGHTNING_FAST": "Высокая скорость с глубокой ликвидностью",
       "LOAD_MORE": "Загрузить больше",
+      "MY_REFERRAL_STATS": "Статистика моих рефералов",
       "PROGRAM_CARD_BODY_VIP": "Спасибо, что вы {VIP}! Теперь вы получаете еще больше вознаграждений.",
       "PROGRAM_CARD_BODY": "Если вы являетесь VIP-партнером, то можете зарабатывать до {VIP_VALUE} за каждого привлеченного пользователя в месяц.",
       "PROGRAM_CARD_TITLE_VIP": "Вы VIP-партнер!",
@@ -1455,6 +1457,9 @@
       "TRADING_LEAGUES": "Торговые лиги",
       "TRADING_LEAGUES_DESCRIPTION": "Стали доступны торговые лиги. Повышайте позицию в рейтинге и получайте свою долю приза: {PRIZE}.",
       "TRADING_LEAGUES_PRIZE": "Еженедельный призовой фонд в размере 100 тысяч долл. США",
+      "TRADING_LEAGUES_BANNER_TITLE": "Торговые лиги возвращаются!",
+      "TRADING_LEAGUES_BANNER_SUBTITLE": "Еженедельные награды на сумму 250 000 долл. США. Совершайте сделки для участия.",
+      "TRADING_LEAGUES_BANNER_CTA": "Проверить рейтинг",
       "TRADING_VOLUME_LABEL": "обменено за последние 24 ч",
       "TRADING_VOLUME": "Объем торговли",
       "TRAILING_VOLUME": "Объем за прошедший период",
@@ -1732,6 +1737,8 @@
       "SUBMITTING": "Отправка",
       "SUBMITTING_ORDER": "Отправка ордера",
       "SUCCESS": "Успешно",
+      "SWAP_ERROR": "Произошла ошибка при проведении вашего свопа",
+      "SWAP_SUCCESS": "Ваш своп был успешно выполнен. Хеш транзакции: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Лимитный ордер тейк-профита преобразуется в традиционный лимитный ордер всякий раз, когда цена по оракулу или последняя торговая цена пересекает вашу триггерную цену.",
       "TAKE_PROFIT_LIMIT_SHORT": "Лимит-ордер тейк-профит",
       "TAKE_PROFIT_LIMIT": "Лимит-ордер тейк-профит",
@@ -1763,6 +1770,7 @@
       "TRIGGER_PRICE": "Триггерная цена",
       "TRIGGER_ORDER_CANCELED_BY_FRONTEND": "Связанная с триггерным ордером позиция была закрыта или перевернута.",
       "TRIGGERS": "Триггеры",
+      "TRANSACTION_HASH": "Хеш транзакции {TX_HASH}",
       "TWAP": "TWAP",
       "UNDERCOLLATERALIZED": "Недостаточное обеспечение",
       "UNOPENED_ISOLATED_POSITIONS": "Неоткрытые изолированные позиции",
@@ -1874,6 +1882,7 @@
       "ACCEPTED_ASSETS_AND_USDC": "{ASSETS}, USDC принято",
       "CHECK_EMAIL_DESCRIPTION": "Откройте магическую ссылку в электронном письме, чтобы завершить вход",
       "CHECK_EMAIL_TITLE": "Проверьте свой адрес электронной почты",
+      "CONTINUE_PASSKEY": "Продолжить с помощью ключа доступа",
       "CONTINUE_SIGN_IN_DESCRIPTION": "Подождите",
       "CONTINUE_SIGN_IN_TITLE": "Продолжить авторизацию",
       "DEPOSIT_AND_TRADE": "Внесите средства и начните торговать",
@@ -1887,6 +1896,7 @@
       "LOGGING_IN": "Осуществляется вход...",
       "OPEN_SENT_MAGIC_LINK": "Откройте ссылку Magic, отправленную на {EMAIL}, чтобы завершить вход в систему",
       "PLEASE_WAIT_LOGIN": "Подождите, пока мы войдем в систему...",
+      "REGISTER_PASSKEY": "Зарегистрировать ключ доступа",
       "RESEND": "Отправить еще раз",
       "SIGN_IN_DESCRIPTION": "Чтобы начать, войдите с помощью своих учетных записей в социальных сетях, электронной почты или подключите кошелек.",
       "SIGN_IN_DESKTOP": "Войти с помощью рабочего стола",
@@ -2431,7 +2441,9 @@
       "EPOCH_ENDS_IN": "Эпоха завершается через",
       "HOW_DO_DYDX_REWARDS_WORK": "Как получить награды в DYDX?",
       "REWARDS_CLAIMABLE": "Вознаграждения за торговлю можно получить через 7 дней после окончания каждой эпохи в сообществе {DYDX_COMMUNITY} за счет смарт-контрактов, развернутых {DYDX_FOUNDATION}. Размер наград за торговлю основан на данных, предоставляемых продуктом dYdX.",
-      "YOU_WILL_EARN": "Вы получите"
+      "YOU_WILL_EARN": "Вы получите",
+      "NO_AVAILABLE_ROUTES": "Нет доступных маршрутов",
+      "HIGH_PRICE_IMPACT": "Высокое влияние на цену"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Внести все {ASSET}",
@@ -2481,11 +2493,29 @@
       "EQUITY_TIERS_DESCRIPTION_LONG": "Лимит уровня капитал определяет набор уровней капитала для ограничения количества открытых ордеров, которые может иметь субсчет."
     },
     "FEE_TIERS": {
+      "FEE_TIER": "Уровень комиссий",
+      "FEE_TIER_N": "Уровень комиссий {TIER}",
       "FEE_TIERS": "Уровни комиссий",
       "ADDITIONAL_CONDITION": "Дополнительное условие",
       "AND_EXCHANGE_MARKET_SHARE": "и доля рынка биржи",
       "AND_MAKER_MARKET_SHARE": "и доля рынка мейкера",
-      "TRADING_VOLUME": "Объем торговли"
+      "PERCENT_OFF_FEES": "Скидка {PERCENT} на комиссии",
+      "TRADING_VOLUME": "Объем торговли",
+      "YOUR_MAKER_FEE": "Комиссия мейкера",
+      "YOUR_TAKER_FEE": "Комиссия тейкера"
+    },
+    "STAKING_TIERS": {
+      "LEVEL_N": "Уровень {LEVEL}",
+      "STAKE_MORE": "Увеличить стейкинг",
+      "STAKE_REQUIREMENTS": "Требования к стейкингу",
+      "STAKED_DYDX": "dYdX поставлен в стейкинг",
+      "STAKING_FEE_DISCOUNT": "Скидка на комиссии за стейкинг",
+      "STAKING_TIERS": "Уровни стейкинга",
+      "STAKING_TIER": "Уровень стейкинга"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "FEE_DISCOUNT": "Скидка на комиссии",
+      "FEE_FREE": "Без комиссии"
     },
     "THEME": {
       "THEME": "Тема",
