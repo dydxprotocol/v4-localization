@@ -2444,11 +2444,14 @@
       "YOU_WILL_EARN": "You will earn",
       "NO_AVAILABLE_ROUTES": "No available routes",
       "HIGH_PRICE_IMPACT": "High price impact",
-      "SWAP_SUCCESS": "Swap success",
       "SWAP_ERROR": "There was an error with your swap",
+      "SWAP_FROM": "From",
+      "SWAP_IN_PROGRESS_WARNING": "Your swap is in progress. Please wait for it to complete before leaving this page.",
       "SWAP_PENDING": "Swapping",
       "SWAP_PENDING_DESCRIPTION": "Swapping {INPUT_LABEL} to {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "Swapped {INPUT_LABEL} into {OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "Swap success",
+      "SWAP_SUCCESS_DESCRIPTION": "Swapped {INPUT_LABEL} into {OUTPUT_LABEL}",
+      "SWAP_TO": "To"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Deposit all {ASSET}",
