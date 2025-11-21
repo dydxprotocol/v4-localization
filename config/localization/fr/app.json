@@ -168,6 +168,7 @@
       "FAST_WITHDRAW": "Retrait rapide",
       "FAVORITES": "Favoris",
       "FEES_30D": "Frais (30 j)",
+      "FEES_GENERATED": "Frais générés",
       "FEES_PAID": "Frais payés",
       "FEES": "Frais",
       "FIAT": "Fiat",
@@ -1737,8 +1738,6 @@
       "SUBMITTING": "Soumettre",
       "SUBMITTING_ORDER": "Soumettre l'ordre",
       "SUCCESS": "Réussite",
-      "SWAP_ERROR": "Une erreur est survenue avec votre swap",
-      "SWAP_SUCCESS": "Votre échange a réussi. Hachage de la transaction : {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Un ordre de limite Take Profit se transforme en un ordre de limite traditionnel chaque fois que le prix d'oracle ou le dernier prix du trade croise votre prix de déclenchement.",
       "TAKE_PROFIT_LIMIT_SHORT": "Limite Take Profit",
       "TAKE_PROFIT_LIMIT": "Limite Take Profit",
@@ -1896,6 +1895,7 @@
       "LOGGING_IN": "Connexion en cours...",
       "OPEN_SENT_MAGIC_LINK": "Ouvrez le lien Magic envoyé à {EMAIL} pour terminer votre connexion",
       "PLEASE_WAIT_LOGIN": "Veuillez patienter pendant que nous vous connectons...",
+      "PASSKEY_DESCRIPTION": "Les clés de passe sont une alternative sécurisée aux mots de passe",
       "REGISTER_PASSKEY": "Enregistrer la clé de passe",
       "RESEND": "Renvoyer",
       "SIGN_IN_DESCRIPTION": "Pour commencer, connectez-vous avec vos réseaux sociaux, votre e-mail ou reliez votre portefeuille.",
@@ -2443,7 +2443,12 @@
       "REWARDS_CLAIMABLE": "Les récompenses de trading sont réclamables 7 jours après la fin de chaque période via {DYDX_COMMUNITY} à partir des contrats intelligents déployés par le {DYDX_FOUNDATION}. Les récompenses de trading sont basées sur les données fournies par le produit dYdX.",
       "YOU_WILL_EARN": "Vous gagnerez",
       "NO_AVAILABLE_ROUTES": "Aucun itinéraire disponible",
-      "HIGH_PRICE_IMPACT": "Impact du prix élevé"
+      "HIGH_PRICE_IMPACT": "Impact du prix élevé",
+      "SWAP_SUCCESS": "Swap réussi",
+      "SWAP_ERROR": "Une erreur est survenue avec votre swap",
+      "SWAP_PENDING": "Échange",
+      "SWAP_PENDING_DESCRIPTION": "Échanger {INPUT_LABEL} vers {OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "Échangé {INPUT_LABEL} en {OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Déposer tout le {ASSET}",
@@ -2515,7 +2520,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "Remise sur les frais",
-      "FEE_FREE": "Frais gratuits"
+      "FEE_FREE": "Frais gratuits",
+      "NO_FEES": "Pas de frais"
     },
     "THEME": {
       "THEME": "Thème",
@@ -2679,6 +2685,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "La série mondiale 2025, maintenant négociable sur dYdX !"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "Pas de frais",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "Novembre sur les marchés SOL et BTC",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "Trader Bitcoin et Solana maintenant"
     }
   },
   "TOKEN_MIGRATION": {

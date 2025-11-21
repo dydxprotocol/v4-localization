@@ -168,6 +168,7 @@
       "FAST_WITHDRAW": "빠른 인출",
       "FAVORITES": "즐겨찾기",
       "FEES_30D": "수수료(30일)",
+      "FEES_GENERATED": "생성된 수수료",
       "FEES_PAID": "지불한 수수료",
       "FEES": "수수료",
       "FIAT": "명목 화폐",
@@ -1737,8 +1738,6 @@
       "SUBMITTING": "제출",
       "SUBMITTING_ORDER": "주문 제출 중",
       "SUCCESS": "성공",
-      "SWAP_ERROR": "스왑 오류가 발생했습니다.",
-      "SWAP_SUCCESS": "스왑이 성공했습니다. 거래 해시: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "수익 실현 지정가 주문은 오라클 가격 또는 마지막 거래 가격이 트리거 가격을 넘어설 때마다 전통적인 지정가 주문으로 변환됩니다.",
       "TAKE_PROFIT_LIMIT_SHORT": "이익 환수 지정가",
       "TAKE_PROFIT_LIMIT": "이익 환수 지정가",
@@ -1896,6 +1895,7 @@
       "LOGGING_IN": "로그인 중...",
       "OPEN_SENT_MAGIC_LINK": "로그인을 완료하려면 {EMAIL} 이메일 주소로 전송된 매직 링크를 여세요.",
       "PLEASE_WAIT_LOGIN": "로그인 중입니다. 잠시만 기다려 주세요...",
+      "PASSKEY_DESCRIPTION": "패스키는 암호의 안전한 대안입니다",
       "REGISTER_PASSKEY": "패스키 등록",
       "RESEND": "재전송",
       "SIGN_IN_DESCRIPTION": "시작하려면 소셜 계정으로 로그인하거나 이메일로 로그인하거나 지갑을 연결하세요.",
@@ -2443,7 +2443,12 @@
       "REWARDS_CLAIMABLE": "거래 보상은 {DYDX_FOUNDATION}에 의해 배포된 스마트 계약에서 {DYDX_COMMUNITY}을(를) 통해 각 에폭 종료 후 7일 동안 청구할 수 있습니다. 거래 보상은 dYdX 제품에서 제공하는 데이터를 기반으로 합니다.",
       "YOU_WILL_EARN": "을(를 획득하게 됩니다",
       "NO_AVAILABLE_ROUTES": "사용 가능한 경로 없음",
-      "HIGH_PRICE_IMPACT": "높은 가격 충격"
+      "HIGH_PRICE_IMPACT": "높은 가격 충격",
+      "SWAP_SUCCESS": "스왑 성공",
+      "SWAP_ERROR": "스왑 오류가 발생했습니다.",
+      "SWAP_PENDING": "스왑 중",
+      "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}으로 스왑하기 {OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}을(를) {OUTPUT_LABEL}(으)로 스왑함"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "모든 {ASSET} 입금",
@@ -2515,7 +2520,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "수수료 할인",
-      "FEE_FREE": "수수료 무료"
+      "FEE_FREE": "수수료 무료",
+      "NO_FEES": "수수료 없음"
     },
     "THEME": {
       "THEME": "테마",
@@ -2679,6 +2685,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "2025 월드 시리즈, 이제 dYdX에서 거래 가능!"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "수수료 없음",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "11월에 SOL 및 BTC 시장에서",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "지금 비트코인 및 Solana를 거래하세요"
     }
   },
   "TOKEN_MIGRATION": {
