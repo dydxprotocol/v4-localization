@@ -168,6 +168,7 @@
       "FAST_WITHDRAW": "Быстрый вывод",
       "FAVORITES": "Избранное",
       "FEES_30D": "Комиссии (30 дней)",
+      "FEES_GENERATED": "Сгенерированные комиссии",
       "FEES_PAID": "Уплаченные комиссии",
       "FEES": "Комиссии",
       "FIAT": "Фиатная валюта",
@@ -1737,8 +1738,6 @@
       "SUBMITTING": "Отправка",
       "SUBMITTING_ORDER": "Отправка ордера",
       "SUCCESS": "Успешно",
-      "SWAP_ERROR": "Произошла ошибка при проведении вашего свопа",
-      "SWAP_SUCCESS": "Ваш своп был успешно выполнен. Хеш транзакции: {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "Лимитный ордер тейк-профита преобразуется в традиционный лимитный ордер всякий раз, когда цена по оракулу или последняя торговая цена пересекает вашу триггерную цену.",
       "TAKE_PROFIT_LIMIT_SHORT": "Лимит-ордер тейк-профит",
       "TAKE_PROFIT_LIMIT": "Лимит-ордер тейк-профит",
@@ -1896,6 +1895,7 @@
       "LOGGING_IN": "Осуществляется вход...",
       "OPEN_SENT_MAGIC_LINK": "Откройте ссылку Magic, отправленную на {EMAIL}, чтобы завершить вход в систему",
       "PLEASE_WAIT_LOGIN": "Подождите, пока мы войдем в систему...",
+      "PASSKEY_DESCRIPTION": "Ключи доступа — это безопасная альтернатива паролям",
       "REGISTER_PASSKEY": "Зарегистрировать ключ доступа",
       "RESEND": "Отправить еще раз",
       "SIGN_IN_DESCRIPTION": "Чтобы начать, войдите с помощью своих учетных записей в социальных сетях, электронной почты или подключите кошелек.",
@@ -2443,7 +2443,12 @@
       "REWARDS_CLAIMABLE": "Вознаграждения за торговлю можно получить через 7 дней после окончания каждой эпохи в сообществе {DYDX_COMMUNITY} за счет смарт-контрактов, развернутых {DYDX_FOUNDATION}. Размер наград за торговлю основан на данных, предоставляемых продуктом dYdX.",
       "YOU_WILL_EARN": "Вы получите",
       "NO_AVAILABLE_ROUTES": "Нет доступных маршрутов",
-      "HIGH_PRICE_IMPACT": "Высокое влияние на цену"
+      "HIGH_PRICE_IMPACT": "Высокое влияние на цену",
+      "SWAP_SUCCESS": "Своп успешно выполнен",
+      "SWAP_ERROR": "Произошла ошибка при проведении вашего свопа",
+      "SWAP_PENDING": "Обмен",
+      "SWAP_PENDING_DESCRIPTION": "Обмен {INPUT_LABEL} на {OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "Обменено {INPUT_LABEL} на: {OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Внести все {ASSET}",
@@ -2515,7 +2520,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "Скидка на комиссии",
-      "FEE_FREE": "Без комиссии"
+      "FEE_FREE": "Без комиссии",
+      "NO_FEES": "Без комиссии"
     },
     "THEME": {
       "THEME": "Тема",
@@ -2679,6 +2685,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "Мировая серия 2025 года доступна для торговли на dYdX!"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "Без комиссии",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "Ноябрь на рынках SOL и BTC",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "Торгуйте биткойнами и Solana"
     }
   },
   "TOKEN_MIGRATION": {
