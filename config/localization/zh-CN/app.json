@@ -168,6 +168,7 @@
       "FAST_WITHDRAW": "快速提现",
       "FAVORITES": "收藏夹",
       "FEES_30D": "交易费率（30天）",
+      "FEES_GENERATED": "生成的费用",
       "FEES_PAID": "已支付费用",
       "FEES": "交易费率",
       "FIAT": "法定货币",
@@ -1737,8 +1738,6 @@
       "SUBMITTING": "提交中",
       "SUBMITTING_ORDER": "提交订单",
       "SUCCESS": "成功",
-      "SWAP_ERROR": "您的互换出错",
-      "SWAP_SUCCESS": "您的互换成功。 交易哈希值： {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "只要预言机价格或最后交易价格超过您的触发价格，止盈限价单将转换为传统的限价单。",
       "TAKE_PROFIT_LIMIT_SHORT": "止盈限价",
       "TAKE_PROFIT_LIMIT": "止盈限价",
@@ -1896,6 +1895,7 @@
       "LOGGING_IN": "正在登录...",
       "OPEN_SENT_MAGIC_LINK": "打开发送到 的 Magic 链接，{EMAIL}以完成登录。",
       "PLEASE_WAIT_LOGIN": "正在登录，请稍候...",
+      "PASSKEY_DESCRIPTION": "通行码是密码的安全替代方案",
       "REGISTER_PASSKEY": "注册 Passkey",
       "RESEND": "重新发送",
       "SIGN_IN_DESCRIPTION": "要开始，请使用您的社交账户登录、电子邮件登录或连接您的钱包。",
@@ -2443,7 +2443,12 @@
       "REWARDS_CLAIMABLE": "在每个周期结束后7天，从{DYDX_FOUNDATION}部署的智能合约通过{DYDX_COMMUNITY}可申领交易奖励。交易奖励以 dYdX 产品提供的数据为基础。",
       "YOU_WILL_EARN": "您将赚取",
       "NO_AVAILABLE_ROUTES": "没有可用路由",
-      "HIGH_PRICE_IMPACT": "高价格差"
+      "HIGH_PRICE_IMPACT": "高价格差",
+      "SWAP_SUCCESS": "兑换成功",
+      "SWAP_ERROR": "您的互换出错",
+      "SWAP_PENDING": "正在兑换",
+      "SWAP_PENDING_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
@@ -2515,7 +2520,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "费率折扣",
-      "FEE_FREE": "免费"
+      "FEE_FREE": "免费",
+      "NO_FEES": "免费"
     },
     "THEME": {
       "THEME": "主题",
@@ -2679,6 +2685,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "2025 年世界系列赛，现已在 dYdX 上交易！"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "免费",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "11 月的 SOL 和 BTC 市场",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "立即交易比特币和Solana"
     }
   },
   "TOKEN_MIGRATION": {
