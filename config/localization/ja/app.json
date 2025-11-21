@@ -168,6 +168,7 @@
       "FAST_WITHDRAW": "高速出金",
       "FAVORITES": "お気に入り",
       "FEES_30D": "手数料（30日）",
+      "FEES_GENERATED": "発生した手数料",
       "FEES_PAID": "支払い済み手数料",
       "FEES": "手数料",
       "FIAT": "フィアット",
@@ -1737,8 +1738,6 @@
       "SUBMITTING": "送信中",
       "SUBMITTING_ORDER": "注文を送信しています",
       "SUCCESS": "成功しました",
-      "SWAP_ERROR": "スワップにエラーが発生しました",
-      "SWAP_SUCCESS": "スワップが正常に処理されました。 トランザクションハッシュ： {TX_HASH}",
       "TAKE_PROFIT_LIMIT_DESCRIPTION": "利益確定指値注文は、オラクル価格または最新の取引価格がトリガー価格を上回った場合、通常の指値注文に変更されます。",
       "TAKE_PROFIT_LIMIT_SHORT": "利益確定指値",
       "TAKE_PROFIT_LIMIT": "利益確定指値",
@@ -1896,6 +1895,7 @@
       "LOGGING_IN": "ログイン中...",
       "OPEN_SENT_MAGIC_LINK": "{EMAIL}に送信されるマジックリンクを開いて、サインインを完了します",
       "PLEASE_WAIT_LOGIN": "ログイン処理中です。少々お待ちください。",
+      "PASSKEY_DESCRIPTION": "パスキーは、パスワードに代わる安全な手段です",
       "REGISTER_PASSKEY": "パスキーを登録する",
       "RESEND": "再送信",
       "SIGN_IN_DESCRIPTION": "開始するには、ソーシャルアカウントでサインインするか、メールでログインするか、ウォレットを接続してください。",
@@ -2443,7 +2443,12 @@
       "REWARDS_CLAIMABLE": "トレードの報酬は、{DYDX_FOUNDATION}がデプロイしたスマートコントラクトの{DYDX_COMMUNITY}経由で、各エポック期間の終了から7日後に請求できるようになります。トレード報酬はdYdX製品から提供されるデータに基づきます。",
       "YOU_WILL_EARN": "獲得予定",
       "NO_AVAILABLE_ROUTES": "利用可能なルートはありません",
-      "HIGH_PRICE_IMPACT": "高い価格インパクト"
+      "HIGH_PRICE_IMPACT": "高い価格インパクト",
+      "SWAP_SUCCESS": "スワップが成功しました",
+      "SWAP_ERROR": "スワップにエラーが発生しました",
+      "SWAP_PENDING": "スワップ",
+      "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}にスワップする {OUTPUT_LABEL}",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}にスワップされました {OUTPUT_LABEL}"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "すべての{ASSET}を入金",
@@ -2515,7 +2520,8 @@
     },
     "MARKET_FEE_DISCOUNT": {
       "FEE_DISCOUNT": "手数料割引",
-      "FEE_FREE": "手数料無料"
+      "FEE_FREE": "手数料無料",
+      "NO_FEES": "手数料なし"
     },
     "THEME": {
       "THEME": "テーマ",
@@ -2679,6 +2685,11 @@
     },
     "WORLD_SERIES_BANNER": {
       "WORLD_SERIES_BANNER_TITLE": "2025年のワールドシリーズがdYdXで取引できるようになりました！"
+    },
+    "NO_FEE_NOVEMBER_BANNER": {
+      "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "手数料なし",
+      "NO_FEE_NOVEMBER_BANNER_TITLE": "11月のSOLおよびBTC「マーケット」",
+      "NO_FEE_NOVEMBER_BANNER_CTA": "ビットコインおよびSolanaを今すぐ取引"
     }
   },
   "TOKEN_MIGRATION": {
