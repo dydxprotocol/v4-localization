@@ -196,6 +196,10 @@
       "TITLE": "DYDX Rewards",
       "BODY": "Earn {REWARD_PERCENT}% of your fees back in DYDX and compete for your share of {REWARD_AMOUNT} through dYdX Surge! Rewards are paid out at the end of the month"
     },
+    "MAXIMUM_REWARDS_DEC_2025": {
+      "TITLE": "DYDX Rewards",
+      "BODY": "Earn {REWARD_PERCENT}% of your fees back in DYDX through dYdX Surge! Rewards are paid out at the end of the month"
+    },
     "NET_FUNDING": {
       "TITLE": "Net Funding",
       "BODY": "Total funding earned / paid for the lifetime of the current position. Resets if you close your position or change position sides (long to short, or vice versa)."
