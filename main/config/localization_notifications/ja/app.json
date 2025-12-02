@@ -1,0 +1,273 @@
+{
+  "NOTIFICATIONS": {
+    "AFFILIATE_BOOSTER": {
+      "TITLE": "ブースタープログラムが現在利用可能です",
+      "BODY": "アフィリエイトは、新しいユーザー紹介に基づいた報酬が毎週もらえる4週間のブースタープログラムに参加できるようになりました適格要件を満たしているか、またどのように利用するかはこちらからをご覧ください{HERE_LINK}。"
+    },
+    "BLOCK_REWARD": {
+      "TITLE": "獲得した報酬",
+      "BODY": "取引報酬の{BLOCK_REWARD_AMOUNT} {TOKEN_NAME}を獲得しました。"
+    },
+    "CANCEL_OLD_TRIGGERS": {
+      "TITLE": "古いトリガーをキャンセル",
+      "BODY": "存在しないポジションのトリガー注文が残っています。"
+    },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "条件付き注文の新しい体験！",
+      "BODY": "dYdXチェーンの条件付き注文が完全に刷新されました！ 今まで以上に信頼性が高く、直感的で、パフォーマンスを発揮します。 詳細は{TWITTER_LINK}をご覧ください。"
+    },
+    "DELEVERAGED": {
+      "TITLE": "レバレッジが解消されたポジション",
+      "BODY": "{MARKET}の{SIDE}ポジションはレバレッジ解消されました。"
+    },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "30分で最大200ドルを獲得できます！",
+      "BODY": "ユーザーインタビューに参加してフィードバックを共有することにより、最高の取引体験を実現しましょう。 定員には限りがありますので、今すぐ{HERE_LINK}をクリックしてご登録あるいは詳細をご確認ください！"
+    },
+    "FINAL_SETTLEMENT": {
+      "TITLE": "ポジションが決済されました",
+      "BODY": "{MARKET}はクローズされました。 {MARKET}の{SIDE}ポジションは最終決済に達しました。"
+    },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK注文は非推奨です",
+      "BODY": "FOK注文は非推奨になりました。 その他の注文タイプはすべて引き続きご利用いただけます。"
+    },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "dYdXをステーキングできるようになりました！",
+      "BODY": "USDC報酬を受け取りましょう。"
+    },
+    "INCENTIVES_SEASON_BEGUN": {
+      "TITLE": "シーズン{SEASON_NUMBER}が始まりました！",
+      "BODY": "シーズン{PREV_SEASON_NUMBER}では、獲得した報酬の中央値は{DYDX_AMOUNT}dYdX（〜{USDC_AMOUNT}USDC）でした！"
+    },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "シーズン{SEASON_NUMBER}が終了しました！",
+      "BODY": "ローンチ・インセンティブプログラムにご参加いただきましてありがとうございます。今後の報酬プログラムに関する最新情報をお見逃しなく！"
+    },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "分離マージンが利用可能です",
+      "BODY": "分離マージンが利用できるようになりました！詳細は、{LEARN_MORE}をご覧ください。"
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "シーズン{SEASON_NUMBER}ローンチ報酬が配布されました！",
+      "BODY": "シーズン{SEASON_NUMBER}報酬 + {DYDX_AMOUNT}dYdX"
+    },
+    "OFFSETTING": {
+      "TITLE": "ポジションのオフセット",
+      "BODY": "{MARKET}の{SIDE}ポジションは、レバレッジ解消ポジションをオフセットするために使用されました。"
+    },
+    "ORDER_FILL": {
+      "TITLE": "注文が約定されました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文が${AVERAGE_PRICE}で約定されました。"
+    },
+    "ORDER_PARTIAL_FILL": {
+      "TITLE": "注文は一部約定されました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}へのご注文の{FILLED_AMOUNT}{MARKET}は約定されました。"
+    },
+    "ORDER_TRIGGERED": {
+      "TITLE": "注文がトリガーされました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文がトリガーされました。"
+    },
+    "ORDER_CANCEL": {
+      "TITLE": "注文がキャンセルされました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文がキャンセルされました。"
+    },
+    "ORDER_CANCEL_WITH_PARTIAL_FILL": {
+      "TITLE": "一部約定で注文はキャンセルされました",
+      "BODY": "{SIDE}{AMOUNT}{MARKET}の注文は{TOTAL_FILLED}が部分的に約定された状態でキャンセルされました。"
+    },
+    "LIQUIDATION": {
+      "TITLE": "ポジションが清算されました",
+      "BODY": "{MARKET}の{SIDE}ポジションが清算されました。"
+    },
+    "POSITION_CLOSED": {
+      "TITLE": "ポジションがクローズされました",
+      "BODY": "{MARKET}のポジションがクローズされました。"
+    },
+    "PUMP_COMPETITION": {
+      "TITLE": "PUMPトレーダーに報酬1万ドルをご提供いたします",
+      "BODY": "最大5倍のレバレッジでdYdXが、ご利用可能です。期間限定の報酬。"
+    },
+    "DEPOSIT_DETECTED": {
+      "TITLE": "入金が検出されました",
+      "BODY": "入金は、~30秒未満で処理されます。"
+    },
+    "DEPOSIT_CONFIRMED": {
+      "TITLE": "入金が確認されました",
+      "BODY": "{AMOUNT} {ASSET} が入金されました。"
+    },
+    "DEPOSIT_SUCCESS": {
+      "TITLE": "入金に成功しました",
+      "BODY": "{AMOUNT}{ASSET}の入金が承認されました。"
+    },
+    "FAST_WITHDRAW_SUCCESS": {
+      "TITLE": "高速出金が正常に処理されました",
+      "BODY": "{AMOUNT}{ASSET}の高速出金が承認されました。"
+    },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "20倍のレバレッジでSOL-USDを取引",
+      "BODY": "SOL-USDおよびすべての分離マーケットは、最大20倍のレバレッジで取引できるようになりました。"
+    },
+    "LOW_ON_GAS": {
+      "TITLE": "ガス代が不足していますか？",
+      "BODY": "dYdXチェーンのガス代を支払うには、ウォレット残高は${MIN_RANGE}〜${MAX_RANGE}の間に維持することを推奨します。"
+    },
+    "RECLAIM_FUNDS": {
+      "TITLE": "資金の回収",
+      "BODY": "以前担保として保有されていた{FUNDS_TO_RECLAIM}の資金を回収できるようになりました。"
+    },
+    "RELEASE_REWARDS_AND_FULL_TRADING": {
+      "TITLE": "報酬および取引はdYdXチェーン上で利用可能です！",
+      "BODY": "フル取引はdYdXチェーン上で利用可能です！これには、ステーキング報酬、取引報酬、Chaos Labsによる6ヶ月のローンチ・インセンティブプログラムが含まれます。{DOS_BLOGPOST}および{TRADING_BLOGPOST}（サードパーティ社のリンク）で詳細をご覧ください。"
+    },
+    "SLOW_WITHDRAWAL_PENDING": {
+      "TITLE": "通常出金は保留中です",
+      "BODY": "{AMOUNT}{ASSET}の出金は12時間で準備できます。"
+    },
+    "SLOW_WITHDRAWAL_SUCCESS": {
+      "TITLE": "通常出金が正常に処理されました",
+      "BODY": "{AMOUNT}{ASSET}の出金が承認されました。"
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "ストップロス",
+      "BODY": "ストップロスのトリガーは{NEW_VALUE}で作成されています。"
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "ストップロス",
+      "BODY": "{NEW_VALUE}でのストップロスのトリガーは作成できませんでした。"
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "ストップロス",
+      "BODY": "{NEW_VALUE}でのストップロスのトリガーが作成されました。"
+    },
+    "SURGE_S2_BOOSTED_MARKETS": {
+      "TITLE": "Surge S2：2倍の報酬の導入",
+      "BODY": "シーズン2では、ホットなマーケットで取引に使えるポイントがアップします！AIXBT、KAITO、SUI、XRPマーケットは2倍の報酬でスタート！"
+    },
+    "SURGE_BOOSTED_MARKETS": {
+      "TITLE": "Surge S{SEASON_NUMBER}：200万ドルを目指して競争",
+      "BODY": "シーズン{SEASON_NUMBER}ではホットなマーケットで取引に使えるポイントがアップします！ {MARKETS_LIST} マーケットは2倍の報酬でスタート！"
+    },
+    "SURGE_BASIC_SEASON": {
+      "TITLE": "Surge S{SEASON_NUMBER}：${AMOUNT_MILLIONS}Mを目指して競争",
+      "BODY": "シーズン{SEASON_NUMBER}では、リーダーボードにおけるポジションに基づいて${AMOUNT_MILLIONS}Mを配布します。 より多くの取引で獲得しましょう！"
+    },
+    "SURGE_PAYOUT": {
+      "TITLE": "Surge S{SEASON_NUMBER}：{DYDX_REWARDS}dYdXを獲得しました",
+      "BODY": "Surge S{SEASON_NUMBER}リーダーボードの報酬が配布されるようになりました。dYdX残高をチェックして報酬を確認してください！"
+    },
+    "SURGE_SEASON_ENDING": {
+      "TITLE": "Surge S{SEASON_NUMBER}：{DAYS_LEFT}残り日数",
+      "BODY": "最大200万ドル以上の報酬が毎月dYdXトレーダーに分配されます。リーダーボードを上げられるのはあと{DAYS_LEFT}日です！"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "利益確定",
+      "BODY": "利益確定のトリガーは{NEW_VALUE}で作成されています。"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "利益確定",
+      "BODY": "{NEW_VALUE}での利益確定のトリガーは作成できませんでした。"
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "利益確定",
+      "BODY": "{NEW_VALUE}での利益確定のトリガーが作成されました。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "ストップロス",
+      "BODY": "ストップロスのトリガーは{NEW_VALUE}に更新されています。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "ストップロス",
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーは置き換えできませんでした。"
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "ストップロス",
+      "BODY": "ストップロスのトリガーは{NEW_VALUE}でトリガーされるようになります。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "利益確定",
+      "BODY": "利益確定のトリガーは{NEW_VALUE}に更新されています。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "利益確定",
+      "BODY": "{OLD_VALUE}での利益確定のトリガーは置き換えることができませんでした。"
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "利益確定",
+      "BODY": "利益確定のトリガーは{NEW_VALUE}でトリガーされるようになります。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "ストップロス",
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーは削除されています。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "ストップロス",
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーはキャンセルできませんでした。"
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "ストップロス",
+      "BODY": "{OLD_VALUE}でのストップロスのトリガーは削除されました。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "利益確定",
+      "BODY": "{OLD_VALUE}での利益確定のトリガーが削除されています。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "利益確定",
+      "BODY": "{OLD_VALUE}での利益確定のトリガーはキャンセルできませんでした。"
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "利益確定",
+      "BODY": "{OLD_VALUE}での利益確定のトリガーは削除されました。"
+    },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "お困りですか？",
+      "BODY": "dYdXの大口トレーダーの皆様、ありがとうございます！当社では、より高度にパーソナライズされたサポートと、当社チームと直接つながる機会をトレーダーの皆様に提供できるよう努めています。",
+      "ACTION": "お問い合わせ →"
+    },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "総額2万ドルをプレゼント！",
+      "BODY": "dYdXは、累計取引高が2000億ドルを突破したことを記念して、200ドル獲得のチャンスがあるX（旧Twitter）のプレゼントキャンペーンを実施しています。2024年8月16日23:59（協定世界時）以降、ランダムな選出方法により100名の当選者が選ばれます{HERE_LINK}。"
+    },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET}マーケットは終了しました",
+      "BODY": "{DATE}、{MARKET}マーケットは最終決済を行いました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済の詳細情報については、{HERE_LINK}をご覧ください。"
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "{MARKET}マーケットを縮小する進行中の提案",
+      "BODY": "現在、{MARKET}マーケットを縮小する進行中の提案があります。 承認された場合、{MARKET}マーケットは{DATE}に最終決済を行います。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1}および{MARKET_2}マーケットは縮小されました",
+      "BODY": "{DATE}、{MARKET_1}および{MARKET_2}マーケットは最終決済を行いました。 既存のポジションはクローズされ、オープンオーダーはキャンセルされました。 最終決済の詳細情報については、{HERE_LINK}をご覧ください。"
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "{MARKET_1}および{MARKET_2}マーケットを縮小する進行中の提案",
+      "BODY": "現在、{MARKET_1}および{MARKET_2}マーケットを縮小する提案が進行中です。 承認された場合、{MARKET_1}および{MARKET_2}マーケットは{DATE}に最終決済を行います。 既存のポジションはクローズされ、オープンオーダーはキャンセルされます。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "{MARKET}パラメータを更新する進行中の提案",
+      "BODY": "現在、{MARKET}マーケットのパラメータを更新する進行中の提案があります。 承認された場合、{MARKET}マーケットは唯一のオラクルソースとしてCoinbase Pro{MARKET}を持つことになります。 提案に関する詳細情報については、{HERE_LINK}をご覧ください。"
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "米国大統領選挙で取引を！",
+      "BODY": "{MARKET}が利用可能になりました。 ドナルド・J・トランプ氏が2024年の選挙で勝利した場合、このマーケットは1ドルで決済されます。 そうでない場合、0.001ドルで決済されます。"
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdXはKeplrに対応するようになりました！",
+      "BODY": "KeplrウォレットでdYdXに接続して使用できるようになりました！今すぐお試しください。"
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdXはPhantomに対応するようになりました！",
+      "BODY": "PhantomウォレットでdYdXに接続して使用できるようになりました！今すぐお試しください。"
+    },
+    "SIMPLE_IOS_RELEASE": {
+      "TITLE": "iOSで新しいシンプルな体験",
+      "BODY": "モバイルトレーダー向け簡単にご利用いただける新しいバージョンが登場しました。 iOSでプロ版からシンプル版に切り替えてご利用ください。"
+    },
+    "UPGRADE_MARKETS_TO_CROSS_MARGIN": {
+      "TITLE": "クロスマージン対応のマーケットアップグレード",
+      "BODY": "現在、{MARKETS}分離マージンからクロスマージンにアップグレードするためのガバナンス提案が進行中であり、これによりこれらのマーケットのオープンポジションに影響を与え、清算リスクが高まる可能性があります。トレーダーは慎重に対応し、必要に応じてポジションクローズを検討されることを強く推奨します。"
+    }
+  }
+}
