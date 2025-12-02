@@ -1,0 +1,475 @@
+{
+  "GENERAL": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
+      "BODY": " 您的 dYdX 链地址“{DYDX_ADDRESS}”根据以太坊地址“{EVM_ADDRESS}”的签名创建。"
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "您的dYdX链地址“{DYDX_ADDRESS}”是根据Solana地址“{SOLANA_ADDRESS}”的签名创建的"
+    },
+    "LEGACY_SIGNING": {
+      "TITLE": "旧版签名",
+      "BODY": "仅当您之前使用硬件钱包签名\/旧版签名生成过密钥，才勾选此选项。"
+    },
+    "REMEMBER_ME": {
+      "TITLE": "记住我",
+      "BODY": "仅在您使用属于自己的安全设备时，才使用“记住我”选项。如果您使用的是公共设备或非安全设备，选择此项可能导致您的密钥和信息泄露给他人。"
+    }
+  },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "联盟佣金",
+      "BODY": "联盟成员通过推荐用户支付的吃单费赚取佣金。在 30 天的滚动窗口中，每位被推荐用户将为您带来最多 1 万美元的奖励，且在 30 天的滚动窗口中，每个用户将获得最多 100 万美元的记账交易量。"
+    }
+  },
+  "PORTFOLIO": {
+    "HOLDING_HEDGIES": {
+      "TITLE": "Hedgies 折扣",
+      "BODY": "持有一个{NFT}将使您的费用折扣等级提高一级。持有多个不会获得额外的等级提升。"
+    }
+  },
+  "TRADE": {
+    "ACCOUNT_LEVERAGE": {
+      "TITLE": "账户杠杆",
+      "BODY": "您的账户杠杆取决于所有敞口头寸。由于您的账户是交叉保证金账户，因此每个敞口头寸都有其自身的杠杆，同时也会影响整体账户杠杆。"
+    },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "可用余额",
+      "BODY": "交叉保证金账户中可用于交易或提现的质押金额。"
+    },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "基准头寸名义价值",
+      "BODY": "保证金要求未增加时的最大头寸数量。"
+    },
+    "BRACKET_ORDER_SL": {
+      "TITLE": "止损",
+      "BODY": "当前触发价，用于执行该一篮子订单的止损操作。"
+    },
+    "BRACKET_ORDER_TP": {
+      "TITLE": "止盈",
+      "BODY": "当前触发价，用于执行该一篮子订单的止盈操作。"
+    },
+    "BUYING_POWER": {
+      "TITLE": "购买力",
+      "BODY": "这代表您的总可用购买力。您的购买力取决于交易所可用的最大杠杆，并且不会根据您选择的市场而变化。"
+    },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "交叉可用质押品",
+      "BODY": "交叉保证金账户中可用于交易或提现的质押金额。"
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "交叉保证金使用率",
+      "BODY": "敞口头寸使用的交叉保证金百分比。"
+    },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "自定义金额",
+      "BODY": "调整您的自定义金额将适用于止盈和止损订单。"
+    },
+    "DEFAULT_EXECUTION": {
+      "TITLE": "默认执行",
+      "BODY": "您的订单将在开盘时与任何交叉订单成交。如果您的订单未全部成交，它将保持未结状态，直至成交、取消或过期。"
+    },
+    "EQUITY": {
+      "TITLE": "账户净值",
+      "BODY": "您的账户总价值。"
+    },
+    "EXPECTED_PRICE": {
+      "TITLE": "预期价格",
+      "BODY": "您订单的预期执行价格。由于订单簿在网络处理前可能发生变化，此价格仅是估计值。"
+    },
+    "FEE": {
+      "TITLE": "交易费用",
+      "BODY": "交易费用由网络根据交易量的百分比收取。交易费用将分配给验证人和DYDX质押人。在dYdX上交易不会产生gas费。"
+    },
+    "FILL_OR_KILL": {
+      "TITLE": "全部成交否则取消指令",
+      "BODY": "“全部成交否则取消指令”订单在执行时必须全部成交，否则将自动取消。"
+    },
+    "FREE_COLLATERAL": {
+      "TITLE": "可用质押品",
+      "BODY": "您可以提现的最大金额。当可用质押品为0或负时，您的账户正在使用最大杠杆。"
+    },
+    "GOOD_TIL": {
+      "TITLE": "有效至",
+      "BODY": "距您的订单到期时间。"
+    },
+    "IMMEDIATE_OR_CANCEL": {
+      "TITLE": "立即成交否则取消指令",
+      "BODY": "您的订单将在开盘时与任何交叉订单成交，然后取消任何未成交的订单金额。"
+    },
+    "INDEX_PRICE": {
+      "TITLE": "预言机价格",
+      "BODY": "止损单根据预言机价格触发。预言机价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
+    },
+    "INITIAL_MARGIN_FRACTION": {
+      "TITLE": "初始保证金比例",
+      "BODY": "初始保证金比例定义了交易者在开仓时初始可使用的杠杆额度。IMF按交易者头寸名义价值除以账户净值计算。如果交易者的保证金比例超过初始保证金比例，则交易者将不能再增加头寸。"
+    },
+    "INITIAL_STOP": {
+      "TITLE": "初始止损",
+      "BODY": "初始止损价基于您的追踪百分比计算。"
+    },
+    "LEVERAGE": {
+      "TITLE": "杠杆",
+      "BODY": "杠杆将改变您盈亏的倍数。提高杠杆会在相同价格波动下放大您的盈亏金额。"
+    },
+    "LIMIT_CLOSE": {
+      "TITLE": "限价平仓",
+      "BODY": "限价平仓可能不会立即执行，只有达到输入的价格后才会成交。监控订单选项卡，检查其状态。"
+    },
+    "IOC_LIMIT_CLOSE": {
+      "TITLE": "限价平仓",
+      "BODY": "限价平仓操作将立即执行或取消订单。限价应用于设置平仓订单的可接受滑点范围。如果您想在达到价格时平仓，请设置止盈或止损订单。"
+    },
+    "LIMIT_PRICE": {
+      "TITLE": "限价",
+      "BODY": "此订单只能以指定的限价或更好的价格全部成交。如果您的订单在下单时交叉，则您的订单将以最有利的价格与任何交叉订单成交。"
+    },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "限价",
+      "BODY": "通过确定限价，您可以下达止盈限价单和\/或止损限价单。点击{DOCUMENTATION_LINK}了解详情。"
+    },
+    "LIMIT_PRICE_SLIPPAGE": {
+      "TITLE": "滑点",
+      "BODY": "您的触发价和限价之间的百分比差异。"
+    },
+    "LIQUIDATION_PRICE": {
+      "TITLE": "清算价格",
+      "BODY": "如果{SYMBOL}的预言机价格降到清算价格以下，您的头寸将被清算。清算后，头寸将自动平仓，并收取至少1%的清算费用（可能会更高，具体取决于清算时的流动性）。"
+    },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "清算价格",
+      "BODY": "如果{SYMBOL}的预言机价格涨到清算价格以上，您的头寸将被清算。清算后，头寸将自动平仓，并收取至少1%的清算费用（可能会更高，具体取决于清算时的流动性）。"
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "清算价格",
+      "BODY": "如果{SYMBOL}的预言机价格降到清算价格以下，您的头寸将被清算。清算后，头寸将自动平仓，并收取至少1%的清算费用（可能会更高，具体取决于清算时的流动性）。"
+    },
+    "LIQUIDATION_PRICE_GENERAL": {
+      "TITLE": "清算价格",
+      "BODY": "如果头寸市场预言机价格超过清算价格，您的头寸将被清算。清算后，头寸将自动平仓，并收取至少1%的清算费用（可能会更高，具体取决于清算时的流动性）。"
+    },
+    "LIQUIDITY": {
+      "TITLE": "流动性",
+      "BODY": "从盘口提取流动性的交易（例如市价或交叉限价订单）将作为吃单订单执行。为盘口增加流动性并由另一方实现成交的限价订单将作为挂单订单成交。"
+    },
+    "MAINTENANCE_MARGIN_FRACTION": {
+      "TITLE": "维持保证金比例",
+      "BODY": "维持保证金比例决定了交易者何时被强平。它按交易者头寸名义价值除以账户净值计算。如果交易者的保证金比例超过维持保证金比例，则其头寸将被自动平仓（清算）。清算引擎将在交易者支付最高1.5%的清算罚金后，尽可能保留账户中的正值资金。"
+    },
+    "MAKER_FEE": {
+      "TITLE": "挂单费",
+      "BODY": "为盘口增加流动性并由另一方成交的限价订单将作为挂单订单成交。挂单订单的费用比吃单订单的费用低。"
+    },
+    "MAKER_FEE_DISCOUNT": {
+      "TITLE": "挂单费用折扣",
+      "BODY": "您每笔挂单支付的费率，并已应用质押费用折扣。"
+    },
+    "MARGIN_USAGE": {
+      "TITLE": "杠杆使用",
+      "BODY": "敞口头寸使用的总保证金百分比。"
+    },
+    "MARGIN_USED": {
+      "TITLE": "使用的保证金",
+      "BODY": "敞口头寸使用的交叉保证金百分比。"
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "TITLE": "市场费用折扣",
+      "BODY": "享受 {SYMBOL} 的费用折扣。 在该市场上交易费可享受 {DISCOUNT_PERCENT}% 的折扣。"
+    },
+    "MAX_WITHDRAW": {
+      "TITLE": "快速提现上限",
+      "BODY": "允许单次快速提现的最大金额。"
+    },
+    "MAX_SLIPPAGE": {
+      "TITLE": "最高滑点",
+      "BODY": "由于流动性不足，您的订单输入金额可能导致的最大百分比损失。 "
+    },
+    "MAXIMUM_LEVERAGE": {
+      "TITLE": "最大杠杆",
+      "BODY": "此市场允许的最大杠杆。为限制风险，超过某个阈值后，最大杠杆随仓位成比例降低。"
+    },
+    "MAXIMUM_REWARDS": {
+      "TITLE": "预估奖励",
+      "BODY": "一边在dYdX上交易，一边赚取奖励。实际奖励可能有所不同。"
+    },
+    "MAXIMUM_REWARDS_SEPT_2025": {
+      "TITLE": "DYDX奖励",
+      "BODY": "在 DYDX 赚取 {REWARD_PERCENT}% 的费用返还，并通过 dYdX Surge 争夺您的份额{REWARD_AMOUNT}！当月末支付奖励"
+    },
+    "NET_FUNDING": {
+      "TITLE": "净资金",
+      "BODY": "当前头寸存续期间赚取或支付的资金总额。如果将头寸平仓或更改头寸方向（多头转为空头，或反之），则重置。"
+    },
+    "OPEN_INTEREST": {
+      "TITLE": "未平仓合约数量",
+      "BODY": "未平仓合约数量代表此市场上所有敞口头寸的总数量。"
+    },
+    "ORACLE_PRICE": {
+      "TITLE": "预言机价格",
+      "BODY": "杠杆和清算根据链上预言机价格确定。预言机价格汇总了来自多个交易所的价格数据，可保护您免受闪电崩溃等事件的影响。"
+    },
+    "ORDER_AMOUNT": {
+      "TITLE": "订单金额",
+      "BODY": "要买入或卖出的{SYMBOL}金额。这是订单成交时头寸将增加或减少的金额，而不是您得到的头寸金额。"
+    },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "订单金额",
+      "BODY": "要买入或卖出的{SYMBOL}美元金额。这是订单成交时头寸将增加或减少的金额，而不是您得到的头寸金额。"
+    },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "止损是部分平仓",
+      "BODY": "您的止损配置不是为了将整个头寸平仓。这可能是因为您设置了自定义金额，或者因为您在添加此触发器后更改了头寸数量。"
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "止盈是部分平仓",
+      "BODY": "您的止盈配置不是为了将整个头寸平仓。这可能是因为您设置了自定义金额，或者因为您在添加此触发器后更改了头寸数量。"
+    },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "资产组合价值",
+      "BODY": "您账户的总权益价值。"
+    },
+    "POSITION_MARGIN": {
+      "TITLE": "头寸保证金",
+      "BODY": "担保仓位的质押品金额。"
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "头寸杠杆",
+      "BODY": "杠杆将改变您盈亏的倍数。提高杠杆会在相同价格波动下放大您的盈亏金额。"
+    },
+    "POST_ONLY": {
+      "TITLE": "仅挂单",
+      "BODY": "启用仅挂单的订单只能作为挂单订单下达。如果订单在下单时与其他订单交叉，则将自动取消。"
+    },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "仅挂单",
+      "BODY": "仅当有效时间设置为“Good Til Time”（有效截止时间）时，才可使用仅挂单功能。"
+    },
+    "PRICE_IMPACT": {
+      "TITLE": "价格差",
+      "BODY": "您的订单与买方或卖方最佳订单之间预期执行价格的差值。交易量越大，此差值越大。"
+    },
+    "PRICE_IMPACT_WARNING": {
+      "TITLE": "价格差警告",
+      "BODY": "警告：由于该货币对池的流动性，您无法获得全额 USDC。 降低金额或尝试其他路线"
+    },
+    "REALIZED_PNL": {
+      "TITLE": "已实现盈亏",
+      "BODY": "此头寸通过部分平仓、费用和资金实现的总损益。如果将头寸完全平仓或更改头寸方向（从多头变成空头，或从空头变成多头），则重置。"
+    },
+    "REDUCE_ONLY": {
+      "TITLE": "只减仓",
+      "BODY": "只减仓功能可以防止订单改变您的头寸方向（多头转为空头，或反之）。设置只减仓的订单会随头寸变化自动调整大小或取消。"
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
+      "TITLE": "只减仓",
+      "BODY": "仅当有效时间设置为立即成交否则取消(IOC)时，才可使用仅减仓功能。"
+    },
+    "REDUCE_ONLY_EXECUTION_IOC": {
+      "TITLE": "只减仓",
+      "BODY": "仅当执行设置为IOC时，才可使用仅减仓功能。"
+    },
+    "REWARDS_EARNED": {
+      "TITLE": "已赚取的奖励",
+      "BODY": "一边在dYdX上交易，一边赚取奖励。"
+    },
+    "SPREAD": {
+      "TITLE": "点差",
+      "BODY": "资产最高买价（买方愿意买入的价格）和最低卖价（卖方愿意卖出的价格）之间的价格差额。"
+    },
+    "STEP_SIZE": {
+      "TITLE": "步长",
+      "BODY": "步长是指市场上允许的最小订单数量增量。"
+    },
+    "STOP_LOSS": {
+      "TITLE": "止损",
+      "BODY": "在预言机价格超过触发价后，止损单将平仓以防止进一步亏损。"
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "高于清算价格的止损",
+      "BODY": "止损价格已高于清算价格。原因可能是资金变动、提取资金或保证金要求发生变化。"
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "低于清算价格的止损",
+      "BODY": "止损价格已低于清算价格。原因可能是资金变动、提取资金或保证金要求发生变化。"
+    },
+    "TAKER_FEE": {
+      "TITLE": "吃单费",
+      "BODY": "从盘口提取流动性的交易（例如市价或交叉限价订单）将作为吃单订单执行。吃单订单的费用比挂单订单的费用高。"
+    },
+    "TAKER_FEE_DISCOUNT": {
+      "TITLE": "吃单费用折扣",
+      "BODY": "您每笔吃单支付的费率，并已应用质押费用折扣。"
+    },
+    "TAKE_PROFIT": {
+      "TITLE": "止盈",
+      "BODY": "允许交易者通过指定止盈价格平仓敞口头寸，以设定目标并保护利润。"
+    },
+    "TARGET_LEVERAGE": {
+      "TITLE": "目标杠杆",
+      "BODY": "目标杠杆设置为﻿{TARGET_LEVERAGE}倍，这决定了您下单时使用的保证金额度。"
+    },
+    "TICK_SIZE": {
+      "TITLE": "最小报价数量",
+      "BODY": "最小报价数量是此市场上的最小价格变动。"
+    },
+    "TIME_IN_FORCE": {
+      "TITLE": "有效时间",
+      "BODY": "所选的有效时间选项决定订单在到期或全部成交前保持有效状态的时长。"
+    },
+    "TRAILING_PERCENT": {
+      "TITLE": "追踪百分比",
+      "BODY": "追踪百分比设置了止损价将“追踪”预言机价格的百分比。当预言机价格朝有利于您头寸的方向波动时，您订单的止损价就将根据您指定的追踪百分比进行更新。"
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "触发价格",
+      "BODY": "当该市场的预言机价格超过您的触发价格时，您的止损\/止盈订单将转换为限价订单或作为市价订单执行。"
+    },
+    "UNREALIZED_PNL": {
+      "TITLE": "未实现的盈亏",
+      "BODY": "如果您以当前预言机价格将当前头寸剩余部分全部平仓可获得的总损益。如果将头寸平仓或更改头寸方向（多头转为空头，或反之），则重置。"
+    },
+    "REWARD_HISTORY": {
+      "BODY": "以协调世界时(UTC)显示时间"
+    }
+  },
+  "DEPOSIT": {
+    "AVAILABLE_GASLESS_DEPOSITS": {
+      "TITLE": "可用",
+      "BODY": "您符合条件！存入至少{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}即可启用无gas存款。"
+    },
+    "BRIDGE_FEES_DEPOSIT": {
+      "TITLE": "桥接费用",
+      "BODY": "桥接费用是支付给其他协议的费用，以完成该存款所需的桥接、转账和互换操作。"
+    },
+    "DISABLED_GASLESS_DEPOSITS": {
+      "TITLE": "不可用",
+      "BODY": "无gas存款暂时不可用。别担心，很快就会恢复！"
+    },
+    "GAS_FEES_DEPOSIT": {
+      "TITLE": "Gas费",
+      "BODY": "Gas费是源链（此处为{SOURCE_CHAIN}）上的交易费用。"
+    },
+    "GASLESS_DEPOSITS": {
+      "TITLE": "无gas存款",
+      "BODY": "存入{GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}或以上，dYdX将承担您的gas费。您每三天可享受一次无gas存款。需遵守相关规则。"
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "最低费用存款",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES}的USDC存款费用最低。"
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "最低存款金额",
+      "BODY": "包括桥接过程中由于流动性变化而可能发生的任何滑点"
+    },
+    "SWAP": {
+      "TITLE": "互换和存款",
+      "BODY": "存入非USDC资产时，您的资产将通过0x API自动转换为USDC。设置最大滑点可指定转换失败前允许的滑点幅度。"
+    }
+  },
+  "TRANSFER_AND_DEPOSIT": {
+    "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
+      "TITLE": "网络费",
+      "BODY": "这是存款和固定限额交易的gas成本，是支付给以太坊矿工的。您只需为存入的每项资产设置一次限额。"
+    },
+    "DEPOSIT_NETWORK_FEE": {
+      "TITLE": "网络费",
+      "BODY": "这是存款交易的gas成本，是支付给以太坊矿工的。"
+    }
+  },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "不均等订单数量",
+      "BODY": "您的止盈和止损订单数量不一致。如需修改订单数量，请取消并重新下订单。"
+    }
+  },
+  "WITHDRAW": {
+    "FAST_WITHDRAW_FEE": {
+      "TITLE": "快速提现费",
+      "BODY": "快速提现会立即发出，dYdX将承担gas成本并收取费用。如果要免费提现，请使用正常提现（您自行承担gas成本，并且必须等待Layer 2确认）。"
+    },
+    "GAS_FEES": {
+      "TITLE": "Gas费",
+      "BODY": "Gas费是源链（此处为dYdX）上的交易费用。"
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "提现费用最低",
+      "BODY": "{LOWEST_FEE_TOKEN_NAMES}的USDC提现费用最低。"
+    },
+    "BRIDGE_FEES": {
+      "TITLE": "桥接费用",
+      "BODY": "桥接费用是支付给其他协议的费用，以完成该提现所需的桥接、转账和互换操作。"
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "最低收到金额",
+      "BODY": "包括桥接过程中由于流动性变化而可能发生的任何滑点"
+    },
+    "WITHDRAW_TYPES": {
+      "TITLE": "提现类型",
+      "BODY": "dYdX支持两种从Layer 2提现的类型。快速提现需支付少量费用，但无需gas费用且立即发送。正常提现免费，但需两步操作，耗时较长，并且用户必须自行承担gas费用。"
+    }
+  },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "选定的验证者",
+      "BODY": "根据最低质押量，从预先配置的一组未削减的验证者中选出验证者。"
+    }
+  },
+  "EMAIL_NOTIFICATIONS": {
+    "VERIFY_EMAIL": {
+      "TITLE": "验证电子邮件地址",
+      "BODY": " 请点击我们发送给您的电子邮件中的链接，这将帮助我们验证您的电子邮件地址的所有权。"
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "dYdX链结算",
+      "BODY": "为确保协议安全，dYdX 链验证者延迟了dYdX链DYDX的结算。"
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "通过中间价启用或禁用OHLC（开盘价-最高价-最低价-收盘价）数据。禁用此功能将只显示历史交易的OHLC数据。"
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "参考价格",
+      "BODY": "参考价格是市场价格的30天滚动平均值，用作在dYdX链上自动计算市场参数的输入。 参考价格应与市场当前价格大致相同（即向下取整至相同的10的幂次）。"
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "此值在CoinMarketCap上自行报告"
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "提现时预计收到的金额，即提现金额减去预计滑点金额。此金额基于当前条件估算。实际金额可能因执行时的实际情况而异。"
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "提现时预计的滑点金额。滑点源于保险库需调整当前头寸以释放保证金，从而满足提现金额需求。此金额基于当前条件估算。实际金额可能因执行时的实际情况而异。"
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "您可以提现的金额，即您的保险库余额减去为新市场上市而锁定的任何金额。"
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "您存款的当前价值。这是基于保险库的当前净值和头寸计算得出的。"
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "一段时间内的总盈亏。这包括您的保险库存款的历史盈亏。"
+    },
+    "VAULT_APR": {
+      "BODY": "估计年化收益率(APR)是过去一个月的年化回报率。实际回报取决于未来收益（协议收益分成和盈亏），具有不确定性，不能得到保证。{LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "估计年化收益率(APR)是过去90天的年化回报率。实际回报取决于未来收益（协议收益分成和盈亏），具有不确定性，不能得到保证。{LEARN_MORE}"
+    }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "这是存款可获得的最大敞口金额。它不是您可以存入或提现的金额。购买力可能快速变化，即使亏损时也可能为正。"
+    },
+    "RISK": {
+      "BODY": "这是您的敞口头寸作为保证金持有的存款百分比。随市场价格变化可能快速变动。"
+    }
+  }
+}
