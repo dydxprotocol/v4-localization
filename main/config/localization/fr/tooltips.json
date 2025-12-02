@@ -1,0 +1,475 @@
+{
+  "GENERAL": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
+      "BODY": "Votre adresse dYdX Chain « {DYDX_ADDRESS} » a été créée à partir de la signature de l'adresse Ethereum « {EVM_ADDRESS} »."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "Votre adresse dYdX Chain « {DYDX_ADDRESS} » a été créée à partir de la signature de l'adresse Solana « {SOLANA_ADDRESS} »."
+    },
+    "LEGACY_SIGNING": {
+      "TITLE": "Signature patrimoniale",
+      "BODY": "Ne cochez cette option que si vous avez déjà utilisé la signature de portefeuille matériel ou la signature patrimoniale pour générer vos clés."
+    },
+    "REMEMBER_ME": {
+      "TITLE": "Se souvenir de moi",
+      "BODY": "N'utilisez « Se souvenir de moi » que si vous utilisez un appareil sécurisé qui vous appartient. La sélection de cette option peut exposer vos clés et vos informations à d'autres si vous êtes sur un appareil public ou non sécurisé."
+    }
+  },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Commissions d'affiliation",
+      "BODY": "Les affiliés gagnent une commission sur les frais de Taker payés par les utilisateurs référés. Vous serez crédité de 10 000 dollars maximum par utilisateur référé sur une période de 30 jours et de 1 million de dollars de volume attribué par utilisateur sur une période de 30 jours."
+    }
+  },
+  "PORTFOLIO": {
+    "HOLDING_HEDGIES": {
+      "TITLE": "Réduction des hedgies",
+      "BODY": "La détention d'un {NFT} augmente d'une unité votre niveau de réduction des frais. En détenir plusieurs n'aura aucun effet supplémentaire."
+    }
+  },
+  "TRADE": {
+    "ACCOUNT_LEVERAGE": {
+      "TITLE": "Effet de levier du compte",
+      "BODY": "Effet de levier de votre compte basé sur toutes vos positions ouvertes. Parce que votre compte est à marge croisée, chaque position ouverte a son propre effet de levier tout en affectant également l'effet de levier global de votre compte."
+    },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Solde disponible",
+      "BODY": "Montant du collatéral disponible pour trader ou retirer de votre compte de marge croisée."
+    },
+    "BASE_POSITION_NOTIONAL": {
+      "TITLE": "Notionnel de position de base",
+      "BODY": "La taille de la position maximale à laquelle les exigences de marge ne sont pas augmentées."
+    },
+    "BRACKET_ORDER_SL": {
+      "TITLE": "Stop Loss",
+      "BODY": "Votre prix de déclenchement actuel pour exécuter un Stop Loss pour cet ordre de support."
+    },
+    "BRACKET_ORDER_TP": {
+      "TITLE": "Take Profit",
+      "BODY": "Votre prix de déclenchement actuel pour exécuter un Take Profit pour cet ordre de support."
+    },
+    "BUYING_POWER": {
+      "TITLE": "Pouvoir d'achat",
+      "BODY": "Il s'agit du pouvoir d'achat total dont vous disposez. Votre pouvoir d'achat est basé sur l'effet de levier maximum disponible sur la bourse, et ne changera pas en fonction du marché que vous avez sélectionné."
+    },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Collatéral Gratuit Croisé",
+      "BODY": "Montant du collatéral disponible pour trader ou retirer de votre compte de marge croisée."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Utilisation de la marge croisée",
+      "BODY": "Pourcentage de votre marge croisée totale utilisée par les positions ouvertes."
+    },
+    "CUSTOM_AMOUNT": {
+      "TITLE": "Montant personnalisé",
+      "BODY": "L'ajustement de votre montant personnalisé s'appliquera aux ordres Take Profit et Stop Loss."
+    },
+    "DEFAULT_EXECUTION": {
+      "TITLE": "Exécution par défaut",
+      "BODY": "Votre ordre exécutera tous les ordres à marge croisée au moment de l'ouverture. Si votre ordre n'est pas entièrement exécuté, il restera ouvert jusqu'à ce qu'il soit exécuté, annulé ou qu'il expire."
+    },
+    "EQUITY": {
+      "TITLE": "Capital",
+      "BODY": "Valeur totale de votre compte."
+    },
+    "EXPECTED_PRICE": {
+      "TITLE": "Prix attendu",
+      "BODY": "Prix d'exécution attendu pour votre ordre. Ce prix n'est qu'une estimation, car le carnet d'ordres peut changer avant que votre ordre ne soit traité par le réseau."
+    },
+    "FEE": {
+      "TITLE": "Frais de trading",
+      "BODY": "Les frais de trading sont facturés par le réseau sur la base d'un pourcentage de votre volume de trading. Les frais de trading s'accumulent aux validateurs et aux stakers dYdX. Il n'y a pas de frais de gaz pour trader sur dYdX."
+    },
+    "FILL_OR_KILL": {
+      "TITLE": "Fill or Kill",
+      "BODY": "Les ordres Fill or Kill doivent être complètement remplis lors de l'exécution ou ils seront automatiquement annulés."
+    },
+    "FREE_COLLATERAL": {
+      "TITLE": "Collatéral disponible",
+      "BODY": "Le montant maximum que vous pouvez retirer. Lorsque le collatéral disponible est égal à 0 ou est négatif, votre compte utilise un effet de levier maximum."
+    },
+    "GOOD_TIL": {
+      "TITLE": "Good Til",
+      "BODY": "Temps jusqu'à l'expiration de votre ordre."
+    },
+    "IMMEDIATE_OR_CANCEL": {
+      "TITLE": "Immédiat ou Annulation",
+      "BODY": "Votre ordre exécutera tout ordre à marge croisée au moment de l'ouverture, puis annulera tout montant d'ordre non exécuté."
+    },
+    "INDEX_PRICE": {
+      "TITLE": "Prix oracle",
+      "BODY": "Les ordres Stop sont déclenchés en fonction du prix oracle. Le prix oracle regroupe les données sur les prix de plusieurs bourses, vous protégeant des événements tels que les crashs éclair."
+    },
+    "INITIAL_MARGIN_FRACTION": {
+      "TITLE": "Fraction de marge initiale",
+      "BODY": "La fraction de marge initiale définit le montant de l'effet de levier qu'un trader peut utiliser initialement lorsqu'il prend une position. La fraction de marge initiale est calculée comme la valeur notionnelle de la position d'un trader divisée par son capital. Si la fraction de marge d'un trader dépasse la fraction de marge initiale, le trader ne sera plus autorisé à augmenter sa position."
+    },
+    "INITIAL_STOP": {
+      "TITLE": "Stop initial",
+      "BODY": "Le prix stop initial basé sur votre pourcentage de trailing."
+    },
+    "LEVERAGE": {
+      "TITLE": "Effet de levier",
+      "BODY": "L'effet de levier modifie le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
+    },
+    "LIMIT_CLOSE": {
+      "TITLE": "Fermeture limitée",
+      "BODY": "Une fermeture limitée peut ne pas se produire instantanément et ne sera exécutée qu'une fois que le prix saisi est atteint. Surveillez l'onglet Ordres pour vérifier sa progression."
+    },
+    "IOC_LIMIT_CLOSE": {
+      "TITLE": "Fermeture limitée",
+      "BODY": "Une clôture limite s'exécutera immédiatement ou annulera l'ordre. Le prix limite doit être utilisé pour personnaliser le montant de slippage toléré pour un ordre de clôture de position. Si vous souhaitez clôturer une position lorsqu'un prix est atteint, définissez plutôt des ordres Take Profit ou Stop Loss."
+    },
+    "LIMIT_PRICE": {
+      "TITLE": "Prix limite",
+      "BODY": "Cet ordre ne peut être exécuté qu'au prix limite spécifié ou mieux. Si votre ordre croise au moment du placement, votre ordre exécutera tout ordre de croisement au prix le plus favorable."
+    },
+    "LIMIT_PRICE_LEARN_MORE": {
+      "TITLE": "Prix limite",
+      "BODY": "En identifiant un prix limite, vous placez un ordre de limite Take Profit et\/ou un ordre Stop Limit. Cliquez sur {DOCUMENTATION_LINK} pour plus de détails."
+    },
+    "LIMIT_PRICE_SLIPPAGE": {
+      "TITLE": "slippage",
+      "BODY": "Différence en pourcentage entre votre prix de déclenchement et votre prix limite."
+    },
+    "LIQUIDATION_PRICE": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle de {SYMBOL} est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
+    },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle de {SYMBOL} augmente au-dessus du prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle de {SYMBOL} est inférieur au prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
+    },
+    "LIQUIDATION_PRICE_GENERAL": {
+      "TITLE": "Prix de liquidation",
+      "BODY": "Si le prix oracle du marché de la position croise le prix de liquidation, votre position sera liquidée. Lors de la liquidation, votre position sera automatiquement clôturée et des frais de liquidation d'au moins 1 % seront évalués (ils peuvent être plus élevés en fonction de la liquidité au moment de la liquidation)."
+    },
+    "LIQUIDITY": {
+      "TITLE": "Liquidité",
+      "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres à cours limité qui ajoutent de la liquidité au carnet et qui sont exécutés par une autre partie seront exécutés en tant qu'ordres Maker."
+    },
+    "MAINTENANCE_MARGIN_FRACTION": {
+      "TITLE": "Fraction de marge de maintenance",
+      "BODY": "La fraction de marge de maintenance définit le moment où les traders sont liquidés. Elle est calculée comme la valeur notionnelle de la position d'un trader divisée par le capital. Si la fraction de marge d'un trader dépasse la fraction de marge de maintien, sa position sera automatiquement clôturée (liquidée) et le moteur de liquidation tentera de laisser les fonds sur des comptes de valeur positive dans la mesure du possible après avoir payé la pénalité de liquidation maximale de 1,5 %."
+    },
+    "MAKER_FEE": {
+      "TITLE": "Frais Maker",
+      "BODY": "Les ordres à cours limité qui ajoutent de la liquidité au carnet et qui sont exécutés par une autre partie seront exécutés en tant qu'ordres Maker. Les ordres Maker ont des frais inférieurs à ceux des ordres Taker."
+    },
+    "MAKER_FEE_DISCOUNT": {
+      "TITLE": "Réduction des frais du Maker",
+      "BODY": "Le taux de frais que vous payez par ordre Maker avec les réductions de frais de staking appliquées"
+    },
+    "MARGIN_USAGE": {
+      "TITLE": "Utilisation de la marge",
+      "BODY": "Pourcentage de votre marge totale utilisée par les positions ouvertes."
+    },
+    "MARGIN_USED": {
+      "TITLE": "Marge utilisée",
+      "BODY": "Pourcentage de votre marge croisée totale utilisée par les positions ouvertes."
+    },
+    "MARKET_FEE_DISCOUNT": {
+      "TITLE": "Réduction sur les frais de marché",
+      "BODY": "Profitez d'une remise sur les frais pour {SYMBOL}. Obtenez {DISCOUNT_PERCENT}% de réduction sur les frais de trading sur ce marché."
+    },
+    "MAX_WITHDRAW": {
+      "TITLE": "Retrait rapide maximum",
+      "BODY": "Le montant maximum autorisé pour un retrait rapide unique."
+    },
+    "MAX_SLIPPAGE": {
+      "TITLE": "Effet de slippage maximum",
+      "BODY": "Perte en pourcentage maximale que le montant de votre ordre entré pourrait entraîner en raison d'un manque de liquidités. "
+    },
+    "MAXIMUM_LEVERAGE": {
+      "TITLE": "Effet de levier maximum",
+      "BODY": "Effet de levier maximum autorisé pour ce marché. Pour limiter le risque, l'effet de levier maximal diminue linéairement avec la taille de la position après un certain seuil."
+    },
+    "MAXIMUM_REWARDS": {
+      "TITLE": "Récompenses estimées",
+      "BODY": "Gagnez des récompenses en tradant sur dYdX. La nature des récompenses est variable."
+    },
+    "MAXIMUM_REWARDS_SEPT_2025": {
+      "TITLE": "Récompenses DYDX",
+      "BODY": "Gagnez {REWARD_PERCENT}% de vos frais en dYdX et concourez pour votre part {REWARD_AMOUNT}via dYdX Surge ! Les récompenses sont versées à la fin du mois"
+    },
+    "NET_FUNDING": {
+      "TITLE": "Financement net",
+      "BODY": "Financement total gagné\/payé pour la durée de vie de la position actuelle. Se réinitialise si vous fermez votre position ou changez de côté de position (long à court, ou vice versa)."
+    },
+    "OPEN_INTEREST": {
+      "TITLE": "Intérêt ouvert",
+      "BODY": "L'intérêt ouvert représente la taille totale de toutes les positions ouvertes sur ce marché."
+    },
+    "ORACLE_PRICE": {
+      "TITLE": "Prix oracle",
+      "BODY": "L'effet de levier et les liquidations sont déterminés en fonction du prix oracle sur la chaîne. Le prix oracle regroupe les données sur les prix de plusieurs bourses, vous protégeant des événements tels que les crashs éclair."
+    },
+    "ORDER_AMOUNT": {
+      "TITLE": "Montant de l'ordre",
+      "BODY": "Montant de {SYMBOL} à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera exécuté, et non du montant de votre position résultante."
+    },
+    "ORDER_AMOUNT_USD": {
+      "TITLE": "Montant de l'ordre",
+      "BODY": "Montant de {SYMBOL} en dollar à acheter ou à vendre. Il s'agit du montant dont votre position augmentera ou diminuera lorsque l'ordre sera exécuté, et non du montant de votre position résultante."
+    },
+    "PARTIAL_CLOSE_STOP_LOSS": {
+      "TITLE": "Le Stop Loss est une clôture partielle",
+      "BODY": "Votre Stop Loss n'est pas paramétré pour clôturer l'ensemble de votre position. Cela peut être dû au fait que vous définissez un montant personnalisé ou que vous avez modifié la taille de votre position après l'ajout de ce déclencheur."
+    },
+    "PARTIAL_CLOSE_TAKE_PROFIT": {
+      "TITLE": "Le Take Profit est une clôture partielle",
+      "BODY": "Votre Stop loss n'est pas paramétré pour clôturer l'ensemble de votre position. Cela peut être dû au fait que vous définissez un montant personnalisé ou que vous avez modifié la taille de votre position après l'ajout de ce déclencheur."
+    },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Valeur du portfolio",
+      "BODY": "Valeur totale du capital de votre compte."
+    },
+    "POSITION_MARGIN": {
+      "TITLE": "Marge de position",
+      "BODY": "Le montant du collatéral garantissant la position."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Effet de levier de la position",
+      "BODY": "L'effet de levier modifie le multiplicateur de vos gains ou de vos pertes. L'augmentation de votre effet de levier augmente le montant que vous gagneriez ou perdriez sur un trade avec le même mouvement de prix."
+    },
+    "POST_ONLY": {
+      "TITLE": "Post-Only",
+      "BODY": "Les ordres avec Post-Only activé ne peuvent être placés qu'en tant qu'ordres Maker. Si l'ordre croise d'autres ordres au moment du placement, il sera automatiquement annulé."
+    },
+    "POST_ONLY_TIMEINFORCE_GTT": {
+      "TITLE": "Post-Only",
+      "BODY": "Le Post-Only n'est disponible que si le délai en vigueur est défini sur Good Til Time."
+    },
+    "PRICE_IMPACT": {
+      "TITLE": "Impact sur le prix",
+      "BODY": "La différence entre le prix d'exécution attendu pour votre ordre et le meilleur ordre du côté acheteur ou vendeur. Elle augmentera pour les tailles de transactions plus importantes."
+    },
+    "PRICE_IMPACT_WARNING": {
+      "TITLE": "Avertissement d'impact du prix",
+      "BODY": "Avertissement : en raison de la liquidité de ce pool de paires, vous ne recevez pas le montant total d'USDC. Diminuez votre montant ou essayez un autre itinéraire"
+    },
+    "REALIZED_PNL": {
+      "TITLE": "Bénéfice ou Perte réalisé",
+      "BODY": "Bénéfice ou perte total réalisé pour cette position par le biais de clôtures partielles, de frais et de financement. Réinitialise si vous fermez complètement votre position ou changez de côté de position (long à court, ou vice versa)."
+    },
+    "REDUCE_ONLY": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only empêche un ordre de changer la longueur de votre position (long à court, ou court à long). Un ordre avec l'ensemble Reduce-Only se redimensionnera et s'annulera automatiquement lorsque votre position changera."
+    },
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only n'est disponible que si le délai en vigueur est défini sur IOC."
+    },
+    "REDUCE_ONLY_EXECUTION_IOC": {
+      "TITLE": "Reduce-Only",
+      "BODY": "Reduce-Only n'est disponible que si l'exécution est définie sur IOC."
+    },
+    "REWARDS_EARNED": {
+      "TITLE": "Récompenses gagnées",
+      "BODY": "Gagnez des récompenses en tradant sur dYdX."
+    },
+    "SPREAD": {
+      "TITLE": "Spread",
+      "BODY": "La différence de prix entre l'offre la plus élevée (le prix auquel un acheteur est prêt à acheter) et la demande la plus basse (le prix auquel un vendeur est prêt à vendre) d'un actif."
+    },
+    "STEP_SIZE": {
+      "TITLE": "Taille de l'étape",
+      "BODY": "La taille de l'étape est le plus petit facteur autorisé pour les montants d'ordres sur ce marché."
+    },
+    "STOP_LOSS": {
+      "TITLE": "Stop Loss",
+      "BODY": "Protège contre les pertes en clôturant la position d'un trader lorsque le prix oracle franchit le prix de déclenchement."
+    },
+    "STOP_LOSS_ABOVE_LIQUIDATION_PRICE": {
+      "TITLE": "Stop-Loss au-dessus du prix de liquidation",
+      "BODY": "Le prix Stop-Loss a dépassé le prix de liquidation. Cela peut se produire en raison de changements de financement, du retrait de fonds ou de l'évolution des exigences de marge."
+    },
+    "STOP_LOSS_BELOW_LIQUIDATION_PRICE": {
+      "TITLE": "Stop-Loss au-dessus du prix de liquidation",
+      "BODY": "Le prix Stop-Loss est tombé en dessous du prix de liquidation. Cela peut se produire en raison de changements de financement, du retrait de fonds ou de l'évolution des exigences de marge."
+    },
+    "TAKER_FEE": {
+      "TITLE": "Frais Taker",
+      "BODY": "Les trades qui prélèvent de la liquidité dans le carnet (par exemple, les ordres au marché ou crossing limit) s'exécutent en tant qu'ordres Taker. Les ordres Taker ont des frais plus élevés que les ordres Maker."
+    },
+    "TAKER_FEE_DISCOUNT": {
+      "TITLE": "Réduction des frais Taker",
+      "BODY": "Le taux de frais que vous payez par ordre Taker avec les réductions de frais de staking appliquées"
+    },
+    "TAKE_PROFIT": {
+      "TITLE": "Take Profit",
+      "BODY": "Permet aux traders de fixer des objectifs et de protéger les profits sur les positions en spécifiant un prix auquel clôturer une position ouverte pour réaliser un profit."
+    },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Effet de levier cible",
+      "BODY": "L'effet de levier cible est fixé à {TARGET_LEVERAGE}×, ce qui détermine le montant de la marge utilisée pour votre prochain ordre."
+    },
+    "TICK_SIZE": {
+      "TITLE": "Taille du tick",
+      "BODY": "La taille du tick est le mouvement de prix minimum sur ce marché."
+    },
+    "TIME_IN_FORCE": {
+      "TITLE": "Délai en vigueur",
+      "BODY": "L'option Délai en vigueur sélectionnée contrôle la durée pendant laquelle un ordre restera actif jusqu'à ce qu'il expire ou soit exécuté."
+    },
+    "TRAILING_PERCENT": {
+      "TITLE": "Pourcentage de Trailing",
+      "BODY": "Le pourcentage de Trailing définit le pourcentage de votre Stop Price qui « suivra » le prix oracle. Chaque fois que le prix oracle évolue en faveur de votre position, le Stop Price de votre ordre sera mis à jour en fonction de votre pourcentage de trailing indiqué."
+    },
+    "TRIGGER_PRICE": {
+      "TITLE": "Prix de déclenchement",
+      "BODY": "Lorsque le prix oracle de ce marché croise votre prix de déclenchement, votre ordre Stop\/Take Profit sera soit converti en ordre de limite, soit exécuté en tant qu'ordre au marché."
+    },
+    "UNREALIZED_PNL": {
+      "TITLE": "Perte\/Bénéfice non réalisé",
+      "BODY": "Perte\/bénéfice total si vous deviez fermer complètement le reste de votre position actuelle au prix oracle actuel. Réinitialise si vous fermez votre position ou changez de côté de position (long à court ou vice versa)."
+    },
+    "REWARD_HISTORY": {
+      "BODY": "L'heure est affichée en temps universel coordonné (UTC)"
+    }
+  },
+  "DEPOSIT": {
+    "AVAILABLE_GASLESS_DEPOSITS": {
+      "TITLE": "Disponible",
+      "BODY": "Vous êtes éligible ! Dépôt d'au moins {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL} pour permettre le dépôt sans frais de gaz."
+    },
+    "BRIDGE_FEES_DEPOSIT": {
+      "TITLE": "Frais de bridge",
+      "BODY": "Les frais de bridge sont payés à d'autres protocoles dans le cadre d'un ordre afin de compléter, de transférer ou d'échanger le bridging requis pour ce dépôt."
+    },
+    "DISABLED_GASLESS_DEPOSITS": {
+      "TITLE": "Indisponible",
+      "BODY": "Les dépôts sans gaz sont temporairement indisponibles. Ne vous inquiétez pas, ils seront bientôt de retour !"
+    },
+    "GAS_FEES_DEPOSIT": {
+      "TITLE": "Frais de gaz",
+      "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas {SOURCE_CHAIN}."
+    },
+    "GASLESS_DEPOSITS": {
+      "TITLE": "Dépôts sans gaz",
+      "BODY": "dYdX couvrira vos frais de gaz si vous déposez {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} ou plus. Vous êtes éligible à un dépôt sans gaz tous les trois jours. Les dépôts sans gaz sont soumis à des règles."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Dépôts de frais les plus bas",
+      "BODY": "Les dépôts USDC sur {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
+    },
+    "MINIMUM_DEPOSIT_AMOUNT": {
+      "TITLE": "Montant du dépôt minimum",
+      "BODY": "Y compris tout slippage pouvant survenir en raison de changements de liquidités pendant la durée du bridge"
+    },
+    "SWAP": {
+      "TITLE": "Échange et dépôt",
+      "BODY": "Lors du dépôt d'un actif non USDC, votre actif est automatiquement converti en USDC via l'API 0x. La définition de l'effet de slippage maximum vous permet de spécifier le slippage que vous autoriserez avant l'échec de la conversion."
+    }
+  },
+  "TRANSFER_AND_DEPOSIT": {
+    "ALLOWANCE_AND_DEPOSIT_NETWORK_FEE": {
+      "TITLE": "Frais de réseau",
+      "BODY": "Il s'agit du coût du gaz des transactions de dépôt et d'allocation fixe, payé aux mineurs d'Ethereum. Vous devez définir une allocation une seule fois par actif que vous déposez."
+    },
+    "DEPOSIT_NETWORK_FEE": {
+      "TITLE": "Frais de réseau",
+      "BODY": "Il s'agit du coût du gaz de la transaction de dépôt, payé aux mineurs d'Ethereum."
+    }
+  },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Tailles d'ordres inégales",
+      "BODY": "Vos ordres Take Profit et Stop Loss ont des tailles d'ordre différentes. Pour apporter des modifications à la taille de l'ordre, veuillez annuler et repasser les ordres."
+    }
+  },
+  "WITHDRAW": {
+    "FAST_WITHDRAW_FEE": {
+      "TITLE": "Frais de retrait rapide",
+      "BODY": "Les retraits rapides sont envoyés immédiatement et dYdX couvrira les frais de gaz en échange d'une commission. Pour les retraits sans frais, veuillez utiliser un retrait lent (vous payez vos propres frais de gaz et devrez attendre la confirmation de la couche 2)."
+    },
+    "GAS_FEES": {
+      "TITLE": "Frais de gaz",
+      "BODY": "Les frais de gaz sont des frais de transaction sur la chaîne source, dans ce cas dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Retraits aux frais les plus bas",
+      "BODY": "Les retraits USDC sur {LOWEST_FEE_TOKEN_NAMES} ont les frais les plus bas."
+    },
+    "BRIDGE_FEES": {
+      "TITLE": "Frais de bridge",
+      "BODY": "Les frais de transaction sont payés à d'autres protocoles dans le cadre d'un ordre afin de compléter, de transférer et d'échanger le bridging requis pour ce retrait."
+    },
+    "MINIMUM_AMOUNT_RECEIVED": {
+      "TITLE": "Montant minimum reçu",
+      "BODY": "Y compris tout slippage pouvant survenir en raison de changements de liquidités pendant la durée du bridge"
+    },
+    "WITHDRAW_TYPES": {
+      "TITLE": "Types de retrait",
+      "BODY": "dYdX prend en charge deux types de retraits de la couche 2. Les retraits rapides entraînent des frais minimes, mais ne nécessitent pas de gaz et sont envoyés immédiatement. Les retraits lents sont gratuits, mais nécessitent deux étapes, prennent beaucoup plus de temps et l'utilisateur devra payer ses propres frais de gaz."
+    }
+  },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Validateur sélectionné",
+      "BODY": "Le validateur est sélectionné parmi un ensemble préconfiguré de validateurs non pénalisés, en fonction du poids des enjeux le plus faible."
+    }
+  },
+  "EMAIL_NOTIFICATIONS": {
+    "VERIFY_EMAIL": {
+      "TITLE": "Vérifier l'adresse e-mail",
+      "BODY": "Veuillez cliquer sur le lien dans l'e-mail que nous vous avons envoyé, ce qui nous aidera à vérifier la propriété de votre adresse e-mail."
+    }
+  },
+  "TOKEN_MIGRATION": {
+    "DYDX_CHAIN_SETTLEMENT": {
+      "TITLE": "Règlement de la chaîne dYdX",
+      "BODY": "Pour assurer la sécurité du protocole, les validateurs de la chaîne dYdX retardent le règlement de la chaîne dYdX dYdX"
+    }
+  },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Activer ou désactiver les données OHLC (ouverture-haut-bas-clôture) via le prix moyen. En désactivant cette option, seules les données OHLC des trades historiques seront affichées."
+    }
+  },
+  "NEW_MARKET_WIDGET": {
+    "REFERENCE_PRICE": {
+      "TITLE": "Prix de référence",
+      "BODY": "Le prix de référence est la moyenne mobile sur 30 jours du prix du marché et est utilisé comme donnée d'entrée pour calculer automatiquement les paramètres du marché sur la chaîne dYdX. Le prix de référence devrait être approximativement le même que le prix actuel du marché (c'est-à-dire arrondi au chiffre inférieur aux mêmes puissances de 10)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "Cette valeur est déclarée sur CoinMarketCap."
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "Le montant estimé à recevoir lors du retrait, qui est le montant du retrait minoré du montant estimé du slippage. Ce montant est une estimation basée sur les conditions actuelles. Le montant réel peut être différent en fonction des conditions réelles au moment de l'exécution."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "Le montant estimé du slippage lors du retrait. Le slippage provient de la nécessité du coffre-fort de mettre à jour les positions actuelles pour libérer de la marge afin de s'acquitter du montant du retrait. Ce montant est une estimation basée sur les conditions actuelles. Le montant réel peut être différent en fonction des conditions réelles au moment de l'exécution."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "Le montant que vous pouvez retirer, qui correspond au solde de votre coffre-fort moins tout montant qui est bloqué pour les nouveaux listings sur le marché."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "La valeur actuelle de vos dépôts. Le calcul est effectué en se basant sur les capitaux propres actuels et les positions du coffre-fort."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "Le PNL total dans le temps. Cela inclut l'historique du PNL de vos dépôts dans le coffre-fort."
+    },
+    "VAULT_APR": {
+      "BODY": "Est. Le TAEG désigne les rendements du mois dernier annualisés. Les rendements réels dépendent des gains futurs incertains (partage des revenus du protocole et pertes et profits) et ne sont pas garantis. {LEARN_MORE}"
+    },
+    "VAULT_APR_90D": {
+      "BODY": "Est. Le TAEG désigne les rendements des 90 derniers jours annualisés. Les rendements réels dépendent des gains futurs incertains (partage des revenus du protocole et pertes et profits) et ne sont pas garantis. {LEARN_MORE}"
+    }
+  },
+  "SIMPLE_UI": {
+    "BUYING_POWER_SIMPLE": {
+      "BODY": "Il s'agit du montant maximal d'exposition que vous pouvez obtenir avec votre dépôt. Ce n'est pas le montant que vous pouvez déposer ou retirer. Votre pouvoir d’achat peut changer rapidement et peut être positif même lorsque vous réalisez des pertes."
+    },
+    "RISK": {
+      "BODY": "Il s'agit du pourcentage de votre dépôt conservé en marge par vos positions ouvertes. Cela peut changer rapidement lorsque le prix du marché change."
+    }
+  }
+}
