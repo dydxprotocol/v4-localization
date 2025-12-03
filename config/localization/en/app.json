@@ -1473,6 +1473,7 @@
       "UNLOCKED": "unlocked",
       "UNTIL_NEXT_EPOCH_ON_DATE": "until the next epoch on {NEXT_EPOCH_DATE}",
       "WEEKLY_PRIZE": "Weekly Prize",
+      "MONTHLY_PRIZE": "Monthly Prize",
       "VIEW_FEES": "View fees",
       "VIEW_FEE_STRUCTURE": "View fee structure",
       "VIEW_FILLS": "View fills",
@@ -2314,7 +2315,8 @@
       "SURGE_HOW_TO_EARN_2": "Retail (25%) - For taker trades made through the dYdX web and mobile interfaces.",
       "SURGE_HOW_TO_EARN_3": "Activation (0%) - Designed to incentivize new features, DYDX staking, liquidity in key markets, and re-engagement of past users.",
       "SURGE_LEADERBOARD_TITLE": "Surge Leaderboard",
-      "WEEK_COUNTDOWN": "Week {WEEK} Countdown"
+      "WEEK_COUNTDOWN": "Week {WEEK} Countdown",
+      "MONTH_COUNTDOWN": "Month {MONTH} Countdown"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
