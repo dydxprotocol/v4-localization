@@ -2706,6 +2706,9 @@
     "NO_FEE_DECEMBER_BANNER": {
       "NO_FEE_DECEMBER_BANNER_TITLE": "December on SOL & BTC Markets"
     },
+    "SOLANA_SPOT_ZERO_FEES_BANNER": {
+      "SOLANA_SPOT_ZERO_FEES_BANNER_TITLE": "Solana Spot Trading Is Live - with Zero Fees"
+    },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Up to $1M in Liquidation Rebates",
       "LIQUIDATION_REBATES_BANNER_CTA": "Biggest Loser Rankings"
