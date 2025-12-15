@@ -881,6 +881,7 @@
       "EXCHANGE_METRICS": "Показатели",
       "EXCHANGE_STATUS": "Статус",
       "FEEDBACK": "Обратная связь",
+      "FUNDING_COMPARISON": "Сравнение финансирования",
       "GASLESS_DEPOSIT_RULES": "Внесение средств без комиссии за газ",
       "HELP": "Помощь",
       "HELP_CENTER": "Служба поддержки",
@@ -1473,6 +1474,7 @@
       "UNLOCKED": "разблокировано",
       "UNTIL_NEXT_EPOCH_ON_DATE": "до следующей эпохи, которая начнется {NEXT_EPOCH_DATE}",
       "WEEKLY_PRIZE": "Еженедельный приз",
+      "MONTHLY_PRIZE": "Ежемесячный приз",
       "VIEW_FEES": "Смотреть комиссии",
       "VIEW_FEE_STRUCTURE": "Просмотр структуры комиссий",
       "VIEW_FILLS": "Просмотреть исполненные ордера",
@@ -2292,6 +2294,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "Таблица лидеров PNL",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} в виде еженедельных наград",
       "COMPETITION_BODY_NOV_2025": "Каждую неделю лучшие трейдеры на dYdX могут получать награду на сумму до {REWARD_AMOUNT}. Награды распределяются в конце каждой недели.",
+      "COMPETITION_HEADLINE_DEC_2025": "До {REWARD_AMOUNT} в рамках ликвидационных возмещений",
+      "COMPETITION_BODY_DEC_2025": "Пилотная программа возмещения за ликвидацию вводит геймифицированный уровень стимулирования для трейдеров, ликвидируемых на dYdX. В этом декабре трейдеры могут оборачивать ликвидацию в награды, зарабатывать баллы и получать свою долю на сумму до возмещения dYdX{REWARD_AMOUNT}!",
       "SURGE": "Surge",
       "SURGE_COUNTDOWN": "Обратный счет S{SURGE_SEASON}",
       "SURGE_HEADLINE": "dYdX Surge: боритесь за 3 млн долл. США",
@@ -2299,6 +2303,8 @@
       "SURGE_BODY_SEP_2025": "В конце каждого месяца между трейдерами dYdX распределяются награды до {REWARD_AMOUNT} и скидки на комиссионные сборы {REBATE_PERCENT}.",
       "SURGE_HEADLINE_NOV_2025": "{REWARD_AMOUNT} в наградах + скидка {REBATE_PERCENT} на комиссионные сборы",
       "SURGE_BODY_NOV_2025": "В конце каждого месяца между трейдерами dYdX распределяются награды до {REWARD_AMOUNT} и скидки на комиссионные сборы {REBATE_PERCENT}.",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} возмещения комиссионного сбора",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT} возмещения комиссионных сборов распределяются между трейдерами dYdX в конце каждого месяца.",
       "SURGE_EST_AMOUNT_TOOLTIP": "Предполагаемая сумма наград в таблице лидеров + возвраты комиссионных сборов за торговлю",
       "SURGE_BODY": "Ежемесячно среди трейдеров dYdX распределяются награды на сумму до 3 млн долл. США. Сделайте свой ход, нажмите на рейтинг лидеров, чтобы узнать больше.",
       "SURGE_HOW_IT_WORKS": "Как это работает",
@@ -2310,7 +2316,8 @@
       "SURGE_HOW_TO_EARN_2": "Розничная торговля (25%) — для сделок тейкеров, совершаемых через веб- и мобильные приложения dYdX.",
       "SURGE_HOW_TO_EARN_3": "Активация (0%) — стимулирование новых функций, стейкинга dYdX, ликвидности на ключевых рынках и повторного привлечения прежних пользователей.",
       "SURGE_LEADERBOARD_TITLE": "Таблица лидеров Surge",
-      "WEEK_COUNTDOWN": "Обратный отсчет: неделя {WEEK}"
+      "WEEK_COUNTDOWN": "Обратный отсчет: неделя {WEEK}",
+      "MONTH_COUNTDOWN": "Оставшееся время месяца {MONTH}"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "Вы получили награды ({AMOUNT}) в $DYDX за эпоху {EPOCH_NUMBER}! Получайте награды на панели управления.",
@@ -2444,11 +2451,14 @@
       "YOU_WILL_EARN": "Вы получите",
       "NO_AVAILABLE_ROUTES": "Нет доступных маршрутов",
       "HIGH_PRICE_IMPACT": "Высокое влияние на цену",
-      "SWAP_SUCCESS": "Своп успешно выполнен",
       "SWAP_ERROR": "Произошла ошибка при проведении вашего свопа",
+      "SWAP_FROM": "От",
+      "SWAP_IN_PROGRESS_WARNING": "Ваш своп выполняется. Дождитесь его завершения, прежде чем покинуть эту страницу.",
       "SWAP_PENDING": "Обмен",
       "SWAP_PENDING_DESCRIPTION": "Обмен {INPUT_LABEL} на {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "Обменено {INPUT_LABEL} на: {OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "Своп успешно выполнен",
+      "SWAP_SUCCESS_DESCRIPTION": "Обменено {INPUT_LABEL} на: {OUTPUT_LABEL}",
+      "SWAP_TO": "К"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Внести все {ASSET}",
@@ -2690,6 +2700,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "Без комиссии",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "Ноябрь на рынках SOL и BTC",
       "NO_FEE_NOVEMBER_BANNER_CTA": "Торгуйте биткойнами и Solana"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "Декабрь на рынках SOL и BTC"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "До 1 млн. дол. США в рамках ликвидационных возмещений",
+      "LIQUIDATION_REBATES_BANNER_CTA": "Рейтинг самых больших падений"
     }
   },
   "TOKEN_MIGRATION": {
