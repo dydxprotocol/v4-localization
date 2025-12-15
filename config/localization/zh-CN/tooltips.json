@@ -196,6 +196,10 @@
       "TITLE": "DYDX奖励",
       "BODY": "在 DYDX 赚取 {REWARD_PERCENT}% 的费用返还，并通过 dYdX Surge 争夺您的份额{REWARD_AMOUNT}！当月末支付奖励"
     },
+    "MAXIMUM_REWARDS_DEC_2025": {
+      "TITLE": "DYDX奖励",
+      "BODY": "通过 dYdX Surge 在 DYDX 赚取 ${%} 的费用返还！当月末支付奖励"
+    },
     "NET_FUNDING": {
       "TITLE": "净资金",
       "BODY": "当前头寸存续期间赚取或支付的资金总额。如果将头寸平仓或更改头寸方向（多头转为空头，或反之），则重置。"
