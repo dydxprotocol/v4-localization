@@ -196,6 +196,10 @@
       "TITLE": "DYDXリワード",
       "BODY": "DYDXで取引手数料の{REWARD_PERCENT}％を還元。dYdX Surgeで競争して{REWARD_AMOUNT}の一部を獲得しましょう。報酬は月末に支払われます"
     },
+    "MAXIMUM_REWARDS_DEC_2025": {
+      "TITLE": "DYDXリワード",
+      "BODY": "dYdX SurgeでdYdXで取引手数料の{REWARD_PERCENT}%を還元しましょう。報酬は月末に支払われます"
+    },
     "NET_FUNDING": {
       "TITLE": "ネット資金",
       "BODY": "現行ポジションの保有期間中に獲得または支払われる合計資金。 ポジションをクローズするか、ポジションサイドを変更した（ロングからショート、あるいショートからロング）、リセットされます。"
