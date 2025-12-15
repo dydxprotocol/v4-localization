@@ -881,6 +881,7 @@
       "EXCHANGE_METRICS": "指标",
       "EXCHANGE_STATUS": "状态",
       "FEEDBACK": "反馈",
+      "FUNDING_COMPARISON": "资金比较",
       "GASLESS_DEPOSIT_RULES": "无Gas充值",
       "HELP": "帮助",
       "HELP_CENTER": "帮助中心",
@@ -1473,6 +1474,7 @@
       "UNLOCKED": "已解锁",
       "UNTIL_NEXT_EPOCH_ON_DATE": "直到{NEXT_EPOCH_DATE}的下一时段",
       "WEEKLY_PRIZE": "每周奖励",
+      "MONTHLY_PRIZE": "月度奖励",
       "VIEW_FEES": "查看费用",
       "VIEW_FEE_STRUCTURE": "查看费结构",
       "VIEW_FILLS": "查看填写内容",
@@ -2292,6 +2294,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "PNL排行榜",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 在每周奖励中",
       "COMPETITION_BODY_NOV_2025": "每周向dYdX上的最佳交易者发放高达奖励。{REWARD_AMOUNT} 每周结束时发放奖励。",
+      "COMPETITION_HEADLINE_DEC_2025": "清算返还率{REWARD_AMOUNT}高达",
+      "COMPETITION_BODY_DEC_2025": "清算返还试点计划为在 dYdX 上清算的交易者引入了游戏化激励层。 今年 12 月，交易者现在可以将清算变成奖励，赚取积分，并在 DYDX 中领取最多可达的份额！{REWARD_AMOUNT}",
       "SURGE": "激增",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 倒计时",
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
@@ -2299,6 +2303,8 @@
       "SURGE_BODY_SEP_2025": "每月月底向dYdX交易者分发高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
       "SURGE_HEADLINE_NOV_2025": "{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还",
       "SURGE_BODY_NOV_2025": "每月月底向dYdX交易者分发前端用户高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 费用返还",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT}每月月底向 dYdX（去中心化永续合约交易所）交易者分发费用返还。",
       "SURGE_EST_AMOUNT_TOOLTIP": "排行榜奖励和交易费返还的估计金额",
       "SURGE_BODY": "每月向dYdX交易者分发高达300万美元的奖励。 行动起来吧，点击排行榜了解详情。",
       "SURGE_HOW_IT_WORKS": "运作方式",
@@ -2310,7 +2316,8 @@
       "SURGE_HOW_TO_EARN_2": "零售(25%)—针对通过dYdX网络和移动界面完成的吃单交易。",
       "SURGE_HOW_TO_EARN_3": "激活（0%）—旨在激励新功能、DYDX质押、关键市场流动性以及过去用户的重新参与。",
       "SURGE_LEADERBOARD_TITLE": "Surge排行榜",
-      "WEEK_COUNTDOWN": "周倒计{WEEK}时"
+      "WEEK_COUNTDOWN": "周倒计{WEEK}时",
+      "MONTH_COUNTDOWN": "月份倒计{MONTH}时"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX 的奖励！在治理仪表板上申领您的奖励。",
@@ -2444,11 +2451,14 @@
       "YOU_WILL_EARN": "您将赚取",
       "NO_AVAILABLE_ROUTES": "没有可用路由",
       "HIGH_PRICE_IMPACT": "高价格差",
-      "SWAP_SUCCESS": "兑换成功",
       "SWAP_ERROR": "您的互换出错",
+      "SWAP_FROM": "来自",
+      "SWAP_IN_PROGRESS_WARNING": "您的兑换正在进行中。 请等待其完成后再离开此页面。",
       "SWAP_PENDING": "正在兑换",
       "SWAP_PENDING_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "兑换成功",
+      "SWAP_SUCCESS_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}",
+      "SWAP_TO": "至"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
@@ -2690,6 +2700,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "免费",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11 月的 SOL 和 BTC 市场",
       "NO_FEE_NOVEMBER_BANNER_CTA": "立即交易比特币和Solana"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12 月的 SOL 和 BTC 市场"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
+      "LIQUIDATION_REBATES_BANNER_CTA": "最大输家排名"
     }
   },
   "TOKEN_MIGRATION": {
