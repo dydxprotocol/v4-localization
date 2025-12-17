@@ -90,7 +90,7 @@
     },
     "DEC_2025_REBATE_NOTIFICATION": {
       "TITLE": "Claim your loss rebate today!",
-      "BODY": "You may be eligible for a {AMOUNT} rebate."
+      "BODY": "You may be eligible for a {AMOUNT} rebate. Claim your rebate from now until January 31st."
     },
     "DEPOSIT_DETECTED": {
       "TITLE": "Deposit Detected",
