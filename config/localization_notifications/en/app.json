@@ -88,6 +88,10 @@
       "TITLE": "$10K in Rewards for PUMP Traders",
       "BODY": "Live on dYdX with up to 5x leverage. Limited-time rewards."
     },
+    "DEC_2025_REBATE_NOTIFICATION": {
+      "TITLE": "Claim your loss rebate today!",
+      "BODY": "You may be eligible for a {AMOUNT} rebate."
+    },
     "DEPOSIT_DETECTED": {
       "TITLE": "Deposit Detected",
       "BODY": "Your deposit will arrive in ~30 seconds."
