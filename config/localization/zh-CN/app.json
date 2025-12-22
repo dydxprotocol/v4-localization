@@ -96,12 +96,14 @@
       "CLAIM": "申领",
       "CLEAR": "清仓",
       "CLEAR_ALL": "全部清仓",
+      "CHECK_ELIGIBILITY": "检查资格",
       "CLICK_HERE": "点击此处",
       "CLOSE": "平仓",
       "COMING_SOON": "即将推出",
       "COMMISSION_PERCENTAGE": "{PERCENTAGE} 佣金",
       "COMPETITION": "竞争",
       "COMPETITIONS": "竞争",
+      "REBATES": "回扣",
       "CONFIRM": "确认",
       "CONFIRM_DEPOSIT": "确认充值",
       "CONFIRM_PENDING_DEPOSIT": "确认待定充值",
@@ -881,6 +883,7 @@
       "EXCHANGE_METRICS": "指标",
       "EXCHANGE_STATUS": "状态",
       "FEEDBACK": "反馈",
+      "FUNDING_COMPARISON": "资金比较",
       "GASLESS_DEPOSIT_RULES": "无Gas充值",
       "HELP": "帮助",
       "HELP_CENTER": "帮助中心",
@@ -1473,6 +1476,8 @@
       "UNLOCKED": "已解锁",
       "UNTIL_NEXT_EPOCH_ON_DATE": "直到{NEXT_EPOCH_DATE}的下一时段",
       "WEEKLY_PRIZE": "每周奖励",
+      "MONTHLY_PRIZE": "月度奖励",
+      "ESTIMATED_PRIZE": "预估奖金",
       "VIEW_FEES": "查看费用",
       "VIEW_FEE_STRUCTURE": "查看费结构",
       "VIEW_FILLS": "查看填写内容",
@@ -2008,6 +2013,7 @@
       "CANCELING_ALL_ORDERS": "取消所有订单",
       "CHAIN_DISRUPTION_DETECTED": "检测到潜在的链中断",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX 链可能出现中断。请检查状态页面并刷新。 如果发生链中断，交易和转账将暂时禁用。您的资金是安全的。",
+      "CLAIM_TRADING_LEAGUE_REWARD_BODY": "领取您的交易联盟奖励！",
       "CLICK_TO_VIEW": "单击查看",
       "CLOSE_MARKET_POSITIONS": "平仓{MARKET}头寸",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}设置为仅平仓模式，{MARKET}的平仓价现已规定。请尽快对您的敞口{MARKET}头寸进行平仓。如果您遇到问题，我们会通过帮助聊天来为您提供帮助。",
@@ -2292,6 +2298,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "PNL排行榜",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 在每周奖励中",
       "COMPETITION_BODY_NOV_2025": "每周向dYdX上的最佳交易者发放高达奖励。{REWARD_AMOUNT} 每周结束时发放奖励。",
+      "COMPETITION_HEADLINE_DEC_2025": "最高可返还 {REWARD_AMOUNT} 的亏损金额",
+      "COMPETITION_BODY_DEC_2025": "亏损返还试点计划为在 dYdX 上被强制平仓的交易者引入了一层游戏化激励机制。今年 12 月，符合条件的交易者可将强制平仓转化为获得 DYDX 回扣的机会。",
       "SURGE": "激增",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 倒计时",
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
@@ -2299,6 +2307,8 @@
       "SURGE_BODY_SEP_2025": "每月月底向dYdX交易者分发高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
       "SURGE_HEADLINE_NOV_2025": "{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还",
       "SURGE_BODY_NOV_2025": "每月月底向dYdX交易者分发前端用户高达{REWARD_AMOUNT}奖励和{REBATE_PERCENT}费用返还。",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 费用返还",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT}每月月底向 dYdX（去中心化永续合约交易所）交易者分发费用返还。",
       "SURGE_EST_AMOUNT_TOOLTIP": "排行榜奖励和交易费返还的估计金额",
       "SURGE_BODY": "每月向dYdX交易者分发高达300万美元的奖励。 行动起来吧，点击排行榜了解详情。",
       "SURGE_HOW_IT_WORKS": "运作方式",
@@ -2310,7 +2320,8 @@
       "SURGE_HOW_TO_EARN_2": "零售(25%)—针对通过dYdX网络和移动界面完成的吃单交易。",
       "SURGE_HOW_TO_EARN_3": "激活（0%）—旨在激励新功能、DYDX质押、关键市场流动性以及过去用户的重新参与。",
       "SURGE_LEADERBOARD_TITLE": "Surge排行榜",
-      "WEEK_COUNTDOWN": "周倒计{WEEK}时"
+      "WEEK_COUNTDOWN": "周倒计{WEEK}时",
+      "MONTH_COUNTDOWN": "月份倒计{MONTH}时"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX 的奖励！在治理仪表板上申领您的奖励。",
@@ -2444,11 +2455,14 @@
       "YOU_WILL_EARN": "您将赚取",
       "NO_AVAILABLE_ROUTES": "没有可用路由",
       "HIGH_PRICE_IMPACT": "高价格差",
-      "SWAP_SUCCESS": "兑换成功",
       "SWAP_ERROR": "您的互换出错",
+      "SWAP_FROM": "来自",
+      "SWAP_IN_PROGRESS_WARNING": "您的兑换正在进行中。 请等待其完成后再离开此页面。",
       "SWAP_PENDING": "正在兑换",
       "SWAP_PENDING_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "兑换成功",
+      "SWAP_SUCCESS_DESCRIPTION": "兑换为 {INPUT_LABEL}{OUTPUT_LABEL}",
+      "SWAP_TO": "至"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "存入全部{ASSET}",
@@ -2638,6 +2652,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，或从事违反我们使用条款的活动，您已被阻止。在您对前端的访问被阻止之前，您需要在{DATE}之前提取您的资金。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "由于您似乎是违反我们使用条款的司法管辖区的居民，或在该司法管辖区交易，并且之前曾被给予机会纠正导致您账户受限制的情况，因此您已被永久阻止。 如果您认为有错误，请联系支持部门，网址为 {HELP_LINK}。",
+      "PERPETUALS_UNAVAILABLE_MESSAGE": "Perps 在您所在的国家或地区不可用。 现货交易仍可进行。 请注意，根据 {TERMS_OF_USE_LINK}，禁止来自某些司法管辖区，包括受制裁或其他法律限制的司法管辖区的访问。",
       "BLOCKED_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 ",
       "BLOCKED_BANNER_MESSAGE": "永续合约不适用于任何居住于、位于，或成立于，或有注册代理在受封锁的国家或受限制的区域的人士。 如需了解更多详情，请访问我们的 {TERMS_OF_USE_LINK}。 如果您认为有错误，请联系 {HELP_LINK} 的支持人员。",
       "BLOCKED_BANNER_MESSAGE_SHORT": "您正从受限制区域访问该接口。 来自某些司法管辖区，包括受制裁或其他法律限制的司法管辖区，不允许访问。 如需更多信息，请参阅我们的{TERMS_OF_USE_LINK}。 如果您认为有错误，请联系支持部门。"
@@ -2673,7 +2688,7 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "今年9月：获得50%的交易费返还",
       "REBATE_BANNER_TITLE_SURGE": "dYdX Surge：",
-      "REBATE_BANNER_TITLE_FEES": "100万美元奖励池 + 100% 的费用返还现已上线",
+      "REBATE_BANNER_TITLE_FEES": "50% 的交易费用返佣现已上线",
       "REBATE_BANNER_SUBTITLE": "仅前端",
       "REBATE_BANNER_CTA": "获得返还"
     },
@@ -2690,6 +2705,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "免费",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11 月的 SOL 和 BTC 市场",
       "NO_FEE_NOVEMBER_BANNER_CTA": "立即交易比特币和Solana"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12 月的 SOL 和 BTC 市场"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
+      "LIQUIDATION_REBATES_BANNER_CTA": "最大输家排名"
     }
   },
   "TOKEN_MIGRATION": {
