@@ -196,6 +196,10 @@
       "TITLE": "Récompenses DYDX",
       "BODY": "Gagnez {REWARD_PERCENT}% de vos frais en dYdX et concourez pour votre part {REWARD_AMOUNT}via dYdX Surge ! Les récompenses sont versées à la fin du mois"
     },
+    "MAXIMUM_REWARDS_DEC_2025": {
+      "TITLE": "Récompenses DYDX",
+      "BODY": "Gagnez {REWARD_PERCENT}% de vos frais en dYdX via dYdX Surge ! Les récompenses sont versées à la fin du mois"
+    },
     "NET_FUNDING": {
       "TITLE": "Financement net",
       "BODY": "Financement total gagné\/payé pour la durée de vie de la position actuelle. Se réinitialise si vous fermez votre position ou changez de côté de position (long à court, ou vice versa)."
