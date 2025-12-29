@@ -96,12 +96,14 @@
       "CLAIM": "請求",
       "CLEAR": "クリア",
       "CLEAR_ALL": "すべてクリア",
+      "CHECK_ELIGIBILITY": "資格を確認する",
       "CLICK_HERE": "ここをクリック",
       "CLOSE": "クローズする",
       "COMING_SOON": "近日公開",
       "COMMISSION_PERCENTAGE": "{PERCENTAGE}コミッション",
       "COMPETITION": "コンペティション",
       "COMPETITIONS": "コンペティション",
+      "REBATES": "リベート",
       "CONFIRM": "確認",
       "CONFIRM_DEPOSIT": "入金確認",
       "CONFIRM_PENDING_DEPOSIT": "保留中の入金を確認",
@@ -881,7 +883,8 @@
       "EXCHANGE_METRICS": "メトリックス",
       "EXCHANGE_STATUS": "ステータス",
       "FEEDBACK": "フィードバック",
-      "GASLESS_DEPOSIT_RULES": "ガスレス入金",
+      "FUNDING_COMPARISON": "ファンディングの比較",
+      "GASLESS_DEPOSIT_RULES": "ガスレス預金",
       "HELP": "ヘルプ",
       "HELP_CENTER": "ヘルプセンター",
       "HELP_CHAT": "ヘルプチャット",
@@ -1473,6 +1476,8 @@
       "UNLOCKED": "ロック解除済み",
       "UNTIL_NEXT_EPOCH_ON_DATE": "次のエポック日{NEXT_EPOCH_DATE}まで",
       "WEEKLY_PRIZE": "毎週の賞金",
+      "MONTHLY_PRIZE": "月間賞金",
+      "ESTIMATED_PRIZE": "予想賞金",
       "VIEW_FEES": "手数料の表示",
       "VIEW_FEE_STRUCTURE": "手数料体系の表示",
       "VIEW_FILLS": "執行を表示",
@@ -2008,6 +2013,7 @@
       "CANCELING_ALL_ORDERS": "すべての注文をキャンセル",
       "CHAIN_DISRUPTION_DETECTED": "チェーン中断の可能性を検出しました",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdXチェーンの中断の可能性があります。 ステータスページを確認して更新してください。 チェーン中断の場合、取引と転送は一時的に無効になります。 資金は安全です。",
+      "CLAIM_TRADING_LEAGUE_REWARD_BODY": "取引リーグの報酬を獲得しましょう！",
       "CLICK_TO_VIEW": "クリックして表示",
       "CLOSE_MARKET_POSITIONS": "{MARKET}ポジションをクローズする",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}はクローズオンリーモードに設定され、{MARKET}のクローズ価格が固定されました。オープンになっている{MARKET}ポジションを速やかにクローズしてください。問題が生じた場合、ヘルプチャットをご利用いただけます。",
@@ -2292,6 +2298,12 @@
       "COMPETITION_LEADERBOARD_TITLE": "実現損益（PNL）リーダーボード",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 毎週の報酬で",
       "COMPETITION_BODY_NOV_2025": "毎週、dYdXにおける最も優れたトレーダーに最高の報酬が与えられます。{REWARD_AMOUNT}報酬は毎週末に分配されます。",
+      "COMPETITION_HEADLINE_DEC_2025": "{REWARD_AMOUNT}最大損失リベート",
+      "COMPETITION_BODY_DEC_2025": "損失リベートパイロットプログラムは、dYdXで清算されているトレーダー向けにゲーミフィケーションされたインセンティブレイヤーを導入しています。 この 12 月、対象となるトレーダーは清算を dYdX リベートを得る機会に変えることができます。",
+      "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "最大{REWARD_AMOUNT}損失リベート - 対象となる損失リベートを今すぐ請求",
+      "COMPETITION_BODY_1_DEC_2025": "dYdXで損失を被ったトレーダー向けに、ゲーミフィケーションされたインセンティブレイヤーを導入しています。{PROGRAM_LINK} 対象トレーダーは、取引損失をdYdXリベート獲得の機会に変えることができます。",
+      "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "損失リベートパイロットプログラム",
+      "COMPETITION_BODY_2_DEC_2025": "12月上半期の対象損失リベートは、1月31日まで請求できます。 12月下半期にご期待ください。資格{HERE_LINK}を確認してください。",
       "SURGE": "サージ",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON}カウントダウン",
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
@@ -2299,6 +2311,8 @@
       "SURGE_BODY_SEP_2025": "最大{REWARD_AMOUNT}での報酬および{REBATE_PERCENT}手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
       "SURGE_HEADLINE_NOV_2025": " 報酬{REWARD_AMOUNT} + {REBATE_PERCENT}手数料リベート",
       "SURGE_BODY_NOV_2025": "フロントエンドユーザー向けに最大で{REWARD_AMOUNT}の報酬および{REBATE_PERCENT}手数料リベートが、毎月末にdYdXトレーダーに配布されます。",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 手数料リベート",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT} 手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
       "SURGE_EST_AMOUNT_TOOLTIP": "リーダーボード報酬 + 取引手数料リベートの推定合計",
       "SURGE_BODY": "最大300万ドルの報酬が毎月dYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
       "SURGE_HOW_IT_WORKS": "使い方",
@@ -2310,7 +2324,8 @@
       "SURGE_HOW_TO_EARN_2": "小売業２５％- dYdXのウェブおよびモバイルインターフェイスを介して行われるテイカー取引です。",
       "SURGE_HOW_TO_EARN_3": "アクティベーション（0％）- 新機能、DYDXステーキング、主要マーケットにおける流動性、および過去のユーザーの再エンゲージメントをインセンティブにするように設計されています。",
       "SURGE_LEADERBOARD_TITLE": "Surgeリーダーボード",
-      "WEEK_COUNTDOWN": "週カウントダ{WEEK}ウン"
+      "WEEK_COUNTDOWN": "週カウントダ{WEEK}ウン",
+      "MONTH_COUNTDOWN": "月のカウントダ{MONTH}ウン"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "エポック{EPOCH_NUMBER}中に{AMOUNT}$DYDX報酬を獲得しました！ガバナンスダッシュボードで報酬を請求する。",
@@ -2444,11 +2459,14 @@
       "YOU_WILL_EARN": "獲得予定",
       "NO_AVAILABLE_ROUTES": "利用可能なルートはありません",
       "HIGH_PRICE_IMPACT": "高い価格インパクト",
-      "SWAP_SUCCESS": "スワップが成功しました",
       "SWAP_ERROR": "スワップにエラーが発生しました",
+      "SWAP_FROM": "から",
+      "SWAP_IN_PROGRESS_WARNING": "スワップが進行中です。 このページを離れる前に、処理が完了するまでお待ちください。",
       "SWAP_PENDING": "スワップ",
       "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}にスワップする {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}にスワップされました {OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "スワップが成功しました",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}にスワップされました {OUTPUT_LABEL}",
+      "SWAP_TO": "へ"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "すべての{ASSET}を入金",
@@ -2638,6 +2656,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "お客様は、当社の利用条件に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされている、あるいは当社の利用規約に違反する行為を行っているためブロックされています。フロントエンドへのアクセスがブロックされる前に資金を引き出すには、{DATE}まで猶予があります。 エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "お客様は当社の利用規約に抵触する国や地域に居住しているか、そうした国や地域で取引を行っているとみなされており、また以前にアカウント制限につながった状況を是正する機会が与えられていたため、お客様は永久にブロックされました。エラーが発生していると思われる場合は、{HELP_LINK}からサポートまでご連絡ください。",
+      "PERPETUALS_UNAVAILABLE_MESSAGE": "Perp はお住まいの国または地域ではご利用いただけません。 スポット取引は引き続きご利用いただけます。 制裁やその他の法的制限の対象となっている地域を含む特定の管轄区域からのアクセスは禁止されていますのでご注意ください{TERMS_OF_USE_LINK}。",
       "BLOCKED_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。",
       "BLOCKED_BANNER_MESSAGE": "ブロックされている国や制限地域に居住している方、拠点を置いている方、法人をお持ちの方、または登録代理人を有している方は、パーペチュアルをご利用いただけません。詳細は、当社の{TERMS_OF_USE_LINK}をご覧ください。エラーと思われる場合は、{HELP_LINK}のサポートまでご連絡ください。",
       "BLOCKED_BANNER_MESSAGE_SHORT": "制限されたリージョンからこのインターフェイスにアクセスしています。 制裁やその他の法的制限の対象となっている国や地域を含む、特定の国や地域からのアクセスは許可されていません。 詳細については、当社の{TERMS_OF_USE_LINK}を参照してください。 エラーと思われる場合は、サポートまでお問い合わせください。"
@@ -2673,7 +2692,7 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "今年9月：取引手数料の50％を還元",
       "REBATE_BANNER_TITLE_SURGE": "dYdXサージ：",
-      "REBATE_BANNER_TITLE_FEES": "100万ドルのリワードプール + 100％の手数料リベートが現在利用可能",
+      "REBATE_BANNER_TITLE_FEES": "50%の取引手数料リベートが今すぐ稼働",
       "REBATE_BANNER_SUBTITLE": "フロントエンドのみ",
       "REBATE_BANNER_CTA": "リベートを獲得する"
     },
@@ -2690,6 +2709,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "手数料なし",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11月のSOLおよびBTC「マーケット」",
       "NO_FEE_NOVEMBER_BANNER_CTA": "ビットコインおよびSolanaを今すぐ取引"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12月のSOLおよびBTC「マーケット」"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
+      "LIQUIDATION_REBATES_BANNER_CTA": "最大の敗者ランキング"
     }
   },
   "TOKEN_MIGRATION": {
