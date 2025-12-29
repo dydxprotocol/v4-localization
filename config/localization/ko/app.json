@@ -96,12 +96,14 @@
       "CLAIM": "청구",
       "CLEAR": "지우기",
       "CLEAR_ALL": "모두 지우기",
+      "CHECK_ELIGIBILITY": "자격 확인",
       "CLICK_HERE": "여기를 클릭하세요",
       "CLOSE": "종료",
       "COMING_SOON": "곧 출시",
       "COMMISSION_PERCENTAGE": "{PERCENTAGE} 수수료",
       "COMPETITION": "경쟁",
       "COMPETITIONS": "경쟁",
+      "REBATES": "리베이트",
       "CONFIRM": "확인",
       "CONFIRM_DEPOSIT": "입금 승인",
       "CONFIRM_PENDING_DEPOSIT": "보류 중인 입금 확인",
@@ -881,6 +883,7 @@
       "EXCHANGE_METRICS": "지표",
       "EXCHANGE_STATUS": "상태",
       "FEEDBACK": "피드백",
+      "FUNDING_COMPARISON": "펀딩 비교",
       "GASLESS_DEPOSIT_RULES": "가스 수수료 면제 입금",
       "HELP": "도움말",
       "HELP_CENTER": "고객 지원 센터",
@@ -1473,6 +1476,8 @@
       "UNLOCKED": "잠금 해제됨",
       "UNTIL_NEXT_EPOCH_ON_DATE": "{NEXT_EPOCH_DATE}에 대해 다음 에폭까지 남은 시간:",
       "WEEKLY_PRIZE": "주간 상금",
+      "MONTHLY_PRIZE": "월간 상금",
+      "ESTIMATED_PRIZE": "예상 상금",
       "VIEW_FEES": "수수료 보기",
       "VIEW_FEE_STRUCTURE": "수수료 구조 보기",
       "VIEW_FILLS": "체결 내역 보기",
@@ -2008,6 +2013,7 @@
       "CANCELING_ALL_ORDERS": "모든 주문 취소 중",
       "CHAIN_DISRUPTION_DETECTED": "잠재적인 체인 중단 감지됨",
       "CHAIN_DISRUPTION_DETECTED_BODY": "dYdX 체인이 중단될 가능성이 있습니다. 상태 페이지를 확인하고 새로 고침하세요. 체인이 중단되면 거래 및 전송을 일시적으로 이용할 수 없습니다. 여러분의 자금은 안전합니다.",
+      "CLAIM_TRADING_LEAGUE_REWARD_BODY": "트레이딩 리그 보상을 받으세요!",
       "CLICK_TO_VIEW": "클릭하여 보기",
       "CLOSE_MARKET_POSITIONS": "{MARKET} 포지션 청산",
       "CLOSE_MARKET_POSITIONS_BODY": "{MARKET}은(는) 청산 가격 전용 모드로 설정되었으며, {MARKET}의 청산 가격은 현재 고정되었습니다. 열려 있는 {MARKET} 포지션을 가능한 한 빨리 종료하세요. 문제가 발생할 경우, 채팅 상담을 통해 도움을 받으실 수 있습니다.",
@@ -2292,6 +2298,12 @@
       "COMPETITION_LEADERBOARD_TITLE": "PNL 리더보드",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 주간 보상으로",
       "COMPETITION_BODY_NOV_2025": "매주 dYdX에서 최고의 트레이더에게 최대 {REWARD_AMOUNT} 의 보상이 제공됩니다. 보상은 매주 말에 배포됩니다.",
+      "COMPETITION_HEADLINE_DEC_2025": "최대 손실 리베이트{REWARD_AMOUNT}",
+      "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올 12월, 자격 있는 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
+      "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "최대 손실 리베이트 {REWARD_AMOUNT}- 지금 자격 있는 손실 리베이트를 받으세요",
+      "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK}은(는) dYdX에서 손실을 입은 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 거래 손실을 DYDX 리베이트를 받을 수 있는 기회로 전환할 수 있습니다.",
+      "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
+      "COMPETITION_BODY_2_DEC_2025": "12월 상반기에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 클레임할 수 있습니다. 12월 하반기에 대한 자세한 내용을 지켜보세요. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "SURGE": "서지",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 카운트다운",
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
@@ -2299,6 +2311,8 @@
       "SURGE_BODY_SEP_2025": "매달 말에 dYdX 트레이더에게 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 배포됩니다{REWARD_AMOUNT}.",
       "SURGE_HEADLINE_NOV_2025": "{REBATE_PERCENT} 보상 + {REWARD_AMOUNT} 수수료 리베이트",
       "SURGE_BODY_NOV_2025": "매달 말에 프론트엔드 사용자에 대한 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 dYdX 트레이더에게 배포됩니다{REWARD_AMOUNT}.",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 수수료 리베이트",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT} 수수료 리베이트는 매달 말에 dYdX 트레이더에게 배포됩니다.",
       "SURGE_EST_AMOUNT_TOOLTIP": "리더보드 보상 + 거래 수수료 리베이트의 예상 합계",
       "SURGE_BODY": "매달 dYdX 트레이더에게 최대 3백만 달러의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
       "SURGE_HOW_IT_WORKS": "작동 원리",
@@ -2310,7 +2324,8 @@
       "SURGE_HOW_TO_EARN_2": "소매(25%) - dYdX 웹 및 모바일 인터페이스를 통해 이루어진 테이커 거래에 사용됩니다.",
       "SURGE_HOW_TO_EARN_3": "활성화(0%) - 새로운 기능, DYDX 스테이킹, 주요 시장의 유동성 및 이전 사용자의 재참여를 장려하기 위해 설계되었습니다.",
       "SURGE_LEADERBOARD_TITLE": "급상승 순위표",
-      "WEEK_COUNTDOWN": "주간 {WEEK}카운트다운"
+      "WEEK_COUNTDOWN": "주간 {WEEK}카운트다운",
+      "MONTH_COUNTDOWN": "월별  {MONTH}카운트다운"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "에폭 {EPOCH_NUMBER} 동안 {AMOUNT} $DYDX의 보상을 받았습니다! 거버넌스 대시보드에서 보상을 청구하세요.",
@@ -2444,11 +2459,14 @@
       "YOU_WILL_EARN": "을(를 획득하게 됩니다",
       "NO_AVAILABLE_ROUTES": "사용 가능한 경로 없음",
       "HIGH_PRICE_IMPACT": "높은 가격 충격",
-      "SWAP_SUCCESS": "스왑 성공",
       "SWAP_ERROR": "스왑 오류가 발생했습니다.",
+      "SWAP_FROM": "부터",
+      "SWAP_IN_PROGRESS_WARNING": "스왑이 진행 중입니다. 이 페이지를 떠나기 전에 완료될 때까지 기다려 주세요.",
       "SWAP_PENDING": "스왑 중",
       "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}으로 스왑하기 {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}을(를) {OUTPUT_LABEL}(으)로 스왑함"
+      "SWAP_SUCCESS": "스왑 성공",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}을(를) {OUTPUT_LABEL}(으)로 스왑함",
+      "SWAP_TO": "대상"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "모든 {ASSET} 입금",
@@ -2638,6 +2656,7 @@
     "COMPLIANCE": {
       "CLOSE_ONLY_MESSAGE_WITH_HELP": "귀하는 당사 이용 약관을 위반하는 관할권에 거주하거나, 해당 관할권에서 거래하거나, 당사 이용 약관을 위반하는 활동에 참여한 것으로 보이므로 차단되었으며 이 거래를 완료할 수 없습니다. 프론트엔드에 대한 액세스가 차단되기 전에 {DATE}까지 자금을 인출할 수 있습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
       "PERMANENTLY_BLOCKED_MESSAGE_WITH_HELP": "당사 이용 약관을 위반하는 관할권의 거주자 또는 거래하는 것으로 보이며, 이전에 계정에 대한 제한을 유발한 상황을 시정할 수 있는 기회를 받았기 때문에 영구적으로 차단되었습니다. 오류가 있다고 생각되면 {HELP_LINK}을(를) 통해 지원팀에 문의하세요.",
+      "PERPETUALS_UNAVAILABLE_MESSAGE": "Perp는 해당 국가 또는 지역에서 제공되지 않습니다. 현물 거래는 여전히 가능할 수 있습니다. 제재나 기타 법적 제한을 받는 지역을 포함하여 특정 구역이나 지역에서의 액세스는 {TERMS_OF_USE_LINK}[placeholder]에 따라 금지되어 있습니다.",
       "BLOCKED_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다.",
       "BLOCKED_BANNER_MESSAGE": "무기한은 차단된 국가 또는 제한 지역에 거주하거나, 위치하거나, 설립되었거나, 등록된 대행사가 있는 개인에는 제공되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}에서 확인할 수 있습니다. 오류로 의심될 경우, {HELP_LINK}에서 지원을 요청하세요.",
       "BLOCKED_BANNER_MESSAGE_SHORT": "제한된 지역에서 이 인터페이스에 액세스하고 있습니다. 제재 또는 기타 법적 제한의 대상이 되는 관할권을 포함하여 특정 관할권의 액세스는 허용되지 않습니다. 자세한 내용은 {TERMS_OF_USE_LINK}을(를) 참조하세요. 오류가 있다고 생각되면 지원팀에 문의하세요."
@@ -2673,7 +2692,7 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "이번 9월: 거래 수수료의 50%를 환급받으세요",
       "REBATE_BANNER_TITLE_SURGE": "dYdX 서지:",
-      "REBATE_BANNER_TITLE_FEES": "100만 달러 보상 풀 + 100% 수수료 리베이트 지금 시작",
+      "REBATE_BANNER_TITLE_FEES": "50% 거래 수수료 리베이트가 지금 진행 중입니다.",
       "REBATE_BANNER_SUBTITLE": "프론트엔드 전용",
       "REBATE_BANNER_CTA": "리베이트 받기"
     },
@@ -2690,6 +2709,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "수수료 없음",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11월에 SOL 및 BTC 시장에서",
       "NO_FEE_NOVEMBER_BANNER_CTA": "지금 비트코인 및 Solana를 거래하세요"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12월에 SOL 및 BTC 시장에서"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
+      "LIQUIDATION_REBATES_BANNER_CTA": "최대 손실자 순위"
     }
   },
   "TOKEN_MIGRATION": {
