@@ -881,6 +881,7 @@
       "EXCHANGE_METRICS": "Métriques",
       "EXCHANGE_STATUS": "Statut",
       "FEEDBACK": "Avis",
+      "FUNDING_COMPARISON": "Comparaison de financement",
       "GASLESS_DEPOSIT_RULES": "Dépôts sans gaz",
       "HELP": "Aide",
       "HELP_CENTER": "Centre d'aide",
@@ -1473,6 +1474,7 @@
       "UNLOCKED": "déverrouillé",
       "UNTIL_NEXT_EPOCH_ON_DATE": "jusqu'à l'époch suivant le {NEXT_EPOCH_DATE}",
       "WEEKLY_PRIZE": "Prix hebdomadaire",
+      "MONTHLY_PRIZE": "Prix mensuel",
       "VIEW_FEES": "Voir les frais",
       "VIEW_FEE_STRUCTURE": "Afficher la structure des frais",
       "VIEW_FILLS": "Afficher les transactions",
@@ -2292,6 +2294,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "Tableau de classement PNL",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} en récompenses hebdomadaires",
       "COMPETITION_BODY_NOV_2025": "Jusqu'à {REWARD_AMOUNT}en récompenses sont à gagner chaque semaine par les meilleurs traders sur dYdX. Les récompenses sont distribuées à la fin de chaque semaine.",
+      "COMPETITION_HEADLINE_DEC_2025": "Jusqu'à {REWARD_AMOUNT}en remboursements de liquidation",
+      "COMPETITION_BODY_DEC_2025": "Le programme pilote de remboursement de liquidation introduit une couche d'incitation gamifiée pour les traders qui sont liquidés sur dYdX. En décembre, les traders peuvent maintenant transformer les liquidations en récompenses, gagner des points et réclamer leur part allant jusqu'à {REWARD_AMOUNT}en remises dYdX !",
       "SURGE": "Montée",
       "SURGE_COUNTDOWN": "Compte à rebours S{SURGE_SEASON}",
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
@@ -2299,6 +2303,8 @@
       "SURGE_BODY_SEP_2025": "Jusqu'à {REWARD_AMOUNT} en récompenses et un remboursement de frais de {REBATE_PERCENT} sont distribués aux traders de dYdX à la fin de chaque mois.",
       "SURGE_HEADLINE_NOV_2025": "{REWARD_AMOUNT}en récompenses + {REBATE_PERCENT}remise de frais.",
       "SURGE_BODY_NOV_2025": "Jusqu'à {REWARD_AMOUNT}en récompenses pour les utilisateurs frontaux et un remboursement de {REBATE_PERCENT}frais sont distribués aux traders de dYdX à la fin de chaque mois.",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} Remboursement de frais",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT}Le remboursement de frais est distribué aux traders de dYdX à la fin de chaque mois.",
       "SURGE_EST_AMOUNT_TOOLTIP": "Somme estimée des récompenses du classement + remises pour les frais de trading",
       "SURGE_BODY": "Jusqu'à 3 millions de dollars de récompenses sont distribués chaque mois aux traders de dYdX. Faites votre choix, cliquez sur le tableau des leaders pour en savoir plus.",
       "SURGE_HOW_IT_WORKS": "Comment cela fonctionne ?",
@@ -2310,7 +2316,8 @@
       "SURGE_HOW_TO_EARN_2": "Vente au détail (25 %) - Pour les trades effectués par les takers via les interfaces web et mobiles de dYdX.",
       "SURGE_HOW_TO_EARN_3": "Activation (0 %) - Conçu pour encourager les nouvelles fonctionnalités, le staking de dYdX, la liquidité sur les marchés clés et le réengagement des anciens utilisateurs.",
       "SURGE_LEADERBOARD_TITLE": "Classement des meilleurs progressions",
-      "WEEK_COUNTDOWN": "Compte à rebours de la {WEEK}semaine"
+      "WEEK_COUNTDOWN": "Compte à rebours de la {WEEK}semaine",
+      "MONTH_COUNTDOWN": "Compte à rebours du {MONTH}mois"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "Vous avez gagné {AMOUNT} de récompenses $DYDX pendant l'Epoch {EPOCH_NUMBER} ! Réclamez vos récompenses sur le tableau de bord de gouvernance.",
@@ -2444,11 +2451,14 @@
       "YOU_WILL_EARN": "Vous gagnerez",
       "NO_AVAILABLE_ROUTES": "Aucun itinéraire disponible",
       "HIGH_PRICE_IMPACT": "Impact du prix élevé",
-      "SWAP_SUCCESS": "Swap réussi",
       "SWAP_ERROR": "Une erreur est survenue avec votre swap",
+      "SWAP_FROM": "À partir de",
+      "SWAP_IN_PROGRESS_WARNING": "Votre échange est en cours. Veuillez patienter jusqu'à ce qu'il soit terminé avant de quitter cette page.",
       "SWAP_PENDING": "Échange",
       "SWAP_PENDING_DESCRIPTION": "Échanger {INPUT_LABEL} vers {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "Échangé {INPUT_LABEL} en {OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "Swap réussi",
+      "SWAP_SUCCESS_DESCRIPTION": "Échangé {INPUT_LABEL} en {OUTPUT_LABEL}",
+      "SWAP_TO": "À"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "Déposer tout le {ASSET}",
@@ -2690,6 +2700,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "Pas de frais",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "Novembre sur les marchés SOL et BTC",
       "NO_FEE_NOVEMBER_BANNER_CTA": "Trader Bitcoin et Solana maintenant"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "Décembre sur les marchés SOL et BTC"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "Jusqu'à 1 million de dollars de remboursements de liquidation",
+      "LIQUIDATION_REBATES_BANNER_CTA": "Classements Biggest Loser"
     }
   },
   "TOKEN_MIGRATION": {
