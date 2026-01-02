@@ -2299,7 +2299,11 @@
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 주간 보상으로",
       "COMPETITION_BODY_NOV_2025": "매주 dYdX에서 최고의 트레이더에게 최대 {REWARD_AMOUNT} 의 보상이 제공됩니다. 보상은 매주 말에 배포됩니다.",
       "COMPETITION_HEADLINE_DEC_2025": "최대 손실 리베이트{REWARD_AMOUNT}",
-      "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올해 12월, 적격 거래자들은 청산을 dYdX 리베이트를 받을 수 있는 기회로 바꿀 수 있습니다.",
+      "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올 12월, 자격 있는 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
+      "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "최대 손실 리베이트 {REWARD_AMOUNT}- 지금 자격 있는 손실 리베이트를 받으세요",
+      "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK}은(는) dYdX에서 손실을 입은 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 거래 손실을 DYDX 리베이트를 받을 수 있는 기회로 전환할 수 있습니다.",
+      "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
+      "COMPETITION_BODY_2_DEC_2025": "12월 상반기에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 클레임할 수 있습니다. 12월 하반기에 대한 자세한 내용을 지켜보세요. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "SURGE": "서지",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 카운트다운",
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
@@ -2688,7 +2692,7 @@
     "REBATE_BANNER": {
       "REBATE_BANNER_TITLE": "이번 9월: 거래 수수료의 50%를 환급받으세요",
       "REBATE_BANNER_TITLE_SURGE": "dYdX 서지:",
-      "REBATE_BANNER_TITLE_FEES": "50% 거래 수수료 환급 지금 진행 중",
+      "REBATE_BANNER_TITLE_FEES": "50% 거래 수수료 환급 진행 중",
       "REBATE_BANNER_SUBTITLE": "프론트엔드 전용",
       "REBATE_BANNER_CTA": "리베이트 받기"
     },
