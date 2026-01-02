@@ -88,6 +88,10 @@
       "TITLE": "PUMP交易者可获得$10K奖励",
       "BODY": "已在dYdX上线，最高可达5倍杠杆。限时奖励。"
     },
+    "DEC_2025_REBATE_NOTIFICATION": {
+      "TITLE": "立即申领您的损失回扣！",
+      "BODY": "您可能有资格获得{AMOUNT}回扣。 从即日起至 1 月 31 日申领您的回扣。"
+    },
     "DEPOSIT_DETECTED": {
       "TITLE": "检测到充值",
       "BODY": "您的充值将在约30秒后到达。"
