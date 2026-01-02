@@ -881,7 +881,8 @@
       "EXCHANGE_METRICS": "メトリックス",
       "EXCHANGE_STATUS": "ステータス",
       "FEEDBACK": "フィードバック",
-      "GASLESS_DEPOSIT_RULES": "ガスレス入金",
+      "FUNDING_COMPARISON": "ファンディングの比較",
+      "GASLESS_DEPOSIT_RULES": "ガスレス預金",
       "HELP": "ヘルプ",
       "HELP_CENTER": "ヘルプセンター",
       "HELP_CHAT": "ヘルプチャット",
@@ -1473,6 +1474,7 @@
       "UNLOCKED": "ロック解除済み",
       "UNTIL_NEXT_EPOCH_ON_DATE": "次のエポック日{NEXT_EPOCH_DATE}まで",
       "WEEKLY_PRIZE": "毎週の賞金",
+      "MONTHLY_PRIZE": "月間賞金",
       "VIEW_FEES": "手数料の表示",
       "VIEW_FEE_STRUCTURE": "手数料体系の表示",
       "VIEW_FILLS": "執行を表示",
@@ -2292,6 +2294,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "実現損益（PNL）リーダーボード",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 毎週の報酬で",
       "COMPETITION_BODY_NOV_2025": "毎週、dYdXにおける最も優れたトレーダーに最高の報酬が与えられます。{REWARD_AMOUNT}報酬は毎週末に分配されます。",
+      "COMPETITION_HEADLINE_DEC_2025": "最大{REWARD_AMOUNT}での清算リベート",
+      "COMPETITION_BODY_DEC_2025": "清算リベートパイロットプログラムは、dYdXで清算されるトレーダーにゲーミフィケーションインセンティブレイヤーを導入します。 今年12月、トレーダーは清算報酬を返却したり、ポイントを獲得したり、最大dYdXリベートを請求できるようになりました{REWARD_AMOUNT}。",
       "SURGE": "サージ",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON}カウントダウン",
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
@@ -2299,6 +2303,8 @@
       "SURGE_BODY_SEP_2025": "最大{REWARD_AMOUNT}での報酬および{REBATE_PERCENT}手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
       "SURGE_HEADLINE_NOV_2025": " 報酬{REWARD_AMOUNT} + {REBATE_PERCENT}手数料リベート",
       "SURGE_BODY_NOV_2025": "フロントエンドユーザー向けに最大で{REWARD_AMOUNT}の報酬および{REBATE_PERCENT}手数料リベートが、毎月末にdYdXトレーダーに配布されます。",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 手数料リベート",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT} 手数料リベートは、毎月末にdYdXトレーダーに配布されます。",
       "SURGE_EST_AMOUNT_TOOLTIP": "リーダーボード報酬 + 取引手数料リベートの推定合計",
       "SURGE_BODY": "最大300万ドルの報酬が毎月dYdXトレーダーに分配されます。 リーダーボードをクリックして詳しくはこちら。",
       "SURGE_HOW_IT_WORKS": "使い方",
@@ -2310,7 +2316,8 @@
       "SURGE_HOW_TO_EARN_2": "小売業２５％- dYdXのウェブおよびモバイルインターフェイスを介して行われるテイカー取引です。",
       "SURGE_HOW_TO_EARN_3": "アクティベーション（0％）- 新機能、DYDXステーキング、主要マーケットにおける流動性、および過去のユーザーの再エンゲージメントをインセンティブにするように設計されています。",
       "SURGE_LEADERBOARD_TITLE": "Surgeリーダーボード",
-      "WEEK_COUNTDOWN": "週カウントダ{WEEK}ウン"
+      "WEEK_COUNTDOWN": "週カウントダ{WEEK}ウン",
+      "MONTH_COUNTDOWN": "月のカウントダ{MONTH}ウン"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "エポック{EPOCH_NUMBER}中に{AMOUNT}$DYDX報酬を獲得しました！ガバナンスダッシュボードで報酬を請求する。",
@@ -2444,11 +2451,14 @@
       "YOU_WILL_EARN": "獲得予定",
       "NO_AVAILABLE_ROUTES": "利用可能なルートはありません",
       "HIGH_PRICE_IMPACT": "高い価格インパクト",
-      "SWAP_SUCCESS": "スワップが成功しました",
       "SWAP_ERROR": "スワップにエラーが発生しました",
+      "SWAP_FROM": "から",
+      "SWAP_IN_PROGRESS_WARNING": "スワップが進行中です。 このページを離れる前に、処理が完了するまでお待ちください。",
       "SWAP_PENDING": "スワップ",
       "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}にスワップする {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}にスワップされました {OUTPUT_LABEL}"
+      "SWAP_SUCCESS": "スワップが成功しました",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}にスワップされました {OUTPUT_LABEL}",
+      "SWAP_TO": "へ"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "すべての{ASSET}を入金",
@@ -2690,6 +2700,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "手数料なし",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11月のSOLおよびBTC「マーケット」",
       "NO_FEE_NOVEMBER_BANNER_CTA": "ビットコインおよびSolanaを今すぐ取引"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12月のSOLおよびBTC「マーケット」"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
+      "LIQUIDATION_REBATES_BANNER_CTA": "最大の敗者ランキング"
     }
   },
   "TOKEN_MIGRATION": {

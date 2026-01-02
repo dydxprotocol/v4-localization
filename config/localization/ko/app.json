@@ -881,6 +881,7 @@
       "EXCHANGE_METRICS": "지표",
       "EXCHANGE_STATUS": "상태",
       "FEEDBACK": "피드백",
+      "FUNDING_COMPARISON": "펀딩 비교",
       "GASLESS_DEPOSIT_RULES": "가스 수수료 면제 입금",
       "HELP": "도움말",
       "HELP_CENTER": "고객 지원 센터",
@@ -1473,6 +1474,7 @@
       "UNLOCKED": "잠금 해제됨",
       "UNTIL_NEXT_EPOCH_ON_DATE": "{NEXT_EPOCH_DATE}에 대해 다음 에폭까지 남은 시간:",
       "WEEKLY_PRIZE": "주간 상금",
+      "MONTHLY_PRIZE": "월간 상금",
       "VIEW_FEES": "수수료 보기",
       "VIEW_FEE_STRUCTURE": "수수료 구조 보기",
       "VIEW_FILLS": "체결 내역 보기",
@@ -2292,6 +2294,8 @@
       "COMPETITION_LEADERBOARD_TITLE": "PNL 리더보드",
       "COMPETITION_HEADLINE_NOV_2025": "{REWARD_AMOUNT} 주간 보상으로",
       "COMPETITION_BODY_NOV_2025": "매주 dYdX에서 최고의 트레이더에게 최대 {REWARD_AMOUNT} 의 보상이 제공됩니다. 보상은 매주 말에 배포됩니다.",
+      "COMPETITION_HEADLINE_DEC_2025": "최대 {REWARD_AMOUNT}의 청산 리베이트",
+      "COMPETITION_BODY_DEC_2025": "청산 리베이트 파일럿 프로그램은 dYdX에서 청산된 트레이더를 위해 게임화된 인센티브 레이어를 도입합니다. 올 12월, 트레이더는 이제 청산을 보상으로 전환하고 포인트를 획득하여, 최대 {REWARD_AMOUNT}에 달하는 DYDX 리베이트 혜택을 받으실 수 있습니다!",
       "SURGE": "서지",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 카운트다운",
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
@@ -2299,6 +2303,8 @@
       "SURGE_BODY_SEP_2025": "매달 말에 dYdX 트레이더에게 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 배포됩니다{REWARD_AMOUNT}.",
       "SURGE_HEADLINE_NOV_2025": "{REBATE_PERCENT} 보상 + {REWARD_AMOUNT} 수수료 리베이트",
       "SURGE_BODY_NOV_2025": "매달 말에 프론트엔드 사용자에 대한 최대 {REBATE_PERCENT}의 보상과 수수료 리베이트가 dYdX 트레이더에게 배포됩니다{REWARD_AMOUNT}.",
+      "SURGE_HEADLING_DEC_2025": "{REBATE_PERCENT} 수수료 리베이트",
+      "SURGE_BODY_DEC_2025": "{REBATE_PERCENT} 수수료 리베이트는 매달 말에 dYdX 트레이더에게 배포됩니다.",
       "SURGE_EST_AMOUNT_TOOLTIP": "리더보드 보상 + 거래 수수료 리베이트의 예상 합계",
       "SURGE_BODY": "매달 dYdX 트레이더에게 최대 3백만 달러의 보상이 지급됩니다. 순위표를 클릭하여 자세히 알아보세요. ",
       "SURGE_HOW_IT_WORKS": "작동 원리",
@@ -2310,7 +2316,8 @@
       "SURGE_HOW_TO_EARN_2": "소매(25%) - dYdX 웹 및 모바일 인터페이스를 통해 이루어진 테이커 거래에 사용됩니다.",
       "SURGE_HOW_TO_EARN_3": "활성화(0%) - 새로운 기능, DYDX 스테이킹, 주요 시장의 유동성 및 이전 사용자의 재참여를 장려하기 위해 설계되었습니다.",
       "SURGE_LEADERBOARD_TITLE": "급상승 순위표",
-      "WEEK_COUNTDOWN": "주간 {WEEK}카운트다운"
+      "WEEK_COUNTDOWN": "주간 {WEEK}카운트다운",
+      "MONTH_COUNTDOWN": "월별  {MONTH}카운트다운"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "에폭 {EPOCH_NUMBER} 동안 {AMOUNT} $DYDX의 보상을 받았습니다! 거버넌스 대시보드에서 보상을 청구하세요.",
@@ -2444,11 +2451,14 @@
       "YOU_WILL_EARN": "을(를 획득하게 됩니다",
       "NO_AVAILABLE_ROUTES": "사용 가능한 경로 없음",
       "HIGH_PRICE_IMPACT": "높은 가격 충격",
-      "SWAP_SUCCESS": "스왑 성공",
       "SWAP_ERROR": "스왑 오류가 발생했습니다.",
+      "SWAP_FROM": "부터",
+      "SWAP_IN_PROGRESS_WARNING": "스왑이 진행 중입니다. 이 페이지를 떠나기 전에 완료될 때까지 기다려 주세요.",
       "SWAP_PENDING": "스왑 중",
       "SWAP_PENDING_DESCRIPTION": "{INPUT_LABEL}으로 스왑하기 {OUTPUT_LABEL}",
-      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}을(를) {OUTPUT_LABEL}(으)로 스왑함"
+      "SWAP_SUCCESS": "스왑 성공",
+      "SWAP_SUCCESS_DESCRIPTION": "{INPUT_LABEL}을(를) {OUTPUT_LABEL}(으)로 스왑함",
+      "SWAP_TO": "대상"
     },
     "DEPOSIT_OPTIONS": {
       "DEPOSIT_ALL_ASSET_CTA": "모든 {ASSET} 입금",
@@ -2690,6 +2700,13 @@
       "NO_FEE_NOVEMBER_BANNER_TITLE_ACCENT": "수수료 없음",
       "NO_FEE_NOVEMBER_BANNER_TITLE": "11월에 SOL 및 BTC 시장에서",
       "NO_FEE_NOVEMBER_BANNER_CTA": "지금 비트코인 및 Solana를 거래하세요"
+    },
+    "NO_FEE_DECEMBER_BANNER": {
+      "NO_FEE_DECEMBER_BANNER_TITLE": "12월에 SOL 및 BTC 시장에서"
+    },
+    "LIQUIDATION_REBATES_BANNER": {
+      "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
+      "LIQUIDATION_REBATES_BANNER_CTA": "최대 손실자 순위"
     }
   },
   "TOKEN_MIGRATION": {
