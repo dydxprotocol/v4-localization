@@ -2092,6 +2092,8 @@
       },
       "TRADE_UDPATES": "Trade Updates",
       "TRADING_REWARD_RECEIVED": "Trading Reward Received",
+      "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "Claim your Trading League Rewards",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Check your eligibility and claim your Trading League reward of ${REWARD_AMOUNT} (paid out in DYDX)! Claims must be submitted by {CLAIM_DEADLINE}. Learn more about the Trading League {LEARN_MORE_LINK}.",
       "UPDATED": "Updated",
       "UPDATING": "Updating"
     },
