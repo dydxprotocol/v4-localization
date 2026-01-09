@@ -429,6 +429,7 @@
       "VIEW_ALL": "모두 보기 →",
       "VIEWS": "뷰",
       "VOLUME_30D": "양(30일)",
+      "VOTED": "투표 완료",
       "VOTING_LIVE": "투표 라이브",
       "VOTING_POWER": "투표 권한",
       "WALLET_BALANCE": "지갑 잔액",
@@ -1965,6 +1966,7 @@
       "MEGAVAULT_DEPOSIT_FAILED_BODY": "자금 추가 중 오류가 발생했습니다.",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL": "MegaVault에 성공적으로 추가된 자금",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "MegaVault에 {AMOUNT}추가했습니다.",
+      "MEGAVAULT_DISCLOSURE_TEXT": "MegaVault에 예치된 USDC의 일부 또는 전부를 잃을 위험이 있습니다. dYdX 커뮤니티가 {VOTED_LINK}을(를) 통해 MegaVault의 운영자를 제거하고 MegaVault를 기존 포지션만 청산하도록 제한합니다.",
       "MEGAVAULT_FAQS": "MegaVault 자주 묻는 질문",
       "MEGAVAULT_TERMS_LINK_TEXT": "MegaVault 약관",
       "MEGAVAULT_TERMS_TEXT": "'{CONFIRM_BUTTON_TEXT}'을(를) 클릭하면 {LINK}에 동의하는 것입니다.",
@@ -2712,6 +2714,9 @@
     },
     "NO_FEE_DECEMBER_BANNER": {
       "NO_FEE_DECEMBER_BANNER_TITLE": "12월에 SOL 및 BTC 시장에서"
+    },
+    "NO_FEE_JANUARY_BANNER": {
+      "NO_FEE_JANUARY_BANNER_TITLE": "1월에 SOL 및 BTC 시장에서."
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
