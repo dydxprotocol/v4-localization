@@ -429,6 +429,7 @@
       "VIEW_ALL": "すべて表示 →",
       "VIEWS": "閲覧数",
       "VOLUME_30D": "出来高（30USD）",
+      "VOTED": "投票済み",
       "VOTING_LIVE": "ライブ投票",
       "VOTING_POWER": "投票権",
       "WALLET_BALANCE": "ウォレット残高",
@@ -1965,6 +1966,7 @@
       "MEGAVAULT_DEPOSIT_FAILED_BODY": "資金の追加にエラーが発生しました。",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL": "MegaVaultに資金が追加されました",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "あなたはMegaVaultで{AMOUNT}追加しました。",
+      "MEGAVAULT_DISCLOSURE_TEXT": "MegaVaultに入金されたUSDCの一部または全部を失うリスクがあります。 dYdXコミュニティは、MegaVaultのオペレーターを排除し、MegaVaultを既存のポジションのクローズのみに制限することを決定しました。",
       "MEGAVAULT_FAQS": "MegaVaultに関するよくある質問",
       "MEGAVAULT_TERMS_LINK_TEXT": "MegaVault利用規約",
       "MEGAVAULT_TERMS_TEXT": "「{CONFIRM_BUTTON_TEXT}」をクリックすることにより、以下の内容に同意するものとします{LINK}。",
@@ -2712,6 +2714,9 @@
     },
     "NO_FEE_DECEMBER_BANNER": {
       "NO_FEE_DECEMBER_BANNER_TITLE": "12月のSOLおよびBTC「マーケット」"
+    },
+    "NO_FEE_JANUARY_BANNER": {
+      "NO_FEE_JANUARY_BANNER_TITLE": "1月：SOLおよびBTCマーケット"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
