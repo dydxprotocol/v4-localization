@@ -429,6 +429,7 @@
       "VIEW_ALL": "Tout afficher →",
       "VIEWS": "Vues",
       "VOLUME_30D": "Volume (30 j)",
+      "VOTED": "voté",
       "VOTING_LIVE": "Vote en direct",
       "VOTING_POWER": "Droit de vote",
       "WALLET_BALANCE": "Solde du portefeuille",
@@ -1965,6 +1966,7 @@
       "MEGAVAULT_DEPOSIT_FAILED_BODY": "Une erreur est survenue lors de l'ajout de fonds.",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL": "Fonds ajoutés avec succès à MegaVault",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "Vous avez ajouté {AMOUNT} dans le MegaVault.",
+      "MEGAVAULT_DISCLOSURE_TEXT": "Il existe un risque de perdre une partie ou la totalité des USDC déposés dans MegaVault. La communauté dYdX {VOTED_LINK}a décidé de supprimer l'opérateur de MegaVault et de limiter MegaVault à la clôture des positions existantes uniquement.",
       "MEGAVAULT_FAQS": "FAQ sur MegaVault",
       "MEGAVAULT_TERMS_LINK_TEXT": "Conditions d'utilisation du MegaVault",
       "MEGAVAULT_TERMS_TEXT": "En cliquant sur « {CONFIRM_BUTTON_TEXT} », vous acceptez le {LINK}.",
@@ -2303,7 +2305,7 @@
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte - Réclamer les remboursements de perte éligibles aujourd'hui",
       "COMPETITION_BODY_1_DEC_2025": "Le {PROGRAM_LINK} introduit une couche d'incitation gamifiée pour les traders qui subissent des pertes sur dYdX. Les traders éligibles peuvent transformer les pertes de trading en une opportunité de gagner des remises dYdX.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Programme pilote de remboursement de pertes",
-      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour la première moitié de décembre sont disponibles à réclamer jusqu'au 31 janvier. Restez à l'écoute pour la deuxième quinzaine de décembre. Vérifiez l'éligibilité.",
+      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour la première moitié de décembre sont disponibles pour faire une réclamation jusqu'au 31 janvier. Restez à l'écoute pour la deuxième quinzaine de décembre. Vérifier l'éligibilité {HERE_LINK}.",
       "SURGE": "Montée",
       "SURGE_COUNTDOWN": "Compte à rebours S{SURGE_SEASON}",
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
@@ -2712,6 +2714,9 @@
     },
     "NO_FEE_DECEMBER_BANNER": {
       "NO_FEE_DECEMBER_BANNER_TITLE": "Décembre sur les marchés SOL et BTC"
+    },
+    "NO_FEE_JANUARY_BANNER": {
+      "NO_FEE_JANUARY_BANNER_TITLE": "Janvier sur les marchés SOL et BTC"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Jusqu'à 1 million de dollars de remboursements de liquidation",
