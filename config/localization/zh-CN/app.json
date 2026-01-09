@@ -428,7 +428,8 @@
       "VIEW": "查看",
       "VIEW_ALL": "查看所有 →",
       "VIEWS": "视图",
-      "VOLUME_30D": "交易量（30 天）",
+      "VOLUME_30D": "交易量（30天）",
+      "VOTED": "已投票",
       "VOTING_LIVE": "实时投票",
       "VOTING_POWER": "投票权",
       "WALLET_BALANCE": "钱包余额",
@@ -1965,6 +1966,7 @@
       "MEGAVAULT_DEPOSIT_FAILED_BODY": "添加资金出错。",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL": "资金已成功添加到MegaVault",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "您在MegaVault中添加了{AMOUNT}。",
+      "MEGAVAULT_DISCLOSURE_TEXT": "存在丢失部分或全部存入 MegaVault 的 USDC 的风险。 dYdX 社区 {VOTED_LINK} 移除 MegaVault 操作员，并对 MegaVault 实施限制，仅允许关闭现有头寸。",
       "MEGAVAULT_FAQS": "MegaVault 常见问题",
       "MEGAVAULT_TERMS_LINK_TEXT": "MegaVault 条款",
       "MEGAVAULT_TERMS_TEXT": "单击“{CONFIRM_BUTTON_TEXT}”，即表示您同意。{LINK}",
@@ -2712,6 +2714,9 @@
     },
     "NO_FEE_DECEMBER_BANNER": {
       "NO_FEE_DECEMBER_BANNER_TITLE": "12 月的 SOL 和 BTC 市场"
+    },
+    "NO_FEE_JANUARY_BANNER": {
+      "NO_FEE_JANUARY_BANNER_TITLE": "1月的 SOL 和 BTC 市场"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
