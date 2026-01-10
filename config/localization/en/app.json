@@ -2723,6 +2723,13 @@
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Up to $1M in Liquidation Rebates",
       "LIQUIDATION_REBATES_BANNER_CTA": "Biggest Loser Rankings"
+    },
+    "QR_CODE_ONBOARDING": {
+      "LINK_DESKTOP_WALLET": "Link Desktop Wallet",
+      "SCAN_QR_CODE": "Scan QR Code",
+      "SCAN_QR_CODE_DIRECTIONS": "To login and sync accounts from your desktop, click the {ICON} icon in the top right corner of the desktop app and scan the QR code",
+      "VERIFY_ENCRYPTION_KEY": "Verify Encryption Key",
+      "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "Enter the encryption key shown above the QR code."
     }
   },
   "TOKEN_MIGRATION": {
@@ -3031,6 +3038,9 @@
     "TURNKEY_ONBOARDING": {
       "INVALID_TURNKEY_EMAIL_LINK": "Your email link has expired or you are using a different device/browser than the one used to sign in. Please try again.",
       "USER_ALREADY_HAS_TURNKEY": "This email is already associated with a dYdX account. Proceed by signing in using the email input field."
+    },
+    "QR_CODE_ONBOARDING": {
+      "QR_SCAN_ERROR": "Error scanning QR code"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Your account is out of sync. Please reconnect your wallet and try again.",
