@@ -902,6 +902,8 @@
       "TESTNET": "Testnet"
     },
     "WALLETS": {
+      "BACKPACK": "Backpack",
+      "BACKPACK_SOL": "Backpack (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover Wallet",
