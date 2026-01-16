@@ -2092,6 +2092,8 @@
       },
       "TRADE_UDPATES": "交易更新",
       "TRADING_REWARD_RECEIVED": "已收到的交易奖励",
+      "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "申领您的交易联盟奖励",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "检查您的资格并申领 ${REWARD_AMOUNT} 的交易联盟奖励（以 DYDX 支付）！ 申领必须由 {CLAIM_DEADLINE} 提交。 了解有关交易联盟{LEARN_MORE_LINK}的更多信息。",
       "UPDATED": "已更新",
       "UPDATING": "更新"
     },
@@ -2721,6 +2723,13 @@
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
       "LIQUIDATION_REBATES_BANNER_CTA": "最大输家排名"
+    },
+    "QR_CODE_ONBOARDING": {
+      "LINK_DESKTOP_WALLET": "链接桌面钱包",
+      "SCAN_QR_CODE": "扫描二维码",
+      "SCAN_QR_CODE_DIRECTIONS": "要从桌面登录并同步账户，请单击桌面应用程序右上角的{ICON}图标，然后扫描二维码",
+      "VERIFY_ENCRYPTION_KEY": "验证加密密钥",
+      "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "输入二维码上方显示的加密密钥。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -3029,6 +3038,9 @@
     "TURNKEY_ONBOARDING": {
       "INVALID_TURNKEY_EMAIL_LINK": "您的电子邮件链接已过期，或者您使用的设备\/浏览器与登录时使用的设备\/浏览器不同。 请重试。",
       "USER_ALREADY_HAS_TURNKEY": "该电子邮件已与 dYdX 账户关联。 使用电子邮件输入字段登录以继续。"
+    },
+    "QR_CODE_ONBOARDING": {
+      "QR_SCAN_ERROR": "扫描二维码时出错"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "您的账户不同步。请重新连接您的钱包，然后再试。",
