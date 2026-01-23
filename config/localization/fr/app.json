@@ -902,6 +902,8 @@
       "TESTNET": "Testnet"
     },
     "WALLETS": {
+      "BACKPACK": "Sac à dos",
+      "BACKPACK_SOL": "Sac à dos (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover Wallet",
@@ -2092,6 +2094,10 @@
       },
       "TRADE_UDPATES": "Mises à jour du trade",
       "TRADING_REWARD_RECEIVED": "Prime de trading reçue",
+      "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "Réclamez vos récompenses de la ligue de trading",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Vérifiez votre éligibilité et réclamez votre récompense de la ligue de trading de ${REWARD_AMOUNT} (payée en dYdX) ! Les réclamations doivent être soumises par {CLAIM_DEADLINE}. En savoir plus sur la ligue de trading {LEARN_MORE_LINK}.",
+      "TRADING_LOSS_REBATE_CLAIM_TITLE": "Réclamez votre remboursement de perte",
+      "TRADING_LOSS_REBATE_CLAIM_BODY": "Réclamez votre remboursement de {MONTH}perte {REBATE_AMOUNT}par {CLAIM_DEADLINE}. Vérifier l'éligibilité {HERE_LINK}.",
       "UPDATED": "Mis à jour",
       "UPDATING": "Mise à jour"
     },
@@ -2303,9 +2309,9 @@
       "COMPETITION_HEADLINE_DEC_2025": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte",
       "COMPETITION_BODY_DEC_2025": "Le programme pilote de remboursement de pertes introduit une couche d'incitation gamifiée pour les traders qui sont liquidés sur dYdX. En décembre, les traders éligibles peuvent transformer les liquidations en une opportunité de gagner des remises DYDX.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte - Réclamer les remboursements de perte éligibles aujourd'hui",
-      "COMPETITION_BODY_1_DEC_2025": "Le {PROGRAM_LINK} introduit une couche d'incitation gamifiée pour les traders qui subissent des pertes sur dYdX. Les traders éligibles peuvent transformer les pertes de trading en une opportunité de gagner des remises dYdX.",
+      "COMPETITION_BODY_1_DEC_2025": "Le {PROGRAM_LINK} introduit une couche d'incitation gamifiée pour les traders qui sont liquidés sur dYdX. Les traders éligibles peuvent transformer les liquidations en une opportunité de gagner des remises dYdX.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Programme pilote de remboursement de pertes",
-      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour la première moitié de décembre sont disponibles pour faire une réclamation jusqu'au 31 janvier. Restez à l'écoute pour la deuxième quinzaine de décembre. Vérifier l'éligibilité {HERE_LINK}.",
+      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour décembre sont disponibles à réclamer jusqu'au 31 janvier. Vérifier l'éligibilité {HERE_LINK}.",
       "SURGE": "Montée",
       "SURGE_COUNTDOWN": "Compte à rebours S{SURGE_SEASON}",
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
@@ -2721,6 +2727,13 @@
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Jusqu'à 1 million de dollars de remboursements de liquidation",
       "LIQUIDATION_REBATES_BANNER_CTA": "Classements Biggest Loser"
+    },
+    "QR_CODE_ONBOARDING": {
+      "LINK_DESKTOP_WALLET": "Lier le portefeuille de bureau",
+      "SCAN_QR_CODE": "Scanner le code QR",
+      "SCAN_QR_CODE_DIRECTIONS": "Pour vous connecter et synchroniser les comptes à partir de votre ordinateur de bureau, cliquez sur {ICON}l'icône dans le coin supérieur droit de l'application de bureau et scannez le code QR.",
+      "VERIFY_ENCRYPTION_KEY": "Vérifier la clé de cryptage",
+      "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "Entrez la clé de cryptage affichée au-dessus du code QR."
     }
   },
   "TOKEN_MIGRATION": {
@@ -3029,6 +3042,9 @@
     "TURNKEY_ONBOARDING": {
       "INVALID_TURNKEY_EMAIL_LINK": "Votre lien e-mail a expiré ou vous utilisez un appareil\/navigateur différent de celui utilisé pour vous connecter. Veuillez réessayer.",
       "USER_ALREADY_HAS_TURNKEY": "Cet e-mail est déjà associé à un compte dYdX. Connectez-vous en utilisant le champ de saisie de l'e-mail."
+    },
+    "QR_CODE_ONBOARDING": {
+      "QR_SCAN_ERROR": "Erreur de balayage du code QR"
     },
     "DEPOSIT_MODAL": {
       "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Votre compte n'est pas synchronisé. Veuillez reconnecter votre portefeuille et réessayer.",
