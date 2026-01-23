@@ -899,9 +899,11 @@
       "OPEN_IN_ETHERSCAN": "Etherscanでオープン",
       "RELEVANT_LINKS": "関連リンク",
       "TERMS_OF_USE": "利用規約",
-      "TESTNET": "Testnet"
+      "TESTNET": "テストネット"
     },
     "WALLETS": {
+      "BACKPACK": "バックパック",
+      "BACKPACK_SOL": "バックパック（Solana）",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Cloverウォレット",
@@ -1966,7 +1968,7 @@
       "MEGAVAULT_DEPOSIT_FAILED_BODY": "資金の追加にエラーが発生しました。",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL": "MegaVaultに資金が追加されました",
       "MEGAVAULT_DEPOSIT_SUCCESSFUL_BODY": "あなたはMegaVaultで{AMOUNT}追加しました。",
-      "MEGAVAULT_DISCLOSURE_TEXT": "MegaVaultに入金されたUSDCの一部または全部を失うリスクがあります。 dYdXコミュニティは、MegaVaultのオペレーターを排除し、MegaVaultを既存のポジションのクローズのみに制限することを決定しました。",
+      "MEGAVAULT_DISCLOSURE_TEXT": "MegaVaultに入金されたUSDCの一部または全部を失うリスクがあります。 dYdXコミュニティ{VOTED_LINK}はMegaVaultのオペレーターを排除し、MegaVaultを既存のポジションをクローズすることのみに制限します。 ",
       "MEGAVAULT_FAQS": "MegaVaultに関するよくある質問",
       "MEGAVAULT_TERMS_LINK_TEXT": "MegaVault利用規約",
       "MEGAVAULT_TERMS_TEXT": "「{CONFIRM_BUTTON_TEXT}」をクリックすることにより、以下の内容に同意するものとします{LINK}。",
@@ -2092,6 +2094,10 @@
       },
       "TRADE_UDPATES": "取引アップデート",
       "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました",
+      "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "取引リーグ報酬を請求",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "対象を確認し、取引リーグ報酬${REWARD_AMOUNT}（DYDXで支払われています）を請求しましょう。請求は、{CLAIM_DEADLINE}までに提出する必要があります。 取引リーグの詳細をご覧ください{LEARN_MORE_LINK}。",
+      "TRADING_LOSS_REBATE_CLAIM_TITLE": "損失リベートの請求",
+      "TRADING_LOSS_REBATE_CLAIM_BODY": "{MONTH}分の損失リベート{REBATE_AMOUNT}を、{CLAIM_DEADLINE}までに請求してください。対象{HERE_LINK}を確認します。",
       "UPDATED": "アップデート済み",
       "UPDATING": "アップデート中"
     },
@@ -2303,9 +2309,9 @@
       "COMPETITION_HEADLINE_DEC_2025": "{REWARD_AMOUNT}最大損失リベート",
       "COMPETITION_BODY_DEC_2025": "損失リベートパイロットプログラムは、dYdXで清算されているトレーダー向けにゲーミフィケーションされたインセンティブレイヤーを導入しています。 この 12 月、対象となるトレーダーは清算を dYdX リベートを得る機会に変えることができます。",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "最大{REWARD_AMOUNT}損失リベート - 対象となる損失リベートを今すぐ請求",
-      "COMPETITION_BODY_1_DEC_2025": "dYdXで損失を被ったトレーダー向けに、ゲーミフィケーションされたインセンティブレイヤーを導入しています。{PROGRAM_LINK} 対象トレーダーは、取引損失をdYdXリベート獲得の機会に変えることができます。",
+      "COMPETITION_BODY_1_DEC_2025": "dYdX{PROGRAM_LINK}で清算されているトレーダー向けにゲーミフィケーションされたインセンティブレイヤーを導入しています。 対象トレーダーは清算をdydxリベート獲得の機会に変えることができます。",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "損失リベートパイロットプログラム",
-      "COMPETITION_BODY_2_DEC_2025": "12月上半期の対象損失リベートは、1月31日まで請求できます。 12月下半期にご期待ください。対象{HERE_LINK}を確認します。",
+      "COMPETITION_BODY_2_DEC_2025": "12月の対象損失リベートは1月31日まで請求できます。 対象{HERE_LINK}を確認します。",
       "SURGE": "サージ",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON}カウントダウン",
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
@@ -2716,11 +2722,18 @@
       "NO_FEE_DECEMBER_BANNER_TITLE": "12月のSOLおよびBTC「マーケット」"
     },
     "NO_FEE_JANUARY_BANNER": {
-      "NO_FEE_JANUARY_BANNER_TITLE": "1月：SOLおよびBTCマーケット"
+      "NO_FEE_JANUARY_BANNER_TITLE": "1月のSOLおよびBTC「マーケット」"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
       "LIQUIDATION_REBATES_BANNER_CTA": "最大の敗者ランキング"
+    },
+    "QR_CODE_ONBOARDING": {
+      "LINK_DESKTOP_WALLET": "Linkデスクトップウォレット",
+      "SCAN_QR_CODE": "QRコードをスキャンする",
+      "SCAN_QR_CODE_DIRECTIONS": "デスクトップからログインおよび口座の同期をするには、デスクトップアプリの右上隅にある{ICON}アイコンをクリックし、QRコードをスキャンします。",
+      "VERIFY_ENCRYPTION_KEY": "暗号化キーを確認",
+      "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "QRコードの上に表示される暗号化キーを入力します。"
     }
   },
   "TOKEN_MIGRATION": {
@@ -3030,8 +3043,11 @@
       "INVALID_TURNKEY_EMAIL_LINK": "メールリンクの有効期限が切れているか、サインインに使用したものとは異なるデバイスまたはブラウザを使用しています。もう一度お試しください。",
       "USER_ALREADY_HAS_TURNKEY": "このメールは、すでにdYdXアカウントに関連付けられています。メール入力フィールドを使用してサインインして進みます。"
     },
+    "QR_CODE_ONBOARDING": {
+      "QR_SCAN_ERROR": "QRコードのスキャンエラー"
+    },
     "DEPOSIT_MODAL": {
-      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "口座が同期されていません。ウォレットを再接続し、もう一度お試しください。",
+      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "アカウントが同期されていません。ウォレットを再接続し、もう一度お試しください。",
       "DEPOSIT_MORE_THAN_BALANCE": "ウォレットの利用可能残高を超えて入金することはできません。",
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "ウォレットネットワークが正しくありません。「イーサリアム・メインネット」に設定されていることを確認してください。",
       "DEPOSIT_WRONG_NETWORK_STAGING": "ウォレットネットワークが正しくありません。「Goerli Test Network」に設定されていることを確認してください。",
