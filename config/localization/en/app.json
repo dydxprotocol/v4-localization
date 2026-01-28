@@ -104,6 +104,7 @@
       "COMPETITION": "Competition",
       "COMPETITIONS": "Competitions",
       "REBATES": "Rebates",
+      "LIQUIDATION_REBATES": "Liquidation Rebates",
       "CONFIRM": "Confirm",
       "CONFIRM_DEPOSIT": "Confirm deposit",
       "CONFIRM_PENDING_DEPOSIT": "Confirm pending deposit",
@@ -2312,6 +2313,11 @@
       "COMPETITION_BODY_1_DEC_2025": "The {PROGRAM_LINK} introduces a gamified incentive layer for traders who are liquidated on dYdX. Eligible traders can turn liquidations into an opportunity to earn DYDX rebates.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Loss Rebate Pilot Program",
       "COMPETITION_BODY_2_DEC_2025": "Eligible loss rebates for December are available to claim through January 31st. Check eligibility {HERE_LINK}.",
+      "LIQUIDATION_REBATES_HEADLINE": "Up to {REBATE_AMOUNT} in Liquidation Rebates",
+      "LIQUIDATION_REBATES_BODY": "With the February Liquidation Rebate Program, eligible traders liquidated on non-BTC perpetual pairs have the opportunity to earn DYDX rebates on a portion of their losses.",
+      "LIQUIDATION_REBATES_SUB_BODY": "Reminder to claim previous {LOSS_REBATES_LINK} and check eligibility {CHECK_ELIGIBILITY_LINK}.",
+      "LOSS_REBATES": "loss rebates",
+      "LIQUIDATION_LOSSES": "Liquidation Losses",
       "SURGE": "Surge",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} Countdown",
       "SURGE_HEADLINE": "dYdX Surge: Compete for $3M",
@@ -2334,6 +2340,16 @@
       "SURGE_LEADERBOARD_TITLE": "Surge Leaderboard",
       "WEEK_COUNTDOWN": "Week {WEEK} Countdown",
       "MONTH_COUNTDOWN": "Month {MONTH} Countdown"
+    },
+    "BONK_PNL_REWARDS": {
+      "BONKUARY": "BONKuary",
+      "BONK_REWARDS_BODY": "Trade your favorite coins for your share of $100,000 in prizes. BTC and BONK are completely fee-free all February.",
+      "BONK_REWARDS_BODY_2": "Check the leaderboard for live rankings and full prize tiers",
+      "BONK_REWARDS_HEADLINE": "BONKuary Trading Competition",
+      "BONK_REWARDS_RULES": "Rules",
+      "BONK_REWARDS_RULE_1": "Simple; highest PnL on BONKtrade for the month of February",
+      "BONK_REWARDS_RULE_2": "Only trades opened from Feb 1 to Feb 28 will count",
+      "BONK_REWARDS_RULE_3": "The top 20 traders get paid, 1st place wins $25,000"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "You earned {AMOUNT} $DYDX rewards during Epoch {EPOCH_NUMBER}! Claim your rewards on the governance dashboard.",
