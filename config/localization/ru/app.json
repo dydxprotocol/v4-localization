@@ -2092,6 +2092,8 @@
       },
       "TRADE_UDPATES": "Новости торговли",
       "TRADING_REWARD_RECEIVED": "Полученная награда за торговлю",
+      "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "Получите награды торговой лиги",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Проверьте право на участие и получите награду торговой лиги в размере ${REWARD_AMOUNT} (выплачивается в dYdX). Заявки должны быть поданы {CLAIM_DEADLINE}. Узнайте больше о торговой лиге{LEARN_MORE_LINK}.",
       "UPDATED": "Обновлено",
       "UPDATING": "Обновление"
     },
@@ -2716,11 +2718,18 @@
       "NO_FEE_DECEMBER_BANNER_TITLE": "Декабрь на рынках SOL и BTC"
     },
     "NO_FEE_JANUARY_BANNER": {
-      "NO_FEE_JANUARY_BANNER_TITLE": "Январь на Рынках SOL и BTC"
+      "NO_FEE_JANUARY_BANNER_TITLE": "январь на рынках SOL и BTC"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "До 1 млн. дол. США в рамках ликвидационных возмещений",
       "LIQUIDATION_REBATES_BANNER_CTA": "Рейтинг самых больших падений"
+    },
+    "QR_CODE_ONBOARDING": {
+      "LINK_DESKTOP_WALLET": "Привязать кошелек для ПК",
+      "SCAN_QR_CODE": "Сканировать QR-код",
+      "SCAN_QR_CODE_DIRECTIONS": "Чтобы войти в систему и синхронизировать учетные записи с компьютера, нажмите на значок {ICON}в верхнем правом углу приложения для настольного компьютера и отсканируйте QR-код",
+      "VERIFY_ENCRYPTION_KEY": "Подтвердить ключ шифрования",
+      "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "Введите ключ шифрования, показанный над QR-кодом."
     }
   },
   "TOKEN_MIGRATION": {
@@ -3030,8 +3039,11 @@
       "INVALID_TURNKEY_EMAIL_LINK": "Срок действия ссылки в электронном письме истек или вы используете другое устройство или браузер, чем тот, который использовался для входа в систему. Попробуйте еще раз.",
       "USER_ALREADY_HAS_TURNKEY": "Этот адрес электронной почты уже связан со счётом в системе dYdX. Продолжите вход, используя поле ввода адреса электронной почты."
     },
+    "QR_CODE_ONBOARDING": {
+      "QR_SCAN_ERROR": "Ошибка сканирования QR-кода"
+    },
     "DEPOSIT_MODAL": {
-      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Счёт не синхронизирован. Подключите кошелёк еще раз и повторите попытку.",
+      "DEPOSIT_ACCOUNT_OUT_OF_SYNC": "Счет не синхронизирован. Подключите кошелёк еще раз и повторите попытку.",
       "DEPOSIT_MORE_THAN_BALANCE": "Нельзя вносить больше средств, чем доступно на балансе вашего кошелька.",
       "DEPOSIT_WRONG_NETWORK_PRODUCTION": "Указана неверная сеть кошелька. Убедитесь, что выбрана сеть Ethereum Mainnet.",
       "DEPOSIT_WRONG_NETWORK_STAGING": "Указана неверная сеть кошелька. Убедитесь, что выбрана сеть Goerli Test Network.",
