@@ -1,38 +1,38 @@
-name: Publish Image to NPM
-on: # yamllint disable-line rule:truthy
+name: Publish to npm
+
+on:
   push:
     branches:
       - main
 
-# Ensure only a single instance of this workflow is running.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: publish-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  build-and-publish:
+  publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # fetch all history for all tags and branches
+          fetch-depth: 0
 
-      - name: Npm
-        uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           registry-url: https://registry.npmjs.org
-          cache: "npm"
+          cache: npm
 
-      - name: Install
+      - name: Install dependencies
         run: npm ci
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_READ }}
 
-      - name: Publish
+      - name: Build
+        run: npm run build
+
+      - name: Publish if needed
         run: ./scripts/publish-if-not-exists.sh
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_WRITE }}
