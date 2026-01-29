@@ -902,6 +902,8 @@
       "TESTNET": "Тестовая сеть"
     },
     "WALLETS": {
+      "BACKPACK": "Рюкзак",
+      "BACKPACK_SOL": "Рюкзак (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover Wallet",
@@ -2093,7 +2095,9 @@
       "TRADE_UDPATES": "Новости торговли",
       "TRADING_REWARD_RECEIVED": "Полученная награда за торговлю",
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "Получите награды торговой лиги",
-      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Проверьте право на участие и получите награду торговой лиги в размере ${REWARD_AMOUNT} (выплачивается в dYdX). Заявки должны быть поданы {CLAIM_DEADLINE}. Узнайте больше о торговой лиге{LEARN_MORE_LINK}.",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Проверьте право на участие и получите награду торговой лиги в размере ${REWARD_AMOUNT} (выплачивается в dYdX). Заявки должны быть поданы {CLAIM_DEADLINE}. Узнайте больше о торговой лиге {LEARN_MORE_LINK}.",
+      "TRADING_LOSS_REBATE_CLAIM_TITLE": "Получите возврат убытков",
+      "TRADING_LOSS_REBATE_CLAIM_BODY": "Получите компенсацию {MONTH}за убытки {REBATE_AMOUNT}{CLAIM_DEADLINE}. Проверьте право участия {HERE_LINK}.",
       "UPDATED": "Обновлено",
       "UPDATING": "Обновление"
     },
@@ -2305,9 +2309,9 @@
       "COMPETITION_HEADLINE_DEC_2025": "До {REWARD_AMOUNT} скидки на убытки",
       "COMPETITION_BODY_DEC_2025": "Пилотная программа компенсации убытков предусматривает игровой уровень стимулирования для трейдеров, которые ликвидируются на dYdX. В декабре этого года правомочные трейдеры могут превратить ликвидации в возможность заработать dYdX возмещения.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "До {REWARD_AMOUNT} скидки на убытки — получите сегодня соответствующие скидки на убытки",
-      "COMPETITION_BODY_1_DEC_2025": "Он {PROGRAM_LINK} вводит игровой уровень стимулирования для трейдеров, которые несут убытки на бирже dYdX. Трейдеры, обладающие соответствующим статусом, могут превратить торговые убытки в возможность заработать скидки dYdX.",
+      "COMPETITION_BODY_1_DEC_2025": "Он {PROGRAM_LINK} вводит геймифицированный уровень стимулирования для трейдеров, ликвидируемых на dYdX. Соответствующие требованиям трейдеры могут превратить ликвидации в возможность заработать скидки dYdX.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Пилотная программа компенсации убытков",
-      "COMPETITION_BODY_2_DEC_2025": "Соответствующие скидки на убытки за первую половину декабря можно получить до 31 января. Следите за новостями во второй половине декабря. Проверьте право участия {HERE_LINK}.",
+      "COMPETITION_BODY_2_DEC_2025": "Соответствующие возвраты убытков за декабрь доступны для получения до 31 января. Проверьте право участия {HERE_LINK}.",
       "SURGE": "Surge",
       "SURGE_COUNTDOWN": "Обратный счет S{SURGE_SEASON}",
       "SURGE_HEADLINE": "dYdX Surge: боритесь за 3 млн долл. США",
@@ -2718,7 +2722,7 @@
       "NO_FEE_DECEMBER_BANNER_TITLE": "Декабрь на рынках SOL и BTC"
     },
     "NO_FEE_JANUARY_BANNER": {
-      "NO_FEE_JANUARY_BANNER_TITLE": "январь на рынках SOL и BTC"
+      "NO_FEE_JANUARY_BANNER_TITLE": "Январь на рынках SOL и BTC"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "До 1 млн. дол. США в рамках ликвидационных возмещений",
@@ -2727,7 +2731,7 @@
     "QR_CODE_ONBOARDING": {
       "LINK_DESKTOP_WALLET": "Привязать кошелек для ПК",
       "SCAN_QR_CODE": "Сканировать QR-код",
-      "SCAN_QR_CODE_DIRECTIONS": "Чтобы войти в систему и синхронизировать учетные записи с компьютера, нажмите на значок {ICON}в верхнем правом углу приложения для настольного компьютера и отсканируйте QR-код",
+      "SCAN_QR_CODE_DIRECTIONS": "Чтобы войти в систему и синхронизировать учетные записи с ПК, нажмите на значок {ICON}в верхнем правом углу приложения для ПК и отсканируйте QR-код",
       "VERIFY_ENCRYPTION_KEY": "Подтвердить ключ шифрования",
       "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "Введите ключ шифрования, показанный над QR-кодом."
     }
