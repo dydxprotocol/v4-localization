@@ -2097,7 +2097,7 @@
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "거래 리그 보상 청구",
       "TRADING_LEAGUE_REWARD_CLAIM_BODY": "자격 요건을 확인하고 ${REWARD_AMOUNT}(DYDX로 지급)의 거래 리그 보상을 청구하세요! 클레임은 {CLAIM_DEADLINE}에 제출해야 합니다. 거래 리그 {LEARN_MORE_LINK}에 대해 자세히 알아보세요.",
       "TRADING_LOSS_REBATE_CLAIM_TITLE": "손실 리베이트 청구",
-      "TRADING_LOSS_REBATE_CLAIM_BODY": "{CLAIM_DEADLINE}까지 {REBATE_AMOUNT}의 {MONTH} 리베이트 손실을 청구하세요. {HERE_LINK}에서 자격 요건을 확인하십시오.",
+      "TRADING_LOSS_REBATE_CLAIM_BODY": "{CLAIM_DEADLINE}손실 {REBATE_AMOUNT}리베이트를 {MONTH}청구하세요. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "UPDATED": "업데이트됨",
       "UPDATING": "업데이트 중"
     },
@@ -2309,7 +2309,7 @@
       "COMPETITION_HEADLINE_DEC_2025": "최대 손실 리베이트{REWARD_AMOUNT}",
       "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올 12월, 자격 있는 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "최대 손실 리베이트 {REWARD_AMOUNT}- 지금 자격 있는 손실 리베이트를 받으세요",
-      "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK}은(는) dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
+      "COMPETITION_BODY_1_DEC_2025": "dYdX에서 청산된 거래자를 위해 {PROGRAM_LINK}게이미피케이션된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 청산을 DYDX(Derivative Yield Decentralized Exchange) 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
       "COMPETITION_BODY_2_DEC_2025": "12월에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 청구할 수 있습니다. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "SURGE": "서지",
