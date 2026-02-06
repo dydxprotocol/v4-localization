@@ -104,6 +104,7 @@
       "COMPETITION": "경쟁",
       "COMPETITIONS": "경쟁",
       "REBATES": "리베이트",
+      "LIQUIDATION_REBATES": "청산 리베이트",
       "CONFIRM": "확인",
       "CONFIRM_DEPOSIT": "입금 승인",
       "CONFIRM_PENDING_DEPOSIT": "보류 중인 입금 확인",
@@ -2259,7 +2260,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "거래 보상을 어떻게 청구할 수 있나요?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "각 블록, 거래 보상은 자동으로 트레이더의 dYdX 체인 주소로 직접 전송됩니다.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "스테이킹은 어떻게 할 수 있으며 스테이킹 보상은 어떻게 받나요?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "스테이킹하려면 '스테이킹' 버튼을 클릭하고 스테이킹하려는 토큰의 수량을 입력하세요. 커뮤니티에서 양호한 상태를 유지하고 있는 검증자 세트의 검증자는 스테이킹된 토큰이 가장 적으며 슬래시된 적이 없는 검증자를 기준으로 자동으로 선택됩니다. 스테이킹 보상을 요청하려면 USDC 보상을 받을 수 있을 때마다 '받기' 버튼을 클릭하세요. 청구한 USDC 보상은 귀하의 계정에 입금되며 즉시 거래할 수 있습니다! USDC 보상을 받으려면 가스 수수료를 내야 하는 점을 참고해 주세요. {HERE_LINK}을(를) 참조하세요.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "스테이킹하려면 '스테이킹' 버튼을 클릭하고 스테이킹하려는 토큰의 수량을 입력하세요. 검증자는 자동으로 선택되지만 드롭다운 메뉴에서 다른 검증자를 선택할 수 있습니다. 스테이킹 보상을 요청하려면 USDC 보상을 받을 수 있을 때마다 '받기' 버튼을 클릭하세요. 청구한 USDC 보상은 귀하의 계정에 입금되며 즉시 거래할 수 있습니다! USDC 보상을 받으려면 가스 수수료를 내야 하는 점을 참고해 주세요. {HERE_LINK}을(를) 참조하세요.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "거래 보상은 어떻게 이루어지나요?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "각 체결 직후 거래 보상은 트레이더가 지불한 수수료 금액을 기준으로 트레이더의 dYdX 체인 주소로 직접 전송됩니다. {HERE_LINK}에서 자세히 알아보세요.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "사전 구성된 검증자 집합은 어떻게 결정되나요?",
@@ -2267,7 +2268,7 @@
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "스테이킹의 위험은 무엇인가요?",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "DeFi 프로토콜을 사용하면 위험이 따릅니다. 스테이킹의 경우, 토큰 스테이킹을 해제하려면 30일이 걸리며, 프로토콜이나 시장 변동성이 있는 경우에도 토큰을 전송 못하는 유동성 없는 기간이 있다는 것을 반드시 유념하셔야 합니다. 또한 사용자는 자산을 스테이킹하기 전에 검증자에 대해 자체 실사를 수행해야 합니다. 프로토콜 규칙을 위반하는 검증자는 해당 검증자에게 스테이킹된 토큰을 슬래시(즉, 소각)하거나 보상을 받지 못하게 감옥에 갇히게 되는 처벌을 받을 수 있습니다.",
       "FAQ_WHAT_IS_STAKING_QUESTION": "스테이킹이란 무엇인가요?",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 체인은 합의 메커니즘으로 지분 증명을 사용합니다. 토큰 보유자는 네트워크를 보호하고 거래를 검증하는 데 도움이 되도록 검증자에 토큰을 스테이킹할 수 있으며, 그 대가로 프로토콜이 수집하는 거래 및 가스 수수료로 USDC 보상을 받을 수 있습니다. 모든 수수료는 스테이킹한 사람에게 지급되며, 보험 펀드와 검증자 커미션에 전송되는 수수료는 제외합니다. 보상율은 {HERE_LINK}의 데이터를 기준으로 합니다. 미래 보상율은 보장되지 않습니다. 프로토콜 조건에 따라 변동될 수 있기 때문입니다.",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 체인은 합의 메커니즘으로 지분 증명을 사용합니다. 토큰 보유자는 네트워크를 보호하고 거래를 검증하는 데 도움이 되도록 검증자에 토큰을 스테이킹할 수 있으며, 그 대가로 프로토콜이 수집하는 거래 및 가스 수수료로 USDC 보상을 받을 수 있습니다. 보상율은 {HERE_LINK}의 데이터를 기준으로 합니다. 미래 보상율은 보장되지 않습니다. 프로토콜 조건에 따라 변동될 수 있기 때문입니다.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "거래 보상을 받을 수 있는 자격은 무엇입니까?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "모든 트레이더는 거래 보상을 받을 수 있습니다.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "스테이킹에 사용할 수 있는 검증자는 무엇인가요?",
@@ -2309,9 +2310,16 @@
       "COMPETITION_HEADLINE_DEC_2025": "최대 손실 리베이트{REWARD_AMOUNT}",
       "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올 12월, 자격 있는 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "최대 손실 리베이트 {REWARD_AMOUNT}- 지금 자격 있는 손실 리베이트를 받으세요",
+      "COMPETITION_HEADLINE_FEB_2026": "최대 손실 리베이트{REWARD_AMOUNT}",
+      "COMPETITION_SUBTITLE_FEB_2026": "과거 손실 리베이트를 지금 청구하세요",
       "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK}은(는) dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
       "COMPETITION_BODY_2_DEC_2025": "12월에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 청구할 수 있습니다. {HERE_LINK}에서 자격 요건을 확인하십시오.",
+      "LIQUIDATION_REBATES_HEADLINE": "최대 {REBATE_AMOUNT}의 청산 리베이트",
+      "LIQUIDATION_REBATES_BODY": "2월 청산 리베이트 프로그램을 통해 BTC가 아닌 무기한 쌍에서 청산된 자격 있는 트레이더는 손실의 일부에 대해 DYDX 리베이트를 획득할 수 있습니다.",
+      "LIQUIDATION_REBATES_SUB_BODY": "이전 {LOSS_REBATES_LINK} 청구와 자격 요건을 확인하도록 알림{CHECK_ELIGIBILITY_LINK}",
+      "LOSS_REBATES": "손실 리베이트",
+      "LIQUIDATION_LOSSES": "청산 손실",
       "SURGE": "서지",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 카운트다운",
       "SURGE_HEADLINE": "dYdX 서지: 3백만 달러 두고 경쟁",
@@ -2335,8 +2343,18 @@
       "WEEK_COUNTDOWN": "주간 {WEEK}카운트다운",
       "MONTH_COUNTDOWN": "월별  {MONTH}카운트다운"
     },
+    "BONK_PNL_REWARDS": {
+      "BONKUARY": "BONKuary",
+      "BONK_REWARDS_BODY": "$100,000의 상금 중 자신의 몫을 위해 좋아하는 코인을 거래하세요. BTC와 BONK는 2월 내내 수수료가 완전히 무료입니다.",
+      "BONK_REWARDS_BODY_2": "순위표에서 실시간 순위 및 전체 보상 등급을 확인하세요",
+      "BONK_REWARDS_HEADLINE": "BONKuary 거래 대회",
+      "BONK_REWARDS_RULES": "규칙",
+      "BONK_REWARDS_RULE_1": "단순; 2월 BONKtrade에서 가장 높은 손익",
+      "BONK_REWARDS_RULE_2": "2월 1일부터 2월 28일까지 개설된 거래만 계산됩니다",
+      "BONK_REWARDS_RULE_3": "상위 20명의 트레이더가 보상을 받으며, 1등은 $25,000를 획득합니다."
+    },
     "EPOCH_END_MODAL": {
-      "EPOCH_END_EARNED": "에폭 {EPOCH_NUMBER} 동안 {AMOUNT} $DYDX의 보상을 받았습니다! 거버넌스 대시보드에서 보상을 청구하세요.",
+      "EPOCH_END_EARNED": "{EPOCH_NUMBER}에폭 동안 {AMOUNT}$DYDX의 보상을 받았습니다! 거버넌스 대시보드에서 보상을 청구하세요.",
       "YOU_EARNED": "보상을 획득했습니다!"
     },
     "ALLOWANCE_ALERT_MODAL": {
@@ -2723,6 +2741,10 @@
     },
     "NO_FEE_JANUARY_BANNER": {
       "NO_FEE_JANUARY_BANNER_TITLE": "1월에 SOL 및 BTC 시장에서"
+    },
+    "NO_FEE_FEBRUARY_BANNER": {
+      "NO_FEE_FEBRUARY_BANNER_TITLE": "2월 BTC 및 BONK 시장",
+      "NO_FEE_FEBRUARY_BANNER_CTA": "지금 비트코인 및 BONK 무기한 계약 거래"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
