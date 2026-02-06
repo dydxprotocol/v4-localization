@@ -104,6 +104,7 @@
       "COMPETITION": "コンペティション",
       "COMPETITIONS": "コンペティション",
       "REBATES": "リベート",
+      "LIQUIDATION_REBATES": "清算リベート",
       "CONFIRM": "確認",
       "CONFIRM_DEPOSIT": "入金確認",
       "CONFIRM_PENDING_DEPOSIT": "保留中の入金を確認",
@@ -2259,7 +2260,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "取引報酬を請求するにはどうすればよいですか？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "各ブロックの取引報酬は、直接トレーダーのdYdXチェーンアドレスに自動的に送信されます。",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "ステーキング報酬を請求するにはどうすればよいですか？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。コミュニティで良好な評価を受けているバリデーターの中から、ステークされているトークン数が最も少なく、スラッシュされたことがないバリデーターが自動的に選択されます。ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。請求されたUSDC報酬は口座に預金されるため、即座に取引できます！USDC報酬を請求するには、ガス代が発生します。{HERE_LINK}で詳細を見る。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "ステークするには、「ステーク」ボタンをクリックし、ステークしたいトークンの金額を入力します。バリデータは自動的に選択されますが、ドロップダウンメニューから別のバリデータを選択することもできます。ステーキング報酬を請求するには、USDC報酬が利用可能な場合は、「請求」ボタンをクリックします。請求されたUSDC報酬は口座に預金されるため、即座に取引できます！USDC報酬を請求するには、ガス代が発生します。{HERE_LINK}で詳細を見る。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "取引報酬の仕組みは？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "各執行後すぐに、トレーダーが支払った手数料の金額に基づいて、取引報酬がトレーダーのdYdXチェーンアドレスに直接送信されます。{HERE_LINK}で続きを読む。",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "事前設定されたバリデータのセットはどのように決定されるのですか？",
@@ -2267,7 +2268,7 @@
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "ステーキングのリスクは何ですか？",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "DeFiプロトコルを使用する場合、リスクが伴います。 ステーキングの場合、ステーキング解除トークンは30日間かかることを理解することが重要です。つまり、プロトコルまたは市場のボラティリティの場合でも、トークンを転送できない流動性の期間があることを意味します。バリデーターがプロトコルの規則に違反した場合、ステークされたトークンがスラッシュ（焼却）されたり、報酬を得ることができなくなる「ジェイル」状態になることがあります。プロトコルルールに違反するバリデータは、トークンをスラッシュ（すなわち、書き込み）またはジェイド（投獄）することで、報酬を獲得できなくなります。",
       "FAQ_WHAT_IS_STAKING_QUESTION": "ステーキングとは何ですか？",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdXチェーンは、コンセンサスメカニズムにプルーフオブステークを使用しています。 トークン保有者は、ネットワークの安全性とトランザクションの検証を支援するために、トークンをバリデータにステーキングし、その代わりに、プロトコルが収集する取引手数料とガス代からUSDC報酬を獲得できます。すべての手数料は、ステーカーに支払われます。保険基金とバリデータ手数料に送られる手数料は差し引かれます。報酬レートは、{HERE_LINK}からのデータに基づいています。将来の報酬レートの保証はありません。これは、プロトコル条件に基づいて変動する可能性があります。",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdXチェーンは、コンセンサスメカニズムにプルーフオブステークを使用しています。 トークン保有者は、ネットワークの安全性とトランザクションの検証を支援するために、トークンをバリデータにステーキングし、その代わりに、プロトコルが収集する取引手数料とガス代からUSDC報酬を獲得できます。報酬レートは、{HERE_LINK}からのデータに基づいています。将来の報酬レートの保証はありません。これは、プロトコル条件に基づいて変動する可能性があります。",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "取引報酬の対象者とは？",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "すべてのトレーダーは、取引報酬を受け取る資格があります。",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "ステーキングにはどのバリデータが使用できますか？",
@@ -2309,9 +2310,16 @@
       "COMPETITION_HEADLINE_DEC_2025": "{REWARD_AMOUNT}最大損失リベート",
       "COMPETITION_BODY_DEC_2025": "損失リベートパイロットプログラムは、dYdXで清算されているトレーダー向けにゲーミフィケーションされたインセンティブレイヤーを導入しています。 この 12 月、対象となるトレーダーは清算を dYdX リベートを得る機会に変えることができます。",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "最大{REWARD_AMOUNT}損失リベート - 対象となる損失リベートを今すぐ請求",
+      "COMPETITION_HEADLINE_FEB_2026": "{REWARD_AMOUNT}最大損失リベート",
+      "COMPETITION_SUBTITLE_FEB_2026": "過去の損失リベートを今すぐ請求",
       "COMPETITION_BODY_1_DEC_2025": "dYdX{PROGRAM_LINK}で清算されているトレーダー向けにゲーミフィケーションされたインセンティブレイヤーを導入しています。 対象トレーダーは清算をdydxリベート獲得の機会に変えることができます。",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "損失リベートパイロットプログラム",
       "COMPETITION_BODY_2_DEC_2025": "12月の対象損失リベートは1月31日まで請求できます。 対象{HERE_LINK}を確認します。",
+      "LIQUIDATION_REBATES_HEADLINE": "最大{REBATE_AMOUNT}での清算リベート",
+      "LIQUIDATION_REBATES_BODY": "2月の清算リベートプログラムにより、BTC以外のパーペチュアルペアで清算された対象トレーダーは、損失の一部をdYdXリベート獲得する機会を得ることができます。",
+      "LIQUIDATION_REBATES_SUB_BODY": "以前に請求し、対象{LOSS_REBATES_LINK}を確認するように{CHECK_ELIGIBILITY_LINK}リマインダー。",
+      "LOSS_REBATES": "損失リベート",
+      "LIQUIDATION_LOSSES": "清算損失",
       "SURGE": "サージ",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON}カウントダウン",
       "SURGE_HEADLINE": "dYdXサージ：300万ドルを目指して競争",
@@ -2335,8 +2343,18 @@
       "WEEK_COUNTDOWN": "週カウントダ{WEEK}ウン",
       "MONTH_COUNTDOWN": "月のカウントダ{MONTH}ウン"
     },
+    "BONK_PNL_REWARDS": {
+      "BONKUARY": "BONKUARY",
+      "BONK_REWARDS_BODY": "お気に入りのコインを取引して、10万ドル相当の賞金を獲得しましょう。BTCおよびBONKは2月いっぱい、手数料が完全に無料です。",
+      "BONK_REWARDS_BODY_2": "リーダーボードでライブランキングおよび全賞金レベルを確認してください。",
+      "BONK_REWARDS_HEADLINE": "BONKuary取引コンペティション",
+      "BONK_REWARDS_RULES": "ルール",
+      "BONK_REWARDS_RULE_1": "シンプル。2月のBONKtradeで最高の実現損益（PNL）",
+      "BONK_REWARDS_RULE_2": "2月1日から2月28日までの間にオープンされた取引のみがカウントされます。",
+      "BONK_REWARDS_RULE_3": "上位20人のトレーダーが報酬を受け取り、1位は25,000ドルを獲得します。"
+    },
     "EPOCH_END_MODAL": {
-      "EPOCH_END_EARNED": "エポック{EPOCH_NUMBER}中に{AMOUNT}$DYDX報酬を獲得しました！ガバナンスダッシュボードで報酬を請求する。",
+      "EPOCH_END_EARNED": "エポック中に$DYDX報酬{AMOUNT}を獲得しました{EPOCH_NUMBER}！ガバナンスダッシュボードで報酬を請求する。",
       "YOU_EARNED": "報酬を獲得しました！"
     },
     "ALLOWANCE_ALERT_MODAL": {
@@ -2723,6 +2741,10 @@
     },
     "NO_FEE_JANUARY_BANNER": {
       "NO_FEE_JANUARY_BANNER_TITLE": "1月のSOLおよびBTC「マーケット」"
+    },
+    "NO_FEE_FEBRUARY_BANNER": {
+      "NO_FEE_FEBRUARY_BANNER_TITLE": "2月のBTCおよびBONK「マーケット」",
+      "NO_FEE_FEBRUARY_BANNER_CTA": "今すぐビットコインおよびBONKを取引"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
