@@ -900,11 +900,9 @@
       "OPEN_IN_ETHERSCAN": "在 Etherscan 中",
       "RELEVANT_LINKS": "相关链接",
       "TERMS_OF_USE": "使用条款",
-      "TESTNET": "测试"
+      "TESTNET": "测试网"
     },
     "WALLETS": {
-      "BACKPACK": "背包",
-      "BACKPACK_SOL": "背包 (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover钱包",
@@ -2097,8 +2095,6 @@
       "TRADING_REWARD_RECEIVED": "已收到的交易奖励",
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "申领您的交易联盟奖励",
       "TRADING_LEAGUE_REWARD_CLAIM_BODY": "检查您的资格并申领 ${REWARD_AMOUNT} 的交易联盟奖励（以 DYDX 支付）！ 申领必须由 {CLAIM_DEADLINE} 提交。 了解有关交易联盟{LEARN_MORE_LINK}的更多信息。",
-      "TRADING_LOSS_REBATE_CLAIM_TITLE": "申领您的损失返利",
-      "TRADING_LOSS_REBATE_CLAIM_BODY": "申领您的{MONTH}损失返利，至{CLAIM_DEADLINE}迟 {REBATE_AMOUNT}。 检查资格{HERE_LINK}。",
       "UPDATED": "已更新",
       "UPDATING": "更新"
     },
