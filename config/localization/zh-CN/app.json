@@ -899,11 +899,9 @@
       "OPEN_IN_ETHERSCAN": "在 Etherscan 中",
       "RELEVANT_LINKS": "相关链接",
       "TERMS_OF_USE": "使用条款",
-      "TESTNET": "测试"
+      "TESTNET": "测试网"
     },
     "WALLETS": {
-      "BACKPACK": "背包",
-      "BACKPACK_SOL": "背包 (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover钱包",
@@ -2096,8 +2094,6 @@
       "TRADING_REWARD_RECEIVED": "已收到的交易奖励",
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "申领您的交易联盟奖励",
       "TRADING_LEAGUE_REWARD_CLAIM_BODY": "检查您的资格并申领 ${REWARD_AMOUNT} 的交易联盟奖励（以 DYDX 支付）！ 申领必须由 {CLAIM_DEADLINE} 提交。 了解有关交易联盟{LEARN_MORE_LINK}的更多信息。",
-      "TRADING_LOSS_REBATE_CLAIM_TITLE": "申领您的损失返利",
-      "TRADING_LOSS_REBATE_CLAIM_BODY": "申领您的{MONTH}损失返利，至{CLAIM_DEADLINE}迟 {REBATE_AMOUNT}。 检查资格{HERE_LINK}。",
       "UPDATED": "已更新",
       "UPDATING": "更新"
     },
@@ -2309,9 +2305,9 @@
       "COMPETITION_HEADLINE_DEC_2025": "最高可返还 {REWARD_AMOUNT} 的亏损金额",
       "COMPETITION_BODY_DEC_2025": "亏损返还试点计划为在 dYdX 上被强制平仓的交易者引入了一层游戏化激励机制。今年 12 月，符合条件的交易者可将强制平仓转化为获得 DYDX 回扣的机会。",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "亏损返还金额度至多 {REWARD_AMOUNT} --- 立即申领符合条件的亏损返利",
-      "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK} 为在 dYdX 上遭清算的交易者引入了一层游戏化的激励机制。符合条件的交易者可以将清算转化为获得 DYDX 回扣的机会。",
+      "COMPETITION_BODY_1_DEC_2025": "为在 dYdX 上产生亏损的交易者，{PROGRAM_LINK} 引入一层游戏化激机制。符合条件的交易者可以将交易损失转化为获得DYDX回扣的机会。",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "损失返还试点计划",
-      "COMPETITION_BODY_2_DEC_2025": "12月符合条件的亏损返利可在1月31日之前申领。 检查资格{HERE_LINK}。",
+      "COMPETITION_BODY_2_DEC_2025": "12月上半月符合条件的亏损返利可在1月31日之前申领。 12 月下半月，敬请关注。 检查资格{HERE_LINK}。",
       "SURGE": "激增",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 倒计时",
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
