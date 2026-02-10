@@ -2095,7 +2095,7 @@
       "TRADE_UDPATES": "取引アップデート",
       "TRADING_REWARD_RECEIVED": "取引報酬を受け取りました",
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "取引リーグ報酬を請求",
-      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "対象を確認し、${REWARD_AMOUNT}（dYdXで支払われた）の取引リーグ報酬を請求してください。請求は、{CLAIM_DEADLINE}までに提出する必要があります。 取引リーグの詳細をご覧ください{LEARN_MORE_LINK}。",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "対象を確認し、取引リーグ報酬${REWARD_AMOUNT}（DYDXで支払われています）を請求しましょう。請求は、{CLAIM_DEADLINE}までに提出する必要があります。 取引リーグの詳細をご覧ください{LEARN_MORE_LINK}。",
       "TRADING_LOSS_REBATE_CLAIM_TITLE": "損失リベートの請求",
       "TRADING_LOSS_REBATE_CLAIM_BODY": "{MONTH}分の損失リベート{REBATE_AMOUNT}を、{CLAIM_DEADLINE}までに請求してください。対象{HERE_LINK}を確認します。",
       "UPDATED": "アップデート済み",
