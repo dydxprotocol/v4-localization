@@ -903,8 +903,6 @@
       "TESTNET": "Тестовая сеть"
     },
     "WALLETS": {
-      "BACKPACK": "Рюкзак",
-      "BACKPACK_SOL": "Рюкзак (Solana)",
       "BITKEEP": "BitKeep",
       "BITPIE": "BitPie",
       "CLOVER_WALLET": "Clover Wallet",
@@ -2096,9 +2094,7 @@
       "TRADE_UDPATES": "Новости торговли",
       "TRADING_REWARD_RECEIVED": "Полученная награда за торговлю",
       "TRADING_LEAGUE_REWARD_CLAIM_TITLE": "Получите награды торговой лиги",
-      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Проверьте право на участие и получите награду торговой лиги в размере ${REWARD_AMOUNT} (выплачивается в dYdX). Заявки должны быть поданы {CLAIM_DEADLINE}. Узнайте больше о торговой лиге {LEARN_MORE_LINK}.",
-      "TRADING_LOSS_REBATE_CLAIM_TITLE": "Получите возврат убытков",
-      "TRADING_LOSS_REBATE_CLAIM_BODY": "Получите компенсацию {MONTH}за убытки {REBATE_AMOUNT}{CLAIM_DEADLINE}. Проверьте право участия {HERE_LINK}.",
+      "TRADING_LEAGUE_REWARD_CLAIM_BODY": "Проверьте право на участие и получите награду торговой лиги в размере ${REWARD_AMOUNT} (выплачивается в dYdX). Заявки должны быть поданы {CLAIM_DEADLINE}. Узнайте больше о торговой лиге{LEARN_MORE_LINK}.",
       "UPDATED": "Обновлено",
       "UPDATING": "Обновление"
     },
@@ -2740,7 +2736,7 @@
       "NO_FEE_DECEMBER_BANNER_TITLE": "Декабрь на рынках SOL и BTC"
     },
     "NO_FEE_JANUARY_BANNER": {
-      "NO_FEE_JANUARY_BANNER_TITLE": "Январь на рынках SOL и BTC"
+      "NO_FEE_JANUARY_BANNER_TITLE": "январь на рынках SOL и BTC"
     },
     "NO_FEE_FEBRUARY_BANNER": {
       "NO_FEE_FEBRUARY_BANNER_TITLE": "Февраль на рынках BTC и BONK",
@@ -2753,7 +2749,7 @@
     "QR_CODE_ONBOARDING": {
       "LINK_DESKTOP_WALLET": "Привязать кошелек для ПК",
       "SCAN_QR_CODE": "Сканировать QR-код",
-      "SCAN_QR_CODE_DIRECTIONS": "Чтобы войти в систему и синхронизировать учетные записи с ПК, нажмите на значок {ICON}в верхнем правом углу приложения для ПК и отсканируйте QR-код",
+      "SCAN_QR_CODE_DIRECTIONS": "Чтобы войти в систему и синхронизировать учетные записи с компьютера, нажмите на значок {ICON}в верхнем правом углу приложения для настольного компьютера и отсканируйте QR-код",
       "VERIFY_ENCRYPTION_KEY": "Подтвердить ключ шифрования",
       "VERIFY_ENCRYPTION_KEY_DIRECTIONS": "Введите ключ шифрования, показанный над QR-кодом."
     }
