@@ -33,5 +33,3 @@ jobs:
 
       - name: Publish if needed
         run: ./scripts/publish-if-not-exists.sh
-        env:
-          NPM_CONFIG_PROVENANCE: true
