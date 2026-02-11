@@ -22,6 +22,10 @@
     "url": "https://github.com/dydxprotocol/v4-localization/issues"
   },
   "homepage": "https://github.com/dydxprotocol/v4-localization#readme",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "devDependencies": {
     "@types/node": "^20.1.7"
   }
