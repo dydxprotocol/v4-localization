@@ -36,4 +36,5 @@ else
   git push origin "$TAG"
 fi
 
+unset NODE_AUTH_TOKEN
 npm publish --provenance --access public
