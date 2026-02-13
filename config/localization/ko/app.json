@@ -2311,12 +2311,12 @@
       "COMPETITION_BODY_DEC_2025": "손실 환급 파일럿 프로그램은 dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 올 12월, 자격 있는 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "최대 손실 리베이트 {REWARD_AMOUNT}- 지금 자격 있는 손실 리베이트를 받으세요",
       "COMPETITION_HEADLINE_FEB_2026": "최대 손실 리베이트{REWARD_AMOUNT}",
-      "COMPETITION_SUBTITLE_FEB_2026": "과거 손실 리베이트를 지금 청구하세요",
+      "COMPETITION_SUBTITLE_FEB_2026": "오늘 과거 손실 리베이트 청구",
       "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK}은(는) dYdX에서 청산된 거래자를 위해 게임화된 인센티브 계층을 도입합니다. 자격을 갖춘 트레이더는 청산을 DYDX 리베이트 획득 기회로 전환할 수 있습니다.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
       "COMPETITION_BODY_2_DEC_2025": "12월에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 청구할 수 있습니다. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "LIQUIDATION_REBATES_HEADLINE": "최대 {REBATE_AMOUNT}의 청산 리베이트",
-      "LIQUIDATION_REBATES_BODY": "2월 청산 리베이트 프로그램을 통해 BTC가 아닌 무기한 쌍에서 청산된 자격 있는 트레이더는 손실의 일부에 대해 DYDX 리베이트를 획득할 수 있습니다.",
+      "LIQUIDATION_REBATES_BODY": "2월 청산 리베이트 프로그램을 통해 비BTC 무기한 쌍에서 청산된 자격 있는 트레이더는 손실의 일부에 대해 DYDX 리베이트를 받을 수 있습니다.",
       "LIQUIDATION_REBATES_SUB_BODY": "이전 {LOSS_REBATES_LINK} 청구와 자격 요건을 확인하도록 알림{CHECK_ELIGIBILITY_LINK}",
       "LOSS_REBATES": "손실 리베이트",
       "LIQUIDATION_LOSSES": "청산 손실",
@@ -2743,8 +2743,8 @@
       "NO_FEE_JANUARY_BANNER_TITLE": "1월에 SOL 및 BTC 시장에서"
     },
     "NO_FEE_FEBRUARY_BANNER": {
-      "NO_FEE_FEBRUARY_BANNER_TITLE": "2월 BTC 및 BONK 시장",
-      "NO_FEE_FEBRUARY_BANNER_CTA": "지금 비트코인 및 BONK 무기한 계약 거래"
+      "NO_FEE_FEBRUARY_BANNER_TITLE": "2월에 BTC 및 BONK 시장에서",
+      "NO_FEE_FEBRUARY_BANNER_CTA": "비트코인 및 BONK perp를 지금 바로 거래하세요"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
