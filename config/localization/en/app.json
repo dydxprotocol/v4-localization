@@ -1492,8 +1492,8 @@
       "YOUR_FEE_TIER": "Your current Fee Tier is {TIER}"
     },
     "TRADE": {
+      "ACTIVATED": "Activated",
       "AVAILABLE_TO_TRADE": "Available to trade",
-      "ACTIVE": "Active",
       "ADD_MARGIN": "Add Margin",
       "ADD_TRIGGERS": "Add trigger(s)",
       "ADD_TP_SL": "Add TP | SL",
@@ -1532,6 +1532,7 @@
       "CANCELING_ALL_ORDERS": "Canceling all orders",
       "CANCELING_ALL_ORDERS_IN_MARKET": "Canceling all orders in {MARKET_ID}",
       "CANCELING_ORDERS_COUNT": "Canceling {COUNT} orders...",
+      "CANCELLED": "Cancelled",
       "CANCEL_EXTRA_ORDERS": "Cancel extra orders",
       "CANCEL_ORDERS": "Cancel orders",
       "CANCEL_REASON": "Cancel Reason",
@@ -1766,6 +1767,8 @@
       "TAP_TO_CLOSE": "Tap to close",
       "TAP_TO_TRADE": "Tap to trade",
       "TARGET_LEVERAGE": "Target Leverage",
+      "TERMINATE": "Terminate",
+      "TERMINATED": "Terminated",
       "TIME_IN_FORCE": "Time In Force",
       "TOTAL_COST": "Total Cost",
       "TOTAL_SIZE": "Total Size",
