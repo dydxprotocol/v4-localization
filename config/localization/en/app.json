@@ -1810,6 +1810,16 @@
       "YOUR_MARKET_POSITION": "Your {MARKET} position",
       "YOUR_POSITION_WAS_LIQUIDATED": "Your position was liquidated."
     },
+    "TRADE_HISTORY": {
+      "OPEN_LONG": "Open Long",
+      "OPEN_SHORT": "Open Short",
+      "CLOSE_LONG": "Close Long",
+      "CLOSE_SHORT": "Close Short",
+      "PARTIAL_CLOSE_LONG": "Partial Close Long",
+      "PARTIAL_CLOSE_SHORT": "Partial Close Short",
+      "ADD_TO_LONG": "Add to Long",
+      "ADD_TO_SHORT": "Add to Short"
+    },
     "TRADING_VIEW": {
       "DRAFT_LIMIT_SELL": "Draft Limit Sell at {PRICE}",
       "DRAFT_LIMIT_BUY": "Draft Limit Buy at {PRICE}"
