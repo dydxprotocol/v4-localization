@@ -921,7 +921,7 @@
       "ERROR_INVALID_SIGNATURE": "Signature verification failed. Please try again.",
       "ERROR_INVALID_TIMESTAMP": "Message expired. Please try again.",
       "ERROR_RATE_LIMIT": "You're sending messages too fast. Please wait before trying again.",
-      "ERROR_INSUFFICIENT_VOLUME": "You need at least $1,000 in trading volume to chat.",
+      "ERROR_INSUFFICIENT_VOLUME": "You need at least {MINIMUM_VOLUME} in trading volume to chat.",
       "ERROR_VALIDATION": "Failed to send message. Please try again."
     },
     "WALLETS": {
