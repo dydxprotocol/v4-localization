@@ -914,6 +914,7 @@
       "VOLUME_TO_UNLOCK": "vol. to unlock",
       "WALLET_NOT_CONNECTED": "Wallet not connected",
       "FAILED_TO_SEND_MESSAGE": "Failed to send message: {ERROR}",
+      "ENABLE_CHAT": "Enable chat",
       "ERROR_MESSAGE_TOO_LARGE": "Your message is too long. Please keep it under 255 characters.",
       "ERROR_MESSAGE_EMPTY": "Message cannot be empty.",
       "ERROR_MISSING_FIELD": "Message is missing required fields.",
