@@ -2805,8 +2805,13 @@
       "NO_FEE_FEBRUARY_BANNER_TITLE": "February on BTC & BONK Markets",
       "NO_FEE_FEBRUARY_BANNER_CTA": "Trade Bitcoin and BONK perps now"
     },
+    "NO_FEE_MARCH_BANNER": {
+      "NO_FEE_MARCH_BANNER_TITLE": "March on BTC and BONK Markets",
+      "NO_FEE_MARCH_BANNER_CTA": "Trade Bitcoin and BONK perps now"
+    },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Up to $1M in Liquidation Rebates",
+      "LIQUIDATION_REBATES_BANNER_SUBTITLE": "Claim Previous Loss Rebates",
       "LIQUIDATION_REBATES_BANNER_CTA": "Biggest Loser Rankings"
     },
     "QR_CODE_ONBOARDING": {
