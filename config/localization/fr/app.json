@@ -104,6 +104,7 @@
       "COMPETITION": "Compétition",
       "COMPETITIONS": "Compétitions",
       "REBATES": "Remboursements",
+      "LIQUIDATION_REBATES": "Remboursements de liquidation",
       "CONFIRM": "Confirmer",
       "CONFIRM_DEPOSIT": "Confirmer le dépôt",
       "CONFIRM_PENDING_DEPOSIT": "Valider le dépôt en attente",
@@ -2259,7 +2260,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "Comment puis-je réclamer mes récompenses de trading ?",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "Chaque bloc, les récompenses de trading sont automatiquement envoyées directement à l'adresse de la chaîne dYdX du trader.",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "Comment puis-je staker et réclamer des récompenses de staking ?",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Pour staker, cliquez sur le bouton « Stake » et saisissez le montant de jetons que vous souhaitez staker. Un validateur d'un ensemble de validateurs en règle avec la communauté sera automatiquement sélectionné en fonction du validateur éligible ayant le moins de jetons stakés et n'ayant jamais été slashé. Pour réclamer des récompenses de mise staké, cliquez sur le bouton « Réclamer » chaque fois que les récompenses en USDC sont disponibles. Les récompenses en USDC réclamées seront déposées sur votre compte afin que vous puissiez trader instantanément ! Notez qu'il existe des frais de gaz pour réclamer les récompenses en USDC. En savoir plus {HERE_LINK}.",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "Pour staker, cliquez sur le bouton « Stake » et saisissez le montant de jetons que vous souhaitez staker. Un validateur sera automatiquement sélectionné, mais vous pouvez sélectionner un validateur différent dans le menu déroulant. Pour réclamer des récompenses de mise staké, cliquez sur le bouton « Réclamer » chaque fois que les récompenses en USDC sont disponibles. Les récompenses en USDC réclamées seront déposées sur votre compte afin que vous puissiez trader instantanément ! Notez qu'il existe des frais de gaz pour réclamer les récompenses en USDC. En savoir plus {HERE_LINK}.",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "Comment fonctionnent les récompenses de trading ?",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "Immédiatement après chaque exécution, les récompenses de trading sont envoyées directement à l'adresse de la chaîne dYdX du trader, en fonction du montant des frais payés par celui-ci. En savoir plus {HERE_LINK}.",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "Comment l'ensemble de validateurs prédéfinis est-il déterminé ?",
@@ -2267,7 +2268,7 @@
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "Quels sont les risques du staking ?",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "L'utilisation de tout protocole DeFi comporte des risques. Dans le cas du staking, il est important de comprendre que les jetons de déstaking prennent 30 jours, ce qui signifie qu'il existe une période d'illiquidité pendant laquelle vous ne serez pas en mesure de transférer vos jetons, même en cas de volatilité du protocole ou du marché. En outre, les utilisateurs doivent faire preuve de diligence raisonnable en ce qui concerne les validateurs avant de miser sur l'un d'entre eux. Les validateurs qui enfreignent les règles du protocole peuvent être pénalisés en se voyant retirer les jetons stakés (c'est-à-dire brûlés) ou en étant emprisonnés, ce qui les empêchera d'obtenir des récompenses.",
       "FAQ_WHAT_IS_STAKING_QUESTION": "Qu'est-ce que le staking ?",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "La chaîne dYdX utilise la preuve d'enjeu comme mécanisme de consensus. Les détenteurs de jetons peuvent staker leurs jetons auprès des validateurs afin d'aider à sécuriser le réseau et à valider les transactions, et en échange, ils gagnent des récompenses USDC provenant des frais de trading et de gaz collectés par le protocole. Tous les frais sont versés aux stakers, minorés des frais versés au fonds d'assurance et aux commissions des validateurs. Les taux de récompense sont basés sur les données de {HERE_LINK}. Il n'existe aucune garantie quant aux taux de récompense futurs, qui peuvent fluctuer en fonction des états du protocole.",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "La chaîne dYdX utilise la preuve d'enjeu comme mécanisme de consensus. Les détenteurs de jetons peuvent staker leurs jetons auprès des validateurs afin d'aider à sécuriser le réseau et à valider les transactions, et en échange, ils gagnent des récompenses USDC provenant des frais de trading et de gaz collectés par le protocole. Les taux de récompense sont basés sur les données de {HERE_LINK}. Il n'existe aucune garantie quant aux taux de récompense futurs, qui peuvent fluctuer en fonction des états du protocole.",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "Qui est admissible aux récompenses de trading ?",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "Tous les traders peuvent prétendre à des récompenses de trading.",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "Quels validateurs sont disponibles pour le staking ?",
@@ -2309,9 +2310,16 @@
       "COMPETITION_HEADLINE_DEC_2025": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte",
       "COMPETITION_BODY_DEC_2025": "Le programme pilote de remboursement de pertes introduit une couche d'incitation gamifiée pour les traders qui sont liquidés sur dYdX. En décembre, les traders éligibles peuvent transformer les liquidations en une opportunité de gagner des remises DYDX.",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte - Réclamer les remboursements de perte éligibles aujourd'hui",
+      "COMPETITION_HEADLINE_FEB_2026": "Jusqu'à {REWARD_AMOUNT}en remboursements de perte",
+      "COMPETITION_SUBTITLE_FEB_2026": "Réclamer les remboursements de pertes passées aujourd'hui",
       "COMPETITION_BODY_1_DEC_2025": "Le {PROGRAM_LINK} introduit une couche d'incitation gamifiée pour les traders qui sont liquidés sur dYdX. Les traders éligibles peuvent transformer les liquidations en une opportunité de gagner des remises dYdX.",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Programme pilote de remboursement de pertes",
-      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour décembre sont disponibles à réclamer jusqu'au 31 janvier. Vérifier l'éligibilité {HERE_LINK}.",
+      "COMPETITION_BODY_2_DEC_2025": "Les remboursements de perte éligibles pour décembre peuvent être réclamés jusqu'au 31 janvier. Vérifier l'éligibilité {HERE_LINK}.",
+      "LIQUIDATION_REBATES_HEADLINE": "Jusqu'à {REBATE_AMOUNT}en remboursements de liquidation",
+      "LIQUIDATION_REBATES_BODY": "Avec le programme de remboursement de liquidation de février, les traders éligibles liquidés sur des paires perpétuelles non BTC ont la possibilité de gagner des remboursements DYDX sur une partie de leurs pertes.",
+      "LIQUIDATION_REBATES_SUB_BODY": "Rappel de réclamer avant {LOSS_REBATES_LINK} et de vérifier l'éligibilité {CHECK_ELIGIBILITY_LINK}.",
+      "LOSS_REBATES": "Remboursements de perte",
+      "LIQUIDATION_LOSSES": "Pertes de liquidation",
       "SURGE": "Montée",
       "SURGE_COUNTDOWN": "Compte à rebours S{SURGE_SEASON}",
       "SURGE_HEADLINE": "Flambée de dYdX : concourez pour 3 millions de dollars",
@@ -2334,6 +2342,16 @@
       "SURGE_LEADERBOARD_TITLE": "Classement des meilleurs progressions",
       "WEEK_COUNTDOWN": "Compte à rebours de la {WEEK}semaine",
       "MONTH_COUNTDOWN": "Compte à rebours du {MONTH}mois"
+    },
+    "BONK_PNL_REWARDS": {
+      "BONKUARY": "BONKuary",
+      "BONK_REWARDS_BODY": "Tradez vos pièces préférées contre votre part des 100 000 $ en récompenses. BTC et BONK sont complètement gratuits tout le mois de février.",
+      "BONK_REWARDS_BODY_2": "Consultez le classement pour les classements en direct et les catégories de prix complètes.",
+      "BONK_REWARDS_HEADLINE": "Concours de trading BONKuary",
+      "BONK_REWARDS_RULES": "Règles",
+      "BONK_REWARDS_RULE_1": "Simple ; le PnL le plus élevé sur BONKtrade pour le mois de février.",
+      "BONK_REWARDS_RULE_2": "Seuls les trades ouverts du 1er février au 28 février compteront.",
+      "BONK_REWARDS_RULE_3": "Les 20 meilleurs traders sont payés, la 1ère place gagne 25 000 $"
     },
     "EPOCH_END_MODAL": {
       "EPOCH_END_EARNED": "Vous avez gagné {AMOUNT} de récompenses $DYDX pendant l'Epoch {EPOCH_NUMBER} ! Réclamez vos récompenses sur le tableau de bord de gouvernance.",
@@ -2723,6 +2741,10 @@
     },
     "NO_FEE_JANUARY_BANNER": {
       "NO_FEE_JANUARY_BANNER_TITLE": "Janvier sur les marchés SOL et BTC"
+    },
+    "NO_FEE_FEBRUARY_BANNER": {
+      "NO_FEE_FEBRUARY_BANNER_TITLE": "Février sur les marchés BTC et BONK",
+      "NO_FEE_FEBRUARY_BANNER_CTA": "Tradez les perps Bitcoin et BONK maintenant"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Jusqu'à 1 million de dollars de remboursements de liquidation",
