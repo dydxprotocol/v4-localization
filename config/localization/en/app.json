@@ -2375,7 +2375,7 @@
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "Loss Rebate Pilot Program",
       "COMPETITION_BODY_2_DEC_2025": "Eligible loss rebates for December are available to claim through January 31st. Check eligibility {HERE_LINK}.",
       "LIQUIDATION_REBATES_HEADLINE": "Up to {REBATE_AMOUNT} in Liquidation Rebates",
-      "LIQUIDATION_REBATES_BODY": "With the February Liquidation Rebate Program, eligible traders liquidated on non-BTC perpetual pairs have the opportunity to earn DYDX rebates on a portion of their losses.",
+      "LIQUIDATION_REBATES_BODY": "With the Liquidation Rebate Program, eligible traders liquidated on non-BTC perpetual pairs have the opportunity to earn DYDX rebates on a portion of their losses.",
       "LIQUIDATION_REBATES_SUB_BODY": "Reminder to claim previous {LOSS_REBATES_LINK} and check eligibility {CHECK_ELIGIBILITY_LINK}.",
       "LOSS_REBATES": "loss rebates",
       "LIQUIDATION_LOSSES": "Liquidation Losses",
