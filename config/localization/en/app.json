@@ -2411,6 +2411,7 @@
       "MONTH_COUNTDOWN": "Month {MONTH} Countdown"
     },
     "BONK_PNL_REWARDS": {
+      "BONK_TOP_TRADERS": "Top Traders",
       "BONK_PNL_REWARDS_HEADLINE": "{COMPETITION_NAME} Trading Competition",
       "BONK_PNL_REWARDS_BODY": "Trade your favorite coins for your share of {REWARD_AMOUNT} in prizes. BTC and BONK are completely fee-free all {MONTH}.",
       "BONK_PNL_REWARDS_BODY_2": "Check the leaderboard for live rankings and full prize tiers",
