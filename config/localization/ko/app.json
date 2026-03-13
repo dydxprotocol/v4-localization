@@ -21,7 +21,6 @@
         "LAST_24H": "지난 24시간",
         "LAST_WEEK": "지난 주",
         "MONTHLY": "월별",
-        "MINUTES": "분",
         "MINUTES_ABBREVIATED": "분",
         "MINUTES_SHORT": "분",
         "MONTHS_ABBREVIATED": "분",
@@ -43,7 +42,6 @@
         "X_HOURS_LOWERCASED": "{X}시간",
         "X_MINUTES_LOWERCASED": "{X}분",
         "X_MINUTES": "{X}분",
-        "SECONDS": "초",
         "X_SECONDS_LOWERCASED": "{X}초",
         "PERIOD": "{START} → {END}"
       },
@@ -1768,7 +1766,7 @@
       "SET_PRICE_TRIGGERS": "가격 발동 요소 설정",
       "SET_TAKE_PROFIT_STOP_LOSS_TRIGGERS": "이익 실현 \/ 손절매 트리거 설정",
       "SKEW": "스큐",
-      "SKEW_MUST_BE_WITHIN_RANGE": "스큐는 {MIN} 및 {MAX} 내에 있어야 합니다",
+      "SKEW_MUST_BE_WITHIN_RANGE": "스큐는 ${} {MIN}및 ${} 범위 내에 있어야 합니다.{MAX}",
       "SLIDER": "슬라이더",
       "SOLD": "판매",
       "SPOT": "스팟",
@@ -1806,7 +1804,7 @@
       "TOTAL_SIZE": "총 규모",
       "TOTAL": "총",
       "TOTAL_ORDERS": "총 주문",
-      "TOTAL_ORDERS_MUST_BE_WITHIN_RANGE": "총 주문은 {MIN} 및 {MAX} 이내여야 합니다",
+      "TOTAL_ORDERS_MUST_BE_WITHIN_RANGE": "총 주문은 {MIN}이내여야 합니다{MAX}",
       "TRADE_CONFIRMED": "거래 확인됨",
       "TRADES_24H": "24시간 거래",
       "TRADES_EMPTY_STATE": "거래 내역이 없습니다.",
@@ -1828,11 +1826,9 @@
       "TRIGGERS": "트리거",
       "TRANSACTION_HASH": "거래 해시 {TX_HASH}",
       "TWAP": "TWAP",
-      "TWAP_ACTIVE_ORDERS": "TWAP 활성 주문",
+      "TWAP_ACTIVE_ORDERS": "TWAP 활성 주문", 
       "TWAP_FILLS": "TWAP 체결",
-      "TWAP_FREQUENCY": "빈도",
       "TWAP_ORDER_HISTORY": "TWAP 주문 내역",
-      "TWAP_RUNNING_TIME": "실행 시간(5분 - 24시간)",
       "UNDERCOLLATERALIZED": "담보 비율 이하",
       "UNOPENED_ISOLATED_POSITIONS": "개설되지 않은 격리된 포지션",
       "UNREALIZED_PNL": "미실현 손익",
@@ -1850,11 +1846,11 @@
       "OPEN_LONG": "롱 개설",
       "OPEN_SHORT": "오픈 숏",
       "CLOSE_LONG": "장기 종료",
-      "CLOSE_SHORT": "숏 포지션 종료",
-      "PARTIAL_CLOSE_LONG": "롱 포지션 부분 종료",
+      "CLOSE_SHORT": "숏 종료",
+      "PARTIAL_CLOSE_LONG": "부분 롱 종료",
       "PARTIAL_CLOSE_SHORT": "숏 부분 마감",
       "ADD_TO_LONG": "롱에 추가",
-      "ADD_TO_SHORT": "숏에 추가"
+      "ADD_TO_SHORT": "숏 추가"
     },
     "TRADING_VIEW": {
       "DRAFT_LIMIT_SELL": "처음 한도 판매 지점: {PRICE}",
@@ -2379,7 +2375,7 @@
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "손실 리베이트 파일럿 프로그램",
       "COMPETITION_BODY_2_DEC_2025": "12월에 해당하는 자격 있는 손실 리베이트는 1월 31일까지 청구할 수 있습니다. {HERE_LINK}에서 자격 요건을 확인하십시오.",
       "LIQUIDATION_REBATES_HEADLINE": "최대 {REBATE_AMOUNT}의 청산 리베이트",
-      "LIQUIDATION_REBATES_BODY": "청산 리베이트 프로그램을 통해 Bitcoin (BTC) 무기한 쌍에서 청산된 자격 있는 트레이더는 손실의 일부에 대해 DYDX 리베이트를 받을 수 있습니다.",
+      "LIQUIDATION_REBATES_BODY": "2월 청산 리베이트 프로그램을 통해 비BTC 무기한 쌍에서 청산된 자격 있는 트레이더는 손실의 일부에 대해 DYDX 리베이트를 받을 수 있습니다.",
       "LIQUIDATION_REBATES_SUB_BODY": "이전 {LOSS_REBATES_LINK} 청구와 자격 요건을 확인하도록 알림{CHECK_ELIGIBILITY_LINK}",
       "LOSS_REBATES": "손실 리베이트",
       "LIQUIDATION_LOSSES": "청산 손실",
@@ -2408,11 +2404,11 @@
     },
     "BONK_PNL_REWARDS": {
       "BONK_PNL_REWARDS_HEADLINE": "{COMPETITION_NAME} 거래 대회",
-      "BONK_PNL_REWARDS_BODY": "{REWARD_AMOUNT}의 상금 중 자신의 몫을 위해 좋아하는 코인을 거래하세요. BTC와 BONK는 {MONTH} 내내 수수료가 완전히 무료입니다.",
+      "BONK_PNL_REWARDS_BODY": "좋아하는 코인을 거래하여 {REWARD_AMOUNT}상금에서 자신의 몫을 차지하세요. BTC와 BONK는 {MONTH} 내내 수수료가 완전히 무료입니다.",
       "BONK_PNL_REWARDS_BODY_2": "순위표에서 실시간 순위 및 전체 보상 등급을 확인하세요",
       "BONK_PNL_REWARDS_RULES": "규칙",
       "BONK_PNL_REWARDS_RULE_1": "단순, {MONTH} BONKtrade에서 가장 높은 손익",
-      "BONK_PNL_REWARDS_RULE_2": "{MONTH_FIRST}부터 {MONTH_LAST}까지 개설된 거래만 계산됩니다",
+      "BONK_PNL_REWARDS_RULE_2": "{MONTH_FIRST}부터 ${{MONTH_LAST}}까지 개설된 거래만 계산됩니다.",
       "BONK_PNL_REWARDS_RULE_3": "상위 {LEADERBOARD_SIZE}명의 트레이더가 보상을 받으며, 1등은 {TOP_PRIZE_AMOUNT}를 획득합니다.",
       "BONK_PNL_REWARDS_COMPETITION_NAME": {
         "BONK_PNL_COMPETITION_NAME_FEBRUARY": "BONKuary",
@@ -2813,7 +2809,7 @@
       "NO_FEE_FEBRUARY_BANNER_CTA": "비트코인 및 BONK perp를 지금 바로 거래하세요"
     },
     "NO_FEE_MARCH_BANNER": {
-      "NO_FEE_MARCH_BANNER_TITLE": "3월 BTC 및 BONK 시장에서",
+      "NO_FEE_MARCH_BANNER_TITLE": "BTC 및 BONK 시장의 3월",
       "NO_FEE_MARCH_BANNER_CTA": "비트코인 및 BONK perp를 지금 바로 거래하세요"
     },
     "LIQUIDATION_REBATES_BANNER": {
@@ -3007,10 +3003,6 @@
       "USER_MAX_ORDERS_FOR_TOP_EQUITY_TIER": "이 주문으로 귀하는 {LIMIT}건의 미결 주문 한도를 초과하게 됩니다.",
       "WOULD_NOT_REDUCE": "주문이 체결될 경우, 귀하의 포지션은 감소되지 않습니다.",
       "WOULD_NOT_REDUCE_UNCHECK": "귀하의 포지션은 해당 주문을 통해 감소되지 않을 수 있습니다. 주문을 요청하려면 리듀스 온리를 해제하세요.",
-      "DURATION_TOO_SHORT": "기간이 너무 짧습니다.",
-      "DURATION_TOO_LONG": "기간이 너무 깁니다.",
-      "FREQUENCY_NOT_INTERVAL_OF_DURATION": "빈도는 총 기간을 균등하게 나눠야 합니다.",
-      "FREQUENCY_REQUIRED": "게재빈도는 필수입니다.",
       "INVALID_GOOD_TIL_MAX_90_DAYS": "유효 주문은 최대 90일을 초과합니다.",
       "POSITION_LEVERAGE_OVER_MAX": "결과 포지션 레버리지는 이 시장의 최대 레버리지를 초과합니다.",
       "ISOLATED_MARGIN_LIMIT_ORDER_BELOW_MINIMUM": "주문이 격리된 마진 주문에 대한 최소 담보 요구사항보다 작습니다. 격리 마진 주문은 {MIN_VALUE}의 최소 담보가 필요합니다."
