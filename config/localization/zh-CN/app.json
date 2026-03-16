@@ -104,6 +104,7 @@
       "COMPETITION": "竞争",
       "COMPETITIONS": "竞争",
       "REBATES": "回扣",
+      "LIQUIDATION_REBATES": "清算折扣",
       "CONFIRM": "确认",
       "CONFIRM_DEPOSIT": "确认充值",
       "CONFIRM_PENDING_DEPOSIT": "确认待定充值",
@@ -2255,7 +2256,7 @@
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_QUESTION": "如何申领交易奖励？",
       "FAQ_HOW_DO_I_CLAIM_MY_REWARDS_ANSWER": "每个区块、交易奖励都会自动直接发送到交易者的 dYdX 链地址。",
       "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_QUESTION": "我如何质押并领取质押奖励？",
-      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。基于拥有最少质押代币且从未被削减过的合格验证者，自动从社区中一组信誉良好的验证者中选出一名验证者。要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 gas 费。查看更多 {HERE_LINK}。",
+      "FAQ_HOW_DO_I_STAKE_AND_CLAIM_REWARDS_ANSWER": "要进行质押，请单击“质押”按钮并输入您想要质押的代币数量。验证者将被自动选择，但您可以从下拉菜单中选择其他验证者。 要领取质押奖励，请在 USDC 奖励可用时点击“领取”按钮。领取的 USDC 奖励将存入您的账户，以便您立即交易！请注意，领取 USDC 奖励需要支付 gas 费。查看更多 {HERE_LINK}。",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_QUESTION": "交易奖励如何运作？",
       "FAQ_HOW_DO_TRADING_REWARDS_WORK_ANSWER": "每次完成交易后，即刻根据交易者支付的费用金额，将交易奖励直接发送到交易者的 dYdX 链地址。了解更多 {HERE_LINK}。",
       "FAQ_HOW_IS_THE_PRECONFIGURED_SET_OF_VALIDATORS_DETERMINED_QUESTION": "如何确定预先配置的一组验证者？",
@@ -2263,7 +2264,7 @@
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_QUESTION": "质押的风险是什么？",
       "FAQ_WHAT_ARE_THE_RISKS_OF_STAKING_ANSWER": "使用任何 DeFi 协议都均存在风险。在质押的情况下，重要的是要了解取消质押代币需要 30 天的时间，这意味着存在一段流动性不足的时期，在此期间您将无法转移您的代币，即使在协议或市场波动的情况下也是如此。此外，用户在将资产质押给验证者之前，应该自行对验证者进行尽职调查。违反协议规则的验证者可能会受到惩罚，包括削减其质押的代币（即销毁）或禁止其参与，使其无法获得奖励。",
       "FAQ_WHAT_IS_STAKING_QUESTION": "什么是质押？",
-      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 链使用权益证明作为其共识机制。代币持有者可以将其代币质押给验证者，以帮助保护网络安全并验证交易，同时作为交换，从协议收集的交易和 Gas 费中赚取 USDC 奖励。所有费用均支付给质押者，减去支付给保险基金和验证者佣金的任何费用。奖励率基于来自 {HERE_LINK} 的数据。无法保证未来的奖励率，该奖励率可能会根据协议条件而波动。",
+      "FAQ_WHAT_IS_STAKING_ANSWER": "dYdX 链使用权益证明作为其共识机制。代币持有者可以将其代币质押给验证者，以帮助保护网络安全并验证交易，同时作为交换，从协议收集的交易和 Gas 费中赚取 USDC 奖励。奖励率基于来自 {HERE_LINK} 的数据。无法保证未来的奖励率，该奖励率可能会根据协议条件而波动。",
       "FAQ_WHO_IS_ELIGIBLE_QUESTION": "谁有资格获得交易奖励？",
       "FAQ_WHO_IS_ELIGIBLE_ANSWER": "所有交易者都有资格获得交易奖励。",
       "FAQ_WHICH_VALIDATORS_ARE_AVAILABLE_QUESTION": "哪些验证者可用于质押？",
@@ -2305,9 +2306,16 @@
       "COMPETITION_HEADLINE_DEC_2025": "最高可返还 {REWARD_AMOUNT} 的亏损金额",
       "COMPETITION_BODY_DEC_2025": "亏损返还试点计划为在 dYdX 上被强制平仓的交易者引入了一层游戏化激励机制。今年 12 月，符合条件的交易者可将强制平仓转化为获得 DYDX 回扣的机会。",
       "COMPETITION_HEADLINE_DEC_2025_UPDATE_1": "亏损返还金额度至多 {REWARD_AMOUNT} --- 立即申领符合条件的亏损返利",
-      "COMPETITION_BODY_1_DEC_2025": "为在 dYdX 上产生亏损的交易者，{PROGRAM_LINK} 引入一层游戏化激机制。符合条件的交易者可以将交易损失转化为获得DYDX回扣的机会。",
+      "COMPETITION_HEADLINE_FEB_2026": "最高可返还 {REWARD_AMOUNT} 的亏损金额",
+      "COMPETITION_SUBTITLE_FEB_2026": "立即申领过往亏损返还",
+      "COMPETITION_BODY_1_DEC_2025": "{PROGRAM_LINK} 为在 dYdX 上遭清算的交易者引入了一层游戏化的激励机制。符合条件的交易者可以将清算转化为获得 DYDX 回扣的机会。",
       "COMPETITION_BODY_1_DEC_2025_LINK_TEXT": "损失返还试点计划",
-      "COMPETITION_BODY_2_DEC_2025": "12月上半月符合条件的亏损返利可在1月31日之前申领。 12 月下半月，敬请关注。 检查资格{HERE_LINK}。",
+      "COMPETITION_BODY_2_DEC_2025": "12月符合条件的亏损返利可在1月31日之前申领。 检查资格{HERE_LINK}。",
+      "LIQUIDATION_REBATES_HEADLINE": "清算返还率{REBATE_AMOUNT}高达",
+      "LIQUIDATION_REBATES_BODY": "通过 2 月清算折扣计划，对非 BTC 永续对进行清算之符合条件的交易者，有机会获得部分损失的 DYDX 折扣。",
+      "LIQUIDATION_REBATES_SUB_BODY": "提醒申领先前{LOSS_REBATES_LINK}并检查资格{CHECK_ELIGIBILITY_LINK}。",
+      "LOSS_REBATES": "损失补贴",
+      "LIQUIDATION_LOSSES": "清算损失",
       "SURGE": "激增",
       "SURGE_COUNTDOWN": "S{SURGE_SEASON} 倒计时",
       "SURGE_HEADLINE": "dYdX Surge：300万美元奖金池等您来赢",
@@ -2331,8 +2339,18 @@
       "WEEK_COUNTDOWN": "周倒计{WEEK}时",
       "MONTH_COUNTDOWN": "月份倒计{MONTH}时"
     },
+    "BONK_PNL_REWARDS": {
+      "BONKUARY": "BONKUARY",
+      "BONK_REWARDS_BODY": "交易您最喜欢的代币，以换取您的 100,000 美元奖金份额。 BTC 和 BONK 在整个 2 月完全免费。",
+      "BONK_REWARDS_BODY_2": "查看排行榜，了解实时排名和完整奖励等级",
+      "BONK_REWARDS_HEADLINE": "BONKuary 交易竞赛",
+      "BONK_REWARDS_RULES": "规则",
+      "BONK_REWARDS_RULE_1": "简单；2 月份 BONKtrade 上最高的损益",
+      "BONK_REWARDS_RULE_2": "仅 2 月 1 日至 2 月 28 日之间开启的交易才会计算",
+      "BONK_REWARDS_RULE_3": "前 20 名交易者获得报酬，第一名赢得 $25,000"
+    },
     "EPOCH_END_MODAL": {
-      "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX 的奖励！在治理仪表板上申领您的奖励。",
+      "EPOCH_END_EARNED": "在时段{EPOCH_NUMBER}期间，您获得了{AMOUNT}$DYDX的奖励！在治理仪表板上申领您的奖励。",
       "YOU_EARNED": "您赚取到奖励！"
     },
     "ALLOWANCE_ALERT_MODAL": {
@@ -2719,6 +2737,10 @@
     },
     "NO_FEE_JANUARY_BANNER": {
       "NO_FEE_JANUARY_BANNER_TITLE": "1月的 SOL 和 BTC 市场"
+    },
+    "NO_FEE_FEBRUARY_BANNER": {
+      "NO_FEE_FEBRUARY_BANNER_TITLE": "2 月的 BTC 和 BONK 市场",
+      "NO_FEE_FEBRUARY_BANNER_CTA": "立即交易比特币和 BONK 永续合约"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
