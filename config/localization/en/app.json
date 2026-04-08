@@ -1959,8 +1959,7 @@
       "CONTINUE_SIGN_IN_DESCRIPTION": "Please wait",
       "CONTINUE_SIGN_IN_TITLE": "Continue to sign in",
       "DEPOSIT_AND_TRADE": "Deposit and start trading",
-      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "Only deposit {ASSETS} on the {NETWORK} network. Sending unsupported assets to a different network can result in a {LOSS_OF_FUNDS}.",
-      "DEPOSIT_NETWORK_WARNING": "This address can only receive {ASSETS} on the {NETWORK} Network. ${MIN_DEPOSIT} Minimum (${MIN_INSTANT_DEPOSIT} for instant), ${MAX_DEPOSIT} Maximum deposit",
+      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "Only deposit {ASSETS} on the {NETWORK} network. Sending unsupported assets to a different network can result in a {LOSS_OF_FUNDS}. (${MIN_INSTANT_DEPOSIT} for instant, ${MAX_DEPOSIT} max)",
       "SUPPORTED_ASSETS": "Supported assets",
       "EMAIL_LOGIN_SUCCESS": "You are now logged in with your email account.",
       "EMAIL_PLACEHOLDER": "Enter your email",
@@ -2412,6 +2411,7 @@
       "MONTH_COUNTDOWN": "Month {MONTH} Countdown"
     },
     "BONK_PNL_REWARDS": {
+      "BONK_TOP_TRADERS": "Top Traders",
       "BONK_PNL_REWARDS_HEADLINE": "{COMPETITION_NAME} Trading Competition",
       "BONK_PNL_REWARDS_BODY": "Trade your favorite coins for your share of {REWARD_AMOUNT} in prizes. BTC and BONK are completely fee-free all {MONTH}.",
       "BONK_PNL_REWARDS_BODY_2": "Check the leaderboard for live rankings and full prize tiers",
