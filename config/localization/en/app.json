@@ -767,6 +767,10 @@
         "PRIMARY": "Worldcoin protocol is intended to be the world’s largest identity and financial public network.",
         "SECONDARY": "Worldcoin is a token providing utility and giving users a say over the direction of the Worldcoin protocol."
       },
+      "WTI-USD": {
+        "PRIMARY": "West Texas Intermediate Crude Oil (WTI) is a benchmark grade of U.S. light sweet crude oil.",
+        "SECONDARY": "WTI-USD market uses the Pyth Oil Index as the underlying oracle provider. The Pyth Oil Index is a composite produced from a weighted average of crude oil futures trading activity. The index tracks an equilibrium price which reflects the current value of holding a long or short position of a basket of crude oil futures, with 80% weight allocated to fixed-term WTI futures contracts and 20% to perpetual futures contracts for 24/7 trading."
+      },
       "XLM": {
         "PRIMARY": "Stellar is an open network for storing and moving money.",
         "SECONDARY": "Stellar makes it possible to create, send, and trade digital representations of all forms of money: dollars, pesos, bitcoin, pretty much anything. It’s designed so all the world’s financial systems can work together on a single network."
