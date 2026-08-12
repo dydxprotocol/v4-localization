@@ -767,6 +767,10 @@
         "PRIMARY": "Worldcoin 프로토콜은 세계 최대의 식별 및 금융 공용 네트워크가 될 것입니다.",
         "SECONDARY": "Worldcoin은 유틸리티를 제공하는 토큰이며, 사용자에게 Worldcoin 프로토콜의 방향에 대해 의견을 제시합니다."
       },
+      "WTI": {
+        "PRIMARY": "서부 텍사스 중질유(WTI)는 미국 경질 저유황 원유의 벤치마크 등급입니다.",
+        "SECONDARY": "WTI-USD 시장은 기본 오라클 공급자로 Pyth Oil Index를 사용합니다. Pyth Oil Index는 원유 선물 거래 활동의 가중 평균으로 산출되는 복합 지수입니다. 이 지수는 원유 선물 바스켓의 롱 또는 숏 포지션 보유의 현재 가치를 반영하는 균형 가격을 추적하며, 고정 기간 WTI 선물 계약에 80%, 연중무휴 거래되는 무기한 선물 계약에 20%의 가중치를 할당합니다."
+      },
       "XLM": {
         "PRIMARY": "Stellar는 자금을 저장 및 이동하기 위한 공개 네트워크입니다.",
         "SECONDARY": "Stellar를 통해 자금의 모든 형태(달러, 페소, 비트코인 등 거의 모든 형태)를 디지털 표현으로 생성, 전송 및 거래할 수 있습니다. 이는 전 세계 모든 금융 시스템이 단일 네트워크에서 협력할 수 있도록 설계되었습니다."
@@ -2820,6 +2824,10 @@
     "NO_FEE_MARCH_BANNER": {
       "NO_FEE_MARCH_BANNER_TITLE": "3월 BTC 및 BONK 시장에서",
       "NO_FEE_MARCH_BANNER_CTA": "비트코인 및 BONK perp를 지금 바로 거래하세요"
+    },
+    "NO_FEE_APRIL_BANNER": {
+      "NO_FEE_APRIL_BANNER_TITLE": "BTC 및 BONK 시장의 4월 현황",
+      "NO_FEE_APRIL_BANNER_CTA": "비트코인 및 BONK perp를 지금 바로 거래하세요"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "최대 100만 달러의 청산 리베이트",
