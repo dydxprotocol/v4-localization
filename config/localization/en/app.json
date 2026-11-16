@@ -2171,7 +2171,8 @@
       "TRADING_LOSS_REBATE_CLAIM_TITLE": "Claim your Loss Rebate",
       "TRADING_LOSS_REBATE_CLAIM_BODY": "Claim your {MONTH} loss rebate of {REBATE_AMOUNT} by {CLAIM_DEADLINE}. Check eligibility {HERE_LINK}.",
       "UPDATED": "Updated",
-      "UPDATING": "Updating"
+      "UPDATING": "Updating",
+      "USDC_MIGRATION": "Upcoming USDC migration from Noble to Injective, subject to governance approval. No action needed for USDC already on dYdX Chain."
     },
     "EMAIL_NOTIFICATIONS": {
       "ACCOUNT_DESCRIPTION": "Deposits, Withdrawals, Account Updates",
