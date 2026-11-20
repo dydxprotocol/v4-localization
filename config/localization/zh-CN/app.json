@@ -767,6 +767,10 @@
         "PRIMARY": "Worldcoin 模式旨在成为世界上最大的身份证明和金融公共网络。",
         "SECONDARY": "Worldcoin 是一种代币，有实用功能，并让用户对 Worldcoin 模式的方向有发言权。"
       },
+      "WTI": {
+        "PRIMARY": "西德克萨斯州中质原油（WTI）是美国轻质甜味原油的基准等级。",
+        "SECONDARY": "WTI-USD 市场使用 Pyth 石油指数作为基础预言机提供商。 Pyth 石油指数是根据原油期货交易活动的加权平均值得出的综合指数。 该指数追踪均衡价格，反映持有原油期货多头或空头仓位的当前价值，80% 的权重分配给固定期限 WTI 期货合约，20% 的权重分配给 24\/7 交易的永续期货合约。"
+      },
       "XLM": {
         "PRIMARY": "Stellar是一个用于存储和转移资金的开放网络。",
         "SECONDARY": "Stellar使创建、发送和交易各种形式的货币的数字表示成为可能：美元、比索、比特币，几乎无所不包。它经过专门设计，使世界上所有的金融系统都可以在单个网络上协同工作。"
@@ -1959,7 +1963,7 @@
       "CONTINUE_SIGN_IN_DESCRIPTION": "请等待",
       "CONTINUE_SIGN_IN_TITLE": "继续登录",
       "DEPOSIT_AND_TRADE": "充值并开始交易",
-      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "仅将 {ASSETS} 存入 {NETWORK} 网络. 将不能接受的资产送到其他系统可能会导致 {LOSS_OF_FUNDS}. (${MIN_INSTANT_DEPOSIT} 例如，最多 ${MAX_DEPOSIT} max)",
+      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "仅将 {ASSETS} 存入 {NETWORK} 网络. 将不能接受的资产发送到其他系统可能会导致 {LOSS_OF_FUNDS}。{MIN_AMOUNT_TO_DEPOSIT} 美元（例如 {MIN_INSTANT_DEPOSIT} 美元，最多 {MAX_DEPOSIT} 美元）",
       "SUPPORTED_ASSETS": "支持的资产",
       "EMAIL_LOGIN_SUCCESS": "您已使用电子邮件账户登录。",
       "EMAIL_PLACEHOLDER": "输入您的电子邮箱",
@@ -2820,6 +2824,18 @@
     "NO_FEE_MARCH_BANNER": {
       "NO_FEE_MARCH_BANNER_TITLE": "3 月的 BTC 和 BONK 市场",
       "NO_FEE_MARCH_BANNER_CTA": "立即交易比特币和 BONK 永不过期合约"
+    },
+    "NO_FEE_APRIL_BANNER": {
+      "NO_FEE_APRIL_BANNER_TITLE": "4 月的 BTC 和 BONK 市场",
+      "NO_FEE_APRIL_BANNER_CTA": "立即交易比特币和 BONK 永不过期合约"
+    },
+    "NO_FEE_MAY_BANNER": {
+      "NO_FEE_MAY_BANNER_TITLE": "5月BTC和BONK市场",
+      "NO_FEE_MAY_BANNER_CTA": "立即交易比特币和 BONK 永不过期合约"
+    },
+    "NO_FEE_JUNE_BANNER": {
+      "NO_FEE_JUNE_BANNER_TITLE": "6 月的 BTC 和 BONK 市场",
+      "NO_FEE_JUNE_BANNER_CTA": "立即交易比特币和 BONK 永不过期合约"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "高达 100 万美元的清算返还",
