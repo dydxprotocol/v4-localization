@@ -767,6 +767,10 @@
         "PRIMARY": "ワールドコイン・プロトコルは、世界最大のIDおよび金融の公共ネットワークになることを目指しています。",
         "SECONDARY": "ワールドコインは、ユーティリティを提供し、ワールドコイン・プロトコルの方向性に関する発言権をユーザーに付与するトークンです。"
       },
+      "WTI": {
+        "PRIMARY": "ウェスト・テキサス・インターミディエイト（WTI）は、米国の軽質スイート原油のベンチマークグレードです。",
+        "SECONDARY": "WTI-USD市場は、基礎となるオラクルプロバイダーとしてPyth Oil Indexを使用します。Pyth石油指標は、原油先物取引活動の加重平均から作成された複合指標です。 当指標は、原油先物バスケットのロングまたはショートポジションを保有することの現在の価値を反映する均衡価格を追跡し、24時間365日取引される固定期間のWTI先物コントラクトに80％、パーペチュアル先物コントラクトに20％が割り当てられます。"
+      },
       "XLM": {
         "PRIMARY": "Stellarは資金の保持および移転のためのオープンネットワークです。",
         "SECONDARY": "Stellarではドル、ペソ、ビットコインなど、ほとんど全ての貨幣形態についてデジタル表象の作成、送信、取引が可能です。 世界のすべての金融システムは、単一ネットワークでの協働が可能なように設計されています。"
@@ -1959,7 +1963,7 @@
       "CONTINUE_SIGN_IN_DESCRIPTION": "お待ちください",
       "CONTINUE_SIGN_IN_TITLE": "サインインを続ける",
       "DEPOSIT_AND_TRADE": "入金して金融取引を開始する",
-      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "{NETWORK}ネットワーク上でのみ入金{ASSETS}してください。サポートされていない資産を別のネットワークに送信すると、{LOSS_OF_FUNDS}が発生する可能性があります。（即時の場合${MIN_INSTANT_DEPOSIT}、最大${MAX_DEPOSIT}）",
+      "DEPOSIT_LOSS_OF_FUNDS_WARNING": "{NETWORK}ネットワーク上でのみ入金{ASSETS}してください。サポートされていない資産を別のネットワークに送信すると、{LOSS_OF_FUNDS}が発生する可能性があります。${MIN_AMOUNT_TO_DEPOSIT}（即時の場合は${MIN_INSTANT_DEPOSIT}、最大${MAX_DEPOSIT}）",
       "SUPPORTED_ASSETS": "対応資産",
       "EMAIL_LOGIN_SUCCESS": "メール口座でログインしました。",
       "EMAIL_PLACEHOLDER": "メールアドレスを入力してください",
@@ -2820,6 +2824,14 @@
     "NO_FEE_MARCH_BANNER": {
       "NO_FEE_MARCH_BANNER_TITLE": "BTCおよびBONK「マーケット」に進む",
       "NO_FEE_MARCH_BANNER_CTA": "今すぐビットコインおよびBONKを取引"
+    },
+    "NO_FEE_APRIL_BANNER": {
+      "NO_FEE_APRIL_BANNER_TITLE": "4月のBTCおよびBONK「マーケット」",
+      "NO_FEE_APRIL_BANNER_CTA": "今すぐビットコインおよびBONKを取引"
+    },
+    "NO_FEE_MAY_BANNER": {
+      "NO_FEE_MAY_BANNER_TITLE": "5月のBTCおよびBONKマーケット",
+      "NO_FEE_MAY_BANNER_CTA": "今すぐビットコインおよびBONKを取引"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "清算リベートで最大100万ドル",
