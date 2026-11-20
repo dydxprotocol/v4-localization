@@ -767,6 +767,10 @@
         "PRIMARY": "Le protocole Worldcoin est destiné à devenir le plus grand réseau public d'identité et de finance au monde.",
         "SECONDARY": "Le Worldcoin est un jeton qui offre une utilité et donne aux utilisateurs un droit de regard sur l'orientation du protocole Worldcoin."
       },
+      "WTI": {
+        "PRIMARY": "Le pétrole brut West Texas Intermediate (WTI) est une référence du pétrole brut léger et doux (peu soufré) produit aux États-Unis.",
+        "SECONDARY": "Le marché WTI-USD utilise l'indice Pyth Oil comme fournisseur d'oracle sous-jacent. L'indice Pyth Oil est un indice composite produit à partir d'une moyenne pondérée de l'activité de trading à terme sur le pétrole brut. L'indice suit un prix d'équilibre qui reflète la valeur actuelle de la détention d'une position longue ou courte d'un panier de contrats à terme sur le pétrole brut, avec une pondération de 80 % attribuée aux contrats à terme WTI à échéance fixe et de 20 % aux contrats à terme perpétuels pour le trading 24h sur 24, 7 jours sur 7."
+      },
       "XLM": {
         "PRIMARY": "Stellar est un réseau ouvert pour stocker et transférer de l'argent.",
         "SECONDARY": "Stellar permet de créer, d'envoyer et d'échanger des représentations numériques de toutes les formes d'argent : dollars, pesos, bitcoins, à peu près tout. Il est conçu pour que tous les systèmes financiers du monde puissent fonctionner ensemble sur un seul réseau."
@@ -2820,6 +2824,10 @@
     "NO_FEE_MARCH_BANNER": {
       "NO_FEE_MARCH_BANNER_TITLE": "Mars sur les marchés BTC et BONK",
       "NO_FEE_MARCH_BANNER_CTA": "Tradez les perps Bitcoin et BONK maintenant"
+    },
+    "NO_FEE_APRIL_BANNER": {
+      "NO_FEE_APRIL_BANNER_TITLE": "Avril sur les marchés BTC et BONK",
+      "NO_FEE_APRIL_BANNER_CTA": "Tradez les perps Bitcoin et BONK maintenant"
     },
     "LIQUIDATION_REBATES_BANNER": {
       "LIQUIDATION_REBATES_BANNER_TITLE": "Jusqu'à 1 million de dollars de remboursements de liquidation",
